@@ -1,0 +1,28 @@
+ENTRY            11273     810428              20050926       0000
+SUBENT        11273001     810428              20050926       0000
+BIB                  6          8
+INSTITUTE  (1CANCRC)
+REFERENCE  (J,CJP,29,1,5101)
+AUTHOR     (B.B.KINSEY,G.A.BARTHOLOMEW,W.H.WALKER)
+TITLE      GAMMA-RAYS PRODUCED BY SLOW NEUTRON CAPTURE IN
+           BERYLLIUM, CARBON AND NITROGEN.
+STATUS     (SCSRS)
+HISTORY    (760714T) TRANSLATED FROM SCISRS
+           (810428A) CONVERTED TO REACTION FORMALISM
+ENDBIB               8
+NOCOMMON             0          0
+ENDSUBENT           11
+SUBENT        11273002     810428              20050926       0000
+BIB                  3          3
+REACTION   (7-N-14(N,G)7-N-15,,SIG,,SPA)
+MONITOR    (4-BE-9(N,G)4-BE-10,,SIG)
+INC-SPECT   REACTOR SPECTRUM
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA-MAX   MONIT
+MEV        B          MB
+ 2.53   -08 1.60   -01 9.
+ENDDATA              3
+ENDSUBENT           11
+ENDENTRY             2

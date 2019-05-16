@@ -1,0 +1,1000 @@
+ENTRY            30400   20131210   20140228   20140212       3162
+SUBENT        30400001   20131210   20140228   20140212       3162
+BIB                 14         56
+TITLE      Average cross sections for the Cf-252 neutron spectrum
+INSTITUTE  (3HUNKOS)
+AUTHOR     (Z.Dezso, J.Csikai)
+REFERENCE  (C,77KIEV,3,32,1977) In English
+           (R,ZFK-376,44,1978)
+           (J,ANE,3,527,1976)       Data for 10 reactions given
+           (C,76PARIS,,IV-19,1976) Similar data given
+           (C,75KARLSR,,29,1975)    Preliminary data given
+REL-REF    (O,30415001,J.Csikai+,R,ZFK-376,44,1978)
+            Average U-238,Pa-231 and Th-232(n,f) cross sections
+           (O,31731001,M.Buczko+,C,76PARIS,,IV-19,1976)
+            Average Th, U and Np(n,f) cross sections
+           (I,,Cs.M.Buczko+,J,NIM,134,101,1976)
+            Cf-252 neutron irradiation facility
+           (R,,G.Erdtmann+,R,JUEL-1003-AC,1974)
+            Data for half-life, gamma energy and intensity
+INC-SOURCE (CF252)
+SAMPLE     Natural samples of about 1 mm thickness and 10 mm
+            diameter, in a cadmium box of 1 mm
+METHOD     (ACTIV) Average cross-sections for the unmoderated
+            spontaneous fission neutron spectrum of Cf-252 were
+            measured for (n,g),(n,p),(n,a) and (n,2n) reactions
+            by activation method in scattering free arrangement.
+DETECTOR   (GELI) Ge(Li) detector connected to a DIDAC-4000
+            analyser.
+           The efficiency-curve was measured with Ra-226 standard
+            of the same dimension as the sample.
+MONITOR    for neutron flux measurement:
+           (13-AL-27(N,A)11-NA-24,,SIG)
+           (49-IN-115(N,INL)49-IN-115-M,,SIG)
+COMMENT    Compiler's note (July, 1977):
+            The author presents also the averaged cross-sections
+            for the Cf-252 neutron spectrum to the Proc. of an
+            educational seminar by IAEA, Karlsruhe,14-18 April
+            1975. However the values of Au-197(n,2n), Al-27(n,p),
+            Au-197(n,g) and In-115 (n,n') are different from
+            those in the Ann.Nucl.Energy 3(1976)527. This is
+            under inquiry to the author.
+           Author's comment (1977-09-02):
+            Old data were reinvestigated using more advanced
+            technique. Therefore the author recommends to
+            supersede the data in the seminar held in Karlsruhe,
+            paper IAEA-SR-3/23 of IAEA/STI/PUB/418.
+ERR-ANALYS (DATA-ERR) No further information
+STATUS     (APRVD) Approved by S.Csikai, 1977/09/02 & 1978/12/09.
+HISTORY    (19770706C) KO.
+           (19780621A) KO. Change of BIB-section, amendments of
+            subents 002-012, addition of new subents 013-043, and
+            044-053 (prelim.results).
+           (19790928U) KO. New ref.added. New subents 054-057.
+           (20090106A) SD:Updated to new date formats,lower case.
+            OS. Subentry 2 deleted because no relevant data given.
+            REACTIONs corrected in subentries 037,038,045,048.
+            Coding of DECAY-DATA improved in many subentries.
+            Changed STATUS in subentries 44-53.
+           (20131210U) On. REFERENCE: 76PARIS added.
+ENDBIB              56
+NOCOMMON             0          0
+ENDSUBENT           59
+SUBENT        30400003   20090309   20090724   20090720       3135
+BIB                  3          5
+REACTION   (13-AL-27(N,A)11-NA-24,,SIG,,FIS)
+            Sum of Al-27(n,a)Na-24m and Al-27(n,a)Na-24g.
+DECAY-DATA (11-NA-24-G,15.03HR,DG,1368.55,1.0)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 1.0800E+00 5.0000E-02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        30400004   20090309   20090724   20090720       3135
+BIB                  3          4
+REACTION   (13-AL-27(N,P)12-MG-27,,SIG,,FIS)
+DECAY-DATA (12-MG-27,9.48MIN,DG,843.76,0.720,DG,1014.4,0.280)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 5.1100E+00 4.3000E-01
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        30400005   20090309   20090724   20090720       3135
+BIB                  4          7
+REACTION   (25-MN-55(N,2N)25-MN-54,,SIG,,FIS)
+DECAY-DATA (25-MN-54,312.2D,DG,834.8,0.9998)
+COMMENT    Average (n,2n) cross section for Cf-252 neutron
+           spectrum was calculated with T=1.41 MeV as Maxwellian
+           temperature. The value is 0.598 mb.
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 5.8000E-01 1.4000E-01
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30400006   20090309   20090724   20090720       3135
+BIB                  4          9
+REACTION   (27-CO-59(N,2N)27-CO-58,,SIG,,FIS)
+            Sum of Co-59(n,2n)Co-58m and Co-59(n,2n)Co-58g.
+DECAY-DATA (27-CO-58-G,71.3D,DG,810.6,0.9944)
+           (27-CO-58-M,9.0HR) Isomeric transition
+COMMENT    Average (n,2n) cross section for Cf-252 neutron
+           spectrum was calculated with T=1.41 MeV as Maxwellian
+           temperature. The value is 0.539 mb.
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 5.7000E-01 3.0000E-02
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        30400007   20090309   20090724   20090720       3135
+BIB                  5          9
+REACTION   (28-NI-58(N,P)27-CO-58,,SIG,,FIS)
+DECAY-DATA (27-CO-58-G,71.3D,DG,810.6,0.9944)
+           (27-CO-58-M,9.0HR) Isomeric transition
+COMMENT    Table 1 of Annals of Nucl.Energy,3(1976)527 gives
+            110.8+-4.7 mb as Ni-58(n,p)Co-58 cross-section.
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621A) KO.-Data changed, other minor
+           corrections.-
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 1.1340E+02 4.8000E+00
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        30400008   20090309   20090724   20090720       3135
+BIB                  4          7
+REACTION   (29-CU-63(N,2N)29-CU-62,,SIG,,FIS)
+DECAY-DATA (29-CU-62,9.73MIN,AR,511.0,1.96)
+COMMENT    Average (n,2n) cross section for Cf-252 neutron
+           spectrum was calculated with T=1.41 MeV as Maxwellian
+           temperature. The value is 0.250 mb.
+STATUS     (TABLE) From Table 1 of 4Th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 3.0000E-01 2.7000E-02
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30400009   20090309   20090724   20090720       3135
+BIB                  3          4
+REACTION   (30-ZN-64(N,P)29-CU-64,,SIG,,FIS)
+DECAY-DATA (29-CU-64,12.8HR,DG,1345.8,0.0048)
+STATUS     (TABLE) From Table 1 of 4Th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 4.6400E+01 2.3000E+00
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        30400010   20090309   20090724   20090720       3135
+BIB                  3          4
+REACTION   (49-IN-115(N,INL)49-IN-115-M,,SIG,,FIS)
+DECAY-DATA (49-IN-115-M,4.5HR,DG,336.25,0.45)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 2.0340E+02 1.0700E+01
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        30400011   20090309   20090724   20090720       3135
+BIB                  4         11
+REACTION   (79-AU-197(N,2N)79-AU-196,,SIG,,FIS)
+            Sum of Au-197(n,2n)Au-196m and Au-197(n,2n)Au-196g.
+DECAY-DATA (79-AU-196-G,6.183D,DG,933.0,0.244,
+                               DG,355.7,0.936,
+                               DG,426.0,0.070)
+           (79-AU-196-M,9.7HR) Isomeric transition
+COMMENT    Average (n,2n) cross section for Cf-252 neutron
+           spectrum was calculated with T=1.41 MeV as Maxwellian
+           temperature. The value is 6.44 mb.
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 5.8000E+00 2.9000E-01
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        30400012   20090309   20090724   20090720       3135
+BIB                  3          4
+REACTION   (79-AU-197(N,G)79-AU-198,,SIG,,FIS)
+DECAY-DATA (79-AU-198-G,2.697D,DG,411.8,0.9553)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 1.1000E+02 5.0000E+00
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        30400013   20090309   20090724   20090720       3135
+BIB                  5          8
+REACTION   (7-N-14(N,2N)7-N-13,,SIG,,FIS)
+DECAY-DATA (7-N-13,9.97MIN,AR,511.0,1.9962)
+COMMENT    Average (n,2n) cross section for Cf-252 neutron
+           spectrum was calculated with T=1.41 MeV as Maxwellian
+           temperature. The value is 0.031 mb.
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 4.8000E-03 2.4000E-03
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        30400014   20090309   20090724   20090720       3135
+BIB                  5          8
+REACTION   (9-F-19(N,2N)9-F-18,,SIG,,FIS)
+DECAY-DATA (9-F-18,109.8MIN,AR,511.0,1.9340)
+COMMENT    Average (n,2n) cross section for Cf-252 neutron
+           spectrum was calculated with T=1.41 MeV as Maxwellian
+           temperature. The value is 0.0237 mb.
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 1.0800E-02 1.6000E-03
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        30400015   20090309   20090724   20090720       3135
+BIB                  4          5
+REACTION   (9-F-19(N,P)8-O-19,,SIG,,FIS)
+DECAY-DATA (8-O-19,28.91SEC,DG,197.4,0.970)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 1.0700E+00 8.0000E-02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        30400016   20090309   20090724   20090720       3135
+BIB                  4          7
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG,,FIS)
+            Sum of Na-23(n,g)Na-24m and Na-23(n,g)Na-24g.
+DECAY-DATA (11-NA-24-G,15.03HR,DG,1368.55,1.000)
+           (11-NA-24-L,0.020SEC)
+STATUS     (TABLE) From Table 1 of 4Th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 3.3500E-01 1.5000E-02
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30400017   20090309   20090724   20090720       3135
+BIB                  5          8
+REACTION   (22-TI-46(N,2N)22-TI-45,,SIG,,FIS)
+DECAY-DATA (22-TI-45,3.08HR,AR,511.0,1.720)
+COMMENT    Average (n,2n) cross section for Cf-252 neutron
+           spectrum was calculated with T=1.41 MeV as Maxwellian
+           temperature. The value is 0.0162 mb.
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 9.3000E-02 3.1000E-02
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        30400018   20090309   20090724   20090720       3135
+BIB                  4          8
+REACTION   (22-TI-46(N,P)21-SC-46,,SIG,,FIS)
+            Sum of Ti-46(n,p)Sc-46m and Ti-46(n,p)Sc-46g.
+DECAY-DATA (21-SC-46-G,83.9D,DG,889.3,1.000,
+                             DG,1120.5,1.000)
+           (21-SC-46-M,20.SEC) Isomeric transition
+STATUS     (TABLE) From Table 1 of 4Th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 1.3400E+01 1.1000E+00
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        30400019   20090309   20090724   20090720       3135
+BIB                  4          5
+REACTION   (22-TI-47(N,P)21-SC-47,,SIG,,FIS)
+DECAY-DATA (21-SC-47,3.4D,DG,159.4,0.700)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 2.2000E+01 9.0000E-01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        30400020   20090309   20090724   20090720       3135
+BIB                  4          7
+REACTION   (22-TI-48(N,P)21-SC-48,,SIG,,FIS)
+DECAY-DATA (21-SC-48,43.68HR,DG,983.3,1.000,
+                             DG,1037.4,0.980,
+                             DG,1311.7,1.000)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 3.8000E-01 2.0000E-02
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30400021   20090309   20090724   20090720       3135
+BIB                  4          5
+REACTION   (23-V-51(N,P)22-TI-51,,SIG,,FIS)
+DECAY-DATA (22-TI-51,5.79MIN,DG,319.8,0.950)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 9.3000E-01 1.0000E-01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        30400022   20090309   20090724   20090720       3135
+BIB                  4          5
+REACTION   (23-V-51(N,G)23-V-52,,SIG,,FIS)
+DECAY-DATA (23-V-52,3.75MIN,DG,1434.2,1.000)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 2.8000E+00 3.0000E-01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        30400023   20090309   20090724   20090720       3135
+BIB                  4          7
+REACTION   (23-V-51(N,A)21-SC-48,,SIG,,FIS)
+DECAY-DATA (21-SC-48,43.68HR,DG,983.3,1.000,
+                             DG,1037.4,0.980,
+                             DG,1311.7,1.000)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 4.3000E-02 2.0000E-03
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30400024   20090309   20090724   20090720       3135
+BIB                  4          5
+REACTION   (25-MN-55(N,G)25-MN-56,,SIG,,FIS)
+DECAY-DATA (25-MN-56,2.576HR,DG,846.6,0.990)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 2.9600E+00 2.1000E-01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        30400025   20090309   20090724   20090720       3135
+BIB                  4          6
+REACTION   (27-CO-59(N,P)26-FE-59,,SIG,,FIS)
+DECAY-DATA (26-FE-59,44.6D,DG,1099.27,0.560,
+                           DG,1291.58,0.440)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 1.9600E+00 1.0000E-02
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30400026   20090309   20090724   20090720       3135
+BIB                  4          7
+REACTION   (27-CO-59(N,G)27-CO-60,,SIG,,FIS)
+            Sum of Co-59(n,g)Co-60m and Co-59(n,g)Co-60g.
+DECAY-DATA (27-CO-60-G,5.263YR,DG,1173.2,0.9988,
+                               DG,1332.5,1.0000)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 6.9700E+00 3.4000E-01
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30400027   20090309   20090724   20090720       3135
+BIB                  4          5
+REACTION   (27-CO-59(N,A)25-MN-56,,SIG,,FIS)
+DECAY-DATA (25-MN-56,2.576HR,DG,846.6,0.990)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 2.0000E-01 1.0000E-02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        30400028   20090309   20090724   20090720       3135
+BIB                  4          5
+REACTION   (29-CU-65(N,G)29-CU-66,,SIG,,FIS)
+DECAY-DATA (29-CU-66,5.1MIN,DG,1039.0,0.09)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 8.0000E+00 1.2000E+00
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        30400029   20090309   20090724   20090720       3135
+BIB                  5          9
+REACTION   (40-ZR-90(N,2N)40-ZR-89,,SIG,,FIS)
+DECAY-DATA (40-ZR-89-G,78.4HR,DG,909.1,0.990)
+           (40-ZR-89-M,4.18MIN)  94% isomeric transition
+COMMENT    Average (n,2n) cross section for Cf-252 neutron
+           spectrum was calculated with T=1.41 MeV as Maxwellian
+           temperature. The value is 0.248 mb.
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 2.6700E-01 1.5000E-02
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        30400030   20090309   20090724   20090720       3135
+BIB                  4          5
+REACTION   (40-ZR-90(N,P)39-Y-90-M,,SIG,,FIS)
+DECAY-DATA (39-Y-90-M,3.19HR,DG,202.5,0.9650)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 4.5000E-02 6.0000E-03
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        30400031   20090309   20090724   20090720       3135
+BIB                  4          6
+REACTION   (40-ZR-94(N,G)40-ZR-95,,SIG,,FIS)
+DECAY-DATA (40-ZR-95,65.5D,DG,724.2,0.430,
+                           DG,756.7,0.546)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 8.7500E+00 6.5000E-01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30400032   20090309   20090724   20090720       3135
+BIB                  4          5
+REACTION   (40-ZR-96(N,G)40-ZR-97,,SIG,,FIS)
+DECAY-DATA (40-ZR-97,17.0HR,DG,743.36,0.940)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 4.1700E+00 2.1000E-01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        30400033   20090309   20090724   20090720       3135
+BIB                  4          5
+REACTION   (41-NB-93(N,2N)41-NB-92-M,,SIG,,FIS)
+DECAY-DATA (41-NB-92-M,10.16D,DG,934.5,0.9550)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 8.8000E-01 4.0000E-02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        30400034   20090309   20090724   20090720       3135
+BIB                  4          5
+REACTION   (41-NB-93(N,A)39-Y-90-M,,SIG,,FIS)
+DECAY-DATA (39-Y-90-M,3.19HR,DG,202.5,0.9650)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 1.8300E+01 1.5000E+00
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        30400035   20090309   20090724   20090720       3135
+BIB                  4          5
+REACTION   (42-MO-92(N,P)41-NB-92-M,,SIG,,FIS)
+DECAY-DATA (41-NB-92-M,10.16D,DG,934.5,0.9550)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 1.6800E+01 7.0000E-01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        30400036   20090309   20090724   20090720       3135
+BIB                  4          7
+REACTION   (42-MO-92(N,A)40-ZR-89,,SIG,,FIS)
+            Sum of Mo-92(n,a)Zr-89m and Mo-92(n,a)Mo-89g.
+DECAY-DATA (40-ZR-89-G,78.4HR,DG,909.1,0.990)
+           (40-ZR-89-M,4.18MIN)  94% isomeric transition
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 4.2000E-01 2.0000E-02
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30400037   20090309   20090724   20090720       3135
+BIB                  4          8
+REACTION  1(42-MO-95(N,P)41-NB-95-M,,SIG,,FIS)
+          2(42-MO-95(N,P)41-NB-95-G,,SIG,,FIS)
+DECAY-DATA1(41-NB-95-M,90.0HR,DG,235.4,0.45)
+          2(41-NB-95-G,35.1D,DG,765.8,0.99)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+           (19790928U) KO.-New ref.added.-
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 5          1
+EN-DUMMY   DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MEV        MB         MB         MB         MB
+ 1.4100E+00 1.4400E-01 1.3000E-02 2.1990E+01 2.0000E+00
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        30400038   20090309   20090724   20090720       3135
+BIB                  4          7
+REACTION   ((42-MO-98(N,G)42-MO-99,,SIG,,A/FIS)+
+           (42-MO-100(N,2N)42-MO-99,,SIG,,A/FIS))
+DECAY-DATA (42-MO-99,66.2HR,DG,181.06,0.060,
+                            DG,739.7,0.130)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 2.6300E+01 1.3000E+00
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30400039   20090309   20090724   20090720       3135
+BIB                  4          6
+REACTION   (42-MO-100(N,G)42-MO-101,,SIG,,FIS)
+DECAY-DATA (42-MO-101,14.6MIN,DG,192.0,0.25,
+                              DG,1012.4,0.25)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 1.4850E+01 1.1100E+00
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30400040   20090309   20090724   20090720       3135
+BIB                  4          7
+REACTION  1(49-IN-113(N,2N)49-IN-112-M,,SIG,,FIS)
+          2(49-IN-113(N,2N)49-IN-112,,SIG,,FIS)
+DECAY-DATA1(49-IN-112-M,20.7MIN)
+          2(49-IN-112-G,14.4MIN,AR,511.0,0.43,B-)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 5          1
+EN-DUMMY   DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MEV        MB         MB         MB         MB
+ 1.4100E+00 3.7500E+00 1.8500E+00 9.5000E+00 4.7500E+00
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30400041   20090309   20090724   20090720       3135
+BIB                  4          5
+REACTION   (49-IN-113(N,INL)49-IN-113-M,,SIG,,FIS)
+DECAY-DATA (49-IN-113-M,1.66HR,DG,391.7,0.6410)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 1.7800E+02 7.6000E+00
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        30400042   20090309   20090724   20090720       3135
+BIB                  4          7
+REACTION   (49-IN-115(N,G)49-IN-116-M1,,SIG,,FIS)
+DECAY-DATA (49-IN-116-M1,54.MIN,DG,417.0,0.300,
+                                DG,1097.1,0.530,
+                                DG,1293.4,0.800)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 1.3920E+02 6.0000E+01
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30400043   20090309   20090724   20090720       3135
+BIB                  4          8
+REACTION   (73-TA-181(N,G)73-TA-182,,SIG,,FIS)
+            Sum of Ta-181(n,g)Ta-182m and Ta-181(n,g)Ta-182g.
+DECAY-DATA (73-TA-182-G,115.0D,DG,1121.19,0.370,
+                               DG,1188.95,0.171,
+                               DG,1221.31,0.289)
+STATUS     (TABLE) From Table 1 of 4th All Union Conf.on Neutron
+           Phys., Kiev,18-22 Apr.1977,Vol.3,p.32.
+HISTORY    (19780621C) KO.-New subentry.-
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 1.1990E+02 6.5000E+00
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        30400044   20090309   20090724   20090720       3135
+BIB                  5          8
+REFERENCE  (C,75KARLSR,,29,197504) Prelim.result.
+REACTION   (48-CD-116(N,G)48-CD-117,,SIG,,FIS)
+DECAY-DATA (48-CD-117-G,2.6HR,DG,1068.,,
+                            DG,1302.)
+STATUS     (TABLE)
+           From Table 1 of Proc.Educational Seminar on the Use of
+           Cf-252, Karlsruhe,14-18 Apr.1975,p.29 (IAEA-SR-3/23)
+HISTORY    (19780621C) KO.-Subentry added.-
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 3.8000E+01 1.4000E+01
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        30400045   20090309   20090724   20090720       3135
+BIB                  5          9
+REFERENCE  (C,75KARLSR,,29,197504) Prelim.result.
+REACTION   ((48-CD-110(N,G)48-CD-111-M,,SIG,,A/FIS)+
+           (48-CD-111(N,INL)48-CD-111-M,,SIG,,A/FIS))
+DECAY-DATA (48-CD-111-M,49.MIN,DG,158.8,,
+                               DG,245.4)
+STATUS     (TABLE)
+           From Table 1 of Proc.Educational Seminar on the Use of
+           Cf-252, Karlsruhe,14-18 Apr.1975,P.29 (IAEA-SR-3/23)
+HISTORY    (19780621C) KO.-Subentry added.-
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 2.0400E+02 7.0000E+00
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        30400046   20090309   20090724   20090720       3135
+BIB                  5          9
+REFERENCE  (C,75KARLSR,,29,197504) Prelim.result.
+REACTION   ((29-CU-63(N,G)29-CU-64,,SIG,,A/FIS)+
+           (29-CU-65(N,2N)29-CU-64,,SIG,,A/FIS))
+DECAY-DATA (29-CU-64,12.8HR,AR,511.)
+STATUS     (TABLE)
+           From Table 1 of Proc.Educational Seminar on the Use of
+           Cf-252, Karlsruhe,14-18 Apr.1975,P.29 (IAEA-SR-3/23)
+HISTORY    (19780621C) KO.-Subentry added.-
+           (19790929A) KO.-EN-DUMMY corrected.-
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 1.7600E+01 1.4000E+00
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        30400047   20090309   20090724   20090720       3135
+BIB                  5          8
+REFERENCE  (C,75KARLSR,,29,197504) Prlim.result.
+REACTION   (38-SR-84(N,G)38-SR-85-M,,SIG,,FIS)
+DECAY-DATA (38-SR-85-M,70.MIN,DG,231.6)
+STATUS     (TABLE)
+           From Table 1 of Proc.Educational Seminar on the Use of
+           Cf-252, Karlsruhe,14-18 Apr.1975,p.29 (IAEA-SR-3/23)
+HISTORY    (19780621C) KO.-Subentry added.-
+           (19790928A) KO.-EN-DUMMY corrected.-
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 2.4200E+02 2.7000E+01
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        30400048   20090309   20090724   20090720       3135
+BIB                  5          9
+REFERENCE  (C,75KARLSR,,29,197504) Prelim.result.
+REACTION   ((38-SR-86(N,G)38-SR-87-M,,SIG,,A/FIS)+
+           (38-SR-87(N,INL)38-SR-87-M,,SIG,,A/FIS))
+DECAY-DATA (38-SR-87-M,2.8HR,DG,388.5)
+STATUS     (TABLE)
+           From Table 1 of Proc.Educational Seminar on the Use of
+           Cf-252, Karlsruhe,14-18 Apr.1975,p.29 (IAEA-SR-3/23)
+HISTORY    (19780621C) KO.-Subentry added.-
+           (19790928A) KO.-EN-DUMMY corrected.-
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 1.8200E+02 2.2000E+01
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        30400049   20090309   20090724   20090720       3135
+BIB                  5          8
+REFERENCE  (C,75KARLSR,,29,197504) Prelim.result.
+REACTION   (56-BA-138(N,G)56-BA-139,,SIG,,FIS)
+DECAY-DATA (56-BA-139,83.MIN,DG,165.9)
+STATUS     (TABLE)
+           From Table 1 of Proc.Educational Seminar on the Use of
+           Cf-252, Karlsruhe,14-18 Apr.1975,p.29 (IAEA-SR-3/23)
+HISTORY    (19780621C) KO.-Subentry added.-
+           (19790928A) KO.-EN-DUMMY corrected.-
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 3.8000E+00 4.0000E-01
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        30400050   20090309   20090724   20090720       3135
+BIB                  5          9
+REFERENCE  (C,75KARLSR,,29,197504) Prelim.result.
+REACTION   ((56-BA-134(N,G)56-BA-135-M,,SIG,,A/FIS)+
+           (56-BA-135(N,INL)56-BA-135-M,,SIG,,A/FIS))
+DECAY-DATA (56-BA-135-M,28.7HR,DG,268.1)
+STATUS     (TABLE)
+           From Table 1 of Proc.Educational Seminar on the Use of
+           Cf-252, Karlsruhe,14-18 Apr.1975,p.29 (IAEA-SR-3/23)
+HISTORY    (19780621C) KO.-Subentry added.-
+           (19790928A) KO.-EN-DUMMY corrected.-
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 2.5500E+02 2.8000E+01
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        30400051   20090309   20090724   20090720       3135
+BIB                  5          9
+REFERENCE  (C,75KARLSR,,29,197504) Prelim.result.
+REACTION   ((56-BA-136(N,G)56-BA-137-M,,SIG,,A/FIS)+
+           (56-BA-137(N,INL)56-BA-137-M,,SIG,,A/FIS))
+DECAY-DATA (56-BA-137-M,2.6MIN,DG,661.6)
+STATUS     (TABLE)
+           From Table 1 of Proc.Educational Seminar on the Use of
+           Cf-252, Karlsruhe,14-18 Apr.1975,p.29 (IAEA-SR-3/23)
+HISTORY    (19780621C) KO.-Subentry added.-
+           (19790928A) KO.-EN-DUMMY corrected.-
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 2.9300E+02 2.9000E+01
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        30400052   20090309   20090724   20090720       3135
+BIB                  5          9
+REFERENCE  (C,75KARLSR,,29,197504) Prelim.result.
+REACTION   ((80-HG-198(N,G)80-HG-199-M,,SIG,,A/FIS)+
+           (80-HG-199(N,INL)80-HG-199-M,,SIG,,A/FIS))
+DECAY-DATA (80-HG-199-M,42.MIN,DG,158.3)
+STATUS     (TABLE)
+           From Table 1 of Proc.Educational Seminar on the Use of
+           Cf-252, Karlsruhe,14-18 Apr.1975,p.29 (IAEA-SR-3/23)
+HISTORY    (19780621C) Ko.-Subentry added.-
+           (19790928A) KO.-EN-DUMMY corrected.-
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 1.6800E+02 6.0000E+00
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        30400053   20090309   20090724   20090720       3135
+BIB                  5          9
+REFERENCE  (C,75KARLSR,,29,197504) Prelim.result.
+REACTION   (82-PB-204(N,INL)82-PB-204-M,,SIG,,FIS)
+DECAY-DATA (82-PB-204-M,67.MIN,DG,374.7,,
+                               DG,898.9)
+STATUS     (TABLE)
+           From Table 1 of Proc.Educational Seminar on the Use of
+           Cf-252, Karlsruhe,14-18 Apr.1975,p.29 (IAEA-SR-3/23)
+HISTORY    (19780621C) KO.-Subentry added.-
+           (19790928A) KO.-EN-DUMMY corrected.-
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 2.0900E+01 1.2000E+00
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        30400054   20090309   20090724   20090720       3135
+BIB                  4          6
+REACTION   (14-SI-28(N,P)13-AL-28,,SIG,,FIS)
+DECAY-DATA (13-AL-28,2.246MIN,DG,1778.8,1.0)
+STATUS     (TABLE) From, Table I of ZFK-376,p.44(1978)=' Proc. of
+           7th Int.Symp.on the Interaction of Fast Neutrons With
+           Nuclei', Nov.21-25, 1977 Gaussig(GDR).=
+HISTORY    (19790928C) KO.-New subentry.-
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 9.6600E+00 5.5000E-01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30400055   20090309   20090724   20090720       3135
+BIB                  4          6
+REACTION   (14-SI-29(N,P)13-AL-29,,SIG,,FIS)
+DECAY-DATA (13-AL-29,6.6MIN,DG,1273.0,0.910)
+STATUS     (TABLE) From, Table I of ZFK-376,p.44(1978)=' Proc. of
+           7th Int.Symp.on the Interaction of Fast Neutrons With
+           Nuclei', Nov.21-25, 1977 Gaussig(GDR).=
+HISTORY    (19790928C) KO.-New subentry.-
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 1.7900E+00 7.9000E-01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30400056   20090309   20090724   20090720       3135
+BIB                  4          6
+REACTION   (26-FE-54(N,P)25-MN-54,,SIG,,FIS)
+DECAY-DATA (25-MN-54,312.5D,DG,834.81,0.9998)
+STATUS     (TABLE) From, Table I of ZFK-376,p.44(1978)=' Proc. of
+           7th Int.Symp.on the Interaction of Fast Neutrons With
+           Nuclei', Nov.21-25, 1977 Gaussig(GDR).=
+HISTORY    (19790928C) KO.-New subentry.-
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 9.2500E+01 5.0000E+00
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30400057   20090309   20090724   20090720       3135
+BIB                  4          6
+REACTION   (26-FE-56(N,P)25-MN-56,,SIG,,FIS)
+DECAY-DATA (25-MN-56,2.576HR,DG,846.6,0.9900)
+STATUS     (TABLE) From, Table I of ZFK-376,p.44(1978)=' Proc. of
+           7th Int.Symp.on the Interaction of Fast Neutrons With
+           Nuclei', Nov.21-25, 1977 Gaussig(GDR).=
+HISTORY    (19790928C) KO.-New subentry.-
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.4100E+00 1.4500E+00 6.0000E-02
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30400058   20131210   20140228   20140212       3162
+BIB                  4          6
+REACTION   (33-AS-75(N,G)33-AS-76,,SIG,,FIS)
+DECAY-DATA (33-AS-76,26.3HR,DG,559.1,,
+                            DG,1216.3)
+STATUS     (TABLE) Table I of Proc. Educational Seminar,
+            Karlsruhe, 14-18 April 1975, p29.
+HISTORY    (20131201C) On
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+KT-DUMMY   DATA       DATA-ERR
+MEV        MB         MB
+ 1.42       26.0       1.6
+ENDDATA              3
+ENDSUBENT           14
+ENDENTRY            57

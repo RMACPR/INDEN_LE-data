@@ -1,0 +1,122 @@
+ENTRY            21470   20120917   20130812   20130718       2234
+SUBENT        21470001   20120917   20130812   20130718       2234
+BIB                 14         39
+TITLE       The use of the pile oscillator in thermal
+            reactor problems
+AUTHOR     (H.Rose,W.A.Cooper,R.B.Tattersall)
+INSTITUTE  (2UK HAR)
+REFERENCE  ((C,58GENEVA,16,34,1958)=(B,PR.NUC.EN.,3,292,1959))
+                          - Final data for Be, Na-23.
+           (R,AERE-R/R-2516,1959) data for Be,C and Na-23, other
+            data are compiled separately under JNE,12,32
+            as EXFOR 20638.
+REL-REF    (O,20638001,R.B.Tattersall+,J,JNE/A,12,32,1960)
+            Other data from 58GENEVA,16,34,1958 were superseded
+            by final publ. J.Nucl.Ener. A12,32
+FACILITY   (REAC,2UK HAR) Two reactors were used:
+             1. DIMPLE is a D2O-moderated research reactor
+             2. GLEEP is a natural-uranium, graphite-moderated
+                pile, the central regions of which contain
+                0.97 in. diam. uranium on a 71 in. pitch
+INC-SOURCE (REAC) Well thermalised neutron spectrum.
+           Oscillator work in GLEEP is carried out with a central
+           flux of about 10**9 n/cm2/sec, whilst in DIMPLE the
+           corresponding flux is around 10**7 n/cm2/sec.
+SAMPLE     The samples used were of fairly high purity and
+           corrections for known impurities were applied
+           when required.
+METHOD     .Reactivity modulation.
+MONITOR    (5-B-0(N,ABS),,SIG) 2200 m/sec value
+MONIT-REF  (21196002,P.A.Egelstaff,J,JNE,5,41,1957)
+ERR-ANALYS .One standard deviation.
+STATUS     (COREL,20638001)
+HISTORY    (19800325C)
+           (19800429E)
+           (19860205A)
+           (19860210E)
+           (20041111A) date is corrected. One subent added
+           (20120917A) SD: Updated to new date formats,lower case.
+           Corrected according last EXFOR rules and Dict.; Ref.
+           corrected (PNE,3,242,1959 -> B,PR.NUC.EN.3,292,1959).
+           TITLE and list of authors were corrected according
+           to the B,PR.NUC.EN.3,292,1959.
+ENDBIB              39
+NOCOMMON             0          0
+ENDSUBENT           42
+SUBENT        21470002   20120917   20130812   20130718       2234
+BIB                  2          2
+REACTION   (4-BE-9(N,G)4-BE-10,,SIG) 2200 m/sec limit.
+STATUS     (TABLE) .Table 1 of 58GENEVA,16,34,1958
+ENDBIB               2
+COMMON               2          3
+EN         MONIT
+EV         B
+ 2.5300E-02 7.6660E+02
+ENDCOMMON            3
+DATA                 1          1
+DATA-MAX
+MB
+ 8.0000E+00
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21470003   20120917   20130812   20130718       2234
+BIB                  3          3
+REACTION   (6-C-0(N,G),,SIG) 2200 m/sec limit.
+SAMPLE     .Graphite.
+STATUS     (TABLE) .Table IV of AERE-R/R-2516,1959
+ENDBIB               3
+COMMON               2          3
+EN         MONIT
+EV         B
+ 2.5300E-02 7.6660E+02
+ENDCOMMON            3
+DATA                 1          1
+DATA-MAX
+MB
+ 4.9000E+00
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        21470004   20120917   20130812   20130718       2234
+BIB                  5          8
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG) 2200 m/sec value.
+SAMPLE     .Sodium carbonate powder.
+STATUS     (TABLE) .Table 1 of 58GENEVA,16,34,1958
+           (COREL,21470005) normalized by nat-B(n,abs)=771 b
+HISTORY    (19860121A) In REACTION string g+m /sum deleted
+           (19860210E)
+CORRECTION .Corrected for displaced nitrogen in air and self-
+            shielding.
+ENDBIB               8
+COMMON               2          3
+EN         MONIT
+EV         B
+ 2.5300E-02 7.6660E+02
+ENDCOMMON            3
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 5.3600E+02 8.0000E+00
+ENDDATA              3
+ENDSUBENT           20
+SUBENT        21470005   20120917   20130812   20130718       2234
+BIB                  3          7
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG)
+STATUS     (SCSRS)
+           (COREL,21470004)  with nat-B(n,abs)=766.6 b
+HISTORY    (19991214T)    Converted from subent 60795002
+           (20120917A) SD: In REACTION code: ABS -> G, SF8=MXW
+           deleted MXW (because authors assume ABS=G and
+           ,SIG=,SIG,,MXW in the article).
+ENDBIB               7
+COMMON               1          3
+MONIT
+B
+ 771.
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.5300E-08 5.3900E-01 8.0000E-03
+ENDDATA              3
+ENDSUBENT           19
+ENDENTRY             5

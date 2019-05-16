@@ -1,0 +1,443 @@
+ENTRY            23055   20161120   20170302   20170214       2255
+SUBENT        23055001   20161120   20170302   20170214       2255
+BIB                 17         72
+REFERENCE  (C,2007NICE,2,999,200704)
+           #doi:10.1051/ndata:07579
+           (S,JAEA-C-2005-009,95,2006) First author S.Takaki .
+            Figures of dif.CS. Total n,2n CS in text.
+AUTHOR     (I.Murata, S.Takaki, K.Shiken, K.Kondo, H.Miyamaru,
+           K.Ochiai, T.Nishitani, C.Konno)
+TITLE      Measurement of the angle-correlated neutron spectrum
+           for Be-9(N,2N) reaction with a pencil-beam DT neutron
+           source.
+INSTITUTE  (2JPNJAE) K.Ochiai, T.Nishitani, C.Konno .
+           (2JPNOSA) I.Murata,S.Takaki,K.Shiken,K.Kondo,H.Miyamaru
+INC-SOURCE (D-T)  Pencil-beam DT neutron source at FNS facility.
+            DT neutron beam of 2 cm diameter. Neutron intensity
+            10**6 n/cm**2/sec inside the beam. Outside the beam
+            the BG neutron intensity is suppressed to around
+            several tens of n/cm**2/sec.
+FACILITY   (FNS,2JPNJAE)
+METHOD     (COINC) Coincidence of two emitted neutrons.
+           (PSD) Pulse shape discrimination is applied to exclude
+            gamma-ray signal.
+           (ACTIV) Absolute value of neutron flux was derived by
+            the foil activation technique with Al foil.
+           (TOF)
+DETECTOR   (SCIN) Two spherical NE213 detectors (4cm diameter) as
+           neutron detectors. Polyethylene block up to around 10cm
+           in thickness was placed between two detectors to
+           suppress the inter-detector scattering contribution.
+           Located at 18.8cm from Be sample.
+           The lower measurable neutron energy 1.2 MeV.
+           (FISCH) U-238 fission chamber,located on the beam line,
+           behind the sample -to monitor the relative neutron flux
+SAMPLE     Metallic beryllium of 2 cm diameter, 2 cm length.
+           Al foil attached on the upstream surface of sample.
+           Distance neutron source - Be sample 485cm.
+CORRECTION By a Monte Carlo code.
+           -For inter-detector scattering. The rate of the
+            inter-detector scattering component was estimated to
+            be about 5 to 40% depending on the scattering angle.
+           Estimated correction factor increases as the distance
+           between two detectors becomes closer. It was confirmed
+           that the component could effectively be suppressed by
+           the polyethylene shield.
+           -For attenuation/multiple-scattering of
+           incident/emitted neutrons. Correction factor of the
+           attenuation and multiple-scattering effects was found
+           to be very small.
+MONITOR    ((MONIT)13-AL-27(N,A)11-NA-24,,SIG) To derive absolute
+           value of neutron flux by normalizing the relative
+           values obtained by the U-238 fission chamber.
+            92-U-238(N,F)-to monitor relative neutron flux.
+MONIT-REF  (,,3,JENDL-3.3,,2002)
+DECAY-MON  (11-NA-22,,DG,1275.)
+ANALYSIS    Measured raw pulse height spectra were transformed
+           into light output spectra. The position of Compton edge
+           formed by the 1.275MeV gamma ray emitted from 22Na was
+           used for the light unit calibration. The light output
+           spectra were unfolded using FORIST code. The necessary
+           response function was calculated with SCINFUL code.
+REL-REF    (M,,J.K.Dickens,R,ORNL-6462,1988) Code SCINFUL .
+            R.H.Johnson,PSR-92,ORNL/RSIC,1975 - code FORIST.
+           (I,,I.Murata,J,NSTS,2,433,2002) Detailed description of
+                spectrometer.
+           (M,,J.F.Briesmeister+,R,LA-13709-M,2000) Monte Carlo
+                code, LA-13709-M.
+STATUS     (COREL,22743001) Be-9(n,x)2-He-4 DA/DE data
+           (TABLE) Data received from author I.Murata 18.03.2009 .
+           (APRVD) Entry approved by Dr. I.Murata
+HISTORY    (20090318C) M.M.
+           (20090318R)
+           (20110206U) SD: DOI identifier was corrected.
+           (20161120A) M.M. Ref. S,JAEA-C-2005-009,95,2006 was
+           added. BIB information was updated in Subents 001,005.
+ENDBIB              72
+COMMON               2          3
+EN         MONIT
+MEV        MB
+   14.2     122.2
+ENDCOMMON            3
+ENDSUBENT           79
+SUBENT        23055002   20090303   20090508   20090507       2210
+BIB                  4         13
+REACTION   (4-BE-9(N,2N)4-BE-8,,DA/DA/DE,N/N/N)
+            Triple differential cross section.
+EN-SEC     (E,N) Emitted neutron energy.
+            ANG1 -angle between one emitted neutron and incident
+                   neutron bead.
+            ANG2 -angle between second emitted neutron and
+                  incident neutron bead.
+            ANG-RL - angle between two planes :
+             1) one emitted neutron and incident neutron beam ,
+             2) second emitted neutron and incident neutron beam.
+STATUS     (APRVD) Data received from I.Murata 18.03.2009 .
+            Data are presented on Fig.5 of reference.
+ERR-ANALYS (ERR-S) Statistical error .
+ENDBIB              13
+NOCOMMON             0          0
+DATA                 6        243
+ANG1       ANG2       E          DATA       ERR-S      ANG-RL
+ADEG       ADEG       MEV        MB/SR2/MEV MB/SR2/MEV ADEG
+  30.       60.          2.00E-01   3.29E-05   2.26E-05   60.
+  30.       60.          4.00E-01   1.82E-03   1.25E-03   60.
+  30.       60.          6.00E-01   3.92E-02   2.59E-02   60.
+  30.       60.          8.00E-01   3.23E-01   1.98E-01   60.
+  30.       60.          1.00E+00   1.00E+00   5.21E-01   60.
+  30.       60.          1.20E+00   1.26E+00   4.40E-01   60.
+  30.       60.          1.40E+00   1.24E+00   3.47E-01   60.
+  30.       60.          1.60E+00   1.64E+00   3.68E-01   60.
+  30.       60.          1.80E+00   1.85E+00   3.55E-01   60.
+  30.       60.          2.00E+00   1.85E+00   3.46E-01   60.
+  30.       60.          2.20E+00   1.64E+00   3.33E-01   60.
+  30.       60.          2.40E+00   1.31E+00   3.15E-01   60.
+  30.       60.          2.60E+00   1.04E+00   3.17E-01   60.
+  30.       60.          2.80E+00   7.62E-01   3.19E-01   60.
+  30.       60.          3.00E+00   5.05E-01   2.98E-01   60.
+  30.       60.          3.20E+00   4.30E-01   3.10E-01   60.
+  30.       60.          3.40E+00   5.55E-01   3.17E-01   60.
+  30.       60.          3.60E+00   7.49E-01   3.08E-01   60.
+  30.       60.          3.80E+00   8.39E-01   3.08E-01   60.
+  30.       60.          4.00E+00   7.27E-01   2.97E-01   60.
+  30.       60.          4.20E+00   5.04E-01   2.88E-01   60.
+  30.       60.          4.40E+00   3.31E-01   2.98E-01   60.
+  30.       60.          4.60E+00   2.87E-01   3.00E-01   60.
+  30.       60.          4.80E+00   3.63E-01   2.93E-01   60.
+  30.       60.          5.00E+00   5.07E-01   2.96E-01   60.
+  30.       60.          5.20E+00   6.40E-01   3.05E-01   60.
+  30.       60.          5.40E+00   7.10E-01   3.08E-01   60.
+  30.       60.          5.60E+00   7.23E-01   3.04E-01   60.
+  30.       60.          5.80E+00   7.31E-01   2.93E-01   60.
+  30.       60.          6.00E+00   7.62E-01   2.86E-01   60.
+  30.       60.          6.20E+00   7.95E-01   2.87E-01   60.
+  30.       60.          6.40E+00   7.76E-01   2.91E-01   60.
+  30.       60.          6.60E+00   6.69E-01   2.91E-01   60.
+  30.       60.          6.80E+00   4.97E-01   2.88E-01   60.
+  30.       60.          7.00E+00   3.26E-01   2.86E-01   60.
+  30.       60.          7.20E+00   2.29E-01   2.85E-01   60.
+  30.       60.          7.40E+00   2.39E-01   2.82E-01   60.
+  30.       60.          7.60E+00   3.40E-01   2.80E-01   60.
+  30.       60.          7.80E+00   4.63E-01   2.87E-01   60.
+  30.       60.          8.00E+00   5.29E-01   2.97E-01   60.
+  30.       60.          8.20E+00   4.84E-01   3.03E-01   60.
+  30.       60.          8.40E+00   3.27E-01   3.01E-01   60.
+  30.       60.          8.60E+00   1.03E-01   2.93E-01   60.
+  30.       60.          9.80E+00   1.30E-01   3.17E-01   60.
+  30.       60.          1.00E+01   5.10E-01   3.16E-01   60.
+  30.       60.          1.02E+01   9.16E-01   3.15E-01   60.
+  30.       60.          1.04E+01   1.28E+00   3.15E-01   60.
+  30.       60.          1.06E+01   1.56E+00   3.14E-01   60.
+  30.       60.          1.08E+01   1.71E+00   3.11E-01   60.
+  30.       60.          1.10E+01   1.74E+00   2.97E-01   60.
+  30.       60.          1.12E+01   1.64E+00   2.74E-01   60.
+  30.       60.          1.14E+01   1.44E+00   2.47E-01   60.
+  30.       60.          1.16E+01   1.19E+00   2.18E-01   60.
+  30.       60.          1.18E+01   9.12E-01   1.88E-01   60.
+  30.       60.          1.20E+01   6.53E-01   1.55E-01   60.
+  30.       60.          1.22E+01   4.36E-01   1.18E-01   60.
+  30.       60.          1.24E+01   2.70E-01   8.22E-02   60.
+  30.       60.          1.26E+01   1.56E-01   5.23E-02   60.
+  30.       60.          1.28E+01   8.30E-02   3.04E-02   60.
+  30.       60.          1.30E+01   4.11E-02   1.61E-02   60.
+  30.       60.          1.32E+01   1.88E-02   7.82E-03   60.
+  30.       60.          1.34E+01   7.99E-03   3.48E-03   60.
+  30.       60.          1.36E+01   3.14E-03   1.42E-03   60.
+  30.       60.          1.38E+01   1.14E-03   5.33E-04   60.
+  30.       60.          1.40E+01   3.84E-04   1.84E-04   60.
+  30.       60.          1.42E+01   1.20E-04   5.84E-05   60.
+  30.       60.          1.44E+01   3.45E-05   1.71E-05   60.
+  30.       60.          1.46E+01   9.21E-06   4.84E-06   60.
+  30.       60.          1.48E+01   2.27E-06   1.20E-06   60.
+  30.       60.          1.50E+01   5.20E-07   2.74E-07   60.
+  60.       30.          2.00E-01   3.53E-05   2.73E-05   60.
+  60.       30.          4.00E-01   2.02E-03   1.50E-03   60.
+  60.       30.          6.00E-01   4.49E-02   3.08E-02   60.
+  60.       30.          8.00E-01   3.98E-01   2.31E-01   60.
+  60.       30.          1.00E+00   1.51E+00   5.95E-01   60.
+  60.       30.          1.20E+00   2.81E+00   5.26E-01   60.
+  60.       30.          1.40E+00   2.93E+00   4.53E-01   60.
+  60.       30.          1.60E+00   1.99E+00   4.04E-01   60.
+  60.       30.          1.80E+00   1.65E+00   3.76E-01   60.
+  60.       30.          2.00E+00   1.59E+00   4.00E-01   60.
+  60.       30.          2.20E+00   1.57E+00   3.68E-01   60.
+  60.       30.          2.40E+00   1.76E+00   3.63E-01   60.
+  60.       30.          2.60E+00   1.61E+00   3.81E-01   60.
+  60.       30.          2.80E+00   1.00E+00   3.61E-01   60.
+  60.       30.          3.00E+00   4.82E-01   3.34E-01   60.
+  60.       30.          3.20E+00   3.41E-01   3.53E-01   60.
+  60.       30.          3.40E+00   4.29E-01   3.64E-01   60.
+  60.       30.          3.60E+00   5.55E-01   3.60E-01   60.
+  60.       30.          3.80E+00   6.27E-01   3.60E-01   60.
+  60.       30.          4.00E+00   6.54E-01   3.60E-01   60.
+  60.       30.          4.20E+00   7.18E-01   3.48E-01   60.
+  60.       30.          4.40E+00   8.63E-01   3.28E-01   60.
+  60.       30.          4.60E+00   1.01E+00   3.26E-01   60.
+  60.       30.          4.80E+00   1.03E+00   3.37E-01   60.
+  60.       30.          5.00E+00   8.79E-01   3.32E-01   60.
+  60.       30.          5.20E+00   6.63E-01   3.14E-01   60.
+  60.       30.          5.40E+00   4.86E-01   3.11E-01   60.
+  60.       30.          5.60E+00   3.95E-01   3.11E-01   60.
+  60.       30.          5.80E+00   3.87E-01   2.91E-01   60.
+  60.       30.          6.00E+00   4.28E-01   2.82E-01   60.
+  60.       30.          6.20E+00   4.43E-01   3.10E-01   60.
+  60.       30.          6.40E+00   3.50E-01   3.40E-01   60.
+  60.       30.          6.60E+00   1.44E-01   3.45E-01   60.
+  60.       30.          7.60E+00   1.10E-01   3.63E-01   60.
+  60.       30.          7.80E+00   3.58E-01   3.61E-01   60.
+  60.       30.          8.00E+00   5.86E-01   3.40E-01   60.
+  60.       30.          8.20E+00   7.36E-01   3.31E-01   60.
+  60.       30.          8.40E+00   7.49E-01   3.49E-01   60.
+  60.       30.          8.60E+00   6.05E-01   3.74E-01   60.
+  60.       30.          8.80E+00   3.51E-01   3.78E-01   60.
+  60.       30.          9.00E+00   9.32E-02   3.60E-01   60.
+  60.       30.          9.60E+00   1.96E-01   3.52E-01   60.
+  60.       30.          9.80E+00   5.51E-01   3.35E-01   60.
+  60.       30.          1.00E+01   9.58E-01   3.01E-01   60.
+  60.       30.          1.02E+01   1.32E+00   2.79E-01   60.
+  60.       30.          1.04E+01   1.56E+00   2.91E-01   60.
+  60.       30.          1.06E+01   1.61E+00   3.11E-01   60.
+  60.       30.          1.08E+01   1.50E+00   3.08E-01   60.
+  60.       30.          1.10E+01   1.25E+00   2.72E-01   60.
+  60.       30.          1.12E+01   9.42E-01   2.15E-01   60.
+  60.       30.          1.14E+01   6.43E-01   1.52E-01   60.
+  60.       30.          1.16E+01   3.99E-01   9.72E-02   60.
+  60.       30.          1.18E+01   2.25E-01   5.60E-02   60.
+  60.       30.          1.20E+01   1.15E-01   2.93E-02   60.
+  60.       30.          1.22E+01   5.41E-02   1.39E-02   60.
+  60.       30.          1.24E+01   2.31E-02   6.00E-03   60.
+  60.       30.          1.26E+01   9.04E-03   2.36E-03   60.
+  60.       30.          1.28E+01   3.23E-03   8.51E-04   60.
+  60.       30.          1.30E+01   1.06E-03   2.80E-04   60.
+  60.       30.          1.32E+01   3.17E-04   8.42E-05   60.
+  60.       30.          1.34E+01   8.70E-05   2.32E-05   60.
+  60.       30.          1.36E+01   2.25E-05   6.06E-06   60.
+  60.       30.          1.38E+01   5.17E-06   1.39E-06   60.
+  60.       30.          1.40E+01   1.09E-06   2.94E-07   60.
+   90.      30.          2.00E-01   5.93E-06   1.56E-05   60.
+   90.      30.          4.00E-01   3.63E-04   8.60E-04   60.
+   90.      30.          6.00E-01   9.03E-03   1.77E-02   60.
+   90.      30.          8.00E-01   9.65E-02   1.32E-01   60.
+   90.      30.          1.00E+00   4.69E-01   3.33E-01   60.
+   90.      30.          1.20E+00   1.10E+00   2.81E-01   60.
+   90.      30.          1.40E+00   1.38E+00   2.59E-01   60.
+   90.      30.          1.60E+00   1.28E+00   2.45E-01   60.
+   90.      30.          1.80E+00   1.25E+00   2.37E-01   60.
+   90.      30.          2.00E+00   1.02E+00   2.31E-01   60.
+   90.      30.          2.20E+00   6.12E-01   2.11E-01   60.
+   90.      30.          2.40E+00   4.16E-01   2.07E-01   60.
+   90.      30.          2.60E+00   4.32E-01   2.19E-01   60.
+   90.      30.          2.80E+00   4.67E-01   2.26E-01   60.
+   90.      30.          3.00E+00   5.40E-01   2.13E-01   60.
+   90.      30.          3.20E+00   6.89E-01   2.18E-01   60.
+   90.      30.          3.40E+00   7.27E-01   2.23E-01   60.
+   90.      30.          3.60E+00   5.18E-01   2.19E-01   60.
+   90.      30.          3.80E+00   2.16E-01   2.10E-01   60.
+   90.      30.          4.00E+00   8.56E-02   1.95E-01   60.
+   90.      30.          4.20E+00   2.25E-01   1.92E-01   60.
+   90.      30.          4.40E+00   4.98E-01   1.95E-01   60.
+   90.      30.          4.60E+00   6.95E-01   1.99E-01   60.
+   90.      30.          4.80E+00   7.17E-01   2.00E-01   60.
+   90.      30.          5.00E+00   6.17E-01   1.84E-01   60.
+   90.      30.          5.20E+00   4.97E-01   1.71E-01   60.
+   90.      30.          5.40E+00   4.01E-01   1.65E-01   60.
+   90.      30.          5.60E+00   3.11E-01   1.59E-01   60.
+   90.      30.          5.80E+00   2.08E-01   1.60E-01   60.
+   90.      30.          6.00E+00   1.12E-01   1.66E-01   60.
+   90.      30.          6.20E+00   5.74E-02   1.59E-01   60.
+   90.      30.          6.40E+00   5.56E-02   1.51E-01   60.
+   90.      30.          6.60E+00   7.10E-02   1.57E-01   60.
+   90.      30.          6.80E+00   4.63E-02   1.71E-01   60.
+   90.      30.          8.20E+00   6.49E-02   2.26E-01   60.
+   90.      30.          8.40E+00   3.17E-01   2.28E-01   60.
+   90.      30.          8.60E+00   5.80E-01   2.18E-01   60.
+   90.      30.          8.80E+00   8.26E-01   2.00E-01   60.
+   90.      30.          9.00E+00   1.01E+00   1.85E-01   60.
+   90.      30.          9.20E+00   1.11E+00   1.84E-01   60.
+   90.      30.          9.40E+00   1.07E+00   1.90E-01   60.
+   90.      30.          9.60E+00   9.34E-01   1.82E-01   60.
+   90.      30.          9.80E+00   7.26E-01   1.55E-01   60.
+   90.      30.          1.00E+01   5.06E-01   1.16E-01   60.
+   90.      30.          1.02E+01   3.16E-01   7.65E-02   60.
+   90.      30.          1.04E+01   1.78E-01   4.49E-02   60.
+   90.      30.          1.06E+01   8.97E-02   2.35E-02   60.
+   90.      30.          1.08E+01   4.08E-02   1.10E-02   60.
+   90.      30.          1.10E+01   1.68E-02   4.59E-03   60.
+   90.      30.          1.12E+01   6.21E-03   1.73E-03   60.
+   90.      30.          1.14E+01   2.08E-03   5.87E-04   60.
+   90.      30.          1.16E+01   6.29E-04   1.79E-04   60.
+   90.      30.          1.18E+01   1.72E-04   4.95E-05   60.
+   90.      30.          1.20E+01   4.27E-05   1.23E-05   60.
+   90.      30.          1.22E+01   9.76E-06   2.87E-06   60.
+   90.      30.          1.24E+01   1.97E-06   5.82E-07   60.
+  120.      30.          2.00E-01   8.46E-06   1.71E-05  140.
+  120.      30.          4.00E-01   5.20E-04   9.37E-04  140.
+  120.      30.          6.00E-01   1.47E-02   1.92E-02  140.
+  120.      30.          8.00E-01   1.74E-01   1.43E-01  140.
+  120.      30.          1.00E+00   8.41E-01   3.56E-01  140.
+  120.      30.          1.20E+00   1.60E+00   2.98E-01  140.
+  120.      30.          1.40E+00   1.36E+00   2.73E-01  140.
+  120.      30.          1.60E+00   1.20E+00   2.57E-01  140.
+  120.      30.          1.80E+00   1.56E+00   2.54E-01  140.
+  120.      30.          2.00E+00   1.52E+00   2.55E-01  140.
+  120.      30.          2.20E+00   1.12E+00   2.40E-01  140.
+  120.      30.          2.40E+00   8.51E-01   2.18E-01  140.
+  120.      30.          2.60E+00   7.46E-01   2.29E-01  140.
+  120.      30.          2.80E+00   5.57E-01   2.35E-01  140.
+  120.      30.          3.00E+00   3.67E-01   2.17E-01  140.
+  120.      30.          3.20E+00   3.71E-01   2.28E-01  140.
+  120.      30.          3.40E+00   5.08E-01   2.26E-01  140.
+  120.      30.          3.60E+00   6.15E-01   2.19E-01  140.
+  120.      30.          3.80E+00   5.64E-01   2.28E-01  140.
+  120.      30.          4.00E+00   3.81E-01   2.18E-01  140.
+  120.      30.          4.20E+00   2.63E-01   1.99E-01  140.
+  120.      30.          4.40E+00   3.25E-01   2.00E-01  140.
+  120.      30.          4.60E+00   4.69E-01   2.07E-01  140.
+  120.      30.          4.80E+00   5.52E-01   2.05E-01  140.
+  120.      30.          5.00E+00   5.38E-01   1.97E-01  140.
+  120.      30.          5.20E+00   4.64E-01   1.93E-01  140.
+  120.      30.          5.40E+00   3.71E-01   1.93E-01  140.
+  120.      30.          5.60E+00   2.85E-01   1.85E-01  140.
+  120.      30.          5.80E+00   2.22E-01   1.76E-01  140.
+  120.      30.          6.00E+00   1.82E-01   1.81E-01  140.
+  120.      30.          6.20E+00   1.47E-01   1.96E-01  140.
+  120.      30.          6.40E+00   1.06E-01   1.98E-01  140.
+  120.      30.          6.60E+00   5.57E-02   1.84E-01  140.
+  120.      30.          7.80E+00   2.72E-01   2.07E-01  140.
+  120.      30.          8.00E+00   7.01E-01   2.06E-01  140.
+  120.      30.          8.20E+00   1.09E+00   2.12E-01  140.
+  120.      30.          8.40E+00   1.31E+00   2.14E-01  140.
+  120.      30.          8.60E+00   1.31E+00   2.07E-01  140.
+  120.      30.          8.80E+00   1.13E+00   1.88E-01  140.
+  120.      30.          9.00E+00   8.46E-01   1.54E-01  140.
+  120.      30.          9.20E+00   5.61E-01   1.13E-01  140.
+  120.      30.          9.40E+00   3.31E-01   7.34E-02  140.
+  120.      30.          9.60E+00   1.74E-01   4.18E-02  140.
+  120.      30.          9.80E+00   8.19E-02   2.10E-02  140.
+  120.      30.          1.00E+01   3.45E-02   9.33E-03  140.
+  120.      30.          1.02E+01   1.30E-02   3.68E-03  140.
+  120.      30.          1.04E+01   4.41E-03   1.29E-03  140.
+  120.      30.          1.06E+01   1.34E-03   4.03E-04  140.
+  120.      30.          1.08E+01   3.66E-04   1.12E-04  140.
+  120.      30.          1.10E+01   8.94E-05   2.79E-05  140.
+  120.      30.          1.12E+01   1.97E-05   6.47E-06  140.
+  120.      30.          1.14E+01   3.88E-06   1.28E-06  140.
+  120.      30.          1.16E+01   6.86E-07   2.26E-07  140.
+ENDDATA            245
+ENDSUBENT          263
+SUBENT        23055003   20090303   20090508   20090507       2210
+BIB                  5         15
+REACTION   (4-BE-9(N,2N)4-BE-8,,DA/DA,N/N)
+            Double-angle ANG1 and ANG2 differential cross section
+            ANG1 -angle between one emitted neutron and incident
+                   neutron beam.
+            ANG2 - angle between second emitted neutron and
+                   incident neutron beam.
+            ANG-RL - angle between two planes :
+             1) one emitted neutron and incident neutron beam ,
+             2) second emitted neutron and incident neutron beam.
+MISC-COL   (MISC) Cosine of azimuthal angle ANG-RL/2 .
+ANALYSIS   (INTED)
+STATUS     (APRVD) Data received from I.Murata 18.03.2009 .
+                  Data are presented on Fig.6 of reference.
+           (DEP,23055002)
+ERR-ANALYS (ERR-S) Statistical, according to author's comment.
+ENDBIB              15
+COMMON               1          3
+ANG1
+ADEG
+  90.
+ENDCOMMON            3
+DATA                 4         18
+ANG2       DATA       ERR-S      MISC
+ADEG       MB/SR2     MB/SR2     NO-DIM
+  30.      4.26249799 0.32621756 -0.6666667
+  30.      4.84910012 0.30636694 -0.3888889
+  30.      5.37652722 0.41404352  0.
+  30.      4.84910012 0.30636694  0.3888889
+  30.      4.26249799 0.32621756  0.6666667
+  60.      2.48615954 0.31655152 -0.6666667
+  60.      3.96107729 0.36667837 -0.2222222
+  60.      3.96107729 0.36667837  0.2222222
+  60.      2.48615954 0.31655152  0.6666667
+  90.      2.06134638 0.18640958 -0.6666668
+  90.      2.18098606 0.18026313 -0.3888889
+  90.      2.52712687 0.26717563  0.
+  90.      2.18098606 0.18026313  0.3888889
+  90.      2.06134638 0.18640958  0.6666667
+ 120.      1.05531845 0.12325662 -0.6666667
+ 120.      0.99130996 0.10277496 -0.2222222
+ 120.      0.99130996 0.10277496  0.2222222
+ 120.      1.05531845 0.12325662  0.6666667
+ENDDATA             20
+ENDSUBENT           44
+SUBENT        23055004   20090303   20090508   20090507       2210
+BIB                  6         15
+REACTION   (4-BE-9(N,2N)4-BE-8,,DA,N)
+            Angular differential cross section of emitted neutrons
+           as function of COS -cosine of angle of emitted neutron.
+REL-REF    (A,22700001,A.Takahashi+,R,OKTAV-A-87-03,1987)
+ANALYSIS   (INTAD) Integrating of axial double-angular
+                   differential cross section .
+COMMENT     Of author I.Murata. Data units on Fig.7 are mb/sr .
+                        The statistical errors became too small
+            because of integration over angle and energy, other
+            systematic errors became dominant and are taken into
+            account though they were also small.
+STATUS     (APRVD) Data received from I.Murata 18.03.2009 .
+                  Data are presented on Fig.7 of reference.
+           (DEP,23055003)
+ERR-ANALYS (DATA-ERR) Statistical and systematical.
+ENDBIB              15
+NOCOMMON             0          0
+DATA                 3          4
+COS        DATA       DATA-ERR
+NO-DIM     MB/SR      MB/SR
+ 0.866     61.4       1.8
+ 0.5       38.2       1.1
+ 0.        27.9       0.8
+-0.5       17.1       0.5
+ENDDATA              6
+ENDSUBENT           26
+SUBENT        23055005   20161120   20170302   20170214       2255
+BIB                  5         11
+REACTION   (4-BE-9(N,2N)4-BE-8,,SIG)
+ANALYSIS   (INTAD) Integrating of angular differential cross
+                   section .
+REL-REF    (A,22700001,A.Takahashi+,R,OKTAV-A-87-03,1987)
+             383+-6 mb .
+            JENDL-3.3 -344mb, ENDF/B-VI - 340 mb .
+STATUS     (TABLE) Table 1 of reference.
+           (DEP,23055004) Angular distribution.
+           Previous value 418+-5.4 mb in S,JAEA-C-2005-009,95,2006
+ERR-ANALYS (DATA-ERR) Statistical + systematical, see author's
+                      comment in Subent 004.
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 387.       11.
+ENDDATA              3
+ENDSUBENT           19
+ENDENTRY             5

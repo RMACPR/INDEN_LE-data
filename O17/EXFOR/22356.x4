@@ -1,0 +1,128 @@
+ENTRY            22356   20180416   20180903   20180809       2266
+SUBENT        22356001   20180416   20180903   20180809       2266
+BIB                 14         32
+TITLE      Measurement of the 16O(n,g)17O reaction cross section
+            at stellar energy and the critical role of nonresonant
+            p-wave neutron capture
+AUTHOR     (M.Igashira, Y.Nagai, K.Masuda, T.Ohsaki, H.Kitazawa)
+INSTITUTE  (2JPNTIT)
+REFERENCE  (J,AJ,441,L89,1995)
+           (C,94AQUI,,201,1994) (n,g0) and (n,g1) at 280 keV+MACS.
+            The contents of p202 and p203 must be swapped.
+FACILITY   (VDG,2JPNTIT) 3.2 MV Pelletron Accelerator
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+MONIT-REF  (,P.G.Young,3,ENDF/B-VI,7925,1984)
+           (11679023,R.L.Macklin+,J,PR,159,1007,1967)
+INC-SOURCE (P-LI7)
+SAMPLE     7Li2O (63.7 mm diam., 18.8 mm thick) and standard Au
+METHOD     (TOF)
+DETECTOR   (GLASD) 6Li-glass scintillation detector for TOF
+           (NAICR) Anti-Compton NaI(Tl) detector for prompt gammas
+CORRECTION Corrected for
+            - background gammas from 7Li(n,g0)8Li,
+            - background 2.2 MeV gammas due to 1H(n,g)2H,
+            - multiple scattering effect,
+            - self-shielding of incident neutrons
+STATUS     (APRVD) Approved by Masayuki Igashira (2016-05-15)
+HISTORY    (19971222C) + +  COMPILED BY S.MAEV  + +
+           (19990604A) DATE is corrected
+           (20160423A) M.M. Ref. C,94AQUI,201,1994 was added .
+            Upper -> lower case correction. Subent 005 was added.
+            Two refs.were moved in REL-REF. ERR-T -> DATA-ERR.
+            004 was deleted and moved to 003 under MISC -
+            according to a comment of N.Otsuka (NDS,IAEA).
+           (20160512A) On. Major updates in 002-004. 005 restored.
+           (20180416A) On. Major corrections in 002-004.
+ENDBIB              32
+NOCOMMON             0          0
+ENDSUBENT           35
+SUBENT        22356002   20180416   20180903   20180809       2266
+BIB                  4          7
+REACTION   (8-O-16(N,G)8-O-17,PAR,SIG)
+ERR-ANALYS (DATA-ERR) No information on the source of uncertainty
+STATUS     (TABLE) Table I of Astrophys.J.441(1995)L89
+HISTORY    (20160423A) M.M. E-LVL=0 keV and 871 keV were added
+            instead of LVL-NUMB=0 and 1, respectively.
+           (20160512A) On. EN-MEAN -> EN-MIN/MAX for 6 pts.
+           (20180416A) On. EN-MAX: MEV -> KEV
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          8
+EN-MIN     EN-MAX     EN-MEAN    E-LVL      DATA       DATA-ERR
+KEV        KEV        KEV        MEV        MICRO-B    MICRO-B
+ 10.        30.                   0.          6.0       3.5
+ 10.        30.                   0.871      15.4       4.2
+ 30.        50.                   0.          6.2       1.9
+ 30.        50.                   0.871      20.1       2.8
+ 50.        80.                   0.          7.5       2.9
+ 50.        80.                   0.871      22.0       4.1
+                       280.       0.         30.       30.
+                       280.       0.771      55.       30.
+ENDDATA             10
+ENDSUBENT           22
+SUBENT        22356003   20180416   20180903   20180809       2266
+BIB                  4          8
+REACTION   (8-O-16(N,G)8-O-17,,SIG)
+ERR-ANALYS (DATA-ERR) No information on the source of uncertainty
+STATUS     (TABLE) Table I of Astrophys.J.441(1995)L89
+           (DEP,22356002) partial capture cross sections given
+HISTORY    (20160423A) M.M. RAW was deleted according to comment
+            of N.Otsuka(NDS,IAEA).
+           (20160512A) On. Values under MISC(-ERR) moved to 005.
+           (20180416A) On. EN-MAX: MEV -> KEV
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 5          4
+EN-MIN     EN-MAX     EN-MEAN    DATA       DATA-ERR
+KEV        KEV        KEV        MICRO-B    MICRO-B
+ 10.        30.                   21.4        5.4
+ 30.        50.                   26.3        3.3
+ 50.        80.                   29.5        5.0
+                       280.       85.        42.
+ENDDATA              6
+ENDSUBENT           19
+SUBENT        22356004   20180416   20180903   20180809       2266
+BIB                  6         12
+REACTION   (8-O-16(N,G)8-O-17,,SIG,,MSC)
+            Non-resonant part cross section
+MISC-COL   (MISC) Resonant part calculated by Breit-Wigner one
+            level formula with Gam(gam)=3.65(49) eV,
+            Gam(n)=45(5) keV and Er=434 keV
+REL-REF    (R,22263003,M.Igashira+,J,NP/A,536,285,1992) Gam(gam)
+           (R,,S.F.Mughabghab+,B,NEUT.CS 1A,,,1981) Gam(n) and Er
+ERR-ANALYS (DATA-ERR) No information on the source of uncertainty
+STATUS     (TABLE) Table I of Astrophys.J.441(1995)L89
+           (DEP,22356003) total capture cross sections given
+HISTORY    (20160512S) On.
+           (20180416A) On. EN-MAX: MEV -> KEV
+ENDBIB              12
+NOCOMMON             0          0
+DATA                 6          4
+EN-MIN     EN-MAX     EN-MEAN    DATA       DATA-ERR   MISC
+KEV        KEV        KEV        MICRO-B    MICRO-B    MICRO-B
+ 10.        30.                   20.5        5.2       0.9
+ 30.        50.                   24.8        3.1       1.4
+ 50.        80.                   27.6        4.7       1.9
+                       280.       85.        42.
+ENDDATA              6
+ENDSUBENT           23
+SUBENT        22356005   20160512   20160902   20160829       2250
+BIB                  5          9
+REACTION   (8-O-16(N,G)8-O-17,,SIG,,MXW)
+ANALYSIS   Obtained by fitting measured (n,g0) and (n,g1) cross
+            sections by 1/v and v lows, and addition of the
+            434 keV resonance contribution to the MACS (2 ub).
+REL-REF    (D,10141005,B.J.Allen+,J,PR/C,3,1737,1971)
+            0.2+/-0.1 ub at kT=30 keV
+STATUS     (TABLE) Text (p.L91) of Astrophys.J.441(1995)L89
+HISTORY    (20160423C) M.M.
+           (20160512A) On. Data replaced with the final one.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 2          1
+KT         DATA
+KEV        MICRO-B
+ 30.        34.
+ENDDATA              3
+ENDSUBENT           17
+ENDENTRY             5

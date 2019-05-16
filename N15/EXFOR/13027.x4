@@ -1,0 +1,33 @@
+ENTRY            13027     860402              20050926       0000
+SUBENT        13027001     860402              20050926       0000
+BIB                  9         11
+INSTITUTE  (1USAPSU)
+REFERENCE  (T,SATTLER,5906)
+AUTHOR     (A.R.SATTLER)
+TITLE      AN INVESTIGATION OF THE THERMAL NEUTRON CROSS SECTION
+            FOR THE REACTION N14(N,P)C14 USING NUCLEAR EMULSION
+            TECHNIQUE.
+FACILITY   (REAC) PENN.STATE U. RESEARCH REACTOR
+INC-SOURCE (THCOL)
+DETECTOR   (TRD) NUCLEAR EMULSIONS
+MONITOR    (3-LI-6(N,T)2-HE-4,,SIG)
+HISTORY    (860324C)
+ENDBIB              11
+COMMON               3          3
+EN-DUMMY   MONIT      MONIT-ERR
+EV         B          B
+ 0.0253     945.       13.3
+ENDCOMMON            3
+ENDSUBENT           18
+SUBENT        13027002     860402              20050926       0000
+BIB                  1          1
+REACTION   (7-N-14(N,P)6-C-14,,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.15       0.05
+ENDDATA              3
+ENDSUBENT            9
+ENDENTRY             2

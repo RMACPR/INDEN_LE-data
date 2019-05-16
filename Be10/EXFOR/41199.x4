@@ -1,0 +1,195 @@
+ENTRY            41199     970115              20050926       0000
+SUBENT        41199001     970115              20050926       0000
+BIB                 11         19
+TITLE       THE PRECISE MEASUREMENTS OF INTEGRAL (OVER SPECTRUM
+            OF CF-252) TOTAL NEUTRON CROSS-SECTION AND TRANS-
+            MISSION COEFFICIENTS FOR TESTING OF DIFFERENTIAL
+            TOTAL CROSS-SECTION
+AUTHOR     (B.YA.GUZHOVSKIY,A.N.GREBENNIKOV,V.P.GORELOV,
+           G.G.FARAFONOV,V.S.RUDNEV)
+INSTITUTE  (4RUSEPA)
+REFERENCE  (C,94GATLIN,,254,9405)   DATA ARE GIVEN
+INC-SPECT   CF-252 SPONTANEOUS FISSION NEUTRON SPECTRUM
+INC-SOURCE (CF252)
+DETECTOR   (LONGC)
+MONITOR     ABSOLUTE MEASUREMENTS
+METHOD       TRANSMISSION
+STATUS      DATA ARE TAKEN FROM THE MAIN REFERENCE
+HISTORY    (960724C)  + + COMPILED AT THE CENTRE - CJD + +
+           (961030A)  * * SUBENTS 41199013-41199023 DELETED
+            AS NOT RELEVANT TO THE DATA GIVEN IN THE REFERENCE * *
+                      + + ENTRY CORRECTED IN THE CJD-CENTRE + +
+           (970115U)  * * CORRECTED - REACTION SF8 ADDED
+ENDBIB              19
+COMMON               1          3
+EN-MEAN
+EV
+    1.0E+06
+ENDCOMMON            3
+ENDSUBENT           26
+SUBENT        41199002     970115              20050926       0000
+BIB                  4          5
+REACTION   (4-BE-9(N,TOT),,SIG,,FIS)
+SAMPLE      DIAMETER 20-40 MM, THICKNESS 5-10 MM, DENSITY
+            1.858 GRAM/CM3
+ERR-ANALYS (ERR-S)  STATISTICAL AT THE LEVEL 0.95
+HISTORY    (970115U)  'FIS' ADDED TO REACTION SF8
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+B          B
+   2.802      0.005
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        41199003     970115              20050926       0000
+BIB                  4          5
+REACTION   (6-C-12(N,TOT),,SIG,,FIS)
+SAMPLE      DIAMETER 20-40 MM, THICKNESS 5-10 MM, DENSITY
+            1.717 GRAM/CM3
+ERR-ANALYS (ERR-S)  STATISTICAL AT THE LEVEL 0.95
+HISTORY    (970115U)  'FIS' ADDED TO REACTION SF8
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+B          B
+   2.350      0.003
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        41199004     970115              20050926       0000
+BIB                  4          5
+REACTION   (13-AL-27(N,TOT),,SIG,,FIS)
+SAMPLE      DIAMETER 20-40 MM, THICKNESS 5-10 MM, DENSITY
+            2.697 GRAM/CM3
+ERR-ANALYS (ERR-S)  STATISTICAL AT THE LEVEL 0.95
+HISTORY    (970115U)  'FIS' ADDED TO REACTION SF8
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+B          B
+   3.214      0.005
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        41199005     970115              20050926       0000
+BIB                  4          5
+REACTION   (26-FE-0(N,TOT),,SIG,,FIS)
+SAMPLE      DIAMETER 20-40 MM, THICKNESS 5-10 MM, DENSITY
+            7.865 GRAM/CM3
+ERR-ANALYS (ERR-S)  STATISTICAL AT THE LEVEL 0.95
+HISTORY    (970115U)  'FIS' ADDED TO REACTION SF8
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+B          B
+   3.263      0.005
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        41199006     970115              20050926       0000
+BIB                  4          5
+REACTION   (28-NI-0(N,TOT),,SIG,,FIS)
+SAMPLE      DIAMETER 20-40 MM, THICKNESS 5-10 MM, DENSITY
+            8.870 GRAM/CM3
+ERR-ANALYS (ERR-S)  STATISTICAL AT THE LEVEL 0.95
+HISTORY    (970115U)  'FIS' ADDED TO REACTION SF8
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+B          B
+   3.494      0.024
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        41199007     970115              20050926       0000
+BIB                  4          5
+REACTION   (29-CU-0(N,TOT),,SIG,,FIS)
+SAMPLE      DIAMETER 20-40 MM, THICKNESS 5-10 MM, DENSITY
+            8.923 GRAM/CM3
+ERR-ANALYS (ERR-S)  STATISTICAL AT THE LEVEL 0.95
+HISTORY    (970115U)  'FIS' ADDED TO REACTION SF8
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+B          B
+   3.541      0.018
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        41199008     970115              20050926       0000
+BIB                  4          5
+REACTION   (41-NB-93(N,TOT),,SIG,,FIS)
+SAMPLE      DIAMETER 20-40 MM, THICKNESS 5-10 MM, DENSITY
+            8.500 GRAM/CM3
+ERR-ANALYS (ERR-S)  STATISTICAL AT THE LEVEL 0.95
+HISTORY    (970115U)  'FIS' ADDED TO REACTION SF8
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+B          B
+   5.904      0.006
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        41199009     970115              20050926       0000
+BIB                  4          5
+REACTION   (42-MO-0(N,TOT),,SIG,,FIS)
+SAMPLE      DIAMETER 20-40 MM, THICKNESS 5-10 MM, DENSITY
+            10.208 GRAM/CM3
+ERR-ANALYS (ERR-S)  STATISTICAL AT THE LEVEL 0.95
+HISTORY    (970115U)  'FIS' ADDED TO REACTION SF8
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+B          B
+   5.800      0.025
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        41199010     970115              20050926       0000
+BIB                  4          5
+REACTION   (73-TA-181(N,TOT),,SIG,,FIS)
+SAMPLE      DIAMETER 20-40 MM, THICKNESS 5-10 MM, DENSITY
+            16.600 GRAM/CM3
+ERR-ANALYS (ERR-S)  STATISTICAL AT THE LEVEL 0.95
+HISTORY    (970115U)  'FIS' ADDED TO REACTION SF8
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+B          B
+   6.979      0.007
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        41199011     970115              20050926       0000
+BIB                  4          5
+REACTION   (74-W-0(N,TOT),,SIG,,FIS)
+SAMPLE      DIAMETER 20-40 MM, THICKNESS 5-10 MM, DENSITY
+            19.240 GRAM/CM3
+ERR-ANALYS (ERR-S)  STATISTICAL AT THE LEVEL 0.95
+HISTORY    (970115U)  'FIS' ADDED TO REACTION SF8
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+B          B
+   6.875      0.014
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        41199012     970115              20050926       0000
+BIB                  4          5
+REACTION   (92-U-238(N,TOT),,SIG,,FIS)
+SAMPLE      DIAMETER 20-40 MM, THICKNESS 5-10 MM, DENSITY
+            18.838 GRAM/CM3
+ERR-ANALYS (ERR-S)  STATISTICAL AT THE LEVEL 0.95
+HISTORY    (970115U)  'FIS' ADDED TO REACTION SF8
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+B          B
+   7.754      0.004
+ENDDATA              3
+ENDSUBENT           13
+ENDENTRY            12

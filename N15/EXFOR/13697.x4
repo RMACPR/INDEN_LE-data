@@ -1,0 +1,88 @@
+ENTRY            13697   19980824   19990303   20050926       0000
+SUBENT        13697001   19980824   19990303   20050926       0000
+BIB                 13         26
+INSTITUTE  (1USALTI)
+REFERENCE  (J,NSE,126,168,199706)
+AUTHOR     (P.STAPLES,J.J.EGAN,G.H.R.KEGEL,A.MITTLER)
+TITLE      The 14N(n,n'gamma) Cross Section of the 2.313-MeV
+            First Excited State
+FACILITY   (VDG)
+INC-SOURCE (P-LI7)
+SAMPLE     70.2612-g BN powder sample containing 2.427 nuclide/g
+            of 14N encapsulated in cylindrical plastic container.
+            Cross-sectional area 25.495 cm2.
+DETECTOR   (GELI) Ge(Li) detector shielded by lead embedded in a
+            lithium carbonate and parafin.
+           Shielding, Compton rejection, and TOF used to reduce
+            gamma background.
+MONITOR    (92-U-235(N,F),,SIG)
+CORRECTION Corrected for
+           - finite sample size,
+           - neutron multiple scattering,
+           - neutron and gamma-ray attenuation in sample,
+           - background,
+           - contributions for 2nd neutron group of p-7Li source.
+ERR-ANALYS (EN-ERR) Lithium target thickness uncertainty.
+           (DATA-ERR) Dependent mostly on uncertainty in
+            associated with yield of gamma peak.
+STATUS     (APRVD) Approved by P. Staples 24 August 1998
+HISTORY    (19980810C)
+ENDBIB              26
+COMMON               1          3
+EN-ERR
+KEV
+ 25.
+ENDCOMMON            3
+ENDSUBENT           33
+SUBENT        13697002   19980810   19990303   20050926       0000
+BIB                  2          2
+REACTION   (7-N-14(N,INL)7-N-14,PAR,DA,G)
+STATUS     Data received by email, P. Staples, Aug.10, 1998.
+ENDBIB               2
+COMMON               2          3
+EN         E
+MEV        MEV
+ 3.45      2.313
+ENDCOMMON            3
+DATA                 3         10
+ANG        DATA       DATA-ERR
+ADEG       MB/SR      MB/SR
+ 45.        1.015983   0.044604
+ 55.        0.892083   0.044604
+ 65.        0.817743   0.044604
+ 75.        0.842523   0.044604
+ 85.        0.842523   0.044604
+ 95.        0.842523   0.044604
+105.        0.817743   0.044604
+115.        0.812787   0.044604
+125.        0.991203   0.044604
+135.        0.887127   0.044604
+ENDDATA             12
+ENDSUBENT           23
+SUBENT        13697003   19980810   19990303   20050926       0000
+BIB                  3          3
+REACTION   (7-N-14(N,INL)7-N-14,PAR,DA,,4PI)
+ANALYSIS   (4PI1A)
+STATUS     Data taken from table in article.
+ENDBIB               3
+COMMON               2          3
+E-LVL      ANG
+MEV        ADEG
+ 2.313     125.
+ENDCOMMON            3
+DATA                 3         10
+EN         DATA       DATA-ERR
+MEV        MB         MB
+ 2.65       3.9        1.0
+ 2.75       4.4        1.0
+ 2.85       4.8        0.7
+ 2.95       7.4        1.0
+ 3.05       8.3        1.8
+ 3.15       9.0        1.1
+ 3.25       9.6        1.2
+ 3.35       9.6        1.8
+ 3.45      12.9        1.4
+ 3.55      16.6        3.2
+ENDDATA             12
+ENDSUBENT           24
+ENDENTRY             3

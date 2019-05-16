@@ -1,0 +1,70 @@
+ENTRY            D4289   20140117   20140422   20140411       D093
+SUBENT        D4289001   20140117   20140422   20140411       D093
+BIB                 11         41
+TITLE      Activation measurement of the 3He(a,g)7Be reaction
+           cross section at high energies
+AUTHOR     (C.Bordeanu,Gy.Gyurky,Z.Halasz,T.Szucs,G.G.Kiss,
+           Z.Elekes,J.Farkas,Zs.Fulop,E.Somorjai)
+INSTITUTE  (3HUNDEB)
+REFERENCE  (J,NP/A,908,1,2013) main reference
+           #doi:10.1016/j.nuclphysa.2013.03.012
+           (S,AIP-1491,281,2012) conference presentation
+           #doi:10.1063/1.4764257
+FACILITY   (CYCLO,3HUNDEB)
+SAMPLE     99.95% enriched 3-He. The gas pressure was typically
+           300 mbar.
+DETECTOR   (HPGE)
+METHOD     (ACTIV,EDEG,GSPEC,SITA) Five irradiations were
+           carried out between ?-energies of 4.0 and 6.3 MeV. The
+           beam intensity was between 100 and 250 nA. The length
+           of irradiations varied between 14 and 25 hours.
+           Irradiations were done in Faraday-cup type target
+           chamber. The current integrator counts were recorded
+           in multichannel scaling mode with 1 min time base.
+           Suppressor voltage of -300V was applied.
+           The temperature and pressure of the target gas was
+           monitored. The target window was 1 micron pinhole-free
+           Ni foil. Be7 products were collected on a copper
+           catcher disk which was measured after irradiation on
+           a HPGe detector using 1 cm distance.
+ERR-ANALYS (EN-ERR)The energy of the alpha beam is defined to a
+           precision of 0.3%. Correction for straggling effect,
+           target gas density reduction and energy loss was
+           applied. Uncertainty of effective energy: 0.4-1.1%
+           (ERR-T) The uncertainty of the cross-sections were
+           estimated taking the independent relative errors of
+           contributing components.
+           (ERR-1)surface density of target nuclei(3%),
+           (ERR-2)incident charged particle flux (3%),
+           (ERR-3)detector efficiency (4%)
+           (ERR-4)beam heating (1%)
+           (ERR-S,2.7,3.9)statistical and peak fitting (2.7-3.9%)
+ADD-RES    (COMP) The measured experimental data were compared to
+           those found in the literature.
+HISTORY    (20140117C) ts
+ENDBIB              41
+COMMON               4          3
+ERR-1      ERR-2      ERR-3      ERR-4
+PER-CENT   PER-CENT   PER-CENT   PER-CENT
+3.         3.         4.         1.
+ENDCOMMON            3
+ENDSUBENT           48
+SUBENT        D4289002   20140117   20140422   20140411       D093
+BIB                  3          4
+REACTION  1(2-HE-3(A,G)4-BE-7,,SIG)
+          2(2-HE-3(A,G)4-BE-7,,SIG,,SFC)
+DECAY-DATA (4-BE-7,53.22D,DG,478.,0.1044)
+STATUS     (TABLE)Data were taken from Table3 of the article.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 6          5
+EN-CM      EN-ERR     DATA      1ERR-T     1DATA      2ERR-T     2
+KEV        KEV        MICRO-B    MICRO-B    B*EV       B*EV
+     1473.0      15.0      2.96      0.17      313.0      19.0
+     1791.0      14.0      3.78      0.22      327.0      19.0
+     2115.0      14.0      4.68      0.28      351.0      21.0
+     2338.0      14.0      5.08      0.30      354.0      21.0
+     2527.0      14.0      6.06      0.36      401.0      24.0
+ENDDATA              7
+ENDSUBENT           16
+ENDENTRY             2

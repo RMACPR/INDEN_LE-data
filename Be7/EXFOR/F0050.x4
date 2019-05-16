@@ -1,0 +1,356 @@
+ENTRY            F0050   20141022   20150311   20150310       F057
+SUBENT        F0050001   20141022   20150311   20150310       F057
+BIB                 10         22
+TITLE      States of Be-10 at 17.3 MeV excitation energy.
+AUTHOR     (S.N.Abramovich,L.A.Morkin,V.I.Serov,Yu.V.Strelnikov)
+INSTITUTE  (4RUSEPA)
+REFERENCE  (J,IZV,51,(5),930,1987)
+           (J,BAS,51,(5),92,1987) English translation
+           (R,EPA-60-97,1997) Tables were taken from Preprint.
+METHOD     (BCINT)
+FACILITY   (VDGT,4RUSEPA)
+DETECTOR   (LONGC) For neutron yield.
+           (SIBAR) Alpha-particles were detected by two
+           silicon semiconductor counters about 0.5 cm2 in
+           sensitive area.
+ERR-ANALYS (ERR-1) Uncertainty in the target thickness.
+           (EN-ERR) Accuracy of effective energy of incident
+                    tritons
+STATUS     (APRVD) Approved by authors.
+HISTORY    (19880101C)
+           (19990409A) CNPD: corrected 4-dig. year
+           (20141022A) English translation was added. In sub 002-
+           005 REACTION was changed. Data presentation was
+           changed. Sub 002 was separated into two subentries.
+           Sub 004 was separated into two subentries.
+ENDBIB              22
+COMMON               2          3
+ERR-1      EN-ERR
+PER-CENT   PER-CENT
+  12.0       0.5
+ENDCOMMON            3
+ENDSUBENT           29
+SUBENT        F0050002   20141022   20150311   20150310       F057
+BIB                  4          8
+REACTION   (3-LI-7(T,X)0-NN-1,,DA)
+SAMPLE     Natural LiF (25.7 mu-g/cm2 thick) evaporated onto
+           MO or AU of 20 mm in diam. and 0.3 mm in thick.
+ERR-ANALYS (ERR-S) Statistical error
+           (ERR-2) Uncertainty in the neutron detector efficiency.
+STATUS     (TABLE) Table 1 from preprint.
+           (COREL,F0050006) Data for 26.4 mu-g/cm2 thick target
+                            are given.
+ENDBIB               8
+COMMON               1          3
+ERR-2
+PER-CENT
+       13.0
+ENDCOMMON            3
+DATA                 4         22
+ANG        EN         DATA       ERR-S
+ADEG       KEV        MB/SR      PER-CENT
+         0.      198.5        4.6        2.5
+         0.      214.7        6.4         2.
+         0.      232.0        7.5         2.
+         0.      243.0        8.4         2.
+         0.      252.0        9.0         2.
+         0.      263.1       10.7         2.
+         0.      271.6       10.8         2.
+         0.      282.8       12.1        1.5
+         0.       293.       12.8        1.5
+         0.      312.6       14.8         1.
+         0.      331.2       18.4         1.
+        90.      198.5        3.9        2.5
+        90.      214.7        5.3         2.
+        90.      232.0        6.2         2.
+        90.      243.0        6.4         2.
+        90.      252.0        7.6         2.
+        90.      263.1       10.2         2.
+        90.      271.6        9.4        1.5
+        90.      282.8       10.4        1.5
+        90.       293.       10.6        1.5
+        90.      312.6       11.9         1.
+        90.      331.2       14.3         1.
+ENDDATA             24
+ENDSUBENT           41
+SUBENT        F0050003   20141022   20150311   20150310       F057
+BIB                  4          6
+REACTION   (3-LI-7(T,X)0-NN-1,,DA)
+SAMPLE     Natural LiF (10 - 30 mu-g/cm2 thick) evaporated onto
+           MO or AU of 20 mm in diam. and 0.3 mm in thick.
+ERR-ANALYS (ERR-S) Statistical error
+           (ERR-2) Uncertainty in the neutron detector efficiency.
+STATUS     (TABLE) Table 2 from preprint.
+ENDBIB               6
+COMMON               2          3
+EN         ERR-1
+KEV        PER-CENT
+       192.       13.0
+ENDCOMMON            3
+DATA                 3          7
+ANG        DATA       ERR-S
+ADEG       MB/SR      MB/SR
+         0.        3.5       0.11
+        15.       3.88        0.1
+        30.       3.57        0.1
+        45.       3.47       0.08
+        60.       3.15       0.08
+        75.       3.15       0.09
+        90.       3.02       0.09
+ENDDATA              9
+ENDSUBENT           24
+SUBENT        F0050004   20141022   20150311   20150310       F057
+BIB                  6         10
+REACTION   (3-LI-7(T,A)2-HE-6,PAR,DA)
+SAMPLE     Natural LiF (12.5 mu-g/cm2 thick) evaporated onto
+           MO or AU of 20 mm in diam. and 0.3 mm in thick.
+METHOD     (PHD)
+ERR-ANALYS (ERR-S) Statistical error
+           (ERR-2) Uncertainty in the proton detector efficiency.
+EN-SEC     (E-LVL,2-HE-6)
+STATUS     (TABLE) Table 4 from preprint.
+           (COREL,F0050007) Data for 25.7 mu-g/cm2 thick target
+                            are given.
+ENDBIB              10
+COMMON               2          3
+ANG        ERR-1
+ADEG       PER-CENT
+        90.       10.0
+ENDCOMMON            3
+DATA                 4         24
+E-LVL      EN         DATA       ERR-S
+MEV        KEV        MB/SR      PER-CENT
+         0.       80.8     0.0002        25.
+         0.       92.5    0.00047        20.
+         0.      102.2     0.0008        20.
+         0.      113.1     0.0014       12.5
+         0.       123.     0.0024       11.5
+         0.      134.1     0.0035        10.
+         0.      142.9     0.0057       10.5
+         0.      156.3     0.0088        8.8
+         0.       179.      0.020         4.
+         0.      238.5      0.054        11.
+         0.      238.5      0.061        10.
+         0.      299.4      0.125        7.2
+        1.8       80.8     0.0009        12.
+        1.8       92.5     0.0042        7.2
+        1.8      102.2      0.057         8.
+        1.8      113.1     0.0103        4.6
+        1.8       123.      0.019        4.1
+        1.8      134.1      0.032        3.1
+        1.8      142.9      0.045        3.8
+        1.8      156.3      0.073         3.
+        1.8       179.      0.152        1.5
+        1.8      238.5       0.36        4.2
+        1.8      238.5       0.38        4.2
+        1.8      299.4        0.6         3.
+ENDDATA             26
+ENDSUBENT           45
+SUBENT        F0050005   20141022   20150311   20150310       F057
+BIB                  7          9
+REACTION   (3-LI-7(T,A)2-HE-6,PAR,DA,,REL)
+SAMPLE     Natural LiF (10 - 30 mu-g/cm2 thick) evaporated onto
+           MO or AU of 20 mm in diam. and 0.3 mm in thick.
+COMMENT    No explanation of relative units is given.
+METHOD     (PHD)
+ERR-ANALYS (ERR-S) Statistical error
+           (ERR-2) Uncertainty in the proton detector efficiency.
+EN-SEC     (E-LVL,2-HE-6)
+STATUS     (TABLE) Tables 3,5 from preprint.
+ENDBIB               9
+COMMON               1          3
+ERR-1
+PER-CENT
+  10.0
+ENDCOMMON            3
+DATA                 5         30
+EN         E-LVL      ANG        DATA       ERR-S
+MEV        MEV        ADEG       ARB-UNITS  ARB-UNITS
+      0.151         0.        75.      0.845       0.07
+      0.151         0.        90.         1.       0.09
+      0.151         0.       105.       0.73       0.07
+      0.151         0.       120.       0.68       0.07
+      0.151         0.       135.       0.52       0.06
+      0.151         0.       150.       0.42       0.05
+      0.151         0.       165.       0.22       0.04
+      0.151        1.8        75.       1.03       0.05
+      0.151        1.8        90.         1.       0.05
+      0.151        1.8       105.       0.95       0.05
+      0.151        1.8       120.       1.08       0.05
+      0.151        1.8       135.       0.97       0.05
+      0.151        1.8       150.       1.05       0.05
+      0.151        1.8       165.       1.05       0.05
+     0.2723         0.        60.       0.72      0.035
+     0.2723         0.        75.       1.08       0.04
+     0.2723         0.        90.         1.       0.04
+     0.2723         0.       105.       0.86       0.03
+     0.2723         0.       120.       0.72      0.025
+     0.2723         0.       135.       0.43      0.024
+     0.2723         0.       150.       0.21       0.02
+     0.2723         0.       165.      0.063      0.008
+     0.2723        1.8        60.       0.85       0.02
+     0.2723        1.8        75.       1.18       0.02
+     0.2723        1.8        90.         1.       0.02
+     0.2723        1.8       105.       0.95       0.02
+     0.2723        1.8       120.       1.22       0.02
+     0.2723        1.8       135.       1.09       0.02
+     0.2723        1.8       150.       1.11       0.02
+     0.2723        1.8       165.       1.05       0.02
+ENDDATA             32
+ENDSUBENT           50
+SUBENT        F0050006   20150306   20150311   20150310       F057
+BIB                  5          9
+REACTION   (3-LI-7(T,X)0-NN-1,,DA)
+SAMPLE     Natural LiF (26.4 mu-g/cm2 thick) evaporated onto
+           MO or AU of 20 mm in diam. and 0.3 mm in thick.
+ERR-ANALYS (ERR-S) Statistical error
+           (ERR-2) Uncertainty in the neutron detector efficiency.
+STATUS     (TABLE) Table 1 from preprint.
+           (COREL,F0050002) Data for 25.7 mu-g/cm2 thick target
+                            are given.
+HISTORY    (20150306C)
+ENDBIB               9
+COMMON               1          3
+ERR-2
+PER-CENT
+       13.0
+ENDCOMMON            3
+DATA                 4         50
+ANG        EN         DATA       ERR-S
+ADEG       KEV        MB/SR      PER-CENT
+         0.      132.5       0.59         8.
+         0.      142.7       0.96         8.
+         0.      152.7       1.44         7.
+         0.      162.6       1.85         6.
+         0.      172.6       2.13         4.
+         0.      182.5       3.00         3.
+         0.      192.0       3.92         3.
+         0.      192.0       3.67         2.
+         0.      201.9       5.50         2.
+         0.      201.9       4.37         2.
+         0.      212.0       5.50         2.
+         0.      221.9       6.27         2.
+         0.      221.9       6.94         2.
+         0.      227.0       6.84         2.
+         0.      232.0       7.16        1.5
+         0.      232.0       6.66         2.
+         0.      237.7       6.95        1.5
+         0.      241.6       6.41        1.5
+         0.      241.6       7.47        1.5
+         0.      246.5      10.15         1.
+         0.      251.1       8.28        1.5
+         0.      261.3      10.45         1.
+         0.      261.3      10.65         1.
+         0.      270.7      10.97         1.
+         0.      282.6      12.68         1.
+        90.      132.5       0.69         8.
+        90.      132.5       0.58         8.
+        90.      142.7       1.07         8.
+        90.      152.7       1.18         7.
+        90.      162.6       1.96         6.
+        90.      172.6       2.30         4.
+        90.      182.5       3.26         3.
+        90.      192.0       4.15         2.
+        90.      192.0       4.01         2.
+        90.      201.9       4.59         2.
+        90.      212.0       5.50         2.
+        90.      221.9       6.95         2.
+        90.      221.9       6.54         2.
+        90.      227.0       6.95         2.
+        90.      232.0       7.37        1.5
+        90.      232.0       6.54         2.
+        90.      237.7       7.06        1.5
+        90.      241.6       7.47        1.5
+        90.      241.6       7.68        1.5
+        90.      246.5       7.99         1.
+        90.      251.1       8.51        1.5
+        90.      261.3       9.96         1.
+        90.      261.3      10.17         1.
+        90.      270.7      11.00         1.
+        90.      282.6      12.25         1.
+ENDDATA             52
+ENDSUBENT           70
+SUBENT        F0050007   20150306   20150311   20150310       F057
+BIB                  7         11
+REACTION   (3-LI-7(T,A)2-HE-6,PAR,DA)
+SAMPLE     Natural LiF (25.7 mu-g/cm2 thick) evaporated onto
+           MO or AU of 20 mm in diam. and 0.3 mm in thick.
+METHOD     (PHD)
+ERR-ANALYS (ERR-S) Statistical error
+           (ERR-2) Uncertainty in the proton detector efficiency.
+EN-SEC     (E-LVL,2-HE-6)
+STATUS     (TABLE) Table 4 from preprint.
+           (COREL,F0050004) Data for 12.5 mu-g/cm2 thick target
+                            are given.
+HISTORY    (20150306C)
+ENDBIB              11
+COMMON               2          3
+ANG        ERR-1
+ADEG       PER-CENT
+        90.       10.0
+ENDCOMMON            3
+DATA                 4         59
+E-LVL      EN         DATA       ERR-S
+MEV        KEV        MB/SR      PER-CENT
+         0.       129.      0.003        11.
+         0.       151.     0.0085        7.5
+         0.      176.9      0.019         4.
+         0.       177.      0.017         5.
+         0.      191.7      0.023        4.2
+         0.      201.7      0.027         2.
+         0.      211.6      0.033         5.
+         0.      221.2      0.042        4.2
+         0.      232.7      0.046        3.8
+         0.      232.7      0.045        6.5
+         0.      241.5      0.061        3.5
+         0.      241.5      0.057        3.7
+         0.      254.9     0.0067        3.3
+         0.      254.9      0.064        3.7
+         0.      261.1      0.081        3.3
+         0.      261.1      0.078        3.2
+         0.      269.5      0.090        4.2
+         0.      271.8      0.097         3.
+         0.      282.3      0.108         3.
+         0.      282.3      0.104         4.
+         0.      293.5      0.135         4.
+         0.      318.8      0.179        3.6
+         0.      339.5      0.183        3.6
+         0.      365.8      0.268         3.
+         0.      396.3      0.329         3.
+         0.      442.3      0.453         4.
+         0.      442.3      0.447        1.5
+         0.       460.      0.522         4.
+         0.      476.3      0.556         4.
+         0.      493.6       0.58         4.
+        1.8       129.      0.025        2.5
+        1.8       151.      0.069        2.5
+        1.8      176.9      0.166        1.7
+        1.8       177.      0.133        1.7
+        1.8      191.7      0.200        1.4
+        1.8      201.7      0.222         1.
+        1.8      211.6       0.23         2.
+        1.8      221.2       0.28        1.7
+        1.8      232.7       0.36        2.8
+        1.8      232.7       0.34        1.7
+        1.8      241.5       0.36        1.7
+        1.8      241.5       0.42        1.4
+        1.8      254.9       0.43        1.5
+        1.8      254.9       0.44        1.4
+        1.8      261.1       0.48        1.3
+        1.8      261.1       0.50        1.4
+        1.8      269.5       0.59        1.7
+        1.8      271.8       0.53        1.5
+        1.8      282.3       0.59         2.
+        1.8      282.3       0.61        1.5
+        1.8      293.5       0.69         2.
+        1.8      318.8       0.79         2.
+        1.8      339.5       0.85         2.
+        1.8      365.8       1.01        1.5
+        1.8      396.3       1.11        1.5
+        1.8      442.3       1.19         1.
+        1.8      442.3       1.26         3.
+        1.8       460.       1.32         3.
+        1.8      476.3       1.29         3.
+ENDDATA             61
+ENDSUBENT           81
+ENDENTRY             7

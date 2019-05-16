@@ -1,0 +1,294 @@
+ENTRY            40229   20151208   20160302   20160210       4173
+SUBENT        40229001   20151208   20160302   20160210       4173
+BIB                 11         25
+INSTITUTE  (4RUSLEB) Fiz.Inst.Lebedev (FIAN),Moskva
+REFERENCE  (J,SNP,9,546,1969) Eng.transl.of YF,9,(5),933,1969
+           (J,YF,9,(5),933,1969) Numerical data are given
+AUTHOR     (E.M.Burymov)
+TITLE      Cross-section for excitation of O-16, Al-27, Cr-52 and
+           Zn-64,66,68 levels by 14.6-MeV neutrons
+REL-REF    (M,,B.A.Benetskii+,J,ZET,45,927,1963)
+            Method and exp.geometry details.
+           (M,,B.A.Benetskii+,J,JET,18,640,1964)
+            Engl.translation of ZET,45,927,1963
+INC-SOURCE (D-T) Deuteron-tritium .
+            T-Zr target, 1.2-MeV deuterons.
+METHOD     Method is based on comparison of intensities of gammas
+           from scattering with gammas from activation
+           measurements with same neutron flux and final nucleus
+DETECTOR   (SCIN) Scintillation detector
+PART-DET   (G) Gammas
+ERR-ANALYS (DATA-ERR) Not explained.
+HISTORY    (19741010C) Data compiled at the centre
+           (20150208A) SD: Updated to new date formats,lower case.
+            Ref. on Engl.transl. of YF added.
+           (20151208A) M.M. Article was checked, BIB information
+           was updated in TITLE,STATUS,REL-REF,ANALYSIS
+           Data values were corrected as given in Tables mentioned
+           in STATUS.
+ENDBIB              25
+COMMON               1          3
+EN
+MEV
+ 14.6
+ENDCOMMON            3
+ENDSUBENT           32
+SUBENT        40229002   20151208   20160302   20160210       4173
+BIB                  4          7
+REACTION   (8-O-16(N,INL)8-O-16,,SIG)
+ANALYSIS   Area of peak coincidence, total absorption peak, and
+           absorption of one annihilation photon peak, were used.
+MONITOR    (8-O-16(N,P)7-N-16,,SIG)
+STATUS     (TABLE) Table II of YF,9,(5),933,1969
+           (COREL,40229003) Other analysis data
+           (COREL,40229004) Other analysis data
+ENDBIB               7
+COMMON               2          3
+MONIT      MONIT-ERR
+MB         MB
+ 40.        2.
+ENDCOMMON            3
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 240.        16.
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        40229003   20151208   20160302   20160210       4173
+BIB                  4         11
+REACTION   (8-O-16(N,INL)8-O-16,,SIG)
+ANALYSIS   Area of peak coincidence with absorption of one
+           annihilation photon was used for cross-section
+           determination.
+           With absorption of one annihilation photon for
+           cross section determination
+MONITOR    (8-O-16(N,P)7-N-16,,SIG)
+            see common-section
+STATUS     (TABLE) Table II of YF,9,(5),933,1969
+           (COREL,40229002) Other analysis data
+           (COREL,40229004) Other analysis data
+ENDBIB              11
+COMMON               2          3
+MONIT      MONIT-ERR
+MB         MB
+ 40.        2.
+ENDCOMMON            3
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 226.       23.
+ENDDATA              3
+ENDSUBENT           23
+SUBENT        40229004   20151208   20160302   20160210       4173
+BIB                  4          7
+REACTION   (8-O-16(N,INL)8-O-16,,SIG)
+ANALYSIS   Peak coincidence area used for cross-section
+           determination.
+MONITOR    (8-O-16(N,P)7-N-16,,SIG)
+STATUS     (TABLE) Table II of YF,9,(5),933,1969
+           (COREL,40229002) Other analysis data
+           (COREL,40229003) Other analysis data
+ENDBIB               7
+COMMON               2          3
+MONIT      MONIT-ERR
+MB         MB
+ 40.        2.
+ENDCOMMON            3
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 256.       26.
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        40229005   20151208   20160302   20160210       4173
+BIB                  5          9
+REACTION   (8-O-16(N,INL)8-O-16,,SIG,,AV)
+MONITOR    (8-O-16(N,P)7-N-16,,SIG)
+ANALYSIS   Cross-section is average of three values determined by
+           different methods - see data of subentries 002,003,004
+STATUS     (TABLE) Table I of YF,9,(5),933,1969
+           (DEP,40229002) see COMMENT
+           (DEP,40229003)
+           (DEP,40229004)
+HISTORY    (20150206U) SD: STATUS DEP was added.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT      MONIT-ERR
+MB         MB         MB         MB
+ 240.       7.         40.        2.
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        40229006   20151208   20160302   20160210       4173
+BIB                  4          7
+REACTION   (8-O-16(N,INL)8-O-16,PAR,SIG,G)
+ANALYSIS   Area of peak coincidence with absorption of one
+           annihilation photon was used for cross-section
+           determination.
+MONITOR    (8-O-16(N,P)7-N-16,,SIG)
+STATUS     (TABLE) Table II of YF,9,(5),933,1969
+           (COREL,40229008) Other analysis data
+ENDBIB               7
+COMMON               3          3
+MONIT      MONIT-ERR  E
+MB         MB         MEV
+ 40.        2.         6.1
+ENDCOMMON            3
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 164.       20.
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        40229007   20151208   20160302   20160210       4173
+BIB                  4          6
+REACTION   (8-O-16(N,INL)8-O-16,PAR,SIG,G)
+ANALYSIS   Area of peak coincidence with absorption of one
+           annihilation photon was used for cross-section
+           determination.
+MONITOR    (8-O-16(N,P)7-N-16,,SIG)
+STATUS     (TABLE) Table II of YF,9,(5),933,1969
+ENDBIB               6
+COMMON               4          3
+MONIT      MONIT-ERR  E-MIN      E-MAX
+MB         MB         MEV        MEV
+ 40.        2.         6.9        7.1
+ENDCOMMON            3
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 62.        11.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        40229008   20151208   20160302   20160210       4173
+BIB                  4          7
+REACTION   (8-O-16(N,INL)8-O-16,PAR,SIG,G)
+ANALYSIS   Area of peak coincidence with absorption of one
+           annihilation photon was used for cross-section
+           determination.
+MONITOR    (8-O-16(N,P)7-N-16,,SIG)
+STATUS     (TABLE) Table II of YF,9,(5),933,1969
+           (COREL,40229006) Other analysis data
+ENDBIB               7
+COMMON               3          3
+MONIT      MONIT-ERR  E
+MB         MB         MEV
+ 40.        2.         6.1
+ENDCOMMON            3
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 194.       24.
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        40229009   20151208   20160302   20160210       4173
+BIB                  3          3
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,SIG,G)
+MONITOR    (13-AL-27(N,P)12-MG-27,,SIG)
+STATUS     (TABLE) Table I of YF,9,(5),933,1969
+ENDBIB               3
+COMMON               3          3
+MONIT      MONIT-ERR  E
+MB         MB         MEV
+ 76.        3.         0.84
+ENDCOMMON            3
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 92.        24.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40229010   20151208   20160302   20160210       4173
+BIB                  3          3
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,SIG,G)
+MONITOR    (13-AL-27(N,P)12-MG-27,,SIG)
+STATUS     (TABLE) Table I of YF,9,(5),933,1969
+ENDBIB               3
+COMMON               3          3
+MONIT      MONIT-ERR  E
+MB         MB         MEV
+ 76.        3.         1.01
+ENDCOMMON            3
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 190.       60.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40229011   20151208   20160302   20160210       4173
+BIB                  3          3
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,SIG,G)
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+STATUS     (TABLE) Table I of YF,9,(5),933,1969
+ENDBIB               3
+COMMON               3          3
+MONIT      MONIT-ERR  E
+MB         MB         MEV
+ 116.       1.         2.21
+ENDCOMMON            3
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 130.       30.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40229012   20151208   20160302   20160210       4173
+BIB                  5         10
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,SIG,G)
+ANALYSIS    Sum for three gamma lines of 0.84, 1.01, 2.21 keV.
+COMMENT    Independent data see subentries 9,10,11
+STATUS     (TABLE) Table I of YF,9,(5),933,1969
+           (DEP,40229009)  see COMMENT
+           (DEP,40229010)
+           (DEP,40229011)
+HISTORY    (20150206U) SD: STATUS DEP was added.
+           (20151204A) M.M. MONITOR and MONIT were deleted -
+           see monitors in Subents 009,010,011.
+ENDBIB              10
+COMMON               2          3
+E-MIN      E-MAX
+MEV        MEV
+ 0.84        2.21
+ENDCOMMON            3
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 410.       110.
+ENDDATA              3
+ENDSUBENT           22
+SUBENT        40229013   20151208   20160302   20160210       4173
+BIB                  3          3
+REACTION   (24-CR-52(N,INL)24-CR-52,PAR,SIG,G)
+MONITOR    (24-CR-52(N,P)23-V-52,,SIG)
+STATUS     (TABLE) Table I of YF,9,(5),933,1969
+ENDBIB               3
+COMMON               3          3
+MONIT      MONIT-ERR  E
+MB         MB         MEV
+ 100.       4.         1.4
+ENDCOMMON            3
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 1140.      240.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40229014   20151208   20160302   20160210       4173
+BIB                  4          4
+REACTION   (30-ZN-0(N,INL)30-ZN-0,PAR,SIG,G)
+MONITOR    (30-ZN-66(N,P)29-CU-66,,SIG)
+STATUS     (TABLE) Table I of YF,9,(5),933,1969
+HISTORY    (20151204A) M.M. E-MIN/MAX -> E
+ENDBIB               4
+COMMON               3          3
+MONIT      MONIT-ERR  E
+MB         MB         MEV
+ 72.        4.         1.0
+ENDCOMMON            3
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 470.       220.
+ENDDATA              3
+ENDSUBENT           16
+ENDENTRY            14

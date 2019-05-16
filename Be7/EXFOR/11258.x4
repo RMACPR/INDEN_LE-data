@@ -1,0 +1,133 @@
+ENTRY            11258     800820              20050926       0000
+SUBENT        11258001     800820              20050926       0000
+BIB                  7         10
+INSTITUTE  (1USACOL)
+REFERENCE  (R,CP-2269,4410)
+AUTHOR     (L.J.RAINWATER,W.W.HAVENS JR)
+TITLE      THE SLOW NEUTRON TRANSMISSION OF BE METAL AS MEASURED
+            BY A NEUTRON BEAM SPECTROMETER IN THE ENERGY REGION
+            0.004 EV TO 50 EV.
+METHOD     (TOF).
+STATUS     (SCSRS)
+HISTORY    (760929T) TRANSLATED FROM SCISRS
+           (800820A) CONVERTED TO REACTION FORMALISM
+ENDBIB              10
+NOCOMMON             0          0
+ENDSUBENT           13
+SUBENT        11258002     800820              20050926       0000
+BIB                  2          2
+REACTION   (4-BE-9(N,TOT),,SIG)
+SAMPLE     SAMPLE THICKNESS 4.15 GM/CM**2.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2         29
+EN         DATA
+ANGSTROM   B
+ 1.047      5.05
+ 0.980      5.39
+ 0.912      5.52
+ 0.846      5.78
+ 0.776      5.78
+ 0.707      5.85
+ 0.637      5.90
+ 0.567      6.10
+ 0.494      6.04
+ 0.421      6.12
+ 0.421      6.15
+ 0.384      6.18
+ 0.348      6.12
+ 0.348      6.06
+ 0.311      6.04
+ 0.274      6.00
+ 0.237      6.02
+ 0.201      6.18
+ 0.164      6.10
+ 0.128      6.19
+ 0.091      6.10
+ 0.0842     6.50
+ 0.0696     6.20
+ 0.055      6.01
+ 0.0550     5.98
+ 0.0403     5.98
+ 0.0257     5.81
+ 0.019      5.33
+ 0.0111     5.13
+ENDDATA             31
+ENDSUBENT           38
+SUBENT        11258003     800820              20050926       0000
+BIB                  2          2
+REACTION   (4-BE-9(N,TOT),,SIG)
+SAMPLE     SAMPLE THICKNESS 8.30 GM/CM**2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2         16
+EN         DATA
+ANGSTROM   B
+ 1.946      3.03
+ 1.852      3.33
+ 1.779      3.56
+ 1.706      3.69
+ 1.663      3.67
+ 1.559      3.69
+ 1.486      3.82
+ 1.413      4.00
+ 1.340      4.20
+ 1.257      4.56
+ 1.194      4.60
+ 1.120      4.71
+ 1.047      4.89
+ 0.980      5.03
+ 0.912      5.22
+ 0.846      5.19
+ENDDATA             18
+ENDSUBENT           25
+SUBENT        11258004     800820              20050926       0000
+BIB                  2          2
+REACTION   (4-BE-9(N,TOT),,SIG)
+SAMPLE     SAMPLE THICKNESS 12.45 GM/CM**2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2         38
+EN         DATA
+ANGSTROM   B
+ 4.783      0.60
+ 4.636      0.58
+ 4.469      0.65
+ 4.342      0.63
+ 4.196      0.63
+ 4.049      0.64
+ 3.903      0.79
+ 3.756      0.83
+ 3.610      0.97
+ 3.463      1.34
+ 3.317      1.99
+ 3.171      1.99
+ 3.024      2.01
+ 2.878      2.04
+ 2.731      2.14
+ 2.585      2.33
+ 2.438      2.34
+ 2.292      2.36
+ 2.145      2.42
+ 2.072      2.44
+ 1.999      2.74
+ 1.926      3.04
+ 1.851      3.28
+ 1.779      3.36
+ 1.706      3.46
+ 1.633      3.52
+ 1.559      3.60
+ 1.486      3.64
+ 1.413      3.89
+ 1.340      4.00
+ 1.267      4.23
+ 1.194      4.30
+ 1.120      4.38
+ 1.017      4.53
+ 0.980      4.76
+ 0.912      4.76
+ 0.776      5.42
+ 0.707      5.45
+ENDDATA             40
+ENDSUBENT           47
+ENDENTRY             4

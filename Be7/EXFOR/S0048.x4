@@ -1,0 +1,79 @@
+ENTRY            S0048   20110929   20120702   20120622       S015
+SUBENT        S0048001   20110929   20120702   20120622       S015
+BIB                 12         20
+TITLE      Measurement of 2H(8Li,9Be)n reaction relevant to
+            primordial nucleosynthesis
+AUTHOR     (Zeng Sheng, Liu Wei-Ping, Li Zhi-Hong, Bai Xi-Xiang,
+            Yan Sheng-Quan, Wang Bao-Xiang, Lian Gang, Su Jun)
+INSTITUTE  (3CPRAEP)
+REFERENCE  (J,CPL,22,2219,2005) Main reference.
+           (J,CPL,23,(1),55,2006) Same data given.
+FACILITY   (VDGT,3CPRAEP) Secondary beam facility GIRAFFE of the
+            HI-13 tandem accelerator at CIAE
+DETECTOR   (TELES,SI,SI)
+METHOD     (EDE)
+SAMPLE      (CD2)n target with a thickness of 1.5 mg/cm2
+INC-SOURCE  A 44-MeV 7Li beam from the tandem impinged on a D2
+             gas cell at a pres-sure of 1.5 atm, produced 8Li
+             ions through the 2H(7Li,8Li)1H reaction
+ERR-ANALYS (DATA-ERR) Mainly statistical error of the measurement
+STATUS     (APRVD) Approved by Zeng Sheng in June 8,2009
+HISTORY    (20060701C) Compiled by Yu Hongwei
+           (20090615A) Re-compiled by Yu Hongwei
+           (20110929U) Update REFERENCE by Guochang CHEN (CNDC)
+ENDBIB              20
+COMMON               1          3
+E-LVL
+MEV
+ 0.0
+ENDCOMMON            3
+ENDSUBENT           27
+SUBENT        S0048002   20091022   20091029   20091028       S013
+BIB                  2          3
+REACTION   ((1-H-2(3-LI-8,N)4-BE-9,PAR,DA,RSD)=
+           (3-LI-8(D,N)4-BE-9,PAR,DA))
+STATUS     (TABLE) Data taken from Zeng Sheng
+ENDBIB               3
+COMMON               1          3
+EN-CM
+MEV
+ 8.1
+ENDCOMMON            3
+DATA                 4          3
+ANG-CM     ANG-ERR    DATA-CM    DATA-ERR
+ADEG       ADEG       MB/SR      MB/SR
+ 28.0329    7.60683    1.29485    0.43162
+ 42.94323   5.42383    0.97297    0.36775
+ 55.17258   4.76947    0.6557     0.29324
+ENDDATA              5
+ENDSUBENT           17
+SUBENT        S0048003   20091022   20091029   20091028       S013
+BIB                  3          5
+REACTION   ((1-H-2(3-LI-8,N)4-BE-9,PAR,SIG)=
+           (3-LI-8(D,N)4-BE-9,PAR,SIG))
+STATUS     (TABLE) Table 2 of J,CPL,22,2219,2005
+           (DEP,S0048002) Angular distribution
+ANALYSIS   (INTAD)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 4          1
+EN-CM      EN-ERR     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 8.1        0.5        9.0        3.4
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        S0048004   20091022   20091029   20091028       S013
+BIB                  2          4
+REACTION   ((1-H-2(3-LI-8,N)4-BE-9,PAR,SIG,,SFC)=
+           (3-LI-8(D,N)4-BE-9,PAR,SIG,,SFC))
+STATUS     (TABLE) Table 2 of J,CPL,22,2219,2005
+           (DEP,S0048003) Cross section
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+EN-CM      EN-ERR     DATA       DATA-ERR
+MEV        MEV        B*KEV      B*KEV
+8.1        0.5         272.       103.
+ENDDATA              3
+ENDSUBENT           12
+ENDENTRY             4

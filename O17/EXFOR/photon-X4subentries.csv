@@ -1,0 +1,4 @@
+subentry,X4file,target,reaction,measure,description,ENmin,ENmax,rows,uncertainties,authors,year,reference
+"L0049003","L0049.x4","O-17","G,N","CS","(( Cross section for 17O(gamma,n)16O )+( Cross section for 17O(gamma,n+p)15N ))","8.507","39.728","120"," ","J.W.Jury,B.L.Berman,D.D.Faul,P.Meyer,J.G.Woodworth","1980","Physical Review,Part C,Nuclear Physics 21,503 (1980)"
+"L0049004","L0049.x4","O-17","G,2N","CS","(( Cross section for 17O(gamma,2n)15O )+( Cross section for 17O(gamma,2n+p)14N ))","19.366","39.728","59"," ","J.W.Jury,B.L.Berman,D.D.Faul,P.Meyer,J.G.Woodworth","1980","Physical Review,Part C,Nuclear Physics 21,503 (1980)"
+"L0196002","L0196.x4","O-17","G,N","DA","Differential c/s with respect to angle for 17O(gamma,n)16O","4.3669","6.7577","369"," ","R.J.Holt,H.E.Jackson,R.M.Laszewski,J.E.Monahan,J.R.Specht","1978","Physical Review,Part C,Nuclear Physics 18,1962 (1978); 3.Symp.Neutr.Capt.Gamma Ray Spectr.,Brookhaven 1978 ,629 (1978)"

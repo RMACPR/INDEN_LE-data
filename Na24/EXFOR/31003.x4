@@ -1,0 +1,134 @@
+ENTRY            31003   20150407   20150604   20150513       3169
+SUBENT        31003001   20150407   20150604   20150513       3169
+BIB                 15         32
+TITLE      Determination of activation cross sections of
+            short-lived isomers for thermal neutrons
+AUTHOR     (K.F.Alexander, H.F.Brinckmann)
+INSTITUTE  (3DDRROS)
+REFERENCE  (J,ADP,12,225,1963) in German
+           (J,PL,4,302,1963) Same 115In(n,g)116mIn data given
+           (R,ZFK-RN-23,1964) Compilation of some neutron cross
+            section measurements at the Rossendorf research
+            reactor. The same data.
+FACILITY   (CHOPS,3DDRROS)
+INC-SOURCE (REAC)
+INC-SPECT  Thermal neutrons
+METHOD     (ACTIV)
+PART-DET   (DG)
+SAMPLE     Cylindrical target holders made from Al foils,
+            3 cm diameter. Either elements or oxides.
+DETECTOR   (NAICR)
+MONITOR    (5-B-10(N,A)3-LI-7,PAR,SIG,G,A)
+CORRECTION Corrections were performed for:
+            - detector efficiency,
+            - peak-to-total ratio,
+            - detector shielding,
+            - gamma and neutron self-absorption inside sample,
+            - saturation activity,
+            - fluorescence yield and escape peak.
+STATUS     (TABLE) Ann.Physik 12,(1963)225
+HISTORY    (19771115T) Converted from EXFOR 70003
+           (20090912A) OS. Recompiled from orig. reference.
+            Subentries 7, 8 added. Status SCSRS replaced
+           (20140925A) On. MONITOR revised. 002 updated.
+           (20141120U) On. J,PL,4,302,1963 added.
+           (20150327U) VS. P,ZFK-RN-23,1964 added.
+ENDBIB              32
+COMMON               3          3
+EN-DUMMY   E-NRM      MONIT
+EV         KEV        B
+ 0.0253     478.       762.
+ENDCOMMON            3
+ENDSUBENT           39
+SUBENT        31003002   20140925   20141203   20141125       3166
+BIB                  4          7
+REACTION   (11-NA-23(N,G)11-NA-24-L,,SIG,,MXW)
+DECAY-DATA (11-NA-24-L,20.3MSEC,DG,472.)
+COMMENT    By compiler (2014-09-25):
+            It is assumed that +/-0.3 barn in p.241 is typo, and
+            +/-0.03 barn in the abstract is correct.
+            See also p2 of report ZfK-RN-23 (1964).
+HISTORY    (20140925A) On. REACTION, DECAY-DATA: -L added
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   ERR-HL
+B          B          SEC
+ 0.40       0.03       0.2
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        31003003   20090920   20100128   20100126       3142
+BIB                  2          2
+REACTION   (31-GA-71(N,G)31-GA-72-L,,SIG,,MXW)
+DECAY-DATA (31-GA-72-L,36.MSEC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   ERR-HL
+B          B          SEC
+ 1.5000E-01 5.0000E-02    1.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        31003004   20090920   20100128   20100126       3142
+BIB                  2          2
+REACTION   (32-GE-70(N,G)32-GE-71-L,,SIG,,MXW)
+DECAY-DATA (32-GE-71-L,20.MSEC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   ERR-HL
+B          B          MSEC
+ 2.8000E-01 7.0000E-02    0.6
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        31003005   20090920   20100128   20100126       3142
+BIB                  2          2
+REACTION   (34-SE-76(N,G)34-SE-77-M,,SIG,,MXW)
+DECAY-DATA (34-SE-77-M,17.7SEC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   ERR-HL
+B          B          SEC
+ 2.2000E+01 3.0000E+00   0.03
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        31003006   20090920   20100128   20100126       3142
+BIB                  2          2
+REACTION   (49-IN-115(N,G)49-IN-116-M,,SIG,,MXW)
+DECAY-DATA (49-IN-116-M,2.16SEC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   ERR-HL
+B          B          SEC
+ 9.2000E+01 1.4000E+01   0.02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        31003007   20091020   20100128   20100126       3142
+BIB                  3          3
+REACTION   (68-ER-166(N,G)68-ER-167-M,,SIG,,MXW)
+DECAY-DATA (68-ER-167-M,2.27SEC)
+HISTORY    (20091005C) OS
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   ERR-HL
+B          B          SEC
+ 1.5000E+01 2.0000E+00   0.05
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        31003008   20091020   20100128   20100126       3142
+BIB                  3          3
+REACTION   (70-YB-174(N,G)70-YB-175-L,,SIG,,MXW)
+DECAY-DATA (70-YB-175-L,67.MSEC)
+HISTORY    (20091005C) OS
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   ERR-HL
+B          B          MSEC
+ 4.6000E+01 4.0000E+00    1.
+ENDDATA              3
+ENDSUBENT           11
+ENDENTRY             8

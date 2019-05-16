@@ -1,0 +1,359 @@
+ENTRY            O1777   20090805   20100128   20100120       O040
+SUBENT        O1777001   20090805   20100128   20100120       O040
+BIB                 14         34
+TITLE      Elastic scattering of 11.6 MeV vector polarized
+           deuterons by N-14, O-16, Ne-20 and Ne-22.
+AUTHOR     (R.C.Brown, J.A.R.Griffith, O.Karban, L.Mesko,
+           J.M.Nelson, S.Roman)
+INSTITUTE  (2UK BIR)
+REFERENCE  (J,NP/A,207,456,1973)
+REL-REF    (R,D0250001,J.A.R.Griffith+,J,NP/A,146,193,1970)
+            Experimental method
+           (R,F0736001,R.C.Brown+,J,NP/A,185,49,1972)
+             The method of monitoring the beam polarization.
+           (R,F0221001,W.Fitz+,J,NP/A,101,449,1967) The
+           differential cross section data at 11.8 MeV for
+           N-14(d,el) and O-16(d,el)( and fig.1 present entry)
+           (R,C1069001,K.W.Corrigan+,J,NP/A,188,164,1972)
+           Differential cross section and vector analysing power
+           of O-16(d,d) scattering at 9.3 and 13.3 MeV( and fig.4
+           present entry)
+FACILITY   (CYCLO,2UK BIR) the Radial Ridge cyclotron
+SAMPLE     The natural N-14 and O-16 or enriched Ne-20 and Ne-22
+           gases were contained in a gas cell 6 cm in diameter.
+           The gas cell had a 50 mum thick Melinex entrance
+           window.
+           The enrichment of the Ne-20 and Ne-22 gases was 99.98
+           and 99.8, respectively.
+INC-SOURCE (POLIS)
+METHOD     (BCINT)
+           (EDE)
+DETECTOR   (TELES,SIBAR,SIBAR) Six silicon surface-barrier dE-E
+           telescopes.
+ADD-RES    (COMP).DWBA calculations.
+ERR-ANALYS (ERR-DIG).Digitizing error of data.
+           (ANG-ERR-D).Digitizing error of angle.
+STATUS     (CURVE).By CAJAD.
+HISTORY    (20090805C) SB
+ENDBIB              34
+COMMON               2          3
+EN         ANG-ERR-D
+MEV        ADEG
+11.6       0.6
+ENDCOMMON            3
+ENDSUBENT           41
+SUBENT        O1777002   20090805   20100128   20100120       O040
+BIB                  2          3
+REACTION   (7-N-14(D,EL)7-N-14,,POL/DA,,VAP) fig.1
+ERR-ANALYS (DATA-ERR).The uncertainty is reported by authors on
+           figure.
+ENDBIB               3
+COMMON               1          3
+ERR-DIG
+NO-DIM
+0.006
+ENDCOMMON            3
+DATA                 3         47
+ANG-CM     DATA       DATA-ERR
+ADEG       NO-DIM     NO-DIM
+       16.1    -1.E-02
+       18.3   -4.3E-02
+       21.9   -9.3E-02
+        26.     -0.148
+       28.7     -0.166
+       31.3     -0.198
+       33.6     -0.212    2.4E-02
+       36.7     -0.253    2.4E-02
+        39.     -0.226    1.9E-02
+       40.3     3.E-03    1.7E-02
+       42.6      0.159    2.4E-02
+       44.4      0.187    1.7E-02
+       47.1      0.164    2.6E-02
+       49.8    4.9E-02    1.7E-02
+       51.1     3.E-03    1.9E-02
+       52.5   -5.6E-02    1.9E-02
+       54.7    -2.E-02
+       55.6   -5.2E-02    1.9E-02
+       59.2   -5.2E-02    1.3E-02
+        61.    -7.E-02
+       62.4   -5.2E-02    1.7E-02
+       67.3   -7.5E-02    1.7E-02
+       71.4   -8.8E-02    1.7E-02
+       77.2   -8.4E-02
+       77.7     -0.134    1.3E-02
+       82.6     -0.203    1.5E-02
+       86.2     -0.285
+        88.      -0.29     3.E-02
+        93.     -0.276    2.1E-02
+       98.4     -0.185    2.1E-02
+       102.     8.E-03    1.9E-02
+      107.8      0.145    1.9E-02
+      112.3      0.255    2.4E-02
+      116.4      0.237    2.1E-02
+      121.3    8.1E-02    1.7E-02
+      126.3     3.E-03    1.3E-02
+      130.3   -7.5E-02    2.4E-02
+      135.7     -0.157    1.9E-02
+      140.6      -0.18    1.9E-02
+      144.2     -0.102    2.1E-02
+      149.2    1.7E-02    2.6E-02
+      153.2    9.5E-02    2.4E-02
+      153.2      0.182    2.6E-02
+      155.9      0.187    2.1E-02
+      157.7      0.205    1.1E-02
+      161.8      0.379    2.1E-02
+      165.4      0.384    2.1E-02
+ENDDATA             49
+ENDSUBENT           61
+SUBENT        O1777003   20090805   20100128   20100120       O040
+BIB                  2          3
+REACTION   (8-O-16(D,EL)8-O-16,,POL/DA,,VAP) fig.1
+ERR-ANALYS (DATA-ERR).The uncertainty is reported by authors on
+           figure.
+ENDBIB               3
+COMMON               1          3
+ERR-DIG
+NO-DIM
+0.007
+ENDCOMMON            3
+DATA                 3         38
+ANG-CM     DATA       DATA-ERR
+ADEG       NO-DIM     NO-DIM
+       15.2   -3.3E-02
+       18.4   -7.1E-02
+       21.7     -0.165
+       24.5     -0.203
+       27.2     -0.222
+       31.4     -0.246
+       35.1     -0.186     2.E-02
+       37.9      0.284    1.8E-02
+       38.8      0.397    1.8E-02
+       40.6      0.373     2.E-02
+       44.3      0.138     2.E-02
+       46.6    2.9E-02
+       48.5   -1.3E-02
+       54.5     -0.113
+        61.     -0.194     2.E-02
+       64.2     -0.269    1.6E-02
+       70.7     -0.402    1.6E-02
+       76.7     -0.501     2.E-02
+       80.4     -0.572    2.5E-02
+       85.9     -0.225     2.E-02
+        91.      0.193    2.2E-02
+       94.7      0.395    2.2E-02
+      100.7       0.38     2.E-02
+      106.3      0.332    2.5E-02
+       110.      0.243    2.9E-02
+      115.5       0.12    2.9E-02
+      121.1   -2.7E-02     2.E-02
+      124.8     -0.239    2.5E-02
+      129.8      -0.31    2.7E-02
+      135.4      -0.32    2.5E-02
+      138.6     -0.269
+      143.2     -0.138    1.6E-02
+      147.9    -3.E-02    1.8E-02
+      152.5    3.5E-02    2.5E-02
+      155.7     3.E-02    2.5E-02
+      156.7    -3.E-03    1.6E-02
+      161.3   -4.6E-02    2.4E-02
+      165.4    -6.E-02     3.E-02
+ENDDATA             40
+ENDSUBENT           52
+SUBENT        O1777004   20090805   20100128   20100120       O040
+BIB                  1          1
+REACTION   (10-NE-20(D,EL)10-NE-20,,DA,,RTH) fig.2
+ENDBIB               1
+COMMON               1          3
+ERR-DIG
+PER-CENT
+2.1
+ENDCOMMON            3
+DATA                 2         33
+ANG-CM     DATA
+ADEG       NO-DIM
+       29.6      0.577
+        34.       0.43
+       36.9      0.248
+       43.1      0.463
+        46.        0.9
+        49.        1.8
+       53.2       2.05
+       55.4       1.71
+       60.3       1.64
+       61.4      1.405
+       63.1      1.091
+       66.9      0.769
+       69.7      0.572
+       73.6      0.386
+       77.3      0.332
+       83.7        0.4
+       90.1      0.442
+       94.3      0.463
+       99.1      0.526
+      103.9      0.528
+      107.6      0.529
+       114.      0.553
+      114.6      0.495
+      119.4      0.503
+      123.6      0.533
+      127.9      0.615
+      133.7        0.6
+      137.5      0.618
+      142.8      0.586
+      147.2      0.456
+      154.7       0.35
+      160.5      0.459
+      164.8        0.5
+ENDDATA             35
+ENDSUBENT           45
+SUBENT        O1777005   20090805   20100128   20100120       O040
+BIB                  2          5
+REACTION   (10-NE-20(D,EL)10-NE-20,,POL/DA,,VAP) fig.2
+ERR-ANALYS (ERR-S).The uncertainties indicated are only
+           statistical.
+           (ERR-T).The estimated uncertainty in the absolute
+           values of the cross section is about 15%.
+ENDBIB               5
+COMMON               2          3
+ERR-DIG    ERR-T
+NO-DIM     PER-CENT
+0.008      15.
+ENDCOMMON            3
+DATA                 3         42
+ANG-CM     DATA       ERR-S
+ADEG       NO-DIM     NO-DIM
+        16.    -7.E-03
+       18.6   -2.3E-02
+       21.9   -7.2E-02
+        24.   -7.7E-02
+       27.2   -7.7E-02
+       30.9   -5.5E-02
+       31.9     5.E-03
+       34.4      0.141
+       37.9       0.25
+       41.2      0.191
+        44.    7.1E-02
+       47.3    -5.E-03
+       48.9   -4.8E-02
+       50.6   -7.5E-02
+       54.8   -8.6E-02
+        57.     -0.113
+       59.7     -0.129
+       64.4     -0.112
+       68.1   -9.6E-02
+       70.2    -9.E-02
+       72.8   -4.6E-02    1.8E-02
+       75.6     -0.144
+       78.8     -0.187
+       80.4      -0.16
+       85.7     -0.143    2.6E-02
+       91.3     0.E-01     3.E-02
+       94.8      0.189    2.8E-02
+       99.2      0.462    2.6E-02
+      104.4      0.554    2.6E-02
+      109.8       0.49     3.E-02
+      114.8       0.34     4.E-02
+      120.4        0.1     4.E-02
+      124.3    -6.E-02     4.E-02
+      128.9      -0.31     3.E-02
+      134.3     -0.395    2.8E-02
+      137.5      -0.37     3.E-02
+      143.2     -0.312    2.8E-02
+      146.7      -0.11     3.E-02
+      152.1      0.259
+      153.5      0.368
+       160.       0.69     5.E-02
+      164.6      0.407    2.8E-02
+ENDDATA             44
+ENDSUBENT           58
+SUBENT        O1777006   20090805   20100128   20100120       O040
+BIB                  1          1
+REACTION   (10-NE-22(D,EL)10-NE-22,,DA,,RTH) fig.2
+ENDBIB               1
+COMMON               1          3
+ERR-DIG
+PER-CENT
+2.1
+ENDCOMMON            3
+DATA                 2         26
+ANG-CM     DATA
+ADEG       NO-DIM
+       31.3      0.538
+       34.4        0.3
+       37.2      0.292
+       43.2      0.555
+       47.5      1.224
+       54.2       1.56
+       59.5      1.088
+       64.8      0.665
+       69.7      0.252
+       75.4      0.214
+       79.7      0.378
+       84.8       0.51
+       90.9       0.61
+       94.4      0.534
+      100.1      0.447
+      105.3      0.402
+      109.3      0.415
+      114.9      0.434
+      121.2      0.422
+      124.6      0.416
+      128.6      0.337
+      134.4      0.282
+      138.4      0.254
+      143.5      0.243
+      149.1      0.305
+      153.6       0.43
+ENDDATA             28
+ENDSUBENT           38
+SUBENT        O1777007   20090805   20100128   20100120       O040
+BIB                  2          5
+REACTION   (10-NE-22(D,EL)10-NE-22,,POL/DA,,VAP) fig.2
+ERR-ANALYS (ERR-S).The uncertainties indicated are only
+           statistical.
+           (ERR-T).The estimated uncertainty in the absolute
+           values of the cross section is about 15%.
+ENDBIB               5
+COMMON               2          3
+ERR-DIG    ERR-T
+NO-DIM     PER-CENT
+0.008      15.
+ENDCOMMON            3
+DATA                 3         32
+ANG-CM     DATA       ERR-S
+ADEG       NO-DIM     NO-DIM
+       14.2    -1.E-02
+       17.1    -1.E-02
+       21.7   -3.3E-02
+       26.9    -2.E-02
+       30.3    1.5E-02
+       33.6     9.E-02    1.9E-02
+        37.    9.1E-02    2.2E-02
+       39.4    3.9E-02
+       43.5   -1.3E-02
+       45.3   -4.2E-02
+       47.6    -7.E-02
+        54.      -0.11
+       60.3      -0.15    1.7E-02
+       64.3     -0.138
+       70.2      -0.21     3.E-02
+       75.6   -1.5E-02    2.5E-02
+       78.9      0.107    2.5E-02
+       85.1       0.16     3.E-02
+       89.6      0.207    2.7E-02
+       94.2        0.2     3.E-02
+       100.       0.16     3.E-02
+      105.5    -5.E-02     4.E-02
+      109.3      -0.31     3.E-02
+      114.6      -0.37     3.E-02
+      120.9      -0.36     4.E-02
+      123.8      -0.44     3.E-02
+      129.4      -0.35     3.E-02
+      134.3      -0.12     4.E-02
+      137.4      0.119    2.7E-02
+      143.3       0.38
+      148.3        0.5     3.E-02
+      152.6      0.323    2.2E-02
+ENDDATA             34
+ENDSUBENT           48
+ENDENTRY             7

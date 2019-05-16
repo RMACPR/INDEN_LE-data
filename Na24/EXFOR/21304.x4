@@ -1,0 +1,572 @@
+ENTRY            21304     860206              20050926       0000
+SUBENT        21304001     860206              20050926       0000
+BIB                 13         57
+INSTITUTE  (2JPNTOH)
+REFERENCE  (J,NST,15,(11),797,7811)
+AUTHOR     (T.YAMAMOTO,Y.HINO,S.ITAGAKI,K.SUGIYAMA)
+TITLE      -GAMMA-RAY PRODUCTION CROSS SECTION FOR INTERACTION
+            OF 14.8 MEV NEUTRONS WITH O, NA, AL, CL, CR, FE, NI,
+            CU AND PB-.
+FACILITY   (CCW  ) THE COCKCROFT-WALTON ACCELERATOR AT TOHOKU
+            UNIVERSITY.
+INC-SOURCE (D-T  ) THE T(D,N)HE-4 REACTION USING A SOLID TI-T
+            TARGET.
+SAMPLE     .METAL SAMPLES OF NATURAL ABUNDANCES, 3 CM IN DIA AND
+            4 CM HIGH FOR AL, FE, NI AND PB.
+           .SAMPLES FOR O, NA, CL AND CR WERE PREPARED BY ENCAP-
+            SULATING WATER, POWDERS OF NACL AND CR-OXIDE AN AL
+            CANS OF 1 MM THICK WALLS, 3 CM INNER DIA AND 4 CM
+            INNER HEIGHT.
+METHOD     (ASSOP) COUNTING OF THE HE-4 PARTICLES IN THE NEUTRON
+            PRODUCING REACTION TO MONITOR THE NEUTRON FLUX.
+DETECTOR   (GELI ) A 70 CM-3, EFFICIENCY CALIBRATED, GE(LI)-
+            DETECTOR TO DETECT THE GAMMA RAYS.
+           (SOLST) A SILICON SURFACE BARRIER DETECTOR TO COUNT
+            THE HE-4 PARTICLES IN THE NEUTRON PRODUCING REACTION.
+STATUS     .DATA TAKEN FROM TABLE IN REFERENCE.
+HISTORY    (800128C) CN.
+           (800213E)
+           (840106U) A.P.T. JAPAN CODE CHANGED TO JPN
+           (840106E)
+           (840507A) A.L. DATA FOR CR-52(N,P) INCLUDED
+           (840710E)
+           (850821U)HH
+           (860106E)
+CORRECTION .THE FOLLOWING CORRECTIONS WERE CONCIDERED,
+            -NEUTRON ATTENUANTION IN THE BACKING AND COOLING
+             ASSEMBLY OF THE NEUTRON TARGET (5.6 PERCENT),
+            -NEUTRON ATTENUATION IN THE SAMPLE (BETWEEN 5.8 AND
+             24.7 PERCENT),
+            -NEUTRON MULTIPLE SCATTERING IN THE SAMPLE, USING A
+             MONTE CARLO CODE (BETWEEN 4.0 AND 16.4 PERCENT),
+            -GAMMA-RAY ATTENUATION IN THE SAMPLE (BETWEEN 3.4
+             AND 75 PERCENT),
+            -CONTRIBUTION OF GAMMA-RAYS FROM ACTIVITIES PRODUCED
+             BY (N,P)-REACTIONS (ABOUT 40 PERCENT FOR THE 847 KEV
+             GAMMA-RAY OF FE).
+ERR-ANALYS .THE ERRORS WERE ESTIMATED TAKING INTO ACCOUNT THE
+            UNCERTAINTIES IN,
+            -DETERMINING THE NUMBER OF COUNTS IN THE FULL ENERGY
+             PEAK,
+            -DETERMINING THE NEUTRON FLUX INCIDENT UPON THE
+             SAMPLE (+- 5 PERCENT),
+            -ABSOLUTE DETECTION EFFICIENCY FOR FULL ENERGY
+             PEAKS (+- 5 PERCENT FOR E-GAMMA LESS THAN 3 MEV AND
+             7.5 PERCENT FOR OTHERS),
+            -CORRECTIONS MENTIONED ABOVE (+- 2 PERCENT).
+           .THE TYPICAL ERRORS OF THE CROSS SECTIONS ARE +- 10
+            PERCENT FOR SIGMA GREATER THAN 30 MB/SR, +- 17 PER-
+            CENT FOR SIGMA BETWEEN 10 AND 30 MB/SR AND +- 35
+            PERCENT FOR SIGMA LESS THAN 10 MB/SR.
+ENDBIB              57
+COMMON               4          3
+EN         EN-RSL     ANG        ANG-RSL
+MEV        MEV        ADEG       ADEG
+ 1.4800E+01 2.0000E-01 1.2500E+02 6.0000E+00
+ENDCOMMON            3
+ENDSUBENT           64
+SUBENT        21304002     860106              20050926       0000
+BIB                  3          6
+REACTION   (8-O-16(N,A)6-C-13,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+           (850821U)HH
+           (860106E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 3.8580E+00 4.8000E+00 3.5000E+00
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21304003     800213              20050926       0000
+BIB                  3          4
+REACTION   (8-O-16(N,INL)8-O-16,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 6.1300E+00 1.0900E+01 3.2000E+00
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        21304004     800213              20050926       0000
+BIB                  3          4
+REACTION   (11-NA-23(N,INL)11-NA-23,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          2
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 4.4000E-01 4.7400E+01 5.7000E+00
+ 1.6360E+00 2.4100E+01 3.4000E+00
+ENDDATA              4
+ENDSUBENT           13
+SUBENT        21304005     800213              20050926       0000
+BIB                  3          4
+REACTION   (11-NA-23(N,D)10-NE-22,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 1.2750E+00 1.3900E+01 2.3000E+00
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        21304006     800213              20050926       0000
+BIB                  3          4
+REACTION   (13-AL-27(N,A)11-NA-24,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 4.7300E-01 7.0000E+00 9.0000E-01
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        21304007     800213              20050926       0000
+BIB                  3          4
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          6
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 7.8700E-01 2.4000E+00 1.5000E+00
+ 8.4400E-01 7.7000E+00 1.2000E+00
+ 1.0140E+00 7.7000E+00 1.0000E+00
+ 2.2100E+00 4.4000E+00 3.0000E+00
+ 3.0040E+00 1.1100E+01 1.8000E+00
+ 3.2030E+00 3.6000E+00 1.1000E+00
+ENDDATA              8
+ENDSUBENT           17
+SUBENT        21304008     800213              20050926       0000
+BIB                  3          4
+REACTION   (13-AL-27(N,P)12-MG-27,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          2
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 9.8200E-01 2.5000E+00 6.0000E-01
+ 1.7000E+00 3.8000E+00 7.0000E-01
+ENDDATA              4
+ENDSUBENT           13
+SUBENT        21304009     800213              20050926       0000
+BIB                  3          4
+REACTION   (13-AL-27(N,D)12-MG-26,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 1.8090E+00 1.8900E+01 2.1000E+00
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        21304010     800213              20050926       0000
+BIB                  4          6
+REACTION   (13-AL-27(N,X)0-G-0,PAR,DA)
+COMMENT    .THE GAMMA-RAYS DETECTED WERE NOT ASSIGNED TO ANY
+            SPECIAL REACTION.
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          2
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 6.3100E-01 3.2000E+00 9.0000E-01
+ 1.0990E+00 2.4000E+00 5.0000E-01
+ENDDATA              4
+ENDSUBENT           15
+SUBENT        21304011     800213              20050926       0000
+BIB                  3          4
+REACTION   (17-CL-35(N,INL)17-CL-35,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 1.7690E+00 1.2600E+01 3.4000E+00
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        21304012     800213              20050926       0000
+BIB                  3          4
+REACTION   (17-CL-35(N,D)16-S-34,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 2.1320E+00 2.6400E+01 6.3000E+00
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        21304013     800213              20050926       0000
+BIB                  3          4
+REACTION   (17-CL-37(N,INL)17-CL-37,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 1.7300E+00 2.3000E+01 7.1000E+00
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        21304014     800213              20050926       0000
+BIB                  3          4
+REACTION   (24-CR-52(N,INL)24-CR-52,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          6
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 7.4400E-01 1.0200E+01 3.4000E+00
+ 9.3400E-01 1.6800E+01 2.1000E+00
+ 1.2140E+00 1.2600E+01 2.3000E+00
+ 1.3340E+00 1.3800E+01 2.3000E+00
+ 1.4340E+00 5.8700E+01 4.1000E+00
+ 1.5330E+00 5.9000E+00 1.8000E+00
+ENDDATA              8
+ENDSUBENT           17
+SUBENT        21304015     840710              20050926       0000
+BIB                  4          9
+REACTION   (24-CR-0(N,X)0-G-0,PAR,DA)
+COMMENT    .THE GAMMA-RAYS DETECTED WERE NOT ASSIGNED TO ANY
+            SPECIAL REACTION.
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+           (840507A) A.L. DATA POINT EXCLUDED AND MOVED TO
+                     SUBENT 21304032
+           (840710E)
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          2
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 1.8110E+00 1.6200E+01 2.7000E+00
+ 1.9460E+00 7.1000E+00 2.0000E+00
+ENDDATA              4
+ENDSUBENT           18
+SUBENT        21304016     800213              20050926       0000
+BIB                  3          4
+REACTION   (26-FE-54(N,INL)26-FE-54,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          2
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 8.0400E-01 1.5000E+00 1.4000E+00
+ 1.4090E+00 6.7000E+00 8.0000E-01
+ENDDATA              4
+ENDSUBENT           13
+SUBENT        21304017     800213              20050926       0000
+BIB                  3          4
+REACTION   (26-FE-56(N,2N)26-FE-55,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          4
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 4.1400E-01 2.8000E+00 1.0000E+00
+ 4.7900E-01 4.4000E+00 1.4000E+00
+ 9.3000E-01 1.0700E+01 1.6000E+00
+ 1.3150E+00 6.4000E+00 8.0000E-01
+ENDDATA              6
+ENDSUBENT           15
+SUBENT        21304018     800213              20050926       0000
+BIB                  3          4
+REACTION   (26-FE-56(N,INL)26-FE-56,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          9
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 8.4700E-01 8.6300E+01 7.5000E+00
+ 1.0380E+00 4.8000E+00 8.0000E-01
+ 1.2380E+00 4.0000E+01 3.5000E+00
+ 1.3030E+00 9.0000E+00 1.0000E+00
+ 1.6730E+00 4.7000E+00 7.0000E-01
+ 1.8110E+00 7.3000E+00 8.0000E-01
+ 2.1120E+00 2.1000E+00 1.1000E+00
+ 2.5210E+00 3.6000E+00 1.0000E+00
+ 2.5960E+00 4.7000E+00 1.1000E+00
+ENDDATA             11
+ENDSUBENT           20
+SUBENT        21304019     800213              20050926       0000
+BIB                  4          6
+REACTION   (26-FE-0(N,X)0-G-0,PAR,DA)
+COMMENT    .THE GAMMA-RAY DETECTED WERE NOT ASSIGNED TO ANY
+            SPECIAL REACTION.
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 1.0060E+00 3.8000E+00 1.8000E+00
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21304020     800213              20050926       0000
+BIB                  3          4
+REACTION   (28-NI-58(N,P)27-CO-58,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          2
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 9.3100E-01 2.3000E+00 7.0000E-01
+ 1.0480E+00 4.6000E+00 9.0000E-01
+ENDDATA              4
+ENDSUBENT           13
+SUBENT        21304021     800213              20050926       0000
+BIB                  3          4
+REACTION   (28-NI-58(N,N+P)27-CO-57,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          2
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 1.2230E+00 5.7000E+00 8.0000E-01
+ 1.3810E+00 2.9000E+00 9.0000E-01
+ENDDATA              4
+ENDSUBENT           13
+SUBENT        21304022     800213              20050926       0000
+BIB                  3          4
+REACTION   (28-NI-58(N,INL)28-NI-58,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          2
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 1.0040E+00 7.0000E+00 1.0000E+00
+ 1.4570E+00 2.2700E+01 2.3000E+00
+ENDDATA              4
+ENDSUBENT           13
+SUBENT        21304023     800213              20050926       0000
+BIB                  3          4
+REACTION   (28-NI-60(N,INL)28-NI-60,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 1.3340E+00 1.9100E+01 2.3000E+00
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        21304024     800213              20050926       0000
+BIB                  3          4
+REACTION   (28-NI-62(N,INL)28-NI-62,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 1.1730E+00 1.0500E+01 1.4000E+00
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        21304025     800213              20050926       0000
+BIB                  3          4
+REACTION   (29-CU-63(N,INL)29-CU-63,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3         10
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 6.7000E-01 6.1000E+00 1.7000E+00
+ 8.9800E-01 2.6000E+00 1.3000E+00
+ 9.6200E-01 2.3300E+01 2.2000E+00
+ 1.1290E+00 2.7000E+00 9.0000E-01
+ 1.1730E+00 1.8200E+01 1.7000E+00
+ 1.3300E+00 1.3500E+01 1.3000E+00
+ 1.3520E+00 3.2000E+00 6.0000E-01
+ 1.4120E+00 4.3000E+00 6.0000E-01
+ 1.5500E+00 4.1000E+00 6.3000E+00
+ 1.8660E+00 4.8000E+00 8.0000E-01
+ENDDATA             12
+ENDSUBENT           21
+SUBENT        21304026     800213              20050926       0000
+BIB                  3          4
+REACTION   (29-CU-65(N,INL)29-CU-65,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          6
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 4.7000E-01 2.3000E+00 1.1000E+00
+ 7.6900E-01 2.9000E+00 1.4000E+00
+ 9.7900E-01 3.0000E+00 8.0000E-01
+ 1.1150E+00 1.1100E+01 1.2000E+00
+ 1.1630E+00 8.1000E+00 1.0000E+00
+ 1.4820E+00 6.6000E+00 8.0000E-01
+ENDDATA              8
+ENDSUBENT           17
+SUBENT        21304027     800213              20050926       0000
+BIB                  3          5
+REACTION   ((29-CU-63(N,INL)29-CU-63,PAR,DA,G)+
+           (29-CU-65(N,INL)29-CU-65,PAR,DA,G))
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 3.6700E-01 4.4000E+00 1.0000E+00
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        21304028     800213              20050926       0000
+BIB                  4          6
+REACTION   (29-CU-0(N,X)0-G-0,PAR,DA)
+COMMENT    .THE GAMMA-RAYS DETECTED WERE NOT ASSIGNED TO ANY
+            SPECIAL REACTION.
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          3
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 3.8800E-01 1.0000E+00 1.5000E+00
+ 1.1000E+00 1.3000E+00 8.0000E-01
+ 1.8140E+00 2.2000E+00 1.0000E+00
+ENDDATA              5
+ENDSUBENT           16
+SUBENT        21304029     800213              20050926       0000
+BIB                  3          4
+REACTION   (82-PB-206(N,INL)82-PB-206,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          4
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 5.3700E-01 2.1800E+01 4.3000E+00
+ 8.0200E-01 6.9100E+01 7.5000E+00
+ 8.7900E-01 2.6900E+01 4.9000E+00
+ 9.8700E-01 2.9600E+01 4.9000E+00
+ENDDATA              6
+ENDSUBENT           15
+SUBENT        21304030     800213              20050926       0000
+BIB                  3          4
+REACTION   (82-PB-207(N,INL)82-PB-207,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          6
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 5.6900E-01 1.0450E+02 1.4800E+01
+ 8.9700E-01 1.7600E+01 4.7000E+00
+ 1.0640E+00 6.9000E+01 6.1000E+00
+ 1.0960E+00 2.0200E+01 2.3000E+00
+ 1.5970E+00 1.0400E+01 1.7000E+00
+ 1.7770E+00 1.1400E+01 2.1000E+00
+ENDDATA              8
+ENDSUBENT           17
+SUBENT        21304031     800213              20050926       0000
+BIB                  3          4
+REACTION   (82-PB-208(N,INL)82-PB-208,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (800128C)
+           (800213E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          2
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 1.0420E+00 1.3000E+01 2.8000E+00
+ 2.6140E+00 2.6100E+01 3.3000E+00
+ENDDATA              4
+ENDSUBENT           13
+SUBENT        21304032     850325              20050926       0000
+BIB                  3          6
+REACTION   (24-CR-52(N,P)23-V-52,PAR,DA,G)
+STATUS     .TABLE 1.
+HISTORY    (840507A) A.L.
+           (840710E)
+           (850325U) HH
+           (850419E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 1.7830E+00 6.4000E+00 1.8000E+00
+ENDDATA              3
+ENDSUBENT           14
+ENDENTRY            32

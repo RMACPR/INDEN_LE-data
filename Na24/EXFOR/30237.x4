@@ -1,0 +1,289 @@
+ENTRY            30237   20081203   20090416   20090416       3132
+SUBENT        30237001   20081203   20090416   20090416       3132
+BIB                 11         29
+INSTITUTE  (3HUNKFI)
+REFERENCE  (J,NP/A,180,587,1972) Full information, tables
+           (J,NIM,96,213,1971) Experimental method described
+           (P,INDC(HUN)-1,5,197003) Short progress report, no data
+AUTHOR     (A.Adam,D.Horvath,A.Kiss,E.Mayr)
+TITLE      Investigation of short-lived activities in F-18, Na-22,
+           K-40, Rb-85, Mo-92 excited by 14.7 MeV fast neutrons
+EXP-YEAR   (1970)
+FACILITY   Pulsed 200 keV deuteron beam
+INC-SOURCE (D-T)  neutrons from H-3(d,n)He-4 reaction
+METHOD     The time distribution of gammas emitted by the
+           short-lived isomers is measured using =
+                -the recoiled alpha particle from the d-t reaction
+                   to determine the zero of time
+                -a pulsed beam to improve the effect-to-background
+                   ratio
+PART-DET   (DG) Decay gammas from metastable states are detected
+           by a plastic scintillator NE102/A associated with a
+           photomultiplier XP 1040.
+           The recoiled alpha particles are detected  by a thin
+           plastic scintillator NE102/A associated with a
+           photomultiplier 56AVP.
+STATUS     (TABLE) Data taken from Nucl. Phys.A180(1972)587,
+           Tables 2 and  Proof-copy sent to author
+HISTORY    (19730424C)  CA.
+           (20080211A) OS. Isomer extensions changed to -L,
+            half-life errors added to subentries 2,7,10,13,
+            ASSUMED added to subentries 3,6,8,11,14,
+            LEVEL-PROP added
+ENDBIB              29
+COMMON               1          3
+EN
+MEV
+ 1.4700E+01
+ENDCOMMON            3
+ENDSUBENT           36
+SUBENT        30237002   20081203   20090416   20090416       3132
+BIB                  6         10
+REACTION   (9-F-19(N,2N)9-F-18-L,,SIG)
+SAMPLE     Ca-F2 powder
+DECAY-DATA (9-F-18-L,138.NSEC,DG,937.)
+             Half-life measured by authors
+LEVEL-PROP (9-F-18-L,E-LVL=1.131,SPIN=5.,PARITY=+1.)
+            Recent value of level energy is 1121 keV
+            1131 keV value is either misprint in paper or
+            old (1972) value
+MONITOR    unknown
+ERR-ANALYS (DATA-ERR) Details not given
+ENDBIB              10
+COMMON               1          3
+ERR-HL
+NSEC
+ 10.
+ENDCOMMON            3
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 2.7000E+00 3.0000E-01
+ENDDATA              3
+ENDSUBENT           22
+SUBENT        30237003   20081203   20090416   20090416       3132
+BIB                  4          6
+REACTION   (9-F-19(N,2N)9-F-18-L/T,,SIG/RAT)
+STATUS     (DEP,30237002) See subent 30237.002 for the cross-sect.
+           populating the isomeric state.
+ASSUMED    The total (n,2n) cross section was taken from
+           literature.
+ERR-ANALYS (DATA-ERR) Details not given
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+NO-DIM     NO-DIM
+ 6.5000E-02 7.0000E-03
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30237004   20081203   20090416   20090416       3132
+BIB                  4          6
+REACTION   (9-F-18(0,0),,SCO)
+ANALYSIS   The spin cut-off factor was extracted from the isomeric
+           ratio of the  F-19(n,2n) reaction, using the Huizenga-
+           Vandenbosch method.
+ERR-ANALYS (DATA-ERR) Details not given
+STATUS     (DEP,30237003) see subentry 30237.003
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+NO-DIM     NO-DIM
+ 1.8000E+00 1.0000E-01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30237005   20081203   20090416   20090416       3132
+BIB                  5          5
+REACTION   (11-NA-23(N,2N)11-NA-22-L,,SIG)
+SAMPLE     Na-Cl powder
+DECAY-DATA (11-NA-22-L,266.NSEC,DG,583.)
+LEVEL-PROP (11-NA-22-L,E-LVL=0.583,SPIN=1.,PARITY=+1.)
+MONITOR    unknown
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 1          1
+DATA-MAX
+MB
+ 7.0000E-01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        30237006   20081203   20090416   20090416       3132
+BIB                  3          5
+REACTION   (11-NA-23(N,2N)11-NA-22-L/T,,SIG/RAT)
+STATUS     (DEP,30237005) see subent 30237.005 for the cross-sect.
+           populating the isomeric state.
+ASSUMED    The total (n,2n) cross section was taken from
+           literature.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 1          1
+DATA-MAX
+NO-DIM
+ 2.0000E-02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        30237007   20081203   20090416   20090416       3132
+BIB                  6          8
+REACTION   (19-K-41(N,2N)19-K-40-L,,SIG)
+SAMPLE     K-Br powder
+DECAY-DATA (19-K-40-L,294.NSEC,DG,1610.)
+             Half-life measured by authors
+             (Note that recent value is 336 +- 12 nsec)
+LEVEL-PROP (19-K-40-L,E-LVL=1.640,SPIN=0.,PARITY=+1.)
+MONITOR    unknown
+ERR-ANALYS (DATA-ERR) Details not given
+ENDBIB               8
+COMMON               1          3
+ERR-HL
+NSEC
+ 23.
+ENDCOMMON            3
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 3.6000E+01 1.6000E+01
+ENDDATA              3
+ENDSUBENT           20
+SUBENT        30237008   20081203   20090416   20090416       3132
+BIB                  4          6
+REACTION   (19-K-41(N,2N)19-K-40-L/T,,SIG/RAT)
+STATUS     (DEP,30237007)see subent 30237.007 for the cross-sect.
+           populating the isomeric state.
+ASSUMED    The total (n,2n) cross section was taken from
+           literature.
+ERR-ANALYS (DATA-ERR) Details not given
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+NO-DIM     NO-DIM
+ 8.0000E-02 3.0000E-02
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30237009   20081203   20090416   20090416       3132
+BIB                  4          6
+REACTION   (19-K-40(0,0),,SCO)
+ANALYSIS   The spin cut-off factor was extracted from the isomeric
+           ratio of the  K-41(n,2n) reaction, using the Huizenga-
+           Vandenbosch method.
+ERR-ANALYS (DATA-ERR) Details not given
+STATUS     (DEP,30237008) see subentry 30237.008
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+DATA       +DATA-ERR  -DATA-ERR
+NO-DIM     NO-DIM     NO-DIM
+ 2.6000E+00 9.0000E-01 2.0000E-01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30237010   20081203   20090416   20090416       3132
+BIB                  7          9
+REACTION   (37-RB-85(N,INL)37-RB-85-L,,SIG)
+SAMPLE     Rb2-CO3 powder
+DECAY-DATA (37-RB-85-L,985.NSEC,DG,514.)
+             Half-life measured by authors
+             (Note that recent value is 1015 +- 1 nsec)
+LEVEL-PROP (37-RB-85-L,E-LVL=0.514,SPIN=4.5,PARITY=-1.)
+ERR-ANALYS (DATA-ERR) Details not given
+HISTORY    (20081216A) OS. Half-life units in DECAY-DATA corrected
+MONITOR    unknown
+ENDBIB               9
+COMMON               1          3
+ERR-HL
+NSEC
+ 20.
+ENDCOMMON            3
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 8.0000E+01 5.0000E+00
+ENDDATA              3
+ENDSUBENT           21
+SUBENT        30237011   20081203   20090416   20090416       3132
+BIB                  4          6
+REACTION   (37-RB-85(N,INL)37-RB-85-L/T,,SIG/RAT)
+STATUS     (DEP,30237010)  see 30237.010 for the cross-section
+           populating the isomeric state.
+ASSUMED    The total inelast. cross section was taken from
+           literature.
+ERR-ANALYS (DATA-ERR) Details not given
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+DATA       +DATA-ERR  -DATA-ERR
+NO-DIM     NO-DIM     NO-DIM
+ 5.7000E-01 4.3000E-01 2.3000E-01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30237012   20081203   20090416   20090416       3132
+BIB                  5          7
+REACTION   (37-RB-85(0,0),,SCO)
+ANALYSIS   The spin cut-off factor was extracted from the isomeric
+           ratio of the Rb-85(n,n') reaction, using the Huizenga-
+           Vandenbosch method.
+ERR-ANALYS (DATA-ERR) Details not given
+COMMENT    The + unsymmetric data error is equal to infinity
+STATUS     (DEP,30237011) see subentry 30237.011
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 2          1
+DATA       -DATA-ERR
+NO-DIM     NO-DIM
+ 3.3000E+00 8.0000E-01
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30237013   20081203   20090416   20090416       3132
+BIB                  6          7
+REACTION   (42-MO-92(N,INL)42-MO-92-L,,SIG)
+SAMPLE     Molybdenum powder
+DECAY-DATA (42-MO-92-L,184.NSEC,DG,1511.)
+             Half-life measured by authors
+LEVEL-PROP (42-MO-92-L,E-LVL=2.761,SPIN=8.,PARITY=+1.)
+MONITOR    unknown
+ERR-ANALYS (DATA-ERR) Details not given
+ENDBIB               7
+COMMON               1          3
+ERR-HL
+NSEC
+ 5.
+ENDCOMMON            3
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 2.3700E+02 2.0000E+01
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        30237014   20081203   20090416   20090416       3132
+BIB                  4          6
+REACTION   (42-MO-92(N,INL)42-MO-92-L/T,,SIG/RAT)
+STATUS     (DEP,30237013)see 30237.013 for the cross-section
+           populating the isomeric state.
+ASSUMED    The total inelast. cross section was taken from
+           literature.
+ERR-ANALYS (DATA-ERR) Details not given
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+NO-DIM     NO-DIM
+ 1.6000E-01 2.0000E-02
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30237015   20081203   20090416   20090416       3132
+BIB                  4          6
+REACTION   (42-MO-92(0,0),,SCO)
+ANALYSIS   The spin cut-off factor was extracted from the isomeric
+           ratio of the Mo-92(n,n') reaction, using the Huizenga-
+           Vandenbosch method.
+ERR-ANALYS (DATA-ERR) Details not given
+STATUS     (DEP,30237014) see subentry 30237.014
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+NO-DIM     NO-DIM
+ 5.2000E+00 3.0000E-01
+ENDDATA              3
+ENDSUBENT           14
+ENDENTRY            15

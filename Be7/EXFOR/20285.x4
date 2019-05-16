@@ -1,0 +1,124 @@
+ENTRY            20285   20070409   20070521   20070506       2184
+SUBENT        20285001   20070409   20070521   20070506       2184
+BIB                 10         15
+INSTITUTE  (2JPNKON)
+REFERENCE  (J,JPJ,14,554,195905)  Data from reference.
+AUTHOR     (M.Sakisaka)
+TITLE      -Be-9(N,2N)be-8 and B-11(N,a)Li-8(beta)be-8 reactions
+            by 14 MeV neutrons-
+FACILITY   (CCW)      400 KV Cockcroft-Walton accelerator.
+INC-SOURCE (D-T)      T(d,N)alpha, e(d) = 170 keV.
+DETECTOR   (PLATE)    Nuclear emulsion.
+MONITOR    .Counting of alpha particles of t(d,N)alpha.
+STATUS     (APRVD)    Approved by the author.
+HISTORY    (19711010C)
+           (19740626E)
+           (19840106E)
+           (20070314A) Date and several reaction codes are
+                       corrected - SM
+ENDBIB              15
+COMMON               2          3
+EN         EN-RSL
+MEV        MEV
+   1.41E+01     2.E-01
+ENDCOMMON            3
+ENDSUBENT           22
+SUBENT        20285002   20070409   20070521   20070506       2184
+BIB                  7         13
+REACTION   (4-BE-9(N,2N)4-BE-8,PAR,SIG)
+SAMPLE     .        Beryllium-loaded nuclear emulsion.
+EN-SEC     (E-LVL,4-BE-8)
+PART-DET   (A)        Alpha particles.
+COMMENT    .The cross section = 0.03 +- 0.01 barn for the ground
+            state is only a lower limit, because the tracks due to
+            the disintegration of Be-8 in this state are difficult
+            to detect and liable to be missed.
+HISTORY    (20070314A) Reaction code corrected
+ERR-ANALYS .Escaping probability of tracks from the emulsion.
+           .The effect of the increase of light nuclei in the
+            loaded emulsion, about 10 +- 5 percent.
+           .Contribution of gamma-ray tracks, less than 5 percent.
+ENDBIB              13
+NOCOMMON             0          0
+DATA                 3          4
+E-LVL      DATA       DATA-ERR
+MEV        B          B
+         0.     3.E-02     1.E-02
+         3.    1.8E-01     7.E-02
+         5.     3.E-02     2.E-02
+        7.5    1.1E-01     4.E-02
+ENDDATA              6
+ENDSUBENT           24
+SUBENT        20285003   20070409   20070521   20070506       2184
+BIB                  6          9
+REACTION   (4-BE-9(N,2N)4-BE-8,PAR,SIG)
+EN-SEC     (E-LVL,4-BE-8)
+SAMPLE     .        Beryllium-loaded nuclear emulsion.
+PART-DET   (A)        Alpha particles.
+HISTORY    (20070314A)  Reaction code corrected
+ERR-ANALYS .Escaping probability of tracks from the emulsion.
+           .The effect of the increase of light nuclei in the
+            loaded emulsion, about 10 +- 5 percent.
+           .Contribution of gamma-ray tracks, less than 5 percent.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+E-LVL-MIN  DATA       DATA-ERR
+MEV        B          B
+         9.     5.E-02     3.E-02
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        20285004   20070409   20070521   20070506       2184
+BIB                  6         13
+REACTION   (4-BE-9(N,X)2-HE-4,,SIG)
+SAMPLE     .        Beryllium-loaded nuclear emulsion.
+PART-DET   (A)        Alpha particles.
+COMMENT    .Cross-section obtained by summing up cross-sections
+            corresponding to the respective levels of Be-8.
+            The cross-section for the ground state of Be-8 was
+            chosen as 0.17 +- 0.03 barn,
+            j.D.Anderson et Al., Phys. Rev. 111(1958)572.
+HISTORY    (20070314A)  Reaction code corrected
+ERR-ANALYS .Escaping probability of tracks from the emulsion.
+           .The effect of the increase of light nuclei in the
+            loaded emulsion, about 10 +- 5 percent.
+           .Contribution of gamma-ray tracks, less than 5 percent.
+ENDBIB              13
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+    5.4E-01     9.E-02
+ENDDATA              3
+ENDSUBENT           21
+SUBENT        20285005   20070409   20070521   20070506       2184
+BIB                  5          5
+REACTION   (5-B-10(N,T)4-BE-8,PAR,SIG)
+EN-SEC     (E-LVL,4-BE-8)
+SAMPLE     .        Boron-loaded nuclear emulsion.
+PART-DET   (A)        Alpha particles.
+ERR-ANALYS .No further information.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+E-LVL-MIN  DATA       DATA-ERR
+MEV        B          B
+         3.    4.2E-02    1.6E-02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        20285006   20070409   20070521   20070506       2184
+BIB                  4          5
+REACTION   (5-B-11(N,A)3-LI-8,PAR,SIG)
+SAMPLE     .        Boron-loaded nuclear emulsion.
+PART-DET   (A)         Alpha particle.
+           (3-LI-8)    Recoil Li-8.
+ERR-ANALYS .No further information.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+E-LVL-MIN  DATA       DATA-ERR
+MEV        B          B
+         3.    3.5E-02     7.E-03
+ENDDATA              3
+ENDSUBENT           13
+ENDENTRY             6

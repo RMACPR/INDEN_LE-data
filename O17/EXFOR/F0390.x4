@@ -1,0 +1,174 @@
+ENTRY            F0390   19990410   19990429   20050926       0000
+SUBENT        F0390001   19990410   19990429   20050926       0000
+BIB                 10         19
+TITLE      Polarization of neutrons from (d,n) reactions on 11B,
+           14N and 15N
+AUTHOR     (W.BUSSE,B.EFKEN,D.HILSCHER,J.A.SCHEER,W.WENNING)
+INSTITUTE  (2GERBER)
+REFERENCE  (J,NP/A,152,354,197008)
+           (J,ZP,206,404,1967)
+SAMPLE     The notrigen target consisted of 28Si3 14N4 with 28Si
+           enriched to 99.9%, the boron target consisted of
+           elementary boron with 11B enriched to 95%; both target
+           substances were mixed with 10% colloidal 12C for better
+           heat contact with 0.3mm thick tantalum backing.
+           The target thickness was chosen so that the energy loss
+           of 5.5 MeV deuterons was 250 keV.
+METHOD     (TOF)
+ERR-ANALYS (ANG-ERR) Digitizing error
+           (DATA-ERR) digitizing error
+FACILITY   (VDG)
+DETECTOR   (PROPC)
+HISTORY    (19860410C)
+ENDBIB              19
+COMMON               1          3
+EN
+MEV
+  5.5
+ENDCOMMON            3
+ENDSUBENT           26
+SUBENT        F0390002   19990410   19990429   20050926       0000
+BIB                  3          3
+REACTION   (5-B-11(D,N)6-C-12,PAR,DA,,REL,EXP)
+EN-SEC     (E-LVL,6-C-12)
+STATUS     (CURVE) Fig 3
+ENDBIB               3
+COMMON               1          3
+ANG-ERR
+ADEG
+ 0.5
+ENDCOMMON            3
+DATA                 4         40
+E-LVL      ANG-CM     DATA-CM    DATA-ERR
+MEV        ADEG       ARB-UNITS  ARB-UNITS
+     0.         1.841      7.536      0.074
+     0.         5.613      8.804      0.0865
+     0.        15.61      11.76       0.1156
+     0.        21.83      13.44       0.1321
+     0.        31.58      12.82       0.126
+     0.        38.82      11.18       0.1099
+     0.        47.21       8.715      0.0856
+     0.        54.33       6.495      0.0638
+     0.        61.5        5.063      0.0497
+     0.        69.91       4.127      0.0406
+     0.        78.28       3.144      0.0309
+     0.        85.5        2.681      0.0264
+     0.        94.04       2.558      0.0251
+     0.       101.5        3.126      0.0307
+     0.       106.6        4.089      0.0402
+     0.       114.2        5.719      0.0562
+     0.       121.6        6.388      0.0628
+     0.       129.1        7.807      0.0767
+     0.       135.3        8.153      0.0801
+     0.       143.8        8.321      0.0818
+     4.44       1.25      18.61       0.1777
+     4.44       3.803     23.24       0.2219
+     4.44      12.41      27.11       0.2588
+     4.44      20.92      28.91       0.276
+     4.44      29.23      25.19       0.2405
+     4.44      37.54      21.96       0.2097
+     4.44      45.73      17.11       0.1634
+     4.44      52.76      13.95       0.1332
+     4.44      59.59      12.41       0.1184
+     4.44      68.24      11.34       0.1083
+     4.44      77.87      11.05       0.1055
+     4.44      83.88      10.79       0.103
+     4.44      92.42      11.76       0.1123
+     4.44      99.75      12.83       0.1225
+     4.44     107.1       14.         0.1337
+     4.44     114.4       15.27       0.1458
+     4.44     120.5       15.59       0.1488
+     4.44     129.        16.62       0.1587
+     4.44     136.2       16.58       0.1583
+     4.44     142.3       17.3        0.1652
+ENDDATA             42
+ENDSUBENT           54
+SUBENT        F0390003   19990410   19990429   20050926       0000
+BIB                  3          3
+REACTION   (7-N-14(D,N)8-O-15,PAR,DA,,REL,EXP)
+EN-SEC     (E-LVL,8-O-15)
+STATUS     (CURVE) Fig 4A
+ENDBIB               3
+COMMON               3          3
+E-LVL      ANG-ERR    DATA-ERR
+MEV        ADEG       PER-CENT
+ 0.0        0.5        0.4
+ENDCOMMON            3
+DATA                 2         31
+ANG        DATA
+ADEG       ARB-UNITS
+     0.9407     2.467
+    11.39       3.682
+    17.24       4.895
+    22.12       5.552
+    27.42       6.801
+    32.9        5.214
+    38.51       4.186
+    43.45       2.568
+    48.37       1.909
+    53.59       1.159
+    58.93       0.9598
+    64.39       0.8668
+    69.         0.9152
+    74.58       1.007
+    79.18       1.186
+    83.93       1.295
+    89.24       1.388
+    93.99       1.512
+    99.15       1.663
+   104.3        1.769
+   109.5        1.858
+   114.4        1.967
+   119.7        1.928
+   124.7        1.828
+   129.2        1.738
+   133.7        1.561
+   138.5        1.357
+   143.4        1.216
+   148.1        1.226
+   153.3        1.233
+   157.6        1.272
+ENDDATA             33
+ENDSUBENT           45
+SUBENT        F0390004   19990410   19990429   20050926       0000
+BIB                  2          2
+REACTION   (7-N-15(D,EL)7-N-15,,DA,,REL,EXP)
+STATUS     (CURVE) Fig 5
+ENDBIB               2
+COMMON               2          3
+ANG-ERR    DATA-ERR
+ADEG       PER-CENT
+ 0.3          0.4
+ENDCOMMON            3
+DATA                 3         26
+ANG-CM     DATA-CM    DATA-ERR1
+ADEG       ARB-UNITS  ARB-UNITS
+    14.57       0.6031     0.0582
+    19.86       0.5512     0.0433
+    25.26       0.6425     0.069
+    31.05       0.5775     0.0536
+    36.45       0.7142     0.0561
+    41.97       0.9068     0.0778
+    47.39       0.8098     0.0694
+    52.68       0.7021     0.0602
+    58.21       0.7175     0.0589
+    62.98       0.7989     0.06
+    67.76       0.9192     0.0809
+    78.57       1.166      0.1041
+    83.85       1.104      0.1004
+    88.76       1.151      0.1028
+    93.92       0.8985     0.0738
+    98.98       0.4309     0.0478
+   103.6        0.3298     0.03
+   108.5        0.3337     0.0298
+   118.4        0.902      0.0773
+   128.5        2.082      0.1706
+   131.9        2.871      0.2769
+   140.8        4.322      0.3934
+   149.6        5.289      0.5595
+   158.1        5.806      0.5395
+   166.4        6.148      0.5225
+   171.3        6.43       0.5465
+ENDDATA             28
+ENDSUBENT           39
+ENDENTRY             4

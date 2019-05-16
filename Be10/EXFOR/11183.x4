@@ -1,0 +1,372 @@
+ENTRY            11183     800814              20050926       0000
+SUBENT        11183001     800814              20050926       0000
+BIB                  6          9
+INSTITUTE  (1USATNC)
+REFERENCE  (R,AFSWC-TR-60-30,60)
+AUTHOR     (J.T.PRUD'HOMME,I.L.MORGAN,J.H.MC CRARY,J.B.ASHE,
+           O.M.HUDSON JR)
+TITLE      A STUDY OF NEUTRONS AND GAMMA RAYS FROM NEUTRON INDUCED
+           REACTIONS IN SEVERAL ELEMENTS.
+STATUS     (SCSRS)
+HISTORY    (760628T) TRANSLATED FROM SCISRS
+           (800814A) CONVERTED TO REACTION FORMALISM
+ENDBIB               9
+NOCOMMON             0          0
+ENDSUBENT           12
+SUBENT        11183002     840207              20050926       0000
+BIB                  4          6
+REACTION   ((4-BE-9(N,INL)4-BE-9,PAR,DA)+
+           (4-BE-9(N,2N)4-BE-8,PAR,DA))
+METHOD     RING GEOMETRY
+MONITOR    (74-W-0(N,NON),,SIG)
+HISTORY    (820107U) BIB UPDATE
+           (840207A) REACTION UPDATED.
+ENDBIB               6
+COMMON               2          3
+EN         DATA-ERR
+MEV        PER-CENT
+ 1.5    +01 15.
+ENDCOMMON            3
+DATA                 3         10
+E          COS        DATA
+MEV        NO-DIM     MB/SR
+ 2.4        0.86600    4.53   +01
+ 2.4        0.70700    4.17   +01
+ 2.4        0.00000    2.52   +01
+ 2.4       -0.5000     2.36   +01
+ 2.4       -0.6430     2.87   +01
+ 5.5        0.86600    1.81   +01
+ 5.5        0.70700    1.42   +01
+ 5.5        0.00000    7.5    +00
+ 5.5       -0.5000     7.2    +00
+ 5.5       -0.6430     7.85   +00
+ENDDATA             12
+ENDSUBENT           27
+SUBENT        11183003     800814              20050926       0000
+BIB                  2          2
+REACTION   (5-B-11(N,INL)5-B-11,PAR,DA,G)
+METHOD                RING GEOMETRY
+ENDBIB               2
+COMMON               2          3
+EN         E
+MEV        MEV
+ 1.5    +01    4.45
+ENDCOMMON            3
+DATA                 3          1
+COS        ANG-RSL    DATA
+NO-DIM     ADEG       MB/SR
+ 0.39070      23.      1.81   +01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11183004     800814              20050926       0000
+BIB                  2          2
+REACTION   (6-C-12(N,INL)6-C-12,PAR,DA,G)
+METHOD                RING GEOMETRY
+ENDBIB               2
+COMMON               2          3
+EN         E
+MEV        MEV
+ 1.5    +01    4.43
+ENDCOMMON            3
+DATA                 3          2
+COS        ANG-RSL    DATA
+NO-DIM     ADEG       MB/SR
+ 0.0000        2.      1.47   +01
+ 0.39100      23.      1.88   +01
+ENDDATA              4
+ENDSUBENT           15
+SUBENT        11183005     800814              20050926       0000
+BIB                  2          2
+REACTION   (8-O-16(N,INL)8-O-16,PAR,DA,G)
+METHOD     RING GEOMETRY
+ENDBIB               2
+COMMON               2          3
+EN         E
+MEV        MEV
+ 1.5    +01    6.1
+ENDCOMMON            3
+DATA                 3          1
+COS        ANG-RSL    DATA
+NO-DIM     ADEG       MB/SR
+ 0.39100      23.      1.62   +01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11183006     800814              20050926       0000
+BIB                  2          2
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,DA,G)
+METHOD                RING GEOMETRY
+ENDBIB               2
+COMMON               1          3
+EN
+MEV
+ 1.5    +01
+ENDCOMMON            3
+DATA                 5          8
+E          COS        ANG-RSL    DATA       DATA-ERR
+MEV        NO-DIM     ADEG       MB/SR      MB/SR
+ 0.84   +00 0.0000        2.      3.8    +00 1.5    +00
+ 0.84   +00 0.3910       23.      3.7    +00 1.5    +00
+ 1.0    +00 0.0000        2.      9.     +00 4.     +00
+ 1.0    +00 0.3910       23.      4.5    +00 1.5    +00
+ 1.8    +00 0.0000        2.      2.0    +01 9.     +00
+ 1.8    +00 0.3910       23.      1.53   +01 4.0    +00
+ 2.2    +00 0.0000        2.      1.2    +01 4.     +00
+ 2.2    +00 0.3910       23.      7.7    +00 2.5    +00
+ENDDATA             10
+ENDSUBENT           21
+SUBENT        11183007     800814              20050926       0000
+BIB                  2          2
+REACTION   (14-SI-0(N,INL),PAR,DA,G)
+METHOD                RING GEOMETRY
+ENDBIB               2
+COMMON               2          3
+EN         E
+MEV        MEV
+ 1.5    +01    1.8
+ENDCOMMON            3
+DATA                 4          1
+COS        ANG-RSL    DATA       DATA-ERR
+NO-DIM     ADEG       MB/SR      MB/SR
+ 0.39100      23.      3.5    +01 6.     +00
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11183008     800814              20050926       0000
+BIB                  2          2
+REACTION   (26-FE-0(N,INL),PAR,DA,G)
+METHOD                RING GEOMETRY
+ENDBIB               2
+COMMON               1          3
+EN
+MEV
+ 1.5    +01
+ENDCOMMON            3
+DATA                 5          4
+E          COS        ANG-RSL    DATA       DATA-ERR
+MEV        NO-DIM     ADEG       MB/SR      MB/SR
+    0.85    0.391        23.      4.8    +01 1.5    +01
+     .85    0.00000       2.      4.9    +01 1.3    +01
+    1.2     0.39100      23.      2.3    +01 7.     +00
+    1.2     0.0000       2.       2.8    +01 7.     +00
+ENDDATA              6
+ENDSUBENT           17
+SUBENT        11183009     840207              20050926       0000
+BIB                  5          6
+REACTION   ((27-CO-59(N,INL)27-CO-59,PAR,DA)+
+           (27-CO-59(N,2N)27-CO-58,PAR,DA))
+DETECTOR   (SCIN)     BIASED SCINTILLATOR
+MONITOR    (74-W-0(N,NON),,SIG) BASED ON TUNGSTEN NON-ELASTIC.
+CORRECTION NOT CORRECTED FOR MULTIPLE SCATTERING(ESTIMATED SMALL).
+HISTORY    (840207A) REACTION UPDATED.
+ENDBIB               6
+COMMON               2          3
+EN         DATA-ERR
+MEV        PER-CENT
+ 1.5    +01 15.
+ENDCOMMON            3
+DATA                 4         10
+E-MIN      E-MAX      COS        DATA
+MEV        MEV        NO-DIM     MB/SR
+ 0.75       4.0        0.86600    8.55   +01
+ 0.75       4.0        0.70700    8.3    +01
+ 0.75       4.0        0.00000    6.2    +01
+ 0.75       4.0       -0.5000     6.5    +01
+ 0.75       4.0       -0.6430     6.9    +01
+ 4.0        7.0        0.86600    2.47   +01
+ 4.0        7.0        0.70700    1.88   +01
+ 4.0        7.0        0.00000    1.16   +01
+ 4.0        7.0       -0.5000     1.06   +01
+ 4.0        7.0       -0.6430     1.23   +01
+ENDDATA             12
+ENDSUBENT           27
+SUBENT        11183010     800814              20050926       0000
+BIB                  2          2
+REACTION   (28-NI-0(N,X)0-G-0,PAR,DA)
+DETECTOR   (SCIN)     SCINTILLATING CRYSTAL
+ENDBIB               2
+COMMON               2          3
+EN         COS
+MEV        NO-DIM
+ 1.5    +01 0.0000
+ENDCOMMON            3
+DATA                 4          6
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/SR      PER-CENT
+ 2.0    +00 3.0    +00 2.40   +01 40.
+ 3.0    +00 4.0    +00 1.54   +01 40.
+ 4.0    +00 5.0    +00 9.0    +00 40.
+ 5.0    +00 6.0    +00 5.6    +00 60.
+ 6.0    +00 7.0    +00 1.7    +00 60.
+ 7.0    +00 8.0    +00 0.2    +00 60.
+ENDDATA              8
+ENDSUBENT           19
+SUBENT        11183011     800814              20050926       0000
+BIB                  2          2
+REACTION   (29-CU-0(N,X)0-G-0,PAR,DA)
+DETECTOR   (SCIN)     SCINTILLATING CRYSTAL
+ENDBIB               2
+COMMON               2          3
+EN         COS
+MEV        NO-DIM
+ 1.5    +01 0.0000
+ENDCOMMON            3
+DATA                 4          6
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/SR      PER-CENT
+ 2.0    +00 3.0    +00 2.96   +01   40.
+ 3.0    +00 4.0    +00 1.12   +01   40.
+ 4.0    +00 5.0    +00 1.17   +01   40.
+ 5.0    +00 6.0    +00 3.4    +00   60.
+ 6.0    +00 7.0    +00 3.7    +00   60.
+ 7.0    +00 8.0    +00 7.     -01   60.
+ENDDATA              8
+ENDSUBENT           19
+SUBENT        11183012     800814              20050926       0000
+BIB                  2          2
+REACTION   (40-ZR-0(N,INL),PAR,DA,G)
+METHOD                RING GEOMETRY
+ENDBIB               2
+COMMON               3          3
+EN         ANG        ANG-RSL
+MEV        ADEG       ADEG
+ 15.         67.        23.
+ENDCOMMON            3
+DATA                 3          2
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+     .91    2.0    +01 6.     +00
+    2.2     1.8    +01 6.     +00
+ENDDATA              4
+ENDSUBENT           15
+SUBENT        11183013     800814              20050926       0000
+BIB                  4          4
+REACTION   ((42-MO-0(N,INL),PAR,DA)+(42-MO-0(N,2N),PAR,DA))
+DETECTOR   (SCIN)     BIASED SCINTILLATOR
+MONITOR    (74-W-0(N,NON),,SIG) BASED ON TUNGSTEN NONELASTIC.
+CORRECTION NOT CORRECTED FOR MULTIPLE SCATTERING (ESTIMATED SMALL)
+ENDBIB               4
+COMMON               1          3
+EN
+MEV
+ 1.5    +01
+ENDCOMMON            3
+DATA                 5         10
+E-MIN      E-MAX      COS        DATA       DATA-ERR
+MEV        MEV        NO-DIM     MB/SR      MB/SR
+ 0.75       4.0        0.866      110.        12.
+ 0.75       4.0        0.707      100.        15.
+ 0.75       4.0        0.000       80.        12.
+ 0.75       4.0       -0.500       85.        14.
+ 0.75       4.0       -0.643       87.        13.
+ 4.0        7.0        0.866       26.5       6.5
+ 4.0        7.0        0.707       14.        2.5
+ 4.0        7.0        0.000        9.5       1.5
+ 4.0        7.0       -0.500       10.9       1.6
+ 4.0        7.0       -0.643        8.8       1.3
+ENDDATA             12
+ENDSUBENT           25
+SUBENT        11183014     800814              20050926       0000
+BIB                  4          4
+REACTION   ((48-CD-0(N,INL),PAR,DA)+(48-CD-0(N,2N),PAR,DA))
+DETECTOR   (SCIN)     BIASED SCINTILLATOR
+MONITOR    (74-W-0(N,NON),,SIG) BASED ON TUNGSTEN NONELASTIC.
+CORRECTION NOT CORRECTED FOR MULTIPLE SCATTERING (ESTIM. SMALL).
+ENDBIB               4
+COMMON               1          3
+EN
+MEV
+ 1.5    +01
+ENDCOMMON            3
+DATA                 5         10
+E-MIN      E-MAX      COS        DATA       DATA-ERR
+MEV        MEV        NO-DIM     MB/SR      PER-CENT
+ 0.75   +00 4.0    +00 0.86600    1.25   +02   15.
+ 0.75   +00 4.0    +00 0.70700    1.20   +02   15.
+ 0.75   +00 4.0    +00 0.00000    9.8    +01   15.
+ 0.75   +00 4.0    +00-0.5000     8.3    +01   15.
+ 0.75   +00 4.0    +00-0.6430     9.2    +01   15.
+ 4.0    +00 7.0    +00 0.86600    4.23   +01   25.
+ 4.0    +00 7.0    +00 0.70700    1.98   +01   15.
+ 4.0    +00 7.0    +00 0.00000    1.23   +01   15.
+ 4.0    +00 7.0    +00-0.5000     8.5    +00   15.
+ 4.0    +00 7.0    +00-0.6430     1.00   +01   15.
+ENDDATA             12
+ENDSUBENT           25
+SUBENT        11183015     800814              20050926       0000
+BIB                  4          4
+REACTION   ((74-W-0(N,INL),PAR,DA)+(74-W-0(N,2N),PAR,DA))
+DETECTOR   (SCIN)     BIASED SCINTILLATOR
+MONITOR    (74-W-0(N,NON),,SIG)
+CORRECTION NOT CORRECTED FOR MULTIPLE SCATTERING(ESTIMATED SMALL)
+ENDBIB               4
+COMMON               1          3
+EN
+MEV
+ 1.5    +01
+ENDCOMMON            3
+DATA                 5         10
+E-MIN      E-MAX      COS        DATA       DATA-ERR
+MEV        MEV        NO-DIM     MB/SR      PER-CENT
+ 0.75   +00 4.0    +00 0.86600    1.62   +02   15.
+ 0.75   +00 4.0    +00 0.70700    1.71   +02   15.
+ 0.75   +00 4.0    +00 0.00000    1.35   +02   15.
+ 0.75   +00 4.0    +00-0.5000     1.32   +02   15.
+ 0.75   +00 4.0    +00-0.6430     1.32   +02   15.
+ 4.0    +00 7.0    +00 0.86600    2.3    +01   25.
+ 4.0    +00 7.0    +00 0.70700    2.34   +01   20.
+ 4.0    +00 7.0    +00 0.00000    1.13   +01   15.
+ 4.0    +00 7.0    +00-0.5000     9.6    +00   15.
+ 4.0    +00 7.0    +00-0.6430     8.3    +00   15.
+ENDDATA             12
+ENDSUBENT           25
+SUBENT        11183016     800814              20050926       0000
+BIB                  1          1
+REACTION   (12-MG-0(N,INL),PAR,DA,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 6          1
+EN         E          ANG        ANG-RSL    DATA       DATA-ERR
+MEV        MEV        ADEG       ADEG       MB/SR      MB/SR
+ 1.5    +01 1.4        67.        23.        3.1    +01 6.     +00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11183017     800814              20050926       0000
+BIB                  1          1
+REACTION   (13-AL-27(N,X)0-G-0,PAR,DA)
+ENDBIB               1
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+ 1.5    +01 90.
+ENDCOMMON            3
+DATA                 4          6
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/SR      PER-CENT
+ 2.         3.         33.6       40.
+ 3.         4.         10.6       40.
+ 4.         5.         11.4       40.
+ 5.         6.          4.4       60.
+ 6.         7.          5.4       60.
+ 7.         8.          2.1       60.
+ENDDATA              8
+ENDSUBENT           18
+SUBENT        11183018     800814              20050926       0000
+BIB                  1          1
+REACTION   (26-FE-0(N,X)0-G-0,PAR,DA)
+ENDBIB               1
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+ 1.5    +01 90.
+ENDCOMMON            3
+DATA                 4          6
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/SR      PER-CENT
+ 2.         3.         33.0       40.
+ 3.         4.         17.2       40.
+ 4.         5.         12.0       40.
+ 5.         6.          6.3       60.
+ 6.         7.          6.0       60.
+ 7.         8.          2.3       60.
+ENDDATA              8
+ENDSUBENT           18
+ENDENTRY            18

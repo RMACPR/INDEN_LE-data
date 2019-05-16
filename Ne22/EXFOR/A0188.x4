@@ -1,0 +1,438 @@
+ENTRY            A0188   20180120   20180423   20180408       A088
+SUBENT        A0188001   20180120   20180423   20180408       A088
+BIB                  6         14
+TITLE      Evaluated (alpha,n) reaction data on most important
+           nuclei entered in composition of chemical reagents
+           which used in nuclear fuel work process.
+AUTHOR     (V.A.Vukolov, F.E.Chukreev)
+INSTITUTE  (4RUSKUR)
+REFERENCE  (J,VAT/O,,(4/25),31,1983)
+STATUS     (APRVD).By V.A.Vukolov.
+HISTORY    (19830516C)
+           (19991019A) Some data are corrected. Lower case.
+           (20011010A) date is corrected
+           (20100617A) BIB section upgraded.
+           Reference code was changed, according MEMO CP-D/628
+           (20180120U) SD:  Ref. corrected: VAT/O,4/25,31, ->
+           VAT/O,,(4/25),31, according to  MEMO 4C-4/216.
+ENDBIB              14
+NOCOMMON             0          0
+ENDSUBENT           17
+SUBENT        A0188002   20020404   20020430   20050926       0000
+BIB                  4         11
+SAMPLE     O-17.
+REACTION   (8-O-17(A,N)10-NE-20,,SIG,,,EVAL)
+REL-REF    (E,,J.K.BAIR+,J,PR,128,299,1962)
+           (E,,J.K.BAIR+,J,PR/C,7,1356,1973)
+           (E,,L.F.HANSEN+,J,NP/A,98,25,1967)
+           (E,,J.K.BAIR+,J,NSE,71,18,1979)
+COMMENT    - By Authors - Evaluated Yield Error is +- 10%
+           When Alpha-Particle Energy Less Than 5 MeV and +-12%
+           When Alpha-Particle Energy More Than 5 MeV.  The Cross
+           Section Values were Changed Because of Wrong Allowance
+           The Isotopic Abundance in the Paper Published.
+ENDBIB              11
+NOCOMMON
+DATA                 3         49
+EN-MIN     EN-MAX     DATA
+MEV        MEV        MB
+         0.         1.     14.E-4
+         1.        1.1     11.E-3
+        1.1        1.2     21.E-3
+        1.2        1.3     28.E-3
+        1.3        1.4     11.E-2
+        1.4        1.5     84.E-3
+        1.5        1.6     14.E-2
+        1.6        1.7     33.E-2
+        1.7        1.8     14.E-1
+        1.8        1.9     11.E-1
+        1.9         2.     46.E-1
+         2.        2.1     87.E-1
+        2.1        2.2        19.
+        2.2        2.3        14.
+        2.3        2.4        12.
+        2.4        2.5         9.
+        2.5        2.6        10.
+        2.6        2.7        24.
+        2.7        2.8        14.
+        2.8        2.9        12.
+        2.9         3.        49.
+         3.        3.1        88.
+        3.1        3.2        92.
+        3.2        3.3        44.
+        3.3        3.4        32.
+        3.4        3.5        65.
+        3.5        3.6        68.
+        3.6        3.7       121.
+        3.7        3.8       144.
+        3.8        3.9       140.
+        3.9         4.       108.
+         4.        4.1       173.
+        4.1        4.2       154.
+        4.2        4.3       121.
+        4.3        4.4       105.
+        4.4        4.5        81.
+        4.5        4.6        80.
+        4.6        4.7       133.
+        4.7        4.8       125.
+        4.8        4.9       122.
+        4.9         5.       129.
+         5.        5.5       187.
+        5.5         6.       206.
+         6.        6.5       230.
+        6.5         7.       258.
+         7.        7.5       285.
+        7.5         8.       315.
+         8.         9.       350.
+         9.        10.       403.
+ENDDATA             51
+ENDSUBENT           67
+SUBENT        A0188003   20020404   20020430   20050926       0000
+BIB                  4         11
+SAMPLE     O-18.
+REACTION   (8-O-18(A,N)10-NE-21,,SIG,,,EVAL)
+REL-REF    (E,,J.K.BAIR+,J,PR,128,299,1962)
+           (E,,J.K.BAIR+,J,PR/C,7,1356,1973)
+           (E,,L.F.HANSEN+,J,NP/A,98,25,1967)
+           (E,,J.K.BAIR+,J,NSE,71,18,1979)
+COMMENT     (BY AUTHORS) Evaluated Yield Error is +- 10%
+           When Alpha-Particle Energy Less Than 5 MeV and +- 12%
+           When Alpha-Particle Energy More Than 5 MeV. The Cross
+           Section Values were Changed Because of Wrong Allowance
+           The Isotopic Abundance in the Paper Published.
+ENDBIB              11
+NOCOMMON
+DATA                 3         49
+EN-MIN     EN-MAX     DATA
+MEV        MEV        MB
+         0.         1.      3.E-4
+         1.        1.1     11.E-3
+        1.1        1.2     56.E-4
+        1.2        1.3     56.E-4
+        1.3        1.4     42.E-3
+        1.4        1.5     56.E-3
+        1.5        1.6     56.E-2
+        1.6        1.7     84.E-2
+        1.7        1.8     84.E-2
+        1.8        1.9     14.E-1
+        1.9         2.     71.E-2
+         2.        2.1     19.E-1
+        2.1        2.2     40.E-1
+        2.2        2.3     59.E-1
+        2.3        2.4     59.E-1
+        2.4        2.5        27.
+        2.5        2.6        86.
+        2.6        2.7        27.
+        2.7        2.8        59.
+        2.8        2.9        60.
+        2.9         3.       101.
+         3.        3.1        21.
+        3.1        3.2        75.
+        3.2        3.3       116.
+        3.3        3.4       136.
+        3.4        3.5        87.
+        3.5        3.6       236.
+        3.6        3.7       269.
+        3.7        3.8       249.
+        3.8        3.9       316.
+        3.9         4.       266.
+         4.        4.1       245.
+        4.1        4.2       250.
+        4.2        4.3       360.
+        4.3        4.4       394.
+        4.4        4.5       300.
+        4.5        4.6       410.
+        4.6        4.7       409.
+        4.7        4.8       258.
+        4.8        4.9       400.
+        4.9         5.       341.
+         5.        5.5       403.
+        5.5         6.       440.
+         6.        6.5       470.
+        6.5         7.       494.
+         7.        7.5       515.
+        7.5         8.       535.
+         8.         9.       575.
+         9.        10.       610.
+ENDDATA             51
+ENDSUBENT           67
+SUBENT        A0188004   20020404   20020430   20050926       0000
+BIB                  4          9
+SAMPLE     Natural Oxygen.
+REACTION   (8-O-0(A,X)0-NN-1,,PY,,TT,EVAL)
+REL-REF    (R,,H.H.ANDERSEN+,B,ANDERSEN,4,,1977)
+COMMENT    - By Author - Based on Evaluated Cross Sections and
+           Values of Stopping Power from H.H.Anderson'S and
+           Et Al. Paper (SEE REL-REF) Have Been Calculated
+           Evaluated Yields. Evaluated Yield Error is Equal
+           +-20% When Alpha-Particle Energy < 1.5 MeV and +- 15%
+           At Other Energies.
+ENDBIB               9
+NOCOMMON
+DATA                 2         49
+EN         DATA
+MEV        PRT/INC
+         1.    25.E-15
+        1.1    83.E-15
+        1.2    13.E-14
+        1.3    18.E-14
+        1.4    49.E-14
+        1.5    84.E-14
+        1.6    39.E-13
+        1.7    46.E-13
+        1.8    66.E-13
+        1.9    16.E-12
+         2.    24.E-12
+        2.1    46.E-12
+        2.2    92.E-12
+        2.3    15.E-11
+        2.4    20.E-11
+        2.5    39.E-11
+        2.6    97.E-11
+        2.7    12.E-10
+        2.8    16.E-10
+        2.9    21.E-10
+         3.    29.E-10
+        3.1    32.E-10
+        3.2    39.E-10
+        3.3    48.E-10
+        3.4    60.E-10
+        3.5    68.E-10
+        3.6    89.E-10
+        3.7     11.E-9
+        3.8     14.E-9
+        3.9     17.E-9
+         4.     19.E-9
+        4.1     22.E-9
+        4.2     24.E-9
+        4.3     28.E-9
+        4.4     30.E-9
+        4.5     33.E-9
+        4.6     35.E-9
+        4.7     44.E-9
+        4.8     46.E-9
+        4.9     51.E-9
+         5.     55.E-9
+        5.5     79.E-9
+         6.     11.E-8
+        6.5     14.E-8
+         7.     17.E-8
+        7.5     21.E-8
+         8.     25.E-8
+         9.     35.E-8
+        10.     46.E-8
+ENDDATA             51
+ENDSUBENT           65
+SUBENT        A0188005   20020404   20020430   20050926       0000
+BIB                  4          9
+SAMPLE     Pu Dioxide.
+REACTION   (8-O-CMP(A,X)0-NN-1,,PY,,TT,EVAL)
+COMMENT     (BY AUTHORS) Based on Evaluated Cross Sections
+           And Values of Stopping Power from Anderson'S and
+           Et Al Paper (SEE REL-REF) Have Been Calculated
+           Evaluated Yields. Evaluated Yields Error is Equal
+           +-20% When Alpha-Particle Energy < 1.5 MeV and +-15%
+           At Other Energies.
+REL-REF    (R,,H.H.ANDERSEN+,B,ANDERSEN,4,,1977)
+ENDBIB               9
+NOCOMMON
+DATA                 2         49
+EN         DATA
+MEV        PRT/INC
+         1.    89.E-10
+        1.1     30.E-9
+        1.2     46.E-9
+        1.3     64.E-9
+        1.4     17.E-8
+        1.5     30.E-8
+        1.6     14.E-7
+        1.7     16.E-7
+        1.8     23.E-7
+        1.9     54.E-7
+         2.     85.E-7
+        2.1     16.E-6
+        2.2     32.E-6
+        2.3     50.E-6
+        2.4     67.E-6
+        2.5     13.E-5
+        2.6     32.E-5
+        2.7     40.E-5
+        2.8     54.E-5
+        2.9     69.E-5
+         3.     96.E-5
+        3.1     10.E-4
+        3.2     13.E-4
+        3.3     16.E-4
+        3.4     19.E-4
+        3.5     22.E-4
+        3.6     29.E-4
+        3.7     37.E-4
+        3.8     44.E-4
+        3.9     53.E-4
+         4.     61.E-4
+        4.1     69.E-4
+        4.2     77.E-4
+        4.3     88.E-4
+        4.4     10.E-3
+        4.5     11.E-3
+        4.6     12.E-3
+        4.7     14.E-3
+        4.8     14.E-3
+        4.9     16.E-3
+         5.     17.E-3
+        5.5     24.E-3
+         6.     33.E-3
+        6.5     42.E-3
+         7.     53.E-3
+        7.5     64.E-3
+         8.     76.E-3
+         9.     10.E-2
+        10.     14.E-2
+ENDDATA             51
+ENDSUBENT           65
+SUBENT        A0188006   20020404   20020430   20050926       0000
+BIB                  4          7
+SAMPLE     F-19.
+REACTION   (9-F-19(A,N)11-NA-22,,SIG,,,EVAL)
+REL-REF    (E,,J.K.BAIR+,J,NSE,71,18,1979)
+           (E,,M.BALAKRISHNAN+,J,PRM,10,329,1978)
+           (E,,T.E.SAMPSON,J,NSE,54,470,1974)
+ERR-ANALYS (DATA-ERR) The Uncertainty is Connected with
+           Uncertainty of Experimental Data
+ENDBIB               7
+NOCOMMON
+DATA                 4         31
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         MB
+        2.4        2.6      8.E-1      3.E-1
+        2.6        2.7     16.E-1      3.E-1
+        2.7        2.8     50.E-1      9.E-1
+        2.8        2.9     56.E-1     10.E-1
+        2.9         3.     52.E-1      9.E-1
+         3.        3.1     20.E-1      4.E-1
+        3.1        3.2     77.E-1     14.E-1
+        3.2        3.3        12.         2.
+        3.3        3.4        13.         2.
+        3.4        3.5        14.         2.
+        3.5        3.6        27.         5.
+        3.6        3.7        25.         4.
+        3.7        3.8        65.        12.
+        3.8        3.9        23.         4.
+        3.9         4.        41.         7.
+         4.        4.1        54.        10.
+        4.1        4.2        43.         8.
+        4.2        4.3        60.        11.
+        4.3        4.4        66.        12.
+        4.4        4.5        87.        16.
+        4.5        4.6        76.        14.
+        4.6        4.7       130.        23.
+        4.7        4.8        84.        15.
+        4.8        4.9       102.        18.
+        4.9         5.        95.        17.
+         5.        5.5       135.        12.
+        5.5         6.       170.        15.
+         6.        6.5       200.        18.
+        6.5         7.       235.        21.
+         7.        7.5       260.        24.
+        7.5         8.       280.        26.
+ENDDATA             33
+ENDSUBENT           45
+SUBENT        A0188007   20020404   20020430   20050926       0000
+BIB                  5          9
+SAMPLE     F-19.
+REACTION   (9-F-19(A,N)11-NA-22,,PY,,TT,EVAL)
+REL-REF    (R,,H.H.ANDERSEN+,B,ANDERSEN,4,,1977)
+ERR-ANALYS (DATA-ERR) The Uncertainty is Connected with
+           Uncertainty of Experimental Data
+COMMENT     (BY AUTHORS) Based on Evaluated Cross Sections and
+           Values of Stopping Power from Anderson'S and Et Al.
+           Paper (SEE REL-REF) Have Been Calculated Evaluated
+           Yields.
+ENDBIB               9
+NOCOMMON
+DATA                 3         31
+EN         DATA       DATA-ERR
+MEV        PRT/INC    PRT/INC
+        2.6      5.E-3      2.E-3
+        2.7     10.E-3      2.E-3
+        2.8     26.E-3      5.E-3
+        2.9     45.E-3      8.E-3
+         3.     62.E-3     11.E-3
+        3.1     69.E-3     12.E-3
+        3.2     96.E-3     17.E-3
+        3.3     14.E-2      2.E-2
+        3.4     19.E-2      3.E-2
+        3.5     24.E-2      4.E-2
+        3.6     34.E-2      6.E-2
+        3.7     44.E-2      8.E-2
+        3.8     69.E-2     10.E-2
+        3.9     78.E-2     14.E-2
+         4.     95.E-2     17.E-2
+        4.1     12.E-1      2.E-1
+        4.2     14.E-1      2.E-1
+        4.3     16.E-1      3.E-1
+        4.4     19.E-1      3.E-1
+        4.5     23.E-1      4.E-1
+        4.6     26.E-1      5.E-1
+        4.7     32.E-1      6.E-1
+        4.8     36.E-1      6.E-1
+        4.9     41.E-1      7.E-1
+         5.     45.E-1      8.E-1
+        5.5     79.E-1     11.E-1
+         6.    124.E-1     14.E-1
+        6.5    181.E-1     18.E-1
+         7.    250.E-1     24.E-1
+        7.5    331.E-1     31.E-1
+         8.    423.E-1     39.E-1
+ENDDATA             33
+ENDSUBENT           47
+SUBENT        A0188008   20020404   20020430   20050926       0000
+BIB                  5          9
+SAMPLE     Uranium Fluoride.
+REACTION   (9-F-CMP(A,X)0-NN-1,,PY,,TT,EVAL)
+REL-REF    (R,,H.H.ANDERSEN+,B,ANDERSEN,4,,1977)
+ERR-ANALYS (DATA-ERR) The Uncertainty is Connected with
+           Uncertainty of Experimental Data
+COMMENT     (BY AUTHORS) Based on Evaluated Cross Section and
+           Values of Stopping Power from Anderson'S and Et Al.
+           Paper (SEE REL-REF) Have Been Calculated Evaluated
+           Yields.
+ENDBIB               9
+NOCOMMON
+DATA                 3         31
+EN         DATA       DATA-ERR
+MEV        PRT/INC    PRT/INC
+        2.6      3.E-3      1.E-3
+        2.7      6.E-3      1.E-3
+        2.8     16.E-3      3.E-3
+        2.9     27.E-3      5.E-3
+         3.     38.E-3      7.E-3
+        3.1     42.E-3      8.E-3
+        3.2     58.E-3     10.E-3
+        3.3     83.E-3     15.E-3
+        3.4     11.E-2      2.E-2
+        3.5     14.E-2      2.E-2
+        3.6     20.E-2      4.E-2
+        3.7     26.E-2      5.E-2
+        3.8     41.E-2      7.E-2
+        3.9     47.E-2      8.E-2
+         4.     57.E-2     10.E-2
+        4.1     70.E-2     13.E-2
+        4.2     80.E-2     14.E-2
+        4.3     96.E-2     14.E-2
+        4.4     11.E-1      2.E-1
+        4.5     14.E-1      2.E-1
+        4.6     15.E-1      3.E-1
+        4.7     19.E-1      3.E-1
+        4.8     21.E-1      4.E-1
+        4.9     24.E-1      4.E-1
+         5.     27.E-1      5.E-1
+        5.5     47.E-1      6.E-1
+         6.     72.E-1      8.E-1
+        6.5    105.E-1     11.E-1
+         7.    144.E-1     14.E-1
+        7.5    190.E-1     17.E-1
+         8.    242.E-1     22.E-1
+ENDDATA             33
+ENDSUBENT           47
+ENDENTRY             8

@@ -1,0 +1,269 @@
+ENTRY            C2272   20171014   20180410   20180410       C173
+SUBENT        C2272001   20171014   20180410   20180410       C173
+BIB                 10         26
+TITLE       (d,n) proton-transfer reactions on 9Be, 11B, 13C,
+           14,15N, and 19F and spectroscopic factors at Ed = 16MeV
+AUTHOR     (M.Febbraro,F.D.Becchetti,R.O.Torres-Isea,J.Riggins,
+           C.C.Lawrence,J.J.Kolata,A.M.Howard)
+INSTITUTE  (1USAMHG,1USANOT)
+REFERENCE  (J,PR/C,96,024613,2017)
+FACILITY   (VDGT,1USANOT)Experiment was conducted at the
+           University of Notre Dames' Nuclear Science Laboratory.
+DETECTOR   (SCIN) Neutrons were detected using 4 in. diameter x
+           6 in. deep (4" x 6") and 2 in. diameter x 2 in. deep
+            (2" x 2") EJ315 detectors. The entrance windows of
+           the 4" x 6" detectors were located at a radius of 1.0
+           m and those of the 2" x 2" detectors at 50 cm with
+           respect to the central target position.
+METHOD     (TOF,PSD)
+ANALYSIS   Two methods were used to determine cross sections.
+           First was deuteron-recoil peak fitting from the light
+           spectra and the second was fitting peaks in an unfolded
+           neutron-energy spectrum. For ground state cross section
+           determination the simpler case of ground-state deuteron
+           recoil peak was used.
+ERR-ANALYS (DATA-ERR) Detailed origin of uncertainties not given
+           (ERR-1) Systematic incertainty in target thickness
+           (ERR-2,5.,10.) Systematic uncertainty in detection
+           efficiency.
+HISTORY    (20171014C) Compiled by S.H.
+ENDBIB              26
+NOCOMMON             0          0
+ENDSUBENT           29
+SUBENT        C2272002   20171014   20180410   20180410       C173
+BIB                  3          4
+REACTION   (4-BE-9(D,N)5-B-10,PAR,DA)
+STATUS     (CURVE) Data taken from fig.7 of the reference
+                   Waiting for data from author
+SAMPLE     Thin 9Be foil with thickness of 1.85 mg/cm2
+ENDBIB               4
+COMMON               3          3
+EN         E-LVL      ERR-1
+MEV        KEV        PER-CENT
+16.0       0.0        5.0
+ENDCOMMON            3
+DATA                 4         20
+ANG-CM     ANG-ERR    DATA-CM    DATA-ERR
+ADEG       ADEG       MB/SR      MB/SR
+       10.6        3.4  7.338E+00  7.026E-01
+       16.1        3.2  8.634E+00  9.909E-01
+       21.6        2.6  6.563E+00  8.411E-01
+       27.0        2.6  4.552E+00  5.429E-01
+       32.5        3.0  3.425E+00  4.085E-01
+       37.7        3.2  1.929E+00  2.214E-01
+       43.2        3.0  2.093E+00  2.308E-01
+       48.4        3.2  1.591E+00  1.897E-01
+       53.9        2.8  1.459E+00  1.543E-01
+       60.9        3.1  1.240E+00  1.141E-01
+       64.2        2.6  1.070E+00  1.372E-01
+       74.7        3.0  7.021E-01  8.686E-02
+       84.8        3.1  5.337E-01  6.840E-02
+       94.8        2.9  5.446E-01  6.251E-02
+      104.8        3.1  5.256E-01  6.503E-02
+      114.5        2.9  4.772E-01  5.691E-02
+      124.0        3.0  3.021E-01  4.402E-02
+      133.7        3.1  3.327E-01  3.968E-02
+      143.0        2.6  2.785E-01  3.693E-02
+      161.6        3.1  2.757E-01  3.656E-02
+ENDDATA             22
+ENDSUBENT           35
+SUBENT        C2272003   20171014   20180410   20180410       C173
+BIB                  3          5
+REACTION   (5-B-11(D,N)6-C-12,PAR,DA)
+STATUS     (CURVE) Data taken from fig.8 of the reference
+                   Waiting for data from author
+SAMPLE     Thin self-supporting B foil with thickness
+           of 23.1 mg/cm2
+ENDBIB               5
+COMMON               3          3
+EN         E-LVL      ERR-1
+MEV        KEV        PER-CENT
+15.4       0.0        5.
+ENDCOMMON            3
+DATA                 4         19
+ANG-CM     ANG-ERR    DATA-CM    DATA-ERR
+ADEG       ADEG       MB/SR      MB/SR
+       10.9        2.7  1.440E+00  1.430E-01
+       16.2        3.2  1.522E+00  1.675E-01
+       21.6        3.2  1.355E+00  1.490E-01
+       27.1        3.0  1.253E+00  1.379E-01
+       32.5        3.2  1.027E+00  1.130E-01
+       37.8        3.3  9.230E-01  1.055E-01
+       43.1        3.3  8.581E-01  8.696E-02
+       48.5        3.2  7.749E-01  8.860E-02
+       53.8        3.3  7.170E-01  7.888E-02
+       64.3        2.9  5.153E-01  5.892E-02
+       74.9        2.8  3.528E-01  4.034E-02
+       84.9        3.0  2.991E-01  3.803E-02
+       95.2        2.9  1.932E-01  2.042E-02
+      105.1        2.8  1.508E-01  1.854E-02
+      114.7        3.2  1.013E-01  1.158E-02
+      124.4        2.9  9.742E-02  1.072E-02
+      133.9        3.0  8.381E-02  8.857E-03
+      143.1        3.3  9.146E-02  9.666E-03
+      152.4        2.9  1.177E-01  1.397E-02
+ENDDATA             21
+ENDSUBENT           35
+SUBENT        C2272004   20171014   20180410   20180410       C173
+BIB                  3          5
+REACTION   (6-C-13(D,N)7-N-14,PAR,DA)
+STATUS     (CURVE) Data taken from fig.9 of the reference
+                   Waiting for data from author
+SAMPLE     (6-C-13,ENR=0.95) Thin 13-C foil with thickness
+                  of 8.55 mg/cm2 on a thin Mylar backing
+ENDBIB               5
+COMMON               3          3
+EN         E-LVL      ERR-1
+MEV        KEV        PER-CENT
+15.7       0.0        5.
+ENDCOMMON            3
+DATA                 4         23
+ANG-CM     ANG-ERR    DATA-CM    DATA-ERR
+ADEG       ADEG       MB/SR      MB/SR
+       11.0        2.9  9.307E+00  1.084E+00
+       15.9        3.1  9.408E+00  1.138E+00
+       21.5        3.2  7.160E+00  8.337E-01
+       24.4        3.2  5.016E+00  6.072E-01
+       26.9        3.1  3.478E+00  4.050E-01
+       32.4        2.9  1.883E+00  2.020E-01
+       37.7        3.2  1.614E+00  1.879E-01
+       43.2        3.2  1.745E+00  1.952E-01
+       48.6        2.9  1.996E+00  2.325E-01
+       53.9        3.1  1.977E+00  2.392E-01
+       59.0        3.1  1.617E+00  1.883E-01
+       64.3        2.8  1.256E+00  1.348E-01
+       74.8        3.2  8.323E-01  9.310E-02
+       85.1        2.9  7.790E-01  9.071E-02
+       95.1        2.9  6.182E-01  7.198E-02
+      104.8        3.2  4.956E-01  5.995E-02
+      114.7        3.1  5.250E-01  6.590E-02
+      124.2        2.9  4.991E-01  6.040E-02
+      133.8        3.1  4.279E-01  4.982E-02
+      143.2        2.8  4.046E-01  4.712E-02
+      147.6        3.4  4.374E-01  4.691E-02
+      152.3        3.2  5.135E-01  5.979E-02
+      161.4        3.2  7.113E-01  8.284E-02
+ENDDATA             25
+ENDSUBENT           39
+SUBENT        C2272005   20171014   20180410   20180410       C173
+BIB                  3          8
+REACTION   (7-N-14(D,N)8-O-15,PAR,DA)
+STATUS     (CURVE) Data taken from fig.10 of the reference
+                   Waiting for data from author
+SAMPLE     Gaseous target with 3 mm thick side walls from
+           free-cutting brass (Alloy 360) with diameter of
+           1 cm and hermetically sealed entrance and exit
+           windows made of 10mu-m Havar metal foil. Target
+           thickness was 3.2 mg/cm2.
+ENDBIB               8
+COMMON               3          3
+EN         E-LVL      ERR-1
+MEV        KEV        PER-CENT
+15.4       0.0        10.
+ENDCOMMON            3
+DATA                 4         20
+ANG-CM     ANG-ERR    DATA-CM    DATA-ERR
+ADEG       ADEG       MB/SR      MB/SR
+        5.3        2.9  5.239E-01  6.066E-02
+        7.4        2.7  7.472E-01  8.649E-02
+       10.7        2.6  2.616E+00  2.861E-01
+       16.2        2.6  4.843E+00  5.611E-01
+       21.5        2.7  4.348E+00  4.757E-01
+       27.0        2.6  1.948E+00  2.380E-01
+       32.2        2.9  1.140E+00  1.321E-01
+       37.8        2.6  5.375E-01  5.881E-02
+       43.0        2.7  3.483E-01  4.256E-02
+       48.5        2.6  2.241E-01  2.739E-02
+       53.8        3.0  2.974E-01  3.253E-02
+       64.0        2.7  4.907E-01  4.733E-02
+       74.3        2.7  3.814E-01  4.174E-02
+       84.3        3.0  1.261E-01  1.380E-02
+       95.0        3.0  1.016E-01  9.803E-03
+      104.5        3.0  2.273E-01  2.777E-02
+      114.3        2.9  2.132E-01  2.331E-02
+      123.9        2.7  5.925E-02  6.098E-03
+      133.0        3.0  8.098E-02  8.330E-03
+      142.8        2.9  5.769E-02  6.312E-03
+ENDDATA             22
+ENDSUBENT           39
+SUBENT        C2272006   20171014   20180410   20180410       C173
+BIB                  3          8
+REACTION   (7-N-15(D,N)8-O-16,PAR,DA)
+STATUS     (CURVE) Data taken from fig.11 of the reference
+                   Waiting for data from author
+SAMPLE     Gaseous target with 3 mm thick side walls from
+           free-cutting brass (Alloy 360) with diameter of
+           1 cm and hermetically sealed entrance and exit
+           windows made of 10mu-m Havar metal foil. Target
+           thickness was 3.7 mg/cm2.
+ENDBIB               8
+COMMON               3          3
+EN         E-LVL      ERR-1
+MEV        KEV        PER-CENT
+15.4       0.0        10.
+ENDCOMMON            3
+DATA                 4         18
+ANG-CM     ANG-ERR    DATA-CM    DATA-ERR
+ADEG       ADEG       MB/SR      MB/SR
+       10.6        3.0  1.786E+00  2.058E-01
+       16.0        2.7  2.362E+00  2.963E-01
+       21.3        3.3  1.659E+00  2.081E-01
+       26.7        2.6  1.097E+00  1.317E-01
+       32.2        3.0  6.575E-01  7.541E-02
+       37.3        3.0  6.186E-01  7.095E-02
+       42.6        2.7  7.117E-01  8.925E-02
+       47.8        3.0  7.894E-01  8.197E-02
+       53.2        2.6  6.301E-01  6.886E-02
+       58.3        2.7  5.313E-01  6.094E-02
+       63.6        2.7  4.733E-01  4.915E-02
+       68.6        2.7  3.824E-01  3.971E-02
+       73.8        3.3  2.997E-01  3.599E-02
+       83.9        3.1  5.250E-01  6.303E-02
+       94.1        2.7  5.479E-01  6.284E-02
+      113.8        2.9  3.245E-01  3.370E-02
+      132.8        3.1  1.934E-01  2.008E-02
+      151.7        3.1  5.825E-01  6.681E-02
+ENDDATA             20
+ENDSUBENT           37
+SUBENT        C2272007   20171014   20180410   20180410       C173
+BIB                  3          8
+REACTION   (9-F-19(D,N)10-NE-20,PAR,DA)
+STATUS     (CURVE) Data taken from fig.12 of the reference
+                   Waiting for data from author
+SAMPLE     Gaseous target with 3 mm thick side walls from
+           free-cutting brass (Alloy 360) with diameter of
+           1 cm and hermetically sealed entrance and exit
+           windows made of 10mu-m Havar metal foil. Target
+           thickness was 8.0 mg/cm2.
+ENDBIB               8
+COMMON               3          3
+EN         E-LVL      ERR-1
+MEV        KEV        PER-CENT
+15.5       0.0        10.
+ENDCOMMON            3
+DATA                 4         20
+ANG-CM     ANG-ERR    DATA-CM    DATA-ERR
+ADEG       ADEG       MB/SR      MB/SR
+        4.7        2.7  2.274E+00  3.903E-01
+        6.5        2.5  1.724E+00  2.693E-01
+        9.3        2.8  6.545E-01  1.164E-01
+       13.9        2.8  7.190E-01  1.138E-01
+       19.1        2.5  6.052E-01  1.037E-01
+       23.8        2.8  5.596E-01  9.587E-02
+       28.5        2.8  5.175E-01  8.865E-02
+       38.2        2.5  3.286E-01  5.415E-02
+       47.6        2.8  2.518E-01  4.638E-02
+       56.9        2.9  1.562E-01  2.777E-02
+       66.5        2.5  1.142E-01  2.103E-02
+       75.5        2.8  6.918E-02  1.185E-02
+       84.9        2.4  6.652E-02  1.096E-02
+       93.8        2.6  4.788E-02  8.819E-03
+      102.7        2.6  4.030E-02  7.165E-03
+      111.5        2.6  3.064E-02  5.448E-03
+      120.3        2.8  3.937E-02  6.488E-03
+      129.3        2.5  5.260E-02  9.351E-03
+      137.8        2.5  3.640E-02  5.760E-03
+      146.4        2.8  3.786E-02  6.485E-03
+ENDDATA             22
+ENDSUBENT           39
+ENDENTRY             7

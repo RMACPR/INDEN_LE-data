@@ -1,0 +1,167 @@
+ENTRY            O1709   20090312   20090323   20090318       O038
+SUBENT        O1709001   20090312   20090323   20090318       O038
+BIB                 10         53
+TITLE      The He-3(a,g)Be-7 S-factor at solar energies:
+           The prompt gamma experiment at LUNA.
+AUTHOR     (H.Costantini, D.Bemmerer, F.Confortola, A.Formicola,
+           Gy.Gyuerky, P.Bezzon, R.Bonetti, C.Broggini,
+           P.Corvisiero, Z.Elekes, Zs.Fuelop, G.Gervino,
+           A.Guglielmetti, C.Gustavino, G.Imbriani, M.Junker,
+           M.Laubenstein, A.Lemut, B.Limata, V.Lozza, M.Marta,
+           R.Menegazzo, P.Prati, V.Roca, C.Rolfs, C.Rossi Alvarez,
+           E.Somorjai, O.Straniero, F.Strieder, F.Terrasi,
+           H.P.Trautvetter)
+INSTITUTE  (2ITYGVA)
+           (2GERDRE)
+           (2ITYLGS)
+           (3HUNDEB)
+           (2ITYPAD)
+           (2ITYMIL)
+           (2ITYTUR)
+           (2ITYNAP)
+           (2GERBOC)
+           (2ITYOAC)
+           (2ITYFSN)
+REFERENCE  (J,NP/A,814,144,2008) main reference
+           (J,PR/C,75,035805,2007)  O1520
+            E(eff)=105.6 MeV. Activation method
+           (J,PRL,97,122502,2006)   O1399
+            Cross section data at E=127-169-keV. Activation
+            method.
+           (J,PR/C,75,065803,2007) O1516
+SAMPLE     Enriched He-3 gas, isotopic purity more than 99.95%,
+           pressure 0.7-mbar, target thickness 8-10 keV, was used.
+DETECTOR   (SOLST) A 100-mum thick silicon detector detects
+           projectiles that have been elastically scattered first
+           in the target gas and subsequently in a movable 15-
+           mug/cm**2 carbon foil.
+           (HPGE) The  prompt gamma-rays were detected by a 137%
+           relative efficiency HPGE detector positioned with its
+           front face 7 cm from the beam axis.A massive 0.3 m**3
+           copper and lead shielding was built around the detector
+           and the target chamber, since the energies of the
+           prompt gamma rays (0.4, 1.3 and 1.7 MeV) are in the
+           energy region of natural radioactive isotopes.
+FACILITY   (ACCEL,2ITYLGS) The 400 kV LUNA accelerator.
+ERR-ANALYS (ERR-1).The error in beam intensity.
+           (ERR-2).The error in He3 target density.
+           (EN-ERR,0.5,1.1).The error in the effective energy
+           from 0.5 to 1.1 per-cent.
+COMMENT    *By authors*.The effective energy E(eff) is defined
+           by the relation-Sigma(Eeff)=Sigma(eff).The uncertainty
+           on the effective energy calculation is coming from the
+           uncertainty on the beam energy(absolute calibration
+           and from the error on the energy lost by the beam
+           inside the target).
+HISTORY    (20090111C)SB
+ENDBIB              53
+COMMON               2          36
+ERR-1      ERR-2
+PER-CENT   PER-CENT
+1.5        1.5
+ENDCOMMON            3
+ENDSUBENT           60
+SUBENT        O1709002   20090111   20090323   20090318       O038
+BIB                  6         20
+REACTION  1(2-HE-3(A,G)4-BE-7,,SIG)
+          2(2-HE-3(A,G)4-BE-7,,SIG,,SFC)
+METHOD     (ACTIV)
+DECAY-DATA (4-BE-7,53.22D,DG,478.,0.1044)
+ERR-ANALYS (ERR-3).The error in Be-7 counting efficiency.
+           (ERR-4).The error in incomplete Be-7 collection.
+           (ERR-5).The error in Be-7 backscattering.
+           (ERR-6).The error in Be-7 distribution in catcher.
+           (ERR-7).The error in 478-keV gamma-ray branching.
+           (ERR-8).The error in Be-7 half-life.
+           (ERR-9). The error in parasitic Be-7 production.
+           (ERR-SYS).The total systematics errors.
+           (ERR-S).The errors due to statistics-activity
+           measurements.
+           (ERR-T).Total uncertainty in data.
+COMMENT    *By author*.Units of statistical and systematic
+           uncertainties (keV b) printed in the table 2 are not
+           correct for data points at 3 energies (126.5, 147.7
+           and 168.9 keV), for which uncertainties are given in %.
+STATUS     (TABLE) Table 2 of NP/A,814,144,2008
+ENDBIB              20
+COMMON               7          6
+ERR-3      ERR-4      ERR-5      ERR-6      ERR-7      ERR-8
+ERR-9
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
+PER-CENT
+        1.8        0.5        0.5        0.4        0.4        0.1
+        0.1
+ENDCOMMON            6
+DATA                 9          6
+EN-CM      DATA      1ERR-T     1ERR-S     1DATA      2ERR-S     2
+ERR-SYS   2ERR-S     2ERR-SYS   2
+KEV        NB         NB         NB         B*KEV      B*KEV
+B*KEV      PER-CENT   PER-CENT
+92.9       0.232      0.01                  0.534      0.016
+0.017
+105.7      0.546      0.024                 0.493      0.015
+0.015
+126.5      1.87                  0.04       0.514
+           2.         3.
+147.7      4.61                  0.07       0.499
+           1.7        3.
+168.9      9.35                  0.19       0.482
+           2.         3.
+169.5      10.0       0.35                  0.507      0.010
+0.015
+ENDDATA             16
+ENDSUBENT           48
+SUBENT        O1709003   20090312   20090323   20090318       O038
+BIB                  4         11
+REACTION  1(2-HE-3(A,G)4-BE-7,,SIG)
+          2(2-HE-3(A,G)4-BE-7,,SIG,,SFC)
+METHOD     (GSPEC) prompt gamma-detection method
+ERR-ANALYS (ERR-3).The error in angular distribution.
+           (ERR-4).The error in detection efficiency.
+           (ERR-SYS).The total systematics errors.
+           (ERR-S).The errors due to statistics-prompt gamma-ray
+           measurements.
+STATUS     (TABLE) Table 2 of J,NP/A,814,144,2008
+                   Table 1 of J,PR/C,75,065803,2007
+           (DEP,O1709004) Cross sections for 0 and 429 keV gamma
+ENDBIB              11
+COMMON               2          3
+ERR-3      ERR-4
+PER-CENT   PER-CENT
+        2.5        1.5
+ENDCOMMON            3
+DATA                 5          3
+EN-CM      DATA      1DATA      2ERR-S     2ERR-SYS   2
+KEV        NB         B*KEV      B*KEV      B*KEV
+93.3       0.235      0.527      0.018      0.021
+106.5      0.588      0.518      0.014      0.020
+170.1      10.25      0.510      0.008      0.019
+ENDDATA              5
+ENDSUBENT           25
+SUBENT        O1709004   20090312   20090323   20090318       O038
+BIB                  5          7
+REACTION   (2-HE-3(A,G)4-BE-7,PAR,SIG)
+METHOD     (GSPEC) prompt gamma-detection method
+EN-SEC     (E,G)
+ERR-ANALYS (ERR-3).The error in angular distribution.
+           (ERR-4).The error in detection efficiency.
+           (ERR-T).The total errors.
+STATUS     (TABLE) Table 2 of J,NP/A,814,144,2008
+ENDBIB               7
+COMMON               2          3
+ERR-3      ERR-4
+PER-CENT   PER-CENT
+        2.5        1.5
+ENDCOMMON            3
+DATA                 4          6
+EN-CM      E          DATA       ERR-T
+KEV        KEV        NB         NB
+93.3       0.         0.171      0.008
+93.3       429.       0.065      0.005
+106.1      0.         0.415      0.018
+106.1      429.       0.173      0.010
+170.1      0.         7.23       0.26
+170.1      429.       3.02       0.12
+ENDDATA              8
+ENDSUBENT           24
+ENDENTRY             4

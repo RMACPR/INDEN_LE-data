@@ -1,0 +1,125 @@
+ENTRY            40694   20050827   20051111   20051111       4135
+SUBENT        40694001   20050827   20051111   20051111       4135
+BIB                  8         15
+INSTITUTE  (4RUSRUS)
+REFERENCE  (J,AE,19,456,1965)
+           (J,JNE/AB,20,818,1966)
+           (J,SJA,19,1426,1965)
+AUTHOR     (JU.G.DEGTJAREV)
+TITLE      NONELASTIC CROSS SECTION FOR NEUTRONS WITH NUCLEI BY
+           LI7, C12, N14, AL27, FE26, CU, PB, U235, U238 AND
+           PU239.
+FACILITY   (VDG)
+INC-SOURCE (A-BE)
+           (D-T)
+METHOD     (SHELT) SPHERICAL SHELL TRANSMISSION
+HISTORY    (19840312T) CONVERTED FROM ENTRY 80088
+           (20050827U) Correction according to Memo CP-E/70,
+                        dates were corrected
+ENDBIB              15
+NOCOMMON             0          0
+ENDSUBENT           18
+SUBENT        40694002     840320              20050926       0000
+BIB                  1          2
+REACTION  1(94-PU-239(N,NON),,SIG)
+          2(94-PU-239(N,NON),,SIG,,RAW)  TRANSMISSION
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 5          3
+EN         DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MEV        B          B          NO-DIM     NO-DIM
+ 1.3400E+01 2.7200E+00 2.0000E-01 8.5100E-01 1.1000E-02
+ 1.5400E+01 2.7000E+00 2.0000E-01 8.5300E-01 1.1000E-02
+ 1.8400E+01 2.5700E+00 7.0000E-02 8.6100E-01 6.0000E-03
+ENDDATA              5
+ENDSUBENT           12
+SUBENT        40694003     840320              20050926       0000
+BIB                  1          2
+REACTION  1(3-LI-7(N,NON),,SIG)
+          2(3-LI-7(N,NON),,SIG,,RAW) TRANSMISSION
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 5          3
+EN         DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MEV        B          B          NO-DIM     NO-DIM
+ 1.6700E+01 4.2000E-01 3.0000E-02 8.8100E-01 7.0000E-03
+ 1.8200E+01 4.7000E-01 4.0000E-02 8.6700E-01 1.0000E-02
+ 2.0700E+01 3.0000E-01 3.0000E-02 9.1600E-01 8.0000E-03
+ENDDATA              5
+ENDSUBENT           12
+SUBENT        40694004     840320              20050926       0000
+BIB                  1          2
+REACTION  1(6-C-12(N,NON),,SIG)
+          2(6-C-12(N,NON),,SIG,,RAW) TRANSMISSION
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 5          2
+EN         DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MEV        B          B          NO-DIM     NO-DIM
+ 1.5200E+01 6.2000E-01 2.0000E-02 8.1000E-01 4.0000E-03
+ 1.9800E+01 6.5000E-01 2.0000E-02 8.0000E-01 2.0000E-03
+ENDDATA              4
+ENDSUBENT           11
+SUBENT        40694005     840320              20050926       0000
+BIB                  1          2
+REACTION  1(7-N-14(N,NON),,SIG)
+          2(7-N-14(N,NON),,SIG,,RAW) TRANSMISSION
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 5          2
+EN         DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MEV        B          B          NO-DIM     NO-DIM
+ 1.5200E+01 7.0000E-01 3.0000E-02 7.9200E-01 4.0000E-03
+ 1.9800E+01 6.9000E-01 5.0000E-02 7.9200E-01 1.0000E-02
+ENDDATA              4
+ENDSUBENT           11
+SUBENT        40694006     840320              20050926       0000
+BIB                  1          2
+REACTION  1(13-AL-27(N,NON),,SIG)
+          2(13-AL-27(N,NON),,SIG,,RAW) TRANSMISSION
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 5          1
+EN         DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MEV        B          B          NO-DIM     NO-DIM
+ 8.1000E+00 1.0200E+00 8.0000E-02 8.3000E-01 1.2000E-02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        40694007     840320              20050926       0000
+BIB                  1          2
+REACTION  1(29-CU-0(N,NON),,SIG)
+          2(29-CU-0(N,NON),,SIG,,RAW) TRANSMISSION
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 5          1
+EN         DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MEV        B          B          NO-DIM     NO-DIM
+ 8.1000E+00 1.4700E+00 7.0000E-02 6.7500E-01 1.0000E-02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        40694008     840320              20050926       0000
+BIB                  1          2
+REACTION  1(82-PB-0(N,NON),,SIG)
+          2(82-PB-0(N,NON),,SIG,,RAW) TRANSMISSION
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 5          1
+EN         DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MEV        B          B          NO-DIM     NO-DIM
+ 8.1000E+00 2.2800E+00 8.0000E-02 7.9300E-01 8.0000E-03
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        40694009     840320              20050926       0000
+BIB                  1          2
+REACTION  1(26-FE-56(N,NON),,SIG)
+          2(26-FE-56(N,NON),,SIG,,RAW) TRANSMISSION
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 5          2
+EN         DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MEV        B          B          NO-DIM     NO-DIM
+ 8.1000E+00 1.3400E+00 6.0000E-02 7.0000E-01 1.0000E-02
+ 1.9700E+01 1.2200E+00 4.0000E-02 7.3800E-01 7.0000E-03
+ENDDATA              4
+ENDSUBENT           11
+ENDENTRY             9

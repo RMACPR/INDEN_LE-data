@@ -1,0 +1,273 @@
+ENTRY            F1115   20110315   20120207   20120113       F043
+SUBENT        F1115001   20110315   20120207   20120113       F043
+BIB                 10         24
+TITLE      The C-13(d,n)N-14 reaction.
+AUTHOR     (A.N.James)
+INSTITUTE  (2UK CAV)
+REFERENCE  (J,NP,24,132,1961)
+           #doi:10.1016/0029-5582(61)91023-9
+FACILITY   (CCW,2UK CAV) 1.4*10**6 V Cockcroft-Walton generator
+           was used.
+DETECTOR   (SCIN) Scintillation counters incorporating neutron
+           discriminating Nuclear Enterprise N.E. 213 liquid
+           scintillator were used with biases equivalent to
+           neutron energies of 600 keV and 330 keV. Errors arising
+           from corrections for counter efficiency are less than
+           10% within any one of the distributions.
+SAMPLE     The target was isotopically enriched carbon on 0.05 cm
+           copper. It was less than 20 keV thick to 1.16 MeV
+           protons.
+METHOD     (TOF)
+ERR-ANALYS (ERR-DIG)  Data digitizing error
+           (DATA-ERR) Error from the graphic bars
+           The relative intensities of the neutron  groups forming
+           the different levels are expected  to be correct within
+           30% (the intensity ratio for  groups n3 and n5 is
+           expected to be within 10%).
+HISTORY    (20110315C)
+ENDBIB              24
+NOCOMMON             0          0
+ENDSUBENT           27
+SUBENT        F1115002   20110315   20120207   20120113       F043
+BIB                  4          4
+REACTION   (6-C-13(D,N)7-N-14,PAR,DA,,REL)
+COMMENT    No explanation of relative units is given.
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+STATUS     (CURVE) Fig.1
+ENDBIB               4
+COMMON               3          3
+EN         ANG-ERR-D  ERR-DIG
+MEV        ADEG       ARB-UNITS
+  1.2        0.2319     0.0043
+ENDCOMMON            3
+DATA                 4         32
+E-LVL      ANG-CM     DATA-CM    DATA-ERR
+MEV        ADEG       ARB-UNITS  ARB-UNITS
+         0.     1.2866       1.44    0.18012
+         0.     10.287     1.4393    0.16234
+         0.     20.054     1.7887    0.18142
+         0.     31.306     1.5079    0.15213
+         0.     41.969     1.5472    0.16421
+         0.     56.597     1.6963     0.1653
+         0.     71.533     1.9053    0.19132
+         0.     81.898     2.0547    0.19365
+         0.     91.378     2.7041    0.26128
+         0.     106.02     3.1631    0.32015
+         0.     111.51     3.2228    0.31247
+         0.     120.99     3.8222    0.36571
+         0.     131.01     3.3715    0.35429
+         0.     135.91     3.7412    0.37138
+         0.     141.34     2.9709    0.33042
+         0.     150.53     3.7303    0.40567
+       2.31     1.0082       1.01    0.20127
+       2.31     11.158    0.71922    0.15218
+       2.31     20.011     1.0587    0.21149
+       2.31     30.667      1.008    0.20286
+       2.31     41.919    0.71724    0.15561
+       2.31     57.133    0.47627    0.12148
+       2.31     73.273    0.42523    0.10347
+       2.31     82.416    0.53464    0.80415
+       2.31     92.756    0.27398    0.90328
+       2.31     107.99      0.443    0.10117
+       2.31     111.35    0.49279     0.1028
+       2.31     122.64    0.88206    0.19157
+       2.31     131.76    0.54148     0.1716
+       2.31     137.29     1.3811    0.32012
+       2.31     142.13    0.89081    0.25315
+       2.31     151.29     1.2902    0.32604
+ENDDATA             34
+ENDSUBENT           47
+SUBENT        F1115003   20110315   20120207   20120113       F043
+BIB                  4          4
+REACTION   (6-C-13(D,N)7-N-14,PAR,DA,,REL)
+COMMENT    No explanation of relative units is given.
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+STATUS     (CURVE) Fig.2  upper curve
+ENDBIB               4
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       ARB-UNITS
+  1.2        3.95       0.2319     0.0043
+ENDCOMMON            3
+DATA                 3         16
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+     1.0825     2.5979    0.37113
+     8.6846     2.4327    0.38144
+     20.024     4.2056    0.62887
+     31.298     3.1847    0.37124
+     41.993     3.5452    0.38144
+     57.862     3.1324    0.31959
+     73.122     2.8537    0.26804
+     83.503     2.8018    0.29897
+      93.58     2.8531    0.31959
+     108.24     2.9661    0.30916
+     113.73     2.7082    0.30925
+     122.31     4.0791    0.63918
+     132.36     3.0686    0.35052
+     136.96     3.5324    0.41237
+     142.13     2.7178    0.41243
+     152.83     3.3257    0.40206
+ENDDATA             18
+ENDSUBENT           31
+SUBENT        F1115004   20110315   20120207   20120113       F043
+BIB                  4          4
+REACTION   (6-C-13(D,N)7-N-14,PAR,DA,,REL)
+COMMENT    No explanation of relative units is given.
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+STATUS     (CURVE) Fig.2   lower curve
+ENDBIB               4
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       ARB-UNITS
+  1.2        5.10      0.2319     0.0043
+ENDCOMMON            3
+DATA                 3         12
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+ 2.7458E-02     2.2041    0.71428
+     11.537     1.4586    0.55102
+     33.155     2.4881    0.60204
+     45.033     3.1405    0.60231
+     59.564     2.0377     0.5102
+      75.37     2.2307    0.40816
+      85.72     2.6792    0.41836
+     98.768     2.3417    0.37654
+     110.93      2.484     0.4387
+     116.07     2.0041    0.44898
+      125.2     2.3302    0.45918
+      134.9     1.9011    0.50123
+ENDDATA             14
+ENDSUBENT           27
+SUBENT        F1115005   20110315   20120207   20120113       F043
+BIB                  4          4
+REACTION   (6-C-13(D,N)7-N-14,PAR,DA,,REL)
+COMMENT    No explanation of relative units is given.
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+STATUS     (CURVE) Fig.3  upper plot
+ENDBIB               4
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       ARB-UNITS
+  1.2        4.91       0.0891     0.0303
+ENDCOMMON            3
+DATA                 3         29
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+    0.57875     9.5596    0.88083
+    0.58747     12.047     1.0363
+     5.7673     12.668     1.1917
+     11.244     11.061     1.0363
+     17.025     9.5579    0.98436
+     22.508     9.5573    0.98454
+     27.678     7.5361    0.72539
+     33.155     5.9811    0.72435
+     34.369     4.7893    0.72378
+     38.021     3.8045    0.77681
+     43.805     3.0267    0.77548
+     45.021      2.612    0.67358
+     49.586     1.4199    0.72539
+     54.456    0.48672    0.51813
+     59.333     1.6779    0.62176
+     65.421    0.58924    0.46632
+     74.253    0.64015    0.31088
+     76.081    0.79541    0.41451
+      84.61     1.0536    0.46632
+     86.439     1.4161    0.51814
+     95.272     1.5188    0.56995
+     105.63     1.2587    0.51823
+      110.2     2.0355    0.62169
+     115.07     3.0712    0.72541
+     124.51     1.8268    0.72564
+     125.74     3.6401    0.82902
+     137.61     2.9135    0.77537
+     140.05     4.5195    0.77652
+     144.31     3.5346    0.77489
+ENDDATA             31
+ENDSUBENT           44
+SUBENT        F1115006   20110315   20120207   20120113       F043
+BIB                  4          4
+REACTION   (6-C-13(D,N)7-N-14,PAR,DA,,REL)
+COMMENT    No explanation of relative units is given.
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+STATUS     (CURVE) Fig.3  lower plot
+ENDBIB               4
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       ARB-UNITS
+  1.2        5.83       0.1657     0.0541
+ENDCOMMON            3
+DATA                 3          4
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+     50.713     2.8531     1.4286
+     67.159     2.5456     1.4278
+     86.956       2.34     1.3265
+     127.16     4.1735     1.9384
+ENDDATA              6
+ENDSUBENT           19
+SUBENT        F1115007   20110315   20120207   20120113       F043
+BIB                  4          6
+REACTION   (6-C-13(D,N)7-N-14,PAR,DA,,REL)
+COMMENT    The experimental points for the 5.69 level (n5)
+           included the neutron groups C-12(d,n)N-13 and n6.
+           No explanation of relative units is given.
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+STATUS     (CURVE) Fig.3  upper plot
+ENDBIB               6
+COMMON               5          3
+EN         E-LVL      E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        MEV        ADEG       ARB-UNITS
+  1.2        5.69       5.83       0.2132     0.0728
+ENDCOMMON            3
+DATA                 3         17
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+    0.34463      30.98     2.2297
+      5.506     35.441      2.027
+     11.303     32.505     2.1284
+     17.412     27.845     1.9257
+     23.509     26.327     1.8243
+     28.999       24.1     1.9245
+     34.194     19.237     1.9259
+     39.086      14.07     1.4189
+     45.185     12.147     1.4198
+     51.286     9.5139     1.2162
+     56.171     6.1713     1.1149
+     67.138     5.5676    0.91216
+     76.887     4.7607     1.0135
+      86.93     6.6905     1.2162
+     107.02     9.7391     1.4167
+     126.81      12.99     1.6216
+     145.06     19.484     2.5338
+ENDDATA             19
+ENDSUBENT           34
+SUBENT        F1115008   20110315   20120207   20120113       F043
+BIB                  4          4
+REACTION   (6-C-13(D,N)7-N-14,PAR,DA,,REL)
+COMMENT    No explanation of relative units is given.
+ERR-ANALYS (EN-ERR-DIG) Energy digitizing error
+STATUS     (CURVE) Fig.4
+ENDBIB               4
+COMMON               3          3
+ANG        EN-ERR-DIG ERR-DIG
+ADEG       MEV        ARB-UNITS
+  0.         0.0002     0.0039
+ENDCOMMON            3
+DATA                 4         11
+E-LVL      EN         DATA       DATA-ERR
+MEV        MEV        ARB-UNITS  ARB-UNITS
+       4.91    0.77553    0.32712 5.1020E-02
+       4.91    0.87735     0.4912 4.0816E-02
+       4.91    0.99037     0.7472 5.1039E-02
+       4.91     1.0952     1.0542 6.1224E-02
+       4.91     1.2011     1.3305 8.1632E-02
+       4.91     1.3049     1.7803    0.10204
+       5.69    0.87735    0.58155 9.2150E-02
+       5.69    0.99033     1.2275    0.10239
+       5.69     1.0952     2.0781    0.11263
+       5.69      1.202     3.0004    0.15358
+       5.69     1.3058     4.0661    0.21502
+ENDDATA             13
+ENDSUBENT           26
+ENDENTRY             8

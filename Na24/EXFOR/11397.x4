@@ -1,0 +1,131 @@
+ENTRY            11397     820324              20050926       0000
+SUBENT        11397001     820324              20050926       0000
+BIB                  7          8
+INSTITUTE  (1USATEX)
+REFERENCE  (J,PR,103,1031,56)
+AUTHOR     (I.L.MORGAN)
+TITLE      INELASTIC SCATTERING OF NEUTRONS.
+METHOD     RING GEOMETRY
+STATUS     (SCSRS)
+HISTORY    (760714T) TRANSLATED FROM SCISRS
+           (820324A) CONVERTED TO REACTION FORMALISM
+ENDBIB               8
+NOCOMMON             0          0
+ENDSUBENT           11
+SUBENT        11397002     820324              20050926       0000
+BIB                  1          1
+REACTION   (11-NA-23(N,INL)11-NA-23,PAR,DA,G)
+ENDBIB               1
+COMMON               2          3
+E          ANG
+MEV        ADEG
+     .438   100.
+ENDCOMMON            3
+DATA                 2          2
+EN         DATA-MIN
+MEV        MB/SR
+ 8.0    -01 7.5    +01
+ 5.1    +00 7.5    +01
+ENDDATA              4
+ENDSUBENT           14
+SUBENT        11397003     820324              20050926       0000
+BIB                  1          1
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,DA,G)
+ENDBIB               1
+COMMON               2          3
+ANG        DATA-ERR
+ADEG       PER-CENT
+ 100.       20.
+ENDCOMMON            3
+DATA                 3         23
+E          EN         DATA
+MEV        MEV        MB/SR
+ 0.83       3.5    +00 2.4    +01
+ 0.83       3.62   +00 3.05   +01
+ 0.83       3.77   +00 2.15   +01
+ 0.83       3.91   +00 2.65   +01
+ 0.83       4.02   +00 1.85   +01
+ 0.83       4.13   +00 1.86   +01
+ 0.83       4.20   +00 2.55   +01
+ 0.83       4.25   +00 3.5    +01
+ 0.83       4.31   +00 2.8    +01
+ 0.83       4.44   +00 2.55   +01
+ 0.83       4.56   +00 3.25   +01
+ 1.01       3.5    +00 6.0    +01
+ 1.01       3.62   +00 4.7    +01
+ 1.01       3.77   +00 3.4    +01
+ 1.01       3.91   +00 4.2    +01
+ 1.01       4.02   +00 3.8    +01
+ 1.01       4.13   +00 2.65   +01
+ 1.01       4.20   +00 4.3    +01
+ 1.01       4.25   +00 4.8    +01
+ 1.01       4.31   +00 4.5    +01
+ 1.01       4.44   +00 4.2    +01
+ 1.01       4.56   +00 4.8    +01
+ 2.25       3.6    +00 5.6    +01
+ENDDATA             25
+ENDSUBENT           35
+SUBENT        11397004     820324              20050926       0000
+BIB                  1          1
+REACTION   (16-S-32(N,INL)16-S-32,PAR,DA,G)
+ENDBIB               1
+COMMON               2          3
+EN         E
+MEV        MEV
+ 3.7    +00    2.20
+ENDCOMMON            3
+DATA                 3          1
+COS        DATA       DATA-ERR
+NO-DIM     MB/SR      PER-CENT
+-0.1736     3.4    +01 20.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11397005     820324              20050926       0000
+BIB                  1          1
+REACTION   (26-FE-0(N,INL),PAR,DA,G)
+ENDBIB               1
+COMMON               3          3
+E          ANG        DATA-ERR
+MEV        ADEG       PER-CENT
+ 0.84   +00 100.       20.
+ENDCOMMON            3
+DATA                 2         14
+EN         DATA
+MEV        MB/SR
+ 3.3    +00 1.30   +02
+ 3.4    +00 1.80   +02
+ 3.55   +00 1.90   +02
+ 3.72   +00 1.35   +02
+ 3.85   +00 1.25   +02
+ 3.98   +00 1.15   +02
+ 4.13   +00 1.15   +02
+ 4.25   +00 1.37   +02
+ 4.36   +00 1.14   +02
+ 4.51   +00 1.15   +02
+ 4.63   +00 1.13   +02
+ 4.74   +00 1.10   +02
+ 4.86   +00 1.06   +02
+ 5.00   +00 1.05   +02
+ENDDATA             16
+ENDSUBENT           26
+SUBENT        11397006     820324              20050926       0000
+BIB                  1          1
+REACTION   (26-FE-0(N,INL),PAR,DA,G)
+ENDBIB               1
+COMMON               3          3
+EN         ANG        DATA-ERR
+MEV        ADEG       PER-CENT
+ 3.7    +00 100.       20.
+ENDCOMMON            3
+DATA                 2          6
+E          DATA
+MEV        MB/SR
+ 1.25   +00 2.4    +01
+ 1.81   +00 2.5    +01
+ 2.06   +00 3.0    +01
+ 2.57   +00 7.     +00
+ 3.07   +00 1.4    +01
+ 3.44   +00 2.1    +01
+ENDDATA              8
+ENDSUBENT           18
+ENDENTRY             6

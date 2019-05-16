@@ -1,0 +1,125 @@
+ENTRY            F0069   19990409   19990427   20050926       0000
+SUBENT        F0069001   19990409   19990427   20050926       0000
+BIB                  9         14
+TITLE      Investigation of electron screening in reactions
+           H(Li-6,a)He-3, H(Li-7,a)He-4 and D(Li-6,a)He-4.
+AUTHOR     (S.ENGSTLER,U.GREIFE,C.ROLFS,U.SCHRODER,E.SOMORJAI)
+INSTITUTE  (2GERMST)
+REFERENCE  (R,ATOMKI-AR-88,41,1989)
+SAMPLE     molecular gas target
+FACILITY   (VDG)
+ERR-ANALYS (EN-ERR) Digitizing error
+           (DATA-ERR) from graphic bars and digitizing error
+COMMENT    Inverse reactions are measured using Li-6 and
+           Li-7 projectiles as well as H-2 and D-2 molecular
+           gas target
+HISTORY    (19910924C)
+           (19990407A) CNPD: corrected 4-dig. year
+ENDBIB              14
+NOCOMMON
+ENDSUBENT           17
+SUBENT        F0069002   19990409   19990427   20050926       0000
+BIB                  2          2
+REACTION   (3-LI-6(P,HE3)2-HE-4,,SIG,,SFC,EXP)
+STATUS     (CURVE) FIG.1(A)
+ENDBIB               2
+NOCOMMON
+DATA                 4         18
+EN-CM      EN-ERR     DATA       DATA-ERR
+MEV        MEV        MB*MEV     MB*MEV
+     0.0105 0.1775E-03  4914.       608.5
+     0.0115 0.1951E-03  3372.       234.1
+     0.0124 0.2094E-03  3890.        42.96
+     0.0134 0.2273E-03  3424.       187.3
+     0.0145 0.2452E-03  3521.       140.4
+     0.0157 0.2653E-03  3337.        42.96
+     0.0165 0.2796E-03  3198.        42.96
+     0.0178 0.3015E-03  3341.        42.96
+     0.0183 0.3096E-03  3249.        42.96
+     0.0192 0.3259E-03  3251.        42.96
+     0.0242 0.4106E-03  3166.        42.96
+     0.0283 0.4790E-03  3125.        42.96
+     0.0338 0.5735E-03  3038.        42.96
+     0.0375 0.6353E-03  3042.        42.96
+     0.0437 0.7414E-03  2954.        42.96
+     0.0472 0.8001E-03  3004.        42.96
+     0.0497 0.8430E-03  2912.        42.96
+     0.1021 0.1731E-02  2658.        42.96
+ENDDATA             20
+ENDSUBENT           27
+SUBENT        F0069003   19990409   19990427   20050926       0000
+BIB                  2          2
+REACTION   (3-LI-7(P,A)2-HE-4,,SIG,,SFC,EXP)
+STATUS     (CURVE) FIG.1(B)
+ENDBIB               2
+NOCOMMON
+DATA                 4         14
+EN-CM      EN-ERR     DATA       DATA-ERR
+MEV        MEV        MB*MEV     MB*MEV
+     0.0128 0.2605E-03    64.99       6.448
+     0.0138 0.2811E-03    67.78       4.606
+     0.0157 0.3193E-03    69.68       0.6317
+     0.0164 0.3355E-03    75.23       5.538
+     0.0182 0.3723E-03    70.67       3.685
+     0.0197 0.4023E-03    68.86       0.6317
+     0.0224 0.4569E-03    71.68       0.6317
+     0.0242 0.4935E-03    70.79       0.6317
+     0.0275 0.5616E-03    68.09       5.516
+     0.0297 0.6068E-03    66.28       0.6317
+     0.0329 0.6719E-03    68.17       4.595
+     0.0346 0.7068E-03    70.03       0.6317
+     0.0374 0.7635E-03    69.14       0.6317
+     0.0404 0.8240E-03    71.02       0.6317
+ENDDATA             16
+ENDSUBENT           23
+SUBENT        F0069004   19990409   19990427   20050926       0000
+BIB                  2          2
+REACTION   (3-LI-6(D,A)2-HE-4,,SIG,,SFC/REL,EXP)
+STATUS     (CURVE) FIG.2
+ENDBIB               2
+COMMON               1          3
+EN-ERR
+KEV
+ 0.35
+ENDCOMMON            3
+DATA                 3         35
+EN         DATA       DATA-ERR
+KEV        ARB-UNITS  ARB-UNITS
+    17.28     198.6        9.288
+    18.56     185.4        3.565
+    20.47     172.5        0.6869
+    25.51     169.9        0.6767
+    25.52     162.3        0.6465
+    29.95     163.6        0.6515
+    30.25     152.2        0.6061
+    35.3      154.         0.6132
+    35.31     150.5        0.5993
+    39.72     149.9        0.5972
+    40.36     147.1        0.5859
+    40.37     141.6        0.564
+    44.78     142.7        0.5684
+    45.41     140.1        0.5577
+    50.14     138.         0.5494
+    54.87     136.4        0.5433
+    55.5      134.9        0.5371
+    59.92     131.9        0.5251
+    60.24     128.9        0.5132
+    64.96     129.9        0.5173
+    65.28     127.9        0.5094
+    69.37     130.9        0.5213
+    70.       129.4        0.5154
+    70.       127.5        0.5076
+    74.42     126.         0.5019
+    74.74     123.2        0.4906
+    79.76     130.         0.5176
+    79.77     124.6        0.4963
+    79.78     120.9        0.4814
+    84.49     127.6        0.5079
+    84.82     125.2        0.4984
+    85.13     120.5        0.4797
+    89.54     121.4        0.4835
+    89.56     117.3        0.4672
+    89.87     115.6        0.4601
+ENDDATA             37
+ENDSUBENT           48
+ENDENTRY             4

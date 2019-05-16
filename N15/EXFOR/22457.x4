@@ -1,0 +1,42 @@
+ENTRY            22457   20090506   20090901   20090820       2212
+SUBENT        22457001   20090506   20090901   20090820       2212
+BIB                 12         23
+TITLE       Large solid-angle spectrometer for studies of
+            double-differential charged-particle and neutron
+            emission cross sections
+AUTHOR     (M.Baba, S.Matsuyama, T.Sanami, D.Soda, N.Ito,
+           I.Matsuyama, T.Ohkubo, S.Iwasaki, N.Hirakawa,T.Kawano)
+INSTITUTE  (2JPNTOH) Baba, Matsuyama, Sanami, Soda, I.Matsuyama,
+                    Ohkubo, Iwasaki, Hirakawa, Dept. Of Nucl.Eng.
+           (2JPNJAE) Ito
+           (2JPNKYU) Kawano
+REFERENCE  ((S,ISINN-3,191,199504)=(S,JINR-E3-95-307,191,199504))
+                                          Main reference
+REL-REF    (N,,N.ITO+,J,NIM/A,337,474,1994)  Experimental details
+           (D,,K.BREHM+,J,ZP/A,330,167,1988)
+           (A,,P.E.KOEHLER+,J,PR/C,39,1655,1989)
+FACILITY   (DYNAM,2JPNTOH)
+METHOD     (TOF)
+DETECTOR   (IOCH)  Gridded ionization chamber - GIC
+MONITOR    (3-LI-6(N,T)2-HE-4,,SIG)
+SAMPLE      Melamine sample for 14N(N,P) and 6Li-F for
+            6Li(N,t) monitor reaction
+PART-DET   (P,T)
+HISTORY    (20000228C)  + +  Compiled by S.M.
+           (20090506U) JINR-E3 updated with ISINN .
+ENDBIB              23
+NOCOMMON             0          0
+ENDSUBENT           26
+SUBENT        22457002   20090506   20090901   20090820       2212
+BIB                  2          2
+REACTION   (7-N-14(N,P)6-C-14,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR)  Error not specified
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN-MEAN    DATA       DATA-ERR
+KEV        MB         MB
+       32.3        1.7       0.08
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY             2

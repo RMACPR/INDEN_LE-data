@@ -1,0 +1,197 @@
+ENTRY            10403   20030207   20030306   20050926       0000
+SUBENT        10403001   20030207   20030306   20050926       0000
+BIB                  9         18
+INSTITUTE  (1USAMHG)
+REFERENCE  (J,NP/B,92,269,197506)
+           (J,PRL,33,1440,197412)
+AUTHOR     (P.V.R.Murthy,C.A.Ayre,H.R.Gustafson,L.W.Jones,
+           M.J.Longo)
+TITLE      Neutron total cross sections on nuclei at fermilab
+           energies
+FACILITY   (SYNCH,1USANAL)
+METHOD     (PHD) Pulse-height discrimination
+ERR-ANALYS (DATA-ERR) Errors given include:
+           . statistical,
+           . extrapolation rate correction,
+           . beam contamination.
+STATUS     (APRVD) Approved by author 1975/03/31.
+HISTORY    (19741211C)
+           (19750804A) Data updated
+           (19830527A) Converted to REACTION formalism
+           (20030207A) Updated to new date formats, lower case.
+ENDBIB              18
+NOCOMMON             0          0
+ENDSUBENT           21
+SUBENT        10403002   20030207   20030306   20050926       0000
+BIB                  2          3
+REACTION   (1-H-2(N,TOT),,SIG)
+CORRECTION Deuterium data errors also include a scale error of
+            0.35% for uncertainty in deuterium density.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          7
+MOM        DATA       DATA-ERR
+GEV/C      MB         MB
+ 34.       71.7       1.9
+ 80.       72.78      0.83
+131.       73.30      0.39
+180.       74.16      0.34
+215.       74.48      0.36
+240.       75.08      0.38
+273.       75.18      0.55
+ENDDATA              9
+ENDSUBENT           17
+SUBENT        10403003   20030207   20030306   20050926       0000
+BIB                  1          1
+REACTION   (4-BE-9(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          7
+MOM        DATA       DATA-ERR
+GEV/C      MB         MB
+ 34.       263.9      5.7
+ 80.       269.7      2.8
+131.       266.5      1.3
+180.       271.1      1.1
+215.       273.5      1.3
+240.       270.8      1.3
+273.       273.8      1.6
+ENDDATA              9
+ENDSUBENT           15
+SUBENT        10403004   20030207   20030306   20050926       0000
+BIB                  1          1
+REACTION   (6-C-12(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          7
+MOM        DATA       DATA-ERR
+GEV/C      MB         MB
+ 34.       331.1      8.6
+ 80.       331.4      3.4
+131.       329.5      1.7
+180.       331.1      1.5
+215.       333.5      1.8
+240.       331.9      1.8
+273.       328.2      2.1
+ENDDATA              9
+ENDSUBENT           15
+SUBENT        10403005   20030207   20030306   20050926       0000
+BIB                  1          1
+REACTION   (13-AL-27(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          7
+MOM        DATA       DATA-ERR
+GEV/C      MB         MB
+ 34.       628.5      13.5
+ 80.       636.0       6.1
+131.       633.3       3.0
+180.       634.8       2.8
+215.       633.3       3.4
+240.       634.4       3.5
+273.       629.5       3.7
+ENDDATA              9
+ENDSUBENT           15
+SUBENT        10403006   20030207   20030306   20050926       0000
+BIB                  1          1
+REACTION   (26-FE-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          7
+MOM        DATA       DATA-ERR
+GEV/C      MB         MB
+ 34.       1100.      29.
+ 80.       1122.      11.
+131.       1110.       7.
+180.       1110.       8.
+215.       1112.       8.
+240.       1113.       8.
+273.       1107.      10.
+ENDDATA              9
+ENDSUBENT           15
+SUBENT        10403007   20030207   20030306   20050926       0000
+BIB                  1          1
+REACTION   (29-CU-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          7
+MOM        DATA       DATA-ERR
+GEV/C      MB         MB
+ 34.       1213.      30.
+ 80.       1239.      11.
+131.       1228.       7.
+180.       1223.       6.
+215.       1238.       9.
+240.       1231.       9.
+273.       1225.      11.
+ENDDATA              9
+ENDSUBENT           15
+SUBENT        10403008   20030207   20030306   20050926       0000
+BIB                  1          1
+REACTION   (48-CD-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          7
+MOM        DATA       DATA-ERR
+GEV/C      MB         MB
+ 34.       1884.      46.
+ 80.       1912.      16.
+131.       1890.      11.
+180.       1885.      12.
+215.       1887.      16.
+240.       1873.      16.
+273.       1882.      18.
+ENDDATA              9
+ENDSUBENT           15
+SUBENT        10403009   20030207   20030306   20050926       0000
+BIB                  1          1
+REACTION   (74-W-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          7
+MOM        DATA       DATA-ERR
+GEV/C      MB         MB
+ 34.       2840.      72.
+ 80.       2804.      28.
+131.       2786.      23.
+180.       2751.      24.
+215.       2746.      35.
+240.       2748.      34.
+273.       2720.      36.
+ENDDATA              9
+ENDSUBENT           15
+SUBENT        10403010   20030207   20030306   20050926       0000
+BIB                  1          1
+REACTION   (82-PB-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          7
+MOM        DATA       DATA-ERR
+GEV/C      MB         MB
+ 34.       2973.      85.
+ 80.       2986.      25.
+131.       2981.      21.
+180.       2951.      28.
+215.       2959.      32.
+240.       2926.      32.
+273.       2919.      48.
+ENDDATA              9
+ENDSUBENT           15
+SUBENT        10403011   20030207   20030306   20050926       0000
+BIB                  1          1
+REACTION   (92-U-238(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          7
+MOM        DATA       DATA-ERR
+GEV/C      MB         MB
+ 34.       3402.      113.
+ 80.       3410.       29.
+131.       3399.       26.
+180.       3361.       32.
+215.       3353.       39.
+240.       3365.       46.
+273.       3297.       60.
+ENDDATA              9
+ENDSUBENT           15
+ENDENTRY            11

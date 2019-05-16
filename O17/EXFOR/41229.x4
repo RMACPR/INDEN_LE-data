@@ -1,0 +1,144 @@
+ENTRY            41229   20071022   20080402   20080312       4142
+SUBENT        41229001   20071022   20080402   20080312       4142
+BIB                 13         20
+INSTITUTE  (4RUSLEB)
+REFERENCE  (B,NEJTRONFIZ,324,196104)
+           (B,SPN,241,1961) English translation of NEJTRONFIZ,324
+AUTHOR     (V.V.Nefedov, V.I.Popov, Yu.S.Yazvitskiy)
+TITLE       Gamma-radiation at inelastic interactions of fast
+            neutrons with atomic nuclei.
+FACILITY   (VDG)
+INC-SOURCE (D-T) T(D,N) source. Tritium-zirconium target.
+            Deuterons energy 300 keV.
+DETECTOR   (SCIN) Scintillation pair spectrometer with Cs-I
+                  crystal. Protected by lead cone of 30cm length.
+METHOD     (COINC)
+           (GSPEC) With and without sample.
+MONITOR    ((MONIT)6-C-12(N,INL)6-C-12,PAR,SIG,G)
+EN-SEC     (E,G) Gamma energy
+STATUS     (SCSRS)
+ERR-ANALYS  Errors are not specified or not given
+HISTORY    (19961006C)  *  *  Compiled and converted from 80349
+                            in the CJD-Centre  *  *
+           (20071022A) TITLE,SAMPLE,METHOD were added. M.M.
+ENDBIB              20
+COMMON               3          3
+EN         E-NRM      MONIT
+MEV        MEV        MB
+ 1.4000E+01 4.4300E+00 2.6000E+02
+ENDCOMMON            3
+ENDSUBENT           27
+SUBENT        41229002   20071022   20080402   20080312       4142
+BIB                  3          4
+REACTION   (6-C-12(N,INL)6-C-12,PAR,SIG,G)
+SAMPLE      Graphite sample of sizes : 13x13x6.5 (cm).
+HISTORY    (19961006T)  *  *  Converted from SUBENTS 80349002,
+                  80349003, 80349004                        *  *
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          3
+E          DATA       DATA-ERR   DATA-MAX
+MEV        B          PER-CENT   B
+ 3.2000E+00                       7.0000E-02
+ 6.0000E+00 2.3000E-02 2.0000E+01
+ 7.0000E+00 1.3000E-02 2.0000E+01
+ENDDATA              5
+ENDSUBENT           14
+SUBENT        41229003   20071022   20080402   20080312       4142
+BIB                  4          5
+REACTION   (8-O-16(N,INL)8-O-16,PAR,SIG,G)
+SAMPLE      Water sample of sizes: 13x13x6.5 (cm).
+STATUS       Table 2 of Reference.
+CORRECTION Subtracted .258 to correct for 3.7 MeV gamma
+            of C13 due TO N,ALPHA reaction.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          5
+E          DATA       DATA-ERR
+MEV        B          PER-CENT
+ 3.8000E+00 2.0000E-01 3.0000E+01
+ 4.6000E+00 7.0000E-02 3.0000E+01
+ 5.0000E+00 1.0000E-01 3.0000E+01
+ 6.1000E+00 2.5000E-01 3.0000E+01
+ 7.1000E+00 6.0000E-02 3.0000E+01
+ENDDATA              7
+ENDSUBENT           17
+SUBENT        41229004   20071022   20080402   20080312       4142
+BIB                  3          3
+REACTION   (12-MG-0(N,INL)12-MG-0,PAR,SIG,G)
+SAMPLE      Metal sample of sizes: 14x14x4.5 (cm).
+HISTORY    (19961006T)  *  *  Converted from SUBENT 80349010  *  *
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          5
+E          DATA
+MEV        B
+ 4.1000E+00 2.8000E-01
+ 4.8000E+00 7.0000E-02
+ 5.3000E+00 1.0000E-01
+ 6.1000E+00 3.0000E-02
+ 6.9000E+00 3.0000E-02
+ENDDATA              7
+ENDSUBENT           15
+SUBENT        41229005   20071022   20080402   20080312       4142
+BIB                  3          3
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,SIG,G)
+SAMPLE      Metal sample of sizes: 13x13x6 (cm).
+HISTORY    (19961006T)  *  *  Converted from SUBENT 80349015  *  *
+ENDBIB               3
+COMMON               1          3
+DATA-ERR
+PER-CENT
+ 3.0000E+01
+ENDCOMMON            3
+DATA                 2          5
+E          DATA
+MEV        B
+ 3.8000E+00 2.9000E-01
+ 4.9000E+00 1.6000E-01
+ 5.4000E+00 9.0000E-02
+ 6.3000E+00 4.0000E-02
+ 6.9000E+00 3.0000E-02
+ENDDATA              7
+ENDSUBENT           19
+SUBENT        41229006   20071022   20080402   20080312       4142
+BIB                  4          4
+REACTION   (29-CU-0(N,INL)29-CU-0,PAR,SIG,G)
+SAMPLE      Metal sample of sizes: 13x13x3 (cm).
+STATUS       Table 3 of Reference.
+HISTORY    (19961006T)  *  *  Converted from SUBENT 80349020  *  *
+ENDBIB               4
+COMMON               1          3
+DATA-ERR
+PER-CENT
+ 3.0000E+01
+ENDCOMMON            3
+DATA                 2          3
+E          DATA
+MEV        B
+ 4.0000E+00 4.7000E-01
+ 5.0000E+00 2.5000E-01
+ 6.1000E+00 1.4000E-01
+ENDDATA              5
+ENDSUBENT           18
+SUBENT        41229007   20071022   20080402   20080312       4142
+BIB                  4          4
+REACTION   (26-FE-0(N,INL)26-FE-0,PAR,SIG,G)
+SAMPLE      Metal sample of sizes: 13x13x3 (cm).
+STATUS       Table 3 of Reference.
+HISTORY    (19961006T)  *  *  Converted from SUBENT 80349023  *  *
+ENDBIB               4
+COMMON               1          3
+DATA-ERR
+PER-CENT
+ 3.0000E+01
+ENDCOMMON            3
+DATA                 2          3
+E          DATA
+MEV        B
+ 5.0000E+00 5.5000E-01
+ 6.1000E+00 3.4000E-01
+ 7.5000E+00 2.9000E-01
+ENDDATA              5
+ENDSUBENT           18
+ENDENTRY             7

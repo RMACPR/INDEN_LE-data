@@ -1,0 +1,170 @@
+ENTRY            41260   20140814   20141103   20141016       4164
+SUBENT        41260001   20140814   20141103   20141016       4164
+BIB                 12         26
+TITLE       Measurement of the Effective Cross Section for the
+           reaction Be-9(n,2n) by Fission Neutrons.
+AUTHOR     (B.G.Dubovsky,A.V.Kamaev,E.F.Makarov)
+INSTITUTE  (4RUSFEI)
+REFERENCE  (J,AE,2,(3),279,195703)   Data Are Given
+           (J,SJA,2,(3),340,195705) Engl.translation of AE,2,279
+           #doi:10.1007/BF01514618
+           (J,JNE,6,172,1957) Engl.translation of AE,2,279,1957
+REL-REF    (M,,A.O.Hanson+,J,PR,72,673,1947)
+            Detector efficiency details.
+FACILITY   (REAC)        Horizontal channel of the first atomic
+                         electric power station reactor
+INC-SOURCE (THCOL)
+DETECTOR   (BF3)
+SAMPLE      Hollow beryllium spheres with different wall
+            thicknesses - 1.8, 2.2, 3.3 cm, beryllium density
+            is 1.77 g/cm**3
+ERR-ANALYS (ERR-T) Total error including statistical error and
+           (MONIT-ERR) uncertainty of Be scattering c-s.
+STATUS     (TABLE) Text, page 280
+HISTORY    (19970714C)  + + Compiled at the centre - CJD + +
+           (20070419A) M.M. Reaction codes  were changed:
+                 Be-9(n,2n)Be-8  -> Be-9(n,2n+a)He-4
+             according to comment of V.McLane.
+           (20140814A) Subents 004-008 were added.
+           Ref. J,JNE,6,172,1957 was added.
+ENDBIB              26
+COMMON               1          3
+EN-DUMMY
+MEV
+  1.0
+ENDCOMMON            3
+ENDSUBENT           33
+SUBENT        41260002   20140814   20141103   20141016       4164
+BIB                  3          9
+REACTION   ((4-BE-9(N,2N+A)2-HE-4,,SIG,,FIS)-
+           (4-BE-9(N,A)2-HE-6,,SIG,,FIS))   sig(n,2n)-sig(n,alpha)
+ANALYSIS    Average value of several measurements.
+STATUS     (TABLE) Table of AE,2,279,1957
+           (DEP,41260004) See ANALYSIS.
+           (DEP,41260005) See ANALYSIS.
+           (DEP,41260006) See ANALYSIS.
+           (DEP,41260007) See ANALYSIS.
+           (DEP,41260008) See ANALYSIS.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+  63.          20.
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        41260003   20140814   20141103   20141016       4164
+BIB                  3          4
+REACTION   (4-BE-9(N,2N+A)2-HE-4,,SIG,,FIS)   sig(n,2n)
+ASSUMED    (ASSUM,4-BE-9(N,A)2-HE-6,,SIG)
+STATUS     (TABLE) Text, page 280 of AE,2,279,1957
+           (DEP,41260002)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-T      ASSUM
+MB         MB         MB
+  73.          20.       10.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        41260004   20140814   20141103   20141016       4164
+BIB                  4          6
+REACTION   ((4-BE-9(N,2N+A)2-HE-4,,SIG,,FIS)-
+           (4-BE-9(N,A)2-HE-6,,SIG,,FIS))   sig(n,2n)-sig(n,alpha)
+INC-SOURCE  Spherical U converter, Be sphere of radius 3.72 cm
+            and thickness 1.8 cm.
+MONITOR    ((MONIT)4-BE-9(N,EL)4-BE-9,,SIG)
+STATUS     (TABLE) Table of AE,2,279,1957
+ENDBIB               6
+COMMON               4          3
+EN-NRM-MIN EN-NRM-MAX MONIT      MONIT-ERR
+MEV        MEV        B          B
+   2.        8.          1.5         0.3
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 61.        20.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        41260005   20140814   20141103   20141016       4164
+BIB                  4          6
+REACTION   ((4-BE-9(N,2N+A)2-HE-4,,SIG,,FIS)-
+           (4-BE-9(N,A)2-HE-6,,SIG,,FIS))   sig(n,2n)-sig(n,alpha)
+INC-SOURCE  Spherical U converter, Be sphere of radius 4.25 cm
+            and thickness 2.2 cm.
+MONITOR    ((MONIT)4-BE-9(N,EL)4-BE-9,,SIG)
+STATUS     (TABLE) Table of AE,2,279,1957
+ENDBIB               6
+COMMON               4          3
+EN-NRM-MIN EN-NRM-MAX MONIT      MONIT-ERR
+MEV        MEV        B          B
+   2.        8.          1.5         0.3
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 59.        20.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        41260006   20140814   20141103   20141016       4164
+BIB                  4          6
+REACTION   ((4-BE-9(N,2N+A)2-HE-4,,SIG,,FIS)-
+           (4-BE-9(N,A)2-HE-6,,SIG,,FIS))   sig(n,2n)-sig(n,alpha)
+INC-SOURCE  Cylinder U converter, Be sphere of radius 3.8 cm
+            and thickness 3.3 cm.
+MONITOR    ((MONIT)4-BE-9(N,EL)4-BE-9,,SIG)
+STATUS     (TABLE) Table of AE,2,279,1957
+ENDBIB               6
+COMMON               4          3
+EN-NRM-MIN EN-NRM-MAX MONIT      MONIT-ERR
+MEV        MEV        B          B
+   2.        8.          1.5         0.3
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 68.        20.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        41260007   20140814   20141103   20141016       4164
+BIB                  4          6
+REACTION   ((4-BE-9(N,2N+A)2-HE-4,,SIG,,FIS)-
+           (4-BE-9(N,A)2-HE-6,,SIG,,FIS))   sig(n,2n)-sig(n,alpha)
+INC-SOURCE Po-alpha-Be source, Be sphere of radius 3.8 cm
+            and thickness 3.3 cm.
+MONITOR    ((MONIT)4-BE-9(N,EL)4-BE-9,,SIG)
+STATUS     (TABLE) Table of AE,2,279,1957
+ENDBIB               6
+COMMON               4          3
+EN-NRM-MIN EN-NRM-MAX MONIT      MONIT-ERR
+MEV        MEV        B          B
+   2.        8.          1.5         0.3
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+204.        50.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        41260008   20140814   20141103   20141016       4164
+BIB                  4          6
+REACTION   ((4-BE-9(N,2N+A)2-HE-4,,SIG,,FIS)-
+           (4-BE-9(N,A)2-HE-6,,SIG,,FIS))   sig(n,2n)-sig(n,alpha)
+INC-SOURCE  Po-alpha-B source, Be sphere of radius 3.72 cm
+            and thickness 1.8 cm.
+MONITOR    ((MONIT)4-BE-9(N,EL)4-BE-9,,SIG)
+STATUS     (TABLE) Table of AE,2,279,1957
+ENDBIB               6
+COMMON               4          3
+EN-NRM-MIN EN-NRM-MAX MONIT      MONIT-ERR
+MEV        MEV        B          B
+   2.        8.          1.5         0.3
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+-37.       25.
+ENDDATA              3
+ENDSUBENT           18
+ENDENTRY             8

@@ -1,0 +1,58 @@
+ENTRY            30187   20080208   20080530   20080530       3126
+SUBENT        30187001   20080208   20080530   20080530       3126
+BIB                 13         31
+INSTITUTE  (3RUMBUC)
+REFERENCE  (P,INDC(RUM)-3,19,1972) Short progress report
+           (P,INDC(SEC)-28,228,197209) Identical to INDC(RUM)-3
+           (J,SCF,25,387,1973) Full paper, in Rumanian
+AUTHOR     (D.Plostinaru,E.A.Ivanov,A.Iordachescu,S.Vajda,
+           GH.Pascovici)
+TITLE      Cross-section of Na-23(n,gamma)Na-24m reaction for
+           fast neutrons
+FACILITY   (CYCLO) Cyclotron
+INC-SOURCE (P-LI7)   Pulsed proton beam (width 10 ms, repetition
+           time 1 s) on Li-7 target
+METHOD     Pulsed neutrons on a NaI(Tl) detector used as
+           sample and shielded against the 477 keV gamma line from
+           the decay of Be-7 by a copper absorber.
+           (ACTIV) Activation method
+DETECTOR   (NAICR) NaI(Tl) crystal spectrometer (diameter=40 mm,
+           length=50 mm). The photopeak efficiency was evaluated
+           to be 0.32+-0.06 For the 472 keV gammas.
+MONITOR    The neutron flux was determined by measuring the 477keV
+           gamma activity induced in Be-7 by Li-7(p,n)Be-7 taking
+           into account the angular distribution of the neutrons.
+           No numerical value was given
+PART-DET   (DG) Decay-gammas of 472 keV
+HISTORY    (19720817C) CA.
+           (20080208A) BIB section updated
+           proof-copy was sent to author (1973/09)
+CORRECTION Correction was performed for background arising from
+           scattered neutrons. The influence of the Cu absorber
+           was taken into account.
+ERR-ANALYS (DATA-ERR) most of the error is due to uncertainty in
+           the correction and in the detector S efficiency
+ENDBIB              31
+NOCOMMON             0          0
+ENDSUBENT           34
+SUBENT        30187002   20080208   20080530   20080530       3126
+BIB                  3          4
+REACTION   (11-NA-23(N,G)11-NA-24,PAR,SIG)
+EN-SEC     (E-EXC,11-NA-24) in the article isotope 11-NA-24 is
+              given as 11-NA-24-M
+HISTORY    (20080215S) Dataset was restored.
+ENDBIB               4
+COMMON               1          3
+E-EXC
+MEV
+ 0.472
+ENDCOMMON            3
+DATA                 3          3
+EN         DATA       DATA-ERR
+MEV        MB         MB
+0.92       0.10       0.04
+2.28       0.10       0.04
+3.95       0.12       0.04
+ENDDATA              5
+ENDSUBENT           18
+ENDENTRY             2

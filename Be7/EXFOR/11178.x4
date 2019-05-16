@@ -1,0 +1,98 @@
+ENTRY            11178   20110731   20111215   20111113       1374
+SUBENT        11178001   20110731   20111215   20111113       1374
+BIB                  8         14
+INSTITUTE  (1USAUI )
+REFERENCE  (J,PR,59,917(19),194106)
+AUTHOR     (W.E.Good,G.Scharrf-Goldhaber)
+TITLE      Total Cross Sections for 900 keV Neutrons
+INC-SOURCE (TH-BE) Radio Th+Be source
+DETECTOR   (IOCH) Hydrogen-filled ionization chamber.
+STATUS     (SCSRS)
+           (TABLE) Data taken from PR,59,917(19),1941
+HISTORY    (19760924T) Translated from SCISRS
+           (19800814A) Converted to REACTION formalism
+           (20071108A) Title added, BIB update.
+           (20090928A) BIB update. Reference date corrected.
+           (20110731A) SD:data presentation changed in all Subents
+              code in INC-SOURCE was changed (A-BE) => (TH-BE)
+ENDBIB              14
+NOCOMMON             0          0
+ENDSUBENT           17
+SUBENT        11178002   20110731   20111215   20111113       1374
+BIB                  1          1
+REACTION   (1-H-1(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+  0.900       3.70       0.35
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11178003   20110731   20111215   20111113       1374
+BIB                  1          1
+REACTION   (4-BE-9(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 0.900       2.82       0.20
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11178004   20110731   20111215   20111113       1374
+BIB                  1          1
+REACTION   (6-C-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 0.900       2.66      0.20
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11178005   20110731   20111215   20111113       1374
+BIB                  1          1
+REACTION   (13-AL-27(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 0.900      3.39       0.25
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11178006   20110731   20111215   20111113       1374
+BIB                  1          1
+REACTION   (29-CU-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 0.900      2.78       0.15
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11178007   20110731   20111215   20111113       1374
+BIB                  1          1
+REACTION   (82-PB-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 0.900      6.83       0.40
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11178008   20110731   20111215   20111113       1374
+BIB                  1          1
+REACTION   (92-U-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 0.90        8.00       0.40
+ENDDATA              3
+ENDSUBENT            9
+ENDENTRY             8

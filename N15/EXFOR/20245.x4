@@ -1,0 +1,502 @@
+ENTRY            20245   20180308   20180917   20180917       2267
+SUBENT        20245001   20180308   20180917   20180917       2267
+BIB                 13         33
+INSTITUTE  (2SWDLND)
+REFERENCE  (J,PS,4,165,1971)
+AUTHOR     (K.Nyberg-Ponnert, B.Joensson, I.Bergqvist)
+TITLE       Gamma rays produced by the interaction of 15 MeV
+            neutrons in N, O, Mg and Al
+FACILITY   (VDG,2SWDLND)    An-400 HVE Van de Graaff accelerator.
+INC-SOURCE (D-T)    Deuteron-tritium.
+INC-SPECT  .Neutron energy of 15 MeV. The neutrons incident on
+            the large sample had the n-energy between 14.7 and
+            15.5 MeV.
+            (E-RSL) -
+DETECTOR   (GELI ) Ge(Li) detector, area of 70 mm2 and
+            thickness of 7 mm.
+           .Resolution of detector system was about 7 keV at 1 MeV
+            and about 20 keV at 6 MeV.
+MONITOR    (6-C-12(N,INL)6-C-12,,SIG,G)
+            Morgan et al.,Annual Prog.Rep. for period ending
+            Aug.1,1964,Texas Nuclear Corp.,and priv.comm.
+PART-DET   (G)    Gammas.
+CORRECTION .Corrected for the variation of neutron flux in the
+            sample, neutron attenuation, multiple scattering
+            and gamma-ray attenuation.
+ERR-ANALYS (DATA-ERR) No information except remark: The counting
+           statistics were generally sufficient in order to
+           observe a gamma-ray line with a production cross
+           section exceeding about 1 mb/sr for gamma-ray energies
+           less than 3 MeV and about 0.5 mb/sr for gamma-rays
+           above 3 MeV
+HISTORY    (19720602C)
+           (20180308A) SD: Updated to new date formats,lower case.
+           REACTION code was corrected in Subents 002-004,
+           006,007,010-018. Small corrections in all Subents.
+           COS -> ANG in Subents 002-019. BIB update.
+ENDBIB              33
+COMMON               2          3
+EN-MAX     EN-MIN
+MEV        MEV
+ 1.5500E+01 1.4700E+01
+ENDCOMMON            3
+ENDSUBENT           40
+SUBENT        20245002   20180308   20180917   20180917       2267
+BIB                  5         10
+REACTION   (7-N-14(N,INL)7-N-14,PAR,DA,G)
+SAMPLE      Liquid nitrogen contained in a thermos with a diam.
+            of 10.9 cm and a height of 25.6 cm served as
+            nitrogen sample
+FLAG       (1.) The gamma-ray energies have been corrected for
+                the Doppler shift.
+STATUS     (TABLE) Table III of Phys.Scr.4(1971)165.
+HISTORY    (19720602C)
+           (20180308A) SD: Left hand side was deleted from
+           REACTION code. COS -> ANG. SAMPLE update.FLAG was added
+ENDBIB              10
+COMMON               1          3
+ANG
+ADEG
+ 80.
+ENDCOMMON            3
+DATA                 5          9
+E          E-RSL      DATA       DATA-ERR   FLAG
+MEV        MEV        MB/SR      MB/SR      NO-DIM
+      0.727      0.003        1.6        0.3
+      1.634      0.005        2.3        0.4   1.0
+      2.312      0.003        2.4        0.5
+      2.792      0.003        0.5        0.2
+      4.919      0.010        0.8        0.2   1.0
+      5.106      0.003        2.7        0.4
+      5.835      0.005        0.5        0.1
+      6.426      0.010        0.7        0.1   1.0
+      7.021      0.010        3.4        0.5   1.0
+ENDDATA             11
+ENDSUBENT           30
+SUBENT        20245003   20180308   20180917   20180917       2267
+BIB                  5         10
+REACTION   (7-N-14(N,P)6-C-14,PAR,DA,G)
+SAMPLE      Liquid nitrogen contained in a thermos with a diam.
+            of 10.9 cm and a height of 25.6 cm served as
+            nitrogen sample
+FLAG       (1.) The gamma-ray energies have been corrected for
+                the Doppler shift.
+STATUS     (TABLE) Table III of Phys.Scr.4(1971)165.
+HISTORY    (19740428C)
+           (20180308A) SD: Left hand side was deleted from
+           REACTION code. COS -> ANG. SAMPLE update.FLAG was added
+ENDBIB              10
+COMMON               1          3
+ANG
+ADEG
+ 80.
+ENDCOMMON            3
+DATA                 5          2
+E          E-RSL      DATA       DATA-ERR   FLAG
+MEV        MEV        MB/SR      MB/SR      NO-DIM
+      6.082      0.010        1.0        0.3   1.
+      6.732      0.005        1.0        0.2
+ENDDATA              4
+ENDSUBENT           23
+SUBENT        20245004   20180308   20180917   20180917       2267
+BIB                  4          9
+REACTION   (7-N-14(N,X)6-C-13,PAR,DA,G)
+SAMPLE      Liquid nitrogen contained in a thermos with a diam.
+            of 10.9 cm and a height of 25.6 cm served as
+            nitrogen sample
+STATUS     (TABLE) Table III of Phys.Scr.4(1971)165.
+HISTORY    (19740428C)
+           (20180308A) SD: Left hand side was deleted from
+           REACTION code. SF3=D -> X in REACTION code.
+           COS -> ANG. SAMPLE update.
+ENDBIB               9
+COMMON               2          3
+ANG        E-RSL
+ADEG       MEV
+ 80.         0.003
+ENDCOMMON            3
+DATA                 3          2
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+      3.686        2.0        0.3
+      3.853        1.2        0.2
+ENDDATA              4
+ENDSUBENT           22
+SUBENT        20245005   20180308   20180917   20180917       2267
+BIB                  4          9
+REACTION   ((7-N-14(N,X)0-G-0,PAR,DA)=
+           ((7-N-14(N,T)6-C-12,PAR,DA,G)+
+           (7-N-14(N,A)5-B-11,PAR,DA,G)))
+SAMPLE      Liquid nitrogen contained in a thermos with a diam.
+            of 10.9 cm and a height of 25.6 cm served as
+            nitrogen sample
+STATUS     (TABLE) Table III of Phys.Scr.4(1971)165.
+HISTORY    (19740428C)
+           (20180308U) SD: COS -> ANG. SAMPLE update.
+ENDBIB               9
+COMMON               1          3
+ANG
+ADEG
+ 80.
+ENDCOMMON            3
+DATA                 4          1
+E          E-RSL      DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+      4.442       0.01        3.6        0.6
+ENDDATA              3
+ENDSUBENT           21
+SUBENT        20245006   20180308   20180917   20180917       2267
+BIB                  5         11
+REACTION   (8-O-16(N,INL)8-O-16,PAR,DA,G)
+SAMPLE      The water was contained in a plastic bag formed as
+            a circular disc with diameter of 16.0 cm and
+           thickness of 8.5 cm.
+FLAG       (1.) Used as standard calibration line
+           (2.)  The gamma-ray energies have been corrected
+            for the Doppler shift.
+STATUS     (TABLE) Table IV of Phys.Scr.4(1971)165.
+HISTORY    (19720602C)
+           (20180308A) SD: Left hand side was deleted from
+           REACTION code. COS -> ANG. SAMPLE update. FLAG added.
+ENDBIB              11
+COMMON               1          3
+ANG
+ADEG
+ 80.
+ENDCOMMON            3
+DATA                 5          4
+E          E-RSL      DATA       DATA-ERR   FLAG
+MEV        MEV        MB/SR      MB/SR      NO-DIM
+      2.735      0.003        3.6        0.6
+      6.130                  11.5        1.7   1.
+      6.906      0.015        4.0        0.6   2.
+      7.112      0.010        4.5        0.7   2.
+ENDDATA              6
+ENDSUBENT           26
+SUBENT        20245007   20180308   20180917   20180917       2267
+BIB                  4          8
+REACTION   (8-O-16(N,A)6-C-13,PAR,DA,G)
+SAMPLE      The water was contained in a plastic bag formed as a
+           circular disc with a diameter of 16.0 cm and a
+           thickness of 8.5 cm.
+STATUS     (TABLE) Table IV of Phys.Scr.4(1971)165.
+HISTORY    (19740428C)
+           (20180308A) SD: Left hand side was deleted from
+           REACTION code. COS -> ANG. SAMPLE update.
+ENDBIB               8
+COMMON               2          3
+ANG        E-RSL
+ADEG       MEV
+ 80.             0.003
+ENDCOMMON            3
+DATA                 3          2
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+      3.685        3.4        0.5
+      3.855        2.7        0.4
+ENDDATA              4
+ENDSUBENT           21
+SUBENT        20245008   20180308   20180917   20180917       2267
+BIB                  4          5
+REACTION   (8-O-16(N,INL)8-O-16,,SIG)
+ANALYSIS   .From the sum of observed ground state gamma-rays.
+STATUS     (TABLE) Taken from p.170 of Phys.Scr.,4(1971)165.
+HISTORY    (19740419C)
+           (20180308U) SD: COS -> ANG. SAMPLE update.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+   0.310     0.050
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        20245009   20180308   20180917   20180917       2267
+BIB                  5         10
+REACTION   (12-MG-0(N,X)0-G-0,PAR,DA)
+SAMPLE     The sample of natural magnesium and aluminium were
+           circular discs with diameters of 15.3 cm. Such
+           large samples were chosen to get reasonable yields
+           of high-energy gamma-rays (Eg > 1 MeV).
+FLAG       (1.) The gamma-ray energies have been corrected
+                for the Doppler shift.
+STATUS     (TABLE) Table V of Phys.Scr.4(1971)165.
+HISTORY    (19720602C)
+           (20180308U) SD: COS -> ANG. SAMPLE update. FLAG added.
+ENDBIB              10
+COMMON               1          3
+ANG
+ADEG
+ 80.
+ENDCOMMON            3
+DATA                 5         11
+E          E-RSL      DATA       DATA-ERR   FLAG
+MEV        MEV        MB/SR      MB/SR      NO-DIM
+      0.352      0.003        6.1        1.0
+      0.440      0.003        2.5        0.6
+      0.472      0.003       10.0        1.6
+      1.367      0.003       32.8        4.9
+      1.809      0.003        6.5        1.0
+      2.754      0.003        4.4        0.9
+      3.865      0.005        2.6        0.4   1.
+      4.238      0.005        2.1        0.3   1.
+      4.638      0.005        1.6        0.3   1.
+      6.200      0.005        0.5        0.1
+      6.254      0.005        1.9        0.3
+ENDDATA             13
+ENDSUBENT           32
+SUBENT        20245010   20180308   20180917   20180917       2267
+BIB                  4         11
+REACTION   (12-MG-24(N,A)10-NE-21,PAR,DA,G)
+SAMPLE     The sample of natural magnesium and aluminium were
+           circular discs with diameters of 15.3 cm. Such
+           large samples were chosen to get reasonable yields
+           of high-energy gamma-rays (Eg > 1 MeV).
+STATUS     (TABLE) Table V of Phys.Scr.4(1971)165.
+           (DEP,20245009) Dependent from data of Subent 009.
+HISTORY    (19740419C)
+           (20180308A) SD: Left hand side was deleted from
+           REACTION code. COS -> ANG. SAMPLE update. E, E-RSL were
+           added. E-LVL-INI deleted. E-LVL-FIN -> LVL-FIN.
+ENDBIB              11
+COMMON               1          3
+ANG
+ADEG
+ 80.
+ENDCOMMON            3
+DATA                 5          1
+E          E-RSL      DATA       DATA-ERR   LVL-FIN
+MEV        MEV        MB/SR      MB/SR      MEV
+     0.352   0.003           7.8        1.3   0.
+ENDDATA              3
+ENDSUBENT           23
+SUBENT        20245011   20180308   20180917   20180917       2267
+BIB                  3          8
+REACTION   (12-MG-24(N,X)11-NA-23,PAR,DA,G)
+STATUS     (TABLE) Table V of Phys.Scr.4(1971)165.
+           (DEP,20245009) Dependent from data of Subent .009.
+HISTORY    (19740419C)
+           (20180308A) SD: Left hand side was deleted from
+           REACTION code. SF3=D -> X in REACTION code.
+           COS -> ANG. SAMPLE update. E, E-RSL were added.
+           E-LVL-INI deleted. E-LVL-FIN -> LVL-FIN.
+ENDBIB               8
+COMMON               1          3
+ANG
+ADEG
+ 80.
+ENDCOMMON            3
+DATA                 5          1
+E          E-RSL      DATA       DATA-ERR   LVL-FIN
+MEV        MEV        MB/SR      MB/SR      MEV
+    0.440    0.003         3.2        0.8     0.0
+ENDDATA              3
+ENDSUBENT           20
+SUBENT        20245012   20180308   20180917   20180917       2267
+BIB                  3          7
+REACTION   (12-MG-24(N,P)11-NA-24,PAR,DA,G)
+STATUS     (TABLE) Table V of Phys.Scr.4(1971)165.
+           (DEP,20245009) Dependent from data of Subent 009.
+HISTORY    (19740419C)
+           (20180308A) SD: Left hand side was deleted from
+           REACTION code. COS -> ANG. E, E-RSL were added.
+           E-LVL-INI deleted. E-LVL-FIN -> LVL-FIN.
+ENDBIB               7
+COMMON               1          3
+ANG
+ADEG
+ 80.
+ENDCOMMON            3
+DATA                 5          1
+E          E-RSL      DATA       DATA-ERR   LVL-FIN
+MEV        MEV        MB/SR      MB/SR      MEV
+    0.472    0.003       12.7        2.0        0.0
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        20245013   20180308   20180917   20180917       2267
+BIB                  3          7
+REACTION   (12-MG-24(N,INL)12-MG-24,PAR,DA,G)
+STATUS     (TABLE) Table V of Phys.Scr.4(1971)165.
+           (DEP,20245009) Dependent from data of Subent 009.
+HISTORY    (19740419C)
+           (20180308A) SD: Left hand side was deleted from
+           REACTION code. COS -> ANG. E, E-RSL were added.
+           E-LVL-INI deleted. E-LVL-FIN -> LVL-FIN.
+ENDBIB               7
+COMMON               1          3
+ANG
+ADEG
+ 80.
+ENDCOMMON            3
+DATA                 5          7
+E          E-RSL      DATA       DATA-ERR   LVL-FIN
+MEV        MEV        MB/SR      MB/SR      MEV
+   1.367      0.003      41.7        6.2      0.
+   2.754      0.003       5.6        1.1      1.368
+   3.865      0.005       3.3        0.5      1.368
+   4.238      0.003       2.7        0.4      0.
+   4.638      0.005       2.0        0.4      1.368
+   6.200      0.005       0.6        0.1      1.368
+   6.254      0.005       2.4        0.4      1.368
+ENDDATA              9
+ENDSUBENT           25
+SUBENT        20245014   20180308   20180917   20180917       2267
+BIB                  3          7
+REACTION   (12-MG-26(N,INL)12-MG-26,PAR,DA,G)
+STATUS     (TABLE) Table V of Phys.Scr.4(1971)165.
+           (DEP,20245009) Dependent from data of Subent 009.
+HISTORY    (19740419C)
+           (20180308A) SD: Left hand side was deleted from
+           REACTION code. COS -> ANG.  E, E-RSL were added.
+           E-LVL-INI deleted. E-LVL-FIN -> LVL-FIN.
+ENDBIB               7
+COMMON               1          3
+ANG
+ADEG
+ 80.
+ENDCOMMON            3
+DATA                 5          1
+E          E-RSL      DATA       DATA-ERR   LVL-FIN
+MEV        MEV        MB/SR      MB/SR      MEV
+    1.809    0.003         58.2      9.0      0.
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        20245015   20180308   20180917   20180917       2267
+BIB                  5         14
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,DA,G)
+SAMPLE     The sample of natural aluminium was circular disc
+           with diam. of 14.0 cm and thicknesses of 4.5 cm. Such
+           large samples were chosen to get reasonable yields
+           of high-energy gamma-rays (Eg > 1 MeV).
+FLAG       (1.) The cross sections have been corrected for the
+                contribution from the (n,p) reaction
+           (2.) The gamma-ray energies have been corrected for
+                the Doppler shift.
+STATUS     (TABLE) Table VI of Phys.Scr.4(1971)165.
+HISTORY    (19740419C)
+           (20180308A) SD: Left hand side was deleted from
+           REACTION code. COS -> ANG. SAMPLE update. E-RSL values
+           corrected at E=1.71, 2.73, 3.21 MeV.
+ENDBIB              14
+COMMON               1          3
+ANG
+ADEG
+ 80.
+ENDCOMMON            3
+DATA                 6         16
+E          E-RSL      DATA       DATA-ERR   DATA-MAX   FLAG
+MEV        MEV        MB/SR      MB/SR      MB/SR      NO-DIM
+      0.790      0.003        0.9        0.2
+      0.844      0.004                              1.7    1.
+      1.013      0.003        7.1        1.1               1.
+       1.71       0.15        4.8        0.9
+      2.211      0.003       10.7        1.8               2.
+      2.301      0.005        2.0        0.5
+       2.73       0.15        1.6        0.3
+      3.003      0.003        6.5        1.1               2.
+       3.21       0.15        1.1        0.6
+      3.961      0.005        0.5        0.1
+      4.410      0.005        1.5        0.4               2.
+      4.578      0.005        1.5        0.3               2.
+      5.448      0.010        1.0        0.3
+      5.535      0.010        0.6        0.2
+      6.271      0.010        0.9        0.2
+      6.481      0.010        0.9        0.2
+ENDDATA             18
+ENDSUBENT           41
+SUBENT        20245016   20180308   20180917   20180917       2267
+BIB                  4          9
+REACTION   (13-AL-27(N,P)12-MG-27,PAR,DA,G)
+SAMPLE     The sample of natural aluminium was circular disc
+           with diam. of 14.0 cm and thicknesses of 4.5 cm. Such
+           large samples were chosen to get reasonable yields
+           of high-energy gamma-rays (Eg > 1 MeV).
+STATUS     (TABLE) Table VI of Phys.Scr.4(1971)165.
+HISTORY    (19740428C)
+           (20180308A) SD: Left hand side was deleted from
+           REACTION code. COS -> ANG. SAMPLE update.
+ENDBIB               9
+COMMON               2          3
+ANG        E-RSL
+ADEG       MEV
+ 80.         0.004
+ENDCOMMON            3
+DATA                 3          2
+E          DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+      0.954        1.6        0.5
+      0.984        4.1        0.7
+ENDDATA              4
+ENDSUBENT           22
+SUBENT        20245017   20180308   20180917   20180917       2267
+BIB                  4         10
+REACTION   (13-AL-27(N,X)12-MG-26,PAR,DA,G)
+SAMPLE     The sample of natural aluminium was circular disc
+           with diam. of 14.0 cm and thicknesses of 4.5 cm. Such
+           large samples were chosen to get reasonable yields
+           of high-energy gamma-rays (Eg > 1 MeV).
+STATUS     (TABLE) Table VI of Phys.Scr.4(1971)165.
+HISTORY    (19740428C)
+           (20180308A) SD: Left hand side was deleted from
+           REACTION code. SF3=D -> X in REACTION code.
+           COS -> ANG. SAMPLE update.
+ENDBIB              10
+COMMON               1          3
+ANG
+ADEG
+ 80.
+ENDCOMMON            3
+DATA                 4          1
+E          E-RSL      DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+      1.809      0.003       14.5        2.3
+ENDDATA              3
+ENDSUBENT           22
+SUBENT        20245018   20180308   20180917   20180917       2267
+BIB                  4          9
+REACTION   (13-AL-27(N,A)11-NA-24,PAR,DA,G)
+SAMPLE     The sample of natural aluminium was circular disc
+           with diam. of 14.0 cm and thicknesses of 4.5 cm. Such
+           large samples were chosen to get reasonable yields
+           of high-energy gamma-rays (Eg > 1 MeV).
+STATUS     (TABLE) Table VI of Phys.Scr.4(1971)165.
+HISTORY    (19740428C)
+           (20180308A) SD: Left hand side was deleted from
+           REACTION code. COS -> ANG. SAMPLE update.
+ENDBIB               9
+COMMON               1          3
+ANG
+ADEG
+ 80.
+ENDCOMMON            3
+DATA                 4          1
+E          E-RSL      DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+      0.472      0.003        7.0        1.1
+ENDDATA              3
+ENDSUBENT           21
+SUBENT        20245019   20180308   20180917   20180917       2267
+BIB                  5         10
+REACTION   (13-AL-27(N,X)0-G-0,PAR,DA)
+SAMPLE     The sample of natural aluminium was circular disc
+           with diam. of 14.0 cm and thicknesses of 4.5 cm. Such
+           large samples were chosen to get reasonable yields
+           of high-energy gamma-rays (Eg > 1 MeV).
+COMMENT    .No assignment to specific reaction.
+STATUS     (TABLE) Table VI of Phys.Scr.4(1971)165.
+HISTORY    (19740428C)
+           (20180308A) SD: Left hand side was deleted from
+           REACTION code. COS -> ANG. SAMPLE update.
+ENDBIB              10
+COMMON               1          3
+ANG
+ADEG
+ 80.
+ENDCOMMON            3
+DATA                 4          1
+E          E-RSL      DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+      5.772      0.010      0.4       0.1
+ENDDATA              3
+ENDSUBENT           22
+ENDENTRY            19

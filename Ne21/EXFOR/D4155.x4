@@ -1,0 +1,391 @@
+ENTRY            D4155   20061110   20070516   20070516       D052
+SUBENT        D4155001   20061110   20070516   20070516       D052
+BIB                 13        100
+TITLE      Gamma ray production cross-sections of deuteron
+           induced nuclear reactions for light element analysis
+AUTHOR     (G.A.Sziki,A.Simon,Z.Szikszai,Zs.Kertesz,E.Dobos)
+INSTITUTE  (3HUNDEB)
+REFERENCE  (J,NIM/B,251,343,2006)
+FACILITY   (VDG,3HUNDEB)
+SAMPLE     Thin film samples were prepared onto Ta and Al
+           substrate simultaneously.
+           For the chemical and thickness analysis of the thin
+           layers Rutherford backscattering spectrometry was
+           applied using focused ion beams of a few tens of
+           micrometer size. DIGE measurements were performed also
+           on the samples with aluminium substrate at 1.8 MeV
+           deuteron energy, approximately on the same areas as
+           the RBS measurements. Comparing the measured gamma
+           yields, the number density of a certain isotope on the
+           tantalum substrate could be deduced from the RBS
+           results for the same isotope on the aluminum foil.
+METHOD     (SITA,GSPEC,TTM)
+           The DIGE measurements were carried out on the right
+           30 degree beamline of the 5 MV Van de Graaff
+           electrostatic accelerator of ATOMKI.
+           The experimental set-up was specially designed in order
+           to provide ideal circumstances for the measurements.
+           Provision was made to minimize background gamma
+           radiation.
+           The sample was positioned in the middle of an
+           electrically insulated chamber, which served as an
+           ideal Faraday cup. The current dose was measured on
+           the chamber by an ORTEC 439 digital current integrator.
+           The measurement on each thin target was started at a
+           beam energy of 2 MeV and continued downwards with
+           energy steps of 50 keV until 0.6 MeV. In some cases,
+           to see certain parts of the yield curves more detailed,
+           measurements at further energy points were made. To
+           check the stability of each target, control
+           measurements were also made after completing a series
+           of measurements in the 2-0.6 MeV range. The applied
+           beam current was gradually increased from 2 nA to
+           10 nA conforming to the decreasing cross-section values
+           with decreasing deuteron energy.
+ANALYSIS   The method that was applied for the accurate
+           determination of gamma-ray production cross-section is
+           based on the basic formula of yield calculus in thick
+           and intermediate thick targets, utilizing thick target
+           yields measured on compounds and also the measured
+           thin target gamma-ray yield curves.
+DETECTOR   (HPGE) The gamma radiation was detected by a HPGe
+           detector, placed at an angle of 60 degree to the beam
+           axis and at a distance of 10 cm from the target.
+           Nominal relative efficiency: 40%, resolution: 2 keV
+           at 1.33 MeV gamma-energy. Length and diameter of the
+           Ge crystal: 61.5 mm and 59.5 mm.
+           The absolute efficiency (the product of the intrinsic
+           efficiency and the solid angle of the detector) was
+           determined by a 152Eu radioactive source, placed at
+           the target position.
+ERR-ANALYS (EN-ERR) From the excitation curve measurement on a
+           thick target a beam energy spread of 1.5 keV was
+           deduced and an energy shift of 2 keV from the earlier
+           calibration was observed. These shifts cause generally
+           less than 0.5% relative error in the measured cross-
+           section values, and this error does not exceed 2% even
+           at the steepest section of the curves, thus it is
+           negligible in comparison to the other error values.
+           (ERR-S) The statistical error of each presented value
+           was calculated according to the well-known rule of
+           error propagation. Namely, it was derived from the
+           errors of the measured thin target yields and that of
+           K which depends on the thin/thick target yields.
+           The statistical uncertainty of net peak area values was
+           0.5-2% except some thin target spectra at low
+           bombarding energy where it reached 6-8%.
+           Accuracy of the cross-section data is affected through
+           the following factors:
+            * certified concentration of the analyzed element
+              in the thick target <1.0%,
+            * accumulated charge <0.3%,
+            * absolute efficiency of the gamma-ray detection ~3%,
+            * stopping power of the sample for the bombarding
+              particle ~3%.
+           The fact that the samples have finite thickness can
+           introduce further error which have to be taken into
+           consideration at the 11B(d,p)12B reaction. The
+           contribution is less than 2% above 1.2 MeV but can
+           reach 5-10% at low deuteron energies.
+           From the above-mentioned data it follows that the
+           overall accuracy of cross-section determination is
+           less then 7% in the case of the 6Li(d,p)7Li,
+                                           9Be(d,n)10B,
+                                           16O(d,p)17O and
+                                           19F(d,p)20F reactions
+           and less than 9% at the 11B(d,p)12B reaction, except
+           some low energy data of minor analytical importance.
+ADD-RES    Fitting adequate functions to the measured values
+           below 1 MeV, the yield curves were extrapolated to the
+           0-0.6 MeV energy range and then converted into
+           cross-sections.
+HISTORY    (20061110C) KB
+STATUS     (APRVD) G.A. Sziki 2007.01.19.
+ENDBIB             100
+COMMON               2          3
+ANG        EN-ERR
+ADEG       KEV
+60.        1.5
+ENDCOMMON            3
+ENDSUBENT          107
+SUBENT        D4155002   20061110   20070516   20070516       D052
+BIB                  4          7
+REACTION   (3-LI-6(D,P)3-LI-7,PAR,DA,G)
+PART-DET   (G) 478 keV
+SAMPLE     LiF layer on Ta substrate made by vacuum evaporation.
+           Thickness: 12+-1 microg/cm**2.
+           Number of nuclei: 6,7Li (311+-15)E+15 atom/cm**2,
+                             19F (273+-12)E+15 atom/cm**2.
+STATUS     (TABLE) Data were taken from Table 3 of the ref.
+ENDBIB               7
+COMMON               1          3
+E
+KEV
+  478.0
+ENDCOMMON            3
+DATA                 3         28
+EN         DATA       ERR-S
+KEV        MB/SR      MB/SR
+      2000.     143.        2.
+      1950.     146.        2.
+      1900.     139.        2.
+      1850.     136.        2.
+      1800.     134.        2.
+      1775.     125.        2.
+      1750.     125.        2.
+      1725.     125.        2.
+      1700.     124.        2.
+      1675.     119.        2.
+      1650.     113.        1.
+      1600.     111.        1.
+      1550.     104.        1.
+      1500.     101.        1.
+      1450.      93.9       1.3
+      1400.      87.8       1.3
+      1350.      85.7       1.2
+      1300.      81.3       1.2
+      1250.      79.2       1.1
+      1200.      75.6       1.1
+      1150.      69.4       1.0
+      1100.      58.7       0.9
+      1050.      54.0       0.8
+      1000.      39.9       0.7
+       950.      25.8       0.5
+       900.      15.7       0.5
+       850.       8.54      0.35
+       800.       4.87      0.33
+ENDDATA             30
+ENDSUBENT           46
+SUBENT        D4155003   20061110   20070516   20070516       D052
+BIB                  4          6
+REACTION   (4-BE-9(D,N)5-B-10,PAR,DA,G)
+PART-DET   (G) 718 keV
+SAMPLE     Be layer on Ta substrate made by vacuum evaporation.
+           Thickness: 40+-3 microg/cm**2.
+           Number of nuclei: 9Be (2650+-175)E+15 atom/cm**2.
+STATUS     (TABLE) Data were taken from Table 3 of the ref.
+ENDBIB               6
+COMMON               1          3
+E
+KEV
+  718.0
+ENDCOMMON            3
+DATA                 3         28
+EN         DATA       ERR-S
+KEV        MB/SR      MB/SR
+      2000.      17.4       0.3
+      1950.      17.5       0.3
+      1850.      17.7       0.3
+      1800.      17.6       0.3
+      1750.      17.8       0.3
+      1700.      18.0       0.3
+      1650.      18.2       0.3
+      1600.      17.4       0.3
+      1550.      17.6       0.3
+      1500.      17.7       0.3
+      1450.      17.5       0.2
+      1400.      16.6       0.2
+      1350.      16.2       0.2
+      1300.      16.2       0.2
+      1250.      16.0       0.2
+      1200.      16.1       0.2
+      1150.      15.2       0.2
+      1100.      14.9       0.2
+      1050.      14.6       0.2
+      1000.      14.3       0.2
+       950.      12.9       0.2
+       900.      12.3       0.2
+       850.      11.6       0.2
+       800.      10.9       0.2
+       750.      10.2       0.1
+       700.       9.23      0.13
+       650.       8.23      0.12
+       600.       6.99      0.10
+ENDDATA             30
+ENDSUBENT           45
+SUBENT        D4155004   20061110   20070516   20070516       D052
+BIB                  4          8
+REACTION   (5-B-11(D,P)5-B-12,PAR,DA,G)
+PART-DET   (G) 953 keV and 1674 keV
+SAMPLE     LiBO2 layer on Ta substrate made by vacuum evaporation.
+           Thickness: 68+-4 microg/cm**2.
+           Number of nuclei: 6,7Li (816+-47)E+15 atom/cm**2,
+                             10,11B (816+-47)E+15 atom/cm**2,
+                             16O (1632+-93)E+15 atom/cm**2.
+STATUS     (TABLE) Data were taken from Table 3 of the ref.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4         53
+E          EN         DATA       ERR-S
+KEV        KEV        MB/SR      MB/SR
+      953.      2000.     7.88      0.15
+      953.      1950.     7.81      0.13
+      953.      1900.     7.45      0.13
+      953.      1850.     7.31      0.13
+      953.      1800.     7.03      0.13
+      953.      1750.     6.72      0.12
+      953.      1700.     6.73      0.12
+      953.      1650.     6.62      0.11
+      953.      1600.     6.25      0.11
+      953.      1550.     6.22      0.11
+      953.      1500.     6.15      0.11
+      953.      1450.     6.07      0.12
+      953.      1400.     5.83      0.10
+      953.      1350.     5.64      0.11
+      953.      1300.     5.25      0.09
+      953.      1250.     5.07      0.10
+      953.      1200.     4.70      0.10
+      953.      1150.     4.37      0.09
+      953.      1100.     4.01      0.09
+      953.      1050.     3.74      0.08
+      953.      1000.     3.39      0.07
+      953.       950.     3.03      0.07
+      953.       900.     2.56      0.06
+      953.       850.     2.08      0.05
+      953.       800.     1.78      0.04
+      953.       750.     1.52      0.04
+      953.       700.     1.19      0.03
+      953.       650.     0.94      0.03
+      953.       600.     0.67      0.02
+     1674.      2000.    12.6       0.2
+     1674.      1950.    12.3       0.2
+     1674.      1900.    11.8       0.2
+     1674.      1850.    11.9       0.2
+     1674.      1800.    11.5       0.2
+     1674.      1750.    10.9       0.2
+     1674.      1700.    10.7       0.2
+     1674.      1650.    10.2       0.2
+     1674.      1600.     9.68      0.16
+     1674.      1550.     9.52      0.16
+     1674.      1500.     8.79      0.15
+     1674.      1450.     8.21      0.15
+     1674.      1400.     6.98      0.13
+     1674.      1350.     6.45      0.13
+     1674.      1300.     5.92      0.11
+     1674.      1250.     4.88      0.11
+     1674.      1200.     4.18      0.10
+     1674.      1150.     3.38      0.09
+     1674.      1100.     2.39      0.08
+     1674.      1050.     1.71      0.07
+     1674.      1000.     1.27      0.06
+     1674.       950.     0.53      0.05
+     1674.       900.     0.29      0.02
+     1674.       850.     0.12      0.01
+ENDDATA             55
+ENDSUBENT           68
+SUBENT        D4155005   20061110   20070516   20070516       D052
+BIB                  4         10
+REACTION   (8-O-16(D,P)8-O-17,PAR,DA,G)
+PART-DET   (G) 871 keV
+SAMPLE     Titanium-oxide layer was deposited onto Ta substrate
+           by DC reactive magnetron sputtering from pure (99.999%)
+           Ti target. During the deposition the oxygen was added
+           to the argon plasma.
+           Thickness: 27+-1 microg/cm**2.
+           Number of nuclei: 16O (107+-5)E+15 atom/cm**2,
+               46,47,48,49,50Ti (307+-14)E+15 atom/cm**2.
+STATUS     (TABLE) Data were taken from Table 3 of the ref.
+ENDBIB              10
+COMMON               1          3
+E
+KEV
+   871.0
+ENDCOMMON            3
+DATA                 3         43
+EN         DATA       ERR-S
+KEV        MB/SR      MB/SR
+     2000.     32.3       0.5
+     1950.     28.8       0.5
+     1900.     23.6       0.5
+     1850.     20.7       0.4
+     1800.     19.2       0.4
+     1750.     19.7       0.4
+     1700.     20.1       0.4
+     1650.     19.1       0.4
+     1600.     17.1       0.3
+     1550.     15.7       0.3
+     1500.     14.6       0.3
+     1450.     15.6       0.3
+     1400.     15.2       0.3
+     1350.     13.5       0.3
+     1325.     12.4       0.2
+     1315.     12.3       0.2
+     1305.     14.1       0.3
+     1295.     11.9       0.2
+     1285.     10.4       0.2
+     1275.      9.72      0.17
+     1250.      8.25      0.17
+     1200.      6.49      0.14
+     1150.      6.17      0.14
+     1100.      5.62      0.12
+     1050.      7.06      0.14
+     1025.      8.41      0.15
+     1010.      9.86      0.16
+     1000.     10.5       0.2
+      990.     10.6       0.2
+      980.     10.9       0.2
+      970.     11.3       0.2
+      960.     10.2       0.2
+      950.      8.57      0.14
+      940.      7.12      0.13
+      930.      6.55      0.14
+      920.      5.67      0.13
+      900.      5.33      0.12
+      850.      3.93      0.09
+      800.      3.60      0.08
+      750.      2.73      0.08
+      700.      1.68      0.05
+      650.      1.23      0.04
+      600.      0.93      0.04
+ENDDATA             45
+ENDSUBENT           64
+SUBENT        D4155006   20061110   20070516   20070516       D052
+BIB                  4          7
+REACTION   (9-F-19(D,P)9-F-20,PAR,DA,G)
+PART-DET   (G) 656 keV
+SAMPLE     LiF layer on Ta substrate made by vacuum evaporation.
+           Thickness: 12+-1 microg/cm**2.
+           Number of nuclei: 6,7Li (311+-15)E+15 atom/cm**2,
+                             19F (273+-12)E+15 atom/cm**2.
+STATUS     (TABLE) Data were taken from Table 3 of the ref.
+ENDBIB               7
+COMMON               1          3
+E
+KEV
+   656.0
+ENDCOMMON            3
+DATA                 3         29
+EN         DATA       ERR-S
+KEV        MB/SR      MB/SR
+     2000.     5.82      0.12
+     1950.     5.32      0.10
+     1900.     5.06      0.10
+     1850.     4.59      0.09
+     1800.     4.31      0.08
+     1775.     4.05      0.08
+     1750.     3.95      0.08
+     1725.     4.00      0.08
+     1700.     3.63      0.07
+     1675.     3.48      0.07
+     1650.     3.37      0.06
+     1600.     3.16      0.07
+     1550.     3.12      0.06
+     1500.     3.01      0.06
+     1450.     2.54      0.06
+     1400.     2.34      0.06
+     1350.     2.03      0.05
+     1300.     1.89      0.05
+     1250.     1.76      0.05
+     1200.     1.55      0.04
+     1150.     1.14      0.04
+     1100.     0.84      0.04
+     1050.     0.73      0.03
+     1000.     0.58      0.03
+      950.     0.44      0.03
+      900.     0.36      0.03
+      850.     0.29      0.02
+      800.     0.16      0.01
+      750.     0.062     0.005
+ENDDATA             31
+ENDSUBENT           47
+ENDENTRY             6

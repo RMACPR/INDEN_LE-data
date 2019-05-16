@@ -1,0 +1,481 @@
+ENTRY            10644   20080814   20080909   20080909       1349
+SUBENT        10644001   20080814   20080909   20080909       1349
+BIB                 12         26
+INSTITUTE  (1USAOAU)
+REFERENCE  (J,RRL,23,317,1975)
+AUTHOR     (G.Gleason)
+TITLE      Thermal neutron cross sections and (n,gamma) resonance
+           integrals Part I.
+INC-SOURCE (CF252) 252Cf centered within graphite block assembly.
+METHOD     (ACTIV) Activation
+ANALYSIS   Cadmium ratio method used to determine thermal cross
+            sections and resonance integrals of elements measured.
+           Target materials were placed between foils of gold
+            and manganese alloys for irradiation. The activities
+            of the Au and Mn products were used to determine the
+            thermal and epithermal flux.
+DETECTOR   (GELI) Germanium-lithium detector, 44 cm**3.
+MONITOR    ((MONIT1)79-AU-197(N,G)79-AU-198,,SIG,,MXW)
+           ((MONIT2)79-AU-197(N,G)79-AU-198,,RI)
+           ((MONIT3)25-MN-55(N,G)25-MN-56,,SIG,,MXW)
+           ((MONIT4)25-MN-55(N,G)25-MN-56,,RI)
+             Values taken from Chart of Nuclides (1972).
+ERR-ANALYS (DATA-ERR) No information on source of uncertainties.
+STATUS     (APRVD) Approved by author 770414
+HISTORY    (19770201C)
+           (19771219U) Decay data added.
+           (19780223U) Reaction product added
+           (20080814A) Converted to new date formats, lower case.
+                       BIB update. Mn monitor added.
+ENDBIB              26
+COMMON               4          3
+MONIT1     MONIT2     MONIT3     MONIT4
+B          B          B          B
+ 98.8       1560.      13.3       17.
+ENDCOMMON            3
+ENDSUBENT           33
+SUBENT        10644002   20080814   20080909   20080909       1349
+BIB                  3          3
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG,,MXW)
+DECAY-DATA (11-NA-24,15.0HR,DG,1368.6,1.0)
+HISTORY    (19860107A) REACTION corrected.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     0.540      0.02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10644003     780223              20050926       0000
+BIB                  2          2
+REACTION   (11-NA-23(N,G)11-NA-24,,RI)
+DECAY-DATA (11-NA-24,15.0HR,DG,1368.6,1.0)
+ENDBIB               2
+NOCOMMON
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+ 0.5        0.37       0.03
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10644004   20080814   20080909   20080909       1349
+BIB                  3          3
+REACTION   (12-MG-26(N,G)12-MG-27,,SIG,,MXW)
+DECAY-DATA (12-MG-27,9.45MIN,DG,843.7,0.72)
+HISTORY    (19860107A) REACTION corrected.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     0.034      0.002
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10644005     780223              20050926       0000
+BIB                  2          2
+REACTION   (12-MG-26(N,G)12-MG-27,,RI)
+DECAY-DATA (12-MG-27,9.45MIN,DG,843.7,0.72)
+ENDBIB               2
+NOCOMMON
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+ 0.5        0.026      0.001
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10644006   20080814   20080909   20080909       1349
+BIB                  3          3
+REACTION   (13-AL-27(N,G)13-AL-28,,SIG,,MXW)
+DECAY-DATA (13-AL-28,2.24MIN,DG,1778.7,1.0)
+HISTORY    (19860107A) REACTION corrected.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     0.234      0.005
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10644007     780223              20050926       0000
+BIB                  2          2
+REACTION   (13-AL-27(N,G)13-AL-28,,RI)
+DECAY-DATA (13-AL-28,2.24MIN,DG,1778.7,1.0)
+ENDBIB               2
+NOCOMMON
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+ 0.5        0.155      0.010
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10644008   20080814   20080909   20080909       1349
+BIB                  3          3
+REACTION   (17-CL-37(N,G)17-CL-38,,SIG,,MXW)
+DECAY-DATA (17-CL-38,37.3MIN,DG,2167.5,0.44)
+HISTORY    (19860107A) REACTION corrected.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     0.431      0.008
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10644009     780223              20050926       0000
+BIB                  2          2
+REACTION   (17-CL-37(N,G)17-CL-38,,RI)
+DECAY-DATA (17-CL-38,37.3MIN,DG,2167.5,0.44)
+ENDBIB               2
+NOCOMMON
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+ 0.5        0.32       0.02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10644010   20080814   20080909   20080909       1349
+BIB                  3          3
+REACTION   (19-K-41(N,G)19-K-42,,SIG,,MXW)
+DECAY-DATA (19-K-42,12.4HR,DG,1524.7,0.18)
+HISTORY    (19860107A) REACTION corrected.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     1.43       0.03
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10644011     780223              20050926       0000
+BIB                  2          2
+REACTION   (19-K-41(N,G)19-K-42,,RI)
+DECAY-DATA (19-K-42,12.4HR,DG,1524.7,0.18)
+ENDBIB               2
+NOCOMMON
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+ 0.5        1.32       0.07
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10644012   20080814   20080909   20080909       1349
+BIB                  3          3
+REACTION   (21-SC-45(N,G)21-SC-46,,SIG,,MXW)
+DECAY-DATA (21-SC-46-G,83.8D,DG,1120.5,1.0)
+HISTORY    (19860107A) REACTION, DECAY-DATA corrected.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     26.0       0.5
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10644013     780223              20050926       0000
+BIB                  2          2
+REACTION   (21-SC-45(N,G)21-SC-46,,RI)
+DECAY-DATA (21-SC-46,83.8D,DG,1120.5,1.0)
+ENDBIB               2
+NOCOMMON
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+ 0.5        12.0       1.0
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10644014   20080814   20080909   20080909       1349
+BIB                  3          5
+REACTION   (22-TI-50(N,G)22-TI-51,,SIG,,MXW)
+DECAY-DATA (22-TI-51,5.79MIN,DG,320.1,0.95)
+HISTORY    (19780508A) Target nucleus corrected
+           (19860107A) REACTION corrected.
+           (19860422A) BIB correction.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     0.160      0.01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        10644015   20080814   20080909   20080909       1349
+BIB                  3          3
+REACTION   (22-TI-50(N,G)22-TI-51,,RI)
+DECAY-DATA (22-TI-51,5.79MIN,DG,320.1,0.95)
+HISTORY    (19780508A) Target nucleus corrected
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+ 0.5        0.11       0.01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10644016   20080814   20080909   20080909       1349
+BIB                  3          5
+REACTION   (23-V-51(N,G)23-V-52,,SIG,,MXW)
+DECAY-DATA (23-V-52,3.76MIN,DG,1434.4,1.0)
+HISTORY    (19780508A) Target nucleus corrected
+           (19860107A) REACTION corrected.
+           (19860422A) BIB correction.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     5.10       0.10
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        10644017   20080814   20080909   20080909       1349
+BIB                  4          4
+REACTION   (23-V-51(N,G)23-V-52,,RI)
+DECAY-DATA (23-V-52,3.76MIN,DG,1434.4,1.0)
+STATUS     Value taken from private communication, 1977/04
+HISTORY    (19780508A) Target nucleus corrected
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+ 0.5        2.80       0.10
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        10644018   20080814   20080909   20080909       1349
+BIB                  3          3
+REACTION   (24-CR-50(N,G)24-CR-51,,SIG,,MXW)
+DECAY-DATA (24-CR-51,27.8D,DG,320.1,0.099)
+HISTORY    (19860107A) REACTION corrected.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     15.8       0.2
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10644019     780223              20050926       0000
+BIB                  2          2
+REACTION   (24-CR-50(N,G)24-CR-51,,RI)
+DECAY-DATA (24-CR-51,27.8D,DG,320.1,0.099)
+ENDBIB               2
+NOCOMMON
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+ 0.5        9.0        0.5
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10644020   20080814   20080909   20080909       1349
+BIB                  2          2
+REACTION   (25-MN-55(N,G)25-MN-56,,RI)
+COMMENT    Value taken from private communication, 1977/4.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+ 0.5        15.6       0.5
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10644021   20080814   20080909   20080909       1349
+BIB                  3          3
+REACTION   (28-NI-64(N,G)28-NI-65,,SIG,,MXW)
+DECAY-DATA (28-NI-65,151.2MIN,DG,1481.7,0.25)
+HISTORY    (19860107A) REACTION corrected.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     1.49       0.07
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10644022     780223              20050926       0000
+BIB                  2          2
+REACTION   (28-NI-64(N,G)28-NI-65,,RI)
+DECAY-DATA (28-NI-65,151.2MIN,DG,1481.7,0.25)
+ENDBIB               2
+NOCOMMON
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+ 0.5        0.98       0.05
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10644023   20080814   20080909   20080909       1349
+BIB                  3          3
+REACTION   (30-ZN-64(N,G)30-ZN-65,,SIG,,MXW)
+DECAY-DATA (30-ZN-65,244.D,DG,1115.5,0.506)
+HISTORY    (19860107A) REACTION corrected.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     0.715      0.035
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10644024     780223              20050926       0000
+BIB                  2          2
+REACTION   (30-ZN-64(N,G)30-ZN-65,,RI)
+DECAY-DATA (30-ZN-65,244.D,DG,1115.5,0.506)
+ENDBIB               2
+NOCOMMON
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+ 0.5        1.73       0.08
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10644025   20080814   20080909   20080909       1349
+BIB                  3          3
+REACTION   (30-ZN-68(N,G)30-ZN-69-M,,SIG,,MXW)
+DECAY-DATA (30-ZN-69-M,13.8HR,DG,438.7,0.95)
+HISTORY    (19860107A) REACTION corrected.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     0.070      0.004
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10644026     780106              20050926       0000
+BIB                  2          2
+REACTION   (30-ZN-68(N,G)30-ZN-69-M,,RI)
+DECAY-DATA (30-ZN-69-M,13.8HR,DG,438.7,0.95)
+ENDBIB               2
+NOCOMMON
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+ 0.5        0.23       0.01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10644027   20080814   20080909   20080909       1349
+BIB                  3          3
+REACTION   (31-GA-71(N,G)31-GA-72,,SIG,,MXW)
+DECAY-DATA (31-GA-72,14.1HR,DG,834.1,0.958)
+HISTORY    (19860107A) REACTION corrected.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     4.40       0.20
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10644028     780223              20050926       0000
+BIB                  2          2
+REACTION   (31-GA-71(N,G)31-GA-72,,RI)
+DECAY-DATA (31-GA-72,14.1HR,DG,834.1,0.958)
+ENDBIB               2
+NOCOMMON
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+ 0.5        34.        2.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10644029   20080814   20080909   20080909       1349
+BIB                  3          3
+REACTION   (33-AS-75(N,G)33-AS-76,,SIG,,MXW)
+DECAY-DATA (33-AS-76,26.4HR,DG,559.3,0.43)
+HISTORY    (19860107A) REACTION corrected.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     4.29       0.20
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10644030     780223              20050926       0000
+BIB                  2          2
+REACTION   (33-AS-75(N,G)33-AS-76,,RI)
+DECAY-DATA (33-AS-76,26.4HR,DG,559.3,0.43)
+ENDBIB               2
+NOCOMMON
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+ 0.5        75.        3.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10644031   20080814   20080909   20080909       1349
+BIB                  3          3
+REACTION   (35-BR-81(N,G)35-BR-82,,SIG,,MXW)
+DECAY-DATA (35-BR-82-G,35.4HR,DG,776.7,0.835)
+HISTORY    (19860107A) REACTION, DECAY-DATA corrected.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     2.10       0.1
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10644032     780223              20050926       0000
+BIB                  2          2
+REACTION   (35-BR-81(N,G)35-BR-82,,RI)
+DECAY-DATA (35-BR-82,35.4HR,DG,776.7,0.835)
+ENDBIB               2
+NOCOMMON
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+ 0.5        50.        3.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10644033   20080814   20080909   20080909       1349
+BIB                  3          3
+REACTION   (51-SB-121(N,G)51-SB-122,,SIG,,MXW)
+DECAY-DATA (51-SB-122-G,65.2HR,DG,564.1,0.71)
+HISTORY    (19860107A) REACTION, DECAY-DATA corrected.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     6.90       0.3
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10644034     780223              20050926       0000
+BIB                  2          2
+REACTION   (51-SB-121(N,G)51-SB-122,,RI)
+DECAY-DATA (51-SB-122,65.2HR,DG,564.1,0.71)
+ENDBIB               2
+NOCOMMON
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+ 0.5        230.       10.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10644035   20080814   20080909   20080909       1349
+BIB                  3          3
+REACTION   (57-LA-139(N,G)57-LA-140,,SIG,,MXW)
+DECAY-DATA (57-LA-140,40.2HR,DG,1596.6,0.956)
+HISTORY    (19860107A) REACTION corrected.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     9.15       0.25
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10644036     780223              20050926       0000
+BIB                  2          2
+REACTION   (57-LA-139(N,G)57-LA-140,,RI)
+DECAY-DATA (57-LA-140,40.2HR,DG,1596.6,0.956)
+ENDBIB               2
+NOCOMMON
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+ 0.5        12.5       0.4
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY            36

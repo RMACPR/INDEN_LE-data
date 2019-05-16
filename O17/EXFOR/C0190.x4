@@ -1,0 +1,221 @@
+ENTRY            C0190   20140422   20140711   20140711       C141
+SUBENT        C0190001   20140422   20140711   20140711       C141
+BIB                  9         22
+INSTITUTE  (1CANCRC)
+REFERENCE  (J,NIM/B,15,530,1986)
+AUTHOR     (J.A.Sawicki,J.A.Davies,T.E.Jackman)
+TITLE      Absolute calibration of the 15N(d,alpha0)13C and
+            15N(p,alpha0)12C reaction cross sections
+FACILITY   (ACCEL,1CANCRC) Nothing else said about facility.
+DETECTOR   (SIBAR) 50 mm2 silicon barrier detector with a
+           depletion depth of 1000 mu-m. A 16 mu-m mylar
+            filter used in front of detector to reduce background
+            due to elastic scattering of incident beam.
+ANALYSIS   Accelerator energy calibrated using 27Al(p,gamma)
+            resonances at 992, 1383, and 1984 keV.  Additional
+            check performed on energy calibration using 972 keV
+            resonance from 16O(d,p1)17O using Ta2O5 standard.
+STATUS     No reply from J. Sawicki to author proof.
+HISTORY    (19981027C)
+           (20051031C) DR Subentry 2 corrected (EN and ANG deleted
+                        in data) and unit corrected for EN
+           (20111117A) SD: Units of the energy in Subents 3-5 were
+            changed (MeV => keV). Data from fig.2 were digitized
+            and added to Subent 6. BIB additions.
+           (20140422A) SD: REACTION codes swapped in Subents 5,6.
+ENDBIB              22
+NOCOMMON             0          0
+ENDSUBENT           25
+SUBENT        C0190002   20111117   20120210   20120207       C113
+BIB                  9         15
+REACTION   (7-N-15(D,A)6-C-13,PAR,DA)
+SAMPLE     High purity gas containing isotopically enriched 15NO
+            condensed on clean surface at about 20 K.  One N atom
+            per molecule on N2O contains with 15N.
+           Typical frozen gas thickness 1-3 x 10**(-17) mol/cm2.
+METHOD     Frozen gas technique
+MONITOR    (8-O-16(D,P)8-O-17,PAR,DA) for NO gas measurement.
+MONIT-REF  (C0193002,J.A.Davies+,J,NIM,168,611,1980)
+CORRECTION Corrected for small 14N impurity in NO gas.
+ANALYSIS   By combining the observed ratio of the peak yields for
+           15N(d,alpha0)13C and 16O(d,p1)17O with the absolute
+           cross section value of (13.2 +- 0.2) mb/sr for the
+           16O(d, p1)17O reaction
+ERR-ANALYS (DATA-ERR) No information on source of uncertainties.
+STATUS     (TABLE) Data taken from tbl.1 at NIM/B,15,530.
+ENDBIB              15
+COMMON               5          3
+EN         ANG        E-LVL-NRM  MONIT      MONIT-ERR
+KEV        ADEG       MEV        MB/SR      MB/SR
+972.       150.        6.05       13.2        0.2
+ENDCOMMON            3
+DATA                 3          1
+E-LVL      DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 0.         2.19       0.07
+ENDDATA              3
+ENDSUBENT           27
+SUBENT        C0190003   20111117   20120210   20120207       C113
+BIB                  9         20
+REACTION  1(7-N-15(D,A)6-C-13,PAR,DA)
+          2(7-N-15(D,A)6-C-13,PAR,DA)
+SAMPLE     High purity gas containing isotopically enriched
+            14N15NO condensed on clean surface at about 20 K.
+           Typical frozen gas thickness 1-3 x 10**17 mol/cm2.
+METHOD     Frozen gas technique
+MONITOR   1(8-O-16(D,P)8-O-17,PAR,DA)
+          2((7-N-14(D,P)7-N-15,PAR,DA)+
+           (7-N-14(D,A)6-C-12,PAR,DA))
+            Yields for a0, a1, p0, p1+2 combined.
+MONIT-REF 1(C0193002,J.A.Davies+,J,NIM,168,611,1980)
+          2(C0192001,J.A.Davies+,J,NIM,218,141,1983)
+ANALYSIS   By determining the ratio of the yield of the
+           15N(d,alpha0)13C reaction to that of the various
+           14N(d,alpha) and 14N(d,p) reactions for which absolute
+           cross section values had already been determined.
+ERR-ANALYS (DATA-ERR) No information on source of uncertainties.
+STATUS     (TABLE) Data taken from tbl.1 at NIM/B,15,530.
+HISTORY    (20111117A) SD: Units of the energy were changed
+                                                   (MeV => keV).
+ENDBIB              20
+COMMON               5          3
+EN         ANG        E-LVL-NRM 1MONIT     1MONIT-ERR 1
+KEV        ADEG       MEV        MB/SR      MB/SR
+972.       150.        6.05       13.2        0.2
+ENDCOMMON            3
+DATA                 5          1
+E-LVL      DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MEV        MB/SR      MB/SR      MB/SR      MB/SR
+ 0.         2.05       0.05       2.06       0.06
+ENDDATA              3
+ENDSUBENT           32
+SUBENT        C0190004   20111117   20120210   20120207       C113
+BIB                  6          8
+REACTION   (7-N-15(P,A)6-C-12,PAR,DA)
+SAMPLE     Stainless steel target implanted with about 5 x 10**17
+            15N ions.
+MONITOR    (7-N-15(D,A)6-C-13,PAR,DA)
+ERR-ANALYS (DATA-ERR) No information on source of uncertainties.
+STATUS     (TABLE) Data taken from tbl.1 at NIM/B,15,530.
+HISTORY    (20111117A) SD: Units of the energy were changed
+                                                   (MeV => keV).
+ENDBIB               8
+COMMON               5          3
+EN         ANG        E-LVL-NRM  MONIT      MONIT-ERR
+KEV        ADEG       MEV        MB/SR      MB/SR
+972.       150.        0.         2.10       0.05
+ENDCOMMON            3
+DATA                 3          1
+E-LVL      DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 0.         36.2       1.2
+ENDDATA              3
+ENDSUBENT           20
+SUBENT        C0190005   20140422   20140711   20140711       C141
+BIB                  6         13
+REACTION   (7-N-15(D,A)6-C-13,PAR,DA)
+SAMPLE     Stainless steel target implanted with about 5 x 10**17
+            15N ions.
+MONITOR    (7-N-15(D,A)6-C-13,PAR,DA)
+            Beam contamination problem, the 15N(d,alpha0)13C yield
+           was measured first and then the 15N(p,alpha0)12C yield.
+STATUS     (CURVE) Data read from curve by G. Vizkelethy, ISU;
+            taken from SigmaBase Web site.
+ERR-ANALYS No information on uncertainties in data.
+HISTORY    (20111117A) SD: Units of the energy were changed
+                                                   (MeV => keV).
+           (20140422A) SD: SF2=P -> D, SF4=C-12 -> C-13 in
+                 REACTION code.
+ENDBIB              13
+COMMON               2          3
+ANG        E-LVL
+ADEG       MEV
+150.        0.
+ENDCOMMON            3
+DATA                 2         18
+EN         DATA
+KEV        MB/SR
+  804.        9.13E-01
+  846.        8.68E-01
+  874.        9.36E-01
+  900.        1.16E+00
+  926.        1.58E+00
+  950.        1.92E+00
+  974.        2.12E+00
+  996.        2.35E+00
+ 1031.        2.60E+00
+ 1059.        2.63E+00
+ 1109.        2.81E+00
+ 1147.        2.99E+00
+ 1176.        2.90E+00
+ 1203.        2.76E+00
+ 1225.        2.37E+00
+ 1251.        2.33E+00
+ 1275.        2.17E+00
+ 1299.        2.26E+00
+ENDDATA             20
+ENDSUBENT           42
+SUBENT        C0190006   20140422   20140711   20140711       C141
+BIB                  5          8
+REACTION   (7-N-15(P,A)6-C-12,PAR,DA)
+SAMPLE     Stainless steel target implanted with about 5 x 10**17
+            15N ions.
+ERR-ANALYS No information on uncertainties in data.
+STATUS     (CURVE) Data given in Fig. 2 of NIM/B,15,30,1986
+HISTORY    (20111117A) SD: data were digitized.
+           (20140422A) SD: SF2=D -> P, SF4=C-13 -> C-12 in
+                 REACTION code.
+ENDBIB               8
+COMMON               4          3
+ANG        E-LVL      EN-ERR-DIG ERR-DIG
+ADEG       MEV        KEV        MB/SR
+150.        0.           0.64     0.038
+ENDCOMMON            3
+DATA                 2         42
+EN         DATA
+KEV        MB/SR
+ 804.78     11.458
+ 812.53     11.220
+ 818.43     12.401
+ 829.17     13.345
+ 840.90     14.703
+ 849.66     15.055
+ 859.44     16.118
+ 870.18     17.061
+ 878.98     18.183
+ 889.76     19.600
+ 900.53     21.017
+ 910.38     23.203
+ 919.21     24.561
+ 928.05     26.215
+ 936.95     28.638
+ 950.66     30.469
+ 958.60     33.069
+ 971.36     35.136
+ 983.12     36.849
+ 991.83     36.492
+ 1010.2     35.895
+ 1020.7     32.698
+ 1027.3     30.331
+ 1033.0     29.146
+ 1040.4     23.170
+ 1051.7     17.961
+ 1060.1     12.754
+ 1076.2     8.0766
+ 1087.7     6.0033
+ 1100.3     5.7635
+ 1112.9     4.7547
+ 1126.4     3.3907
+ 1149.8     5.8100
+ 1159.7     7.9961
+ 1171.3     8.1115
+ 1183.2     11.717
+ 1190.8     22.599
+ 1195.5     35.493
+ 1199.7     53.475
+ 1210.4     40.281
+ 1218.5     30.518
+ 1231.7     11.349
+ENDDATA             44
+ENDSUBENT           61
+ENDENTRY             6

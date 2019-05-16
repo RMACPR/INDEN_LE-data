@@ -1,0 +1,235 @@
+ENTRY            F0714   20050608   20050831   20050926       F022
+SUBENT        F0714001   20050608   20050831   20050926       F022
+BIB                 12         29
+TITLE      A study of deuteron scattering on 12C and 13C.
+AUTHOR     (H.Guratzsch,J.Slotta,G.Stiller)
+INSTITUTE  (2GERZFK)
+REFERENCE  (J,NP/A,140,129,1970)
+FACILITY   (CYCLO)
+DETECTOR   (SOLST)There were used solid-state detectors in
+           conjunction with a two-dimensional pulse-height
+           analyser.
+SAMPLE     Natural and enriched carbon targets with a thickness
+           of equal 0.6 mg/cm2 were produced by cracking methyl
+           iodide on a heated platinum disk.
+MONITOR    (6-C-12(D,P)6-C-13,,DA)
+           (6-C-13(D,P)6-C-14,,DA)
+           Absolute 12C and 13C contents in the enriched targets
+           were determined by comparing the 12C(d,p0) and
+           13C(d,p0) stripping peaks at angle equal 58 degr. in
+           lab.system from the enriched targets and from a
+           polystyrene target.
+           (6-C-12(D,A)5-B-10,,DA) The incident energy was
+           determined by comparing the energy of alpha particles
+           from the 12C(d,a) reaction with that from ThC-ThC'
+           alpha particles.
+ADD-RES    (COMP)The optical model calculations.
+METHOD     (PHD)
+           (EDE)
+ERR-ANALYS (EN-ERR) Uncertainty in the incident energy
+           (ANG-ERR-D)Digitizing error
+           (ERR-DIG)Digitizing error
+HISTORY    (20050315C)
+ENDBIB              29
+COMMON               3          3
+EN         EN-ERR     ERR-DIG
+MEV        MEV        PER-CENT
+ 13.7       0.1        0.2
+ENDCOMMON            3
+ENDSUBENT           36
+SUBENT        F0714002   20050608   20050831   20050926       F022
+BIB                  3          6
+REACTION   (6-C-12(D,EL)6-C-12,,DA,,RTH)
+ERR-ANALYS Full relative error of the differential cross
+           sections includes the error of the relative cross
+           sections (3%) and the error of the absolute values
+            (10%).
+STATUS     (CURVE)Fig.2
+ENDBIB               6
+COMMON               1          3
+ANG-ERR-D
+ADEG
+ 0.4
+ENDCOMMON            3
+DATA                 2         21
+ANG-CM     DATA-CM
+ADEG       NO-DIM
+ 11.451    0.68494
+ 22.589     1.4372
+ 34.476    0.49356
+ 40.848    0.15350
+ 46.183     1.1450
+ 54.631     3.2508
+ 57.383     3.3145
+ 68.319     2.4445
+ 78.268     3.2310
+ 88.727     3.4922
+ 99.523     1.2488
+ 104.39    0.83423
+ 109.37    0.97858
+ 113.95     2.4650
+ 119.01     4.4107
+ 127.40     9.2617
+ 137.33     11.296
+ 146.03     6.8171
+ 154.73     4.2831
+ 163.66     8.2976
+ 170.93     15.762
+ENDDATA             23
+ENDSUBENT           38
+SUBENT        F0714003   20050608   20050831   20050926       F022
+BIB                  3          6
+REACTION   (6-C-13(D,EL)6-C-13,,DA,,RTH)
+ERR-ANALYS Full relative error of the differential cross
+           sections includes the error of the relative cross
+           sections (5%) and the error of the absolute values
+            (14%).
+STATUS     (CURVE)Fig.2
+ENDBIB               6
+COMMON               1          3
+ANG-ERR-D
+ADEG
+ 0.4
+ENDCOMMON            3
+DATA                 2         20
+ANG-CM     DATA-CM
+ADEG       NO-DIM
+ 11.741     1.0815
+ 23.477     3.0913
+ 34.570    0.50738
+ 40.356    0.17656
+ 46.223     1.0070
+ 54.659     2.7112
+ 56.891     3.2515
+ 68.403     3.4430
+ 78.715     2.2884
+ 89.607     1.7525
+ 99.367     1.1416
+ 104.30     1.1632
+ 108.82     2.1336
+ 118.97     7.9404
+ 127.86     14.253
+ 137.19     15.727
+ 146.45     12.549
+ 155.16     9.8134
+ 164.54     13.810
+ 172.29     20.248
+ENDDATA             22
+ENDSUBENT           37
+SUBENT        F0714004   20050608   20050831   20050926       F022
+BIB                  3          6
+REACTION   (6-C-12(D,INL)6-C-12,PAR,DA)
+ERR-ANALYS Full relative error of the differential cross
+           sections includes the error of the relative cross
+           sections (3%) and the error of the absolute values
+            (10%).
+STATUS     (CURVE)Fig.3
+ENDBIB               6
+COMMON               2          3
+E-LVL      ANG-ERR-D
+MEV        ADEG
+  4.44      0.28
+ENDCOMMON            3
+DATA                 2         20
+ANG-CM     DATA-CM
+ADEG       MB/SR
+ 23.378     10.526
+ 35.791     7.4893
+ 41.311     4.4223
+ 46.886     2.9477
+ 56.871     3.1861
+ 58.528     3.8451
+ 69.659     5.1535
+ 80.723     5.9563
+ 92.205     5.4750
+ 101.52     4.2845
+ 106.71     3.8930
+ 111.39     3.6344
+ 116.09     3.5328
+ 120.28     3.5283
+ 129.73     3.7129
+ 138.78     5.1154
+ 146.72     6.1618
+ 155.19     7.4211
+ 163.05     7.5038
+ 172.00     8.3347
+ENDDATA             22
+ENDSUBENT           37
+SUBENT        F0714005   20050608   20050831   20050926       F022
+BIB                  3          7
+REACTION   (6-C-13(D,INL)6-C-13,PAR,DA)
+ERR-ANALYS (DATA-ERR) Error from the graphic bars
+           Full relative error of the differential cross
+           sections includes the error of the relative cross
+           sections (10%) and the error of the absolute values
+            (14%).
+STATUS     (CURVE)Fig.4
+ENDBIB               7
+COMMON               2          3
+E-LVL      ANG-ERR-D
+MEV        ADEG
+ 3.09       0.42
+ENDCOMMON            3
+DATA                 3         19
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+ 34.374    0.40670    0.61198E-01
+ 40.750    0.35234    0.30518E-01
+ 46.348    0.37932    0.32855E-01
+ 55.517    0.34719    0.18369E-01
+ 57.644    0.32899    0.28495E-01
+ 68.922    0.30127    0.15940E-01
+ 79.515    0.26126    0.18266E-01
+ 89.976    0.33146    0.17537E-01
+ 100.63    0.23980    0.16765E-01
+ 104.86    0.23572    0.83895E-02
+ 109.78    0.23599    0.12486E-01
+ 115.40    0.23630    0.12538E-01
+ 119.56    0.27842    0.24116E-01
+ 128.69    0.28411    0.19864E-01
+ 137.73    0.38047    0.20130E-01
+ 146.19    0.34820    0.18422E-01
+ 155.34    0.34267    0.18130E-01
+ 163.11    0.30239    0.31151E-01
+ 172.18    0.36987    0.38103E-01
+ENDDATA             21
+ENDSUBENT           37
+SUBENT        F0714006   20050608   20050831   20050926       F022
+BIB                  3          6
+REACTION   (6-C-13(D,INL)6-C-13,PAR,DA)
+ERR-ANALYS Full relative error of the differential cross
+           sections includes the error of the relative cross
+           sections (3%) and the error of the absolute values
+            (14%).
+STATUS     (CURVE)Fig.4
+ENDBIB               6
+COMMON               3          3
+E-LVL-MIN  E-LVL-MAX  ANG-ERR-D
+MEV        MEV        ADEG
+  3.69       3.85      0.42
+ENDCOMMON            3
+DATA                 2         19
+ANG-CM     DATA-CM
+ADEG       MB/SR
+ 35.781     5.2483
+ 40.038     4.5491
+ 46.439     3.4784
+ 56.334     2.8598
+ 57.760     2.6621
+ 69.016     2.5735
+ 80.266     2.5328
+ 90.834     2.3197
+ 100.75     1.7749
+ 105.67     1.7765
+ 111.32     1.6255
+ 115.51     1.7480
+ 120.43     1.7496
+ 129.50     2.2537
+ 138.60     2.5601
+ 147.02     2.6578
+ 155.45     2.7102
+ 163.88     2.7636
+ 172.96     3.4343
+ENDDATA             21
+ENDSUBENT           36
+ENDENTRY             6

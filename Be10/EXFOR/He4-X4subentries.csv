@@ -1,0 +1,2 @@
+subentry,X4file,target,reaction,measure,description,ENmin,ENmax,rows,uncertainties,authors,year,reference
+"C2027008","C2027.x4","He-6","A,2N","CS","(( Cross section for 4He(6He,2n)8Be )=( Cross section for 6He(alpha,2n)8Be ))","1.23","5.39","20"," ","D.Suzuki,A.Shore,W.Mittig,J.J.Kolata,D.Bazin,M.Ford,T.Ahn,F.D.Becchetti,S.Beceiro Novo,D.Ben Ali,B.Bucher,J.Browne,X.Fang,M.Febbraro,A.Fritsch,E.Galyaev,A.M.Howard,N.Keeley,W.G.Lynch,M.Ojaruega,A.L.Roberts,X.D.Tang","2013","Physical Review,Part C,Nuclear Physics 87,054301 (2013)"

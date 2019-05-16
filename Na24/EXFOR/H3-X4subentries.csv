@@ -1,0 +1,4 @@
+subentry,X4file,target,reaction,measure,description,ENmin,ENmax,rows,uncertainties,authors,year,reference
+"C1193002","C1193.x4","Ne-21","T,A","DA","Partial differential cross section d/dA for 21Ne(t,alpha)20F","15.0","15.0","132"," ","G.B.Liu,H.T.Fortune","1988","Physical Review,Part C,Nuclear Physics 37,1818 (1988)"
+"O1558002","O1558.x4","Ne-21","T,P","DA","Partial differential cross section d/dA for 21Ne(t,p)23Ne","3.25","3.25","184"," ","P.Desgroland,B.Chambon,D.Drain,C.Pastor,A.Dauchy","1975","Physical Review,Part C,Nuclear Physics 12,1711 (1975)"
+"O1558003","O1558.x4","Ne-21","T,P","DA","Partial differential cross section d/dA for 21Ne(t,p)23Ne","3.25","3.25","56"," ","P.Desgroland,B.Chambon,D.Drain,C.Pastor,A.Dauchy","1975","Physical Review,Part C,Nuclear Physics 12,1711 (1975)"

@@ -1,0 +1,236 @@
+ENTRY            20661   20060807   20061116   20061102       2178
+SUBENT        20661001   20060807   20061116   20061102       2178
+BIB                 15         73
+INSTITUTE  (2ITYPAD) Experimental site.
+           (2ITYBOL) V.Benzi,P.L.Ottaviani,l.Zuffi.
+REFERENCE  (R,CEC-73-7,,197303)
+           (J,NP/A,125,227,1969) Describes experimental technique.
+           (R,INFN/BE-70/10,,1970)Gives details on the 14.1 MeV
+            measurement.
+           (W,BENZI,1969)   Details of method of analysis.
+AUTHOR     (U.Fasoli,D.Toniolo,G.Zago,V.Benzi,P.L.Ottaviani,
+           L.Zuffi)
+TITLE      -Elastic and inelastic scattering of neutrons by Na
+            at 8.0,9.7 and 14.1 MeV-
+FACILITY   (VDG,2ITYPAD)   The 5.5 MeV van-de-graaff accelerator
+            of the University of Padua was used for the 8.0 and
+            9.7 MeV experiments.
+           (ACCEL,2ITYPAD) The 400 keV pulsed ion accelerator of
+            the Padua University was engaged in the 14.1 MeV
+            measurement
+INC-SOURCE (D-D)   D-d reaction was used for the 8.0 MeV
+            neutrons by means of a deuterium gastarget at 1 atm
+            (4.5cm thick).
+           (A-BE)  The 9be(alpha,N)12C reaction was used to
+            produce the 9.7 MeV neutrons.The targets were
+            metallic be (0.3 mg/cm2), evaporated on tungsten and
+            gold backings.
+           (D-T)   For the 14.1 MeV neutrons the d-t reaction in
+            a tritium target, bombarded by 10ns long deuteron
+            beambursts, bunched to 1.5ns, was chosen.
+SAMPLE     .The 23Na scatterer (49.93g,99.5pc purity) is melted
+            in an aluminium can (height 6.9cm X 3.12cm outer
+            diameter).
+METHOD     (TOF)   For details see U.Fasoli et Al.,Nucl.Phys.
+            A125(1969),227.
+           .For the 14.1 MeV experiment see U.Fasoli et Al.,
+            Inin/be-70/10(1970).
+           .The flightpaths were-
+            2.9m for the 8.0 MeV,
+            2.0m for the 9.7 MeV,
+            4.0m for the 14.1 MeV neutrons.
+DETECTOR   (STANK) The neutron detector consists of a Ne213
+            liquid scintillator (4in. In diameter X 2in. Thick)
+            on a xp1040 photomultiplier.
+           .The efficiency was determined by means of the N-P
+            scattering method.As scatterer served a polythylene
+            zylinder (1.5cm outer diameter,12.6g).
+MONITOR               .The cross section values were obtained
+            from the normalized counts in the corresponding
+            peaks of the time-of-flight spectra and by
+            comparison with the known N-P differential cross
+            section.
+COMMENT    .Optical and statistical model fits,using coupled-
+            channel and hauser/feshbach calculations,were
+            carried out for the presented experimental data and
+            data of other authors at lower energies(F.G.Perey
+            and W.E.Kinney,report ornl-4518(1970),P.Kuijper et
+            Al.,Nucl.Phys.,A181(1972,545).
+STATUS     .Differential elastic and inelastic cross section
+            data taken from cec-(73) 7.
+CORRECTION .Both elastic and inelastic data were corrected for
+            attenuation.
+           .The elastic and first excited level data were also
+            corrected for multiple scattering.
+           .The corrections were carried out by means of the
+            MONTE CARLO method and also according to S.A.Cox,
+            nucl.Instr. And meth.56(1967),245.
+           .The inelastic data values represent an upper limit
+            because of the presence of a low energy tail in the
+            source neutron energy distribution.
+ERR-ANALYS .Errors include statistical uncertainties and
+            uncertainties in the efficiency of the neutron
+            detector (+-10 % max.).
+HISTORY    (19761013C)
+           (19770504E)
+           (20060807A) Date and reference are corrected.
+ENDBIB              73
+NOCOMMON             0          0
+ENDSUBENT           76
+SUBENT        20661002   20060807   20061116   20061102       2178
+BIB                  3          5
+REACTION   ((11-NA-23(N,EL)11-NA-23,,DA)+
+           (11-NA-23(N,INL)11-NA-23,PAR,DA))
+EN-SEC     (E-LVL,11-NA-23)
+HISTORY    (19761013C)
+           (20060807U)  E-LVL defined
+ENDBIB               5
+COMMON               4          3
+EN         EN-ERR     E-LVL-MIN  E-LVL-MAX
+MEV        MEV        MEV        MEV
+ 8.0000E+00 1.5000E-01 0.0000E+00 4.4000E-01
+ENDCOMMON            3
+DATA                 3         14
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      PER-CENT
+ 2.0850E+01 3.9080E+02 1.1000E+00
+ 3.1250E+01 2.2300E+02 1.3000E+00
+ 4.1600E+01 8.9600E+01 2.0000E+00
+ 5.1910E+01 3.4300E+01 2.9000E+00
+ 6.2160E+01 2.8600E+01 3.1000E+00
+ 7.2340E+01 4.1600E+01 2.4000E+00
+ 8.2450E+01 4.8300E+01 2.1000E+00
+ 9.2490E+01 4.6200E+01 1.1000E+00
+ 1.0245E+02 3.3800E+01 1.8000E+00
+ 1.1234E+02 2.4200E+01 2.1000E+00
+ 1.2216E+02 2.2000E+01 2.3000E+00
+ 1.3191E+02 2.6700E+01 1.9000E+00
+ 1.4160E+02 3.3400E+01 2.1000E+00
+ 1.5125E+02 3.3600E+01 2.1000E+00
+ENDDATA             16
+ENDSUBENT           30
+SUBENT        20661003   20060807   20061116   20061102       2178
+BIB                  3          4
+REACTION   (11-NA-23(N,INL)11-NA-23,PAR,DA)
+EN-SEC     (E-LVL,11-NA-23)
+HISTORY    (19761013C)
+           (20060807U)  E-LVL defined
+ENDBIB               4
+COMMON               4          3
+EN         EN-ERR     E-LVL-MIN  E-LVL-MAX
+MEV        MEV        MEV        MEV
+ 8.0000E+00 1.5000E-01 2.0800E+00 2.9800E+00
+ENDCOMMON            3
+DATA                 3         14
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      PER-CENT
+ 2.1040E+01 2.5200E+01 3.0000E+00
+ 3.1520E+01 2.4000E+01 4.0000E+00
+ 4.1950E+01 1.8800E+01 4.0000E+00
+ 5.2330E+01 2.0600E+01 3.0000E+00
+ 6.2630E+01 1.6200E+01 4.0000E+00
+ 7.2850E+01 1.9100E+01 3.0000E+00
+ 8.2990E+01 1.6900E+01 3.0000E+00
+ 9.3040E+01 1.8100E+01 2.0000E+00
+ 1.0299E+02 1.7900E+01 2.0000E+00
+ 1.1285E+02 1.9400E+01 2.0000E+00
+ 1.2263E+02 1.7300E+01 2.0000E+00
+ 1.3233E+02 1.6600E+01 2.0000E+00
+ 1.4195E+02 1.7300E+01 3.0000E+00
+ 1.5152E+02 1.6400E+01 3.0000E+00
+ENDDATA             16
+ENDSUBENT           29
+SUBENT        20661004   20060807   20061116   20061102       2178
+BIB                  3          4
+REACTION   (11-NA-23(N,INL)11-NA-23,PAR,DA)
+EN-SEC     (E-LVL,11-NA-23)
+HISTORY    (19761013C)
+           (20060807U)  E-LVL defined
+ENDBIB               4
+COMMON               4          3
+EN         EN-ERR     E-LVL-MIN  E-LVL-MAX
+MEV        MEV        MEV        MEV
+ 8.0000E+00 1.5000E-01 3.6800E+00 3.9200E+00
+ENDCOMMON            3
+DATA                 3         14
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      PER-CENT
+ 2.1200E+01 1.1800E+01 4.0000E+00
+ 3.1750E+01 1.1800E+01 4.0000E+00
+ 4.2260E+01 1.2000E+01 4.0000E+00
+ 5.2690E+01 1.0600E+01 5.0000E+00
+ 6.3040E+01 9.1000E+00 4.0000E+00
+ 7.3300E+01 1.0100E+01 4.0000E+00
+ 8.3460E+01 9.1000E+00 4.0000E+00
+ 9.3510E+01 8.9000E+00 3.0000E+00
+ 1.0346E+02 8.4000E+00 3.0000E+00
+ 1.1330E+02 8.7000E+00 3.0000E+00
+ 1.2304E+02 9.2000E+00 3.0000E+00
+ 1.3269E+02 8.5000E+00 3.0000E+00
+ 1.4226E+02 9.7000E+00 4.0000E+00
+ 1.5175E+02 9.7000E+00 5.0000E+00
+ENDDATA             16
+ENDSUBENT           29
+SUBENT        20661005   20060807   20061116   20061102       2178
+BIB                  3          4
+REACTION   (11-NA-23(N,INL)11-NA-23,PAR,DA)
+EN-SEC     (E-LVL,11-NA-23)
+HISTORY    (19761013C)
+           (20060807U)  E-LVL defined
+ENDBIB               4
+COMMON               4          3
+EN         EN-ERR     E-LVL-MIN  E-LVL-MAX
+MEV        MEV        MEV        MEV
+ 8.0000E+00 1.5000E-01 4.4300E+00 5.5300E+00
+ENDCOMMON            3
+DATA                 3         14
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      PER-CENT
+ 2.1440E+01 1.3800E+01 5.0000E+00
+ 3.2110E+01 1.4300E+01 5.0000E+00
+ 4.2710E+01 1.2100E+01 5.0000E+00
+ 5.3230E+01 1.0400E+01 6.0000E+00
+ 6.3650E+01 1.0000E+01 6.0000E+00
+ 7.3960E+01 9.3000E+00 6.0000E+00
+ 8.4150E+01 7.9000E+00 6.0000E+00
+ 9.4210E+01 6.9000E+00 4.0000E+00
+ 1.0415E+02 6.4000E+00 5.0000E+00
+ 1.1396E+02 6.2000E+00 5.0000E+00
+ 1.2365E+02 6.1000E+00 5.0000E+00
+ 1.3323E+02 6.7000E+00 5.0000E+00
+ 1.4271E+02 7.5000E+00 7.0000E+00
+ 1.5211E+02 9.7000E+00 1.5000E+01
+ENDDATA             16
+ENDSUBENT           29
+SUBENT        20661006   20060807   20061116   20061102       2178
+BIB                  3          5
+REACTION   ((11-NA-23(N,EL)11-NA-23,,DA)+
+           (11-NA-23(N,INL)11-NA-23,PAR,DA))
+EN-SEC     (E-LVL,11-NA-23)
+HISTORY    (19761013C)
+           (20060807U)  E-LVL defined
+ENDBIB               5
+COMMON               4          3
+EN         EN-ERR     E-LVL-MIN  E-LVL-MAX
+MEV        MEV        MEV        MEV
+ 9.7000E+00 3.0000E-01 0.0000E+00 4.4000E-01
+ENDCOMMON            3
+DATA                 3         13
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      PER-CENT
+ 3.1250E+01 1.8960E+02 3.6000E+00
+ 4.1600E+01 5.4700E+01 9.3000E+00
+ 5.1910E+01 2.6100E+01 8.8000E+00
+ 6.2160E+01 2.6400E+01 8.0000E+00
+ 7.2340E+01 4.6700E+01 6.4000E+00
+ 8.2450E+01 4.8900E+01 4.9000E+00
+ 9.2490E+01 4.0900E+01 6.6000E+00
+ 1.0245E+02 2.5100E+01 8.8000E+00
+ 1.1234E+02 1.6600E+01 6.0000E+00
+ 1.2216E+02 1.7600E+01 1.1900E+01
+ 1.3191E+02 1.5000E+01 9.3000E+00
+ 1.4160E+02 1.2800E+01 1.7200E+01
+ 1.5125E+02 2.7500E+01 9.8000E+00
+ENDDATA             15
+ENDSUBENT           29
+ENDENTRY             6

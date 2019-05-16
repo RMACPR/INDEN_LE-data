@@ -1,0 +1,80 @@
+ENTRY            F0470   19990410   19990429   20050926       0000
+SUBENT        F0470001   19990410   19990429   20050926       0000
+BIB                  9         11
+TITLE      The 11B(a,g0)15N reaction in the giant dipole
+           resonance region
+AUTHOR     (W.BIANCO,S.KUNDU,J.KIM)
+INSTITUTE  (1CANMON)
+REFERENCE  (J,CJP,55,302,197702)
+SAMPLE     Self-supporting foils of natural boron 0.94 mg/cm**2
+           thick
+METHOD     (PHD)
+FACILITY   (VDGT)
+DETECTOR   (NAICR) 23 cm long x 23 cm diameter
+HISTORY    (19920921C)
+ENDBIB              11
+NOCOMMON
+ENDSUBENT           14
+SUBENT        F0470002   19990410   19990429   20050926       0000
+BIB                  4          9
+REACTION   (5-B-11(A,G)7-N-15,PAR,DA,,,EXP)
+ERR-ANALYS (EN-ERR) Digitizing error
+           (DATA-ERR) Digitizing error
+           (DATA-ERR1) Error from graphic bars (statistic)
+           (-ERR-5) Unsymmetric systematic error mainly due to the
+           calibration of the spectrometer
+           (+ERR-5) Unsymmetric systematic error
+EN-SEC     (E-LVL,7-N-15)
+STATUS     (CURVE) Fig.1
+ENDBIB               9
+COMMON               6          3
+EN-ERR     ANG        E-LVL      DATA-ERR   -ERR-5     +ERR-5
+MEV        ADEG       MEV        MB/SR      PER-CENT   PER-CENT
+ 0.1        90.        0.          0.001       26.        36.0
+ENDCOMMON            3
+DATA                 3         40
+EN         DATA       DATA-ERR1
+MEV        MB/SR      MB/SR
+     5.721      0.1246     0.0117
+     6.295      0.1199     0.0131
+     6.787      0.0786     0.0111
+     6.964      0.2099     0.0159
+     7.128      0.2763     0.02
+     7.319      0.4497     0.0332
+     7.634      0.4035     0.0311
+     7.852      0.2923     0.0235
+     8.098      0.2115     0.0207
+     8.303      0.1099     0.0117
+     8.877      0.1038     0.0111
+     9.191      0.146      0.0159
+     9.591      0.1026     0.0117
+     9.901      0.0847     0.0104
+    10.11       0.1048     0.0125
+    10.25       0.1518     0.0138
+    10.47       0.1864     0.0166
+    10.68       0.1905     0.0166
+    10.8        0.2521     0.0207
+    11.07       0.2722     0.0207
+    11.34       0.1962     0.0359
+    11.5        0.1444     0.0131
+    11.64       0.0919     0.0104
+    11.89       0.1397     0.0138
+    12.03       0.1196     0.0124
+    12.55       0.0845     0.01
+    12.93       0.1675     0.0159
+    13.39       0.2021     0.0214
+    13.76       0.2824     0.0249
+    14.17       0.2368     0.0214
+    14.58       0.2998     0.0269
+    14.77       0.2252     0.018
+    14.96       0.1962     0.018
+    15.27       0.1638     0.0166
+    15.49       0.1023     0.011
+    15.92       0.1211     0.0117
+    16.43       0.0942     0.0104
+    16.98       0.0577 0.7605E-02
+    17.52       0.0398 0.8285E-02
+    17.9        0.0185 0.7601E-02
+ENDDATA             42
+ENDSUBENT           60
+ENDENTRY             2

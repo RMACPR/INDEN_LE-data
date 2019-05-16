@@ -1,0 +1,261 @@
+ENTRY            40847     850410              20050926       0000
+SUBENT        40847001     850410              20050926       0000
+BIB                 10         11
+INSTITUTE  (4CCPKUR)
+REFERENCE  (C,83KIEV,3,49,8310)
+AUTHOR     (B.JA.GUZHOVSKIJ,V.P.GORELOV,V.S.RUDNEV,G.G.FARAFONTOV)
+TITLE       NUCLEAR DATA FOR THE PRE-ACTINID NUCLIDES
+INC-SOURCE (CF252)
+INC-SPECT   CF-252 FISSION SPECTRUM WAS APPROXIMATED BY THE
+            MAXWELL CURVE, TEMPERATURE IS 1.42 MEV
+METHOD       TRANSMISSION AND EXTRAPOLATION ON ZERO THICKNESS
+DETECTOR   (LONGC)
+HISTORY    (850410C)
+ERR-ANALYS (ERR-S) STAT. ERROR ON THE PROBABILITY LEVEL 0.95
+ENDBIB              11
+COMMON               1          3
+KT
+MEV
+ 1.4200E+00
+ENDCOMMON            3
+ENDSUBENT           18
+SUBENT        40847002     850410              20050926       0000
+BIB                  3          6
+REACTION   (1-H-1(N,TOT),,SIG,,FIS)
+COMMENT     SIGMA CALCULATED FROM DATA FOR C, CH, CH2, H20
+STATUS     (DEP,40847005)
+           (DEP,40847006)
+           (DEP,40847007)
+           (DEP,40847008)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+ 3.8430E+03 3.5000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        40847003     850410              20050926       0000
+BIB                  3          7
+REACTION   (1-H-2(N,TOT),,SIG,,FIS)
+COMMENT     SIGMA CALCULATED FROM DATA FOR C, CH, CH2, D20
+STATUS     (DEP,40847005)
+           (DEP,40847006)
+           (DEP,40847007)
+           (DEP,40847008)
+           (DEP,40847009)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+ 2.5830E+03 4.6000E+01
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40847004     850410              20050926       0000
+BIB                  3          7
+REACTION   (8-O-16(N,TOT),,SIG,,FIS)
+COMMENT     SIGMA CALCULATED FROM DATA FOR C, CH,CH2, D2O,H2O
+STATUS     (DEP,40847005)
+           (DEP,40847006)
+           (DEP,40847007)
+           (DEP,40847008)
+           (DEP,40847009)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+ 2.4710E+03 1.0900E+02
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40847005     850410              20050926       0000
+BIB                  1          1
+REACTION   (6-C-12(N,TOT),,SIG,,FIS)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+ 2.3400E+03 1.4000E+01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40847006     850410              20050926       0000
+BIB                  2          2
+REACTION   (1-H-CXX(N,TOT),,SIG,,FIS)
+SAMPLE      CH-SAMPLE
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+ 6.1830E+03 5.5000E+01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        40847007     850410              20050926       0000
+BIB                  2          2
+REACTION   (1-H-CXX(N,TOT),,SIG,,FIS)
+SAMPLE      CH2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+ 1.0025E+04 8.4000E+01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        40847008     850410              20050926       0000
+BIB                  1          1
+REACTION   (1-H-WTR(N,TOT),,SIG,,FIS)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+ 1.0156E+04 8.3000E+01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40847009     850410              20050926       0000
+BIB                  1          1
+REACTION   (1-H-2(N,TOT),,SIG,,FIS)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+ 7.6370E+03 3.8000E+01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40847010     850410              20050926       0000
+BIB                  1          1
+REACTION   (5-B-10(N,TOT),,SIG,,FIS)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+B          B
+ 2.4580E+03 8.5000E+01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40847011     850410              20050926       0000
+BIB                  1          1
+REACTION   (5-B-11(N,TOT),,SIG,,FIS)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+ 2.3400E+03 1.0000E+01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40847012     850410              20050926       0000
+BIB                  1          1
+REACTION   (5-B-0(N,TOT),,SIG,,FIS)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+ 2.4250E+03 2.1000E+01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40847013     850410              20050926       0000
+BIB                  1          1
+REACTION   (13-AL-27(N,TOT),,SIG,,FIS)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+ 3.1580E+03 1.7000E+01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40847014     850410              20050926       0000
+BIB                  1          1
+REACTION   (22-TI-0(N,TOT),,SIG,,FIS)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+ 3.3430E+03 2.2000E+01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40847015     850410              20050926       0000
+BIB                  1          1
+REACTION   (26-FE-0(N,TOT),,SIG,,FIS)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+ 3.2690E+03 2.1000E+01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40847016     850410              20050926       0000
+BIB                  1          1
+REACTION   (28-NI-0(N,TOT),,SIG,,FIS)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+ 3.4490E+03 2.7000E+01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40847017     850410              20050926       0000
+BIB                  1          1
+REACTION   (29-CU-0(N,TOT),,SIG,,FIS)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+ 3.4910E+03 1.8000E+01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40847018     850410              20050926       0000
+BIB                  1          1
+REACTION   (42-MO-0(N,TOT),,SIG,,FIS)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+ 5.7680E+03 3.1000E+01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40847019     850410              20050926       0000
+BIB                  1          1
+REACTION   (48-CD-0(N,TOT),,SIG,,FIS)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+ 5.8790E+03 2.2000E+01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40847020     850410              20050926       0000
+BIB                  1          1
+REACTION   (74-W-0(N,TOT),,SIG,,FIS)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+ 6.8660E+03 1.2000E+01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40847021     850410              20050926       0000
+BIB                  1          1
+REACTION   (82-PB-0(N,TOT),,SIG,,FIS)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+ 6.4000E+03 4.4000E+01
+ENDDATA              3
+ENDSUBENT            9
+ENDENTRY            21

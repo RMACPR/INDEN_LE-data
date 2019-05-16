@@ -1,0 +1,382 @@
+ENTRY            C0561   20160709   20161017   20160920       C159
+SUBENT        C0561001   20160709   20161017   20160920       C159
+BIB                 12         18
+INSTITUTE  (1USANOT,1CANTOR,1USACAL)
+REFERENCE  (J,NP/A,517,329,1990)
+AUTHOR     (J.Goerres,S.Graff,M.Wiescher,R.E.Azuma,C.A.Barnes,
+           H.W.Becker,T.R.Wang)
+TITLE      Proton capture on 14C and its astrophysical
+            implications
+FACILITY   (ACCEL,1USACAL) Pelletron accelerator.
+SAMPLE     Carbon targets enriched to >97% 14C, deposited on
+            thick Ta backings.
+DETECTOR   (GE) 35% germanium lead-shielded gamma detector.
+MONITOR    Detector efficiency determined from known branching
+            ratio of 27Al(p,gamma)28Si resonance at 992 keV.
+CORRECTION Corrected for geometrical asymmetries.
+ERR-ANALYS (EN-ERR) Energy calibration uncertainty.
+STATUS     (APRVD) Approved by J. Goerres, 15 September 1999.
+HISTORY    (19990824C) VM
+           (20160626A) OS. Units and heading in subs.2 and 3
+            corrected, ERR-ANALYS updated, subs.2,3 split in 2.
+ENDBIB              18
+COMMON               1          3
+EN-ERR
+KEV
+  1.
+ENDCOMMON            3
+ENDSUBENT           25
+SUBENT        C0561002   20160709   20161017   20160920       C159
+BIB                  6         17
+REACTION   (6-C-14(P,G)7-N-15,PAR,SIG)
+            Non-resonant cross section.
+ANALYSIS   Calculated relative to strength of resonances.
+ERR-ANALYS (ERR-S) Statistical uncertainties.
+           Error in absolute scale includes uncertainties in:
+           (ERR-1) 27Al(p,gamma) reference value (11%),
+           (ERR-2) stopping power (5%),
+           (ERR-3) isotopic enrichment (5%),
+           (ERR-4) relative gamma efficiency (5%),
+           (ERR-5) angular distribution effects (5%),
+           (ERR-6) charge measurement (5%).
+COMMENT    More than one measurement at some energies.
+STATUS     (DEP,C0561004)
+           (TABLE) Data received by email from J. Goerres,
+            1 August 1999.
+HISTORY    (20160626A) Corrected EN units, changed E-EXC to E-LVL,
+            split into 2 subs. (5.27 MeV data moved to sub.5)
+ENDBIB              17
+COMMON               6          3
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
+  11.         5.         5.         5.         5.         5.
+ENDCOMMON            3
+DATA                 4         44
+E-LVL      EN         DATA       ERR-S
+MEV        KEV        MB         MB
+  0.         258.       1.490E-04  8.096E-06
+  0.         258.       1.677E-04  1.996E-05
+  0.         260.       1.594E-04  2.314E-05
+  0.         300.       3.677E-04  3.486E-05
+  0.         305.       3.638E-04  1.203E-05
+  0.         310.       3.913E-04  2.794E-05
+  0.         320.       4.480E-04  3.428E-05
+  0.         330.       6.368E-04  4.549E-05
+  0.         340.       6.823E-04  4.975E-05
+  0.         390.       1.342E-03  1.296E-04
+  0.         400.       1.334E-03  1.058E-04
+  0.         410.       1.631E-03  1.214E-04
+  0.         420.       1.603E-03  1.328E-04
+  0.         420.       1.646E-03  4.474E-05
+  0.         425.       1.684E-03  5.720E-05
+  0.         430.       1.744E-03  1.282E-04
+  0.         440.       1.668E-03  1.319E-04
+  0.         450.       2.099E-03  5.207E-05
+  0.         460.       2.386E-03  1.730E-04
+  0.         470.       2.428E-03  1.818E-04
+  0.         470.       2.547E-03  8.856E-05
+  0.         480.       2.977E-03  2.205E-04
+  0.         480.       2.812E-03  6.402E-05
+  0.         490.       3.030E-03  2.319E-04
+  0.         490.       3.046E-03  8.744E-05
+  0.         500.       3.042E-03  1.217E-04
+  0.         500.       3.682E-03  2.657E-04
+  0.         510.       3.114E-03  3.539E-04
+  0.         558.       6.130E-03  4.442E-04
+  0.         565.       5.014E-03  9.208E-05
+  0.         568.       5.885E-03  4.031E-04
+  0.         577.       6.026E-03  4.283E-04
+  0.         588.       6.353E-03  4.000E-04
+  0.         598.       6.087E-03  4.110E-04
+  0.         608.       6.023E-03  3.252E-04
+  0.         618.       8.040E-03  5.771E-04
+  0.         625.       6.842E-03  1.146E-04
+  0.         665.       9.808E-03  1.838E-04
+  0.         675.       9.784E-03  2.670E-04
+  0.         685.       9.864E-03  2.028E-04
+  0.         695.       1.042E-02  1.919E-04
+  0.         705.       1.108E-02  1.882E-04
+  0.         715.       1.139E-02  1.878E-04
+  0.         740.       1.323E-02  1.840E-04
+ENDDATA             46
+ENDSUBENT           72
+SUBENT        C0561003   20160709   20161017   20160920       C159
+BIB                  5         15
+REACTION   (6-C-14(P,G)7-N-15,PAR,DA,,REL)
+            Yield at resonance. Scale given in units on mb.
+ERR-ANALYS (ERR-S) Statistical uncertainties.
+           Error in absolute scale includes uncertainties in:
+           (ERR-1) 27Al(p,gamma) reference value (11%),
+           (ERR-2) stopping power (5%),
+           (ERR-3) isotopic enrichment (5%),
+           (ERR-4) relative gamma efficiency (5%),
+           (ERR-5) angular distribution effects (5%),
+           (ERR-6) charge measurement (5%).
+COMMENT    More than one measurement at some energies.
+STATUS     (TABLE) Data received by email from J. Goerres,
+            1 August 1999.
+HISTORY    (20160626A) Corrected EN units, changed E-EXC to E-LVL,
+            split into 2 subs. (5.27 MeV data moved to sub.6)
+ENDBIB              15
+COMMON               7          6
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6
+ANG
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
+ADEG
+  11.         5.         5.         5.         5.         5.
+ 55.
+ENDCOMMON            6
+DATA                 4         67
+E-LVL      EN         DATA       ERR-S
+MEV        KEV        ARB-UNITS  ARB-UNITS
+  0.         255.       2.111E-04  3.518E-05
+  0.         258.       1.555E-04  8.096E-06
+  0.         258.       1.757E-04  1.996E-05
+  0.         260.       2.988E-04  7.117E-05
+  0.         260.       1.594E-04  2.315E-05
+  0.         261.       1.706E-04  3.878E-05
+  0.         261.       1.581E-05  4.158E-06
+  0.         262.       1.603E-04  4.932E-05
+  0.         265.       1.979E-04  1.198E-05
+  0.         265.       1.497E-04  3.940E-05
+  0.         265.       1.937E-04  1.233E-05
+  0.         265.       1.986E-04  1.268E-05
+  0.         265.       1.834E-04  8.544E-06
+  0.         270.       2.459E-04  4.004E-05
+  0.         275.       1.991E-04  4.686E-05
+  0.         280.       2.578E-04  4.686E-05
+  0.         282.       3.437E-04  5.729E-05
+  0.         285.       2.257E-04  2.365E-05
+  0.         340.       6.465E-04  4.973E-05
+  0.         345.       8.120E-04  1.226E-04
+  0.         349.       1.042E-03  1.894E-04
+  0.         350.       7.036E-04  7.569E-05
+  0.         351.       1.054E-03  2.194E-04
+  0.         355.       8.840E-04  2.411E-04
+  0.         356.       5.769E-04  3.997E-05
+  0.         360.       7.273E-04  7.858E-05
+  0.         365.       1.038E-03  2.202E-04
+  0.         370.       9.416E-04  7.317E-05
+  0.         517.       4.408E-03  2.131E-04
+  0.         518.       3.858E-03  5.106E-04
+  0.         519.       3.081E-03  4.019E-04
+  0.         520.       4.261E-03  8.520E-04
+  0.         523.       5.067E-03  4.459E-04
+  0.         523.       4.373E-03  1.508E-04
+  0.         525.       4.896E-03  7.292E-04
+  0.         527.       5.319E-03  7.161E-04
+  0.         528.       9.896E-02  5.581E-03
+  0.         528.       2.519E-01  7.214E-03
+  0.         528.       2.187E-01  9.200E-03
+  0.         529.       2.376E-01  1.004E-02
+  0.         530.       2.438E-01  1.557E-02
+  0.         533.       2.550E-01  8.672E-03
+  0.         533.       2.462E-01  2.519E-03
+  0.         535.       2.442E-01  1.299E-02
+  0.         538.       2.299E-01  7.986E-03
+  0.         540.       1.326E-01  6.461E-03
+  0.         543.       6.934E-02  4.182E-03
+  0.         548.       1.506E-02  8.088E-04
+  0.         623.       5.273E-03  8.792E-04
+  0.         628.       6.874E-03  3.512E-04
+  0.         629.       7.135E-03  8.296E-04
+  0.         633.       9.856E-03  1.082E-03
+  0.         633.       1.166E-02  1.380E-03
+  0.         634.       8.296E-02  3.314E-03
+  0.         634.       4.922E-02  3.310E-03
+  0.         635.       8.376E-02  4.794E-03
+  0.         637.       7.778E-02  3.954E-03
+  0.         639.       7.678E-02  6.049E-03
+  0.         640.       8.560E-02  1.570E-03
+  0.         641.       8.760E-02  4.442E-03
+  0.         643.       6.720E-02  1.825E-03
+  0.         643.       7.489E-02  3.912E-03
+  0.         644.       6.794E-02  3.422E-03
+  0.         646.       5.431E-02  3.879E-03
+  0.         647.       2.582E-02  2.209E-03
+  0.         652.       1.168E-02  1.270E-03
+  0.         660.       1.274E-02  1.789E-03
+ENDDATA             69
+ENDSUBENT           96
+SUBENT        C0561004   20160709   20161017   20160920       C159
+BIB                  5         11
+REACTION  1(6-C-14(P,0),,EN)
+          2(6-C-14(P,G),,WID/STR)
+MONITOR    (13-AL-26(P,G),,WID/STR)
+MONIT-REF  (F1188001,P.B.Lyons+,J,NP/A,130,1,1969)
+ERR-ANALYS (ERR-T) Includes contributions from uncertainties in:
+           (MONIT-ERR) reference value (11%),
+           (ERR-1) stopping power (5%),
+           (ERR-2) isotopic enrichment (5%),
+           (ERR-3) relative gamma efficiency (5%),
+           (ERR-4) angular distribution effects (5%),
+STATUS     (TABLE) Data taken from Table 1 in reference.
+ENDBIB              11
+COMMON               7          6
+EN-NRM     MONIT      MONIT-ERR  ERR-1      ERR-2      ERR-3
+ERR-4
+KEV        EV         EV         PER-CENT   PER-CENT   PER-CENT
+PER-CENT
+992.         1.9        0.2         5.         5.         5.
+   5.
+ENDCOMMON            6
+DATA                 3          5
+DATA      1DATA      2ERR-T     2
+KEV        MILLI-EV   MILLI-EV
+262.         0.29       0.05
+351.        37.         6.
+520.         3.1        0.5
+528.       840.       130.
+635.       270.        40.
+ENDDATA              7
+ENDSUBENT           30
+SUBENT        C0561005   20160709   20161017   20160920       C159
+BIB                  6         16
+REACTION   (6-C-14(P,G)7-N-15,PAR,SIG)
+            Non-resonant cross section.
+ANALYSIS   Calculated relative to strength of resonances.
+ERR-ANALYS (ERR-S) Statistical uncertainties.
+           Error in absolute scale includes uncertainties in:
+           (ERR-1) 27Al(p,gamma) reference value (11%),
+           (ERR-2) stopping power (5%),
+           (ERR-3) isotopic enrichment (5%),
+           (ERR-4) relative gamma efficiency (5%),
+           (ERR-5) angular distribution effects (5%),
+           (ERR-6) charge measurement (5%).
+COMMENT    More than one measurement at some energies.
+STATUS     (DEP,C0561004)
+           (TABLE) Data received by email from J. Goerres,
+            1 August 1999.
+HISTORY    (20160626C) Moved 5.27 MeV data from sub.2.
+ENDBIB              16
+COMMON               6          3
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
+  11.         5.         5.         5.         5.         5.
+ENDCOMMON            3
+DATA                 4         41
+E          EN         DATA       ERR-S
+MEV        KEV        MB         MB
+  5.27       258.       1.068E-05  2.321E-06
+  5.27       258.       6.861E-06  5.336E-06
+  5.27       260.       3.241E-05  7.856E-06
+  5.27       300.       1.802E-05  1.081E-05
+  5.27       305.       2.800E-05  3.082E-06
+  5.27       310.       1.963E-05  7.551E-06
+  5.27       320.       3.280E-05  9.496E-06
+  5.27       330.       4.408E-05  1.470E-05
+  5.27       340.       1.002E-04  2.674E-05
+  5.27       420.       1.196E-04  3.870E-05
+  5.27       420.       1.136E-04  1.277E-05
+  5.27       425.       1.080E-04  1.590E-05
+  5.27       430.       1.170E-04  3.480E-05
+  5.27       440.       1.427E-04  3.830E-05
+  5.27       450.       1.690E-04  1.397E-05
+  5.27       460.       6.817E-05  4.545E-05
+  5.27       470.       1.527E-04  4.772E-05
+  5.27       470.       1.606E-04  2.203E-05
+  5.27       480.       1.502E-04  5.779E-05
+  5.27       480.       1.675E-04  1.737E-05
+  5.27       490.       1.133E-04  7.361E-05
+  5.27       490.       2.406E-04  4.155E-05
+  5.27       500.       1.494E-04  6.198E-05
+  5.27       500.       1.386E-04  1.526E-04
+  5.27       510.       1.420E-04  1.162E-04
+  5.27       558.       8.144E-04  1.606E-04
+  5.27       565.       4.991E-04  3.500E-05
+  5.27       568.       7.082E-04  1.552E-04
+  5.27       577.       6.791E-04  1.750E-04
+  5.27       588.       8.032E-04  1.945E-04
+  5.27       598.       7.377E-04  2.398E-04
+  5.27       608.       3.497E-04  1.831E-04
+  5.27       618.       6.066E-04  2.581E-04
+  5.27       625.       5.259E-04  5.708E-05
+  5.27       665.       5.858E-04  8.736E-05
+  5.27       675.       6.402E-04  1.993E-04
+  5.27       685.       6.931E-04  8.896E-05
+  5.27       695.       5.970E-04  6.543E-05
+  5.27       705.       6.426E-04  6.011E-05
+  5.27       715.       7.555E-04  6.004E-05
+  5.27       740.       7.122E-04  5.524E-05
+ENDDATA             43
+ENDSUBENT           68
+SUBENT        C0561006   20160709   20161017   20160920       C159
+BIB                  5         14
+REACTION   (6-C-14(P,G)7-N-15,PAR,DA,,REL)
+            Yield at resonance. Scale given in units on mb.
+ERR-ANALYS (ERR-S) Statistical uncertainties.
+           Error in absolute scale includes uncertainties in:
+           (ERR-1) 27Al(p,gamma) reference value (11%),
+           (ERR-2) stopping power (5%),
+           (ERR-3) isotopic enrichment (5%),
+           (ERR-4) relative gamma efficiency (5%),
+           (ERR-5) angular distribution effects (5%),
+           (ERR-6) charge measurement (5%).
+COMMENT    More than one measurement at some energies.
+STATUS     (TABLE) Data received by email from J. Goerres,
+            1 August 1999.
+HISTORY    (20160626C) Moved 5.27 MeV data from sub.3.
+ENDBIB              14
+COMMON               7          6
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6
+ANG
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
+ADEG
+  11.         5.         5.         5.         5.         5.
+ 55.
+ENDCOMMON            6
+DATA                 4         49
+E          EN         DATA       ERR-S
+MEV        KEV        ARB-UNITS  ARB-UNITS
+  5.27       255.       1.390E-05  1.390E-05
+  5.27       258.       1.170E-05  3.262E-06
+  5.27       258.       1.797E-05  7.566E-06
+  5.27       260.       4.043E-05  2.697E-05
+  5.27       260.       3.531E-05  1.096E-05
+  5.27       261.       8.448E-05  2.938E-05
+  5.27       261.       4.332E-06  2.758E-06
+  5.27       262.       1.870E-04  5.256E-05
+  5.27       265.       1.956E-04  1.166E-05
+  5.27       265.       2.312E-04  4.101E-05
+  5.27       265.       1.986E-04  1.201E-05
+  5.27       265.       1.956E-04  1.166E-05
+  5.27       265.       1.998E-04  8.608E-06
+  5.27       270.       1.704E-04  3.245E-05
+  5.27       275.       2.491E-04  5.536E-05
+  5.27       280.       1.217E-04  3.318E-05
+  5.27       282.       1.036E-04  3.604E-05
+  5.27       285.       6.998E-05  1.420E-05
+  5.27       340.       3.978E-05  2.984E-05
+  5.27       345.       1.430E-04  7.865E-05
+  5.27       349.       2.806E-03  3.086E-04
+  5.27       350.       1.995E-02  4.222E-04
+  5.27       351.       2.838E-02  1.283E-03
+  5.27       355.       2.972E-02  1.948E-03
+  5.27       356.       3.072E-02  3.258E-04
+  5.27       360.       3.133E-02  6.199E-04
+  5.27       365.       2.426E-02  1.017E-03
+  5.27       370.       8.816E-03  1.926E-04
+  5.27       380.       5.893E-04  7.280E-05
+  5.27       517.       2.671E-04  8.320E-05
+  5.27       518.       0.000E+00  2.052E-04
+  5.27       519.       1.210E-04  1.816E-04
+  5.27       520.       3.399E-03  6.413E-04
+  5.27       523.       2.618E-03  3.294E-04
+  5.27       523.       2.672E-03  1.164E-04
+  5.27       525.       2.256E-03  5.170E-04
+  5.27       527.       3.735E-03  6.455E-04
+  5.27       528.       1.102E-01  5.693E-03
+  5.27       528.       2.746E-01  7.002E-03
+  5.27       528.       2.898E-01  9.728E-03
+  5.27       529.       3.162E-01  1.038E-02
+  5.27       530.       3.226E-01  1.598E-02
+  5.27       533.       2.930E-01  8.672E-03
+  5.27       533.       3.290E-01  2.722E-03
+  5.27       535.       3.281E-01  1.405E-02
+  5.27       538.       2.789E-01  7.962E-03
+  5.27       540.       1.643E-01  6.583E-03
+  5.27       543.       7.907E-02  3.969E-03
+  5.27       548.       1.450E-02  7.856E-04
+ENDDATA             51
+ENDSUBENT           77
+ENDENTRY             6

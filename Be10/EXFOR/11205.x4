@@ -1,0 +1,358 @@
+ENTRY            11205     800820              20050926       0000
+SUBENT        11205001     800820              20050926       0000
+BIB                  7         10
+INSTITUTE  (1USALRL)
+REFERENCE  (C,58PARIS,,609,5807)
+           (R,UCRL-5229,58)
+AUTHOR     (M.H.MAC GREGOR)
+TITLE      DIRECT INTERACTION NEUTRONS FROM 14-MEV INELASTIC
+           NEUTRON SCATTERING
+METHOD     SPHERICAL SHELL TRANSMISSION
+STATUS     (SCSRS)
+HISTORY    (760629T) TRANSLATED FROM SCISRS
+           (800820A) CONVERTED TO REACTION FORMALISM
+ENDBIB              10
+NOCOMMON             0          0
+ENDSUBENT           13
+SUBENT        11205002     800820              20050926       0000
+BIB                  1          1
+REACTION   (4-BE-9(N,INL)4-BE-9,PAR,SIG)
+ENDBIB               1
+COMMON               2          3
+E-MIN      E-MAX
+MEV        MEV
+ 9.         14.
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.42   +01 5.0    -02 2.0    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11205003     800820              20050926       0000
+BIB                  1          1
+REACTION   (5-B-10(N,INL)5-B-10,PAR,SIG)
+ENDBIB               1
+COMMON               2          3
+E-MIN      E-MAX
+MEV        MEV
+ 9.         14.
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.42   +01 1.40   -01 5.0    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11205004     800820              20050926       0000
+BIB                  1          1
+REACTION   (6-C-0(N,INL),PAR,SIG)
+ENDBIB               1
+COMMON               1          3
+E-MIN
+MEV
+ 9.
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.42   +01 1.00   -01 4.0    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11205005     800820              20050926       0000
+BIB                  1          1
+REACTION   (9-F-19(N,INL)9-F-19,PAR,SIG)
+ENDBIB               1
+COMMON               2          3
+E-MIN      E-MAX
+MEV        MEV
+ 9.     +00 14.    +00
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.42   +01 1.70   -01 5.0    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11205006     800820              20050926       0000
+BIB                  1          1
+REACTION   (12-MG-0(N,INL),PAR,SIG)
+ENDBIB               1
+COMMON               2          3
+E-MIN      E-MAX
+MEV        MEV
+ 9.     +00 14.    +00
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.42   +01 1.70   -01 5.0    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11205007     800820              20050926       0000
+BIB                  1          1
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,SIG)
+ENDBIB               1
+COMMON               2          3
+E-MIN      E-MAX
+MEV        MEV
+ 9.     +00 14.    +00
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.42   +01 1.00   -01 4.0    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11205008     800820              20050926       0000
+BIB                  1          1
+REACTION   (16-S-0(N,INL),PAR,SIG)
+ENDBIB               1
+COMMON               2          3
+E-MIN      E-MAX
+MEV        MEV
+ 9.     +00 14.    +00
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.42   +01 7.0    -02 3.0    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11205009     800820              20050926       0000
+BIB                  1          1
+REACTION   (22-TI-0(N,INL),PAR,SIG)
+ENDBIB               1
+COMMON               2          3
+E-MIN      E-MAX
+MEV        MEV
+ 9.     +00 14.    +00
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.42   +01 1.40   -01 5.0    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11205010     800820              20050926       0000
+BIB                  1          1
+REACTION   (26-FE-0(N,INL),PAR,SIG)
+ENDBIB               1
+COMMON               2          3
+E-MIN      E-MAX
+MEV        MEV
+ 9.     +00 14.    +00
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.42   +01 1.00   -01 4.0    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11205011     800820              20050926       0000
+BIB                  1          1
+REACTION   (27-CO-59(N,INL)27-CO-59,PAR,SIG)
+ENDBIB               1
+COMMON               2          3
+E-MIN      E-MAX
+MEV        MEV
+ 9.     +00 14.    +00
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.42   +01 1.00   -01 4.0    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11205012     800820              20050926       0000
+BIB                  1          1
+REACTION   (28-NI-0(N,INL),PAR,SIG)
+ENDBIB               1
+COMMON               2          3
+E-MIN      E-MAX
+MEV        MEV
+ 9.     +00 14.    +00
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.42   +01 1.00   -01 4.0    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11205013     800820              20050926       0000
+BIB                  1          1
+REACTION   (29-CU-0(N,INL),PAR,SIG)
+ENDBIB               1
+COMMON               2          3
+E-MIN      E-MAX
+MEV        MEV
+ 9.     +00 14.    +00
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.42   +01 1.20   -01 4.0    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11205014     800820              20050926       0000
+BIB                  1          1
+REACTION   (30-ZN-0(N,INL),PAR,SIG)
+ENDBIB               1
+COMMON               2          3
+E-MIN      E-MAX
+MEV        MEV
+ 9.     +00 14.    +00
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.42   +01 1.70   -01 5.0    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11205015     800820              20050926       0000
+BIB                  1          1
+REACTION   (40-ZR-0(N,INL),PAR,SIG)
+ENDBIB               1
+COMMON               2          3
+E-MIN      E-MAX
+MEV        MEV
+ 9.     +00 14.    +00
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.42   +01 1.50   -01 4.5    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11205016     800820              20050926       0000
+BIB                  1          1
+REACTION   (47-AG-0(N,INL),PAR,SIG)
+ENDBIB               1
+COMMON               2          3
+E-MIN      E-MAX
+MEV        MEV
+ 9.     +00 14.    +00
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.42   +01 1.40   -01 5.0    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11205017     800820              20050926       0000
+BIB                  1          1
+REACTION   (48-CD-0(N,INL),PAR,SIG)
+ENDBIB               1
+COMMON               2          3
+E-MIN      E-MAX
+MEV        MEV
+ 9.     +00 14.    +00
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.42   +01 1.00   -01 4.0    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11205018     800820              20050926       0000
+BIB                  1          1
+REACTION   (50-SN-0(N,INL),PAR,SIG)
+ENDBIB               1
+COMMON               2          3
+E-MIN      E-MAX
+MEV        MEV
+ 9.     +00 14.    +00
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.42   +01 1.40   -01 5.0    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11205019     800820              20050926       0000
+BIB                  1          1
+REACTION   (51-SB-0(N,INL),PAR,SIG)
+ENDBIB               1
+COMMON               2          3
+E-MIN      E-MAX
+MEV        MEV
+ 9.     +00 14.    +00
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.42   +01 1.90   -01 5.5    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11205020     800820              20050926       0000
+BIB                  1          1
+REACTION   (74-W-0(N,INL),PAR,SIG)
+ENDBIB               1
+COMMON               2          3
+E-MIN      E-MAX
+MEV        MEV
+ 9.     +00 14.    +00
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.42   +01 1.70   -01 5.0    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11205021     800820              20050926       0000
+BIB                  1          1
+REACTION   (79-AU-197(N,INL)79-AU-197,PAR,SIG)
+ENDBIB               1
+COMMON               2          3
+E-MIN      E-MAX
+MEV        MEV
+ 9.     +00 14.    +00
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.42   +01 2.00   -01 5.0    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11205022     800820              20050926       0000
+BIB                  1          1
+REACTION   (80-HG-0(N,INL),PAR,SIG)
+ENDBIB               1
+COMMON               2          3
+E-MIN      E-MAX
+MEV        MEV
+ 9.         14.    +00
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.42   +01 1.50   -01 4.5    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11205023     800820              20050926       0000
+BIB                  1          1
+REACTION   (82-PB-0(N,INL),PAR,SIG)
+ENDBIB               1
+COMMON               2          3
+E-MIN      E-MAX
+MEV        MEV
+ 9.     +00 14.    +00
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.42   +01 1.70   -01 5.0    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11205024     800820              20050926       0000
+BIB                  1          1
+REACTION   (83-BI-209(N,INL)83-BI-209,PAR,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 5          1
+EN         E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MEV        B          B
+ 14.2       9.         14.        0.14       0.05
+ENDDATA              3
+ENDSUBENT            9
+ENDENTRY            24

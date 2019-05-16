@@ -1,0 +1,24 @@
+#  X4reaction:[(7-N-14(N,INL)7-N-14,PAR,DA), '']
+#  Authors:   J.Chardine, G.Haouat, S.Seguin, C.Humeau
+#  Title:     -Neutron Elastic And Inelastic Scattering From N-14 Between 7.7 And 13.5 Mev.
+#  Year:      1986
+#  Institute: 2FR
+#  Reference: Report other than progress report: CEA-N-2506  (1986); Report other than progress report: NEANDC(E)-240/L  (1986); Report other than progress report: INDC(FR)-69/L  (1986)
+#  Subent:    22081014
+#  Reaction:  Partial differential cross section d/dA for 14N(n,Inelastic)14N 
+#  Frame:     Center of mass
+#        EN            EN-RSL        Q-VAL         ANG-CM        DATA-CM       DATA-ERR      
+#        MEV           MEV           MEV           ADEG          MB/SR         PER-CENT      
+        12.4          0.05          -2.31         42.9          0.95          13.6          
+        12.4          0.05          -2.31         48.2          0.95          12.8          
+        12.4          0.05          -2.31         58.7          0.89          15.2          
+        12.4          0.05          -2.31         64.0          0.89          13.6          
+        12.4          0.05          -2.31         69.1          0.9           13.1          
+        12.4          0.05          -2.31         79.4          0.81          15.7          
+        12.4          0.05          -2.31         89.6          0.65          13.8          
+        12.4          0.05          -2.31         99.6          0.61          16.5          
+        12.4          0.05          -2.31         109.4         0.68          13.1          
+        12.4          0.05          -2.31         119.1         0.9           15.5          
+        12.4          0.05          -2.31         124.0         0.95          14.0          
+        12.4          0.05          -2.31         138.2         1.29          14.5          
+        12.4          0.05          -2.31         156.9         1.32          15.7          

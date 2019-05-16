@@ -1,0 +1,169 @@
+ENTRY            22399   20000616   20010329   20050926       0000
+SUBENT        22399001   20000616   20010329   20050926       0000
+BIB                 11         22
+TITLE       Determination of (N,P)- And (N,ALPHA)-Cross-Sections
+            Of Relevance to Primordial and Stellar
+            Nycleosynthesis
+AUTHOR     (C.WAGEMANS,R.BIEBER,P.GELTENBORT,J.WAGEMANS,
+           R.BARTHELEMY,J.VAN-GILS)
+INSTITUTE  (2BLGGHT)  G.Wagemans, J.Wagemans
+           (2ZZZGEL)  Bieber, Barthelemy, Van-Gils
+           (2FR ILL)  Geltenbort
+REFERENCE  (C,97TRIEST,2,1568,199705) Main Reference,Data Given
+           (J,PR/C,57,(4),1766,199804) Data For Calcium
+FACILITY   (REAC,2FR ILL)  High-Flux Reactor, Inst. Laue-Langevin
+                           Grenoble, France
+MONITOR    (92-U-235(N,F),,SIG)
+INC-SOURCE (THCOL)  Thermal Neutron Guide H222
+INC-SPECT  .Thermal Neutron Spectrum, Thermal-To-Fast Neutron
+            Ratio is 1.0E+6, Neutron Flux at the Sample Position
+            Is 4.0E+8 N/Cm2/Sec
+DETECTOR   (THRES)  Surface-Barrier Detector
+ERR-ANALYS (DATA-ERR)  Errors are not Specified
+HISTORY    (19980806C)  + + Compiled by S.M.     + +
+           (20000616A)  . . CORRECTED BY SM. 'MXW' SF8 ADDED
+           (20000616U)  Last checking has been done.
+ENDBIB              22
+COMMON               3          3
+EN-MEAN    MONIT      MONIT-ERR
+EV         B          B
+   2.53E-02     584.25        1.1
+ENDCOMMON            3
+ENDSUBENT           29
+SUBENT        22399002   19980806   20010329   20050926       0000
+BIB                  3          5
+REACTION   (7-N-14(N,P)6-C-14,,SIG,,MXW)
+SAMPLE      POLYIMIDE C5-H5-N5 AND ADENINE C22-H10-O5-N2 LATERS
+            WITH VARIOUS THICKNESSES
+STATUS     (TABLE)  DATA ARE TAKEN FROM TABLE 1 OF MAIN REFERENCE
+           (PRELM)  MARKED BY AUTHORS AS PRELIMINARY
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+  1900.      40.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        22399003   19980806   20010329   20050926       0000
+BIB                  3          4
+REACTION   (8-O-17(N,A)6-C-14,,SIG,,MXW)
+SAMPLE      GASEOUS SAMPLE WITH 58.2 PC ENRICHMENT OF O-17
+STATUS     (TABLE)  DATA ARE TAKEN FROM TABLE 1 OF MAIN REFERENCE
+           (PRELM)  MARKED BY AUTHORS AS PRELIMINARY
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+  236.        5.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        22399004   19980806   20010329   20050926       0000
+BIB                  4          4
+REACTION   (17-CL-36(N,P)16-S-36,,SIG,,MXW)
+DECAY-DATA (17-CL-36,3.0E+5YR,B-,600.0)
+SAMPLE      SILVER CHLORIDE AG-CL
+STATUS     (TABLE)  DATA ARE TAKEN FROM TABLE 1 OF MAIN REFERENCE
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+   47.        2.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        22399005   19980806   20010329   20050926       0000
+BIB                  4          4
+REACTION   (17-CL-36(N,A)15-P-33,,SIG,,MXW)
+DECAY-DATA (17-CL-36,3.0E+5YR,B-,1410.0)
+SAMPLE      SILVER CHLORIDE AG-CL
+STATUS     (TABLE)  DATA ARE TAKEN FROM TABLE 1 OF MAIN REFERENCE
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+   0.59       0.07
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        22399006   19980806   20010329   20050926       0000
+BIB                  4          7
+REACTION   (18-AR-37(N,P)17-CL-37,,SIG,,MXW)
+DECAY-DATA (18-AR-37,35.04D,B+,1560.0)
+SAMPLE     .ARGON-37 WAS PRODUCED AT THE CYCLOTRON OF THE UCL
+            LOUVAIN-LA-NEUVE VIA THE REACTION CL-37(P,N)
+            AND SUBSEQUENTLY IMPLANTED IN ALUMINIUM FOIL
+STATUS     (TABLE)  DATA ARE TAKEN FROM TABLE 1 OF MAIN REFERENCE
+           (PRELM)  MARKED BY AUTHORS AS PRELIMINARY
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+   3.2 E+04   4.  E+03
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        22399007   19980806   20010329   20050926       0000
+BIB                  4          7
+REACTION   (18-AR-37(N,A)16-S-34,,SIG,,MXW)
+DECAY-DATA (18-AR-37,35.04D,B+,4140.0)
+SAMPLE     .ARGON-37 WAS PRODUCED AT THE CYCLOTRON OF THE UCL
+            LOUVAIN-LA-NEUVE VIA THE REACTION CL-37(P,N) AND
+            SUBSEQUENTLY IMPLANTED IN ALUMINIUM FOIL
+STATUS     (TABLE)  DATA ARE TAKEN FROM TABLE 1 OF MAIN REFERENCE
+           (PRELM)  MARKED BY AUTHORS AS PRELIMINARY
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+   9.2 E+05   7.0 E+04
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        22399008   19980806   20010329   20050926       0000
+BIB                  4          4
+REACTION   (20-CA-41(N,P)19-K-41,,SIG,,MXW)
+DECAY-DATA (20-CA-41,1.03E+5YR,B+,1170.0)
+SAMPLE     .CALCIUM FLUORIDE CA-F2
+STATUS     (TABLE)  DATA ARE TAKEN FROM TABLE 1 OF MAIN REFERENCE
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+   7.         2.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        22399009   20000616   20010329   20050926       0000
+BIB                  6          6
+REACTION   (20-CA-41(N,A)18-AR-38,PAR,SIG,,MXW)
+DECAY-DATA (20-CA-41,1.03E+5YR,B+,1170.0)
+EN-SEC     (LVL-NUMB,18-AR-38) LEVEL NUMBER
+SAMPLE     .Calcium Fluoride Ca-F2
+STATUS     (TABLE)  Data are Taken from Table 1 of Main Reference
+HISTORY    (20000615U)  Data of San 006 and 007 Merged
+ENDBIB               6
+NOCOMMON
+DATA                 3          2
+DATA       DATA-ERR   LVL-NUMB
+MB         MB         NO-DIM
+        42.         6.         0.
+       130.        25.         1.
+ENDDATA              4
+ENDSUBENT           15
+SUBENT        22399011   19980806   20010329   20050926       0000
+BIB                  4          4
+REACTION   (20-CA-41(N,G+A)18-AR-38,,SIG,,MXW)
+DECAY-DATA (20-CA-41,1.03E+5YR,B+,4730.0)
+SAMPLE     .CALCIUM FLUORIDE CA-F2
+STATUS     (TABLE)  DATA ARE TAKEN FROM TABLE 1 OF MAIN REFERENCE
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+   10.       2.
+ENDDATA              3
+ENDSUBENT           12
+ENDENTRY            10

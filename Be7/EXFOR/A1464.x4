@@ -1,0 +1,57 @@
+ENTRY            A1464   19990324   19990505   20050926       0000
+SUBENT        A1464001   19990324   19990505   20050926       0000
+BIB                  9         14
+INSTITUTE  (1USAMRY)
+REFERENCE  (J,NIM,69,(1),115,196903)
+AUTHOR     (G.M.LERNER,J.B.MARION)
+TITLE      Measurement of (p,p) and (p,a) cross sections for
+           lithium and flourine
+FACILITY   (VDG)
+SAMPLE     Natural lithium fluoride was evaporated for the LiF
+           runs and lithium fluoride enriched to 95% 6Li was
+           evaporated for the 6LiF runs.
+           The targets weighed from 0.03 to 0.1 mg/cm**2
+DETECTOR   (SOLST) Surface-barrier detector
+ERR-ANALYS (ERR-T) Statistical and systematical errors
+HISTORY    (19820423C) Compilation produced by RFNC-VNIIEF Sarov
+           (19990321U)CNPD: corrected 4-dig. year and lower cases.
+ENDBIB              14
+NOCOMMON
+ENDSUBENT           17
+SUBENT        A1464002   19990324   19990505   20050926       0000
+BIB                  2          4
+REACTION  1(3-LI-6(P,EL)3-LI-6,,DA,,,EXP)
+          2(3-LI-7(P,EL)3-LI-7,,DA,,,EXP)
+          3(9-F-19(P,EL)9-F-19,,DA,,,EXP)
+STATUS     (TABLE) Table 3
+ENDBIB               4
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+  1.360      90.
+ENDCOMMON            3
+DATA                 6          1
+DATA      1ERR-T     1DATA      2ERR-T     2DATA      3ERR-T     3
+MB/SR      MB/SR      MB/SR      MB/SR      MB/SR      MB/SR
+    61.         9.        34.         4.       223.        21.
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        A1464003   19990324   19990505   20050926       0000
+BIB                  2          4
+REACTION  1(3-LI-6(P,HE3)2-HE-4,,DA,A,,EXP)
+          2(3-LI-7(P,A)2-HE-4,,DA,,,EXP)
+          3(9-F-19(P,A)8-O-16,,DA,,,EXP)
+STATUS     (TABLE) Table 3
+ENDBIB               4
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+  1.360      90.
+ENDCOMMON            3
+DATA                 6          1
+DATA      1ERR-T     1DATA      2ERR-T     2DATA      3ERR-T     3
+MB/SR      MB/SR      MB/SR      MB/SR      MB/SR      MB/SR
+    10.9        1.4        0.42       0.06       1.02       0.1
+ENDDATA              3
+ENDSUBENT           16
+ENDENTRY             3

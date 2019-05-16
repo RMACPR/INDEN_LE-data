@@ -1,0 +1,141 @@
+ENTRY            F0075   19990409   19990427   20050926       0000
+SUBENT        F0075001   19990409   19990427   20050926       0000
+BIB                 10         22
+TITLE      Rate of H-3(7Li,n(0))Be-9 and big-bang nucleosynthesis
+AUTHOR     (S.BARHOUMI,G.BOGAERT,A.COC,P.AGUER,J.KIENER,
+           A.LEFEBVRE,J.P.THIBAUD,F.M.BAUMANN,H.FREIESLEBEN,
+           C.ROLFS,P.DELBOURGO-SALVADOR)
+INSTITUTE  (2GERBOC)
+REFERENCE  (J,NP/A,535,(1),107,199112)
+SAMPLE     A set of four Ti3H targets was used with Ti thicknesses
+           ranging from 41 TO 163 mu-g/cm2 evaporated on a thick
+           Cu backing.
+METHOD     (TOF)
+FACILITY   (DYNAM) Dynamitron-tandem
+DETECTOR   (SCIN) Five liquid-scintillator detectors (NE-213).
+           Two detectors were of cylindrical shape with diam.
+            (thickness) 18 cm (7.5cm) and placed at 0 and 48 degr.
+           The other detectors were of haxagonal shape with
+           diagonal length(thickness) 18cm (16cm) and placed at
+           88.5, 91.5 and 136.5 degr.
+ERR-ANALYS (EN-ERR) Scale error
+           (ERR-S) Statistical error
+           (DATA-ERR) Digitizing error
+HISTORY    (19920427C)
+           (19990409A) CNPD: corrected 4-dig. year
+ENDBIB              22
+COMMON               2          3
+EN-ERR     ERR-S
+PER-CENT   PER-CENT
+  15.0       4.0
+ENDCOMMON            3
+ENDSUBENT           29
+SUBENT        F0075002   19990409   19990427   20050926       0000
+BIB                  4          4
+REACTION   (3-LI-7(T,N)4-BE-9,PAR,DA,,,EXP)
+ERR-ANALYS (ANG-ERR) Digitizing error
+EN-SEC     (E-LVL,4-BE-9)
+STATUS     (CURVE) fig.4
+ENDBIB               4
+COMMON               3          3
+E-LVL      ANG-ERR    DATA-ERR
+MEV        ADEG       MB/SR
+ 0.0        0.8        0.03
+ENDCOMMON            3
+DATA                 3         60
+EN         ANG-CM     DATA-CM
+MEV        ADEG       MB/SR
+     0.65       0.9778     0.3455
+     0.65      50.74       0.2032
+     0.65      93.15       0.2793
+     0.65      95.67       0.2429
+     0.65     139.7        0.3313
+     0.7        0.0135     0.3613
+     0.7       51.18       0.2883
+     0.7       92.41       0.3231
+     0.7       95.72       0.3111
+     0.7      139.4        0.4775
+     0.8        0.4002     0.4417
+     0.8       52.46       0.4244
+     0.8       93.1        0.4442
+     0.8       97.18       0.4318
+     0.8      138.3        0.8591
+     0.9        0.8333     0.8205
+     0.9       50.83       0.5456
+     0.9       94.17       0.6134
+     0.9       95.83       0.5522
+     0.9      140.         0.9272
+     1.         0.1739     0.5037
+     1.        52.2        0.3618
+     1.        94.19       0.4523
+     1.        96.72       0.5217
+     1.       142.1        0.7164
+     1.1        0.8264     0.7162
+     1.1       52.07       0.4932
+     1.1       94.21       0.6144
+     1.1       97.52       0.688
+     1.1      139.7        0.8584
+     1.2        0.8333     1.013
+     1.2       51.67       0.7222
+     1.2       94.17       0.7356
+     1.2       96.67       0.8593
+     1.2      140.         0.9652
+     1.5        0.6891     1.364
+     1.5       51.73       0.6363
+     1.5       95.21       1.045
+     1.5       97.76       1.261
+     1.5      141.3        1.793
+     1.7        0.2848     1.563
+     1.7       53.28       0.8433
+     1.7       94.26       1.617
+     1.7       98.36       1.618
+     1.7      138.5        2.606
+     2.         0.5173     2.123
+     2.        52.16       1.156
+     2.        94.8        1.917
+     2.        98.12       2.259
+     2.       140.7        3.763
+     2.5        0.3803     1.523
+     2.5       53.97       0.7936
+     2.5       96.45       0.866
+     2.5       99.7        1.176
+     2.5      142.8        2.116
+     2.6        0.2939     1.257
+     2.6       53.93       0.7058
+     2.6       94.87       0.8932
+     2.6       99.77       0.9859
+     2.6      140.5        2.098
+ENDDATA             62
+ENDSUBENT           75
+SUBENT        F0075003   19990409   19990427   20050926       0000
+BIB                  5          5
+REACTION   (3-LI-7(T,N)4-BE-9,PAR,SIG,,,EXP)
+ERR-ANALYS (EN-ERR1)Digitizing error
+EN-SEC     (E-LVL,4-BE-9)
+MONITOR    (1-H-3(D,N)2-HE-4,,DA,,,EXP)
+STATUS     (CURVE) fig.5
+ENDBIB               5
+COMMON               3          3
+E-LVL      EN-ERR1    DATA-ERR
+MEV        MEV        MB
+ 0.          0.004      0.2
+ENDCOMMON            3
+DATA                 2         13
+EN-CM      DATA-CM
+MEV        MB
+     0.1874     3.148
+     0.2034     4.763
+     0.2302     6.985
+     0.2516     9.004
+     0.2679     7.191
+     0.3217     8.407
+     0.3485    11.03
+     0.4128    15.68
+     0.504     21.94
+     0.5681    29.41
+     0.72      16.32
+     0.7686    16.12
+     0.8604    14.11
+ENDDATA             15
+ENDSUBENT           29
+ENDENTRY             3

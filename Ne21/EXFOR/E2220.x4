@@ -1,0 +1,666 @@
+ENTRY            E2220   20160520   20160701   20160626       E103
+SUBENT        E2220001   20160520   20160701   20160626       E103
+BIB                  8          8
+TITLE       (d,a) reactions on some light nuclei
+AUTHOR     (C.Hu)
+INSTITUTE  (2JPNOSA)
+REFERENCE  (J,JPJ,15,1741,1960)
+PART-DET   (A)
+FACILITY   (CYCLO,2JPNOSA) 44-inch cyclotron
+DETECTOR   (CSICR)
+HISTORY    (20131018C) V.D
+ENDBIB               8
+NOCOMMON             0          0
+ENDSUBENT           11
+SUBENT        E2220002   20160520   20160701   20160626       E103
+BIB                  5          8
+REACTION   (8-O-16(D,A)7-N-14,PAR,DA)
+EN-SEC     ANG-CM is polar angle (c.m.) between beam and alpha
+           (E-LVL,7-N-14)
+SAMPLE     - Chemical-form of target: mylar film (C5H4O2)
+           - Target-thickness is 0.8 mg/cm2.
+ERR-ANALYS (ERR-1) The estimated errors in the absolute
+                   differential cross sections.
+STATUS     (CURVE) Fig.7 of J.Phys.Soc.Jpn.15(1960)1741
+ENDBIB               8
+COMMON               3          3
+EN         E-LVL      ERR-1
+MEV        MEV        PER-CENT
+ 10.5       0.0        70.
+ENDCOMMON            3
+DATA                 2         13
+ANG-CM     DATA-CM
+ADEG       MB/SR
+      25.00      8.080
+      35.50      6.370
+      47.46      3.470
+      58.09      1.490
+      68.90      1.930
+      79.98      2.230
+      91.05      2.170
+     100.91      1.890
+     110.62      1.390
+     120.41      0.940
+     138.84      1.630
+     151.81      1.960
+     157.90      2.340
+ENDDATA             15
+ENDSUBENT           32
+SUBENT        E2220003   20160520   20160701   20160626       E103
+BIB                  5         13
+REACTION   (8-O-16(D,A)7-N-14,PAR,DA)
+EN-SEC     ANG-CM is polar angle (c.m.) between beam and alpha
+           (E-LVL,7-N-14)
+SAMPLE     - Chemical-form of target: mylar film (C5H4O2)
+           - Target-thickness is 0.8 mg/cm2.
+ERR-ANALYS (ERR-1) The estimated errors in the absolute
+                   differential cross sections.
+           (DATA-ERR) The relative error of differential
+                      cross-sections were due to the counting
+                      statistics, uncertainty in separation of
+                      alpha-particle groups, and the background
+                      subtraction
+STATUS     (CURVE) Fig.7 of J.Phys.Soc.Jpn.15(1960)1741
+ENDBIB              13
+COMMON               3          3
+EN         E-LVL      ERR-1
+MEV        MEV        PER-CENT
+ 10.7       0.0        70.
+ENDCOMMON            3
+DATA                 3         13
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+     25.430      9.560      0.370
+     35.650      7.220      0.340
+     47.340      4.150      0.250
+     58.240      2.150
+     69.180      2.320      0.140
+     79.870      3.340      0.160
+     90.390      2.750
+    101.170      1.650
+    120.470      1.010
+    138.440      1.450
+    150.720      2.090      0.179
+    156.560      3.080      0.250
+    164.230      3.877      0.287
+ENDDATA             15
+ENDSUBENT           37
+SUBENT        E2220004   20160520   20160701   20160626       E103
+BIB                  5          8
+REACTION   (8-O-16(D,A)7-N-14,PAR,DA)
+EN-SEC     ANG-CM is polar angle (c.m.) between beam and alpha
+           (E-LVL,7-N-14)
+SAMPLE     - Chemical-form of target: mylar film (C5H4O2)
+           - Target-thickness is 0.8 mg/cm2.
+ERR-ANALYS (ERR-1) The estimated errors in the absolute
+                   differential cross sections.
+STATUS     (CURVE) Fig.7 of J.Phys.Soc.Jpn.15(1960)1741
+ENDBIB               8
+COMMON               3          3
+EN         E-LVL      ERR-1
+MEV        MEV        PER-CENT
+ 11.0       0.0        70.
+ENDCOMMON            3
+DATA                 2         12
+ANG-CM     DATA-CM
+ADEG       MB/SR
+      24.53      6.137
+      35.17      4.779
+      47.37      3.298
+      70.38      1.697
+      79.72      2.471
+      90.53      3.169
+     100.78      2.216
+     120.22      0.764
+     139.48      1.196
+     150.72      1.708
+     157.70      2.245
+     164.49      2.820
+ENDDATA             14
+ENDSUBENT           31
+SUBENT        E2220005   20160520   20160701   20160626       E103
+BIB                  5          8
+REACTION   (8-O-16(D,A)7-N-14,PAR,DA)
+EN-SEC     ANG-CM is polar angle (c.m.) between beam and alpha
+           (E-LVL,7-N-14)
+SAMPLE     - Chemical-form of target: mylar film (C5H4O2)
+           - Target-thickness is 0.8 mg/cm2.
+ERR-ANALYS (ERR-1) The estimated errors in the absolute
+                   differential cross sections.
+STATUS     (CURVE) Fig.7 of J.Phys.Soc.Jpn.15(1960)1741
+ENDBIB               8
+COMMON               3          3
+EN         E-LVL      ERR-1
+MEV        MEV        PER-CENT
+ 11.2       0.0        70.
+ENDCOMMON            3
+DATA                 2         13
+ANG-CM     DATA-CM
+ADEG       MB/SR
+      24.55      5.785
+      35.87      4.594
+      47.19      3.170
+      57.96      1.725
+      69.84      1.411
+      80.25      2.060
+      90.66      2.628
+     101.31      1.729
+     120.47      0.830
+     139.92      1.289
+     151.40      1.603
+     157.35      2.014
+     164.93      2.707
+ENDDATA             15
+ENDSUBENT           32
+SUBENT        E2220006   20160520   20160701   20160626       E103
+BIB                  5         13
+REACTION   (8-O-16(D,A)7-N-14,PAR,DA)
+EN-SEC     ANG-CM is polar angle (c.m.) between beam and alpha
+           (E-LVL,7-N-14)
+SAMPLE     - Chemical-form of target: mylar film (C5H4O2)
+           - Target-thickness is 0.8 mg/cm2.
+ERR-ANALYS (ERR-1) The estimated errors in the absolute
+                   differential cross sections.
+           (DATA-ERR) The relative error of differential
+                      cross-sections were due to the counting
+                      statistics, uncertainty in separation of
+                      alpha-particle groups, and the background
+                      subtraction
+STATUS     (CURVE) Fig.13 of J.Phys.Soc.Jpn.15(1960)1741
+ENDBIB              13
+COMMON               3          3
+EN         E-LVL      ERR-1
+MEV        MEV        PER-CENT
+ 11.4       0.0        70.
+ENDCOMMON            3
+DATA                 3         13
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+      23.64      5.549
+      35.24      3.574      0.116
+      46.75      1.881      0.107
+      57.77      1.024      0.098
+      69.69      0.194
+      90.50      0.766
+     100.49      0.520
+     110.84      0.296
+     118.96      0.139
+     139.79      0.182
+     148.16      0.306
+     154.98      0.514      0.111
+     163.42      1.264      0.175
+ENDDATA             15
+ENDSUBENT           37
+SUBENT        E2220007   20160520   20160701   20160626       E103
+BIB                  5         10
+REACTION   (7-N-14(D,A)6-C-12,PAR,DA)
+EN-SEC     ANG-CM is polar angle (c.m.) between beam and alpha
+           (E-LVL,6-C-12)
+SAMPLE     - Chemical-form of target is (CH2N2)3.
+           - Target-thickness is 2.2 mg/cm2.
+           - Backing is mylar film.
+           - Backing-thickness is 0.8 mg/cm2.
+ERR-ANALYS (ERR-1) The estimated errors in the absolute
+                   differential cross sections.
+STATUS     (CURVE) Fig.8 of J.Phys.Soc.Jpn.15(1960)1741
+ENDBIB              10
+COMMON               3          3
+EN         E-LVL      ERR-1
+MEV        MEV        PER-CENT
+ 10.9       0.0        80.
+ENDCOMMON            3
+DATA                 2         12
+ANG-CM     DATA-CM
+ADEG       MB/SR
+      22.65      4.720
+      33.64      1.451
+      44.74      1.257
+      55.42      1.591
+      66.04      1.533
+      76.48      0.904
+      90.05      0.404
+      98.16      0.336
+     107.24      0.399
+     117.00      0.470
+     126.65      0.390
+     135.60      0.447
+ENDDATA             14
+ENDSUBENT           33
+SUBENT        E2220008   20160520   20160701   20160626       E103
+BIB                  5         10
+REACTION   (7-N-14(D,A)6-C-12,PAR,DA)
+EN-SEC     ANG-CM is polar angle (c.m.) between beam and alpha
+           (E-LVL,6-C-12)
+SAMPLE     - Chemical-form of target is (CH2N2)3.
+           - Target-thickness is 2.2 mg/cm2.
+           - Backing is mylar film.
+           - Backing-thickness is 0.8 mg/cm2.
+ERR-ANALYS (ERR-1) The estimated errors in the absolute
+                   differential cross sections.
+STATUS     (CURVE) Fig.8 of J.Phys.Soc.Jpn.15(1960)1741
+ENDBIB              10
+COMMON               3          3
+EN         E-LVL      ERR-1
+MEV        MEV        PER-CENT
+ 11.1       0.0        80.
+ENDCOMMON            3
+DATA                 2         11
+ANG-CM     DATA-CM
+ADEG       MB/SR
+      22.84      4.608
+      33.82      1.496
+      44.55      1.298
+      55.61      1.505
+      66.32      1.482
+      76.52      0.956
+      87.44      0.384
+      98.31      0.249
+     110.20      0.315
+     117.96      0.370
+     127.23      0.182
+ENDDATA             13
+ENDSUBENT           32
+SUBENT        E2220009   20160520   20160701   20160626       E103
+BIB                  5         15
+REACTION   (7-N-14(D,A)6-C-12,PAR,DA)
+EN-SEC     ANG-CM is polar angle (c.m.) between beam and alpha
+           (E-LVL,6-C-12)
+SAMPLE     - Chemical-form of target is (CH2N2)3.
+           - Target-thickness is 2.2 mg/cm2.
+           - Backing is mylar film.
+           - Backing-thickness is 0.8 mg/cm2.
+ERR-ANALYS (ERR-1) The estimated errors in the absolute
+                   differential cross sections.
+           (DATA-ERR) The relative error of differential
+                      cross-sections were due to the counting
+                      statistics, uncertainty in separation of
+                      alpha-particle groups, and the background
+                      subtraction
+STATUS     (CURVE) Fig.8 of J.Phys.Soc.Jpn.15(1960)1741
+ENDBIB              15
+COMMON               3          3
+EN         E-LVL      ERR-1
+MEV        MEV        PER-CENT
+ 11.4       0.0        80.
+ENDCOMMON            3
+DATA                 3         13
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+      22.49      4.424      0.198
+      33.45      1.541      0.064
+      44.27      1.350      0.065
+      55.60      1.550
+      66.33      1.436
+      76.50      0.837      0.043
+      87.70      0.438      0.046
+      98.59      0.198
+     107.80      0.275
+     117.16      0.329
+     126.80      0.328
+     135.77      0.280
+     136.02      0.377
+ENDDATA             15
+ENDSUBENT           39
+SUBENT        E2220010   20160520   20160701   20160626       E103
+BIB                  5         10
+REACTION   (7-N-14(D,A)6-C-12,PAR,DA)
+EN-SEC     ANG-CM is polar angle (c.m.) between beam and alpha
+           (E-LVL,6-C-12)
+SAMPLE     - Chemical-form of target is (CH2N2)3.
+           - Target-thickness is 2.2 mg/cm2.
+           - Backing is mylar film.
+           - Backing-thickness is 0.8 mg/cm2.
+ERR-ANALYS (ERR-1) The estimated errors in the absolute
+                   differential cross sections.
+STATUS     (CURVE) Fig.9 of J.Phys.Soc.Jpn.15(1960)1741
+ENDBIB              10
+COMMON               3          3
+EN         E-LVL      ERR-1
+MEV        MEV        PER-CENT
+ 10.9       4.44       80.
+ENDCOMMON            3
+DATA                 2         11
+ANG-CM     DATA-CM
+ADEG       MB/SR
+      21.82      7.161
+      34.34      4.427
+      45.13      4.850
+      56.95      3.930
+      67.59      2.326
+      78.39      2.084
+      88.67      2.552
+     100.11      2.353
+     109.93      2.147
+     118.36      2.226
+     137.47      2.226
+ENDDATA             13
+ENDSUBENT           32
+SUBENT        E2220011   20160520   20160701   20160626       E103
+BIB                  5         10
+REACTION   (7-N-14(D,A)6-C-12,PAR,DA)
+EN-SEC     ANG-CM is polar angle (c.m.) between beam and alpha
+           (E-LVL,6-C-12)
+SAMPLE     - Chemical-form of target is (CH2N2)3.
+           - Target-thickness is 2.2 mg/cm2.
+           - Backing is mylar film.
+           - Backing-thickness is 0.8 mg/cm2.
+ERR-ANALYS (ERR-1) The estimated errors in the absolute
+                   differential cross sections.
+STATUS     (CURVE) Fig.9 of J.Phys.Soc.Jpn.15(1960)1741
+ENDBIB              10
+COMMON               3          3
+EN         E-LVL      ERR-1
+MEV        MEV        PER-CENT
+ 11.1       4.44       80.
+ENDCOMMON            3
+DATA                 2         10
+ANG-CM     DATA-CM
+ADEG       MB/SR
+      22.33      6.409
+      34.22      4.590
+      44.97      4.968
+      58.42      3.724
+      67.93      2.482
+      78.08      2.285
+      88.89      2.482
+     100.24      2.433
+     110.17      2.200
+     118.29      2.034
+ENDDATA             12
+ENDSUBENT           31
+SUBENT        E2220012   20160520   20160701   20160626       E103
+BIB                  5         15
+REACTION   (7-N-14(D,A)6-C-12,PAR,DA)
+EN-SEC     ANG-CM is polar angle (c.m.) between beam and alpha
+           (E-LVL,6-C-12)
+SAMPLE     - Chemical-form of target is (CH2N2)3.
+           - Target-thickness is 2.2 mg/cm2.
+           - Backing is mylar film.
+           - Backing-thickness is 0.8 mg/cm2.
+ERR-ANALYS (ERR-1) The estimated errors in the absolute
+                   differential cross sections.
+           (DATA-ERR) The relative error of differential
+                      cross-sections were due to the counting
+                      statistics, uncertainty in separation of
+                      alpha-particle groups, and the background
+                      subtraction
+STATUS     (CURVE) Fig.9 of J.Phys.Soc.Jpn.15(1960)1741
+ENDBIB              15
+COMMON               3          3
+EN         E-LVL      ERR-1
+MEV        MEV        PER-CENT
+ 11.4       4.44       80.
+ENDCOMMON            3
+DATA                 3         12
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+      22.19      6.503      0.474
+      34.11      4.501      0.206
+      44.78      5.109      0.241
+      56.56      3.711      0.179
+      67.66      2.580      0.143
+      78.05      2.191
+      88.62      2.625      0.125
+      99.97      2.496      0.139
+     109.86      2.268      0.103
+     118.41      2.143      0.085
+     127.49      2.210      0.103
+     137.36      2.268      0.103
+ENDDATA             14
+ENDSUBENT           38
+SUBENT        E2220013   20160520   20160701   20160626       E103
+BIB                  5          8
+REACTION   (9-F-19(D,A)8-O-17,PAR,DA)
+EN-SEC     ANG-CM is polar angle (c.m.) between beam and alpha
+           (E-LVL,8-O-17)
+SAMPLE     - Chemical-form of target: teflon film (CF2)
+           - Target-thickness is 0.9 mg/cm2.
+ERR-ANALYS (ERR-1) The estimated errors in the absolute
+                   differential cross sections.
+STATUS     (CURVE) Fig.10 of J.Phys.Soc.Jpn.15(1960)1741
+ENDBIB               8
+COMMON               3          3
+EN         E-LVL      ERR-1
+MEV        MEV        PER-CENT
+ 11.1       0.0        50.
+ENDCOMMON            3
+DATA                 2         14
+ANG-CM     DATA-CM
+ADEG       MB/SR
+      21.66      0.688
+      32.58      0.369
+      43.99      0.560
+      55.15      0.381
+      65.13      0.190
+      76.25      0.281
+      85.79      0.352
+      95.12      0.253
+     106.52      0.215
+     116.08      0.271
+     126.06      0.311
+     135.79      0.329
+     144.94      0.391
+     152.93      0.414
+ENDDATA             16
+ENDSUBENT           33
+SUBENT        E2220014   20160520   20160701   20160626       E103
+BIB                  5         13
+REACTION   (9-F-19(D,A)8-O-17,PAR,DA)
+EN-SEC     ANG-CM is polar angle (c.m.) between beam and alpha
+           (E-LVL,8-O-17)
+SAMPLE     - Chemical-form of target: teflon film (CF2)
+           - Target-thickness is 0.9 mg/cm2.
+ERR-ANALYS (ERR-1) The estimated errors in the absolute
+                   differential cross sections.
+           (DATA-ERR) The relative error of differential
+                      cross-sections were due to the counting
+                      statistics, uncertainty in separation of
+                      alpha-particle groups, and the background
+                      subtraction
+STATUS     (CURVE) Fig.10 of J.Phys.Soc.Jpn.15(1960)1741
+ENDBIB              13
+COMMON               3          3
+EN         E-LVL      ERR-1
+MEV        MEV        PER-CENT
+ 11.4       0.0        50.
+ENDCOMMON            3
+DATA                 3         14
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+      21.65      0.700      0.040
+      32.89      0.334      0.024
+      44.00      0.551      0.035
+      54.73      0.400      0.025
+      65.25      0.197      0.017
+      75.89      0.240      0.021
+      85.91      0.360      0.030
+      94.84      0.263      0.028
+     106.27      0.202      0.017
+     116.76      0.264      0.022
+     125.78      0.323      0.032
+     135.51      0.338      0.031
+     145.75      0.383      0.029
+     153.06      0.422      0.032
+ENDDATA             16
+ENDSUBENT           38
+SUBENT        E2220015   20160520   20160701   20160626       E103
+BIB                  5          8
+REACTION   (9-F-19(D,A)8-O-17,PAR,DA)
+EN-SEC     ANG-CM is polar angle (c.m.) between beam and alpha
+           (E-LVL,8-O-17)
+SAMPLE     - Chemical-form of target: teflon film (CF2)
+           - Target-thickness is 0.9 mg/cm2.
+ERR-ANALYS (ERR-1) The estimated errors in the absolute
+                   differential cross sections.
+STATUS     (CURVE) Fig.11 of J.Phys.Soc.Jpn.15(1960)1741
+ENDBIB               8
+COMMON               3          3
+EN         E-LVL      ERR-1
+MEV        MEV        PER-CENT
+ 11.1       0.872      50.
+ENDCOMMON            3
+DATA                 2         14
+ANG-CM     DATA-CM
+ADEG       MB/SR
+      20.79      0.465
+      33.01      0.160
+      43.96      0.162
+      55.03      0.180
+      65.31      0.095
+      76.13      0.144
+      85.77      0.244
+      96.15      0.189
+     106.62      0.094
+     116.07      0.058
+     125.74      0.074
+     135.30      0.137
+     143.50      0.176
+     152.83      0.260
+ENDDATA             16
+ENDSUBENT           33
+SUBENT        E2220016   20160520   20160701   20160626       E103
+BIB                  5         13
+REACTION   (9-F-19(D,A)8-O-17,PAR,DA)
+EN-SEC     ANG-CM is polar angle (c.m.) between beam and alpha
+           (E-LVL,8-O-17)
+SAMPLE     - Chemical-form of target: CF2
+           - Target-thickness: teflon film of 0.9 mg/cm2
+ERR-ANALYS (ERR-1) The estimated errors in the absolute
+                   differential cross sections.
+           (DATA-ERR) The relative error of differential
+                      cross-sections were due to the counting
+                      statistics, uncertainty in separation of
+                      alpha-particle groups, and the background
+                      subtraction
+STATUS     (CURVE) Fig.11 of J.Phys.Soc.Jpn.15(1960)1741
+ENDBIB              13
+COMMON               3          3
+EN         E-LVL      ERR-1
+MEV        MEV        PER-CENT
+ 11.4       0.872      50.
+ENDCOMMON            3
+DATA                 3         14
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+      20.98      0.459      0.030
+      32.46      0.170      0.018
+      43.94      0.168      0.015
+      54.65      0.192      0.015
+      65.26      0.113      0.010
+      76.15      0.138      0.012
+      85.79      0.239      0.022
+      96.35      0.179      0.018
+     106.40      0.114      0.009
+     116.38      0.075      0.006
+     126.11      0.069      0.006
+     135.39      0.097      0.006
+     144.47      0.139      0.012
+     152.83      0.187      0.013
+ENDDATA             16
+ENDSUBENT           38
+SUBENT        E2220017   20160520   20160701   20160626       E103
+BIB                  5         10
+REACTION   (15-P-31(D,A)14-SI-29,PAR,DA)
+EN-SEC     ANG-CM is polar angle (c.m.) between beam and alpha
+           (E-LVL,14-SI-29)
+SAMPLE     - Chemical-form of target is element. red phosphor
+           - Target-thickness is 0.3 mg/cm2.
+           - Backing: polystyrene
+           - Backing-thickness is 1.0 mg/cm2.
+ERR-ANALYS (ERR-1) The estimated errors in the absolute
+                   differential cross sections.
+STATUS     (CURVE) Fig.12 of J.Phys.Soc.Jpn.15(1960)1741
+ENDBIB              10
+COMMON               3          3
+EN         E-LVL      ERR-1
+MEV        MEV        PER-CENT
+ 11.1       0.0        70.
+ENDCOMMON            3
+DATA                 2         15
+ANG-CM     DATA-CM
+ADEG       MB/SR
+      21.12      0.276
+      31.69      0.167
+      42.07      0.272
+      47.86      0.317
+      62.70      0.148
+      73.76      0.089
+      83.68      0.098
+      93.91      0.091
+     104.09      0.060
+     113.94      0.058
+     123.57      0.066
+     133.30      0.090
+     142.05      0.103
+     152.61      0.132
+     162.41      0.140
+ENDDATA             17
+ENDSUBENT           36
+SUBENT        E2220018   20160520   20160701   20160626       E103
+BIB                  5         15
+REACTION   (15-P-31(D,A)14-SI-29,PAR,DA)
+EN-SEC     ANG-CM is polar angle (c.m.) between beam and alpha
+           (E-LVL,14-SI-29)
+SAMPLE     - Chemical-form of target is element. red phosphor
+           - Target-thickness is 0.3 mg/cm2.
+           - Backing: polystyrene
+           - Backing-thickness is 1.0 mg/cm2.
+ERR-ANALYS (ERR-1) The estimated errors in the absolute
+                   differential cross sections.
+           (DATA-ERR) The relative error of differential
+                      cross-sections were due to the counting
+                      statistics, uncertainty in separation of
+                      alpha-particle groups, and the background
+                      subtraction
+STATUS     (CURVE) Fig.12 of J.Phys.Soc.Jpn.15(1960)1741
+ENDBIB              15
+COMMON               3          3
+EN         E-LVL      ERR-1
+MEV        MEV        PER-CENT
+ 11.4       0.0        70.
+ENDCOMMON            3
+DATA                 3         15
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+      21.29      0.243      0.019
+      31.38      0.160      0.013
+      42.12      0.255
+      52.45      0.262
+      62.42      0.136      0.011
+      73.57      0.084      0.007
+      84.05      0.093      0.006
+      94.11      0.086      0.006
+     104.06      0.065      0.006
+     113.80      0.053      0.005
+     122.68      0.072      0.005
+     133.67      0.085      0.005
+     142.41      0.098      0.004
+     152.18      0.148      0.013
+     162.44      0.135      0.011
+ENDDATA             17
+ENDSUBENT           41
+SUBENT        E2220019   20160520   20160701   20160626       E103
+BIB                  4          6
+REACTION   (8-O-16(D,A)7-N-14,PAR,SIG)
+EN-SEC     (E-LVL,7-N-14)
+ERR-ANALYS (ERR-1) The estimated errors in the absolute
+                   differential cross sections.
+           (DATA-ERR) No information on source of uncertainties
+STATUS     (CURVE) Fig.14 of J.Phys.Soc.Jpn.15(1960)1741
+ENDBIB               6
+COMMON               2          3
+E-LVL      ERR-1
+MEV        PER-CENT
+ 0.0        70.
+ENDCOMMON            3
+DATA                 3          5
+EN         DATA       DATA-ERR
+MEV        MB         MB
+     10.384     27.909      1.924
+     10.608     33.178      2.043
+     10.942     25.820      1.569
+     11.173     23.808      1.480
+     11.401     23.156      1.391
+ENDDATA              7
+ENDSUBENT           22
+ENDENTRY            19

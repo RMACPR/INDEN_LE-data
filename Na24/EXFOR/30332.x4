@@ -1,0 +1,222 @@
+ENTRY            30332   20090115   20090508   20090506       3134
+SUBENT        30332001   20090115   20090508   20090506       3134
+BIB                 12         17
+INSTITUTE  (3POLWWA)
+REFERENCE  (P,INDC(POL)-2,3,196904) Curves given
+           (R,INP-702,64,1970) Abstract to 9th Seminar on Nuclear
+            Spectroscopy and Nucl.Reactions,8-13 June 1970,Cracow.
+            Na23,Cl35,K39 and K41(n,d) reactions.
+AUTHOR     (W.Dabrowska,B.Sikorska,J.Toke,E.Wesolowski)
+TITLE       (n,d)-reactions on Na-23, Cl-35, K-39, K-41, Y-89 and
+           Pr-141 at 14.1 MeV.
+FACILITY   (VDG) 3 MeV Van de Graaff
+INC-SOURCE (D-T)
+METHOD     Measurement with a scintillation counter telescope
+DETECTOR   (TELES) Telescope scintillation spectrometer.
+MONITOR    No information available.
+PART-DET   (D) Deuterons
+HISTORY    (19760421C) KO.
+           (20090125A) BIB section updated
+ERR-ANALYS (DATA-ERR) Absolute errors are given.
+ENDBIB              17
+NOCOMMON             0          0
+ENDSUBENT           20
+SUBENT        30332002   20090115   20090508   20090506       3134
+BIB                  2          3
+REACTION   (11-NA-23(N,D)10-NE-22,PAR,DA)
+STATUS     (TABLE) Data from Marcinkowski as priv.comm.,1/12/1975,
+           corresponding to Fig.1 of INDC(POL)-2/G,3.
+ENDBIB               3
+COMMON               1          3
+EN
+MEV
+ 1.4100E+01
+ENDCOMMON            3
+DATA                 4         22
+E-LVL      ANG        DATA       DATA-ERR
+MEV        ADEG       MB/SR      MB/SR
+ 0.0000E+00 8.2000E+00 2.9000E-01 9.0000E-02
+ 0.0000E+00 1.5000E+01 1.6000E-01 9.0000E-02
+ 0.0000E+00 2.1000E+01 3.2000E-01 8.0000E-02
+ 0.0000E+00 2.7500E+01 2.2000E-01 7.0000E-02
+ 0.0000E+00 3.5000E+01 1.3000E-01 7.0000E-02
+ 0.0000E+00 4.2500E+01 2.2000E-01 6.0000E-02
+ 0.0000E+00 5.0000E+01 1.6000E-01 8.0000E-02
+ 0.0000E+00 6.0000E+01 7.0000E-02 8.0000E-02
+ 0.0000E+00 7.0000E+01 1.9000E-01 7.0000E-02
+ 0.0000E+00 8.0000E+01 1.6000E-01 8.0000E-02
+ 0.0000E+00 9.0000E+01 2.1000E-01 7.0000E-02
+ 1.2800E+00 8.2000E+00 8.8000E-01 9.0000E-02
+ 1.2800E+00 1.5000E+01 1.1200E+00 1.2000E-01
+ 1.2800E+00 2.1000E+01 1.5000E+00 9.0000E-02
+ 1.2800E+00 2.7500E+01 1.5400E+00 9.0000E-02
+ 1.2800E+00 3.5000E+01 1.6000E+00 9.0000E-02
+ 1.2800E+00 4.2500E+01 1.3300E+00 8.0000E-02
+ 1.2800E+00 5.0000E+01 1.0500E+00 8.0000E-02
+ 1.2800E+00 6.0000E+01 7.9000E-01 9.0000E-02
+ 1.2800E+00 7.0000E+01 4.8000E-01 7.0000E-02
+ 1.2800E+00 8.0000E+01 4.4000E-01 9.0000E-02
+ 1.2800E+00 9.0000E+01 6.4000E-01 8.0000E-02
+ENDDATA             24
+ENDSUBENT           36
+SUBENT        30332003   20090115   20090508   20090506       3134
+BIB                  2          3
+REACTION   (17-CL-35(N,D)16-S-34,PAR,DA)
+STATUS     (TABLE) Data from Marcinkowski as priv.comm.,1/12/1975,
+           corresponding to Fig.1 of INDC(POL)-2/G,3.
+ENDBIB               3
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+ 1.4100E+01 0.0000E+00
+ENDCOMMON            3
+DATA                 3          9
+ANG        DATA       DATA-ERR
+ADEG       MB/SR      MB/SR
+ 8.2000E+00 8.2000E-01 1.1000E-01
+ 1.5000E+01 1.1400E+00 1.3000E-01
+ 2.1000E+01 1.5600E+00 1.4000E-01
+ 2.7500E+01 1.6000E+00 1.4000E-01
+ 3.5000E+01 1.0800E+00 1.8000E-01
+ 4.2500E+01 5.6000E-01 8.0000E-02
+ 5.0000E+01 3.9000E-01 9.0000E-02
+ 6.5000E+01 2.2000E-01 2.2000E-01
+ 8.0000E+01 1.1000E-01 2.3000E-01
+ENDDATA             11
+ENDSUBENT           23
+SUBENT        30332004   20090115   20090508   20090506       3134
+BIB                  3         11
+REACTION   (19-K-39(N,D)18-AR-38,PAR,DA)
+FLAG       (1.) Numbers indicated were obtained by averaging the
+            following values obtained in separate runs,
+            0.59 for ... 0.66+-0.09,  0.42+-0.08,  0.56+-0.11.
+            2.38 for ... 2.52+-0.22,  2.48+-0.22,  2.10+-0.23.
+           (2.) Numbers indicated were obtained by averaging the
+            following values obtained in separate runs,
+            0.89 for ... 1.09+-0.13,  0.97+-0.09,  0.70+-0.10.
+            1.99 for ... 1.87+-0.19,  2.20+-0.18,  1.81+-0.19.
+STATUS     (TABLE) Data from Marcinkowski as priv.comm.,1/12/1975,
+           corresponding to Fig.3 of INDC(POL)-2/G,3.
+ENDBIB              11
+COMMON               1          3
+EN
+MEV
+ 1.4100E+01
+ENDCOMMON            3
+DATA                 5         22
+E-LVL      ANG        DATA       DATA-ERR   FLAG
+MEV        ADEG       MB/SR      MB/SR      NO-DIM
+ 0.0000E+00 8.2000E+00 5.9000E-01 5.0000E-02 1.0000E+00
+ 0.0000E+00 1.5000E+01 8.5000E-01 1.1000E-01
+ 0.0000E+00 2.1000E+01 8.9000E-01 8.0000E-02 2.0000E+00
+ 0.0000E+00 2.7500E+01 9.3000E-01 1.3000E-01
+ 0.0000E+00 3.5000E+01 5.3000E-01 1.3000E-01
+ 0.0000E+00 4.2500E+01 3.4000E-01 1.2000E-01
+ 0.0000E+00 5.0000E+01 1.2000E-01 1.0000E-01
+ 0.0000E+00 6.0000E+01 1.6000E-01 1.0000E-01
+ 0.0000E+00 7.0000E+01 4.0000E-02 1.1000E-01
+ 0.0000E+00 8.0000E+01 1.0000E-02 1.0000E-01
+ 0.0000E+00 9.0000E+01 2.5000E-01 1.0000E-01
+ 2.1700E+00 8.2000E+00 2.3800E+00 1.3000E-01 1.0000E+00
+ 2.1700E+00 1.5000E+01 2.1600E+00 2.2000E-01
+ 2.1700E+00 2.1000E+01 1.9900E+00 1.1000E-01 2.0000E+00
+ 2.1700E+00 2.7500E+01 1.8000E+00 2.0000E-01
+ 2.1700E+00 3.5000E+01 1.0900E+00 1.6000E-01
+ 2.1700E+00 4.2500E+01 9.7000E-01 1.6000E-01
+ 2.1700E+00 5.0000E+01 4.3000E-01 1.0000E-01
+ 2.1700E+00 6.0000E+01 3.9000E-01 1.1000E-01
+ 2.1700E+00 7.0000E+01 3.8000E-01 1.1000E-01
+ 2.1700E+00 8.0000E+01 4.9000E-01 1.1000E-01
+ 2.1700E+00 9.0000E+01 2.9000E-01 1.0000E-01
+ENDDATA             24
+ENDSUBENT           44
+SUBENT        30332005   20090115   20090508   20090506       3134
+BIB                  2          3
+REACTION   (19-K-41(N,D)18-AR-40,PAR,DA)
+STATUS     (TABLE) Data from Marcinkowski as priv.comm.,1/12/1975,
+           corresponding to Fig.3 of INDC(POL)-2/G,3.
+ENDBIB               3
+COMMON               1          3
+EN
+MEV
+ 1.4100E+01
+ENDCOMMON            3
+DATA                 5         22
+E-LVL      ANG        DATA       DATA-MAX   DATA-ERR
+MEV        ADEG       MB/SR      MB/SR      MB/SR
+ 0.0000E+00 8.2000E+00 3.5000E-01            6.0000E-02
+ 0.0000E+00 1.5000E+01 4.7000E-01            1.2000E-01
+ 0.0000E+00 2.1000E+01 4.6000E-01            4.0000E-02
+ 0.0000E+00 2.7500E+01 3.3000E-01            1.1000E-01
+ 0.0000E+00 3.5000E+01 2.6000E-01            1.0000E-01
+ 0.0000E+00 4.2500E+01 9.0000E-02            1.1000E-01
+ 0.0000E+00 5.0000E+01 7.0000E-02            1.4000E-01
+ 0.0000E+00 6.0000E+01 5.0000E-02            1.7000E-01
+ 0.0000E+00 7.0000E+01            1.7000E-01 1.8000E-01
+ 0.0000E+00 8.0000E+01 2.5000E-01            1.3000E-01
+ 0.0000E+00 9.0000E+01            1.4000E-01 1.8000E-01
+ 1.4500E+00 8.2000E+00 1.0700E+00 0.0000E+00 9.0000E-02
+ 1.4500E+00 1.5000E+01 7.5000E-01 0.0000E+00 1.2000E-01
+ 1.4500E+00 2.1000E+01 5.8000E-01 0.0000E+00 5.0000E-02
+ 1.4500E+00 2.7500E+01 4.9000E-01 0.0000E+00 1.0000E-01
+ 1.4500E+00 3.5000E+01 4.7000E-01 0.0000E+00 9.0000E-02
+ 1.4500E+00 4.2500E+01 1.6000E-01 0.0000E+00 1.0000E-01
+ 1.4500E+00 5.0000E+01 9.0000E-02 0.0000E+00 1.2000E-01
+ 1.4500E+00 6.0000E+01 2.5000E-01 0.0000E+00 1.4000E-01
+ 1.4500E+00 7.0000E+01 2.2000E-01 0.0000E+00 1.7000E-01
+ 1.4500E+00 8.0000E+01 5.0000E-02 0.0000E+00 9.0000E-02
+ 1.4500E+00 9.0000E+01 0.0000E+00 1.0000E-02 1.6000E-01
+ENDDATA             24
+ENDSUBENT           36
+SUBENT        30332006   20090115   20090508   20090506       3134
+BIB                  4          7
+REACTION   (39-Y-89(N,D)38-SR-88,PAR,DA)
+ERR-ANALYS (ANG-ERR-D)  Digitizing error
+           (ERR-DIG)    Digitizing error
+STATUS     (CURVE) Data were digitized from fig.4
+            Data were unobtainable from authors, request had been
+           sent again, 22/04/1976.
+HISTORY    (20090115A) NDS: Data were digitized
+ENDBIB               7
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       MB/SR
+ 14.1       0.         0.2         0.004
+ENDCOMMON            3
+DATA                 3          7
+ANG        DATA       DATA-ERR
+ADEG       MB/SR      MB/SR
+ 7.8401     1.0314    0.20834
+ 14.792     1.0581    0.22728
+ 20.425    0.50199    0.20077
+ 26.851    0.64256    0.20077
+ 34.980    0.23291    0.21583
+ 42.748    0.46369    0.14397
+ 49.954    0.25152    0.18184
+ENDDATA              9
+ENDSUBENT           25
+SUBENT        30332007   20090115   20090508   20090506       3134
+BIB                  4          7
+REACTION   (59-PR-141(N,D)58-CE-140,PAR,DA)
+ERR-ANALYS (ANG-ERR-D)  Digitizing error
+           (ERR-DIG)    Digitizing error
+STATUS     (CURVE) Data were digitized from fig.4
+            Data were unobtainable from authors, request had been
+           sent again, 22/04/1976.
+HISTORY    (20090115A) NDS: Data were digitized
+ENDBIB               7
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       MB/SR
+ 14.1       0.         0.2         0.004
+ENDCOMMON            3
+DATA                 3          4
+ANG        DATA       DATA-ERR
+ADEG       MB/SR      MB/SR
+ 9.2207    0.37787    0.14443
+ 21.453    0.35761    0.12923
+ 37.182    0.26802    0.12349
+ 49.952    0.17630E-010.10259
+ENDDATA              6
+ENDSUBENT           22
+ENDENTRY             7

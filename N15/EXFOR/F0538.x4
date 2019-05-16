@@ -1,0 +1,146 @@
+ENTRY            F0538   20030427   20030930   20050926       0000
+SUBENT        F0538001   20030427   20030930   20050926       0000
+BIB                  8         17
+TITLE      The 11B(a,p)14C reaction below 1.7 MeV bombarding
+           energy
+AUTHOR     (A.TUROWIECKI,A.SAGANEK,M.SIEMINSKI,E.WESOLOWSKI,
+           Z.WILHELMI)
+INSTITUTE  (3POLWWA)
+REFERENCE  (J,NP/A,468,29,1987)
+FACILITY   (VDG)
+DETECTOR   (SIBAR) The two annular silicon surface barrier
+           detectors fixed at 0 and 180 degree relative to the
+           beam direction.The solid angles of these detectors
+           were 1.397 and 1.288 sr,respectively
+SAMPLE     The self-supporting boron target was prepared with the
+           help of an isotope separator by deposition of ions on
+           the copper foil.The total thickness of the target,
+           which was a 11B+C mixture,was about 72 mu-g/cm**2.The
+           11B content in the target was 35+-5 mu-g/cm**2.
+HISTORY    (20020423C)
+ENDBIB              17
+NOCOMMON
+ENDSUBENT           20
+SUBENT        F0538002   20030427   20030930   20050926       0000
+BIB                  4         12
+REACTION   (5-B-11(A,P)6-C-14,,SIG)
+ERR-ANALYS (EN-ERR) Digitizing error
+           (DATA-ERR) Digitizing error
+           (DATA-ERR1) The error bars include uncertainties in
+           the integrated beam currents,counting efficiencies,
+           counting statistics and target weights.The error
+           bars presented for several experimental points include
+           the statistical errors and the 10% of the cross section
+           calibration uncertainty
+STATUS     (CURVE) Fig.2
+FLAG       (1.) The detector placed at a small angle
+           (2.) The detector placed at a large angle
+ENDBIB              12
+COMMON               2          3
+EN-ERR     DATA-ERR
+MEV        PER-CENT
+ 0.001      0.3
+ENDCOMMON            3
+DATA                 4         78
+EN         DATA       DATA-ERR1  FLAG
+MEV        MICRO-B    MICRO-B    NO-DIM
+ 0.9402     0.2919E-01 0.7115E-02  1.000
+ 0.9405     0.1664E-01 0.5090E-02  2.000
+ 0.9599     0.2034E-01             2.000
+ 0.9632     0.3024E-01             1.000
+ 0.9805     0.2224E-01             2.000
+ 0.9812     0.3377E-01             1.000
+  1.000     0.5320E-01             1.000
+  1.001     0.3452E-01             2.000
+  1.020     0.8942E-01             1.000
+  1.020     0.5436E-01             2.000
+  1.040     0.9739E-01 0.1396E-01  1.000
+  1.040     0.8154E-01 0.2350E-01  2.000
+  1.060     0.1530                 2.000
+  1.061     0.1989                 1.000
+  1.081     0.1748                 2.000
+  1.082     0.2878                 1.000
+  1.101     0.2635                 2.000
+  1.102     0.4271                 1.000
+  1.121     0.5539     0.1180      1.000
+  1.121     0.4356                 2.000
+  1.141     0.5066                 1.000
+  1.141     0.4384     0.1095      2.000
+  1.161     0.4774                 1.000
+  1.161     0.3425                 2.000
+  1.180     0.4753                 2.000
+  1.181     0.4301                 1.000
+  1.200     0.4830                 2.000
+  1.201     0.4053                 1.000
+  1.220     0.5680                 2.000
+  1.221     0.4877     0.1048      1.000
+  1.241      1.063                 1.000
+  1.241     0.9623     0.2261      2.000
+  1.261      1.311                 1.000
+  1.261      1.171                 2.000
+  1.282      1.299                 1.000
+  1.282      1.411                 2.000
+  1.301      1.753                 1.000
+  1.301      1.820                 2.000
+  1.321      1.754     0.3981      1.000
+  1.321      1.840                 2.000
+  1.340      2.397     0.5294      2.000
+  1.341      3.193                 1.000
+  1.360      3.578                 2.000
+  1.361      4.598                 1.000
+  1.380      4.917                 2.000
+  1.381      6.524                 1.000
+  1.400      8.089                 1.000
+  1.400      5.272                 2.000
+  1.419      6.230                 2.000
+  1.421      9.214      2.036      1.000
+  1.440      15.41                 1.000
+  1.440      9.764      2.221      2.000
+  1.459      10.52                 2.000
+  1.460      16.29                 1.000
+  1.479      13.11                 2.000
+  1.482      21.66                 1.000
+  1.499      21.89                 2.000
+  1.501      35.69                 1.000
+  1.519      38.19                 2.000
+  1.521      80.93      14.48      1.000
+  1.539      61.33      12.82      2.000
+  1.540      195.8                 1.000
+  1.559      92.45                 2.000
+  1.563      322.7                 1.000
+  1.578      142.8                 2.000
+  1.581      451.0                 1.000
+  1.598      271.9                 2.000
+  1.602      643.0                 1.000
+  1.619      405.9                 2.000
+  1.622      846.5      171.6      1.000
+  1.638      474.9      82.15      2.000
+  1.641      885.8                 1.000
+  1.656      501.7                 2.000
+  1.663      798.1                 1.000
+  1.675      473.9                 2.000
+  1.682      663.9                 1.000
+  1.700      494.8                 1.000
+  1.721      338.8      64.66      1.000
+ENDDATA             80
+ENDSUBENT          101
+SUBENT        F0538003   20030427   20030930   20050926       0000
+BIB                  3          4
+REACTION  1(5-B-11(A,0),,EN)
+          2(5-B-11(A,EL),,WID)
+ERR-ANALYS (ERR-T) Energy error
+STATUS     (TABLE) Tab.1
+ENDBIB               4
+NOCOMMON
+DATA                 4          6
+DATA      1ERR-T     1DATA      2ERR-T     2
+MEV        MEV        KEV        KEV
+  1.070     0.2000E-01 0.1000E-01 0.1000E-01
+  1.200     0.1000E-01 0.3000     0.2000
+  1.320     0.1000E-01 0.1000     0.8000E-01
+  1.500     0.1000E-01 0.2500     0.5000E-01
+  1.570     0.1000E-01 0.9000     0.7000
+  1.570     0.1000E-01 0.9000     0.4000
+ENDDATA              8
+ENDSUBENT           17
+ENDENTRY             3

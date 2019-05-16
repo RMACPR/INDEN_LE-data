@@ -1,0 +1,430 @@
+ENTRY            L0053     970129              20050926       0000
+SUBENT        L0053001     970129              20050926       0000
+BIB                 14         81
+INSTITUTE  (1USALRL,3AULAML,1CANSAS,1CANTOR)
+REFERENCE  (J,PR/C,26,777,8209)
+AUTHOR     (J.W.JURY,B.L.BERMAN,J.G.WOODWORTH,N.T.THOMPSON,
+           R.E.PYWELL,K.G.MCNEILL)
+TITLE      Photoneutron cross sections for 15N.
+FACILITY   (LINAC,1USALRL)
+INC-SOURCE (QMPH,ARAD) Positron annihilation in flight.
+           The energy resolution (FWHM) of the annihilated-
+            radiation component of the photon beam varied from
+            150 keV for photon energies near 11 MeV to 450 keV for
+            the highest energies used.
+SAMPLE     The 62.0-g sample was in form of 15N gas (isotopic
+            purity 98.9%) contained in a 1-m long by 2.54-cm
+            diameter (volume=0.507 l) sample holder at a preasure
+            of 11.5 mpa (113.5 atm).
+DETECTOR   (BF3) Neutron 4pi detector, consisting of a 61-cm cube
+            of paraffin containing 48 BF3 tubes arranged in four
+            concentric rings of 12 tubes each.
+METHOD     (EXTB,RINGR) Direct photoneutron detection.
+           Ring-ratio neutron multiplicity measurement.
+ANALYSIS   After the recorded neutron events were corrected for
+            pileup in the detector, the neutron backgrounds
+            (annihilation target removed) were substracted for
+            both the positron and electron measurements.
+           Because the energy spectrum of the annihilation-plus-
+            Bremsstrahlung radiation differs from that of purely
+            Bremsstrahlung photons, a measured correction was
+            applied to the ion-chamber (beam monitor) response to
+            normalize the electron data to the positron data.
+           The normalized electron data then were substracted from
+            the positron data, leaving the neutron counts which
+            result only from the annihilation radiation.
+           The measured sample-blank data, normalized to equal
+            photon flux, were substracted from the target data to
+            give the net target results.
+           After a small correction for the neutron multiplicity
+            in each ring, the data were corrected for the energy-
+            dependent efficiency of the neutron detector using the
+            ring-ratio result for each energy.
+           The data were converted to photoneutron cross sections
+            by applying the measured ion-chamber response per
+            photon, the known number of target nuclei in the beam,
+            and a small correction for the photon attenuation in
+            the sample.
+           A multiplicity analysis of the number of neutrons
+            recordered in each beam burst allows the (gamma,n) and
+            (gamma,2n) yields to be extracted simultaneously and
+            independently.
+ERR-ANALYS (DATA-ERR2) Possible systematic errors associated with
+            the cross sections do not exceed 7% at energies below
+            about 15 MeV, but might reach 20% at higher energies.
+CORRECTION Corrected for:
+           - pileup of counts in the detector,
+           - ion-chamber response to electron and positron,
+             produced radiation,
+           - neutron multiplicities in each ring,
+           - photon attenuation in the sample.
+COMMENT    A very broad giant dipole resonance extending from
+            about 16 to 30 MeV was observed, with a maximum
+            (gamma,n-tot) cross section of about 11 mb at 23.5
+            MeV.
+           The magnitude of the measured average photoneutron
+            energies shows that most of the strength below 15 MeV
+            decays to the ground state of 14N, whereas most of the
+            strength in the giant resonance decays to excited
+            states.
+           Comparison with particle-capture cross section data
+            indicates that multiparticle-multihole interference
+            effects probably account for some of the pronounced
+            intermediate structure observed above 16 MeV in the
+            (gamma,n) cross section.
+           Comparison with a recent shell-model calculation favor
+            the use of a Tabakin potential over a delta-function
+            force with a sober exchange mixture, in marked
+            contrast with recent corresponding results for 13C and
+            17O.
+           Comparisons are also made to features of recently
+            measured photoreaction cross sections for 12,13C,
+            14,15N, and 16,17,18O.
+HISTORY    (891207C)
+           (950406A) BIB Updated
+ENDBIB              81
+COMMON               1          3
+DATA-ERR2
+PER-CENT
+ 20.
+ENDCOMMON            3
+ENDSUBENT           88
+SUBENT        L0053002     970129              20050926       0000
+BIB                  3          4
+REACTION   ((7-N-15(G,N)7-N-14,,SIG)+(7-N-15(G,N+P)6-C-13,,SIG))
+           Threshold of the reaction (gamma,n+p) is 18.4 MeV.
+ERR-ANALYS (DATA-ERR1) Statistical errors only.
+STATUS     Converted from Berman compilation.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3        102
+EN         DATA       DATA-ERR1
+MEV        MB         MB
+ 10.802      0.21      1.30
+ 10.969      1.01      1.39
+ 11.135      1.53      1.14
+ 11.302      0.37      0.77
+ 11.421      0.28      1.07
+ 11.540      0.86      0.98
+ 11.659      1.90      0.77
+ 11.778      1.55      0.93
+ 11.945      1.73      0.86
+ 12.111      1.46      0.86
+ 12.278      1.07      0.62
+ 12.444      0.90      0.96
+ 12.611      0.39      0.80
+ 12.778      0.58      0.78
+ 12.944      1.08      0.67
+ 13.111      1.00      0.65
+ 13.277      1.27      0.60
+ 13.444      1.43      0.76
+ 13.611      1.16      0.87
+ 13.777      1.93      0.80
+ 13.944      1.77      0.74
+ 14.110      2.09      0.66
+ 14.277      1.98      0.73
+ 14.444      1.71      0.75
+ 14.610      1.71      0.81
+ 14.777      1.39      0.80
+ 14.943      1.42      0.70
+ 15.110      1.40      0.84
+ 15.348      1.39      0.57
+ 15.586      1.42      0.69
+ 15.824      1.74      0.59
+ 16.062      3.05      0.58
+ 16.300      3.53      0.55
+ 16.538      3.44      0.65
+ 16.776      4.08      0.69
+ 17.014      4.86      0.63
+ 17.252      5.77      0.60
+ 17.490      4.69      0.67
+ 17.728      3.62      0.61
+ 17.966      2.52      0.57
+ 18.204      2.90      0.51
+ 18.442      4.36      0.45
+ 18.680      4.15      0.54
+ 18.918      3.98      0.56
+ 19.156      4.25      0.58
+ 19.394      5.54      0.54
+ 19.632      4.48      0.54
+ 19.870      5.31      0.50
+ 20.108      5.66      0.49
+ 20.227      5.93      0.52
+ 20.465      5.99      0.50
+ 20.584      5.49      0.50
+ 20.703      4.44      0.56
+ 20.822      4.39      0.61
+ 20.941      4.86      0.40
+ 21.060      5.36      0.52
+ 21.298      5.10      0.53
+ 21.536      5.39      0.57
+ 21.774      6.80      0.53
+ 22.012      7.66      0.45
+ 22.250      6.47      0.58
+ 22.488      9.68      0.81
+ 22.726      8.78      0.93
+ 22.964     11.68      0.85
+ 23.202      8.91      0.99
+ 23.440      8.58      1.03
+ 23.678      9.85      0.97
+ 23.916     10.41      0.94
+ 24.154      6.86      0.80
+ 24.392      7.05      0.90
+ 24.630      7.54      0.66
+ 24.868      9.33      0.63
+ 25.106      9.62      0.69
+ 25.344      8.68      0.81
+ 25.582      8.61      0.83
+ 25.820      6.72      0.80
+ 26.058      6.39      1.02
+ 26.296      6.82      0.60
+ 26.534      5.68      0.60
+ 26.772      3.82      0.62
+ 27.010      4.26      0.63
+ 27.248      3.75      0.66
+ 27.486      4.97      0.65
+ 27.724      3.60      0.69
+ 27.962      3.86      0.70
+ 28.438      4.37      0.70
+ 28.914      3.72      0.84
+ 29.390      2.75      0.77
+ 29.866      2.00      0.60
+ 30.342      1.84      0.54
+ 30.818      1.32      0.70
+ 31.294      1.25      0.77
+ 32.246      2.11      1.15
+ 32.722      2.97      1.49
+ 33.674      1.30      1.00
+ 35.102      0.93      0.98
+ 35.578      1.63      1.00
+ 36.054      2.71      0.97
+ 36.530      1.52      0.98
+ 37.006      1.34      0.97
+ 37.482      2.10      1.02
+ 37.958      0.78      1.08
+ENDDATA            104
+ENDSUBENT          113
+SUBENT        L0053003     970129              20050926       0000
+BIB                  4          6
+REACTION   ((7-N-15(G,2N)7-N-13,,SIG)+
+           (7-N-15(G,2N+P)6-C-12,,SIG))
+            Threshold of the reaction (gamma,2n+p) is 23.3 MeV.
+ERR-ANALYS (DATA-ERR1) Statistical errors only.
+STATUS     Converted from Berman compilation.
+HISTORY    (950406A) REACTION corrected.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3         56
+EN         DATA       DATA-ERR1
+MEV        MB         MB
+ 19.632     -0.01      0.00
+ 19.870      0.00      0.02
+ 20.108      0.01      0.02
+ 20.227      0.03      0.03
+ 20.465      0.06      0.03
+ 20.584      0.00      0.03
+ 20.703      0.07      0.04
+ 20.822     -0.01      0.01
+ 20.941      0.01      0.02
+ 21.060      0.00      0.02
+ 21.298      0.05      0.03
+ 21.536      0.03      0.03
+ 21.774      0.04      0.03
+ 22.012      0.00      0.03
+ 22.250      0.08      0.04
+ 22.488      0.09      0.04
+ 22.726      0.12      0.05
+ 22.964      0.05      0.04
+ 23.202      0.17      0.06
+ 23.440      0.06      0.05
+ 23.678      0.05      0.04
+ 23.916      0.04      0.05
+ 24.154      0.21      0.07
+ 24.392      0.00      0.15
+ 24.630      0.32      0.08
+ 24.868      0.20      0.08
+ 25.106      0.48      0.10
+ 25.344      0.88      0.13
+ 25.582      0.89      0.14
+ 25.820      0.90      0.14
+ 26.058      0.79      0.23
+ 26.296      0.70      0.11
+ 26.534      0.70      0.11
+ 26.772      0.91      0.15
+ 27.010      0.70      0.15
+ 27.248      0.89      0.16
+ 27.486      0.60      0.15
+ 27.724      0.94      0.16
+ 27.962      0.89      0.16
+ 28.438      0.72      0.14
+ 28.914      0.58      0.18
+ 29.390      0.66      0.18
+ 29.866      0.84      0.16
+ 30.342      0.79      0.17
+ 30.818      1.01      0.19
+ 31.294      0.77      0.19
+ 32.246      0.68      0.20
+ 32.722      0.63      0.20
+ 33.674      0.31      0.14
+ 35.102      0.17      0.12
+ 35.578      0.25      0.12
+ 36.054      0.18      0.11
+ 36.530      0.29      0.12
+ 37.006      0.16      0.12
+ 37.482      0.10      0.12
+ 37.958      0.12      0.13
+ENDDATA             58
+ENDSUBENT           69
+SUBENT        L0053004     970129              20050926       0000
+BIB                  3          4
+REACTION   (7-N-15(G,X)0-NN-1,,SIG)
+            The sum: (G,N)+(G,N+P)+2(G,2N)+2(G,2N+P).
+ERR-ANALYS (DATA-ERR1) Statistical errors only.
+STATUS     Converted from Berman compilation.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3        102
+EN         DATA       DATA-ERR1
+MEV        MB         MB
+ 10.802      0.21      1.30
+ 10.969      1.01      1.39
+ 11.135      1.53      1.14
+ 11.302      0.37      0.77
+ 11.421      0.28      1.07
+ 11.540      0.86      0.98
+ 11.659      1.90      0.77
+ 11.778      1.55      0.93
+ 11.945      1.73      0.86
+ 12.111      1.46      0.86
+ 12.278      1.07      0.62
+ 12.444      0.90      0.96
+ 12.611      0.39      0.80
+ 12.778      0.58      0.78
+ 12.944      1.08      0.67
+ 13.111      1.00      0.65
+ 13.277      1.27      0.60
+ 13.444      1.43      0.76
+ 13.611      1.16      0.87
+ 13.777      1.93      0.80
+ 13.944      1.77      0.74
+ 14.110      2.09      0.66
+ 14.277      1.98       .73
+ 14.444      1.71      0.75
+ 14.610      1.71      0.81
+ 14.777      1.39      0.80
+ 14.943      1.42      0.70
+ 15.110      1.40      0.84
+ 15.348      1.39      0.57
+ 15.586      1.42      0.69
+ 15.824      1.74      0.59
+ 16.062      3.05      0.58
+ 16.300      3.53      0.55
+ 16.538      3.44      0.65
+ 16.776      4.08      0.69
+ 17.014      4.86      0.63
+ 17.252      5.77      0.60
+ 17.490      4.69      0.67
+ 17.728      3.62      0.61
+ 17.966      2.52      0.57
+ 18.204      2.90      0.51
+ 18.442      4.36      0.45
+ 18.680      4.15      0.54
+ 18.918      3.98      0.56
+ 19.156      4.25      0.58
+ 19.394      5.54      0.54
+ 19.632      4.46      0.54
+ 19.870      5.31      0.50
+ 20.108      5.68      0.49
+ 20.227      5.99      0.52
+ 20.465      6.11      0.50
+ 20.584      5.49      0.50
+ 20.703      4.58      0.56
+ 20.822      4.37      0.61
+ 20.941      4.88      0.40
+ 21.060      5.36      0.52
+ 21.298      5.20      0.53
+ 21.536      5.45      0.57
+ 21.774      6.88      0.53
+ 22.012      7.66      0.45
+ 22.250      6.63      0.58
+ 22.488      9.86      0.81
+ 22.726      9.02      0.93
+ 22.964     11.78      0.85
+ 23.202      9.25      0.99
+ 23.440      8.70      1.03
+ 23.678      9.95      0.97
+ 23.916     10.49      0.94
+ 24.154      7.28      0.80
+ 24.392      7.05      0.91
+ 24.630      8.18      0.66
+ 24.868      9.73      0.63
+ 25.106     10.58      0.70
+ 25.344     10.44      0.82
+ 25.582     10.39      0.84
+ 25.820      8.52      0.81
+ 26.058      7.97      1.05
+ 26.296      8.22      0.61
+ 26.534      7.08      0.61
+ 26.772      5.64      0.64
+ 27.010      5.66      0.65
+ 27.248      5.53      0.68
+ 27.486      6.17      0.67
+ 27.724      5.48      0.71
+ 27.962      5.64      0.72
+ 28.438      5.81      0.71
+ 28.914      4.88      0.86
+ 29.390      4.07      0.79
+ 29.866      3.68      0.62
+ 30.342      3.42      0.57
+ 30.818      3.34      0.73
+ 31.294      2.79      0.79
+ 32.246      3.47      1.17
+ 32.722      4.23      1.50
+ 33.674      1.92      1.00
+ 35.102      1.27      0.99
+ 35.578      2.13      1.00
+ 36.054      3.07      0.98
+ 36.530      2.10      0.99
+ 37.006      1.66      0.98
+ 37.482      2.30      1.03
+ 37.958      1.02      1.09
+ENDDATA            104
+ENDSUBENT          113
+SUBENT        L0053005     970129              20050926       0000
+BIB                  2          3
+REACTION   ((7-N-15(G,N)7-N-14,,INT)+(7-N-15(G,N+P)6-C-13,,INT)+
+           (7-N-15(G,2N)7-N-13,,INT))
+STATUS     (DEP,L0053004) Data taken from TABLE 2 in article
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     EN-MAX     DATA
+MEV        MEV        MB*MEV
+  10.8       38.        105.9
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        L0053007     970129              20050926       0000
+BIB                  2          2
+REACTION   ((7-N-15(G,N)7-N-14,,INT)+(7-N-15(G,N+P)6-C-13,,INT))
+STATUS     (DEP,L0053002) Data taken from TABLE 2 in article
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     EN-MAX     DATA
+MEV        MEV        MB*MEV
+  10.8       38.        98.4
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        L0053008     970129              20050926       0000
+BIB                  2          2
+REACTION   (7-N-15(G,2N)7-N-13,,INT)
+STATUS     (DEP,L0053003) Data taken from TABLE 2 in article
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     EN-MAX     DATA
+MEV        MEV        MB*MEV
+  10.8       38.          7.6
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY             7

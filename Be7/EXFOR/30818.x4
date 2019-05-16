@@ -1,0 +1,83 @@
+ENTRY            30818   20090910   20091224   20091223       3141
+SUBENT        30818001   20090910   20091224   20091223       3141
+BIB                  8         14
+INSTITUTE  (3HUNKOS)
+REFERENCE  (C,82ANTWER,,368,198209)
+           (P,INDC(HUN)-17,50,198006) Preliminary data
+           (W,CSIKAI,19850411) Monitor values + En-errors
+AUTHOR     (Z.T.Body,F.Cserpak,J.Csikai,S.Sudar,K.Mihaly)
+TITLE      Measurement and evaluation of (n,t) cross sections
+FACILITY   (CCW,3HUNKOS)
+INC-SOURCE (D-T)
+STATUS     (TABLE) Data taken from priv.comm.Csikai,11 April 1985.
+           Work performed under IAEA contract 3114/RBb,within the
+           framework of the Interregional Project INT/1/018.
+           This entry supersedes entry 30603
+HISTORY    (19851121C) DG.-
+           (20090725A) SD:Updated to new date formats,lower case.
+ENDBIB              14
+NOCOMMON             0          0
+ENDSUBENT           17
+SUBENT        30818002   20090910   20091224   20091223       3141
+BIB                  8         16
+REACTION   (4-BE-9(N,T)3-LI-7,,SIG)
+SAMPLE     Natural beryllium samples 1.5-2.3 g.
+METHOD     Tritium beta counting
+DETECTOR   (PROPC) Gas filled proportional counter
+           (GELI) for monitors
+MONITOR    ((MONIT1)79-AU-197(N,2N)79-AU-196-G,,SIG)
+           ((MONIT2)41-NB-93(N,2N)41-NB-92-M,,SIG)
+DECAY-MON  ((MONIT1)79-AU-196-G,6.17D,DG,333.,0.23,DG,355.,0.88)
+           ((MONIT2)41-NB-92-M,10.15D,DG,934.,0.992)
+ERR-ANALYS (DATA-ERR) Uncertainty includes:
+           (ERR-1) Determination of averaged neutron flux    8.%
+           (ERR-S) Statistical error of tritium B(-)
+                                            activity meas.  12.%
+           (ERR-2) Uncertainty of the mass of Be samples     5.%
+HISTORY    (20090725A) SD:Cosmetic changes, codes for partial
+           uncertainties and data to COMMON section are added.
+ENDBIB              16
+COMMON               3          3
+ERR-1      ERR-2      ERR-S
+PER-CENT   PER-CENT   PER-CENT
+  8.0         12.0       5.0
+ENDCOMMON            3
+DATA                 9          6
+EN         +EN-ERR    -EN-ERR    DATA       DATA-ERR   MONIT1
+MONIT1-ERR MONIT2     MONIT2-ERR
+MEV        MEV        MEV        MB         MB         MB
+MB         MB         MB
+ 1.3520E+01 1.3000E-01 1.1000E-01 1.5500E+01 2.5000E+00 2.0700E+03
+ 1.4000E+02 4.5300E+02 2.0000E+01
+ 1.3750E+01 1.0000E-01 9.0000E-02 1.6000E+01 2.5000E+00 2.0790E+03
+ 1.4000E+02 4.5800E+02 2.0000E+01
+ 1.4120E+01 8.0000E-01 8.0000E-01 1.9100E+01 2.6000E+00 2.0880E+03
+ 1.4000E+02 4.5900E+02 2.0000E+01
+ 1.4450E+01 1.1000E-01 1.2000E-01 2.2000E+01 2.8000E+00 2.0950E+03
+ 1.4000E+02 4.6700E+02 2.0000E+01
+ 1.4710E+01 1.5000E-01 1.5000E-01 1.8900E+01 4.0000E+00 2.1000E+03
+ 1.4000E+02 4.7600E+02 2.0000E+01
+ 1.4810E+01 1.6000E-01 1.8000E-01 2.2800E+01 3.4000E+00 2.1000E+03
+ 1.4000E+02 4.7200E+02 2.0000E+01
+ENDDATA             16
+ENDSUBENT           41
+SUBENT        30818003   20090910   20091224   20091223       3141
+BIB                  6          9
+REACTION   (20-CA-40(N,T)19-K-38,,SIG)
+SAMPLE     Ca-C-O(3) powder
+METHOD     (ACTIV)
+MONITOR    (7-N-14(N,2N)7-N-13,,SIG)
+PART-DET   (B+)
+ERR-ANALYS (ERR-T) Total error 40% including:
+              * reference cross section,
+              * statistics,
+              * decay data
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 5          1
+EN         DATA       ERR-T      MONIT      MONIT-ERR
+MEV        MICRO-B    MICRO-B    MB         MB
+ 1.4700E+01 3.5000E+00 1.4000E+00 7.5000E+00 6.0000E-01
+ENDDATA              3
+ENDSUBENT           17
+ENDENTRY             3

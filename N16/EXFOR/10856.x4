@@ -1,0 +1,136 @@
+ENTRY            10856     790608              20050926       0000
+SUBENT        10856001     790608              20050926       0000
+BIB                 12         22
+INSTITUTE  (1USABRN)
+REFERENCE  (J,BAP,23,525(BI1),7804)
+           (W,MAXSON,7903) TABULATED DATA
+AUTHOR     (J.BADING,D.R.MAXSON)
+TITLE      EXCITATION FUNCTION AND ANGULAR DISTRIBUTION STUDIES
+            OF N-15(N,DEUTERON)C-14-G AND N-15(N,TRITON)C-13-G
+            WITH NEUTRON ENERGIES FROM 13.6 TO 14.8-MEV.
+N-SOURCE   (D-T)
+SAMPLE     N-15 ENRICHED MELAMINE TARGETS (N(6)C(3)H(6)).
+           SAMPLE THICKNESSES - 5.04,2.85 AND 2.08 MG/CM**2.
+METHOD     VACUUM EVAPORATION, DIFFERENTIAL WEIGHING, MASS
+            SPECTROSCOPY TO DETERMINE N ISOTOPIC COMPOSITION.
+DETECTOR   (TELES) TELESCOPE CONSISTING OF TWO DIFFERENTIAL GAS
+            COUNTERS AND A CESIUM-IODIDE SCINTILLATOR
+           (SOLST) SILICON DETECTOR USED FOR NEUTRON SPECTRA
+MONITOR    (1-H-1(N,EL)1-H-1,,SIG)
+CORRECTION CORRECTED FOR CONTRIBUTIONS TO RANGE OF
+            N-15(N,D0)C-14 GROUP IN MULTICHANNEL ANALYZER SPECTRUM
+            FROM N-14(N,D) AND N-14(N,T) REACTIONS IN N-14
+            CONTAMINENT OF REACTOR TARGETS.
+ERR-ANALYS ERRORS STATED AS ONE STANDARD DEVIATION.
+HISTORY    (790502C)
+ENDBIB              22
+COMMON               2          3
+E-LVL      EN-NRM
+KEV        MEV
+ 0.         14.1
+ENDCOMMON            3
+ENDSUBENT           29
+SUBENT        10856002     790608              20050926       0000
+BIB                  1          1
+REACTION   (7-N-15(N,D)6-C-14,PAR,DA)
+ENDBIB               1
+NOCOMMON
+DATA                 6         13
+EN         EN-ERR     EN-RSL     ANG        DATA       DATA-ERR
+MEV        MEV        KEV        ADEG       MB/SR      MB/SR
+ 13.59      0.02       122.        0.        2.97       0.52
+ 13.59      0.02       122.       45.        1.29       0.23
+ 13.84      0.03       119.        0.        2.44       0.48
+ 13.84      0.03       139.       45.        1.65       0.41
+ 14.08      0.03       111.        0.        2.64       0.40
+ 14.10      0.03       118.       45.        1.13       0.32
+ 14.37      0.03       173.        0.        2.68       0.56
+ 14.37      0.03       173.       45.        1.05       0.33
+ 14.55      0.03       230.        0.        2.96       0.65
+ 14.55      0.03       230.       45.        1.21       0.44
+ 14.73      0.02       183.        0.        3.28       0.51
+ 14.80      0.03       330.        0.        1.89       0.41
+ 14.80      0.03       330.       45.        1.12       0.30
+ENDDATA             15
+ENDSUBENT           21
+SUBENT        10856003     790608              20050926       0000
+BIB                  1          1
+REACTION   (7-N-15(N,T)6-C-13,PAR,DA)
+ENDBIB               1
+NOCOMMON
+DATA                 6         12
+EN         EN-ERR     EN-RSL     ANG        DATA       DATA-ERR
+MEV        MEV        KEV        ADEG       MB/SR      MB/SR
+ 13.59      0.02       122.        0.        1.52       0.52
+ 13.84      0.03       119.        0.        2.15       0.44
+ 13.84      0.03       139.       45.        1.06       0.60
+ 14.08      0.03       111.        0.        2.30       0.35
+ 14.10      0.03       118.       45.        1.31       0.33
+ 14.37      0.03       173.        0.        3.70       0.59
+ 14.37      0.03       173.       45.        1.32       0.31
+ 14.55      0.03       230.        0.        3.72       0.58
+ 14.55      0.03       230.       45.        1.74       0.38
+ 14.73      0.02       183.        0.        2.77       0.64
+ 14.80      0.03       330.        0.        3.60       0.50
+ 14.80      0.03       330.       45.        0.94       0.24
+ENDDATA             14
+ENDSUBENT           20
+SUBENT        10856004     790608              20050926       0000
+BIB                  2          3
+REACTION   (7-N-15(N,D)6-C-14,PAR,DA)
+INC-SPECT  14.08-MEV NEUTRON ENERGY VARIES BETWEEN 14.07 AND
+            14.10-MEV AMONG THE DATA POINTS
+ENDBIB               3
+NOCOMMON
+DATA                 6         21
+EN         EN-ERR     EN-RSL     ANG-CM     DATA-CM    DATA-ERR
+MEV        MEV        KEV        ADEG       MB/SR      MB/SR
+ 14.08                 120.         7.0      1.98       0.30
+ 14.08                 120.         9.5      1.71       0.29
+ 14.08                 120.        11.1      2.29       0.39
+ 14.08                 120.        14.7      2.58       0.47
+ 14.08                 120.        20.0      2.94       0.51
+ 14.08                 120.        34.8      1.88       0.38
+ 14.08                 120.        43.2      1.02       0.26
+ 14.08                 120.        51.6      0.92       0.26
+ 14.08                 120.        67.8      0.87       0.21
+ 14.08                 120.        88.9      0.35       0.20
+ 14.08                 120.       109.      -0.35       0.45
+ 14.55      0.03       240.         8.2      2.22       0.49
+ 14.55      0.03       240.        51.4      1.01       0.36
+ 14.57      0.02       240.        13.3      2.16       0.36
+ 14.57      0.02       240.        18.3      3.26       0.48
+ 14.57      0.02       240.        25.9      2.74       0.40
+ 14.57      0.02       240.        37.5      1.42       0.33
+ 14.57      0.02       240.        43.1      0.84       0.22
+ 14.57      0.02       240.        67.7      1.20       0.37
+ 14.57      0.02       240.        88.8      0.28       0.19
+ 14.57      0.02       240.       108.7      0.015      0.37
+ENDDATA             23
+ENDSUBENT           31
+SUBENT        10856005     790608              20050926       0000
+BIB                  2          3
+REACTION   (7-N-15(N,T)6-C-13,PAR,DA)
+INC-SPECT  14.08-MEV NEUTRON ENERGY VARIES BETWEEN 14.07 AND
+            14.10-MEV AMONG THE DATA POINTS
+ENDBIB               3
+NOCOMMON
+DATA                 6         13
+EN         EN-ERR     EN-RSL     ANG-CM     DATA-CM    DATA-ERR
+MEV        MEV        KEV        ADEG       MB/SR      MB/SR
+ 14.08                 120.        7.6       1.48       0.22
+ 14.08                 120.       12.0       1.51       0.29
+ 14.08                 120.       16.0       1.47       0.29
+ 14.08                 120.       22.7       1.01       0.28
+ 14.08                 120.       37.5       1.68       0.33
+ 14.08                 120.       55.4       0.96       0.24
+ 14.55      0.03       240.        8.8       2.43       0.39
+ 14.55      0.03       240.       55.0       1.43       0.28
+ 14.57      0.02       240.       14.2       2.28       0.33
+ 14.57      0.02       240.       19.6       2.13       0.33
+ 14.57      0.02       240.       27.7       2.17       0.30
+ 14.57      0.02       240.       40.2       1.79       0.29
+ 14.57      0.02       240.       72.0       0.97       0.37
+ENDDATA             15
+ENDSUBENT           23
+ENDENTRY             5

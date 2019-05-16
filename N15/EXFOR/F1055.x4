@@ -1,0 +1,210 @@
+ENTRY            F1055   20100216   20100518   20100518       F038
+SUBENT        F1055001   20100216   20100518   20100518       F038
+BIB                  9         21
+TITLE      Proton-gamma angular correlation measurements for
+           C-13(d,pg)C-14.
+AUTHOR     (J.M.Lacambra,D.R.Tilley,N.R.Roberson,R.M.Williamson)
+INSTITUTE  (1USADKE)
+REFERENCE  (J,NP,68,273,1965)
+           #doi:10.1016/0029-5582(65)90645-0
+FACILITY   (VDG,1USADKE)
+DETECTOR   (SIBAR) Angular distributions were measured at angles
+           down to 30 degr. with surface barrier detector in a 12
+           inch diameter scattering chamber.
+           (MAGSP) At forward angles <= 30 degr. data were
+           complemented by measurements with a magnetic
+           spectrometer.
+SAMPLE     Targets were obtained by cracking methyl-iodide,
+           enriched 62% in 13C, onto a nickel foil. The foil was
+           dissolved in acid and the self-supporting film of
+           carbon was then transferred to another vessel, washed,
+           and floated off onto a target ring. Target thickness
+           varied from 10 to 50 keV.
+ERR-ANALYS (ERR-DIG)    Data digitizing error
+HISTORY    (20100216C)
+ENDBIB              21
+NOCOMMON             0          0
+ENDSUBENT           24
+SUBENT        F1055002   20100216   20100518   20100518       F038
+BIB                  4          4
+REACTION   (6-C-13(D,P)6-C-14,PAR,DA,,REL)
+COMMENT    No explanation of relative units is given.
+ERR-ANALYS (EN-ERR-DIG) Energy digitizing error
+STATUS     (CURVE) Fig.1
+ENDBIB               4
+COMMON               2          3
+EN-ERR-DIG ERR-DIG
+MEV        ARB-UNITS
+ 0.0008     0.0344
+ENDCOMMON            3
+DATA                 4         84
+E-LVL      ANG        EN         DATA
+MEV        ADEG       MEV        ARB-UNITS
+       6.09        40.     2.9768     7.1746
+       6.09        40.     3.0383     6.7348
+       6.09        40.      3.097     6.2313
+       6.09        40.     3.1488     5.5367
+       6.09        40.     3.1977     5.7944
+       6.09        40.      3.304     5.1674
+       6.09        40.      3.357     6.6952
+       6.09        40.     3.4074     6.3181
+       6.09        40.     3.4548     8.5439
+       6.09        40.     3.5038     7.2142
+       6.09        40.     3.5498      8.551
+       6.09        40.     3.6001     9.5072
+       6.09        40.     3.6504     11.289
+       6.09        40.     3.6994     9.3876
+       6.09        40.      3.751     13.328
+       6.09        40.     3.7972     11.363
+       6.09        40.     3.8489     10.288
+       6.09        40.     3.8978      12.45
+       6.09        90.     2.9751     15.039
+       6.09        90.     3.0923     18.955
+       6.09        90.     3.1972     17.723
+       6.09        90.     3.3034     18.537
+       6.09        90.     3.4055     17.429
+       6.09        90.     3.5034     16.444
+       6.09        90.     3.5986     12.855
+       6.09        90.     3.6992     12.491
+       6.09        90.     3.7998     14.669
+       6.09        90.     3.8977     13.933
+       6.09        90.     3.9969     14.002
+       6.72        40.     2.9807     10.452
+       6.72        40.     3.0404     11.484
+       6.72        40.     3.0987     14.001
+       6.72        40.     3.1515     13.679
+       6.72        40.     3.2014     13.163
+       6.72        40.     3.2528     15.486
+       6.72        40.     3.3056     16.067
+       6.72        40.     3.3597     16.584
+       6.72        40.     3.4069     17.423
+       6.72        40.     3.4597     16.778
+       6.72        40.     3.5041     11.101
+       6.72        40.     3.5541     16.457
+       6.72        40.     3.6013     15.554
+       6.72        40.     3.6541     14.328
+       6.72        40.     3.6985     14.264
+       6.72        40.      3.754     18.265
+       6.72        40.     3.7985      12.33
+       6.72        40.     3.8499      13.62
+       6.72        40.     3.8998     14.137
+       6.72        40.     3.9554      13.17
+       6.72        90.     2.9793     5.4769
+       6.72        90.     3.0973     6.7692
+       6.72        90.     3.2001     6.7692
+       6.72        90.     3.3042     8.4307
+       6.72        90.     3.4056     8.6153
+       6.72        90.     3.5028     7.4461
+       6.72        90.        3.6     6.3999
+       6.72        90.     3.6986     5.2306
+       6.72        90.     3.7985     6.2152
+       6.72        90.     3.8999     7.0767
+       6.72        90.     3.9957     7.3844
+       7.34        40.     3.0454      5.875
+       7.34        40.      3.103     4.6874
+       7.34        40.     3.1565     3.6249
+       7.34        40.     3.2003     7.3748
+       7.34        40.     3.5486      10.75
+       7.34        40.     3.6021     6.7496
+       7.34        40.     3.6542     9.7495
+       7.34        40.     3.7008     9.1245
+       7.34        40.     3.7474     12.374
+       7.34        40.     3.8009     8.3744
+       7.34        40.     3.8434     10.312
+       7.34        40.      3.901     10.749
+       7.34        40.      3.949     9.2493
+       7.34        40.     3.9929     14.249
+       7.34        90.     2.9892     3.5077
+       7.34        90.     3.2031     4.7378
+       7.34        90.     3.3073     5.6605
+       7.34        90.      3.406     5.9679
+       7.34        90.     3.5047      6.583
+       7.34        90.     3.6021     5.5981
+       7.34        90.     3.7008      6.767
+       7.34        90.     3.8009     5.7821
+       7.34        90.      3.901     5.8433
+       7.34        90.     3.9956     5.9046
+ENDDATA             86
+ENDSUBENT           99
+SUBENT        F1055003   20100216   20100518   20100518       F038
+BIB                  4          5
+REACTION   (6-C-13(D,P)6-C-14,PAR,DA,,REL)
+COMMENT    No explanation of relative units is given.
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+           (DATA-ERR)   Error from the graphic bars
+STATUS     (CURVE) Fig.3
+ENDBIB               5
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       ARB-UNITS
+ 3.7        6.09       0.0834     0.0082
+ENDCOMMON            3
+DATA                 3          7
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+     17.144     3.8214     0.3012
+     22.379     1.9907    0.24096
+      27.36     1.0757    0.14458
+     30.275    0.63024    0.19277
+      33.55    0.46197    0.16867
+     38.523    0.17342    0.14458
+     44.099    0.17411    0.15663
+ENDDATA              9
+ENDSUBENT           23
+SUBENT        F1055004   20100216   20100518   20100518       F038
+BIB                  4          5
+REACTION   (6-C-13(D,P)6-C-14,PAR,DA,,REL)
+COMMENT    No explanation of relative units is given.
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+           (DATA-ERR)   Error from the graphic bars
+STATUS     (CURVE) Fig.3
+ENDBIB               5
+COMMON               3          3
+EN         ANG-ERR-D  ERR-DIG
+MEV        ADEG       ARB-UNITS
+  3.7       0.0118     0.0495
+ENDCOMMON            3
+DATA                 4         38
+E-LVL      ANG-CM     DATA-CM    DATA-ERR
+MEV        ADEG       ARB-UNITS  ARB-UNITS
+       6.72     31.862     21.588     1.8947
+       6.72     35.013     22.365
+       6.72     37.677     25.281
+       6.72     40.585     26.641
+       6.72     43.009      27.03     1.1174
+       6.72     46.162     25.281      1.166
+       6.72     51.739     23.095
+       6.72     56.833     19.791     1.1173
+       6.72     62.169     16.293
+       6.72     72.354      11.97      1.168
+       6.72     77.447     9.1036
+       6.72     81.812     7.5977
+       6.72     87.146     6.4805     1.0688
+       6.72     97.086      5.752
+       6.72     107.27      6.141
+       6.72     116.96     6.8701
+       6.72     126.18     7.3076
+       6.72     135.15     8.3767
+       7.34      14.47     26.853     3.9938
+       7.34     17.611     27.488
+       7.34     23.644     29.197
+       7.34     29.931     30.175     3.0684
+       7.34     32.084     31.979
+       7.34     35.227     32.468
+       7.34     37.426     31.398
+       7.34     40.129     29.208      1.315
+       7.34     45.304     24.048
+       7.34     50.675     21.763     1.4125
+       7.34     56.297     18.893
+       7.34      61.65     17.727
+       7.34     72.867     13.741     1.3637
+       7.34     77.744     11.991
+       7.34     88.207      9.611
+       7.34     98.424     7.4259     1.4612
+       7.34      108.9     4.4618
+       7.34     118.08     6.1725
+       7.34     127.54     6.1787
+       7.34     136.26     6.1358
+ENDDATA             40
+ENDSUBENT           54
+ENDENTRY             4

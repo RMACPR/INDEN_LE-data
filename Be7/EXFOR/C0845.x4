@@ -1,0 +1,163 @@
+ENTRY            C0845   20011206   20020215   20050926       0000
+SUBENT        C0845001   20011206   20020215   20050926       0000
+BIB                  9         11
+INSTITUTE  (1USAWIS)
+REFERENCE  (J,PR,84,1124,195112)
+AUTHOR     (S.Bashkin,H.T.Richards)
+TITLE      Proton Bombardment of the Lithium Isotopes
+SAMPLE     Lithium metal sample evaporated onto nickel backings.
+            Targets about 10 keV thick for 2-MeV protons.
+DETECTOR   (PROPC)
+MONITOR    Lithium target thickness measured using 7Li(p,n)
+            reaction.
+ERR-ANALYS No information on uncertainties.
+HISTORY    (20011206C) VM
+ENDBIB              11
+COMMON               2          3
+ANG        ANG-ERR
+ADEG       ADEG
+164.         5.
+ENDCOMMON            3
+ENDSUBENT           18
+SUBENT        C0845002   20011206   20020215   20050926       0000
+BIB                  3          4
+REACTION   (3-LI-6(P,EL)3-LI-6,,DA,,RTH)
+ANALYSIS   Ratio to Rutherford cross section calculated for
+            SigmaBase.
+STATUS     Data downloaded from SigmaBase Web site.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2         49
+EN         DATA
+MEV        NO-DIM
+  1.167      1.02
+  1.240      1.33
+  1.429      3.64
+  1.473      7.87
+  1.502      9.61
+  1.546     10.86
+  1.575     12.13
+  1.604     13.33
+  1.633     16.12
+  1.648     17.35
+  1.692     20.92
+  1.721     20.79
+  1.750     22.38
+  1.794     22.59
+  1.808     23.90
+  1.852     24.08
+  1.881     21.59
+  1.910     21.21
+  1.954     18.46
+  1.983     19.24
+  1.998     18.38
+  2.042     16.55
+  2.056     18.01
+  2.100     15.99
+  2.158     16.89
+  2.202     14.51
+  2.217     13.57
+  2.275     14.30
+  2.290     12.67
+  2.333     13.16
+  2.362     15.42
+  2.392     13.83
+  2.450     14.51
+  2.465     13.28
+  2.494     11.45
+  2.567     12.51
+  2.625     12.69
+  2.654     15.00
+  2.669     13.12
+  2.742     16.44
+  2.771     14.14
+  2.785     12.06
+  2.844     12.57
+  2.873      9.50
+  2.946     11.49
+  2.975     11.21
+  3.004     11.95
+  3.062     15.65
+  3.092     15.40
+ENDDATA             51
+ENDSUBENT           60
+SUBENT        C0845003   20011206   20020215   20050926       0000
+BIB                  2          2
+REACTION   (3-LI-6(P,HE3)2-HE-4,,DA)
+STATUS     (UNOBT) Data given in Fig. 4 of reference.
+ENDBIB               2
+NOCOMMON             0          0
+NODATA               0          0
+ENDSUBENT            6
+SUBENT        C0845004   20011206   20020215   20050926       0000
+BIB                  3          4
+REACTION   (3-LI-7(P,EL)3-LI-7,,DA,,RTH)
+ANALYSIS   Ratio to Rutherford cross section calculated for
+            SigmaBase.
+STATUS     Data downloaded fron SigmaBase Web site.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2         50
+EN         DATA
+MEV        NO-DIM
+  0.881      0.82
+  0.950      1.90
+  1.029      3.95
+  1.041      4.05
+  1.053      4.14
+  1.104      3.73
+  1.191      3.63
+  1.337      3.94
+  1.361      4.00
+  1.385      4.23
+  1.507      4.91
+  1.531      4.86
+  1.567      5.21
+  1.592      5.37
+  1.628      5.38
+  1.665      5.25
+  1.714      5.17
+  1.738      5.05
+  1.763      5.19
+  1.799      5.56
+  1.823      5.86
+  1.835      6.09
+  1.871      6.97
+  1.883      6.26
+  1.895      6.67
+  1.906      8.71
+  1.907      7.41
+  2.048     29.40
+  2.071     30.86
+  2.109     30.78
+  2.220     12.75
+  2.271      9.62
+  2.348     22.51
+  2.370     26.99
+  2.393     29.08
+  2.404     31.44
+  2.452     33.53
+  2.488     35.64
+  2.524     36.69
+  2.525     36.12
+  2.561     37.47
+  2.585     37.89
+  2.609     39.21
+  2.829     42.51
+  2.913     47.01
+  3.106     55.25
+  3.238     62.46
+  3.407     72.34
+  3.527     80.94
+  3.682     96.86
+ENDDATA             52
+ENDSUBENT           61
+SUBENT        C0845005   20011206   20020215   20050926       0000
+BIB                  2          2
+REACTION   (3-LI-7(P,INL)3-LI-7,,DA)
+STATUS     (UNOBT) Data given in Fig. 7 of reference.
+ENDBIB               2
+NOCOMMON             0          0
+NODATA               0          0
+ENDSUBENT            6
+ENDENTRY             5

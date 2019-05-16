@@ -1,0 +1,362 @@
+ENTRY            41648   20180128   20180402   20180319       4177
+SUBENT        41648001   20180128   20180402   20180319       4177
+BIB                 13         25
+TITLE       Measurement of the effective cross-sections of neutron
+           absorption in the middle energy range.
+AUTHOR     (Yu.A.Prokhorov)
+INSTITUTE  (4RUSFEI)
+REFERENCE  (T,PROKHOROV,1956)
+REL-REF    (O,41626001,Yu.A.Prokhorov,T,PROKHOROV,1956)
+              Resonance integrals measured.
+FACILITY   (REAC,4RUSFEI) PF-K reactor.
+INC-SOURCE (THCOL) Heavy water thermal column in PF-K reactor.
+INC-SPECT   Thermal spectrum of Fermi shape, could be described
+            approximately as F(E)dE ~= dE/E**1.05.
+            Cadmium ratio was measured by U-235 ionization chamber
+            to be 32.0 at the center of the thermal column.
+SAMPLE     Li(2)CO(3) with graphite powder. For normalization.
+            Thickness, mg Li/cm3 - 9.5, 9.6, 9.2, 9.1, 22.9
+METHOD     (ACTIV) Cyclic activation. One cycle time 80 sec.
+           Reactor reactivity was measured with and without Cd
+             (0.25 mm thickness) for several samples.
+DETECTOR   (IOCH) Ionization boron chamber KNT-52 in paraffin
+           block of 100 mm diameter. Filled with Ar.
+           Sensitivity 1.45E-14 a.cm2sec/neutron for thermal
+           neutrons.
+           Detection efficiency ~1.E-4 .
+MONITOR     Normalization was done by measurements by Li and C .
+HISTORY    (20180128C) M.M.
+ENDBIB              25
+COMMON               1          3
+EN-DUMMY
+EV
+ 0.0253
+ENDCOMMON            3
+ENDSUBENT           32
+SUBENT        41648002   20180128   20180402   20180319       4177
+BIB                  6         11
+REACTION   (1-H-WTR(N,G),,SIG,,MXW)
+            Thermal neutron absorption cross section
+SAMPLE      Weight 4.86 gram. Thickness 1.0 cm (diameter).
+COMMENT     A,,D.Hughes,J.Harvey, Neutron Cross Section. 1955.
+             Value 0.66+-0.01 barn
+ERR-ANALYS (DATA-ERR) Mainly due to statistics, neutron beam
+           fluctuation, fluctuation of induced activity
+           measurement sensitivity.
+STATUS     (TABLE) Table 1 of T,PROKHOROV,1956
+HISTORY    (20180128A) N,ABS -> N,G corrected according to a
+            comment of N.Otsuka ( NDS,IAEA).
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 0.82       0.05
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        41648003   20180128   20180402   20180319       4177
+BIB                  6         11
+REACTION   (4-BE-9(N,G)4-BE-10,,SIG,,MXW)
+            Thermal neutron absorption cross section
+SAMPLE      BeO powder, weight 6.143 gram. Thickness 0.23 cm .
+COMMENT     A,,D.Hughes,J.Harvey, Neutron Cross Section. 1955.
+             Value 0.010+-0.001 barn
+ERR-ANALYS (DATA-ERR) Mainly due to statistics, neutron beam
+           fluctuation, fluctuation of induced activity
+           measurement sensitivity.
+STATUS     (TABLE) Table 1 of T,PROKHOROV,1956
+HISTORY    (20180128A) N,ABS -> N,G corrected according to a
+            comment of N.Otsuka ( NDS,IAEA).
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 0.018      0.010
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        41648004   20180128   20180402   20180319       4177
+BIB                  6         13
+REACTION   (6-C-0(N,G),,SIG,,MXW)
+            Thermal neutron absorption cross section
+SAMPLE     Graphite powder, weight 5.405 gram, thickness 0.42 cm .
+           Graphite brick, density 1.65, weight 7.37 gram,
+           thickness 0.95 cm .
+COMMENT     A,,D.Hughes,J.Harvey, Neutron Cross Section. 1955.
+             Value 0.032+-0.002 barn
+ERR-ANALYS (DATA-ERR) Mainly due to statistics, neutron beam
+           fluctuation, fluctuation of induced activity
+           measurement sensitivity.
+STATUS     (TABLE) Table 1 of T,PROKHOROV,1956
+HISTORY    (20180128A) N,ABS -> N,G corrected according to a
+            comment of N.Otsuka ( NDS,IAEA).
+ENDBIB              13
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 0.044      0.010
+ENDDATA              3
+ENDSUBENT           21
+SUBENT        41648005   20180128   20180402   20180319       4177
+BIB                  6         11
+REACTION   (12-MG-0(N,G),,SIG,,MXW)
+            Thermal neutron absorption cross section
+SAMPLE      Mg sample of 0.90cm thickness.
+COMMENT     A,,D.Hughes,J.Harvey, Neutron Cross Section. 1955.
+             Value 0.063+-0.004 barn
+ERR-ANALYS (DATA-ERR) Mainly due to statistics, neutron beam
+           fluctuation, fluctuation of induced activity
+           measurement sensitivity.
+STATUS     (TABLE) Table 1 of T,PROKHOROV,1956
+HISTORY    (20180128A) N,ABS -> N,G corrected according to a
+            comment of N.Otsuka ( NDS,IAEA).
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 0.062      0.007
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        41648006   20180128   20180402   20180319       4177
+BIB                  6         11
+REACTION   (24-CR-0(N,G),,SIG,,MXW)
+            Thermal neutron absorption cross section
+SAMPLE      Cr powder sample of 14.153g weight, 0.23 cm thickness.
+COMMENT     A,,D.Hughes,J.Harvey, Neutron Cross Section. 1955.
+             Value 2.9+-0.2 barn
+ERR-ANALYS (DATA-ERR) Mainly due to statistics, neutron beam
+           fluctuation, fluctuation of induced activity
+           measurement sensitivity.
+STATUS     (TABLE) Table 1 of T,PROKHOROV,1956
+HISTORY    (20180128A) N,ABS -> N,G corrected according to a
+            comment of N.Otsuka ( NDS,IAEA).
+ENDBIB              11
+NOCOMMON             0          0 3
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 3.2        0.1
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        41648007   20180128   20180402   20180319       4177
+BIB                  6         12
+REACTION   (26-FE-0(N,G),,SIG,,MXW)
+            Thermal neutron absorption cross section
+SAMPLE      Fe powder sample of 16.94 g weight, 0.24 cm thickness.
+            Fe solid sample of 31.20g weight,0.90cm thickness.
+COMMENT     A,,D.Hughes,J.Harvey, Neutron Cross Section. 1955.
+             Value 2.53+-0.06 barn
+ERR-ANALYS (DATA-ERR) Mainly due to statistics, neutron beam
+           fluctuation, fluctuation of induced activity
+           measurement sensitivity.
+STATUS     (TABLE) Table 1 of T,PROKHOROV,1956
+HISTORY    (20180128A) N,ABS -> N,G corrected according to a
+            comment of N.Otsuka ( NDS,IAEA).
+ENDBIB              12
+NOCOMMON             0          0 3
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.6        0.1
+ENDDATA              3
+ENDSUBENT           20
+SUBENT        41648008   20180128   20180402   20180319       4177
+BIB                  6         13
+REACTION   (28-NI-0(N,G),,SIG,,MXW)
+            Thermal neutron absorption cross section
+SAMPLE      Ni foil as hollow cylinder of
+            weight    3.78g,   4.62g,   7.12g,   12.43g ,
+            thickness 0.004cm, 0.006cm, 0.096cm, 0.196cm
+COMMENT     A,,D.Hughes,J.Harvey, Neutron Cross Section. 1955.
+             Value 4.6+-0.2 barn
+ERR-ANALYS (DATA-ERR) Mainly due to statistics, neutron beam
+           fluctuation, fluctuation of induced activity
+           measurement sensitivity.
+STATUS     (TABLE) Table 1 of T,PROKHOROV,1956
+HISTORY    (20180128A) N,ABS -> N,G corrected according to a
+            comment of N.Otsuka ( NDS,IAEA).
+ENDBIB              13
+NOCOMMON             0          0 3
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 4.5        0.1
+ENDDATA              3
+ENDSUBENT           21
+SUBENT        41648009   20180128   20180402   20180319       4177
+BIB                  6         12
+REACTION   (29-CU-0(N,G),,SIG,,MXW)
+            Thermal neutron absorption cross section
+SAMPLE     Cu foils of weights 3.61g , 10.67g , 14.84g ,
+                     thickness 0.04cm, 0.14cm,  0.18cm
+COMMENT     A,,D.Hughes,J.Harvey, Neutron Cross Section. 1955.
+             Value 3.7+-0.1 barn
+ERR-ANALYS (DATA-ERR) Mainly due to statistics, neutron beam
+           fluctuation, fluctuation of induced activity
+           measurement sensitivity.
+STATUS     (TABLE) Table 1 of T,PROKHOROV,1956
+HISTORY    (20180128A) N,ABS -> N,G corrected according to a
+            comment of N.Otsuka ( NDS,IAEA).
+ENDBIB              12
+NOCOMMON             0          0 3
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 3.8        0.1
+ENDDATA              3
+ENDSUBENT           20
+SUBENT        41648010   20180128   20180402   20180319       4177
+BIB                  6         13
+REACTION   (42-MO-0(N,G),,SIG,,MXW)
+            Thermal neutron absorption cross section
+SAMPLE     Mo foils as hollow cylinder of
+             weights   2.27g,   4.57g,   6.68g,   8.18g,
+             thickness 0.024cm, 0.048cm, 0.072cm, 0.096cm
+COMMENT     A,,D.Hughes,J.Harvey, Neutron Cross Section. 1955.
+             Value 2.5+-0.2 barn
+ERR-ANALYS (DATA-ERR) Mainly due to statistics, neutron beam
+           fluctuation, fluctuation of induced activity
+           measurement sensitivity.
+STATUS     (TABLE) Table 1 of T,PROKHOROV,1956
+HISTORY    (20180128A) N,ABS -> N,G corrected according to a
+            comment of N.Otsuka ( NDS,IAEA).
+ENDBIB              13
+NOCOMMON             0          0 3
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.7        0.1
+ENDDATA              3
+ENDSUBENT           21
+SUBENT        41648011   20180128   20180402   20180319       4177
+BIB                  6         15
+REACTION   (73-TA-0(N,G),,SIG,,MXW)
+            Thermal neutron absorption cross section
+SAMPLE      Flat samples:
+            Weight,g      0.558  1.06
+            Thickness,cm  0.006  0.012
+            Hollow cylinder from foil:
+            weight 1.81g, thickness 0.024 cm .
+COMMENT     A,,D.Hughes,J.Harvey, Neutron Cross Section. 1955.
+             Value 21.3+-1.0 barn
+ERR-ANALYS (DATA-ERR) Mainly due to statistics, neutron beam
+           fluctuation, fluctuation of induced activity
+           measurement sensitivity.
+STATUS     (TABLE) Table 1 of T,PROKHOROV,1956
+HISTORY    (20180128A) N,ABS -> N,G corrected according to a
+            comment of N.Otsuka ( NDS,IAEA).
+ENDBIB              15
+NOCOMMON             0          0 3
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 22.8       1.0
+ENDDATA              3
+ENDSUBENT           23
+SUBENT        41648012   20180128   20180402   20180319       4177
+BIB                  6         12
+REACTION   (74-W-0(N,G),,SIG,,MXW)
+            Thermal neutron absorption cross section
+SAMPLE      Flat sample of weight 1.01g, thickness 0.008cm .
+            Cylinder sample of weight 5.10g, thickness 0.032cm .
+COMMENT     A,,D.Hughes,J.Harvey, Neutron Cross Section. 1955.
+             Value 19.2+-1.0 barn
+ERR-ANALYS (DATA-ERR) Mainly due to statistics, neutron beam
+           fluctuation, fluctuation of induced activity
+           measurement sensitivity.
+STATUS     (TABLE) Table 1 of T,PROKHOROV,1956
+HISTORY    (20180128A) N,ABS -> N,G corrected according to a
+            comment of N.Otsuka ( NDS,IAEA).
+ENDBIB              12
+NOCOMMON             0          0 3
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 19.4       0.7
+ENDDATA              3
+ENDSUBENT           20
+SUBENT        41648013   20180128   20180402   20180319       4177
+BIB                  6         11
+REACTION   (82-PB-0(N,G),,SIG,,MXW)
+            Thermal neutron absorption cross section
+SAMPLE      Solid sample of 49.37g weight, 0.92cm thickness.
+COMMENT     A,,D.Hughes,J.Harvey, Neutron Cross Section. 1955.
+             Value 0.17+-0.01 barn
+ERR-ANALYS (DATA-ERR) Mainly due to statistics, neutron beam
+           fluctuation, fluctuation of induced activity
+           measurement sensitivity.
+STATUS     (TABLE) Table 1 of T,PROKHOROV,1956
+HISTORY    (20180128A) N,ABS -> N,G corrected according to a
+            comment of N.Otsuka ( NDS,IAEA).
+ENDBIB              11
+NOCOMMON             0          0 3
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 0.17       0.01
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        41648014   20180128   20180402   20180319       4177
+BIB                  5          8
+REACTION   (83-BI-209(N,G)83-BI-210,,SIG,,MXW)
+            Thermal neutron absorption cross section
+SAMPLE      Powder sample of 33.16g weight, 0.44 cm thickness.
+COMMENT     A,,D.Hughes,J.Harvey, Neutron Cross Section. 1955.
+             Value 0.032+-0.002 barn
+STATUS     (TABLE) Table 1 of T,PROKHOROV,1956
+HISTORY    (20180128A) N,ABS -> N,G corrected according to a
+            comment of N.Otsuka ( NDS,IAEA).
+ENDBIB               8
+NOCOMMON             0          0 3
+DATA                 1          1
+DATA-APRX
+B
+ 0.01
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        41648015   20180128   20180402   20180319       4177
+BIB                  3          5
+REACTION   (92-U-235(N,ABS),,SIG,,MXW)
+            Thermal neutron absorption cross section
+SAMPLE     Thickness 16.4 mg/cm2 , weight 0.257 g .
+           (92-U-235,ENR=0.75) On Ni foil .
+STATUS     (TABLE) Table 1 of T,PROKHOROV,1956
+ENDBIB               5
+NOCOMMON             0          0 3
+DATA                 1          1
+DATA
+B
+ 625.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        41648016   20180128   20180402   20180319       4177
+BIB                  6         18
+REACTION  1(26-FE-CMP(N,G),,SIG,,MXW)
+          2(26-FE-CMP(N,G),,SIG,,MXW)
+            Thermal neutron absorption cross section
+SAMPLE    1 Stainless steel EYaIT
+          2 Stainless steel EI-211
+            Hollow cylinder
+           weight,gram  5.60, 9.88, 13.77, 16.19, 19.00, 21.18
+           thickness,cm 0.08, 0.16, 0.24,  0.30,  0.38,  0.44
+            Solid sample of weight 30.94g,32.29g,
+                      thickness 0.90cm of both.
+COMMENT     A,,D.Hughes,J.Harvey, Neutron Cross Section. 1955.
+             Value 2.53+-0.06 barn
+ERR-ANALYS (DATA-ERR) Mainly due to statistics, neutron beam
+           fluctuation, fluctuation of induced activity
+           measurement sensitivity.
+STATUS     (TABLE) Table 1 of T,PROKHOROV
+HISTORY    (20180128A) N,ABS -> N,G corrected according to a
+            comment of N.Otsuka ( NDS,IAEA).
+ENDBIB              18
+NOCOMMON             0          0 3
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+B          B          B          B
+ 2.9        0.1        2.9        0.1
+ENDDATA              3
+ENDSUBENT           26
+ENDENTRY            16

@@ -1,0 +1,157 @@
+ENTRY            C0750   20070501   20070521   20070501       C079
+SUBENT        C0750001   20070501   20070521   20070501       C079
+BIB                  9         15
+INSTITUTE  (1USAORL)
+REFERENCE  (J,PR,134,B1237,1964)
+AUTHOR     (D.Powers,J.K.Bair,J.L.C.Ford JR,H.B.Willard)
+TITLE      Elastic Scattering of Alpha Particles by O18
+FACILITY   (VDG,1USAORL)
+SAMPLE     W4O11, containing oxygen enriched to > 97% 18O,
+            evaporated onto carbon backings. Total energy loss
+            in target < 2 keV for 2.40-MeV alphas.
+MONITOR    Normalized at 2.40 MeV to Rutherford + hard sphere
+            scattering cross sections.
+           Beam energy calibrated using threshold for
+            7Li(p,n) reaction.
+ERR-ANALYS (ERR-S) Statistical uncertainty.
+HISTORY    (20001130C) VM
+           (20061128A) DR Reference corrected to follow APS format
+ENDBIB              15
+COMMON               1          3
+ERR-S
+PER-CENT
+  6.
+ENDCOMMON            3
+ENDSUBENT           22
+SUBENT        C0750002   20001130   20010329   20050926       0000
+BIB                  3          4
+REACTION   (8-O-18(A,EL)8-O-18,,DA)
+DETECTOR   (SCIN)
+STATUS     (UNOBT) Data at 90, 125.3, and 152.3 degrees(c.m.)
+            given in Figs. 1 and 2 of reference.
+ENDBIB               4
+NOCOMMON             0          0
+NODATA               0          0
+ENDSUBENT            8
+SUBENT        C0750003   20001130   20010329   20050926       0000
+BIB                  3          5
+REACTION   (8-O-18(A,EL)8-O-18,,DA,,RTH)
+DETECTOR   (SOLST) Silicon surface-barrier detector.
+STATUS     (CURVE) Data downloaded from SIGMABASE Web site.
+            140.7 degree(c.m.) data given in Fig. 2 of
+            reference.
+ENDBIB               5
+COMMON               1          3
+ANG-CM
+ADEG
+164.4
+ENDCOMMON            3
+DATA                 2        103
+EN         DATA-CM
+KEV        NO-DIM
+  2421.      1.02
+  2421.      1.07
+  2429.      0.96
+  2443.      1.04
+  2451.      0.90
+  2459.      1.00
+  2459.      0.93
+  2462.      0.88
+  2465.      0.83
+  2467.      0.81
+  2470.      0.76
+  2475.      0.50
+  2481.      0.75
+  2489.      0.93
+  2489.      0.81
+  2495.      0.74
+  2495.      0.79
+  2503.      0.76
+  2503.      0.80
+  2514.      0.73
+  2519.      0.70
+  2522.      0.68
+  2528.      0.64
+  2530.      0.61
+  2544.      0.43
+  2557.      0.24
+  2567.      1.01
+  2573.      1.28
+  2597.      1.03
+  2605.      0.92
+  2616.      1.02
+  2627.      0.89
+  2638.      0.82
+  2646.      0.89
+  2657.      0.77
+  2663.      0.77
+  2671.      0.78
+  2677.      0.78
+  2679.      0.76
+  2687.      0.66
+  2701.      0.43
+  2714.      0.18
+  2721.      0.98
+  2732.      1.03
+  2746.      0.86
+  2757.      0.93
+  2765.      0.78
+  2779.      0.77
+  2790.      0.91
+  2801.      0.73
+  2812.      0.81
+  2833.      0.61
+  2842.      0.61
+  2855.      0.55
+  2866.      0.55
+  2878.      0.72
+  2911.      0.89
+  2922.      1.41
+  2944.      1.26
+  2955.      1.22
+  2966.      1.25
+  2977.      0.90
+  2988.      0.93
+  2999.      0.86
+  3010.      0.89
+  3021.      0.76
+  3035.      0.72
+  3046.      0.75
+  3057.      0.70
+  3068.      0.68
+  3081.      0.52
+  3103.      0.41
+  3117.      0.36
+  3123.      0.33
+  3128.      0.33
+  3134.      0.33
+  3139.      0.33
+  3153.      0.45
+  3164.      0.69
+  3187.      1.25
+  3200.      1.09
+  3212.      1.51
+  3223.      1.43
+  3237.      1.66
+  3248.      1.54
+  3259.      1.52
+  3264.      1.53
+  3272.      1.50
+  3283.      1.39
+  3294.      1.18
+  3305.      1.12
+  3330.      0.75
+  3343.      0.82
+  3357.      0.76
+  3366.      0.90
+  3393.      0.91
+  3404.      0.78
+  3418.      0.85
+  3429.      0.86
+  3440.      0.48
+  3478.      0.42
+  3489.      0.21
+  3503.      0.18
+ENDDATA            105
+ENDSUBENT          119
+ENDENTRY             3

@@ -1,0 +1,70 @@
+ENTRY            A0312   20020904   20020920   20050926       0000
+SUBENT        A0312001   20020904   20020920   20050926       0000
+BIB                 11         37
+TITLE      Angular  Distribution Measurements of 6-Li(P,ALPHA)3-He
+           Reaction at 140 KeV Proton Energy Using Nuclear Track
+           Detectors
+AUTHOR     (M.I.AL-JARALLAH, A.A.NAQVI, F.A.ABU-JARAD,
+           FAZAL-UR-REHMAN, S.M.A.DURRANI, S.KIDWAI)
+REFERENCE  (J,RM,34,331,2001)
+REL-REF    (N,A0315001,M.I.AL-JARALLAH+,J,RM,31,521,1999)
+INSTITUTE  (3SARDHA) Physics Department and Center For Applied
+           Physical Sciences.
+COMMENT    -Abstract:  Angular Distributions of a
+           6-Li(P,ALPHA)3-He Reaction were Measured at Six Angles
+           For 140 KeV Proton Energy Using Nuclear Track
+           Detectors.  The Measurements were Carried Out Over
+           60-160 Lab. Angles in 20 Increments Using a Scattering
+           Chamber of Beam Line of the 350 Kv  Accelerator.
+           Semiconductor Silicon Surface Barrier Detector was
+           Placed at +160 Degrees and was Used As a Monitor. The
+           Results have Shown That the Cr-39 Detector has
+           Excellent Capabilities to Distinguish 1.4-2.7 MeV Alpha
+           + 3-He Particles from the Reaction and 8-9.4 MeV
+           Alpha-Particles from the 7-Li(P,A)4-He Reaction Through
+           Their Track Diameters.  However,It was not Possible to
+           Distinguish Between the 2.3 MeV 3-He Ions and the 1.7
+           MeV 4-He Ions from the 6-Li(P,A)3-He Reaction from
+           Their Track Diameter Measurements, But It was Possible
+           To Differentiate Between the Two, from the Darker
+           Contrast of the 3-He Particles Caused by Its Deeper
+           Tracks As Compared to Those of 4-He.
+SAMPLE     The Lithium Targets were Prepared by Evaporating 2400
+           Angstrom Thick Li-F Layers on 1.5 Millimeters Thick
+           Tantalum Sheets.
+DETECTOR   (TRD) Cr-39 Nuclear Track Detector
+           (SIBAR) As Beam Monitor
+FACILITY   (ACCEL,3SARDHA) 350 Kilovolts Accelerator.
+METHOD     (SITA)
+HISTORY    (20020604C)
+           (20020904U) Last checking has been done.
+ENDBIB              37
+NOCOMMON
+ENDSUBENT           40
+SUBENT        A0312002   20020904   20020920   20050926       0000
+BIB                  5          7
+REACTION   (3-LI-6(P,HE3)2-HE-4,,DA,,REL)
+STATUS     (CURVE) By CAJAD.
+PART-DET   (HE3)
+ERR-ANALYS (ANG-ERR) Data Point Reader Uncertainty
+           (ERR-T) The Uncertaintyis Shown on Figure Without any
+           Analysis
+REL-REF    (A,A1445002,H.SPINKA+,J,NP/A,164,585,1971)
+ENDBIB               7
+COMMON               2          3
+EN         ANG-ERR
+KEV        ADEG
+       140.        0.6
+ENDCOMMON            3
+DATA                 3          6
+ANG-CM     DATA       ERR-T
+ADEG       ARB-UNITS  ARB-UNITS
+       63.9       0.74     5.E-02
+       85.2       0.77     5.E-02
+      105.5       0.72     5.E-02
+       124.       0.64     4.E-02
+      142.7       0.87     6.E-02
+      162.2       0.82     6.E-02
+ENDDATA              8
+ENDSUBENT           24
+ENDENTRY             2

@@ -1,0 +1,57 @@
+ENTRY            20047     830901              20050926       0000
+SUBENT        20047001     830901              20050926       0000
+BIB                 11         13
+INSTITUTE  (2NORKJL)
+REFERENCE  (J,JNE,1,286,5506)
+AUTHOR     (D.POPOVIC, E.SAELAND)
+TITLE      -THERMAL NEUTRON FISSION CROSS-SECTION OF URANIUM-233.-
+FACILITY   (REAC )    JEEP REACTOR.
+INC-SOURCE (THCOL)    THERMAL COLUMN.
+METHOD                DIRECT DETECTION OF FISSION FRAGMENTS.
+DETECTOR   (TRD  )    E1 ILFORD EMULSION TRACK DETECTOR.
+STATUS                DATA FROM PUBLICATION.
+HISTORY    (710803T)  FROM NEUDADA.
+           (710908E)
+ERR-ANALYS .STATISTICAL ERRORS,
+           .ERRORS IN MEASUREMENT OF SODIUM ACTIVATION.
+ENDBIB              13
+COMMON               1          3
+EN-DUMMY
+MEV
+ 2.5300E-08
+ENDCOMMON            3
+ENDSUBENT           20
+SUBENT        20047002     830901              20050926       0000
+BIB                  3          6
+REACTION   ((92-U-233(N,F),,SIG,,MXW)/
+           (11-NA-23(N,G)11-NA-24,,SIG,,MXW))
+PART-DET   (FF,B-)    FISSION FRAGMENTS AND DECAY BETA- ELECTRONS,
+            (FOR 11-NA-23).
+HISTORY    (710803T)  FROM NEUDADA.
+           (710908E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+NO-DIM     PER-CENT
+ 9.8500E+02 3.0000E+00
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        20047004     830901              20050926       0000
+BIB                  5          7
+REACTION   (92-U-233(N,F),,SIG,,MXW)
+MONITOR    (11-NA-23(N,G)11-NA-24,,SIG)
+              SIGMA = 0.534 B.
+PART-DET   (FF   )    FISSION FRAGMENTS.
+COMMENT    .SUPERSEDES SUBENTRY 3.
+HISTORY    (710803T)  FROM NEUDADA.
+           (710908E)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 5.2600E+02 2.6000E+01
+ENDDATA              3
+ENDSUBENT           15
+ENDENTRY             3

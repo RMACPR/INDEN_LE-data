@@ -1,0 +1,165 @@
+ENTRY            31465   20010430   20011221   20050926       0000
+SUBENT        31465001   20010430   20011221   20050926       0000
+BIB                 13         34
+INSTITUTE  (3SLKSLO) First four authors.
+           (4RUSFEI) Last author.
+REFERENCE  (R,INDC(NDS)-412,12,199912)Final report of the IAEA CRP
+           (R,INDC(NDS)-357,23,199612)Data are superseded
+AUTHOR     (S.HLAVAC,M.BENOVIC,E.BETAK, L.DOSTAL,I.TURZO,
+            S.P.SIMAKOV)
+TITLE      Cross sections for discrete gamma-ray production in
+           interaction of 14.6 MeV neutrons with light and medium
+           heavy nuclei
+FACILITY   (CCW) Neutron generator of the Institute of Physics
+           of the Slovak Academy of Sciences, Bratislava.
+INC-SOURCE (D-T)
+METHOD     (GSPEC,ASSOP,COINC) Coincidence was required of the
+           gamma rays with the associated alpha's.
+DETECTOR   (HPGE,SCIN) The 244 cm**3 HPGe gamma detector was
+           placed at an angle of 125 degree with respect to the
+           neutron beam. The detector was housed in a tungsten
+           shield to decrease the background.
+MONITOR    (24-CR-52(N,INL)24-CR-52,PAR,SIG,G) Production cross
+           section of the 1434 keV transition.
+CORRECTION Corrections have been made for attenuation of gamma
+           and neutron fluxes and for in-sample scattering.
+ERR-ANALYS Component of uncertainties are given as:
+            - Net peak area, 3-20%
+            - Reference cross section, 4-5%
+            - Detector efficiency, 3%
+            - Neutron multiple scattering, less than 3%
+            - Correction for gamma absorption, 1.5%
+STATUS     Data are from tables 4, 7 and  9 of
+           INDC(NDS)-412, Dec. 1999, pp. 18-19
+HISTORY    (19970424C)
+           (20010430A) Numerical values in subentries 2-8
+           were updated, monitor data added, sources of
+           uncertainty added
+ENDBIB              34
+COMMON               5          3
+EN         EN-ERR     E-NRM      MONIT      MONIT-ERR
+MEV        MEV        MEV        MB         MB
+14.6       0.2        1.434      683.       38.
+ENDCOMMON            3
+ENDSUBENT           41
+SUBENT        31465002   20010430   20011221   20050926       0000
+BIB                  3          3
+REACTION   (11-NA-23(N,INL)11-NA-23,PAR,SIG,G)
+EN-SEC     (E,G)
+SAMPLE     Na4P2O7 powder sample shaped as a 4.4cm*7.0cm cylinder.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 5          2
+E          DATA       DATA-ERR   E-LVL-INI  E-LVL-FIN
+KEV        MB         MB         KEV        KEV
+627.5      26.        5.         2703.5     2076.
+1636.      149.       11.        2076.      440.
+ENDDATA              4
+ENDSUBENT           12
+SUBENT        31465003   20010430   20011221   20050926       0000
+BIB                  3          3
+REACTION   (11-NA-23(N,A)9-F-20,PAR,SIG,G)
+EN-SEC     (E,G)
+SAMPLE     Na4P2O7 powder sample shaped as a 4.4cm*7.0cm cylinder.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 5          2
+E          DATA       DATA-ERR   E-LVL-INI  E-LVL-FIN
+KEV        MB         MB         KEV        KEV
+656.       45.        6.         656.       0.
+822.7      13.        2.         823.       0.
+ENDDATA              4
+ENDSUBENT           12
+SUBENT        31465004   20010430   20011221   20050926       0000
+BIB                  3          4
+REACTION   ((11-NA-23(N,N+P)10-NE-22,PAR,SIG,G)+
+           (11-NA-23(N,D)10-NE-22,PAR,SIG,G))
+EN-SEC     (E,G)
+SAMPLE     Na4P2O7 powder sample shaped as a 4.4cm*7.0cm cylinder.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 5          1
+E          DATA       DATA-ERR   E-LVL-INI  E-LVL-FIN
+KEV        MB         MB         KEV        KEV
+1274.5     194.       14.        1274.5     0.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        31465005   20010430   20011221   20050926       0000
+BIB                  3          3
+REACTION   (15-P-31(N,INL)15-P-31,PAR,SIG,G)
+EN-SEC     (E,G)
+SAMPLE     NA4P2O7, 44 mm in diameter, 70 cm in length, 118.5 g
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 5          3
+E          DATA       DATA-ERR   E-LVL-INI  E-LVL-FIN
+KEV        MB         MB         KEV        KEV
+1266.1     186.       15.        1266.1     0.
+2148.3     51.        9.         3414.6     1266.3
+2233.6     390.       30.        2233.6     0.
+ENDDATA              5
+ENDSUBENT           13
+SUBENT        31465006   20010430   20011221   20050926       0000
+BIB                  4          6
+REACTION   (23-V-51(N,INL)23-V-51,PAR,SIG,G)
+FLAG       (1.) Mistake in the original publication, corrected by
+           compiler
+EN-SEC     (E,G)
+SAMPLE     V metallic hollow cyl., 30 mm outer, 20 mm inner
+           diameter, 50 mm length, 120.3 g
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 6          9
+E          DATA       DATA-ERR   E-LVL-INI  E-LVL-FIN  FLAG
+KEV        MB         MB         KEV        KEV        NO-DIM
+928.7      46.        4.         928.7      0.
+1090.      61.        5.         2700.      1609.      1.
+1437.      25.1       3.3
+1492.9     12.5       2.2        1813.      320.
+1608.9     212.       15.        1609.      0.
+1776.7     49.0       3.5        3386.      1609.
+1813.1     70.        6.         1813.1     0.
+2004.7     12.6       2.9        3614.      1609.
+2334.9     14.5       3.2        3264.      929.
+ENDDATA             11
+ENDSUBENT           22
+SUBENT        31465007   20010430   20011221   20050926       0000
+BIB                  4          9
+REACTION   (23-V-51(N,2N)23-V-50,PAR,SIG,G)
+EN-SEC     (E,G)
+SAMPLE     V metallic hollow cyl., 30 mm outer, 20 mm inner
+           diameter, 50 mm length, 120.3 g
+FLAG       (1.) includes unresolved doublet of gamma transition
+           909.8 keV (from 909.8 keV level to the ground state)
+           and 912.9 keV (from 1301.4 keV to 388.5 keV level)
+           (2.) Mistake in the Reference 2,          corrected by
+           compiler.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 6          5
+E          DATA       DATA-ERR   E-LVL-INI  E-LVL-FIN  FLAG
+KEV        MB         MB         KEV        KEV        NO-DIM
+815.       18.9       4.9        1725.      910.
+836.3      36.0       3.3        836.3      0.0
+910.       85.        6.                               1.
+946.       20.9       2.9        1301.      355.
+1173.1     22.2       2.9        1561.7     388.4      2.
+ENDDATA              7
+ENDSUBENT           21
+SUBENT        31465008   20010430   20011221   20050926       0000
+BIB                  3          5
+REACTION   ((23-V-51(N,N+P)22-TI-50,PAR,SIG,G)+
+           (23-V-51(N,D)22-TI-50,PAR,SIG,G))
+SAMPLE     V metallic hollow cyl., 30 mm outer, 20 mm inner
+           diameter, 50 mm length, 120.3 g
+EN-SEC     (E,G)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 5          2
+E          DATA       DATA-ERR   E-LVL-INI  E-LVL-FIN
+KEV        MB         MB         KEV        KEV
+1121.1     14.5       2.3        2675.      1554.
+1553.8     34.0       3.4        1554.      0.
+ENDDATA              4
+ENDSUBENT           14
+ENDENTRY             8

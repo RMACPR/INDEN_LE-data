@@ -1,0 +1,1404 @@
+ENTRY            22518   20121225   20130812   20130718       2234
+SUBENT        22518001   20121225   20130812   20130718       2234
+BIB                  8         14
+INSTITUTE  (2UK CAV)
+REFERENCE  (J,PRS/A,162,127,1937)
+AUTHOR     (M.Goldhaber,G.H.Briggs)
+TITLE      Scattering of slow neutrons
+INC-SOURCE (RA-BE) Alphas from 100 mg radium on finely powdered
+            berylium within paraffin behind a lead cone
+INC-SPECT  Thermalized spectrum
+DETECTOR   (BF3) Boron trifluoride ionization chamber at two
+            atmospheres shielded by boron oxide and cadmium
+HISTORY    (19780330C)
+           (19991210C)  + +  converted by S.M.   + +
+           (20121225A) SD: Updated to new date formats,lower case.
+                Corrected according last EXFOR rules and Dict.
+                INC-SOURCE was corrected.
+ENDBIB              14
+COMMON               1          3
+EN-DUMMY
+EV
+ 2.5300E-02
+ENDCOMMON            3
+ENDSUBENT           21
+SUBENT        22518002   20121225   20130812   20130718       2234
+BIB                  3          3
+REACTION   (6-C-12(N,TOT),,SIG,,MXW)
+STATUS     (TABLE) From Tbl. 1 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000002
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 4.8000E+00
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22518003   20121225   20130812   20130718       2234
+BIB                  4          4
+REACTION   (1-H-1(N,TOT),,SIG,,MXW)
+SAMPLE     C(n)-H(2n+2)-paraffin
+STATUS     (TABLE) From Tbl. 1 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000003
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 4.7500E+01
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        22518004   20121225   20130812   20130718       2234
+BIB                  3          3
+REACTION   (15-P-31(N,TOT),,SIG,,MXW)
+STATUS     (TABLE) From Tbl. 1 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000004
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.3600E+01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22518005   20121225   20130812   20130718       2234
+BIB                  3          3
+REACTION   (26-FE-0(N,TOT),,SIG,,MXW)
+STATUS     (TABLE) From Tbl. 1 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000005
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.3600E+01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22518006   20121225   20130812   20130718       2234
+BIB                  3          3
+REACTION   (28-NI-0(N,TOT),,SIG,,MXW)
+STATUS     (TABLE) From Tbl. 1 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000006
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.9700E+01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22518007   20121225   20130812   20130718       2234
+BIB                  3          3
+REACTION   (29-CU-0(N,TOT),,SIG,,MXW)
+STATUS     (TABLE) From Tbl. 1 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000007
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.1900E+01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22518008   20121225   20130812   20130718       2234
+BIB                  3          3
+REACTION   (34-SE-0(N,TOT),,SIG,,MXW)
+STATUS     (TABLE) From Tbl. 1 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000008
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 2.0400E+01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22518009   20121225   20130812   20130718       2234
+BIB                  3          3
+REACTION   (47-AG-0(N,TOT),,SIG,,MXW)
+STATUS     (TABLE) From Tbl. 1 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000009
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 6.3000E+01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22518010   20121225   20130812   20130718       2234
+BIB                  3          3
+REACTION   (78-PT-0(N,TOT),,SIG,,MXW)
+STATUS     (TABLE) From Tbl. 1 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000010
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 2.1500E+01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22518011   20121225   20130812   20130718       2234
+BIB                  3          3
+REACTION   (82-PB-0(N,TOT),,SIG,,MXW)
+STATUS     (TABLE) From Tbl. 1 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000011
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.2500E+01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22518012   20121225   20130812   20130718       2234
+BIB                  3          3
+REACTION   (83-BI-209(N,TOT),,SIG,,MXW)
+STATUS     (TABLE) From Tbl. 1 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000012
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 8.9000E+00
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22518013   20121225   20130812   20130718       2234
+BIB                  6         17
+REACTION   (1-H-1(N,EL)1-H-1,BA,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+SAMPLE     C(n)-H(2n+2) paraffin
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000013
+ENDBIB              17
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 4.7500E+01
+ENDDATA              3
+ENDSUBENT           25
+SUBENT        22518014   20121225   20130812   20130718       2234
+BIB                  6         17
+REACTION   (1-H-2(N,EL)1-H-2,BA,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+SAMPLE     D(2)-O
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000014
+ENDBIB              17
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 7.0000E+00
+ENDDATA              3
+ENDSUBENT           25
+SUBENT        22518015   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (4-BE-9(N,EL)4-BE-9,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000015
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 6.9000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518016   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (6-C-12(N,EL)6-C-12,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000016
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 4.8000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518017   20121225   20130812   20130718       2234
+BIB                  6         17
+REACTION   (7-N-14(N,EL)7-N-14,BA,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+SAMPLE     Na-N(3)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000017
+ENDBIB              17
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 8.2000E+00
+ENDDATA              3
+ENDSUBENT           25
+SUBENT        22518018   20121225   20130812   20130718       2234
+BIB                  6         17
+REACTION   (8-O-16(N,EL)8-O-16,BA,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+SAMPLE     Al(2)-O(3)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000018
+ENDBIB              17
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 4.2000E+00
+ENDDATA              3
+ENDSUBENT           25
+SUBENT        22518019   20121225   20130812   20130718       2234
+BIB                  6         17
+REACTION   (9-F-19(N,EL)9-F-19,BA,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+SAMPLE     Ca-F(2)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000019
+ENDBIB              17
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 4.1000E+00
+ENDDATA              3
+ENDSUBENT           25
+SUBENT        22518020   20121225   20130812   20130718       2234
+BIB                  6         17
+REACTION   (11-NA-23(N,EL)11-NA-23,BA,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+SAMPLE     Na-F
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000020
+ENDBIB              17
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 3.6000E+00
+ENDDATA              3
+ENDSUBENT           25
+SUBENT        22518021   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (12-MG-0(N,EL)12-MG-0,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000021
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 4.2000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518022   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (13-AL-27(N,EL)13-AL-27,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000022
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.6000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518023   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (14-SI-0(N,EL)14-SI-0,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000023
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.7000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518024   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (15-P-31(N,EL)15-P-31,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000024
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.0400E+01
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518025   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (16-S-0(N,EL)16-S-0,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000025
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.1000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518026   20121225   20130812   20130718       2234
+BIB                  6         17
+REACTION   (17-CL-0(N,EL)17-CL-0,BA,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+SAMPLE     K-Cl
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000026
+ENDBIB              17
+NOCOMMON             0          0
+DATA                 1          1
+DATA-MAX
+B
+ 1.0000E+01
+ENDDATA              3
+ENDSUBENT           25
+SUBENT        22518027   20121225   20130812   20130718       2234
+BIB                  6         17
+REACTION   (19-K-0(N,EL)19-K-0,BA,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+SAMPLE     K-F
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000027
+ENDBIB              17
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.5000E+00
+ENDDATA              3
+ENDSUBENT           25
+SUBENT        22518028   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (20-CA-0(N,EL)20-CA-0,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000028
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 9.5000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518029   20121225   20130812   20130718       2234
+BIB                  6         17
+REACTION   (22-TI-0(N,EL)22-TI-0,BA,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+SAMPLE     Ti-O(2)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000029
+ENDBIB              17
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 6.2000E+00
+ENDDATA              3
+ENDSUBENT           25
+SUBENT        22518030   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (23-V-51(N,EL)23-V-51,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000030
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA-MAX
+B
+ 4.0000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518031   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (24-CR-0(N,EL)24-CR-0,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000031
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 3.6000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518032   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (25-MN-55(N,EL)25-MN-55,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000032
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 2.1000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518033   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (26-FE-0(N,EL)26-FE-0,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000033
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.0300E+01
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518034   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (27-CO-59(N,EL)27-CO-59,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000034
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA-APRX
+B
+ 5.0000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518035   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (28-NI-0(N,EL)28-NI-0,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000035
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.2400E+01
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518036   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (29-CU-0(N,EL)29-CU-0,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000036
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 8.6000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518037   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (30-ZN-0(N,EL)30-ZN-0,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000037
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 5.2000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518038   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (31-GA-0(N,EL)31-GA-0,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000038
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA-MAX
+B
+ 4.0000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518039   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (33-AS-75(N,EL)33-AS-75,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000039
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 7.1000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518040   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (34-SE-0(N,EL)34-SE-0,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000040
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.2700E+01
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518041   20121225   20130812   20130718       2234
+BIB                  6         17
+REACTION   (35-BR-0(N,EL)35-BR-0,BA,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+SAMPLE     K-Br
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000041
+ENDBIB              17
+NOCOMMON             0          0
+DATA                 1          1
+DATA-MAX
+B
+ 7.0000E+00
+ENDDATA              3
+ENDSUBENT           25
+SUBENT        22518042   20121225   20130812   20130718       2234
+BIB                  6         17
+REACTION   (38-SR-0(N,EL)38-SR-0,BA,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+SAMPLE     Sr-S
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000042
+ENDBIB              17
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 9.5000E+00
+ENDDATA              3
+ENDSUBENT           25
+SUBENT        22518043   20121225   20130812   20130718       2234
+BIB                  6         17
+REACTION   (39-Y-89(N,EL)39-Y-89,BA,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+SAMPLE     Y(2)-O(3)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000043
+ENDBIB              17
+NOCOMMON             0          0
+DATA                 1          1
+DATA-MAX
+B
+ 1.4000E+01
+ENDDATA              3
+ENDSUBENT           25
+SUBENT        22518044   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (40-ZR-0(N,EL)40-ZR-0,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000044
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA-MAX
+B
+ 1.6000E+01
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518045   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (41-NB-93(N,EL)41-NB-93,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000045
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 5.0000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518046   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (42-MO-0(N,EL)42-MO-0,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000046
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 6.7000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518047   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (44-RU-0(N,EL)44-RU-0,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000047
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 5.9000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518048   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (46-PD-0(N,EL)46-PD-0,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000048
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 3.0000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518049   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (50-SN-0(N,EL)50-SN-0,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000049
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 4.9000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518050   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (51-SB-0(N,EL)51-SB-0,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000050
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 6.5000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518051   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (52-TE-0(N,EL)52-TE-0,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000051
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 5.3000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518052   20121225   20130812   20130718       2234
+BIB                  6         17
+REACTION   (56-BA-0(N,EL)56-BA-0,BA,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+SAMPLE     Ba-F(2)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000052
+ENDBIB              17
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 8.2000E+00
+ENDDATA              3
+ENDSUBENT           25
+SUBENT        22518053   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (73-TA-181(N,EL)73-TA-181,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000053
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA-APRX
+B
+ 1.0000E+01
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518054   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (74-W-0(N,EL)74-W-0,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000054
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 7.8000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518055   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (76-OS-0(N,EL)76-OS-0,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000055
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.0800E+01
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518056   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (78-PT-0(N,EL)78-PT-0,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000056
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 8.3000E+00
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518057   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (81-TL-0(N,EL)81-TL-0,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000057
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.4200E+01
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518058   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (82-PB-0(N,EL)82-PB-0,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000058
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.2900E+01
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22518059   20121225   20130812   20130718       2234
+BIB                  5         16
+REACTION   (83-BI-209(N,EL)83-BI-209,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR,10.,20.) 10-20% include ERR-S
+            Systematic errors in the determination of the
+            scattering cross-sections may arise from hydrogen
+            impurities, mainly in the form of water or occluded
+            hydrogen, and from strongly absorbing impurities in
+            the scatterers. The latter source of error was usually
+            small, since comparatively pure chemicals were used
+            in most cases.
+           (ERR-S,5.,10.) Statistical error
+ANALYSIS   The cross-sections were calculated by assuming the
+           scattering cross-section of carbon to be equal to the
+           total cross section determined previously (Subent 002)
+STATUS     (DEP,22518002)
+           (TABLE) From Tbl. 3 of PRS/A,162,127,1937
+HISTORY    (19991210T)   Converted from subent 67000059
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 8.9000E+00
+ENDDATA              3
+ENDSUBENT           24
+ENDENTRY            59

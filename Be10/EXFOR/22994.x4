@@ -1,0 +1,90 @@
+ENTRY            22994   20101002   20110216   20110208       2223
+SUBENT        22994001   20101002   20110216   20110208       2223
+BIB                  9         23
+TITLE      .Measurement of the stellar cross sections for the
+            reactions Be-9(n,gamma)Be-10 and C-13(n,gamma)C-14 via
+            AMS.
+AUTHOR     (A.Wallner,L.Coquard,I.Dillmann,O.Forstner,R.Golse,
+           M.Heil, F.Kappeler,W.Kutschera,A.Mengoni,
+           L.Michlmayr, A.Priller,P.Steier,M.Wiescher)
+REFERENCE  (J,JP/G,35,014018,2008) Data of Subent 002
+           (J,NIM/B,268,1277,2010) Data of Subent 003 from Fig.3
+REL-REF    (I,,A.Walner+,J,NIM/B,259,677,2007) Experim. details
+INSTITUTE  (2GERKFK)  Coquard, Dillman, Kaeppeler,
+           (2AUSAUS)  Vienna Environmental Research Accelerator
+             VERA Laboratory, Fakultaet fuer Physik, Universitaet
+             Wien, Waehringer Str. 17, 1090 Vienna.  Wallner,
+             Golser, Kutschera, Milchmayr, Priller, Steier
+           (2GERGSI)  Heil
+           (3ZZZIAE)  Mengoni
+           (1USANOT)  Wiescher
+FACILITY   (VDG,2GERKFK)
+DETECTOR   .Described in J,NIM/B,259,677,2007
+METHOD     (MASSP)  Accelerator mass spectrometry - AMS
+HISTORY    (20080107C)   SM/SD
+           (20101002A) M.M. Reference J,NIM/B,268,1277,2010 was
+            added. BIB information was added.
+ENDBIB              23
+COMMON               1          3
+KT
+KEV
+  25.
+ENDCOMMON            3
+ENDSUBENT           30
+SUBENT        22994002   20101002   20110216   20110208       2223
+BIB                  8         16
+REACTION   (4-BE-9(N,G)4-BE-10,,SIG,,MXW)
+INC-SOURCE (P-LI7)
+INC-SPECT  .Maxwellian
+SAMPLE      BE-O powder pellets, Be-10/Be-9isotope ratios are
+            given on Figs.1 before and after irradiation for two
+            samples.
+ANALYSIS   Combining the background-corrected isotope ratios of
+           the two samples with their corresponding neutron
+           fluence, results in a cross-section value (averaged
+           for 25 keV) of (9.2+-0.5) and (9.8+-0.8) microbarn,
+           respectively.
+ADD-RES    (COMP) Compared with theoretical evaluation equal to
+                  11 microbarn
+STATUS     (TABLE) Text of J,JP/G,35,014018,2008 .
+           (PRELM) Preliminary data.
+ERR-ANALYS (DATA-ERR) Not specified
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MICRO-B    MICRO-B
+  9.6          1.5
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        22994003   20101002   20110216   20110208       2223
+BIB                  5         16
+REACTION   (6-C-13(N,G)6-C-14,,SIG,,MXW)
+SAMPLE     C-13-enriched material,amorphous graphite powder,
+           stable isotope ratios C-14/C-13 = (9.5+-0.5)*10**-15
+           for unirradiated graphite. The irradiated material was
+           directly pressed into sputter sample holders. Most of
+           the samples showed C-13/C-12 values around 70;
+           contamination with natural carbon would directly be
+           reflected in a lower C-13/C-12 value.
+ADD-RES    Additional measurements at higher neutron energies are
+           in progress.
+STATUS     (PRELM) Preliminary value
+           (CURVE) Fig.3 of J,NIM/B,268,1277,2010
+            In abstract of J,JP/G,35,014018,2008 an approximate
+            value of 10 microb is given.
+HISTORY    (20110203A) Data were replaced by newer one -
+              digitized from Fig.3 of J,NIM/B,268,1277,2010.
+ENDBIB              16
+COMMON               1          3
+ERR-DIG
+PER-CENT
+   0.83E-02
+ENDCOMMON            3
+DATA                 2          1
+DATA       DATA-ERR
+MICRO-B    MICRO-B
+ 14.45      1.91
+ENDDATA              3
+ENDSUBENT           28
+ENDENTRY             3

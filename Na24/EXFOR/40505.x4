@@ -1,0 +1,158 @@
+ENTRY            40505   20020822   20030327   20050926       0000
+SUBENT        40505001   20020822   20030327   20050926       0000
+BIB                 12         15
+INSTITUTE  (4UKRKGU)
+REFERENCE  (C,77KIEV,2,57,197704) DATA ARE GIVEN
+AUTHOR     (A.P.DEGTYAREV,V.V.KRAVTSOV,G.A.PROKOPETS)
+TITLE       GAMMA-RAYS CONNECTED WITH THE NONELASTIC PROCESSED
+            OF THE DEUTERIUM-TRITIUM NEUTRONS ON THE NUCLEI NA,FE
+FACILITY   (SELVE)
+INC-SOURCE (D-T)
+SAMPLE      HOLLOW SPHERICAL,METALLIC
+PART-DET   (G,A)
+DETECTOR   (GELI)
+MONITOR    (11-NA-23(N,A)9-F-20,,SIG)
+EN-SEC     (E,G)
+HISTORY    (19821115C)
+           (20020822A) DATE is corrected. SAN 004, 005 RESTORED
+                       SAN 006, 007 ADDED
+ENDBIB              15
+COMMON               1          3
+E-RSL
+KEV
+ 4.0000E+00
+ENDCOMMON            3
+ENDSUBENT           22
+SUBENT        40505002   20020822   20030327   20050926       0000
+BIB                  1          1
+REACTION   (11-NA-23(N,INL)11-NA-23,PAR,SIG,G)
+ENDBIB               1
+COMMON               1          3
+EN
+MEV
+ 1.4600E+01
+ENDCOMMON            3
+DATA                 3          5
+E          DATA       ERR-T
+KEV        MB         MB
+ 4.4000E+02 3.3200E+02 3.5000E+01
+ 6.2800E+02 1.8500E+01 2.0000E+00
+ 1.2740E+03 1.4100E+02 1.5000E+01
+ 1.6370E+03 1.0700E+02 1.2000E+01
+ 2.6410E+03 6.9000E+00 1.0000E+00
+ENDDATA              7
+ENDSUBENT           17
+SUBENT        40505003   20020822   20030327   20050926       0000
+BIB                  2          2
+REACTION   (11-NA-23(N,A)9-F-20,PAR,SIG,G)
+ANALYSIS   (4PI1A)
+ENDBIB               2
+COMMON               1          3
+EN
+MEV
+ 1.4600E+01
+ENDCOMMON            3
+DATA                 3          2
+E          DATA       ERR-T
+KEV        MB         MB
+ 6.5600E+02 4.3200E+01 5.0000E+00
+ 8.2300E+02 1.4800E+01 2.0000E+00
+ENDDATA              4
+ENDSUBENT           15
+SUBENT        40505004   20021119   20030327   20050926       0000
+BIB                  2          3
+REACTION   (26-FE-54(N,P)25-MN-54,PAR,DA,G)
+HISTORY    (20020822A)   Other Reaction Moved to San 006
+           (20021119U) Last checking has been done.
+ENDBIB               3
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+       14.8        90.
+ENDCOMMON            3
+DATA                 3          1
+E          DATA       ERR-T
+KEV        MB/SR      MB/SR
+      1005.        1.2        0.4
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40505005   20021119   20030327   20050926       0000
+BIB                  2          3
+REACTION   (26-FE-0(N,INL)26-FE-0,PAR,DA,G)
+HISTORY    (20020822A)     Other Reaction Moved to San 007
+           (20021119U) Last checking has been done.
+ENDBIB               3
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+       14.8        90.
+ENDCOMMON            3
+DATA                 3         23
+E          DATA       ERR-T
+KEV        MB/SR      MB/SR
+       846.       57.         6.
+      1037.        3.5        0.4
+      1170.        1.4        0.5
+      1238.       19.         2.
+      1290.        1.7        0.4
+      1303.        5.8        0.6
+      1408.        3.         0.3
+      1670.        1.2        0.4
+      1770.        1.2        0.4
+      1810.        4.         0.4
+      1850.        0.8        0.3
+      2096.        0.5        0.2
+      2114.        1.6        0.5
+      2273.        0.5        0.2
+      2472.        0.6        0.3
+      2523.        1.4        0.5
+      2598.        1.8        0.5
+      2603.        1.         0.3
+      3202.        0.6        0.3
+      3253.        0.7        0.3
+      3453.        0.6        0.2
+      3543.        0.6        0.2
+      3602.        0.7        0.2
+ENDDATA             25
+ENDSUBENT           37
+SUBENT        40505006   20021119   20030327   20050926       0000
+BIB                  2          4
+REACTION   (26-FE-54(N,INL)26-FE-54,PAR,DA,G)
+HISTORY    (20020822C)  Compiled at the Center - Cjd.
+                        Moved from Former 40505004
+           (20021119U) Last checking has been done.
+ENDBIB               4
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+       14.8        90.
+ENDCOMMON            3
+DATA                 3          1
+E          DATA       ERR-T
+KEV        MB/SR      MB/SR
+      1130.        0.6        0.2
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40505007   20021119   20030327   20050926       0000
+BIB                  2          4
+REACTION   (26-FE-0(N,2N),PAR,DA,G)
+HISTORY    (20020822C)  Compiled at the Center - Cjd.
+                        Moved from Former 40505005
+           (20021119U) Last checking has been done.
+ENDBIB               4
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+       14.8        90.
+ENDCOMMON            3
+DATA                 3          5
+E          DATA       ERR-T
+KEV        MB/SR      MB/SR
+       412.        4.6        0.5
+       477.        4.3        0.5
+       806.        0.4        0.2
+       931.        6.4        0.2
+      1316.        5.         0.5
+ENDDATA              7
+ENDSUBENT           20
+ENDENTRY             7

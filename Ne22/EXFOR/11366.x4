@@ -1,0 +1,29 @@
+ENTRY            11366     820324              20050926       0000
+SUBENT        11366001     820324              20050926       0000
+BIB                  6          8
+INSTITUTE  (1USAANL)
+REFERENCE  (P,ANL-7310,19,6801)
+           (P,ANL-7357,96,67)
+AUTHOR     (E.F.BENNETT,W.C.REDMAN)
+TITLE      CROSS SECTION FOR THE NE21(N(TH),ALPHA)O18.
+STATUS     (SCSRS)
+HISTORY    (761014T) TRANSLATED FROM SCISRS
+           (820324A) CONVERTED TO REACTION FORMALISM
+ENDBIB               8
+NOCOMMON             0          0
+ENDSUBENT           11
+SUBENT        11366002     820324              20050926       0000
+BIB                  4          4
+REACTION   (10-NE-21(N,A)8-O-18,,SIG,,MXW)
+DETECTOR   (PROPC)    PROPORTIONAL COUNTER
+MONITOR    (7-N-14(N,P)6-C-14,,SIG)
+INC-SPECT   THERMAL SPECTRUM
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA-MAX   MONIT
+MEV        B          B
+ 2.53   -08 1.5    +00 1.81
+ENDDATA              3
+ENDSUBENT           12
+ENDENTRY             2

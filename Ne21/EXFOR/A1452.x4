@@ -1,0 +1,255 @@
+ENTRY            A1452   19990324   19990505   20050926       0000
+SUBENT        A1452001   19990324   19990505   20050926       0000
+BIB                  9         26
+INSTITUTE  (1USAPUP)
+REFERENCE  (J,PR/C,1,(4),1333,197004)
+AUTHOR     (S.GANGADHARAN,R.L.WOLKE)
+TITLE      Recoil angular distributions of the 6Li(d,n)7Be and
+           12C(d,n)13N reactions
+FACILITY   (VDGT)
+METHOD     (ASSOP) Measurement the angular distributions of 7Be
+           and 13N recoils from the 6Li(d,n) and 12C(d,n)
+           reactions induced by 12 to 17 MeV deutrons.
+DETECTOR   (SOLST) The recoil surface-barrier detector, 50 mm2 in
+           active area and 40 micr. in depletion depth.
+           (SCIN) Pulses from the recoil detector were counted in
+           coincidence with those from the neutron detector, a
+           4-in.-diam x 5-in. Pilot B plastic scintillator and
+           Amperex 58 AVP photomutiplier and in anticoincidence
+           with the thick silicon light particle detector, 700micr
+           in depletion depth.
+ERR-ANALYS (DATA-ERR1) The total estimated error in the
+           relative cross sections
+           (DATA-ERR2) The total estimated error in the absolute
+           cross section ( but at a few backward recoil angles
+           was from 36% to 45%).
+HISTORY    (19800808C) Compilation produced by RFNC-VNIIEF Sarov
+           (19970922A) Method is corrected by CAJAD.
+           (19970923U) Last checking has been done.
+           (19990321U)CNPD: corrected 4-dig. year and lower cases.
+ENDBIB              26
+COMMON               2          3
+DATA-ERR1  DATA-ERR2
+PER-CENT   PER-CENT
+        12.        22.
+ENDCOMMON            3
+ENDSUBENT           33
+SUBENT        A1452002   19990324   19990505   20050926       0000
+BIB                  3          5
+REACTION   (3-LI-6(D,N)4-BE-7,PAR,DA,,,EXP)
+SAMPLE     6LiF enriched to 99.7% in 6Li and evaporated to a
+           typical thickness of 10mu-g/cm2 onto 100 mu-g/cm2 Al
+           backings.
+STATUS     (TABLE) Tabl. 2
+ENDBIB               5
+COMMON               2          3
+E-LVL-MIN  E-LVL-MAX
+MEV        MEV
+         0.      0.431
+ENDCOMMON            3
+DATA                 3         32
+EN         ANG        DATA
+MEV        ADEG       MB/SR
+    12.       111.         1.39
+    12.        98.         1.61
+    12.        91.         1.57
+    12.        83.         1.51
+    12.        76.         1.54
+    12.        68.         1.84
+    12.        59.         1.99
+    12.        54.         1.09
+    12.        51.         0.94
+    15.       123.         0.52
+    15.       112.         1.08
+    15.       104.         1.06
+    15.        96.         1.28
+    15.        88.         1.26
+    15.        80.         0.99
+    15.        72.         1.35
+    15.        69.         1.34
+    15.        64.         1.63
+    15.        57.         1.9
+    15.        54.         1.75
+    15.        50.         1.97
+    17.       123.         0.46
+    17.       108.         0.64
+    17.        95.         0.85
+    17.        87.         0.89
+    17.        79.         0.88
+    17.        71.         0.86
+    17.        66.         0.96
+    17.        62.         1.34
+    17.        59.         0.9
+    17.        55.         0.98
+    17.        52.         1.54
+ENDDATA             34
+ENDSUBENT           48
+SUBENT        A1452003   19990324   19990505   20050926       0000
+BIB                  3          4
+REACTION   (6-C-12(D,N)7-N-13,PAR,DA,,,EXP)
+SAMPLE     Self-supporting carbon films ranging in thickness from
+           7 to 15 mu-g/cm**2 were used as targets
+STATUS     (TABLE) Tabl.4
+ENDBIB               4
+COMMON               1          3
+E-LVL
+MEV
+         0.
+ENDCOMMON            3
+DATA                 3         48
+EN         ANG        DATA
+MEV        ADEG       MB/SR
+    12.       138.         1.27
+    12.       129.         1.24
+    12.       121.         1.73
+    12.       113.         1.94
+    12.       104.         1.88
+    12.        95.         1.13
+    12.        86.         0.73
+    12.        76.         0.82
+    12.        65.         0.16
+    12.        61.         1.34
+    12.        56.         1.97
+    12.        52.         1.39
+    12.        35.         0.76
+    12.        30.         0.68
+    15.       138.         0.19
+    15.       130.         0.29
+    15.       121.         1.06
+    15.       113.         1.23
+    15.       104.         1.3
+    15.        95.         1.54
+    15.        86.         1.24
+    15.        77.         1.35
+    15.        70.         1.38
+    15.        66.         1.23
+    15.        61.         1.5
+    15.        56.         2.1
+    15.        53.         1.62
+    15.        49.         1.12
+    15.        34.         1.49
+    15.        29.         1.66
+    15.        25.         1.75
+    17.       130.         0.32
+    17.       121.         0.4
+    17.       113.         0.62
+    17.       104.         0.61
+    17.        95.         0.65
+    17.        86.         0.71
+    17.        77.         0.96
+    17.        70.         0.98
+    17.        66.         0.85
+    17.        62.         1.12
+    17.        57.         0.71
+    17.        54.         0.9
+    17.        50.         0.83
+    17.        37.         0.52
+    17.        32.         0.79
+    17.        29.         1.52
+    17.        25.         2.44
+ENDDATA             50
+ENDSUBENT           63
+SUBENT        A1452004   19990324   19990505   20050926       0000
+BIB                  3          4
+REACTION   (9-F-19(D,N)10-NE-20,PAR,DA,,,EXP)
+ERR-ANALYS (EN-ERR) Digitizing error
+           (DATA-ERR) Digitizing error
+STATUS     (CURVE) Fig.5
+ENDBIB               4
+COMMON               4          3
+ANG-CM     E-LVL      EN-ERR     DATA-ERR
+ADEG       MEV        MEV        PER-CENT
+       130.         0.       0.03        0.8
+ENDCOMMON            3
+DATA                 2         18
+EN         DATA
+MEV        MB/SR
+    12.04       2.707
+    13.05       1.474
+    13.29       1.978
+    13.46       1.432
+    13.74       1.345
+    13.95       1.348
+    14.19       1.111
+    14.4        2.064
+    14.78       1.013
+    14.89       1.404
+    14.99       1.6
+    15.06       0.7835
+    15.13       1.121
+    15.2        1.603
+    15.58       0.988
+    16.         1.513
+    16.52       0.9038
+    17.04       1.256
+ENDDATA             20
+ENDSUBENT           33
+SUBENT        A1452005   19990324   19990505   20050926       0000
+BIB                  3          4
+REACTION   (3-LI-6(D,N)4-BE-7,PAR,DA,,,EXP)
+ERR-ANALYS (EN-ERR) Digitizing error
+           (DATA-ERR) Digitizing error
+STATUS     (CURVE) Fig.5
+ENDBIB               4
+COMMON               5          3
+E-LVL-MIN  E-LVL-MAX  EN-ERR     ANG        DATA-ERR
+MEV        MEV        MEV        ADEG       PER-CENT
+         0.      0.431       0.03       123.        0.4
+ENDCOMMON            3
+DATA                 2         17
+EN         DATA
+MEV        MB/SR
+    11.98       1.426
+    12.93       0.9472
+    13.21       0.8904
+    13.45       0.7847
+    13.73       0.9237
+    13.94       0.8138
+    14.15       0.8153
+    14.32       0.8992
+    14.77       0.9027
+    14.84       0.8203
+    14.91       0.9638
+    15.02       0.7461
+    15.12       0.7467
+    15.57       0.6808
+    15.95       0.8021
+    16.48       0.452
+    16.93       0.6257
+ENDDATA             19
+ENDSUBENT           32
+SUBENT        A1452006   19990324   19990505   20050926       0000
+BIB                  3          4
+REACTION   (6-C-12(D,N)7-N-13,PAR,DA,,,EXP)
+ERR-ANALYS (EN-ERR) Digitizing error
+           (DATA-ERR) Digitizing error
+STATUS     (CURVE) Fig.7
+ENDBIB               4
+COMMON               4          3
+ANG        E-LVL      EN-ERR     DATA-ERR
+ADEG       MEV        MEV        PER-CENT
+       119.         0.       0.03        0.7
+ENDCOMMON            3
+DATA                 2         17
+EN         DATA
+MEV        MB/SR
+    11.96       2.168
+    12.95       1.255
+    13.23       1.461
+    13.46       1.275
+    13.71       1.306
+    13.98       1.175
+    14.18       0.9942
+    14.36       1.238
+    14.8        0.9437
+    14.91       1.105
+    14.98       1.138
+    15.07       0.9353
+    15.18       0.9627
+    15.59       0.7832
+    15.96       0.799
+    16.5        0.5511
+    16.92       0.5438
+ENDDATA             19
+ENDSUBENT           32
+ENDENTRY             6

@@ -1,0 +1,112 @@
+ENTRY            22496   20001219   20030506   20050926       0000
+SUBENT        22496001   20001219   20030506   20050926       0000
+BIB                 14         32
+TITLE       Experimental Determination of the 14N(N,P)14C Reaction
+            Cross Section For Thermal Neutrons
+AUTHOR     (J.WAGEMANS, C.WAGEMANS, G.GOEMINNE, P.GELTENBORT)
+INSTITUTE  (2ZZZGEL)  J.Wagemans
+           (2BLGGHT)  C.Wagemans, G.Goeminne
+           (2FR ILL)  Geltenbort
+REFERENCE  (J,PR/C,61,(6),064601,200006)  Main Reference
+FACILITY   (REAC,2FR ILL) High Flux Reactor Institute Laue-
+                          Langevin, Grenoble, France
+INC-SOURCE (THCOL)   Curved Neutron Guide H22d of (2FR ILL)
+INC-SPECT  .Thermal Neutron Flux at the Sample Position is Near
+            5.E+8 N/Cm2/Sec, Energy Distribution of Neutron
+            Approaches Maxwellian with T=210 K, Mean Energy
+            18 Milli-EV. The Energy Calibration was done by Means
+            Of 10B(N,A)7Li and 6Li(N,A)3H Reactions
+DETECTOR   (SIBAR)  Two Silicon Surface Barrier Detectors. First
+                    One is 29 Micro-M Thick, has Surface 150 Mm2,
+            40 KeV Resolution. Second One is 60 Micro-M Thick,
+            Surface 150 Mm2, 25 KeV Resolution.
+PART-DET   (P)
+ASSUMED    (ASSUM,5-B-10(N,A)3-LI-7,,SIG)  Transition to First
+              And Second Energy Levels of 7Li
+SAMPLE     .A Variety of 14N Samples was Used - Adenine C5-H5-N5
+            Containing 51.6% Ov 14N Evaporated on Thin Aliminium
+            Backing, and Polyimide C22-H10-O5-N2 Foils Containing
+            7.30% of 14N.
+CORRECTION .Corrections were done For Protons Coming Fron Air
+            Nitrogen in the Camera, For the Interaction of Neutr.
+            With Boron Impurities in Samples
+ERR-ANALYS (ERR-T)  Total Error, Structure is not Given
+HISTORY    (20001219C)   + +  Compiled by S.M.
+           (20001219U) Last checking has been done.
+ENDBIB              32
+COMMON               2          3
+EN-MEAN    ASSUM
+EV         B
+      0.018      3842.
+ENDCOMMON            3
+ENDSUBENT           39
+SUBENT        22496002   20001219   20030506   20050926       0000
+BIB                  4         17
+REACTION  1(7-N-14(N,P)6-C-14,,SIG,,MXW)
+          2(7-N-14(N,P)6-C-14,,SIG,,MXW)
+          3(7-N-14(N,P)6-C-14,,SIG,,MXW)
+          4(7-N-14(N,P)6-C-14,,SIG,,MXW)
+          5(7-N-14(N,P)6-C-14,,SIG,,MXW)
+          6(7-N-14(N,P)6-C-14,,SIG,,MXW)
+          7(7-N-14(N,P)6-C-14,,SIG,,MXW)
+MONITOR    ((MONIT)92-U-235(N,F),,SIG,,MXW)  Monitor Value is
+             Given in ENDF-B6 Data File
+SAMPLE    1.Adenine, Thickness 204.0+-1.7 Microgram/Cm2
+          2.Adenine, Thickness  94.3+-1.7 Microgram/Cm2
+          3.Adenine, Thickness  70.7+-1.7 Microgram/Cm2
+          4.Polyimide , Thickness  64.2+-1.3 Microgram/Cm2
+          5.Polyimide , Thickness  60.5+-1.2 Microgram/Cm2
+          6.Polyimide , Thickness  55.0+-1.7 Microgram/Cm2
+          7.Polyimide , Thickness  52.5+-1.6 Microgram/Cm2
+STATUS     (TABLE)  From Table 2 of Main Ref
+ENDBIB              17
+COMMON               2          3
+MONIT      MONIT-ERR
+B          B
+     584.25        1.1
+ENDCOMMON            3
+DATA                14          1
+DATA      1ERR-T     1DATA      2ERR-T     2DATA      3ERR-T     3
+DATA      4ERR-T     4DATA      5ERR-T     5DATA      6ERR-T     6
+DATA      7ERR-T     7
+B          B          B          B          B          B
+B          B          B          B          B          B
+B          B
+       1.98       0.04       1.88       0.05       2.02       0.06
+       1.97       0.06       1.95       0.05       1.81       0.08
+       1.87       0.08
+ENDDATA              9
+ENDSUBENT           35
+SUBENT        22496003   20001219   20030506   20050926       0000
+BIB                  3          6
+REACTION   (7-N-14(N,P)6-C-14,,SIG,,MXW)
+ANALYSIS   .Data was Obtained Fron the Slope of the Fitting Streit
+            Line Giving Dependence of Proton Countings from the
+            14N Mass
+STATUS     .From Text of Main Reference
+           (DEP,22496002)
+ENDBIB               6
+NOCOMMON
+DATA                 2          1
+DATA       ERR-T
+B          B
+       1.93       0.05
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        22496004   20001219   20030506   20050926       0000
+BIB                  4          6
+REACTION   (8-O-17(N,A)6-C-14,,SIG,,MXW)
+MONITOR    ((MONIT)7-N-14(N,P)6-C-14,,SIG,,MXW)
+MONIT-REF  (22496003,J.WAGEMANS+,J,PR/C,59,(2),064601,199902) See
+            This Entry
+STATUS     .Appendix to the Main Reference
+           (COREL,22420002)
+ENDBIB               6
+NOCOMMON
+DATA                 4          1
+DATA       ERR-T      MONIT      MONIT-ERR
+MB         MB         B          B
+       257.        10.       193.       0.05
+ENDDATA              3
+ENDSUBENT           14
+ENDENTRY             4

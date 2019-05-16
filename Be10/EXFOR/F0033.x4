@@ -1,0 +1,205 @@
+ENTRY            F0033   19990508   20000121   20050926       0000
+SUBENT        F0033001   19990508   20000121   20050926       0000
+BIB                  9         16
+TITLE      The interaction of 7Li isotope with low energy proton
+           and triton beams
+AUTHOR     (D.M.CIRIC,R.V.POPIC,R.B.ZAKULA,B.Z.STEPANCIC,
+           M.R.ALEKSIC,J.P.SETRAJCIC)
+INSTITUTE  (3YUGYUG) University of Novi Sad
+REFERENCE  (J,RSR,6,115,1976)
+SAMPLE     The target was LiF spattered with Al foil of 2 mu-g
+           thickness. The thickness of the target was calculated
+           on the basic of alpha-peak broading.
+FACILITY   (CCW)
+DETECTOR   (SOLST) Semiconductor angular detector
+COMMENT    The ion source was wated by mixture 50%D ang 50%H. For
+           realising the given reaction a pure proton 250 keV beam
+           was used.
+HISTORY    (19800821C)
+           (19990507A) Replaced two versions of one entry.
+ENDBIB              16
+NOCOMMON             0          0
+ENDSUBENT           19
+SUBENT        F0033002   19990508   20000121   20050926       0000
+BIB                  3          5
+REACTION   (3-LI-7(P,A)2-HE-4,,DA,,,EXP)
+ERR-ANALYS (EN-ERR) Digitizing error
+           (DATA-ERR) From graphic bars (experimental error)
+           and digitizing error
+STATUS     (CURVE) Fig 3
+ENDBIB               5
+COMMON               1          3
+ANG
+ADEG
+  90.
+ENDCOMMON            3
+DATA                 4         14
+EN         EN-ERR     DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+     0.0728 0.3276E-02 0.3166E-02 0.6284E-03
+     0.0985 0.3276E-02 0.5134E-02 0.8197E-03
+     0.126  0.3276E-02 0.9984E-02 0.6794E-03
+     0.1477 0.3276E-02     0.0176 0.6001E-03
+     0.1698 0.3276E-02     0.0294 0.4886E-03
+     0.2018 0.1431E-02     0.0494 0.8199E-03
+     0.2481 0.1431E-02     0.1064 0.1767E-02
+     0.2966 0.1431E-02     0.1762 0.2927E-02
+     0.3403 0.1431E-02     0.2315 0.3845E-02
+     0.4003 0.1431E-02     0.3102 0.5152E-02
+     0.4457 0.1431E-02     0.329  0.5464E-02
+     0.4948 0.1431E-02     0.3323 0.5519E-02
+     0.5466 0.1431E-02     0.3647 0.6058E-02
+     0.5986 0.1431E-02     0.3874 0.6434E-02
+ENDDATA             16
+ENDSUBENT           30
+SUBENT        F0033003   19990508   20000121   20050926       0000
+BIB                  4          5
+REACTION   (3-LI-7(P,A)2-HE-4,,DA,,,EXP)
+MONIT-REF  (,CIRICH,J,FIZ,4,193,1972)
+ERR-ANALYS (ANG-ERR) Digitizing error
+           (DATA-ERR) Digitizing error
+STATUS     (CURVE) Fig 4
+ENDBIB               5
+COMMON               1          3
+ANG-ERR
+ADEG
+ 1.
+ENDCOMMON            3
+DATA                 4         45
+EN         ANG        DATA       DATA-ERR
+MEV        ADEG       MB/SR      MB/SR
+     0.15      20.84       0.0356 0.6448E-03
+     0.15      30.08       0.0366 0.6448E-03
+     0.15      39.84       0.0325 0.6448E-03
+     0.15      50.17       0.0258 0.6448E-03
+     0.15      60.02       0.0248 0.6448E-03
+     0.15      71.15       0.0226 0.6448E-03
+     0.15      80.35       0.0224 0.6448E-03
+     0.15      90.92       0.0234 0.6448E-03
+     0.15     101.5        0.025  0.6448E-03
+     0.15     111.4        0.0261 0.6448E-03
+     0.15     121.3        0.0264 0.6448E-03
+     0.15     130.         0.0314 0.6448E-03
+     0.15     141.3        0.035  0.6448E-03
+     0.15     149.9        0.036  0.6448E-03
+     0.15     160.4        0.037  0.6448E-03
+     0.3       20.59       0.2134 0.3222E-02
+     0.3       30.36       0.196  0.3222E-02
+     0.3       40.12       0.1754 0.3222E-02
+     0.3       50.6        0.1675 0.3222E-02
+     0.3       60.43       0.1598 0.3222E-02
+     0.3       70.92       0.1519 0.3222E-02
+     0.3       80.82       0.1571 0.3222E-02
+     0.3       90.71       0.159  0.3222E-02
+     0.3      100.6        0.1609 0.3222E-02
+     0.3      111.1        0.1563 0.3222E-02
+     0.3      120.4        0.1647 0.3222E-02
+     0.3      130.3        0.1699 0.3222E-02
+     0.3      139.6        0.1944 0.3222E-02
+     0.3      148.9        0.2061 0.3222E-02
+     0.3      159.6        0.224  0.3222E-02
+     0.6       19.52       1.337  0.6450E-02
+     0.6       29.64       1.199  0.6450E-02
+     0.6       39.75       1.054  0.6450E-02
+     0.6       49.9        0.9223 0.6450E-02
+     0.6       59.23       0.7392 0.6450E-02
+     0.6       69.55       0.6654 0.6450E-02
+     0.6       79.75       0.553  0.6450E-02
+     0.6       89.64       0.5569 0.6450E-02
+     0.6      100.2        0.5605 0.6450E-02
+     0.6      109.8        0.6806 0.6450E-02
+     0.6      119.9        0.7618 0.6450E-02
+     0.6      130.2        0.9268 0.6450E-02
+     0.6      141.2        1.072  0.6450E-02
+     0.6      150.8        1.205  0.6450E-02
+     0.6      160.5        1.357  0.6450E-02
+ENDDATA             47
+ENDSUBENT           61
+SUBENT        F0033004   19990508   20000121   20050926       0000
+BIB                  3          5
+REACTION   (3-LI-7(T,A)2-HE-6,,DA,,,EXP)
+ERR-ANALYS (EN-ERR) Digitizing error
+           (DATA-ERR) From graphic bars (experimental)
+           and digitizing error
+STATUS     (CURVE) Fig 5
+ENDBIB               5
+COMMON               1          3
+ANG
+ADEG
+  90.
+ENDCOMMON            3
+DATA                 4         17
+EN         EN-ERR     DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+     0.0761 0.1620E-02 0.1077E-04 0.2657E-05
+     0.0862 0.1620E-02 0.1328E-04 0.3089E-05
+     0.1011 0.1620E-02 0.1618E-04 0.1298E-05
+     0.1128 0.1620E-02 0.2015E-04 0.1377E-05
+     0.1261 0.1620E-02 0.2538E-04 0.1442E-05
+     0.1396 0.1620E-02 0.3340E-04 0.2282E-05
+     0.1514 0.1620E-02 0.4348E-04 0.1963E-05
+     0.1764 0.1620E-02 0.6747E-04 0.7474E-06
+     0.1998 0.8372E-03 0.1002E-03 0.1110E-05
+     0.2247 0.8372E-03 0.1471E-03 0.1630E-05
+     0.2496 0.8372E-03 0.2091E-03 0.2316E-05
+     0.2696 0.8372E-03 0.2906E-03 0.3219E-05
+     0.2976 0.8372E-03 0.3739E-03 0.4142E-05
+     0.3224 0.8372E-03 0.5084E-03 0.5631E-05
+     0.3486 0.8372E-03 0.6055E-03 0.6707E-05
+     0.3716 0.8372E-03 0.7057E-03 0.7817E-05
+     0.3977 0.8372E-03 0.7955E-03 0.8812E-05
+ENDDATA             19
+ENDSUBENT           33
+SUBENT        F0033005   19990508   20000121   20050926       0000
+BIB                  3          5
+REACTION   (3-LI-7(P,A)2-HE-4,,SIG,,,EXP)
+ERR-ANALYS (EN-ERR) Digitizing error
+           (DATA-ERR) From graphic bars (experimental)
+           and digitizing error
+STATUS     (CURVE) Fig 6
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 4         10
+EN         EN-ERR     DATA       DATA-ERR
+MEV        MEV        MB         MB
+     0.1238 0.3267E-02     0.1445     0.0327
+     0.1964 0.2336E-02     0.6241     0.1308
+     0.2467 0.2336E-02     1.434      0.2616
+     0.3004 0.2336E-02     2.407      0.3275
+     0.3478 0.2336E-02     3.479      0.3924
+     0.3954 0.2336E-02     4.65       0.4578
+     0.452  0.2336E-02     5.36       0.327
+     0.4954 0.2336E-02     5.943      0.3919
+     0.5487 0.2336E-02     6.654      0.3924
+     0.5957 0.2336E-02     7.465      0.2289
+ENDDATA             12
+ENDSUBENT           22
+SUBENT        F0033006   19990508   20000121   20050926       0000
+BIB                  3          5
+REACTION   (3-LI-7(T,A)2-HE-6,,SIG,,,EXP)
+ERR-ANALYS (EN-ERR) Digitizing error
+           (DATA-ERR) From graphic bars (experimental)
+           and digitizing error
+STATUS     (CURVE) Fig 7
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 4         14
+EN         EN-ERR     DATA       DATA-ERR
+MEV        MEV        MB         MB
+     0.0757 0.1639E-02 0.5904E-04 0.3239E-04
+     0.1003 0.1619E-02 0.8956E-04 0.3239E-04
+     0.1249 0.1619E-02 0.8769E-04 0.3239E-04
+     0.1511 0.1619E-02 0.1505E-03 0.1621E-03
+     0.1758 0.1619E-02 0.2782E-03 0.9729E-04
+     0.2004 0.1619E-02 0.4382E-03 0.9729E-04
+     0.2252 0.1619E-02 0.6955E-03 0.9741E-04
+     0.2516 0.1619E-02 0.1179E-02 0.1944E-03
+     0.2749 0.1619E-02 0.1825E-02 0.2596E-03
+     0.2984 0.1619E-02 0.2860E-02 0.2591E-03
+     0.3221 0.1619E-02 0.4316E-02 0.2267E-03
+     0.3492 0.1619E-02 0.5836E-02 0.1298E-03
+     0.3729 0.1619E-02 0.7324E-02 0.1944E-03
+     0.3966 0.1619E-02 0.8812E-02 0.2915E-03
+ENDDATA             16
+ENDSUBENT           26
+ENDENTRY             6

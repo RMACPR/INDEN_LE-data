@@ -1,0 +1,613 @@
+ENTRY            O0329     970422              20050926       0000
+SUBENT        O0329001     970422              20050926       0000
+BIB                 11         32
+TITLE       (P,D) And (P,T) Reactions on B-11,C-14,O-16 and O-18.
+AUTHOR     (J.C.LEGG)
+INSTITUTE  (1USAPTN)
+REFERENCE  (J,PR,129,272,63)
+HISTORY    (970414C)
+           (970422U) Last checking has been done.
+ADD-RES    (COMP).The Deuteron Results were Analyzed Using the
+           Plane-Wave Butler Formalism and Reduced Widths and
+           Spectroscopic Factors were Calculated.
+           The (P,T) Results,When Compared to Those For the
+           Inverse (T,P) Reactions,Inducate That Such Experiments
+           May Possible be Described Using a Simple Stripping
+           Formalism.
+           Deuteron and Triton Spectra were Stored in Separate
+           Subgroups of the Analyzer.
+DETECTOR   (TELES).A Del'Ta E,E Counter Telescope was Used For
+           Particle Detection.The Del'Ta E Counter Used was a
+           Double-Celled Proportional Counter.It was Filled with a
+           Gas Consisting of 90% Argon,10% Methane,and the Path
+           Length in Gas was 3 in.This Counter was Operated at
+           Pressures Ranging from 20 to 45 in. Of Mercury.
+           The E Counter was Usually a Diffused Junction Solid-
+           State Detector,Although Both Nai(TL) And Csi(TL)
+           E Counters were Also Used.Collimation was done at the
+           Entrance to the Del'Ta E Proportional Counter and There
+           Was Negligible Gas-Scattering Loss of Particles in the
+           Del'Ta E Counter.
+FACILITY   (ISOCY,1USAPTN).The Princeton Variable Energy
+           Cyclotron.
+METHOD     (BCINT)
+ERR-ANALYS (ANG-ERR).Data-Point Reader Uncertainty.
+STATUS     (CURVE).By CAJAD.
+ENDBIB              32
+NOCOMMON
+ENDSUBENT           35
+SUBENT        O0329002     970422              20050926       0000
+BIB                  6         15
+REACTION   (5-B-11(P,D)5-B-10,PAR,DA,,,EXP) Figure 5.
+SAMPLE     B-11 was Available in the Form of Powdered Boron,
+           Enriched to 89% in B-11.A Target was Prepared from
+           This by Floating a Suspension of Boron in Polystyrene
+           And Benzene on Water.The Benzene Evaporated Leaving a
+           Foil Containing About 1 Mg/Cm**2 Polystyrene and About
+            1.5 Mg/Cm**2 Boron.In Order to Secure the Differential
+           Cross Section a Target of Natural B(4)C was Used.This
+           Was Prepared by Pouring a Slurry of B(4)C in Distilled
+           Water onto 0.1-Mil Pt Foil and Letting the Water
+           Evaporate.
+PART-DET   (D)
+EN-SEC     (E-LVL,5-B-10)
+LEVEL-PROP (5-B-10,E-LVL=0.00,SPIN=3.,PARITY=+1.)
+ERR-ANALYS (ERR-T).The Uncertainty is Reported by Authors.
+ENDBIB              15
+COMMON               3          3
+EN         E-LVL      ANG-ERR
+MEV        MEV        ADEG
+        19.         0.        0.3
+ENDCOMMON            3
+DATA                 3          6
+ANG-CM     DATA       ERR-T
+ADEG       MB/SR      MB/SR
+      11.56       13.7        0.8
+       17.6        17.        0.9
+       23.3       15.9        0.9
+      29.39       11.8        0.7
+       35.2        8.2        0.6
+      47.02        2.8        0.4
+ENDDATA              8
+ENDSUBENT           32
+SUBENT        O0329003     970422              20050926       0000
+BIB                  6         15
+REACTION   (5-B-11(P,D)5-B-10,PAR,DA,,,EXP) Figure 6.
+SAMPLE     B-11 was Available in the Form of Powdered Boron,
+           Enriched to 89% in B-11.A Target was Prepared from
+           This by Floating a Suspension of Boron in Polystyrene
+           And Benzene on Water.The Benzene Evaporated Leaving a
+           Foil Containing About 1 Mg/Cm**2 Polystyrene and About
+            1.5 Mg/Cm**2 Boron.In Order to Secure the Differential
+           Cross Section a Target of Natural B(4)C was Used.This
+           Was Prepared by Pouring a Slurry of B(4)C in Distilled
+           Water onto 0.1-Mil Pt Foil and Letting the Water
+           Evaporate.
+PART-DET   (D)
+EN-SEC     (E-LVL,5-B-10)
+LEVEL-PROP (5-B-10,E-LVL=0.72,SPIN=1.,PARITY=+1.)
+ERR-ANALYS (ERR-T).The Uncertainty is Reported by Authors.
+ENDBIB              15
+COMMON               3          3
+EN         E-LVL      ANG-ERR
+MEV        MEV        ADEG
+        19.       0.72        0.4
+ENDCOMMON            3
+DATA                 3          6
+ANG-CM     DATA       ERR-T
+ADEG       MB/SR      MB/SR
+       13.4       1.96       0.28
+       19.7        2.1        0.4
+       25.5       2.39       0.29
+       31.3       1.95        0.3
+       36.4       1.09       0.21
+       47.7       0.51       0.13
+ENDDATA              8
+ENDSUBENT           32
+SUBENT        O0329004     970422              20050926       0000
+BIB                  6         15
+REACTION   (5-B-11(P,D)5-B-10,PAR,DA,,,EXP) Figure 7.
+SAMPLE     B-11 was Available in the Form of Powdered Boron,
+           Enriched to 89% in B-11.A Target was Prepared from
+           This by Floating a Suspension of Boron in Polystyrene
+           And Benzene on Water.The Benzene Evaporated Leaving a
+           Foil Containing About 1 Mg/Cm**2 Polystyrene and About
+            1.5 Mg/Cm**2 Boron.In Order to Secure the Differential
+           Cross Section a Target of Natural B(4)C was Used.This
+           Was Prepared by Pouring a Slurry of B(4)C in Distilled
+           Water onto 0.1-Mil Pt Foil and Letting the Water
+           Evaporate.
+EN-SEC     (E-LVL,5-B-10)
+PART-DET   (D)
+LEVEL-PROP (5-B-10,E-LVL=1.74,SPIN=0.,PARITY=+1.)
+ERR-ANALYS (ERR-T).The Uncertainty is Reported by Authors.
+ENDBIB              15
+COMMON               3          3
+EN         E-LVL      ANG-ERR
+MEV        MEV        ADEG
+        19.       1.74       0.24
+ENDCOMMON            3
+DATA                 3          8
+ANG-CM     DATA       ERR-T
+ADEG       MB/SR      MB/SR
+      12.45       0.93       0.19
+       18.6        1.7       0.19
+      18.68       1.53       0.24
+      24.62       1.36       0.23
+      24.63       1.66       0.19
+      30.34       1.04       0.21
+      36.48        0.9       0.18
+      48.56       0.26       0.12
+ENDDATA             10
+ENDSUBENT           34
+SUBENT        O0329005     970422              20050926       0000
+BIB                  6         15
+REACTION   (5-B-11(P,D)5-B-10,PAR,DA,,,EXP)  Figure 8.
+SAMPLE     B-11 was Available in the Form of Powdered Boron,
+           Enriched to 89% in B-11.A Target was Prepared from
+           This by Floating a Suspension of Boron in Polystyrene
+           And Benzene on Water.The Benzene Evaporated Leaving a
+           Foil Containing About 1 Mg/Cm**2 Polystyrene and About
+            1.5 Mg/Cm**2 Boron.In Order to Secure the Differential
+           Cross Section a Target of Natural B(4)C was Used.This
+           Was Prepared by Pouring a Slurry of B(4)C in Distilled
+           Water onto 0.1-Mil Pt Foil and Letting the Water
+           Evaporate.
+EN-SEC     (E-LVL,5-B-10)
+LEVEL-PROP (5-B-10,E-LVL=2.15,SPIN=1.,PARITY=+1.)
+PART-DET   (D)
+ERR-ANALYS (ERR-T).The Uncertainty is Reported by Authors.
+ENDBIB              15
+COMMON               3          3
+EN         E-LVL      ANG-ERR
+MEV        MEV        ADEG
+        19.       2.15        0.4
+ENDCOMMON            3
+DATA                 3          6
+ANG-CM     DATA       ERR-T
+ADEG       MB/SR      MB/SR
+       12.7       1.38       0.18
+       18.5       1.68       0.18
+       24.1       1.38       0.17
+       30.7        0.8       0.13
+       36.7       0.62       0.12
+       48.3       0.17     7.E-02
+ENDDATA              8
+ENDSUBENT           32
+SUBENT        O0329006     970422              20050926       0000
+BIB                  6         15
+REACTION   (5-B-11(P,D)5-B-10,PAR,DA,,,EXP)  Figure 9.
+SAMPLE     B-11 was Available in the Form of Powdered Boron,
+           Enriched to 89% in B-11.A Target was Prepared from
+           This by Floating a Suspension of Boron in Polystyrene
+           And Benzene on Water.The Benzene Evaporated Leaving a
+           Foil Containing About 1 Mg/Cm**2 Polystyrene and About
+            1.5 Mg/Cm**2 Boron.In Order to Secure the Differential
+           Cross Section a Target of Natural B(4)C was Used.This
+           Was Prepared by Pouring a Slurry of B(4)C in Distilled
+           Water onto 0.1-Mil Pt Foil and Letting the Water
+           Evaporate.
+EN-SEC     (E-LVL,5-B-10)
+LEVEL-PROP (5-B-10,E-LVL=3.58,SPIN=2.,PARITY=+1.)
+PART-DET   (D)
+ERR-ANALYS (ERR-T).The Uncertainty is Reported by Authors.
+ENDBIB              15
+COMMON               3          3
+EN         E-LVL      ANG-ERR
+MEV        MEV        ADEG
+        19.       3.58       0.29
+ENDCOMMON            3
+DATA                 3          5
+ANG-CM     DATA       ERR-T
+ADEG       MB/SR      MB/SR
+      13.05       0.38       0.11
+      19.05       0.43       0.13
+      25.38        0.4       0.12
+        32.       0.16     9.E-02
+      37.13       0.11        0.1
+ENDDATA              7
+ENDSUBENT           31
+SUBENT        O0329007     970422              20050926       0000
+BIB                  6         10
+REACTION   (6-C-14(P,D)6-C-13,PAR,DA,,,EXP) Figure 11.
+SAMPLE     C-14 Foil Consisted of Elemental Carbon,Enriched to
+            80% in C-14 Deposited on a Gold Foil of About 1.5 Mg/
+           Cm**2.The C-14 Target Contained a Large Contamination
+           Of Hydrogen,Oxygen and Natural Carbon.This Target
+           Contained 0.27+-0.1 Mg/Cm**2 of C-14.
+EN-SEC     (E-LVL,6-C-13)
+LEVEL-PROP (6-C-13,E-LVL=0.00,SPIN=0.5,PARITY=-1.)
+PART-DET   (D)
+ERR-ANALYS (ERR-T).The Uncertainty is Reported by Authors.
+ENDBIB              10
+COMMON               3          3
+EN         E-LVL      ANG-ERR
+MEV        MEV        ADEG
+       18.5         0.        0.3
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA       ERR-T
+ADEG       MB/SR      MB/SR
+      11.96       23.1        0.7
+      17.43        24.        0.4
+      23.39       19.1        0.6
+      28.66       10.1        0.6
+      33.73        5.2        0.3
+       39.7         5.        0.5
+      45.52        3.3        0.4
+      50.17        2.9        0.6
+      55.84        4.2        0.4
+       66.7        3.2        0.5
+        78.        2.8        0.4
+ENDDATA             13
+ENDSUBENT           32
+SUBENT        O0329008     970422              20050926       0000
+BIB                  6         10
+REACTION   (6-C-14(P,D)6-C-13,PAR,DA,,,EXP)  Figure 12.
+SAMPLE     C-14 Foil Consisted of Elemental Carbon,Enriched to
+            80% in C-14 Deposited on a Gold Foil of About 1.5 Mg/
+           Cm**2.The C-14 Target Contained a Large Contamination
+           Of Hydrogen,Oxygen and Natural Carbon.This Target
+           Contained 0.27+-0.1 Mg/Cm**2 of C-14.
+EN-SEC     (E-LVL,6-C-13)
+LEVEL-PROP (6-C-13,E-LVL=3.09,SPIN=0.5,PARITY=+1.)
+PART-DET   (D)
+ERR-ANALYS (ERR-T).The Uncertainty is Reported by Authors.
+ENDBIB              10
+COMMON               3          3
+EN         E-LVL      ANG-ERR
+MEV        MEV        ADEG
+       18.5       3.09        0.3
+ENDCOMMON            3
+DATA                 3          3
+ANG-CM     DATA       ERR-T
+ADEG       MB/SR      MB/SR
+      11.88       1.12       0.25
+      17.31       0.44       0.12
+      22.72       0.15     8.E-02
+ENDDATA              5
+ENDSUBENT           24
+SUBENT        O0329009     970422              20050926       0000
+BIB                  6         10
+REACTION   (6-C-14(P,D)6-C-13,PAR,DA,,,EXP)  Figure 13.
+SAMPLE     C-14 Foil Consisted of Elemental Carbon,Enriched to
+            80% in C-14 Deposited on a Gold Foil of About 1.5 Mg/
+           Cm**2.The C-14 Target Contained a Large Contamination
+           Of Hydrogen,Oxygen and Natural Carbon.This Target
+           Contained 0.27+-0.1 Mg/Cm**2 of C-14.
+EN-SEC     (E-LVL,6-C-13)
+LEVEL-PROP (6-C-13,E-LVL=3.68,SPIN=1.5,PARITY=-1.)
+PART-DET   (D)
+ERR-ANALYS (ERR-T).The Uncertainty is Reported by Authors.
+ENDBIB              10
+COMMON               3          3
+EN         E-LVL      ANG-ERR
+MEV        MEV        ADEG
+       18.5       3.68        0.4
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA       ERR-T
+ADEG       MB/SR      MB/SR
+       11.2        7.1        0.5
+       16.2        9.6        0.6
+       22.6        8.8        0.4
+       29.2        6.2        0.6
+        34.        5.4        0.5
+       39.9         4.        0.4
+       45.7         3.        0.3
+       51.1        2.6        0.4
+        57.        2.4        0.4
+       67.5       1.63       0.25
+       78.3       0.97       0.25
+ENDDATA             13
+ENDSUBENT           32
+SUBENT        O0329010     970422              20050926       0000
+BIB                  6         10
+REACTION   (6-C-14(P,D)6-C-13,PAR,DA,,,EXP)  Figure 14.
+SAMPLE     C-14 Foil Consisted of Elemental Carbon,Enriched to
+            80% in C-14 Deposited on a Gold Foil of About 1.5 Mg/
+           Cm**2.The C-14 Target Contained a Large Contamination
+           Of Hydrogen,Oxygen and Natural Carbon.This Target
+           Contained 0.27+-0.1 Mg/Cm**2 of C-14.
+EN-SEC     (E-LVL,6-C-13)
+LEVEL-PROP (6-C-13,E-LVL=3.86,SPIN=2.5,PARITY=+1.)
+PART-DET   (D)
+ERR-ANALYS (ERR-T).The Uncertainty is Reported by Authors.
+ENDBIB              10
+COMMON               3          3
+EN         E-LVL      ANG-ERR
+MEV        MEV        ADEG
+       18.5       3.86        0.3
+ENDCOMMON            3
+DATA                 3         10
+ANG-CM     DATA       ERR-T
+ADEG       MB/SR      MB/SR
+      11.95       0.34       0.15
+      17.44       0.48       0.15
+      23.46       0.79        0.2
+      29.23       1.07       0.21
+      35.27       1.47       0.25
+      40.45       1.34       0.23
+      46.26       0.91       0.22
+      51.64       0.61       0.19
+      57.06       0.49       0.15
+       67.9       0.23       0.11
+ENDDATA             12
+ENDSUBENT           31
+SUBENT        O0329011     970422              20050926       0000
+BIB                  6         10
+REACTION   (6-C-14(P,T)6-C-12,PAR,DA,,,EXP) Figure 15.
+SAMPLE     C-14 Foil Consisted of Elemental Carbon,Enriched to
+            80% in C-14 Deposited on a Gold Foil of About 1.5 Mg/
+           Cm**2.The C-14 Target Contained a Large Contamination
+           Of Hydrogen,Oxygen and Natural Carbon.This Target
+           Contained 0.27+-0.1 Mg/Cm**2 of C-14.
+EN-SEC     (E-LVL,6-C-12)
+LEVEL-PROP (6-C-12,E-LVL=0.00,SPIN=0.,PARITY=+1.)
+PART-DET   (T)
+ERR-ANALYS (ERR-T).The Uncertainty is Reported by Authors.
+ENDBIB              10
+COMMON               3          3
+EN         E-LVL      ANG-ERR
+MEV        MEV        ADEG
+       18.5         0.        0.3
+ENDCOMMON            3
+DATA                 3          9
+ANG-CM     DATA       ERR-T
+ADEG       MB/SR      MB/SR
+      12.36        5.5     4.E-01
+      17.81       2.53    2.5E-01
+      23.78    1.9E-01     2.E-01
+      29.01    2.2E-01     2.E-01
+       34.9       2.34    2.8E-01
+      40.64       2.79    2.8E-01
+      46.12       2.91    2.9E-01
+       51.3        2.4     3.E-01
+      56.89        1.1     4.E-01
+ENDDATA             11
+ENDSUBENT           30
+SUBENT        O0329012     970422              20050926       0000
+BIB                  6         14
+REACTION   (8-O-16(P,D)8-O-15,PAR,DA,,,EXP) Figure 16.
+SAMPLE     Foils of Mylar and Boric Acid (H(3)BO(3)) Were Used.
+           The Boric Acid was Prepared by Depositing a Slurry of
+           Benzene and Boric Acid on Painter'S Foil (APPROX.
+            0.2 MG/CM**2 AL),Letting the Slurry Almost Dry with
+           Uniform Distribution of Boric Acid,Then Applying a Few
+           Drops of Polystyrene Benzene As a Binder.It was Found
+           That,by Applying the Binder While the Boric Acid
+           Deposit was Still Slightly Damp,the Polystyrene Spread
+           Uniformly Without Disturbung the Boric Acid.
+EN-SEC     (E-LVL,8-O-15)
+LEVEL-PROP (8-O-15,E-LVL=0.00,SPIN=0.5,PARITY=-1.)
+PART-DET   (D)
+ERR-ANALYS (ERR-T).The Uncertainty is Reported by Authors.
+ENDBIB              14
+COMMON               3          3
+EN         E-LVL      ANG-ERR
+MEV        MEV        ADEG
+       18.5         0.       0.24
+ENDCOMMON            3
+DATA                 3          9
+ANG-CM     DATA       ERR-T
+ADEG       MB/SR      MB/SR
+       12.8      70.92     6.E-02
+       18.9      60.91     6.E-02
+       24.6       0.78     5.E-02
+      30.82       0.59     5.E-02
+      36.24       0.44     5.E-02
+      42.19       0.31     4.E-02
+      47.75       0.27     4.E-02
+      53.82       0.23     4.E-02
+      59.06        0.2     3.E-02
+ENDDATA             11
+ENDSUBENT           34
+SUBENT        O0329013     970422              20050926       0000
+BIB                  6         14
+REACTION   (8-O-16(P,D)8-O-15,PAR,DA,,,EXP) Figure 17.
+SAMPLE     Foils of Mylar and Boric Acid (H(3)BO(3)) Were Used.
+           The Boric Acid was Prepared by Depositing a Slurry of
+           Benzene and Boric Acid on Painter'S Foil (APPROX.
+            0.2 MG/CM**2 AL),Letting the Slurry Almost Dry with
+           Uniform Distribution of Boric Acid,Then Applying a Few
+           Drops of Polystyrene Benzene As a Binder.It was Found
+           That,by Applying the Binder While the Boric Acid
+           Deposit was Still Slightly Damp,the Polystyrene Spread
+           Uniformly Without Disturbung the Boric Acid.
+EN-SEC     (E-LVL,8-O-15)
+LEVEL-PROP (8-O-15,E-LVL=0.00,SPIN=0.5,PARITY=-1.)
+PART-DET   (D)
+ERR-ANALYS (ERR-T).The Uncertainty is Reported by Authors.
+ENDBIB              14
+COMMON               3          3
+EN         E-LVL      ANG-ERR
+MEV        MEV        ADEG
+        19.         0.        0.4
+ENDCOMMON            3
+DATA                 3         10
+ANG-CM     DATA       ERR-T
+ADEG       MB/SR      MB/SR
+       12.3       1.19     8.E-02
+       18.2       1.28     6.E-02
+       23.4       1.15     6.E-02
+       29.6       0.85     5.E-02
+       35.6       0.69     4.E-02
+       41.3       0.39     3.E-02
+       47.1        0.3     3.E-02
+       52.6       0.24     3.E-02
+       58.9      0.192    2.7E-02
+       63.7      0.152    2.7E-02
+ENDDATA             12
+ENDSUBENT           35
+SUBENT        O0329014     970422              20050926       0000
+BIB                  6         14
+REACTION   (8-O-16(P,D)8-O-15,PAR,DA,,,EXP) Figure 18.
+SAMPLE     Foils of Mylar and Boric Acid (H(3)BO(3)) Were Used.
+           The Boric Acid was Prepared by Depositing a Slurry of
+           Benzene and Boric Acid on Painter'S Foil (APPROX.
+            0.2 MG/CM**2 AL),Letting the Slurry Almost Dry with
+           Uniform Distribution of Boric Acid,Then Applying a Few
+           Drops of Polystyrene Benzene As a Binder.It was Found
+           That,by Applying the Binder While the Boric Acid
+           Deposit was Still Slightly Damp,the Polystyrene Spread
+           Uniformly Without Disturbung the Boric Acid.
+EN-SEC     (E-LVL,8-O-15)
+LEVEL-PROP (8-O-15,E-LVL=0.00,SPIN=0.5,PARITY=-1.)
+PART-DET   (D)
+ERR-ANALYS (ERR-T).The Uncertainty is Reported by Authors.
+ENDBIB              14
+COMMON               3          3
+EN         E-LVL      ANG-ERR
+MEV        MEV        ADEG
+        20.         0.        0.5
+ENDCOMMON            3
+DATA                 3          8
+ANG-CM     DATA       ERR-T
+ADEG       MB/SR      MB/SR
+       12.5       1.63       0.13
+       18.3       1.81       0.11
+       24.1       1.75       0.11
+       29.6       1.25     9.E-02
+       35.1       0.98     7.E-02
+       41.3       0.76     3.E-02
+       46.5       0.63     3.E-02
+       57.8       0.49     5.E-02
+ENDDATA             10
+ENDSUBENT           33
+SUBENT        O0329015     970422              20050926       0000
+BIB                  6         12
+REACTION   (8-O-18(P,D)8-O-17,PAR,DA,,,EXP) Figure 20.
+SAMPLE     O-18 was Obtained in the Form of Al(2)O(3),Enriched to
+            90.2% in O-18.Foils were Produced by Evaporating
+           Suspensions Od Al(2)O(3) In Polystyrene and Benzene on
+           Both Water and Glass Plates.It was Felt That the Foils
+           Produced on Water were Definitely Superior,Containing
+           Approximately 1.2 Mg/Cm**2 Al(2)O(3) And Approximately
+            1 Mg/Cm**2 Polystyrene.
+EN-SEC     (E-LVL,8-O-17)
+LEVEL-PROP (8-O-17,E-LVL=0.00,SPIN=2.5,PARITY=+1.)
+PART-DET   (D)
+ERR-ANALYS (ERR-T).The Uncertainty is Reported by Authors.
+ENDBIB              12
+COMMON               3          3
+EN         E-LVL      ANG-ERR
+MEV        MEV        ADEG
+       17.6         0.       0.26
+ENDCOMMON            3
+DATA                 3         12
+ANG-CM     DATA       ERR-T
+ADEG       MB/SR      MB/SR
+      11.08       2.53       0.23
+      13.28       3.67       0.28
+      17.65        5.2        0.3
+      21.83        6.5        0.3
+      24.19        6.9        0.4
+      26.37        7.5        0.4
+      28.54        7.2        0.5
+      30.69        6.5        0.4
+      35.19        5.1        0.4
+      38.07        4.3        0.4
+      43.49        3.9        0.4
+      49.24       1.96       0.23
+ENDDATA             14
+ENDSUBENT           35
+SUBENT        O0329016     970422              20050926       0000
+BIB                  5         11
+REACTION   (8-O-18(P,D)8-O-17,PAR,DA,,,EXP) Figure 21
+SAMPLE     O-18 was Obtained in the Form of Al(2)O(3),Enriched to
+            90.2% in O-18.Foils were Produced by Evaporating
+           Suspensions Od Al(2)O(3) In Polystyrene and Benzene on
+           Both Water and Glass Plates.It was Felt That the Foils
+           Produced on Water were Definitely Superior,Containing
+           Approximately 1.2 Mg/Cm**2 Al(2)O(3) And Approximately
+            1 Mg/Cm**2 Polystyrene.
+EN-SEC     (E-LVL,8-O-17)
+LEVEL-PROP (8-O-17,E-LVL=0.87,SPIN=0.5,PARITY=+1.)
+ERR-ANALYS (ERR-T).The Uncertainty is Reported by Authors.
+ENDBIB              11
+COMMON               3          3
+EN         E-LVL      ANG-ERR
+MEV        MEV        ADEG
+       17.6       0.87       0.21
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA       ERR-T
+ADEG       MB/SR      MB/SR
+       8.86       12.8        1.1
+       10.1       10.6        0.6
+      11.18        8.8        0.4
+      13.32        6.3        0.3
+      17.72       2.97       0.23
+      21.92        1.9       0.19
+      26.56       1.16       0.19
+      30.59       1.36       0.16
+      34.92       1.41       0.14
+       38.2       1.53       0.14
+      43.43       1.58       0.19
+ENDDATA             13
+ENDSUBENT           33
+SUBENT        O0329017     970422              20050926       0000
+BIB                  5         11
+REACTION   (8-O-18(P,D)8-O-17,PAR,DA,,,EXP)  Figure 22
+SAMPLE     O-18 was Obtained in the Form of Al(2)O(3),Enriched to
+            90.2% in O-18.Foils were Produced by Evaporating
+           Suspensions Od Al(2)O(3) In Polystyrene and Benzene on
+           Both Water and Glass Plates.It was Felt That the Foils
+           Produced on Water were Definitely Superior,Containing
+           Approximately 1.2 Mg/Cm**2 Al(2)O(3) And Approximately
+            1 Mg/Cm**2 Polystyrene.
+EN-SEC     (E-LVL,8-O-17)
+LEVEL-PROP (8-O-17,E-LVL=3.06,SPIN=0.5,PARITY=-1.)
+ERR-ANALYS (ERR-T).The Uncertainty is Reported by Authors.
+ENDBIB              11
+COMMON               3          3
+EN         E-LVL      ANG-ERR
+MEV        MEV        ADEG
+       17.6       3.06       0.19
+ENDCOMMON            3
+DATA                 3          7
+ANG-CM     DATA       ERR-T
+ADEG       MB/SR      MB/SR
+      10.98        2.3        0.3
+      13.36        2.8        0.4
+      17.86        3.9        0.4
+      22.35        2.7        0.4
+      26.85       1.76       0.21
+      30.69       1.51       0.14
+      38.89       0.19       0.17
+ENDDATA              9
+ENDSUBENT           29
+SUBENT        O0329018     970422              20050926       0000
+BIB                  5         11
+REACTION   (8-O-18(P,T)8-O-16,PAR,DA,,,EXP)  Figure 23
+SAMPLE     O-18 was Obtained in the Form of Al(2)O(3),Enriched to
+            90.2% in O-18.Foils were Produced by Evaporating
+           Suspensions Od Al(2)O(3) In Polystyrene and Benzene on
+           Both Water and Glass Plates.It was Felt That the Foils
+           Produced on Water were Definitely Superior,Containing
+           Approximately 1.2 Mg/Cm**2 Al(2)O(3) And Approximately
+            1 Mg/Cm**2 Polystyrene.
+EN-SEC     (E-LVL,8-O-16)
+LEVEL-PROP (8-O-16,E-LVL=0.00,SPIN=0.,PARITY=+1.)
+ERR-ANALYS (ERR-T).The Uncertainty is Reported by Authors.
+ENDBIB              11
+COMMON               3          3
+EN         E-LVL      ANG-ERR
+MEV        MEV        ADEG
+       17.6         0.        0.3
+ENDCOMMON            3
+DATA                 3          9
+ANG-CM     DATA       ERR-T
+ADEG       MB/SR      MB/SR
+      18.05       1.06       0.13
+      24.92       1.96       0.13
+      29.27       2.69       0.15
+      34.98       2.84       0.15
+      41.57       2.36       0.13
+      47.03       1.97       0.12
+      52.03       1.38     8.E-02
+      57.71        0.8     8.E-02
+      68.41       0.39     7.E-02
+ENDDATA             11
+ENDSUBENT           31
+ENDENTRY            18

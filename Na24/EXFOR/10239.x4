@@ -1,0 +1,313 @@
+ENTRY            10239   20010309   20010426   20050926       0000
+SUBENT        10239001   20010309   20010426   20050926       0000
+BIB                 14         40
+INSTITUTE  (1USAANL)
+REFERENCE  (P,ANL-7710,15,1971)
+AUTHOR     (D.L.SMITH)
+TITLE      Fast Neutron Inelastic Gamma Ray Studies of Arsenic and
+            Sodium
+FACILITY   (VDG) 3-MeV Argonne Van de Graaff Accelerator
+INC-SOURCE (P-LI7)  Protons from accelerator incident on Li target
+SAMPLE     Small cylindrical samples (approximately 1 in. diameter
+            and 1-in. high) of metallic arsenic and sodium.
+METHOD     (TOF) Time-of-flight.
+DETECTOR   (GELI) A 7.2 cm**3 planar and a 30 cm**3 modified co-
+            axial Ge(Li) detector were used. Relative efficiency
+            curves for the detectors were measured using radio-
+            active sources of 133Ba, 22Na, 46Sc, 60Co and 154Eu
+            placed at the sample position.
+           Detector and shielding were rotated about sample
+            position permitting gamma ray angular distribution
+            measurements in the angular range 50-110 degrees
+            (lab).
+ANALYSIS   Energies of the gamma rays were determined from a
+            quadratic polynomial calibration curve fitted to
+            calibration data acquired with the aid of radioactive
+            gamma ray sources. The counts in the full energy
+            peaks were determined by subtracting assumed linear
+            backgrounds from beneath the peaks.
+CORRECTION Corrections were made for gamma attenuation in the
+            samples and for Ge(Li) detector efficiency. No
+            detailed corrections were made for neutron attenuation
+            and multiple scattering by the samples.
+           Correction due to the second group of neutrons in the
+            7Li(p,n) reaction was computed to be about 1.6% in
+            the worst case and negligible over most of the range.
+ERR-ANALYS (DATA-ERR) Error due to neutron attenuation in sample
+            of sodium was at worst 5% in the measured cross
+            sections.
+STATUS     (APRVD) Approved by author.
+            Data taken from tables in reference.
+HISTORY    (19730305C)
+           (19821018A) Converted to REACTION formalism.
+           (20010309A) Updated to new date formats, lower case.
+ENDBIB              40
+NOCOMMON             0          0
+ENDSUBENT           43
+SUBENT        10239002   20010309   20010426   20050926       0000
+BIB                  2          4
+REACTION   ((33-AS-75(N,INL)33-AS-75,PAR,DA,G)//
+           (33-AS-75(N,INL)33-AS-75,PAR,DA,G))
+HISTORY    (19821018A) Subentries 2-8 combined.
+           (20010309A) Updated reation to ratio format.
+ENDBIB               4
+COMMON               2          3
+ANG        E-DN
+ADEG       KEV
+90.        198.8
+ENDCOMMON            3
+DATA                 4         44
+EN         E-NM       DATA       DATA-ERR
+KEV        KEV        ARB-UNITS  ARB-UNITS
+300.0      198.8      100.
+300.0      265.0       43.        9.
+300.0      279.8       28.        7.
+400.0      198.8      100.
+400.0      265.0      145.       19.
+400.0      279.8      105.       14.
+500.       198.8      100.
+500.       265.0      174.       19.
+500.       279.8      143.       15.
+500.       400.8        7.        2.
+500.       469.2       11.        3.
+600.       198.8      100.
+600.       265.0      181.       20.
+600.       279.8      164.       18.
+600.       400.8        8.        3.
+600.       469.2       17.        3.
+600.       571.2       13.        4.
+700.       198.8      100.
+700.       265.0      165.       19.
+700.       279.8      141.       17.
+700.       400.8       11.        4.
+700.       419.2       20.        4.
+700.       469.2       34.        6.
+700.       571.2       28.        5.
+800.       198.8      100.
+800.       265.0      155.       17.
+800.       279.8      145.       17.
+800.       353.5        4.        1.
+800.       400.8        9.        1.
+800.       419.2       28.        5.
+800.       469.2       36.        6.
+800.       571.2       48.        8.
+800.       617.5        6.        1.
+1000.      198.8      100.
+1000.      265.0      149.       15.
+1000.      279.8      139.       14.
+1000.      353.5        5.        1.
+1000.      400.8        9.        2.
+1000.      419.2       34.        4.
+1000.      469.2       34.        4.
+1000.      571.2       50.       13.
+1000.      617.5       10.        2.
+1000.      820.1       12.        2.
+1000.      864.2       15.        3.
+ENDDATA             46
+ENDSUBENT           59
+SUBENT        10239009   20010309   20010426   20050926       0000
+BIB                  2          4
+REACTION   ((33-AS-75(N,INL)33-AS-75,PAR,DA,G)//
+           (33-AS-75(N,INL)33-AS-75,PAR,DA,G))
+HISTORY    (19821018A) Subentries 9-13 combined.
+           (20010309A) Updated reation to ratio format.
+ENDBIB               4
+COMMON               2          3
+ANG        E-DN
+ADEG       KEV
+90.        820.1
+ENDCOMMON            3
+DATA                 4         50
+EN         E-NM       DATA       DATA-ERR
+KEV        KEV        ARB-UNITS  ARB-UNITS
+1100.      571.2      303.       50.
+1100.      606.2       49.       11.
+1100.      617.5       41.       12.
+1100.      784.6       16.       10.
+1100.      820.1      100.
+1100.      864.2      114.       20.
+1200.      198.8      100.
+1200.      265.0      137.       14.
+1200.      279.8      140.       14.
+1200.      353.5        7.        1.
+1200.      400.8        9.        2.
+1200.      419.2       35.        5.
+1200.      469.2       35.        4.
+1200.      542.0        5.        2.
+1200.      571.2       78.       11.
+1200.      617.5       11.        3.
+1200.      643.1        8.        2.
+1200.      738.9       11.        3.
+1200.      784.6        5.        2.
+1200.      820.1       19.        3.
+1200.      864.2       23.        3.
+1300.      542.0       38.       10.
+1300.      571.2      238.       45.
+1300.      606.2       30.        8.
+1300.      617.5       53.       12.
+1300.      643.1       26.        9.
+1300.      738.9       24.        7.
+1300.      784.6       27.        9.
+1300.      820.1      100.
+1300.      864.2      132.       20.
+1400.      542.0       17.        6.
+1400.      571.2      183.       26.
+1400.      606.2       45.        8.
+1400.      617.5       54.        9.
+1400.      643.1       49.        8.
+1400.      738.9       35.        8.
+1400.      784.6       36.        8.
+1400.      820.1      100.
+1400.      864.2      145.       16.
+1400.      1074.1      38.        7.
+ 1500.     542.0       17.        6.
+ 1500.     571.2      176.       31.
+ 1500.     606.2       70.       14.
+ 1500.     617.5       56.       14.
+ 1500.     643.1       31.       10.
+ 1500.     738.9       42.        8.
+ 1500.     784.6       45.       13.
+ 1500.     820.1      100.
+ 1500.     864.2      177.       24.
+ 1500.     1074.1      49.       13.
+ENDDATA             52
+ENDSUBENT           65
+SUBENT        10239014   20010309   20010426   20050926       0000
+BIB                  2          3
+REACTION   ((11-NA-23(N,INL)11-NA-23,PAR,DA,G)//
+           (29-CU-0(N,INL)29-CU-0,PAR,DA,G))
+EN-SEC     (E-DN,29-CU-63)
+ENDBIB               3
+COMMON               3          3
+E-NM       E-DN       ANG
+KEV        KEV        ADEG
+440.       670.        90.
+ENDCOMMON            3
+DATA                 3         50
+EN         DATA       DATA-ERR
+KEV        NO-DIM     NO-DIM
+ 750.       5.13       0.59
+ 775.       4.68       0.55
+ 780.       4.70       0.76
+ 800.       3.94       0.46
+ 800.       5.20       0.74
+ 825.       3.28       0.52
+ 850.       3.14       0.46
+ 875.       2.30       0.32
+ 875.       2.06       0.25
+ 900.       2.80       0.32
+ 900.       2.18       0.28
+ 910.       2.50       0.30
+ 925.       2.39       0.28
+ 925.       2.79       0.40
+ 950.       2.46       0.29
+ 950.       1.69       0.22
+ 975.       1.68       0.20
+ 975.       1.64       0.19
+1000.       2.81       0.35
+1000.       3.30       0.38
+1025.       3.19       0.43
+1050.       3.48       0.41
+1050.       3.39       0.44
+1070.       3.25       0.36
+1075.       3.27       0.37
+1075.       3.20       0.37
+1100.       3.05       0.33
+1100.       3.09       0.33
+1125.       2.83       0.36
+1125.       2.92       0.33
+1150.       2.79       0.32
+1150.       2.94       0.33
+1175.       3.42       0.40
+1230.       3.19       0.40
+1250.       3.38       0.45
+1275.       3.82       0.47
+1300.       2.89       0.42
+1325.       1.85       0.27
+1350.       2.12       0.34
+1350.       1.70       0.19
+1375.       1.23       0.17
+1400.       1.53       0.22
+1425.       1.89       0.27
+1425.       1.98       0.24
+1450.       1.75       0.28
+1475.       2.30       0.38
+1475.       1.73       0.26
+1500.       1.57       0.25
+1525.       1.77       0.24
+1550.       2.22       0.36
+ENDDATA             52
+ENDSUBENT           64
+SUBENT        10239015   20010309   20010426   20050926       0000
+BIB                  5          9
+REACTION   (11-NA-23(N,INL)11-NA-23,PAR,DA,G,4PI)
+ANALYSIS   (4PI1A) Angular distribution of 440-keV gamma was
+            found to be essentially isotropic. Integrated cross
+            section was taken to be 4pi times differential cross
+            section at 90 degrees.
+MONITOR    (29-CU-63(N,INL)29-CU-63,PAR,DA,G)
+STATUS     (DEP,10239014) Calculated from measured ratio at 90
+            degrees.
+HISTORY    (19750426A) ISO-QUANT corrected
+ENDBIB               9
+COMMON               3          3
+E          E-NRM      ANG
+KEV        KEV        ADEG
+ 440.       670.      90.
+ENDCOMMON            3
+DATA                 4         50
+EN         DATA       DATA-ERR   MONIT
+KEV        MB         MB         MB
+750.       420.       48.        82.
+775.       436.       51.        93.
+780.       442.       72.
+800.       402.       47.        102.
+800.       531.       76.
+825.       355.       56.        108.
+850.       358.       53.        114.
+875.       276.       38.        118.
+875.       243.       30.
+900.       341.       39.        122.
+900.       265.       34.
+910.       307.       37.
+925.       295.       34.        125.
+925.       348.       50.
+950.       315.       37.        128.
+950.       216.       28.
+975.       218.       26.        130.
+975.       213.       25.
+1000.      373.       46.        133.
+1000.      440.       51.
+1025.      430.       58.        135.
+1050.      473.       56.        136.
+1050.      461.       60.
+1070.      445.       49.
+1075.      448.       51.        137.
+1075.      439.       51.
+1100.      420.       45.        138.
+1100.      426.       46.
+1125.      394.       50.        139.
+1125.      406.       46.
+1150.      390.       45.        140.
+1150.      411.       46.
+1175.      482.       56.        141.
+1230.      454.       57.
+1250.      480.       63.        142.
+1275.      546.       68.        143.
+1300.      414.       60.        143.
+1325.      264.       38.        143.
+1350.      304.       49.        143.
+1350.      243.       27.
+1375.      175.       24.        143.
+1400.      218.       32.        143.
+1425.      271.       39.        143.
+1425.      283.       34.
+1450.      250.       40.        143.
+1475.      332.       55.        144.
+1475.      247.       37.
+1500.      225.       36.        144.
+1525.      255.       34.        144.
+1550.      320.       53.        144.
+ENDDATA             52
+ENDSUBENT           70
+ENDENTRY             5

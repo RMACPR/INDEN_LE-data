@@ -1,0 +1,5 @@
+subentry,X4file,target,reaction,measure,description,ENmin,ENmax,rows,uncertainties,authors,year,reference
+"C1376004","C1376.x4","O-18","HE3,EL","DA","relative to Rutherford scattering Differential c/s with respect to angle for 18O(He3,Elastic)18O","14.0","14.0","53"," ","M.S.Abdel-Wahab,L.Potvin,R.Roy,P.Bricault,R.Larue,D.Pouliot,C.Rioux,R.J.Slobodrian","1982","Canadian Journal of Physics 60,1595 (1982)"
+"D0637002","D0637.x4","O-18","HE3,P","DA","Partial differential cross section d/dA for 18O(He3,p)20F","18.0","18.0","196"," ","M.S.Chowdhury,M.A.Zaman,H.M.Sen Gupta","1992","Physical Review,Part C,Nuclear Physics 46,(6),2273 (1992)"
+"F0906002","F0906.x4","O-18","HE3,T","DA","Partial differential cross section d/dA for 18O(He3,t)18F","16.0","16.0","404"," ","H.H.Duhm,K.Peterseim,R.Seehars,R.Finlay,C.Detraz","1970","Nuclear Physics,Section A 151,579 (1970)"
+"F0932002","F0932.x4","O-18","HE3,D","DA","Partial differential cross section d/dA for 18O(He3,d)19F","16.0","16.0","634"," ","C.Schmidt,H.H.Duhm","1970","Nuclear Physics,Section A 155,644 (1970)"

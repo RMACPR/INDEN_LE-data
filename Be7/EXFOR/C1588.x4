@@ -1,0 +1,75 @@
+ENTRY            C1588   20160629   20161017   20160926       C160
+SUBENT        C1588001   20160629   20161017   20160926       C160
+BIB                 10         20
+TITLE      Gamma Rays from Proton Bombardment of Li6
+AUTHOR     (S.Bashkin,R.R.Carlson)
+REFERENCE  (J,PR,97,1245,1955)
+           #doi:10.1103/PhysRev.97.1245
+INSTITUTE  (1USASUI)
+FACILITY   (CCW,1USASUI) 500-keV Cockcroft-Walton voltage
+           multiplier.
+PART-DET   (G)
+DETECTOR   (NAICR) Gamma radiation was detected with a NaI (Tl)
+           crystal 1.5 in. in diameter and 2 in. long, mounted
+           on an RCA5819 photomultiplier tube. The
+           photomultiplier output was fed into a limiter of
+           Elmore's design adjusted so that all radiation above
+           1.5 MeV gave the same size output pulse.
+SAMPLE     (3-LI-6,ENR=0.93)
+           (3-LI-7,ENR=0.07) Thick targets of elemental,
+           separated lithium were evaporated in situ on a
+           1/8-in. thick aluminum plate.
+ERR-ANALYS (DATA-ERR) No information on sources of uncertainties.
+HISTORY    (20160629C) BP
+ENDBIB              20
+NOCOMMON             0          0
+ENDSUBENT           23
+SUBENT        C1588002   20160629   20161017   20160926       C160
+BIB                  2          2
+REACTION   (3-LI-6(P,G)4-BE-7,PAR,SIG)
+STATUS     (TABLE) page 1247.
+ENDBIB               2
+COMMON               1          3
+E-LVL
+KEV
+      430.0
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+KEV        MICRO-B    MICRO-B
+      415.0        0.7        0.2
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        C1588003   20160629   20161017   20160926       C160
+BIB                  3          5
+REACTION   (3-LI-6(P,G)4-BE-7,,SIG)
+COMMENT    The present estimate does not include any
+           contributions from decays through the second excited
+           state of Be7.
+STATUS     (TABLE) page 1247.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+KEV        MICRO-B    MICRO-B
+      400.0        2.0        1.0
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        C1588004   20160629   20161017   20160926       C160
+BIB                  2          2
+REACTION   (3-LI-6(P,G)4-BE-7,PAR,PY,,TT)
+STATUS     (TABLE) page 1245.
+ENDBIB               2
+COMMON               1          3
+E-LVL
+KEV
+      430.0
+ENDCOMMON            3
+DATA                 3          2
+EN         DATA       DATA-ERR
+KEV        PRT/INC    PRT/INC
+      180.0    7.0E-13    4.0E-13
+      415.0    1.7E-11   3.5E-012
+ENDDATA              4
+ENDSUBENT           15
+ENDENTRY             4

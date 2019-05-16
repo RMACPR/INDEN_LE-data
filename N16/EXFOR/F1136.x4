@@ -1,0 +1,530 @@
+ENTRY            F1136   20111021   20120328   20120328       F044
+SUBENT        F1136001   20111021   20120328   20120328       F044
+BIB                  6          6
+TITLE      C-14(d,n)N-15 reaction.
+AUTHOR     (R.Chiba)
+INSTITUTE  (1USAWIS)
+REFERENCE  (J,PR,123,1316,1961)
+FACILITY   (VDG,1USAWIS)
+HISTORY    (20111021C)
+ENDBIB               6
+NOCOMMON             0          0
+ENDSUBENT            9
+SUBENT        F1136002   20111021   20120328   20120328       F044
+BIB                  6         15
+REACTION   (6-C-14(D,N)7-N-15,PAR,DA)
+DETECTOR   (CSICR) Neutron spectrometer was used. A 1 cm diameter,
+           0.46 mm thick polyethylene radiator was supported in
+           the hemisphere by a thin wire. The detector was a 1.9
+           cm diameter, 1.4 mm thick CsI crystal mounted on a Du
+           Mont 6291 photomultiplier tube.
+SAMPLE     Thin carbon targets were prepared by a discharge in
+           C2H2 gas which deposited carbon on the wolfram backing.
+           For the C-14 target, 38% enriched C-14 was used. The
+           thickness of the target was determined by weighing to
+           be approximately 0.1 mg/cm2.
+METHOD     (PHD)
+ERR-ANALYS (EN-ERR-DIG) Energy digitizing error
+           (ERR-DIG)    Data digitizing error
+STATUS     (CURVE) Fig.4
+ENDBIB              15
+COMMON               4          3
+E-LVL      ANG-RSL    EN-ERR-DIG ERR-DIG
+MEV        PER-CENT   MEV        MB/SR
+  0.         8.         0.0027     0.0087
+ENDCOMMON            3
+DATA                 3        149
+ANG        EN         DATA
+ADEG       MEV        MB/SR
+         0.     1.0866     2.3749
+         0.     1.1251     3.5261
+         0.     1.1685     3.3825
+         0.     1.2069     6.4762
+         0.     1.2406      6.908
+         0.     1.2887     8.1313
+         0.     1.3273     6.6207
+         0.     1.3658     7.1244
+         0.     1.4044     6.0455
+         0.     1.4814     6.0459
+         0.     1.5248     4.3195
+         0.     1.5633     3.2405
+         0.     1.6018     4.4638
+         0.     1.6404     3.4568
+         0.     1.6789     4.3922
+         0.     1.7222     4.1766
+         0.     1.7222     3.8886
+         0.     1.7559     4.2487
+         0.     1.7993     3.9611
+         0.      1.833     4.4649
+         0.     1.8715     5.4004
+         0.     1.9148     5.3286
+         0.     1.9485      5.041
+         0.     1.9919     5.4729
+         0.     2.0304     5.6889
+         0.     2.0737      5.833
+         0.      2.093      5.977
+         0.      2.117     5.9771
+         0.     2.1363     4.6823
+         0.     2.1556     5.4737
+         0.     2.1797     4.5386
+         0.     2.2134     3.9632
+         0.     2.2375     2.1648
+         0.     2.2568     2.8843
+         0.     2.2712     2.5966
+         0.     2.2953     2.8845
+         0.     2.3145     3.3882
+         0.     2.3242     3.8199
+         0.      2.329     4.2516
+         0.     2.3386     4.8271
+         0.     2.3482      5.115
+         0.     2.3626     5.9783
+         0.     2.3674     6.3381
+         0.     2.3867     6.8418
+         0.     2.4107     8.1369
+         0.       2.43     7.2017
+         0.     2.4541     8.5687
+         0.     2.4685     7.9213
+         0.     2.4878     6.8423
+         0.     2.5119     6.4827
+         0.     2.5312     5.4036
+         0.     2.5649     4.9722
+         0.     2.5938     5.4759
+         0.     2.6082     5.9796
+         0.     2.6178     6.4113
+         0.     2.6226     6.6991
+         0.     2.6467     7.9222
+         0.     2.6804     8.0663
+         0.       2.69     8.5699
+         0.     2.7189     9.0017
+         0.     2.7333     9.5773
+         0.     2.7622     12.527
+         0.     2.7814     12.239
+         0.     2.8248     11.664
+         0.     2.8681     10.729
+         0.     2.9019     9.3623
+         0.     2.9405     6.8445
+         0.     2.9838     4.6865
+         0.     3.0224     4.5428
+         0.     3.0609      3.248
+         0.     3.0995     3.0324
+         0.     3.1428     2.9607
+         0.     3.1813     3.6083
+         0.     3.2198     3.1769
+         0.     3.2584     2.3138
+         0.     3.3017      2.242
+         0.      3.321     2.2421
+         0.     3.3402      2.458
+         0.     3.3499     2.8178
+         0.     3.3595     2.4581
+         0.     3.3643     1.8826
+         0.     3.3836     1.8108
+         0.     3.4221     2.0987
+         0.     3.4606     1.7392
+         0.     3.4992     1.7394
+         0.     3.5425     2.0993
+        90.     1.5751     3.8571
+        90.     1.6086       3.27
+        90.     1.6518     3.2857
+        90.     1.6853     3.7857
+        90.     1.7236     3.4286
+        90.      1.762     3.8571
+        90.     1.8003     4.7857
+        90.     1.8818     3.7143
+        90.     2.0016       6.11
+        90.     2.0399     5.9286
+        90.     2.0735     5.2857
+        90.     2.1166     4.7852
+        90.     2.1597     4.7857
+        90.     2.1981     3.9286
+        90.     2.2173     4.3571
+        90.     2.2364     3.2143
+        90.     2.2556     3.0711
+        90.     2.2748     3.0714
+        90.     2.2987       3.42
+        90.     2.3179     2.9286
+        90.     2.3371     2.0714
+        90.      2.361     2.3579
+        90.     2.3802     2.2143
+        90.     2.3946     2.2148
+        90.     2.4089     2.5712
+        90.     2.4329     2.5723
+        90.     2.4521     3.0714
+        90.     2.4712      2.533
+        90.     2.4904     2.7143
+        90.      2.524     3.0725
+        90.     2.5479     3.0734
+        90.     2.5575     2.2857
+        90.     2.5863     2.5714
+        90.      2.615     2.5724
+        90.     2.6198     2.2143
+        90.      2.639     2.8571
+        90.     2.6677     3.5784
+        90.     2.6869     4.2143
+        90.     2.7061     4.9286
+        90.     2.7252     4.2153
+        90.     2.7492     4.9286
+        90.     2.7636     4.3571
+        90.     2.7923     4.8561
+        90.     2.8067     4.7143
+        90.     2.8642     6.2143
+        90.     2.8882     5.5727
+        90.     2.9409     4.3571
+        90.      2.984     3.7857
+        90.     3.0176       4.75
+        90.     3.0607     4.7143
+        90.     3.0942     5.2857
+        90.     3.1182     4.7854
+        90.      3.147     4.7143
+        90.     3.1805     3.9286
+        90.     3.2188       4.06
+        90.      3.262     3.1429
+        90.     3.3003      3.591
+        90.     3.3387     3.4286
+        90.     3.3722     2.7857
+        90.     3.4153     3.7146
+        90.     3.4537     3.7851
+        90.     3.5016     3.9286
+        90.     3.5399     3.7145
+ENDDATA            151
+ENDSUBENT          175
+SUBENT        F1136003   20111021   20120328   20120328       F044
+BIB                  6         16
+REACTION   (6-C-14(D,N)7-N-15,PAR,DA)
+DETECTOR   (CSICR) Neutron spectrometer was used. A 1 cm diameter,
+           0.46 mm thick polyethylene radiator was supported in
+           the hemisphere by a thin wire. The detector was a 1.9
+           cm diameter, 1.4 mm thick CsI crystal mounted on a Du
+           Mont 6291 photomultiplier tube.
+SAMPLE     Thin carbon targets were prepared by a discharge in
+           C2H2 gas which deposited carbon on the wolfram backing.
+           For the C-14 target, 38% enriched C-14 was used. The
+           thickness of the target was determined by weighing to
+           be approximately 0.1 mg/cm2.
+METHOD     (PHD)
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+           (ERR-DIG)    Data digitizing error
+           (DATA-ERR)   Error from the graphic bars
+STATUS     (CURVE) Fig.5
+ENDBIB              16
+COMMON               5          3
+EN         E-LVL      ANG-RSL    ANG-ERR-D  ERR-DIG
+MEV        MEV        PER-CENT   ADEG       MB/SR
+  3.53       0.         8.         0.1615     0.0027
+ENDCOMMON            3
+DATA                 3         18
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+    0.27705     1.8444    0.31235
+     5.0432     1.9667    0.32132
+     10.088     2.9889    0.37678
+     15.694     3.9223    0.45416
+     21.301     4.0667    0.44342
+     26.347     4.7001    0.47658
+     31.673     5.0668    0.51231
+     36.719     5.6557    0.54324
+     42.890     4.2335    0.44513
+     47.095     4.0890    0.47687
+     52.145     2.2779    0.37618
+     62.239     2.1224    0.34527
+     72.612     2.6002    0.36654
+     82.706     2.3113    0.41219
+     93.360     2.6225    0.36547
+     102.89     1.7447    0.32423
+     123.36     1.9337    0.33148
+     153.36     1.9893    0.31219
+ENDDATA             20
+ENDSUBENT           45
+SUBENT        F1136004   20111021   20120328   20120328       F044
+BIB                  6         16
+REACTION   (6-C-14(D,N)7-N-15,PAR,DA)
+DETECTOR   (CSICR) Neutron spectrometer was used. A 1 cm diameter,
+           0.46 mm thick polyethylene radiator was supported in
+           the hemisphere by a thin wire. The detector was a 1.9
+           cm diameter, 1.4 mm thick CsI crystal mounted on a Du
+           Mont 6291 photomultiplier tube.
+SAMPLE     Thin carbon targets were prepared by a discharge in
+           C2H2 gas which deposited carbon on the wolfram backing.
+           For the C-14 target, 38% enriched C-14 was used. The
+           thickness of the target was determined by weighing to
+           be approximately 0.1 mg/cm2.
+METHOD     (PHD)
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+           (ERR-DIG)    Data digitizing error
+           (DATA-ERR)   Error from the graphic bars
+STATUS     (CURVE) Fig.6
+ENDBIB              16
+COMMON               5          3
+EN         E-LVL      ANG-RSL    ANG-ERR-D  ERR-DIG
+MEV        MEV        PER-CENT   ADEG       MB/SR
+  2.786      0.         8.         0.1427     0.0171
+ENDCOMMON            3
+DATA                 3         16
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+     1.0304     11.171     1.4047
+     9.7886     12.975     1.4716
+     20.931     11.501     1.7391
+     31.063     10.964     1.7387
+     41.534     10.494     1.8060
+     50.979     7.3487     1.4721
+     61.776     4.2029     1.2709
+     71.578     5.2714     1.3378
+     82.046     4.2662     1.2713
+     91.505     4.0639     1.2040
+     101.64     4.1958     1.2039
+     110.76     4.2611     1.2715
+     120.89     2.9884     1.0702
+     130.68     1.3144    0.73578
+     141.16     3.2524    0.93645
+     151.64     3.0498     1.0033
+ENDDATA             18
+ENDSUBENT           43
+SUBENT        F1136005   20111021   20120328   20120328       F044
+BIB                  5         20
+REACTION   (6-C-14(D,N)7-N-15,PAR,DA)
+DETECTOR   (CSICR) Neutron spectrometer was used. A 1 cm diameter,
+           0.46 mm thick polyethylene radiator was supported in
+           the hemisphere by a thin wire. The detector was a 1.9
+           cm diameter, 1.4 mm thick CsI crystal mounted on a Du
+           Mont 6291 photomultiplier tube.
+SAMPLE     Thin carbon targets were prepared by a discharge in
+           C2H2 gas which deposited carbon on the wolfram backing.
+           For the C-14 target, 38% enriched C-14 was used. The
+           thickness of the target was determined by weighing to
+           be approximately 0.1 mg/cm2.
+ERR-ANALYS (ANG-ERR-D) Angle digitizing error
+           (ERR-DIG)   Data digitizing error
+           (DATA-ERR)  Error from the graphic bars
+           (ERR-1)     The uncertainty corresponds to C-14 target
+                       thickness and composition uncertainty
+           (ERR-2)     Spectrometer solid angle and efficiency
+                       uncertainty
+           (ERR-S)     Statistical error
+STATUS     (CURVE) Fig.7
+ENDBIB              20
+COMMON               9          6
+EN         E-LVL      E-LVL      ANG-RSL    ANG-ERR-D  ERR-DIG
+ERR-1      ERR-2      ERR-S
+MEV        MEV        MEV        PER-CENT   ADEG       MB/SR
+PER-CENT   PER-CENT   PER-CENT
+  3.53       5.28       5.31       3.         0.318      0.0039
+  20.        20.        10.
+ENDCOMMON            6
+DATA                 3          4
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+     6.4482     24.498     1.8546
+     26.581     10.562    0.85213
+     45.731     6.6516    0.75188
+     91.777     4.9949    0.60150
+ENDDATA              6
+ENDSUBENT           38
+SUBENT        F1136006   20111021   20120328   20120328       F044
+BIB                  5         20
+REACTION   (6-C-14(D,N)7-N-15,PAR,DA)
+DETECTOR   (CSICR) Neutron spectrometer was used. A 1 cm diameter,
+           0.46 mm thick polyethylene radiator was supported in
+           the hemisphere by a thin wire. The detector was a 1.9
+           cm diameter, 1.4 mm thick CsI crystal mounted on a Du
+           Mont 6291 photomultiplier tube.
+SAMPLE     Thin carbon targets were prepared by a discharge in
+           C2H2 gas which deposited carbon on the wolfram backing.
+           For the C-14 target, 38% enriched C-14 was used. The
+           thickness of the target was determined by weighing to
+           be approximately 0.1 mg/cm2.
+ERR-ANALYS (ANG-ERR-D) Angle digitizing error
+           (ERR-DIG)   Data digitizing error
+           (DATA-ERR)  Error from the graphic bars
+           (ERR-1)     The uncertainty corresponds to C-14 target
+                       thickness and composition uncertainty
+           (ERR-2)     Spectrometer solid angle and efficiency
+                       uncertainty
+           (ERR-S)     Statistical error
+STATUS     (CURVE) Fig.8
+ENDBIB              20
+COMMON               8          6
+EN         E-LVL      ANG-RSL    ANG-ERR-D  ERR-DIG    ERR-1
+ERR-2      ERR-S
+MEV        MEV        PER-CENT   ADEG       MB/SR      PER-CENT
+PER-CENT   PER-CENT
+  3.53       6.33       3.         0.1717     0.0031      20.
+  20.        10.
+ENDCOMMON            6
+DATA                 3          4
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+     6.9742     6.6199     1.0859
+     28.467     7.3387    0.88344
+     48.123     5.5174    0.77301
+     93.616     2.9796    0.53374
+ENDDATA              6
+ENDSUBENT           38
+SUBENT        F1136007   20111021   20120328   20120328       F044
+BIB                  5         13
+REACTION   (6-C-14(D,TOT),,WID)
+DETECTOR   (CSICR) Neutron spectrometer was used. A 1 cm diameter,
+           0.46 mm thick polyethylene radiator was supported in
+           the hemisphere by a thin wire. The detector was a 1.9
+           cm diameter, 1.4 mm thick CsI crystal mounted on a Du
+           Mont 6291 photomultiplier tube.
+SAMPLE     Thin carbon targets were prepared by a discharge in
+           C2H2 gas which deposited carbon on the wolfram backing.
+           For the C-14 target, 38% enriched C-14 was used. The
+           thickness of the target was determined by weighing to
+           be approximately 0.1 mg/cm2.
+METHOD     (PHD)
+STATUS     (TABLE) Tbl.1   p. 1317
+ENDBIB              13
+NOCOMMON             0          0
+DATA                 2          7
+EN-RES     DATA-CM
+MEV        KEV
+       1.30       220.
+       1.65       390.
+       2.04       305.
+       2.44       175.
+       2.69       150.
+       2.86       175.
+       3.10       175.
+ENDDATA              9
+ENDSUBENT           27
+SUBENT        F1136008   20111021   20120328   20120328       F044
+BIB                  6         13
+REACTION   (8-O-16(D,N)9-F-17,PAR,SIG,,REL)
+COMMENT    No explanation of relative units is given.
+DETECTOR   (BF3) The "slow" neutron detector was the usual
+           enriched BF3 counter with a small paraffin cylinder
+            (4.5 cm o.d. by 4 cm long) surrounding. The counter
+           was covered by 0.8 mm cadmium sheet to reduce the
+           thermal neutron background.
+SAMPLE     Thin oxygen targets were prepared by heating wolfram
+           disks in oxygen at ~ 1 cm pressure.
+ERR-ANALYS (EN-ERR-DIG)  Energy digitizing error
+           (ERR-DIG)     Data digitizing error
+           (DATA-ERR)    Error from the graphic bars
+STATUS     (CURVE) Fig.10
+ENDBIB              13
+COMMON               3          3
+E-LVL      EN-ERR-DIG ERR-DIG
+MEV        MEV        ARB-UNITS
+  0.         0.0002     0.0032
+ENDCOMMON            3
+DATA                 3         18
+EN         DATA       DATA-ERR
+MEV        ARB-UNITS  ARB-UNITS
+     1.8116    0.11175  4.054E-02
+     1.8194    0.06808  2.365E-02
+     1.8233    0.07835  3.378E-02
+     1.8273    0.05821  3.041E-02
+     1.8311    0.09888  3.379E-02
+     1.8349    0.35238  3.716E-02
+      1.839    0.69711  3.376E-02
+     1.8429     1.0621  4.392E-02
+     1.8467     1.3697  4.389E-02
+     1.8507     1.6468  4.391E-02
+     1.8543     1.8665  4.730E-02
+     1.8582     2.0119  4.393E-02
+     1.8622      2.154  6.081E-02
+     1.8662     1.9919  6.419E-02
+       1.87     2.0461  5.743E-02
+     1.8741     2.1577  6.082E-02
+     1.8779     1.9822  6.081E-02
+     1.8819     2.0195  5.405E-02
+ENDDATA             20
+ENDSUBENT           42
+SUBENT        F1136009   20111021   20120328   20120328       F044
+BIB                  6         13
+REACTION   (8-O-16(D,N)9-F-17,PAR,SIG,,REL)
+COMMENT    No explanation of relative units is given.
+DETECTOR   (BF3) The "slow" neutron detector was the usual
+           enriched BF3 counter with a small paraffin cylinder
+            (4.5 cm o.d. by 4 cm long) surrounding. The counter
+           was covered by 0.8 mm cadmium sheet to reduce the
+           thermal neutron background.
+SAMPLE     Thin oxygen targets were prepared by heating wolfram
+           disks in oxygen at ~ 1 cm pressure.
+ERR-ANALYS (EN-ERR-DIG)  Energy digitizing error
+           (ERR-DIG)     Data digitizing error
+           (DATA-ERR)    Error from the graphic bars
+STATUS     (CURVE) Fig.11
+ENDBIB              13
+COMMON               3          3
+E-LVL      EN-ERR-DIG ERR-DIG
+MEV        MEV        ARB-UNITS
+  0.495      0.0003     0.0032
+ENDCOMMON            3
+DATA                 3         22
+EN         DATA       DATA-ERR
+MEV        ARB-UNITS  ARB-UNITS
+     2.3548     13.075  6.122E-02
+     2.3589     13.116  8.844E-02
+     2.3627      12.96  8.163E-02
+     2.3663      13.13  9.524E-02
+     2.3702     12.763  8.164E-02
+      2.374     12.926    0.10215
+     2.3781     12.715  8.843E-02
+     2.3817      12.96    0.10884
+     2.3853     12.776  9.524E-02
+     2.3892     12.736  8.164E-02
+     2.3938       12.6  8.844E-02
+     2.3974     12.763  8.163E-02
+      2.401     12.851  8.844E-02
+     2.4048     13.294  8.842E-02
+     2.4086     13.083  7.483E-02
+     2.4125     13.226  8.845E-02
+     2.4161     13.376    0.10205
+     2.4197     13.614  8.841E-02
+      2.424     13.417  9.524E-02
+     2.4279     13.369  8.843E-02
+      2.432     13.158  8.845E-02
+     2.4358     13.138    0.10213
+ENDDATA             24
+ENDSUBENT           46
+SUBENT        F1136010   20111021   20120328   20120328       F044
+BIB                  6         12
+REACTION   (8-O-16(D,N)9-F-17,PAR,SIG,,REL)
+COMMENT    No explanation of relative units is given.
+DETECTOR   (SCIN) A mixture of high viscosity silicone fluid and
+           Ag activated ZnS powder (1/3 by volume) mounted on an
+           RCA 5819 photomultiplier tube was used as the detector
+           for the fast neutrons.
+SAMPLE     Thin oxygen targets were prepared by heating wolfram
+           disks in oxygen at ~ 1 cm pressure.
+ERR-ANALYS (EN-ERR-DIG)  Energy digitizing error
+           (ERR-DIG)     Data digitizing error
+           (DATA-ERR)    Error from the graphic bars
+STATUS     (CURVE) Fig.11
+ENDBIB              12
+COMMON               3          3
+E-LVL      EN-ERR-DIG ERR-DIG
+MEV        MEV        ARB-UNITS
+  0.495      0.0003     0.0032
+ENDCOMMON            3
+DATA                 3         22
+EN         DATA       DATA-ERR
+MEV        ARB-UNITS  ARB-UNITS
+     2.3556     11.075  8.789E-02
+     2.3592     11.210  8.781E-02
+     2.3631     11.176  8.783E-02
+     2.3666     11.331  8.108E-02
+     2.3705     11.244  8.101E-02
+     2.3743     11.379  8.784E-02
+     2.3782     11.446  8.109E-02
+      2.382     11.568  8.784E-02
+     2.3859     11.426  7.433E-02
+     2.3897     11.588  8.782E-02
+     2.3936     11.494  8.107E-02
+     2.3972     11.636  8.111E-02
+      2.401     11.568  8.785E-02
+     2.4051     11.575  8.786E-02
+      2.409     11.507  8.781E-02
+     2.4125     11.697  8.787E-02
+     2.4161     11.568  8.109E-02
+       2.42     11.629  8.102E-02
+     2.4238     11.481  9.459E-02
+     2.4279     11.325  8.106E-02
+     2.4318     11.819  8.786E-02
+     2.4354     11.474  8.783E-02
+ENDDATA             24
+ENDSUBENT           45
+ENDENTRY            10

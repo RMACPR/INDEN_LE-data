@@ -1,0 +1,588 @@
+ENTRY            41575   20181001   20181231   20181229       4180
+SUBENT        41575001   20181001   20181231   20181229       4180
+BIB                 11         69
+TITLE       (n,alpha) reactions cross section research at IPPE
+AUTHOR     (V.A.Khryachkov,I.P.Bondarenko,B.D.Kuzminov,
+           N.N.Semenova, A.I.Sergachev, T.A.Ivanova, G.Giorginis)
+INSTITUTE  (4RUSFEI) V.A.Khryachkov,I.P.Bondarenko,B.D.Kuzminov,
+                      N.N.Semenova, A.I.Sergachev, T.A.Ivanova.
+           (2ZZZGEL) G.Giorginis
+REFERENCE  (J,EPJ/CS,21,03005,2012) Main reference.
+           #doi:10.1051/epjconf/20122103005
+           (J,YF,75,(4),438,2012) Ne data.Graphs only.
+           (J,PAN,75,(4),404,2012) Engl.translation of J,YF,75,438
+           #doi:10.1134/S1063778812040060
+           (J,IZV,77,(4),501,2013) Cr50, Cr52 (n,a) c-s figures.
+           #doi:10.7868/S0367676513040157
+           (J,BAS,77,(4),451,2013) Engl.transl.of J,IZV,77,(4),501
+           #doi:10.3103/S1062873813040151
+           (J,FCY/L,10,(4),579,2013) Figures only for CR-50,52.
+           (J,PPN/L,10,(4),361,2013)
+           #doi:10.1134/S1547477113040092
+            Engl.translation of FCY/L,10,(4),579,2013.
+           (S,ISINN-19,163,2012) Fig. for Cr-50.
+           (S,ISINN-19,153,2012) Fig. for B-10.
+             First author I.P.Bondarenko.
+              ISINN-19,Dubna,Russia, May 25-28, 2011.
+           (S,ISINN-18,153,2011) Data on figures only.
+             Dubna, Russia, May 26-29, 2010
+           (C,2010KRAKOW,,287,2010) Previous publication.
+            Figures only.
+           (J,IZV,76,(4),544,2012) NUCLEUS-2011 Proc.
+           (J,BAS,76,486,2012) Engl.translation of J,IZV
+           #doi:10.3103/S1062873812040181
+           Exp. method and c-s of O-16(n,a), N-14(n,a), N-14(n,t),
+           Ne-20(n,a), Ar-36,40(n,a), B-10(n,a), Cr-50(n,a)
+           were reported at 61st Int. Conf. "NUCLEUS-2011" on
+           problems of nuclear spectroscopy and structure of
+           atomic nucleus, 10-14 Oct. 2011, Sarov.
+           (W,KHRYACHKOV,20120609)
+REL-REF    (I,23040001,G.Giorginis+,C,2007NICE,1,525,2007)
+            The same type of setup as in IRMM, with some
+           improvements.
+DETECTOR   (IOCH) Two ionization chambers:
+           Frisch grid  (GIC) for n,alpha reaction products;
+           parallel plate chamber with thin solid U-238 layer as
+           neutron flux monitor.
+           Detector registers particles in full 4PI solid angle.
+FACILITY   (VDG,4RUSFEI) Accelerator EG-1 .
+INC-SOURCE (D-D,P-T) Solid deuterium and tritium targets of
+           1 - 2 mg/cm**2 thickness.
+METHOD     (PHD)
+ANALYSIS   (SHAPE) Pulses shape analysis.
+            Digital signal processing.
+HISTORY    (20110926C) Compiled at CJD.  M.M.
+           (20120307A) M.M. Reference J,EPJ/CS,21,03005,2012 was
+           added. Next request for the data was sent 07.03.2012 to
+           Vitaliy Khryachkov .
+           BIB information was added.
+           Subents 008-010 were added.
+           Data for O and N were added.
+           ENTRY was sent 16.06.2012 to author V.Khryachkov to
+           approve.
+           (20120620A) Misprint in LVL-NUMB was corrected 0 -> 2 .
+           (20130207A) Misprints in DATA were corrected in Subents
+            003, 009 according to author's data received
+            07-02-2013 from V.Khryachkov.
+           (20130703A) Ref. J,IZV,77,(4),501,2013 and it's Engl.
+           translations were added. Data were added in Subent 008.
+           Subent 011 was added.
+           (20140318A) Subent 011 was corrected.
+            Corrections in Subents 008, 011
+           (20181001A) Subents 008,011 superseded
+ENDBIB              69
+NOCOMMON             0          0
+ENDSUBENT           72
+SUBENT        41575002   20120307   20120702   20120621       4156
+BIB                  6         29
+REACTION   (8-O-16(N,A)6-C-13,PAR,SIG,,SPA)
+            Average for spectrum in energy bin .
+SAMPLE      Gas mixture target- 96.84 5 Kr + 3.16% CO2.
+MONITOR    (92-U-238(N,F),,SIG)
+            Neutron beam monitoring by FF counting from U-238
+            fission; U-238 isotope content 99.99%, U-238 mass
+            4.60 mg defined by alpha-spectroscopy.
+            Monitor values were taken from book International
+            Evaluation Of Neutron Cross-section Standards, IAEA,
+            Vienna, 2007, page 137.
+EXP-YEAR   (2008)
+ERR-ANALYS (ERR-1) Uncertainty in U-238 nuclei number.
+           (ERR-2) Uncertainty in oxygen nuclei number.
+           (ERR-3) Systematical uncertainty in registered FF
+                   number.
+           (ERR-4) Uncertainty in definition of registered alphas
+            number.
+           (MONIT-ERR) U-238 c-s uncertainty.
+           (ERR-SYS) Total systematic uncertainty.
+           (ERR-S) Statistical uncertainty was defined from
+            obtained values of registered FF and alphas.
+           (ERR-T) Total uncertainty was defined from statistical
+            and total systematical uncertainties.
+             EN-RSL-FW - Total wide of neutron spectrum.
+STATUS     (TABLE) Data were received from author V.Khryachkov
+            09.06.2012.
+                   Data are on Fig.3 of S,ISINN-18,153,2011,
+            Fig.3 of C,2010KRAKOW,287,2010.,
+            Fig.3 of J,EPJ/CS,21,03005,2012.
+ENDBIB              29
+COMMON               7          6
+E-LVL      ERR-1      ERR-2      ERR-3      ERR-4      MONIT-ERR
+ERR-SYS
+MEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
+PER-CENT
+0.         0.36        5.8        1.5        1.2        1.
+ 6.2
+ENDCOMMON            6
+DATA                 5         35
+EN         EN-RSL-FW  DATA       ERR-T      ERR-S
+MEV        MEV        B          B          PER-CENT
+ 4.898      0.182      0.089      0.01       10.
+ 4.998      0.175      0.114      0.01        8.
+ 5.095      0.168      0.123      0.01        8.
+ 5.163      0.164      0.096      0.01       13.
+ 5.204      0.161      0.05       0.005       8.
+ 5.311      0.156      0.015      0.002      11.
+ 5.42       0.15       0.013      0.0015     11.
+ 5.522      0.146      0.0065     0.00093    13.
+ 5.624      0.141      0.016      0.002      10.
+ 5.727      0.136      0.022      0.003      11.
+ 5.78       0.134      0.022      0.002       8.
+ 5.829      0.132      0.030      0.004      12.
+ 5.88       0.13       0.063      0.005       6.
+ 5.931      0.129      0.068      0.007       8.
+ 6.033      0.126      0.075      0.008       8.
+ 6.085      0.123      0.087      0.009       9.
+ 6.135      0.122      0.0878     0.008       7.
+ 6.186      0.121      0.086      0.01       10.
+ 6.236      0.119      0.081      0.009       9.
+ 6.337      0.116      0.142      0.013       7.
+ 6.387      0.115      0.176      0.014       5.
+ 6.439      0.114      0.246      0.02        6.
+ 6.489      0.112      0.221      0.015       3.
+ 6.54       0.111      0.254      0.028       9.
+ 6.615      0.106      0.258      0.019       4.
+ 6.641      0.109      0.234      0.017       4.
+ 6.642      0.109      0.200      0.016       5.
+ 6.691      0.107      0.179      0.013       4.
+ 6.741      0.106      0.178      0.013       4.
+ 6.791      0.105      0.180      0.013       4.
+ 6.841      0.104      0.160      0.014       6.
+ 6.891      0.103      0.124      0.012       7.
+ 6.941      0.102      0.119      0.010       6.
+ 6.991      0.101      0.127      0.011       6.
+ 7.041      0.1        0.159      0.013       5.
+ENDDATA             37
+ENDSUBENT           78
+SUBENT        41575003   20130308   20130502   20130410       4159
+BIB                  6         29
+REACTION   (7-N-14(N,A)5-B-11,PAR,SIG,,SPA)
+            Average for spectrum in energy bin .
+SAMPLE      Gas mixture target - 97 % Kr + 3% N2.
+MONITOR    (92-U-238(N,F),,SIG)
+            Neutron beam monitoring by FF counting from U-238
+            fission; U-238 isotope content 99.99%, U-238 mass
+            4.60 mg defined by alpha-spectroscopy.
+            Monitor values were taken from book International
+            Evaluation Of Neutron Cross-section Standards, IAEA,
+            Vienna, 2007, page 137.
+EXP-YEAR   (2009)
+ERR-ANALYS (ERR-1) Uncertainty in U-238 nuclei number.
+           (ERR-2) Uncertainty in nitrogen nuclei number.
+           (ERR-3) Systematical uncertainty in registered FF
+                   number.
+           (ERR-4) Uncertainty in definition of registered alphas
+            number.
+           (MONIT-ERR) U-238 c-s uncertainty.
+           (ERR-SYS) Total systematic uncertainty.
+           (ERR-S) Statistical uncertainty was defined from
+            obtained values of registered FF and alphas.
+           (ERR-T) Total uncertainty was defined from statistical
+            and total systematical uncertainties.
+             EN-RSL-FW - Total wide of neutron spectrum.
+STATUS     (TABLE) Data were received from author V.Khryachkov
+            09.06.2012, 07.02.2013(corrected.)
+                   Data are on Fig.4 of S,ISINN-18,153,2011
+            Fig.4 of C,2010KRAKOW,287,2010,
+            Fig.4 of J,EPJ/CS,21,03005,2012.
+ENDBIB              29
+COMMON               7          6
+E-LVL      ERR-1      ERR-2      ERR-3      ERR-4      MONIT-ERR
+ERR-SYS
+MEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
+PER-CENT
+0.         0.36        5.8        1.5        1.5        1.
+ 6.25
+ENDCOMMON            6
+DATA                 5         77
+EN         EN-RSL-FW  DATA       ERR-T      ERR-S
+MEV        MEV        B          B          PER-CENT
+ 1.669      0.089      0.022      0.0025      9.
+ 1.72       0.088      0.100      0.012      10.
+ 1.771      0.087      0.134      0.016      10.
+ 1.843      0.085      0.111      0.013      10.
+ 1.873      0.085      0.040      0.003       6.
+ 1.975      0.083      0.037      0.004       9.
+ 2.077      0.081      0.033      0.003       7.
+ 2.179      0.078      0.155      0.017       9.
+ 2.23       0.077      0.062      0.006       8.
+ 2.281      0.076      0.059      0.006       8.
+ 2.382      0.075      0.079      0.006       4.
+ 2.484      0.073      0.109      0.011       8.
+ 2.585      0.071      0.083      0.007       6.
+ 2.687      0.07       0.114      0.011       7.
+ 2.788      0.068      0.116      0.009       5.
+ 2.889      0.067      0.193      0.017       6.
+ 2.99       0.065      0.305      0.031       8.
+ 3.987      0.292      0.242      0.021       6.
+ 4.037      0.281      0.319      0.030       7.
+ 4.087      0.273      0.280      0.026       7.
+ 4.137      0.265      0.242      0.023       7.
+ 4.187      0.257      0.273      0.026       7.
+ 4.237      0.25       0.260      0.025       7.
+ 4.287      0.243      0.293      0.028       7.
+ 4.337      0.236      0.224      0.021       7.
+ 4.387      0.229      0.194      0.020       8.
+ 4.437      0.224      0.144      0.016       9.
+ 4.487      0.218      0.164      0.017       8.
+ 4.537      0.213      0.232      0.024       8.
+ 4.587      0.208      0.163      0.014       6.
+ 4.637      0.203      0.175      0.016       7.
+ 4.687      0.199      0.124      0.012       7.
+ 4.737      0.195      0.095      0.010       8.
+ 4.787      0.19       0.085      0.009       8.
+ 4.837      0.186      0.106      0.010       7.
+ 4.887      0.18       0.118      0.010       6.
+ 4.937      0.179      0.093      0.009       8.
+ 4.987      0.175      0.132      0.013       8.
+ 5.037      0.172      0.077      0.008       8.
+ 5.087      0.168      0.074      0.009      10.
+ 5.137      0.165      0.084      0.011      11.
+ 5.187      0.162      0.061      0.008      12.
+ 5.237      0.16       0.020      0.004      19.
+ 5.287      0.157      0.014      0.002      16.
+ 5.337      0.154      0.017      0.003      14.
+ 5.387      0.152      0.033      0.004      11.
+ 5.437      0.149      0.019      0.002       7.
+ 5.487      0.146      0.024      0.003       9.
+ 5.537      0.145      0.064      0.006       7.
+ 5.587      0.143      0.048      0.004       5.
+ 5.637      0.14       0.047      0.005       8.
+ 5.687      0.138      0.074      0.007       7.
+ 5.737      0.136      0.080      0.007       6.
+ 5.787      0.135      0.071      0.006       5.
+ 5.837      0.133      0.069      0.006       5.
+ 5.887      0.131      0.073      0.005       4.
+ 5.937      0.128      0.086      0.007       5.
+ 5.987      0.127      0.085      0.007       5.
+ 6.037      0.125      0.077      0.008       8.
+ 6.087      0.125      0.083      0.007       5.
+ 6.137      0.122      0.083      0.007       5.
+ 6.187      0.121      0.084      0.006       3.
+ 6.237      0.119      0.091      0.007       5.
+ 6.287      0.117      0.098      0.009       7.
+ 6.337      0.116      0.085      0.007       6.
+ 6.387      0.115      0.073      0.006       6.
+ 6.44       0.114      0.036      0.003       7.
+ 6.49       0.112      0.050      0.004       6.
+ 6.54       0.111      0.065      0.005       3.
+ 6.591      0.11       0.074      0.006       5.
+ 6.641      0.109      0.065      0.005       4.
+ 6.691      0.107      0.062      0.005       5.
+ 6.741      0.106      0.059      0.005       5.
+ 6.793      0.105      0.059      0.005       6.
+ 6.843      0.104      0.053      0.004       5.
+ 6.891      0.103      0.047      0.004       5.
+ 6.953      0.102      0.041      0.004       6.
+ENDDATA             79
+ENDSUBENT          120
+SUBENT        41575004   20130703   20140110   20131224       4161
+BIB                  5         12
+REACTION   (10-NE-20(N,A)8-O-17,PAR,SIG)
+            Ne-20(n, alpha-0 + alpha-1) c-s.
+SAMPLE      Gas mixture target - 73.72% Kr + 22.3% Ne +3.98% CO2.
+EXP-YEAR   (2010)
+ERR-ANALYS (ERR-1,,3.) Uncertainty of number of neon atoms.
+STATUS     (TABLE)
+           (PRELM)
+            Data are on Fig.5 of S,ISINN-18,153,2011
+            Fig.5 of C,2010KRAKOW,287,2010,
+            Fig.5 of J,EPJ/CS,21,03005,2012.
+            Request of data was sent to V.Khryachkov 26-09-2011,
+            07-03-2012.
+ENDBIB              12
+COMMON               2          3
+LVL-NUMB   LVL-NUMB
+NO-DIM     NO-DIM
+0.          1.
+ENDCOMMON            3
+DATA                 3         54
+EN         DATA       DATA-ERR
+MEV        B          B
+4.0         0.19662    0.01291
+4.1         0.17904    0.0099
+4.2         0.22173    0.00934
+4.3         0.2484     0.01173
+4.4         0.24338    0.01385
+4.5         0.25658    0.01661
+4.6         0.27152    0.01702
+4.7         0.23993    0.01414
+4.75        0.18673    0.00739
+4.8         0.16902    0.00983
+4.85        0.16651    0.00819
+4.9         0.17747    0.00604
+4.95        0.19676    0.00839
+5.0         0.2289     0.01132
+5.05        0.18058    0.00817
+5.1         0.1455     0.00694
+5.15        0.14803    0.00624
+5.2         0.15335    0.00699
+5.25        0.14668    0.00431
+5.3         0.15403    0.00647
+5.35        0.16723    0.00809
+5.4         0.15303    0.00499
+5.45        0.1865     0.008
+5.5         0.21096    0.00946
+5.55        0.07945    0.00235
+5.6         0.0766     0.00357
+5.65        0.0785     0.00353
+5.7         0.10845    0.00629
+5.75        0.10365    0.00595
+5.8         0.10818    0.0034
+5.85        0.1511     0.0066
+5.9         0.19631    0.00861
+5.95        0.25773    0.00674
+6.0         0.30252    0.0116
+6.05        0.27068    0.01223
+6.1         0.21975    0.00605
+6.15        0.14937    0.00487
+6.2         0.15647    0.0098
+6.25        0.13885    0.00297
+6.3         0.19401    0.00919
+6.35        0.19572    0.00811
+6.4         0.10379    0.00511
+6.45        0.13039    0.00474
+6.5         0.16935    0.00696
+6.55        0.23382    0.00535
+6.6         0.29745    0.00948
+6.65        0.27016    0.01048
+6.7         0.13171    0.00272
+6.75        0.10725    0.00312
+6.8         0.20614    0.00869
+6.85        0.22258    0.0098
+6.9         0.24888    0.00939
+6.95        0.21092    0.00515
+7.0         0.2299     0.00938
+ENDDATA             56
+ENDSUBENT           77
+SUBENT        41575005   20130703   20140110   20131224       4161
+BIB                  5         11
+REACTION   (18-AR-36(N,A)16-S-33,PAR,SIG)
+SAMPLE      Gas mixture target - 90% Ar + 10% CH4.
+EXP-YEAR   (2010)
+ERR-ANALYS (ERR-1,,3.) Uncertainty of number of neon atoms.
+STATUS     (UNOBT)
+           (PRELM)
+            Data are on Fig.6 of S,ISINN-18,153,2011
+            Fig.6 of C,2010KRAKOW,287,2010,
+            Fig.6 of J,EPJ/CS,21,03005,2012.
+            Request of data was sent to V.Khryachkov 26-09-2011.
+            07-03-2012.
+ENDBIB              11
+COMMON               1          3
+E-LVL
+MEV
+0.
+ENDCOMMON            3
+NODATA               0          0
+ENDSUBENT           19
+SUBENT        41575006   20130703   20140110   20131224       4161
+BIB                  5         11
+REACTION   (18-AR-40(N,A)16-S-37,PAR,SIG)
+SAMPLE      Gas mixture target - 90% Ar + 10% CH4.
+EXP-YEAR   (2010)
+ERR-ANALYS (ERR-1,,3.) Uncertainty of number of neon atoms.
+STATUS     (UNOBT)
+           (PRELM)
+            Data are on Fig.7 of S,ISINN-18,153,2011
+            Fig.7 of C,2010KRAKOW,287,2010,
+            Fig.7 of J,EPJ/CS,21,03005,2012.
+            Request of data was sent to V.Khryachkov 26-09-2011,
+            07-03-2012.
+ENDBIB              11
+COMMON               1          3
+E-LVL
+MEV
+0.
+ENDCOMMON            3
+NODATA               0          0
+ENDSUBENT           19
+SUBENT        41575007   20130703   20140110   20131224       4161
+BIB                  7         17
+REACTION   ((5-B-10(N,A)3-LI-7,PAR,SIG)//
+           (5-B-10(N,A)3-LI-7,PAR,SIG))
+SAMPLE      Gas mixture target - Kr + 10% BF3.
+           The chamber and gas system were reconstructed using BF3
+           compatible materials.
+EXP-YEAR   (2010)
+CORRECTION For electron capture in the working gas.
+ERR-ANALYS  Measurement of the yield ratio using gas targets is
+           practically free from systematic uncertainties.
+REL-REF    (A,11195001,E.A.Davis+,J,NP,27,448,1961)
+STATUS     (UNOBT)
+           (PRELM)
+            Fig.8 of C,2010KRAKOW,287,2010.
+            Fig.8 of J,EPJ/CS,21,03005,2012.
+            Fig.3 of S,ISINN-19,153,2012.
+            Request of data was sent to V.Khryachkov 28-09-2011,
+            07-03-2012.
+ENDBIB              17
+COMMON               2          3
+LVL-NUM-NM LVL-NUM-DN
+NO-DIM     NO-DIM
+0.          1.
+ENDCOMMON            3
+NODATA               0          0
+ENDSUBENT           25
+SUBENT        41575009   20130308   20130502   20130410       4159
+BIB                  6         27
+REACTION   (7-N-14(N,A)5-B-11,PAR,SIG,,SPA)
+            Average for spectrum in energy bin .
+SAMPLE      Gas mixture target - 97 % Kr + 3% N2.
+MONITOR    (92-U-238(N,F),,SIG)
+            Neutron beam monitoring by FF counting from U-238
+            fission; U-238 isotope content 99.99%, U-238 mass
+            4.60 mg defined by alpha-spectroscopy.
+            Monitor values were taken from book International
+            Evaluation Of Neutron Cross-section Standards, IAEA,
+            Vienna, 2007, page 137.
+EXP-YEAR   (2009)
+ERR-ANALYS (ERR-1) Uncertainty in U-238 nuclei number.
+           (ERR-2) Uncertainty in nitrogen nuclei number.
+           (ERR-3) Systematical uncertainty in registered FF
+                   number.
+           (ERR-4) Uncertainty in definition of registered alphas
+            number.
+           (MONIT-ERR) U-238 c-s uncertainty.
+           (ERR-SYS) Total systematic uncertainty.
+           (ERR-S) Statistical uncertainty was defined from
+            obtained values of registered FF and alphas.
+           (ERR-T) Total uncertainty was defined from statistical
+            and total systematical uncertainties.
+             EN-RSL-FW - Total wide of neutron spectrum.
+STATUS     (TABLE) Data were received from author V.Khryachkov
+            09.06.2012, 07.02.2013(corrected.)
+            Publication is planned.
+ENDBIB              27
+COMMON               7          6
+LVL-NUMB   ERR-1      ERR-2      ERR-3      ERR-4      MONIT-ERR
+ERR-SYS
+NO-DIM     PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
+PER-CENT
+1.         0.36        5.8        1.5        1.5        1.
+ 6.25
+ENDCOMMON            6
+DATA                 5         59
+EN         EN-RSL-FW  DATA       ERR-T      ERR-S
+MEV        MEV        B          B          PER-CENT
+ 4.037      0.281      0.0059     0.002      28.
+ 4.087      0.273      0.0063     0.001      17.
+ 4.137      0.265      0.0109     0.002      14.
+ 4.187      0.257      0.0159     0.002      12.
+ 4.237      0.25       0.0206     0.003      11.
+ 4.287      0.24       0.0183     0.002      11.
+ 4.337      0.236      0.0226     0.003      10.
+ 4.387      0.229      0.0221     0.003      12.
+ 4.437      0.224      0.0178     0.003      13.
+ 4.487      0.218      0.0168     0.002      13.
+ 4.537      0.213      0.0282     0.004      11.
+ 4.587      0.208      0.0197     0.002       9.
+ 4.637      0.203      0.0285     0.003      10.
+ 4.687      0.199      0.0343     0.004       9.
+ 4.737      0.195      0.0254     0.003      11.
+ 4.787      0.19       0.0276     0.003      11.
+ 4.837      0.186      0.0270     0.003       9.
+ 4.887      0.182      0.0332     0.003       8.
+ 4.937      0.179      0.0231     0.003      10.
+ 4.987      0.175      0.0287     0.004      11.
+ 5.037      0.172      0.0160     0.002      12.
+ 5.087      0.168      0.0215     0.004      16.
+ 5.137      0.165      0.0283     0.004      15.
+ 5.187      0.162      0.0303     0.005      15.
+ 5.237      0.16       0.0152     0.003      20.
+ 5.287      0.157      0.0179     0.003      15.
+ 5.337      0.154      0.0175     0.003      14.
+ 5.387      0.152      0.0259     0.003      11.
+ 5.437      0.149      0.0121     0.001       9.
+ 5.487      0.146      0.0223     0.003       9.
+ 5.537      0.145      0.0253     0.003       8.
+ 5.587      0.143      0.0211     0.002       6.
+ 5.637      0.14       0.0230     0.003      10.
+ 5.687      0.138      0.0411     0.004       7.
+ 5.737      0.136      0.0429     0.004       7.
+ 5.787      0.135      0.0342     0.003       6.
+ 5.837      0.133      0.0353     0.003       6.
+ 5.887      0.131      0.0310     0.002       4.
+ 5.937      0.128      0.0397     0.003       6.
+ 5.987      0.127      0.0464     0.004       6.
+ 6.037      0.125      0.0428     0.005       9.
+ 6.087      0.124      0.0429     0.004       6.
+ 6.137      0.122      0.0449     0.004       6.
+ 6.187      0.121      0.0493     0.003       3.
+ 6.237      0.119      0.0665     0.005       5.
+ 6.287      0.117      0.0712     0.007       8.
+ 6.337      0.116      0.0538     0.005       6.
+ 6.387      0.115      0.0475     0.004       7.
+ 6.44       0.114      0.0261     0.003       8.
+ 6.49       0.112      0.0204     0.002       8.
+ 6.54       0.111      0.0241     0.002       4.
+ 6.591      0.11       0.0242     0.002       7.
+ 6.641      0.109      0.0236     0.002       6.
+ 6.691      0.107      0.0211     0.002       7.
+ 6.741      0.106      0.0219     0.002       7.
+ 6.793      0.105      0.0229     0.002       8.
+ 6.843      0.104      0.0203     0.002       6.
+ 6.891      0.103      0.0180     0.002       6.
+ 6.953      0.102      0.0199     0.002       7.
+ENDDATA             61
+ENDSUBENT          100
+SUBENT        41575010   20120602   20121029   20120928       4157
+BIB                  6         27
+REACTION   (7-N-14(N,A)5-B-11,PAR,SIG,,SPA)
+            Average for spectrum in energy bin .
+SAMPLE      Gas mixture target - 97 % Kr + 3% N2.
+MONITOR    (92-U-238(N,F),,SIG)
+            Neutron beam monitoring by FF counting from U-238
+            fission; U-238 isotope content 99.99%, U-238 mass
+            4.60 mg defined by alpha-spectroscopy.
+            Monitor values were taken from book International
+            Evaluation Of Neutron Cross-section Standards, IAEA,
+            Vienna, 2007, page 137.
+EXP-YEAR   (2009)
+ERR-ANALYS (ERR-1) Uncertainty in U-238 nuclei number.
+           (ERR-2) Uncertainty in nitrogen nuclei number.
+           (ERR-3) Systematical uncertainty in registered FF
+                   number.
+           (ERR-4) Uncertainty in definition of registered alphas
+            number.
+           (MONIT-ERR) U-238 c-s uncertainty.
+           (ERR-SYS) Total systematic uncertainty.
+           (ERR-S) Statistical uncertainty was defined from
+            obtained values of registered FF and alphas.
+           (ERR-T) Total uncertainty was defined from statistical
+            and total systematical uncertainties.
+             EN-RSL-FW - Total wide of neutron spectrum.
+STATUS     (TABLE) Data were received from author V.Khryachkov
+            09.06.2012.
+            Publication is planned.
+ENDBIB              27
+COMMON               7          6
+LVL-NUMB   ERR-1      ERR-2      ERR-3      ERR-4      MONIT-ERR
+ERR-SYS
+NO-DIM     PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
+PER-CENT
+2.         0.36        5.8        1.5        2.         1.
+ 6.4
+ENDCOMMON            6
+DATA                 5         17
+EN         EN-RSL-FW  DATA       ERR-T      ERR-S
+MEV        MEV        B          B          PER-CENT
+ 6.037      0.125      0.0056     0.0011     18.
+ 6.087      0.124      0.0044     0.0006     13.
+ 6.137      0.122      0.0103     0.0012      9.
+ 6.187      0.121      0.0059     0.0005      6.
+ 6.237      0.119      0.0068     0.0008     11.
+ 6.287      0.117      0.0089     0.0014     14.
+ 6.337      0.116      0.0075     0.0011     13.
+ 6.387      0.115      0.0028     0.0006     21.
+ 6.44       0.114      0.0078     0.0011     13.
+ 6.49       0.112      0.0083     0.0010     11.
+ 6.591      0.11       0.0070     0.0009     12.
+ 6.691      0.107      0.0066     0.0010     12.
+ 6.741      0.106      0.0043     0.0006     13.
+ 6.793      0.105      0.0033     0.0005     14.
+ 6.843      0.104      0.0063     0.0008     10.
+ 6.891      0.103      0.0070     0.0008     10.
+ 6.953      0.102      0.0144     0.0015      8.
+ENDDATA             19
+ENDSUBENT           58
+ENDENTRY             9

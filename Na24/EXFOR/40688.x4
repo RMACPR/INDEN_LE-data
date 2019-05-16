@@ -1,0 +1,106 @@
+ENTRY            40688     840320              20050926       0000
+SUBENT        40688001     840320              20050926       0000
+BIB                  8         10
+INSTITUTE  (4CCPFEI)
+REFERENCE  (J,AE,17,(2),113,64)
+           (J,SJA,17,821,64)
+AUTHOR     (I.I.BONDARENKO,V.I.GOLUBEV,A.V.ZVONAREV,M.N.NIKOLAEV,
+           M.JU.ORLOV,O.P.UZNADZE)
+TITLE      PROPAGATION OF NEUTRONS IN URANIUM CARBIDE.
+FACILITY   (REAC)
+INC-SPECT   REACTOR SPECTRUM IN HEART OF BR-1 REACTOR
+STATUS     (SCSRS)
+HISTORY    (840112T) CONVERTED FROM ENTRY 80080
+ENDBIB              10
+NOCOMMON             0          0
+ENDSUBENT           13
+SUBENT        40688002     840320              20050926       0000
+BIB                  2          2
+REACTION   ((90-TH-232(N,F),,SIG,,SPA)/(92-U-235(N,F),,SIG,,SPA))
+DETECTOR   (FISCH) FISSION CHAMBER.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        NO-DIM     NO-DIM
+ 2.5300E-08 3.1300E-02 1.6000E-03
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        40688003     840320              20050926       0000
+BIB                  2          3
+REACTION   ((11-NA-23(N,G)11-NA-24,,SIG,,SPA)/
+           (92-U-235(N,F),,SIG,,SPA))
+DETECTOR   (FISCH)    IONIZATION CHAMBER
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        NO-DIM     NO-DIM
+ 2.5300E-08 4.0300E-04 2.4000E-05
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        40688004     840320              20050926       0000
+BIB                  2          3
+REACTION   ((29-CU-63(N,G)29-CU-64,,SIG,,SPA)/
+           (92-U-235(N,F),,SIG,,SPA))
+DETECTOR   (FISCH)    IONIZATION CHAMBER
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        NO-DIM     NO-DIM
+ 2.5300E-08 1.3700E-02 8.0000E-04
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        40688005     840320              20050926       0000
+BIB                  2          3
+REACTION   ((25-MN-55(N,G)25-MN-56,,SIG,,SPA)/
+           (92-U-235(N,F),,SIG))
+DETECTOR   (FISCH)    IONIZATION CHAMBER
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        NO-DIM     NO-DIM
+ 2.5300E-08 6.5000E-03 4.0000E-04
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        40688006     840320              20050926       0000
+BIB                  2          3
+REACTION   ((79-AU-197(N,G)79-AU-198,,SIG,,SPA)/
+           (92-U-235(N,F),,SIG,,SPA))
+DETECTOR   (FISCH)    IONIZATION CHAMBER
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        NO-DIM     NO-DIM
+ 2.5300E-08 1.1800E-01 7.0000E-03
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        40688007     840320              20050926       0000
+BIB                  2          3
+REACTION   ((92-U-238(N,G)92-U-239,,SIG,,SPA)/
+           (92-U-235(N,F),,SIG,,SPA))
+DETECTOR   (FISCH)    IONIZATION CHAMBER
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        NO-DIM     NO-DIM
+ 2.5300E-08 7.6300E-02 6.3000E-03
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        40688008     840320              20050926       0000
+BIB                  2          2
+REACTION   ((94-PU-239(N,F),,SIG,,SPA)/(92-U-235(N,F),,SIG,,SPA))
+DETECTOR   (FISCH)    FISSION CHAMBER
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          B
+ 2.5300E-08 1.3000E+00 6.0000E-02
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY             8

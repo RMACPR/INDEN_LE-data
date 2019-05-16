@@ -1,0 +1,182 @@
+ENTRY            30476   20090312   20090724   20090720       3135
+SUBENT        30476001   20090312   20090724   20090720       3135
+BIB                 13         33
+INSTITUTE  (3POLIBJ)
+REFERENCE  (R,ZFK-376,47,1977) Prc.7th Int.Symp.on the Interaction
+            of Fast Neutrons with Nuclei, Gaussig,21-25 Nov.,1977.
+AUTHOR     (S.Burzynski,K.Rusek,W.Smolec,I.M.Turkiewicz,
+           J.Turkiewicz,P.Zupranski)
+TITLE      -Angular distribution of alpha particles from N-14(n,a)
+           B-11 at 12.2 and 18.0 MeV.-
+FACILITY   (VDG,3POLIBJ)
+INC-SOURCE (D-T) 2 MeV deuterons.
+METHOD     Direct alpha counting with counter telescope.
+DETECTOR   (TELES,PROPC,SIBAR)
+           Counter telescope consists of 2 cylindrical proportion-
+           Al counters followed by a silicon surface barrier
+           detector.  For exp.detail, see S.Burzynski et al.,
+           Nukleonika,18(1973)603.
+           .Neutron flux was measured by proton-recoil counter.
+MONITOR    (26-FE-56(N,P)25-MN-56,,SIG)
+           No explicit description in the references.
+COMMENT     === Compiler's note ===
+            Ang.distr. of (n,a) reactions by Turkiewicz's group
+            generally have been performed at 12,14 and 18 MeV of
+           neutrons. N-14(n,a) at 14 MeV was not finally reported
+           in 1975 Debrecen Symposium and compiled in Subentry.004
+           which replaced EXFOR 30312.002.-
+STATUS     (APRVD) Approved with revised data. 80/01/28
+HISTORY    (19790503C) KO.
+           (19800923A) KO -Correction after author's comment,80/01
+            and new subentry .004 for 14MeV data added.-
+           (19870706U) DG.-New reference added.-
+           (20090312A) SD:Updated to new date formats,lower case.
+ERR-ANALYS (ERR-S) Statistical only.
+           Angular spreads were calculated with a Monte Carlo
+           method by L.Zemlo, INR-report 1464/I/PL/B.
+ENDBIB              33
+NOCOMMON             0          0
+ENDSUBENT           36
+SUBENT        30476002   20090312   20090724   20090720       3135
+BIB                  5         12
+REFERENCE  (P,INR-1702/I/PL/A,6,1977) Numeric values.2 angles rev.
+           (P,INDC(SEC)-61,246,1977) Identical to INR-1702/I/PL/A.
+           (J,NKA,31,(10-12),287,1986) Graph.
+REACTION   (7-N-14(N,A)5-B-11,PAR,DA)
+SAMPLE     Evaporation of C(3)-H(6)-N(6) onto a tantalum foil,
+           thickness is 1.5 mg/cm2.
+STATUS     (APRVD)  80/01/28.
+           Data taken from Table I and II of progress report
+           INR-1702/I/PL/A,p.6 (1977)
+HISTORY    (19800923A) KO.-Ang. 125deg is replaced with 133.0 deg,
+            and error value at 133.0deg of Table II should read
+            0.24 (not 0.05),from author's comment,80/01/28.-
+ENDBIB              12
+COMMON               2          3
+EN         EN-RSL
+MEV        MEV
+ 1.8000E+01 2.6000E-01
+ENDCOMMON            3
+DATA                 5         24
+E-LVL      ANG-CM     ANG-RSL    DATA-CM    ERR-S
+MEV        ADEG       ADEG       MB/SR      MB/SR
+ 0.0000E+00 1.1000E+01 6.0000E+00 6.2000E-01 7.0000E-02
+ 0.0000E+00 1.5000E+01 6.0000E+00 7.2000E-01 1.1000E-01
+ 0.0000E+00 2.5000E+01 5.0000E+00 6.0000E-01 1.1000E-01
+ 0.0000E+00 3.6000E+01 5.0000E+00 6.6000E-01 1.1000E-01
+ 0.0000E+00 4.7000E+01 5.0000E+00 6.1000E-01 8.0000E-02
+ 0.0000E+00 5.8000E+01 5.0000E+00 3.3000E-01 1.9000E-01
+ 0.0000E+00 6.8500E+01 4.5000E+00 4.3000E-01 9.0000E-02
+ 0.0000E+00 7.9000E+01 4.0000E+00 3.1000E-01 7.0000E-02
+ 0.0000E+00 9.4500E+01 4.0000E+00 2.1000E-01 9.0000E-02
+ 0.0000E+00 1.0940E+02 3.0000E+00 3.7000E-01 1.0000E-01
+ 0.0000E+00 1.3300E+02 2.8000E+00 3.0000E-02 1.6000E-01
+ 0.0000E+00 1.4600E+02 2.5000E+00 6.3000E-01 1.2000E-01
+ 2.1400E+00 1.1000E+01 6.0000E+00 8.4000E-01 8.0000E-02
+ 2.1400E+00 1.5300E+01 5.5000E+00 4.5000E-01 1.1000E-01
+ 2.1400E+00 2.5300E+01 6.0000E+00 5.3000E-01 1.1000E-01
+ 2.1400E+00 3.6300E+01 5.5000E+00 6.5000E-01 9.0000E-02
+ 2.1400E+00 4.7300E+01 5.5000E+00 9.0000E-01 9.0000E-02
+ 2.1400E+00 5.8300E+01 5.0000E+00 1.0100E+00 1.9000E-01
+ 2.1400E+00 6.9000E+01 4.5000E+00 5.1000E-01 9.0000E-02
+ 2.1400E+00 7.9700E+01 4.5000E+00 2.5000E-01 8.0000E-02
+ 2.1400E+00 9.5000E+01 4.0000E+00 3.8000E-01 1.0000E-01
+ 2.1400E+00 1.1000E+02 3.5000E+00 3.6000E-01 1.0000E-01
+ 2.1400E+00 1.3300E+02 2.8000E+00 0.0000E+00 2.4000E-01
+ 2.1400E+00 1.4640E+02 2.7000E+00 4.8000E-01 2.0000E-01
+ENDDATA             26
+ENDSUBENT           47
+SUBENT        30476003   20090312   20090724   20090720       3135
+BIB                  5          9
+REFERENCE  ((P,INR-1773/I/PL/A,1,197809)=(P,INDC(POL)-9,1,197809))
+           (J,NKA,31,(10-12),287,1986) Graph.
+REACTION   (7-N-14(N,A)5-B-11,PAR,DA)
+SAMPLE     Evaporation of the melamine (C(3)-H(6)-N(6)) onto a
+           tantalum foil, thickness is 1.1 mg/cm2.
+STATUS     (APRVD)  80/01/28.
+           Data taken from Table I and II of progress report
+           INR-1773/I/PL/A,p.1 (1978)
+HISTORY    (19800923U) KO.-Reference added. -
+ENDBIB               9
+COMMON               1          3
+EN
+MEV
+ 1.2200E+01
+ENDCOMMON            3
+DATA                 5         22
+E-LVL      ANG-CM     ANG-RSL    DATA-CM    ERR-S
+MEV        ADEG       ADEG       MB/SR      MB/SR
+ 0.0000E+00 8.3000E+00 5.0000E+00 8.5000E-01 1.6000E-01
+ 0.0000E+00 2.4500E+01 5.0000E+00 1.5000E+00 3.0000E-01
+ 0.0000E+00 3.6000E+01 4.5000E+00 1.5000E+00 2.0000E-01
+ 0.0000E+00 4.6600E+01 4.0000E+00 1.5000E+00 3.0000E-01
+ 0.0000E+00 6.8400E+01 3.5000E+00 9.0000E-01 3.0000E-01
+ 0.0000E+00 7.8800E+01 3.5000E+00 1.1000E+00 5.0000E-01
+ 0.0000E+00 8.9400E+01 3.0000E+00 1.3000E+00 3.0000E-01
+ 0.0000E+00 1.0930E+02 3.0000E+00 1.9000E+00 3.0000E-01
+ 0.0000E+00 1.1880E+02 3.0000E+00 1.0000E+00 3.0000E-01
+ 0.0000E+00 1.2810E+02 2.5000E+00 1.6000E+00 9.6000E-01
+ 0.0000E+00 1.4600E+02 2.5000E+00 8.0000E-01 1.3000E+00
+ 2.1400E+00 9.0000E+00 5.0000E+00 1.6000E+00 2.0000E-01
+ 2.1400E+00 2.4700E+01 5.0000E+00 1.4000E+00 3.0000E-01
+ 2.1400E+00 3.6000E+01 4.5000E+00 1.0000E+00 1.5000E-01
+ 2.1400E+00 4.7200E+01 4.5000E+00 6.0000E-01 2.3000E-01
+ 2.1400E+00 6.9300E+01 3.7000E+00 3.4000E-01 1.7000E-01
+ 2.1400E+00 7.9800E+01 3.7000E+00 4.0000E-01 3.0000E-01
+ 2.1400E+00 9.0400E+01 3.3000E+00 5.7000E-01 1.9000E-01
+ 2.1400E+00 1.1030E+02 3.0000E+00 0.0000E+00 1.7000E+00
+ 2.1400E+00 1.2000E+02 3.0000E+00 6.0000E-01 1.3000E+00
+ 2.1400E+00 1.2800E+02 2.5000E+00 0.0000E+00 2.2000E+00
+ 2.1400E+00 1.4670E+02 2.5000E+00 4.5000E+00 2.3000E+00
+ENDDATA             24
+ENDSUBENT           42
+SUBENT        30476004   20090312   20090724   20090720       3135
+BIB                  5         12
+REFERENCE  (P,INR-1642/I/PL/A,5,1976)
+           (P,INDC(SEC)-61,226,1977) Identical to INR-1642/I/PL/A.
+           (W,TURKIEWICZ,19751010) Preliminary numerical values.
+           (R,ZFK-271,112,197402) Experimental detail.
+           (J,NKA,31,(10-12),287,1986) Graph.
+REACTION   (7-N-14(N,A)5-B-11,PAR,DA)
+COMMENT     === Compiler's note =
+            Final paper was not included in Atomki Kozlem Vol.18
+            (Proc.of 1975 Debrecen Symposium) finally. ===
+STATUS     (PRELM)
+            Received from J.Turkiewicz, 75/10/10, as priv.comm.
+HISTORY    (19800923T) KO. This replaces EXFOR30312.002.
+ENDBIB              12
+COMMON               2          3
+EN         EN-RSL
+MEV        MEV
+ 1.4100E+01 2.6000E-01
+ENDCOMMON            3
+DATA                 5         24
+E-LVL      ANG-CM     ANG-RSL    DATA-CM    ERR-S
+MEV        ADEG       ADEG       MB/SR      MB/SR
+ 0.0000E+00 1.1000E+01 5.7000E+00 3.5400E+00 1.2000E-01
+ 0.0000E+00 1.7400E+01 5.5000E+00 2.5800E+00 1.0000E-01
+ 0.0000E+00 2.5100E+01 5.5000E+00 2.2500E+00 1.1000E-01
+ 0.0000E+00 4.6800E+01 5.5000E+00 5.8000E-01 6.0000E-02
+ 0.0000E+00 5.7600E+01 4.5000E+00 6.4000E-01 7.0000E-02
+ 0.0000E+00 6.8400E+01 3.5000E+00 7.5000E-01 7.0000E-02
+ 0.0000E+00 7.9000E+01 3.3000E+00 7.3000E-01 7.0000E-02
+ 0.0000E+00 8.9500E+01 3.0000E+00 4.3000E-01 6.0000E-02
+ 0.0000E+00 9.9500E+01 2.5000E+00 8.6000E-01 8.0000E-02
+ 0.0000E+00 1.0940E+02 2.3000E+00 3.5000E-01 6.0000E-02
+ 0.0000E+00 1.1900E+02 2.3000E+00 4.7000E-01 9.0000E-02
+ 0.0000E+00 1.2820E+02 2.3000E+00 4.2000E-01 1.3000E-01
+ 2.1400E+00 1.1100E+01 5.7000E+00 1.1700E+00 9.0000E-02
+ 2.1400E+00 1.7600E+01 5.5000E+00 1.0300E+00 8.0000E-02
+ 2.1400E+00 2.5400E+01 5.5000E+00 1.2000E+00 8.0000E-02
+ 2.1400E+00 4.7300E+01 5.5000E+00 4.8000E-01 6.0000E-02
+ 2.1400E+00 5.8300E+01 4.5000E+00 4.5000E-01 6.0000E-02
+ 2.1400E+00 6.9100E+01 3.5000E+00 1.6000E-01 5.0000E-02
+ 2.1400E+00 8.0000E+01 3.3000E+00 1.6000E-01 5.0000E-02
+ 2.1400E+00 9.0300E+01 3.0000E+00 2.0000E-02 5.0000E-02
+ 2.1400E+00 1.0040E+02 2.5000E+00 4.6000E-01 1.1000E-01
+ 2.1400E+00 1.1020E+02 2.3000E+00 2.0000E-02 1.0000E-01
+ 2.1400E+00 1.1980E+02 2.3000E+00 3.2000E-01 2.1000E-01
+ 2.1400E+00 1.2890E+02 2.3000E+00 4.0000E-02 3.3000E-01
+ENDDATA             26
+ENDSUBENT           47
+ENDENTRY             4

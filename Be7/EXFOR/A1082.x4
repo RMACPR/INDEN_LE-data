@@ -1,0 +1,112 @@
+ENTRY            A1082   19990319   19990505   20050926       0000
+SUBENT        A1082001   19990319   19990505   20050926       0000
+BIB                 10         24
+INSTITUTE  (3HKGHKU)
+REFERENCE  (J,NP/A,174,(2),399,197110)
+AUTHOR     (L.S.CHUANG)
+TITLE      The elastic scattering reactions 4He(t,t)4He  and
+           4He(He3,He3)4He near 2 MeV
+FACILITY   (VDG)
+SAMPLE     The target gas is 4He gas of pressure around 10mm of Hg
+DETECTOR   (SOLST) Two silicon surface-barrier detectors. A
+           goniometer carries two radial arms on which the
+           detector systems are seated and which can be separately
+           rotated, over an angular range of 6 to 150 degr., with
+           an angular resolution 0.5 degr. One of the two detec-
+           tors is rotated to cover the whole angular range of
+           interest, while the other one is fixed at 40 degr. and
+           used as a monitor.
+ERR-ANALYS (ERR-T) Total error. Uncertainty in angular resolution
+           of the detector position are estimated and added into
+           the overall error attached to the differential cross
+           sections in the tables.
+COMMENT    A new method of beam collection by Faraday cup in the
+           target gas is attempted. The method is correct to 4%
+           under present experimental conditions.
+HISTORY    (19811105C) Compilation produced by Arzamas RFNC-VNIIEF
+           (19990205U)CNPD: corrected 4-dig. year and lower cases.
+ENDBIB              24
+NOCOMMON
+ENDSUBENT           27
+SUBENT        A1082002   19990319   19990505   20050926       0000
+BIB                  2          2
+REACTION   (2-HE-4(T,EL)2-HE-4,,DA,,,EXP)
+STATUS     (TABLE) Table 1
+ENDBIB               2
+NOCOMMON
+DATA                 4         28
+EN         ANG-CM     DATA-CM    ERR-T
+MEV        ADEG       MB/SR      PER-CENT
+     2.13      34.9      770.         6.
+     2.13      43.6      533.         6.
+     2.13      54.7      302.         6.
+     2.13      63.4      192.         5.
+     2.13      69.8      153.         5.
+     2.13      85.3       89.         5.
+     2.13     105.9       35.         5.
+     2.13     116.8       29.6       10.
+     2.13     129.3       27.2       10.
+     2.13     136.9       26.3        7.
+     2.46      34.9      667.         6.
+     2.46      43.6      413.         6.
+     2.46      54.7      262.         5.
+     2.46      63.4      179.         5.
+     2.46      69.       143.         5.
+     2.46      85.3       74.         6.
+     2.46     105.9       27.3        7.
+     2.46     116.8       15.2        9.
+     2.46     129.3       11.        11.
+     2.98      34.9      538.         6.
+     2.98      43.6      376.         6.
+     2.98      54.7      246.         5.
+     2.98      63.4      178.         5.
+     2.98      69.       136.         5.
+     2.98      85.3       75.         6.
+     2.98     105.9       24.9        7.
+     2.98     116.8       17.1        6.
+     2.98     129.3       10.8        8.
+ENDDATA             30
+ENDSUBENT           37
+SUBENT        A1082003   19990319   19990505   20050926       0000
+BIB                  2          2
+REACTION   (2-HE-4(HE3,EL)2-HE-4,,DA,,,EXP)
+STATUS     (TABLE) Table 2
+ENDBIB               2
+NOCOMMON
+DATA                 4         31
+EN         ANG-CM     DATA-CM    ERR-T
+MEV        ADEG       MB/SR      PER-CENT
+     1.72      40.1     1680.         2.5
+     1.72      43.6     1200.         3.
+     1.72      52.1      700.         3.
+     1.72      60.6      400.         1.4
+     1.72      69.       257.         4.
+     1.72      77.2      194.         1.4
+     1.72      85.3      142.         2.3
+     1.72      93.1      104.         9.
+     1.72     100.7      105.        10.
+     1.72     108.1      101.         6.
+     1.72     115.1      100.         9.
+     2.46      34.9     1340.         6.
+     2.46      43.6      671.         6.
+     2.46      54.7      324.         5.
+     2.46      63.4      209.         6.
+     2.46      69.       155.         5.
+     2.46      85.3       81.         6.
+     2.46     105.9       45.         7.
+     2.46     116.8       38.         7.
+     2.46     129.3       35.         7.
+     2.46     136.9       30.         7.
+     2.98      34.9     1200.         6.
+     2.98      43.6      550.         6.
+     2.98      54.7      260.         5.
+     2.98      63.4      173.         5.
+     2.98      69.       137.         5.
+     2.98      85.3       66.         6.
+     2.98     105.9       26.8        6.
+     2.98     116.8       18.9        8.
+     2.98     129.3       17.5        6.
+     2.98     136.9       16.         6.
+ENDDATA             33
+ENDSUBENT           40
+ENDENTRY             3

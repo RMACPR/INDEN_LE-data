@@ -1,0 +1,507 @@
+ENTRY            11450   20071108   20080131   20080131       Y001
+SUBENT        11450001   20071108   20080131   20080131       Y001
+BIB                 11         16
+INSTITUTE  (1USAANL)
+REFERENCE  (J,PR,75,1781,194906)
+AUTHOR     (D.J.Hughes,W.D.B.Spatz,N.GOLDSTEIN)
+TITLE      Capture Cross Sections for Fast Neutrons
+FACILITY   (REAC,1USAANL)
+INC-SPECT  Fission neutrons from 235U in thermal beam.
+METHOD     (ACTIV) Activation
+DETECTOR   (GEMUC)
+MONIT-REF  (11447001,SEREN+,J,PR,72,888,1947)
+STATUS     (SCSRS)
+HISTORY    (19760715T) Translated from SCISRS
+           (19820813A) Converted to REACTION formalism
+           (19840712A) Correct energies put in SAN'S.
+           (20021211A) Converted to new date formats, lower case.
+                       Data corrected.
+           (20071108A) BIB update
+ENDBIB              16
+NOCOMMON             0          0
+ENDSUBENT           19
+SUBENT        11450002   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG,,FIS)
+MONITOR    (11-NA-23(N,G)11-NA-24,,SIG,,MXW)
+DECAY-DATA (11-NA-24,14.8HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.         0.29       0.55
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450003   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (12-MG-26(N,G)12-MG-27,,SIG,,FIS)
+MONITOR    (12-MG-26(N,G)12-MG-27,,SIG,,MXW)
+DECAY-DATA (12-MG-27,10.2MIN)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.         0.60       0.049
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450004   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (13-AL-27(N,G)13-AL-28,,SIG,,FIS)
+MONITOR    (13-AL-27(N,G)13-AL-28,,SIG,,MXW)
+DECAY-DATA (13-AL-28,2.4MIN)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.         0.40       0.23
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450005   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (17-CL-37(N,G)17-CL-38,,SIG,,FIS)
+MONITOR    (17-CL-37(N,G)17-CL-38,,SIG,,MXW)
+DECAY-DATA (17-CL-38,37.MIN)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.         0.80       0.61
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450006   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (19-K-41(N,G)19-K-42,,SIG,,FIS)
+MONITOR    (19-K-41(N,G)19-K-42,,SIG,,MXW)
+DECAY-DATA (19-K-42,12.4HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.         2.9        1.0
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450007   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (23-V-51(N,G)23-V-52,,SIG,,FIS)
+MONITOR    (23-V-51(N,G)23-V-52,,SIG,,MXW)
+DECAY-DATA (23-V-52,3.9MIN)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.         2.2        5.5
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450008   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (25-MN-55(N,G)25-MN-56,,SIG,,FIS)
+MONITOR    (25-MN-55(N,G)25-MN-56,,SIG,,MXW)
+DECAY-DATA (25-MN-56,2.6HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.         3.5       11.5
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450009   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (27-CO-59(N,G)27-CO-60-M,,SIG,,FIS)
+MONITOR    (27-CO-59(N,G)27-CO-60-M,,SIG,,MXW)
+DECAY-DATA (27-CO-60-M,10.7MIN)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.         0.23       0.72
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450010   20021212   20030219   20050926       0000
+BIB                  3          6
+REACTION   (27-CO-59(N,G)27-CO-60,,SIG,,FIS)
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG,,MXW)
+           Assumed isomeric ratio is same for both thermal
+            and fast activations.
+DECAY-DATA (27-CO-60-G,5.YR)
+           (27-CO-60-M,10.7MIN)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.         9.2       30.72
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11450011   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (28-NI-64(N,G)28-NI-65,,SIG,,FIS)
+MONITOR    (28-NI-64(N,G)28-NI-65,,SIG,,MXW)
+DECAY-DATA (28-NI-65,2.6HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.         6.7        3.4
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450012   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (29-CU-63(N,G)29-CU-64,,SIG,,FIS)
+MONITOR    (29-CU-63(N,G)29-CU-64,,SIG,,SPA)
+DECAY-DATA (29-CU-64,12.8HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.         8.9        3.1   +00
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450013   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (29-CU-65(N,G)29-CU-66,,SIG,,FIS)
+MONITOR    (29-CU-65(N,G)29-CU-66,,SIG,,MXW)
+DECAY-DATA (29-CU-66,5.MIN)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.         6.0        2.0
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450014   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (30-ZN-68(N,G)30-ZN-69-G,,SIG,,FIS)
+MONITOR    (30-ZN-68(N,G)30-ZN-69-G,,SIG,,MXW)
+DECAY-DATA (30-ZN-69-G,57.MIN)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.         7.1        0.89
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450015   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (30-ZN-68(N,G)30-ZN-69-M,,SIG,,FIS)
+MONITOR    (30-ZN-68(N,G)30-ZN-69-M,,SIG,,MXW)
+DECAY-DATA (30-ZN-69-M,13.8HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.        13.0        0.085
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450016   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (31-GA-69(N,G)31-GA-70,,SIG,,FIS)
+MONITOR    (31-GA-69(N,G)31-GA-70,,SIG,,MXW)
+DECAY-DATA (31-GA-70,20.MIN)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.        22.7        1.52
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450019   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (33-AS-75(N,G)33-AS-76,,SIG,,FIS)
+MONITOR    (33-AS-75(N,G)33-AS-76,,SIG,,MXW)
+DECAY-DATA (33-AS-76,26.8HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.        23.         4.2
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450020   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (35-BR-79(N,G)35-BR-80-G,,SIG,,FIS)
+MONITOR    (35-BR-79(N,G)35-BR-80-G,,SIG,,MXW)
+DECAY-DATA (35-BR-80-G,18.MIN)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.        30.         8.9
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450021   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (35-BR-79(N,G)35-BR-80-M,,SIG,,FIS)
+MONITOR    (35-BR-79(N,G)35-BR-80-M,,SIG,,MXW)
+DECAY-DATA (35-BR-80-M,4.4HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.        14.         3.0
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450022   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (35-BR-81(N,G)35-BR-82,,SIG,,FIS)
+MONITOR    (35-BR-81(N,G)35-BR-82,,SIG,,MXW)
+DECAY-DATA (35-BR-82-G,34.HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.         17.        2.3
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450023   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (41-NB-93(N,G)41-NB-94,,SIG,,FIS)
+MONITOR    (41-NB-93(N,G)41-NB-94,,SIG,,MXW)
+DECAY-DATA (41-NB-94-M,6.6MIN)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.        52.         1.4
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450024   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (42-MO-98(N,G)42-MO-99,,SIG,,FIS)
+MONITOR    (42-MO-98(N,G)42-MO-99,,SIG,,MXW)
+DECAY-DATA (42-MO-99,67.HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.        32.         0.39
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450025   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (42-MO-100(N,G)42-MO-101,,SIG,,FIS)
+MONITOR    (42-MO-100(N,G)42-MO-101,,SIG,,MXW)
+DECAY-DATA (42-MO-101,14.6MIN)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.        15.         0.22
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450026   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (45-RH-103(N,G)45-RH-104-G,,SIG,,FIS)
+MONITOR    (45-RH-103(N,G)45-RH-104-G,,SIG,,MXW)
+DECAY-DATA (45-RH-104-G,44.SEC)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.       103.       150.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450027   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (45-RH-103(N,G)45-RH-104-M,,SIG,,FIS)
+MONITOR    (45-RH-103(N,G)45-RH-104-M,,SIG,,MXW)
+DECAY-DATA (45-RH-104-M,4.2MIN)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.        16.5       12.8
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450028   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (47-AG-107(N,G)47-AG-108,,SIG,,FIS)
+MONITOR    (47-AG-107(N,G)47-AG-108,,SIG,,MXW)
+DECAY-DATA (47-AG-108-G,2.3MIN)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.       127.        48.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450029   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (47-AG-109(N,G)47-AG-110-G,,SIG,,FIS)
+MONITOR    (47-AG-109(N,G)47-AG-110-G,,SIG,,MXW)
+DECAY-DATA (47-AG-110-G,22.SEC)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.       225.       108.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450030   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (49-IN-115(N,G)49-IN-116-G,,SIG,,FIS)
+MONITOR    (49-IN-115(N,G)49-IN-116-G,,SIG,,MXW)
+DECAY-DATA (49-IN-116-G,13.SEC)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.        63.        57.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450031   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (49-IN-115(N,G)49-IN-116-M,,SIG,,FIS)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG,,MXW)
+DECAY-DATA (49-IN-116-M,54.MIN)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.       180.       157.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450032   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (51-SB-121(N,G)51-SB-122,,SIG,,FIS)
+MONITOR    (51-SB-121(N,G)51-SB-122,,SIG,,MXW)
+DECAY-DATA (51-SB-122-G,2.8D)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.        90.         6.8
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450033   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (53-I-127(N,G)53-I-128,,SIG,,FIS)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG,,MXW)
+DECAY-DATA (53-I-128,25.MIN)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.       107.         6.8
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450034   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (56-BA-138(N,G)56-BA-139,,SIG,,FIS)
+MONITOR    (56-BA-138(N,G)56-BA-139,,SIG,,MXW)
+DECAY-DATA (56-BA-139,86.MIN)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.         2.6        0.56
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450035   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (74-W-186(N,G)74-W-187,,SIG,,FIS)
+MONITOR    (74-W-186(N,G)74-W-187,,SIG,,MXW)
+DECAY-DATA (74-W-187,23.HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.        66.        37.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450036   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (78-PT-198(N,G)78-PT-199,,SIG,,FIS)
+MONITOR    (78-PT-198(N,G)78-PT-199,,SIG,,MXW)
+DECAY-DATA (78-PT-199-G,31.MIN)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.        59.         3.6
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450037   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (79-AU-197(N,G)79-AU-198,,SIG,,FIS)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG,,MXW)
+DECAY-DATA (79-AU-198-G,2.7D)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.       121.        96.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450038   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (80-HG-204(N,G)80-HG-205,,SIG,,FIS)
+MONITOR    (80-HG-204(N,G)80-HG-205,,SIG,,SPA)
+DECAY-DATA (80-HG-205,5.5MIN)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.        88.         0.37
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450039   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (82-PB-208(N,G)82-PB-209,,SIG,,FIS)
+MONITOR    (82-PB-208(N,G)82-PB-209,,SIG,,MXW)
+DECAY-DATA (82-PB-209,3.HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.         1.8        0.00046
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11450040   20021212   20030219   20050926       0000
+BIB                  3          3
+REACTION   (83-BI-209(N,G)83-BI-210,,SIG,,FIS)
+MONITOR    (83-BI-209(N,G)83-BI-210,,SIG,,MXW)
+DECAY-DATA (83-BI-210-G,5.D)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       MONIT
+MEV        MB         B
+  1.         3.0        0.015
+ENDDATA              3
+ENDSUBENT           11
+ENDENTRY            38

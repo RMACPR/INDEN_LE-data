@@ -1,0 +1,925 @@
+ENTRY            30776   20090909   20091224   20091223       3141
+SUBENT        30776001   20090909   20091224   20091223       3141
+BIB                 12         18
+TITLE      Measurements of the total neutron cross-sections
+           of Be, Ni and Cu
+AUTHOR     (M.Adib,A.Abdel-Kawy,R.M.A.Maayouf,Y.Eid,G.Shuriet,
+           I.Hamouda)
+INSTITUTE  (3EGYCAI)
+REFERENCE  (C,79KNOX,,101,197910)
+SAMPLE     Prepared from spec. pure fine powders
+MONITOR    Absolute transmission measurement.
+FACILITY   (REAC,3EGYCAI)  ET-RR-1 reactor
+METHOD     (TOF,TRN)
+DETECTOR   (BF3,HE3SP) 2 gas filled spectrometers: 10BF-3 and He3
+ERR-ANALYS No description of error analysis.
+STATUS     (TABLE) Data taken from Conf. on Nucl. Cross Sections
+                   for Techn., Knoxville, Oct. 1979, p. 101
+HISTORY    (19880318C) TMK
+           (20090725A) SD:Updated to new date formats,lower case.
+           Cosmetic corrections, data from figs. digitized.
+           Subents 014, 015 added.
+ENDBIB              18
+NOCOMMON             0          0
+ENDSUBENT           21
+SUBENT        30776002   20091009   20091224   20091223       3141
+BIB                  5         12
+REACTION   (4-BE-9(N,TOT),,SIG)
+COMMENT    By authors: Total cross section at room temp.(20 deg-C)
+           in the energy range 2.2 eV-0.06 eV was found to
+           fluctuate near a value of 5.9 +- 0.2 b, which is in
+           good agreement with the value (6.0+-0.1) b of
+           D.J.Hughes and J.A.Harvey, Neutron Cross Sections,
+           BNL-325, 2nd.ed. 1958.
+ERR-ANALYS (ERR-DIG)    Digitizing error
+           (DATA-ERR) Nothing said about uncertainty
+STATUS     (CURVE) Data from Fig.1 of main ref.
+HISTORY    (20091005A) Data replaced by values from curve,data for
+            liquid nitrogen temp. moved to new subentry 14.
+ENDBIB              12
+COMMON               2          3
+TEMP       ERR-DIG
+DEG-C      B
+  20.         0.01
+ENDCOMMON            3
+DATA                 3        147
+WVE-LN     DATA       DATA-ERR
+ANGSTROM   B          B
+      0.159      5.998
+      0.167      5.827
+      0.199      5.409
+      0.211      5.943
+      0.276      6.003
+      0.297      6.156
+      0.308      5.566
+      0.329      5.719
+      0.341      6.139
+      0.373      5.721
+      0.379      6.007
+      0.416      5.914
+      0.421      6.219
+      0.460      5.821
+      0.505      5.708
+      0.548      5.843
+      0.591      5.960
+      0.593      5.750
+      0.635      6.038
+      0.685      6.154
+      0.737      6.023
+      0.758      6.196
+      0.810      6.065
+      0.868      6.086
+      0.919      6.127
+      0.970      6.186
+      1.001      6.035
+      1.031      5.884
+      1.075      5.867
+      1.118      5.945
+      1.147      6.099
+      1.183      6.138
+      1.227      6.083
+      1.271      6.161
+      1.314      6.182
+      1.359      6.089
+      1.389      5.995
+      1.419      5.863
+      1.449      5.750
+      1.514      5.810
+      1.521      5.963
+      1.557      6.022
+      1.592      6.309
+      1.601      6.023
+      1.620      6.482
+      1.635      6.349
+      1.649      6.578
+      1.677      6.675
+      1.706      6.771
+      1.749      6.849
+      1.792      7.061      0.171
+      1.793      6.947
+      1.794      6.756
+      1.829      5.862
+      1.831      6.624
+      1.845      5.634
+      1.889      5.560
+      1.917      5.885
+      1.949      5.448
+      1.980      5.183
+      1.988      5.069
+      2.032      5.052
+      2.045      5.281
+      2.072      5.549
+      2.086      5.721
+      2.128      5.933
+      2.171      5.039
+      2.180      5.973
+      2.207      5.117
+      2.243      5.194
+      2.279      5.272
+      2.279      5.387
+      2.321      5.655
+      2.341      5.847
+      2.378      5.905
+      2.422      5.907
+      2.465      6.005
+      2.493      6.101
+      2.502      5.930
+      2.525      5.817
+      2.534      5.569
+      2.566      5.056
+      2.595      5.172
+      2.628      5.707
+      2.692      5.957
+      2.719      6.378
+      2.804      6.763
+      2.881      7.223
+      2.980      7.761
+      3.086      8.395
+      3.232      8.458
+      3.256      2.477
+      3.281      7.622
+      3.322      4.766
+      3.335      2.709
+      3.361      2.195
+      3.399      1.911
+      3.438      1.532
+      3.481      1.781
+      3.524      1.860
+      3.582      1.996
+      3.639      2.208
+      3.689      2.324
+      3.720      2.078
+      3.730      1.754
+      3.749      1.107
+      3.786      0.995
+      3.830      0.959
+      3.882      0.789
+      3.918      0.867
+      3.969      0.908
+      4.013      0.910
+      4.015      0.681
+      4.058      0.854
+      4.093      0.989
+      4.138      0.915
+      4.190      0.784
+      4.233      0.900
+      4.283      1.093
+      4.329      0.733
+      4.372      0.944
+      4.430      0.985
+      4.445      0.871
+      4.468      0.758
+      4.504      0.893
+      4.563      0.839
+      4.569      0.953
+      4.591      1.030
+      4.642      1.052
+      4.680      0.844
+      4.714      1.284
+      4.782      0.924
+      4.840      1.022
+      4.876      1.043
+      4.913      1.007
+      4.951      0.818
+      4.985      1.162
+      5.016      0.954
+      5.066      1.071
+      5.124      1.149      0.190
+      5.182      1.266
+      5.212      1.172
+      5.256      1.098
+      5.300      1.214
+      5.343      1.369
+      5.391      1.752
+      5.442      1.830
+ENDDATA            149
+ENDSUBENT          170
+SUBENT        30776003   20090909   20091224   20091223       3141
+BIB                  3          7
+REACTION   (4-BE-9(N,THS)4-BE-9,COH,AMP)
+COMMENT    The coherent scattering amplitude at room temp.
+            (20 deg-C) was calculated from the Bragg cut-offs.
+           It is in good agreement with the value 7.74 Fermi
+           of G.E.Bacon, Neutron Diffraction, Oxford press,
+           1962.
+ERR-ANALYS (DATA-ERR) Nothing said about uncertainty
+ENDBIB               7
+COMMON               1          3
+TEMP
+DEG-C
+20.
+ENDCOMMON            3
+DATA                 3          4
+EN         DATA       DATA-ERR
+EV         FERMI      FERMI
+0.06       7.7        0.8
+1.         7.7        0.8
+1.5        7.7        0.8
+2.2        7.7        0.8
+ENDDATA              6
+ENDSUBENT           22
+SUBENT        30776004   20090909   20091224   20091223       3141
+BIB                  3          6
+REACTION   (4-BE-9(N,THS)4-BE-9,COH,SIG)
+COMMENT    The coherent scattering cross section at room temp.
+            (20 deg-C) is in good agreement with the value
+           7.53 b of G.E.Bacon, Neutron Diffraction, Oxford
+           press, 1962.
+ERR-ANALYS (DATA-ERR) Nothing said about uncertainty
+ENDBIB               6
+COMMON               1          3
+TEMP
+DEG-C
+20.
+ENDCOMMON            3
+DATA                 3          4
+EN         DATA       DATA-ERR
+EV         B          B
+0.06       7.5        1.5
+1.         7.5        1.5
+1.5        7.5        1.5
+2.2        7.5        1.5
+ENDDATA              6
+ENDSUBENT           21
+SUBENT        30776005   20090909   20091224   20091223       3141
+BIB                  5         13
+REACTION   (28-NI-0(N,TOT),,SIG)                                 3
+COMMENT    Total cross section
+           in the energy range 2.2 eV-0.06 eV was fitted using
+           the least square method and was found to be:
+                sig(T)=(17.5+-0.2)+(0.652+-0.007)/root(E) b,
+                (E in eV), which is in good agreement with the
+           expression:
+                sig(T)=(17.4+-0.2)+(0.79+-0.10)/root(E) b,
+           reported by P.J.Bendt and I.W.Ruderman, Phys. Rev.
+           77, 575, 1950.
+ERR-ANALYS (ERR-DIG)    Digitizing error
+STATUS     (CURVE) Data from Fig.2 of main ref.
+HISTORY    (20091005A) Data replaced by values from curve
+ENDBIB              13
+COMMON               2          3
+TEMP       ERR-DIG
+DEG-C      B
+20.            0.01
+ENDCOMMON            3
+DATA                 2        139
+WVE-LN     DATA
+ANGSTROM   B
+      0.114     18.072
+      0.122     17.282
+      0.152     15.137
+      0.198     16.598
+      0.213     15.357
+      0.230     17.497
+      0.245     16.481
+      0.283     17.041
+      0.322     17.714
+      0.353     17.260
+      0.399     16.692
+      0.453     16.912
+      0.476     17.699
+      0.522     17.244
+      0.568     16.676
+      0.592     17.463
+      0.600     18.477
+      0.646     18.359
+      0.692     18.242
+      0.724     19.141
+      0.731     18.464
+      0.785     19.135
+      0.816     18.456
+      0.870     18.789
+      0.917     20.025
+      0.947     19.458
+      1.017     19.790
+      1.032     18.887
+      1.063     19.785
+      1.102     20.796
+      1.117     19.668
+      1.186     19.999
+      1.224     19.319
+      1.263     19.992
+      1.264     20.781
+      1.302     21.228
+      1.318     22.016
+      1.356     21.674
+      1.356     20.547
+      1.418     20.766
+      1.426     21.780
+      1.495     20.759
+      1.549     20.303
+      1.557     21.542
+      1.618     20.522
+      1.649     20.857
+      1.711     20.964
+      1.741     20.172
+      1.826     20.164
+      1.849     20.725
+      1.911     20.832
+      1.919     21.733
+      1.950     22.520
+      1.996     21.952
+      2.058     22.509
+      2.096     20.477
+      2.157     20.358
+      2.196     21.482
+      2.242     21.365
+      2.281     21.586
+      2.304     22.260
+      2.336     22.934
+      2.382     23.831
+      2.382     22.817
+      2.451     23.148
+      2.474     22.244
+      2.528     23.028
+      2.575     23.475
+      2.613     24.148
+      2.645     24.821
+      2.660     25.496
+      2.684     26.170
+      2.707     26.957
+      2.769     26.838
+      2.785     27.626
+      2.823     28.073
+      2.870     28.181
+      2.870     29.534
+      2.931     28.626
+      2.940     30.091
+      2.956     31.217
+      2.994     31.890
+      3.041     32.336
+      3.072     33.573
+      3.110     32.555
+      3.142     34.130
+      3.173     35.480
+      3.211     33.673
+      3.235     35.587
+      3.289     35.807
+      3.297     37.159
+      3.352     37.943
+      3.398     37.488
+      3.435     36.019
+      3.512     34.546
+      3.565     33.301
+      3.666     34.644
+      3.728     36.554
+      3.813     36.885
+      3.851     33.950
+      3.927     32.703
+      3.980     29.993
+      4.010     28.750
+      4.047     26.041
+      4.085     24.797
+      4.139     24.003
+      4.208     24.222
+      4.263     26.133
+      4.341     27.028
+      4.395     27.473
+      4.449     27.919
+      4.503     27.914
+      4.526     28.926
+      4.573     29.260
+      4.627     29.819
+      4.697     30.601
+      4.759     31.272
+      4.821     32.167
+      4.860     33.291
+      4.882     32.500
+      4.929     32.608
+      4.975     33.280
+      5.014     34.178
+      5.076     35.074
+      5.107     34.620
+      5.161     34.164
+      5.207     35.062
+      5.230     34.158
+      5.292     35.843
+      5.377     36.849
+      5.463     37.743
+      5.539     37.397
+      5.625     38.742
+      5.725     38.733
+      5.802     38.274
+      5.803     40.078
+      5.864     38.832
+      5.888     41.197
+      5.910     39.504
+ENDDATA            141
+ENDSUBENT          163
+SUBENT        30776006   20090909   20091224   20091223       3141
+BIB                  3          8
+REACTION   (28-NI-0(N,THS)28-NI-0,COH,AMP)
+COMMENT    The coherent scattering amplitude was determined
+           from the observed Bragg cut-offs. This value at
+           room temp. (20 deg-C) is in good agreement with
+           the value 10.3 Fermi of D.J.Hughes and J.A.Harvey,
+           Neutron Cross Sections, BNL-325, 2nd ed. 1958 and
+           G.E.Bacon, Neutron Diffraction, Oxford press, 1962.
+ERR-ANALYS (DATA-ERR) Nothing said about uncertainty
+ENDBIB               8
+COMMON               1          3
+TEMP
+DEG-C
+20.
+ENDCOMMON            3
+DATA                 3          4
+EN         DATA       DATA-ERR
+EV         FERMI      FERMI
+0.06       10.4       0.3
+1.         10.4       0.3
+1.5        10.4       0.3
+2.2        10.4       0.3
+ENDDATA              6
+ENDSUBENT           23
+SUBENT        30776007   20090909   20091224   20091223       3141
+BIB                  3          9
+REACTION   (28-NI-0(N,THS)28-NI-0,COH,SIG)
+COMMENT    The coherent scattering cross section was
+           determined from the observed Bragg cut-offs. This
+           value at room temp. (20 deg-C) is in good agreement
+           with the value (13.2+-0.2) b of D.J.Hughes and
+           J.A.Harvey, neutron cross sections, BNL-325,
+           2nd ed., 1958 and G.E.Bacon, Neutron Diffraction,
+           Oxford press, 1962.
+ERR-ANALYS (DATA-ERR) Nothing said about uncertainty
+ENDBIB               9
+COMMON               1          3
+TEMP
+DEG-C
+20.
+ENDCOMMON            3
+DATA                 3          4
+EN         DATA       DATA-ERR
+EV         B          B
+0.06       13.6       0.8
+1.         13.6       0.8
+1.5        13.6       0.8
+2.2        13.6       0.8
+ENDDATA              6
+ENDSUBENT           24
+SUBENT        30776008   20090909   20091224   20091223       3141
+BIB                  5         14
+REACTION   (28-NI-0(N,TOT),,SIG/TMP)
+COMMENT    Total cross section at liquid
+           nitrogen temp. (-170 deg-C) for below 0.005 eV
+           follows the expression:
+                sig(T)=(3.3+-0.2)+(0.75+-0.06)*E**(-1/2) b.
+           Comment by compiler:
+             The given expression of total cross section does not
+           agree with the given fig.2 of Int. Conf. On Nuclear
+           Cross Sections for Technology, Knoxville, Tennessee,
+           22-26 Oct 1979. Proceed. publ. as NBS spec.publ.594
+           in Sept 1980.
+STATUS     (CURVE) Data from Fig.2 of main ref.
+ERR-ANALYS (ERR-DIG)    Digitizing error
+HISTORY    (20091005A) NODATA replaced by values from curve
+ENDBIB              14
+COMMON               2          3
+TEMP       ERR-DIG
+DEG-C      B
+-170.        0.1
+ENDCOMMON            3
+DATA                 2         42
+WVE-LN     DATA
+ANGSTROM   B
+      3.565      32.17
+      3.634      32.73
+      3.696      33.40
+      3.750      34.07
+      3.796      32.83
+      3.904      31.69
+      3.948      28.31
+      3.985      25.37
+      4.000      23.11
+      4.054      23.22
+      4.116      23.33
+      4.193      23.55
+      4.254      23.65
+      4.255      24.67
+      4.301      24.78
+      4.340      25.45
+      4.456      26.57
+      4.557      27.57
+      4.611      28.36
+      4.719      29.02
+      4.812      30.25
+      4.874      31.37
+      4.967      31.59
+      5.021      31.70
+      5.060      32.82
+      5.114      32.82
+      5.175      31.46
+      5.213      31.91
+      5.306      32.35
+      5.322      33.25
+      5.338      34.94
+      5.368      32.79
+      5.407      33.69
+      5.461      34.14
+      5.507      33.34
+      5.577      34.58
+      5.623      35.14
+      5.631      36.15
+      5.716      36.25
+      5.786      36.81
+      5.855      37.37
+      5.910      38.38
+ENDDATA             44
+ENDSUBENT           67
+SUBENT        30776009   20090909   20091224   20091223       3141
+BIB                  3          6
+REACTION   (28-NI-0(N,THS)28-NI-0,INC,SIG)
+COMMENT    The incoherent elastic scattering cross section
+           at liquid nitrogen temp. (-170 deg-C) is in
+           good agreement with the value (4.1+-1.2) b of
+           P.J.Bendt and I.W.Ruderman, Phys. Rev. 77, 575, 1950.
+ERR-ANALYS (DATA-ERR) Nothing said about uncertainty
+ENDBIB               6
+COMMON               1          3
+TEMP
+DEG-C
+-170.
+ENDCOMMON            3
+DATA                 3          4
+EN         DATA       DATA-ERR
+EV         B          B
+0.0022     3.3        0.2
+0.003      3.3        0.2
+0.004      3.3        0.2
+0.005      3.3        0.2
+ENDDATA              6
+ENDSUBENT           21
+SUBENT        30776010   20090909   20091224   20091223       3141
+BIB                  5         12
+REACTION   (29-CU-0(N,TOT),,SIG)
+COMMENT    Total cross section at room temp. (20 deg-C) in
+           the energy range 2.2 eV-0.06 eV follows the
+           expression:
+                sig(T)=(7.4+-0.6)+(0.37+-0.12)/root(E) b.
+           which is in good agreement with P.J.Bendt and
+           I.W.Ruderman, Phys. Rev. 79, 575, 1950, as:
+                sig(T)=(8.2+-0.2)+(0.54+-0.05)/root(E) b.
+ERR-ANALYS (ERR-DIG)    Digitizing error
+STATUS     (CURVE) Data from Fig.3 of main ref.
+HISTORY    (20091005A) Data replaced by values from curve, data fo
+            liquid nitrogen temp. moved to new subentry 15.
+ENDBIB              12
+COMMON               2          3
+TEMP       ERR-DIG
+DEG-C      B
+  20.        0.05
+ENDCOMMON            3
+DATA                 2        161
+WVE-LN     DATA
+ANGSTROM   B
+      0.202      8.640
+      0.224      8.935
+      0.261      9.008
+      0.290      8.785
+      0.319      8.710
+      0.348      8.486
+      0.377      8.782
+      0.421      8.780
+      0.457      8.631
+      0.486      8.852
+      0.530      8.925
+      0.559      9.220
+      0.595      9.293
+      0.639      9.440
+      0.653      8.921
+      0.683      9.290
+      0.712      9.511
+      0.734      9.288
+      0.770      9.435
+      0.806      9.582
+      0.835      9.063
+      0.850      9.581
+      0.894      9.653
+      0.930      9.504
+      0.959      9.725
+      0.996      9.798
+      1.039      9.723
+      1.061     10.018
+      1.105      9.868
+      1.134     10.090
+      1.199     10.310
+      1.243     10.308
+      1.279     10.159
+      1.316     10.010
+      1.352     10.008
+      1.388      9.933
+      1.425     10.080
+      1.432     10.450
+      1.469     10.597
+      1.527     10.447
+      1.549     10.743
+      1.585     10.964
+      1.607     10.592
+      1.636     10.369
+      1.650      9.998
+      1.687      9.775
+      1.723      9.922
+      1.738     10.366
+      1.760     10.735
+      1.774     11.031
+      1.825     11.104
+      1.847     10.881
+      1.891     10.953
+      1.913     11.397
+      1.949     11.322
+      2.000     11.246
+      2.007     10.801
+      2.043     10.800
+      2.087     10.873
+      2.152      9.537
+      2.160     10.500
+      2.188      9.165
+      2.203      9.535
+      2.225      9.756
+      2.247     10.052
+      2.269     10.274
+      2.276     10.644
+      2.305     10.939
+      2.313     10.568
+      2.334     11.235
+      2.349     11.679
+      2.379     12.493
+      2.422     12.491
+      2.444     12.935
+      2.474     13.601
+      2.510     13.970
+      2.547     14.933
+      2.575     13.450
+      2.589     12.263
+      2.633     12.040
+      2.655     12.409
+      2.684     13.001
+      2.714     13.741
+      2.743     13.666
+      2.764     13.443
+      2.815     12.256
+      2.874     13.810
+      2.917     14.179
+      2.961     14.474
+      3.005     14.621
+      3.048     13.582
+      3.099     13.358
+      3.165     13.355
+      3.208     13.428
+      3.244     13.204
+      3.302     12.536
+      3.353     12.830
+      3.376     13.793
+      3.441     13.420
+      3.536     15.269
+      3.638     16.007
+      3.726     16.523
+      3.748     16.818
+      3.762     15.410
+      3.769     16.966
+      3.806     17.039
+      3.828     17.483
+      3.849     16.148
+      3.850     17.185
+      3.886     17.184
+      3.937     18.294
+      3.974     18.367
+      4.003     18.885
+      4.011     20.144
+      4.068     16.807
+      4.069     19.549
+      4.118     15.546
+      4.168     12.802
+      4.204     11.023
+      4.255     10.280
+      4.284     10.724
+      4.305      9.167
+      4.349      8.943
+      4.392      8.719
+      4.443      8.643
+      4.494      8.790
+      4.545      9.159
+      4.589      9.379
+      4.611      9.601
+      4.640      9.526
+      4.684      9.821
+      4.720     10.116
+      4.778     10.188
+      4.822     10.853
+      4.866      9.740
+      4.909      9.813
+      4.953     10.479
+      4.997     10.329
+      5.004      9.810
+      5.041     11.291
+      5.084     11.586
+      5.150     10.991
+      5.178     10.619
+      5.215     10.395
+      5.266     10.690
+      5.383     11.353
+      5.462     10.609
+      5.513     11.423
+      5.521     12.164
+      5.564     11.643
+      5.594     12.235
+      5.696     12.380
+      5.746     12.082
+      5.790     11.265
+      5.834     12.375
+      5.841     11.041
+      5.892     11.929
+      5.935     11.408
+      5.935     10.667
+      5.979     11.703
+      6.001     12.295
+ENDDATA            163
+ENDSUBENT          184
+SUBENT        30776011   20090909   20091224   20091223       3141
+BIB                  3          8
+REACTION   (29-CU-0(N,THS)29-CU-0,COH,AMP)
+COMMENT    The coherent scattering amplitude at room temp.
+            (20 deg-C) is in good agreement with the
+           value 7.9 Fermi of D.J.Hughes and j.A.Harvey,
+           Neutron Cross Sections, BNL-325, 2nd ed,1958
+           and G.E.Bacon, Neutron Diffraction, Oxford
+           press, 1962.
+ERR-ANALYS (DATA-ERR) Nothing said about uncertainty
+ENDBIB               8
+COMMON               1          3
+TEMP
+DEG-C
+20.
+ENDCOMMON            3
+DATA                 3          4
+EN         DATA       DATA-ERR
+EV         FERMI      FERMI
+0.06       7.7        0.4
+1.         7.7        0.4
+1.5        7.7        0.4
+2.2        7.7        0.4
+ENDDATA              6
+ENDSUBENT           23
+SUBENT        30776012   20090909   20091224   20091223       3141
+BIB                  3          7
+REACTION   (29-CU-0(N,THS)29-CU-0,COH,SIG)
+COMMENT    The coherent scattering cross section at room temp.
+            (20 deg-C) is in good agreement with the
+           value 7.8 b of D.J.Hughes and J.A.Harvey, Neutron
+           Cross Sections, BNL-325, 2nd ed, 1958 and G.E. Bacon,
+           Neutron Diffraction, Oxford press, 1962.
+ERR-ANALYS (DATA-ERR) Nothing said about uncertainty
+ENDBIB               7
+COMMON               1          3
+TEMP
+DEG-C
+20.
+ENDCOMMON            3
+DATA                 3          4
+EN         DATA       DATA-ERR
+EV         B          B
+0.06       7.5        0.8
+1.         7.5        0.8
+1.5        7.5        0.8
+2.2        7.5        0.8
+ENDDATA              6
+ENDSUBENT           22
+SUBENT        30776013   20090909   20091224   20091223       3141
+BIB                  3          7
+REACTION   (29-CU-0(N,THS)29-CU-0,INC,SIG)
+COMMENT    The incoherent elastic scattering cross section at
+           liquid nitrogen temp. (-170 deg-C) and beyond
+           lambda(C) is in agreement with the value (1.9+-0.6) b.
+           of P.J.Bendt and I.W.Ruderman, Phys. Rev. 77,
+           575, 1950.
+ERR-ANALYS (DATA-ERR) Nothing said about uncertainty
+ENDBIB               7
+COMMON               1          3
+TEMP
+DEG-C
+-170.
+ENDCOMMON            3
+DATA                 3          4
+EN         DATA       DATA-ERR
+EV         B          B
+0.0022     1.98       0.09
+0.003      1.98       0.09
+0.004      1.98       0.09
+0.005      1.98       0.09
+ENDDATA              6
+ENDSUBENT           22
+SUBENT        30776014   20091009   20091224   20091223       3141
+BIB                  5         12
+REACTION   (4-BE-9(N,TOT),,SIG/TMP)
+COMMENT    By authors:
+           Total cross section at liquid nitrogen temp.
+            (-170 deg-C) for below 0.005 eV is fluctuating
+           around a constant value of 0.27 +- 011 b.
+           This value corresponds
+           to the Be incoherent scattering cross section since
+           it has a negligible absorption cross section.
+ERR-ANALYS (ERR-DIG)    Digitizing error
+           (DATA-ERR) Nothing said about uncertainty
+STATUS     (CURVE) Data from Fig.1 of main ref.
+HISTORY    (20091005C)
+ENDBIB              12
+COMMON               2          3
+TEMP       ERR-DIG
+DEG-C      B
+  -170.      0.01
+ENDCOMMON            3
+DATA                 3         45
+WVE-LN     DATA       DATA-ERR
+ANGSTROM   B          B
+      3.484      1.305
+      3.556      1.385
+      3.614      1.483      0.171
+      3.662      0.932
+      3.700      0.629
+      3.739      0.307
+      3.769      0.213
+      3.813      0.158
+      3.865      0.160
+      3.908      0.181
+      3.945      0.106
+      3.982      0.146
+      4.033      0.167
+      4.069      0.283
+      4.113      0.171
+      4.164      0.192
+      4.200      0.289
+      4.245      0.215
+      4.281      0.331
+      4.332      0.333
+      4.376      0.335
+      4.406      0.241
+      4.464      0.263
+      4.508      0.245
+      4.545      0.171
+      4.596      0.211
+      4.647      0.271
+      4.662      0.157
+      4.728      0.198
+      4.763      0.409
+      4.807      0.392
+      4.831      0.184
+      4.889      0.262
+      4.910      0.397
+      4.969      0.266
+      5.005      0.439
+      5.056      0.422
+      5.122      0.330
+      5.136      0.464
+      5.187      0.504
+      5.224      0.411
+      5.276      0.337
+      5.357      0.321
+      5.489      0.232
+      5.575      0.502
+ENDDATA             47
+ENDSUBENT           68
+SUBENT        30776015   20090909   20091224   20091223       3141
+BIB                  5          7
+REACTION   (29-CU-0(N,TOT),,SIG/TMP)
+COMMENT    Total cross section at liquid nitrogen temp.
+            (-170 deg-C) and beyond lambda(C) is:
+                sig(T)=(1.98+-0.09)+(0.54+-0.03)/root(E) b.
+ERR-ANALYS (ERR-DIG)    Digitizing error
+STATUS     (CURVE) Data from Fig.3 of main ref.
+HISTORY    (20091005C)
+ENDBIB               7
+COMMON               2          3
+TEMP       ERR-DIG
+DEG-C      B
+  -170.      0.05
+ENDCOMMON            3
+DATA                 2         24
+WVE-LN     DATA
+ANGSTROM   B
+      4.126     16.805
+      4.176     14.507
+      4.226     12.430
+      4.313      9.537
+      4.356      9.536
+      4.414      9.534
+      4.465      9.828
+      4.495     10.198
+      4.538      9.974
+      4.618      9.971
+      4.669     10.266
+      4.771     10.781
+      4.866     10.926
+      4.924     10.628
+      5.033     10.698
+      5.106     11.214
+      5.302     10.318
+      5.353     10.613
+      5.404     11.056
+      5.557     10.532
+      5.622      9.789
+      5.695      9.786
+      5.789      9.561
+      5.876      9.336
+ENDDATA             26
+ENDSUBENT           42
+ENDENTRY            15

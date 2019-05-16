@@ -1,0 +1,264 @@
+ENTRY            40131   20150109   20160302   20160216       4172
+SUBENT        40131001   20150109   20160302   20160216       4172
+BIB                 17         59
+INSTITUTE  (4RUSFEI)
+REFERENCE  (J,SJA,29,1080,1970) Eng.trans.of AE,29,338,1970
+           (J,AE,29,(5),338,197011) Graphs, tables
+           (R,YFI-12,14,1971) abstract
+           (R,INDC(CCP)-030,11,1972) Engl.translation of YFI-12,14
+AUTHOR     (A.T.Bakov,V.G.Dvukhsherstnov,Yu.A.Kazanskii)
+TITLE      Cross sections for the production of gamma-rays
+           as a result of inelastic scattering of neutrons of
+           a fission spectrum
+INC-SOURCE (REAC)     Reactor RIZ
+INC-SPECT  Incident neutron spectrum was measured at the sample
+           position by the same spectrometer. Spectrum is
+           presented on Fig.3 of SJA,29,1080,1970
+DETECTOR   (SCIN) Scintillation spectrometer with stilbene crystal
+           of 30 mm in diameter and 20 mm in height was used
+PART-DET   (G) Gammas were detected at the angle 90 degrees
+           relative to incident neutrons flux
+SAMPLE     The samples were planar and the angle of their
+           plane to the direction of the beam was 45.degr.
+ANALYSIS   (4PI1A)    4Pi times sigma at 90 degrees
+MONITOR    Sources of known activity Cs-137 with uncertainty
+           4-5% were used
+CORRECTION Correction for background of neutrons and gammas
+           were 30-50% in continuous range and less in the
+           range of the single lines. Correction for multiscatte-
+           ring was calculated using method described in AE,4,244
+           correction for angular distribution of gamma-emission
+           was not introduced
+REL-REF    (M,,Yu.A.Kazanskii+,J,AE,20,143,1966) -
+           (M,,V.G.Dvukhsherstnov+,J,PTE,4,39,1969) -
+            Conversion of the amplitude distributions of the
+            pulses into energy spectra of the neutrons and the
+            gamma-rays described.
+           (M,,V.F.Turchin+,J,AE,4,244,1958) - Description of
+           multiscattering correction
+           (I,,S.P.Belov+,J,AE,18,136,1965) - Reactor description
+           (I,20938001,F.D.Brooks+,J,NIM,4,151,1959)) -
+           Scintillation spectrometer description
+ERR-ANALYS (DATA-ERR) Root mean square error.
+           Error of inelastic scattering cross section was not
+           introduced .
+           (ERR-1) Uncertainty due to geometry factor and neutron
+           and gamma detection efficiencies ~ 7.% .
+COMMENT    Authors consider correction for angular distribution
+           to be less than 10-15%
+STATUS     (TABLE) Tbl.1 from AE,29,(5),338,1970
+HISTORY    (19730129C)  Compiled at the centre
+           (20010307A) Updated to new date formats. Institute
+                       updated.
+           (20150109A) SD: Updated to new date formats,lower case.
+            Ref. on Engl.transl. of AE added. BIB updated.
+            (METHOD moved to REL-REF; SAMPLE moved to Sub.1 and
+            updated).
+           (20151020A) M.M. Articles were checked, BIB information
+           was updated in TITLE,AUTHOR,INC-SPECT,ERR-ANALYS,
+           REFERENCE .
+            REACTION was corrected:
+           SIG,G,FIS -> DA,G,4PI/FIS -  4PI*SIG(90deg).
+           Angle 90 deg was added .
+ENDBIB              59
+COMMON               3          3
+EN-DUMMY   ANG        ERR-1
+MEV        ADEG       PER-CENT
+ 1.         90.           7.
+ENDCOMMON            3
+ENDSUBENT           66
+SUBENT        40131002   20150109   20160302   20160216       4172
+BIB                  1          1
+REACTION   (11-NA-23(N,INL)11-NA-23,PAR,DA,G,4PI/FIS)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          2
+E          DATA       DATA-ERR
+MEV        B          PER-CENT
+ 4.4000E-01 5.0000E-01 3.0000E+01
+ 1.6400E+00 1.5000E-01 1.7000E+01
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        40131003   20150109   20160302   20160216       4172
+BIB                  1          1
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,DA,G,4PI/FIS)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          6
+E          DATA       DATA-ERR
+MEV        B          PER-CENT
+ 8.4000E-01 8.0000E-02 1.1000E+01
+ 1.0100E+00 1.9000E-01 1.0000E+01
+ 1.7300E+00 7.0000E-02 1.1000E+01
+ 2.2100E+00 2.0000E-01 1.1000E+01
+ 2.7300E+00 6.0000E-02 2.2000E+01
+ 2.9800E+00 1.3000E-01 1.0000E+01
+ENDDATA              8
+ENDSUBENT           14
+SUBENT        40131004   20150109   20160302   20160216       4172
+BIB                  2          3
+REACTION   (22-TI-0(N,INL)22-TI-0,PAR,DA,G,4PI/FIS)
+HISTORY    (20010307A) SF4 added to reaction.
+                       Record with no data field deleted.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          2
+E          DATA       DATA-ERR
+MEV        B          PER-CENT
+ 9.9000E-01 6.5000E-01 9.0000E+00
+ 2.4300E+00 1.1000E-01 1.0000E+01
+ENDDATA              4
+ENDSUBENT           12
+SUBENT        40131005   20150109   20160302   20160216       4172
+BIB                  2          2
+REACTION   (23-V-0(N,INL)23-V-0,PAR,DA,G,4PI/FIS)
+HISTORY    (20010307A) SF4 added to reaction.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          4
+E          DATA       DATA-ERR
+MEV        B          PER-CENT
+ 9.2000E-01 1.0000E-01 1.0000E+01
+ 1.6200E+00 2.8000E-01 1.0000E+01
+ 1.8300E+00 1.6000E-01 1.0000E+01
+ 3.6000E+00 1.0000E-01 1.7000E+01
+ENDDATA              6
+ENDSUBENT           13
+SUBENT        40131006   20150109   20160302   20160216       4172
+BIB                  1          1
+REACTION   (25-MN-55(N,INL)25-MN-55,PAR,DA,G,4PI/FIS)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          6
+E          DATA       DATA-ERR
+MEV        B          PER-CENT
+ 8.6000E-01 2.4000E-01 8.0000E+00
+ 1.1600E+00 1.1000E-01 8.0000E+00
+ 1.5300E+00 1.8000E-01 9.0000E+00
+ 1.8800E+00 1.2000E-01 9.0000E+00
+ 2.3000E+00 1.9000E-01 8.0000E+00
+ 2.8500E+00 1.2000E-01 1.8000E+01
+ENDDATA              8
+ENDSUBENT           14
+SUBENT        40131007   20150109   20160302   20160216       4172
+BIB                  2          2
+REACTION   (26-FE-0(N,INL)26-FE-0,PAR,DA,G,4PI/FIS)
+HISTORY    (20010307A) SF4 added to reaction.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          6
+E          DATA       DATA-ERR
+MEV        B          PER-CENT
+ 8.5000E-01 7.4000E-01 7.0000E+00
+ 1.2500E+00 2.5000E-01 8.0000E+00
+ 1.8600E+00 2.2000E-01 1.0000E+01
+ 2.1200E+00 2.0000E-01 8.0000E+00
+ 2.6600E+00 1.6000E-01 1.8000E+01
+ 3.6000E+00 2.6000E-01 1.8000E+01
+ENDDATA              8
+ENDSUBENT           15
+SUBENT        40131008   20150109   20160302   20160216       4172
+BIB                  2          2
+REACTION   (28-NI-0(N,INL)28-NI-0,PAR,DA,G,4PI/FIS)
+HISTORY    (20010307A) SF4 added to reaction.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          3
+E          DATA       DATA-ERR
+MEV        B          PER-CENT
+ 8.3000E-01 1.3000E-01 1.7000E+01
+ 1.3300E+00 7.6000E-01 8.0000E+00
+ 1.8000E+00 5.0000E-02 1.2000E+01
+ENDDATA              5
+ENDSUBENT           12
+SUBENT        40131009   20150109   20160302   20160216       4172
+BIB                  2          2
+REACTION   (29-CU-0(N,INL)29-CU-0,PAR,DA,G,4PI/FIS)
+HISTORY    (20010307A) SF4 added to reaction.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          7
+E          DATA       DATA-ERR
+MEV        B          PER-CENT
+ 6.7000E-01 1.4000E-01 1.0000E+01
+ 7.6000E-01 7.0000E-02 1.2000E+01
+ 9.7000E-01 4.4000E-01 8.0000E+00
+ 1.1100E+00 2.9000E-01 1.0000E+01
+ 1.4300E+00 4.4000E-01 8.0000E+00
+ 1.5400E+00 7.0000E-02 1.0000E+01
+ 2.0600E+00 4.0000E-02 2.0000E+01
+ENDDATA              9
+ENDSUBENT           16
+SUBENT        40131010   20150109   20160302   20160216       4172
+BIB                  2          2
+REACTION   (30-ZN-0(N,INL)30-ZN-0,PAR,DA,G,4PI/FIS)
+HISTORY    (20010307A) SF4 added to reaction.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          4
+E          DATA       DATA-ERR
+MEV        B          PER-CENT
+ 8.2000E-01 4.1000E-01 1.5000E+01
+ 1.0200E+00 9.0000E-01 1.4000E+01
+ 1.3800E+00 2.4000E-01 1.3000E+01
+ 1.8500E+00 2.4000E-01 8.0000E+00
+ENDDATA              6
+ENDSUBENT           13
+SUBENT        40131011   20150109   20160302   20160216       4172
+BIB                  2          2
+REACTION   (40-ZR-0(N,INL)40-ZR-0,PAR,DA,G,4PI/FIS)
+HISTORY    (20010307A) SF4 added to reaction.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          4
+E          DATA       DATA-ERR
+MEV        B          PER-CENT
+ 9.3000E-01 5.1000E-01 9.0000E+00
+ 1.2100E+00 7.0000E-02 1.1000E+01
+ 1.4200E+00 1.1000E-01 1.4000E+01
+ 2.2000E+00 5.1000E-01 8.0000E+00
+ENDDATA              6
+ENDSUBENT           13
+SUBENT        40131012   20150109   20160302   20160216       4172
+BIB                  2          2
+REACTION   (82-PB-0(N,INL)82-PB-0,PAR,DA,G,4PI/FIS)
+HISTORY    (20010307A) SF4 added to reaction.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          3
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        B          PER-CENT
+ 8.0000E-01 8.0000E-01 6.2000E-01 3.1000E+01
+ 1.0000E+00 2.0000E+00 3.3000E-01 2.0000E+01
+ 2.6200E+00 2.6200E+00 6.7000E-01 2.7000E+01
+ENDDATA              5
+ENDSUBENT           12
+SUBENT        40131013   20150109   20160302   20160216       4172
+BIB                  1          1
+REACTION   (83-BI-209(N,INL)83-BI-209,PAR,DA,G,4PI/FIS)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          4
+E          DATA       DATA-ERR
+MEV        B          PER-CENT
+ 7.0000E-01 2.6000E-01 3.0000E+01
+ 9.0000E-01 4.9000E-01 9.0000E+00
+ 1.6200E+00 6.2000E-01 9.0000E+00
+ 2.6200E+00 4.6000E-01 2.7000E+01
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        40131014   20150109   20160302   20160216       4172
+BIB                  2          2
+REACTION   (92-U-238(N,INL)92-U-238,PAR,DA,G,4PI/FIS)
+HISTORY    (20010307A) Data sorted.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          3
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        B          PER-CENT
+ 1.0000E+00 2.0000E+00 3.0000E+00
+ 1.0600E+00 1.0600E+00 1.5400E+00 1.5000E+01
+ 2.0000E+00 3.0000E+00 1.5000E+00
+ENDDATA              5
+ENDSUBENT           12
+ENDENTRY            14

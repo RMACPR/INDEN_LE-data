@@ -1,0 +1,754 @@
+ENTRY            F0056   20141021   20150311   20150310       F057
+SUBENT        F0056001   20141021   20150311   20150310       F057
+BIB                  9         22
+TITLE      Mechanism of the (at) reaction on Li-7, B-10,11 and
+           C-13.
+AUTHOR     (T.A.Dmitrieva,V.M.Lebedev,V.G.Markman,A.V.Spasskii,
+           I.B.Teplov)
+INSTITUTE  (4RUSMOS)
+REFERENCE  (J,IZV,38,(12),2567,1974)
+           (J,BAS,38,(12),91,1974) English translation
+METHOD     (EDE)
+           (EXTB)
+           (ASEP)
+FACILITY   (CYCLO,4RUSMOS) 120-cm cyclotron.
+ERR-ANALYS (DATA-ERR) Error of cross section determination. The
+           main uncertainty was in target thickness definition.
+DETECTOR   (TELES,SI) Delta E-E with semiconductor Si counter.
+           E-detector thickness was 1 mm and deltaE detector
+           thickness was 11 or 40 mu-m.
+HISTORY    (19851125C)
+           (19971212A) SAN2 was split into three.
+           (19990407A) CNPD: corrected 4-dig. year
+           (20141021A) English translation was added. In sub
+           002-004 REACTION and DATA were corrected. Sub 005-018
+           were added.
+ENDBIB              22
+COMMON               1          3
+DATA-ERR
+PER-CENT
+        30.
+ENDCOMMON            3
+ENDSUBENT           29
+SUBENT        F0056002   20141021   20150311   20150310       F057
+BIB                  5          9
+REACTION   (3-LI-7(A,T)4-BE-8,PAR,IPA)
+COMMENT    E-LVL value 2.9 MeV  was presented by authors.
+SAMPLE     (3-LI-7,ENR=0.99) Li targets were prepared by
+           evaporating Li in vacuum. Li on the silver backing
+           with the thickness of 0.2 mg/cm2 was used.
+STATUS     (TABLE) Table p.2569.
+HISTORY    (20141021A) SF9=EXP in REACTION was deleted, SF6=SIG
+           was replaced by SF6=IPA. Data were changed according
+           to the table format.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 5          6
+E-LVL      EN         ANG-MIN    ANG-MAX    DATA
+MEV        MEV        ADEG       ADEG       MB
+         0.       23.2         0.        90.        4.6
+         0.       23.2        90.       180.        3.3
+         0.       25.0         0.        90.        4.0
+         0.       25.0        90.       180.        2.9
+        2.9       25.0         0.        90.       21.6
+        2.9       25.0        90.       180.       21.0
+ENDDATA              8
+ENDSUBENT           22
+SUBENT        F0056003   20141021   20150311   20150310       F057
+BIB                  4          8
+REACTION   (5-B-11(A,T)6-C-12,PAR,IPA)
+SAMPLE     B-10,11 targets were prepared from amorphous natural
+           boron by evaporating on gold backing (thickness of
+           0.5 mg/cm2).
+STATUS     (TABLE) Table p.2569.
+HISTORY    (20141021A) SF9=EXP in REACTION was deleted, SF6=SIG
+           was replaced by SF6=IPA. Data were changed according
+           to the table format.
+ENDBIB               8
+COMMON               1          3
+EN
+MEV
+       25.1
+ENDCOMMON            3
+DATA                 4          4
+ANG-MIN    ANG-MAX    E-LVL      DATA
+ADEG       ADEG       MEV        MB
+         0.        90.         0.        7.8
+         0.        90.       4.43        7.7
+        90.       180.         0.        3.1
+        90.       180.       4.43        9.0
+ENDDATA              6
+ENDSUBENT           23
+SUBENT        F0056004   20141021   20150311   20150310       F057
+BIB                  4          7
+REACTION   (6-C-13(A,T)7-N-14,PAR,IPA)
+SAMPLE     (6-C-13,ENR=0.80) Self-supporting enriched C-13 targets
+           with the thickness of 0.4 mg/cm2.
+STATUS     (TABLE) Table p.2569.
+HISTORY    (20141021A) SF9=EXP in REACTION was deleted, SF6=SIG
+           was replaced by SF6=IPA. Data were changed according
+           to the table format.
+ENDBIB               7
+COMMON               1          3
+E-LVL
+MEV
+         0.
+ENDCOMMON            3
+DATA                 4          5
+EN         ANG-MIN    ANG-MAX    DATA
+MEV        ADEG       ADEG       MB
+       23.2         0.        90.        1.8
+       23.7         0.        90.        2.4
+       23.7        90.       180.        3.1
+       25.3         0.        90.        4.3
+       25.3        90.       180.        3.0
+ENDDATA              7
+ENDSUBENT           23
+SUBENT        F0056005   20141021   20150311   20150310       F057
+BIB                  5          8
+REACTION   (3-LI-7(A,T)4-BE-8,PAR,DA)
+SAMPLE     (3-LI-7,ENR=0.99) Li targets were prepared by
+           evaporating Li in vacuum. Li on the silver backing
+           with the thickness of 0.2 mg/cm2 was used.
+ERR-ANALYS (ANG-ERR-D) Angle digitizing error
+           (ERR-DIG)   Data digitizing error
+STATUS     (CURVE) Figure 1.
+HISTORY    (20141021C)
+ENDBIB               8
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       MB/SR
+       25.0         0.       0.50     0.0103
+ENDCOMMON            3
+DATA                 2         26
+ANG-CM     DATA-CM
+ADEG       MB/SR
+      21.19     2.4673
+      30.72     1.4634
+      38.32     0.4172
+      46.00     0.6283
+      53.68     0.8393
+      60.40     0.3696
+      66.89     0.0440
+      73.70     0.1721
+      79.51     0.2996
+      86.69     0.1805
+      91.90     0.0396
+      98.87     0.0647
+     104.67     0.1922
+     109.45     0.3396
+     119.22     0.4902
+     129.59     0.2495
+     135.65     0.2122
+     139.33     0.4207
+     142.89     0.7116
+     146.42     1.0231
+     149.01     1.2927
+     153.94     1.3371
+     160.28     1.1145
+     164.58     1.5707
+     169.73     2.1306
+     175.76     2.1139
+ENDDATA             28
+ENDSUBENT           45
+SUBENT        F0056006   20141021   20150311   20150310       F057
+BIB                  5          9
+REACTION   (3-LI-7(A,T)4-BE-8,PAR,DA)
+SAMPLE     (3-LI-7,ENR=0.99) Li targets were prepared by
+           evaporating Li in vacuum. Li on the silver backing
+           with the thickness of 0.2 mg/cm2 was used.
+ERR-ANALYS (ANG-ERR-D) Angle digitizing error
+           (ERR-DIG)   Data digitizing error
+           (ERR-S)     Statistical error from the graphic bars
+STATUS     (CURVE) Figure 1.
+HISTORY    (20141021C)
+ENDBIB               9
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       MB/SR
+       23.2         0.       0.41     0.0077
+ENDCOMMON            3
+DATA                 3         25
+ANG-CM     DATA-CM    ERR-S
+ADEG       MB/SR      MB/SR
+      23.68     3.5315     0.1194
+      31.48     1.2953     0.0610
+      37.46     0.4982
+      45.76     0.9826     0.1205
+      53.67     1.0067
+      59.54     0.2897
+      66.70     0.1133
+      73.51     0.2169
+      79.35     0.2999
+      86.44     0.1836
+      92.54     0.0667
+      98.38     0.1498
+      99.25     0.2502
+     104.02     0.3927
+     108.85     0.4952
+     114.75     0.5383
+     119.01     0.3005
+     125.14     0.1636
+     130.12     0.1462
+     138.35     0.6906
+     146.55     1.2549
+     153.06     1.5983
+     158.72     1.8213
+     165.71     1.7849
+     170.38     2.0074
+ENDDATA             27
+ENDSUBENT           45
+SUBENT        F0056007   20141021   20150311   20150310       F057
+BIB                  5          9
+REACTION   (3-LI-7(A,T)4-BE-8,PAR,DA)
+SAMPLE     (3-LI-7,ENR=0.99) Li targets were prepared by
+           evaporating Li in vacuum. Li on the silver backing
+           with the thickness of 0.2 mg/cm2 was used.
+ERR-ANALYS (ANG-ERR-D) Angle digitizing error
+           (ERR-DIG)   Data digitizing error
+           (ERR-S)     Statistical error from the graphic bars
+STATUS     (CURVE) Figure 1.
+HISTORY    (20141021C)
+ENDBIB               9
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       MB/SR
+       25.0        2.9       0.59     0.0300
+ENDCOMMON            3
+DATA                 3         18
+ANG-CM     DATA-CM    ERR-S
+ADEG       MB/SR      MB/SR
+      24.04     7.7328     0.9994
+      31.68     4.7928     0.5497
+      39.11     4.0029     0.3998
+      46.25     3.7628     0.3512
+      54.74     2.8744     0.3498
+      62.09     2.2345     0.2499
+      69.22     1.9944     0.2485
+      75.88     2.6038     0.2512
+      82.02     2.3623     0.3012
+      89.26     1.9222
+     102.30     1.8404
+     114.01     2.3568     0.3012
+     124.42     3.4215     0.2512
+     133.90     6.1353     0.4511
+     141.20     7.3957     0.5525
+     149.92     6.1075     0.5525
+     157.24     3.7172     0.5497
+     162.68     1.1242
+ENDDATA             20
+ENDSUBENT           38
+SUBENT        F0056008   20141021   20150311   20150310       F057
+BIB                  5          8
+REACTION   (3-LI-7(A,T)4-BE-8,PAR,DA)
+SAMPLE     (3-LI-7,ENR=0.99) Li targets were prepared by
+           evaporating Li in vacuum. Li on the silver backing
+           with the thickness of 0.2 mg/cm2 was used.
+ERR-ANALYS (EN-ERR-DIG) Energy digitizing error
+           (ERR-DIG)    Data digitizing error
+STATUS     (CURVE) Figure 1.
+HISTORY    (20141021C)
+ENDBIB               8
+COMMON               4          3
+ANG        E-LVL      EN-ERR-DIG ERR-DIG
+ADEG       MEV        MEV        MB/SR
+       160.         0.      0.626     0.0176
+ENDCOMMON            3
+DATA                 2          7
+EN         DATA
+MEV        MB/SR
+     21.243     2.2823
+     21.952     1.9003
+     22.589     2.4170
+     23.199     2.0324
+     23.800     1.9978
+     24.351     1.9619
+     25.047     2.1299
+ENDDATA              9
+ENDSUBENT           26
+SUBENT        F0056009   20141021   20150311   20150310       F057
+BIB                  6         10
+REACTION   (5-B-10(A,T)6-C-11,PAR,DA,,REL)
+COMMENT    No explanation of relative units is given.
+SAMPLE     B-10,11 targets were prepared from amorphous natural
+           boron by evaporating on gold backing (thickness of
+           0.5 mg/cm2).
+ERR-ANALYS (ANG-ERR-D) Angle digitizing error
+           (ERR-DIG)   Data digitizing error
+           (ERR-S)     Statistical error from the graphic bars
+STATUS     (CURVE) Figure 2.
+HISTORY    (20141021C)
+ENDBIB              10
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       ARB-UNITS
+       25.1        2.0      0.768     0.0394
+ENDCOMMON            3
+DATA                 3          5
+ANG-CM     DATA-CM    ERR-S
+ADEG       ARB-UNITS  ARB-UNITS
+     32.949     4.3199     0.4064
+     49.431     2.5370     0.3157
+     63.813     2.5211     0.2704
+     78.806     1.6435
+     93.027     1.8544
+ENDDATA              7
+ENDSUBENT           26
+SUBENT        F0056010   20141021   20150311   20150310       F057
+BIB                  5          9
+REACTION   (5-B-11(A,T)6-C-12,PAR,DA)
+SAMPLE     B-10,11 targets were prepared from amorphous natural
+           boron by evaporating on gold backing (thickness of
+           0.5 mg/cm2).
+ERR-ANALYS (ANG-ERR-D) Angle digitizing error
+           (ERR-DIG)   Data digitizing error
+           (ERR-S)     Statistical error from the graphic bars
+STATUS     (CURVE) Figure 3.
+HISTORY    (20141021C)
+ENDBIB               9
+COMMON               3          3
+EN         ANG-ERR-D  ERR-DIG
+MEV        ADEG       MB/SR
+       25.1       0.70     0.0150
+ENDCOMMON            3
+DATA                 4         58
+E-LVL      ANG-CM     DATA-CM    ERR-S
+MEV        ADEG       MB/SR      MB/SR
+         0.      21.38     3.6183     0.0909
+         0.      27.70     3.4365
+         0.      33.12     2.7639
+         0.      40.35     2.1457
+         0.      45.77     1.6730
+         0.      50.29     1.0549
+         0.      53.90     0.7095
+         0.      56.61     0.5095
+         0.      62.93     0.6004
+         0.      69.24     0.6914
+         0.      74.66     0.4732
+         0.      77.36     0.4369
+         0.      80.97     0.5824
+         0.      86.38     0.7279
+         0.      91.80     0.5461
+         0.      98.11     0.4189
+         0.     103.52     0.6553
+         0.     108.03     0.8007
+         0.     113.44     0.8371
+         0.     122.47     0.2918
+         0.     127.88     0.2372
+         0.     132.39     0.3100
+         0.     136.90     0.3646
+         0.     140.51     0.2919
+         0.     145.03     0.1646
+         0.     153.14     0.3465
+         0.     161.25     0.9102
+         0.     167.56     1.2375
+         0.     174.78     1.3103     0.0904
+       4.43      22.48     1.7676
+       4.43      28.52     2.4050
+       4.43      34.72     2.6788
+       4.43      41.39     1.8436
+       4.43      46.11     1.3717
+       4.43      52.63     0.8820
+       4.43      56.22     0.9372
+       4.43      58.91     0.9740
+       4.43      65.24     0.9387
+       4.43      71.56     0.9217
+       4.43      78.81     0.8320
+       4.43      82.39     0.9054
+       4.43      85.98     0.9424
+       4.43      91.37     0.9979
+       4.43      96.80     0.9625
+       4.43     103.03     1.1454
+       4.43     107.54     1.1643
+       4.43     112.94     1.1835
+       4.43     118.39     1.0935
+       4.43     127.32     1.3133     0.0908
+       4.43     132.54     1.7505     0.0726
+       4.43     135.97     2.1693
+       4.43     140.33     2.5155
+       4.43     144.83     2.5345
+       4.43     148.52     2.3351
+       4.43     155.94     1.8819
+       4.43     162.12     2.1921
+       4.43     169.77     3.2661     0.0903
+       4.43     174.55     4.7397     0.0907
+ENDDATA             60
+ENDSUBENT           78
+SUBENT        F0056011   20141021   20150311   20150310       F057
+BIB                  5          9
+REACTION   (5-B-11(A,T)6-C-12,PAR,DA)
+SAMPLE     B-10,11 targets were prepared from amorphous natural
+           boron by evaporating on gold backing (thickness of
+           0.5 mg/cm2).
+ERR-ANALYS (EN-ERR-DIG) Energy digitizing error
+           (ERR-DIG)    Data digitizing error
+           (ERR-S)      Statistical error from the graphic bars
+STATUS     (CURVE) Figure 3.
+HISTORY    (20141021C)
+ENDBIB               9
+COMMON               3          3
+ANG        EN-ERR-DIG ERR-DIG
+ADEG       MEV        MB/SR
+        90.      0.024     0.0046
+ENDCOMMON            3
+DATA                 4         52
+E-LVL      EN         DATA       ERR-S
+MEV        MEV        MB/SR      MB/SR
+         0.     13.816     0.8488     0.0459
+         0.     14.684     1.0113     0.0451
+         0.     15.556     0.8136     0.0361
+         0.     15.949     0.6426
+         0.     16.298     0.5527
+         0.     16.690     0.5168
+         0.     17.125     0.4630
+         0.     17.385     0.5262
+         0.     17.816     0.8597
+         0.     18.204     1.1572     0.0454
+         0.     18.594     1.2835     0.0720
+         0.     18.942     1.3197     0.0631
+         0.     19.333     1.2658     0.0541
+         0.     19.682     1.2210     0.0540
+         0.     20.030     1.1761     0.0548
+         0.     20.338     0.8700     0.0541
+         0.     20.729     0.8882
+         0.     21.076     0.9244
+         0.     21.423     1.0146     0.0450
+         0.     21.772     0.9517
+         0.     22.077     0.9068
+         0.     22.384     0.6638
+         0.     22.688     0.6459
+         0.     23.035     0.7452
+         0.     23.382     0.8084
+         0.     23.687     0.7545
+         0.     23.992     0.7456
+         0.     24.252     0.7998
+         0.     24.601     0.6919
+         0.     24.906     0.6290
+         0.     25.166     0.7372
+       4.43     16.721     1.6159     0.0811
+       4.43     17.412     2.0036     0.0721
+       4.43     18.197     1.7607     0.0819
+       4.43     18.589     1.7699     0.0631
+       4.43     18.938     1.6350     0.0545
+       4.43     19.635     1.5362     0.0540
+       4.43     20.373     1.6177     0.0630
+       4.43     21.073     1.2487     0.0901
+       4.43     21.420     1.3479     0.0540
+       4.43     21.766     1.4472     0.0541
+       4.43     22.113     1.5284     0.0630
+       4.43     22.419     1.3845     0.0721
+       4.43     22.723     1.4026     0.0540
+       4.43     23.072     1.3307     0.0450
+       4.43     23.420     1.3489     0.0541
+       4.43     23.726     1.1959     0.0548
+       4.43     24.029     1.2681     0.0540
+       4.43     24.290     1.2863     0.0541
+       4.43     24.636     1.4216     0.0453
+       4.43     24.898     1.3677
+       4.43     25.201     1.4218     0.0547
+ENDDATA             54
+ENDSUBENT           72
+SUBENT        F0056012   20141021   20150311   20150310       F057
+BIB                  5          9
+REACTION   (5-B-11(A,T)6-C-12,PAR,DA)
+SAMPLE     B-10,11 targets were prepared from amorphous natural
+           boron by evaporating on gold backing (thickness of
+           0.5 mg/cm2).
+ERR-ANALYS (EN-ERR-DIG) Energy digitizing error
+           (ERR-DIG)    Data digitizing error
+           (ERR-S)      Statistical error from the graphic bars
+STATUS     (CURVE) Figure 3.
+HISTORY    (20141021C)
+ENDBIB               9
+COMMON               3          3
+ANG        EN-ERR-DIG ERR-DIG
+ADEG       MEV        MB/SR
+       170.      0.039     0.0077
+ENDCOMMON            3
+DATA                 4         37
+E-LVL      EN         DATA       ERR-S
+MEV        MEV        MB/SR      MB/SR
+         0.     14.662     4.0019     0.2727
+         0.     15.098     2.6843     0.2272
+         0.     15.490     2.8666
+         0.     15.922     4.6853     0.2274
+         0.     16.311     7.0494     0.2728
+         0.     16.701     8.0953
+         0.     17.093     7.8685
+         0.     17.443     5.6871     0.2273
+         0.     18.141     3.0971
+         0.     18.926     1.5526
+         0.     19.665     0.7768
+         0.     19.969     0.7770
+         0.     20.361     0.7545
+         0.     20.709     0.4592
+         0.     21.057     0.4595
+         0.     21.405     0.3233
+         0.     21.753     0.3463
+         0.     22.100     0.5965
+         0.     22.361     0.6648
+         0.     22.709     0.5514
+         0.     22.970     0.4606
+         0.     23.275     0.3245
+         0.     23.666     0.3247
+         0.     23.926     0.4385
+         0.     24.231     0.5523
+         0.     24.535     0.6889
+         0.     24.795     0.7118
+         0.     25.186     1.0984
+       4.43     22.444     4.2388
+       4.43     23.009     4.5576
+       4.43     23.356     5.1944    0.1818
+       4.43     23.703     6.4676
+       4.43     23.963     6.8315
+       4.43     24.311     7.0592
+       4.43     24.616     6.4232
+       4.43     24.921     5.4691
+       4.43     25.226     5.3331
+ENDDATA             39
+ENDSUBENT           57
+SUBENT        F0056013   20141021   20150311   20150310       F057
+BIB                  5          9
+REACTION   (5-B-11(A,T)6-C-12,PAR,DA)
+SAMPLE     B-10,11 targets were prepared from amorphous natural
+           boron by evaporating on gold backing (thickness of
+           0.5 mg/cm2).
+ERR-ANALYS (ANG-ERR-D) Angle digitizing error
+           (ERR-DIG)   Data digitizing error
+           (ERR-S)     Statistical error from the graphic bars
+STATUS     (CURVE) Figure 4.
+HISTORY    (20141021C)
+ENDBIB               9
+COMMON               3          3
+E-LVL      ANG-ERR-D  ERR-DIG
+MEV        ADEG       MB/SR
+         0.       0.82     0.0040
+ENDCOMMON            3
+DATA                 4         32
+EN         ANG-CM     DATA-CM    ERR-S
+MEV        ADEG       MB/SR      MB/SR
+       25.1     134.63     0.3265
+       25.1     138.38     0.3833
+       25.1     142.26     0.3084
+       25.1     147.15     0.1771
+       25.1     153.62     0.3660
+       25.1     159.75     0.9218
+       25.1     167.07     1.2237
+       25.1     173.66     1.2996     0.0754
+       24.0     186.89     0.2081
+       24.0     195.51     0.1756
+       24.0     203.84     0.2983
+       24.0     210.82     0.6280     0.0283
+       24.0     218.65     0.5154     0.0282
+       24.0     225.38     0.4781     0.0283
+       22.4     240.02     0.2906     0.0281
+       22.4     247.70     0.2580
+       22.4     255.76     0.5172     0.0471
+       22.4     262.86     0.7858     0.0329
+       22.4     270.33     0.8567     0.0330
+       22.4     277.36     0.6688     0.0471
+       21.7     291.23     0.3871     0.0281
+       21.7     299.89     0.3358
+       21.7     307.34     0.4208     0.0235
+       21.7     314.62     0.5953     0.0282
+       21.7     321.32     0.5721     0.0282
+       21.7     328.45     0.3324
+       16.7     341.93     2.4834
+       16.7     350.53     2.3463
+       16.7     358.34     1.3148
+       16.7     365.81     2.0712
+       16.7     371.94     4.8033
+       16.7     378.90     8.1946
+ENDDATA             34
+ENDSUBENT           52
+SUBENT        F0056014   20141021   20150311   20150310       F057
+BIB                  5          9
+REACTION   (5-B-11(A,T)6-C-12,PAR,DA)
+SAMPLE     B-10,11 targets were prepared from amorphous natural
+           boron by evaporating on gold backing (thickness of
+           0.5 mg/cm2).
+ERR-ANALYS (ANG-ERR-D) Angle digitizing error
+           (ERR-DIG)   Data digitizing error
+           (ERR-S)     Statistical error from the graphic bars
+STATUS     (CURVE) Figure 4.
+HISTORY    (20141021C)
+ENDBIB               9
+COMMON               3          3
+E-LVL      ANG-ERR-D  ERR-DIG
+MEV        ADEG       MB/SR
+       4.43       0.49     0.0395
+ENDCOMMON            3
+DATA                 4         20
+EN         ANG-CM     DATA-CM    ERR-S
+MEV        ADEG       MB/SR      MB/SR
+       25.1     136.44     2.1339
+       25.1     140.23     2.4637
+       25.1     144.03     2.5112
+       25.1     147.85     2.3233
+       25.1     155.48     1.8065
+       25.1     163.08     2.1837
+       25.1     169.70     3.2197
+       25.1     175.35     4.6791
+       24.0     193.49     3.2692
+       24.0     200.16     2.8935
+       24.0     208.75     2.5179
+       24.0     216.33     3.2246
+       24.0     221.96     5.1075     0.3765
+       24.0     228.55     6.8493
+       22.4     246.79     2.9924
+       22.4     254.41     2.8050
+       22.4     262.05     2.3352
+       22.4     267.75     2.4770
+       22.4     273.42     3.4187
+       22.4     280.05     4.2665
+ENDDATA             22
+ENDSUBENT           40
+SUBENT        F0056015   20141021   20150311   20150310       F057
+BIB                  5          8
+REACTION   (6-C-13(A,T)7-N-14,PAR,DA)
+SAMPLE     (6-C-13,ENR=0.80) Self-supporting enriched C-13 targets
+           with thickness of 0.4 mg/cm2.
+ERR-ANALYS (ANG-ERR-D) Angle digitizing error
+           (ERR-DIG)   Data digitizing error
+           (ERR-S)     Statistical error from the graphic bars
+STATUS     (CURVE) Figure 5.
+HISTORY    (20141021C)
+ENDBIB               8
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       MB/SR
+       23.2         0.       0.48     0.0043
+ENDCOMMON            3
+DATA                 3         10
+ANG-CM     DATA-CM    ERR-S
+ADEG       MB/SR      MB/SR
+      27.26     0.6356
+      34.00     0.4147
+      41.67     0.2611
+      55.02     0.2039
+      68.37     0.1466
+      81.65     0.2817
+      87.33     0.3876     0.0481
+      93.97     0.4744
+     104.49     0.3305
+     114.08     0.1193
+ENDDATA             12
+ENDSUBENT           29
+SUBENT        F0056016   20141021   20150311   20150310       F057
+BIB                  5          8
+REACTION   (6-C-13(A,T)7-N-14,PAR,DA)
+SAMPLE     (6-C-13,ENR=0.80) Self-supporting enriched C-13 targets
+           with thickness of 0.4 mg/cm2.
+ERR-ANALYS (ANG-ERR-D) Angle digitizing error
+           (ERR-DIG)   Data digitizing error
+           (ERR-S)     Statistical error from the graphic bars
+STATUS     (CURVE) Figure 5.
+HISTORY    (20141021C)
+ENDBIB               8
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       MB/SR
+       23.7         0.       0.46     0.0051
+ENDCOMMON            3
+DATA                 3         17
+ANG-CM     DATA-CM    ERR-S
+ADEG       MB/SR      MB/SR
+      32.81     0.4445
+      43.12     0.3982
+      56.24     0.4168
+      69.37     0.3797
+      75.00     0.1575
+      82.50     0.2872
+      92.80     0.5649
+     104.05     0.5002
+     114.37     0.1391
+     124.68     0.1669
+     132.18     0.4169
+     139.68     0.5928     0.0463
+     146.24     0.6299
+     152.80     1.0095
+     158.41     1.4817
+     160.29     1.6299     0.0556
+     164.04     1.7317     0.0551
+ENDDATA             19
+ENDSUBENT           36
+SUBENT        F0056017   20141021   20150311   20150310       F057
+BIB                  5          8
+REACTION   (6-C-13(A,T)7-N-14,PAR,DA)
+SAMPLE     (6-C-13,ENR=0.80) Self-supporting enriched C-13 targets
+           with thickness of 0.4 mg/cm2.
+ERR-ANALYS (ANG-ERR-D) Angle digitizing error
+           (ERR-DIG)   Data digitizing error
+           (ERR-S)     Statistical error from the graphic bars
+STATUS     (CURVE) Figure 5.
+HISTORY    (20141021C)
+ENDBIB               8
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       MB/SR
+       25.3         0.       0.49     0.0044
+ENDCOMMON            3
+DATA                 3         20
+ANG-CM     DATA-CM    ERR-S
+ADEG       MB/SR      MB/SR
+      29.13     0.9036     0.0673
+      43.19     0.7496     0.0678
+      50.69     0.7880     0.0570
+      57.25     0.7591     0.0769
+      69.42     0.4898
+      75.04     0.4321
+      81.61     0.6051
+      87.23     0.5570     0.0573
+      91.93     0.6146
+     103.16     0.4511
+     114.39     0.1048
+     126.58     0.1432
+     128.47     0.4509
+     132.24     0.6047
+     138.81     0.7104     0.0577
+     146.31     0.7873     0.0481
+     151.94     0.7391     0.0769
+     157.57     0.8833     0.0673
+     163.23     1.3448     0.1058
+     167.99     2.1909     0.1539
+ENDDATA             22
+ENDSUBENT           39
+SUBENT        F0056018   20141021   20150311   20150310       F057
+BIB                  5          8
+REACTION   (6-C-13(A,T)7-N-14,PAR,DA)
+SAMPLE     (6-C-13,ENR=0.80) Self-supporting enriched C-13 targets
+           with thickness of 0.4 mg/cm2.
+ERR-ANALYS (EN-ERR-DIG) Energy digitizing error
+           (ERR-DIG)    Data digitizing error
+           (ERR-S)      Statistical error from the graphic bars
+STATUS     (CURVE) Figure 5.
+HISTORY    (20141021C)
+ENDBIB               8
+COMMON               4          3
+ANG        E-LVL      EN-ERR-DIG ERR-DIG
+ADEG       MEV        MEV        MB/SR
+        40.         0.      0.023     0.0066
+ENDCOMMON            3
+DATA                 3         17
+EN         DATA       ERR-S
+MEV        MB/SR      MB/SR
+     18.762     0.0466
+     19.476     0.0562
+     20.191     0.0852
+     20.858     0.1627
+     21.192     0.2889
+     21.525     0.3471
+     21.906     0.3276
+     22.192     0.2887
+     22.525     0.2692
+     22.858     0.2303     0.0486
+     23.239     0.1914
+     23.573     0.3273
+     23.764     0.4146
+     24.050     0.5117
+     24.336     0.6475
+     24.622     0.7251
+     25.194     0.7736     0.0583
+ENDDATA             19
+ENDSUBENT           36
+ENDENTRY            18

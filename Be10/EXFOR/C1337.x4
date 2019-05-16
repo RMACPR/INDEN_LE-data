@@ -1,0 +1,206 @@
+ENTRY            C1337   20120624   20121029   20121025       C120
+SUBENT        C1337001   20120624   20121029   20121025       C120
+BIB                 11         27
+INSTITUTE  (1USANOT,1USAOSU,1USAPEN,1USALRL,1USAMSU,1USAWKU,
+           1USABSU)
+REFERENCE  (J,NP/A,584,315,1995)
+AUTHOR     (M.J.Balbes,M.M.Farrell,R.N.Boyd,X.Gu,M.Hencheck,
+            J.D.Kalen,C.A.Mitchell,J.J.Kolata,K.Lamkin,R.Smith,
+            R.Tighe,K.Ashktorab,F.D.Becchetti,J.Brown,D.Roberts,
+            T.F.Wang,D.Humphrey,G.Vourvopoulos,M.S.Islam)
+TITLE      Cross sections and reaction rates of d + 8Li reactions
+            involved in Big Bang nucleosynthesis
+FACILITY   (VDGT,1USANOT)
+INC-SOURCE A 8Li beam in excess of 10E6 particles per second.
+           This beam is produced by bombarding a 2.3 mg/cm2 thick
+           rotating 9Be target with an intense 17 MeV 7Li beam
+           from an FN tandem Van de Graaff accelerator.
+REL-REF    (I,,J.J.Kolata+,J,NIM/B,40-41,503,1989) description of
+              recoil-ion radioactive-nuclear-beam facility
+METHOD     (EDE)
+DETECTOR   (TELES,SIBAR) Two dE-E telescopes consisting each of
+           one 8 mu-m thick silicon surface-barrier detector and
+           a thick silicon surface-barrier stop detector. All
+           detectors were calibrated using a thorium-228 source.
+SAMPLE     0.83 mg/cm2 thick CD2 secondary target foil.
+HISTORY    (20050825C) DR
+           (20120624A) SD: SF7=RSD was added to REACTION code in
+           Subents 2,3. BIB update. Digitized data in subents 4,5
+           were changed to tabulated from NP/A,584,315,1995.
+           Subents 6,7 were added.
+ENDBIB              27
+NOCOMMON             0          0
+ENDSUBENT           30
+SUBENT        C1337002   20120624   20121029   20121025       C120
+BIB                  4          5
+REACTION   ((1-H-2(3-LI-8,T)3-LI-7,,DA,RSD)=
+           (3-LI-8(D,T)3-LI-7,,DA))
+ERR-ANALYS (DATA-ERR) No information
+STATUS     (CURVE) Data taken from Fig. 7 in NP/A,584,315,1995
+HISTORY    (20120624A) SD: SF7=RSD and second REACTION added
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 4         18
+EN-CM      ANG-CM     DATA-CM    DATA-ERR
+MEV        ADEG       MB/SR      MB/SR
+1.5           2.56E+01   2.85E+01   5.50E+00
+1.5           3.35E+01   7.72E+00   2.00E+01
+1.5           4.03E+01   8.45E+00   1.28E+00
+1.5           4.71E+01   1.17E+01   7.25E+00
+1.5           5.55E+01   1.18E+01   2.45E+00
+2.0           2.73E+01   1.80E+01   3.17E+00
+2.0           3.61E+01   8.58E+00   7.05E-01
+2.0           5.02E+01   9.09E+00   3.52E+00
+2.0           5.95E+01   8.89E+00   2.70E+00
+2.4           2.86E+01   1.49E+01   1.39E+01
+2.4           3.73E+01   8.28E+00   6.69E+00
+2.4           5.28E+01   8.90E+00   6.81E+00
+2.4           6.24E+01   4.80E+00   2.11E+00
+2.8           2.93E+01   3.45E+01   3.51E+00
+2.8           3.84E+01   1.53E+01   2.92E+00
+2.8           4.60E+01   1.05E+01   1.87E+00
+2.8           5.45E+01   6.90E+00   1.40E+00
+2.8           6.43E+01   5.26E+00   7.02E-01
+ENDDATA             20
+ENDSUBENT           30
+SUBENT        C1337003   20120624   20121029   20121025       C120
+BIB                  4          5
+REACTION   ((1-H-2(3-LI-8,N)4-BE-9,,DA,RSD)=
+           (3-LI-8(D,N)4-BE-9,,DA))
+ERR-ANALYS (DATA-ERR) No information
+STATUS     (CURVE) Data taken from Fig. 8 in NP/A,584,315,1995
+HISTORY    (20120624A) SD: SF7=RSD and second REACTION added
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 4         18
+EN-CM      ANG-CM     DATA-CM    DATA-ERR
+MEV        ADEG       MB/SR      MB/SR
+1.5           2.87E+01   6.03E+00   1.59E+00
+1.5           3.75E+01   6.96E-01   2.36E-01
+1.5           4.49E+01   8.01E-01   1.93E-01
+1.5           5.26E+01   1.10E+00   1.37E+00
+1.5           6.21E+01   7.10E-01   3.01E-01
+2.0           3.11E+01   1.08E+00   1.66E+00
+2.0           4.06E+01   5.43E-01   3.66E-01
+2.0           5.75E+01   3.24E-01   2.58E-01
+2.0           6.84E+01   5.92E-01   3.23E-01
+2.4           3.26E+01   1.88E+00   1.25E+00
+2.4           4.28E+01   7.44E-01   7.88E-01
+2.4           6.12E+01   4.37E-01   2.40E-01
+2.4           7.36E+01   1.20E-01   9.85E-02
+2.8           3.43E+01   3.03E+00   9.23E-01
+2.8           4.53E+01   1.03E+00   4.45E-01
+2.8           5.48E+01   4.36E-01   7.93E-01
+2.8           6.50E+01   5.32E-01   1.95E-01
+2.8           7.91E+01   7.32E-02   8.69E-02
+ENDDATA             20
+ENDSUBENT           30
+SUBENT        C1337004   20120624   20121029   20121025       C120
+BIB                  4         10
+REACTION   ((1-H-2(3-LI-8,T)3-LI-7,,SIG)=
+           (3-LI-8(D,T)3-LI-7,,SIG))
+           The total cross section is 3/4 x (4Pi x A0) as
+           discussed in the text of NP/A,584,315,1995
+ERR-ANALYS (DATA-ERR) Total uncertainty
+           (EN-ERR) uncertainty in energy scale
+STATUS     (TABLE) Data taken from Tbl.1 in NP/A,584,315,1995
+           (DEP,C1337006)
+HISTORY    (20120624A) SD:Digitized data were changed to tabulated
+            and second REACTION added
+ENDBIB              10
+COMMON               1          3
+EN-ERR
+MEV
+  0.1
+ENDCOMMON            3
+DATA                 3          4
+EN-CM      DATA       DATA-ERR
+MEV        MB         MB
+1.5           86.       20.
+2.0           71.       20.
+2.4           62.       21.
+2.8           87.        7.
+ENDDATA              6
+ENDSUBENT           25
+SUBENT        C1337005   20120624   20121029   20121025       C120
+BIB                  4         10
+REACTION   ((1-H-2(3-LI-8,N)4-BE-9,,SIG)=
+           (3-LI-8(D,N)4-BE-9,,SIG))
+           The total cross section is 3/4 x (4Pi x A0) as
+           discussed in the text of NP/A,584,315,1995
+ERR-ANALYS (DATA-ERR) Total uncertainty
+           (EN-ERR) uncertainty in energy scale
+STATUS     (TABLE) Data taken from Tbl.2 in NP/A,584,315,1995
+           (DEP,C1337006)
+HISTORY    (20120624A) SD:Digitized data were changed to tabulated
+            and second REACTION added
+ENDBIB              10
+COMMON               1          3
+EN-ERR
+MEV
+  0.1
+ENDCOMMON            3
+DATA                 3          4
+EN-CM      DATA       DATA-ERR
+MEV        MB         MB
+1.5           6.9       1.9
+2.0           4.6       1.7
+2.4           6.2       2.4
+2.8           8.9       1.9
+ENDDATA              6
+ENDSUBENT           25
+SUBENT        C1337006   20120624   20121029   20121025       C120
+BIB                  4          6
+REACTION   ((1-H-2(3-LI-8,T)3-LI-7,,DA,,LEG)=
+           (3-LI-8(D,T)3-LI-7,,DA,,LEG))
+ERR-ANALYS (DATA-ERR) Total uncertainty
+           (EN-ERR) uncertainty in energy scale
+STATUS     (TABLE) Data taken from Tbl.1 in NP/A,584,315,1995
+HISTORY    (20120624C) SD.  Second REACTION added
+ENDBIB               6
+COMMON               1          3
+EN-ERR
+MEV
+  0.1
+ENDCOMMON            3
+DATA                 4          8
+EN-CM      NUMBER-CM  DATA-CM    DATA-ERR
+MEV        NO-DIM     MB/SR      MB/SR
+1.5           0.0       9.1        2.1
+1.5           2.0       3.0        6.1
+2.0           0.0       7.5        2.1
+2.0           2.0       4.0        4.4
+2.4           0.0       6.6        2.2
+2.4           2.0       8.2        9.9
+2.8           0.0       9.2        0.7
+2.8           2.0       2.1        2.9
+ENDDATA             10
+ENDSUBENT           25
+SUBENT        C1337007   20120624   20121029   20121025       C120
+BIB                  4          6
+REACTION   ((1-H-2(3-LI-8,N)4-BE-9,,DA,,LEG)=
+           (3-LI-8(D,N)4-BE-9,,DA,,LEG))
+ERR-ANALYS (DATA-ERR) Total uncertainty
+           (EN-ERR) uncertainty in energy scale
+STATUS     (TABLE) Data taken from Tbl.2 in NP/A,584,315,1995
+HISTORY    (20120624C) SD.  Second REACTION added
+ENDBIB               6
+COMMON               1          3
+EN-ERR
+MEV
+  0.1
+ENDCOMMON            3
+DATA                 4          8
+EN-CM      NUMBER-CM  DATA-CM    DATA-ERR
+MEV        NO-DIM     MB/SR      MB/SR
+1.5           0.0       0.73        0.20
+1.5           2.0       0.36        0.66
+2.0           0.0       0.49        0.18
+2.0           2.0       0.06        0.07
+2.4           0.0       0.66        0.25
+2.4           2.0       1.39        0.71
+2.8           0.0       0.94        0.20
+2.8           2.0       1.96        0.48
+ENDDATA             10
+ENDSUBENT           25
+ENDENTRY             7

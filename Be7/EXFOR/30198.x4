@@ -1,0 +1,87 @@
+ENTRY            30198   20080208   20080530   20080530       3126
+SUBENT        30198001   20080208   20080530   20080530       3126
+BIB                 14         26
+INSTITUTE  (3CRORBZ)
+REFERENCE  (J,NP/A,96,476,196704)
+AUTHOR     (G.Paic,D.Rendic,P.Tomas)
+TITLE      The Be-9(n,alpha(0))He-6 reaction induced by 14.4 MeV
+           neutrons
+FACILITY   (CCW)    200 keV Cockcroft Walton
+INC-SOURCE (D-T)    H-3(d,n)He-4 reaction
+SAMPLE     Metallic Be foil 2.73 mg/cm2 backed by a gold foil
+METHOD     (EDE) Direct detection of He-4 and He-6 particles
+           Two dimensional E - dE/dx plot with a 100x100 channel
+           analyzer
+DETECTOR   (TELES,PROPC,SIBAR)  Telescope counter consisting of
+           3 H2 filled gas proportional counters and a
+            semiconductor surface barrier detector
+MONITOR    (1-H-1(N,EL)1-H-1,,DA)
+            Normalization to the n-p elastic
+           scattering at zero degree proton scattering angle as
+           given by Nakamura in J.Phys.Soc.Japan 15, 1359 (1960)
+PART-DET   (A)    He-4 particles from theta(l) = 0 - 60 deg.
+           (RSD)      He-6 particles from theta(l) = 0 - 50 deg.
+STATUS     (APRVD) Proof copy sent to author, approved by default
+           Data from priv comm  Rendic 9/1967
+HISTORY    (19721110T)  Conversion of Dastar 385
+           (19730606U)
+           (20080208A) BIB section updated
+ERR-ANALYS (DATA-ERR) No information given
+ENDBIB              26
+COMMON               1          3
+EN
+MEV
+ 1.4400E+01
+ENDCOMMON            3
+ENDSUBENT           33
+SUBENT        30198002   20080208   20080530   20080530       3126
+BIB                  2          3
+REACTION   (4-BE-9(N,A)2-HE-6,PAR,DA)
+             alpha(0) transition
+HISTORY    (19730606A)
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+ 0.0000E+00
+ENDCOMMON            3
+DATA                 3         13
+ANG-CM     DATA       DATA-ERR
+ADEG       MB/SR      MB/SR
+ 0.0000E+00 2.5000E-01 6.0000E-02
+ 1.2790E+01 2.9000E-01 5.0000E-02
+ 2.5500E+01 2.5000E-01 7.0000E-02
+ 3.8050E+01 1.9000E-01 6.0000E-02
+ 5.0370E+01 6.5000E-01 1.1000E-01
+ 6.2390E+01 1.3200E+00 1.6000E-01
+ 7.4030E+01 1.3500E+00 1.6000E-01
+ 1.1132E+02 4.0000E-01 8.0000E-02
+ 1.2441E+02 5.3000E-01 8.0000E-02
+ 1.3793E+02 1.2600E+00 1.4000E-01
+ 1.5178E+02 2.3400E+00 1.7000E-01
+ 1.6584E+02 2.4700E+00 1.4000E-01
+ 1.8000E+02 3.0300E+00 2.0000E-01
+ENDDATA             15
+ENDSUBENT           27
+SUBENT        30198003   20080208   20080530   20080530       3126
+BIB                  4          7
+REACTION   (4-BE-9(N,A)2-HE-6,PAR,SIG)
+              alpha(0) transition
+ANALYSIS   Cross section obtained by integration over the angular
+           distribution of the same reaction.
+           See Exfor-subentry 30198.002
+STATUS     (DEP,30198002)      Dependent data
+HISTORY    (19730606A)
+ENDBIB               7
+COMMON               1          3
+E-LVL
+MEV
+ 0.0000E+00
+ENDCOMMON            3
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 1.1700E+01 1.8000E+00
+ENDDATA              3
+ENDSUBENT           19
+ENDENTRY             3

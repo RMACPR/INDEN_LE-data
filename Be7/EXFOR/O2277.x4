@@ -1,0 +1,240 @@
+ENTRY            O2277   20151112   20160603   20160522       O055
+SUBENT        O2277001   20151112   20160603   20160522       O055
+BIB                 12         25
+TITLE      Reexamination of 6Li + p elastic scattering in inverse
+           kinematics.
+AUTHOR     (V.Soukeras,A.Pakou,F.Cappuzzello,L.Acosta,C.Agodi,
+           N.Alamanos,M.Bondi,D.Carbone,M.Cavallaro,A.Cunsolo,
+           M.De Napoli,A.Di Pietro,J.P.Fernandez-Garcea,P.Figuera,
+           M.Fisichella,A.Foti,N.Keeley,G.Marquinez-Duran,
+           I.Martel,M.Mazzocco,D.Nicolosi,D.Pierroutsakou,K.Rusek,
+           O.Sgouros,E.Stiliaris,E.Strano,D.Torresi)
+INSTITUTE  (2GRCIOA,2ITYLNS,2ITYCAT,3MEXUMX,2FR SAC,3POLIPJ,
+           2ITYPAD,2ITYNAP,3POLWWA,2GRCATH)
+           (2SPNSPN) University of Huelva, Spain
+REFERENCE  (J,PR/C,91,057601,2015)
+REL-REF    (I,D0747001,F.Cappuzzello,J,NIM/A,763,314,2014)
+SAMPLE     A 240-mug/cm**2 CH(2) target. Measurements were
+           repeated with a 12C target of similar thickness for
+           estimating the carbon background.
+FACILITY   (VDGT,2ITYLNS)
+METHOD     (SITA)
+DETECTOR   (MAGSP) MAGNEX
+ERR-ANALYS (DATA-ERR,8.,10.).The uncertainty in the data points is
+           between 8% and 10%. This error includes the statistical
+           error, errors due to the target thickness, the beam
+           flux measurement and the solid angle determination.
+STATUS     The letter was sent to Dr.A.Pakou 03-11-2015
+HISTORY    (20151112C) sb
+ENDBIB              25
+NOCOMMON             0          0
+ENDSUBENT           28
+SUBENT        O2277002   20151112   20160603   20160522       O055
+BIB                  2          3
+REACTION   ((1-H-1(3-LI-6,EL)1-H-1,,DA)=
+           (3-LI-6(P,EL)3-LI-6,,DA))
+STATUS     (CURVE).Fig.2 of J,PR/C,91,057601,2015
+ENDBIB               3
+COMMON               1          3
+EN
+MEV/A
+2.63
+ENDCOMMON            3
+DATA                 2         36
+ANG-CM     DATA-CM
+ADEG       MB/SR
+      19.51   2.97E+03
+      23.16   1.58E+03
+      26.38   8.35E+02
+      30.63   5.82E+02
+      34.47   3.93E+02
+      38.63   3.31E+02
+      42.31   2.37E+02
+      46.93   1.93E+02
+      50.76   1.53E+02
+      56.17   1.33E+02
+      61.26   1.13E+02
+      68.26   9.45E+01
+      73.73   8.13E+01
+      76.98   7.93E+01
+      80.11   7.89E+01
+      82.88   7.70E+01
+      85.53   7.28E+01
+      88.78   7.15E+01
+      91.55   7.07E+01
+      94.92   6.90E+01
+      97.81   6.45E+01
+     100.83   5.87E+01
+     103.84   5.56E+01
+     106.84   5.74E+01
+     109.98   5.13E+01
+     112.99   4.73E+01
+     116.60   5.11E+01
+     119.86   4.24E+01
+     123.23   3.96E+01
+     126.97   3.79E+01
+     130.70   3.48E+01
+     134.43   3.78E+01
+     139.00   3.57E+01
+     142.01   3.62E+01
+     145.61   3.79E+01
+     148.74   3.72E+01
+ENDDATA             38
+ENDSUBENT           50
+SUBENT        O2277003   20151112   20160603   20160522       O055
+BIB                  2          3
+REACTION   ((1-H-1(3-LI-6,EL)1-H-1,,DA)=
+           (3-LI-6(P,EL)3-LI-6,,DA))
+STATUS     (CURVE).Fig.3 of J,PR/C,91,057601,2015
+ENDBIB               3
+COMMON               1          3
+EN
+MEV/A
+3.31
+ENDCOMMON            3
+DATA                 2         29
+ANG-CM     DATA-CM
+ADEG       MB/SR
+      19.76   2.41E+03
+      23.22   1.01E+03
+      26.93   5.83E+02
+      30.14   3.36E+02
+      34.55   2.66E+02
+      38.23   1.97E+02
+      42.38   1.70E+02
+      46.54   1.30E+02
+      51.17   1.41E+02
+      55.81   1.26E+02
+      60.94   1.07E+02
+      66.80   9.23E+01
+      74.13   7.29E+01
+      82.42   7.39E+01
+      87.29   7.31E+01
+      92.16   7.69E+01
+      96.32   6.62E+01
+     101.70   5.43E+01
+     106.33   5.43E+01
+     111.21   5.04E+01
+     116.57   4.86E+01
+     122.19   3.94E+01
+     128.77   4.25E+01
+     134.38   4.20E+01
+     138.28   3.95E+01
+     142.42   3.95E+01
+     146.32   4.01E+01
+     149.25   3.63E+01
+     152.43   3.49E+01
+ENDDATA             31
+ENDSUBENT           43
+SUBENT        O2277004   20151112   20160603   20160522       O055
+BIB                  2          3
+REACTION   ((1-H-1(3-LI-6,EL)1-H-1,,DA)=
+           (3-LI-6(P,EL)3-LI-6,,DA))
+STATUS     (CURVE).Fig.4 of J,PR/C,91,057601,2015
+ENDBIB               3
+COMMON               1          3
+EN
+MEV/A
+4.15
+ENDCOMMON            3
+DATA                 2         39
+ANG-CM     DATA-CM
+ADEG       MB/SR
+      18.72   1.49E+03
+      22.04   6.15E+02
+      25.97   3.60E+02
+      30.20   2.26E+02
+      33.46   1.62E+02
+      38.28   1.54E+02
+      41.85   1.14E+02
+      46.33   1.31E+02
+      50.52   1.18E+02
+      55.68   9.54E+01
+      61.14   9.72E+01
+      66.96   6.97E+01
+      73.07   6.87E+01
+      77.91   5.53E+01
+      81.78   4.85E+01
+      85.32   4.54E+01
+      89.82   4.62E+01
+      93.35   4.55E+01
+      97.50   5.48E+01
+     101.04   5.05E+01
+     105.22   4.81E+01
+     108.76   4.81E+01
+     112.28   4.98E+01
+     117.10   4.99E+01
+     120.97   4.45E+01
+     122.55   5.44E+01
+     126.44   3.96E+01
+     129.31   4.61E+01
+     133.81   4.47E+01
+     137.98   4.63E+01
+     141.51   4.87E+01
+     145.36   4.96E+01
+     148.57   5.05E+01
+     152.10   5.14E+01
+     155.01   4.35E+01
+     157.89   4.66E+01
+     160.73   6.52E+01
+     163.00   5.52E+01
+     167.21   4.45E+01
+ENDDATA             41
+ENDSUBENT           53
+SUBENT        O2277005   20151112   20160603   20160522       O055
+BIB                  2          3
+REACTION   ((1-H-1(3-LI-6,EL)1-H-1,,DA)=
+           (3-LI-6(P,EL)3-LI-6,,DA))
+STATUS     (CURVE).Fig.5 of J,PR/C,91,057601,2015
+ENDBIB               3
+COMMON               1          3
+EN
+MEV/A
+4.80
+ENDCOMMON            3
+DATA                 2         40
+ANG-CM     DATA-CM
+ADEG       MB/SR
+      19.27   1.23E+03
+      23.00   7.69E+02
+      26.98   5.12E+02
+      34.66   3.46E+02
+      38.38   2.97E+02
+      42.57   3.01E+02
+      47.04   2.25E+02
+      50.99   2.06E+02
+      56.68   1.70E+02
+      61.41   1.11E+02
+      65.87   8.80E+01
+      77.47   8.38E+01
+      86.63   6.59E+01
+      88.85   6.03E+01
+      91.57   6.35E+01
+      93.30   6.04E+01
+      96.26   6.12E+01
+      98.48   6.04E+01
+     103.42   6.36E+01
+     104.40   6.61E+01
+     106.40   4.94E+01
+     108.37   5.61E+01
+     114.06   4.82E+01
+     116.76   5.41E+01
+     118.73   5.91E+01
+     121.23   4.14E+01
+     122.70   4.95E+01
+     124.66   6.07E+01
+     127.13   5.35E+01
+     130.34   5.56E+01
+     134.30   5.16E+01
+     138.99   5.43E+01
+     142.69   5.64E+01
+     146.39   5.58E+01
+     149.60   5.80E+01
+     152.32   5.44E+01
+     155.53   5.51E+01
+     158.48   6.11E+01
+     161.19   6.77E+01
+     163.92   5.32E+01
+ENDDATA             42
+ENDSUBENT           54
+ENDENTRY             5

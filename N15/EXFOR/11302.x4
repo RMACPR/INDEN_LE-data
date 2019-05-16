@@ -1,0 +1,93 @@
+ENTRY            11302     860120              20050926       0000
+SUBENT        11302001     860120              20050926       0000
+BIB                 10         13
+INSTITUTE  (1USARIC)
+REFERENCE  (J,PR,87,716,52)
+AUTHOR     (A.B.LILLIE)
+TITLE      THE DISINTEGRATION OF OXYGEN AND NITROGEN BY 14.1 MEV
+           NEUTRONS.
+FACILITY   (CCW)
+INC-SOURCE (D-T)
+DETECTOR   (TRD) CLOUD CHAMBER
+MONITOR    (1-H-1(N,EL)1-H-1,,SIG)
+STATUS     (SCSRS)
+HISTORY    (760714T) TRANSLATED FROM SCISRS
+           (810428A) CONVERTED TO REACTION FORMALISM
+           (860120A) BIB UPDATES. ENERGY, MONITOR ADDED TO COMMON.
+ENDBIB              13
+COMMON               2          3
+EN         MONIT
+MEV        B
+ 14.1       0.675
+ENDCOMMON            3
+ENDSUBENT           20
+SUBENT        11302002     860120              20050926       0000
+BIB                  1          1
+REACTION   (7-N-14(N,X)2-HE-4,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.     -01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11302003     860120              20050926       0000
+BIB                  1          1
+REACTION   (7-N-14(N,X+A)2-HE-4,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.5    -02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11302004     860120              20050926       0000
+BIB                  2          3
+REACTION   ((7-N-14(N,X)1-H-1,,SIG)+(7-N-14(N,X)1-H-2,,SIG)+
+           (7-N-14(N,T)6-C-12,,SIG))
+COMMENT    EMISSION OF PROTONS, DEUTERONS AND TRITONS.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.     -01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11302005     860120              20050926       0000
+BIB                  1          1
+REACTION   (8-O-16(N,X)2-HE-4,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 3.1    -01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11302006     860120              20050926       0000
+BIB                  1          1
+REACTION   (8-O-16(N,D)7-N-15,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.5    -02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11302007     860120              20050926       0000
+BIB                  2          2
+REACTION   (8-O-16(N,X)1-H-1,,SIG)          C
+DETECTOR   (TRD)      CLOUD CHAMBER
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 3.5    -02
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY             7

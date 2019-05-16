@@ -1,0 +1,183 @@
+ENTRY            10097   19991013   20000119   20050926       0000
+SUBENT        10097001   19991013   20000119   20050926       0000
+BIB                 14         42
+INSTITUTE  (1USAGA )
+REFERENCE  (J,NSE,42,352,197012)
+AUTHOR     (V.J.ORPHAN,C.G.HOOT,J.JOHN)
+TITLE      Gamma-ray production cross sections for the
+            O16 (n,x gamma) reaction from 6.35- to 16.52-mev
+            neutron energy
+FACILITY   (LINAC) Pulsed 55 MeV electron linear accelerator.
+            Pulse width 50 nsec, repitition rate 520 pps.
+INC-SOURCE (EVAP) Evaporation spectrum from Ta-Be target.
+SAMPLE     Ring-shaped scattering sample of D2O (25.4 cm i.d.,
+            50.8 cm o.d., and 5.7 cm thick) enclosed in plexiglas
+            Container, 0.32 cm thick.
+METHOD     (TOF) Time-of-flight
+DETECTOR   (GELI) 30 cc Ge(Li) gamma detector
+           (SCIN) Flux monitored by calibrated proton-recoil
+            scintillator (NE-211), 2 in diameter by 2 in long.
+           50-m evaluated flight path.  Ring scatterer centered on
+            flight path axis.  Ge(Li) detector positioned at an
+            angle of approximately 125 deg, but sample dimensions
+            resulted in subtended angle range from 112 to 142 deg.
+MONITOR    Absolute Ge(Li) efficiency determined with
+            calibrated (+-3%) radioactive sources.  Relative
+            efficiency curve shape obtained from known relative
+            intensities of gammas from thermal capture in Fe and
+            Cl.
+CORRECTION Corrected for multiple scattering flux attenuation
+            and for gamma attenuation in the sample.
+ERR-ANALYS Following errors estimated:
+             Absolute neutron flux               about 10%
+             Ge(Li) efficiency - below 2.7 MeV   about 5%
+                               - above 2.7 MeV   about 10%
+             Flux attenuation and multiple
+               Scattering                        <5%
+             Gamma attenuation in sample         <2%
+           Overall uncertainty, apart from counting statistics,  1
+             about 15%.
+STATUS     (APRVD) Approved by author
+HISTORY    (19710811C)
+           (19811216A) Converted to reaction formalism
+           (19840419A) Bib corrections.
+           (19940215A) Converted to lower case
+           (19991013A) Converted to new date formalism.
+ENDBIB              42
+NOCOMMON             0          0
+ENDSUBENT           45
+SUBENT        10097002   19991013   20000119   20050926       0000
+BIB                  2          2
+REACTION   (8-O-16(N,INL)8-O-16,PAR,DA,G)
+HISTORY    (19811216A) SUBENTRIES 2,3,8-10 COMBINED
+ENDBIB               2
+COMMON               1          3
+ANG
+ADEG
+ 125.
+ENDCOMMON            3
+DATA                 6         35
+E          EN-MIN     EN-MAX     DATA       DATA-ERR   DATA-MAX
+MEV        MEV        MEV        MB/SR      PER-CENT   MB/SR
+ 1.76        9.68      11.12      0.2        100.
+ 1.76       11.12      12.91      0.4         75.
+ 1.76       12.91      13.97      0.4         75.
+ 1.76       13.97      16.52      0.5         75.
+ 2.743       9.68      11.12      1.4        40.
+ 2.743      11.12      12.91      2.4        30.
+ 2.743      12.91      13.97      2.5        40.
+ 2.743      13.97      16.52      2.8        30.
+ 6.129       6.35       7.10       2.6       20.
+ 6.129       7.10       7.53       6.2       20.
+ 6.129       7.53       7.99       8.7       20.
+ 6.129       7.99       8.50       9.5       20.
+ 6.129       8.50       9.06      10.5       20.
+ 6.129       9.06       9.68       8.1       20.
+ 6.129       9.68      11.12       8.1       20.
+ 6.129      11.12      12.91       7.6       20.
+ 6.129      12.91      13.97       7.5       20.
+ 6.129      13.97      16.52       5.9       20.
+ 6.92        7.10       7.53                            0.6
+ 6.92        7.53       7.99      1.6        30.
+ 6.92        7.99       8.50      1.7        30.
+ 6.92        8.50       9.06      2.3        20.
+ 6.92        9.06       9.68      1.9        30.
+ 6.92        9.68      11.12      2.3        20.
+ 6.92       11.12      12.91      2.2        20.
+ 6.92       12.91      13.97      2.8        30.
+ 6.92       13.97      16.52      2.4        30.
+ 7.117       7.53       7.99                            0.6
+ 7.117       7.99       8.50      1.9        30.
+ 7.117       8.50       9.06      2.0        20.
+ 7.117       9.06       9.68      3.0        20.
+ 7.117       9.68      11.12      2.9        20.
+ 7.117      11.12      12.91      2.8        20.
+ 7.117      12.91      13.97      2.9        30.
+ 7.117      13.97      16.52      2.6        30.
+ENDDATA             37
+ENDSUBENT           48
+SUBENT        10097004   19991013   20000119   20050926       0000
+BIB                  2          3
+REACTION   (8-O-16(N,X)6-C-13,PAR,DA,G)
+HISTORY    (19811216A) SUBENTRIES 4 - 6  COMBINED
+           (19840809A) REACTION CORRECTED.
+ENDBIB               3
+COMMON               1          3
+ANG
+ADEG
+ 125.
+ENDCOMMON            3
+DATA                 6         30
+E          EN-MIN     EN-MAX     DATA       DATA-ERR   DATA-MAX
+MEV        MEV        MEV        MB/SR      PER-CENT   MB/SR
+ 3.085       6.35       7.10                            0.2
+ 3.085       7.10       7.53                            0.5
+ 3.085       7.53       7.99                            0.7
+ 3.085       7.99       8.50      1.5        40.
+ 3.085       8.50       9.06      3.4        40.
+ 3.085       9.06       9.68      3.0        40.
+ 3.085       9.68      11.12      2.7        40.
+ 3.085      11.12      12.91      1.0        75.
+ 3.085      12.91      13.97      1.7        75.
+ 3.085      13.97      16.52      0.7        75.
+ 3.68        6.35       7.10                            0.4
+ 3.68        7.10       7.53                            0.9
+ 3.68        7.53       7.99                            0.8
+ 3.68        7.99       8.50      3.1        30.
+ 3.68        8.50       9.06      3.0        30.
+ 3.68        9.06       9.68      5.0        30.
+ 3.68        9.68      11.12      5.3        20.
+ 3.68       11.12      12.91      5.4        30.
+ 3.68       12.91      13.97      3.6        40.
+ 3.68       13.97      16.52      2.9        40.
+ 3.85        6.35      7.10                             0.1
+ 3.85        7.10      7.53                             0.2
+ 3.85        7.53      7.99                             0.2
+ 3.85        7.99      8.50       1.1        50.
+ 3.85        8.50      9.06       2.3        30.
+ 3.85        9.06      9.68       1.1        40.
+ 3.85        9.68      11.12      2.3        30.
+ 3.85       11.12      12.91      2.2        30.
+ 3.85       12.91      13.97      1.5        50.
+ 3.85       13.97      16.52      1.4        50.
+ENDDATA             32
+ENDSUBENT           44
+SUBENT        10097007   19991013   20000119   20050926       0000
+BIB                  2          2
+REACTION   (8-O-16(N,X)6-C-12,PAR,DA,G)
+HISTORY    (19840809A) REACTION CORRECTED.
+ENDBIB               2
+COMMON               2          3
+ANG        E
+ADEG       MEV
+ 125.       4.44
+ENDCOMMON            3
+DATA                 4          2
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB/SR      PER-CENT
+ 12.91      13.97      1.5        100.
+ 13.97      16.52      2.2         75.
+ENDDATA              4
+ENDSUBENT           15
+SUBENT        10097011   19991013   20000119   20050926       0000
+BIB                  5          9
+REACTION   (8-O-16(N,INL)8-O-16,,SIG)
+ANALYSIS   From sum of inelastic gamma values times 4 pi at 125
+            degrees, P2 legendre polynomial = 0.
+CORRECTION Does not include correction for levels which decay by
+            modes other than gamma rays.
+STATUS     (DEP,10097002)
+HISTORY    (19861023A) Reaction corrected.
+           (19870605A) Reaction, bib corrected.
+           (19940215A) Added subentry cross reference to status
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 4          3
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 11.12      12.91      161.       21.
+ 12.91      13.97      168.       24.
+ 13.97      16.52      141.       20.
+ENDDATA              5
+ENDSUBENT           19
+ENDENTRY             5

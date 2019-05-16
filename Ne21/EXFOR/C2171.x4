@@ -1,0 +1,440 @@
+ENTRY            C2171   20150820   20151123   20151008       C152
+SUBENT        C2171001   20150820   20151123   20151008       C152
+BIB                  8         12
+TITLE      Nuclear Excitation Functions and Thick-Target Yields
+           F19, Na23, As75(d,t), and Na23, As75(d,p)
+AUTHOR     (L.H.Bowen,J.W.Irvine Jr)
+REFERENCE  (J,PR,127,1698,1962)
+           #doi:10.1103/PhysRev.127.1698
+INSTITUTE  (1USAMIT)
+FACILITY   (CYCLO,1USAMIT)
+PART-DET   (DG,B-,AR)
+DETECTOR   (NAICR,PROPC) Well-type NaI(Tl) scintillation
+           counter. The 4pi beta proportional counter filled
+           with P-10 (90% of Ar and 10% of CH4).
+HISTORY    (20150820C) BP
+ENDBIB              12
+NOCOMMON             0          0
+ENDSUBENT           15
+SUBENT        C2171002   20150820   20151123   20151008       C152
+BIB                  7         32
+REACTION   (11-NA-23(D,P)11-NA-24,,SIG)
+SAMPLE     Sodium-fluoride targets were prepared by vacuum
+           evaporation of reagent grade NaF from a nickel
+           crucible to a thickness of =5 mg/cm2 on 1.8 mg/cm2
+           aluminum foil. A layer of shellac =0.1 mg/cm2 was
+           first sprayed over the backing foil to prevent Raking
+           of the salt during subsequent handling.  The
+           evaporation was carried out slowly in both cases to
+           prevent cracking of the evaporated layer. Punched
+           circles about 1.4 cm in diameter were weighed
+           individually and stacked between aluminum spacers of
+           1.8 mg/cm2 for NaF  for the excitation function runs.
+METHOD     (STTA,ACTIV,CHSEP) Individual foil measurement. For
+           measurements of absolute cross sections at the
+           maximum deuteron energy, single foils were bombarded
+           in a Faraday cup.
+DECAY-DATA (11-NA-24,15.0HR,B-)
+CORRECTION By counting aluminum spacers foils, a correction
+           factor with a maximum value of 6% of the total 24Na
+           was obtained.
+ERR-ANALYS (DATA-ERR) The errors are standard deviations in the
+           cross sections obtained from duplicate runs.
+           Consideration of errors involved in energy
+           determination, beam measurement, foil thickness, and
+           counter calibrations, together with the
+           reproducibility of runs under various conditions,
+           leads to an estimate of about 10% error in the
+           absolute cross sections for all reactions studied
+           except 75As(d,t)74As, which may be given in error by
+           twice as much, due to difficulty involved in the 74As
+           calibration.
+STATUS     (TABLE) page 1698.
+ENDBIB              32
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         MB
+       15.2      125.7        2.5
+ENDDATA              3
+ENDSUBENT           40
+SUBENT        C2171003   20150820   20151123   20151008       C152
+BIB                  6         29
+REACTION   (11-NA-23(D,T)11-NA-22,,SIG)
+SAMPLE     Sodium-fluoride targets were prepared by vacuum
+           evaporation of reagent grade NaF from a nickel
+           crucible to a thickness of =5 mg/cm2 on 1.8 mg/cm2
+           aluminum foil. A layer of shellac =0.1 mg/cm2 was
+           first sprayed over the backing foil to prevent Raking
+           of the salt during subsequent handling.  The
+           evaporation was carried out slowly in both cases to
+           prevent cracking of the evaporated layer. Punched
+           circles about 1.4 cm in diameter were weighed
+           individually and stacked between aluminum spacers of
+           1.8 mg/cm2 for NaF  for the excitation function runs.
+METHOD     (STTA,ACTIV,CHSEP) Individual foil measurement. For
+           measurements of absolute cross sections at the
+           maximum deuteron energy, single foils were bombarded
+           in a Faraday cup.
+DECAY-DATA (11-NA-22,2.58YR,B+)
+ERR-ANALYS (DATA-ERR) The errors are standard deviations in the
+           cross sections obtained from duplicate runs.
+           Consideration of errors involved in energy
+           determination, beam measurement, foil thickness, and
+           counter calibrations, together with the
+           reproducibility of runs under various conditions,
+           leads to an estimate of about 10% error in the
+           absolute cross sections for all reactions studied
+           except 75As(d,t)74As, which may be given in error by
+           twice as much, due to difficulty involved in the 74As
+           calibration.
+STATUS     (TABLE) page 1698.
+ENDBIB              29
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         MB
+       15.2       12.2        2.0
+ENDDATA              3
+ENDSUBENT           37
+SUBENT        C2171004   20150820   20151123   20151008       C152
+BIB                  6         29
+REACTION   (9-F-19(D,T)9-F-18,,SIG)
+SAMPLE     Sodium-fluoride targets were prepared by vacuum
+           evaporation of reagent grade NaF from a nickel
+           crucible to a thickness of =5 mg/cm2 on 1.8 mg/cm2
+           aluminum foil. A layer of shellac =0.1 mg/cm2 was
+           first sprayed over the backing foil to prevent Raking
+           of the salt during subsequent handling.  The
+           evaporation was carried out slowly in both cases to
+           prevent cracking of the evaporated layer. Punched
+           circles about 1.4 cm in diameter were weighed
+           individually and stacked between aluminum spacers of
+           1.8 mg/cm2 for NaF  for the excitation function runs.
+METHOD     (STTA,ACTIV,CHSEP) Individual foil measurement. For
+           measurements of absolute cross sections at the
+           maximum deuteron energy, single foils were bombarded
+           in a Faraday cup.
+DECAY-DATA (9-F-18,111.MIN,AR)
+ERR-ANALYS (DATA-ERR) The errors are standard deviations in the
+           cross sections obtained from duplicate runs.
+           Consideration of errors involved in energy
+           determination, beam measurement, foil thickness, and
+           counter calibrations, together with the
+           reproducibility of runs under various conditions,
+           leads to an estimate of about 10% error in the
+           absolute cross sections for all reactions studied
+           except 75As(d,t)74As, which may be given in error by
+           twice as much, due to difficulty involved in the 74As
+           calibration.
+STATUS     (TABLE) page 1698.
+ENDBIB              29
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         MB
+       15.2       29.0        2.2
+ENDDATA              3
+ENDSUBENT           37
+SUBENT        C2171005   20150820   20151123   20151008       C152
+BIB                  6         25
+REACTION   (33-AS-75(D,P)33-AS-76,,SIG)
+SAMPLE     Arsenic targets of =10 mg/cm2 were prepared in a
+           similar manner as NaF from purified crystalline
+           metal. The evaporation was carried out slowly in both
+           cases to prevent cracking of the evaporated layer.
+           Punched circles about 1.4 cm in diameter were weighed
+           individually and stacked between aluminum spacers of
+           5 mg/cm2 for As for the excitation function runs.
+METHOD     (STTA,ACTIV,CHSEP) Individual foil measurement. For
+           measurements of absolute cross sections at the
+           maximum deuteron energy, single foils were bombarded
+           in a Faraday cup.
+DECAY-DATA (33-AS-76,26.5HR,B-)
+ERR-ANALYS (DATA-ERR) The errors are standard deviations in the
+           cross sections obtained from duplicate runs.
+           Consideration of errors involved in energy
+           determination, beam measurement, foil thickness, and
+           counter calibrations, together with the
+           reproducibility of runs under various conditions,
+           leads to an estimate of about 10% error in the
+           absolute cross sections for all reactions studied
+           except 75As(d,t)74As, which may be given in error by
+           twice as much, due to difficulty involved in the 74As
+           calibration.
+STATUS     (TABLE) page 1698.
+ENDBIB              25
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         MB
+       15.2      140.3        6.6
+ENDDATA              3
+ENDSUBENT           33
+SUBENT        C2171006   20150820   20151123   20151008       C152
+BIB                  6         25
+REACTION   (33-AS-75(D,T)33-AS-74,,SIG)
+SAMPLE     Arsenic targets of =10 mg/cm2 were prepared in a
+           similar manner as NaF from purified crystalline
+           metal. The evaporation was carried out slowly in both
+           cases to prevent cracking of the evaporated layer.
+           Punched circles about 1.4 cm in diameter were weighed
+           individually and stacked between aluminum spacers of
+           5 mg/cm2 for As for the excitation function runs.
+METHOD     (STTA,ACTIV,CHSEP) Individual foil measurement. For
+           measurements of absolute cross sections at the
+           maximum deuteron energy, single foils were bombarded
+           in a Faraday cup.
+DECAY-DATA (33-AS-74,17.5D,AR)
+ERR-ANALYS (DATA-ERR) The errors are standard deviations in the
+           cross sections obtained from duplicate runs.
+           Consideration of errors involved in energy
+           determination, beam measurement, foil thickness, and
+           counter calibrations, together with the
+           reproducibility of runs under various conditions,
+           leads to an estimate of about 10% error in the
+           absolute cross sections for all reactions studied
+           except 75As(d,t)74As, which may be given in error by
+           twice as much, due to difficulty involved in the 74As
+           calibration.
+STATUS     (TABLE) page 1698.
+ENDBIB              25
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         MB
+       15.2       16.5        1.2
+ENDDATA              3
+ENDSUBENT           33
+SUBENT        C2171007   20150820   20151123   20151008       C152
+BIB                  7         25
+REACTION   (11-NA-23(D,P)11-NA-24,,SIG)
+SAMPLE     Sodium-fluoride targets were prepared by vacuum
+           evaporation of reagent grade NaF from a nickel
+           crucible to a thickness of =5 mg/cm2 on 1.8 mg/cm2
+           aluminum foil. A layer of shellac =0.1 mg/cm2 was
+           first sprayed over the backing foil to prevent Raking
+           of the salt during subsequent handling.  The
+           evaporation was carried out slowly in both cases to
+           prevent cracking of the evaporated layer. Punched
+           circles about 1.4 cm in diameter were weighed
+           individually and stacked between aluminum spacers of
+           1.8 mg/cm2 for NaF  for the excitation function runs.
+METHOD     (STTA,ACTIV,CHSEP) A stack of about 25 sodium-
+           fluoride foils separated by aluminum spacers was
+           bombarded for 5 min at 0.08 pA primarily for Na24,
+           with deuterons of maximum energy 15.4 MeV. The foils
+           were dissolved in 4M HCl. The individual foil
+           measurement was used for cross sections normalization.
+CORRECTION By counting aluminum spacers foils, a correction
+           factor with a maximum value of 6% of the total 24Na
+           was obtained.
+DECAY-DATA (11-NA-24,15.0HR,B-)
+REL-REF    (O,C2170001,E.T.Clarke+,J,PR,66,231,1944)
+STATUS     (CURVE) Fig. 2, page 1700.
+           (DEP,C2171002)
+ENDBIB              25
+NOCOMMON             0          0
+DATA                 2         21
+EN         DATA
+MEV        MB
+      1.674     44.519
+      2.917    255.293
+      3.957    377.169
+      4.824    408.056
+      5.729    389.273
+      6.481    358.979
+      7.077    328.678
+      7.764    315.636
+      8.360    288.996
+      8.955    262.878
+      9.455    248.783
+      9.925    229.980
+     11.395    184.031
+     11.925    179.349
+     12.363    169.956
+     12.831    160.042
+     13.205    154.307
+     13.611    146.481
+     14.017    143.362
+     14.423    131.354
+     14.859    129.804
+ENDDATA             23
+ENDSUBENT           53
+SUBENT        C2171008   20150820   20151123   20151008       C152
+BIB                  5         21
+REACTION   (11-NA-23(D,T)11-NA-22,,SIG)
+SAMPLE     Sodium-fluoride targets were prepared by vacuum
+           evaporation of reagent grade NaF from a nickel
+           crucible to a thickness of =5 mg/cm2 on 1.8 mg/cm2
+           aluminum foil. A layer of shellac =0.1 mg/cm2 was
+           first sprayed over the backing foil to prevent Raking
+           of the salt during subsequent handling.  The
+           evaporation was carried out slowly in both cases to
+           prevent cracking of the evaporated layer. Punched
+           circles about 1.4 cm in diameter were weighed
+           individually and stacked between aluminum spacers of
+           1.8 mg/cm2 for NaF  for the excitation function runs.
+METHOD     (STTA,ACTIV,CHSEP) A stack of about 25 sodium-
+           fluoride foils separated by aluminum spacers was
+           bombarded for 1 h at 0.3 pA for Na22 measurement,
+           with deuterons of maximum energy 15.4 MeV. The foils
+           were dissolved in 4M HCl. The individual foil
+           measurement was used for cross sections normalization.
+DECAY-DATA (11-NA-22,2.58YR,AR)
+STATUS     (CURVE) Fig. 2, page 1700.
+           (DEP,C2171003)
+ENDBIB              21
+NOCOMMON             0          0
+DATA                 2         20
+EN         DATA
+MEV        MB
+      7.751      1.910
+      8.373      2.983
+      8.808      7.186
+      9.274     16.618
+      9.739     26.050
+     10.111     37.570
+     10.515     43.862
+     10.949     51.201
+     11.321     60.629
+     11.694     66.397
+     12.035     73.733
+     12.407     82.115
+     12.750     80.038
+     13.152    100.448
+     13.465     87.913
+     13.837     93.681
+     14.209    104.155
+     14.552    101.555
+     14.955    113.076
+     15.359    120.414
+ENDDATA             22
+ENDSUBENT           48
+SUBENT        C2171009   20150820   20151123   20151008       C152
+BIB                  5         22
+REACTION   (9-F-19(D,T)9-F-18,,SIG)
+SAMPLE     Sodium-fluoride targets were prepared by vacuum
+           evaporation of reagent grade NaF from a nickel
+           crucible to a thickness of =5 mg/cm2 on 1.8 mg/cm2
+           aluminum foil. A layer of shellac =0.1 mg/cm2 was
+           first sprayed over the backing foil to prevent Raking
+           of the salt during subsequent handling.  The
+           evaporation was carried out slowly in both cases to
+           prevent cracking of the evaporated layer. Punched
+           circles about 1.4 cm in diameter were weighed
+           individually and stacked between aluminum spacers of
+           1.8 mg/cm2 for NaF  for the excitation function runs.
+METHOD     (STTA,ACTIV,CHSEP) A stack of about 25 sodium-
+           fluoride foils separated by aluminum spacers was
+           bombarded for 5 min at 0.08 pA primarily for F18
+           measurements, with deuterons of maximum energy 15.4
+           MeV. The foils were dissolved in 4M HCl. The
+           individual foil measurement was used for cross
+           sections normalization.
+DECAY-DATA (9-F-18,111.MIN,AR)
+STATUS     (CURVE) Fig. 2, page 1700.
+           (DEP,C2171004)
+ENDBIB              22
+NOCOMMON             0          0
+DATA                 2         20
+EN         DATA
+MEV        MB
+      5.727      1.299
+      6.504      8.130
+      7.091     42.143
+      7.738     84.001
+      8.325    113.831
+      8.849    147.318
+      9.437    166.167
+      9.964    179.262
+     10.428    202.289
+     10.923    218.520
+     11.418    241.026
+     11.883    249.935
+     12.380    259.369
+     12.721    270.364
+     13.218    273.523
+     13.592    268.311
+     13.996    274.080
+     14.400    278.804
+     14.804    283.004
+     15.208    289.820
+ENDDATA             22
+ENDSUBENT           49
+SUBENT        C2171010   20150820   20151123   20151008       C152
+BIB                  5         17
+REACTION   (33-AS-75(D,P)33-AS-76,,SIG)
+SAMPLE     Arsenic targets of =10 mg/cm2 were prepared in a
+           similar manner as NaF from purified crystalline
+           metal. The evaporation was carried out slowly in both
+           cases to prevent cracking of the evaporated layer.
+           Punched circles about 1.4 cm in diameter were weighed
+           individually and stacked between aluminum spacers of
+           5 mg/cm2 for As for the excitation function runs.
+METHOD     (STTA,ACTIV,CHSEP) A stack of 16 arsenic foils
+           separated by aluminum spacers was bombarded for 20
+           min at 0.05 pA with 15.4-MeV deuterons. The arsenic
+           was dissolved off the aluminum backing with H202 and
+           NH4OH. The individual foil measurement was used for
+           cross sections normalization.
+DECAY-DATA (33-AS-76,26.5HR,B-)
+STATUS     (CURVE) Fig. 3, page 1701.
+           (DEP,C2171005)
+ENDBIB              17
+NOCOMMON             0          0
+DATA                 2         14
+EN         DATA
+MEV        MB
+      0.206      0.010
+      2.325      9.465
+      4.254     63.073
+      5.490    172.036
+      6.829    227.113
+      7.826    243.253
+      8.825    252.281
+      9.833    232.119
+     10.696    204.465
+     11.820    187.677
+     12.617    183.597
+     13.627    155.576
+     14.484    146.634
+     15.223    139.184
+ENDDATA             16
+ENDSUBENT           38
+SUBENT        C2171011   20150820   20151123   20151008       C152
+BIB                  5         17
+REACTION   (33-AS-75(D,T)33-AS-74,,SIG)
+SAMPLE     Arsenic targets of =10 mg/cm2 were prepared in a
+           similar manner as NaF from purified crystalline
+           metal. The evaporation was carried out slowly in both
+           cases to prevent cracking of the evaporated layer.
+           Punched circles about 1.4 cm in diameter were weighed
+           individually and stacked between aluminum spacers of
+           5 mg/cm2 for As for the excitation function runs.
+METHOD     (STTA,ACTIV,CHSEP) A stack of 16 arsenic foils
+           separated by aluminum spacers was bombarded for 20
+           min at 0.05 pA with 15.4-MeV deuterons. The arsenic
+           was dissolved off the aluminum backing with H202 and
+           NH4OH. The individual foil measurement was used for
+           cross sections normalization.
+DECAY-DATA (33-AS-74,17.5D,AR)
+STATUS     (CURVE) Fig. 3, page 1701.
+           (DEP,C2171006)
+ENDBIB              17
+NOCOMMON             0          0
+DATA                 2          9
+EN         DATA
+MEV        MB
+      7.807      3.359
+      8.807     12.388
+      9.773     32.268
+     10.679     57.385
+     11.819     89.998
+     12.580    106.875
+     13.606    124.887
+     14.487    138.026
+     15.157    164.629
+ENDDATA             11
+ENDSUBENT           33
+ENDENTRY            11

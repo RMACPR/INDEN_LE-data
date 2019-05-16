@@ -1,0 +1,34 @@
+ENTRY            F0078   19990412   19990429   20050926       0000
+SUBENT        F0078001   19990412   19990429   20050926       0000
+BIB                  7          9
+TITLE      Differential cross sections 13C(d,t)12C reaction.
+AUTHOR     (H.D.HOLMGREN,J.M.BLAIR,B.E.SIMMONS,R.V.STUART)
+INSTITUTE  (1USAMIN)
+REFERENCE  (J,BAP,29,11,1954)
+SAMPLE     The targets were prepared by cracking 13C-enriched
+           methyl iodide onto 0.005-mil Ni foils.
+DETECTOR   (PLATE) Nuclear emulsions and magnetic analysis.
+HISTORY    (19890708C)
+           (19990409A) CNPD: corrected 4-dig. year
+ENDBIB               9
+NOCOMMON
+ENDSUBENT           12
+SUBENT        F0078002   19990412   19990429   20050926       0000
+BIB                  2          2
+REACTION   (6-C-13(D,T)6-C-12,,DA,,,EXP)
+STATUS     (TABLE)
+ENDBIB               2
+NOCOMMON
+DATA                 3          7
+EN         ANG        DATA
+MEV        ADEG       MB/SR
+     2.19      17.        23.
+     2.19      70.         4.
+     2.19     100.         6.
+     3.29      17.        34.
+     3.29      60.         3.
+     3.29      80.         4.5
+     3.29     144.         4.5
+ENDDATA              9
+ENDSUBENT           16
+ENDENTRY             2

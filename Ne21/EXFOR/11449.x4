@@ -1,0 +1,37 @@
+ENTRY            11449     820813              20050926       0000
+SUBENT        11449001     820813              20050926       0000
+BIB                  7          8
+INSTITUTE  (1USALAS)
+REFERENCE  (J,PR,70,101(A6),46)
+AUTHOR     (E.R.GRAVES,J.H.COON)
+TITLE      DISINTEGRATION OF NEON AND ARGON BY D-D NEUTRONS.
+N-SOURCE   (D-D) D(D,N) SOURCE
+STATUS     (SCSRS)
+HISTORY    (761016T) TRANSLATED FROM SCISRS
+           (820813A) CONVERTED TO REACTION FORMALISM
+ENDBIB               8
+NOCOMMON             0          0
+ENDSUBENT           11
+SUBENT        11449002     820813              20050926       0000
+BIB                  1          1
+REACTION   (10-NE-20(N,A)8-O-17,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+EN         DATA-APRX
+MEV        MB
+ 2.5        5.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11449003     820813              20050926       0000
+BIB                  1          1
+REACTION   (18-AR-0(N,A),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+EN         DATA-APRX
+MEV        MB
+ 2.5        1.     -01
+ENDDATA              3
+ENDSUBENT            9
+ENDENTRY             3

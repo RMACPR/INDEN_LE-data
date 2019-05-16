@@ -1,0 +1,367 @@
+ENTRY            41245     970531              20050926       0000
+SUBENT        41245001     970531              20050926       0000
+BIB                 13         22
+TITLE       GAMMA-QUANTA PRODUCTION CROSS SECTIONS AT NEUTRON
+            INELASTIC SCATTERING AT THE ENERGY 3 MEV
+AUTHOR     (A.I.LASHUK,I.P.SADOKHIN)
+INSTITUTE  (4RUSFEI)
+REFERENCE  (J,YK,1996,(2),59,9612)   DATA TABLE IS GIVEN
+           (J,YK,1994,(1),26,94)    EXPERIMENTAL DATAILS
+EXP-YEAR   (58)
+FACILITY   (VDG)  CASCADE NEUTRON GENERATOR KG-1.2
+INC-SOURCE (D-D)
+EN-SEC     (E,G)
+DETECTOR   (NAICR)  SCINTILLATION DETECTOR ON THE BASE OF
+                    NATRIUM IODIDE
+CORRECTION  CORRECTIONS WERE MADE ON GAMMA-QIANTA REGISTRATION
+            EFFICIENCY, ON GAMMA-QUANTA SELF-ABSORPTION, NEUTRON
+            FLUX ATTENUATION AND MULTIPLE SCATTERING IN SAMPLES,
+            ON REGISTRATION SYSTEM'S FALLOUTS, ON INTERNAL CONVER
+            SION OF GAMMA-QUANTA, ON GAMMA-QUANTA ANGULAR DISTRI-
+            BUTION
+STATUS      DATA ARE TAKEN FROM THE MAIN REFERENCE
+ERR-ANALYS (ERR-T)  ERRORS ARE NOT SPECIFIED, ASSUMED AT TOTAL
+           (E-ERR)  ERROR IN GAMMA-ENERGY
+HISTORY    (970531C)  + + COMPILED AT THE CENTRE - CJD + +
+ENDBIB              22
+COMMON               1          3
+EN
+EV
+ 3.0000E+06
+ENDCOMMON            3
+ENDSUBENT           29
+SUBENT        41245002     970531              20050926       0000
+BIB                  1          1
+REACTION   (11-NA-23(N,INL)11-NA-23,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+  0.44        0.04       440.      40.
+  1.70        0.03        58.       9.
+  1.96        0.04        17.       4.
+  2.35        0.04        43.       8.
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        41245003     970531              20050926       0000
+BIB                  1          1
+REACTION   (14-SI-28(N,INL)14-SI-28,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+  1.72        0.03       270.      30.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        41245004     970531              20050926       0000
+BIB                  1          1
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          3
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+  0.84        0.03        79.      10.
+  1.00        0.03       246.      35.
+  2.12        0.04       243.      30.
+ENDDATA              5
+ENDSUBENT           11
+SUBENT        41245005     970531              20050926       0000
+BIB                  1          1
+REACTION   (24-CR-50(N,INL)24-CR-50,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+  0.80        0.03        68.      10.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        41245006     970531              20050926       0000
+BIB                  1          1
+REACTION   (24-CR-52(N,INL)24-CR-52,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+  1.42        0.04       790.      80.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        41245007     970531              20050926       0000
+BIB                  1          1
+REACTION   (24-CR-53(N,INL)24-CR-53,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+  1.93        0.04        44.       6.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        41245008     970531              20050926       0000
+BIB                  1          1
+REACTION   (24-CR-54(N,INL)24-CR-54,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+  0.99        0.03       282.      30.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        41245009     970531              20050926       0000
+BIB                  1          1
+REACTION   (40-ZR-90(N,INL)40-ZR-90,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+  2.18        0.04       310.      35.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        41245010     970531              20050926       0000
+BIB                  1          1
+REACTION   (40-ZR-92(N,INL)40-ZR-92,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          2
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+  0.94        0.03       490.      53.
+  1.80        0.04       144.      20.
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        41245011     970531              20050926       0000
+BIB                  1          1
+REACTION   (40-ZR-94(N,INL)40-ZR-94,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+  1.18        0.04        66.      11.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        41245012     970531              20050926       0000
+BIB                  2          5
+REACTION   (41-NB-93(N,INL)41-NB-93,PAR,SIG,G)
+FLAG       (1.)    GAMMA-LINE 0.96 MEV WAS SPLIT ON TWO -
+                   0.96 AND 1.08 MEV
+           (2.)    GAMMA-LINE 1.35 MEV WAS SPLIT ON TWO -
+                   1.28 AND 1.34 MEV
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 5          7
+E          E-ERR      DATA       ERR-T      FLAG
+MEV        MEV        MB         MB         NO-DIM
+  0.75        0.03       870.      75.
+  0.96        0.03      1040.      90.        1.
+  1.08        0.03       117.      13.        1.
+  1.28        0.04       168.      17.        2.
+  1.34        0.04       143.      16.        2.
+  1.70        0.04        92.      11.
+  1.92        0.04        55.       7.
+ENDDATA              9
+ENDSUBENT           19
+SUBENT        41245013     970531              20050926       0000
+BIB                  1          1
+REACTION   (42-MO-94(N,INL)42-MO-94,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+ 1.54        0.04        69.        9.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        41245014     970531              20050926       0000
+BIB                  1          1
+REACTION   (42-MO-95(N,INL)42-MO-95,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+ 0.82       0.03        1224.       110.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        41245015     970531              20050926       0000
+BIB                  1          1
+REACTION   (42-MO-97(N,INL)42-MO-97,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+ 1.20        0.04        68.        8.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        41245016     970531              20050926       0000
+BIB                  1          1
+REACTION   (42-MO-98(N,INL)42-MO-98,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+ 0.48        0.03        100.       20.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        41245017     970531              20050926       0000
+BIB                  1          1
+REACTION   (42-MO-100(N,INL)42-MO-100,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          2
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+ 0.54        0.03        375.       41.
+ 1.48        0.04         63.        7.
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        41245018     970531              20050926       0000
+BIB                  1          1
+REACTION   (48-CD-111(N,INL)48-CD-111,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+ 0.62        0.03       465.        55.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        41245019     970531              20050926       0000
+BIB                  1          1
+REACTION   (48-CD-112(N,INL)48-CD-112,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+ 1.42        0.04       634.        68.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        41245020     970531              20050926       0000
+BIB                  1          1
+REACTION   (48-CD-113(N,INL)48-CD-113,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          2
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+ 0.69        0.03       235.        32.
+ 1.02        0.04       290.        35.
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        41245021     970531              20050926       0000
+BIB                  1          1
+REACTION   (48-CD-114(N,INL)48-CD-114,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          2
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+ 0.56        0.03       357.        40.
+ 2.11        0.04       137.        15.
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        41245022     970531              20050926       0000
+BIB                  1          1
+REACTION   (74-W-183(N,INL)74-W-183,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+ 0.21         0.03     2523.       730.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        41245023     970531              20050926       0000
+BIB                  1          1
+REACTION   (74-W-184(N,INL)74-W-184,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+ 0.38         0.03      361.        53.
+ 0.57         0.03      469.        61.
+ 0.92         0.03      763.        94.
+ 1.204        0.04      331.        50.
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        41245024     970531              20050926       0000
+BIB                  1          1
+REACTION   (74-W-186(N,INL)74-W-186,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          2
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+ 0.76         0.03      511.        65.
+ 1.87         0.05      396.        50.
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        41245025     970531              20050926       0000
+BIB                  1          1
+REACTION   (82-PB-204(N,INL)82-PB-204,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+ 1.05         0.03      57.         10.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        41245026     970531              20050926       0000
+BIB                  1          1
+REACTION   (82-PB-206(N,INL)82-PB-206,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          2
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+ 0.52         0.03     445.         60.
+ 0.79         0.03     570.         65.
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        41245027     970531              20050926       0000
+BIB                  1          1
+REACTION   (82-PB-207(N,INL)82-PB-207,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+ 1.37         0.03     118.         25.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        41245028     970531              20050926       0000
+BIB                  1          1
+REACTION   (82-PB-208(N,INL)82-PB-208,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+ 2.64         0.04     107.         23.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        41245029     970531              20050926       0000
+BIB                  1          1
+REACTION   (83-BI-209(N,INL)83-BI-209,PAR,SIG,G)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          3
+E          E-ERR      DATA       ERR-T
+MEV        MEV        MB         MB
+ 0.90         0.03     575.         60.
+ 1.61         0.04     420.         45.
+ 2.53         0.04     155.         17.
+ENDDATA              5
+ENDSUBENT           11
+ENDENTRY            29

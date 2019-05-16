@@ -1,0 +1,183 @@
+ENTRY            30271   20081203   20090416   20090416       3132
+SUBENT        30271001   20081203   20090416   20090416       3132
+BIB                 13         28
+INSTITUTE  (3HUNKOS)
+REFERENCE  (J,JIN,37,1583,1975) Full paper
+           (W,CSIKAI,19740904)
+           (C,73KIEV,3,85,197305) Brief, superseded partial result
+           (C,72BUD,,(A65),197208) Experimental details, no data
+           (P,INDC(HUN)-11,4,197309) Very brief, no data
+AUTHOR     (T.Biro,S.Sudar,J.Csikai,Z.Dezso)
+TITLE      Cross-sections of (n,t) reactions with 14.7 MeV
+           neutrons determined by direct beta-counting of tritium
+EXP-YEAR   (1972)
+INC-SOURCE (D-T) T(d,n) alpha reaction
+SAMPLE     Metallic samples of 1 to 20 g were wrapped three-fold
+           in aluminium and plastic foils.
+METHOD     Tritium produced in metallic samples was extracted by
+           inductional heating in presence of hydrogen carrier
+           in vacuum system and measured by internal gas propor-
+           tional counting.
+DETECTOR   (PROPC) Internal gas proportional counter. Low back-
+           ground was achieved by anticoincidence guard ring and/
+           or by pulse shape discrimination. The overall efficien-
+           cy of the system, including vacuum apparatus and coun-
+           ter, is about 50%.
+PART-DET   (B-) Decay beta-
+STATUS     (APRVD) Approved by Csikai at Smolenice (4 Sep 1974)
+HISTORY    (19740731C) CA.
+           (19750807U) CA.  -Main reference added in subentry 1.
+           (20080423A) BIB section updated
+ERR-ANALYS (DATA-ERR) Statistical + uncertainty on corrections
+ENDBIB              28
+COMMON               1          3
+EN
+MEV
+ 1.4700E+01
+ENDCOMMON            3
+ENDSUBENT           35
+SUBENT        30271002   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (4-BE-9(N,T)3-LI-7,,SIG)
+MONITOR    (29-CU-65(N,2N)29-CU-64,,SIG)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+MB         MB         MB
+ 2.0000E+01 4.0000E+00 9.7000E+02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        30271003   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (5-B-0(N,T),,SIG)
+MONITOR    (29-CU-65(N,2N)29-CU-64,,SIG)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+MB         MB         MB
+ 3.7000E+01 7.4000E+00 9.7000E+02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        30271005   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (13-AL-27(N,T)12-MG-25,,SIG)
+MONITOR    (79-AU-197(N,2N)79-AU-196,,SIG)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+MB         MB         MB
+ 1.7300E+00 2.5000E-01 2.1050E+03
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        30271006   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (19-K-0(N,T),,SIG)
+MONITOR    (79-AU-197(N,2N)79-AU-196,,SIG)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+MB         MB         MB
+ 2.2000E-01 5.5000E-02 2.1050E+03
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        30271007   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (19-K-39(N,T)18-AR-37,,SIG)
+MONITOR    (79-AU-197(N,2N)79-AU-196,,SIG)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+MB         MB         MB
+ 1.8400E-01 3.7000E-02 2.1050E+03
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        30271008   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (22-TI-0(N,T),,SIG)
+MONITOR    (79-AU-197(N,2N)79-AU-196,,SIG)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+MB         MB         MB
+ 7.0000E-02 1.8000E-02 2.1050E+03
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        30271009   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (26-FE-0(N,T),,SIG)
+MONITOR    (30-ZN-66(N,2N)30-ZN-65,,SIG)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+MB         MB         MB
+ 3.4000E-02 8.5000E-03 5.3000E+02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        30271010   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (27-CO-59(N,T)26-FE-57,,SIG)
+MONITOR    (79-AU-197(N,2N)79-AU-196,,SIG)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+MB         MB         MB
+ 6.5000E-01 1.3000E-01 2.1050E+03
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        30271011   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (28-NI-0(N,T),,SIG)
+MONITOR    (30-ZN-66(N,2N)30-ZN-65,,SIG)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA-MAX   MONIT
+MB         MB
+ 2.3000E-02 5.3000E+02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        30271012   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (29-CU-0(N,T),,SIG)
+MONITOR    (30-ZN-66(N,2N)30-ZN-65,,SIG)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+MB         MB         MB
+ 3.2000E-01 8.0000E-02 5.3000E+02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        30271013   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (30-ZN-0(N,T),,SIG)
+MONITOR    (30-ZN-66(N,2N)30-ZN-65,,SIG)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+MB         MB         MB
+ 4.1000E-02 1.0000E-02 5.3000E+02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        30271014   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (45-RH-103(N,T)44-RU-101,,SIG)
+MONITOR    (79-AU-197(N,2N)79-AU-196,,SIG)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+MB         MB         MB
+ 7.3000E-01 2.2000E-01 2.1050E+03
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY            13

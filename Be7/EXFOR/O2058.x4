@@ -1,0 +1,86 @@
+ENTRY            O2058   20121011   20130530   20130516       O050
+SUBENT        O2058001   20121011   20130530   20130516       O050
+BIB                 14         42
+TITLE      New measurement of the He-3(a,g)Be-7 cross section at
+           medium energies.
+AUTHOR     (M.Carmona-Gallardo, B.S.Nara Singh, M.J.G.Borge,
+           J.A.Briz, M.Cubero, B.R.Fulton, H.Fynbo, N.Gordillo,
+           M.Hass, G.Haquin, A.Maira, E.Nacher,Y.Nir-El, V.Kumar,
+           J.McGrath, A.Munoz-Martin, A.Perea, V.Pesudo,
+           G.Ribeiro, J.Sanchez del Rio, O.Tengblad, R.Yaniv,
+           Z.Yungreis)
+REFERENCE  (J,PR/C,86,032801,2012)
+REL-REF    (M,,A.Gottdang+,J,NIM/B,190,177,2002)
+           (M,O1268001,B.S.Nara Singh+,J,PRL,93,262503,2004)
+INSTITUTE  (2SPNAUT) CSIC, Madrid, Spain  and CMAM, Madrid
+           (2UK UK) University of York, York, United Kingdom
+           (2DENAAU)
+           (3ISLWZI)
+           (3ISLSOR)
+FACILITY   (CCW,2SPNSPN) 5 MV Cockcroft-Walton accelerator CMAM
+SAMPLE     The He-3 beam impinged onto the He-4 gas target after
+           passing through a nickel (Ni) foil window that
+           isolated the beam line from the target gas inside the
+           chamber.
+METHOD     (BCINT)
+           (GSPEC)
+ERR-ANALYS (DATA-ERR).Systematic error is reported in table.
+           (ERR-1).Error in the gamma-counting statistics
+           (ERR-2,,0.2).The uncertainty in the energy up to 0.2%.
+           (ERR-3).The uncertainty from charge integration approx.
+           2.0%.
+           (ERR-4).The uncertainty in the number of He-4 atoms per
+           cm**2 in the chamber is approx. 0.8%
+HISTORY    (20121010C)  sb
+MONITOR    (28-NI-0(HE3,EL)28-NI-0,,DA)
+COMMENT    *By author*.The energies of the beam from the
+           accelerator were determined by using the 27Al(p,g)28Si
+           resonance at E(p)=991.2 keV and an upper limit of 5 keV
+           uncertainty was estimated based on the observed
+           systematics in experiments carried out at CMAM using
+           several different beams.
+DETECTOR   (HPGE)  20 mm from the high-purity HPGe detector
+           (SIBAR) For the elastically scattered beam particles
+           from the Ni-window.
+STATUS     (TABLE).Table 1 of J,PR/C,86,032801,2012
+ENDBIB              42
+COMMON               2          3
+ERR-3      ERR-4
+PER-CENT   PER-CENT
+2.0        0.8
+ENDCOMMON            3
+ENDSUBENT           49
+SUBENT        O2058002   20121021   20130530   20130516       O050
+BIB                  2         10
+REACTION  1(2-HE-3(A,G)4-BE-7,,SIG)
+          2(2-HE-3(A,G)4-BE-7,,SIG,,SFC)
+            the astrophysical S factor based on the integrated
+           charge on the chamber.
+FLAG       (1.).The cross sections values obtained by using the
+           number of beam particles deduced using the integrated
+           charge on the chamber.
+           (2.).The cross sections values obtained by using the
+           number of beam particles deduced using the integrated
+           charge on the silicon spectra.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 8          6
+EN-CM      DATA      1DATA-ERR  1ERR-1     1DATA      2DATA-ERR  2
+ERR-1     2FLAG
+KEV        MICRO-B    MICRO-B    MICRO-B    B*KEV      B*KEV
+B*KEV      NO-DIM
+1054.      2.05       0.14       0.07       0.34       0.02
+0.01       1.
+1054.      2.14       0.15       0.11       0.34       0.02
+0.01       2.
+2007.      4.70       0.12       0.13       0.37       0.01
+0.01       1.
+2007.      4.59       0.12       0.24       0.37       0.01
+0.01       2.
+2804.      6.82       0.29       0.18       0.42       0.01
+0.01       1.
+2804.      6.68       0.29       0.35       0.42       0.01
+0.01       2.
+ENDDATA             16
+ENDSUBENT           31
+ENDENTRY             2

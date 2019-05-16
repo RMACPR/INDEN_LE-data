@@ -1,0 +1,122 @@
+ENTRY            11206   20090829   20091127   20091126       1355
+SUBENT        11206001   20090829   20091127   20091126       1355
+BIB                 12         23
+INSTITUTE  (1USAMHG,1USAPTN)
+REFERENCE  (J,PL/B,27,328,196808)
+AUTHOR     (L.W.Jones,M.J.Longo,J.R.O'Fallon,M.N.Kreisler)
+TITLE      Neutron-nuclei total cross sections at 27 GeV/c
+FACILITY   (SYNCH,1USABNL) AGS
+INC-SPECT  Broad incident neutron spectrum - 22 to 29.4 GeV.
+            Effective average momentum 27 GeV/c.
+SAMPLE     Samples between 10 and 30 g/cm**2 thick.
+DETECTOR   Ionization calorimeter 26.5 m from target.
+ANALYSIS   Total cross sections deduced from measured beam
+            attenuation cross sections for two defining counters
+            at front of calorimeter.
+ERR-ANALYS (DATA-ERR) Includes statistical uncertainty plus
+            uncertainties in R, alpha (real/imaginary amplitudes
+            for elastic scattering), and epsilon (related to
+            correction for inelastically scattered neutrons).
+STATUS     (SCSRS)
+           (TABLE) Data taken from Table 1 in reference.
+HISTORY    (19760929T) Translated from SCISRS
+           (19800820A) Converted to reaction formalism
+           (19860401A) Momentum range added.
+           (20090829A) VM:Updated to new date formats,lower case.
+                       BIB updates.
+ENDBIB              23
+COMMON               2          3
+MOM-MIN    MOM-MAX
+GEV/C      GEV/C
+ 22.        29.4
+ENDCOMMON            3
+ENDSUBENT           30
+SUBENT        11206002     800820              20050926       0000
+BIB                  1          1
+REACTION   (4-BE-9(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.50   -01 6.     -03
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11206003     800820              20050926       0000
+BIB                  1          1
+REACTION   (6-C-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 3.00   -01 7.     -03
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11206004     800820              20050926       0000
+BIB                  1          1
+REACTION   (13-AL-27(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 5.73   -01 1.7    -02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11206005     800820              20050926       0000
+BIB                  1          1
+REACTION   (26-FE-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.023  +00 2.5    -02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11206006     800820              20050926       0000
+BIB                  1          1
+REACTION   (74-W-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.330  +00 2.00   -01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11206007     800820              20050926       0000
+BIB                  1          1
+REACTION   (82-PB-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.630  +00 1.20   -01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11206008     800820              20050926       0000
+BIB                  1          1
+REACTION   (29-CU-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.090  +00 3.0    -02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11206009     800820              20050926       0000
+BIB                  1          1
+REACTION   (92-U-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.770  +00 1.50   -01
+ENDDATA              3
+ENDSUBENT            9
+ENDENTRY             9

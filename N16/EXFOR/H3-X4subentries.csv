@@ -1,0 +1,4 @@
+subentry,X4file,target,reaction,measure,description,ENmin,ENmax,rows,uncertainties,authors,year,reference
+"C1195002","C1195.x4","C-13","T,P","DA","Partial differential cross section d/dA for 13C(t,p)15C","18.0","18.0","69"," ","S.Truong,H.T.Fortune","1983","Physical Review,Part C,Nuclear Physics 28,977 (1983)"
+"F0338004","F0338.x4","C-13","T,D","DA","Differential c/s with respect to angle for 13C(t,d)14C","5.5","5.5","1"," ","F.De-S.Barros,P.D.Forsyth,A.A.Jaffe,I.J.Taylor","1961","Proceedings of the Physical Society (London),77,853 (1961)"
+"F0338009","F0338.x4","C-13","T,D","DA","Differential c/s with respect to angle for 13C(t,d)14C","5.5","5.5","7"," ","F.De-S.Barros,P.D.Forsyth,A.A.Jaffe,I.J.Taylor","1961","Proceedings of the Physical Society (London),77,853 (1961)"

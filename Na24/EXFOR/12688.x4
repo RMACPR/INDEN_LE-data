@@ -1,0 +1,109 @@
+ENTRY            12688   20140421   20141203   20141111       1401
+SUBENT        12688001   20140421   20141203   20141111       1401
+BIB                  9         14
+INSTITUTE  (1USATNC)
+REFERENCE  (J,BAP,13,874(AD16),196806)
+           (P,ORO-2791-32,11,1971) - data from several publ.
+AUTHOR     (W.E.Tucker,D.O.Nellis,I.L.Morgan)
+TITLE      Fast neutron interactions in Na-23 and B-10.
+FACILITY   (VDG,1USATNC)
+METHOD     (TOF)
+ERR-ANALYS (DATA-ERR) No details available
+STATUS     (TABLE)    Data taken from ORO-2791-32,11
+           (COREL,14125001) Data of diff.cr.sect.Na-23 at 90.degr.
+HISTORY    (19850325C)
+           (20140421A) SD: Updated to new date formats,lower case.
+            Corrections according last EXFOR rules and Dict.
+            Page of report ORO-2791-32 added. STATUS (COREL) added
+ENDBIB              14
+NOCOMMON             0          0
+ENDSUBENT           17
+SUBENT        12688002   20140421   20141203   20141111       1401
+BIB                  3          3
+REACTION   (11-NA-23(N,INL)11-NA-23,PAR,DA,G)
+DETECTOR   (NAICR)
+HISTORY    (20140421A) SD: Values at 4.1 MeV added.
+ENDBIB               3
+COMMON               1          3
+ANG
+ADEG
+ 55.
+ENDCOMMON            3
+DATA                 6         11
+EN         EN-RSL     E          ANG        DATA       DATA-ERR
+MEV        MEV        MEV        ADEG       MB/SR      MB/SR
+      0.800      0.050      0.439        55.       24.6        3.2
+      0.960      0.040      0.439        55.       23.1        3.0
+      1.000      0.040      0.439        55.       23.8        3.1
+      1.500      0.040      0.439        55.       27.6        3.6
+      1.730      0.035      0.439        55.       39.6        5.9
+      4.000      0.125      0.439        55.       56.1        7.3
+      4.000      0.125      0.626        55.        3.4        0.7
+      4.000      0.125       1.64        55.       17.2        2.5
+      4.100      0.100      0.439        90.       49.8       10.0
+      4.100      0.100      0.626        90.        1.9        0.4
+      4.100      0.100       1.64        90.       15.0        3.0
+ENDDATA             13
+ENDSUBENT           25
+SUBENT        12688003   20140421   20141203   20141111       1401
+BIB                  3          3
+REACTION   (11-NA-23(N,INL)11-NA-23,PAR,DA,G,RSD)
+DETECTOR   (NAICR)
+HISTORY    (20140421A) SD: Data units changed (MB/SR -> NO-DIM)
+ENDBIB               3
+COMMON               3          3
+EN         EN-RSL     E
+MEV        MEV        MEV
+ 1.000      0.040      0.439
+ENDCOMMON            3
+DATA                 3          4
+ANG        DATA       DATA-ERR
+ADEG       NO-DIM     NO-DIM
+ 30.        1.01
+ 40.        1.02
+ 55.        1.02       0.03
+ 90.        1.00
+ENDDATA              6
+ENDSUBENT           18
+SUBENT        12688004     850326              20050926       0000
+BIB                  2          2
+REACTION   (11-NA-23(N,INL)11-NA-23,PAR,DA,G)
+DETECTOR   (GELI)
+ENDBIB               2
+COMMON               1          3
+ANG
+ADEG
+ 55.
+ENDCOMMON            3
+DATA                 5         26
+EN         EN-RSL     E          DATA       DATA-ERR
+MEV        MEV        MEV        MB/SR      MB/SR
+ 4.00       0.12       0.439      46.9       5.6
+ 4.00       0.12       0.626       1.9       0.3
+ 4.00       0.12       1.041       0.4       0.1
+ 4.00       0.12       1.641      15.3       1.7
+ 4.00       0.12       1.995       1.9       0.3
+ 4.00       0.12       2.080       1.3       0.2
+ 4.00       0.12       2.267       2.9       0.4
+ 4.00       0.12       2.393       3.5       0.5
+ 4.00       0.12       2.550       2.5       0.4
+ 4.00       0.12       2.640       4.3       0.6
+ 4.00       0.12       2.988       3.0       0.4
+ 4.00       0.12       3.243       0.9       0.2
+ 5.00       0.07       0.439      49.6       5.9
+ 5.00       0.07       0.626       2.0       0.3
+ 5.00       0.07       1.041       1.0       0.2
+ 5.00       0.07       1.641      13.9       1.7
+ 5.00       0.07       1.775       1.7       0.2
+ 5.00       0.07       1.995       0.9       0.2
+ 5.00       0.07       2.080       1.3       0.2
+ 5.00       0.07       2.267       2.6       0.4
+ 5.00       0.07       2.393       2.3       0.3
+ 5.00       0.07       2.550       2.0       0.3
+ 5.00       0.07       2.640       3.3       0.5
+ 5.00       0.07       2.988       3.0       0.4
+ 5.00       0.07       3.243       2.1       0.3
+ 5.00       0.07       3.915       2.8       0.4
+ENDDATA             28
+ENDSUBENT           39
+ENDENTRY             4

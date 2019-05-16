@@ -1,0 +1,154 @@
+ENTRY            A1445   19990323   19990505   20050926       0000
+SUBENT        A1445001   19990323   19990505   20050926       0000
+BIB                 10         15
+INSTITUTE  (1USACAL)
+REFERENCE  (J,NP/A,164,1,197103)
+AUTHOR     (H.SPINKA,T.TOMBRELLO,H.WINKLER)
+TITLE      Low-energy cross sections for 7Li(p,a)4He and
+           6Li(p,a)3He
+FACILITY   (VDGT)
+SAMPLE     Lithium beams and a CH4 gas target at equivalent
+           proton energies
+METHOD     (PHD)
+DETECTOR   Three movable counters and a fixed couner at 90 degr.
+           were used in the experiment.
+COMMENT    The Rutherford scattering of lithium on carbon was used
+           as a cross-section standard.
+HISTORY    (19800902C) Compilation produced by Arzamas RFNC-VNIIEF
+           (19990220U)CNPD: corrected 4-dig. year and lower cases.
+ENDBIB              15
+NOCOMMON
+ENDSUBENT           18
+SUBENT        A1445002   19990323   19990505   20050926       0000
+BIB                  4          8
+REACTION   (3-LI-6(P,HE3)2-HE-4,,DA,,,EXP)
+PART-DET   (A)
+ERR-ANALYS (ANG-ERR) Digitizing error
+           (DATA-ERR) From graphic bars (the overall error exclu-
+           ded the error of the normaliztation) and the digitizing
+           (ERR-1) The error in the normalization data to the
+           elastic scattering
+STATUS     (CURVE) Fig 4
+ENDBIB               8
+COMMON               2          3
+ERR-1      ANG-ERR
+PER-CENT   ADEG
+  8.0        0.6
+ENDCOMMON            3
+DATA                 4         32
+EN         ANG-CM     DATA-CM    DATA-ERR
+MEV        ADEG       MB/SR      MB/SR
+     0.151     24.69       0.6797     0.0462
+     0.151     27.74       0.6288     0.0049
+     0.151     28.71       0.6495     0.0462
+     0.151     34.05       0.7275     0.036
+     0.151     34.65       0.6608     0.0311
+     0.151     40.62       0.6515     0.0514
+     0.151     53.43       0.7152     0.036
+     0.151     65.28       0.7583     0.0465
+     0.151     78.64       0.7913     0.0515
+     0.151     93.08       0.768      0.0362
+     0.151    107.9        0.8064     0.0514
+     0.151    121.3        0.788      0.0515
+     0.151    135.7        0.8315     0.0205
+     0.151    138.8        0.7703     0.0411
+     0.151    142.7        0.771      0.0411
+     0.151    146.7        0.7819     0.0258
+     0.151    149.7        0.7721     0.0311
+     0.151    150.6        0.8134     0.0049
+     0.151    153.7        0.7574     0.0413
+     0.151    158.6        0.753      0.0413
+     0.317     44.7        2.809      0.1146
+     0.317     58.38       3.171      0.1148
+     0.317     72.98       3.635      0.1275
+     0.317     81.79       3.843      0.1015
+     0.317     86.2        3.946      0.1021
+     0.317     95.97       4.205      0.1275
+     0.317    112.2        4.416      0.1019
+     0.317    128.2        4.269      0.153
+     0.317    146.8        4.723      0.1019
+     0.317    153.8        4.713      0.0764
+     0.317    159.7        4.741      0.1021
+     0.317    164.8        4.577      0.1146
+ENDDATA             34
+ENDSUBENT           51
+SUBENT        A1445003   19990323   19990505   20050926       0000
+BIB                  3          7
+REACTION   (3-LI-7(P,A)2-HE-4,,DA,,,EXP)
+ERR-ANALYS (ANG-ERR) Digitizing error
+           (DATA-ERR) From graphic bars (the overall error exclu-
+           ded the error of the normaliztation) and the digitizing
+           (ERR-1) The error in the normalization data to the
+           elastic scattering
+STATUS     (CURVE) Fig 5
+ENDBIB               7
+COMMON               2          3
+ERR-1      ANG-ERR
+PER-CENT   ADEG
+  8.0       0.5
+ENDCOMMON            3
+DATA                 4         22
+EN         ANG-CM     DATA-CM    DATA-ERR
+MEV        ADEG       MB/SR      MB/SR
+     0.131     26.04       0.0258     0.0009
+     0.131     36.52       0.0254     0.001
+     0.131     53.45       0.024      0.0014
+     0.131     77.58       0.0269     0.0034
+     0.131     78.49       0.0249     0.0011
+     0.272     23.21       0.2497     0.0058
+     0.272     32.76       0.2231     0.0063
+     0.272     46.07       0.2046     0.0053
+     0.272     51.77       0.2018     0.0097
+     0.272     72.64       0.194      0.0116
+     0.272     80.75       0.1698     0.0058
+     0.416     20.68       0.5882     0.0176
+     0.416     29.24       0.5103     0.0176
+     0.416     47.19       0.425      0.0215
+     0.416     68.04       0.3729     0.0215
+     0.416     86.04       0.2661     0.0117
+     0.561     18.13       0.8489     0.0245
+     0.561     26.36       0.7656     0.0319
+     0.561     38.38       0.7707     0.0246
+     0.561     49.02       0.6777     0.0294
+     0.561     63.54       0.5405     0.0294
+     0.561     88.65       0.374      0.0147
+ENDDATA             24
+ENDSUBENT           40
+SUBENT        A1445004   19990323   19990505   20050926       0000
+BIB                  4          7
+REACTION   (3-LI-6(P,HE3)2-HE-4,,SIG,,,EXP)
+PART-DET   (A)
+ERR-ANALYS (EN-ERR) Scale error
+           (ERR-T) The error given is the estimated total
+           uncertainty in the absolute value of the cross section
+           from all errors sources
+STATUS     (TABLE) Table 1
+ENDBIB               7
+NOCOMMON
+DATA                 4          2
+EN         EN-ERR     DATA       ERR-T
+MEV        MEV        MB         MB
+     0.151      0.0035     9.8        1.
+     0.317      0.004     47.         5.
+ENDDATA              4
+ENDSUBENT           16
+SUBENT        A1445005   19990323   19990505   20050926       0000
+BIB                  3          6
+REACTION   (3-LI-7(P,A)2-HE-4,,SIG,,,EXP)
+ERR-ANALYS (EN-ERR) Scale error
+           (ERR-T) The error given is the estimated total
+           uncertainty in the absolute value of the cross section
+           from all errors sources
+STATUS     (TABLE) Table 1
+ENDBIB               6
+NOCOMMON
+DATA                 4          4
+EN         EN-ERR     DATA       ERR-T
+MEV        MEV        MB         MB
+     0.1305     0.0035     0.32       0.04
+     0.2715     0.004      2.46       0.25
+     0.416      0.0035     4.9        0.5
+     0.561      0.003      7.4        0.8
+ENDDATA              6
+ENDSUBENT           17
+ENDENTRY             5

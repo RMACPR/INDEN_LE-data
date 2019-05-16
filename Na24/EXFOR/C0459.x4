@@ -1,0 +1,99 @@
+ENTRY            C0459     970821              20050926       0000
+SUBENT        C0459001     970821              20050926       0000
+BIB                 11         22
+INSTITUTE  (1USAPTN) + Trinity College and Drexel Univ.
+REFERENCE  (J,PR/C,42,2730,9012)
+AUTHOR     (A.E.CHAMPAGNE,A.J.HOWARD,Z.Q.MAO)
+TITLE      22Ne(d,p)23Ne reaction and neutron balance in the
+            s process
+FACILITY   (CYCLO,1USAPTN) Princeton AVF cyclotron.
+SAMPLE     22Ne implanted into carbon foil. Areal density of 22Ne
+            is about 6 micro-g/cm2.
+DETECTOR   (MAGSP) QDDD Spectrometer.
+MONITOR    Absolute cross section scale established by normalizing
+            the relative spectrosopic factors measured for several
+            low-lying bound states to tabulated values from
+            Howard, et al., Nucl.Phys. A152, 317 (1970), and
+            Fabrici, et al., Phys. Rev. C 21, 830 (1980).
+           Excitation energy calibrated using well-known states
+            populated in the 18O(d,p)19O reaction.
+ERR-ANALYS (DATA-ERR) Uncertainties given contain contributions
+            from statistical and peak-fitting uncertainties.
+           Overall scale uncertainty is 32%.
+STATUS     Data received by email, A. Champagne, 97/7/23.
+           (APRVD) Approved by A. Champagne, 97/8/20.
+HISTORY    (970723C)
+ENDBIB              22
+NOCOMMON             0          0
+ENDSUBENT           25
+SUBENT        C0459002     970723              20050926       0000
+BIB                  1          1
+REACTION   (10-NE-22(D,P)10-NE-23,PAR,DA)
+ENDBIB               1
+COMMON               1          3
+EN
+MEV
+24.1
+ENDCOMMON            3
+DATA                 5         56
+E-EXC      E-EXC-ERR  ANG-CM     DATA-CM    DATA-ERR
+MEV        MEV        ADEG       MB/SR      MB/SR
+5.029       0.005      10.7       0.147      0.005
+5.029       0.005      13.4       0.120      0.004
+5.029       0.005      26.7       0.047      0.004
+5.029       0.005      32.0       0.038      0.005
+5.029       0.005      37.3       0.029      0.004
+5.068       0.005      10.7       0.0266     0.0018
+5.068       0.005      13.4       0.0266     0.0018
+5.068       0.005      16.0       0.0249     0.0018
+5.068       0.005      18.7       0.0266     0.0036
+5.185       0.006      10.7       0.039      0.002
+5.185       0.006      13.4       0.020      0.002
+5.185       0.006      16.0       0.021      0.004
+5.185       0.006      18.7       0.025      0.005
+5.185       0.006      21.4       0.027      0.005
+5.185       0.006      26.7       0.0093     0.0036
+5.185       0.006      32.0       0.0083     0.0020
+5.220       0.005      10.7       1.62       0.002
+5.220       0.005      13.4       1.50       0.001
+5.220       0.005      16.0       1.34       0.001
+5.220       0.005      18.7       1.19       0.002
+5.220       0.005      21.4       1.03       0.002
+5.220       0.005      26.7       0.607      0.0014
+5.220       0.005      32.0       0.300      0.0011
+5.220       0.005      37.3       0.140      0.005
+5.462       0.005      10.7       0.282      0.007
+5.462       0.005      13.4       0.142      0.017
+5.462       0.005      16.0       0.116      0.004
+5.462       0.005      18.7       0.0979     0.0053
+5.462       0.005      21.4       0.0820     0.0054
+5.462       0.005      26.7       0.0896     0.0054
+5.462       0.005      32.0       0.0739     0.0054
+5.462       0.005      37.3       0.0507     0.0054
+5.522       0.010      10.7       0.162      0.050
+5.522       0.010      16.0       0.023      0.002
+5.606       0.010      10.7       0.253      0.007
+5.606       0.010      13.4       0.170      0.004
+5.606       0.010      16.0       0.0968     0.0039
+5.606       0.010      18.7       0.0747     0.0046
+5.606       0.010      26.7       0.0443     0.0036
+5.606       0.010      32.0       0.0331     0.0043
+5.646       0.010      10.7       0.411      0.007
+5.646       0.010      13.4       0.325      0.005
+5.646       0.010      16.0       0.266      0.007
+5.646       0.010      18.7       0.198      0.007
+5.646       0.010      21.4       0.124      0.006
+5.646       0.010      26.7       0.0920     0.0054
+5.646       0.010      32.0       0.0446     0.0044
+5.646       0.010      37.3       0.0616     0.0054
+5.726       0.010      10.7       2.96      0.002
+5.726       0.010      13.4       2.55      0.002
+5.726       0.010      16.0       2.15      0.002
+5.726       0.010      18.7       1.66      0.002
+5.726       0.010      21.4       1.24      0.002
+5.726       0.010      26.7       0.685     0.0014
+5.726       0.010      32.0       0.405     0.0013
+5.726       0.010      37.3       0.266     0.0011
+ENDDATA             58
+ENDSUBENT           68
+ENDENTRY             2

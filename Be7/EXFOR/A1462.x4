@@ -1,0 +1,297 @@
+ENTRY            A1462   20110819   20111215   20111213       A074
+SUBENT        A1462001   20110819   20111215   20111213       A074
+BIB                 10         25
+INSTITUTE  (4RUSEPA)
+REFERENCE  (J,AE,12,(1),5,196201)
+           (J,SJA,12,1,1962) English transl.
+AUTHOR     (V.I.Serov,B.Ja.Guzhovskij)
+TITLE      Investigation of the 6Li(t,n), 7Li(t,n), 7Li(He3,n)
+           9Be(t,n)11B and 9Be(He3,n) reactions
+FACILITY   (VDG,4RUSEPA)
+SAMPLE     LiF and metal berillium onto molybdenium backings.
+           At 600-800 keV sample thickness was 40-70 mu-g/cm2;
+           in other cases 100-150 mu-g/cm2.
+DETECTOR   (PLATE)
+           (LONGC) neutron detector calibrated using RaBe source.
+CORRECTION Correction on neutrons from 19F(t,n) was made using
+           CaF2 target.
+ERR-ANALYS (ERR-T) Total error includes:
+           (ERR-1) error in target thickness;
+             * detector efficiency;
+             * statistical error, etc.
+           (EN-ERR-DIG) Digitizing error
+           (ERR-DIG) Digitizing error
+HISTORY    (19810906C) Compilation Produced by RFNC-VNIIEF Sarov
+           (19990321U)CNPD: corrected 4-dig. year and lower cases.
+           (20110819A) SD: ref. on English tranls. added.
+           SF9=EXP deleted from REACTION code in Subent 002-008.
+           Titles of digitizing errors changed according to Dict.
+ENDBIB              25
+COMMON               2          3
+ERR-T      ERR-1
+PER-CENT   PER-CENT
+  10.0       5.
+ENDCOMMON            3
+ENDSUBENT           32
+SUBENT        A1462002   20110819   20111215   20111213       A074
+BIB                  2          2
+REACTION   (3-LI-6(T,N)4-BE-8,,DA)
+STATUS     (CURVE) Fig 1,circles from AE,12,(1),5,1962
+ENDBIB               2
+COMMON               3          3
+EN-ERR-DIG ANG        ERR-DIG
+MEV        ADEG       MB/SR
+ 0.002      0.         0.06
+ENDCOMMON            3
+DATA                 2         43
+EN         DATA
+MEV        MB/SR
+     0.2033     0.1645
+     0.2376     0.3371
+     0.259      0.681
+     0.289      0.9393
+     0.3233     1.198
+     0.3618     1.799
+     0.3961     2.23
+     0.4132     2.487
+     0.4303     3.089
+     0.4475     3.432
+     0.4603     3.69
+     0.4774     3.948
+     0.486      4.635
+     0.5031     4.893
+     0.5331     5.323
+     0.5674     5.496
+     0.5759     5.753
+     0.6102     6.527
+     0.6402     7.386
+     0.6701     7.816
+     0.7044     8.246
+     0.7515     8.848
+     0.773      9.192
+     0.7944     9.879
+     0.8372    10.4
+     0.8715    11.08
+     0.8971    11.51
+     0.9357    12.37
+     0.9785    12.97
+     1.004     14.
+     1.021     14.95
+     1.06      15.38
+     1.103     15.98
+     1.128     16.58
+     1.167     17.53
+     1.223     17.61
+     1.227     18.82
+     1.248     19.07
+     1.265     20.28
+     1.304     20.71
+     1.304     21.57
+     1.342     20.97
+     1.368     22.17
+ENDDATA             45
+ENDSUBENT           56
+SUBENT        A1462003   20110819   20111215   20111213       A074
+BIB                  2          2
+REACTION   (3-LI-7(T,N)4-BE-9,,DA)
+STATUS     (CURVE) Fig 3,circles  from AE,12,(1),5,1962
+ENDBIB               2
+COMMON               3          3
+EN-ERR-DIG ANG        ERR-DIG
+MEV        ADEG       MB/SR
+ 0.004      0.         0.4
+ENDCOMMON            3
+DATA                 2         48
+EN         DATA
+MEV        MB/SR
+     0.173      2.212
+     0.2084     5.22
+     0.2399     6.754
+     0.2662     9.743
+     0.2969    13.11
+     0.3279    15.74
+     0.3678    19.12
+     0.3941    22.11
+     0.4381    26.6
+     0.4465    28.45
+     0.4683    31.43
+     0.4936    36.98
+     0.5232    43.28
+     0.5403    46.24
+     0.5738    54.38
+     0.6033    61.03
+     0.632     69.52
+     0.6738    79.87
+     0.7073    88.
+     0.7385    89.9
+     0.7719    86.31
+     0.8108    80.54
+     0.8397    76.57
+     0.8686    72.97
+     0.8924    70.46
+     0.9164    67.58
+     0.9487    66.92
+     0.976     67.35
+     1.008     67.42
+     1.026     67.82
+     1.053     68.62
+     1.08      69.41
+     1.103     70.92
+     1.125     73.17
+     1.147     74.68
+     1.165     76.55
+     1.187     78.8
+     1.213     81.06
+     1.23      83.66
+     1.252     85.9
+     1.27      88.14
+     1.296     91.13
+     1.313     94.46
+     1.331     96.7
+     1.343     99.29
+     1.361    101.2
+     1.37     102.6
+     1.382    104.9
+ENDDATA             50
+ENDSUBENT           61
+SUBENT        A1462004   20110819   20111215   20111213       A074
+BIB                  2          2
+REACTION   (3-LI-7(HE3,N)5-B-9,,DA)
+STATUS     (CURVE) Fig 1 ,points  from AE,12,(1),5,1962
+ENDBIB               2
+COMMON               3          3
+EN-ERR-DIG ANG        ERR-DIG
+MEV        ADEG       MB/SR
+ 0.004      0.        0.2
+ENDCOMMON            3
+DATA                 2         28
+EN         DATA
+MEV        MB/SR
+     0.4636     0.1617
+     0.4952     0.2522
+     0.5322     0.3321
+     0.555      0.5224
+     0.5914     0.8017
+     0.6189     0.1351
+     0.6503     2.186
+     0.6817     2.837
+     0.7218     4.345
+     0.7574     6.249
+     0.7787     7.882
+     0.823      9.944
+     0.8536    11.99
+     0.8748    14.2
+     0.8966    15.69
+     0.9318    17.56
+     0.9579    19.42
+     0.9849    20.18
+     1.007     20.94
+     1.034     21.52
+     1.057     21.91
+     1.093     22.68
+     1.107     22.88
+     1.152     23.3
+     1.202     23.73
+     1.244     23.78
+     1.299     24.03
+     1.372     24.3
+ENDDATA             30
+ENDSUBENT           41
+SUBENT        A1462005   20110819   20111215   20111213       A074
+BIB                  2          2
+REACTION   (4-BE-9(T,N)5-B-11,,DA)
+STATUS     (CURVE) Fig 6   from AE,12,(1),5,1962
+ENDBIB               2
+COMMON               3          3
+EN-ERR-DIG ANG        ERR-DIG
+MEV        ADEG       MB/SR
+ 0.003      0.         0.5
+ENDCOMMON            3
+DATA                 2         45
+EN         DATA
+MEV        MB/SR
+     0.223      0.0388
+     0.2507     0.0704
+     0.2824     0.2467
+     0.318      0.8852
+     0.3418     1.204
+     0.3854     1.841
+     0.421      2.802
+     0.4527     4.085
+     0.4884     5.045
+     0.5121     6.652
+     0.5478     8.579
+     0.5756    10.83
+     0.6113    12.76
+     0.6351    14.68
+     0.6708    16.93
+     0.7025    19.18
+     0.7342    21.11
+     0.7659    23.04
+     0.7976    25.93
+     0.8294    27.86
+     0.8611    30.11
+     0.8888    32.03
+     0.9166    34.28
+     0.9404    36.21
+     0.9642    38.14
+     0.988     40.72
+     1.016     42.64
+     1.036     44.25
+     1.067     46.5
+     1.091     48.11
+     1.115     50.36
+     1.135     51.96
+     1.158     53.57
+     1.178     54.85
+     1.198     56.78
+     1.214     58.07
+     1.242     60.
+     1.258     61.61
+     1.281     62.89
+     1.297     63.85
+     1.309     64.17
+     1.325     65.14
+     1.341     66.1
+     1.353     66.74
+     1.369     67.06
+ENDDATA             47
+ENDSUBENT           58
+SUBENT        A1462006   20110819   20111215   20111213       A074
+BIB                  2          2
+REACTION   (4-BE-9(HE3,N)6-C-11,,DA)
+STATUS     (CURVE) Fig 6   from AE,12,(1),5,1962
+ENDBIB               2
+COMMON               3          3
+EN-ERR-DIG ANG        ERR-DIG
+MEV        ADEG       MB/SR
+ 0.004      0.         0.02
+ENDCOMMON            3
+DATA                 2         22
+EN         DATA
+MEV        MB/SR
+     0.5964     0.0193
+     0.6202     0.0039
+     0.6519     0.0273
+     0.6916     0.0584
+     0.7233     0.0896
+     0.7511     0.1208
+     0.7908     0.1519
+     0.8305     0.2303
+     0.8702     0.3087
+     0.9139     0.4186
+     0.9497     0.5286
+     0.9894     0.6227
+     1.029      0.7642
+     1.061      0.89
+     1.097      1.031
+     1.121      1.157
+     1.145      1.315
+     1.168      1.52
+     1.196      1.693
+     1.248      2.086
+     1.304      2.701
+     1.336      3.158
+ENDDATA             24
+ENDSUBENT           35
+ENDENTRY             6

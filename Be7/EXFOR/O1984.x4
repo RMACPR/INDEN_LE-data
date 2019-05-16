@@ -1,0 +1,58 @@
+ENTRY            O1984   20120725   20121218   20121211       O049
+SUBENT        O1984001   20120725   20121218   20121211       O049
+BIB                 12         28
+TITLE      Astrophysical S factor for the He-4(He3,g)Be-7 reaction
+           at medium energies.
+AUTHOR     (M.Carmona-Gallardo, B.S.Nara Singh, O.Tengblad,
+           M.Hass, M.Alcorta, M.J.G.Borge, J.A.Briz, C.Cruz,
+           M.Cubero, R.Dominguez-Reyes, B.R.Fulton, H.Fynbo,
+           N.Gordillo, G.Haquin, Y.Nir-El, V.Kumar, A.Maira,
+           J.McGrath, A.Munoz-Martin, A.Perea, Z.Yungreis)
+INSTITUTE  (2SPNSPN) Materials structure institute,
+                     Complutense University, Madrid, Spain
+           (2UK UK) University of York, York, UK
+           (3ISLWZI)
+           (3ISLSOR)
+           (2DENAAU)
+           (2SPNAUT)
+REFERENCE  (J,JP/CS,337,012061,2012)
+REL-REF    (M,O1268001,B.S.Nara Singh+,J,PRL,93,262503,2004)
+HISTORY    (20120725C)  SB
+SAMPLE     A He-4 gas target pressure in the chamber is isolated
+           from beam line high vacuum by using 1 mum thick nickel
+           window.
+MONITOR    (28-NI-0(HE3,EL)28-NI-0,,DA)
+DETECTOR   (HPGE) The number of Be-7 nuclei is determined by
+           measuring the Be-7 activity on a Cu-catcher.
+           (SIBAR) For the elastically scattered beam particles
+           from the Ni-window.
+FACILITY   (VDGT,2SPNAUT)  5 MV Tandem accelerator
+METHOD     (BCINT)
+STATUS     (TABLE).Table 1 of J,JP/CS,337,012601,2012
+ENDBIB              28
+NOCOMMON             0          0
+ENDSUBENT           31
+SUBENT        O1984002   20120725   20121218   20121211       O049
+BIB                  2          8
+REACTION  1(2-HE-4(HE3,G)4-BE-7,,SIG,,SFC)
+           The cross sections values obtained by using the
+            charge integration.
+          2(2-HE-4(HE3,G)4-BE-7,,SIG,,SFC)
+           The cross sections values obtained by using the
+            number of beam particles from Rutherford scattering.
+ERR-ANALYS (ERR-S).Statistical error is reported by authors in
+           table.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 5          6
+EN-CM      DATA      1ERR-S     1DATA      2ERR-S     2
+KEV        B*KEV      B*KEV      B*KEV      B*KEV
+903.6      0.40       0.08       0.41       0.08
+1487.5     0.31       0.02       0.31       0.02
+2010.6     0.30       0.02       0.31       0.02
+2256.0     0.37       0.04       0.37       0.04
+2499.0     0.37       0.03       0.38       0.04
+2791.1     0.41       0.02       0.41       0.02
+ENDDATA              8
+ENDSUBENT           21
+ENDENTRY             2

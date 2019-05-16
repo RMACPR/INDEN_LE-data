@@ -1,0 +1,237 @@
+ENTRY            21677   20170811   20180124   20180124       2264
+SUBENT        21677001   20170811   20180124   20180124       2264
+BIB                 13         27
+INSTITUTE  (2FR VNV)
+REFERENCE  (R,CEA-R-3807,1969) Final report. (in French)
+AUTHOR     (G.Clayeux,G.Grenier)
+TITLE       Recoil spectra produced by 14.1 MeV neutrons
+FACILITY   (ACCEL,2FR VNV) Haefely accelerator.
+INC-SOURCE (D-T) 200 keV deuteron beam on tritium target.
+METHOD     .Detection of gammas in coincidence with alphas
+            from the d-t reaction.
+DETECTOR   (GELI) 20 cm3 Ge(Li) detector, placed 30 cm from
+            the sample at 90 degrees to the axis of the neutron
+            beam.
+            Discrimination between prompt gammas and scattered
+            neutrons was made by time of flight selection.
+            For low energy gammas the photopeak was integrated,
+            while for high energy gammas the double escape peak
+            was integrated.
+MONITOR    .Relative excitation functions are normalized to
+            absolute values using a Ra-226 source and the
+            reaction Mg-26(p,gamma)Al-27.
+PART-DET   (G) Prompt inelastic gammas.
+CORRECTION .Corrected for neutron scattering in the sample,
+            self absorption and detector efficiency.
+ERR-ANALYS (ERR-S) Statistical errors only are given.
+HISTORY    (19801021C)
+           (20170811A) SD:Updated to new date formats,lower case.
+           Meaningless zeros were deleted from the data.
+           REACTION code corrected in Subents 008,011,012.
+ENDBIB              27
+COMMON               3          3
+EN         EN-RSL     ANG
+MEV        MEV        ADEG
+  14.1       0.1        90.
+ENDCOMMON            3
+ENDSUBENT           34
+SUBENT        21677002   20170811   20180124   20180124       2264
+BIB                  3          4
+REACTION   (6-C-12(N,INL)6-C-12,PAR,DA,G) Partial inelastic
+            gamma cross section at 90 degrees.
+SAMPLE     .A disc of carbon, 5 cm diameter, 3 cm thick.
+STATUS     (TABLE) Table 1 from CEA-R-3807.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       ERR-S
+MEV        MB/SR      MB/SR
+ 4.43         9.6        1.6
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        21677003   20170811   20180124   20180124       2264
+BIB                  3          4
+REACTION   (7-N-14(N,INL)7-N-14,PAR,DA,G) Partial inelastic
+            gamma cross section at 90 degrees.
+SAMPLE     .Melamine, C3 N6 H6 .
+STATUS     (TABLE) Table 2 from CEA-R-3807.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          4
+E          DATA       ERR-S
+MEV        MB/SR      MB/SR
+       1.63        1.2        0.2
+       2.31        2.5        0.5
+       5.10        3.5        0.7
+       5.83        0.7        0.2
+ENDDATA              6
+ENDSUBENT           15
+SUBENT        21677004   20170811   20180124   20180124       2264
+BIB                  3          4
+REACTION   (7-N-14(N,D)6-C-13,PAR,DA,G) Partial cross section
+            at 90 degrees for prompt gamma emission.
+SAMPLE     .Melamine, C3 n6 H6.
+STATUS     (TABLE) Table 2 from CEA-R-3807.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          2
+E          DATA       ERR-S
+MEV        MB/SR      MB/SR
+       3.68        1.1        0.3
+       3.85        1.5        0.3
+ENDDATA              4
+ENDSUBENT           13
+SUBENT        21677005   20170811   20180124   20180124       2264
+BIB                  3          4
+REACTION   (7-N-14(N,A)5-B-11,PAR,DA,G) Partial cross section
+            for prompt gamma emission.
+SAMPLE     .Melamine, C3 n6 H6.
+STATUS     (TABLE) Table 2 from CEA-R-3807.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          2
+E          DATA       ERR-S
+MEV        MB/SR      MB/SR
+       4.46        6.2        2.2
+       6.81        1.7        0.4
+ENDDATA              4
+ENDSUBENT           13
+SUBENT        21677006   20170811   20180124   20180124       2264
+BIB                  3          3
+REACTION   (8-O-16(N,INL)8-O-16,PAR,DA,G)
+SAMPLE     .Distilled water.
+STATUS     (TABLE) Table 3 from CEA-R-3807.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          4
+E          DATA       ERR-S
+MEV        MB/SR      MB/SR
+       2.74        2.2        0.5
+       6.13       11.2         2.
+       6.92        2.4        0.5
+       7.12        3.7        0.7
+ENDDATA              6
+ENDSUBENT           14
+SUBENT        21677007   20170811   20180124   20180124       2264
+BIB                  3          3
+REACTION   (8-O-16(N,A)6-C-13,PAR,DA,G)
+SAMPLE     .Distilled water.
+STATUS     (TABLE) Table 3 from CEA-R-3807.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          3
+E          DATA       ERR-S
+MEV        MB/SR      MB/SR
+       3.09        1.5        0.4
+       3.68        3.0        0.6
+       3.85        2.4        0.5
+ENDDATA              5
+ENDSUBENT           13
+SUBENT        21677008   20170811   20180124   20180124       2264
+BIB                  3          3
+REACTION   (8-O-16(N,N+A)6-C-12,PAR,DA,G)
+SAMPLE     .Distilled water.
+STATUS     (TABLE) Table 3 from CEA-R-3807.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       ERR-S
+MEV        MB/SR      MB/SR
+ 4.43       1.9        0.4
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        21677009   20170811   20180124   20180124       2264
+BIB                  3          3
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,DA,G)
+SAMPLE     .Disc of metallic aluminum, 10 cm diameter, 2 cm thick
+STATUS     (TABLE) Table 4 from CEA-R-3807.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          4
+E          DATA       ERR-S
+MEV        MB/SR      MB/SR
+       0.84        2.8        0.2
+       1.01        3.2        0.3
+       2.21        8.3        1.5
+       3.00        7.8        1.4
+ENDDATA              6
+ENDSUBENT           14
+SUBENT        21677010   20170811   20180124   20180124       2264
+BIB                  3          3
+REACTION   (13-AL-27(N,D)12-MG-26,PAR,DA,G)
+SAMPLE     .Aluminum disc, 10 cm diameter, 2 cm thick.
+STATUS     (TABLE) Table 4 from CEA-R-3807.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       ERR-S
+MEV        MB/SR      MB/SR
+ 1.81       10.1        0.8
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        21677011   20170811   20180124   20180124       2264
+BIB                  5          9
+REACTION   (26-FE-56(N,INL)26-FE-56,PAR,DA,G,A)
+SAMPLE     .Natural iron disc, 10 cm diameter, 2 cm thick,
+            isotopic composition 91.5% Fe-56, 5.9% Fe-54,
+            2.25% Fe-57.
+CORRECTION .Data is not corrected for the isotopic abundance
+            of Fe-56 in natural iron.
+STATUS     (TABLE) Table 5 from CEA-R-3807.
+HISTORY    (20170811A) SD: SF1=Fe-0 -> Fe-56, SF8=A added to
+           REACTION code.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          4
+E          DATA       ERR-S
+MEV        MB/SR      MB/SR
+       0.85       37.6        2.2
+       1.24       22.0        1.4
+       1.81        3.8        0.4
+       2.60        2.4        0.5
+ENDDATA              6
+ENDSUBENT           20
+SUBENT        21677012   20170811   20180124   20180124       2264
+BIB                  5          9
+REACTION   (26-FE-56(N,2N)26-FE-55,PAR,DA,G,A)
+SAMPLE     .Natural iron disc, 10 cm diameter, 2 cm thick,
+            isotopic composition 91.5% Fe-56, 5.9% Fe-54,
+            2.25% Fe-57.
+CORRECTION .Data is not corrected for the isotopic abundance
+            of Fe-56 in natural iron.
+STATUS     (TABLE) Table 5 from CEA-R-3807.
+HISTORY    (20170811A) SD: SF1=Fe-0 -> Fe-56, SF8=A added to
+           REACTION code.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          3
+E          DATA       ERR-S
+MEV        MB/SR      MB/SR
+       0.93        4.3        0.3
+       1.30        8.4        0.6
+       1.41        2.0        0.2
+ENDDATA              5
+ENDSUBENT           19
+SUBENT        21677013   20170811   20180124   20180124       2264
+BIB                  3          5
+REACTION   (82-PB-0(N,X)0-G-0,PAR,DA)
+SAMPLE     .Natural lead disc, 10 cm diameter, 2 cm thick,
+            isotopic composition 51.55% Pb-208, 26.26% Pb-206,
+            20.82% Pb-207, 1.37% Pb-204.
+STATUS     (TABLE) Table 6 from CEA-R-3807.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          8
+E          DATA       ERR-S
+MEV        MB/SR      MB/SR
+      0.569       38.0        3.2
+      0.803       38.7        3.1
+      0.897       22.2        1.8
+      0.980       12.6        1.4
+      1.080       33.8        3.1
+      1.430       11.5        1.5
+      1.769       28.3        3.0
+      2.610       19.1        3.8
+ENDDATA             10
+ENDSUBENT           20
+ENDENTRY            13

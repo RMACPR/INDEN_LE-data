@@ -1,0 +1,89 @@
+ENTRY            40425   20070419   20070911   20070815       4140
+SUBENT        40425001   20070419   20070911   20070815       4140
+BIB                 10         19
+INSTITUTE  (4RUSKUR)
+REFERENCE  (J,AE,5,(6),657,195812)
+           (J,SJA,5,1601,1959)
+           (J,JNE/A,11,174,1960)
+AUTHOR     (N.N.FLEROV,K.M.TALYZIN)
+TITLE      14 MEV (N,2N) Cross-Sections For Be, Pb, And Bi.
+FACILITY   (ACCEL) Ion Accelerating Tube, Deutron Energy 140 keV
+INC-SOURCE (D-T)   In centre of graphite prism.
+DETECTOR   (BF3)   For Thermal Neutrons Detection
+           (PROPC) For alpha-particles registration from d-t
+                   reaction.
+MONITOR      Absolute Measurements
+STATUS     (SCSRS)
+HISTORY    (19830923T) Converted From ENTRY 80030
+           (20050827U) Correction According To MEMO CP-E/70,
+                        dates were corrected
+           (20070418A) Reaction code of Subentry .002 was changed:
+                       BE-9(N,2N)BE-8 ->BE-9(N,2N+A)2-HE-4
+              in according to comment of V.McLane.
+ENDBIB              19
+NOCOMMON             0          0
+ENDSUBENT           22
+SUBENT        40425002   20070419   20070911   20070815       4140
+BIB                  4          8
+REACTION   (4-BE-9(N,2N+A)2-HE-4,,SIG)   sig(n,2n)
+SAMPLE       Metallic berillium sphere of 6.7 cm external diameter
+            and 3. cm inner diameter.
+STATUS     (DEP,40425003)    (n,tot)
+           (DEP,40369002)    (n,non)
+           (DEP,11048004)    (n,a).
+             From Table 1 of 1st Reference.
+ANALYSIS     Assumption was made: sig(n,capture) = sig(n,alpha).
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.4000E+01 5.5000E-01 6.0000E-02
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40425003   20070419   20070911   20070815       4140
+BIB                  4          5
+REACTION   (4-BE-9(N,TOT),,SIG)
+SAMPLE      Three samples of metallic berillium of 2.99cm diameter
+            and 0.883, 1.778, 2.695 cm thickness.
+DETECTOR   (SCIN) Scintillation counter.
+STATUS       From Table 1 of 1st Reference.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.4000E+01 1.4200E+00 2.0000E-02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        40425004   20070419   20070911   20070815       4140
+BIB                  4          5
+REACTION   (82-PB-0(N,2N),,SIG)
+SAMPLE      Metallic lead sphere of 12.5 cm external diameter and
+            4.5 cm inner diameter.
+ANALYSIS     Assumption was made: sig(n,capture) = 0
+STATUS     (DEP,40369023) (n,non)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.4000E+01 2.3000E+00 1.9000E-01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        40425005   20070419   20070911   20070815       4140
+BIB                  4          5
+REACTION   (83-BI-209(N,2N)83-BI-208,,SIG)
+SAMPLE      Metallic bismuth sphere of 12.5 cm external diameter
+            and 4.5 cm inner diameter.
+ANALYSIS     Assumption was made: sig(n,capture) = 0
+STATUS     (DEP,40369024) (n,non)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.4000E+01 2.4200E+00 2.0000E-01
+ENDDATA              3
+ENDSUBENT           13
+ENDENTRY             5

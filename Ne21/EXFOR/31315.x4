@@ -1,0 +1,83 @@
+ENTRY            31315   20111202   20120207   20120113       3153
+SUBENT        31315001   20111202   20120207   20120113       3153
+BIB                 11         31
+TITLE      Study of the Ne(n,p)F reaction.
+REFERENCE  (J,NC/B,42,297,196604)
+AUTHOR     (E.Kondaiah,R.Patell)
+INSTITUTE  (3INDTAT)
+FACILITY   (CCW,3INDTAT)
+SAMPLE     A cylindrical brass chamber, 19 cm in diam. and 6.6 cm
+           in height was filled with the gas under study at
+           atmospheric pressure. Natural neon gas consists of
+           90.92% 20Ne, 0.26% 21Ne and 8.82% 22Ne.
+INC-SOURCE (D-T)
+METHOD     Three exposures were made:
+             a) with neon gas at atmospheric pressure,
+             b) with vacuum in the chamber which served as the
+                background for hydrogen as well as neon,
+             c) with hydrogen gas at atmospheric pressure which
+                served as the standard for determination of the
+                neon cross-section; this was also used as a check
+                on the geometry employed, by studying the known
+                energy and angular distributions of the recoil
+                protons.
+DETECTOR   (PLATE) Ilford K2 emulsions of 400 mu-m thickness were
+                      used as detectors.
+           (SCIN) The neutron flux was monitored with a gamma-
+            insensitive boron-plastic zinc-sulphide scintillator.
+STATUS     (SCSRS)
+HISTORY    (19771115T) Converted from EXFOR 70315
+           (20090912A) SD:Updated to new date formats,lower case.
+           Monitor and description of experiment added,
+           Subent 003 created.
+           (20111202A) VS. ERR-ANALYS moved from subent 001 to
+                       subent 002. Subent 003 corrected.
+ENDBIB              31
+COMMON               4          3
+EN         EN-RSL     ERR-1      ERR-2
+MEV        MEV        PER-CENT   PER-CENT
+   14.1      0.1         1.8       1.0
+ENDCOMMON            3
+ENDSUBENT           38
+SUBENT        31315002   20120113   20120207   20120113       3153
+BIB                  5         16
+REACTION   (10-NE-20(N,P)9-F-20,PAR,SIG)
+MONITOR    (1-H-1(N,TOT),,SIG)
+MONIT-REF  (,J.L.Fowler+,J,RMP,28,103,1956)
+ERR-ANALYS (ERR-T) Uncertainty includes:
+           (ERR-S) The statistical errors in the total number of
+               tracks in the hydrogen and neon spectra used for
+               the cross-section measurement are 8.4% and 16.4%
+                respectively.
+           (ERR-1) Error in the standard hydrogen cross-section
+           (ERR-2) Error due to the neutron monitor fluctuation,
+           gave a root mean square error of 18.5%, that is, <20%.
+COMMENT    Author's comment:"22Ne is only 9 % abundant and its
+           cross-section is expected to be only l/4th that of 20Ne
+           hence its contribution to the cross-section given above
+           is expected to be less than 2%. As such, the measured
+           cross-section is almost entirely for the 20Ne isotope."
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 6          1
+E-MIN      DATA       ERR-T      ERR-S      MONIT      MONIT-ERR
+MEV        B          B          PER-CENT   MB         MB
+  2.9         0.142     0.028      16.4       689.        4.
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        31315003   20111202   20120207   20120113       3153
+BIB                  3          5
+REACTION   (10-NE-20(N,P)9-F-20,PAR,DA,,LEG/RS)
+ERR-ANALYS (DATA-ERR) No source of uncertainty given.
+HISTORY    (20090930C)
+           (20111118A) VS. Corrected according to Memo CP-D/718.
+                       ERR-ANALYS added.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 5          1
+E-MIN      E-MAX      NUMBER-CM  DATA-CM    DATA-ERR
+MEV        MEV        NO-DIM     NO-DIM     NO-DIM
+  2.5        6.7         2.         1.35       0.2
+ENDDATA              3
+ENDSUBENT           13
+ENDENTRY             3

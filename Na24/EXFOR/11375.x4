@@ -1,0 +1,46 @@
+ENTRY            11375     820324              20050926       0000
+SUBENT        11375001     820324              20050926       0000
+BIB                  6          7
+INSTITUTE  (1CANCRC)
+REFERENCE  (J,CJC,31,204,53)
+AUTHOR     (R.M.BARTHOLOMEW,R.C.HAWKINS,W.F.MERRITT,L.YAFFE)
+TITLE      THERMAL NEUTRON CAPTURE CROSS-SECTION OF NA23 AND MN55.
+STATUS     (SCSRS)
+HISTORY    (761014T) TRANSLATED FROM SCISRS
+           (820324A) CONVERTED TO REACTION FORMALISM
+ENDBIB               7
+NOCOMMON             0          0
+ENDSUBENT           10
+SUBENT        11375002     820324              20050926       0000
+BIB                  5          6
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG,,MXW)
+METHOD     (ACTIV)    ACTIVATION
+DECAY-DATA (11-NA-24,15.04HR,B)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+            BASED ON GOLD THERMAL CAPTURE=93B.
+INC-SPECT   THERMAL SPECTRUM
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 4          1
+EN-DUMMY   DATA       DATA-ERR   MONIT
+MEV        B          B          B
+ 2.53   -08 5.3    -01 3.2    -02 93.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11375003     820324              20050926       0000
+BIB                  5          6
+REACTION   (25-MN-55(N,G)25-MN-56,,SIG,,MXW)
+METHOD     (ACTIV)    ACTIVATION
+DECAY-DATA (25-MN-56,2.576HR,B)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+            BASED ON GOLD THERMAL CAPTURE=93B.
+INC-SPECT   THERMAL SPECTRUM
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          B
+ 2.53   -08 1.27   +01 3.     -01 93.
+ENDDATA              3
+ENDSUBENT           14
+ENDENTRY             3

@@ -1,0 +1,172 @@
+ENTRY            31786   20180304   20180420   20180420       3182
+SUBENT        31786001   20180304   20180420   20180420       3182
+BIB                 11         35
+TITLE      Validation of differential cross sections by means of
+            252Cf spectral averaged cross sections
+AUTHOR     (M.Schulc, M.Kostal, S.Simakov, V.Rypar,
+            D.Harutyunyan, J.Simon, N.Burianova, E.Novak,
+            B.Jansky, M.Marecek, J.Uhlir)
+INSTITUTE  (3CZRUJV,2GERKFK)
+REFERENCE  (J,ARI,132,29,2018)
+           (J,EPJ/CS,146,04045,2017) 6.32 ub+/-3.5% for 23Na(n,2n)
+REL-REF    (N,,M.Schulc+,J,ARI,118,277,2016)
+            Experimental details for 27Al(n,p) and 27Al(n,a)
+INC-SOURCE (CF252) Cf oxide in a Pd matrix.
+           Martin Schulc (2018-03-14):
+            The 252Cf source neutron emission rate was 9.53E8 n/s
+            on August 13th, 2015 according to the data in NPL
+            certificate of calibration involving manganese
+            sulphate bath.
+           Emission rate during the experiments was derived
+            according the exponential decay, and it was verified
+            in independent experiments using 58Ni(n,p)reaction.
+DETECTOR   (HPGE) Efficiency calculated by MCNP6
+CORRECTION Corrected for
+            - spectral shift effect (ratio between the spectrum
+              averaged cross section in the real geometry and
+              empty geometry
+            - flux loss
+            - self-shielding.
+ERR-ANALYS (DATA-ERR) Uncertainties due to
+            - counting rates in HPGe detector
+            - detector efficiency
+            - irradiated sample position
+            - neutron source position
+            - spectral shift correction.
+STATUS     (TABLE) Table 11 of Appl.Radiat.Isot.132(2018)29
+           (APRVD) Approved by Martin Schulc (2018-03-14)
+HISTORY    (20180304C) On
+ENDBIB              35
+NOCOMMON             0          0
+ENDSUBENT           38
+SUBENT        31786002   20180304   20180420   20180420       3182
+BIB                  4          6
+REACTION   (11-NA-23(N,2N)11-NA-22,,SIG,,FIS)
+DECAY-DATA (11-NA-22,22791.77HR,DG,1274.537,0.9994)
+SAMPLE     NaF, 529.5 g inside Al capsule
+METHOD     (ACTIV) Irradiation time: 1122.9 hr
+                   Cooling time:      628.4 hr
+                   Measurement time:   63.8 hr
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+KT-DUMMY   DATA       DATA-ERR
+MEV        MB         PER-CENT
+ 1.42         8.700E-3 3.6
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        31786003   20180304   20180420   20180420       3182
+BIB                  4          6
+REACTION   (40-ZR-90(N,2N)40-ZR-89-G,M+,SIG,,FIS)
+DECAY-DATA (40-ZR-89-G,78.41HR,DG,909.15,0.9904)
+SAMPLE     ZrO2 powder, 82 mm diam., 128.3 mm height, 555.8 g
+METHOD     (ACTIV) Irradiation time:   14.0 hr
+                   Cooling time:        4.8 hr
+                   Measurement time:    2.9 hr
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+KT-DUMMY   DATA       DATA-ERR
+MEV        MB         PER-CENT
+ 1.42       0.2162     3.5
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        31786004   20180304   20180420   20180420       3182
+BIB                  4          7
+REACTION   (39-Y-89(N,2N)39-Y-88,,SIG,,FIS)
+DECAY-DATA (39-Y-88,2559.02HR,DG,898.042,0.937,
+                              DG,1836.063,0.992)
+SAMPLE     Foil, 2.54 cm diam., 0.127 cm thick
+METHOD     (ACTIV) Irradiation time:  567.2 hr
+                   Cooling time:     1183.5 hr
+                   Measurement time:  161.9 hr
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+KT-DUMMY   DATA       DATA-ERR
+MEV        MB         PER-CENT
+ 1.42       0.3409     3.6
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        31786005   20180304   20180420   20180420       3182
+BIB                  4          7
+REACTION   (9-F-19(N,2N)9-F-18,,SIG,,FIS)
+DECAY-DATA (9-F-18,1.83HR,DG,511.,1.9346)
+SAMPLE     Teflon disk, 8.24 cm diam.(out), 2.5 cm diam.(in),
+           2.2 cm height, 124.6 g
+METHOD     (ACTIV) Irradiation time:   15.7  hr
+                   Cooling time:        1.4  hr
+                   Measurement time:    0.71 hr
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+KT-DUMMY   DATA       DATA-ERR
+MEV        MB         PER-CENT
+ 1.42       0.01561    3.8
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        31786006   20180304   20180420   20180420       3182
+BIB                  4          6
+REACTION   (26-FE-54(N,A)24-CR-51,,SIG,,FIS)
+DECAY-DATA (24-CR-51,664.82HR,DG,320.0824,0.0991)
+SAMPLE     1.274 cm diam., 1.0 mm height, 0.99695 g
+METHOD     (ACTIV) Irradiation time:   91.6 hr
+                   Cooling time:        1.5 hr
+                   Measurement time:   48.2 hr
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+KT-DUMMY   DATA       DATA-ERR
+MEV        MB         PER-CENT
+ 1.42       1.003      4.3
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        31786007   20180304   20180420   20180420       3182
+BIB                  4          6
+REACTION   (13-AL-27(N,A)11-NA-24,,SIG,,FIS)
+DECAY-DATA (11-NA-24,14.997HR,DG,1368.626,0.999936)
+SAMPLE     12.74 mm diam., 3.07 mm height, 0.9955 g
+METHOD     (ACTIV) Irradiation time:   71.4   hr
+                   Cooling time:        0.033 hr
+                   Measurement time:    1.3   hr
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+KT-DUMMY   DATA       DATA-ERR
+MEV        MB         PER-CENT
+ 1.42       0.9851     3.5
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        31786008   20180304   20180420   20180420       3182
+BIB                  4          6
+REACTION   (13-AL-27(N,P)12-MG-27,,SIG,,FIS)
+DECAY-DATA (12-MG-27,0.1576HR,DG,843.76,0.718)
+SAMPLE     12.74 mm diam., 3.07 mm height, 0.9955 g
+METHOD     (ACTIV) Irradiation time:   71.4   hr
+                   Cooling time:        0.033 hr
+                   Measurement time:    1.3   hr
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+KT-DUMMY   DATA       DATA-ERR
+MEV        MB         PER-CENT
+ 1.42       4.976      3.5
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        31786009   20180304   20180420   20180420       3182
+BIB                  4          6
+REACTION   (26-FE-54(N,P)25-MN-54,,SIG,,FIS)
+DECAY-DATA (25-MN-54,7492.8HR,DG,834.848,0.99976)
+SAMPLE     1.274 cm diam., 1.0 mm height, 0.99695 g
+METHOD     (ACTIV) Irradiation time:   91.6 hr
+                   Cooling time:        1.5 hr
+                   Measurement time:   48.2 hr
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+KT-DUMMY   DATA       DATA-ERR
+MEV        MB         PER-CENT
+ 1.42       78.72      3.9
+ENDDATA              3
+ENDSUBENT           14
+ENDENTRY             9

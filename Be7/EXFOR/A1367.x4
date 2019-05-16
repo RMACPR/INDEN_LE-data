@@ -1,0 +1,73 @@
+ENTRY            A1367   19990322   19990505   20050926       0000
+SUBENT        A1367001   19990322   19990505   20050926       0000
+BIB                 10         14
+INSTITUTE  (2GERMBG)
+REFERENCE  (J,ZP,197,(1),58,196610)
+AUTHOR     (W.GEMEINHARDT,D.KAMKE,CHR.VON RHONECK)
+TITLE      Angular distribution and integral  cross section of
+           6Li(p,a)3He reaction at energes between 50 to 190 keV
+FACILITY   200 KV accelerator
+SAMPLE     6Li (99.3%), thicknesses of targets: 4.61, 7.71,
+           15.44, 19.55 mu-g/cm**2 on nickel backing
+DETECTOR   (SOLST) Ortec detectors 50 mm**2
+           The monitor - Faraday cylinder
+ANALYSIS   (INTAD)
+ERR-ANALYS (ERR-T) Total error
+HISTORY    (19820309C) Compilation produced by Arzamas RFNC-VNIIEF
+           (19990317U)CNPD: corrected 4-dig. year and lower cases.
+ENDBIB              14
+NOCOMMON
+ENDSUBENT           17
+SUBENT        A1367002   19990322   19990505   20050926       0000
+BIB                  3          3
+REACTION   (3-LI-6(P,HE3)2-HE-4,,SIG,,,EXP)
+PART-DET   (A)
+STATUS     (TABLE) Table 1
+ENDBIB               3
+NOCOMMON
+DATA                 3         15
+EN         DATA       ERR-T
+MEV        MB         MB
+     0.05       0.12       0.01
+     0.06       0.3        0.03
+     0.07       0.62       0.06
+     0.08       1.16       0.12
+     0.09       1.83       0.15
+     0.1        2.8        0.18
+     0.11       3.7        0.25
+     0.12       4.85       0.17
+     0.13       6.1        0.4
+     0.14       7.7        0.5
+     0.15       9.9        0.6
+     0.16      12.2        0.8
+     0.17      14.4        0.9
+     0.18      17.         1.1
+     0.19      19.7        1.3
+ENDDATA             17
+ENDSUBENT           25
+SUBENT        A1367003   19990322   19990505   20050926       0000
+BIB                  4          4
+REACTION   (3-LI-6(P,HE3)2-HE-4,,DA,,LEG/RS,EXP)
+PART-DET   (A)
+ERR-ANALYS (EN-ERR) Energy spread
+STATUS     (TABLE) Data on fig 3
+ENDBIB               4
+COMMON               1          3
+NUMBER-CM
+NO-DIM
+  1.
+ENDCOMMON            3
+DATA                 4          8
+EN         EN-ERR     DATA-CM    ERR-T
+MEV        MEV        NO-DIM     NO-DIM
+     0.062      0.008      0.017      0.023
+     0.072      0.007      0.009      0.022
+     0.083      0.006      0.011      0.026
+     0.093      0.005      0.0334     0.03
+     0.115      0.004      0.048      0.02
+     0.137      0.003      0.082      0.022
+     0.168      0.002      0.152      0.021
+     0.188      0.002      0.152      0.018
+ENDDATA             10
+ENDSUBENT           23
+ENDENTRY             3

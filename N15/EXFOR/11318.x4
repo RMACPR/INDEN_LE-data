@@ -1,0 +1,61 @@
+ENTRY            11318     810428              20050926       0000
+SUBENT        11318001     810428              20050926       0000
+BIB                  7          9
+INSTITUTE  (1USALAS)
+REFERENCE  (J,PR,107,1094,57)
+AUTHOR     (R.R.CARLSON)
+TITLE      CROSS SECTIONS FOR PICKUP REACTIONS OF 14-MEV NEUTRONS
+           WITH N14.
+DETECTOR   (TELES)
+STATUS     (SCSRS)
+HISTORY    (760714T) TRANSLATED FROM SCISRS
+           (810428A) CONVERTED TO REACTION FORMALISM
+ENDBIB               9
+NOCOMMON             0          0
+ENDSUBENT           12
+SUBENT        11318002     810428              20050926       0000
+BIB                  2          4
+REACTION   (7-N-14(N,D)6-C-13,PAR,DA)
+COMMENT    DEUTERONS CORRESPOND TO C13 EXCITATION ENERGY OF 3.65
+            +-.20MEV. PROBABLY 3.68MEV LEVEL, POSSIBLY 3.85, AND
+            PERHAPS SOME CONTRIBUTION FROM 3.9MEV LEVEL.
+ENDBIB               4
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+ 1.4    +01    3.68
+ENDCOMMON            3
+DATA                 3          7
+COS-CM     DATA       DATA-ERR
+NO-DIM     MB/SR      MB/SR
+ 1.         1.14   +01 1.0    +00
+ 0.95000    1.15   +01 1.2    +00
+ 0.88000    1.12   +01 1.2    +00
+ 0.76000    1.25   +01 1.3    +00
+ 0.63000    8.0    +00 8.     -01
+ 0.46000    5.6    +00 4.     -01
+ 0.28000    5.2    +00 4.     -01
+ENDDATA              9
+ENDSUBENT           22
+SUBENT        11318003     810428              20050926       0000
+BIB                  1          1
+REACTION   (7-N-14(N,D)6-C-13,PAR,DA)
+ENDBIB               1
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+ 1.41   +01    0.
+ENDCOMMON            3
+DATA                 3          7
+COS-CM     DATA       DATA-ERR
+NO-DIM     MB/SR      MB/SR
+ 1.         4.5    +00 5.     -01
+ 0.95000    9.1    +00 1.0    +00
+ 0.88000    8.2    +00 1.0    +00
+ 0.76000    4.5    +00 5.     -01
+ 0.63000    4.3    +00 7.     -01
+ 0.46000    2.4    +00 3.     -01
+ 0.28000    1.0    +00 3.     -01
+ENDDATA              9
+ENDSUBENT           19
+ENDENTRY             3

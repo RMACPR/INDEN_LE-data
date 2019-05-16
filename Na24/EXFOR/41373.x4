@@ -1,0 +1,65 @@
+ENTRY            41373   20000627   20010329   20050926       0000
+SUBENT        41373001   20000627   20010329   20050926       0000
+BIB                 14         18
+TITLE      .Geterogeneous Effects of Sodium and 238-U and
+            Ratious of Some Cross=Sections in BFS-22 Reactor
+AUTHOR     (L.N.YUROVA, A.V.BUSHUEV, V.M.DUVANOV, A.F.KOZHIN,
+            A.M.SIROTKIN)
+INSTITUTE  (4RUSMIF)
+REFERENCE  (J,AE,35,(10),47,197307)  Main Reference
+FACILITY   (REAC)  Fast Critical Assemblage BFS-22
+INC-SPECT  .Not Specified, Supposed Being Fast Neutron Spectrum
+            Of the Reactor BFS-22
+MONITOR    .Absolute Measurements of Cross-Sections Ratious
+PART-DET   (G,FF)
+DETECTOR   .No Information
+METHOD     (ACTIV)
+SAMPLE      Tabletts of Metallic Natrium and Uranium
+ERR-ANALYS (DATA-ERR) Errors are not Specified
+STATUS     (TABLE)  Data from Table of the Main Reference
+HISTORY    (20000627C)  + + Compiled at the Centre - CJD + +
+           (20000627U) Last checking has been done.
+ENDBIB              18
+COMMON               1          3
+EN-DUMMY
+EV
+     1.E+06
+ENDCOMMON            3
+ENDSUBENT           25
+SUBENT        41373002   20000627   20010329   20050926       0000
+BIB                  1          2
+REACTION   ((11-NA-23(N,G)11-NA-24,,SIG,,FST)/
+           (92-U-235(N,F),,SIG,,FST))
+ENDBIB               2
+NOCOMMON
+DATA                 2          1
+DATA       DATA-ERR
+NO-DIM     NO-DIM
+    5.8E-04    1.4E-05
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        41373003   20000627   20010329   20050926       0000
+BIB                  1          2
+REACTION   ((92-U-238(N,G)92-U-239,,SIG,,FST)/
+           (92-U-235(N,F),,SIG,,FST))
+ENDBIB               2
+NOCOMMON
+DATA                 2          1
+DATA       DATA-ERR
+NO-DIM     NO-DIM
+   1.28E-01     4.E-03
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        41373004   20000627   20010329   20050926       0000
+BIB                  1          2
+REACTION   ((92-U-238(N,F),,SIG,,FST)/
+           (92-U-235(N,F),,SIG,,FST))
+ENDBIB               2
+NOCOMMON
+DATA                 2          1
+DATA       DATA-ERR
+NO-DIM     NO-DIM
+    2.9E-02     1.E-03
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY             4

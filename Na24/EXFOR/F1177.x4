@@ -1,0 +1,306 @@
+ENTRY            F1177   20140926   20141203   20141128       F055
+SUBENT        F1177001   20140926   20141203   20141128       F055
+BIB                  9         12
+TITLE      The reaction Ne-22(d,n)Na-23 and Si-28(d,n)P-29.
+AUTHOR     (S.Mubarakmand,B.E.F.Macefield)
+INSTITUTE  (2UK OXF)
+REFERENCE  (J,NP/A,98,97,1967)
+           #doi:10.1016/0375-9474(67)90902-5
+FACILITY   (ACCEL,2UK OXF)
+DETECTOR   (SPEC)
+METHOD     (TOF)
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+           (ERR-DIG)    Data digitizing error
+           (DATA-ERR)   Error from the graphic bars
+HISTORY    (20140926C)
+ENDBIB              12
+NOCOMMON             0          0
+ENDSUBENT           15
+SUBENT        F1177002   20140926   20141203   20141128       F055
+BIB                  4          6
+REACTION   (10-NE-22(D,N)11-NA-23,PAR,DA,,REL)
+COMMENT    No explanation of relative units is given.
+SAMPLE     (10-NE-22,ENR=0.997) A gas target of Ne-22 was used.
+           The gas cell was pressurized to 360 mm of Hg which
+           represents a target thickness of 1.08 mg/cm2.
+STATUS     (CURVE) Fig.4
+ENDBIB               6
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       ARB-UNITS
+  5.         5.5        0.309      0.049
+ENDCOMMON            3
+DATA                 3         14
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+     10.724     28.676      7.092
+     15.459     29.106      6.807
+     20.561     39.406      7.886
+     25.535     44.090      6.922
+     31.531     46.839      7.774
+     36.524     45.168      6.980
+     41.568     44.405      7.433
+     46.998     27.073      8.285
+     53.157     26.020      7.889
+     58.076     23.045      6.073
+     63.411     20.748      5.959
+     72.967     23.139      6.299
+     82.985     23.712      6.411
+     103.01     21.227      5.958
+ENDDATA             16
+ENDSUBENT           31
+SUBENT        F1177003   20140926   20141203   20141128       F055
+BIB                  4          6
+REACTION   (10-NE-22(D,N)11-NA-23,PAR,DA,,REL)
+COMMENT    No explanation of relative units is given.
+SAMPLE     (10-NE-22,ENR=0.997) A gas target of Ne-22 was used.
+           The gas cell was pressurized to 360 mm of Hg which
+           represents a target thickness of 1.08 mg/cm2.
+STATUS     (CURVE) Fig.5
+ENDBIB               6
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       ARB-UNITS
+  5.         6.27       0.305      0.372
+ENDCOMMON            3
+DATA                 3         14
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+     12.055    240.450     23.155
+     16.942    143.820     22.302
+     21.642    109.310     26.252
+     26.393     52.215     14.113
+     32.036     48.185     15.809
+     37.017     28.636     13.836
+     41.726     26.313     15.245
+     47.272     37.248     15.245
+     53.081     29.545     13.833
+     58.050     38.794     14.398
+     63.360     42.109     14.115
+     73.111     30.118     14.683
+     82.941     31.112     13.838
+     103.91     30.261     14.965
+ENDDATA             16
+ENDSUBENT           31
+SUBENT        F1177004   20140926   20141203   20141128       F055
+BIB                  4          6
+REACTION   (10-NE-22(D,N)11-NA-23,PAR,DA,,REL)
+COMMENT    No explanation of relative units is given.
+SAMPLE     (10-NE-22,ENR=0.997) A gas target of Ne-22 was used.
+           The gas cell was pressurized to 360 mm of Hg which
+           represents a target thickness of 1.08 mg/cm2.
+STATUS     (CURVE) Fig.6,7
+ENDBIB               6
+COMMON               3          3
+EN         ANG-ERR-D  ERR-DIG
+MEV        ADEG       ARB-UNITS
+  5.         7.21       0.224
+ENDCOMMON            3
+DATA                 4         28
+E-LVL      ANG-CM     DATA-CM    DATA-ERR
+MEV        ADEG       ARB-UNITS  ARB-UNITS
+       7.21     11.091    117.330     23.016
+       7.21     15.954    139.040     27.921
+       7.21     21.172    172.250     19.998
+       7.21     27.194    180.190     25.092
+       7.21     32.313    168.120     18.111
+       7.21     37.152    105.880     17.923
+       7.21     42.120     74.005     15.658
+       7.21     47.985     65.905     14.715
+       7.21     53.099     55.916     16.790
+       7.21     58.183     61.208     20.563
+       7.21     63.277     61.595     19.809
+       7.21     74.038     58.221     23.204
+       7.21     84.044     55.222     23.771
+       7.21    103.490     51.298     24.336
+       7.42     11.505     81.777     20.260
+       7.42     16.526     98.030     23.671
+       7.42     21.273    130.000     24.999
+       7.42     27.289     97.200     22.915
+       7.42     32.200     97.167     20.451
+       7.42     37.096     66.455     18.370
+       7.42     43.013     47.099     18.559
+       7.42     48.046     37.028     12.498
+       7.42     52.922     31.503     11.174
+       7.42     57.932     46.241     14.015
+       7.42     62.836     45.072     14.393
+       7.42     73.788     44.241     14.392
+       7.42     83.821     47.204     15.150
+       7.42     103.97     37.410     11.173
+ENDDATA             30
+ENDSUBENT           45
+SUBENT        F1177005   20140926   20141203   20141128       F055
+BIB                  4          6
+REACTION   (10-NE-22(D,N)11-NA-23,PAR,DA,,REL)
+COMMENT    No explanation of relative units is given.
+SAMPLE     (10-NE-22,ENR=0.997) A gas target of Ne-22 was used.
+           The gas cell was pressurized to 360 mm of Hg which
+           represents a target thickness of 1.08 mg/cm2.
+STATUS     (CURVE) Fig.8
+ENDBIB               6
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       ARB-UNITS
+  5.         7.79       0.253      0.149
+ENDCOMMON            3
+DATA                 3         14
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+     10.880     50.239      9.708
+     16.168     50.111      9.419
+     20.821     70.353     10.944
+     26.999     75.739     10.564
+     31.793     78.564      9.518
+     36.907     63.591      8.755
+     43.182     65.170      7.896
+     47.945     59.050      6.280
+     52.676     51.598      6.186
+     57.612     52.519      6.568
+     63.873     53.527      6.567
+     73.820     50.705      4.758
+     83.849     35.797      4.284
+    103.890     44.143      6.472
+ENDDATA             16
+ENDSUBENT           31
+SUBENT        F1177006   20140926   20141203   20141128       F055
+BIB                  4          6
+REACTION   (10-NE-22(D,N)11-NA-23,PAR,DA,,REL)
+COMMENT    No explanation of relative units is given.
+SAMPLE     (10-NE-22,ENR=0.997) A gas target of Ne-22 was used.
+           The gas cell was pressurized to 360 mm of Hg which
+           represents a target thickness of 1.08 mg/cm2.
+STATUS     (CURVE) Fig.9
+ENDBIB               6
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       ARB-UNITS
+  5.         8.62       0.211      1.238
+ENDCOMMON            3
+DATA                 3         14
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+     10.874    773.150     72.844
+     15.829    551.040     58.664
+     22.255    386.430     43.512
+     26.923    212.610     52.047
+     33.233    125.590     33.113
+     38.173     63.378     22.687
+     43.456     59.771     23.633
+     48.085     74.234     22.687
+     53.963     75.271     19.879
+     59.243    103.830     23.660
+     64.174    105.010     22.687
+     75.100     94.901     20.769
+     85.198     72.616     14.180
+    104.970     53.653     15.125
+ENDDATA             16
+ENDSUBENT           31
+SUBENT        F1177007   20140926   20141203   20141128       F055
+BIB                  5          9
+REACTION   (14-SI-28(D,N)15-P-29,PAR,DA,,REL)
+COMMENT    No explanation of relative units is given.
+DETECTOR   The monitoring was done with a second time-of-flight
+           spectrometer which used a smaller detector.
+SAMPLE     The gas cell has been pressurized to 300 mm of Hg with
+           silane (SiH4)  gas. This pressure represents a target
+           1.44 mg/cm2 thick with an estimated stopping power of
+           200 keV.
+STATUS     (CURVE) Fig.11
+ENDBIB               9
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       ARB-UNITS
+  4.         0.         0.275      1.663
+ENDCOMMON            3
+DATA                 3         17
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+     11.056    738.500     72.253
+     16.284    525.410     53.241
+     21.481    283.790     51.323
+     26.316    224.710     47.532
+     31.061     84.829     17.117
+     36.311     59.962     12.364
+     42.178     79.759     11.408
+     47.281     91.021     12.347
+     51.844    126.070     11.408
+     62.007    110.570     11.408
+     72.165     90.312     14.259
+     83.271     75.735      9.512
+     93.051     54.542     10.457
+    103.040     52.355     11.408
+    121.890     52.768     13.309
+    141.900     77.866     11.408
+    160.420    113.460     12.364
+ENDDATA             19
+ENDSUBENT           37
+SUBENT        F1177008   20140926   20141203   20141128       F055
+BIB                  5          9
+REACTION   (14-SI-28(D,N)15-P-29,PAR,DA,,REL)
+COMMENT    No explanation of relative units is given.
+DETECTOR   The monitoring was done with a second time-of-flight
+           spectrometer which used a smaller detector.
+SAMPLE     The gas cell has been pressurized to 300 mm of Hg with
+           silane (SiH4)  gas. This pressure represents a target
+           1.44 mg/cm2 thick with an estimated stopping power of
+           200 keV.
+STATUS     (CURVE) Fig.12
+ENDBIB               9
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       ARB-UNITS
+  4.         1.38       0.283      0.282
+ENDCOMMON            3
+DATA                 3         16
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+     11.500     62.515      7.267
+     15.884     68.709      7.720
+     20.906     89.739     14.080
+     26.082    103.200     17.714
+     32.305     97.880     14.838
+     37.144    120.270     14.383
+     42.190    106.330     16.352
+     48.111    117.210     14.232
+     62.910     83.858     15.291
+     72.622     55.517     12.565
+     82.750     75.320      9.842
+     92.792     76.804     11.657
+    103.480     95.848     12.111
+    123.490     82.161     10.597
+    141.870     85.588     10.447
+    160.750     74.327      9.085
+ENDDATA             18
+ENDSUBENT           36
+SUBENT        F1177009   20140926   20141203   20141128       F055
+BIB                  5          9
+REACTION   (14-SI-28(D,N)15-P-29,PAR,DA,,REL)
+COMMENT    No explanation of relative units is given.
+DETECTOR   The monitoring was done with a second time-of-flight
+           spectrometer which used a smaller detector.
+SAMPLE     The gas cell has been pressurized to 300 mm of Hg with
+           silane (SiH4)  gas. This pressure represents a target
+           1.44 mg/cm2 thick with an estimated stopping power of
+           200 keV.
+STATUS     (CURVE) Fig.13
+ENDBIB               9
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       ARB-UNITS
+  4.         2.4        1.088      0.074
+ENDCOMMON            3
+DATA                 3          9
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+     20.490     34.327      6.882
+     26.214     36.631      9.666
+     31.303     40.125      7.619
+     36.141     41.401      6.822
+     42.048     47.118      8.698
+     47.169     36.738      5.742
+     52.562     31.534      6.539
+     62.604     27.606      6.426
+     73.718     18.110      6.253
+ENDDATA             11
+ENDSUBENT           29
+ENDENTRY             9

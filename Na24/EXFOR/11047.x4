@@ -1,0 +1,796 @@
+ENTRY            11047     830909   20050616   20050926       0000
+SUBENT        11047001     830909   20050616   20050926       0000
+BIB                  9         10
+INSTITUTE  (1USAORL)
+REFERENCE  (J,PR,83,641,51)
+AUTHOR     (H.POMERANCE)
+TITLE      THERMAL NEUTRON CAPTURE CROSS SECTIONS.
+FACILITY   (OSCIP) PILE OSCILLATOR
+INC-SPECT  THERMAL SPECTRUM
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+STATUS     (SCSRS)
+HISTORY    (760628T) TRANSLATED FROM SCISRS
+           (820106A) CONVERTED TO REACTION FORMALISM
+ENDBIB              10
+COMMON               1          3
+MONIT
+B
+ 95.
+ENDCOMMON            3
+ENDSUBENT           17
+SUBENT        11047002     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (3-LI-0(N,ABS),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 6.7    +01 5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047003     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (5-B-0(N,ABS),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 7.30   +02    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047004     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (7-N-0(N,ABS),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 1.86   +00    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047005     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 4.7    -01    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047006     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (12-MG-0(N,ABS),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 6.     -02 10.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047007     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (13-AL-27(N,G)13-AL-28,,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 2.2    -01  5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047008     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (14-SI-0(N,ABS),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 1.0    -01   20.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047009     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (15-P-31(N,G)15-P-32,,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 1.5    -01   10.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047010     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (16-S-0(N,ABS),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 4.7    -01   10.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047011     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (17-CL-0(N,ABS),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 3.27   +01    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047012     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (19-K-0(N,ABS),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 2.05   +00    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047013     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (20-CA-0(N,ABS),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 4.1    -01    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047014     830909   20050616   20050926       0000
+BIB                  3          3
+REACTION   (21-SC-45(N,G)21-SC-46,,SIG,,MXW)
+STATUS     (OUTDT,11047015)
+HISTORY    (830817U) STATUS CORRECTION
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 1.18   +01    5.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11047015     830909   20050616   20050926       0000
+BIB                  3          4
+REACTION   (21-SC-45(N,G)21-SC-46,,SIG,,MXW)
+STATUS     DATA FROM PRIVATE COMM.,POMERANCE, 52/10, QUOTED IN
+            PHYS.REV.89,657(1953).
+HISTORY    (830817U) STATUS CORRECTION.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 23.        5.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11047016     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (22-TI-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 5.8    +00 5.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047017     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (23-V-0(N,ABS),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 4.7    +00 5.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047018     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (24-CR-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 2.83   +00 5.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047019     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (25-MN-55(N,G)25-MN-56,,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 1.28   +01 5.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047020     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (26-FE-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 2.39   +00    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047021     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (27-CO-59(N,G)27-CO-60,,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 3.42   +01    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047022     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (28-NI-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 4.5    +00    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047023     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (29-CU-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 3.57   +00    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047024     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (30-ZN-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 1.00   +00    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047025     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (31-GA-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 2.77   +00    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047026     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (32-GE-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 2.2    +00   10.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047027     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (33-AS-75(N,G)33-AS-76,,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 4.14   +00    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047028     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (34-SE-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 1.21   +01    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047029     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (35-BR-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 6.4    +00    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047030     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (37-RB-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 7.0    -01   10.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047031     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (38-SR-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 1.16   +00    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047032     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (39-Y-89(N,G)39-Y-90,,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 1.38   +00   10.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047033     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (40-ZR-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 1.8    -01   10.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047034     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (41-NB-93(N,ABS),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 1.06   +00    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047035     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (42-MO-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 2.40   +00    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047036     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (44-RU-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 2.46   +00    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047037     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (45-RH-103(N,G)45-RH-104,,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 1.50   +02    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047038     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (46-PD-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 6.6    +00    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047039     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (47-AG-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 6.0    +01    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047040     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (48-CD-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 3.500  +03    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047041     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (49-IN-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 1.91   +02    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047042     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (50-SN-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          PER-CENT
+ 2.53   -08 5.8    -01    5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047043     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (52-TE-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     4.5        0.25
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047044     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (53-I-127(N,G)53-I-128,,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     6.1        0.3
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047045     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (55-CS-133(N,G)55-CS-134,,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     29.0       1.5
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047046     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (59-PR-141(N,G)59-PR-142,,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     11.2       0.6
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047047     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (60-ND-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     44.        2.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047048     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (62-SM-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+EN-DUMMY   DATA
+EV         B
+ 0.0253    10600.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047049     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (63-EU-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+EN-DUMMY   DATA
+EV         B
+ 0.0253     4.2    +03
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047050     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (64-GD-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+EN-DUMMY   DATA
+EV         B
+ 0.0253     35.    +03
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047051     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (66-DY-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+EN-DUMMY   DATA
+EV         B
+ 0.0253     890.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047052     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (67-HO-165(N,G)67-HO-166,,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     64.        3.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047053     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (68-ER-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          PER-CENT
+ 0.0253     166.       10.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047054     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (70-YB-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     36.        4.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047055     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (71-LU-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     108.        6.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047056     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (72-HF-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     102.       5.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047057     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (73-TA-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     21.3       1.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047058     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (74-W-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     17.7       0.8
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047059     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (78-PT-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+ 0.0253     8.1        0.4
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047060     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (80-HG-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+EN-DUMMY   DATA
+EV         B
+ 0.0253     341.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047061     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (51-SB-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          PER-CENT
+ 0.0253     5.3        5.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047062     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (56-BA-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          PER-CENT
+ 0.0253     1.05       5.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047063     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (57-LA-139(N,G)57-LA-140,,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          PER-CENT
+ 0.0253     8.8        5.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047064     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (58-CE-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          PER-CENT
+ 0.0253     0.80       10.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047065     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (65-TB-159(N,G)65-TB-160,,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          PER-CENT
+ 0.0253     44.        10.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047066     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (69-TM-169(N,G)69-TM-170,,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          PER-CENT
+ 0.0253     118.       5.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047067     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (75-RE-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          PER-CENT
+ 0.0253     84.        5.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047068     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (76-OS-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          PER-CENT
+ 0.0253     14.7       5.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047069     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (77-IR-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          PER-CENT
+ 0.0253     440.       5.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047070     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (81-TL-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          PER-CENT
+ 0.0253     3.27       5.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11047071     820106   20050616   20050926       0000
+BIB                  1          1
+REACTION   (82-PB-0(N,G),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          PER-CENT
+ 0.0253     0.19       5.
+ENDDATA              3
+ENDSUBENT            9
+ENDENTRY            71

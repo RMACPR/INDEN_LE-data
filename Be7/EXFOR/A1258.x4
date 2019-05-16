@@ -1,0 +1,31 @@
+ENTRY            A1258   19990322   19990505   20050926       0000
+SUBENT        A1258001   19990322   19990505   20050926       0000
+BIB                  9         10
+INSTITUTE  (2GERMST)
+REFERENCE  (J,ZP/A,310,91,1983)
+AUTHOR     (H.VOLK,H.KRAVINKEL,R.SANTO,L.WALLEK)
+TITLE      Activation measurement of the 3He(a,g)7Be reaction
+FACILITY   (VDGT)
+SAMPLE     A gas target of 4He
+METHOD     (ACTIV)
+DETECTOR   (GELI)
+HISTORY    (19871215C) Compilation produced by Arzamas RFNC-VNIIEF
+           (19990315U)CNPD: corrected 4-dig. year and lower cases.
+ENDBIB              10
+NOCOMMON
+ENDSUBENT           13
+SUBENT        A1258002   19990322   19990505   20050926       0000
+BIB                  3          3
+REACTION   (2-HE-3(A,G)4-BE-7,,SIG,,SFC,EXP)
+ERR-ANALYS (ERR-T) Total error
+STATUS     (TABLE) Table 3
+ENDBIB               3
+NOCOMMON
+DATA                 3          2
+EN         DATA       ERR-T
+MEV        MB*MEV     MB*MEV
+     0.         0.56       0.03
+     0.         0.62       0.06
+ENDDATA              4
+ENDSUBENT           12
+ENDENTRY             2

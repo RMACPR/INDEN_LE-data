@@ -1,0 +1,89 @@
+ENTRY            30774   20090908   20091224   20091223       3141
+SUBENT        30774001   20090908   20091224   20091223       3141
+BIB                 13         29
+TITLE      Simple measurement of neutron cross section ratio
+           for reactions leading to the same radionuclide
+AUTHOR     (J.Janczyszyn)
+INSTITUTE  (3POLITJ)
+REFERENCE  (C,82ANTWER,,869,198209)
+MONIT-REF  (,M.BORMANN+,R,STI/DOC/10-156,87,1974)
+SAMPLE     Samples were packed in polyethylene containers.
+           Metallic samples or powder pressed Tablets dimensions
+            were: dia. 17 * 1.5 mm or dia. 17 * 7.5 mm
+FACILITY   (NGEN) Neutron generator
+INC-SOURCE (D-T)
+METHOD     (ACTIV)
+ERR-ANALYS (DATA-ERR) The cross section ratios are determined
+           with a relative error of 3 - 5 %. This error is
+           caused mainly by inaccurate measurement of neutron
+           flux density ratio.
+COMMENT    Given neutron energy in common section is measured
+           value (private communication of J.Janczyszyn on 14
+           Sept. 1988). Calculated value is 14.9 + 0.0 MeV,
+           14.9 - 0.3 MeV given in Conf. on Nucl. Data for Sci.
+           and Technol., Antwerp 1982, p. 869.
+STATUS     (TABLE) Data taken from Table 2 of Conf. on Nucl. Data
+           for Sci. and Technol., Antwerp, p.869, 1982.
+           (APRVD) Approved by J.Janczyszyn on 14 Sep. 1988
+HISTORY    (19880516C) TMK
+           (19881010A) TMK. Neutron energy corrected. Comment and
+                     status approved added.
+           (19890310A) VOF.-Monitor code corrected in sub 2,3,4.-
+           (20090725A) SD:Updated to new date formats,lower case.
+ENDBIB              29
+COMMON               3          3
+EN         +EN-ERR    -EN-ERR
+MEV        MEV        MEV
+14.9       0.15       0.25
+ENDCOMMON            3
+ENDSUBENT           36
+SUBENT        30774002   20090908   20091224   20091223       3141
+BIB                  5          7
+REACTION  1((11-NA-23(N,P)10-NE-23,,SIG)/
+           (12-MG-26(N,A)10-NE-23,,SIG))
+          2(12-MG-26(N,A)10-NE-23,,SIG)
+SAMPLE     NaF and Mg.
+MONITOR   2(11-NA-23(N,P)10-NE-23,,SIG)
+DECAY-DATA (10-NE-23,37.2SEC,DG,439.)
+DETECTOR   (GELI)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2MONIT     2MONIT-ERR 2
+NO-DIM     NO-DIM     MB         MB         MB         MB
+0.724      0.026      59.        7.         43.        5.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30774003   20090908   20091224   20091223       3141
+BIB                  4          6
+REACTION  1((13-AL-27(N,P)12-MG-27,,SIG)/
+           (14-SI-30(N,A)12-MG-27,,SIG))
+          2(14-SI-30(N,A)12-MG-27,,SIG)
+SAMPLE     Al, Al2O3 + cellulose, Si02, Si
+MONITOR   2(14-SI-28(N,P)13-AL-28,,SIG)
+DETECTOR   (GELI)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 6          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2MONIT     2MONIT-ERR 2
+NO-DIM     NO-DIM     MB         MB         MB         MB
+0.880      0.035      85.        9.         75.        7.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30774004   20090908   20091224   20091223       3141
+BIB                  4          6
+REACTION  1((14-SI-28(N,P)13-AL-28,,SIG)/
+           (15-P-31(N,A)13-AL-28,,SIG))
+          2(15-P-31(N,A)13-AL-28,,SIG)
+SAMPLE     SiO2, p + cellulose
+MONITOR   2(14-SI-28(N,P)13-AL-28,,SIG)
+DETECTOR   (GELI) and (scin)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 6          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2MONIT     2MONIT-ERR 2
+NO-DIM     NO-DIM     MB         MB         MB         MB
+2.018      0.058      104.       10.        210.       20.
+ENDDATA              3
+ENDSUBENT           14
+ENDENTRY             4

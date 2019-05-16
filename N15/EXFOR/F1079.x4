@@ -1,0 +1,743 @@
+ENTRY            F1079   20120123   20120702   20120702       F045
+SUBENT        F1079001   20120123   20120702   20120702       F045
+BIB                 10         22
+TITLE      Studies of some sub-coulomb deuteron-induced reaction
+           on C-13 and C-12.
+AUTHOR     (G.D.Putt)
+INSTITUTE  (3AULAML,1CANUBC)
+REFERENCE  (J,NP/A,161,547,1971)
+           #doi:10.1016/0375-9474(71)90386-1
+FACILITY   (VDG,3AULAML) The 1 MV Van de Graaff accelerator.
+DETECTOR   (SIBAR) Surface barrier detectors with a sensitive
+           area  of 100 mm2 were used. The intrinsic  resolution
+           of detectors was measured to be 30 keV.
+SAMPLE     The carbon films were picked up on 2 cm*2 cm frames
+           which provided a 1.3 cm diameter circle available for
+           bombardment. The targets were usually 15 to 20
+           mu-g/cm2  thick and as such were about 6 keV thick to
+           a 0.5 MeV  deuteron beam.
+METHOD     (BCINT)
+ERR-ANALYS Accuracy of the differential cross section data is
+           about the same as the 13C(d,p)14C.
+           (ERR-DIG)    Data digitizing error
+HISTORY    (20100706C)
+           (20120123A)  COMMON in Sub 004-014 was changed,
+           REACTION code in Sub 004-014 was changed.
+ENDBIB              22
+NOCOMMON             0          0
+ENDSUBENT           25
+SUBENT        F1079002   20100706   20110216   20110112       F039
+BIB                  4          7
+REACTION   (6-C-13(D,EL)6-C-13,,DA,,RTH/REL)
+           Rutherford ratio is given in arbitrary units.
+SAMPLE     The targets were prepared by cracking methyl iodide
+           with a 13C enrichment of 65% onto a thin nickel backing
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+           (DATA-ERR)   Error from the graphic bars
+STATUS     (CURVE) Fig.3
+ENDBIB               7
+COMMON               3          3
+EN         ANG-ERR-D  ERR-DIG
+MEV        ADEG       ARB-UNITS
+ 0.71       0.041      0.0009
+ENDCOMMON            3
+DATA                 3          9
+ANG        DATA       DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+     79.947     1.0059  1.042E-02
+     90.087    0.99753  1.043E-02
+     99.804    0.99541   1.25E-02
+     109.94    0.98703   1.27E-02
+     120.08    0.98699  1.042E-02
+      129.8    0.98278  1.044E-02
+     139.95    0.99523  1.043E-02
+     150.09     1.0056  1.041E-02
+      159.8    0.99932  1.042E-02
+ENDDATA             11
+ENDSUBENT           27
+SUBENT        F1079003   20100706   20110216   20110112       F039
+BIB                  4          6
+REACTION   (6-C-13(D,EL)6-C-13,,DA,,RTH/REL)
+           Rutherford ratio is given in arbitrary units.
+SAMPLE     Natural carbon target (13C content 1.1%) was used.
+ERR-ANALYS (EN-ERR-DIG) Energy digitizing error
+           (DATA-ERR)   Error from the graphic bars
+STATUS     (CURVE) Fig.3
+ENDBIB               6
+COMMON               3          3
+ANG        EN-ERR-DIG ERR-DIG
+ADEG       MEV        ARB-UNITS
+ 90.        0.0011     0.0001
+ENDCOMMON            3
+DATA                 3         11
+EN         DATA       DATA-ERR
+MEV        ARB-UNITS  ARB-UNITS
+    0.39636     1.0375  1.667E-02
+    0.44705     1.0167  1.875E-02
+    0.49563    0.99377  1.874E-02
+     0.5442    0.99794  1.458E-02
+    0.59489     1.0042  1.667E-02
+    0.64769    0.99586  1.875E-02
+    0.69626     1.0063  1.667E-02
+    0.74695    0.97504  1.668E-02
+    0.79763    0.97296  1.666E-02
+    0.84833    0.91047  2.083E-02
+    0.89902    0.78755  1.875E-02
+ENDDATA             13
+ENDSUBENT           28
+SUBENT        F1079004   20120123   20120702   20120702       F045
+BIB                  4          6
+REACTION   (6-C-12(D,P)6-C-13,PAR,DA)
+SAMPLE     The targets were prepared by cracking methyl iodide
+           with a 13C enrichment of 65% onto a thin nickel backing
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+           (ERR-S)      Statistical error
+STATUS     (CURVE) Fig.6
+ENDBIB               6
+COMMON               5          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG    ERR-S
+MEV        MEV        ADEG       MB/SR      PER-CENT
+ 0.41       0.         0.154      0.0003     3.
+ENDCOMMON            3
+DATA                 2         14
+ANG-CM     DATA-CM
+ADEG       MB/SR
+     20.697    0.24463
+     31.173    0.29117
+     41.648    0.33584
+     51.381    0.41406
+      61.86    0.48296
+     71.962    0.52764
+     82.432    0.54436
+     92.157    0.57413
+     102.25    0.55359
+     112.34    0.55355
+     122.05    0.51251
+     132.14    0.46216
+     141.48    0.42671
+     150.82      0.395
+ENDDATA             16
+ENDSUBENT           31
+SUBENT        F1079005   20120123   20120702   20120702       F045
+BIB                  4          6
+REACTION   (6-C-12(D,P)6-C-13,PAR,DA)
+SAMPLE     The targets were prepared by cracking methyl iodide
+           with a 13C enrichment of 65% onto a thin nickel backing
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+           (ERR-S)      Statistical error
+STATUS     (CURVE) Fig.6
+ENDBIB               6
+COMMON               5          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG    ERR-S
+MEV        MEV        ADEG       MB/SR      PER-CENT
+ 0.51       0.         0.169      0.0005     2.
+ENDCOMMON            3
+DATA                 2         14
+ANG-CM     DATA-CM
+ADEG       MB/SR
+     20.751    0.61839
+     31.157     0.6887
+     41.191    0.73678
+     51.971    0.82561
+     61.634     0.8774
+     71.672    0.99215
+      83.19     1.0106
+     93.221     1.0105
+     102.51    0.96603
+     111.79    0.85857
+     122.19    0.82517
+     131.84    0.75104
+     141.87     0.6806
+     150.78    0.64351
+ENDDATA             16
+ENDSUBENT           31
+SUBENT        F1079006   20120123   20120702   20120702       F045
+BIB                  4          7
+REACTION   (6-C-13(D,P)6-C-14,PAR,DA)
+SAMPLE     The targets were prepared by cracking methyl iodide
+           with a 13C enrichment of 65% onto a thin nickel backing
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+           (DATA-ERR)   Error from the graphic bars
+           (ERR-S)      Statistical error
+STATUS     (CURVE) Fig.7
+ENDBIB               7
+COMMON               5          3
+EN         E-LVL      ERR-S      ANG-ERR-D  ERR-DIG
+MEV        MEV        PER-CENT   ADEG       MB/SR
+ 0.41       0.          3.         0.37       0.0001
+ENDCOMMON            3
+DATA                 3         14
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+     20.278    0.17837
+     30.342    0.16569
+     40.409    0.13884
+     50.474    0.12466
+     61.287  9.706E-02
+     71.351  8.513E-02
+     81.791  5.827E-02
+     91.482  4.858E-02
+     101.55  2.694E-02
+     111.98  2.396E-02
+     121.67  1.725E-02
+     130.99  2.174E-02  3.731E-03
+      141.8    2.1E-02  3.734E-03
+     151.11   2.25E-02  3.732E-03
+ENDDATA             16
+ENDSUBENT           32
+SUBENT        F1079007   20120123   20120702   20120702       F045
+BIB                  4          6
+REACTION   (6-C-13(D,P)6-C-14,PAR,DA)
+SAMPLE     The targets were prepared by cracking methyl iodide
+           with a 13C enrichment of 65% onto a thin nickel backing
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+           (ERR-S)      Statistical error
+STATUS     (CURVE) Fig.7
+ENDBIB               6
+COMMON               5          3
+EN         E-LVL      ERR-S      ANG-ERR-D  ERR-DIG
+MEV        MEV        PER-CENT   ADEG       MB/SR
+ 0.51       0.         2.         0.175      0.0008
+ENDCOMMON            3
+DATA                 2         14
+ANG-CM     DATA-CM
+ADEG       MB/SR
+     20.453    0.54036
+     30.102    0.48822
+     40.489     0.4156
+     50.882    0.36904
+     60.897    0.29643
+     71.659    0.23498
+     81.304    0.16609
+     91.695    0.11208
+     100.98  7.668E-02
+     110.63  5.617E-02
+     121.03  5.797E-02
+     131.44  6.722E-02
+      141.1  9.694E-02
+     150.77    0.12107
+ENDDATA             16
+ENDSUBENT           31
+SUBENT        F1079008   20120123   20120702   20120702       F045
+BIB                  4          6
+REACTION   (6-C-13(D,P)6-C-14,PAR,DA)
+SAMPLE     The targets were prepared by cracking methyl iodide
+           with a 13C enrichment of 65% onto a thin nickel backing
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+           (ERR-S)      Statistical error
+STATUS     (CURVE) Fig.7
+ENDBIB               6
+COMMON               4          3
+E-LVL      ERR-S      ANG-ERR-D  ERR-DIG
+MEV        PER-CENT   ADEG       MB/SR
+ 0.         2.         0.185      0.0001
+ENDCOMMON            3
+DATA                 3         28
+EN         ANG-CM     DATA-CM
+MEV        ADEG       MB/SR
+       0.61     20.294    0.90229
+       0.61      30.73    0.82713
+       0.61     40.795    0.70309
+       0.61     51.604    0.59784
+       0.61     61.668    0.48132
+       0.61     71.732    0.40239
+       0.61     81.796    0.31594
+       0.61     91.859    0.25957
+       0.61     102.29    0.19944
+       0.61     111.98    0.19194
+       0.61     121.67    0.18444
+       0.61     131.36    0.20702
+       0.61     141.05    0.24087
+       0.61     151.11    0.27096
+       0.71     20.387     1.1503
+       0.71     30.411    0.98484
+       0.71     40.067    0.89833
+       0.71     50.833    0.70656
+       0.71     61.601    0.56366
+       0.71     71.254    0.37941
+       0.71      81.28    0.27034
+       0.71     91.307    0.17256
+       0.71     101.34    0.10484
+       0.71     111.74    0.11608
+       0.71      121.4    0.14236
+       0.71     131.06    0.21751
+       0.71      141.1    0.33401
+       0.71     151.13    0.39412
+ENDDATA             30
+ENDSUBENT           45
+SUBENT        F1079009   20120123   20120702   20120702       F045
+BIB                  4          6
+REACTION   (6-C-13(D,P)6-C-14,PAR,DA)
+SAMPLE     The targets were prepared by cracking methyl iodide
+           with a 13C enrichment of 65% onto a thin nickel backing
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+           (ERR-S)      Statistical error
+STATUS     (CURVE) Fig.7
+ENDBIB               6
+COMMON               5          3
+EN         E-LVL      ERR-S      ANG-ERR-D  ERR-DIG
+MEV        MEV        PER-CENT   ADEG       MB/SR
+ 0.81       0.         2.         0.082      0.0013
+ENDCOMMON            3
+DATA                 2         14
+ANG-CM     DATA-CM
+ADEG       MB/SR
+     20.683     2.1619
+     31.118     1.9714
+     41.553     1.7714
+     51.242     1.4762
+     61.304     1.1619
+     72.112    0.95238
+     81.801     0.6002
+     91.863    0.41905
+     101.93     0.3324
+     111.99    0.32381
+     121.68    0.40952
+     131.74    0.61905
+     141.43      1.019
+     151.49     1.2381
+ENDDATA             16
+ENDSUBENT           31
+SUBENT        F1079010   20120123   20120702   20120702       F045
+BIB                  4          5
+REACTION   (6-C-13(D,T)6-C-12,PAR,DA)
+SAMPLE     The targets were prepared by cracking methyl iodide
+           with a 13C enrichment of 65% onto a thin nickel backing
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+STATUS     (CURVE) Fig.8
+ENDBIB               5
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       MB/SR
+ 0.41       0.         0.095      0.0001
+ENDCOMMON            3
+DATA                 2         14
+ANG-CM     DATA-CM
+ADEG       MB/SR
+     21.484    0.10955
+     33.118    0.11839
+     43.623    0.12353
+     54.131    0.13164
+     65.007    0.13308
+     75.137    0.13749
+     85.623    0.12411
+     95.357    0.10778
+     105.47  9.663E-02
+     115.58  8.177E-02
+     125.32  7.285E-02
+     134.31  6.466E-02
+     144.06  6.018E-02
+     153.43   5.57E-02
+ENDDATA             16
+ENDSUBENT           30
+SUBENT        F1079011   20120123   20120702   20120702       F045
+BIB                  4          5
+REACTION   (6-C-13(D,T)6-C-12,PAR,DA)
+SAMPLE     The targets were prepared by cracking methyl iodide
+           with a 13C enrichment of 65% onto a thin nickel backing
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+STATUS     (CURVE) Fig.8
+ENDBIB               5
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       MB/SR
+ 0.51       0.         0.103      0.0002
+ENDCOMMON            3
+DATA                 2         14
+ANG-CM     DATA-CM
+ADEG       MB/SR
+     22.391    0.36193
+     33.204     0.3712
+     43.646    0.38425
+     55.186    0.36143
+     65.612    0.34807
+     76.019    0.30074
+     85.693    0.27418
+     95.725    0.22308
+     105.77    0.20217
+     115.45    0.17184
+      125.5    0.16225
+     135.18    0.15078
+     143.77    0.16763
+     153.46    0.17315
+ENDDATA             16
+ENDSUBENT           30
+SUBENT        F1079012   20120123   20120702   20120702       F045
+BIB                  4          5
+REACTION   (6-C-13(D,T)6-C-12,PAR,DA)
+SAMPLE     The targets were prepared by cracking methyl iodide
+           with a 13C enrichment of 65% onto a thin nickel backing
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+STATUS     (CURVE) Fig.8
+ENDBIB               5
+COMMON               5          3
+EN         E-LVL      ERR-S      ANG-ERR-D  ERR-DIG
+MEV        MEV        PER-CENT   ADEG       MB/SR
+ 0.61       0.         2.         0.184      0.0002
+ENDCOMMON            3
+DATA                 2         14
+ANG-CM     DATA-CM
+ADEG       MB/SR
+     20.974    0.86755
+     32.224    0.86758
+     42.724    0.87497
+     53.976    0.81611
+     64.479    0.71675
+     74.982    0.59531
+      85.86      0.507
+     95.987    0.45549
+     106.11    0.41871
+     115.49     0.4077
+     124.86    0.40404
+     134.61    0.43352
+     143.61    0.43722
+     152.99    0.45566
+ENDDATA             16
+ENDSUBENT           30
+SUBENT        F1079013   20120123   20120702   20120702       F045
+BIB                  4          5
+REACTION   (6-C-13(D,T)6-C-12,PAR,DA)
+SAMPLE     The targets were prepared by cracking methyl iodide
+           with a 13C enrichment of 65% onto a thin nickel backing
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+STATUS     (CURVE) Fig.8
+ENDBIB               5
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       MB/SR
+ 0.71       0.         0.122      0.0035
+ENDCOMMON            3
+DATA                 2         13
+ANG-CM     DATA-CM
+ADEG       MB/SR
+     22.698     1.5104
+     33.469      1.473
+     44.234     1.3615
+     54.995      1.213
+     66.112    0.87187
+     76.878    0.77521
+     87.276    0.72301
+     97.303    0.67823
+     106.59    0.69273
+     115.51    0.73688
+     125.18     0.7884
+     134.47    0.83254
+     143.01    0.85447
+ENDDATA             15
+ENDSUBENT           29
+SUBENT        F1079014   20120123   20120702   20120702       F045
+BIB                  4          5
+REACTION   (6-C-13(D,T)6-C-12,PAR,DA)
+SAMPLE     The targets were prepared by cracking methyl iodide
+           with a 13C enrichment of 65% onto a thin nickel backing
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+STATUS     (CURVE) Fig.8
+ENDBIB               5
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       MB/SR
+ 0.81       0.         0.235      0.0027
+ENDCOMMON            3
+DATA                 2         14
+ANG-CM     DATA-CM
+ADEG       MB/SR
+     21.867     2.1114
+     32.361     2.0082
+     44.728     1.8583
+     54.835     1.5495
+      64.95     1.3622
+     76.938     1.1375
+     87.434     1.0717
+     97.179    0.97795
+     106.93     1.0243
+     117.06     1.1268
+     125.69     1.1919
+     135.08     1.3785
+     144.83     1.5184
+      153.1     1.7517
+ENDDATA             16
+ENDSUBENT           30
+SUBENT        F1079015   20100706   20110216   20110112       F039
+BIB                  4          5
+REACTION   (6-C-13(D,A)5-B-11,PAR,DA)
+SAMPLE     The targets were prepared by cracking methyl iodide
+           with a 13C enrichment of 65% onto a thin nickel backing
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+STATUS     (CURVE) Fig.9
+ENDBIB               5
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       MB/SR
+ 0.41       0.         0.141      0.0004
+ENDCOMMON            3
+DATA                 2         14
+ANG-CM     DATA-CM
+ADEG       MB/SR
+     21.253    0.16087
+     31.359    0.14691
+     42.957     0.1367
+     53.425    0.13676
+     63.521    0.13308
+     73.607    0.14155
+      83.69    0.15282
+     93.401    0.16222
+     103.48    0.18097
+     113.56    0.19598
+     123.64    0.20632
+     133.36    0.21011
+     143.07    0.21765
+     152.05    0.21116
+ENDDATA             16
+ENDSUBENT           30
+SUBENT        F1079016   20100706   20110216   20110112       F039
+BIB                  4          5
+REACTION   (6-C-13(D,A)5-B-11,PAR,DA)
+SAMPLE     The targets were prepared by cracking methyl iodide
+           with a 13C enrichment of 65% onto a thin nickel backing
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+STATUS     (CURVE) Fig.9
+ENDBIB               5
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       MB/SR
+ 0.51       0.         0.181      0.0019
+ENDCOMMON            3
+DATA                 2         14
+ANG-CM     DATA-CM
+ADEG       MB/SR
+     21.023    0.34214
+     32.238    0.33839
+     42.705    0.33089
+     52.799    0.32715
+     62.892    0.35724
+     73.358     0.4174
+     83.451    0.45501
+     93.917    0.53397
+     104.01    0.61293
+     113.73    0.65054
+     123.82    0.69191
+     133.91    0.71824
+     143.63    0.75585
+     152.61    0.78218
+ENDDATA             16
+ENDSUBENT           30
+SUBENT        F1079017   20100706   20110216   20110112       F039
+BIB                  4          5
+REACTION   (6-C-13(D,A)5-B-11,PAR,DA)
+SAMPLE     The targets were prepared by cracking methyl iodide
+           with a 13C enrichment of 65% onto a thin nickel backing
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+STATUS     (CURVE) Fig.9,10
+ENDBIB               5
+COMMON               2          3
+ANG-ERR-D  ERR-DIG
+ADEG       MB/SR
+ 0.121      0.0036
+ENDCOMMON            3
+DATA                 4         42
+E-LVL      EN         ANG-CM     DATA-CM
+MEV        MEV        ADEG       MB/SR
+         0.       0.61     21.733    0.72346
+         0.       0.61     32.535     0.7889
+         0.       0.61     43.341    0.80803
+         0.       0.61     53.398    0.86416
+         0.       0.61     63.451    0.95733
+         0.       0.61     74.247     1.0783
+         0.       0.61     83.927       1.19
+         0.       0.61     94.347      1.348
+         0.       0.61      104.4     1.4411
+         0.       0.61     114.08     1.5806
+         0.       0.61     123.38      1.683
+         0.       0.61     133.44     1.7669
+         0.       0.61     143.12     1.8971
+         0.       0.61     151.68     2.0272
+         0.       0.71     21.434    0.32807
+         0.       0.71     31.822    0.53127
+         0.       0.71     43.696    0.74375
+         0.       0.71     53.332     1.0944
+         0.       0.71     63.707     1.4911
+         0.       0.71     74.452     1.9063
+         0.       0.71     84.463     2.2109
+         0.       0.71     94.106     2.4509
+         0.       0.71      104.5     2.5804
+         0.       0.71     114.52     2.7099
+         0.       0.71     123.81     2.6365
+         0.       0.71     133.47     2.6554
+         0.       0.71      143.5      2.665
+         0.       0.71     152.42     2.6193
+      2.124       0.81     21.999     1.8691
+      2.124       0.81     33.953     1.9829
+      2.124       0.81     44.421      1.974
+      2.124       0.81      55.27     1.8708
+      2.124       0.81     65.745      1.777
+      2.124       0.81     75.855     1.5699
+      2.124       0.81     86.333     1.4384
+      2.124       0.81     96.444     1.2219
+      2.124       0.81     106.18      1.062
+      2.124       0.81     115.53     1.0154
+      2.124       0.81     125.62     1.0536
+      2.124       0.81     134.59     1.0069
+      2.124       0.81     143.19     1.0639
+      2.124       0.81      152.9     1.1777
+ENDDATA             44
+ENDSUBENT           58
+SUBENT        F1079018   20100706   20110216   20110112       F039
+BIB                  4          5
+REACTION   (6-C-13(D,A)5-B-11,PAR,DA)
+SAMPLE     The targets were prepared by cracking methyl iodide
+           with a 13C enrichment of 65% onto a thin nickel backing
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+STATUS     (CURVE) Fig.9
+ENDBIB               5
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       MB/SR
+ 0.81       0.         0.185      0.0064
+ENDCOMMON            3
+DATA                 2         14
+ANG-CM     DATA-CM
+ADEG       MB/SR
+     21.434     1.7568
+     32.987     1.7381
+     43.422     1.8688
+     53.485     2.0369
+     63.922      2.635
+     74.358     3.2704
+     84.795     3.7376
+     94.858     4.0553
+     105.29     4.0739
+     114.61     3.7374
+     124.67     3.6251
+     133.61     3.6251
+      143.3     3.6998
+     152.62     3.9053
+ENDDATA             16
+ENDSUBENT           30
+SUBENT        F1079019   20100706   20110216   20110112       F039
+BIB                  4          5
+REACTION   (6-C-13(D,A)5-B-11,PAR,DA)
+SAMPLE     The targets were prepared by cracking methyl iodide
+           with a 13C enrichment of 65% onto a thin nickel backing
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+STATUS     (CURVE) Fig.10
+ENDBIB               5
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       MB/SR
+ 0.41       2.124      0.078      0.0002
+ENDCOMMON            3
+DATA                 2         14
+ANG-CM     DATA-CM
+ADEG       MB/SR
+     22.301    0.10341
+     33.493  9.821E-02
+     43.586  8.518E-02
+     54.037  7.849E-02
+     63.771  5.985E-02
+     74.615  4.421E-02
+     85.834  2.782E-02
+     95.898  2.709E-02
+     105.59  2.674E-02
+     114.89  3.199E-02
+     123.45  3.835E-02
+     133.83  6.151E-02
+     143.13  7.012E-02
+     152.04  8.058E-02
+ENDDATA             16
+ENDSUBENT           30
+SUBENT        F1079020   20100706   20110216   20110112       F039
+BIB                  4          5
+REACTION   (6-C-13(D,A)5-B-11,PAR,DA)
+SAMPLE     The targets were prepared by cracking methyl iodide
+           with a 13C enrichment of 65% onto a thin nickel backing
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+STATUS     (CURVE) Fig.10
+ENDBIB               5
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       MB/SR
+ 0.51       2.124      0.211      0.001
+ENDCOMMON            3
+DATA                 2         14
+ANG-CM     DATA-CM
+ADEG       MB/SR
+     22.189    0.38319
+     33.707    0.34581
+     43.739    0.31965
+     53.771    0.26171
+      65.29    0.19256
+      74.95    0.16266
+     84.982    0.11967
+     95.013  9.538E-02
+     104.67   7.67E-02
+     115.08  9.913E-02
+     124.73    0.12904
+     133.65     0.1683
+     142.94    0.19634
+      152.6    0.21691
+ENDDATA             16
+ENDSUBENT           30
+SUBENT        F1079021   20100706   20110216   20110112       F039
+BIB                  4          5
+REACTION   (6-C-13(D,A)5-B-11,PAR,DA)
+SAMPLE     The targets were prepared by cracking methyl iodide
+           with a 13C enrichment of 65% onto a thin nickel backing
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+STATUS     (CURVE) Fig.10
+ENDBIB               5
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       MB/SR
+ 0.61       2.124      0.362      0.0017
+ENDCOMMON            3
+DATA                 2         14
+ANG-CM     DATA-CM
+ADEG       MB/SR
+     22.669     1.0854
+     34.255     1.0592
+     44.332    0.93979
+     55.154     0.7943
+      65.97    0.61155
+     76.053    0.52943
+     85.758    0.42123
+      96.59    0.35028
+     106.68    0.32406
+     116.03    0.32394
+     125.75    0.35735
+      135.1    0.41685
+     143.71    0.49127
+     153.81    0.55076
+ENDDATA             16
+ENDSUBENT           30
+SUBENT        F1079022   20100706   20110216   20110112       F039
+BIB                  4          5
+REACTION   (6-C-13(D,A)5-B-11,PAR,DA)
+SAMPLE     The targets were prepared by cracking methyl iodide
+           with a 13C enrichment of 65% onto a thin nickel backing
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+STATUS     (CURVE) Fig.10
+ENDBIB               5
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       MB/SR
+ 0.71       2.124      0.179      0.0038
+ENDCOMMON            3
+DATA                 2         13
+ANG-CM     DATA-CM
+ADEG       MB/SR
+     22.185     1.7389
+     33.703     1.6792
+     43.735     1.5001
+     54.882     1.3584
+     65.286     1.1718
+     75.318     1.0226
+      85.35    0.77637
+     95.754    0.67192
+     105.79    0.57493
+     115.82    0.63466
+      125.1      0.672
+     133.65    0.76158
+     143.31    0.89594
+ENDDATA             15
+ENDSUBENT           29
+ENDENTRY            22

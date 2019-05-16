@@ -1,0 +1,121 @@
+ENTRY            C1610   20160629   20161017   20160926       C160
+SUBENT        C1610001   20160629   20161017   20160926       C160
+BIB                 12         29
+TITLE      He3+He4 -> Be7 astrophysical S factor
+AUTHOR     (T.A.D.Brown,C.Bordeanu,K.A.Snover,D.W.Storm,
+           D.Melconian,A.L.Sallaska,S.K.L.Sjue,S.Triambak)
+REFERENCE  (J,PR/C,76,055801,2007)
+           #doi:10.1103/PhysRevC.76.055801
+INSTITUTE  (1USAWAU)
+FACILITY   (VDGT,1USAWAU) Model FN Tandem Van de Graaff
+           accelerator.
+PART-DET   (G,DG)
+DETECTOR   (GE) N-type Ge detector with 100% relative efficiency
+           located at 90 degrees with its cryostat front face 5
+           cm from the center of the cell.
+SAMPLE     (2-HE-3,ENR=0.99999) The nickel entrance foils were 1-
+           microm in nominal thickness, glued onto the nickel
+           foil holders. Fresh foils were used for most
+           bombarding energies. Foil thicknesses were measured
+           to +-1% using the 3.2-MeV alpha particles from 148Gd.
+ANALYSIS   Cross sections were converted to S factors using the
+           relation S(Ecm)=sigma(Ecm)*Ecm*exp((Eg/Ecm)**0.5),
+           where Eg**0.5=164.13 keV**0.5.
+ERR-ANALYS (ERR-T) The tabulated uncertainties in the S factors
+           and their ratios include statistics, the +-1%
+           variable systematic uncertainties, and the
+           contribution of the uncertainty in the mean reaction
+           energy Ecm-the latter is important only at the lowest
+           bombarding energy.
+           (ERR-1) variable systematic uncertainty.
+DECAY-DATA (4-BE-7,53.22D,DG,478.,0.1044)
+HISTORY    (20160629C) BP
+ENDBIB              29
+COMMON               1          3
+ERR-1
+PER-CENT
+        1.0
+ENDCOMMON            3
+ENDSUBENT           36
+SUBENT        C1610002   20160629   20161017   20160926       C160
+BIB                  3          7
+REACTION   (2-HE-3(A,G)4-BE-7,,SIG,,SFC)
+METHOD     (GSPEC,ACTIV) Offline activity measurement. We
+           counted the 7Be activity with the stopper mounted as
+           described above and the Ta liner cut up and mounted
+           directly behind the stopper.
+STATUS     (TABLE) Table III, page 055801-6.
+           (COREL,C1610003) Data from prompt gamma measurement
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          8
+EN-CM      EN-ERR     DATA       ERR-T
+MEV        MEV        B*KEV      B*KEV
+     0.3274     0.0013      0.495      0.015
+     0.4260     0.0004      0.458      0.010
+     0.5180     0.0005      0.440      0.010
+     0.5815     0.0008      0.400      0.011
+     0.7024     0.0006      0.375      0.010
+     0.7968     0.0003      0.363      0.007
+     1.2337     0.0003      0.330      0.006
+     1.2347     0.0003      0.324      0.006
+ENDDATA             10
+ENDSUBENT           22
+SUBENT        C1610003   20160629   20161017   20160926       C160
+BIB                  3         10
+REACTION   (2-HE-3(A,G)4-BE-7,,SIG,,SFC)
+METHOD     (GSPEC) Online, prompt gamma measurement. The gamma0
+           yield was obtained by summing the counts in a
+           background-subtracted window around the full-energy
+           peak, and the 429-keV yield in a 7Be compound nucleus
+           was determined by fitting the peak shape with the
+           same function used for fitting the source lines and
+           the 478-keV line in 7Li.
+STATUS     (TABLE) Table III, page 055801-6.
+           (COREL,C1610002) Data from activation measurement
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 4          8
+EN-CM      EN-ERR     DATA       ERR-T
+MEV        MEV        B*KEV      B*KEV
+     0.3274     0.0013      0.492      0.014
+     0.4260     0.0004      0.438      0.006
+     0.5180     0.0005      0.421      0.007
+     0.5815     0.0008      0.398      0.008
+     0.7024     0.0006      0.382      0.006
+     0.7968     0.0003      0.371      0.004
+     1.2337     0.0003      0.327      0.004
+     1.2347     0.0003      0.340      0.004
+ENDDATA             10
+ENDSUBENT           25
+SUBENT        C1610004   20160630   20161017   20160926       C160
+BIB                  3          5
+REACTION   (2-HE-3(A,G)4-BE-7,,SIG,,SFC,DERIV)
+ANALYSIS   Extrapolation to zero-energy by Kajino's function
+STATUS     (DEP,C1610002)
+           (TABLE) page 055801-8.
+           (COREL,C1610005) Data from prompt gamma measurement
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-CM      DATA       ERR-T
+MEV        B*KEV      B*KEV
+   0.         0.595      0.018
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        C1610005   20160630   20161017   20160926       C160
+BIB                  3          5
+REACTION   (2-HE-3(A,X)4-BE-7,,SIG,,SFC,DERIV)
+ANALYSIS   Extrapolation to zero-energy by Kajino's function
+STATUS     (DEP,C1610003)
+           (TABLE) page 055801-8.
+           (COREL,C1610004) Data from activation measurement
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-CM      DATA       ERR-T
+MEV        B*KEV      B*KEV
+   0.        0.596      0.021
+ENDDATA              3
+ENDSUBENT           13
+ENDENTRY             5

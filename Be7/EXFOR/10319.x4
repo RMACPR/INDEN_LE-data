@@ -1,0 +1,125 @@
+ENTRY            10319   20020823   20020925   20050926       0000
+SUBENT        10319001   20020823   20020925   20050926       0000
+BIB                 13         21
+INSTITUTE  (1USABRL)
+REFERENCE  (R,BRL-R-1764,197503)
+AUTHOR     (C.E.Hollandsworth,W.P.Bucher,J.Youngblood,A.Niiler)
+TITLE      Cross Sections for Forward-Angle Elastic Scattering of
+            7.55 MeV Neutrons- A survey.
+FACILITY   (VDGT) BRL tandem Van de Graaff
+INC-SOURCE (D-D) Deuterons on deuterium
+METHOD     (TOF,PSD) Time-of-flight, pulse-shape discrimination
+DETECTOR   (SCIN) Array of NE-213 scintillators
+MONITOR    (82-PB-0(N,EL)82-PB-0,,DA)
+CORRECTION Data corrected for multiple scattering effects, finite
+            geometry.
+ERR-ANALYS (DATA-ERR) Data errors given include statistical
+            errors, normalization uncertainties, and errors in
+            measured transmission of each sample.
+STATUS     (APRVD) Approved by author, 25 July 1975.
+HISTORY    (19750410C) GIT
+           (19780511U) BIB corrected, energy resolution corrected,
+             energy error added.
+           (19830118A) Converted to REACTION formalism
+           (20020823A) Updated to new date formats, lower case.
+ENDBIB              21
+COMMON               3          3
+EN         EN-RSL     EN-ERR
+MEV        KEV        KEV
+ 7.55       260.       30.
+ENDCOMMON            3
+ENDSUBENT           28
+SUBENT        10319002   20020823   20020925   20050926       0000
+BIB                  1          1
+REACTION   (4-BE-9(N,EL)4-BE-9,,DA)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          6
+ANG-CM     ANG-RSL    DATA-CM    DATA-ERR
+ADEG       ADEG       B/SR       PER-CENT
+ 2.96      0.7        0.687      4.3
+ 5.31      0.8        0.615      3.8
+ 7.59      0.9        0.614      3.7
+ 9.45      1.0        0.606      3.7
+12.00      1.2        0.593      3.3
+15.65      1.5        0.544      3.7
+ENDDATA              8
+ENDSUBENT           14
+SUBENT        10319003   20020823   20020925   20050926       0000
+BIB                  1          1
+REACTION   (6-C-0(N,EL)6-C-0,,DA)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          6
+ANG-CM     ANG-RSL    DATA-CM    DATA-ERR
+ADEG       ADEG       B/SR       PER-CENT
+ 2.89      0.7        0.637      7.6
+ 5.19      0.8        0.598      3.9
+ 7.40      0.9        0.617      4.1
+ 9.22      1.0        0.576      3.9
+11.70      1.2        0.570      4.0
+15.26      1.5        0.528      4.2
+ENDDATA              8
+ENDSUBENT           14
+SUBENT        10319004   20020823   20020925   20050926       0000
+BIB                  1          1
+REACTION   (13-AL-27(N,EL)13-AL-27,,DA)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          6
+ANG-CM     ANG-RSL    DATA-CM    DATA-ERR
+ADEG       ADEG       B/SR       PER-CENT
+ 2.76      0.7        0.814      6.6
+ 4.96      0.8        0.812      3.8
+ 7.09      0.9        0.795      4.0
+ 8.82      1.0        0.776      3.7
+11.20      1.2        0.719      3.3
+14.61      1.5        0.630      3.9
+ENDDATA              8
+ENDSUBENT           14
+SUBENT        10319005   20020823   20020925   20050926       0000
+BIB                  2          3
+REACTION   (26-FE-0(N,EL)26-FE-0,,DA)
+HISTORY    (19780831A) Data deleted, see AN/SAN 10556/6 for this
+            data and additional data.
+ENDBIB               3
+NOCOMMON             0          0
+NODATA               0          0
+ENDSUBENT            7
+SUBENT        10319006   20020823   20020925   20050926       0000
+BIB                  2          3
+REACTION   (29-CU-0(N,EL)29-CU-0,,DA)
+HISTORY    (19770203A) Data deleted. see AN/SAN 10556/4 for this
+            data and additional data.
+ENDBIB               3
+NOCOMMON             0          0
+NODATA               0          0
+ENDSUBENT            7
+SUBENT        10319007   20020823   20020925   20050926       0000
+BIB                  2          3
+REACTION   (50-SN-0(N,EL)50-SN-0,,DA)
+HISTORY    (19770203A) Data deleted, see AN/SAN 10556/3 for this
+            data and additional data.
+ENDBIB               3
+NOCOMMON             0          0
+NODATA               0          0
+ENDSUBENT            7
+SUBENT        10319008   20020823   20020925   20050926       0000
+BIB                  3          3
+REACTION   (74-W-0(N,EL)74-W-0,,DA)
+SAMPLE     Sample machined from W-Ni-Cu alloy
+CORRECTION This data also corrected for sample impurities.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          6
+ANG-CM     ANG-RSL    DATA-CM    DATA-ERR
+ADEG       ADEG       B/SR       PER-CENT
+ 2.68      0.7        6.22       4.1
+ 4.80      0.8        6.18       3.6
+ 6.87      0.9        5.92       3.6
+ 8.55      1.0        5.31       3.8
+10.86      1.2        4.75       3.5
+14.16      1.5        3.66       3.8
+ENDDATA              8
+ENDSUBENT           16
+ENDENTRY             8

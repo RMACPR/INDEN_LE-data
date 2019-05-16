@@ -1,0 +1,5001 @@
+ENTRY            V0102   20150710   20150817   20150713       V033
+SUBENT        V0102001   20150710   20150817   20150713       V033
+BIB                  8         28
+TITLE      Neutron cross sections for nucleosynthesis studies
+AUTHOR     (Z.Y.Bao, H.Beer, F.Kaeppeler, F.Voss, K.Wisshak,
+            T.Rauscher)
+INSTITUTE  (2GERKFK,2SWTBAS)
+REFERENCE  (J,AND,76,70,2000) Update of 1987 and 1992 evaluation
+           (S,EUR-23883,55,2010) I.Dillmann+, KADoNiS v0.3
+           (J,AJ/S,80,403,1992)  H.Beer+, previous compilation
+           (J,AND,36,411,1987)   Z.Y.Bao+, previous compilation
+METHOD     Evaluation:
+           - The experimental results for nuclei between H and Bi
+             were critically surveyed, renormalized to selected
+             standard cross sections.
+           - Cross sections calculated by statistical model NON-
+             SMOKER were adopted in those cases where
+             experimental information is still missing (majority
+             of radioactive nuclei defining the s-process
+             branching).
+COMMENT    KADoNiS v0.3 was released in 28 August 2009.
+ERR-ANALYS (DATA-ERR) Essentially evaluated from the systematic
+            errors quoted for the experimental data.
+           Since most publications were not detailed enough with
+            respect to error estimates, no critical judgment on
+            these was attempted.
+           Nevertheless, these error estimates appeared fairly
+            realistic in general.
+HISTORY    (20120601C) On
+           (20131127U) On. REFERENCE revised, REL-REF deleted
+           (20150710A) On. Major revision in 344-345.
+ENDBIB              28
+NOCOMMON             0          0
+ENDSUBENT           31
+SUBENT        V0102002   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (1-H-1(N,G)1-H-2,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        0.254      0.020
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102003   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (1-H-2(N,G)1-H-3,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        0.0030     0.0002
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102004   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (2-HE-3(N,G)2-HE-4,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        0.0076     0.0006
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102005   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (3-LI-7(N,G)3-LI-8,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        0.042      0.003
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102006   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (4-BE-9(N,G)4-BE-10,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        0.0104     0.0016
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102007   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (6-C-12(N,G)6-C-13,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        0.0154     0.001
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102008   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (6-C-13(N,G)6-C-14,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        0.021      0.004
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102010   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (6-C-14(N,G)6-C-15,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        0.00848    0.00057
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102011   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (7-N-14(N,G)7-N-15,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        0.041      0.06
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102012   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (7-N-15(N,G)7-N-16,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        0.0058     0.0006
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102013   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (8-O-16(N,G)8-O-17,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        0.038      0.004
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102014   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (8-O-18(N,G)8-O-19,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        0.00886    0.0008
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102016   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (9-F-19(N,G)9-F-20,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        3.2        0.1
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102017   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (10-NE-20(N,G)10-NE-21,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        0.119      0.011
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102018   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (10-NE-21(N,G)10-NE-22,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1.5        0.9
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102020   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (10-NE-22(N,G)10-NE-23,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        0.058      0.004
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102021   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        2.1        0.2
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102022   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (12-MG-24(N,G)12-MG-25,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        3.3        0.4
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102023   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (12-MG-25(N,G)12-MG-26,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        6.4        0.4
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102024   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (12-MG-26(N,G)12-MG-27,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        0.126      0.009
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102025   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (13-AL-26(N,G)13-AL-27,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+KT         DATA
+KEV        MB
+ 30.        3.7
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102026   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (13-AL-27(N,G)13-AL-28,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        3.74       0.3
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102028   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (14-SI-28(N,G)14-SI-29,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1.42       0.13
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102030   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (14-SI-29(N,G)14-SI-30,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        6.58       0.66
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102032   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (14-SI-30(N,G)14-SI-31,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1.82       0.33
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102033   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (15-P-31(N,G)15-P-32,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1.74       0.09
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102034   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (16-S-32(N,G)16-S-33,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        4.1        0.2
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102035   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (16-S-33(N,G)16-S-34,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        7.4        1.5
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102036   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (16-S-34(N,G)16-S-35,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        0.226      0.010
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102037   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (16-S-36(N,G)16-S-37,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        0.171      0.014
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102039   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (17-CL-35(N,G)17-CL-36,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        9.68       0.21
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102040   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (17-CL-36(N,G)17-CL-37,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        12.        1.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102042   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (17-CL-37(N,G)17-CL-38,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        2.12       0.07
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102043   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (18-AR-36(N,G)18-AR-37,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        9.0        1.5
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102044   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (18-AR-38(N,G)18-AR-39,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        3.0        0.3
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102045   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (18-AR-39(N,G)18-AR-40,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        8.0        2.0
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102047   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (18-AR-40(N,G)18-AR-41,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        2.54       0.10
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102048   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (19-K-39(N,G)19-K-40,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        11.8       0.4
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102049   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (19-K-40(N,G)19-K-41,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        31.        7.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102050   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (19-K-41(N,G)19-K-42,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        22.0       0.7
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102052   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (20-CA-40(N,G)20-CA-41,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        5.73       0.34
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102053   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (20-CA-41(N,G)20-CA-42,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        30.        7.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102054   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (20-CA-42(N,G)20-CA-43,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        15.6       2.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102055   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (20-CA-43(N,G)20-CA-44,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        51.        6.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102056   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (20-CA-44(N,G)20-CA-45,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        9.4        1.3
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102057   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (20-CA-45(N,G)20-CA-46,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        17.5       3.5
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102058   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (20-CA-46(N,G)20-CA-47,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        5.3        0.5
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102059   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (20-CA-48(N,G)20-CA-49,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        0.87       0.09
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102060   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (21-SC-45(N,G)21-SC-46,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        69.        5.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102061   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (22-TI-46(N,G)22-TI-47,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        26.8       3.2
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102062   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (22-TI-47(N,G)22-TI-48,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        64.4       7.7
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102063   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (22-TI-48(N,G)22-TI-49,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        31.8       5.1
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102064   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (22-TI-49(N,G)22-TI-50,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        22.1       2.1
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102065   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (22-TI-50(N,G)22-TI-51,,SIG,,MXW,RECOM)
+COMMENT    One more value (3.9+/-0.5 mb) is in Table I. KADoNiS
+            gives only (3.6+/0.4 mb) as Bao (2000)'s value, and
+            hence the larger value is also not coded below.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        3.6        0.4
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102066   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (23-V-50(N,G)23-V-51,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        50.        9.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102067   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (23-V-51(N,G)23-V-52,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        38.        4.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102068   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (24-CR-50(N,G)24-CR-51,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        49.        13.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102069   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (24-CR-51(N,G)24-CR-52,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        87.        16.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102070   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (24-CR-52(N,G)24-CR-53,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        8.8        2.3
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102071   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (24-CR-53(N,G)24-CR-54,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        58.        10.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102072   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (24-CR-54(N,G)24-CR-55,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        6.7        1.6
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102073   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (25-MN-55(N,G)25-MN-56,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        39.6       3.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102075   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (26-FE-54(N,G)26-FE-55,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        29.6       1.3
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102076   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (26-FE-55(N,G)26-FE-56,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        75.        12.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102077   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (26-FE-56(N,G)26-FE-57,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        11.7       0.5
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102078   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (26-FE-57(N,G)26-FE-58,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        40.        4.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102080   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (26-FE-58(N,G)26-FE-59,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        13.5       0.7
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102081   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (26-FE-60(N,G)26-FE-61,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        5.15       1.41
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102083   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (27-CO-59(N,G)27-CO-60,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        39.6       2.7
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102085   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (28-NI-58(N,G)28-NI-59,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        38.7       1.5
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102086   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (28-NI-59(N,G)28-NI-60,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        87.        14.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102087   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (28-NI-60(N,G)28-NI-61,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        30.        3.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102088   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (28-NI-61(N,G)28-NI-62,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        82.        8.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102090   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (28-NI-62(N,G)28-NI-63,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        22.3       1.6
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102091   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (28-NI-63(N,G)28-NI-64,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        31.        6.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102093   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (28-NI-64(N,G)28-NI-65,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        8.0        0.7
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102095   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (29-CU-63(N,G)29-CU-64,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        55.6       2.2
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102097   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (29-CU-65(N,G)29-CU-66,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        29.8       1.3
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102098   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (30-ZN-64(N,G)30-ZN-65,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        59.        5.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102099   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (30-ZN-65(N,G)30-ZN-66,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        162.       27.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102100   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (30-ZN-66(N,G)30-ZN-67,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        35.        3.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102101   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (30-ZN-67(N,G)30-ZN-68,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        153.       15.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102102   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (30-ZN-68(N,G)30-ZN-69,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        19.2       2.4
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102103   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (30-ZN-68(N,G)30-ZN-69-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        3.4        1.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102104   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (30-ZN-70(N,G)30-ZN-71,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        21.5       2.0
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102105   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (31-GA-69(N,G)31-GA-70,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        139.       6.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102106   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (31-GA-71(N,G)31-GA-72,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        123.       8.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102107   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (32-GE-70(N,G)32-GE-71,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        88.        5.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102108   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (32-GE-72(N,G)32-GE-73,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        73.        7.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102109   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (32-GE-73(N,G)32-GE-74,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        243.       47.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102111   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (32-GE-74(N,G)32-GE-75,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        37.6       3.9
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102113   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (32-GE-76(N,G)32-GE-77,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        21.5       1.8
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102115   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (33-AS-75(N,G)33-AS-76,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        362.       19.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102117   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (34-SE-74(N,G)34-SE-75,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        271.       15.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102118   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (34-SE-76(N,G)34-SE-77,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        164.       8.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102119   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (34-SE-77(N,G)34-SE-78,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        418.       71.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102121   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (34-SE-78(N,G)34-SE-79,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        60.1       9.6
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102122   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (34-SE-79(N,G)34-SE-80,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        263.       46.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102123   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (34-SE-80(N,G)34-SE-81,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        42.        3.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102124   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (34-SE-82(N,G)34-SE-83,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        9.         8.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102126   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (35-BR-79(N,G)35-BR-80,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        622.       34.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102128   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (35-BR-79(N,G)35-BR-80-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        171.       17.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102130   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (35-BR-81(N,G)35-BR-82,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        239.       7.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102131   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (36-KR-78(N,G)36-KR-79,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        321.       26.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102132   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (36-KR-78(N,G)36-KR-79-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        92.3       6.2
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102133   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (36-KR-79(N,G)36-KR-80,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        959.       162.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102134   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (36-KR-80(N,G)36-KR-81,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        267.       14.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102135   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (36-KR-80(N,G)36-KR-81-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        88.2       3.5
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102136   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (36-KR-81(N,G)36-KR-82,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        607.       105.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102137   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (36-KR-82(N,G)36-KR-83,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        90.        6.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102138   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (36-KR-83(N,G)36-KR-84,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        243.       15.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102139   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (36-KR-84(N,G)36-KR-85,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        38.        4.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102140   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (36-KR-84(N,G)36-KR-85-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        17.8       0.8
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102141   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (36-KR-85(N,G)36-KR-86,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        55.        45.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102142   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (36-KR-86(N,G)36-KR-87,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        3.4        0.3
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102144   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (37-RB-85(N,G)37-RB-86,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        234.       7.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102145   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (37-RB-86(N,G)37-RB-87,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        202.       163.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102147   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (37-RB-87(N,G)37-RB-88,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        15.7       0.8
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102149   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (38-SR-84(N,G)38-SR-85,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        300.        17.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102150   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (38-SR-84(N,G)38-SR-85-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        190.       10.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102151   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (38-SR-86(N,G)38-SR-87,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        64.        3.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102152   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (38-SR-87(N,G)38-SR-88,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        92.        4.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102154   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (38-SR-88(N,G)38-SR-89,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        6.13       0.11
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102155   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (38-SR-89(N,G)38-SR-90,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        19.        14.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102156   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (39-Y-89(N,G)39-Y-90,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        19.0       0.6
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102158   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (40-ZR-90(N,G)40-ZR-91,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        19.3       0.9
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102160   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (40-ZR-91(N,G)40-ZR-92,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        62.0       3.4
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102162   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (40-ZR-92(N,G)40-ZR-93,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        30.1       1.7
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102163   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (40-ZR-93(N,G)40-ZR-94,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        95.        10.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102164   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (40-ZR-94(N,G)40-ZR-95,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        26.        1.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102165   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (40-ZR-95(N,G)40-ZR-96,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        79.        12.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102166   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (40-ZR-96(N,G)40-ZR-97,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        10.7       0.5
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102167   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (41-NB-93(N,G)41-NB-94,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        266.       5.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102168   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (41-NB-94(N,G)41-NB-95,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        482.       92.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102169   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (41-NB-95(N,G)41-NB-96,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        310.       65.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102170   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (42-MO-100(N,G)42-MO-101,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        108.       14.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102171   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (42-MO-92(N,G)42-MO-93,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        70.        10.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102172   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (42-MO-94(N,G)42-MO-95,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        102.       20.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102173   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (42-MO-95(N,G)42-MO-96,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        292.       12.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102174   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (42-MO-96(N,G)42-MO-97,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        112.       8.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102175   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (42-MO-97(N,G)42-MO-98,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        339.       14.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102176   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (42-MO-98(N,G)42-MO-99,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        99.        7.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102177   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (42-MO-99(N,G)42-MO-100,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        240.       40.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102179   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (43-TC-99(N,G)43-TC-100,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        933.       47.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102180   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (44-RU-100(N,G)44-RU-101,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        206.       13.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102181   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (44-RU-101(N,G)44-RU-102,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        996.       40.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102183   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (44-RU-102(N,G)44-RU-103,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        151.       7.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102184   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (44-RU-103(N,G)44-RU-104,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        343.       52.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102186   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (44-RU-104(N,G)44-RU-105,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        154.       6.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102188   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (44-RU-96(N,G)44-RU-97,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        207.       8.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102189   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (44-RU-98(N,G)44-RU-99,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        173.       36.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102190   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (44-RU-99(N,G)44-RU-100,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        631.       99.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102191   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (45-RH-103(N,G)45-RH-104,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        811.       14.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102193   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (46-PD-102(N,G)46-PD-103,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        369.       17.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102194   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (46-PD-104(N,G)46-PD-105,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        289.       29.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102195   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (46-PD-105(N,G)46-PD-106,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1200.      60.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102196   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (46-PD-106(N,G)46-PD-107,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        252.       25.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102197   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (46-PD-107(N,G)46-PD-108,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1340.      60.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102198   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (46-PD-108(N,G)46-PD-109,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        203.       20.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102199   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (46-PD-110(N,G)46-PD-111,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        146.       20.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102200   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (47-AG-107(N,G)47-AG-108,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        792.       30.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102201   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (47-AG-109(N,G)47-AG-110,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        788.       30.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102202   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (47-AG-110(N,G)47-AG-111,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1172.      188.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102203   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (48-CD-106(N,G)48-CD-107,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        302.       24.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102204   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (48-CD-108(N,G)48-CD-109,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        202.       9.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102206   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (48-CD-110(N,G)48-CD-111,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        237.       2.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102207   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (48-CD-110(N,G)48-CD-111-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        13.3       1.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102209   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (48-CD-111(N,G)48-CD-112,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.1
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        754.       12.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102211   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (48-CD-112(N,G)48-CD-113,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.1
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        187.9      1.7
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102213   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (48-CD-113(N,G)48-CD-114,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.1
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        667.       11.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102215   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (48-CD-114(N,G)48-CD-115,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.1
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        129.2      1.3
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102216   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (48-CD-114(N,G)48-CD-115-G,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        118.       4.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102217   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (48-CD-114(N,G)48-CD-115-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        9.         3.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102218   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (48-CD-115(N,G)48-CD-116,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        290.       62.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102219   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (48-CD-115-M(N,G)48-CD-116,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        601.       200.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102221   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (48-CD-116(N,G)48-CD-117,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        74.8       0.9
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102223   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (48-CD-116(N,G)48-CD-117-G,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        59.8       3.3
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102225   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (48-CD-116(N,G)48-CD-117-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        15.0       0.8
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102226   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (49-IN-113(N,G)49-IN-114,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        787.       70.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102227   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (49-IN-113(N,G)49-IN-114-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        480.       160.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102228   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (49-IN-114-M(N,G)49-IN-115,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        2595.      1300.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102229   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (49-IN-115(N,G)49-IN-116,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        706.       70.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102230   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (49-IN-115(N,G)49-IN-116-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        689.       170.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102231   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (50-SN-112(N,G)50-SN-113,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        210.       12.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102232   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (50-SN-114(N,G)50-SN-115,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        134.4      1.8
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102233   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (50-SN-115(N,G)50-SN-116,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        342.4      8.7
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102235   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (50-SN-116(N,G)50-SN-117,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        91.6       0.6
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102236   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (50-SN-117(N,G)50-SN-118,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        318.8      4.8
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102237   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (50-SN-118(N,G)50-SN-119,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        62.1       0.6
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102238   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (50-SN-119(N,G)50-SN-120,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        180.       10.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102240   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (50-SN-120(N,G)50-SN-121,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        36.2       0.3
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102241   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (50-SN-120(N,G)50-SN-121-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        0.52       0.18
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102242   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (50-SN-121(N,G)50-SN-122,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        167.       30.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102243   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (50-SN-122(N,G)50-SN-123,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        21.9       1.5
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102244   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (50-SN-122(N,G)50-SN-123-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        18.        10.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102245   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (50-SN-124(N,G)50-SN-125,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        12.0       1.8
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102246   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (50-SN-125(N,G)50-SN-126,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        59.        9.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102247   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (50-SN-126(N,G)50-SN-127,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        10.        4.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102248   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (51-SB-121(N,G)51-SB-122,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        532.       16.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102249   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (51-SB-122(N,G)51-SB-123,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        894.       162.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102250   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (51-SB-123(N,G)51-SB-124,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        303.       9.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102251   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (51-SB-125(N,G)51-SB-126,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        260.       70.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102253   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (52-TE-120(N,G)52-TE-121,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        538.       26.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102254   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (52-TE-120(N,G)52-TE-121-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        67.6       6.4
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102255   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (52-TE-122(N,G)52-TE-123,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        295.       3.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102256   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (52-TE-123(N,G)52-TE-124,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        832.       8.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102257   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (52-TE-124(N,G)52-TE-125,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        155.       2.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102258   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (52-TE-125(N,G)52-TE-126,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        431.       4.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102259   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (52-TE-126(N,G)52-TE-127,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        81.3       1.4
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102260   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (52-TE-128(N,G)52-TE-129,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        44.4       1.3
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102261   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (52-TE-128(N,G)52-TE-129-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        4.94       0.21
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102262   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (52-TE-130(N,G)52-TE-131,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        14.7       2.8
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102263   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (53-I-127(N,G)53-I-128,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        635.       30.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102264   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (53-I-129(N,G)53-I-130,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        441.       22.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102265   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (54-XE-124(N,G)54-XE-125,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        644.       83.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102266   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (54-XE-124(N,G)54-XE-125-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        131.       17.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102267   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (54-XE-126(N,G)54-XE-127,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        359.       51.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102268   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (54-XE-126(N,G)54-XE-127-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        40.        6.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102270   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (54-XE-128(N,G)54-XE-129,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        262.5      3.7
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102271   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (54-XE-128(N,G)54-XE-129-M,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        25.8       2.1
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102273   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (54-XE-129(N,G)54-XE-130,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        617.       12.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102275   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (54-XE-130(N,G)54-XE-131,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        132.0      2.1
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102276   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (54-XE-130(N,G)54-XE-131-M,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        12.3       1.0
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102277   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (54-XE-131(N,G)54-XE-132,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        340.       65.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102278   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (54-XE-132(N,G)54-XE-133,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        64.6       5.3
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102279   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (54-XE-132(N,G)54-XE-133-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        4.7        0.4
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102280   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (54-XE-133(N,G)54-XE-134,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        127.       34.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102281   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (54-XE-134(N,G)54-XE-135,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        20.2       1.7
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102282   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (54-XE-134(N,G)54-XE-135-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        0.59       0.05
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102283   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (54-XE-136(N,G)54-XE-137,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        0.91       0.08
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102284   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (55-CS-133(N,G)55-CS-134,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        509.       21.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102285   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (55-CS-133(N,G)55-CS-134-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        43.        14.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102286   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (55-CS-134(N,G)55-CS-135,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        664.       174.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102288   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (55-CS-135(N,G)55-CS-136,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        160.       10.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102290   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (56-BA-130(N,G)56-BA-131,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        746.       34.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102292   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (56-BA-132(N,G)56-BA-133,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        397.       16.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102293   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (56-BA-132(N,G)56-BA-133-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        35.7       3.6
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102294   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (56-BA-134(N,G)56-BA-135,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        176.0      5.6
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102295   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (56-BA-135(N,G)56-BA-136,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        455.       15.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102296   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (56-BA-136(N,G)56-BA-137,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        61.2       2.0
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102297   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (56-BA-137(N,G)56-BA-138,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        76.3       2.4
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102298   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (56-BA-138(N,G)56-BA-139,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        4.00       0.20
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102300   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (57-LA-139(N,G)57-LA-140,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        32.4       3.1
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102301   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (58-CE-132(N,G)58-CE-133,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1570.      420.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102302   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (58-CE-133(N,G)58-CE-134,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        2600.      400.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102303   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (58-CE-134(N,G)58-CE-135,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        967.       351.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102304   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (58-CE-135(N,G)58-CE-136,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1320.      260.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102305   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (58-CE-136(N,G)58-CE-137,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        328.       21.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102306   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (58-CE-136(N,G)58-CE-137-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        28.2       1.6
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102307   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (58-CE-137(N,G)58-CE-138,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        973.       256.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102308   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (58-CE-138(N,G)58-CE-139,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        179.       5.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102309   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (58-CE-139(N,G)58-CE-140,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        214.       120.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102310   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (58-CE-140(N,G)58-CE-141,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        11.0       0.4
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102311   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (58-CE-141(N,G)58-CE-142,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        76.        33.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102312   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (58-CE-142(N,G)58-CE-143,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        28.0       1.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102313   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (59-PR-141(N,G)59-PR-142,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        111.4      1.4
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102314   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (59-PR-142(N,G)59-PR-143,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        415.       178.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102315   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (59-PR-143(N,G)59-PR-144,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        350.       86.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102316   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (60-ND-142(N,G)60-ND-143,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        35.0       0.7
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102317   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (60-ND-143(N,G)60-ND-144,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        245.       3.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102318   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (60-ND-144(N,G)60-ND-145,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        81.3       1.5
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102319   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (60-ND-145(N,G)60-ND-146,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        425.       5.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102320   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (60-ND-146(N,G)60-ND-147,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        91.2       1.0
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102321   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (60-ND-147(N,G)60-ND-148,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        544.       90.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102322   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (60-ND-148(N,G)60-ND-149,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        147.       2.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102323   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (60-ND-150(N,G)60-ND-151,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        159.       10.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102325   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (61-PM-147(N,G)61-PM-148,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        709.       100.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102326   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (61-PM-147(N,G)61-PM-148-G,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        313.       60.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102327   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (61-PM-147(N,G)61-PM-148-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        395.       55.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102328   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (61-PM-148(N,G)61-PM-149,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        2970.      500.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102329   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (61-PM-148-M(N,G)61-PM-149,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        2453.      1200.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102330   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (61-PM-149(N,G)61-PM-150,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        2510.      750.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102331   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (62-SM-144(N,G)62-SM-145,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        92.        6.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102332   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (62-SM-147(N,G)62-SM-148,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        973.       10.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102333   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (62-SM-148(N,G)62-SM-149,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        241.       2.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102334   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (62-SM-149(N,G)62-SM-150,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1820.      17.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102335   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (62-SM-150(N,G)62-SM-151,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        422.       4.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102337   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (62-SM-151(N,G)62-SM-152,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        3031.      68.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102338   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (62-SM-152(N,G)62-SM-153,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        473.       4.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102339   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (62-SM-153(N,G)62-SM-154,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1095.      175.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102341   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (62-SM-154(N,G)62-SM-155,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        206.       9.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102343   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (63-EU-151(N,G)63-EU-152,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        3478.      77.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102345   20150710   20150817   20150713       V033
+BIB                  3          3
+REACTION   (63-EU-151(N,G)63-EU-152-M1,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+HISTORY    (20150710A) On. REACTION(SF4): -M -> -M1
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1557.      124.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        V0102346   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (63-EU-152(N,G)63-EU-153,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        7600.      1200.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102348   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (63-EU-153(N,G)63-EU-154,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        2556.      46.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102349   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (63-EU-154(N,G)63-EU-155,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        4420.      670.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102350   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (63-EU-155(N,G)63-EU-156,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1320.      84.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102351   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (64-GD-152(N,G)64-GD-153,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1049.      17.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102352   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (64-GD-153(N,G)64-GD-154,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        4550.      700.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102353   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (64-GD-154(N,G)64-GD-155,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1028.      12.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102354   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (64-GD-155(N,G)64-GD-156,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        2648.      30.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102355   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (64-GD-156(N,G)64-GD-157,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        615.       5.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102356   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (64-GD-157(N,G)64-GD-158,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1369.      15.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102357   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (64-GD-158(N,G)64-GD-159,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        324.       3.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102358   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (64-GD-160(N,G)64-GD-161,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        154.       20.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102359   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (65-TB-159(N,G)65-TB-160,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1580.      150.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102360   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (65-TB-160(N,G)65-TB-161,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        3240.      510.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102362   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (66-DY-156(N,G)66-DY-157,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1607.      92.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102363   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (66-DY-158(N,G)66-DY-159,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1060.      400.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102364   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (66-DY-160(N,G)66-DY-161,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        890.       12.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102365   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (66-DY-161(N,G)66-DY-162,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1964.      19.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102366   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (66-DY-162(N,G)66-DY-163,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        446.       4.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102367   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (66-DY-163(N,G)66-DY-164,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1112.      11.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102368   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (66-DY-164(N,G)66-DY-165,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        212.       3.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102369   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (67-HO-163(N,G)67-HO-164,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        2125.      95.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102370   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (67-HO-165(N,G)67-HO-166,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1280.      100.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102371   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (67-HO-165(N,G)67-HO-166-G,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        798.       120.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102372   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (68-ER-162(N,G)68-ER-163,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1624.      124.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102373   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (68-ER-164(N,G)68-ER-165,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1084.      51.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102374   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (68-ER-166(N,G)68-ER-167,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        563.       56.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102375   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (68-ER-167(N,G)68-ER-168,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1425.      143.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102376   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (68-ER-168(N,G)68-ER-169,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        338.       44.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102377   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (68-ER-169(N,G)68-ER-170,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        653.       114.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102378   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (68-ER-170(N,G)68-ER-171,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        170.       7.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102379   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (69-TM-169(N,G)69-TM-170,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1129.      56.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102380   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (69-TM-170(N,G)69-TM-171,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1870.      330.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102381   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (69-TM-171(N,G)69-TM-172,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        486.       144.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102383   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (70-YB-168(N,G)70-YB-169,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1214.      49.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102384   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (70-YB-170(N,G)70-YB-171,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        768.       7.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102385   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (70-YB-171(N,G)70-YB-172,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1210.      12.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102386   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (70-YB-172(N,G)70-YB-173,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        341.       3.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102387   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (70-YB-173(N,G)70-YB-174,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        754.       7.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102389   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (70-YB-174(N,G)70-YB-175,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        151.0      1.7
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102390   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (70-YB-175(N,G)70-YB-176,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        558.       83.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102392   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (70-YB-176(N,G)70-YB-177,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        115.8      2.0
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102394   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (71-LU-175(N,G)71-LU-176,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1219.      10.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102396   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (71-LU-175(N,G)71-LU-176-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1036.      30.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102398   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (71-LU-176(N,G)71-LU-177,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1639.      14.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102400   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (72-HF-174(N,G)72-HF-175,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        983.       46.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102402   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (72-HF-176(N,G)72-HF-177,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        626.       11.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102404   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (72-HF-177(N,G)72-HF-178,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1544.      12.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102406   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (72-HF-178(N,G)72-HF-179,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        319.       3.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102408   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (72-HF-179(N,G)72-HF-180,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        922.       8.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102409   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (72-HF-179(N,G)72-HF-180-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        11.4       0.6
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102411   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (72-HF-180(N,G)72-HF-181,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        157.       2.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102412   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (72-HF-181(N,G)72-HF-182,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        194.       31.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102414   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (72-HF-182(N,G)72-HF-183,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        141.       8.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102415   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (73-TA-179(N,G)73-TA-180,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1334.      422.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102417   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (73-TA-180-M(N,G)73-TA-181,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1465.      100.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102418   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (73-TA-181(N,G)73-TA-182,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        766.       15.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102419   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (73-TA-182(N,G)73-TA-183,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1120.      180.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102421   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (74-W-180(N,G)74-W-181,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        660.       53.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102422   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (74-W-182(N,G)74-W-183,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        274.       8.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102423   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (74-W-183(N,G)74-W-184,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        515.       15.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102425   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (74-W-184(N,G)74-W-185,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        223.       5.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102427   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (74-W-185(N,G)74-W-186,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        584.       53.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102429   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (74-W-186(N,G)74-W-187,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        235.       9.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102430   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (75-RE-185(N,G)75-RE-186,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1535.      62.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102431   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (75-RE-186(N,G)75-RE-187,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1550.      250.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102432   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (75-RE-187(N,G)75-RE-188,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1160.      57.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102434   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (76-OS-184(N,G)76-OS-185,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        590.       39.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102436   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (76-OS-186(N,G)76-OS-187,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        410.       17.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102438   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (76-OS-187(N,G)76-OS-188,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        966.       31.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102440   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (76-OS-188(N,G)76-OS-189,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        293.       14.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102441   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (76-OS-189(N,G)76-OS-190,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1168.      47.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102443   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (76-OS-190(N,G)76-OS-191,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        274.       12.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102444   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (76-OS-191(N,G)76-OS-192,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1290.      280.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102446   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (76-OS-192(N,G)76-OS-193,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        155.       7.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102447   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (77-IR-191(N,G)77-IR-192,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1350.      43.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102448   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (77-IR-192(N,G)77-IR-193,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        2080.      450.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102449   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (77-IR-193(N,G)77-IR-194,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        994.       70.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102451   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (78-PT-190(N,G)78-PT-191,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        508.       44.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102452   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (78-PT-192(N,G)78-PT-193,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        590.       120.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102453   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (78-PT-193(N,G)78-PT-194,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        1123.      240.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102454   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (78-PT-194(N,G)78-PT-195,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        365.       85.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102455   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (78-PT-194(N,G)78-PT-195-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        27.        2.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102456   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (78-PT-195(N,G)78-PT-196,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        860.       200.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102458   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (78-PT-196(N,G)78-PT-197,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        183.       16.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102460   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (78-PT-196(N,G)78-PT-197-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        12.2       0.5
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102462   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (78-PT-198(N,G)78-PT-199,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        92.2       4.6
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102464   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (78-PT-198(N,G)78-PT-199-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        3.03       0.18
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102465   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (79-AU-197(N,G)79-AU-198,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        582.       9.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102466   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (79-AU-198(N,G)79-AU-199,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        840.       147.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102468   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (80-HG-196(N,G)80-HG-197,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        204.       8.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102469   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (80-HG-196(N,G)80-HG-197-M,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        26.7       1.3
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102470   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (80-HG-198(N,G)80-HG-199,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        173.       15.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102471   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (80-HG-199(N,G)80-HG-200,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        374.       23.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102472   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (80-HG-200(N,G)80-HG-201,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        115.       12.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102473   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (80-HG-201(N,G)80-HG-202,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        264.       14.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102475   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (80-HG-202(N,G)80-HG-203,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        63.2       1.9
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102476   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (80-HG-203(N,G)80-HG-204,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        98.        17.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102477   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (80-HG-204(N,G)80-HG-205,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        42.        4.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102478   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (81-TL-203(N,G)81-TL-204,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        124.       8.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102479   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (81-TL-204(N,G)81-TL-205,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        215.       38.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102480   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (81-TL-205(N,G)81-TL-206,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        54.        4.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102482   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (82-PB-204(N,G)82-PB-205,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        81.0       2.3
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102483   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (82-PB-205(N,G)82-PB-206,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        125.       22.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102485   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (82-PB-206(N,G)82-PB-207,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        14.5       0.3
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102487   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (82-PB-207(N,G)82-PB-208,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        9.9        0.5
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102488   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (82-PB-208(N,G)82-PB-209,,SIG,,MXW,RECOM)
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        0.36       0.03
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102490   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (83-BI-209(N,G)83-BI-210,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        2.56       0.30
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102492   20120601   20120906   20120822       V030
+BIB                  2          2
+REACTION   (83-BI-209(N,G)83-BI-210-G,,SIG,,MXW,RECOM)
+STATUS     (TABLE) KADoNiS database Ver.0.3
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        2.23       0.07
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        V0102493   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (83-BI-210(N,G)83-BI-211,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        6.         5.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        V0102494   20120601   20120906   20120822       V030
+BIB                  3          5
+REACTION   (84-PO-210(N,G)84-PO-211,,SIG,,MXW,RECOM)
+METHOD     Only theoretical data were available: the recommended
+            value is derived by comparing NON-SMOKER results to
+            nearby experimental data.
+STATUS     (TABLE) Table I of At.Data Nucl.Data Tables 76(2000)70
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+ 30.        3.3        3.
+ENDDATA              3
+ENDSUBENT           13
+ENDENTRY           395

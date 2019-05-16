@@ -1,0 +1,65 @@
+ENTRY            20046     830901              20050926       0000
+SUBENT        20046001     830901              20050926       0000
+BIB                 11         17
+INSTITUTE  (2NORKJL)
+REFERENCE  (J,JNE,1,231,5502)
+           (R,JENER-30,,5409) PRELIMINARY DATA.
+AUTHOR     (B.GRIMELAND)
+TITLE      -ACTIVATION CROSS-SECTIONS OF SODIUM AND PHOSPHORUS.
+FACILITY   (REAC )    REACTOR.
+INC-SOURCE (THCOL)    THERMAL COLUMN.
+METHOD     (ACTIV)    ACTIVATION.
+MONITOR    (5-B-0(N,ABS),,SIG,,MXW) VALUE TAKEN AS 750+-4B.
+            CONSISTENCY CHECKS WITH AU-197(N,G), U-0(N,F) AND
+            LI-6(N,T) WERE ALSO MADE.
+STATUS     . DATA FROM PUBLICATION.
+HISTORY    (710803T)  FROM NEUDADA.
+           (710908E)
+           (801125A) MONITOR AND REACTIONS CORRECTED.
+           (801204E)
+ERR-ANALYS .NOT GIVEN.
+ENDBIB              17
+COMMON               3          3
+EN-DUMMY   MONIT      MONIT-ERR
+EV         B          B
+ 2.5300E-02 7.5000E+02 4.0000E+00
+ENDCOMMON            3
+ENDSUBENT           24
+SUBENT        20046002     830901              20050926       0000
+BIB                  6         10
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG,,MXW) CROSS SECTION.
+SAMPLE     .NAI(TL) CRYSTAL.
+DETECTOR   (NAICR)    NA-I(TL)-CRYSTAL (IRRADIATED) WITH PHOTO-
+            MULTIPLIER.
+DECAY-DATA (11-NA-24,15.0HR,DG)
+STATUS     .TABLE IN JNE,1,231.
+HISTORY    (710803T)  FROM NEUDADA.
+           (710908E)
+           (801125A) REACTION RE-CODED.
+           (801204E)
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 5.1000E-01 3.0000E-02
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        20046003     830901              20050926       0000
+BIB                  4          7
+REACTION   (15-P-31(N,G)15-P-32,,SIG,,MXW) CROSS SECTION.
+DECAY-DATA (15-P-32,14.28D,DG)
+STATUS     .TABLE IN JNE,1,231.
+HISTORY    (710803T)  FROM NEUDADA.
+           (710908E)
+           (801125A) REACTION RE-CODED.
+           (801204E)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.9000E-01 2.0000E-02
+ENDDATA              3
+ENDSUBENT           15
+ENDENTRY             3

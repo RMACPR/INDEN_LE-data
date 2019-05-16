@@ -1,0 +1,127 @@
+ENTRY            O1268   20081120   20081219   20081219       O037
+SUBENT        O1268001   20081120   20081219   20081219       O037
+BIB                 14         41
+TITLE      New precision measurement of the He-3(He4,g)Be-7 cross
+           section.
+AUTHOR     (B.S.Nara Singh, M.Hass, Y.Nir-El, G.Haquin)
+INSTITUTE  (3ISLWZI)
+           (3ISLSOR)
+REFERENCE  (J,PRL,93,262503,2004)
+           (J,NP/A,758,689,2005)
+REL-REF    (R,,T.KAJINO+,J,AJ,319,531,1987)
+           (R,,T.KAJINO+,J,NP/A,460,559,1986)
+           The data were used to estimate the energy averaging
+           effect.
+HISTORY    (20050523C)
+           (20050527A) Correction.
+           (20081120A) New REFERENCE was added.
+SAMPLE     A He-4 gas cell with a 8-mm diameter nickel window of
+            0.5 to 1-mum thickness. The gas cell is insulated from
+           the beam line and the entire chamber, including a
+           Cu-catcher of 50-mm diameter that is in electric
+           contact with the gas cell, serves as a Faraday cup.
+           The He-4 purity of 99.9% was ensured by replacing it
+           periodically every four hours.
+COMMENT    -By authors. The number of beam particles obtained
+           through either the beam current integration or the
+            Rutherford scattering from the nickel foil is the
+           major source of error in the determination of the cross
+           section.
+           Reaction (13-AL-27(P,G)14-SI-28) has been used for beam
+           energy calibration.
+MONITOR    (28-NI-0(HE3,EL)28-NI-0,,DA)
+DETECTOR   (HPGE) The number of Be-7 nuclei is determined by
+           measuring the Be-7 activity on a Cu-catcher.
+           (SIBAR) For the elastically scattered beam particles
+           from the Ni-window.
+FACILITY   (VDG,3ISLWZI)
+METHOD     (BCINT)
+           (GSPEC) The activity was measured over a period of 3-
+           to 6-days.
+ERR-ANALYS (ERR-1) The systematics errors.
+           (ERR-S).The errors due to statistics - activity
+           measurements.
+STATUS     (TABLE) In the paper.
+ENDBIB              41
+NOCOMMON             0          0
+ENDSUBENT           44
+SUBENT        O1268002   20050527   20060217   20060211       O025
+BIB                  3          8
+REACTION  1(2-HE-4(HE3,G)4-BE-7,,SIG)
+          2(2-HE-4(HE3,G)4-BE-7,,SIG,,SFC)
+FLAG       (1.).The cross sections values obtained by using the
+            number of beam particles from Rutherford scattering.
+           (2.).The cross sections values obtained by using the
+            charge integration.
+COMMENT    -By authors.  The errors on S(E) include also the
+           uncertainties on energy losses and straggling.
+ENDBIB               8
+NOCOMMON
+DATA                 8         24
+EN-CM      DATA      1ERR-S     1ERR-1     1DATA      2ERR-S     2
+ERR-1     2FLAG
+KEV        NB         NB         NB         B*KEV      B*KEV
+B*KEV      NO-DIM
+       951.      1680.        59.        29.      0.328      0.012
+      0.007         2.
+       951.      1680.        59.        37.
+                    1.
+       951.      1530.        46.        26.      0.299      0.008
+      0.007         2.
+       951.      1500.        45.        33.
+                    1.
+       951.      1720.        71.        29.      0.335      0.014
+      0.009         2.
+       951.      1830.        75.        40.
+                    1.
+       951.      1600.        72.        27.      0.312      0.014
+      0.008         2.
+       951.      1700.        76.        37.
+                    1.
+       950.      1690.        61.        29.       0.33      0.012
+      0.009         2.
+       950.      1580.        57.        35.
+                    1.
+       950.      1586.        61.        27.      0.309      0.012
+      0.008         2.
+       950.      1518.        58.        33.
+                    1.
+       950.      1620.        31.        29.      0.316      0.006
+      0.007         2.
+       950.      1620.        31.        37.
+                    1.
+       624.       794.        31.        14.      0.353      0.014
+      0.017         2.
+       624.       764.        30.        17.
+                    1.
+      614.5       786.        22.        13.      0.362       0.01
+      0.015         2.
+      614.5       766.        22.        17.
+                    1.
+       605.       777.        31.        13.      0.372      0.015
+      0.015         2.
+       605.       767.        31.        17.
+                    1.
+       506.       508.        17.         8.      0.379      0.015
+      0.027         2.
+       506.       476.        16.        10.
+                    1.
+       420.       333.        10.         6.       0.42      0.014
+       0.03         2.
+       420.       303.         9.         7.
+                    1.
+ENDDATA             52
+ENDSUBENT           65
+SUBENT        O1268003   20050527   20060217   20060211       O025
+BIB                  2          2
+REACTION   (2-HE-4(HE3,G)4-BE-7,,SIG,,SFC,DERIV)
+STATUS     (DEP,O1268002)
+ENDBIB               2
+NOCOMMON
+DATA                 4          1
+EN-CM      DATA       ERR-S      ERR-1
+KEV        B*KEV      B*KEV      B*KEV
+         0.       0.53       0.02       0.01
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY             3

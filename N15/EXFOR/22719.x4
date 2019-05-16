@@ -1,0 +1,47 @@
+ENTRY            22719   20011118   20040705   20050926       0000
+SUBENT        22719001   20011118   20040705   20050926       0000
+BIB                 10         28
+TITLE      Measurement of 14N(n,p)14C cross section for kT=25.3keV
+           Maxwellian neutrons useing gridded ionization chamber
+AUTHOR     (T.SANAMI,M.BABA,I.MATSUYAMA,S.MATSUYAMA,T.KIYOSUMI,
+           Y.NAUCHI,N.HIRAKAWA)
+INSTITUTE  (2JPNTOH)
+REFERENCE  (J,NIM/A,394,368,1997)
+INC-SOURCE (P-LI7) Neutrons were produced by bombarding a thick
+           7Li target with a proton beam whose energy Ep=1.912 MeV
+           is above the reaction threshold of the 7Li(p,n)7Be.
+           The thick 7Li target as prepared by evaporating
+           metallic Li on a Pt plate in a Cu target assembly
+           which has 10 mm diam. The target was cooled by an
+           air-jet during the experiment.
+SAMPLE     The 14N sample was a thin melamine film (C3H6N6)
+           prepared by vacuum evaporation on a 0.01 mm thick
+           Al foil. From weight of the sample, its thickness was
+           determined to 212+-1.2mu-g/cm2.
+MONITOR    (3-LI-6(N,T)2-HE-4,,SIG) To measure the neutron
+           flux on the melamine sample, it was replaced with a
+           6LiF film which was evaporated on an Al foil
+            (0.01 mm) and 289+-1.2mu-g/cm2 thick.
+           An unevaporated Al foil was used for background
+           measurement.
+DETECTOR   (IOCH) The gridded ionization chamber was filled with
+           Ar+2.5%CO2 as a counter gas. The gas pressure was
+           7.8x10**4Pa (0.8kgf/cm2).
+FACILITY   (DYNAM)
+HISTORY    (20011102C)
+ENDBIB              28
+NOCOMMON             0          0
+ENDSUBENT           31
+SUBENT        22719002   20011118   20040705   20050926       0000
+BIB                  2          2
+REACTION   (7-N-14(N,P)6-C-14,,SIG,,MXW)
+ERR-ANALYS (DATA-ERR) Statistical and systematic errors
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+  25.00      1.700     0.8000E-01
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY             2

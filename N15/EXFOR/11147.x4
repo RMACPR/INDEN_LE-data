@@ -1,0 +1,40 @@
+ENTRY            11147     820107              20050926       0000
+SUBENT        11147001     820107              20050926       0000
+BIB                  9         11
+INSTITUTE  (1USALAS)
+REFERENCE  (J,PR,75,1358,4905)
+AUTHOR     (J.H.COON,R.A.NOBLES)
+TITLE      DISINTEGRATION OF HE3 AND N14 BY THERMAL NEUTRONS.
+INC-SPECT  THERMAL SPECTRUM
+DETECTOR   (PROPC)
+MONITOR    (5-B-0(N,ABS),,SIG)
+STATUS     (SCSRS)
+HISTORY    (760628T) TRANSLATED FROM SCISRS
+           (800814A) CONVERTED TO REACTION FORMALISM
+           (820107U) BIB UPDATE
+ENDBIB              11
+NOCOMMON             0          0
+ENDSUBENT           14
+SUBENT        11147002     820107              20050926       0000
+BIB                  1          1
+REACTION   (2-HE-3(N,P)1-H-3,,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+EN-DUMMY   DATA       DATA-ERR   MONIT
+MEV        B          B          B
+ 2.53   -08 5.040  +03 2.00   +02 703.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11147003     820107              20050926       0000
+BIB                  1          1
+REACTION   (7-N-14(N,P)6-C-14,,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+EN-DUMMY   DATA       DATA-ERR   MONIT
+MEV        B          B          B
+ 2.53   -08 1.76       5.     -02 703.
+ENDDATA              3
+ENDSUBENT            9
+ENDENTRY             3

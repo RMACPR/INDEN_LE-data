@@ -1,0 +1,44 @@
+ENTRY            11358     820324              20050926       0000
+SUBENT        11358001     820324              20050926       0000
+BIB                  6          9
+INSTITUTE  (1USATNC)
+REFERENCE  (R,WADC-TR-58-88,5802)
+AUTHOR     (N.A.BOSTROM,I.L.MORGAN,J.T.PRUD'HOMME,P.L.OKHUYSEN,
+           A.R.SATTAR)
+TITLE      INELASTIC SCATTERING OF FAST NEUTRONS FROM NITROGEN
+            AND OXYGEN.
+STATUS     (SCSRS)
+HISTORY    (761014T) TRANSLATED FROM SCISRS
+           (820324A) CONVERTED TO REACTION FORMALISM
+ENDBIB               9
+NOCOMMON             0          0
+ENDSUBENT           12
+SUBENT        11358002     820324              20050926       0000
+BIB                  2          2
+REACTION   (7-N-14(N,INL)7-N-14,PAR,DA,G,4PI)
+COMMENT    VALUES MULTIPLIED BY 1.4 (SEE WADC-TR-59-31,P.71).
+ENDBIB               2
+COMMON               2          3
+E          ANG
+MEV        ADEG
+    2.31    95.
+ENDCOMMON            3
+DATA                 3         13
+EN         DATA       DATA-ERR
+MEV        B          B
+ 3.39   +00 1.36   -02 5.9    -03
+ 3.77   +00 1.41   -02 4.1    -03
+ 3.77   +00 1.48   -02 0.     +00
+ 3.93   +00 1.26   -02 2.9    -03
+ 4.05   +00 1.69   -02 3.8    -03
+ 4.05   +00 1.90   -02 0.     +00
+ 4.195  +00 2.38   -02 4.8    -03
+ 4.32   +00 1.96   -02 0.     +00
+ 4.32   +00 2.13   -02 4.3    -03
+ 4.45   +00 2.38   -02 5.6    -03
+ 4.55   +00 2.66   -02 5.6    -03
+ 4.58   +00 2.14   -02 4.2    -03
+ 5.055  +00 4.03   -02 8.1    -03
+ENDDATA             15
+ENDSUBENT           26
+ENDENTRY             2

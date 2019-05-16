@@ -1,0 +1,79 @@
+ENTRY            E2146   20110201   20110216   20110201       E064
+SUBENT        E2146001   20110201   20110216   20110201       E064
+BIB                 10         34
+TITLE      Determination of astrophysical nuclear reaction rates
+           using light neutron-rich RNBs
+AUTHOR     (H.Ishiyama, T.Hashimoto, T.Ishikawa, K.Yamaguchi,
+            Y.X.Watanabe, Y.Hirayama, N.Imai, H.Miyatake,
+            M.H.Tanaka, N.Yoshikawa, S.C.Jeong, Y.Fuchi, T.Nomura,
+            I.Katayama, H.Kawakami, S.Arai, M.Okada, M.Oyaizu,
+            S.Mitsuoka, A.Osa, T.K.Sato, K.Nishio, M.Matsuda,
+            S.Ichikawa, H.Ikezoe, Y.Mizoi, S.K.Das, T.Fukuda,
+            T.Shimoda, K.Otsuki, T.Kajino)
+INSTITUTE  (2JPNKEK)
+           (2JPNJAE)
+           (2JPNJPN) Osaka Electro-Communication University,
+                     Neyagawa, Osaka
+           (2JPNOSA)
+           (2GERGSI)
+           (2JPNJPN) National Astronomy Observatory (NAOJ),
+                     Mitaka, Tokyo
+           (2JPNTSU)
+           (2JPNTOK)
+REFERENCE  (C,2008MACKIN,,(134),2008)
+           Main reference. See also TITLE and AUTHOR.
+           (S,AIP-1120,177,200905)
+           H.Ishiyama+, Conf. Proc. of ASR2008
+           (C,2007TOKYO,2,537,2007) H.Ishiyama+, SIG given
+PART-DET   (N)
+SAMPLE     - Chemical-form of target is element.
+           - Physical-form of target is gas.
+FACILITY   (VDGT,2JPNJAE) Tokai Radioactive Ion Accelerator
+                          Complex (TRIAC)
+DETECTOR   Gas chamber surrounded by neutron detector arrays
+ADD-RES    (RRATE)
+HISTORY    (20090721R) On. Received by e-mail from H.Ishiyama
+           (20090805C) Nh
+           (20101018A) Nf. REFERENCE: AIP-1120 added
+ENDBIB              34
+NOCOMMON             0          0
+ENDSUBENT           37
+SUBENT        E2146002   20091023   20100128   20100119       E060
+BIB                  3          3
+REACTION   (5-B-12(A,N)7-N-15,,SIG)
+ERR-ANALYS (DATA-ERR) No information on source of uncertainties
+STATUS     (TABLE) Plotted in Fig.1 of C,2008MACKIN,(134),2008
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4         26
+EN-CM      EN-ERR     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 1.15       0.09265    48.6       28.781
+ 1.25       0.090139   36.8       22.19
+ 1.35       0.087658   148.       34.552
+ 1.45       0.085212   250.       44.656
+ 1.55       0.082801   226.       35.871
+ 1.65       0.08043    161.       28.344
+ 1.75       0.078102   162.       25.804
+ 1.85       0.075822   240.       32.704
+ 1.95       0.073593   238.       29.563
+ 2.05       0.071421   243.       28.781
+ 2.15       0.069311   274.       32.28
+ 2.25       0.067268   258.       28.548
+ 2.35       0.065299   250.       26.307
+ 2.45       0.063411   205.       24.833
+ 2.55       0.061612   332.       31.227
+ 2.65       0.059908   271.       28.114
+ 2.75       0.05831    444.       37.936
+ 2.85       0.056824   389.       36.835
+ 2.95       0.055462   454.       39.739
+ 3.05       0.054231   541.       46.83
+ 3.15       0.053141   561.       49.431
+ 3.25       0.052202   484.       51.418
+ 3.35       0.05142    468.       50.019
+ 3.45       0.050804   500.       59.272
+ 3.55       0.050359   423.       62.696
+ 3.65       0.05009    581.       89.879
+ENDDATA             28
+ENDSUBENT           36
+ENDENTRY             2

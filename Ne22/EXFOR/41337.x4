@@ -1,0 +1,106 @@
+ENTRY            41337   20130130   20130502   20130410       4159
+SUBENT        41337001   20130130   20130502   20130410       4159
+BIB                 12         30
+TITLE       Measurements of the thermal neutron cross-sections
+           of the 17-O(n,alpha), 21-Ne(n,alpha) and 36-Ar(n,alpha)
+            reactions for gaseous samples
+AUTHOR     (Yu.M.Gledenov, V.I.Salatski, P.V.Sedyshev,
+            P.J.Shalanski, J.Andrzejevski, A.Zak)
+REFERENCE  (C,97TRIEST,1,511,199705) Main Reference, data given
+           ((S,ISINN-5,291,1997)=(S,JINR-E3-97-213,291,1997))
+                        Data are the same .
+INSTITUTE  (4ZZZDUB)  Gledenov,Salatski, Sedyshev, Shalanski
+           (3POLLOU)  Andrzejevski, Zak
+FACILITY   (REAC,4ZZZDUB) IBR-2 Reactor of Frank Lab. Of Neutron
+                          Physics
+INC-SOURCE (REAC) A curved mirror neutron guide 6b .
+INC-SPECT   Pure thermal neutron beam with 4.E+6 n/cm**2/sec .
+DETECTOR   (IOCH) New ionization chamber designed specially
+                  for measuring (N,P) and (N,A) reactions for
+                  gaseous samples. Chamber filled with Ar, Ne,
+                  C-O2 and He-3 gases in different proportions
+                  and pressures
+MONIT-REF  ((MONIT),S.F.Mughabghab+,B,NEUT.CS 1B,,1981)
+ANALYSIS   (SHAPE) Shape analysis for events separation for
+           overlapping peaks.
+STATUS     (TABLE)  Data from C,97TRIEST,1,511,1997 .
+HISTORY    (19990925C)  + + Compiled at the Centre - CJD + +
+           (20000403U)  . . Corrected at CJD
+           (20000403U)  Last checking has been done.
+           (20091204U) Reference S,ISINN-5,291,1997 was added.
+            MONITOR data were moved in proper Subents.
+            Subent 005 data were deleted as duplications.
+           (20130130A) M.M. Subent 002 was corrected.
+ENDBIB              30
+COMMON               1          3
+EN-DUMMY
+EV
+   2.53E-02
+ENDCOMMON            3
+ENDSUBENT           37
+SUBENT        41337002   20130130   20130502   20130410       4159
+BIB                  5         11
+REACTION   (8-O-17(N,A)6-C-14,,SIG,,MXW)
+SAMPLE      Gaseous sample with 93.75% of argon, 6.25% of C-O2,
+            1.8E-3% of He-3 at pressure 1.2 atm .
+            Natural abundance values were used: O-17 - 0.038 %,
+            Ne-21 - 0.27 %, Ar-36 - 0.337 % .
+MONITOR    ((MONIT)2-HE-3(N,P)1-H-3,,SIG,,MXW)
+STATUS     (TABLE) Table 1 of C,97TRIEST,511,1997 ,
+                   Table 1 of S,ISINN-5,291,1997 .
+HISTORY    (20130130A) M.M."M" in SF5 is deleted (was absent in
+           final trans 4148, was inserted by NDS in final trans
+           4148-NDS) .
+ENDBIB              11
+COMMON               2          3
+MONIT      MONIT-ERR
+B          B
+  5332.      6.
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+  233.       12.
+ENDDATA              3
+ENDSUBENT           23
+SUBENT        41337003   20091204   20100209   20100209       4148
+BIB                  4          6
+REACTION   (18-AR-36(N,A)16-S-33,,SIG,,MXW)
+SAMPLE      Gaseous sample with 93.75% of argon, 6.25% of C-O2,
+            1.8E-3% of He-3 at pressure 1.2 atm
+MONITOR    ((MONIT)2-HE-3(N,P)1-H-3,,SIG,,MXW)
+STATUS     (TABLE) Table 1 of C,97TRIEST,511,1997 ,
+             Table 1 of S,ISINN-5,291,1997 .
+ENDBIB               6
+COMMON               2          3
+MONIT      MONIT-ERR
+B          B
+  5332.      6.
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+  5.43       0.27
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        41337004   20091204   20100209   20100209       4148
+BIB                  4          6
+REACTION   (10-NE-21(N,A)8-O-18,,SIG,,MXW)
+SAMPLE      Gaseous sample with 95% of neon, 5.00% of C-O2,
+            at pressure 1.7 atm.
+MONITOR    ((MONIT)8-O-17(N,A)6-C-14,,SIG,,MXW)
+STATUS     (TABLE) Table 2 of C,97TRIEST,511,1997 ,
+            Table 2 of S,ISINN-5,291,1997 (error is 0.09 mb) .
+ENDBIB               6
+COMMON               2          3
+MONIT      MONIT-ERR
+MB         MB
+   235.     10.
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+  0.18       0.07
+ENDDATA              3
+ENDSUBENT           18
+ENDENTRY             4

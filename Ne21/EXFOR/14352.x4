@@ -1,0 +1,118 @@
+ENTRY            14352   20130109   20130328   20130315       1387
+SUBENT        14352001   20130109   20130328   20130315       1387
+BIB                 11         44
+TITLE      Neutron-induced gamma-ray production cross sections
+           for the first excited-state transitions in
+           20Ne and 22Ne
+AUTHOR     (S.MacMullin,M.Boswell,M.Devlin,S.R.Elliott,N.Fotiades,
+           V.E.Guiseppe,R.Henning,T.Kawano,B.H.LaRoque,R.O.Nelson,
+           J.M.O'Donnell)
+INSTITUTE  (1USANCA,1USATNL,1USALAS)
+           (1USAUSA) University of South Dakota, Vermillion,
+           South Dakota
+REFERENCE  (J,PR/C,86,067601,2012)
+FACILITY   (LINAC,1USALAS) Experiment performed at the Los
+           Alamos Neutron Science Center sing the Weapons
+           Neutron Research facility spallation neutron source
+SAMPLE     The neon gas target cell was a 3.81-cm diameter and
+           6.35-cm long thin-walled aluminum cylinder with
+           0.127-mm thick Kapton windows at either end. The gas
+           cell was placed at the center of the GEANIE array,
+           with the neutron beam passing through the Kapton
+           foils. The natNe gas pressure was maintained at 3.96
+           atm with less than 1% variation over the course of
+           the experiment.
+DETECTOR   (HPGE) Gamma rays produced in neutron induced
+           reactions were measured with the the GErmanium Array
+           for Neutron Induced Excitations (GEANIE). GEANIE
+           comprises 20 high-purity germanium detectors with
+           bismuth germinate (BGO) escape suppression shields.
+           Detectors have either a planar or coaxial geometry.
+           (IOCH)The neutron flux on target was measured with an
+           in-beam fission ionization chamber with 235U and 238U
+           foils located about 2 m upstream from the center of
+           the GEANIE array.
+INC-SOURCE (SPALL) Pulsed neutron beam was produced via spallation
+           on a natW target by an 800-MeV proton linear
+           accelerator beam.
+METHOD     (TOF)The proton beam structure contained 625-ms-long
+           macropulses repeated at 60 Hz, or every 16.7 ms.
+           One in three macropulses was delivered to another
+           facility, resulting in an average rate of pulses/s.
+           Each macropulse consisted of micropulses spaced
+           every 1.8 micro-s, each less than 1 ns long. The pulsed
+           beam allowed incident neutron energies to be
+           determined using the time-of-flight technique.
+ERR-ANALYS (DATA-ERR) No information given
+HISTORY    (20130109C) Compiled by S.H.
+ENDBIB              44
+NOCOMMON             0          0
+ENDSUBENT           47
+SUBENT        14352002   20130109   20130328   20130315       1387
+BIB                  2          2
+REACTION   (10-NE-20(N,INL)10-NE-20,PAR,SIG,G)
+STATUS     (TABLE)Data taken from tab. 1 of the reference
+ENDBIB               2
+COMMON               2          3
+E          LVL-INI
+KEV        KEV
+1633.7     1633.7
+ENDCOMMON            3
+DATA                 4         19
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+   1.9       0.1        0.10       0.01
+   2.1       0.1        0.30       0.03
+   2.4       0.1        0.44       0.04
+   2.7       0.2        0.63       0.06
+   3.0       0.2        0.44       0.04
+   3.4       0.2        0.65       0.06
+   3.8       0.2        0.50       0.05
+   4.2       0.2        0.45       0.04
+   4.7       0.3        0.44       0.04
+   5.3       0.3        0.51       0.05
+   6.0       0.3        0.50       0.05
+   6.7       0.4        0.64       0.06
+   7.5       0.4        0.63       0.06
+   8.4       0.5        0.60       0.06
+   9.5       0.5        0.47       0.05
+  10.6       0.6        0.45       0.04
+  11.9       0.7        0.39       0.04
+  13.4       0.7        0.35       0.04
+  15.0       0.8        0.29       0.03
+ENDDATA             21
+ENDSUBENT           32
+SUBENT        14352003   20130109   20130328   20130315       1387
+BIB                  2          2
+REACTION   (10-NE-22(N,INL)10-NE-22,PAR,SIG,G)
+STATUS     (TABLE)Data taken from tab. 2 of the reference
+ENDBIB               2
+COMMON               2          3
+E          LVL-INI
+KEV        KEV
+1274.5     1274.5
+ENDCOMMON            3
+DATA                 4         18
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+   1.5       0.1        0.08       0.01
+   1.7       0.1        0.41       0.04
+   1.9       0.1        0.57       0.05
+   2.1       0.1        0.48       0.04
+   2.4       0.1        0.61       0.06
+   2.7       0.2        0.56       0.05
+   3.0       0.2        0.82       0.09
+   3.4       0.2        0.90       0.09
+   3.8       0.2        0.74       0.07
+   4.2       0.2        1.06       0.11
+   4.7       0.3        0.87       0.10
+   5.3       0.3        1.01       0.13
+   6.0       0.3        0.99       0.11
+   6.7       0.4        1.20       0.15
+   7.5       0.4        1.21       0.18
+   8.4       0.5        1.13       0.15
+   9.5       0.5        1.07       0.12
+  10.6       0.6        1.04       0.12
+ENDDATA             20
+ENDSUBENT           31
+ENDENTRY             3

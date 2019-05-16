@@ -1,0 +1,179 @@
+ENTRY            30118   20160210   20160503   20160408       3173
+SUBENT        30118001   20160210   20160503   20160408       3173
+BIB                 13         33
+TITLE      Activation cross-sections for Na-23 and Al-27 with
+           14. MeV neutrons.
+AUTHOR     (J.Csikai,B.Gyarmati,I.Hunyadi)
+INSTITUTE  (3HUNDEB)
+REFERENCE  (J,NP,46,141,196307) method, results, theory,discussion
+           (J,AK,4,137,196206) more details, in Hungarian
+INC-SOURCE (D-T) d-t reaction
+METHOD     (ACTIV) Activation
+           Foils were moved pneumatically between sites of activ-
+           ation and measurement. Measurement started 0.5 Sec
+           after irradiation.
+DETECTOR   (LONGC,GEMUC)
+           Neutron flux was determined absolutely with a long
+           counter calibrated with a known Po-Be source.
+           Beta-activity of the foils was measured with a Mica end
+           window Geiger-Mueller counter.
+ANALYSIS   Decay-curves analyzed by method of maximum likelihood
+PART-DET   (B-) beta-activity
+STATUS     (TABLE) Data from Nucl.Phys.46(1963)141, Table 1
+           (APRVD) Approved by Peto (5/9/1972)
+CORRECTION Corrections were done for
+           * difference in beta-spectra
+           * flux fluctuation
+           * energy dependence of detection sensitivity when
+             calibrating the long counter
+REL-REF    (O,30067003,J.Csikai+,J,NP/A,95,229,1967)
+                27Al(n, g)28Al cross section (0.56 mb) given.
+HISTORY    (19710222C) HDL
+           (20080208A) BIB section updated
+           (20150813A) VS Reaction code correction in 005.
+           (20160209A) VS. Data in 002-004 replaced with values
+                       from Nucl.Phys.46(1963)141
+                       Cross sections data added in 006-009
+ENDBIB              33
+COMMON               1          3
+EN
+MEV
+ 1.4600E+01
+ENDCOMMON            3
+ENDSUBENT           40
+SUBENT        30118002   20160210   20160503   20160408       3173
+BIB                  5         10
+REACTION   ((11-NA-23(N,A)9-F-20,,SIG)/
+           (11-NA-23(N,P)10-NE-23,,SIG))
+DECAY-DATA (9-F-20,10.4SEC)
+           (10-NE-23,37.0SEC)
+COMMENT    Observed half-lives were 37.0 Sec from Ne-23
+                                and 10.4 Sec from F-20
+            The results in Nucl.Phys.46,141 are rounded off.
+ERR-ANALYS (DATA-ERR) Analysis of quoted errors not given
+HISTORY    (20160209A) VS. ERR-ANALYS, COMMENT moved from 001.
+            Data replaced with values from Nucl.Phys.46(1963)141
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+NO-DIM     NO-DIM
+ 3.9         0.3
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        30118003   20160210   20160503   20160408       3173
+BIB                  6         11
+REACTION   ((13-AL-27(N,P)12-MG-27,,SIG)/
+           (13-AL-27(N,G)13-AL-28,,SIG))
+DECAY-DATA (12-MG-27,10.0MIN)
+           (13-AL-28,2.30MIN)
+COMMENT    Observed half-lives were 10.0+-0.04 Min from Mg-27
+                                and 2.30+-0.08 Min from Al-28
+           The results in Nucl.Phys.46,141 are rounded off.
+ERR-ANALYS (DATA-ERR) Analysis of quoted errors not given
+STATUS     (TABLE) Data from Atomki Kozl. 4,137, Table 1
+HISTORY    (20160209A) VS. ERR-ANALYS, COMMENT moved from 001.
+             Data replaced with values from Nucl.Phys.46(1963)141
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+NO-DIM     NO-DIM
+ 130.        20.
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        30118004   20160210   20160503   20160408       3173
+BIB                  6         11
+REACTION   ((13-AL-27(N,A)11-NA-24,,SIG)/
+           (13-AL-27(N,P)12-MG-27,,SIG))
+DECAY-DATA (11-NA-24,15.19HR)
+           (12-MG-27,10.0MIN)
+COMMENT    Observed half-lives were 15.19+-0.21 Hours from Na-24
+                                and  10.0+-0.04 Min from Mg-27
+           The results in Nucl.Phys.46,141 are rounded off.
+ERR-ANALYS (DATA-ERR) Analysis of quoted errors not given
+STATUS     (TABLE) Data from Atomki Kozl. 4,137, Table 1
+HISTORY    (20160209A) VS. ERR-ANALYS, COMMENT moved from 001.
+             Data replaced with values from Nucl.Phys.46(1963)141
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+NO-DIM     NO-DIM
+   1.6      0.1
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        30118005   20160210   20160503   20160408       3173
+BIB                  5          8
+REACTION   ((13-AL-27(N,2N)13-AL-26-M,,SIG)/
+           (13-AL-27(N,G)13-AL-28,,SIG))
+DECAY-DATA (13-AL-28,2.30MIN)
+COMMENT    Observed half-life was 2.30+-0.08 Min from Al-28
+           The results in Nucl.Phys.46,141 are rounded off.
+STATUS     (TABLE) Data from Atomki Kozl. 4,137, Table 1
+HISTORY    (20150813A) VS. 13-AL-26->13-AL-26-M
+           (20160209A) VS. ERR-ANALYS, COMMENT moved from 001.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 1          1
+DATA-MAX
+NO-DIM
+ 3.0000E-01
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        30118006   20160210   20160503   20160408       3173
+BIB                  4          4
+REACTION   (13-AL-27(N,P)12-MG-27,,SIG)
+DECAY-DATA (12-MG-27,10.0MIN)
+STATUS     (TABLE) Data from Nucl.Phys.46(1963)141, Table 1
+HISTORY    (20151028C) VS.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 72.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        30118007   20160210   20160503   20160408       3173
+BIB                  4          4
+REACTION   (13-AL-27(N,A)11-NA-24,,SIG)
+DECAY-DATA (11-NA-24,15.19HR)
+STATUS     (TABLE) Data from Nucl.Phys.46(1963)141, Table 1
+HISTORY    (20160209A) VS.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 118.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        30118008   20160210   20160503   20160408       3173
+BIB                  4          4
+REACTION   (13-AL-27(N,G)13-AL-28,,SIG)
+DECAY-DATA (13-AL-28,2.30MIN)
+STATUS     (TABLE) Data from Nucl.Phys.46(1963)141, Table 1
+HISTORY    (20160209A) VS.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 0.56
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        30118009   20160210   20160503   20160408       3173
+BIB                  3          3
+REACTION   (13-AL-27(N,2N)13-AL-26-M,,SIG)
+DECAY-DATA (13-AL-26-M,6.3452SEC)
+HISTORY    (20160209A) VS.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 1          1
+DATA-MAX
+MB
+ 0.17
+ENDDATA              3
+ENDSUBENT           11
+ENDENTRY             9

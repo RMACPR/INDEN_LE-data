@@ -1,0 +1,103 @@
+ENTRY            A1373   19990322   19990505   20050926       0000
+SUBENT        A1373001   19990322   19990505   20050926       0000
+BIB                  8         11
+INSTITUTE  (2FR STR)
+REFERENCE  (J,CR,251,(19),2006,196011)
+AUTHOR     (R.SELTZ,D.MAGNAC-VALETTE)
+TITLE      Excitation function of the 7Li(t,n) cross-section
+           at the energy range 100 - 300 keV
+FACILITY   300 kV accelerator
+SAMPLE     Li2O of thickness 30 mu-g/cm**2 and 10 mu-g/cm**2
+DETECTOR   (LONGC) Long proprotional counter of BF3
+HISTORY    (19800930C) Compilation produced by RFNC-VNIIEF Sarov
+           (19970406A) Compilator changed the data in subentry 2.
+           (19990317U)CNPD: corrected 4-dig. year and lower cases.
+ENDBIB              11
+NOCOMMON
+ENDSUBENT           14
+SUBENT        A1373002   19990322   19990505   20050926       0000
+BIB                  4          6
+REACTION   (3-LI-7(T,N)4-BE-9,,DA,,,EXP)
+ERR-ANALYS (EN-ERR) Digitizing error
+           (DATA-ERR) Digitizing error
+FLAG       (1.) 30 mu-g/cm**2 target
+           (2.) 10 mu-g/cm**2 target
+STATUS     (CURVE) Fig 2
+ENDBIB               6
+COMMON               3          3
+EN-ERR     ANG        DATA-ERR
+MEV        ADEG       MB/SR
+ 0.005       90.       0.003
+ENDCOMMON            3
+DATA                 3         27
+EN         DATA       FLAG
+MEV        MB/SR      NO-DIM
+     0.1209     0.5272     1.
+     0.1308     0.5357     1.
+     0.1396     0.544      1.
+     0.1505     0.5628     2.
+     0.1598     0.5901     1.
+     0.1697     0.6251     1.
+     0.1763     0.5798     2.
+     0.1795     0.6415     1.
+     0.1888     0.703      1.
+     0.1992     0.73       1.
+     0.2002     0.7791     2.
+     0.209      0.7889     1.
+     0.2102     0.7425     2.
+     0.2199     0.8691     1.
+     0.2205     0.8276     2.
+     0.2297     0.9625     1.
+     0.2298     0.9231     2.
+     0.2396     0.9869     1.
+     0.2396     0.9685     2.
+     0.25       0.99       1.
+     0.25       1.016      2.
+     0.2593     0.9958     1.
+     0.2593     1.07       2.
+     0.2801     1.118      2.
+     0.2894     1.14       2.
+     0.29       1.106      1.
+     0.2992     1.181      1.
+ENDDATA             29
+ENDSUBENT           44
+SUBENT        A1373003   19990322   19990505   20050926       0000
+BIB                  4          6
+REACTION   (3-LI-6(T,N)4-BE-8,,DA,,,EXP)
+ERR-ANALYS (EN-ERR) Digitizing error
+           (DATA-ERR) Digitizing error
+FLAG       (1.) 30 mu-g/cm**2 target
+           (2.) 10 mu-g/cm**2 target
+STATUS     (CURVE) Fig 2 upper
+ENDBIB               6
+COMMON               3          3
+EN-ERR     ANG        DATA-ERR
+MEV        ADEG       MB/SR
+ 0.001       90.       0.005
+ENDCOMMON            3
+DATA                 3         20
+EN         DATA       FLAG
+MEV        MB/SR      NO-DIM
+     0.0972     0.0393     2.
+     0.1185     0.0693     1.
+     0.1272     0.0889     1.
+     0.1477     0.0615     1.
+     0.1689     0.1201     1.
+     0.1863     0.1451     1.
+     0.1972     0.1075     2.
+     0.2081     0.2947     1.
+     0.218      0.2666     1.
+     0.2288     0.229      1.
+     0.2391     0.3444     1.
+     0.246      0.5697     1.
+     0.2482     0.2493     2.
+     0.259      0.4891     1.
+     0.2685     0.5423     1.
+     0.2791     0.8157     1.
+     0.2878     1.094      1.
+     0.2969     1.013      1.
+     0.2985     1.094      1.
+     0.2992     0.6494     2.
+ENDDATA             22
+ENDSUBENT           37
+ENDENTRY             3

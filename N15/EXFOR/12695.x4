@@ -1,0 +1,167 @@
+ENTRY            12695   20140422   20141203   20141111       1401
+SUBENT        12695001   20140422   20141203   20141111       1401
+BIB                 13         23
+INSTITUTE  (1USATNC)
+REFERENCE  (P,TID-22012,158,196408)
+           (P,ORO-2791-32,8,1971) - data from several publ.
+           (P,ORO-2791-28,196901)
+AUTHOR     (I.L.Morgan,J.B.Ashe,D.O.Nellis)
+TITLE      Angular distribution of gamma rays from
+           C, O, and N at En=14.8 MeV
+FACILITY   (VDG,1USATNC)
+METHOD     (TOF)
+INC-SOURCE (D-T) T(d,n)He-4 reaction.
+MONITOR    Neutron flux monitored with a Hanson-McKibben long
+             counter.
+DETECTOR   Anti-coincidence spectrometer.
+ERR-ANALYS (DATA-ERR) No details available.
+CORRECTION Corrections were made neutron and gamma-ray attenuation
+             multiple scattering effects.
+STATUS     (COREL,12696001) N-14,O-16 data at 55.degr.
+           (COREL,13010001) C-12 diff.data at 55., 90. degr.
+HISTORY    (19850507C)
+           (20140422A) SD: Updated to new date formats,lower case.
+            Corrections according last EXFOR rules and Dict.
+            Page of ORO-2791-32 added. REACTION code corrected
+            in Subents 4,5. STATUS (COREL) added.
+ENDBIB              23
+NOCOMMON             0          0
+ENDSUBENT           26
+SUBENT        12695002   20140422   20141203   20141111       1401
+BIB                  3          4
+REACTION   (6-C-12(N,INL)6-C-12,PAR,DA,G,RSD)
+SAMPLE     Reactor grade carbon.
+           Right circular cylinders 2.54cm o.d. by 5.08cm length
+STATUS     (TABLE)Data taken from ORO-2791-28 -same at ORO-2791-32
+ENDBIB               4
+COMMON               3          3
+EN         EN-RSL     E
+MEV        MEV        MEV
+ 14.8       0.4        4.43
+ENDCOMMON            3
+DATA                 3          8
+ANG        DATA       DATA-ERR
+ADEG       NO-DIM     NO-DIM
+  30.       2.08       0.08
+  40.       1.68       0.07
+  55.       1.63       0.06
+  70.       1.15       0.04
+  90.       1.00       0.04
+ 110.       1.03       0.04
+ 125.       1.47       0.06
+ 140.       1.76       0.07
+ENDDATA             10
+ENDSUBENT           23
+SUBENT        12695003   20140422   20141203   20141111       1401
+BIB                  3          4
+REACTION   (6-C-12(N,INL)6-C-12,PAR,SIG,G)
+SAMPLE     Reactor grade carbon.
+           Right circular cylinders 2.54cm o.d. by 5.08cm length
+STATUS     (TABLE) Data taken from TID-22012,158.
+ENDBIB               4
+COMMON               1          3
+E
+MEV
+ 4.43
+ENDCOMMON            3
+DATA                 3          3
+EN         DATA       DATA-ERR
+MEV        MB         MB
+ 13.03      440.       80.
+ 14.8       225.       30.
+ 16.03      170.       35.
+ENDDATA              5
+ENDSUBENT           18
+SUBENT        12695004   20140422   20141203   20141111       1401
+BIB                  4          7
+REACTION   (7-N-14(N,INL)7-N-14,PAR,DA,G)
+SAMPLE     Be and Be3N2 samples
+           Right circular cylinders 2.54cm o.d. by 5.08cm length.
+           Right circular cylinder 3.81 o.d. by 5.08cm length
+STATUS     (TABLE) Data taken from ORO-2791-28.
+HISTORY    (20140422A) SD: SF3=X -> INL, SF4=G-0 -> N-14 in
+           REACTION code. E-MIN/MAX -> E.
+ENDBIB               7
+COMMON               3          3
+EN         EN-RSL     ANG
+MEV        MEV        ADEG
+ 14.8       0.3        90.
+ENDCOMMON            3
+DATA                 4         17
+E          E          DATA       DATA-ERR
+MEV        MEV        MB/SR      PER-CENT
+ 0.75                  1.34       20.
+ 0.90       1.45       1.21       20.
+ 1.60                  1.34       20.
+ 2.13                  1.20       20.
+ 2.31                  2.72       20.
+ 2.80                  0.40       20.
+ 3.09                  0.69       20.
+ 3.37                  0.54       20.
+ 3.68                  1.96       20.
+ 3.86                  1.46       20.
+ 4.46                  2.93       20.
+ 4.90                  0.96       20.
+ 5.10                  1.82       20.
+ 5.35       6.00       1.62       20.
+ 6.00       6.50       1.75       29.
+ 6.50       7.00       2.42       20.
+ 7.00       7.25       0.9        20.
+ENDDATA             19
+ENDSUBENT           35
+SUBENT        12695005   20140422   20141203   20141111       1401
+BIB                  4          6
+REACTION  1(8-O-16(N,X)0-G-0,PAR,DA)
+          2(8-O-16(N,INL)8-O-16,PAR,DA,G)
+SAMPLE     BeO, Be samples.
+           right circular cylinders 2.54cm o.d. by 5.08cm length
+STATUS     (TABLE) Taken from ORO-2791-28.
+HISTORY    (20140422A) SD:  Col. E was added. REACTION (2) added.
+ENDBIB               6
+COMMON               4          3
+EN         EN-RSL     ANG        DATA-ERR
+MEV        MEV        ADEG       PER-CENT
+ 14.8       0.3        90.         20.
+ENDCOMMON            3
+DATA                 5         11
+E          E-MIN      E-MAX      DATA      1DATA      2
+MEV        MEV        MEV        MB/SR      MB/SR
+                   0.5        1.5       2.52
+                   1.5        2.5       0.19
+       2.74                                        2.61
+       3.09                             1.30
+       3.68                             4.25
+       3.85                             2.66
+       4.43                             1.46
+       6.14                                        9.21
+       6.92                                        2.61
+       7.12                                        1.97
+       8.88                                        0.33
+ENDDATA             13
+ENDSUBENT           28
+SUBENT        12695006   20140422   20141203   20141111       1401
+BIB                  3          5
+REACTION   (8-O-16(N,INL)8-O-16,PAR,DA,G,RSD)
+SAMPLE     BeO, Be samples.
+           right circular cylinders 2.54cm o.d. by 5.08cm length
+STATUS     (TABLE) From ORO-2791-32, p.9 (same in ORO-2791-28)
+           (COREL,12696005) O-16 at 90.degr.
+ENDBIB               5
+COMMON               3          3
+EN         EN-RSL     E
+MEV        MEV        MEV
+ 14.8       0.3        6.14
+ENDCOMMON            3
+DATA                 3          7
+ANG        DATA       DATA-ERR
+ADEG       NO-DIM     NO-DIM
+  30.       1.47
+  40.       1.44
+  55.       1.20
+  70.       1.09
+  90.       1.00       0.03
+ 125.       1.13
+ 140.       1.32
+ENDDATA              9
+ENDSUBENT           23
+ENDENTRY             6

@@ -1,0 +1,154 @@
+ENTRY            11229   20090916   20100128   20100119       1357
+SUBENT        11229001   20090916   20100128   20100119       1357
+BIB                 10         16
+INSTITUTE  (1USALRL)
+REFERENCE  (J,PR,111,572,1958)
+AUTHOR     (J.D.Anderson,C.C.Gardner,J.W.McCLure,M.P.Nakada,
+           C.Wong)
+TITLE      Inelastic Scattering of 14-MeV Neutrons from Carbon and
+            Beryllium.
+FACILITY   (CCW)
+INC-SOURCE (D-T)
+METHOD     (TOF). Ring geometry.
+DETECTOR   (SCIN) Plastic scintillator.
+STATUS     (SCSRS)
+HISTORY    (19760629T) Translated from scisrs
+           (19800820A) converted to reaction formalism
+           (19830421A) data coded as received from author.
+           (20090916A) VM:Updated to new date formats,lower case.
+                       BIB updates.
+ENDBIB              16
+COMMON               1          3
+EN
+MEV
+ 1.4    +01
+ENDCOMMON            3
+ENDSUBENT           23
+SUBENT        11229002   20090916   20100128   20100119       1357
+BIB                  3          4
+REACTION   (4-BE-9(N,INL)4-BE-9,PAR,SIG)
+ANALYSIS   (INTAD)
+STATUS     (DEP,11229003) Integrated angular distribution.
+           (TABLE) Data taken from reference text.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+Q-VAL      DATA       DATA-ERR
+MEV        B          B
+ -2.43      0.17       0.03
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11229003   20090916   20100128   20100119       1357
+BIB                  3          3
+REACTION   (4-BE-9(N,INL)4-BE-9,PAR,DA)
+CORRECTION Corrected for multiple scattering.
+STATUS     (TABLE) Tabulated data received from J.D. Anderson.
+ENDBIB               3
+COMMON               1          3
+Q-VAL
+MEV
+   -2.43
+ENDCOMMON            3
+DATA                 3         16
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+  27.7      2.25   +01 5.4    +00
+  32.6      2.53   +01 4.8    +00
+  37.9      1.98   +01 3.8    +00
+  43.1      1.67   +01 4.2    +00
+  49.4      1.47   +01 3.8    +00
+  55.7      1.72   +01 2.2    +00
+  59.0      1.79   +01 3.2    +00
+  66.3      1.57   +01 1.4    +00
+  74.9      1.47   +01 1.3    +00
+  86.2      1.19   +01 1.2    +00
+  96.8      1.20   +01 2.0    +00
+ 106.8      1.05   +01 1.3    +00
+ 116.5      1.25   +01 1.6    +00
+ 127.2      7.2    +00 9.     -01
+ 133.9      8.9    +00 1.2    +00
+ 144.5      5.0    +00 2.0    +00
+ENDDATA             18
+ENDSUBENT           30
+SUBENT        11229004   20090916   20100128   20100119       1357
+BIB                  6         10
+REACTION  1(6-C-12(N,INL)6-C-12,PAR,DA,G,RSD)
+          2(6-C-12(N,INL)6-C-12,PAR,DA,G)
+MONITOR   2(6-C-12(N,INL)6-C-12,PAR,DA,G)
+CORRECTION Corrected for multiple scattering.
+ERR-ANALYS1(DATA-ERR) Relative error.
+          2(DATA-ERR) Normalization error.
+STATUS     (TABLE) Tabulated data received from J.D. Anderson,
+                   1962/2/21.
+HISTORY    (19830421A) Data coded as received from author.
+           (20090916A) Pointer added to data heading.
+ENDBIB              10
+COMMON               4          3
+E          ANG-NRM   2MONIT     2MONIT-ERR 2
+MEV        ADEG       MB/SR      MB/SR
+    4.43    90.        13.1       2.0
+ENDCOMMON            3
+DATA                 5         12
+ANG-CM     DATA-CM   1DATA-ERR  1DATA-CM   2DATA-ERR  2
+ADEG       NO-DIM     NO-DIM     MB/SR      MB/SR
+  30.0      1.53       0.07       2.00   +01 3.0    +00
+  40.6      1.68       0.11       2.20   +01 3.3    +00
+  49.2      1.51       0.06       1.98   +01 3.0    +00
+  61.6      1.38       0.04       1.81   +01 2.7    +00
+  69.6      1.22       0.04       1.60   +01 2.4    +00
+  78.7      1.08       0.03       1.41   +01 2.1    +00
+  88.7      0.96       0.03       1.26   +01 1.9    +00
+  99.1      1.09       0.03       1.43   +01 2.1    +00
+ 109.1      1.21       0.03       1.58   +01 2.4    +00
+ 118.2      1.33       0.04       1.74   +01 2.6    +00
+ 129.7      1.50       0.05       1.96   +01 3.0    +00
+ 141.1      1.63       0.05       2.14   +01 3.2    +00
+ENDDATA             14
+ENDSUBENT           33
+SUBENT        11229005   20090916   20100128   20100119       1357
+BIB                  3          4
+REACTION   (6-C-12(N,INL)6-C-12,PAR,SIG)
+ANALYSIS   (INTAD)
+STATUS     (DEP,11229006) Integrated angular distribution
+           (TABLE) Data taken from reference text.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+E-LVL      DATA       DATA-ERR
+MEV        B          B
+ 4.43       0.22       0.03
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11229006   20090916   20100128   20100119       1357
+BIB                  3          3
+REACTION   (6-C-12(N,INL)6-C-12,PAR,DA)
+CORRECTION Corrected for multiple scattering.
+STATUS     (TABLE) Tabulated data received from J.D. Anderson.
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+    4.43
+ENDCOMMON            3
+DATA                 3         16
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+  27.1      5.04   +01 4.2    +00
+  31.9      3.98   +01 2.9    +00
+  37.2      3.60   +01 2.7    +00
+  42.4      2.67   +01 2.1    +00
+  49.0      2.04   +01 1.7    +00
+  54.6      2.29   +01 1.9    +00
+  57.8      1.66   +01 1.5    +00
+  65.6      1.50   +01 1.4    +00
+  74.5      1.072  +01 9.3    -01
+  84.8      6.07   +00 9.6    -01
+  94.4      7.0    +00 1.0    +00
+ 104.6      9.2    +00 1.0    +00
+ 114.3      1.15   +01 1.4    +00
+ 123.6      1.54   +01 1.4    +00
+ 134.1      1.73   +01 1.3    +00
+ 144.8      1.78   +01 1.3    +00
+ENDDATA             18
+ENDSUBENT           30
+ENDENTRY             6

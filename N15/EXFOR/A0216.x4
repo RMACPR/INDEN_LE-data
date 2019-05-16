@@ -1,0 +1,138 @@
+ENTRY            A0216   20010614   20010705   20050926       0000
+SUBENT        A0216001   20010614   20010705   20050926       0000
+BIB                 14         34
+TITLE      The 11-B(ALPHA,P) Reaction and Its Relevance in
+           Subsurface 14-C Production
+AUTHOR     (R.BONETTI, A.GUGLIELMETTI, G.POLI)
+REFERENCE  (J,ARI,48,873,1997)
+INSTITUTE  (2ITYMIL)
+FACILITY   (VDGT,2ITYPAD)
+METHOD     (SITA)
+           (BCINT) Both Charge Integration Efficiency and Target
+           Thickness were Independently Checked, the Former by
+           Rutherford Scattering and the Latter by an Alpha
+           Degradation Measurent.
+           (EXTB) Typical Currents Varyied Between 100 Nano-Ampere
+           For Singly Charged and 5 Nano-Ampere For Doubly Charged
+           Ions.
+SAMPLE     11-B Target, 97% Enrichedin 11-B, 50 Mugramm/Cm**2
+           Thick,  Deposited on a 15 Mugramm/Cm**2 Carbon Backing.
+DETECTOR   (SIBAR) Three Surface-Barrier Silicon Detectors were
+           Used to Measure the Emitted Protons Angular
+           Distributions, of Thickness Varying Between 1000 and
+           1500 Mumeter.  Their Angular Position was Such That a
+           Nine Points Angular Distribution, from 20 to 140
+           Degrees.
+EN-SEC     (E-LVL,6-C-14)
+STATUS     (CURVE) By CAJAD
+HISTORY    (20010516C)
+           (20010614U) Last checking has been done.
+ADD-RES    (P-SPC) At 5.5 MeV
+REL-REF    (A,F0229001,L.L.LEE+,J,PR,115,160,1959)
+           (A,F0428001,G.S.MANI+,J,NP,44,625,1963)
+           (D,B0133001,W.-S.HOU+,J,NSE,66,188,1978)
+ERR-ANALYS (ERR-T) The Uncertainty is Shown on Figure
+           (ERR-1) The Final Systematical Error
+           Statistical Error is of the Order of 1% in the Energy
+           Range 3.-7.1 MeV and 3% from 7.3 to 7.7 MeV
+ENDBIB              34
+COMMON               2          3
+ERR-1      E-LVL
+PER-CENT   MEV
+         7.         0.
+ENDCOMMON            3
+ENDSUBENT           41
+SUBENT        A0216002   20010614   20010705   20050926       0000
+BIB                  2          2
+REACTION   (5-B-11(A,P)6-C-14,PAR,DA,,,EXP)
+ERR-ANALYS (ANG-ERR) Data Point Reader Uncertainty
+ENDBIB               2
+COMMON               2          3
+ANG-ERR    EN
+ADEG       MEV
+        0.4         7.
+ENDCOMMON            3
+DATA                 3          9
+ANG-CM     DATA-CM    ERR-T
+ADEG       MB/SR      MB/SR
+       22.8      1.091    1.4E-02
+       39.7      1.018    1.6E-02
+       56.9      0.638    1.4E-02
+       73.6      0.392     8.E-03
+       88.9      0.666     1.E-02
+      104.1       1.22    1.9E-02
+      118.7      1.606    1.9E-02
+      132.4      1.674    2.9E-02
+      145.7       1.56     3.E-02
+ENDDATA             11
+ENDSUBENT           22
+SUBENT        A0216003   20010614   20010705   20050926       0000
+BIB                  3          3
+REACTION   (5-B-11(A,P)6-C-14,PAR,SIG,,,EXP)
+ANALYSIS   (INTAD)
+ERR-ANALYS (EN-ERR) Data Point Reader Uncertainty
+ENDBIB               3
+COMMON               1          3
+EN-ERR
+MEV
+    1.6E-02
+ENDCOMMON            3
+DATA                 3         53
+EN         DATA       ERR-T
+MEV        MB         MB
+      3.092        3.7
+      3.159       4.54
+      3.207       7.39
+      3.246      11.95
+      3.308       8.64
+      3.361       7.06
+      3.405       7.47
+       3.43      10.04
+      3.469      14.18
+       3.53      18.74
+      3.607      19.15
+       3.67       16.7
+      3.766      14.52
+       3.81      14.37
+      3.833      15.08
+      3.891      17.21
+      3.923      16.48
+      3.978      16.61
+      4.057      18.16
+        4.1       26.3
+      4.196       41.3
+      4.304      48.42
+      4.406      33.23
+      4.493      23.91
+      4.599      20.59
+      4.689      21.71
+        4.8      23.25
+      4.883      19.22
+       4.99      16.76
+      5.091      17.73
+      5.203      19.99
+      5.318      14.67
+      5.402      11.78
+      5.488        9.9
+      5.586       9.73
+      5.706       8.41
+      5.792       6.67
+        5.9       5.78
+      5.999      14.05
+      6.099       6.44
+      6.187       6.27
+      6.277       7.82
+      6.408       6.64
+      6.494       5.33
+      6.571       5.16
+      6.692       4.99
+      6.774       9.25
+      6.896      10.08
+      6.999      13.34
+      7.113      15.88
+      7.299      15.54
+      7.481       20.4        0.7
+      7.681       30.3         1.
+ENDDATA             55
+ENDSUBENT           67
+ENDENTRY             3

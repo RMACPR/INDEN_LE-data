@@ -1,0 +1,100 @@
+ENTRY            O1621   20080208   20080604   20080526       O035
+SUBENT        O1621001   20080208   20080604   20080526       O035
+BIB                 13         51
+TITLE      A feasibility study of the cyclotron production of
+           Na-21.
+AUTHOR     (F.Helus, W.Maier-Borst, H.Bauer, L.I.Wiebe)
+INSTITUTE  (2GERDKZ)
+           (1CANALA)
+REFERENCE  (J,JRN,98,371,1986)
+           (C,95VANCOU,,60,1995) It is O1598 and production of
+            F-18 through Ne-20(d,a) reaction.
+FACILITY   (CYCLO,2GERDKZ) the Heidelberg compact cyclotron
+METHOD     (BCINT)
+SAMPLE     The gas target consisted of water-cooled cylindrical
+           stainless-steel chamber(diameter=4 cm*15 cm long
+           internal dimensions) attached via a beam collimator to
+           the cyclotron beam pipe. An Al foil(350 mum) was used
+           to degrade the incident deuteron beam to less than
+            3.0 MeV. Neon gas, 99.99% purity, was passed through
+           the flow meter, drying columns of silica gel and
+           magnesium perchlorate, prior to reaching the target
+           cavity.
+           For measurement of the charge of the Na-21 species
+           produced during the nuclear reaction special water-
+           cooled steel target, diameter=8.2 cm*15 cm long,
+           internal dimensions, was constructed. This system was
+           also used to determine the charge of the F-18 species
+           produced via the Ne-20(d,a)F-18(See O1598) reaction.
+           A second electrode system was used for measurement of
+           the charge of Na-21 species swept out of the production
+           target by Ne gas.
+CORRECTION  All results were corrected to the end of bombardment.
+COMMENT    *By authors*.The experimental setup consisted of the
+           reaction chamber-target, a capillary tube, traps and
+           system for the measurement of the activity.
+           It is generally difficult to express the yields of
+           Na-21, Ne-23 and F-18 -short-lived radionuclides in
+           units of muCi/muAhr. The yield in this work will be
+           expressed as the rate of produced activity in muCi
+           continuously monitored by sweeping gas in a 2.0 ml
+           reservoir in calibrated ionization chamber,
+           approximately 10 m from the target. From these results,
+           knowing the volume of the target chamber and transport
+           system and the flow of the target gas it is possible
+           to calculate the activity produced direct in the
+           target. The dependence of the production rate of Na-21
+           and Ne-23 on the incident energy deuteron beam at 0.5
+           up to 6.0 MeV was examined.
+DETECTOR   (GELI) a 21 cm**3 Ge(Li) detector.
+           (IOCH)
+ERR-ANALYS (DATA-ERR).The average error in the cross section
+           production is indicated by authors in table 3.
+STATUS     (TABLE)
+HISTORY    (20080208C) SB
+ENDBIB              51
+COMMON               1          3
+DATA-ERR
+PER-CENT
+10.
+ENDCOMMON            3
+ENDSUBENT           58
+SUBENT        O1621002   20080208   20080604   20080526       O035
+BIB                  2          2
+REACTION   (10-NE-20(D,N)11-NA-21,,SIG)
+DECAY-DATA (11-NA-21,22.5SEC,DG,350.5,0.023,AR,511.)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          8
+EN         DATA
+MEV        MB
+0.50       33.
+1.10       190.
+2.80       430.
+3.50       500.
+4.50       580.
+5.25       560.
+8.00       550.
+9.35       420.
+ENDDATA             10
+ENDSUBENT           17
+SUBENT        O1621003   20080208   20080604   20080526       O035
+BIB                  2          2
+REACTION   (10-NE-22(D,P)10-NE-23,,SIG)
+DECAY-DATA (10-NE-23,37.6SEC,DG,439.5,0.33,AR,1640.,0.009)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          8
+EN         DATA
+MEV        MB
+0.80       70.
+2.80       84.
+3.50       194.
+4.50       375.
+5.20       820.
+6.00       410.
+8.00       390.
+9.50       360.
+ENDDATA             10
+ENDSUBENT           17
+ENDENTRY             3

@@ -1,0 +1,2065 @@
+ENTRY            V0027   20110131   20110323   20110308       V028
+SUBENT        V0027001   20110131   20110323   20110308       V028
+BIB                 11         72
+TITLE      Neutron cross-sections for elements of biomedical
+            importance from 20 to 50 MeV
+AUTHOR     (P.Dimbylow)
+INSTITUTE  (2UK NRP)
+REFERENCE  (J,PMB,25,(4),637,198007) Essential part of calculation
+           (W,DIMBYLOW,19811109)
+            Numeric data also for Mg,Al,P,S,A,Ca
+           (C,81NEUHERBG,,(III-1),198106)
+            No data given. Method nuclear model calculation.
+METHOD     Nuclear model calculation
+            1) Total and elastic scattering cross-section.
+             The optical model computer program NOPTIC at 20 MeV,
+             the results of calculations were matched to the
+             ENDF/B-IV data. Fitting the experimental total cross-
+             section data with the calculation was also done.
+            2) Statistical nuclear model code,GNASH.
+             A pre-equilibrium statistical nuclear model code
+             using Hauser-Feshbach theory, GNASH was applied to
+             calculate emission probabilities of n,p,d,t,He-3 and
+             alpha.
+            3) Distorted-waves born-approximation code, DWUCK
+             This program DWUCK calculates the scattering
+             differential cross-section for a general form of the
+             distorted-waves Born-approximation.
+            4) The individual reaction cross-sections calculated
+             by GNASH were normalized to the calculated nonelastic
+             cross-section minus direct reaction components.
+MONITOR     Evaluation data from ENDF/B-IV were used to match the
+             calculation below 20 MeV.
+REL-REF    (N,,P.Dimbylow,R,NRPB-M-44,1978) Code NOPTIC
+           (N,,P.G.Young+,R,LA-6947,1977)   Code GNASH
+           (N,,P.D.Kunz,W,KUNZ,1980)        Code DWUCK
+COMMENT     ---- Contents of EXFOR V0027 (Subentry number) ----
+                          C12  N14  016  Mg  Al27  P31   S   Ca
+              (n,tot)     002  003  004  005  006  007  008  009
+              (n,non)     010  011  012  013  014  015  016  017
+              (n,el)      018  041  070
+              (n,inel)    019  042  071
+              (n,2n)      020  043  072
+              (n,p)       032  057  083
+              (n,d)       036  062  086
+              (n,np)      021  044  073
+              (n,t)       038  064  088
+              (n,nd)      022  045  074
+              (n,2np)     025  047  076
+              (n,nt)      023  065  089
+              (n,2nd)     026  051
+              (n,pd)      033  058  084
+              (n,n2p)          061  078
+              (n,a)       039  067  091
+              (n,pt)      034  059  090
+              (n,npd)          052  080
+              (n,2n2p)         056  081
+              (n,na)      024  046  075
+              (n,npt)     029
+              (n,2na)     027  048  077
+              (n,pa)      035  060  085
+              (n,da)      037  063  087
+              (n,npa)     030  049  079
+                               050
+              (n,ta)           066
+              (n,nda)          053
+              (n,2a)      040  068  092
+                               069
+              (n,n2a)          054  082
+              (n,npta)    031
+            ---------------------------------------------------
+ERR-ANALYS No error given
+STATUS     (TABLE) Data from the author as private communication
+HISTORY    (19811109R)
+           (19811216C) KO
+           (20110131U) On. STATUS: TABLE added
+ENDBIB              72
+NOCOMMON             0          0
+ENDSUBENT           75
+SUBENT        V0027002   20110131   20110323   20110308       V028
+BIB                  3          5
+REACTION   (6-C-12(N,TOT),,SIG,,,CALC)
+FLAG       (1.) This numerical value is not given in Phys.Med.Biol
+            25(1980)637.
+STATUS     The values are identical with the ones in Table 2 of
+            Phys.Med.Biol.,25(1980)637.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3         18
+EN         DATA       FLAG
+MEV        MB         NO-DIM
+20.        1480.
+22.        1449.
+24.        1415.
+26.        1380.
+28.        1344.
+30.        1307.
+32.        1269.
+34.        1231.
+36.        1193.
+38.        1156.
+40.        1119.
+42.        1083.
+44.        1047.
+45.        1030.      1.
+46.        1013.
+48.         980.
+50.         948.
+60.7        796.      1.
+ENDDATA             20
+ENDSUBENT           30
+SUBENT        V0027003   20110131   20110323   20110308       V028
+BIB                  3          5
+REACTION   (7-N-14(N,TOT),,SIG,,,CALC)
+FLAG       (1.) This numerical value is not given in Phys.Med.Biol
+            25(1980)637.
+STATUS     The values are identical with the ones in Table 2 of
+            Phys.Med.Biol.,25(1980)637.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3         18
+EN         DATA       FLAG
+MEV        MB         NO-DIM
+20.        1550.
+22.        1543.
+24.        1530.
+26.        1510.
+28.        1485.
+30.        1455.
+32.        1422.
+34.        1387.
+36.        1351.
+38.        1313.
+40.        1274.
+42.        1236.
+44.        1197.
+45.        1178.      1.
+46.        1159.
+48.        1122.
+50.        1085.
+60.7        906.      1.
+ENDDATA             20
+ENDSUBENT           30
+SUBENT        V0027004   20110131   20110323   20110308       V028
+BIB                  3          5
+REACTION   (8-O-16(N,TOT),,SIG,,,CALC)
+FLAG       (1.) This numerical value is not given in Phys.Med.Biol
+            25(1980)637.
+STATUS     The values are identical with the ones in Table 2 of
+           Phys.Med.Biol.,25(1980)637.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3         18
+EN         DATA       FLAG
+MEV        MB         NO-DIM
+20.        1669.
+22.        1682.
+24.        1669.
+26.        1641.
+28.        1604.
+30.        1567.
+32.        1533.
+34.        1504.
+36.        1476.
+38.        1438.
+40.        1401.
+42.        1363.
+44.        1325.
+45.        1306.      1.
+46.        1288.
+48.        1252.
+50.        1216.
+60.7       1039.      1.
+ENDDATA             20
+ENDSUBENT           30
+SUBENT        V0027005   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (12-MG-0(N,TOT),,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         16
+EN         DATA
+MEV        MB
+20.        1833.
+22.        1844.
+24.        1849.
+26.        1850.
+28.        1846.
+30.        1838.
+32.        1825.
+34.        1809.
+36.        1791.
+38.        1770.
+40.        1748.
+42.        1724.
+44.        1700.
+46.        1674.
+48.        1648.
+50.        1622.
+ENDDATA             18
+ENDSUBENT           24
+SUBENT        V0027006   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (13-AL-27(N,TOT),,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         16
+EN         DATA
+MEV        MB
+20.        1804.
+22.        1835.
+24.        1861.
+26.        1878.
+28.        1888.
+30.        1892.
+32.        1889.
+34.        1881.
+36.        1868.
+38.        1850.
+40.        1829.
+42.        1805.
+44.        1777.
+46.        1747.
+48.        1715.
+50.        1682.
+ENDDATA             18
+ENDSUBENT           24
+SUBENT        V0027007   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (15-P-31(N,TOT),,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         16
+EN         DATA
+MEV        MB
+20.        1874.
+22.        1922.
+24.        1961.
+26.        1991.
+28.        2012.
+30.        2025.
+32.        2028.
+34.        2024.
+36.        2011.
+38.        1991.
+40.        1967.
+42.        1936.
+44.        1901.
+46.        1863.
+48.        1822.
+50.        1779.
+ENDDATA             18
+ENDSUBENT           24
+SUBENT        V0027008   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (16-S-0(N,TOT),,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         16
+EN         DATA
+MEV        MB
+20.        1887.
+22.        1937.
+24.        1978.
+26.        2010.
+28.        2035.
+30.        2050.
+32.        2057.
+34.        2055.
+36.        2044.
+38.        2026.
+40.        2003.
+42.        1974.
+44.        1939.
+46.        1902.
+48.        1861.
+50.        1818.
+ENDDATA             18
+ENDSUBENT           24
+SUBENT        V0027009   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (20-CA-0(N,TOT),,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         16
+EN         DATA
+MEV        MB
+20.        2040.
+22.        2091.
+24.        2141.
+26.        2185.
+28.        2222.
+30.        2248.
+32.        2264.
+34.        2270.
+36.        2267.
+38.        2255.
+40.        2236.
+42.        2210.
+44.        2177.
+46.        2140.
+48.        2098.
+50.        2053.
+ENDDATA             18
+ENDSUBENT           24
+SUBENT        V0027010   20110131   20110323   20110308       V028
+BIB                  3          5
+REACTION   (6-C-12(N,NON),,SIG,,,CALC)
+FLAG       (1.) This numerical value is not given in Phys.Med.Biol
+            25(1980)637.
+STATUS     The values are identical with the ones in Table 2 of
+           Phys.Med.Biol.,25(1980)637.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3         18
+EN         DATA       FLAG
+MEV        MB         NO-DIM
+20.        531.
+22.        509.
+24.        490.
+26.        473.
+28.        459.
+30.        446.
+32.        434.
+34.        423.
+36.        413.
+38.        404.
+40.        396.
+42.        388.
+44.        380.
+45.        377.       1.
+46.        374.
+48.        367.
+50.        361.
+60.7       335.       1.
+ENDDATA             20
+ENDSUBENT           30
+SUBENT        V0027011   20110131   20110323   20110308       V028
+BIB                  3          5
+REACTION   (7-N-14(N,NON),,SIG,,,CALC)
+FLAG       (1.) This numerical value is not given in Phys.Med.Biol
+            25(1980)637.
+STATUS     The values are identical with the ones in Table 2 of
+           Phys.Med.Biol.,25(1980)637.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3         18
+EN         DATA       FLAG
+MEV        MB         NO-DIM
+20.        566.
+22.        545.
+24.        527.
+26.        511.
+28.        496.
+30.        482.
+32.        469.
+34.        458.
+36.        448.
+38.        438.
+40.        429.
+42.        421.
+44.        414.
+45.        410.       1.
+46.        406.
+48.        400.
+50.        394.
+60.7       367.       1.
+ENDDATA             20
+ENDSUBENT           30
+SUBENT        V0027012   20110131   20110323   20110308       V028
+BIB                  4         10
+REACTION   (8-O-16(N,NON),,SIG,,,CALC)
+COMMENT    A constant value for the imaginary potential of 6 MeV
+            was used for oxygen. This is different from the
+            previously mentioned values of the imaginary potential
+            (see the contributed paper to the 4th Symp.on Neutron
+             Dosimetry, Munich-Neuherberg, 1-5 June,1981).
+FLAG       (1.) The values at the neutron energies of 45 and 60.7
+            MeV are not mentioned in Phys.Med.Biol.,25(1980)637.
+STATUS     The values are different from these in Table 2. of
+            Phys.Med.Biol.,25(1980)637.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 3         18
+EN         DATA       FLAG
+MEV        MB         NO-DIM
+20.        595.
+22.        568.
+24.        544.
+26.        523.
+28.        504.
+30.        488.
+32.        474.
+34.        462.
+36.        450.
+38.        439.
+40.        429.
+42.        420.
+44.        411.
+45.        406.       1.
+46.        402.
+48.        394.
+50.        387.
+60.7       355.       1.
+ENDDATA             20
+ENDSUBENT           35
+SUBENT        V0027013   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (12-MG-0(N,NON),,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         16
+EN         DATA
+MEV        MB
+20.        810.
+22.        785.
+24.        763.
+26.        744.
+28.        726.
+30.        709.
+32.        694.
+34.        679.
+36.        665.
+38.        653.
+40.        641.
+42.        630.
+44.        619.
+46.        609.
+48.        600.
+50.        591.
+ENDDATA             18
+ENDSUBENT           24
+SUBENT        V0027014   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (13-AL-27(N,NON),,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         16
+EN         DATA
+MEV        MB
+20.        925.
+22.        904.
+24.        884.
+26.        864.
+28.        846.
+30.        828.
+32.        812.
+34.        798.
+36.        783.
+38.        770.
+40.        758.
+42.        747.
+44.        735.
+46.        725.
+48.        715.
+50.        705.
+ENDDATA             18
+ENDSUBENT           24
+SUBENT        V0027015   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (15-P-31(N,NON),,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         16
+EN         DATA
+MEV        MB
+20.        966.
+22.        943.
+24.        919.
+26.        897.
+28.        877.
+30.        859.
+32.        841.
+34.        826.
+36.        810.
+38.        796.
+40.        783.
+42.        770.
+44.        758.
+46.        746.
+48.        735.
+50.        725.
+ENDDATA             18
+ENDSUBENT           24
+SUBENT        V0027016   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (16-S-0(N,NON),,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         16
+EN         DATA
+MEV        MB
+20.        981.
+22.        957.
+24.        934.
+26.        911.
+28.        891.
+30.        873.
+32.        856.
+34.        839.
+36.        824.
+38.        809.
+40.        796.
+42.        783.
+44.        771.
+46.        759.
+48.        748.
+50.        738.
+ENDDATA             18
+ENDSUBENT           24
+SUBENT        V0027017   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (20-CA-0(N,NON),,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         16
+EN         DATA
+MEV        MB
+20.        1109.
+22.        1085.
+24.        1062.
+26.        1042.
+28.        1023.
+30.        1004.
+32.         986.
+34.         969.
+36.         953.
+38.         938.
+40.         924.
+42.         911.
+44.         898.
+46.         886.
+48.         874.
+50.         863.
+ENDDATA             18
+ENDSUBENT           24
+SUBENT        V0027018   20110131   20110323   20110308       V028
+BIB                  2          3
+REACTION   (6-C-12(N,EL)6-C-12,,SIG,,,CALC)
+STATUS     (DEP,V0027002) (n,tot) cross section
+           (DEP,V0027010) (n,non) cross section
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2         12
+EN         DATA
+MEV        MB
+20.        949.0
+22.        940.0
+24.        925.0
+26.        907.0
+28.        885.0
+30.        861.0
+32.        835.0
+36.        780.0
+40.        723.0
+45.        653.0
+50.        587.0
+60.7       461.0
+ENDDATA             14
+ENDSUBENT           22
+SUBENT        V0027019   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (6-C-12(N,INL)6-C-12,,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         12
+EN         DATA
+MEV        MB
+20.        138.3
+22.        122.1
+24.        104.0
+26.         98.6
+28.         87.7
+30.         79.8
+32.         72.4
+36.         62.5
+40.         53.1
+45.         44.9
+50.         35.3
+60.7        25.2
+ENDDATA             14
+ENDSUBENT           20
+SUBENT        V0027020   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (6-C-12(N,2N)6-C-11,,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         11
+EN         DATA
+MEV        MB
+22.         2.8
+24.         8.7
+26.        17.4
+28.        24.1
+30.        30.3
+32.        33.7
+36.        32.2
+40.        27.5
+45.        20.3
+50.        14.0
+60.7        6.9
+ENDDATA             13
+ENDSUBENT           19
+SUBENT        V0027021   20110131   20110323   20110308       V028
+BIB                  1          2
+REACTION  1(6-C-12(N,N+P)5-B-11,SEQ,SIG,,,CALC)
+          2(6-C-12(N,P+N)5-B-11,SEQ,SIG,,,CALC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3         12
+EN         DATA      1DATA      2
+MEV        MB         MB
+20.        12.1        5.3
+22.        27.3        8.7
+24.        37.7       12.7
+26.        51.3       12.5
+28.        59.8       17.8
+30.        68.0       22.8
+32.        69.2       24.3
+36.        59.4       28.2
+40.        48.2       23.6
+45.        34.6       13.0
+50.        22.6       12.8
+60.7       10.9        9.1
+ENDDATA             14
+ENDSUBENT           21
+SUBENT        V0027022   20110131   20110323   20110308       V028
+BIB                  1          2
+REACTION  1(6-C-12(N,N+D)5-B-10,SEQ,SIG,,,CALC)
+          2(6-C-12(N,D+N)5-B-10,SEQ,SIG,,,CALC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          6
+EN         DATA      1DATA      2
+MEV        MB         MB
+32.         3.5       0.3
+36.         8.8       1.1
+40.        11.5       1.1
+45.        10.5       1.7
+50.         9.3       1.9
+60.7        5.0       1.6
+ENDDATA              8
+ENDSUBENT           15
+SUBENT        V0027023   20110131   20110323   20110308       V028
+BIB                  1          2
+REACTION   (6-C-12(N,N+T)5-B-9,SEQ,SIG,,,CALC)
+            Break-up reaction, C-12(n,nt)B-9 to p+2alphas.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          6
+EN         DATA
+MEV        MB
+32.        0.1
+36.        1.5
+40.        3.2
+45.        4.0
+50.        4.6
+60.7       4.9
+ENDDATA              8
+ENDSUBENT           15
+SUBENT        V0027024   20110131   20110323   20110308       V028
+BIB                  2          4
+REACTION  1(6-C-12(N,N+A)4-BE-8,SEQ,SIG,,,CALC)
+          2(6-C-12(N,A+N)4-BE-8,SEQ,SIG,,,CALC)
+COMMENT     3 alphas break-up reaction, C-12(n,na)Be-8 to 2 alphas
+            See also subentry .040.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3         12
+EN         DATA      1DATA      2
+MEV        MB         MB
+20.        275.8      23.1
+22.        266.5      15.8
+24.        246.7      11.1
+26.        238.7       9.2
+28.        218.4       9.4
+30.        192.8      10.3
+32.        173.5       9.7
+36.        129.4       9.7
+40.        102.9       7.8
+45.         91.5       7.1
+50.         55.3       4.0
+60.7        30.5       2.6
+ENDDATA             14
+ENDSUBENT           23
+SUBENT        V0027025   20110131   20110323   20110308       V028
+BIB                  1          3
+REACTION  1(6-C-12(N,2N+P)5-B-10,SEQ,SIG,,,CALC)
+          2(6-C-12(N,N+P+N)5-B-10,SEQ,SIG,,,CALC)
+          3(6-C-12(N,P+2N)5-B-10,SEQ,SIG,,,CALC)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          5
+EN         DATA      1DATA      2DATA      3
+MEV        MB         MB         MB
+36.        0.5        0.6        0.3
+40.        2.3        2.7        1.6
+45.        6.0        6.1        5.0
+50.        9.0        9.1        8.5
+60.7       8.2        8.4        8.4
+ENDDATA              7
+ENDSUBENT           15
+SUBENT        V0027026   20110131   20110323   20110308       V028
+BIB                  1          2
+REACTION   (6-C-12(N,2N+D)5-B-9,SEQ,SIG,,,CALC)
+            Break-up reaction, C-12(n,2nd)B-9 to p+2 alphas
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          3
+EN         DATA
+MEV        MB
+45.        0.4
+50.        2.6
+60.7       4.5
+ENDDATA              5
+ENDSUBENT           12
+SUBENT        V0027027   20110131   20110323   20110308       V028
+BIB                  1          3
+REACTION  1(6-C-12(N,2N+A)4-BE-7,SEQ,SIG,,,CALC)
+          2(6-C-12(N,N+A+N)4-BE-7,SEQ,SIG,,,CALC)
+          3(6-C-12(N,A+2N)4-BE-7,SEQ,SIG,,,CALC)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          6
+EN         DATA      1DATA      2DATA      3
+MEV        MB         MB         MB
+32.        0.2         0.1
+36.        1.8         2.5        0.3
+40.        5.2         8.1        1.0
+45.        6.2        13.5        2.0
+50.        8.5        20.3        2.6
+60.7       6.9        18.9       12.9
+ENDDATA              8
+ENDSUBENT           16
+SUBENT        V0027028   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (6-C-12(N,N+P+N+A)3-LI-6,SEQ,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          3
+EN         DATA
+MEV        MB
+45.        0.2
+50.        2.2
+60.7       3.1
+ENDDATA              5
+ENDSUBENT           11
+SUBENT        V0027029   20110131   20110323   20110308       V028
+BIB                  2          4
+REACTION  1(6-C-12(N,N+P+T)4-BE-8,SEQ,SIG,,,CALC)
+          2(6-C-12(N,P+N+T)4-BE-8,SEQ,SIG,,,CALC)
+          3(6-C-12(N,T+P+N)4-BE-8,SEQ,SIG,,,CALC)
+COMMENT     Break-up reaction, C-12(n,npt)BE-8 to 2 alphas
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          5
+EN         DATA      1DATA      2DATA      3
+MEV        MB         MB         MB
+36.        0.3                   0.1
+40.        1.6                   0.6
+45.        3.6        2.6        1.0
+50.        6.2        2.0        0.9
+60.7       6.7        3.8        1.0
+ENDDATA              7
+ENDSUBENT           16
+SUBENT        V0027030   20110131   20110323   20110308       V028
+BIB                  1          4
+REACTION  1(6-C-12(N,N+P+A)3-LI-7,SEQ,SIG,,,CALC)
+          2(6-C-12(N,N+A+P)3-LI-7,SEQ,SIG,,,CALC)
+          3(6-C-12(N,P+N+A)3-LI-7,SEQ,SIG,,,CALC)
+          4(6-C-12(N,A+N+P)3-LI-7,SEQ,SIG,,,CALC)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 5          6
+EN         DATA      1DATA      2DATA      3DATA      4
+MEV        MB         MB         MB         MB
+32.         1.4        3.2       0.6        0.3
+36.         7.0       12.7       3.4        1.5
+40.        13.3       21.5       7.1        2.6
+45.        13.3       25.0       8.8        3.7
+50.        16.7       35.5       7.6        4.6
+60.7       10.4       27.5       6.2        0.3
+ENDDATA              8
+ENDSUBENT           17
+SUBENT        V0027031   20110131   20110323   20110308       V028
+BIB                  1          4
+REACTION  1(6-C-12(N,N+P+A+T)2-HE-4,SEQ,SIG,,,CALC)
+          2(6-C-12(N,N+A+P+T)2-HE-4,SEQ,SIG,,,CALC)
+          3(6-C-12(N,P+N+A+T)2-HE-4,SEQ,SIG,,,CALC)
+          4(6-C-12(N,A+N+P+T)2-HE-4,SEQ,SIG,,,CALC)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 5          3
+EN         DATA      1DATA      2DATA      3DATA      4
+MEV        MB         MB         MB         MB
+45.        0.7        1.2        0.4        0.2
+50.        1.8        3.1        0.7        0.4
+60.7       2.1        4.2        1.2        0.8
+ENDDATA              5
+ENDSUBENT           14
+SUBENT        V0027032   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (6-C-12(N,P)5-B-12,,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         12
+EN         DATA
+MEV        MB
+20.        14.8
+22.         9.8
+24.         8.4
+26.         7.2
+28.         7.0
+30.         6.5
+32.         5.9
+36.         5.6
+40.         5.3
+45.         5.1
+50.         4.9
+60.7        4.2
+ENDDATA             14
+ENDSUBENT           20
+SUBENT        V0027033   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (6-C-12(N,P+D)4-BE-10,SEQ,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          5
+EN         DATA
+MEV        MB
+36.        0.6
+40.        1.3
+45.        2.7
+50.        2.4
+60.7       2.2
+ENDDATA              7
+ENDSUBENT           13
+SUBENT        V0027034   20110131   20110323   20110308       V028
+BIB                  1          2
+REACTION  1(6-C-12(N,P+T)4-BE-9,SEQ,SIG,,,CALC)
+          2(6-C-12(N,T+P)4-BE-9,SEQ,SIG,,,CALC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          6
+EN         DATA      1DATA      2
+MEV        MB         MB
+32.                   0.3
+36.        0.5        1.0
+40.        2.6        1.6
+45.        3.0        2.1
+50.        2.9        2.3
+60.7       4.5        4.5
+ENDDATA              8
+ENDSUBENT           15
+SUBENT        V0027035   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (6-C-12(N,P+A)3-LI-8,SEQ,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          6
+EN         DATA
+MEV        MB
+32.        1.1
+36.        2.5
+40.        2.4
+45.        2.3
+50.        2.9
+60.7       2.7
+ENDDATA              8
+ENDSUBENT           14
+SUBENT        V0027036   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (6-C-12(N,D)5-B-11,,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         12
+EN         DATA
+MEV        MB
+20.        35.6
+22.        37.3
+24.        42.3
+26.        28.0
+28.        29.2
+30.        28.8
+32.        28.1
+36.        26.3
+40.        22.8
+45.        19.2
+50.        16.7
+60.7       11.3
+ENDDATA             14
+ENDSUBENT           20
+SUBENT        V0027037   20110131   20110323   20110308       V028
+BIB                  1          2
+REACTION  1(6-C-12(N,D+A)3-LI-7,SEQ,SIG,,,CALC)
+          2(6-C-12(N,A+D)3-LI-7,SEQ,SIG,,,CALC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          8
+EN         DATA      1DATA      2
+MEV        MB         MB
+28.        0.4
+30.        1.2        0.6
+32.        1.6        1.2
+36.        2.3        1.7
+40.        3.5        1.7
+45.        3.8        1.8
+50.        3.7        1.4
+60.7       2.2        1.8
+ENDDATA             10
+ENDSUBENT           17
+SUBENT        V0027038   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (6-C-12(N,T)5-B-10,,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         11
+EN         DATA
+MEV        MB
+22.        2.2
+24.        4.8
+26.        5.6
+28.        0.3
+30.        0.6
+32.        0.6
+36.        0.6
+40.        0.5
+45.        0.5
+50.        0.3
+60.7       0.3
+ENDDATA             13
+ENDSUBENT           19
+SUBENT        V0027039   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (6-C-12(N,A)4-BE-9,,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         12
+EN         DATA
+MEV        MB
+20.        18.3
+22.         7.2
+24.         5.7
+26.         0.7
+28.         0.5
+30.         0.5
+32.         0.4
+36.         0.5
+40.         0.4
+45.         0.4
+50.         0.3
+60.7        0.1
+ENDDATA             14
+ENDSUBENT           20
+SUBENT        V0027040   20110131   20110323   20110308       V028
+BIB                  2          3
+REACTION   (6-C-12(N,2A)2-HE-5,,SIG,,,CALC)
+COMMENT     3 alphas break-up reaction, C-12(n,2a)He-5 to n+alpha
+            See also subentry .024
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2         12
+EN         DATA
+MEV        MB
+20.        8.7
+22.        8.5
+24.        7.9
+26.        5.7
+28.        5.6
+30.        5.5
+32.        4.9
+36.        4.4
+40.        3.2
+45.        3.1
+50.        2.6
+60.7       1.6
+ENDDATA             14
+ENDSUBENT           22
+SUBENT        V0027041   20110131   20110323   20110308       V028
+BIB                  2          3
+REACTION   (7-N-14(N,EL)7-N-14,,SIG,,,CALC)
+STATUS     (DEP,V0027003) (n,tot) cross section
+           (DEP,V0027011) (n,non) cross section
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2         12
+EN         DATA
+MEV        MB
+20.         984.
+22.         998.
+24.        1003.
+26.         999.
+28.         989.
+30.         973.
+32.         953.
+36.         903.
+40.         845.
+45.         768.
+50.         691.
+60.7        539.
+ENDDATA             14
+ENDSUBENT           22
+SUBENT        V0027042   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (7-N-14(N,INL)7-N-14,,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         12
+EN         DATA
+MEV        MB
+20.        24.4
+22.        20.7
+24.        16.9
+26.        14.0
+28.        13.5
+30.        10.1
+32.         9.2
+36.         6.2
+40.         4.2
+45.         2.9
+50.         2.1
+60.7        1.2
+ENDDATA             14
+ENDSUBENT           20
+SUBENT        V0027043   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (7-N-14(N,2N)7-N-13,,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         12
+EN         DATA
+MEV        MB
+20.        20.8
+22.        19.6
+24.        16.9
+26.        14.2
+28.        12.3
+30.        11.0
+32.         9.6
+36.         5.9
+40.         3.8
+45.         2.5
+50.         2.2
+60.7        0.8
+ENDDATA             14
+ENDSUBENT           20
+SUBENT        V0027044   20110131   20110323   20110308       V028
+BIB                  1          2
+REACTION  1(7-N-14(N,N+P)6-C-13,SEQ,SIG,,,CALC)
+          2(7-N-14(N,P+N)6-C-13,SEQ,SIG,,,CALC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3         12
+EN         DATA      1DATA      2
+MEV        MB         MB
+20.        115.0      176.3
+22.        103.2      155.3
+24.         84.7      133.1
+26.         67.6      111.4
+28.         57.9       99.2
+30.         49.8       82.4
+32.         45.0       76.1
+36.         27.1       45.4
+40.         16.8       34.4
+45.         11.2       23.1
+50.          9.4       15.2
+60.7         3.6        8.7
+ENDDATA             14
+ENDSUBENT           21
+SUBENT        V0027045   20110131   20110323   20110308       V028
+BIB                  1          2
+REACTION  1(7-N-14(N,N+D)6-C-12,SEQ,SIG,,,CALC)
+          2(7-N-14(N,D+N)6-C-12,SEQ,SIG,,,CALC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3         12
+EN         DATA      1DATA      2
+MEV        MB         MB
+20.        29.4       35.6
+22.        30.4       34.5
+24.        28.1       27.5
+26.        24.6       19.4
+28.        23.9       13.5
+30.        20.0       10.4
+32.        17.8        9.6
+36.        12.1        5.8
+40.         7.9        5.0
+45.         5.2        3.7
+50.         3.9        2.7
+60.7        1.6        1.6
+ENDDATA             14
+ENDSUBENT           21
+SUBENT        V0027046   20110131   20110323   20110308       V028
+BIB                  1          2
+REACTION  1(7-N-14(N,N+A)5-B-10,SEQ,SIG,,,CALC)
+          2(7-N-14(N,A+N)5-B-10,SEQ,SIG,,,CALC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3         12
+EN         DATA      1DATA      2
+MEV        MB         MB
+20.        22.3       8.1
+22.        27.3       9.7
+24.        27.4       9.8
+26.        25.1       8.5
+28.        22.9       6.9
+30.        21.2       6.3
+32.        18.9       6.2
+36.        12.9       4.1
+40.         8.3       3.3
+45.         5.3       2.7
+50.         4.3       1.9
+60.7        1.8       0.9
+ENDDATA             14
+ENDSUBENT           21
+SUBENT        V0027047   20110131   20110323   20110308       V028
+BIB                  1          3
+REACTION  1(7-N-14(N,2N+P)6-C-12,SEQ,SIG,,,CALC)
+          2(7-N-14(N,N+P+N)6-C-12,SEQ,SIG,,,CALC)
+          3(7-N-14(N,P+2N)6-C-12,SEQ,SIG,,,CALC)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4         12
+EN         DATA      1DATA      2DATA      3
+MEV        MB         MB         MB
+20.         9.3        5.7       13.2
+22.        13.5       14.8       31.3
+24.        17.2       26.3       52.5
+26.        19.0       37.6       71.2
+28.        23.5       43.2       82.3
+30.        26.3       49.3       85.5
+32.        25.5       44.9       77.2
+36.        25.4       47.1       79.9
+40.        18.7       36.6       73.9
+45.        11.7       26.7       37.0
+50.        13.9       19.7       37.5
+60.7        4.5        7.8       20.4
+ENDDATA             14
+ENDSUBENT           22
+SUBENT        V0027048   20110131   20110323   20110308       V028
+BIB                  2          4
+REACTION  1(7-N-14(N,2N+A)5-B-9,SEQ,SIG,,,CALC)
+          2(7-N-14(N,A+2N)5-B-9,SEQ,SIG,,,CALC)
+COMMENT     3 alphas break-up reaction,N-14(n,2na)B-9 to p+2alphas
+            See also subentries .050, .055.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          6
+EN         DATA      1DATA      2
+MEV        MB         MB
+32.        2.1        0.1
+36.        5.0        0.4
+40.        5.5        0.6
+45.        5.3        0.8
+50.        4.9        0.9
+60.7       2.5        1.1
+ENDDATA              8
+ENDSUBENT           17
+SUBENT        V0027049   20110131   20110323   20110308       V028
+BIB                  1          5
+REACTION  1(7-N-14(N,N+P+A)4-BE-9,SEQ,SIG,,,CALC)
+          2(7-N-14(N,P+N+A)4-BE-9,SEQ,SIG,,,CALC)
+          3(7-N-14(N,P+A+N)4-BE-9,SEQ,SIG,,,CALC)
+          4(7-N-14(N,A+N+P)4-BE-9,SEQ,SIG,,,CALC)
+          5(7-N-14(N,A+P+N)4-BE-9,SEQ,SIG,,,CALC)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 6         10
+EN         DATA      1DATA      2DATA      3DATA      4DATA      5
+MEV        MB         MB         MB         MB         MB
+24.                    0.1        0.1                  0.2
+26.         0.6        1.0        0.8                  1.1
+28.         2.1        3.5        2.1       0.2        1.2
+30.         3.9        6.1        3.3       0.3        1.5
+32.         6.0        9.0        4.1       0.4        1.6
+36.        11.3       17.9        6.4       0.8        1.6
+40.         9.8       23.2        6.7       0.8        1.7
+45.        10.7       23.7        7.8       0.9        0.9
+50.         9.5       21.3        8.6       0.8        0.8
+60.7        5.7       15.8       10.0       2.3        0.5
+ENDDATA             12
+ENDSUBENT           22
+SUBENT        V0027050   20110131   20110323   20110308       V028
+BIB                  2          6
+REACTION  1(7-N-14(N,N+P+A)4-BE-9,SEQ,SIG,,,CALC)
+          2(7-N-14(N,P+N+A)4-BE-9,SEQ,SIG,,,CALC)
+          3(7-N-14(N,P+A+N)4-BE-9,SEQ,SIG,,,CALC)
+COMMENT     Break-up reaction from the excited states of Be-9,
+             N-14(n,npa)Be-9-exc to n + 2 alphas.
+            See also subentries .048, .055
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 4          7
+EN         DATA      1DATA      2DATA      3
+MEV        MB         MB         MB
+30.        0.7        1.1        0.5
+32.        9.0        2.2        0.7
+36.        8.0        6.4        1.9
+40.        6.6        9.4        1.8
+45.        4.4        9.9        3.1
+50.        4.6        7.8        2.7
+60.7       1.9        5.3        2.1
+ENDDATA              9
+ENDSUBENT           20
+SUBENT        V0027051   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (7-N-14(N,N+D+N)6-C-11,SEQ,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          3
+EN         DATA
+MEV        MB
+45.        2.5
+50.        5.0
+60.7       6.8
+ENDDATA              5
+ENDSUBENT           11
+SUBENT        V0027052   20110131   20110323   20110308       V028
+BIB                  1          3
+REACTION  1(7-N-14(N,N+D+P)5-B-11,SEQ,SIG,,,CALC)
+          2(7-N-14(N,P+N+D)5-B-11,SEQ,SIG,,,CALC)
+          3(7-N-14(N,D+N+P)5-B-11,SEQ,SIG,,,CALC)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          5
+EN         DATA      1DATA      2DATA      3
+MEV        MB         MB         MB
+36.         1.2
+40.         3.7
+45.         7.0       2.6        2.0
+50.        11.4       3.3        3.0
+60.7       14.9       5.5        5.0
+ENDDATA              7
+ENDSUBENT           15
+SUBENT        V0027053   20110131   20110323   20110308       V028
+BIB                  2          6
+REACTION  1(7-N-14(N,N+D+A)4-BE-8,SEQ,SIG,,,CALC)
+          2(7-N-14(N,D+N+A)4-BE-8,SEQ,SIG,,,CALC)
+          3(7-N-14(N,D+A+N)4-BE-8,SEQ,SIG,,,CALC)
+          4(7-N-14(N,A+N+D)4-BE-8,SEQ,SIG,,,CALC)
+          5(7-N-14(N,A+D+N)4-BE-8,SEQ,SIG,,,CALC)
+COMMENT    3alphas break-up reaction, N-14(n,nda)Be-8 to 2alphas
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 6         11
+EN         DATA      1DATA      2DATA      3DATA      4DATA      5
+MEV        MB         MB         MB         MB         MB
+22.                   0.2
+24.         0.5       0.7        0.5
+26.         1.5       1.5        1.3                   0.5
+28.         2.8       2.0        1.6        0.2        0.8
+30.         4.2       2.4        1.7        0.3        1.1
+32.         5.3       2.7        1.6        0.5        1.3
+36.        13.1       4.6        1.5        0.8        1.8
+40.        19.5       7.6        1.3        1.1        2.3
+45.        23.4       8.0        0.8        1.3        2.6
+50.        24.3       7.6        1.0        1.3        2.7
+60.7       21.7       6.2        1.6        1.7        3.5
+ENDDATA             13
+ENDSUBENT           24
+SUBENT        V0027054   20110131   20110323   20110308       V028
+BIB                  1          2
+REACTION  1(7-N-14(N,N+2A)3-LI-6,SEQ,SIG,,,CALC)
+          2(7-N-14(N,A+N+A)3-LI-6,SEQ,SIG,,,CALC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3         10
+EN         DATA      1DATA      2
+MEV        MB         MB
+24.        1.5        0.2
+26.        3.1        1.1
+28.        4.1        1.2
+30.        5.5        1.5
+32.        4.2        1.6
+36.        4.0        1.6
+40.        3.0        1.7
+45.        1.4        0.9
+50.        1.2        0.8
+60.7       0.5        0.5
+ENDDATA             12
+ENDSUBENT           19
+SUBENT        V0027055   20110131   20110323   20110308       V028
+BIB                  2          5
+REACTION  1(7-N-14(N,2N+P+A)4-BE-8,SEQ,SIG,,,CALC)
+          2(7-N-14(N,N+P+N+A)4-BE-8,SEQ,SIG,,,CALC)
+          3(7-N-14(N,P+2N+A)4-BE-8,SEQ,SIG,,,CALC)
+COMMENT     3alphas break-up reaction, N-14(n,2npa)Be-8 to 2alphas
+            See also subentries .048,.050.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 4          8
+EN         DATA      1DATA      2DATA      3
+MEV        MB         MB         MB
+28.         0.2        0.3        0.5
+30.         0.9        0.9        1.4
+32.         1.2        3.1        2.7
+36.         3.7        5.8        8.9
+40.         6.2        9.7       19.8
+45.         8.6       12.2       28.3
+50.        11.9       17.1       37.0
+60.7       11.6       17.4       49.6
+ENDDATA             10
+ENDSUBENT           20
+SUBENT        V0027056   20110131   20110323   20110308       V028
+BIB                  1          2
+REACTION  1(7-N-14(N,N+P+N+P)5-B-11,SEQ,SIG,,,CALC)
+          2(7-N-14(N,P+2N+P)5-B-11,SEQ,SIG,,,CALC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          3
+EN         DATA      1DATA      2
+MEV        MB         MB
+45.        1.2         2.9
+50.        3.0         6.5
+60.7       6.2        17.2
+ENDDATA              5
+ENDSUBENT           12
+SUBENT        V0027057   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (7-N-14(N,P)6-C-14,,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         12
+EN         DATA
+MEV        MB
+20.        18.2
+22.        15.0
+24.        12.9
+26.        11.5
+28.        10.8
+30.         9.4
+32.         8.5
+36.         5.4
+40.         4.5
+45.         3.5
+50.         2.7
+60.7        2.7
+ENDDATA             14
+ENDSUBENT           20
+SUBENT        V0027058   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (7-N-14(N,P+D)5-B-12,SEQ,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          6
+EN         DATA
+MEV        MB
+32.        0.6
+36.        1.6
+40.        2.5
+45.        1.7
+50.        1.3
+60.7       0.7
+ENDDATA              8
+ENDSUBENT           14
+SUBENT        V0027059   20110131   20110323   20110308       V028
+BIB                  1          2
+REACTION  1(7-N-14(N,P+T)5-B-11,SEQ,SIG,,,CALC)
+          2(7-N-14(N,T+P)5-B-11,SEQ,SIG,,,CALC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3         10
+EN         DATA      1DATA      2
+MEV        MB         MB
+24.                   0.2
+26.                   0.9
+28.                   1.7
+30.                   2.4
+32.        1.7        2.5
+36.        2.9        4.1
+40.        3.9        4.8
+45.        3.5        3.9
+50.        2.5        3.4
+60.7       1.5        1.7
+ENDDATA             12
+ENDSUBENT           19
+SUBENT        V0027060   20110131   20110323   20110308       V028
+BIB                  1          2
+REACTION  1(7-N-14(N,P+A)4-BE-10,SEQ,SIG,,,CALC)
+          2(7-N-14(N,A+P)4-BE-10,SEQ,SIG,,,CALC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3         12
+EN         DATA      1DATA      2
+MEV        MB         MB
+20.         5.6       1.5
+22.         8.3       1.9
+24.        10.6       2.3
+26.        11.8       2.7
+28.        12.0       2.8
+30.        11.9       3.3
+32.        12.0       2.5
+36.         9.5       2.0
+40.         7.3       1.8
+45.         4.9       1.7
+50.         3.4       1.2
+60.7        1.9       0.6
+ENDDATA             14
+ENDSUBENT           21
+SUBENT        V0027061   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (7-N-14(N,P+N+P)5-B-12,SEQ,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          5
+EN         DATA
+MEV        MB
+36.        0.5
+40.        1.5
+45.        3.0
+50.        3.4
+60.7       4.6
+ENDDATA              7
+ENDSUBENT           13
+SUBENT        V0027062   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (7-N-14(N,D)6-C-13,,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         12
+EN         DATA
+MEV        MB
+20.        25.9
+22.        21.1
+24.        18.1
+26.        15.9
+28.        14.0
+30.        12.6
+32.        11.4
+36.         9.5
+40.         8.0
+45.         6.3
+50.         5.0
+60.7        3.1
+ENDDATA             14
+ENDSUBENT           20
+SUBENT        V0027063   20110131   20110323   20110308       V028
+BIB                  1          2
+REACTION  1(7-N-14(N,D+A)4-BE-9,SEQ,SIG,,,CALC)
+          2(7-N-14(N,A+D)4-BE-9,SEQ,SIG,,,CALC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3         11
+EN         DATA      1DATA      2
+MEV        MB         MB
+22.        1.7        0.5
+24.        4.0        1.4
+26.        4.9        1.9
+28.        4.6        2.2
+30.        4.1        2.5
+32.        3.9        2.8
+36.        3.3        2.6
+40.        3.3        2.4
+45.        2.9        1.7
+50.        2.2        1.3
+60.7       0.9        0.7
+ENDDATA             13
+ENDSUBENT           20
+SUBENT        V0027064   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (7-N-14(N,T)6-C-12,,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         12
+EN         DATA
+MEV        MB
+20.        5.9
+22.        2.8
+24.        2.8
+26.        2.4
+28.        21.
+30.        2.0
+32.        2.0
+36.        1.9
+40.        1.0
+45.        0.7
+50.        0.7
+60.7       0.2
+ENDDATA             14
+ENDSUBENT           20
+SUBENT        V0027065   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (7-N-14(N,T+N)6-C-11,SEQ,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          6
+EN         DATA
+MEV        MB
+32.        0.8
+36.        1.8
+40.        2.4
+45.        2.2
+50.        2.0
+60.7       1.0
+ENDDATA              8
+ENDSUBENT           14
+SUBENT        V0027066   20110131   20110323   20110308       V028
+BIB                  2          3
+REACTION  1(7-N-14(N,T+A)4-BE-8,SEQ,SIG,,,CALC)
+          2(7-N-14(N,A+T)4-BE-8,SEQ,SIG,,,CALC)
+COMMENT     3alphas break-up reaction, N-14(n,ta)Be-8 to 2alphas
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3         12
+EN         DATA      1DATA      2
+MEV        MB         MB
+20.         9.7       4.5
+22.         8.8       5.7
+24.        12.4       5.8
+26.        15.4       5.4
+28.        14.5       4.5
+30.        13.6       4.3
+32.        12.7       4.2
+36.        11.4       3.2
+40.        10.3       2.7
+45.         7.5       2.4
+50.         6.8       2.0
+60.7        1.2       1.0
+ENDDATA             14
+ENDSUBENT           22
+SUBENT        V0027067   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (7-N-14(N,A)5-B-11,,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         12
+EN         DATA
+MEV        MB
+20.        15.5
+22.         9.4
+24.         6.4
+26.         5.4
+28.         4.0
+30.         3.7
+32.         3.1
+36.         2.4
+40.         1.6
+45.         1.0
+50.         0.9
+60.7        0.4
+ENDDATA             14
+ENDSUBENT           20
+SUBENT        V0027068   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (7-N-14(N,2A)3-LI-7,,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         12
+EN         DATA
+MEV        MB
+20.        28.6
+22.        21.8
+24.        15.6
+26.        12.8
+28.        10.0
+30.         8.6
+32.         7.4
+36.         3.8
+40.         3.1
+45.         2.3
+50.         1.5
+60.7        0.7
+ENDDATA             14
+ENDSUBENT           20
+SUBENT        V0027069   20110131   20110323   20110308       V028
+BIB                  1          3
+REACTION   (7-N-14(N,2A)3-LI-7,PAR,SIG,,,CALC)
+            Break-up reaction from the excited state of Li-7,
+            N-14(n,2a)Li-7-exc to alpha + t.
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+0.478
+ENDCOMMON            3
+DATA                 2         12
+EN         DATA
+MEV        MB
+20.        0.3
+22.        0.9
+24.        1.4
+26.        1.6
+28.        1.5
+30.        1.5
+32.        1.9
+36.        1.5
+40.        1.4
+45.        1.0
+50.        0.8
+60.7       0.4
+ENDDATA             14
+ENDSUBENT           26
+SUBENT        V0027070   20110131   20110323   20110308       V028
+BIB                  2          3
+REACTION   (8-O-16(N,EL)8-O-16,,SIG,,,CALC)
+STATUS     (DEP,V0027004) (n,tot) cross section
+           (DEP,V0027012) (n,non) cross section
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2         12
+EN         DATA
+MEV        MB
+20.        1074.
+22.        1114.
+24.        1125.
+26.        1118.
+28.        1100.
+30.        1079.
+32.        1059.
+36.        1026.
+40.         972.
+45.         900.
+50.         829.
+60.7        684.
+ENDDATA             14
+ENDSUBENT           22
+SUBENT        V0027071   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (8-O-16(N,INL)8-O-16,,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         12
+EN         DATA
+MEV        MB
+20.        198.1
+22.        148.3
+24.        125.7
+26.        111.5
+28.        103.4
+30.         93.6
+32.         86.0
+36.         73.1
+40.         61.8
+45.         51.0
+50.         44.0
+60.7        30.7
+ENDDATA             14
+ENDSUBENT           20
+SUBENT        V0027072   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (8-O-16(N,2N)8-O-15,,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         12
+EN         DATA
+MEV        MB
+20.         7.2
+22.        13.8
+24.        17.2
+26.        20.2
+28.        22.8
+30.        23.7
+32.        22.3
+36.        17.3
+40.        13.4
+45.         7.6
+50.         4.8
+60.7        2.3
+ENDDATA             14
+ENDSUBENT           20
+SUBENT        V0027073   20110131   20110323   20110308       V028
+BIB                  1          2
+REACTION  1(8-O-16(N,N+P)7-N-15,SEQ,SIG,,,CALC)
+          2(8-O-16(N,P+N)7-N-15,SEQ,SIG,,,CALC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3         12
+EN         DATA      1DATA      2
+MEV        MB         MB
+20.        54.9       14.7
+22.        64.9       23.2
+24.        71.8       29.0
+26.        78.7       35.5
+28.        80.0       36.7
+30.        75.7       41.0
+32.        66.3       34.3
+36.        49.6       23.9
+40.        34.3       20.2
+45.        19.3       15.2
+50.        12.3       10.0
+60.7        5.7        6.2
+ENDDATA             14
+ENDSUBENT           21
+SUBENT        V0027074   20110131   20110323   20110308       V028
+BIB                  1          2
+REACTION  1(8-O-16(N,N+D)7-N-14,SEQ,SIG,,,CALC)
+          2(8-O-16(N,D+N)7-N-14,SEQ,SIG,,,CALC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3         10
+EN         DATA      1DATA      2
+MEV        MB         MB
+24.        0.2        0.1
+26.        1.9        1.0
+28.        4.0        1.8
+30.        5.3        2.6
+32.        6.2        3.3
+36.        7.6        3.7
+40.        7.6        3.8
+45.        4.6        3.1
+50.        3.1        2.6
+60.7       1.7        1.5
+ENDDATA             12
+ENDSUBENT           19
+SUBENT        V0027075   20110131   20110323   20110308       V028
+BIB                  1          2
+REACTION  1(8-O-16(N,N+A)6-C-12,SEQ,SIG,,,CALC)
+          2(8-O-16(N,A+N)6-C-12,SEQ,SIG,,,CALC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3         12
+EN         DATA      1DATA      2
+MEV        MB         MB
+20.        251.4      34.4
+22.        242.7      28.1
+24.        207.9      24.8
+26.        172.4      20.1
+28.        135.2      18.7
+30.        117.8      16.0
+32.         86.0      14.4
+36.         43.5       8.8
+40.         33.9       5.7
+45.         19.5       4.6
+50.         12.4       3.2
+60.7         6.2       1.1
+ENDDATA             14
+ENDSUBENT           21
+SUBENT        V0027076   20110131   20110323   20110308       V028
+BIB                  1          3
+REACTION  1(8-O-16(N,2N+P)7-N-14,SEQ,SIG,,,CALC)
+          2(8-O-16(N,N+P+N)7-N-14,SEQ,SIG,,,CALC)
+          3(8-O-16(N,P+2N)7-N-14,SEQ,SIG,,,CALC)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          8
+EN         DATA      1DATA      2DATA      3
+MEV        MB         MB         MB
+28.                    1.8        0.6
+30.                    6.3        2.8
+32.         2.0       14.3        5.7
+36.         9.4       20.4        7.6
+40.        13.2       31.8       14.0
+45.        14.8       29.1       17.9
+50.        13.4       23.9       18.4
+60.7        7.8       12.6        8.2
+ENDDATA             10
+ENDSUBENT           18
+SUBENT        V0027077   20110131   20110323   20110308       V028
+BIB                  1          3
+REACTION  1(8-O-16(N,2N+A)6-C-11,SEQ,SIG,,,CALC)
+          2(8-O-16(N,N+A+N)6-C-11,SEQ,SIG,,,CALC)
+          3(8-O-16(N,A+2N)6-C-11,SEQ,SIG,,,CALC)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          5
+EN         DATA      1DATA      2DATA      3
+MEV        MB         MB         MB
+36.        1.0         1.3       0.2
+40.        2.9         4.5       0.8
+45.        4.2         7.9       2.1
+50.        4.7         9.5       2.9
+60.7       4.8        10.9       3.2
+ENDDATA              7
+ENDSUBENT           15
+SUBENT        V0027078   20110131   20110323   20110308       V028
+BIB                  1          2
+REACTION  1(8-O-16(N,N+2P)6-C-14,SEQ,SIG,,,CALC)
+          2(8-O-16(N,P+N+P)6-C-14,SEQ,SIG,,,CALC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          9
+EN         DATA      1DATA      2
+MEV        MB         MB
+26.         0.2
+28.         1.7       0.6
+30.         4.0       1.8
+32.         3.9       3.6
+36.        13.5       5.0
+40.         7.9       5.5
+45.         8.5       5.1
+50.        11.7       6.7
+60.7       16.9       8.6
+ENDDATA             11
+ENDSUBENT           18
+SUBENT        V0027079   20110131   20110323   20110308       V028
+BIB                  1          5
+REACTION  1(8-O-16(N,N+P+A)5-B-11,SEQ,SIG,,,CALC)
+          2(8-O-16(N,N+A+P)5-B-11,SEQ,SIG,,,CALC)
+          3(8-O-16(N,P+N+A)5-B-11,SEQ,SIG,,,CALC)
+          4(8-O-16(N,P+A+N)5-B-11,SEQ,SIG,,,CALC)
+          5(8-O-16(N,A+N+P)5-B-11,SEQ,SIG,,,CALC)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 6          7
+EN         DATA      1DATA      2DATA      3DATA      4DATA      5
+MEV        MB         MB         MB         MB         MB
+30.         0.3        0.1
+32.         1.4        1.3       0.6                   0.2
+36.         7.9        7.4       2.9        0.2        1.4
+40.        14.3       14.3       6.2        0.5        2.7
+45.        15.7       18.3       9.2        1.4        4.8
+50.        15.3       20.0       8.9        1.5        5.6
+60.7       13.0       19.9       7.5        1.7        4.0
+ENDDATA              9
+ENDSUBENT           19
+SUBENT        V0027080   20110131   20110323   20110308       V028
+BIB                  1          4
+REACTION  1(8-O-16(N,N+D+P)6-C-13,SEQ,SIG,,,CALC)
+          2(8-O-16(N,P+D+N)6-C-13,SEQ,SIG,,,CALC)
+          3(8-O-16(N,D+N+P)6-C-13,SEQ,SIG,,,CALC)
+          4(8-O-16(N,D+P+N)6-C-13,SEQ,SIG,,,CALC)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 5          5
+EN         DATA      1DATA      2DATA      3DATA      4
+MEV        MB         MB         MB         MB
+36.        0.3                   0.1
+40.        1.9        0.5        0.7        0.4
+45.        4.4        2.0        1.8        1.0
+50.        6.2        4.1        2.9        2.1
+60.7       9.3        8.6        3.9        3.8
+ENDDATA              7
+ENDSUBENT           16
+SUBENT        V0027081   20110131   20110323   20110308       V028
+BIB                  1          3
+REACTION  1(8-O-16(N,2N+2P)6-C-13,SEQ,SIG,,,CALC)
+          2(8-O-16(N,N+P+N+P)6-C-13,SEQ,SIG,,,CALC)
+          3(8-O-16(N,P+2N+P)6-C-13,SEQ,SIG,,,CALC)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          3
+EN         DATA      1DATA      2DATA      3
+MEV        MB         MB         MB
+45.         2.3        2.9       1.6
+50.         5.9        7.2       3.7
+60.7       11.4       14.4       7.0
+ENDDATA              5
+ENDSUBENT           13
+SUBENT        V0027082   20110131   20110323   20110308       V028
+BIB                  2          4
+REACTION  1(8-O-16(N,N+2A)4-BE-8,SEQ,SIG,,,CALC)
+          2(8-O-16(N,2A+N)4-BE-8,SEQ,SIG,,,CALC)
+          3(8-O-16(N,A+N+A)4-BE-8,SEQ,SIG,,,CALC)
+COMMENT     4alphas break-up reaction, O-16(n,n2a)Be-8 to 2alphas
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         12
+EN         DATA      1DATA      2DATA      3
+MEV        MB         MB         MB
+20.         1.7                   0.1
+22.         9.9       0.5         0.8
+24.        24.6       1.3         2.0
+26.        38.3       2.1         3.2
+28.        47.2       2.9         5.0
+30.        55.4       3.3         6.8
+32.        61.0       3.5         9.0
+36.        79.6       2.9        13.1
+40.        71.4       2.4        12.0
+45.        58.1       2.4        13.8
+50.        48.5       1.9        13.2
+60.7       25.1       1.4         5.9
+ENDDATA             14
+ENDSUBENT           23
+SUBENT        V0027083   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (8-O-16(N,P)7-N-16,,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         12
+EN         DATA
+MEV        MB
+20.        3.7
+22.        3.8
+24.        3.7
+26.        3.7
+28.        3.6
+30.        3.6
+32.        3.5
+36.        3.3
+40.        3.2
+45.        3.1
+50.        2.9
+60.7       2.6
+ENDDATA             14
+ENDSUBENT           20
+SUBENT        V0027084   20110131   20110323   20110308       V028
+BIB                  1          2
+REACTION  1(8-O-16(N,P+D)6-C-14,SEQ,SIG,,,CALC)
+          2(8-O-16(N,D+P)6-C-14,SEQ,SIG,,,CALC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3         10
+EN         DATA      1DATA      2
+MEV        MB         MB
+24.                   0.1
+26.                   0.5
+28.                   0.8
+30.                   0.9
+32.        0.7        0.7
+36.        0.8        1.0
+40.        1.1        1.5
+45.        1.2        1.1
+50.        0.9        0.9
+60.7       0.6        0.5
+ENDDATA             12
+ENDSUBENT           19
+SUBENT        V0027085   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (8-O-16(N,P+A)5-B-12,SEQ,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          9
+EN         DATA
+MEV        MB
+26.        0.1
+28.        0.6
+30.        1.3
+32.        1.3
+36.        1.7
+40.        2.0
+45.        1.3
+50.        0.8
+60.7       0.7
+ENDDATA             11
+ENDSUBENT           17
+SUBENT        V0027086   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (8-O-16(N,D)7-N-15,,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         12
+EN         DATA
+MEV        MB
+20.        27.8
+22.        23.8
+24.        26.2
+26.        25.8
+28.        24.5
+30.        23.6
+32.        20.6
+36.        19.9
+40.        17.0
+45.        14.0
+50.        11.4
+60.7        7.4
+ENDDATA             14
+ENDSUBENT           20
+SUBENT        V0027087   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (8-O-16(N,D+A)5-B-11,SEQ,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          8
+EN         DATA
+MEV        MB
+28.        0.5
+30.        1.1
+32.        1.7
+36.        2.1
+40.        2.6
+45.        2.4
+50.        2.4
+60.7       1.0
+ENDDATA             10
+ENDSUBENT           16
+SUBENT        V0027088   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (8-O-16(N,T)7-N-14,,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         12
+EN         DATA
+MEV        MB
+20.        1.6
+22.        1.6
+24.        2.4
+26.        1.1
+28.        1.1
+30.        1.2
+32.        1.2
+36.        1.0
+40.        0.7
+45.        0.8
+50.        0.7
+60.7       0.3
+ENDDATA             14
+ENDSUBENT           20
+SUBENT        V0027089   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (8-O-16(N,T+N)7-N-13,SEQ,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          6
+EN         DATA
+MEV        MB
+32.        0.5
+36.        0.6
+40.        1.0
+45.        1.0
+50.        0.9
+60.7       0.2
+ENDDATA              8
+ENDSUBENT           14
+SUBENT        V0027090   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (8-O-16(N,T+P)6-C-13,SEQ,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          8
+EN         DATA
+MEV        MB
+28.        0.7
+30.        1.5
+32.        1.6
+36.        1.8
+40.        2.6
+45.        3.1
+50.        3.3
+60.7       2.5
+ENDDATA             10
+ENDSUBENT           16
+SUBENT        V0027091   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (8-O-16(N,A)6-C-13,,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         12
+EN         DATA
+MEV        MB
+20.        2.4
+22.        2.1
+24.        1.0
+26.        0.8
+28.        0.9
+30.        0.8
+32.        0.7
+36.        0.5
+40.        0.2
+45.        0.2
+50.        0.2
+60.7       0.1
+ENDDATA             14
+ENDSUBENT           20
+SUBENT        V0027092   20110131   20110323   20110308       V028
+BIB                  1          1
+REACTION   (8-O-16(N,2A)4-BE-9,,SIG,,,CALC)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2         12
+EN         DATA
+MEV        MB
+20.        1.0
+22.        3.3
+24.        5.1
+26.        6.0
+28.        7.6
+30.        6.9
+32.        6.8
+36.        4.7
+40.        3.2
+45.        2.2
+50.        1.7
+60.7       0.7
+ENDDATA             14
+ENDSUBENT           20
+ENDENTRY            92

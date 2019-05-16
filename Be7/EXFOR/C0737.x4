@@ -1,0 +1,138 @@
+ENTRY            C0737   20010130   20010426   20050926       0000
+SUBENT        C0737001   20010130   20010426   20050926       0000
+BIB                  9         18
+INSTITUTE  (1USACAL,1USAYAL) + Trinity College, Hartford, CN
+REFERENCE  (J,NP/A,419,115,1984)
+           (T,OSBORNE,1983)
+AUTHOR     (J.L.OSBORNE,C.A.BARNES,R.W.KAVANNAGH,R.M.KREMER,
+           G.J.MATHEWS,J.L.ZYSKIND,P.D.PARKER,A.J.HOWARD)
+TITLE      Low-energy behavior of the 3He(alpha,gamma) cross
+            section
+DETECTOR   (GELI)
+           Silicon surface-barrier detector used to monitor
+            contaminant gases and to check beam current and
+            target pressure.
+ANALYSIS   Cross sections calculated using the the yield for the
+            7Be ground-state gamma plus the weighted average of
+            gamma to 429-keV state and 429-keV gamma.
+ERR-ANALYS (EN-ERR) Sources of uncertainty given in references.
+STATUS     Data taken from Table I in main reference.
+           (APRVD) Approved by C.A. Barnes, 26 January 2001.
+HISTORY    (20001206C) VM
+ENDBIB              18
+NOCOMMON             0          0
+ENDSUBENT           21
+SUBENT        C0737002   20010123   20010426   20050926       0000
+BIB                  7         13
+REACTION   (2-HE-3(A,G)4-BE-7,,SIG)
+FACILITY   (ACCEL,1USACAL) Model-JN electrostatic accelerator.
+SAMPLE     Differentially pumped gas target of 99.9% enriched 3He.
+            Target pressure 2-3 Torr.
+METHOD     (BCINT) Beam current measured and integrated using
+            single-cup calorimeter.
+MONITOR    Detector efficiency measured using calibrated 56Co,
+            152Eu, and 7Be sources.
+ANALYSIS   Energy loss in target calculated using formulation of
+            Ziegler (Ref. 10 in main reference).
+ERR-ANALYS Information on systematic uncertainties in S-factor
+            given in main reference, but no uncertainties are
+            given for cross section.
+ENDBIB              13
+NOCOMMON             0          0
+DATA                 3         19
+EN-CM      EN-ERR     DATA
+KEV        KEV        NB
+ 165.5        2.1        7.57
+ 165.8        1.2        7.49
+ 166.6        1.3        7.70
+ 192.4        2.2       16.2
+ 193.5        1.2       16.3
+ 212.7        1.3       28.2
+ 279.5        0.8       93.6
+ 336.7        0.9      156.
+ 342.6        1.2      171.
+ 342.9        0.9      161.
+ 343.6        0.8      182.
+ 343.7        1.2      192.
+ 346.6        0.9      175.
+ 437.0        1.2      320.
+ 450.9        1.3      432.
+ 486.1        1.1      421.
+ 496.1        1.2      497.
+ 507.4        0.8      554.
+1169.         5.      2150.
+ENDDATA             21
+ENDSUBENT           39
+SUBENT        C0737003   20010123   20010426   20050926       0000
+BIB                  6         12
+REACTION   (2-HE-3(A,G)4-BE-7,,SIG)
+FACILITY   (ACCEL,1USACAL) Model-EN electrostatic accelerator.
+SAMPLE     Gas cell filled with 99.9% enriched 3He at 390 Torr.
+            Nickel foil window on which copper had been deposited
+            to increase thermal conductivity.
+METHOD     (BCINT)
+MONITOR    Detector efficiency measured using a weak,
+            commercially calibrated 7Be source in the same
+            geometry.
+ERR-ANALYS Information on systematic uncertainties in S-factor
+            given in main reference, but no uncertainties are
+            given for cross section.
+ENDBIB              12
+NOCOMMON             0          0
+DATA                 3          2
+EN-CM      EN-ERR     DATA
+KEV        KEV        NB
+ 947.         5.      1850.
+1255.         4.      2340.
+ENDDATA              4
+ENDSUBENT           21
+SUBENT        C0737004   20010123   20010426   20050926       0000
+BIB                  7         17
+REACTION   ((2-HE-3(A,G)4-BE-7,PAR,SIG)//
+           (2-HE-3(A,G)4-BE-7,PAR,SIG))
+           Ratio of cross sections to 0.429 MeV and ground states.
+FACILITY   (ACCEL,1USACAL) Model-JN electrostatic accelerator.
+SAMPLE     Differentially pumped gas target of 99.9% enriched 3He.
+            Target pressure 2-3 Torr.
+METHOD     (BCINT) Beam current measured and integrated using
+            single-cup calorimeter.
+MONITOR    Detector efficiency measured using calibrated 56Co,
+            152Eu, and 7Be sources.
+ANALYSIS   Energy loss in target calculated using formulation of
+            Ziegler (Ref. 10 in main reference).
+ERR-ANALYS (DATA-ERR) Systematic uncertainty in measurement of
+            target pressure, detector efficiency, and beam-
+            current integration, as well as uncertainty
+            uncertainty in shapes of theoretical curves used for
+            extrapolation.
+ENDBIB              17
+COMMON               2          3
+E-EXC-NM   E-EXC-DN
+KEV        KEV
+ 429.         0.
+ENDCOMMON            3
+DATA                 4         19
+EN-CM      EN-ERR     DATA       DATA-ERR
+KEV        KEV        NO-DIM     NO-DIM
+ 165.5        2.1      0.304      0.046
+ 165.8        1.2      0.406      0.027
+ 166.6        1.3      0.365      0.031
+ 192.4        2.2      0.399      0.044
+ 193.5        1.2      0.421      0.025
+ 212.7        1.3      0.428      0.024
+ 279.5        0.8      0.414      0.016
+ 336.7        0.9      0.404      0.012
+ 342.6        1.2      0.417      0.020
+ 342.9        0.9      0.439      0.016
+ 343.6        0.8      0.408      0.016
+ 343.7        1.2      0.425      0.019
+ 346.6        0.9      0.394      0.015
+ 437.0        1.2      0.435      0.017
+ 450.9        1.3      0.434      0.016
+ 486.1        1.1      0.420      0.015
+ 496.1        1.2      0.414      0.016
+ 507.4        0.8      0.411      0.012
+1169.         5.       0.454      0.032
+ENDDATA             21
+ENDSUBENT           47
+ENDENTRY             4

@@ -1,0 +1,186 @@
+ENTRY            F0384   19990410   19990429   20050926       0000
+SUBENT        F0384001   19990410   19990429   20050926       0000
+BIB                  6          8
+TITLE      The 13C (d,gamma)15N  and the 11B(d,gamma)13C   cross
+           sections in the region dipole resonance
+AUTHOR     (H.R.WELLER,R.A.BLUE)
+INSTITUTE  (1USAFLA)
+REFERENCE  (J,NP/A,211,221,197309)
+DETECTOR   (NAICR) 12.5 cm x 15 cm crystal shielded by an 102Ne
+           plastic scintilator operating in anticoincidence
+HISTORY    (19860203C)
+ENDBIB               8
+NOCOMMON
+ENDSUBENT           11
+SUBENT        F0384002   19990410   19990429   20050926       0000
+BIB                  7         13
+REACTION   (5-B-11(D,G)6-C-13,PAR,DA,,,EXP)
+SAMPLE     The 11B target was prepared by evaporating 98% enriched
+           11B powder onto a thick tantalum disc. The target
+           thickness was found to be 25 keV for 2 MeV deuterons.
+MONITOR    (5-B-11(D,N)6-C-12,PAR,SIG,G,,EXP)
+MONIT-REF  (,BECKNER,J,PR,123,2100,1961)
+           (,KAVANAGH,J,PR,112,503,1958)
+ERR-ANALYS (EN-ERR) Digitizing error
+           (DATA-ERR) Statistical error from graphic and
+           digitizing
+           (ERR-T) Total error due to normalization
+EN-SEC     (E-LVL,6-C-13)
+STATUS     (CURVE) Fig 4
+ENDBIB              13
+COMMON               5          3
+EN-ERR     ANG        E-LVL      E-LVL-NRM  ERR-T
+MEV        ADEG       MEV        MEV        PER-CENT
+ 0.012       90.       0.           15.1       50.0
+ENDCOMMON            3
+DATA                 3         34
+EN         DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+     1.018  0.1394E-03 0.1473E-03
+     1.106  0.1885E-03 0.1719E-03
+     1.194  0.2254E-03 0.1228E-03
+     1.313  0.4139E-04 0.1842E-03
+     1.416  0.6603E-04 0.1718E-03
+     1.504  0.4712E-03 0.1105E-03
+     1.577  0.5695E-03 0.8593E-04
+     1.695  0.7291E-03 0.1228E-03
+     1.813  0.8888E-03 0.1228E-03
+     1.901  0.1159E-02 0.7365E-04
+     2.019  0.1159E-02 0.1105E-03
+     2.108  0.1086E-02 0.1350E-03
+     2.211  0.8400E-03 0.1228E-03
+     2.285  0.7419E-03 0.1350E-03
+     2.315  0.7296E-03 0.9821E-04
+     2.389  0.5946E-03 0.1105E-03
+     2.492  0.7666E-03 0.1228E-03
+     2.595  0.7912E-03 0.1350E-03
+     2.684  0.5703E-03 0.1473E-03
+     2.787  0.5090E-03 0.1596E-03
+     2.89   0.6319E-03 0.1350E-03
+     2.979  0.4601E-03 0.1350E-03
+     3.082  0.5461E-03 0.1473E-03
+     3.185  0.7549E-03 0.1473E-03
+     3.288  0.5831E-03 0.1350E-03
+     3.392  0.4850E-03 0.1228E-03
+     3.465  0.6323E-03 0.1596E-03
+     3.583  0.5833E-03 0.9821E-04
+     3.672  0.5834E-03 0.1350E-03
+     3.775  0.3748E-03 0.1473E-03
+     3.878  0.4117E-03 0.1228E-03
+     3.952  0.5468E-03 0.1228E-03
+     4.085  0.4978E-03 0.1227E-03
+     4.159  0.5347E-03 0.1228E-03
+ENDDATA             36
+ENDSUBENT           58
+SUBENT        F0384003   19990410   19990429   20050926       0000
+BIB                  4          6
+REACTION   (5-B-11(D,G)6-C-13,PAR,DA,,,EXP)
+ERR-ANALYS (ANG-ERR) Digitizing error
+           (DATA-ERR) Statistical error from graphic and
+           digitizing
+EN-SEC     (E-LVL,6-C-13)
+STATUS     (CURVE) Fig 5
+ENDBIB               6
+COMMON               2          3
+E-LVL      ANG-ERR
+MEV        ADEG
+ 0.          2.
+ENDCOMMON            3
+DATA                 4          9
+EN         ANG-CM     DATA-CM    DATA-ERR
+MEV        ADEG       MB/SR      MB/SR
+     2.03       2.258  0.1277E-02 0.1859E-03
+     2.03      28.74   0.1321E-02 0.1395E-03
+     2.03      58.35   0.1434E-02 0.3024E-03
+     2.03      87.8    0.1037E-02 0.2093E-03
+     2.03     116.1    0.1406E-02 0.1860E-03
+     3.61       0.7918 0.6238E-03 0.9299E-04
+     3.61      29.1    0.7162E-03 0.1628E-03
+     3.61      60.41   0.6923E-03 0.9302E-04
+     3.61      88.88   0.6684E-03 0.1395E-03
+ENDDATA             11
+ENDSUBENT           26
+SUBENT        F0384004   19990410   19990429   20050926       0000
+BIB                  7         15
+REACTION   (6-C-13(D,G)7-N-15,PAR,DA,,,EXP)
+SAMPLE     Self-supporting 13C target prepared by cracking
+           60% enriched methyl iodide on a thin nickel foil and
+           then dissolving the foil in a mixture of sulfuric
+           and nitric acides.
+MONITOR    (6-C-13(P,G)7-N-14,PAR,SIG,,,EXP)
+MONIT-REF  (,AJZENBERG-SELOVE,J,NP/A,152,1,1970)
+ERR-ANALYS (EN-ERR) Digitizing error
+           (DATA-ERR) Digitizing error
+           (DATA-ERR1) Statistical error from graphic bars
+           (ERR-T) The error due to the uncertainty in the target
+           thickness, the detector efficiency variation with
+           energy, and the uncertsinty in the (p,g) cross section.
+EN-SEC     (E-LVL,7-N-15)
+STATUS     (CURVE) fig.7
+ENDBIB              15
+COMMON               6          3
+EN-NRM     ANG        EN-ERR     E-LVL      ERR-T      DATA-ERR
+MEV        ADEG       MEV        MEV        PER-CENT   MU-B/SR
+  1.747      90.0      0.004      0.0         40.0      0.002
+ENDCOMMON            3
+DATA                 3         30
+EN         DATA       DATA-ERR1
+MEV        MU-B/SR    MU-B/SR
+     0.806      0.2263     0.0365
+     0.9062     0.1985     0.0284
+     1.01       0.4266     0.0264
+     1.111      0.6972     0.0488
+     1.212      0.903      0.0589
+     1.315      0.7249     0.0548
+     1.415      0.8798     0.0569
+     1.515      1.333      0.069
+     1.618      1.464      0.0792
+     1.726      1.599      0.0609
+     1.832      1.526      0.0772
+     1.929      1.163      0.067
+     2.03       0.7842     0.0406
+     2.132      0.4945     0.0284
+     2.234      0.4768     0.0224
+     2.335      0.4064     0.0386
+     2.434      0.476      0.0426
+     2.541      0.4645     0.0426
+     2.641      0.4773     0.0467
+     2.741      0.4353     0.0406
+     2.842      0.3629     0.0426
+     2.947      0.3655     0.0406
+     3.044      0.3702     0.0406
+     3.095      0.4639     0.0426
+     3.147      0.379      0.0406
+     3.25       0.3167     0.0304
+     3.346      0.3599     0.0345
+     3.447      0.326      0.0345
+     3.547      0.2759     0.0325
+     3.647      0.2684     0.0223
+ENDDATA             32
+ENDSUBENT           56
+SUBENT        F0384005   19990410   19990429   20050926       0000
+BIB                  4          6
+REACTION   (6-C-13(D,G)7-N-15,PAR,DA,,,EXP)
+ERR-ANALYS (ANG-ERR) Digitizing error
+           (DATA-ERR) Digitizing error
+           (DATA-ERR1) Statistical error from graphic bars
+EN-SEC     (E-LVL,7-N-15)
+STATUS     (CURVE) fig.8
+ENDBIB               6
+COMMON               4          3
+EN         E-LVL      ANG-ERR    DATA-ERR
+MEV        MEV        ADEG       MU-B/SR
+  1.726     0.0         0.3       0.002
+ENDCOMMON            3
+DATA                 3          6
+ANG        DATA       DATA-ERR1
+ADEG       MU-B/SR    MU-B/SR
+    20.54       1.739      0.2558
+    40.29       1.384      0.1008
+    60.32       1.561      0.0775
+    80.21       1.516      0.0698
+   100.2        1.685      0.0969
+   119.8        1.587      0.0775
+ENDDATA              8
+ENDSUBENT           23
+ENDENTRY             5

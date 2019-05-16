@@ -1,0 +1,33 @@
+ENTRY            13650     970416              20050926       0000
+SUBENT        13650001     970416              20050926       0000
+BIB                 11         15
+INSTITUTE  (1USABNL)
+REFERENCE  (J,PR,91,922,5308)
+AUTHOR     (E.L.FIREMAN)
+TITLE      Measurement of the (n,H3) Cross Section in Nitrogen and
+            Its Relationship to the Tritium Production in the
+            Atmosphere
+INC-SOURCE Fast neutrons from 235U fission plate.
+SAMPLE     Stainless steel container filled with mixture of
+            nitrogen and hydrogen, or nitrogen, hydrogen, and
+            ammonia.
+DETECTOR   (GEMUC)
+MONITOR    (16-S-32(N,P)15-P-32,,SIG,,FIS)
+ERR-ANALYS No information.
+STATUS     Data taken from article.
+HISTORY    (970416C)
+ENDBIB              15
+NOCOMMON             0          0
+ENDSUBENT           18
+SUBENT        13650002     970416              20050926       0000
+BIB                  1          1
+REACTION   (7-N-14(N,T)6-C-12,,SIG,,FIS)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+EN-DUMMY   DATA       DATA-ERR   MONIT
+MEV        MB         MB         MB
+ 4.4        11.         2.        50.
+ENDDATA              3
+ENDSUBENT            9
+ENDENTRY             2

@@ -1,0 +1,191 @@
+ENTRY            10649   20080817   20081219   20081211       1350
+SUBENT        10649001   20080817   20081219   20081211       1350
+BIB                 11         20
+INSTITUTE  (1USAANL)
+REFERENCE  (J,NSE,64,897,197712)
+AUTHOR     (D.L.Smith)
+TITLE      Measurement of Cross Sections for the
+           23-Na(n,n' gamma) 23-Na reaction near threshold
+FACILITY   (ACCEL,1USAANL) Fast Neutron Generator
+INC-SOURCE (P-LI7) Protons on lithium-7
+SAMPLE     Metallic sodium samples in stainless steel cans.
+DETECTOR   (GELI) Germanium-lithium detector
+CORRECTION Data corrected for effects of geometry, neutron source
+           characteristics, absorption and multiple scattering of
+           neutrons, absorption of gammas, and lithium target
+           thickness
+STATUS     (APRVD) Approved by D.Smith, 1977/5/23.
+           Data taken from private comm., Smith, 1977/2.
+HISTORY    (19770307C)
+           (19780222U) BIB update.
+           (19831109A) BIB update, data headings corrected.
+           (20080817A) Converted to new date formats, lower case.
+                       BIB update.
+ENDBIB              20
+NOCOMMON             0          0
+ENDSUBENT           23
+SUBENT        10649002   20080817   20081219   20081211       1350
+BIB                  3         17
+REACTION  1((11-NA-23(N,INL)11-NA-23,PAR,DA,G,4PI)/
+           (92-U-235(N,F),,SIG))
+          2(11-NA-23(N,INL)11-NA-23,PAR,DA,G,4PI)
+MONITOR   2(92-U-235(N,F),,SIG) ENDF/B-IV fission cross sections
+           Uranium in fission detector enriched to 93.3% 235U.
+ERR-ANALYS1(DATA-ERR) Overall ratio error is estimated to be 8%
+            due to contributions from the following sources:
+            - detector counting efficiency   (5%),
+            - geometric effects              (3%),
+            - neutron source characteristics (>2%),
+            - gamma detector efficiency      (4%),
+            - mass of uranium deposit        (1%),
+            - gamma absorption in sample     (1%),
+            - neutron absorption in sample   (2%),
+            - neutron multiple scattering    (2.4%).
+          2(DATA-ERR) Relative uncertainties combined with
+            normalization error.
+ENDBIB              17
+COMMON               2          3
+E          ANG
+MEV        ADEG
+ 0.438      55.
+ENDCOMMON            3
+DATA                 6         37
+EN         EN-RSL     DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MEV        MEV        NO-DIM     NO-DIM     MB         MB
+ 0.5        0.08       0.00571    0.00046      6.7       0.6
+ 0.54       0.08       0.00817    0.00065      9.5       0.9
+ 0.54       0.08       0.00647    0.00052      7.5       0.7
+ 0.54       0.08       0.00802    0.00064      9.3       0.8
+ 0.59       0.08       0.0616     0.0049      71.2       6.4
+ 0.64       0.08       0.106      0.008      122.0      11.0
+ 0.68       0.08       0.175      0.014      201.0      18.0
+ 0.73       0.07       0.297      0.024      337.0      30.0
+ 0.79       0.07       0.339      0.027      382.0      34.0
+ 0.83       0.07       0.279      0.022      317.0      29.0
+ 0.88       0.07       0.22       0.018      256.0      23.0
+ 0.93       0.07       0.212      0.017      251.0      23.0
+ 0.99       0.07       0.277      0.022      333.0      30.0
+ 1.03       0.07       0.425      0.034      518.0      47.0
+ 1.03       0.07       0.398      0.032      486.0      44.0
+ 1.08       0.07       0.432      0.035      536.0      48.0
+ 1.13       0.07       0.367      0.029      459.0      41.0
+ 1.18       0.07       0.399      0.032      500.0      45.0
+ 1.23       0.07       0.544      0.044      682.0      61.0
+ 1.27       0.07       0.36       0.029      451.0      41.0
+ 1.33       0.07       0.239      0.019      300.0      27.0
+ 1.38       0.06       0.197      0.016      247.0      22.0
+ 1.43       0.06       0.263      0.021      331.0      30.0
+ 1.48       0.06       0.273      0.022      344.0      31.0
+ 1.54       0.06       0.222      0.018      279.0      25.0
+ 1.54       0.06       0.206      0.016      260.0      23.0
+ 1.59       0.06       0.283      0.023      357.0      32.0
+ 1.64       0.06       0.379      0.03       478.0      43.0
+ 1.68       0.06       0.327      0.026      413.0      37.0
+ 1.73       0.06       0.452      0.036      571.0      51.0
+ 1.78       0.06       0.475      0.038      601.0      54.0
+ 1.83       0.06       0.384      0.031      487.0      44.0
+ 1.89       0.06       0.31       0.025      393.0      35.0
+ 1.94       0.06       0.422      0.034      536.0      48.0
+ 1.99       0.06       0.485      0.039      617.0      56.0
+ 2.04       0.06       0.365      0.029      464.0      42.0
+ 2.04       0.06       0.403      0.032      513.0      46.0
+ENDDATA             39
+ENDSUBENT           65
+SUBENT        10649003   20080817   20081219   20081211       1350
+BIB                  3          3
+REACTION   (11-NA-23(N,INL)11-NA-23,PAR,DA,G,RSD)
+MONITOR    Plastic scintillator used as flux monitor.
+ERR-ANALYS (DATA-ERR) Relative uncertainty of gamma yields.
+ENDBIB               3
+COMMON               2          3
+E          DATA-ERR
+MEV        PER-CENT
+ 0.438      5.0
+ENDCOMMON            3
+DATA                 3         81
+EN         COS        DATA
+MEV        NO-DIM     NO-DIM
+  0.644     0.865      1.055
+  0.644     0.646      1.002
+  0.644     0.505      0.970
+  0.644     0.348      0.967
+  0.644     0.181      0.959
+  0.644     0.008      1.003
+  0.644    -0.165      1.005
+  0.644    -0.334      0.997
+  0.644    -0.492      1.021
+  0.644    -0.636      1.015
+  0.644    -0.701      1.022
+  0.793     0.865      1.000
+  0.793     0.767      0.994
+  0.793     0.646      0.968
+  0.793     0.505      1.001
+  0.793     0.349      1.018
+  0.793     0.181      0.972
+  0.793     0.009      0.993
+  0.793    -0.165      1.012
+  0.793    -0.334      1.017
+  0.793    -0.492      1.022
+  0.793    -0.636      1.035
+  0.793    -0.701      0.978
+  1.093     0.865      1.020
+  1.093     0.767      0.970
+  1.093     0.645      1.028
+  1.093     0.505      0.979
+  1.093     0.348      1.003
+  1.093     0.181      0.984
+  1.093     0.008      0.998
+  1.093    -0.165      0.998
+  1.093    -0.334      0.984
+  1.093    -0.492      0.975
+  1.093    -0.636      1.040
+  1.093    -0.701      1.036
+  1.245     0.865      1.002
+  1.245     0.767      0.974
+  1.245     0.645      0.982
+  1.245     0.505      1.032
+  1.245     0.348      1.010
+  1.245     0.181      0.994
+  1.245     0.008      0.987
+  1.245    -0.165      0.991
+  1.245    -0.334      1.007
+  1.245    -0.492      0.993
+  1.245    -0.636      1.029
+  1.245    -0.701      1.005
+  1.499     0.865      0.977
+  1.499     0.766      0.972
+  1.499     0.645      1.002
+  1.499     0.504      0.989
+  1.499     0.348      0.950
+  1.499     0.181      1.024
+  1.499     0.008      1.041
+  1.499    -0.165      1.013
+  1.499    -0.334      0.982
+  1.499    -0.492      1.014
+  1.499    -0.636      1.015
+  1.499    -0.701      1.038
+  1.799     0.865      0.949
+  1.799     0.767      0.926
+  1.799     0.645      0.988
+  1.799     0.504      0.995
+  1.799     0.348      0.999
+  1.799     0.008      1.048
+  1.799    -0.165      1.031
+  1.799    -0.334      1.040
+  1.799    -0.492      1.032
+  1.799    -0.636      1.005
+  1.799    -0.701      1.018
+  2.044     0.865      0.999
+  2.044     0.767      1.007
+  2.044     0.645      1.037
+  2.044     0.504      1.032
+  2.044     0.348      1.004
+  2.044     0.181      0.972
+  2.044     0.008      0.996
+  2.044    -0.165      0.990
+  2.044    -0.334      1.000
+  2.044    -0.636      0.979
+  2.044    -0.701      0.992
+ENDDATA             83
+ENDSUBENT           95
+ENDENTRY             3

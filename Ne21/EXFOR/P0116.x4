@@ -1,0 +1,81 @@
+ENTRY            P0116   20071109   20080131   20080124       Y003
+SUBENT        P0116001   20071109   20080131   20080124       Y003
+BIB                  7         12
+INSTITUTE  (1USABRK)
+REFERENCE  (J,NP/A,98,25,1967)
+AUTHOR     (L.F.HANSEN,J.D.ANDERSON,J.W.MCCLURE,B.A.POHL,
+           M.L.STELTS,J.J.WESOLOWSKI,C.WONG)
+TITLE      The (alpha,n) cross sections on 17O and 18O between
+            5 and 12.5 MeV
+FACILITY   (CYCLO,1USALRL)
+STATUS     (CPX) Data from CPX file compiled in 1964/67 by
+            F.K. McGowan et al.
+HISTORY    (19830620T) Converted to EXFOR format by IAEA-NDS.
+           (20000815A) Converted to new date formats; BIB updated.
+           (20071109A) Reference corre3cted
+ENDBIB              12
+NOCOMMON             0          0
+ENDSUBENT           15
+SUBENT        P0116002   20000815   20010330   20050926       0000
+BIB                  3          3
+REACTION   (8-O-17(A,N)10-NE-20,,SIG)
+SAMPLE     Oxygen gas, enriched to 50.7% 17O.
+DETECTOR   (LONGC)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          8
+EN         EN-ERR     DATA       DATA-ERR
+MEV        MEV        MB         MB
+    4.70       2.48     166.        17.
+    5.82       2.20     234.        24.
+    6.19       0.88     220.        21.
+    6.50       1.98     267.        27.
+    7.80       1.78     312.
+    9.77       0.70     432.        43.
+   11.7        0.56     619.        61.
+   12.5        0.58     608.        60.
+ENDDATA             10
+ENDSUBENT           18
+SUBENT        P0116003   20000815   20010330   20050926       0000
+BIB                  3          3
+REACTION   (8-O-18(A,N)10-NE-21,,SIG)
+SAMPLE     Oxygen gas, enriched to 99.9% 18O.
+DETECTOR   (LONGC)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4         10
+EN         EN-ERR     DATA       DATA-ERR
+MEV        MEV        MB         MB
+    4.70       2.46     379.        38.
+    5.73       2.18     457.        46.
+    6.17       0.90     463.        46.
+    6.45       1.98     491.        47.
+    7.10       0.77     569.        57.
+    9.74       0.76     641.        64.
+   10.4        0.59     715.        78.
+   10.7        1.46     734.        75.
+   11.7        0.58     787.        80.
+   12.5        0.59     778.        79.
+ENDDATA             12
+ENDSUBENT           20
+SUBENT        P0116004   20000818   20010330   20050926       0000
+BIB                  4          4
+REACTION   (8-O-17(A,N)10-NE-20,,DA)
+SAMPLE     Oxygen gas, enriched to 50.7% 17O.
+METHOD     Neutron time-of-flight measured.
+STATUS     (UNOBT) Data given in Fig. 4 of reference.
+ENDBIB               4
+NOCOMMON             0          0
+NODATA               0          0
+ENDSUBENT            8
+SUBENT        P0116005   20000818   20010330   20050926       0000
+BIB                  4          4
+REACTION   (8-O-18(A,N)10-NE-21,,SIG)
+SAMPLE     Oxygen gas, enriched to 99.9% 18O.
+METHOD     Neutron time-of-flight measured.
+STATUS     (UNOBT) Data given in Fig. 5 of reference.
+ENDBIB               4
+NOCOMMON             0          0
+NODATA               0          0
+ENDSUBENT            8
+ENDENTRY             5

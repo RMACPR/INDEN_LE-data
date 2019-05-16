@@ -1,0 +1,44 @@
+ENTRY            11193     800814              20050926       0000
+SUBENT        11193001     800814              20050926       0000
+BIB                  6          8
+INSTITUTE  (1USALRL)
+REFERENCE  (J,NP,19,52,60)
+AUTHOR     (J.BENVENISTE,A.C.MITCHELL,C.D.SCHRADER,J.H.ZENGER)
+TITLE      GAMMA RAYS FROM THE INTERACTION OF 14-MEV NEUTRONS WITH
+           BERYLLIUM.
+STATUS     (SCSRS)
+HISTORY    (760628T) TRANSLATED FROM SCISRS
+           (800814A) CONVERTED TO REACTION FORMALISM
+ENDBIB               8
+NOCOMMON             0          0
+ENDSUBENT           11
+SUBENT        11193002     800814              20050926       0000
+BIB                  5          5
+REACTION   (4-BE-9(N,T)3-LI-7,PAR,SIG)
+METHOD     RING GEOMETRY
+DETECTOR   (NAICR) NAI CRYSTAL
+PART-DET   (G) COUNTED 478-KEV LI-7 GAMMAS.
+CORRECTION CORRECTED FOR MULTIPLE SCATTERING.
+ENDBIB               5
+COMMON               1          3
+E-LVL
+MEV
+     .478
+ENDCOMMON            3
+DATA                 3         11
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.355  +01 2.10   -02 2.0    -03
+ 1.362  +01 1.98   -02 2.0    -03
+ 1.370  +01 1.91   -02 1.5    -03
+ 1.380  +01 1.58   -02 1.5    -03
+ 1.390  +01 1.11   -02 1.0    -03
+ 1.415  +01 1.02   -02 2.5    -03
+ 1.435  +01 1.99   -02 2.0    -03
+ 1.446  +01 2.48   -02 2.0    -03
+ 1.456  +01 2.62   -02 2.0    -03
+ 1.465  +01 2.90   -02 2.5    -03
+ 1.470  +01 3.40   -02 3.3    -03
+ENDDATA             13
+ENDSUBENT           27
+ENDENTRY             2

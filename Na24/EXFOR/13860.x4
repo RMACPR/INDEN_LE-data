@@ -1,0 +1,679 @@
+ENTRY            13860   20160315   20160701   20160615       1416
+SUBENT        13860001   20160315   20160701   20160615       1416
+BIB                 12         17
+INSTITUTE  (1USABNL)
+REFERENCE  (J,PR,91,1423,195309)
+AUTHOR     (D.J.Hughes,R.C.Garth,J.S.Levin)
+TITLE      Fast Neutron Cross Sections and Nuclear Level Densities
+REL-REF    (O,11596001,D.J.Hughes+,J,PR,78,632,1950)
+            Part of the data listed in Table I of Phys.Rev.91,1423
+            are compiled in entry 11596.
+FACILITY   (REAC,1USABNL)
+INC-SPECT  235U fission spectrum.
+METHOD     (ACTIV)
+DETECTOR   (GEMUC)
+ERR-ANALYS No information on uncertainties.
+STATUS     (TABLE) Data taken from Table I of Phys.Rev.91,1423.
+HISTORY    (20021211C)
+           (20160315A) OS. Added REL-REF, deleted subentries
+            7,26-32,52,54-57,60,61 because of duplication
+            with entry 11596.
+ENDBIB              17
+COMMON               1          3
+EN-DUMMY
+MEV
+  1.
+ENDCOMMON            3
+ENDSUBENT           24
+SUBENT        13860002   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG,,FIS)
+DECAY-DATA (11-NA-24,15.HR)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+  0.26
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860003   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (12-MG-26(N,G)12-MG-27,,SIG,,FIS)
+DECAY-DATA (12-MG-27,9.6MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+  0.6
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860004   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (13-AL-27(N,G)13-AL-28,,SIG,,FIS)
+DECAY-DATA (13-AL-28,2.3MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+  0.37
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860005   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (14-SI-30(N,G)14-SI-31,,SIG,,FIS)
+DECAY-DATA (14-SI-31,2.7HR)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+  1.1
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860006   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (17-CL-37(N,G)17-CL-38,,SIG,,FIS)
+DECAY-DATA (17-CL-38-G,38.MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+  0.74
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860008   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (19-K-41(N,G)19-K-42,,SIG,,FIS)
+DECAY-DATA (19-K-42,12.4HR)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+  2.9
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860009   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (20-CA-48(N,G)20-CA-49,,SIG,,FIS)
+DECAY-DATA (20-CA-49,8.5MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+  1.9
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860010   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (22-TI-50(N,G)22-TI-51,,SIG,,FIS)
+DECAY-DATA (22-TI-51,6.MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+  1.9
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860011   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (23-V-51(N,G)23-V-52,,SIG,,FIS)
+DECAY-DATA (23-V-52,3.9MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+  1.8
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860012   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (25-MN-55(N,G)25-MN-56,,SIG,,FIS)
+DECAY-DATA (25-MN-56,2.6HR)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+  3.82
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860013   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (27-CO-59(N,G)27-CO-60-M,,SIG,,FIS)
+DECAY-DATA (27-CO-60-M,11.MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+  4.6
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860014   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (27-CO-59(N,G)27-CO-60,,SIG,,FIS)
+DECAY-DATA (27-CO-60-G,5.YR)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 11.0
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860015   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (28-NI-64(N,G)28-NI-65,,SIG,,FIS)
+DECAY-DATA (28-NI-65,2.6HR)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+  5.1
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860016   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (29-CU-63(N,G)29-CU-64,,SIG,,FIS)
+DECAY-DATA (29-CU-64,12.9HR)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 11.4
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860017   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (29-CU-65(N,G)29-CU-66,,SIG,,FIS)
+DECAY-DATA (29-CU-66,4.3MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+  6.0
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860018   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (30-ZN-68(N,G)30-ZN-69-G,,SIG,,FIS)
+DECAY-DATA (30-ZN-69-G,52.MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+  8.0
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860019   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (30-ZN-68(N,G)30-ZN-69-M,,SIG,,FIS)
+DECAY-DATA (30-ZN-69-M,14.HR)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 15.2
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860020   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (31-GA-69(N,G)31-GA-70,,SIG,,FIS)
+DECAY-DATA (31-GA-70,20.MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 20.9
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860021   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (32-GE-74(N,G)32-GE-75,,SIG,,FIS)
+DECAY-DATA (32-GE-75-G,82.MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 12.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860022   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (33-AS-75(N,G)33-AS-76,,SIG,,FIS)
+DECAY-DATA (33-AS-76,27.HR)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 22.5
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860023   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (35-BR-79(N,G)35-BR-80-G,,SIG,,FIS)
+DECAY-DATA (35-BR-80-G,18.MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 29.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860024   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (35-BR-79(N,G)35-BR-80-M,,SIG,,FIS)
+DECAY-DATA (35-BR-80-M,4.4HR)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 13.5
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860025   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (35-BR-81(N,G)35-BR-82,,SIG,,FIS)
+DECAY-DATA (35-BR-82-G,36.HR)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 17.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860033   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (41-NB-93(N,G)41-NB-94-M,,SIG,,FIS)
+DECAY-DATA (41-NB-94-M,6.6MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 41.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860034   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (42-MO-98(N,G)42-MO-99,,SIG,,FIS)
+DECAY-DATA (42-MO-99,67.HR)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 10.4
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860035   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (42-MO-100(N,G)42-MO-101,,SIG,,FIS)
+DECAY-DATA (42-MO-101,15.MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 12.3
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860036   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (44-RU-102(N,G)44-RU-103,,SIG,,FIS)
+DECAY-DATA (44-RU-103,42.D)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 30.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860037   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (44-RU-104(N,G)44-RU-105,,SIG,,FIS)
+DECAY-DATA (44-RU-105,4.HR)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 31.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860038   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (45-RH-103(N,G)45-RH-104-G,,SIG,,FIS)
+DECAY-DATA (45-RH-104-G,44.SEC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 94.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860039   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (45-RH-103(N,G)45-RH-104-M,,SIG,,FIS)
+DECAY-DATA (45-RH-104-M,4.2MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 15.4
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860040   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (46-PD-108(N,G)46-PD-109,,SIG,,FIS)
+DECAY-DATA (46-PD-109-G,13.HR)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+108.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860041   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (47-AG-107(N,G)47-AG-108,,SIG,,FIS)
+DECAY-DATA (47-AG-108,2.3MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 85.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860042   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (47-AG-109(N,G)47-AG-110-G,,SIG,,FIS)
+DECAY-DATA (47-AG-110-G,25.SEC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+174.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860043   20021211   20030219   20050926       0000
+BIB                  2          3
+REACTION   (47-AG-109(N,G)47-AG-110,,SIG,,FIS)
+DECAY-DATA (47-AG-110-M,225.D)
+           (47-AG-110-G,25.SEC)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+178.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        13860044   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (49-IN-115(N,G)49-IN-116-G,,SIG,,FIS)
+DECAY-DATA (49-IN-116-G,13.SEC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 57.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860045   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (49-IN-115(N,G)49-IN-116-M,,SIG,,FIS)
+DECAY-DATA (49-IN-116-M,54.MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+166.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860046   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (50-SN-120(N,G)50-SN-121-G,,SIG,,FIS)
+DECAY-DATA (50-SN-121-G,27.5HR)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 14.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860047   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (50-SN-122(N,G)50-SN-123-M,,SIG,,FIS)
+DECAY-DATA (50-SN-123-M,40.MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA-MIN
+MB
+ 12.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860048   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (50-SN-124(N,G)50-SN-125-M,,SIG,,FIS)
+DECAY-DATA (50-SN-125-M,9.5MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 15.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860049   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (50-SN-124(N,G)50-SN-125-G,,SIG,,FIS)
+DECAY-DATA (50-SN-125-G,9.4D)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+  4.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860050   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (51-SB-121(N,G)51-SB-122,,SIG,,FIS)
+DECAY-DATA (51-SB-122-G,2.8D)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 90.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860051   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (53-I-127(N,G)53-I-128,,SIG,,FIS)
+DECAY-DATA (53-I-128,27.MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+105.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860053   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (56-BA-138(N,G)56-BA-139,,SIG,,FIS)
+DECAY-DATA (56-BA-139,86.MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+  2.3
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860058   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (60-ND-146(N,G)60-ND-147,,SIG,,FIS)
+DECAY-DATA (60-ND-147,11.D)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 40.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860059   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (60-ND-148(N,G)60-ND-149,,SIG,,FIS)
+DECAY-DATA (60-ND-149,1.7HR)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 80.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860062   20021211   20030219   20050926       0000
+BIB                  2          3
+REACTION   (73-TA-181(N,G)73-TA-182,,SIG,,FIS)
+DECAY-DATA (73-TA-182-G,117.D)
+           (73-TA-182-M2,16.MIN)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+142.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        13860063   20041117              20050926       0000
+BIB                  3          3
+REACTION   (74-W-186(N,G)74-W-187,,SIG,,FIS)
+DECAY-DATA (74-W-187,25.HR)
+HISTORY    (20041117A) Target and product nucleus corrected.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 71.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        13860064   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (75-RE-185(N,G)75-RE-186-G,,SIG,,FIS)
+DECAY-DATA (75-RE-186-G,90.HR)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+180.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860065   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (75-RE-187(N,G)75-RE-188,,SIG,,FIS)
+DECAY-DATA (75-RE-188-G,18.HR)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+165.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860066   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (78-PT-198(N,G)78-PT-199,,SIG,,FIS)
+DECAY-DATA (78-PT-199-G,31.MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+ 64.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860067   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (79-AU-197(N,G)79-AU-198,,SIG,,FIS)
+DECAY-DATA (79-AU-198-G,2.7D)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+120.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860068   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (80-HG-204(N,G)80-HG-205,,SIG,,FIS)
+DECAY-DATA (80-HG-205,5.5MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+102.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860069   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (82-PB-208(N,G)82-PB-209,,SIG,,FIS)
+DECAY-DATA (82-PB-209,3.3HR)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+  2.0
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        13860070   20021211   20030219   20050926       0000
+BIB                  2          2
+REACTION   (83-BI-209(N,G)83-BI-210-G,,SIG,,FIS)
+DECAY-DATA (83-BI-210-G,5.D)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+MB
+  3.4
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY            55

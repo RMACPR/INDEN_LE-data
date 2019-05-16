@@ -1,0 +1,46 @@
+ENTRY            40794     950926              20050926       0000
+SUBENT        40794001     950926              20050926       0000
+BIB                  7          9
+INSTITUTE  (4CCPFEI)
+REFERENCE  (J,ZET,41,(4),1023,6110)
+           (J,JET,14,728,62)
+AUTHOR     (A.I.ABRAMOV,M.G.JUTKIN)
+TITLE       THE NE-21(N,ALPHA)O-18 REACTION BY SLOW NEUTRONS.
+FACILITY   (REAC)
+DETECTOR   (IOCH) NEON-FILLED IONIZATION CHAMBER
+HISTORY    (840814T) CONVERTED FROM ENTRY 80243
+           (950926A) CORRECTED ACCORDING TO MEMO 4C-3/373
+ENDBIB               9
+NOCOMMON             0          0
+ENDSUBENT           12
+SUBENT        40794002     950926              20050926       0000
+BIB                  5          7
+REACTION   (10-NE-21(N,A)8-O-18,,SIG)
+MONITOR    (2-HE-3(N,P)1-H-3,,SIG)
+STATUS     (SCSRS)
+           (DEP,40794003)
+COMMENT      SIG=96B CORRESPONDS GIVEN RATIO AND STANDARD VALUES
+HISTORY    (950926A)  DATA CONFIRMED IN ANSWER TO MEMO 4C-3/373
+                      REACTION CODE HE-4 CORRECTED TO HE-3
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 5          1
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR
+MEV        B          B          B          B
+ 2.5300E-08 9.6000E+01 3.3000E+01   5400.     200.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40794003     950926              20050926       0000
+BIB                  3          3
+REACTION   ((10-NE-21(N,A)8-O-18,,SIG)/(2-HE-3(N,P)1-H-3,,SIG))
+STATUS      DATA ARE TAKEN FRJM THE REFERENCE
+HISTORY    (950926C) COMPILED AT THE CENTRE
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        NO-DIM     NO-DIM
+ 2.5300E-08  0.0177      0.0059
+ENDDATA              3
+ENDSUBENT           11
+ENDENTRY             3

@@ -1,0 +1,68 @@
+ENTRY            A1416   19990323   19990505   20050926       0000
+SUBENT        A1416001   19990323   19990505   20050926       0000
+BIB                  7          9
+INSTITUTE  (1USAFSU)
+REFERENCE  (W,GUN HAN,1973)
+AUTHOR     (GUN HAN)
+METHOD     (SITA)
+COMMENT    These data are from gun han, which were given in
+           Werby's article.
+REL-REF    (R,A1412001,WERBY+,J,PR/C,8,(1),106,197307)
+HISTORY    (19800730C) Compilation produced by Arzamas RFNC-VNIIEF
+           (19990220U)CNPD: corrected 4-dig. year and lower cases.
+ENDBIB               9
+NOCOMMON
+ENDSUBENT           12
+SUBENT        A1416002   19990323   19990505   20050926       0000
+BIB                  3          4
+REACTION   (3-LI-6(P,HE3)2-HE-4,,DA,,,EXP)
+ERR-ANALYS (ANG-ERR) Digitizing error
+           (DATA-ERR) Digitizing error
+STATUS     (CURVE) Fig 4
+ENDBIB               4
+COMMON               2          3
+ANG-ERR    DATA-ERR
+ADEG       MB/SR
+ 0.7        0.07
+ENDCOMMON            3
+DATA                 3         35
+EN         ANG-CM     DATA-CM
+MEV        ADEG       MB/SR
+     8.        12.04      10.3
+     8.        20.92       8.725
+     8.        25.08       7.095
+     8.        38.73       5.709
+     8.        52.7        5.304
+     8.        62.62       4.844
+     8.        73.33       4.732
+     8.        84.71       4.618
+     8.        89.41       4.6
+     8.        98.82       4.633
+     8.       111.4        4.093
+     8.       124.7        3.62
+     8.       137.9        2.938
+     8.       150.5        2.538
+     8.       158.7        2.857
+     8.       166.1        2.968
+     8.       171.9        4.139
+    10.        11.88       9.742
+    10.        17.61       6.824
+    10.        24.34       4.867
+    10.        38.         3.573
+    10.        49.34       3.323
+    10.        61.48       3.484
+    10.        72.94       3.578
+    10.        84.43       3.81
+    10.        96.56       3.902
+    10.       106.5        3.657
+    10.       115.2        3.554
+    10.       125.         2.483
+    10.       134.3        2.172
+    10.       142.9        1.932
+    10.       149.6        1.906
+    10.       157.2        2.36
+    10.       164.         2.816
+    10.       172.2        3.061
+ENDDATA             37
+ENDSUBENT           50
+ENDENTRY             2

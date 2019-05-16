@@ -1,0 +1,153 @@
+ENTRY            11277     810428              20050926       0000
+SUBENT        11277001     810428              20050926       0000
+BIB                  7          9
+INSTITUTE  (1USAPSU)
+REFERENCE  (J,DA/B,27,919,6609)
+AUTHOR     (D.W.KAPPE)
+TITLE      A SELF-CONSISTENT SET OF THERMAL NEUTRON ACTIVATION
+            CROSS SECTIONS.
+INC-SPECT  THERMAL SPECTRUM
+METHOD     (ACTIV) ACTIVATION
+HISTORY    (770301C)
+           (810428A) CONVERTED TO REACTION FORMALISM
+ENDBIB               9
+COMMON               1          3
+EN-DUMMY
+EV
+ 0.0253
+ENDCOMMON            3
+ENDSUBENT           16
+SUBENT        11277002     810428              20050926       0000
+BIB                  4          6
+REACTION  1((15-P-31(N,G)15-P-32,,SIG,,MXW)/
+           (11-NA-23(N,G)11-NA-24,,SIG,,MXW))
+          2(15-P-31(N,G)15-P-32,,SIG,,MXW)
+SAMPLE     NA-N-H(4)H-P-O(4),4H2O SAMPLE
+MONITOR   2(11-NA-23(N,G)11-NA-24,,SIG,,MXW)
+DECAY-DATA (15-P-32,14.3D,B-,1708.,1.0)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 5          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2MONIT     2
+NO-DIM     PER-CENT   B          PER-CENT   B
+ 0.345      3.         0.185      4.         0.536
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11277003     810428              20050926       0000
+BIB                  4          6
+REACTION  1((16-S-34(N,G)16-S-35,,SIG,,MXW)/
+           (11-NA-23(N,G)11-NA-24,,SIG,,MXW))
+          2(16-S-34(N,G)16-S-35,,SIG,,MXW)
+SAMPLE     NA(2)S(2)O(3).5H2O SAMPLE
+MONITOR   2(11-NA-23(N,G)11-NA-24,,SIG,,MXW)
+DECAY-DATA (16-S-35,86.7D,B-,167.,1.0)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 5          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2MONIT     2
+NO-DIM     PER-CENT   B          PER-CENT   B
+ 0.443      4.         0.238      4.         0.536
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11277004     810428              20050926       0000
+BIB                  4          7
+REACTION  1((17-CL-37(N,G)17-CL-38,,SIG,,MXW)/
+           (11-NA-23(N,G)11-NA-24,,SIG,,MXW))
+          2(17-CL-37(N,G)17-CL-38,,SIG,,MXW)
+SAMPLE     NA-CL SAMPLE
+DECAY-DATA (17-CL-38,37.14MIN,B-,1110.,0.31,B-,2770.,0.16,B-,
+            4810.,0.53)
+MONITOR   2(11-NA-23(N,G)11-NA-24,,SIG,,MXW)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 5          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2MONIT     2
+NO-DIM     PER-CENT   B          PER-CENT   B
+ 0.820      2.         0.440      3.         0.536
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11277005     810428              20050926       0000
+BIB                  4          6
+REACTION  1((19-K-41(N,G)19-K-42,,SIG,,MXW)/
+           (17-CL-37(N,G)17-CL-38,,SIG,,MXW))
+          2(19-K-41(N,G)19-K-42,,SIG,,MXW)
+SAMPLE     K-CL SAMPLE
+MONITOR   2(17-CL-37(N,G)17-CL-38,,SIG,,MXW)
+DECAY-DATA (19-K-42,12.4HR,B-,2030.,0.177,B-,3550.,0.82)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 5          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2MONIT     2
+NO-DIM     PER-CENT   B          PER-CENT   B
+ 3.42       3.         1.50       3.         0.440
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11277006     810428              20050926       0000
+BIB                  4          6
+REACTION  1((15-P-31(N,G)15-P-32,,SIG,,MXW)/
+           (19-K-41(N,G)19-K-42,,SIG,,MXW))
+          2(19-K-41(N,G)19-K-42,,SIG,,MXW)
+SAMPLE     K-H(2)P-O(4) SAMPLE
+MONITOR   2(15-P-31(N,G)15-P-32,,SIG,,MXW)
+DECAY-DATA (19-K-42,12.4HR,B-,2030.,0.177,B-,3553.,0.82)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 5          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2MONIT
+NO-DIM     PER-CENT   B          B          B
+ 0.125      2.         1.49       3.        0.185
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11277007     810428              20050926       0000
+BIB                  4          7
+REACTION  1((33-AS-75(N,G)33-AS-76,,SIG,,MXW)/
+           (11-NA-23(N,G)11-NA-24,,SIG,,MXW))
+          2(33-AS-75(N,G)33-AS-76,,SIG,,MXW)
+SAMPLE     NA(4)H-AS-O(4) SAMPLE
+MONITOR   2(11-NA-23(N,G)11-NA-24,,SIG,,MXW)
+DECAY-DATA (33-AS-76,26.5HR,B-,1200.,0.066,B-,1750.,0.036,
+            B-,2400.,0.306,B-,2970.,0.564)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 5          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2MONIT     2
+NO-DIM     PER-CENT   B          PER-CENT   B
+ 8.00       2.         4.29       3.         0.536
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11277008     810428              20050926       0000
+BIB                  5          9
+REACTION  1((53-I-127(N,G)53-I-128,,SIG,,MXW)/
+           (11-NA-23(N,G)11-NA-24,,SIG,,MXW))
+          2(53-I-127(N,G)53-I-128,,SIG,,MXW)
+SAMPLE     NA-I SAMPLE
+MONITOR   2(11-NA-23(N,G)11-NA-24,,SIG,,MXW)
+DECAY-DATA (53-I-128,25.0MIN,B-,1130.,0.002,B-,1670.,0.155,B-,
+            2120.,0.76)
+COMMENT    DATA VALUE GIVEN IN ARTICLE = 5.76 B. NOT
+            CONSISTENT WITH RATIO VALUE GIVEN AND STANDARD
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 5          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2MONIT     2
+NO-DIM     PER-CENT   B          PER-CENT   B
+ 10.65      2.         5.71       3.         0.536
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        11277009     810428              20050926       0000
+BIB                  4          6
+REACTION  1((17-CL-35(N,P)16-S-35,,SIG,,MXW)/
+           (17-CL-37(N,G)17-CL-38,,SIG,,MXW))
+          2(17-CL-35(N,P)16-S-35,,SIG,,MXW)
+SAMPLE     N-H(4)CL SAMPLE
+MONITOR   2(17-CL-37(N,G)17-CL-38,,SIG,,MXW)
+DECAY-DATA (16-S-35,86.7D,B-,167.,1.0)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 5          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2MONIT     2
+NO-DIM     PER-CENT   B          PER-CENT   B
+ 0.429      2.         0.189      4.         0.440
+ENDDATA              3
+ENDSUBENT           14
+ENDENTRY             9

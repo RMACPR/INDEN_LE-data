@@ -1,0 +1,90 @@
+ENTRY            B0133   20011220   20020122   20050926       0000
+SUBENT        B0133001   20011220   20020122   20050926       0000
+BIB                 11         33
+TITLE      Cross Sections For the B-11(HE-4,P)C-14 Reaction
+           In the Alpha-Particle Energy Range from 4.4 to 6.7 MeV.
+AUTHOR     (W.S.HOU, C.S.LIN, M.WEN, H.H.HSU, J.C.CHOU)
+INSTITUTE  (3CHFSHI)
+REFERENCE  (J,NSE,66,188,1978)
+FACILITY   (VDG,3CHFSHI)
+DETECTOR   (SOLST). 4 Silicon Surface Barrier Detectors Mounted
+           In Pairs on Two Independently Movable Arms.
+SAMPLE     B-11 Target, Enrichment 98.55%, Thickness 10.4 +- 0.4
+           Microgram/Cm**2.  Boron Powder was Evaporated onto a 30
+           Microgram/Cm**2 Gold Backing.
+METHOD     (EXTB,SITA,BCINT)
+           Absolute Differential Cross Sections were Measured
+           At Angles from 10 to 150 Degrees in the Laboratory
+           System in Steps of 10 Degrees.
+           The Solid Angles of the Detectors were Determined
+           By Both the Detector Geometry and Counting a Standard
+           Alpha-Source.
+ANALYSIS   (INTAD)
+           The Angular Distributions were Fitted with Legendre
+           Polynomials by the Method of Least Squares. The Total
+           Cross Section was Extracted from the Zero Order
+           Coefficients of these Fits.
+ERR-ANALYS (ERR-T) The Absolute Error in the Measured Total Cross
+           Sections is About 13%.  Included are the Statistical
+           Error (< 3%), the Uncertainty in Target Thickness
+            (ABOUT 10%), the Error in Solid Angle Measurement (3%)
+           And the Error in Faraday Cup Efficiency (7%).
+HISTORY    (19800415C)Nekw
+           (19940719A) Some Corrections have Been Included by
+            CAJAD
+           (19981205A) Converted to Lower Case.
+           (20011010U) Last checking has been done.
+ENDBIB              33
+NOCOMMON
+ENDSUBENT           36
+SUBENT        B0133002   20011220   20020122   20050926       0000
+BIB                  2          2
+REACTION   (5-B-11(A,P)6-C-14,,SIG,,,EXP)
+PART-DET   (P)
+ENDBIB               2
+NOCOMMON
+DATA                 3         39
+EN         DATA       ERR-T
+MEV        MB         MB
+        4.4      252.1       31.8
+        4.5      162.6       21.4
+        4.6      128.1       17.1
+       4.65      122.4       16.7
+        4.7      118.8       16.4
+       4.75      126.5       16.2
+        4.8      144.7       19.5
+       4.85      134.4       17.9
+        4.9      134.7       17.9
+       4.95       110.       14.5
+         5.      108.5       14.4
+       5.05      108.9       14.5
+        5.1      106.6       14.5
+       5.15      116.9       15.2
+        5.2      120.7       16.5
+       5.25      120.9       15.9
+        5.3      111.8       14.6
+       5.35       95.1       12.4
+        5.4       92.4       12.9
+       5.45       75.5        9.9
+        5.5       65.8        9.7
+       5.55       66.9        8.6
+        5.6       76.8       11.1
+        5.7       68.2        9.6
+        5.8       53.8        7.3
+        5.9       43.8        6.3
+         6.       40.4        5.1
+        6.1       50.5        6.2
+        6.2       44.1        5.8
+       6.25       41.5        5.7
+        6.3       45.2        5.8
+       6.35       48.9        6.1
+        6.4       54.2        6.8
+       6.45       44.9        5.8
+        6.5       42.6        5.4
+       6.55       35.8        4.6
+        6.6       37.9        4.7
+       6.65       32.7        4.2
+        6.7        35.        4.5
+ENDDATA             41
+ENDSUBENT           48
+ENDENTRY             2

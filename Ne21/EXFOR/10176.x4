@@ -1,0 +1,69 @@
+ENTRY            10176   20001214   20010328   20050926       0000
+SUBENT        10176001   20001214   20010328   20050926       0000
+BIB                 13         17
+INSTITUTE  (1USABLN)
+REFERENCE  (J,PR/C,4,846,197109)
+AUTHOR     (S.KARDONSKY,H.L.FINSTON,E.T.WILLIAMS)
+TITLE      Reactions of 20Ne with 14.3 MeV Neutrons.
+FACILITY   TMC Activatron III neutron generator.
+INC-SOURCE (D-T) T(d,n) reaction.
+DETECTOR   (IOCH) Gridded ionization chamber, filled with mixture
+            of 95% neon and 5% methane.
+MONITOR    (6-C-12(N,A)4-BE-9,,SIG)
+CORRECTION Corrected for wall effects.
+ERR-ANALYS (DATA-ERR) No information on source of uncertainties.
+COMMENT    Data given as approximate values are from estimates.
+STATUS     (APRVD) Approved by author.
+            Data taken from reference.
+HISTORY    (19711203C)
+           (19820915A) CONVERTED TO REACTION FORMALISM
+           (20001214A) Converted to new date formats, lower case.
+ENDBIB              17
+COMMON               4          3
+EN         E-NRM      MONIT      MONIT-ERR
+MEV        MEV        MB         MB
+ 14.3       0.         76.        11.
+ENDCOMMON            3
+ENDSUBENT           24
+SUBENT        10176002   20001214   20010328   20050926       0000
+BIB                  1          1
+REACTION   (10-NE-20(N,A)8-O-17,PAR,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 5          7
+E-LVL      E-LVL-ERR  DATA       DATA-ERR   DATA-APRX
+MEV        MEV        MB         MB         MB
+       0.                     6.6        2.4
+       0.83       0.09        1.0        0.4
+       3.18       0.12        1.5        0.4
+       3.90       0.07        2.0        0.4
+       4.63       0.12        1.3        0.3
+       5.55       0.10                              0.4
+       5.90       0.10                              0.1
+ENDDATA              9
+ENDSUBENT           15
+SUBENT        10176003   20001214   20010328   20050926       0000
+BIB                  2          2
+REACTION   (10-NE-20(N,2A)6-C-13,PAR,SIG)
+HISTORY    (20001214A) Level energy moved to DATA.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+E-LVL      DATA       DATA-ERR
+MEV        MB         MB
+ 0.         41.8       8.1
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10176004   20001214   20010328   20050926       0000
+BIB                  2          2
+REACTION   (10-NE-20(N,P)9-F-20,PAR,SIG)
+HISTORY    (20001214A) Level energy moved to DATA.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+E-LVL      DATA-APRX
+MEV        MB
+ 0.         1.
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY             4

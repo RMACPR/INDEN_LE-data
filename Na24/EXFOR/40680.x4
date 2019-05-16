@@ -1,0 +1,642 @@
+ENTRY            40680   20050827   20070911   20070815       4140
+SUBENT        40680001   20050827   20070911   20070815       4140
+BIB                 13         40
+INSTITUTE  (4RUSFEI)
+REFERENCE  (J,AE,15,(5),416,196311) Main Reference,Data Are Given
+           (J,AE,14,(4),400,196304)     Experimental Details
+           (J,SJA,15,1173,196311)   English Of AE 15 416
+           (J,SJA,14,405,196304)   Engl.Translation of AE,14,400.
+           (J,JNE/AB,18,656,1964)      TRANSLATION OF AE 15 416
+AUTHOR     (N.P.GLAZKOV)
+TITLE       Inelastic Scattering Cross Sections For Neutrons With
+            Energies Of 0.4-1.2 MeV On Medium And Light Nuclei.
+METHOD     .Method Of Inverse Spherical Geometry
+INC-SOURCE (P-T)
+FACILITY   (VDG)  Van De Graaff Accelerator EG-2,5
+DETECTOR   (HE3SP)   Spherical He-3 Spectrometer With Energy
+                     Resolution 100-150 keV
+MONITOR     No Information
+SAMPLE     .Natural Composition Samples In The Form Of Spherical
+            Layers 30 mm Thickness (Inner Diameter 40 mm, Outer
+            Diameter 100 mm). Samples Were Prepared Of Oxide's
+            Powder Placed In Stainless-steel Containers 0.2 mm
+            Thickness
+ERR-ANALYS  Errors Are Total (If Present)
+                   Total Error Includes Statistical Error,
+                   Errors In Transport Cross Sections Used
+                   For Mean Free Path Calculations, And Errors
+                   In Corrections Made.
+STATUS     (SCSRS)
+           (TABLE)  Data Are From The Table In Main Reference
+HISTORY    (19840104T) Converted From ENTRY 80068
+           (19861211A) SANS 030, 031, 038, 040, 056  CORRECTED,
+                     SANS 039, 041, 057 DELETED DUE TO THE DATA
+                     REPETITION. SF3 REACTION CODES IN SEVERAL
+                     SUBENTS ADDED. INSTITUTE CODE CCP TO FEI
+                     CHANGED
+           (19910701U)  SF-1 IN SAN 002, 003, 004, 010, 012-014
+              CHANGED. INSTITUTE CODE 'CCP' CHANGED TO 'FEI'
+           (19981222A) .CORRECTED AFTER COMPARISON WITH ENTRY
+            88008
+           (20010319A) DATE is corrected
+           (20050827U) Correction according to Memo CP-E/70
+           (20070420U) 4th Reference was added.  M.M
+ENDBIB              40
+NOCOMMON             0          0
+ENDSUBENT           43
+SUBENT        40680003   20010319   20010718   20050926       0000
+BIB                  3          4
+REACTION   (3-LI-7(N,INL)3-LI-7,PAR,SIG)
+EN-SEC     (E-LVL,3-LI-7)
+HISTORY    (19910701U)   LI-0 TO LI-7 CHANGED
+           (19981222A)   DATA MERGED FROM SAN 002
+ENDBIB               4
+COMMON               1          3
+E-LVL
+MEV
+ 4.7900E-01
+ENDCOMMON            3
+DATA                 4          3
+EN         DATA       ERR-T      DATA-MAX
+MEV        B          B          B
+ 8.0000E-01                       7.0000E-02
+ 1.0000E+00 8.0000E-02 4.0000E-02
+ 1.2000E+00 2.0000E-01 5.0000E-02
+ENDDATA              5
+ENDSUBENT           18
+SUBENT        40680004   20010319   20010718   20050926       0000
+BIB                  3          3
+REACTION   (5-B-10(N,INL)5-B-10,PAR,SIG)
+EN-SEC     (E-LVL,5-B-10)
+HISTORY    (19910701A)   B-0 TO B-10 CHANGED
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+ 7.2300E-01
+ENDCOMMON            3
+DATA                 2          2
+EN         DATA-MAX
+MEV        B
+ 1.0000E+00 6.0000E-02
+ 1.2000E+00 6.0000E-02
+ENDDATA              4
+ENDSUBENT           16
+SUBENT        40680005   20010319   20010718   20050926       0000
+BIB                  2          2
+REACTION   (11-NA-23(N,INL)11-NA-23,PAR,SIG)
+EN-SEC     (E-LVL,11-NA-23)
+ENDBIB               2
+COMMON               1          3
+E-LVL
+MEV
+ 4.4000E-01
+ENDCOMMON            3
+DATA                 3          4
+EN         DATA       ERR-T
+MEV        B          B
+ 6.0000E-01 2.0000E-01 2.0000E-02
+ 8.0000E-01 3.1000E-01 3.0000E-02
+ 1.0000E+00 4.0000E-01 4.0000E-02
+ 1.2000E+00 4.4000E-01 4.0000E-02
+ENDDATA              6
+ENDSUBENT           17
+SUBENT        40680006     840320              20050926       0000
+BIB                  1          1
+REACTION   (12-MG-25(N,INL)12-MG-25,PAR,SIG)
+ENDBIB               1
+COMMON               2          3
+E-LVL      E-LVL
+MEV        MEV
+ 5.3000E-01 9.8000E-01
+ENDCOMMON            3
+DATA                 2          2
+EN         DATA-MAX
+MEV        B
+ 1.0000E+00 6.0000E-02
+ 1.2000E+00 6.0000E-02
+ENDDATA              4
+ENDSUBENT           14
+SUBENT        40680007   20010319   20010718   20050926       0000
+BIB                  3          4
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,SIG)
+EN-SEC     (E-LVL,13-AL-27)
+HISTORY    (19981222A)  CORRECTED AT CJD -  DATA MERGED
+                      FROM SAN 009
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 5          3
+EN         E-LVL      DATA       ERR-T      DATA-MAX
+MEV        MEV        B          B          B
+ 1.0000E+00 8.3000E-01                       5.0000E-02
+ 1.2000E+00 8.3000E-01 5.0000E-02 3.0000E-02
+ 1.2000E+00 1.0170E+00 1.3000E-01 5.0000E-02
+ENDDATA              5
+ENDSUBENT           14
+SUBENT        40680008   20010319   20010718   20050926       0000
+BIB                  2          2
+REACTION   (13-AL-27(N,INL)13-AL-27,,SIG)
+HISTORY    (19981222A)  CORRECTED AT CJD -  DATA ADDED
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          2
+EN         DATA       ERR-T      DATA-MAX
+MEV        B          B          B
+ 1.0000E+00                       5.0000E-02
+ 1.2000E+00 1.8000E-01 5.0000E-02
+ENDDATA              4
+ENDSUBENT           11
+SUBENT        40680010   20010319   20010718   20050926       0000
+BIB                  3          3
+REACTION   (17-CL-37(N,INL)17-CL-37,PAR,SIG)
+EN-SEC     (E-LVL,17-CL-37)
+HISTORY    (19910701U)   CL-0 TO CL-37 CHANGED
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+ 8.4000E-01
+ENDCOMMON            3
+DATA                 2          2
+EN         DATA-MAX
+MEV        B
+ 1.0000E+00 1.2000E-01
+ 1.2000E+00 1.2000E-01
+ENDDATA              4
+ENDSUBENT           16
+SUBENT        40680011   20010319   20010718   20050926       0000
+BIB                  2          2
+REACTION   (27-CO-59(N,INL)27-CO-59,PAR,SIG)
+EN-SEC     (E-LVL,27-CO-59)
+ENDBIB               2
+COMMON               1          3
+E-LVL
+MEV
+ 1.0980E+00
+ENDCOMMON            3
+DATA                 2          1
+EN         DATA-MAX
+MEV        B
+ 1.2000E+00 2.0000E-01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        40680012   20010319   20010718   20050926       0000
+BIB                  3          4
+REACTION   (29-CU-63(N,INL)29-CU-63,,SIG)
+STATUS     (DEP,40680013)
+HISTORY    (19910701U)  CU-0 TO CU-63 CHANGED
+           (19981222U)  CORRELATED TO 40680013
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          3
+EN         DATA       ERR-T
+MEV        B          B
+ 8.0000E-01 1.0000E-01 5.0000E-02
+ 1.0000E+00 2.7000E-01 5.0000E-02
+ 1.2000E+00 5.4000E-01 5.0000E-02
+ENDDATA              5
+ENDSUBENT           14
+SUBENT        40680013   20010319   20010718   20050926       0000
+BIB                  3          4
+REACTION   (29-CU-63(N,INL)29-CU-63,PAR,SIG)
+EN-SEC     (E-LVL,29-CU-63)
+HISTORY    (19910701U)   CU-0 TO CU-63 CHANGED
+           (19981222A)   DATA MERGED FROM 013, 014
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          5
+EN         E-LVL      DATA       ERR-T
+MEV        MEV        B          B
+ 8.0000E-01 6.7000E-01 1.0000E-01 5.0000E-02
+ 1.0000E+00 6.7000E-01 1.7000E-01 5.0000E-02
+ 1.0000E+00 9.7000E-01 1.0000E-01 5.0000E-02
+ 1.2000E+00 6.7000E-01 2.4000E-01 5.0000E-02
+ 1.2000E+00 9.7000E-01 3.0000E-01 5.0000E-02
+ENDDATA              7
+ENDSUBENT           16
+SUBENT        40680015   20010319   20010718   20050926       0000
+BIB                  2          2
+REACTION   (30-ZN-0(N,INL)30-ZN-0,PAR,SIG)
+EN-SEC     (E-LVL-MEAN,30-ZN-0)
+ENDBIB               2
+COMMON               1          3
+E-LVL-MEAN
+MEV
+ 1.0000E+00
+ENDCOMMON            3
+DATA                 4          2
+EN         DATA       ERR-T      DATA-MAX
+MEV        B          B          B
+ 1.0000E+00                       7.0000E-02
+ 1.2000E+00 3.7000E-01 5.0000E-02
+ENDDATA              4
+ENDSUBENT           15
+SUBENT        40680017   20010319   20010718   20050926       0000
+BIB                  4          4
+REACTION   (24-CR-0(N,INL)24-CR-0,PAR,SIG)
+EN-SEC     (E-LVL,24-CR-53)
+COMMENT    ASSIGNED TO CR53.
+HISTORY    (19981222U) C0RRECTED AT CJD - DATA MOVED FROM SAN018
+ENDBIB               4
+COMMON               2          3
+E-LVL      E-LVL
+MEV        MEV
+ 5.4000E-01 9.7000E-01
+ENDCOMMON            3
+DATA                 2          2
+EN         DATA-MAX
+MEV        B
+ 1.0000E+00 6.0000E-02
+ 1.2000E+00 6.0000E-02
+ENDDATA              4
+ENDSUBENT           17
+SUBENT        40680019   20010319   20010718   20050926       0000
+BIB                  3          3
+REACTION   (25-MN-55(N,INL)25-MN-55,,SIG)
+STATUS     (DEP,40680020)
+HISTORY    (19981222U) C0RRECTED AT CJD
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          5
+EN         DATA       ERR-T
+MEV        B          B
+ 4.0000E-01 3.2000E-01 5.0000E-02
+ 6.0000E-01 5.3000E-01 5.0000E-02
+ 8.0000E-01 5.5000E-01 5.0000E-02
+ 1.0000E+00 7.5000E-01 7.0000E-02
+ 1.2000E+00 8.3000E-01 1.0000E-01
+ENDDATA              7
+ENDSUBENT           15
+SUBENT        40680020   20010319   20010718   20050926       0000
+BIB                  3          3
+REACTION   (25-MN-55(N,INL)25-MN-55,PAR,SIG)
+EN-SEC     (E-LVL,25-MN-55)
+HISTORY    (19981222A)  DATA MERGED FROM AAN 020, 021, 022
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 5          7
+EN         E-LVL      DATA       ERR-T      DATA-MAX
+MEV        MEV        B          B          B
+ 4.0000E-01 1.2800E-01 3.2000E-01 5.0000E-02
+ 6.0000E-01 1.2800E-01 5.3000E-01 5.0000E-02
+ 8.0000E-01 1.2800E-01 5.5000E-01 5.0000E-02
+ 1.0000E+00 1.2800E-01 7.0000E-01 7.0000E-02
+ 1.0000E+00 9.8000E-01                       5.0000E-02
+ 1.2000E+00 1.2800E-01 7.2000E-01 3.0000E-02
+ 1.2000E+00 9.8000E-01 1.1000E-01 3.0000E-02
+ENDDATA              9
+ENDSUBENT           17
+SUBENT        40680023   20010319   20010718   20050926       0000
+BIB                  3          3
+REACTION   (34-SE-0(N,INL)34-SE-0,PAR,SIG)
+EN-SEC     (E-LVL-MEAN,34-SE-0)
+HISTORY    (19981222U)  CORRECTED AT CJD
+ENDBIB               3
+COMMON               1          3
+E-LVL-MEAN
+MEV
+ 6.0000E-01
+ENDCOMMON            3
+DATA                 3          3
+EN         DATA       ERR-T
+MEV        B          B
+ 8.0000E-01 6.0000E-01 5.0000E-02
+ 1.0000E+00 9.0000E-01 1.0000E-01
+ 1.2000E+00 1.0000E+00 1.0000E-01
+ENDDATA              5
+ENDSUBENT           17
+SUBENT        40680024   20010319   20010718   20050926       0000
+BIB                  4          4
+REACTION   (38-SR-0(N,INL)38-SR-0,PAR,SIG)
+EN-SEC     (E-LVL,38-SR-87)
+COMMENT    ASSIGNED TO SR87.
+HISTORY    (19981222U)  CORRECTED AT CJD - MERGED WITH 40680025
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+EN         E-LVL      E-LVL      DATA-MAX
+MEV        MEV        MEV        B
+ 1.2000E+00 3.9000E-01 8.7000E-01 2.0000E-01
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        40680026   20010319   20010718   20050926       0000
+BIB                  3          3
+REACTION   (40-ZR-0(N,INL)40-ZR-0,PAR,SIG)
+EN-SEC     (E-LVL-MEAN,40-ZR-0)
+HISTORY    (19981222A) DATA MERGED FROM SAN 026, 027
+ENDBIB               3
+COMMON               1          3
+E-LVL-MEAN
+MEV
+ 9.3000E-01
+ENDCOMMON            3
+DATA                 4          2
+EN         DATA       ERR-T      DATA-MAX
+MEV        B          B          B
+ 1.0000E+00                       2.0000E-01
+ 1.2000E+00 3.2000E-01 3.0000E-02
+ENDDATA              4
+ENDSUBENT           16
+SUBENT        40680028   20010319   20010718   20050926       0000
+BIB                  3          3
+REACTION   (41-NB-93(N,INL)41-NB-93,,SIG)
+STATUS     (DEP,40680029)
+HISTORY    (19981222U)  CORRECTED AT CJD
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          3
+EN         DATA       ERR-T
+MEV        B          B
+ 8.0000E-01 2.0000E-01 3.0000E-02
+ 1.0000E+00 6.5000E-01 1.0000E-01
+ 1.2000E+00 1.3000E+00 1.5000E-01
+ENDDATA              5
+ENDSUBENT           13
+SUBENT        40680029   20010319   20010718   20050926       0000
+BIB                  3          5
+REACTION   (41-NB-93(N,INL)41-NB-93,PAR,SIG)
+EN-SEC     (E-LVL,41-NB-93)
+HISTORY    (19861211U)  IN COMMON SECTION DATA-HEADING 'FLAG' INTO
+            E-LVL CHANGED ACCORDING TO MEMO 4C-1/155
+           (19981222A)  DATA MERGED FROM SAN 029, 030, 031
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 5          5
+EN         E-LVL      DATA       ERR-T      DATA-MAX
+MEV        MEV        B          B          B
+ 8.0000E-01 7.6000E-01 2.0000E-01 3.0000E-02
+ 1.0000E+00 7.6000E-01 5.5000E-01 5.0000E-02
+ 1.0000E+00 9.9000E-01                       2.0000E-01
+ 1.2000E+00 7.6000E-01 6.0000E-01 5.0000E-02
+ 1.2000E+00 9.9000E-01 7.0000E-01 1.0000E-01
+ENDDATA              7
+ENDSUBENT           17
+SUBENT        40680032   20010319   20010718   20050926       0000
+BIB                  3          3
+REACTION   (42-MO-0(N,INL)42-MO-0,,SIG)
+STATUS     (DEP,40680033)
+HISTORY    (19981222U)  CORRECTED AT CJD
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          5
+EN         DATA       ERR-T
+MEV        B          B
+ 4.0000E-01 1.4000E-01 3.0000E-02
+ 6.0000E-01 2.4000E-01 3.0000E-02
+ 8.0000E-01 5.0000E-01 5.0000E-02
+ 1.0000E+00 1.1500E+00 1.0000E-01
+ 1.2000E+00 1.3000E+00 1.5000E-01
+ENDDATA              7
+ENDSUBENT           15
+SUBENT        40680033   20010319   20010718   20050926       0000
+BIB                  3          3
+REACTION   (42-MO-0(N,INL)42-MO-0,PAR,SIG)
+EN-SEC     (E-LVL-MEAN,42-MO-0)
+HISTORY    (19981222A)  DATA MERGED FROM SAN 033, 034, 035, 036
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 6         12
+EN         E-LVL-MEAN E-LVL-MEAN DATA       ERR-T      DATA-MAX
+MEV        MEV        MEV        B          B          B
+ 4.0000E-01 2.0000E-01            1.4000E-01 3.0000E-02
+ 6.0000E-01 2.0000E-01            2.0000E-01 3.0000E-02
+ 6.0000E-01 5.3000E-01            4.0000E-02 2.0000E-02
+ 8.0000E-01 2.0000E-01            3.4000E-01 3.0000E-02
+ 8.0000E-01 5.3000E-01            1.6000E-01 2.0000E-02
+ 8.0000E-01 7.7000E-01 8.7000E-01                       1.5000E-01
+ 1.0000E+00 2.0000E-01            2.5000E-01 3.0000E-02
+ 1.0000E+00 5.3000E-01            1.5000E-01 2.0000E-02
+ 1.0000E+00 7.7000E-01 8.7000E-01 7.4000E-01 1.0000E-01
+ 1.2000E+00 2.0000E-01            1.0000E-01 3.0000E-02
+ 1.2000E+00 5.3000E-01            1.0000E-01 2.0000E-02
+ 1.2000E+00 7.7000E-01 8.7000E-01 1.1000E+00 1.0000E-01
+ENDDATA             14
+ENDSUBENT           22
+SUBENT        40680037   20010319   20010718   20050926       0000
+BIB                  3          3
+REACTION   (48-CD-0(N,INL)48-CD-0,,SIG)
+STATUS     (DEP,40680038)
+HISTORY    (19981222U)   CORRECTED AT CJD
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          5
+EN         DATA       ERR-T
+MEV        B          B
+ 4.0000E-01 1.1000E-01 2.0000E-02
+ 6.0000E-01 2.7000E-01 3.0000E-02
+ 8.0000E-01 7.0000E-01 1.0000E-01
+ 1.0000E+00 9.6000E-01 1.5000E-01
+ 1.2000E+00 9.4000E-01 1.5000E-01
+ENDDATA              7
+ENDSUBENT           15
+SUBENT        40680038   20010319   20010718   20050926       0000
+BIB                  3          3
+REACTION   (48-CD-0(N,INL)48-CD-0,PAR,SIG)
+EN-SEC     (E-LVL-MEAN,48-CD-0)
+HISTORY    (19981222A)  DATA MERGED FROM SAN 038, 040
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 5          8
+EN         E-LVL-MEAN E-LVL-MEAN DATA       ERR-T
+MEV        MEV        MEV        B          B
+ 4.0000E-01 2.6000E-01   3.0 E-01 1.1000E-01 2.0000E-02
+ 6.0000E-01 2.6000E-01   3.0 E-01 2.7000E-01 3.0000E-02
+ 8.0000E-01 2.6000E-01   3.0 E-01 3.0000E-01 3.0000E-02
+ 8.0000E-01 5.6000E-01  6.200E-01 4.0000E-01 5.0000E-02
+ 1.0000E+00 2.6000E-01   3.0 E-01 1.8000E-01 2.0000E-02
+ 1.0000E+00 5.6000E-01  6.200E-01 7.8000E-01 1.0000E-01
+ 1.2000E+00 2.6000E-01   3.0 E-01 1.4000E-01 2.0000E-02
+ 1.2000E+00 5.6000E-01  6.200E-01 8.0000E-01 1.0000E-01
+ENDDATA             10
+ENDSUBENT           18
+SUBENT        40680042   20010319   20010718   20050926       0000
+BIB                  2          2
+REACTION   (50-SN-0(N,INL)50-SN-0,,SIG)
+HISTORY    (19981222U)  CORRECTED AT CJD
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          2
+EN         DATA-MAX
+MEV        B
+ 1.0000E+00 8.0000E-02
+ 1.2000E+00 8.0000E-02
+ENDDATA              4
+ENDSUBENT           11
+SUBENT        40680043   20010319   20010718   20050926       0000
+BIB                  3          3
+REACTION   (53-I-127(N,INL)53-I-127,,SIG)
+STATUS     (DEP,40680044)
+HISTORY    (19981222U)  CORRECTED AT CJD
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          4
+EN         DATA       ERR-T
+MEV        B          B
+ 4.0000E-01 7.5000E-01 1.5000E-01
+ 6.0000E-01 1.3200E+00 2.0000E-01
+ 8.0000E-01 1.6300E+00 2.0000E-01
+ 1.0000E+00 1.6500E+00 2.5000E-01
+ENDDATA              6
+ENDSUBENT           14
+SUBENT        40680044   20010319   20010718   20050926       0000
+BIB                  3          4
+REACTION   (53-I-127(N,INL)53-I-127,PAR,SIG)
+EN-SEC     (E-LVL,53-I-127)
+HISTORY    (19981222A)  DATA MERGED FROM SAN 044, 045, 046,
+            047,048
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         14
+EN         E-LVL      DATA       ERR-T
+MEV        MEV        B          B
+ 4.0000E-01 6.0000E-02 5.0000E-01 1.0000E-01
+ 4.0000E-01 2.0300E-01 2.5000E-01 5.0000E-02
+ 6.0000E-01 6.0000E-02 7.0000E-01 1.0000E-01
+ 6.0000E-01 2.0300E-01 4.5000E-01 5.0000E-02
+ 6.0000E-01 4.2000E-01 1.7000E-01 1.0000E-01
+ 8.0000E-01 6.0000E-02 6.0000E-01 1.0000E-01
+ 8.0000E-01 2.0300E-01 4.7000E-01 5.0000E-02
+ 8.0000E-01 4.2000E-01 2.8000E-01 1.5000E-01
+ 8.0000E-01 6.3000E-01 2.8000E-01 1.0000E-01
+ 1.0000E+00 6.0000E-02 3.0000E-01 1.0000E-01
+ 1.0000E+00 2.0300E-01 3.0000E-01 5.0000E-02
+ 1.0000E+00 4.2000E-01 4.7000E-01 1.5000E-01
+ 1.0000E+00 6.3000E-01 4.8000E-01 1.0000E-01
+ 1.0000E+00 7.4400E-01 1.0000E-01 5.0000E-02
+ENDDATA             16
+ENDSUBENT           25
+SUBENT        40680049   20010319   20010718   20050926       0000
+BIB                  3          3
+REACTION   (56-BA-0(N,INL)56-BA-0,,SIG)
+STATUS     (DEP,40680051)
+HISTORY    (19981222A)  DATA MERGED FROM SAN 049, 050
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          3
+EN         DATA       ERR-T      DATA-MAX
+MEV        B          B          B
+ 6.0000E-01                       2.5000E-01
+ 8.0000E-01 4.0000E-01 2.0000E-01
+ 1.0000E+00 5.0000E-01 2.5000E-01
+ENDDATA              5
+ENDSUBENT           13
+SUBENT        40680051   20010319   20010718   20050926       0000
+BIB                  3          3
+REACTION   (56-BA-0(N,INL)56-BA-0,PAR,SIG)
+EN-SEC     (E-LVL-MEAN,56-BA-0)
+HISTORY    (19981222A)  DATA MERGED FROM SAN 051,052,053,054,055
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 5          6
+EN         E-LVL-MEAN DATA       ERR-T      DATA-MAX
+MEV        MEV        B          B          B
+ 6.0000E-01 4.9000E-01                       2.5000E-01
+ 8.0000E-01 4.9000E-01 3.0000E-01 1.5000E-01
+ 8.0000E-01 6.6000E-01                       2.5000E-01
+ 1.0000E+00 4.9000E-01 2.0000E-01 1.0000E-01
+ 1.0000E+00 6.6000E-01 3.0000E-01 1.5000E-01
+ 1.2000E+00 1.0400E+00 1.5000E-01 1.0000E-01
+ENDDATA              8
+ENDSUBENT           16
+SUBENT        40680059   20010319   20010718   20050926       0000
+BIB                  4          5
+REACTION   (51-SB-0(N,INL)51-SB-0,PAR,SIG)
+EN-SEC     (E-LVL-MEAN,51-SB-0)
+FLAG       (1.) ASSIGNED TO SB121.
+           (2.) ASSIGNED TO SB123.
+HISTORY    (19981222A)  DATA MERGED FROM SAN 059, 058, 056
+ENDBIB               5
+NOCOMMON             0          0 3
+DATA                 6          9
+EN         E-LVL-MEAN E-LVL-MEAN DATA       ERR-T      FLAG
+MEV        MEV        MEV        B          B          NO-DIM
+ 4.0000E-01 1.5000E-01            1.0000E-01 5.0000E-02  2.
+ 6.0000E-01 1.5000E-01            1.9000E-01 5.0000E-02  2.
+ 8.0000E-01 1.5000E-01            2.5000E-01 5.0000E-02  2.
+ 8.0000E-01 5.1000E-01  5.700E-01 1.5000E-01 2.0000E-02  1.
+ 1.0000E+00 1.5000E-01            2.5000E-01 5.0000E-02  2.
+ 1.0000E+00 5.1000E-01  5.700E-01 2.1000E-01 2.0000E-02  1.
+ 1.2000E+00 1.5000E-01            2.0000E-01 5.0000E-02  2.
+ 1.2000E+00 5.1000E-01  5.700E-01 2.1000E-01 2.0000E-02  1.
+ 1.2000E+00 1.0000E+00            3.0000E-01 1.0000E-01  1.
+ENDDATA             11
+ENDSUBENT           21
+SUBENT        40680060   20010319   20010718   20050926       0000
+BIB                  3          3
+REACTION   (51-SB-0(N,INL)51-SB-0,,SIG)
+STATUS     (DEP,40680059)
+HISTORY    (19981222U)  CORRECTED AT CJD
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          5
+EN         DATA       ERR-T
+MEV        B          B
+ 4.0000E-01 1.0000E-01 5.0000E-02
+ 6.0000E-01 2.0000E-01 5.0000E-02
+ 8.0000E-01 4.0000E-01 5.0000E-02
+ 1.0000E+00 4.5000E-01 5.0000E-02
+ 1.2000E+00 7.0000E-01 1.0000E-01
+ENDDATA              7
+ENDSUBENT           15
+SUBENT        40680061   20010319   20010718   20050926       0000
+BIB                  3          3
+REACTION   (73-TA-181(N,INL)73-TA-181,,SIG)
+STATUS     (DEP,40680062)
+HISTORY    (19981222A)  DATA CORRECTED
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          5
+EN         DATA       ERR-T
+MEV        B          B
+ 4.0000E-01 1.3000E+00 1.5000E-01
+ 6.0000E-01 2.1000E+00 2.0000E-01
+ 8.0000E-01 2.4500E+00 2.0000E-01
+ 1.0000E+00 2.6000E+00 2.0000E-01
+ 1.2000E+00 2.2000E+00 2.0000E-01
+ENDDATA              7
+ENDSUBENT           15
+SUBENT        40680062   20010319   20010718   20050926       0000
+BIB                  3          3
+REACTION   (73-TA-181(N,INL)73-TA-181,PAR,SIG)
+EN-SEC     (E-LVL,73-TA-181)
+HISTORY    (19981222A)  DATA MERGED FROM SAN 062-064
+ENDBIB               3
+NOCOMMON
+DATA                 4         14
+EN         E-LVL      DATA       ERR-T
+MEV        MEV        B          B
+ 4.0000E-01 1.3700E-01 9.5000E-01 1.0000E-01
+ 4.0000E-01 3.0300E-01 3.5000E-01 5.0000E-02
+ 6.0000E-01 1.3700E-01 1.3500E+00 1.5000E-01
+ 6.0000E-01 3.0300E-01 4.5000E-01 5.0000E-02
+ 6.0000E-01 4.8200E-01 3.0000E-01 5.0000E-02
+ 8.0000E-01 1.3700E-01 1.4500E+00 1.5000E-01
+ 8.0000E-01 3.0300E-01 5.0000E-01 5.0000E-02
+ 8.0000E-01 4.8200E-01 5.0000E-01 5.0000E-02
+ 1.0000E+00 1.3700E-01 1.5500E+00 1.5000E-01
+ 1.0000E+00 3.0300E-01 5.0000E-01 5.0000E-02
+ 1.0000E+00 4.8200E-01 5.5000E-01 5.0000E-02
+ 1.2000E+00 1.3700E-01 1.1000E+00 1.5000E-01
+ 1.2000E+00 3.0300E-01 5.0000E-01 5.0000E-02
+ 1.2000E+00 4.8200E-01 6.0000E-01 6.0000E-02
+ENDDATA             16
+ENDSUBENT           24
+SUBENT        40680065   20010319   20010718   20050926       0000
+BIB                  3          3
+REACTION   (26-FE-56(N,INL)26-FE-56,PAR,SIG)
+EN-SEC     (E-LVL,26-FE-56)
+HISTORY    (19981222C)  COMPILED AT THE CENTER - CJD
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+ 8.4500E-01
+ENDCOMMON            3
+DATA                 3          2
+EN         DATA       ERR-T
+MEV        B          B
+ 1.0000E+00 2.8000E-01 3.0000E-02
+ 1.2000E+00 5.2000E-01 5.0000E-02
+ENDDATA              4
+ENDSUBENT           16
+ENDENTRY            34

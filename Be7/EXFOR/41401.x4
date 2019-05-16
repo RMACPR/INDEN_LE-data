@@ -1,0 +1,432 @@
+ENTRY            41401   20111026   20111215   20111212       4154
+SUBENT        41401001   20111026   20111215   20111212       4154
+BIB                 15         48
+TITLE        Scattering of keV neutrons by Be, B, C nuclei
+AUTHOR     (D.I.Lyapin, L.V.Mitsyna, A.B.Popov, I.M.Salamatin,
+            G.S.Samosvat)
+REFERENCE  (R,JINR-P3-89-408,19890615)  Main Reference,
+                                        data are given
+INSTITUTE  (4ZZZDUB)
+REL-REF    (M,,V.A.Vagov+,R,JINR-P3-82-770,1982)   Experimental
+                                        method details
+           (M,,V.G.Nikolenko+,J,YF,23,1159,1976)   Exp. details
+           (R,40937001,Zo-In-Ok+,R,JINR-P3-85-133,198504)
+FACILITY   (REAC,4ZZZDUB)   Fast pulse reactor IBR-30
+DETECTOR   (HE3SP,PROPC) 50 He-3 proportional counters.
+             2 boron counters - for neutron beam monitoring.
+MONITOR    (6-C-12(N,EL)6-C-12,,SIG)
+             Measurement with graphite sample was used to define
+           incident neutron energy and for normalizetion;
+           used values are not given in articles.
+ANALYSIS   .Boundary condition for the wave function on the
+            channel boundary Bl=0.
+           .Boundary condition for the wave function on the
+            channel boundary Bl=-L.
+           (RFN)  R-matrix formalism of Lein and Thomas
+SAMPLE     Natural samples.
+METHOD           Scattered neutron spectra were measured at
+           angles of 45, 90, 135 degrees, with and without sample.
+           After summing in wide intervals, normalization to
+           monitor counting and corrections, three spectra of
+           scattered neutron intensities were approximated by
+           Legendre polynomials, there sets of parameters
+            ( Legendre coefficients and c-s) were defined; the
+           last ( at 135 degrees) set was defined relative to
+           graphite c-s.
+COMMENT    .Errors ERR-1 from REL-REF of Zo-In-Ok+.
+ERR-ANALYS (ERR-1,5.,10.) Systematic error caused by standard
+                    cross-section uncertainty
+CORRECTION  For background (measured without sample).
+           For self-shielding.
+           For detector efficiency dependence from scattering
+           angle.
+HISTORY    (20020703C) Compiled at the CJD
+           (20020704U) Last checking has been done.
+           (20111026A) M.M. Author name was corrected:
+                      I.M Salamatin -> I.M.Salamatin .
+           ERR-ANALYS was corrected. BIB information was added.
+            Several misprints in data values were corrected
+           according to Table 1. ERR-S -> DATA-ERR (not specified)
+            Subent 011 was added.
+            Details of method was added from REL-REF of V.A.Vagov+
+ENDBIB              48
+NOCOMMON             0          0
+ENDSUBENT           51
+SUBENT        41401002   20111026   20111215   20111212       4154
+BIB                  3          4
+REACTION   (4-BE-9(N,EL)4-BE-9,,SIG,,AV) Averaged over resonances
+ERR-ANALYS (DATA-ERR) Errors are not specified, probably
+            statistical.
+STATUS     (TABLE)   Table 1 of R,JINR-P3-89-408,1989
+ENDBIB               4
+COMMON               1          3
+DATA-ERR
+B
+        0.4
+ENDCOMMON            3
+DATA                 2         20
+EN         DATA
+KEV        B
+        1.5       6.15
+        4.0       6.00
+        8.0       5.79
+       11.7       5.89
+       14.3       5.83
+       18.0       5.62
+       23.1       5.64
+       29.4       5.90
+       41.1       5.95
+       48.3       5.59
+       58.4       5.38
+       72.        5.36
+       95.        5.00
+      120.        4.88
+      138.        5.07
+      164.        4.69
+      201.        4.36
+      253.        4.36
+      325.        3.86
+      442.        3.72
+ENDDATA             22
+ENDSUBENT           35
+SUBENT        41401003   20111026   20111215   20111212       4154
+BIB                  3          4
+REACTION   (5-B-0(N,EL)5-B-0,,SIG,,AV) Averaged over resonances
+ERR-ANALYS (DATA-ERR) Errors are not specified, probably
+            statistical.
+STATUS     (TABLE)   Table 1 of R,JINR-P3-89-408,1989 .
+ENDBIB               4
+COMMON               1          3
+DATA-ERR
+B
+       0.27
+ENDCOMMON            3
+DATA                 2         20
+EN         DATA
+KEV        B
+        1.5       4.17
+        4.0       4.36
+        8.0       4.40
+       11.7       4.34
+       14.3       4.26
+       18.0       4.63
+       23.1       4.55
+       29.4       4.42
+       41.1       4.40
+       48.3       4.39
+       58.4       4.31
+       72.        4.13
+       95.        4.28
+      120.        4.08
+      138.        4.07
+      164.        3.95
+      201.        4.07
+      253.        3.78
+      325.        3.67
+      442.        3.52
+ENDDATA             22
+ENDSUBENT           35
+SUBENT        41401004   20111026   20111215   20111212       4154
+BIB                  3          4
+REACTION   (6-C-0(N,EL)6-C-0,,SIG,,AV) Averaged over resonances
+ERR-ANALYS (DATA-ERR) Errors are not specified, probably
+            statistical.
+STATUS     (TABLE)   Table 1 of R,JINR-P3-89-408,1989
+ENDBIB               4
+COMMON               1          3
+DATA-ERR
+B
+        0.1
+ENDCOMMON            3
+DATA                 2         20
+EN         DATA
+KEV        B
+        1.5       4.78
+        4.0       4.76
+        8.0       4.65
+       11.7       4.80
+       14.3       4.68
+       18.0       4.71
+       23.1       4.63
+       29.4       4.69
+       41.1       4.62
+       48.3       4.57
+       58.4       4.52
+       72.        4.50
+       95.        4.38
+      120.        4.45
+      138.        4.33
+      164.        4.25
+      201.        4.14
+      253.        3.88
+      325.        3.78
+      442.        3.58
+ENDDATA             22
+ENDSUBENT           35
+SUBENT        41401005   20111026   20111215   20111212       4154
+BIB                  3          5
+REACTION   (4-BE-9(N,EL)4-BE-9,,DA,,LEG/RS/AV) Averaged over
+                                           resonances
+ERR-ANALYS (DATA-ERR) Errors are not specified, probably
+            statistical.
+STATUS     (TABLE)   Table 1 of R,JINR-P3-89-408,1989.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 4         36
+EN         NUMBER     DATA       DATA-ERR
+KEV        NO-DIM     NO-DIM     NO-DIM
+        1.5         1.      0.204      0.015
+        1.5         2.     -0.009      0.010
+        4.0         1.      0.212      0.005
+        4.0         2.     -0.003      0.011
+        8.0         1.      0.223      0.006
+        8.0         2.      0.018      0.010
+       11.7         1.      0.240      0.009
+       11.7         2.      0.013      0.015
+       14.3         1.      0.222      0.009
+       14.3         2.     -0.007      0.014
+       18.0         1.      0.229      0.011
+       18.0         2.      0.018      0.013
+       23.1         1.      0.220      0.007
+       23.1         2.     -0.016      0.012
+       29.4         1.      0.242      0.010
+       29.4         2.      0.014      0.013
+       41.1         1.      0.229      0.015
+       41.1         2.      0.045      0.024
+       48.3         1.      0.284      0.014
+       48.3         2.      0.080      0.017
+       58.4         1.      0.286      0.010
+       58.4         2.      0.023      0.014
+       72.          1.      0.269      0.008
+       72.          2.      0.024      0.012
+       95.          1.      0.272      0.008
+       95.          2.      0.038      0.014
+      120.          1.      0.304      0.011
+      120.          2.      0.047      0.017
+      138.          1.      0.313      0.012
+      138.          2.      0.042      0.018
+      164.          1.      0.324      0.010
+      164.          2.      0.026      0.023
+      201.          1.      0.322      0.009
+      201.          2.      0.066      0.016
+      253.          1.      0.349      0.009
+      253.          2.      0.057      0.015
+ENDDATA             38
+ENDSUBENT           48
+SUBENT        41401006   20111026   20111215   20111212       4154
+BIB                  3          5
+REACTION   (5-B-0(N,EL)5-B-0,,DA,,LEG/RS/AV) Averaged over
+                                           resonances
+ERR-ANALYS (DATA-ERR) Errors are not specified, probably
+            statistical.
+STATUS     (TABLE)   Table 1 of R,JINR-P3-89-408,1989 .
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 4         36
+EN         NUMBER     DATA       DATA-ERR
+KEV        NO-DIM     NO-DIM     NO-DIM
+        1.5         1.      0.165      0.006
+        1.5         2.      0.028      0.009
+        4.0         1.      0.178      0.006
+        4.0         2.      0.018      0.009
+        8.0         1.      0.183      0.007
+        8.0         2.      0.029      0.010
+       11.7         1.      0.188      0.008
+       11.7         2.      0.039      0.013
+       14.3         1.      0.187      0.008
+       14.3         2.      0.002      0.014
+       18.0         1.      0.181      0.007
+       18.0         2.      0.032      0.011
+       23.1         1.      0.184      0.007
+       23.1         2.      0.022      0.010
+       29.4         1.      0.194      0.008
+       29.4         2.      0.041      0.012
+       41.1         1.      0.171      0.013
+       41.1         2.      0.060      0.022
+       48.3         1.      0.227      0.009
+       48.3         2.      0.075      0.015
+       58.4         1.      0.214      0.008
+       58.4         2.      0.015      0.013
+       72.          1.      0.192      0.007
+       72.          2.      0.014      0.011
+       95.          1.      0.201      0.008
+       95.          2.      0.048      0.012
+      120.          1.      0.226      0.009
+      120.          2.      0.071      0.014
+      138.          1.      0.247      0.008
+      138.          2.      0.035      0.014
+      164.          1.      0.230      0.008
+      164.          2.      0.047      0.013
+      201.          1.      0.237      0.007
+      201.          2.      0.071      0.011
+      253.          1.      0.237      0.007
+      253.          2.      0.068      0.010
+ENDDATA             38
+ENDSUBENT           48
+SUBENT        41401007   20111026   20111215   20111212       4154
+BIB                  3          5
+REACTION   (6-C-0(N,EL)6-C-0,,DA,,LEG/RS/AV) Averaged over
+                                           resonances
+ERR-ANALYS (DATA-ERR) Errors are not specified, probably
+            statistical.
+STATUS     (TABLE)   Table 1 of R,JINR-P3-89-408,1989.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 4         36
+EN         NUMBER     DATA       DATA-ERR
+KEV        NO-DIM     NO-DIM     NO-DIM
+        1.5         1.      0.152      0.009
+        1.5         2.      0.010      0.012
+        4.0         1.      0.158      0.007
+        4.0         2.      0.030      0.018
+        8.0         1.      0.146      0.008
+        8.0         2.      0.021      0.015
+       11.7         1.      0.156      0.019
+       11.7         2.      0.012      0.020
+       14.3         1.      0.191      0.011
+       14.3         2.      0.011      0.019
+       18.0         1.      0.180      0.010
+       18.0         2.      0.015      0.014
+       23.1         1.      0.164      0.009
+       23.1         2.     -0.016      0.014
+       29.4         1.      0.174      0.011
+       29.4         2.      0.013      0.020
+       41.1         1.      0.181      0.018
+       41.1         2.      0.081      0.032
+       48.3         1.      0.212      0.013
+       48.3         2.      0.061      0.031
+       58.4         1.      0.194      0.014
+       58.4         2.      0.018      0.020
+       72.          1.      0.193      0.009
+       72.          2.      0.010      0.020
+       95.          1.      0.225      0.011
+       95.          2.      0.011      0.017
+      120.          1.      0.238      0.013
+      120.          2.      0.060      0.023
+      138.          1.      0.262      0.011
+      138.          2.      0.049      0.023
+      164.          1.      0.238      0.010
+      164.          2.     -0.004      0.020
+      201.          1.      0.255      0.011
+      201.          2.      0.058      0.020
+      253.          1.      0.283      0.009
+      253.          2.      0.065      0.017
+ENDDATA             38
+ENDSUBENT           48
+SUBENT        41401008   20111026   20111215   20111212       4154
+BIB                  5         16
+REACTION  1(4-BE-9(N,EL)4-BE-9,POT,RAD,,,DERIV)
+          2(4-BE-9(N,EL)4-BE-9,POT,RAD,,,DERIV)
+ANALYSIS  1.Data Derived Assuming R=1.35*A**(1/3) Fm
+          2.Data Derived Assuming R=1.80*A**(1/3) Fm
+REL-REF   1(R,,S.F.Mughabghab+,B,NEUT.CS 1A,,1981)
+             R was adopted inthis reference.
+           (N,,G.S.Samosvat,J,FCY,17,(4),713,1986)
+             Method of c-s parametrization.
+           (N,,L.V.Mitsyna+,J,ZEP,49,(5),248,1989)
+            Method of taking into account contribution of two
+            370 keV B-10 s- and 430 keV B-11 p- resonances.
+ERR-ANALYS (DATA-ERR) Errors are not specified, probably
+            statistical.
+STATUS     (TABLE)   Table 2 of R,JINR-P3-89-408,1989.
+           (DEP,41401002)
+           (DEP,41401005)
+ENDBIB              16
+COMMON               2          3
+EN-MIN     EN-MAX
+KEV        KEV
+  1.5        442.
+ENDCOMMON            3
+DATA                 5          2
+MOMENTUM L DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+NO-DIM     FERMI      FERMI      FERMI      FERMI
+         0.       6.85       0.09       6.86       0.09
+         1.       6.75       0.33       3.81       0.19
+ENDDATA              4
+ENDSUBENT           29
+SUBENT        41401009   20111026   20111215   20111212       4154
+BIB                  5         16
+REACTION  1(5-B-0(N,EL)5-B-0,POT,RAD,,,DERIV)
+          2(5-B-0(N,EL)5-B-0,POT,RAD,,,DERIV)
+ANALYSIS  1.Data Derived Assuming R=1.35*A**(1/3) Fm
+          2.Data Derived Assuming R=1.80*A**(1/3) Fm
+REL-REF   1(R,,S.F.Mughabghab+,B,NEUT.CS 1A,,1981)
+             R was adopted inthis reference.
+           (N,,G.S.Samosvat,J,FCY,17,(4),713,1986)
+             Method of c-s parametrization.
+           (N,,L.V.Mitsyna+,J,ZEP,49,(5),248,1989)
+            Method of taking into account contribution of two
+            370 keV B-10 s- and 430 keV B-11 p- resonances.
+ERR-ANALYS (DATA-ERR) Errors are not specified, probably
+            statistical.
+STATUS     (TABLE)   Table 2 of R,JINR-P3-89-408,1989.
+           (DEP,41401003)
+           (DEP,41401006)
+ENDBIB              16
+COMMON               2          3
+EN-MIN     EN-MAX
+KEV        KEV
+  1.5        442.
+ENDCOMMON            3
+DATA                 5          2
+MOMENTUM L DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+NO-DIM     FERMI      FERMI      FERMI      FERMI
+         0.       5.95       0.10       5.95       0.10
+         1.       5.38       0.28       3.10       0.16
+ENDDATA              4
+ENDSUBENT           29
+SUBENT        41401010   20111026   20111215   20111212       4154
+BIB                  5         16
+REACTION  1(6-C-0(N,EL)6-C-0,POT,RAD,,,DERIV)
+          2(6-C-0(N,EL)6-C-0,POT,RAD,,,DERIV)
+ANALYSIS  1.Data Derived Assuming R=1.35*A**(1/3)
+          2.Data Derived Assuming R=1.80*A**(1/3)
+REL-REF   1(R,,S.F.Mughabghab+,B,NEUT.CS 1A,,1981)
+             R was adopted inthis reference.
+           (N,,G.S.Samosvat,J,FCY,17,(4),713,1986)
+             Method of c-s parametrization.
+           (N,,L.V.Mitsyna+,J,ZEP,49,(5),248,1989)
+            Method of taking into account contribution of two
+            370 keV B-10 s- and 430 keV B-11 p- resonances.
+ERR-ANALYS (DATA-ERR) Errors are not specified, probably
+            statistical.
+STATUS     (TABLE)   Table 2 of R,JINR-P3-89-408,1989.
+           (DEP,41401004)
+           (DEP,41401007)
+ENDBIB              16
+COMMON               2          3
+EN-MIN     EN-MAX
+KEV        KEV
+  1.5        442.
+ENDCOMMON            3
+DATA                 5          2
+MOMENTUM L DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+NO-DIM     FERMI      FERMI      FERMI      FERMI
+         0.       6.15       0.02       6.15       0.02
+         1.       4.38       0.24       2.44       0.14
+ENDDATA              4
+ENDSUBENT           29
+SUBENT        41401011   20111026   20111215   20111212       4154
+BIB                  3          8
+REACTION  1(4-BE-9(N,EL),,WID/RED,,,DERIV)
+          2(4-BE-9(N,EL),,WID/RED,,,DERIV)
+             Upper limits of reduced neutron wide for negative
+             resonances.
+ANALYSIS  1.Data Derived Assuming R=1.35*A**(1/3) Fm
+          2.Data Derived Assuming R=1.80*A**(1/3) Fm
+STATUS     (TABLE)   Table 3 of R,JINR-P3-89-408,1989.
+           (DEP,41401008) Scattering radius used in analysis.
+ENDBIB               8
+COMMON               1          3
+MOMENTUM L
+NO-DIM
+ 1.
+ENDCOMMON            3
+DATA                 3          2
+EN-RES     DATA-MAX  1DATA-MAX  2
+KEV        KEV        KEV
+ -703.      7.5         4.6
+ -949.      2.0         1.2
+ENDDATA              4
+ENDSUBENT           21
+ENDENTRY            11

@@ -1,0 +1,1360 @@
+ENTRY            C2079   20140107   20140422   20140415       C138
+SUBENT        C2079001   20140107   20140422   20140415       C138
+BIB                  8          9
+TITLE      Nuclear Structure of 16N
+AUTHOR     (P.V.Hewka, C.H.Holbrow, R.Middleton)
+REFERENCE  (J,NP,88,(3),561,1966)
+           #doi:10.1016/0029-5582(66)90415-9
+INSTITUTE  (1USAPEN)
+PART-DET   (P,A)
+DETECTOR   (TRD,PLATE)
+ERR-ANALYS (DATA-ERR) No details are given.
+HISTORY    (20140107C) BP
+ENDBIB               9
+NOCOMMON             0          0
+ENDSUBENT           12
+SUBENT        C2079002   20140107   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-15(D,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,1USAPEN)
+STATUS     (CURVE) Fig.3, page 565.
+SAMPLE     (7-N-15,ENR=0.994) Nitrogen gas target in a thin-
+           window gas cell.
+METHOD     (MASSP) The target was nitrogen gas enriched to 99.4%
+           in 15N, contained in a thin-window rotating gas cell.
+           The reaction protons were analysed in a 65 cm radius
+           broad-range magnetic spectrograph, and recorded in
+           Ilford K2 nuclear emulsions 50 microm thick.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       0.0
+ENDCOMMON            3
+DATA                 3         10
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      3.965     15.157      0.292
+      9.777     16.203      0.333
+     14.975     16.624      0.333
+     20.835     14.877      0.333
+     25.881     12.003      0.250
+     30.925      9.213      0.250
+     42.049      4.009
+     52.710      1.557
+     63.549      0.856
+     73.542      0.904
+ENDDATA             12
+ENDSUBENT           31
+SUBENT        C2079003   20140107   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-15(D,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,1USAPEN)
+STATUS     (CURVE) Fig.3, page 565.
+SAMPLE     (7-N-15,ENR=0.994) Nitrogen gas target in a thin-
+           window gas cell.
+METHOD     (MASSP) The target was nitrogen gas enriched to 99.4%
+           in 15N, contained in a thin-window rotating gas cell.
+           The reaction protons were analysed in a 65 cm radius
+           broad-range magnetic spectrograph, and recorded in
+           Ilford K2 nuclear emulsions 50 microm thick.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       0.120
+ENDCOMMON            3
+DATA                 3         10
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      3.967     22.497      0.209
+      9.673     15.246      0.261
+     15.180      6.898
+     20.238      1.891      0.157
+     25.882      1.163      0.157
+     31.309      1.480      0.157
+     42.377      1.329
+     52.619      0.344
+     63.687      0.194
+     73.916      0.513
+ENDDATA             12
+ENDSUBENT           31
+SUBENT        C2079004   20140107   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-15(D,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,1USAPEN)
+STATUS     (CURVE) Fig.3, page 565.
+SAMPLE     (7-N-15,ENR=0.994) Nitrogen gas target in a thin-
+           window gas cell.
+METHOD     (MASSP) The target was nitrogen gas enriched to 99.4%
+           in 15N, contained in a thin-window rotating gas cell.
+           The reaction protons were analysed in a 65 cm radius
+           broad-range magnetic spectrograph, and recorded in
+           Ilford K2 nuclear emulsions 50 microm thick.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       0.300
+ENDCOMMON            3
+DATA                 3         10
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      4.375     21.711      0.365
+      9.792     23.747      0.365
+     15.625     24.530      0.418
+     20.625     21.346      0.313
+     25.833     17.536      0.418
+     31.250     12.630      0.261
+     41.875      6.054
+     52.708      2.766
+     63.542      2.296
+     73.958      2.088
+ENDDATA             12
+ENDSUBENT           31
+SUBENT        C2079005   20140107   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-15(D,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,1USAPEN)
+STATUS     (CURVE) Fig.3, page 565.
+SAMPLE     (7-N-15,ENR=0.994) Nitrogen gas target in a thin-
+           window gas cell.
+METHOD     (MASSP) The target was nitrogen gas enriched to 99.4%
+           in 15N, contained in a thin-window rotating gas cell.
+           The reaction protons were analysed in a 65 cm radius
+           broad-range magnetic spectrograph, and recorded in
+           Ilford K2 nuclear emulsions 50 microm thick.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       0.399
+ENDCOMMON            3
+DATA                 3         10
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      4.167     62.756      0.752
+      9.583     42.213      0.626
+     14.792     18.539
+     20.208      5.887      0.376
+     25.208      3.633
+     30.625      4.760
+     41.667      4.259
+     52.708      1.253
+     63.125      0.501
+     73.333      1.002
+ENDDATA             12
+ENDSUBENT           31
+SUBENT        C2079006   20140107   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.5, page 568.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       0.0
+ENDCOMMON            3
+DATA                 3         24
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      6.684      9.988      0.695
+     14.815      9.254      0.440
+     23.340      9.435      0.330
+     31.101      8.737      0.366
+     38.882      8.808      0.293
+     47.364      7.305      0.293
+     55.087      5.144      0.220
+     62.443      3.092      0.183
+     70.569      2.174      0.183
+     78.354      2.429      0.147
+     85.761      2.353      0.220
+     93.537      2.205      0.183
+     97.977      1.984      0.220
+    105.760      2.129      0.147
+    112.800      2.200      0.220
+    120.596      2.857      0.183
+    127.253      2.416      0.220
+    134.664      2.488      0.256
+    141.336      2.669      0.220
+    148.362      2.155      0.183
+    155.026      2.006      0.220
+    162.064      2.005      0.183
+    168.737      2.186      0.183
+    175.399      1.965      0.183
+ENDDATA             26
+ENDSUBENT           45
+SUBENT        C2079007   20140107   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.5, page 568.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       0.120
+ENDCOMMON            3
+DATA                 3         24
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      5.938      3.450      0.367
+     13.732      5.523      0.367
+     22.639      5.761      0.312
+     30.433      3.743      0.202
+     38.598      1.505      0.147
+     46.021      1.174      0.147
+     54.186      1.376      0.128
+     62.351      1.358      0.165
+     70.144      0.826      0.128
+     77.567      0.862      0.110
+     85.361      0.789      0.128
+     93.155      0.495      0.110
+     97.979      0.330      0.110
+    105.402      0.385      0.092
+    112.825      0.495      0.092
+    119.876      0.569      0.092
+    126.928      0.550      0.110
+    134.351      0.532      0.092
+    141.031      0.587      0.110
+    148.082      0.312      0.110
+    154.763      0.495      0.110
+    161.814      0.422      0.092
+    168.124      0.954      0.110
+    175.175      0.697      0.110
+ENDDATA             26
+ENDSUBENT           45
+SUBENT        C2079008   20140107   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.5, page 568.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       0.300
+ENDCOMMON            3
+DATA                 3         23
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      5.717      5.334      0.444
+     13.530      4.872      0.333
+     21.701      4.724      0.278
+     37.693      3.930      0.518
+     46.238      3.708      0.204
+     54.424      3.191      0.204
+     61.832      3.543      0.204
+     70.012      3.192      0.167
+     77.812      3.027      0.204
+     84.871      2.842      0.167
+     93.029      3.028      0.185
+     97.866      2.714      0.148
+    104.928      2.474      0.167
+    112.349      2.512      0.167
+    119.762      2.753      0.167
+    126.818      2.643      0.185
+    133.491      2.810      0.185
+    140.912      2.866      0.204
+    147.604      2.571      0.185
+    155.040      2.257      0.148
+    161.356      2.091      0.167
+    168.418      1.851      0.167
+    175.089      2.074      0.148
+ENDDATA             25
+ENDSUBENT           44
+SUBENT        C2079009   20140107   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.5, page 568.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       0.399
+ENDCOMMON            3
+DATA                 3         23
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      6.256      8.670      0.589
+     14.022      8.105      0.472
+     22.481      6.892      0.265
+     30.081      4.204      0.206
+     37.759      2.518      0.206
+     45.966      2.839      0.177
+     61.911      2.241      0.148
+     70.030      1.441      0.177
+     77.826      1.260      0.177
+     85.617      1.020      0.177
+     93.057      1.046      0.177
+     97.891      1.043      0.207
+    105.325      0.981      0.147
+    112.416      1.302      0.177
+    119.872      1.534      0.147
+    126.929      1.413      0.177
+    133.990      1.350      0.177
+    141.416      1.199      0.177
+    148.078      0.783      0.177
+    154.785      0.956      0.206
+    161.856      1.012      0.177
+    168.589      1.510      0.147
+    175.673      1.743      0.148
+ENDDATA             25
+ENDSUBENT           44
+SUBENT        C2079010   20140107   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.6, page 569.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       3.359
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      4.769     56.583      1.270
+     13.593     31.819      1.270
+     21.558     14.172      0.891
+     30.140     10.128
+     38.423      9.516
+     46.462      7.632
+     54.787      3.461
+     62.823      1.831
+     70.582      1.853
+     78.575      3.909
+     85.821      3.548
+ENDDATA             13
+ENDSUBENT           32
+SUBENT        C2079011   20140107   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.6, page 569.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       3.519
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      5.424     18.220      0.863
+     13.911     16.693      0.558
+     22.127     14.201      0.457
+     30.333     11.049      0.558
+     38.532      7.339      0.356
+     46.482      4.289
+     54.721      3.421
+     62.977      3.670
+     70.443      2.854
+     78.172      2.342
+     85.904      1.982
+ENDDATA             13
+ENDSUBENT           32
+SUBENT        C2079012   20140107   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.6, page 569.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       3.957
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      5.291      4.090      0.385
+     13.534      4.493      0.182
+     21.548      5.646      0.243
+     30.033      5.644      0.243
+     38.502      5.176      0.223
+     46.442      4.303      0.243
+     54.658      3.957      0.182
+     62.853      3.024      0.162
+     70.551      2.597      0.182
+     78.244      1.987      0.142
+     85.716      2.411      0.142
+ENDDATA             13
+ENDSUBENT           32
+SUBENT        C2079013   20140107   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.6, page 569.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       4.318
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      5.431     47.975      1.392
+     13.707     29.747      0.886
+     22.500     16.076      1.013
+     30.517     11.013
+     39.052      7.975
+     46.810      5.570
+     54.828      2.658
+     62.845      1.646
+     71.121      2.405
+     79.138      3.418
+     86.638      3.671
+ENDDATA             13
+ENDSUBENT           32
+SUBENT        C2079014   20140107   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.6, page 569.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       4.725
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      5.140     18.285      1.721
+     13.433     16.876      1.772
+     22.098     11.569      1.215
+     30.444      8.338      0.810
+     39.010      6.424      0.709
+     47.068      4.256      0.506
+     54.808      4.112      0.506
+     63.044      4.679      0.506
+     70.807      3.776      0.455
+     79.078      3.127      0.355
+     86.578      2.376      0.304
+ENDDATA             13
+ENDSUBENT           32
+SUBENT        C2079015   20140107   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.6, page 569.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       4.774
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      5.158      9.545      0.657
+     13.926     14.798      0.556
+     22.178     15.404      0.556
+     30.172     12.879      0.505
+     38.682      7.727      0.303
+     46.676      3.788      0.303
+     54.928      1.768
+     62.923      1.970
+     70.401      1.970
+     78.395      1.768
+     86.132      1.616
+ENDDATA             13
+ENDSUBENT           32
+SUBENT        C2079016   20140107   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.7, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       4.391
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      5.183      2.728      0.756
+     13.194      1.917      0.479
+     21.675      1.714      0.406
+     30.157      0.829      0.258
+     38.168      0.719      0.203
+     46.649      0.516      0.147
+     54.188      0.461      0.147
+     62.670      0.553      0.166
+     70.681      0.406      0.147
+     78.220      0.608      0.147
+     86.230      0.313      0.129
+ENDDATA             13
+ENDSUBENT           32
+SUBENT        C2079017   20140107   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.7, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       5.053
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      3.752      1.890      0.221
+     12.804      1.697      0.157
+     21.348      1.634      0.129
+     29.440      1.487      0.120
+     37.565      1.220      0.092
+     46.185      0.871      0.092
+     54.293      0.669      0.074
+     62.318      0.771      0.083
+     70.405      0.643      0.065
+     78.465      0.616      0.065
+     86.525      0.590      0.065
+ENDDATA             13
+ENDSUBENT           32
+SUBENT        C2079018   20140107   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.7, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       5.150
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      5.625      5.908      0.367
+     13.594      7.633      0.404
+     22.031      6.789      0.294
+     30.000      6.679      0.220
+     38.906      6.642      0.183
+     46.875      6.018      0.294
+     54.844      5.027      0.220
+     62.344      4.770      0.257
+     69.844      4.110      0.183
+     78.750      3.780      0.220
+     87.188      3.156
+ENDDATA             13
+ENDSUBENT           32
+SUBENT        C2079019   20140115   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.7, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       5.226
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      4.698     51.141      0.923
+     13.602     50.891      1.151
+     21.444     37.509      1.152
+     30.815     37.027      1.380
+     38.651     22.954
+     46.535     13.950
+     54.454      8.632
+     62.426      9.075
+     70.392      8.827
+     78.354      8.117
+     86.309      6.717
+ENDDATA             13
+ENDSUBENT           32
+SUBENT        C2079020   20140115   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.7, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       5.305
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      5.654     23.182      1.932
+     14.136     25.114      2.386
+     22.618     22.841      2.500
+     30.157     16.023      1.705
+     39.110     11.932      1.364
+     47.592      7.727      0.909
+     55.602      5.568      0.682
+     63.141      6.818      0.795
+     71.152      5.227      0.682
+     79.162      4.091
+     87.644      2.386
+ENDDATA             13
+ENDSUBENT           32
+SUBENT        C2079021   20140115   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.7, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       5.520
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      4.712      2.429      0.256
+     13.665      2.283      0.237
+     21.675      1.370      0.164
+     29.215      1.114      0.110
+     38.639      0.822      0.091
+     46.178      0.548      0.110
+     53.717      0.566      0.091
+     63.141      0.658      0.091
+     70.209      0.530      0.091
+     77.749      0.511
+     86.702      0.566
+ENDDATA             13
+ENDSUBENT           32
+SUBENT        C2079022   20140115   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.7, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       5.730
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      5.625      4.367      0.404
+     14.062      4.587      0.294
+     22.969      4.514      0.257
+     30.000      4.954      0.257
+     38.437      5.064      0.220
+     46.875      5.248      0.220
+     55.312      4.991      0.183
+     63.750      4.661      0.183
+     70.781      4.000      0.147
+     78.750      3.339      0.147
+     87.188      3.303      0.147
+ENDDATA             13
+ENDSUBENT           32
+SUBENT        C2079023   20140115   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.7, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       6.009
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      5.130     17.248      1.651
+     13.523     16.697      1.651
+     21.451     10.642      1.101
+     30.777      7.064      0.734
+     38.238      4.404      0.642
+     47.098      4.037      0.550
+     55.492      1.743      0.367
+     64.352      1.468      0.550
+     71.813      0.917      0.459
+     79.275      1.560      0.459
+     86.736      1.193      0.550
+ENDDATA             13
+ENDSUBENT           32
+SUBENT        C2079024   20140115   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.7, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       6.167
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      5.146      7.228      0.405
+     13.090      7.600      0.406
+     22.011      7.383      0.258
+     30.954      6.833      0.295
+     39.003      5.620      0.221
+     46.949      5.955      0.258
+     55.514      4.041      0.258
+     63.109      2.607      0.221
+     71.587      1.983      0.184
+     79.571      1.766      0.184
+     87.564      1.400      0.221
+ENDDATA             13
+ENDSUBENT           32
+SUBENT        C2079025   20140115   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.7, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       6.371
+ENDCOMMON            3
+DATA                 3          9
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+     21.675      0.866      0.166
+     30.628      0.747      0.129
+     38.639      1.051      0.175
+     46.649      0.820      0.147
+     55.131      0.710      0.129
+     62.670      0.304      0.101
+     71.152      0.249      0.120
+     79.162      0.276      0.129
+     86.702      0.332      0.147
+ENDDATA             11
+ENDSUBENT           30
+SUBENT        C2079026   20140115   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.7, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       6.422
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      6.154     26.605      2.648
+     14.357     17.493      1.842
+     22.110      9.188      1.153
+     30.994     10.329      1.267
+     38.834      6.172      0.692
+     47.211      5.354      0.691
+     55.107      3.847      0.692
+     63.056      4.873      0.692
+     70.983      4.863      0.692
+     78.893      4.046      0.806
+     86.801      3.115      0.577
+ENDDATA             13
+ENDSUBENT           32
+SUBENT        C2079027   20140115   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.7, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       6.512
+ENDCOMMON            3
+DATA                 3          9
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      4.219     11.863      0.550
+     12.656      8.336      0.366
+     22.031      3.847      0.366
+     30.469      3.298      0.321
+     38.438      3.343      0.229
+     47.344      2.977      0.275
+     70.781      0.824
+     79.688      0.779
+     86.719      0.779
+ENDDATA             11
+ENDSUBENT           30
+SUBENT        C2079028   20140115   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.8, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       6.613
+ENDCOMMON            3
+DATA                 3         10
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      5.268     14.138      0.517
+     13.610     12.845      0.431
+     22.390     12.241      0.431
+     30.732     11.983
+     39.512     11.552
+     47.415     10.000
+     54.878      8.534
+     63.220      6.552
+     71.122      4.569
+     86.488      3.793
+ENDDATA             12
+ENDSUBENT           31
+SUBENT        C2079029   20140115   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.8, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       6.854
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      5.320      4.103      0.309
+     13.300      4.103      0.240
+     21.724      3.725      0.206
+     30.591      3.502      0.155
+     39.015      2.369      0.137
+     47.438      2.335      0.137
+     55.419      1.562      0.137
+     63.399      1.528      0.120
+     70.936      1.253      0.120
+     79.360      1.322      0.103
+     86.897      1.305      0.086
+ENDDATA             13
+ENDSUBENT           32
+SUBENT        C2079030   20140115   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.8, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       7.006
+ENDCOMMON            3
+DATA                 3          9
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      4.829      7.845      0.905
+     13.610      5.302      0.517
+     21.951      2.155      0.302
+     30.293      1.810      0.259
+     38.195      1.638
+     46.537      0.647
+     72.000      0.517
+     79.024      0.345
+     86.488      0.302
+ENDDATA             11
+ENDSUBENT           30
+SUBENT        C2079031   20140115   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.8, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       7.133
+ENDCOMMON            3
+DATA                 3          7
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      5.268      2.524      0.240
+     14.049      2.266      0.240
+     22.390      2.077      0.155
+     30.732      1.991      0.155
+     39.073      1.494      0.137
+     63.659      0.704      0.120
+     71.561      0.687      0.103
+ENDDATA              9
+ENDSUBENT           28
+SUBENT        C2079032   20140115   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.8, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       7.250
+ENDCOMMON            3
+DATA                 3          8
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      6.117      6.266      0.815
+     14.417      9.056      0.515
+     23.592      7.639      0.386
+     48.495      4.464      0.215
+     56.796      4.034      0.343
+     64.660      3.133      0.343
+     72.524      2.918      0.644
+     87.816      2.060
+ENDDATA             10
+ENDSUBENT           29
+SUBENT        C2079033   20140115   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.8, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       7.573
+ENDCOMMON            3
+DATA                 3          9
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      4.805     20.262      0.859
+     22.149     18.133      0.429
+     30.623     16.167
+     39.099     14.115
+     47.560     12.664
+     56.040     10.440
+     64.085      7.872
+     72.548      6.335
+     80.972      6.343
+ENDDATA             11
+ENDSUBENT           30
+SUBENT        C2079034   20140115   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.8, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       7.640
+ENDCOMMON            3
+DATA                 3          8
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+     30.934      3.771      0.207
+     39.299      3.395      0.207
+     47.242      2.742      0.242
+     55.579      2.815      0.207
+     63.479      2.852      0.172
+     70.960      2.579      0.172
+     79.776      1.996      0.173
+     86.768      2.516      0.172
+ENDDATA             10
+ENDSUBENT           29
+SUBENT        C2079035   20140115   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.8, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       7.675
+ENDCOMMON            3
+DATA                 3          8
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      5.245      3.332      0.325
+     22.201      2.013      0.188
+     48.099      1.974      0.119
+     55.933      1.425      0.137
+     63.865      1.663      0.137
+     71.337      1.730      0.103
+     79.650      1.506      0.102
+     87.584      1.761      0.103
+ENDDATA             10
+ENDSUBENT           29
+SUBENT        C2079036   20140115   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.8, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       7.876
+ENDCOMMON            3
+DATA                 3         10
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      6.223     12.320      1.049
+     22.812      9.541      0.873
+     30.730      5.706      0.698
+     39.844      6.414      0.612
+     48.602      3.802      0.698
+     55.985      4.159      0.699
+     64.254      3.817      0.610
+     72.090      3.388      0.611
+     79.954      1.824      0.611
+     87.337      2.180      0.611
+ENDDATA             12
+ENDSUBENT           31
+SUBENT        C2079037   20140115   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.8, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       8.043
+ENDCOMMON            3
+DATA                 3          9
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      5.722      4.847      0.478
+     31.605      3.189      0.326
+     39.488      2.535      0.261
+     47.840      2.185      0.283
+     56.638      1.901      0.217
+     64.069      1.117      0.174
+     72.021      1.245      0.195
+     79.527      1.309      0.174
+     87.856      0.699      0.152
+ENDDATA             11
+ENDSUBENT           30
+SUBENT        C2079038   20140115   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.8, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       8.783
+ENDCOMMON            3
+DATA                 3         10
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      6.528      9.088      0.866
+     14.411     10.253      0.692
+     32.049      6.392      0.519
+     39.772      4.267      0.390
+     47.502      2.272      0.390
+     56.174      1.791      0.303
+     64.004      1.874      0.260
+     72.244      1.437      0.303
+     79.616      1.044      0.260
+     87.456      1.343      0.217
+ENDDATA             12
+ENDSUBENT           31
+SUBENT        C2079039   20140115   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.8, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       8.280
+ENDCOMMON            3
+DATA                 3         10
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      5.680      3.000      0.400
+     13.981      3.314      0.343
+     30.583      1.057      0.171
+     39.757      0.571      0.171
+     47.621      0.686      0.200
+     56.359      0.514      0.171
+     64.223      0.629      0.171
+     72.087      0.857      0.200
+     79.951      0.571      0.143
+     87.379      0.514      0.143
+ENDDATA             12
+ENDSUBENT           31
+SUBENT        C2079040   20140115   20140422   20140415       C138
+BIB                  5         10
+REACTION   (7-N-14(T,P)7-N-16,PAR,DA,,REL)
+FACILITY   (VDGT,2UK ALD)
+STATUS     (CURVE) Fig.8, page 571.
+SAMPLE     An adenin (C5H5N5) solid target on a thin carbon
+           backing.
+METHOD     (MASSP) The reaction protons were analysed in a multi-
+           angle, broad-range magnetic spectrograph and recorded
+           in Ilford K2 nuclear emulsion plates at 24 angles.
+           Plate scanning and data analysis were performed at
+           the University of Pennsylvania.
+ENDBIB              10
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+12.0       8.361
+ENDCOMMON            3
+DATA                 3         10
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      6.246      1.448      0.213
+     14.502      1.213      0.159
+     31.453      0.742      0.106
+     40.561      0.436      0.124
+     48.520      0.591      0.124
+     56.911      0.727      0.106
+     65.180      0.528      0.106
+     73.017      0.346      0.089
+     80.956      0.448      0.106
+     88.482      0.620      0.106
+ENDDATA             12
+ENDSUBENT           31
+ENDENTRY            40

@@ -1,0 +1,137 @@
+ENTRY            F1351   20180702   20181008   20180927       F068
+SUBENT        F1351001   20180702   20181008   20180927       F068
+BIB                  9         16
+TITLE      Study of deuteron inelastic scattering on the Li-7,
+           F-19, Na-23, Mg-24, Al-27 nuclei.
+AUTHOR     (E.A.Romanovskiy,G.F.Timushev)
+REFERENCE  (C,57MOSCOW,,234,1957)
+INSTITUTE  (4RUSMOS)
+FACILITY   (CYCLO,4RUSMOS)
+DETECTOR   (IOCH) Flat pulsed ionization chamber was used.
+           180 degr. magnetic analyzer with double focusing was
+           used to select groups of scattered deuterons.
+SAMPLE     Targets were prepared by vacuum evaporation of LiF,
+           CaF2, PbF2, NaCl and metallic Mg on a backing of leaf
+           gold (0.24 mg/cm2 thickness).
+ERR-ANALYS (DATA-ERR,10.,20.) Error in differential cross section
+           determination was mainly due to the uncertainty in peak
+           area calculation.
+HISTORY    (20180702C)
+ENDBIB              16
+COMMON               2          3
+EN-ERR     ANG-ERR
+KEV        ADEG
+         3.        0.2
+ENDCOMMON            3
+ENDSUBENT           23
+SUBENT        F1351002   20180702   20181008   20180927       F068
+BIB                  2          2
+REACTION   (3-LI-7(D,INL)3-LI-7,PAR,DA)
+STATUS     (TABLE) Table 1, page 239
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 5          1
+EN         E-LVL      E-LVL-ERR  ANG-CM     DATA-CM
+MEV        MEV        MEV        ADEG       MB/SR
+       4.54      0.476      0.010     107.75        35.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        F1351003   20180702   20181008   20180927       F068
+BIB                  2          2
+REACTION   (9-F-19(D,INL)9-F-19,PAR,DA)
+STATUS     (TABLE) Table 1, page 239
+ENDBIB               2
+COMMON               3          3
+EN         E-LVL-ERR  ANG-CM
+MEV        MEV        ADEG
+       4.49      0.010      97.15
+ENDCOMMON            3
+DATA                 2          4
+E-LVL      DATA-CM
+MEV        MB/SR
+      0.197        16.
+      1.355         2.
+      1.426         2.
+      1.558         8.
+ENDDATA              6
+ENDSUBENT           17
+SUBENT        F1351004   20180702   20181008   20180927       F068
+BIB                  2          2
+REACTION   (11-NA-23(D,INL)11-NA-23,PAR,DA)
+STATUS     (TABLE) Table 1, page 239
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 5          1
+EN         E-LVL      E-LVL-ERR  ANG-CM     DATA-CM
+MEV        MEV        MEV        ADEG       MB/SR
+       4.44      0.439      0.010      96.08         9.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        F1351005   20180702   20181008   20180927       F068
+BIB                  2          2
+REACTION   (12-MG-24(D,INL)12-MG-24,PAR,DA)
+STATUS     (TABLE) Table 1, page 239
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 5          1
+EN         E-LVL      E-LVL-ERR  ANG-CM     DATA-CM
+MEV        MEV        MEV        ADEG       MB/SR
+       4.48      1.370      0.010     107.88         7.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        F1351006   20180702   20181008   20180927       F068
+BIB                  3          3
+REACTION   (13-AL-27(D,INL)13-AL-27,PAR,DA)
+SAMPLE     Thin aluminium foil of 0.25 mg/cm2 thikness was used.
+STATUS     (TABLE) Table 1, page 239
+ENDBIB               3
+COMMON               3          3
+EN         E-LVL-ERR  ANG-CM
+MEV        MEV        ADEG
+       4.47      0.010      95.35
+ENDCOMMON            3
+DATA                 2          2
+E-LVL      DATA-CM
+MEV        MB/SR
+      1.840        1.5
+      1.013        2.5
+ENDDATA              4
+ENDSUBENT           16
+SUBENT        F1351007   20180702   20181008   20180927       F068
+BIB                  2          2
+REACTION   (12-MG-24(D,INL)12-MG-24,PAR,SIG)
+STATUS     (TABLE) Table 4, page 242
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 5          1
+EN         E-LVL      E-LVL-ERR  DATA-MIN   DATA-MAX
+MEV        MEV        MEV        MB         MB
+        4.5      1.370      0.010        20.        40.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        F1351008   20180702   20181008   20180927       F068
+BIB                  2          2
+REACTION   (12-MG-24(D,INL)12-MG-24,PAR,SIG)
+STATUS     (TABLE) Table 4, page 242
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 5          1
+EN         E-LVL      E-LVL-ERR  DATA-MIN   DATA-MAX
+MEV        MEV        MEV        MB         MB
+        4.5      1.370      0.010        20.        40.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        F1351009   20180702   20181008   20180927       F068
+BIB                  3          3
+REACTION   (13-AL-27(D,P)13-AL-28,,DA)
+DETECTOR   (PLATE)
+STATUS     (TABLE) Table 5, page 239
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         ANG        DATA
+MEV        ADEG       MB/SR
+         4.        91.        35.
+ENDDATA              3
+ENDSUBENT           11
+ENDENTRY             9

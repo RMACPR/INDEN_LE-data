@@ -1,0 +1,93 @@
+ENTRY            F1078   20110212   20120207   20120113       F043
+SUBENT        F1078001   20110212   20120207   20120113       F043
+BIB                 12         31
+TITLE      The C-13(d,g0)N-15 reaction around Eexc=17.7 MeV.
+AUTHOR     (W.Del Bianco,N.Marquardt,K.Farzine,H.V.Buttlar)
+INSTITUTE  (2GERBOC,1CANMON)
+REFERENCE  (J,CJP,56,3,1978)
+FACILITY   (DYNAM,2GERBOC) Dynamitron Tandem accelerator.
+SAMPLE     The 13C target had a thickness of approximately 500
+           mu-g/cm**2 and  was prepared by cracking 90% enriched
+           acetylene on a tantalum  disc. The energy loss in the
+           target amounted to 160 and 65 keV at the deuteron
+           energies Ed=1.2 and 4.2 MeV, respectively.
+DETECTOR   (NAICR) A 25.4 cm long and 25.4 cm diameter NaI(Tl)
+           crystal spectrometer was  used. Its axis formed a 95
+           degree angle with the deuteron beam. The NaI  crystal
+           was collimated and surrounded by a 10 cm thick lead
+           shield and a 40  cm paraffin layer to minimize
+           back-ground radiation.
+METHOD     (GSPEC)
+MONITOR    (6-C-13(D,G)7-N-15,PAR,DA) The gamma-ray yield was
+           normalized to the differential cross section of
+           Del Bianco et al. in the deuteron energy range Ed=2.9
+           to 4.2 MeV. The normalization factor was then used to
+           determine the absolute yield below Ed=2.9 Mev.
+MONIT-REF  (F1071002,W.Del Bianco+,J,NP/A,270,45,1976)
+ERR-ANALYS (ERR-1) The error due to the normalization procedure
+           (ERR-2) Absolute error in the yield curve of
+           Del Bianco et al. which is mainly to be attributed to
+           the calibration of the gamma ray spectrometer.
+           (DATA-ERR) Statistical error and the error resulting
+           from the procedure used to unfold the gamma ray
+           spectrum by a least-squares-fit method.
+HISTORY    (20110212C)
+ENDBIB              31
+COMMON               4          3
+ANG        ERR-1      +ERR-2     -ERR-2
+ADEG       PER-CENT   PER-CENT   PER-CENT
+ 90.        18.        36.        26.
+ENDCOMMON            3
+ENDSUBENT           38
+SUBENT        F1078002   20100901   20120207   20120113       F043
+BIB                  2          2
+REACTION   (6-C-13(D,G)7-N-15,PAR,DA)
+STATUS     (CURVE) Fig. 1
+ENDBIB               2
+COMMON               3          3
+EN-ERR-DIG ERR-DIG    E-LVL
+MEV        MU-B/SR    MEV
+ 0.0006     0.0053     0.
+ENDCOMMON            3
+DATA                 3         24
+EN         DATA       DATA-ERR
+MEV        MU-B/SR    MU-B/SR
+     1.0833    0.51674    0.14516
+     1.1963     1.7749    0.21774
+     1.2976     1.9202    0.20565
+     1.4048     2.4768    0.24189
+      1.512     2.8882    0.27823
+     1.6073     3.5537     0.3752
+     1.7205       3.82      0.375
+     1.8278     3.8443     0.3871
+     1.9235     3.1186    0.32662
+     2.0251     2.5744    0.26613
+     2.1207     1.9334    0.20565
+     2.2162     1.6432    0.14517
+     2.3355     1.7038    0.18134
+     2.5263     1.8613    0.21761
+     2.7292     1.3051    0.16935
+      2.938     1.3054    0.16938
+     3.1349      0.979    0.16952
+     3.2362     1.2332    0.15726
+     3.3376     1.2817    0.18145
+     3.5405    0.82226    0.20565
+     3.6537      1.149    0.22984
+     3.7552    0.72575    0.16935
+     3.9521    0.66552    0.14516
+     4.1549      0.569    0.16962
+ENDDATA             26
+ENDSUBENT           37
+SUBENT        F1078003   20100901   20120207   20120113       F043
+BIB                  2          2
+REACTION   (6-C-13(D,G),PAR,WID)
+STATUS     (TABLE) Text, p. 4
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+E-LVL      EN-RES     EN-RES-ERR DATA
+MEV        MEV        MEV        MEV
+         0.       1.74       0.04       0.70
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY             3

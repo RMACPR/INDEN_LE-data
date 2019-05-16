@@ -1,0 +1,684 @@
+ENTRY            11396     930219              20050926       0000
+SUBENT        11396001     930219              20050926       0000
+BIB                 11         15
+INSTITUTE  (1USALAS)
+REFERENCE  (J,PR,103,343,5607)
+AUTHOR     (L.CRANBERG,J.S.LEVIN)
+TITLE      NEUTRON SCATTERING AT 2.45 MEV BY A TIME-OF-FLIGHT
+            METHOD.
+FACILITY   (VDG)
+INC-SOURCE (P-T)
+METHOD     (TOF)
+DETECTOR   (SCIN) BIASED PLASTIC SCINTILLATOR
+ERR-ANALYS (DATA-ERR) NO INFORMATION ON SOURCE OF UNCERTAINTY
+STATUS     DATA AT 90 DEGRESS TAKEN FROM ARTICLE.
+HISTORY    (761014T) TRANSLATED FROM SCISRS
+           (820324A) CONVERTED TO REACTION FORMALISM
+           (930219A) UPDATED AS PER ARTICLE. CONVERTED TO LOWER
+                      CASE.
+ENDBIB              15
+COMMON               1          3
+EN-RSL
+MEV
+ 0.100
+ENDCOMMON            3
+ENDSUBENT           22
+SUBENT        11396002     930219              20050926       0000
+BIB                  3          3
+REACTION   (9-F-19(N,INL)9-F-19,PAR,DA)
+SAMPLE     CF2 SAMPLE
+MONITOR    (26-FE-56(N,INL)26-FE-56,PAR,DA)
+ENDBIB               3
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+ 2.45       90.
+ENDCOMMON            3
+DATA                 4          2
+E-LVL      E-LVL-ERR  DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+ 1.46       0.03       23.        3.
+ 1.55       0.03       23.        3.
+ENDDATA              4
+ENDSUBENT           16
+SUBENT        11396003     930219              20050926       0000
+BIB                  3          3
+REACTION   (11-NA-23(N,INL)11-NA-23,PAR,DA)
+MONITOR    (26-FE-56(N,INL)26-FE-56,PAR,DA)
+HISTORY    (930219A) REACTION CORRECTED
+ENDBIB               3
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+ 2.45       90.
+ENDCOMMON            3
+DATA                 4          1
+E-LVL      E-LVL-ERR  DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+ 0.46       0.03       50.        10.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11396004     930219              20050926       0000
+BIB                  3          3
+REACTION   (12-MG-0(N,INL)12-MG-24,PAR,DA)
+MONITOR    (26-FE-56(N,INL)26-FE-56,PAR,DA)
+HISTORY    (930219A) REACTION CORRECTED
+ENDBIB               3
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+ 2.45       90.
+ENDCOMMON            3
+DATA                 4          1
+E-LVL      E-LVL-ERR  DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+ 1.38       0.03       24.        2.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11396005     930219              20050926       0000
+BIB                  2          2
+REACTION   (15-P-31(N,INL)15-P-31,PAR,DA)
+MONITOR    (26-FE-56(N,INL)26-FE-56,PAR,DA)
+ENDBIB               2
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+ 2.45       90.
+ENDCOMMON            3
+DATA                 4          1
+E-LVL      E-LVL-ERR  DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+ 1.25       0.03       55.        7.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11396006     930219              20050926       0000
+BIB                  4          7
+REACTION  1(22-TI-48(N,INL)22-TI-48,PAR,DA,,RSD)
+          2(22-TI-48(N,INL)22-TI-48,PAR,DA)
+MONITOR    (26-FE-56(N,INL)26-FE-56,PAR,DA)
+STATUS     (CURVE) RELATIVE DATA READ FROM CURVE AND NORMALIZED
+                    TO ABSOLUTE VALUE AT 90 DEGR.
+HISTORY    (840605A) DATA SORTED.
+           (930219A) ORIGINAL RELATIVE DATA ADDED
+ENDBIB               7
+COMMON               4          3
+E-LVL      E-LVL-ERR  ANG-NRM    E-LVL-NRM
+MEV        MEV        ADEG       MEV
+    1.02    0.03       90.        0.85
+ENDCOMMON            3
+DATA                 6         20
+EN         ANG-CM     DATA-CM   1DATA-ERR  1DATA      2DATA-ERR  2
+MEV        ADEG       NO-DIM     NO-DIM     MB/SR      MB/SR
+ 2.25        20.       0.98       0.03       74.        5.
+ 2.25        25.       0.93       0.03       70.        5.
+ 2.25        30.       0.91       0.035      68.        5.
+ 2.25        45.       0.99       0.035      74.        5.
+ 2.25        67.       1.04       0.025      78.        4.
+ 2.25        90.       1.00                  75.        4.
+ 2.25       112.       1.06       0.03       80.        5.
+ 2.25       135.       1.015      0.03       76.        5.
+ 2.25       150.       0.88       0.03       66.        5.
+ 2.25       155.       0.89       0.025      67.        4.
+ 2.25       160.       0.88       0.025      66.        4.
+ 2.45        20.       0.825      0.025      70.        4.
+ 2.45        30.       0.81       0.02       69.        3.
+ 2.45        45.       0.91       0.03       77.        4.
+ 2.45        60.       0.95       0.03       81.        4.
+ 2.45        90.       1.00                  85.        3.
+ 2.45       120.       0.97       0.025      82.        4.
+ 2.45       135.       0.94       0.03       80.        4.
+ 2.45       150.       0.83       0.03       71.        4.
+ 2.45       160.       0.815      0.03       69.        4.
+ENDDATA             22
+ENDSUBENT           38
+SUBENT        11396007     930219              20050926       0000
+BIB                  3          3
+REACTION   (23-V-51(N,INL)23-V-51,PAR,DA)
+MONITOR    (26-FE-56(N,INL)26-FE-56,PAR,DA)
+HISTORY    (930219A) REACTION CORRECTED
+ENDBIB               3
+COMMON               3          3
+EN         ANG        E-LVL-ERR
+MEV        ADEG       MEV
+ 2.45       90.        0.03
+ENDCOMMON            3
+DATA                 3          2
+E-LVL      DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+    0.92    1.6    +01 1.     +00
+    1.63    1.8    +01 2.     +00
+ENDDATA              4
+ENDSUBENT           16
+SUBENT        11396008     930219              20050926       0000
+BIB                  3          3
+REACTION   (24-CR-0(N,INL)24-CR-52,PAR,DA)
+MONITOR    (26-FE-56(N,INL)26-FE-56,PAR,DA)
+HISTORY    (930219A) REACTION CORRECTED
+ENDBIB               3
+COMMON               3          3
+EN         ANG        E-LVL-ERR
+MEV        ADEG       MEV
+ 2.45       90.        0.03
+ENDCOMMON            3
+DATA                 3          1
+E-LVL      DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 1.49       4.8    +01 3.     +00
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11396009     930219              20050926       0000
+BIB                  2          2
+REACTION   (25-MN-55(N,INL)25-MN-55,PAR,DA)
+MONITOR    (26-FE-56(N,INL)26-FE-56,PAR,DA)
+ENDBIB               2
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+ 2.45       90.
+ENDCOMMON            3
+DATA                 4          3
+E-LVL      E-LVL-ERR  DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+    0.98    0.04       2.0    +01 2.     +00
+    1.29    0.03       1.1    +01 1.     +00
+    1.53    0.03       1.2    +01 2.     +00
+ENDDATA              5
+ENDSUBENT           16
+SUBENT        11396010     930219              20050926       0000
+BIB                  3          3
+REACTION   (26-FE-0(N,EL)26-FE-0,,SIG)
+STATUS     (DEP,11396011) INTEGRATED ANGULAR DISTRIBUTION
+HISTORY    (860326A) REACTION PRODUCT ADDED.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          2
+EN         DATA
+MEV        B
+ 2.25       2.05
+ 2.45       2.71
+ENDDATA              4
+ENDSUBENT           12
+SUBENT        11396011     930219              20050926       0000
+BIB                  3          3
+REACTION   (26-FE-0(N,EL)26-FE-0,,DA)
+STATUS     (CURVE) DATA READ FROM CURVE
+HISTORY    (860326A) REACTION PRODUCT ADDED.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4         25
+EN         COS-CM     DATA-CM    DATA-ERR
+MEV        NO-DIM     MB/SR      MB/SR
+ 2.25   +00 0.94000    7.40   +02 2.0    +01
+ 2.25   +00 0.90000    6.70   +02 1.0    +01
+ 2.25   +00 0.85000    5.60   +02 2.0    +01
+ 2.25   +00 0.69000    3.10   +02 1.5    +01
+ 2.25   +00 0.37000    8.0    +01
+ 2.25   +00 0.00000    6.5    +01
+ 2.25   +00-0.3800     1.00   +02
+ 2.25   +00-0.7000     1.15   +02
+ 2.25   +00-0.8600     1.30   +02
+ 2.25   +00-0.9000     1.55   +02
+ 2.25   +00-0.9400     1.55   +02
+ 2.45   +00 0.94000    9.45   +02 1.5    +01
+ 2.45   +00 0.86000    6.50   +02 1.0    +01
+ 2.45   +00 0.71000    3.50   +02 1.0    +01
+ 2.45   +00 0.49000    1.50   +02
+ 2.45   +00 0.26000    6.5    +01
+ 2.45   +00 0.00000    9.0    +01
+ 2.45   +00-0.1700     1.15   +02
+ 2.45   +00-0.3400     1.20   +02
+ 2.45   +00-0.4900     1.30   +02
+ 2.45   +00-0.6100     1.35   +02
+ 2.45   +00-0.7000     1.40   +02
+ 2.45   +00-0.8600     1.45   +02
+ 2.45   +00-0.9000     2.00   +02
+ 2.45   +00-0.9400     2.10   +02
+ENDDATA             27
+ENDSUBENT           35
+SUBENT        11396012     930219              20050926       0000
+BIB                  4          7
+REACTION  1(26-FE-56(N,INL)26-FE-56,PAR,DA,,RSD)
+          2(26-FE-56(N,INL)26-FE-56,PAR,DA)
+MONITOR    (1-H-1(N,EL)1-H-1,,DA)
+             RELATIVE TO N-P SCATTERING AT 90 DEGR.
+STATUS     (CURVE) RELATIVE DATA READ FROM CURVE AND NORMALIZED
+                    TO ABSOLUTE VALUE AT 90 DEGR.
+HISTORY    (930219A) ORIGINAL RELATIVE DATA ADDED
+ENDBIB               7
+COMMON               3          3
+E-LVL      E-LVL-ERR  ANG-NRM
+MEV        MEV        ADEG
+ 0.85       0.03       90.
+ENDCOMMON            3
+DATA                 6         26
+EN         ANG-CM     DATA      1DATA-ERR  1DATA-CM   2DATA-ERR  2
+MEV        ADEG       NO-DIM     NO-DIM     MB/SR      MB/SR
+ 2.25        20.       0.94       0.03       75.        4.
+ 2.25        25.       0.96       0.03       77.        4.
+ 2.25        30.       0.97       0.03       78.        4.
+ 2.25        45.       0.98       0.025      78.        4.
+ 2.25        67.5      0.99       0.025      79.        4.
+ 2.25        90.       1.00                  80.        4.
+ 2.25       113.       1.06       0.02       85.        3.
+ 2.25       135.       1.03       0.02       82.        3.
+ 2.25       150.       1.00       0.02       80.        3.
+ 2.25       155.       0.99       0.025      79.        4.
+ 2.25       160.       0.98       0.025      78.        4.
+ 2.45        20.       1.01       0.02       86.        3.
+ 2.45        30.       1.02       0.025      87.        4.
+ 2.45        45.       1.04       0.025      88.        4.
+ 2.45        60.       1.01       0.02       86.        3.
+ 2.45        75.       0.97       0.04       83.        4.
+ 2.45        90.       1.00                  85.        3.
+ 2.45       100.       1.03       0.025      88.        4.
+ 2.45       110.       1.01       0.03       86.        4.
+ 2.45       120.       0.98       0.02       83.        3.
+ 2.45       127.5      0.96       0.035      82.        4.
+ 2.45       135.       0.93       0.02       79.        3.
+ 2.45       150.       0.83       0.025      71.        4.
+ 2.45       154.       0.82       0.025      70.        4.
+ 2.45       157.5      0.81       0.02       69.        3.
+ 2.45       160.       0.82       0.01       70.        3.
+ENDDATA             28
+ENDSUBENT           44
+SUBENT        11396013     930219              20050926       0000
+BIB                  2          2
+REACTION   (27-CO-59(N,INL)27-CO-59,PAR,DA)
+MONITOR    (26-FE-56(N,INL)26-FE-56,PAR,DA)
+ENDBIB               2
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+ 2.45       90.
+ENDCOMMON            3
+DATA                 4          3
+E-LVL      E-LVL-ERR  DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+ 1.20       0.03       3.8    +01 5.
+ 1.51       0.02       3.4    +01 4.
+ 1.75       0.02       1.2    +01 2.
+ENDDATA              5
+ENDSUBENT           16
+SUBENT        11396014     930219              20050926       0000
+BIB                  4          6
+REACTION  1(28-NI-0(N,INL)28-NI-0,PAR,DA,,RSD)
+          2(28-NI-0(N,INL)28-NI-0,PAR,DA)
+MONITOR    (26-FE-56(N,INL)26-FE-56,PAR,DA)
+STATUS     (CURVE) RELATIVE DATA READ FROM CURVE AND NORMALIZED
+                    TO ABSOLUTE VALUE AT 90 DEGR. GIVEN IN TABLE
+HISTORY    (930219A) ORIGINAL RELATIVE DATA ADDED
+ENDBIB               6
+COMMON               4          3
+EN         E-LVL      E-LVL      ANG-NRM
+MEV        MEV        MEV        ADEG
+ 2.45   +01 1.33       1.49       90.
+ENDCOMMON            3
+DATA                 5          9
+ANG-CM     DATA      1DATA-ERR  1DATA-CM   2DATA-ERR  2
+ADEG       NO-DIM     NO-DIM     MB/SR      MB/SR
+ 19.        1.07       0.02       59.        3.
+ 30.        1.05       0.02       58.        3.
+ 45.        1.06       0.03       58.        3.
+ 60.        1.04       0.03       57.        3.
+ 90.        1.00                  55.        3.
+120.        1.04       0.03       57.        3.
+135.        1.06       0.03       58.        3.
+150.        1.03       0.03       57.        3.
+160.        1.075      0.03       59.        3.
+ENDDATA             11
+ENDSUBENT           26
+SUBENT        11396015     930219              20050926       0000
+BIB                  3          3
+REACTION   (29-CU-0(N,INL)29-CU-0,PAR,DA)
+MONITOR    (26-FE-56(N,INL)26-FE-56,PAR,DA)
+HISTORY    (930219A) REACTION CORRECTED
+ENDBIB               3
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+ 2.45       90.
+ENDCOMMON            3
+DATA                 4          5
+E-LVL      E-LVL-ERR  DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+ 0.98       0.04       38.        5.
+ 1.46       0.03       32.        4.
+ 1.62       0.03       13.        3.
+ 1.74       0.02        9.        2.
+ 1.90       0.02        7.        2.
+ENDDATA              7
+ENDSUBENT           19
+SUBENT        11396016     930219              20050926       0000
+BIB                  3          3
+REACTION   (30-ZN-0(N,INL)30-ZN-68,PAR,DA)
+MONITOR    (26-FE-56(N,INL)26-FE-56,PAR,DA)
+HISTORY    (930219A) REACTION CORRECTED
+ENDBIB               3
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+ 2.45       90.
+ENDCOMMON            3
+DATA                 4          1
+E-LVL      E-LVL-ERR  DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+ 1.08       0.04       6.2    +01 4.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11396017     930219              20050926       0000
+BIB                  2          2
+REACTION   (33-AS-75(N,INL)33-AS-75,PAR,DA)
+MONITOR    (26-FE-56(N,INL)26-FE-56,PAR,DA)
+ENDBIB               2
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+ 2.45       90.
+ENDCOMMON            3
+DATA                 4          3
+E-LVL      E-LVL-ERR  DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+    0.78    0.04       2.7    +01 6.
+    1.25    0.03       4.7    +01 8.
+    1.63    0.02       2.1    +01 3.
+ENDDATA              5
+ENDSUBENT           16
+SUBENT        11396018     930219              20050926       0000
+BIB                  3          3
+REACTION   (34-SE-0(N,INL)34-SE-0,PAR,DA)
+MONITOR    (26-FE-56(N,INL)26-FE-56,PAR,DA)
+HISTORY    (930219A) REACTION CORRECTED
+ENDBIB               3
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+ 2.45       90.
+ENDCOMMON            3
+DATA                 4          2
+E-LVL      E-LVL-ERR  DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+    0.66    0.05       6.4    +01 8.
+    1.50    0.03       4.3    +01 5.
+ENDDATA              4
+ENDSUBENT           16
+SUBENT        11396019     930219              20050926       0000
+BIB                  3          3
+REACTION   (40-ZR-0(N,INL)40-ZR-0,PAR,DA)
+MONITOR    (26-FE-56(N,INL)26-FE-56,PAR,DA)
+HISTORY    (930219A) REACTION CORRECTED
+ENDBIB               3
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+ 2.45       90.
+ENDCOMMON            3
+DATA                 4          1
+E-LVL      E-LVL-ERR  DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+ 0.94       0.04       2.3    +01 2.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11396020     930219              20050926       0000
+BIB                  3          3
+REACTION   (42-MO-0(N,INL)42-MO-0,PAR,DA)
+MONITOR    (26-FE-56(N,INL)26-FE-56,PAR,DA)
+HISTORY    (930219A) REACTION CORRECTED
+ENDBIB               3
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+ 2.45       90.
+ENDCOMMON            3
+DATA                 4          2
+E-LVL      E-LVL-ERR  DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+ 0.83       0.04       4.2    +01 4.
+ 1.56       0.03       5.2    +01 4.
+ENDDATA              4
+ENDSUBENT           16
+SUBENT        11396021     930219              20050926       0000
+BIB                  3          3
+REACTION   (48-CD-0(N,INL)48-CD-0,PAR,DA)
+MONITOR    (26-FE-56(N,INL)26-FE-56,PAR,DA)
+HISTORY    (930219A) REACTION CORRECTED
+ENDBIB               3
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+ 2.45       90.
+ENDCOMMON            3
+DATA                 4          3
+E-LVL      E-LVL-ERR  DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+ 0.64       0.05       4.0    +01 5.
+ 1.36       0.03       3.1    +01 4.
+ 1.49       0.03       3.1    +01 4.
+ENDDATA              5
+ENDSUBENT           17
+SUBENT        11396022     930219              20050926       0000
+BIB                  3          3
+REACTION   (50-SN-0(N,INL)50-SN-0,PAR,DA)
+MONITOR    (26-FE-56(N,INL)26-FE-56,PAR,DA)
+HISTORY    (930219A) REACTION CORRECTED
+ENDBIB               3
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+ 2.45       90.
+ENDCOMMON            3
+DATA                 4          1
+E-LVL      E-LVL-ERR  DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+ 1.24       0.03       4.7    +01 3.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11396023     930219              20050926       0000
+BIB                  3          3
+REACTION   (52-TE-0(N,INL)52-TE-0,PAR,DA)
+MONITOR    (26-FE-56(N,INL)26-FE-56,PAR,DA)
+HISTORY    (930219A) REACTION CORRECTED
+ENDBIB               3
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+ 2.45       90.
+ENDCOMMON            3
+DATA                 4          1
+E-LVL      E-LVL-ERR  DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+ 0.72       0.05       5.5    +01 6.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11396024     930219              20050926       0000
+BIB                  3          3
+REACTION   (82-PB-206(N,INL)82-PB-206,PAR,DA)
+SAMPLE     RADIOGENIC LEAD, ENRICHED TO 88% 206PB
+MONITOR    (26-FE-56(N,INL)26-FE-56,PAR,DA)
+ENDBIB               3
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+ 2.45       90.
+ENDCOMMON            3
+DATA                 4          3
+E-LVL      E-LVL-ERR  DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+ 0.84       0.04       5.1    +01 6.
+ 1.44       0.03       4.4    +01 6.
+ 1.74       0.02       3.2    +01 5.
+ENDDATA              5
+ENDSUBENT           17
+SUBENT        11396025     930219              20050926       0000
+BIB                  2          2
+REACTION   (83-BI-209(N,INL)83-BI-209,PAR,DA)
+MONITOR    (26-FE-56(N,INL)26-FE-56,PAR,DA)
+ENDBIB               2
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+ 2.45       90.
+ENDCOMMON            3
+DATA                 4          2
+E-LVL      E-LVL-ERR  DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+ 0.93       0.04       30.        3.
+ 1.65       0.03       34.        4.
+ENDDATA              4
+ENDSUBENT           15
+SUBENT        11396026     930219              20050926       0000
+BIB                  2          2
+REACTION   (92-U-238(N,INL)92-U-238,PAR,DA)
+MONITOR    (26-FE-56(N,INL)26-FE-56,PAR,DA)
+ENDBIB               2
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+ 2.45       90.
+ENDCOMMON            3
+DATA                 4          1
+E-LVL      E-LVL-ERR  DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+ 1.18       0.03       1.0    +01 3.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11396027     930219              20050926       0000
+BIB                  2          2
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,DA)
+MONITOR    (26-FE-56(N,INL)26-FE-56,PAR,DA)
+ENDBIB               2
+COMMON               2          3
+EN         ANG
+MEV        ADEG
+ 2.45       90.
+ENDCOMMON            3
+DATA                 4          1
+E-LVL      E-LVL-ERR  DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+ 1.03       0.03       20.        2.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11396028     930219              20050926       0000
+BIB                  3          3
+REACTION   (22-TI-0(N,EL)22-TI-0,,DA,,RSD)
+STATUS     (CURVE) READ FROM CURVE
+HISTORY    (930219C)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3         20
+EN         ANG-CM     DATA-CM
+MEV        ADEG       NO-DIM
+ 2.25       20.        0.935
+ 2.25       25.        0.85
+ 2.25       30.        0.735
+ 2.25       45.        0.45
+ 2.25       67.        0.16
+ 2.25       90.        0.08
+ 2.25      112.        0.08
+ 2.25      135.        0.14
+ 2.25      150.        0.20
+ 2.25      155.        0.22
+ 2.25      160.        0.24
+ 2.45       20.        1.07
+ 2.45       30.        0.78
+ 2.45       45.        0.49
+ 2.45       60.        0.21
+ 2.45       90.        0.09
+ 2.45      120.        0.12
+ 2.45      135.        0.15
+ 2.45      150.        0.22
+ 2.45      160.        0.28
+ENDDATA             22
+ENDSUBENT           30
+SUBENT        11396029     930219              20050926       0000
+BIB                  3          3
+REACTION   (22-TI-0(N,INL)22-TI-0,,DA,G,RSD)
+STATUS     (CURVE) READ FROM CURVE
+HISTORY    (930219C)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3         20
+EN         ANG-CM     DATA-CM
+MEV        ADEG       NO-DIM
+ 2.25       20.        1.17
+ 2.25       25.        1.36
+ 2.25       30.        1.44
+ 2.25       45.        1.48
+ 2.25       67.        1.12
+ 2.25       90.        1.00
+ 2.25      113.        1.15
+ 2.25      135.        1.44
+ 2.25      150.        1.40
+ 2.25      155.        1.30
+ 2.25      160.        1.20
+ 2.45       20.        1.20
+ 2.45       30.        1.19
+ 2.45       45.        1.18
+ 2.45       60.        1.13
+ 2.45       90.        1.00
+ 2.45      120.        1.12
+ 2.45      135.        1.17
+ 2.45      150.        1.16
+ 2.45      160.        1.19
+ENDDATA             22
+ENDSUBENT           30
+SUBENT        11396030     930219              20050926       0000
+BIB                  3          3
+REACTION   (26-FE-0(N,INL)26-FE-0,,DA,G,RSD)
+STATUS     (CURVE) READ FROM CURVE
+HISTORY    (930219C)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3         23
+EN         ANG-CM     DATA-CM
+MEV        ADEG       NO-DIM
+ 2.25       20.        1.175
+ 2.25       25.        1.23
+ 2.25       30.        1.30
+ 2.25       45.        1.28
+ 2.25       65.        1.12
+ 2.25       90.        1.00
+ 2.25      112.        1.00
+ 2.25      134.        1.27
+ 2.25      150.        1.30
+ 2.25      155.        1.27
+ 2.25      160.        1.30
+ 2.45       20.        1.25
+ 2.45       30.        1.275
+ 2.45       45.        1.22
+ 2.45       60.        1.15
+ 2.45       90.        1.00
+ 2.45      100.        1.02
+ 2.45      110.        1.06
+ 2.45      120.        1.17
+ 2.45      128.        1.195
+ 2.45      135.        1.27
+ 2.45      150.        1.29
+ 2.45      160.        1.27
+ENDDATA             25
+ENDSUBENT           33
+SUBENT        11396031     930219              20050926       0000
+BIB                  3          3
+REACTION   (28-NI-0(N,INL)28-NI-0,,DA,G,RSD)
+STATUS     (CURVE) READ FROM CURVE
+HISTORY    (930219C)
+ENDBIB               3
+COMMON               1          3
+EN
+MEV
+2.45
+ENDCOMMON            3
+DATA                 2          9
+ANG-CM     DATA-CM
+ADEG       NO-DIM
+ 20.        1.335
+ 30.        1.275
+ 45.        1.20
+ 60.        1.08
+ 90.        1.00
+120.        1.05
+134.        1.20
+150.        1.25
+160.        1.32
+ENDDATA             11
+ENDSUBENT           23
+ENDENTRY            31

@@ -1,0 +1,53 @@
+ENTRY            11225   20100609   20100917   20100801       1365
+SUBENT        11225001   20100609   20100917   20100801       1365
+BIB                 12         15
+INSTITUTE  (1USASUI)
+REFERENCE  (J,PR,108,99,1957)
+AUTHOR     (G.J.Fischer)
+TITLE      Cross section for the (n,2n) production in Be9.
+FACILITY   (CCW,1USASUI)
+INC-SOURCE (D-D)
+METHOD     (MANGB)
+MONITOR    (6-C-0(N,EL)6-C-0,,SIG)
+ANALYSIS   Calculated by subtracting (n,alpha) cross section.
+ERR-ANALYS (DATA-ERR) No information on source of uncertainties.
+STATUS     (SCSRS)
+HISTORY    (19760629T) Translated from SCISRS
+           (19800820A) Converted to REACTION formalism
+           (19860331U) BIB update.
+           (20100609A) VM:Updated to new date formats,lower case.
+ENDBIB              15
+NOCOMMON             0          0
+ENDSUBENT           18
+SUBENT        11225002   20100609   20100917   20100801       1365
+BIB                  2          3
+REACTION   (4-BE-9(N,2N)4-BE-8,,SIG)
+STATUS     (TABLE) Values updated in private communication to
+            Goodjohn and Hinman, GAMD-1619 (1960).
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          4
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.57   +00 6.6    -02 8.0    -02
+ 2.69   +00 8.0    -02 1.20   -01
+ 2.93   +00 3.10   -01 1.00   -01
+ 3.19   +00 5.25   -01 1.65   -01
+ENDDATA              6
+ENDSUBENT           14
+SUBENT        11225003   20100609   20100917   20100801       1365
+BIB                  2          3
+REACTION   (4-BE-9(N,2N)4-BE-8,,SIG)
+STATUS     (OUTDT,11225002)
+           (TABLE) data taken from Table I in reference.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          3
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.57   +00 1.6    -02 3.0    -02
+ 2.69   +00 3.0    -02 7.0    -02
+ 3.19   +00 6.50   -01 1.40   -01
+ENDDATA              5
+ENDSUBENT           13
+ENDENTRY             3

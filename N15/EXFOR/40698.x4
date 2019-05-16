@@ -1,0 +1,154 @@
+ENTRY            40698   20180416   20180612   20180601       4179
+SUBENT        40698001   20180416   20180612   20180601       4179
+BIB                 11         30
+INSTITUTE  (4ZZZDUB)
+           (4KASKAZ)
+REFERENCE  ((J,YK,,(2/51),28,1983)=
+           (R,INDC(CCP)-207,28,1983))  Data are given
+            No Engl.translation in R,INDC(CCP)-222,1983
+           ((C,77KIEV,1,178,1977)=
+           (R,INDC(CCP)-118,178,1977)) Part I .
+             Experimental details.
+AUTHOR     (E.Z.Akhmetov,D.K.Kaipov,M.M.Kadykenov,V.A.Konks,
+           N.K.Kospanov)
+TITLE       Measurement of the total cross-section of interaction
+            ultracold neutrons with some gases
+FACILITY   (REAC,4KASKAZ)Reactor WWR-K
+INC-SOURCE (REAC)
+INC-SPECT  Neutrons having velocities from 3.2 to 5.7 m/sec.
+            Average velocity 4.7 m/sec .
+             Ultra-cold neutrons spectrum (neutrons/sec) on Fig.2
+             of INDC(CCP)-118,178,1977, measured .
+              ( not digitized because X-scale type is not usual)
+DETECTOR   (PROPC) He-3 gas detector
+METHOD     (TRN)
+ERR-ANALYS (DATA-ERR) Type of error is not explained in article.
+HISTORY    (19840206C)
+           (20180416A) M.M. Upper -> lower case correction.
+            Dates were corrected for 4-digits year.
+            Refs. INDC(CCP)-207,28,1983 , INDC(CCP)-118,178,1977
+            were added. Title was corrected as in abstract .
+            AV -> SPA (spectrum averaged).
+            DEG-K -> K , TEMP was moved in data Subents.
+            FA was deleted from SF5, TMP was added in SF8.
+ENDBIB              30
+COMMON               2          3
+EN-MIN     EN-MAX
+EV         EV
+ 5.1000E-08 1.6200E-07
+ENDCOMMON            3
+ENDSUBENT           37
+SUBENT        40698002   20180416   20180612   20180601       4179
+BIB                  2          3
+REACTION   (1-H-1(N,TOT),,SIG,,TMP/SPA) Molecular hydrogen,
+              averaged over spectrum, CS for one molecule
+STATUS     (TABLE) Table of INDC(CCP)-207,28,1983
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          2
+DATA       DATA-ERR   TEMP
+B          B          K
+ 4.3000E+04 3.0000E+03 300.
+ 1.7000E+04 1.0000E+03 80.
+ENDDATA              4
+ENDSUBENT           12
+SUBENT        40698003   20180416   20180612   20180601       4179
+BIB                  3          4
+REACTION   (1-H-1(N,TOT),,SIG,,TMP/SPA) Molecular parahydrogen,
+                  averaged over spectrum, CS for molecule
+INC-SOURCE (POLTR)
+STATUS     (TABLE) Table of INDC(CCP)-207,28,1983
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          2
+DATA       DATA-ERR   TEMP
+B          B          K
+ 1.7000E+04 1.0000E+03 300.
+ 1.3000E+03 1.0000E+02 80.
+ENDDATA              4
+ENDSUBENT           13
+SUBENT        40698004   20180416   20180612   20180601       4179
+BIB                  2          3
+REACTION   (2-HE-3(N,TOT),,SIG,,TMP/SPA) CS for one atom
+               averaged over spectrum
+STATUS     (TABLE) Table of INDC(CCP)-207,28,1983
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          2
+DATA       DATA-ERR   TEMP
+B          B          K
+ 5.2000E+06 4.0000E+05 300.
+ 4.9000E+06 4.0000E+05 80.
+ENDDATA              4
+ENDSUBENT           12
+SUBENT        40698005   20180416   20180612   20180601       4179
+BIB                  2          3
+REACTION   (2-HE-4(N,TOT),,SIG,,TMP/SPA) CS for one atom,
+               averaged over spectrum
+STATUS     (TABLE) Table of INDC(CCP)-207,28,1983
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          2
+DATA       DATA-ERR   TEMP
+B          B          K
+ 5.0000E+02 4.0000E+01 300.
+ 1.6000E+02 1.0000E+01 80.
+ENDDATA              4
+ENDSUBENT           12
+SUBENT        40698006   20180416   20180612   20180601       4179
+BIB                  2          3
+REACTION   (7-N-14(N,TOT),,SIG,,TMP/SPA) CS for one molecule,
+                averaged over spectrum
+STATUS     (TABLE) Table of INDC(CCP)-207,28,1983
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          2
+DATA       DATA-ERR   TEMP
+B          B          K
+ 8.6000E+03 6.0000E+02 300.
+ 3.5000E+03 2.0000E+02 80.
+ENDDATA              4
+ENDSUBENT           12
+SUBENT        40698007   20180416   20180612   20180601       4179
+BIB                  2          3
+REACTION   (10-NE-0(N,TOT),,SIG,,TMP/SPA) CS for one atom,
+               averaged over spectrum
+STATUS     (TABLE) Table of INDC(CCP)-207,28,1983
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          2
+DATA       DATA-ERR   TEMP
+B          B          K
+ 5.6000E+02 6.0000E+01 300.
+ 2.2000E+02 2.0000E+01 80.
+ENDDATA              4
+ENDSUBENT           12
+SUBENT        40698008   20180416   20180612   20180601       4179
+BIB                  2          3
+REACTION   (18-AR-0(N,TOT),,SIG,,TMP/SPA) CS for one atom,
+               averaged over spectrum
+STATUS     (TABLE) Table of INDC(CCP)-207,28,1983
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          2
+DATA       DATA-ERR   TEMP
+B          B          K
+ 5.8000E+02 4.0000E+01 300.
+ 6.0000E+02 1.0000E+02 80.
+ENDDATA              4
+ENDSUBENT           12
+SUBENT        40698009   20180416   20180612   20180601       4179
+BIB                  3          4
+REACTION   (54-XE-0(N,TOT),,SIG,,SPA) CS for one atom,
+                averaged over spectrum , at 300 K .
+STATUS     (TABLE) Table of INDC(CCP)-207,28,1983
+HISTORY    (20180416A) M.M. 36-KR -> 54-XE
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.5000E+04 3.0000E+03
+ENDDATA              3
+ENDSUBENT           12
+ENDENTRY             9

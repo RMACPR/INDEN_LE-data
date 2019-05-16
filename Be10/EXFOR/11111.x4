@@ -1,0 +1,48 @@
+ENTRY            11111     800814              20050926       0000
+SUBENT        11111001     800814              20050926       0000
+BIB                  7         11
+INSTITUTE  (1USALRL)
+REFERENCE  (J,PR,123,218,61)
+AUTHOR     (H.C.CATRON,M.D.GOLDBERG,R.W.HILL,J.M.LE BLANC,
+           J.P.STOERING,C.J.TAYLOR,M.A.WILLIAMSON)
+TITLE      DEUTERIUM AND BERYLLIUM (N,2N) CROSS SECTIONS BETWEEN 6
+           AND 10 MEV.
+MONITOR    (96-CM-244(0,F),,NU)     SPON.FISSION NU = 2.75
+           (98-CF-252(0,F),,NU)     SPON.FISSION NU = 3.80
+STATUS     (SCSRS)
+HISTORY    (760924T) TRANSLATED FROM SCISRS
+           (800814A) CONVERTED TO REACTION FORMALISM
+ENDBIB              11
+NOCOMMON             0          0
+ENDSUBENT           14
+SUBENT        11111002     800814              20050926       0000
+BIB                  2          2
+REACTION   (1-H-2(N,2N)1-H-1,,SIG)
+DETECTOR   (STANK)    SCINTILLATING TANK DETECTOR
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          5
+EN         DATA       DATA-ERR
+MEV        B          PER-CENT
+ 6.11   +00 6.7    -02   10.
+ 6.55   +00 7.3    -02   10.
+ 7.32   +00 8.8    -02   10.
+ 8.26   +00 1.10   -01    9.0
+ 1.02   +01 1.40   -01   11.
+ENDDATA              7
+ENDSUBENT           14
+SUBENT        11111003     800814              20050926       0000
+BIB                  2          2
+REACTION   (4-BE-9(N,2N)4-BE-8,,SIG)
+DETECTOR   (STANK)    SCINTILLATING TANK DETECTOR
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          3
+EN         DATA       DATA-ERR
+MEV        B          B
+ 6.55   +00 5.50   -01 8.0    -02
+ 7.32   +00 5.60   -01 7.0    -02
+ 8.26   +00 6.30   -01 9.0    -02
+ENDDATA              5
+ENDSUBENT           12
+ENDENTRY             3

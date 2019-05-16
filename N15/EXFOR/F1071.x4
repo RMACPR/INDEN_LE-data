@@ -1,0 +1,209 @@
+ENTRY            F1071   20100512   20110216   20110112       F039
+SUBENT        F1071001   20100512   20110216   20110112       F039
+BIB                 12         46
+TITLE      Radiative deuteron capture in C-13.
+AUTHOR     (W.Del Bianco,S.Kundu,J.Kim)
+INSTITUTE  (1CANMON)
+REFERENCE  (J,NP/A,270,45,1976)
+           #doi:10.1016/0375-9474(76)90126-3
+FACILITY   (VDGT,1CANMON)
+INC-SOURCE Currents ranging from 70 to 200 n-A were used.
+DETECTOR   (NAICR,SCIN) The gamma rays were detected with a 23 cm
+           diameter by 23 cm long NaI(Tl) crystal surrounded
+           by a plastic scintillator operated in anticoincidence.
+           A cylindrical lead collimator, 7.6 cm in diameter, with
+           its end face 60.8 cm from the target, was placed in
+           front of the NaI crystal subtending an angle of +-3.6
+           degr. at the 13C target. The spectrometer was enclosed
+           in a 10 cm thick lead shield and surrounded by a 55 cm
+           thick boron loaded paraffin layer to minimize
+           background radiation.
+SAMPLE     13C self-supporting foils was used. The 13C foils were
+           obtained by mixing 97.6% isotopically enriched 13C with
+           alcodag (a colloidal suspension of graphite in
+           alcohol). Below 5.74 MeV a target with a 1.032 mg/cm2
+           thick was used. For the measurement of the angular
+           distributions and the yield curve at higher energies, a
+           1.35 mg/cm2 thick target was employed.
+MONITOR    An absolute determination of the differential cross
+           section at 90 degr. was obtained with a gas target
+           filled with methane enriched in 13C to 90%. Both the
+           13C foils and the gas target were mounted in a glass
+           chamber with a wall thickness of approximately 0.28 cm.
+METHOD     (BCINT)
+           (GSPEC)
+ERR-ANALYS (ERR-T)      Total error
+           (ERR-1 )     Charge integrator calibration error
+           (ERR-2)      13C target thickness error
+           (ERR-3)      Solid angle subtended by NaI crystal at
+                        the target error
+           (ERR-4)      Attenuation in paraffin between target
+                        and NaI crystal
+           (ERR-5)      Extrapolation of gamma spectrum error
+           (ERR-6)      Efficiency of NaI crystal and
+                        anticoincidence shield assembly
+           (ERR-DIG)    Data digitizing error
+           (DATA-ERR)     Error from the graphic bars consisted
+           of the statistical error and the error resulting from
+           the fitting procedure.
+HISTORY    (20100512C)
+ENDBIB              46
+COMMON               9          6
++ERR-T     -ERR-T     ERR-1      ERR-2      ERR-3      ERR-4
++ERR-5     -ERR-5     ERR-6
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
+PER-CENT   PER-CENT   PER-CENT
+  36.        26.        1.         5.         2.         5.
+  20.        10.        3.
+ENDCOMMON            6
+ENDSUBENT           56
+SUBENT        F1071002   20100512   20110216   20110112       F039
+BIB                  3          3
+REACTION   (6-C-13(D,G)7-N-15,PAR,DA)
+ERR-ANALYS (EN-ERR-DIG)   Energy digitizing error
+STATUS     (CURVE) Fig.4
+ENDBIB               3
+COMMON               4          3
+E-LVL      ANG        EN-ERR-DIG ERR-DIG
+MEV        ADEG       MEV        MU-B/SR
+ 0.         90.        0.0042     0.0015
+ENDCOMMON            3
+DATA                 3         37
+EN         DATA       DATA-ERR
+MEV        MU-B/SR    MU-B/SR
+     2.9248     1.3338    0.12438
+     3.1285     1.3223    0.12442
+     3.3213     1.2233    0.10134
+     3.5262    0.96538   8.06E-02
+     3.7416     0.8756   8.08E-02
+     3.9004    0.77659   7.14E-02
+     4.1491    0.80659   7.11E-02
+     4.3651    0.59705   6.22E-02
+     4.5351    0.52568    5.3E-02
+      4.751    0.33917   4.61E-02
+     4.9433     0.3346   2.99E-02
+     5.1467    0.36229   3.22E-02
+     5.3279    0.30245   2.97E-02
+     5.5088     0.3094   3.45E-02
+     5.5542    0.28177   3.01E-02
+     5.7467    0.24266   3.23E-02
+     5.9276      0.245   2.53E-02
+     6.1083    0.27729   2.76E-02
+     6.3452     0.3902   4.15E-02
+     6.5372    0.43171   4.84E-02
+     6.7182    0.43405   4.61E-02
+     6.9109    0.34196   3.92E-02
+     7.1266     0.1923   2.53E-02
+      7.353    0.13938   3.24E-02
+     7.5342    9.8E-02   2.07E-02
+     7.7266   7.96E-02   3.22E-02
+     7.9188   7.73E-02    2.3E-02
+     8.1337   7.97E-02   2.29E-02
+      8.326   6.13E-02   2.07E-02
+     8.5407   9.82E-02   2.76E-02
+     8.7442    0.10054   2.78E-02
+     8.9478    0.10289    2.3E-02
+     9.1401   7.99E-02   2.53E-02
+      9.389   6.61E-02   2.09E-02
+     9.5586   6.16E-02   2.07E-02
+     9.7396   6.16E-02   2.11E-02
+     9.9319   5.01E-02   2.53E-02
+ENDDATA             39
+ENDSUBENT           51
+SUBENT        F1071003   20100512   20110216   20110112       F039
+BIB                  4          4
+REACTION   (6-C-13(D,G)7-N-15,PAR,DA,,REL)
+COMMENT    No explanation of relative units is given.
+ERR-ANALYS (ANG-ERR-D)       Angle digitizing error
+STATUS     (CURVE) Fig.5
+ENDBIB               4
+COMMON               3          3
+E-LVL      ANG-ERR-D  ERR-DIG
+MEV        ADEG       ARB-UNITS
+ 0.         0.2039     0.3328
+ENDCOMMON            3
+DATA                 4         41
+EN         ANG        DATA       DATA-ERR
+MEV        ADEG       ARB-UNITS  ARB-UNITS
+       3.28     0.8732     37.066     4.2647
+       3.28     28.624     54.914     4.7385
+       3.28     48.818     78.974     6.1601
+       3.28     68.978     96.399     8.0555
+       3.28     88.143     101.98     9.0057
+       3.28     108.61     88.604     8.5294
+       3.28     128.17      79.97     6.6364
+       3.96     0.8669     26.607     1.8866
+       3.96     28.355     41.605     2.8284
+       3.96     47.135     65.603      6.133
+       3.96     68.282     79.688     6.6046
+       3.96     88.008     99.438       8.96
+       3.96     108.12        89.     7.5494
+       3.96      128.2     67.715      6.133
+       4.30    0.25093     29.746     4.7449
+       4.30     30.105     51.822     4.7451
+       4.30     48.817     69.714     6.1753
+       4.30      69.79     79.048     6.1718
+       4.30     89.908     98.828     6.6428
+       4.30     109.91     102.47     7.5918
+       4.30     130.62     74.325     8.0663
+       6.23    0.69519     49.674     3.7612
+       6.23     29.786     67.781     5.6518
+       6.23     50.037     89.259     7.5304
+       6.23      70.26     107.44     8.0013
+       6.23     89.803     100.21     8.0011
+       6.23     109.74     84.041     5.6438
+       6.23     129.77     79.163     6.5931
+       6.63    0.36332     13.016     2.8417
+       6.63     29.424     39.414     3.3098
+       6.63      48.68     67.584      4.257
+       6.63     68.858     98.607     7.5779
+       6.63     88.904     100.26     6.6306
+       6.63     108.66     85.805     6.6417
+       6.63      128.5     64.719     5.6834
+       7.94     0.2065     95.376      6.464
+       7.94     29.475     112.77     18.478
+       7.94     48.953     127.45     19.867
+       7.94     69.214     116.25     18.019
+       7.94     90.371     99.972     16.628
+       7.94     129.63     99.759     15.707
+ENDDATA             43
+ENDSUBENT           56
+SUBENT        F1071004   20100512   20110216   20110112       F039
+BIB                  4          4
+REACTION   (6-C-13(D,G)7-N-15,PAR,DA,,REL)
+COMMENT    No explanation of relative units is given.
+ERR-ANALYS (ANG-ERR-D)       Angle digitizing error
+STATUS     (CURVE) Fig.5
+ENDBIB               4
+COMMON               3          3
+E-LVL      ANG-ERR-D  ERR-DIG
+MEV        ADEG       ARB-UNITS
+ 0.         0.8021     1.4254
+ENDCOMMON            3
+DATA                 4         21
+EN         ANG        DATA       DATA-ERR
+MEV        ADEG       ARB-UNITS  ARB-UNITS
+       4.76    0.65409     120.38     8.4888
+       4.76     29.212     118.96     6.6024
+       4.76     49.281     118.64     10.375
+       4.76     69.286     102.28     9.4321
+       4.76     89.351     101.01     9.4395
+       4.76     108.87     79.006     6.6024
+       4.76     129.41     80.563     7.5456
+       5.32     0.1258     157.15     14.219
+       5.32     28.929     158.28     10.426
+       5.32     49.511     132.81     10.428
+       5.32     69.127     114.92     10.423
+       5.32     90.176     97.032     7.5822
+       5.32     109.28     102.83     10.428
+       5.32     128.43       78.3     7.5794
+       5.92    0.71832     127.36      10.29
+       5.92     29.711     125.25     9.3547
+       5.92     50.872     119.47      9.351
+       5.92     71.099     107.14     7.4763
+       5.92     89.955     99.504     7.4875
+       5.92     110.68     107.75     9.3584
+       5.92     130.85     66.429     6.5445
+ENDDATA             23
+ENDSUBENT           36
+ENDENTRY             4

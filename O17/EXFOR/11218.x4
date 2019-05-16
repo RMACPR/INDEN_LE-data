@@ -1,0 +1,548 @@
+ENTRY            11218     800820              20050926       0000
+SUBENT        11218001     800820              20050926       0000
+BIB                  8         10
+INSTITUTE  (1USALAS)
+REFERENCE  (J,PR,102,767,56)
+AUTHOR     (R.B.DAY)
+TITLE      GAMMA RAYS FROM NEUTRON INELASTIC SCATTERING.
+ANALYSIS   VALUES IN REFERENCE REDUCED 4 PERCENT, SEE PHYS. REV.
+             117, 1330 (1960).
+CORRECTION CORRECTED FOR MULTIPLE SCATTERING
+STATUS     (SCSRS)
+HISTORY    (760629T) TRANSLATED FROM SCISRS
+           (800820A) CONVERTED TO REACTION FORMALISM
+ENDBIB              10
+COMMON               2          3
+ANG        EN-RSL
+ADEG       KEV
+ 95.        30.
+ENDCOMMON            3
+ENDSUBENT           17
+SUBENT        11218002     800820              20050926       0000
+BIB                  1          1
+REACTION   (4-BE-9(N,INL)4-BE-9,PAR,DA,G,4PI)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          4
+E          EN         DATA-MAX
+MEV        MEV        B
+ 1.8        2.56   +00 3.     -04
+ 1.8        2.74   +00 1.7    -03
+ 2.2        2.56   +00 2.     -04
+ 2.2        2.74   +00 3.     -04
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11218003     800820              20050926       0000
+BIB                  1          1
+REACTION   (5-B-10(N,INL)5-B-10,PAR,DA,G,4PI)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+E          EN         DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 0.717      2.56       31.        3.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11218004     800820              20050926       0000
+BIB                  1          1
+REACTION   (6-C-0(N,INL),PAR,DA,G,4PI)
+ENDBIB               1
+COMMON               1          3
+E
+MEV
+    4.42
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 6.58   +00 3.39   -01 5.7    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11218005     800820              20050926       0000
+BIB                  2          2
+REACTION   (6-C-12(N,INL)6-C-12,PAR,DA,G,4PI)
+STATUS     (DEP,11218004) FROM CROSS SECTION FOR NATURAL C.
+ENDBIB               2
+COMMON               1          3
+E
+MEV
+    4.42
+ENDCOMMON            3
+DATA                 2          1
+EN         DATA
+MEV        B
+ 6.58   +00 3.43   -01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11218006     800820              20050926       0000
+BIB                  1          1
+REACTION   (7-N-14(N,INL)7-N-14,PAR,DA,G,4PI)
+ENDBIB               1
+COMMON               1          3
+E
+MEV
+    2.30
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 3.95   +00 6.     -03 3.     -03
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11218007     800820              20050926       0000
+BIB                  1          1
+REACTION   (8-O-16(N,INL)8-O-16,PAR,DA,G,4PI)
+ENDBIB               1
+COMMON               1          3
+E
+MEV
+    6.094
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 7.06   +00 1.00   -01 2.4    -01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11218008     800820              20050926       0000
+BIB                  1          1
+REACTION   (9-F-19(N,INL)9-F-19,PAR,DA,G,4PI)
+ENDBIB               1
+COMMON               1          3
+EN
+MEV
+ 2.56   +00
+ENDCOMMON            3
+DATA                 3          6
+E          DATA       DATA-ERR
+MEV        B          B
+ 0.110  +00 1.86   -01 3.7    -02
+ 0.197  +00 5.16   -01 6.9    -02
+ 1.234  +00 4.8    -02 1.2    -02
+ 1.358  +00 2.95   -01 3.1    -02
+ 1.46   +00 5.5    -02 1.5    -02
+ 1.56   +00 2.0    -02 1.0    -02
+ENDDATA              8
+ENDSUBENT           18
+SUBENT        11218009     800820              20050926       0000
+BIB                  1          1
+REACTION   (12-MG-0(N,INL),PAR,DA,G,4PI)
+ENDBIB               1
+COMMON               1          3
+EN
+MEV
+ 2.56   +00
+ENDCOMMON            3
+DATA                 3          3
+E          DATA       DATA-ERR
+MEV        B          B
+ 1.368  +00 4.66   -01 4.0    -02
+ 1.616  +00 1.8    -02 4.     -03
+ 1.820  +00 1.6    -02 3.     -03
+ENDDATA              5
+ENDSUBENT           15
+SUBENT        11218010     800820              20050926       0000
+BIB                  2          2
+REACTION   (12-MG-24(N,INL)12-MG-24,PAR,DA,G,4PI)
+STATUS     (DEP,11218009) FROM CROSS SECTION FOR NATURAL MG.
+ENDBIB               2
+COMMON               1          3
+E
+MEV
+    1.368
+ENDCOMMON            3
+DATA                 2          1
+EN         DATA
+MEV        B
+ 2.56   +00 5.93   -01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11218011     800820              20050926       0000
+BIB                  2          2
+REACTION   (12-MG-25(N,INL)12-MG-25,PAR,DA,G,4PI)
+STATUS     (DEP,11218009) FROM CROSS SECTION FOR NATURAL MG.
+ENDBIB               2
+COMMON               1          3
+E
+MEV
+    1.616
+ENDCOMMON            3
+DATA                 2          1
+EN         DATA
+MEV        B
+ 2.56   +00 1.81   -01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11218012     800820              20050926       0000
+BIB                  2          2
+REACTION   (12-MG-26(N,INL)12-MG-26,PAR,DA,G,4PI)
+STATUS     (DEP,11218009) FROM CROSS SECTION FOR NATURAL MG.
+ENDBIB               2
+COMMON               1          3
+E
+MEV
+    1.820
+ENDCOMMON            3
+DATA                 2          1
+EN         DATA
+MEV        B
+ 2.56   +00 1.45   -01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11218013     800820              20050926       0000
+BIB                  1          1
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,DA,G,4PI)
+ENDBIB               1
+COMMON               1          3
+EN
+MEV
+ 2.56   +00
+ENDCOMMON            3
+DATA                 3          4
+E          DATA       DATA-ERR
+MEV        B          B
+ 0.166  +00 1.5    -03 4.     -04
+ 0.840  +00 6.1    -02 7.     -03
+ 1.017  +00 1.36   -01 1.2    -02
+ 2.21   +00 8.4    -02 8.     -03
+ENDDATA              6
+ENDSUBENT           16
+SUBENT        11218014     800820              20050926       0000
+BIB                  1          2
+REACTION   (16-S-32(N,X)0-G-0,PAR,DA,,4PI)
+            ASSIGNED TO S-32 (N,P)
+ENDBIB               2
+COMMON               1          3
+EN
+MEV
+ 2.56
+ENDCOMMON            3
+DATA                 3          2
+E          DATA       DATA-ERR
+MEV        B          B
+ 0.077      1.2    -02 2.     -03
+ 2.23       1.75   -01 1.6    -02
+ENDDATA              4
+ENDSUBENT           15
+SUBENT        11218015     800820              20050926       0000
+BIB                  1          1
+REACTION   (20-CA-0(N,INL),PAR,DA,G,4PI)
+ENDBIB               1
+COMMON               1          3
+EN
+MEV
+ 3.95   +00
+ENDCOMMON            3
+DATA                 3          7
+E          DATA       DATA-ERR
+MEV        B          B
+ 0.030  +00 1.20   -01 6.0    -02
+ 0.508  +00 9.6    -02 1.4    -02
+ 0.767  +00 6.8    -02 1.7    -02
+ 0.877  +00 7.     -03 4.     -03
+ 1.152  +00 2.2    -02 6.     -03
+ 3.74   +00 7.0    -02 2.9    -02
+ 3.9    +00 3.5    -02 1.5    -02
+ENDDATA              9
+ENDSUBENT           19
+SUBENT        11218016     800820              20050926       0000
+BIB                  2          2
+REACTION   (20-CA-40(N,INL)20-CA-40,PAR,DA,G,4PI)
+STATUS     (DEP) FROM CROSS SECTION FOR NATURAL CA.
+ENDBIB               2
+COMMON               1          3
+EN
+MEV
+ 3.95   +00
+ENDCOMMON            3
+DATA                 2          6
+E          DATA
+MEV        B
+ 0.030  +00 1.24   -01
+ 0.508  +00 1.01   -01
+ 0.767  +00 7.0    -02
+ 0.877  +00 7.     -03
+ 3.74   +00 7.2    -02
+ 3.9    +00 3.6    -02
+ENDDATA              8
+ENDSUBENT           19
+SUBENT        11218017     800820              20050926       0000
+BIB                  2          2
+REACTION   (20-CA-44(N,INL)20-CA-44,PAR,DA,G,4PI)
+STATUS     (DEP) FROM CROSS SECTION FOR NATURAL CA.
+ENDBIB               2
+COMMON               1          3
+EN
+MEV
+ 3.95   +00
+ENDCOMMON            3
+DATA                 3          1
+E          DATA       DATA-ERR
+MEV        B          B
+ 1.152      1.090      0.280
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11218018     800820              20050926       0000
+BIB                  1          1
+REACTION   (26-FE-0(N,INL),PAR,DA,G,4PI)
+ENDBIB               1
+COMMON               1          3
+EN
+MEV
+ 2.56   +00
+ENDCOMMON            3
+DATA                 3          6
+E          DATA       DATA-ERR
+MEV        B          B
+ 0.123  +00 1.2    -02 2.     -03
+ 0.847  +00 8.25   -01 6.6    -02
+ 1.241  +00 3.9    -02 5.     -03
+ 1.405  +00 4.5    -02 5.     -03
+ 2.18   +00 5.     -03 1.     -03
+ 2.3    +00 2.     -03 1.     -03
+ENDDATA              8
+ENDSUBENT           18
+SUBENT        11218019     800820              20050926       0000
+BIB                  2          2
+REACTION   (26-FE-54(N,INL)26-FE-54,PAR,DA,G,4PI)
+STATUS     (DEP) FROM CROSS SECTION FOR NATURAL FE.
+ENDBIB               2
+COMMON               1          3
+E
+MEV
+    1.405
+ENDCOMMON            3
+DATA                 2          1
+EN         DATA
+MEV        B
+ 2.56   +00 7.66   -01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11218020     800820              20050926       0000
+BIB                  2          2
+REACTION   (26-FE-56(N,INL)26-FE-56,PAR,DA,G,4PI)
+STATUS     (DEP) FROM CROSS SECTION FOR NATURAL FE.
+ENDBIB               2
+COMMON               1          3
+EN
+MEV
+ 2.56   +00
+ENDCOMMON            3
+DATA                 2          2
+E          DATA
+MEV        B
+ 0.847  +00 8.99   -01
+ 1.241  +00 4.4    -02
+ENDDATA              4
+ENDSUBENT           15
+SUBENT        11218021     800820              20050926       0000
+BIB                  2          2
+REACTION   (26-FE-57(N,INL)26-FE-57,PAR,DA,G,4PI)
+STATUS     (DEP) FROM CROSS SECTION FOR NATURAL FE.
+ENDBIB               2
+COMMON               1          3
+E
+MEV
+     .123
+ENDCOMMON            3
+DATA                 2          1
+EN         DATA
+MEV        B
+ 2.56   +00 5.16   -01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11218022     800820              20050926       0000
+BIB                  2          2
+REACTION   (28-NI-58(N,INL)28-NI-58,PAR,DA,G,4PI)
+STATUS     (DEP) FROM CROSS SECTION FOR NATURAL NI.
+ENDBIB               2
+COMMON               1          3
+E
+MEV
+    1.453
+ENDCOMMON            3
+DATA                 2          1
+EN         DATA
+MEV        B
+ 2.56   +00 5.47   -01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11218023     800820              20050926       0000
+BIB                  2          2
+REACTION   (28-NI-60(N,INL)28-NI-60,PAR,DA,G,4PI)
+STATUS     (DEP) FROM CROSS SECTION FOR NATURAL NI.
+ENDBIB               2
+COMMON               1          3
+EN
+MEV
+ 2.56   +00
+ENDCOMMON            3
+DATA                 2          3
+E          DATA
+MEV        B
+ 0.827  +00 2.05   -01
+ 1.329  +00 6.64   -01
+ 2.18   +00 6.2    -02
+ENDDATA              5
+ENDSUBENT           16
+SUBENT        11218024     800820              20050926       0000
+BIB                  1          1
+REACTION   (28-NI-0(N,INL),PAR,DA,G,4PI)
+ENDBIB               1
+COMMON               1          3
+EN
+MEV
+ 2.56   +00
+ENDCOMMON            3
+DATA                 3          4
+E          DATA       DATA-ERR
+MEV        B          B
+ 0.827  +00 5.4    -02 1.0    -02
+ 1.329  +00 1.74   -01 2.0    -02
+ 1.453  +00 3.73   -01 3.6    -02
+ 2.18   +00 1.6    -02 0.5    -02
+ENDDATA              6
+ENDSUBENT           16
+SUBENT        11218025     800820              20050926       0000
+BIB                  1          1
+REACTION   (29-CU-0(N,INL),PAR,DA,G,4PI)
+ENDBIB               1
+COMMON               1          3
+EN
+MEV
+ 2.56   +00
+ENDCOMMON            3
+DATA                 4         12
+E          DATA       DATA-ERR   DATA-MAX
+MEV        B          B          B
+ 0.365  +00 4.7    -02 1.0    -02
+ 0.651  +00 6.8    -02 1.7    -02
+ 0.764  +00 4.5    -02 1.4    -02
+ 0.958  +00 3.52   -01 4.6    -02
+ 1.110  +00 1.59   -01 2.0    -02
+ 1.325  +00 1.06   -01 1.7    -02
+ 1.41   +00 5.8    -02 1.9    -02
+ 1.47   +00 2.9    -02 1.4    -02
+ 1.55   +00 4.7    -02 1.0    -02
+ 1.88   +00 2.5    -02 0.9    -02
+ 2.07   +00 3.6    -02 0.7    -02
+ 2.52   +00                      3.      -03
+ENDDATA             14
+ENDSUBENT           24
+SUBENT        11218026     800820              20050926       0000
+BIB                  2          2
+REACTION   (29-CU-63(N,INL)29-CU-63,PAR,DA,G,4PI)
+STATUS     (DEP) FROM CROSS SECTION FOR NATURAL CU.
+ENDBIB               2
+COMMON               1          3
+EN
+MEV
+ 2.56   +00
+ENDCOMMON            3
+DATA                 3          7
+E          DATA       DATA-MAX
+MEV        B          B
+ 0.651  +00 9.9    -02
+ 0.958  +00 5.10   -01
+ 1.325  +00 1.54   -01
+ 1.41   +00 8.4    -02
+ 1.55   +00 6.8    -02
+ 1.88   +00 3.6    -02
+ 2.52   +00            4.     -03
+ENDDATA              9
+ENDSUBENT           20
+SUBENT        11218027     800820              20050926       0000
+BIB                  2          2
+REACTION   (29-CU-65(N,INL)29-CU-65,PAR,DA,G,4PI)
+STATUS     (DEP) FROM CROSS SECTION FOR NATURAL CU.
+ENDBIB               2
+COMMON               1          3
+EN
+MEV
+ 2.56   +00
+ENDCOMMON            3
+DATA                 2          3
+E          DATA
+MEV        B
+ 0.365  +00 1.52   -01
+ 1.110  +00 5.16   -01
+ 1.47   +00 9.2    -02
+ENDDATA              5
+ENDSUBENT           16
+SUBENT        11218028     800820              20050926       0000
+BIB                  1          1
+REACTION   (73-TA-181(N,INL)73-TA-181,PAR,DA,G,4PI)
+ENDBIB               1
+COMMON               1          3
+EN
+MEV
+2.56    +00
+ENDCOMMON            3
+DATA                 3          4
+E          DATA       DATA-ERR
+MEV        B          B
+ .137   +00 4.34   -01 6.1    -02
+ .164   +00 2.34   -01 3.6    -02
+ .350   +00 1.32   -01 4.0    -02
+ .485   +00 8.21   -01 1.06   -01
+ENDDATA              6
+ENDSUBENT           16
+SUBENT        11218029     800820              20050926       0000
+BIB                  1          1
+REACTION   (82-PB-0(N,INL),PAR,DA,G,4PI)
+ENDBIB               1
+COMMON               1          3
+EN
+MEV
+ 2.56   +00
+ENDCOMMON            3
+DATA                 3          7
+E          DATA       DATA-ERR
+MEV        B          B
+ 0.533  +00 1.37   -01 2.5    -02
+ 0.570  +00 2.05   -01 3.6    -02
+ 0.661  +00 0.66   -01 2.0    -02
+ 0.802  +00 3.31   -01 3.6    -02
+ 0.888  +00 1.37   -01 2.0    -02
+ 1.43   +00 0.31   -01 1.5    -02
+ 1.73   +00 0.46   -01 2.0    -02
+ENDDATA              9
+ENDSUBENT           19
+SUBENT        11218030     800820              20050926       0000
+BIB                  2          2
+REACTION   (82-PB-206(N,INL)82-PB-206,PAR,DA,G,4PI)
+STATUS     (DEP) FROM CROSS SECTION FOR NATURAL PB.
+ENDBIB               2
+COMMON               1          3
+EN
+MEV
+ 2.56   +00
+ENDCOMMON            3
+DATA                 2          5
+E          DATA
+MEV        B
+ 0.533  +00 5.61   -01
+ 0.661  +00 2.70   -01
+ 0.802  +00 1.351  +00
+ 1.43   +00 1.24   -01
+ 1.73   +00 1.87   -01
+ENDDATA              7
+ENDSUBENT           18
+SUBENT        11218031     800820              20050926       0000
+BIB                  2          2
+REACTION   (82-PB-207(N,INL)82-PB-207,PAR,DA,G,4PI)
+STATUS     (DEP) FROM CROSS SECTION FOR NATURAL PB.
+ENDBIB               2
+COMMON               1          3
+EN
+MEV
+ 2.56   +00
+ENDCOMMON            3
+DATA                 2          2
+E          DATA
+MEV        B
+ 0.570  +00 9.30   -01
+ 0.888  +00 6.18   -01
+ENDDATA              4
+ENDSUBENT           15
+ENDENTRY            31

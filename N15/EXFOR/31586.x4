@@ -1,0 +1,75 @@
+ENTRY            31586   20180523   20180629   20180629       3185
+SUBENT        31586001   20180523   20180629   20180629       3185
+BIB                 15         26
+TITLE      Improved accuracy of gamma-ray intensities from basic
+            principles for the calibration reaction 14N(n,g)15N
+AUTHOR     (T.Belgya)
+INSTITUTE  (3HUNII)
+REFERENCE  (J,PR/C,74,024603,2006)
+FACILITY   (REAC,3HUNKFI) PGAA-NIPS facilities
+INC-SPECT  The cold neutron flux was measured to be 5x10**7n/s/cm2
+            at the target position.
+SAMPLE     (7-N-14,NAT=0.99632)
+            Urea-d (ND2COND2) powder (1.194 g) was put into a
+             thin Teflon bag of 2x3 cm2 area to minimize gamma-
+             ray absorption.
+            An experiment with a 2 mm thick and 2 cm diameter
+             pressed pellet of urea-d was also performed to
+             determine the contribution of the Teflon bag.
+DETECTOR   (HPGE) Compton-suppressed HPGe detector
+METHOD     (ACTIV) Activation
+INC-SOURCE (REAC)
+MONITOR    ((MONIT)7-N-0(N,G),PAR,SIG)
+MONIT-REF  (31555002,Zs.Revay+,J,JRN,265,169,2005)
+COMMENT    T.Belgya (2011-10-20):
+            2200 m/s cross sections are given in Table II.
+STATUS     (TABLE) Table II of Phys.Rev.C74(2006)024603
+HISTORY    (20061213C)
+           (20111026A) On. EN value changed
+           (20180523A) On. Major revision in 002.
+ENDBIB              26
+COMMON               4          3
+EN         E-NRM      MONIT      MONIT-ERR
+EV         KEV        MB         MB
+ 0.0253     1885.      14.52      0.07
+ENDCOMMON            3
+ENDSUBENT           33
+SUBENT        31586002   20180523   20180629   20180629       3185
+BIB                  3          6
+REACTION   (7-N-14(N,G)7-N-15,PAR,SIG)
+ERR-ANALYS (ERR-T) Quadrature sum of statistical uncertainty and
+           (ERR-1) Uncertainties due to neglected pair conversion
+            correction and absorption correction (0.5%)
+HISTORY    (20111026A) On. ERR-ANALYSIS added
+           (20180523A) On. ERR-ANALYS(ERR-1) corrected.
+ENDBIB               6
+COMMON               1          3
+ERR-1
+PER-CENT
+ 0.5
+ENDCOMMON            3
+DATA                 3         19
+E          DATA       ERR-T
+KEV        MB         MB
+  1678.      6.26      0.04
+  1681.      1.28      0.01
+  1885.     14.57      0.09
+  1999.      3.15      0.02
+  2521.      4.29      0.04
+  2831.      1.33      0.01
+  3532.      7.13      0.06
+  3678.     11.47      0.10
+  4509.     13.28      0.11
+  5269.     24.03      0.21
+  5298.     17.08      0.19
+  5533.     15.82      0.15
+  5562.      8.67      0.09
+  6322.     14.89      0.13
+  7299.      7.68      0.08
+  8310.      3.34      0.05
+  9149.      1.14      0.05
+  9152.      0.11      0.05
+ 10289.     11.3       1.5
+ENDDATA             21
+ENDSUBENT           36
+ENDENTRY             2

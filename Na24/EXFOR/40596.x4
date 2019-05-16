@@ -1,0 +1,463 @@
+ENTRY            40596   20180209   20180525   20180525       4178
+SUBENT        40596001   20180209   20180525   20180525       4178
+BIB                 10         24
+INSTITUTE  (4UKRKGU)
+REFERENCE  (J,YF,28,16,1978) Issue 1
+           (J,SNP,28,7,1978) Engl.transl.of J,YF,28,16,1978
+           ((C,77KIEV,1,256,1977)=
+           (R,INDC(CCP)-118,1977)) Part I
+            Graphs given
+AUTHOR     (Yu.E.Kozy, G.A.Prokopets)
+TITLE      The reactions (n,n'gamma), (n,np), and (n,pn) in 23Na,
+            27Al, and 32S at a neutron energy 14.6 MeV
+INC-SOURCE (D-T)      Angular divergence of beam is 1.5 degrees.
+METHOD     (TOF)      Time-of-flight, resolution 4.0 - 1.7 nsec/m.
+DETECTOR   (SCIN)     Four stilbene crystals, neutron detection
+           (NAICR)    Gamma detection
+CORRECTION Corrections are introduced on samples dimensions and
+            gamma absorption in samples.
+STATUS     (TABLE) Data obtained 1978/4/10 and 1979/2/27, Kozyr'.
+HISTORY    (19790423C)  Compiled at the Centre
+           (19851003U)
+           (20020822A) Restored from old Dbase. Date is corrected
+           (20030401A) Two subentries added
+           (20031010A) Reference updated. BIB updated.
+            Nb moved to AN 41435; Fe and Co moved to AN 41316.
+           (20180209U) M.M. Refs. J,SNP,28,7,1978 ,
+           R,INDC(CCP)-118,1977 were added.
+ENDBIB              24
+COMMON               1          3
+EN
+MEV
+   1.46E+01
+ENDCOMMON            3
+ENDSUBENT           31
+SUBENT        40596004   20031014              20050926       0000
+BIB                  2          2
+REACTION   (13-AL-27(N,X)0-NN-1,,DA/DE)
+ERR-ANALYS (DATA-ERR)    Standard Deviation
+ENDBIB               2
+COMMON               1          3
+ANG
+ADEG
+     7.E+01
+ENDCOMMON            3
+DATA                 3         50
+E          DATA       DATA-ERR
+MEV        MB/SR/MEV  PER-CENT
+  1.406E+01       7.83         5.
+  1.341E+01     1.E+01         5.
+  1.280E+01       9.85         5.
+  1.223E+01       8.99         5.
+  1.169E+01       7.82         7.
+  1.119E+01       6.73         7.
+  1.072E+01       4.80         9.
+  1.028E+01       4.01         9.
+      9.872       3.60    1.1E+01
+      9.486       3.09    1.1E+01
+      9.124       3.52    1.1E+01
+      8.779       2.95    1.0E+01
+      8.455       3.03    1.0E+01
+      8.149       3.33    1.1E+01
+      7.853       3.21    1.3E+01
+      7.573       2.97    1.5E+01
+      7.308       4.04    1.3E+01
+      7.061       4.17    1.3E+01
+      6.827       3.65    1.2E+01
+      6.605       4.69    1.1E+01
+      6.393       4.92    1.1E+01
+      6.191       4.55    1.1E+01
+      5.998       5.16    1.2E+01
+      5.815       4.77    1.2E+01
+      5.636       4.47    1.1E+01
+      5.465       5.13    1.1E+01
+      5.305       5.58    1.0E+01
+      5.152       5.90    1.0E+01
+      5.006       5.60    1.0E+01
+      4.799       5.79    1.1E+01
+      4.542       6.67         9.
+      4.303       7.84         9.
+      4.080       9.15         9.
+      3.878       8.82    1.0E+01
+      3.690       9.47         9.
+      3.515   1.17E+01         9.
+      3.352   1.14E+01         8.
+      3.199   1.28E+01         7.
+      3.057   1.26E+01         8.
+      2.925   1.13E+01         9.
+      2.802   1.21E+01         8.
+      2.685   1.28E+01         8.
+      2.575   1.32E+01         9.
+      2.473   1.39E+01         9.
+      2.377   1.30E+01         8.
+      2.243   1.36E+01         9.
+      2.082   1.47E+01         9.
+      1.933   1.57E+01         8.
+      1.815   1.62E+01         9.
+      1.698   1.67E+01    1.0E+01
+ENDDATA             52
+ENDSUBENT           63
+SUBENT        40596005   20031014              20050926       0000
+BIB                  3          4
+REACTION   (13-AL-27(N,X)0-NN-1,,DE)
+ANALYSIS   (4PI1A) 4pi times double-differential cross section
+            at 70 degrees.
+ERR-ANALYS (DATA-ERR)   Standard Deviation
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3         29
+E          DATA       DATA-ERR
+MEV        MB/MEV     PER-CENT
+   1.18E+01   1.33E+01    1.9E+01
+   1.05E+01   2.53E+01    1.0E+01
+       9.36   3.09E+01         8.
+       8.42   3.21E+01         8.
+       7.61   3.39E+01         8.
+       6.91   5.33E+01         6.
+       6.31   6.44E+01         6.
+       5.78   6.79E+01         6.
+       5.32   7.80E+01         6.
+       4.91   8.38E+01         6.
+       4.54   8.90E+01         5.
+       4.07   9.20E+01         4.
+       3.54   1.06E+02         4.
+       3.11   1.12E+02         5.
+       2.76   1.14E+02         5.
+       2.46   1.34E+02         5.
+       2.21   1.53E+02         5.
+       1.99   1.43E+02         6.
+       1.8    1.67E+02         6.
+       1.65   1.65E+02         7.
+       1.51   1.60E+02         8.
+       1.38   1.58E+02         9.
+       1.27   1.31E+02    1.2E+01
+       1.13   1.42E+02    1.0E+01
+    9.8E-01   1.29E+02    1.7E+01
+   8.56E-01   1.09E+02    1.9E+01
+   7.54E-01   7.04E+01    4.6E+01
+   6.69E-01   3.17E+01    1.5E+02
+   5.66E-01         0.
+ENDDATA             31
+ENDSUBENT           40
+SUBENT        40596006   20031014              20050926       0000
+BIB                  4          5
+REACTION   (13-AL-27(N,INL)13-AL-27,,DE)
+METHOD     (COINC) n-gamma coincidence.
+ANALYSIS   (4PI1A) 4pi times double-differential cross section
+            at 70 degrees.
+ERR-ANALYS (DATA-ERR)   Standard Deviation
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3         28
+E          DATA       DATA-ERR
+MEV        MB/MEV     PER-CENT
+   1.09E+01   2.37E+01    3.7E+01
+       9.67   2.13E+01    1.3E+01
+       8.64   2.64E+01    1.0E+01
+       7.76   3.67E+01         8.
+       7.01   4.96E+01         6.
+       6.37   6.38E+01         5.
+       5.81   6.97E+01         4.
+       5.32   7.10E+01         4.
+       4.89   7.34E+01         4.
+       4.51   7.48E+01         4.
+       4.18   7.91E+01         4.
+       3.74   8.03E+01         3.
+       3.25   8.32E+01         3.
+       2.86   7.95E+01         3.
+       2.53   7.74E+01         4.
+       2.26   7.51E+01         6.
+       2.02   7.21E+01         7.
+       1.83   7.62E+01         7.
+       1.66   6.98E+01         9.
+       1.51   7.24E+01         9.
+       1.38   5.35E+01    1.3E+01
+       1.27   5.41E+01    1.4E+01
+       1.17   5.07E+01    1.7E+01
+       1.04   5.49E+01    1.4E+01
+   8.98E-01   3.82E+01    2.3E+01
+   7.84E-01   2.42E+01    4.7E+01
+   6.91E-01   2.09E+01    7.5E+01
+   6.12E-01         0.
+ENDDATA             30
+ENDSUBENT           40
+SUBENT        40596008   20031014              20050926       0000
+BIB                  4          5
+REACTION  1(13-AL-27(N,N+P)12-MG-26,SEQ,SIG)
+          2(13-AL-27(N,P+N)12-MG-26,SEQ,SIG)
+ERR-ANALYS (DATA-ERR)  Systematic Error
+STATUS     Data taken from Table in main reference.
+HISTORY    (20031010A) Data corrected.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 130.        10.        75.        10.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        40596009   20031014              20050926       0000
+BIB                  3          4
+REACTION   (11-NA-23(N,INL)11-NA-23,,DE)
+ANALYSIS   (4PI1A) 4pi times double-differential cross section
+            at 70 degrees.
+ERR-ANALYS (DATA-ERR)  Standard Deviation
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3         28
+E          DATA       DATA-ERR
+MEV        MB/MEV     PER-CENT
+   1.09E+01   1.21E+01    3.0E+01
+       9.67   1.59E+01    1.6E+01
+       8.64   2.44E+01    1.2E+01
+       7.76   4.69E+01         8.
+       7.01   6.39E+01         7.
+       6.37   6.72E+01         7.
+       5.81   8.36E+01         7.
+       5.32   8.87E+01         7.
+       4.89   7.87E+01         7.
+       4.51   7.65E+01         7.
+       4.18   5.93E+01         8.
+       3.74   7.54E+01         5.
+       3.25   5.97E+01         6.
+       2.86   5.76E+01         7.
+       2.53   4.65E+01         9.
+       2.26   4.29E+01    1.0E+01
+       2.02   3.76E+01    1.2E+01
+       1.83   4.38E+01    1.2E+01
+       1.66   2.40E+01    2.1E+01
+       1.51   2.62E+01    2.3E+01
+       1.38   3.97E+01    1.9E+01
+       1.27   3.25E+01    2.5E+01
+       1.17   1.90E+01    4.4E+01
+       1.04   1.70E+01    4.1E+01
+   8.98E-01   3.30E+01    3.0E+01
+   7.84E-01   2.84E+01    4.5E+01
+   6.91E-01   5.84E+01    3.1E+01
+   6.12E-01   2.66E+01    1.0E+02
+ENDDATA             30
+ENDSUBENT           39
+SUBENT        40596010   20031014              20050926       0000
+BIB                  3          4
+REACTION   (11-NA-23(N,X)0-NN-1,,DE)
+ANALYSIS   (4PI1A) 4pi times double-differential cross section
+            at 70 degrees.
+ERR-ANALYS (DATA-ERR)  Standard Deviation
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3         29
+E          DATA       DATA-ERR
+MEV        MB/MEV     PER-CENT
+   1.18E+01   1.33E+01    2.5E+01
+   1.05E+01   3.33E+01    1.0E+01
+       9.36   3.38E+01    1.0E+01
+       8.42   4.30E+01         8.
+       7.61   5.22E+01         7.
+       6.91   6.48E+01         7.
+       6.31   7.24E+01         6.
+       5.78   8.44E+01         6.
+       5.32   7.92E+01         7.
+       4.91   9.62E+01         6.
+       4.54   9.92E+01         6.
+       4.07   1.07E+02         5.
+       3.54   1.07E+02         5.
+       3.11   1.28E+02         5.
+       2.76   1.35E+02         6.
+       2.46   1.56E+02         6.
+       2.21   1.71E+02         6.
+       1.99   1.76E+02         7.
+       1.80   1.82E+02         8.
+       1.65   1.69E+02         9.
+       1.51   2.00E+02         9.
+       1.38   1.75E+02    1.2E+01
+       1.27   1.87E+02    1.3E+01
+       1.13   1.66E+02    1.2E+01
+    9.8E-01   2.30E+02    1.3E+01
+   8.56E-01   1.59E+02    2.3E+01
+   7.54E-01   9.59E+01    6.9E+01
+   6.69E-01   6.97E+01    7.0E+01
+   5.66E-01   1.91E+01    5.0E+02
+ENDDATA             31
+ENDSUBENT           40
+SUBENT        40596011   20031014              20050926       0000
+BIB                  4          6
+REACTION   (11-NA-23(N,INL)11-NA-23,,SIG)
+ERR-ANALYS (DATA-ERR)  Systematic errors of experiment
+STATUS     Data taken from Table in main reference.
+HISTORY    (20021125A) Restored. Analysis Keyword Added
+           (20021126U) Last checking has been done.
+           (20031010A) Partial data moved to SAN 40596037
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 560.        60.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        40596012   20031014              20050926       0000
+BIB                  4          7
+REACTION  1(11-NA-23(N,N+P)10-NE-22,SEQ,SIG)
+          2(11-NA-23(N,P+N)10-NE-22,SEQ,SIG)
+ERR-ANALYS (DATA-ERR) Evaluation of Systematic Errors of Experimnt
+STATUS     Data taken from Table in main reference.
+HISTORY    (20021125A)  Analysis Keyword Added
+           (20021126U) Last checking has been done.
+           (20031010A) Data corrected.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 270.        30.       110.        10.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40596015   20031014              20050926       0000
+BIB                  5          6
+REACTION   (16-S-32(N,INL)16-S-32,,DE)
+METHOD     (COINC) Neutron-gamma coincidence
+ANALYSIS   (4PI1A) 4pi times double-differential cross section
+            at 70 degrees.
+ERR-ANALYS (ERR-S)    Standard Deviation
+HISTORY    (20021126A)   Part of Data Moved to SAN 025
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3         19
+E          DATA       ERR-S
+MEV        MB/MEV     PER-CENT
+      11.6        18.7        11.
+      10.2        19.8        10.
+       9.07       23.5        10.
+       8.1        28.1         9.
+       7.28       24.5         8.
+       6.57       27.3         6.
+       5.97       26.4         6.
+       5.44       27.9         6.
+       4.8        28.6         4.
+       4.06       26.2         4.
+       3.5        20.3         4.
+       3.1        17.1         5.
+       2.67       17.5         7.
+       2.36       14.1        10.
+       2.11       13.3        13.
+       1.89       17.2        12.
+       1.62       15.3        14.
+       1.35       19.8        12.
+       1.13       24.2        12.
+ENDDATA             21
+ENDSUBENT           32
+SUBENT        40596016   20031014              20050926       0000
+BIB                  3          4
+REACTION   (16-S-32(N,INL)16-S-32,,SIG)
+ERR-ANALYS (DATA-ERR)  Systematic Error of the Experiment
+HISTORY    (20021125A)  Restored. Analysis Keyword Added
+           (20030401A)  .Partial reaction moved to SAN 031, 032
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+       270.        30.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        40596017   20031014              20050926       0000
+BIB                  4          7
+REACTION  1(16-S-32(N,N+P)15-P-31,SEQ,SIG)
+          2(16-S-32(N,P+N)15-P-31,SEQ,SIG)
+ERR-ANALYS (DATA-ERR)  Systematic Error of the Experiment
+STATUS     Data taken from Table in main reference.
+HISTORY    (20021125A)  Restored. Analysis Keyword Added
+           (20021126U) Last checking has been done.
+           (20031010A) Data corrected.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 120.        20.       130.        10.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40596025   20031014              20050926       0000
+BIB                  4          7
+REACTION   (16-S-32(N,X)0-NN-1,,DE)
+ANALYSIS   (4PI1A) 4pi times double-differential cross section
+            at 70 degrees.
+ERR-ANALYS (DATA-ERR) Standard Deviation
+HISTORY    (20021126C)   Compiled at CJD
+                         Moved from the Former SAN 015
+           (20021126U) Last checking has been done.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3         21
+E          DATA       DATA-ERR
+MEV        MB/MEV     PER-CENT
+      11.6       20.1       10.
+      10.2       22.3       12.
+      9.07       19.7       12.
+      8.1        23.2       12.
+      7.28       20.9       10.
+      6.57       23.8       10.
+      5.97       25.         8.
+      5.44       29.7        9.
+      4.8        36.6        7.
+      4.06       38.4        7.
+      3.5        47.         9.
+      3.1        54.7        7.
+      2.67       57.1        7.
+      2.36       80.         6.
+      2.11       78.2       10.
+      1.89       98.5        9.
+      1.62      101.         7.
+      1.35      112.         8.
+      1.13      111.        12.
+      0.969     116.        15.
+      0.785     114.        17.
+ENDDATA             23
+ENDSUBENT           35
+SUBENT        40596031   20031014              20050926       0000
+BIB                  3          4
+REACTION   (16-S-32(N,INL)16-S-32,PAR,SIG)
+            For excitation energy lower than binding energy
+ERR-ANALYS (DATA-ERR)  Systematic Error of the Experiment
+HISTORY    (20030401C)   Compiled at the center - CJD
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+E-EXC-MAX  DATA       DATA-ERR
+KEV        MB         MB
+ 15042.      160.        20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        40596032   20031014              20050926       0000
+BIB                  3          4
+REACTION   (16-S-32(N,INL)16-S-32,PAR,SIG)
+            For excitation energy higher than binding energy
+ERR-ANALYS (DATA-ERR)  Systematic Error of the Experiment
+HISTORY    (20030401C)   Compiled at the center - CJD
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+E-EXC-MIN  DATA       DATA-ERR
+KEV        MB         MB
+ 15042.      110.        20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        40596037   20031014              20050926       0000
+BIB                  4          8
+REACTION  2(11-NA-23(N,INL)11-NA-23,PAR,SIG)
+            For excitation energy higher than binding energy.
+          3(11-NA-23(N,INL)11-NA-23,PAR,SIG)
+            For excitation energy lower than binding energy.
+ERR-ANALYS (DATA-ERR)  Error from evaluation of systematic
+                       errors of experiment.
+STATUS     .DATA OBTAINED FROM AUTHORS.E-EXCs - FROM WALLET CARD
+HISTORY    (20031010A) Moved from data set 40596011.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 6          1
+E-EXC-MIN 2DATA      2DATA-ERR  2E-EXC-MAX 3DATA      3DATA-ERR  3
+MEV        MB         MB         MEV        MB         MB
+ 9.530      300.        50.       9.530      260.        30.
+ENDDATA              3
+ENDSUBENT           16
+ENDENTRY            16

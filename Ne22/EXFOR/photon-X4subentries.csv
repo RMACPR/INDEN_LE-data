@@ -1,0 +1,3 @@
+subentry,X4file,target,reaction,measure,description,ENmin,ENmax,rows,uncertainties,authors,year,reference
+"M0596004","M0596.x4","Ne-22","G,N","CS","Cross section for 22Ne(gamma,n)21Ne","16.0","26.0","51"," ","V.V.Varlamov,M.E.Stepanov","1999","Report other than progress report: MSU-INP-99-40/598  (1999)"
+"M0596006","M0596.x4","Ne-22","G,P","CS","Cross section for 22Ne(gamma,p)21F","18.46","29.93","79"," ","V.V.Varlamov,M.E.Stepanov","1999","Report other than progress report: MSU-INP-99-40/598  (1999)"

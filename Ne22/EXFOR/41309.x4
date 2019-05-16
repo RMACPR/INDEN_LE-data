@@ -1,0 +1,64 @@
+ENTRY            41309   19981130   19990308   20050926       0000
+SUBENT        41309001   19981130   19990308   20050926       0000
+BIB                  8         10
+TITLE       MEASUREMENTS OF THE THERMAL NEUTRON CROSS-SECTIONS
+            OF THE O-17(N,A), AR-36(N,A) AND NE-21(N,A) REACTIONS
+AUTHOR     (YU.M.GLEDENOV,V.I.SALATSKIY,P.V.SEDYSHEV,
+           P.I.SHALAN'SKI,YU.ANDRZEEVSKI,A.ZHAK)
+INSTITUTE  (4ZZZDUB,3POLLOU)
+REFERENCE  (R,JINR-P3-97-239,199708) MAIN REFERENCE, DATA GIVEN
+FACILITY   (REAC,4ZZZDUB)  REACTOR IBR-2
+DETECTOR   (IOCH) IONIZATION CHAMBER
+STATUS     .DATA ARE TAKEN FROM THE REFERENCE
+HISTORY    (19981130C)  + + COMPILED AT THE CENTRE - CJD + +
+ENDBIB              10
+COMMON               1          3
+EN-MEAN
+EV
+   2.53E-02
+ENDCOMMON            3
+ENDSUBENT           17
+SUBENT        41309002   19981130   19990308   20050926       0000
+BIB                  3          4
+REACTION   (8-O-17(N,A)6-C-14,,SIG,,MXW)
+SAMPLE      GAS MIXTURE AR(93.75 PC) COAL OXIDE C-O2 (6.25 PC)
+            AND HE-3 (1.8E-5PC) AT 1.2 AT PRESSURE
+MONITOR    (2-HE-3(N,P)1-H-3,,SIG,,MXW)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT      MONIT-ERR
+MB         MB         B          B
+  233.       12.       5333.      7.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        41309003   19981130   19990308   20050926       0000
+BIB                  3          4
+REACTION   (18-AR-36(N,A)16-S-33,,SIG,,MXW)
+SAMPLE      GAS MIXTURE AR(93.75 PC) COAL OXIDE C-O2 (6.25 PC)
+            AND HE-3 (1.8E-5PC) AT 1.2 AT PRESSURE
+MONITOR    (2-HE-3(N,P)1-H-3,,SIG,,MXW)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT      MONIT-ERR
+MB         MB         B          B
+  5.43       0.27       5333.      7.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        41309004   19981130   19990308   20050926       0000
+BIB                  4          5
+REACTION   (10-NE-21(N,A)8-O-18,,SIG,,MXW)
+SAMPLE      GAS MIXTURE NEON (95 PC) AND C-O2 (5PC) AT PRESSURE
+            1.7 ATM.
+MONITOR    (8-O-17(N,A)6-C-14,,SIG,,MXW)
+MONIT-REF  (,MUGHABGHAB+,B,NEUT.CS 1A,,1981)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT      MONIT-ERR
+MB         MB         MB         MB
+  0.18       0.09      235.        10.
+ENDDATA              3
+ENDSUBENT           13
+ENDENTRY             4

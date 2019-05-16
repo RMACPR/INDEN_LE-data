@@ -1,0 +1,425 @@
+ENTRY            O2095   20121106   20130530   20130516       O050
+SUBENT        O2095001   20121106   20130530   20130516       O050
+BIB                 10         13
+TITLE      An investigation of deuteron induced reactions by
+           magnetic analysis - Results for neon and argon
+AUTHOR     (H.B.Burrows, T.S.Green, S.Hinds, R.Middleton)
+INSTITUTE  (2UK LVP)
+REFERENCE  (J,PPS/A,69,310,1956)
+FACILITY   (CYCLO,2UK LVP) the 37-in. cyclotron at the Nuclear
+           Phys.Research Laboratory, Liverpool
+METHOD     (BCINT)
+DETECTOR   (PLATE)
+SAMPLE     The beryllium target was a self-supporting foil of
+ERR-ANALYS (DATA-ERR).The uncertainty is reported by authors on
+           figures.
+HISTORY    (20121124C) SB
+ENDBIB              13
+COMMON               1          3
+EN
+MEV
+8.5
+ENDCOMMON            3
+ENDSUBENT           20
+SUBENT        O2095002   20121106   20130530   20130516       O050
+BIB                  3          3
+REACTION   (10-NE-20(D,P)10-NE-21,PAR,DA,,REL)
+EN-SEC     (E-LVL,10-NE-21)
+STATUS     (CURVE).Fig 2 of J,PPS/A,69,310,1956
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+0.00
+ENDCOMMON            3
+DATA                 3          6
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+       9.93     10.592      0.813
+      15.53     11.354      1.104
+      20.64     10.720      0.988
+      25.92     10.145      0.813
+      36.64      9.925      0.872
+      47.20      8.193      0.756
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        O2095003   20121106   20130530   20130516       O050
+BIB                  3          3
+REACTION   (10-NE-20(D,P)10-NE-21,PAR,DA,,REL)
+EN-SEC     (E-LVL,10-NE-21)
+STATUS     (CURVE).Fig 2 of J,PPS/A,69,310,1956
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+0.35
+ENDCOMMON            3
+DATA                 3          6
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      10.55     55.188      2.293
+      16.16     76.720      3.936
+      21.23    105.468      4.593
+      26.29    132.906      6.227
+      36.24    121.933      6.224
+      47.18     73.597      4.261
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        O2095004   20121106   20130530   20130516       O050
+BIB                  3          3
+REACTION   (10-NE-20(D,P)10-NE-21,PAR,DA,,REL)
+EN-SEC     (E-LVL,10-NE-21)
+STATUS     (CURVE).Fig 2 of J,PPS/A,69,310,1956
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+1.73
+ENDCOMMON            3
+DATA                 3          5
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+       3.08   1803.289
+       9.91   1272.827
+      15.62    630.921     29.978
+      26.40    109.364     25.696
+      29.66     19.707
+ENDDATA              7
+ENDSUBENT           19
+SUBENT        O2095005   20121106   20130530   20130516       O050
+BIB                  3          3
+REACTION   (10-NE-20(D,P)10-NE-21,PAR,DA,,REL)
+EN-SEC     (E-LVL,10-NE-21)
+STATUS     (CURVE).Fig 2 of J,PPS/A,69,310,1956
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+4.58
+ENDCOMMON            3
+DATA                 3          6
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      10.52     86.396      4.754
+      16.17     99.319      4.448
+      21.21    100.089      5.641
+      27.19     97.573      6.515
+      37.03     76.863      4.735
+      47.28     55.847      4.157
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        O2095006   20121106   20130530   20130516       O050
+BIB                  3          3
+REACTION   (10-NE-20(D,P)10-NE-21,PAR,DA,,REL)
+EN-SEC     (E-LVL,10-NE-21)
+STATUS     (CURVE).Fig 2 of J,PPS/A,69,310,1956
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+4.81
+ENDCOMMON            3
+DATA                 3          7
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+       8.21   1284.586     46.021
+      11.10   1224.808     46.103
+      16.31   1082.335     32.892
+      21.61    785.244     36.235
+      26.90    468.419     29.657
+      37.46    176.868
+      50.29     16.446
+ENDDATA              9
+ENDSUBENT           21
+SUBENT        O2095007   20121106   20130530   20130516       O050
+BIB                  3          3
+REACTION   (10-NE-20(D,P)10-NE-21,PAR,DA,,REL)
+EN-SEC     (E-LVL,10-NE-21)
+STATUS     (CURVE).Fig 2 of J,PPS/A,69,310,1956
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+5.43
+ENDCOMMON            3
+DATA                 3          6
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      10.69    158.248      9.163
+      15.92    163.526      9.166
+      21.26    141.849     10.245
+      26.75    134.184      9.154
+      37.97     80.038      6.459
+      48.26     65.262      4.854
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        O2095008   20121106   20130530   20130516       O050
+BIB                  3          3
+REACTION   (10-NE-20(D,P)10-NE-21,PAR,DA,,REL)
+EN-SEC     (E-LVL,10-NE-21)
+STATUS     (CURVE).Fig 2 of J,PPS/A,69,310,1956
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+5.78
+ENDCOMMON            3
+DATA                 3          6
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      11.11    139.662     10.401
+      16.47    147.865      8.437
+      21.94    144.678      7.909
+      27.40    137.531      7.920
+      37.63     78.707      5.929
+      47.94     44.633      5.451
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        O2095009   20121106   20130530   20130516       O050
+BIB                  3          3
+REACTION   (10-NE-20(D,P)10-NE-21,PAR,DA,,REL)
+EN-SEC     (E-LVL,10-NE-21)
+STATUS     (CURVE).Fig 2 of J,PPS/A,69,310,1956
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+6.72
+ENDCOMMON            3
+DATA                 3          6
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      11.26    383.688     16.008
+      16.56    307.807     18.306
+      22.08    182.710     15.999
+      26.82     96.570     13.748
+      37.79     45.472      9.162
+      47.99     50.493     11.432
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        O2095010   20121106   20130530   20130516       O050
+BIB                  3          3
+REACTION   (10-NE-22(D,P)10-NE-23,PAR,DA,,REL)
+EN-SEC     (E-LVL,10-NE-23)
+STATUS     (CURVE).Fig 3 of J,PPS/A,69,310,1956
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+0.00
+ENDCOMMON            3
+DATA                 3          6
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      10.67      3.452      0.637
+      16.12      5.760      1.246
+      21.46      7.404      1.441
+      26.52      9.489      1.967
+      36.69      9.285      1.883
+      47.48      5.702      1.274
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        O2095011   20121106   20130530   20130516       O050
+BIB                  3          3
+REACTION   (10-NE-22(D,P)10-NE-23,PAR,DA,,REL)
+EN-SEC     (E-LVL,10-NE-23)
+STATUS     (CURVE).Fig 3 of J,PPS/A,69,310,1956
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+0.98
+ENDCOMMON            3
+DATA                 3          6
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+       9.88    157.032      5.239
+      15.47     77.948      5.613
+      21.09     28.783      2.251
+      26.28      9.520
+      36.55     13.621      3.362
+      47.39      9.516
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        O2095012   20121106   20130530   20130516       O050
+BIB                  3          3
+REACTION   (18-AR-40(D,P)18-AR-41,PAR,DA,,REL)
+EN-SEC     (E-LVL,18-AR-41)
+STATUS     (CURVE).Fig 5 of J,PPS/A,69,310,1956
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+0.00
+ENDCOMMON            3
+DATA                 3          6
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      15.38     27.548      2.808
+      20.46     40.325      3.745
+      25.84     43.733      3.050
+      30.98     51.589      4.222
+      35.51     52.398      2.812
+      46.24     47.493      3.285
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        O2095013   20121106   20130530   20130516       O050
+BIB                  3          3
+REACTION   (18-AR-40(D,P)18-AR-41,PAR,DA,,REL)
+EN-SEC     (E-LVL,18-AR-41)
+STATUS     (CURVE).Fig 5 of J,PPS/A,69,310,1956
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+0.57
+ENDCOMMON            3
+DATA                 3          7
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+       9.14     94.543     11.227
+      14.92     95.924      5.227
+      20.17     82.411      4.440
+      25.62     55.579      3.395
+      30.94     26.395      2.095
+      36.33     14.450      2.352
+      46.44     15.104      2.345
+ENDDATA              9
+ENDSUBENT           21
+SUBENT        O2095014   20121106   20130530   20130516       O050
+BIB                  3          3
+REACTION   (18-AR-40(D,P)18-AR-41,PAR,DA,,REL)
+EN-SEC     (E-LVL,18-AR-41)
+STATUS     (CURVE).Fig 5 of J,PPS/A,69,310,1956
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+1.39
+ENDCOMMON            3
+DATA                 3          7
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      10.33    564.695     30.649
+      15.21    527.514     16.705
+      20.52    477.840     13.920
+      25.78    332.104     13.932
+      30.73    201.656      8.352
+      36.09     99.085      9.768
+      46.50     87.425      6.960
+ENDDATA              9
+ENDSUBENT           21
+SUBENT        O2095015   20121106   20130530   20130516       O050
+BIB                  3          3
+REACTION   (18-AR-40(D,P)18-AR-41,PAR,DA,,REL)
+EN-SEC     (E-LVL,18-AR-41)
+STATUS     (CURVE).Fig 5 of J,PPS/A,69,310,1956
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+2.46
+ENDCOMMON            3
+DATA                 3          6
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      11.36    154.084      9.749
+      16.30    137.772      8.238
+      21.65    115.070      4.500
+      26.45     72.510      4.119
+      31.46     41.569      2.619
+      36.82     22.241      3.000
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        O2095016   20121106   20130530   20130516       O050
+BIB                  3          3
+REACTION   (18-AR-40(D,P)18-AR-41,PAR,DA,,REL)
+EN-SEC     (E-LVL,18-AR-41)
+STATUS     (CURVE).Fig 5 of J,PPS/A,69,310,1956
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+2.79
+ENDCOMMON            3
+DATA                 3          7
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      10.08    148.224     10.285
+      15.49    127.091      6.857
+      21.07     96.694      5.838
+      26.20     73.837      5.491
+      31.21     47.544      2.746
+      36.01     35.662      3.089
+      46.15     18.091      2.746
+ENDDATA              9
+ENDSUBENT           21
+SUBENT        O2095017   20121106   20130530   20130516       O050
+BIB                  3          3
+REACTION   (18-AR-40(D,P)18-AR-41,PAR,DA,,REL)
+EN-SEC     (E-LVL,18-AR-41)
+STATUS     (CURVE).Fig 5 of J,PPS/A,69,310,1956
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+3.01
+ENDCOMMON            3
+DATA                 3          7
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      10.17    152.638     10.245
+      15.28    146.456      6.951
+      20.85    119.057      5.850
+      26.01     75.193      5.120
+      31.42     57.671      4.391
+      36.69     35.027      3.659
+      46.91     24.492      3.659
+ENDDATA              9
+ENDSUBENT           21
+SUBENT        O2095018   20121106   20130530   20130516       O050
+BIB                  3          3
+REACTION   (18-AR-40(D,P)18-AR-41,PAR,DA,,REL)
+EN-SEC     (E-LVL,18-AR-41)
+STATUS     (CURVE).Fig 5 of J,PPS/A,69,310,1956
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+3.36
+ENDCOMMON            3
+DATA                 3          6
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      10.14    324.714     14.139
+      15.62    260.032      8.188
+      20.52    198.319      9.675
+      25.99    158.202      4.469
+      31.17    109.148      6.700
+      36.07     68.278      4.464
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        O2095019   20121106   20130530   20130516       O050
+BIB                  3          3
+REACTION   (18-AR-40(D,P)18-AR-41,PAR,DA,,REL)
+EN-SEC     (E-LVL,18-AR-41)
+STATUS     (CURVE).Fig 5 of J,PPS/A,69,310,1956
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+3.98
+ENDCOMMON            3
+DATA                 3          7
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       ARB-UNITS  ARB-UNITS
+      10.34    306.575     16.267
+      15.60    257.534     12.408
+      21.29    212.352     10.083
+      26.12    162.553      5.426
+      31.50     96.453      4.645
+      36.35     68.358      4.645
+      44.67     49.431      2.314
+ENDDATA              9
+ENDSUBENT           21
+ENDENTRY            19

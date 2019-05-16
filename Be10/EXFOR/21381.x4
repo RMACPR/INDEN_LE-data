@@ -1,0 +1,148 @@
+ENTRY            21381   20050915   20060202   20051225       2174
+SUBENT        21381001   20050915   20060202   20051225       2174
+BIB                 15         25
+INSTITUTE  (2UK OXF) CLARENDON LAB.
+REFERENCE  (J,PR,82,969,195106) Main reference, data are given
+AUTHOR     (M.A.GRACE,L.E.BEGHIAN,G.PRESTON,H.HALBAN)
+TITLE      -THE INELASTIC SCATTERING OF FAST NEUTRONS -.
+FACILITY   (CCW)   COCKCROFT-WALTON ACCELERATOR.
+INC-SOURCE (D-D)   30 keV deuterium beam on occluded deuterium
+                   target.
+SAMPLE     .Natural isotope mixtures
+METHOD     (COINC) DETECTION OF INELASTIC GAMMAS in coincidence
+           (GSPEC)
+REL-REF    (N,,E.BLEURER+,J,HPA,19,375,1946)  Details of gamma
+               spectroscopy analysis
+DETECTOR   (COIN,GEMUC,GEMUC) gamma energy from absorption in
+             aluminium of secondary electrons produced by a
+             polystyrene radiator.
+MONITOR    (1-H-1(N,EL)1-H-1,,SIG) NO VALUE GIVEN.
+STATUS     .From Table 1 of  main reference
+COMMENT    *By the authors* As authors assert, gamma-ray energy
+                            measured in the experiments coincide
+             with peculiar energy levels of the elements
+ERR-ANALYS .STANDARD DEVIATION ERRORS GIVEN.
+HISTORY    (19800214T)
+           (19800222E)
+           (20050915A) DATE is corrected. New SUBENT added.
+                       REACTION codes corrected
+ENDBIB              25
+COMMON               2          3
+EN         EN-RSL
+MEV        MEV
+ 2.5000E+00 2.0000E-01
+ENDCOMMON            3
+ENDSUBENT           32
+SUBENT        21381002   20050915   20060202   20051225       2174
+BIB                  3          4
+REACTION   (9-F-19(N,INL)9-F-19,PAR,SIG)   Partial inelastic
+                  cross section.
+EN-SEC     (E-LVL,9-F-19)
+STATUS     (NDD)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+E-LVL      E-LVL-ERR  DATA       ERR-S
+MEV        MEV        B          B
+ 1.3000E+00 1.0000E-01 5.2000E-01 1.8000E-01
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        21381003   20050915   20060202   20051225       2174
+BIB                  2          3
+REACTION   (12-MG-0(N,INL)12-MG-0,PAR,SIG,G) Partial inelastic
+            gamma cross section.
+EN-SEC     (E,G)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+E          E-ERR      DATA       ERR-S
+MEV        MEV        B          B
+ 1.4000E+00 1.0000E-01 7.5000E-01 2.3000E-01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        21381004   20050915   20060202   20051225       2174
+BIB                  3          4
+REACTION   (16-S-0(N,INL)16-S-0,PAR,SIG,G) PARTIAL INELASTIC
+            GAMMA CROSS SECTION.
+STATUS     (NDD)
+EN-SEC     (E,G)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+E          E-ERR      DATA       ERR-S
+MEV        MEV        B          B
+ 2.3500E+00 1.5000E-01 3.8000E-01 1.0000E-01
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        21381005   20050915   20060202   20051225       2174
+BIB                  3          4
+REACTION   (24-CR-0(N,INL)24-CR-0,PAR,SIG,G) Partial inelastic
+            gamma cross section.
+EN-SEC     (E,G)
+STATUS     (NDD)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+E          E-ERR      DATA       ERR-S
+MEV        MEV        B          B
+ 1.4000E+00 1.0000E-01 1.2000E+00 4.0000E-01
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        21381006   20050915   20060202   20051225       2174
+BIB                  3          5
+REACTION   (26-FE-0(N,INL)26-FE-0,PAR,SIG,G) Partial inelastic
+            gamma cross section.
+EN-SEC     (E,G)
+STATUS     (NDD)
+           (COREL,21381009)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 4          2
+E          E-ERR      DATA       ERR-S
+MEV        MEV        B          B
+ 8.0000E-01 1.0000E-01 1.8000E+00 1.3000E+00
+ 2.2000E+00 2.0000E-01 1.4000E-01 5.0000E-02
+ENDDATA              4
+ENDSUBENT           14
+SUBENT        21381007   20050915   20060202   20051225       2174
+BIB                  3          4
+REACTION   (29-CU-0(N,INL)29-CU-0,PAR,SIG,G) Partial inelastic
+                                           gamma cross section.
+EN-SEC     (E,G)
+STATUS     (NDD)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          2
+E          E-ERR      DATA       ERR-S
+MEV        MEV        B          B
+ 1.1000E+00 1.0000E-01 1.2000E+00 6.0000E-01
+ 2.2000E+00 1.0000E-01 3.4000E-01 1.2000E-01
+ENDDATA              4
+ENDSUBENT           13
+SUBENT        21381008   19991214   20060202   20051225       2174
+BIB                  2          2
+REACTION   (4-BE-9(N,INL)4-BE-9,,SIG)
+HISTORY    (19991214T)  Converted from SUBENT 60832002
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA-MAX
+B
+ 1.4000E-02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        21381009   20050915   20060202   20051225       2174
+BIB                  4          4
+REACTION   (26-FE-0(N,X)26-FE-57,PAR,SIG)
+EN-SEC     (E-LVL,26-FE-57)
+STATUS     (COREL,21381006)
+HISTORY    (19991214T)  Converted from SUBENT 60832012
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+E-LVL      DATA       ERR-S
+MEV        B          B
+ 2.2000E+00 1.4000E-01 5.0000E-02
+ENDDATA              3
+ENDSUBENT           12
+ENDENTRY             9
