@@ -1,0 +1,46 @@
+ENTRY            C0517   20160809   20161101   20161016       C161
+SUBENT        C0517001   20160809   20161101   20161016       C161
+BIB                  9         11
+INSTITUTE  (1USACAL)
+REFERENCE  (J,BAP,34,1192(E10.5),198904)
+AUTHOR     (S.E.Kellogg,R.B.Vogelaar,R.W.Kavanagh)
+TITLE      13C(alpha,n) and 14C(p,n): Astrophysical Neutron
+            Sources and Sinks
+FACILITY   No information
+SAMPLE     No information
+DETECTOR   (D4PI)
+STATUS     No reply from R. Kavanagh to author proof.
+           See data set C0519 for 14C(p,n) data.
+HISTORY    (19990421C) VM
+ENDBIB              11
+NOCOMMON             0          0
+ENDSUBENT           14
+SUBENT        C0517002   20160809   20161101   20161016       C161
+BIB                  4          6
+REACTION   (6-C-13(A,N)8-O-16,,SIG)
+REL-REF    (N,C0080001,C.R.Brune+,J,PR/C,48,3119,1993)
+            Data set plotted
+ERR-ANALYS (ERR-S) Statistical uncertainty.
+STATUS     (TABLE) Data received by email from C. Brune,
+            19 April 1999.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3         13
+EN         DATA       ERR-S
+KEV        B          B
+ 1.0450E+03 2.3734E-04 2.1643E-06
+ 9.9977E+02 1.2518E-04 6.2930E-07
+ 9.5000E+02 5.8375E-05 2.8980E-07
+ 8.9999E+02 2.6368E-05 1.5166E-07
+ 8.5010E+02 1.1274E-05 8.6980E-08
+ 7.9983E+02 4.5017E-06 2.2181E-08
+ 7.4997E+02 1.8816E-06 1.2752E-08
+ 7.0001E+02 6.8308E-07 3.1276E-09
+ 6.4979E+02 2.2148E-07 2.0514E-09
+ 6.0012E+02 7.1917E-08 1.0480E-09
+ 5.4994E+02 2.0182E-08 4.7654E-10
+ 4.9997E+02 4.5420E-09 1.8579E-10
+ 4.4993E+02 7.6823E-10 6.7414E-11
+ENDDATA             15
+ENDSUBENT           26
+ENDENTRY             2
