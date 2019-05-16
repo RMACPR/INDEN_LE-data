@@ -1,0 +1,159 @@
+ENTRY            22661   20131117   20140820   20140807       2238
+SUBENT        22661001   20131117   20140820   20140807       2238
+BIB                 17         59
+TITLE      Cross-section measurements for production of short-
+           lived isotopes of 23Na and 26Mg around 14 MeV
+AUTHOR     (M.Bostan,E.Gueltekin)
+INSTITUTE  (2TUKSTU) Gueltekin, Bostan - Physics Department,
+              University of Istanbul
+           (2TUKCNA)  Experimental Site
+REFERENCE  (J,ANE,29,(10),2019,200210)  Main reference
+                             Data are obtained via Internet
+REL-REF    (I,22392001,E.Gueltekin+,J,ANE,28,53,2001) Exp.details
+           (I,22478001,M.Subasi+,J,NSE,130,254,1998)  Exp.details
+           (I,22474001,M.Subasi+,J,NSE,122,423,1996)  Exp.details
+FACILITY   (VDG,2TUKCNA) 'SAMES T-400' Neutron generator,
+           average deutron beam current 500 microAmp,
+           accelerating voltage 300 KV. SAMES T-400 used in
+           combination with the fast sample transfer system (FSTS)
+INC-SOURCE (D-T) For short-lived isotopes FSTS was used with
+           cyclic activation which delivers sample from
+           irradiation to counting position within 0.5 sec
+DETECTOR   (HPGE) Coaxial, 83 cm3 volume, within 10 cm-thick
+           lead shield, 1.79 keV full width at half-maximum at
+           1333 keV gamma energy
+           (SCIN) NE102A used for neutron flux monitoring
+METHOD     (ACTIV)  Activation
+           (TOF)    Time-Of-Flight supplied as 'Input Spectrum'
+INC-SPECT  .Irradiation positions are 0, 30, 60, 90, 120 and 130
+            degrees relative to deutron beam which correspond
+            to neutron energies 14.9, 14.7, 14.5, 14.1, 13.7,
+            13.6 MeV
+           .Mean effective neutron energy at the sample position
+            has been determined by the ratio of 90Zr(n,2n)89Zr
+            and 93Nb(n,2n)92m-Nb reactions cross sections
+MONITOR    (13-AL-27(N,P)12-MG-27,,SIG)
+DECAY-MON  (12-MG-27,9.42MIN,DG,844.)
+SAMPLE     .No Information
+           .Aluminium oxide Al2-O3 pellets of the same size were
+            used as standard cross section sample
+CORRECTION .Corrections were made for the effect of gamma ray
+            attenuation, coincidence summing, pulse pile-up,
+            dead time of the detector, neutron flux fluctuation
+            and scattered neutrons
+ERR-ANALYS (ERR-T)  Total Errors include:
+           (ERR-1)  Error due to the sample weight
+           (ERR-2)  Error due to the concentration of the element
+           (ERR-3)  Error due to the counting solid angle and
+                 intrinsic efficiency of the gamma detector
+           (ERR-5)  Error due to the self-absorption of gammas
+           (ERR-6,,4.)  Max Error due to the gamma-gamma
+                 coincidence summing
+           (ERR-7)  Error of the effective neutron flux
+           (ERR-8)  Error due to the neutron flux fluctuations
+STATUS     (TABLE) Table 3 of J,ANE,29,(10),2019,2002
+           (APRVD)  Gultekin, 2002-12
+HISTORY    (20020309C)  + + Compiled by S.M.
+           (20030423A)  Corrected. J.O.S. Decay-Data, samples
+           added. Err-S to Err-T changed. Error structure given.
+           (20030423U) Last checking has been done.
+           (20131117U) SD: Ref. on 2001TSUKUB deleted according
+            to MEMO CP-D/791.  ERR-ANALYS updated in all Subents.
+            Minor corrections.
+ENDBIB              59
+COMMON               6          3
+ERR-1      ERR-2      ERR-3      ERR-5      ERR-7      ERR-8
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
+        0.1        0.5        0.3        0.2         3.        0.1
+ENDCOMMON            3
+ENDSUBENT           66
+SUBENT        22661002   20131117   20140820   20140807       2238
+BIB                  5         10
+REACTION   (11-NA-23(N,P)10-NE-23,,SIG)
+DECAY-DATA (10-NE-23,37.24SEC,DG,439.85,0.329)
+SAMPLE     .Na2-O3 compound powder pressed in pellets 15 mm diam
+            and 8 mm thick. Natural Na, Na-23 content is 100%
+ERR-ANALYS (ERR-4,1.,2.)  Error due to the full energy of
+                         photo-peak area
+           (ERR-9,0.6,8.)  Error due to the low energy neutrons
+           (ERR-10) Error due to the irradiation, cooling and
+                 measuring time
+HISTORY    (20131117U) SD: ERR-ANALYS updated.
+ENDBIB              10
+COMMON               1          3
+ERR-10
+PER-CENT
+        0.1
+ENDCOMMON            3
+DATA                 4          6
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        MB         MB
+      13.60       0.80       33.6         3.
+      13.68       0.81       35.3         3.
+      14.10       0.10       42.8         4.
+      14.46       0.11       38.9         4.
+      14.72       0.11       39.1         4.
+      14.86       0.12       39.8         4.
+ENDDATA              8
+ENDSUBENT           27
+SUBENT        22661003   20131117   20140820   20140807       2238
+BIB                  6         11
+REACTION   (11-NA-23(N,A)9-F-20,,SIG)
+DECAY-DATA (9-F-20,11.163SEC,DG,1633.60,1.0)
+SAMPLE     .Na2-O3 compound powder pressed in pellets 15 mm diam
+            and 8 mm thick. Natural Na, Na-23 content is 100 %
+ERR-ANALYS (ERR-4,1.,2.)  Error due to the full energy of
+                         photo-peak area
+           (ERR-9,0.6,2.)  Error due to the low energy neutrons
+           (ERR-10) Error due to the irradiation, cooling and
+                 measuring time
+STATUS     (APRVD)     Gultekin, 2002-12
+HISTORY    (20131117U) SD: ERR-ANALYS updated.
+ENDBIB              11
+COMMON               1          3
+ERR-10
+PER-CENT
+        0.1
+ENDCOMMON            3
+DATA                 4          6
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        MB         MB
+      13.60       0.80       77.9         4.
+      13.68       0.81       90.4         4.
+      14.10       0.10       85.1         4.
+      14.46       0.11       83.3         4.
+      14.72       0.11       86.3         4.
+      14.86       0.12       97.4         5.
+ENDDATA              8
+ENDSUBENT           28
+SUBENT        22661004   20131117   20140820   20140807       2238
+BIB                  6         11
+REACTION   (12-MG-26(N,P)11-NA-26,,SIG)
+DECAY-DATA (11-NA-26,1.072SEC,DG,1808.65,0.989)
+SAMPLE     .Mg-O compound powder pressed in pellets 15 mm diam,
+            8 mm thick, natural Mg, Mg-26 content is 11.03+-0.03%
+STATUS     (APRVD)   Gultekin, 2002-12
+ERR-ANALYS (ERR-4)  Error due to the full energy of
+                         photo-peak area
+           (ERR-9,0.6,2.)  Error due to the low energy neutrons
+           (ERR-10) Error due to the irradiation, cooling and
+                 measuring time
+HISTORY    (20131117U) SD: ERR-ANALYS updated.
+ENDBIB              11
+COMMON               2          3
+ERR-4      ERR-10
+PER-CENT   PER-CENT
+         6.         1.
+ENDCOMMON            3
+DATA                 4          6
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        MB         MB
+      13.60       0.80       13.7         1.
+      13.68       0.81       12.5         1.
+      14.10       0.10        17.         1.
+      14.46       0.11       14.3         1.
+      14.72       0.11       11.4         1.
+      14.86       0.12       13.6         1.
+ENDDATA              8
+ENDSUBENT           28
+ENDENTRY             4

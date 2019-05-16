@@ -1,0 +1,103 @@
+ENTRY            12641     840309              20050926       0000
+SUBENT        12641001     840309              20050926       0000
+BIB                 13         23
+INSTITUTE  (1USALAS)
+REFERENCE  (R,LA-1279,5107)
+AUTHOR     (D.I.MEYER,W.NYER)
+TITLE      TOTAL CROSS SECTIONS FOR 14-MEV NEUTRONS
+FACILITY   (CCW)   COCKROFT-WALTON ACCELERATOR.
+METHOD     TRANSMISSION METHOD.
+INC-SOURCE (D-T) D + T REACTION
+           NEUTRON ENERGIES RANGED FROM 14.08 TO 14.35 MEV.
+MONITOR    GIEGER COUNTER WITH CU SPIRALS WAS USED.
+DETECTOR   COPPER SPIRALS WRAPPED AROUND GEIGER TUBE TO DETECT
+            CU(N,2N) REACTION NEUTRONS WERE USED.
+           BACKGROUND WAS REDUCED BY SHIELDING THE DETECTOR
+           WITH CADMIUM.
+SAMPLE     ALL SAMPLES WERE I INCH IN DIAMETER EXCEPT FOR
+           CU SAPLES WHICH WERE 1/2 INCH AND I INCH DIAMETER.
+ERR-ANALYS STATISTICAL ERRORS WERE ABOUT 1.2 PERCENT
+           SMALL-ANGLE SCATERING EFFECTS WERE NEGLIGIBLE.
+CORRECTION ERROR DUE TO ELASTIC NEUTRON SCATTERING WAS
+           ABOUT 0.25 TO 1 PERCENT. NO CORRECTION FOR THIS
+            EFFECT WAS CONSIDERED.
+           CORRECTIONS DUE TO ROOM SCATTERED NEUTRONS WERE
+           CONSIDERED.
+HISTORY    (840308C)
+ENDBIB              23
+NOCOMMON             0          0
+ENDSUBENT           26
+SUBENT        12641002     840309              20050926       0000
+BIB                  2          2
+REACTION   (1-H-1(N,TOT),,SIG)
+SAMPLE     CH2 COMPOUND
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+14.2       0.675      0.020
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        12641003     840309              20050926       0000
+BIB                  2          2
+REACTION   (1-H-2(N,TOT),,SIG)
+SAMPLE     D2O
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+14.2       0.81       0.03
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        12641004     840309              20050926       0000
+BIB                  2          2
+REACTION   (6-C-0(N,TOT),,SIG)
+SAMPLE     CARBON SAMPLE
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+14.2       1.29       0.02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        12641005     840309              20050926       0000
+BIB                  2          2
+REACTION   (7-N-0(N,TOT),,SIG)
+SAMPLE     NITROGEN
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+14.2       1.39       0.05
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        12641006     840309              20050926       0000
+BIB                  2          2
+REACTION   (8-O-0(N,TOT),,SIG)
+SAMPLE     COMPOUNDS H2O AND CH2-O2
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          2
+EN         DATA       DATA-ERR
+MEV        B          B
+14.2       1.62       0.04
+14.2       1.60       0.04
+ENDDATA              4
+ENDSUBENT           11
+SUBENT        12641007     840309              20050926       0000
+BIB                  2          2
+REACTION   (29-CU-0(N,TOT),,SIG)
+SAMPLE     NATURAL COPPER
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+14.2       2.85       0.05
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY             7

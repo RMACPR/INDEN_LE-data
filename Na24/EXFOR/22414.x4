@@ -1,0 +1,535 @@
+ENTRY            22414   20170820   20180129   20180126       2265
+SUBENT        22414001   20170820   20180129   20180126       2265
+BIB                 16        100
+TITLE       Neutron activation cross-section measurements
+            from 16 to 20 MeV for isotopes of F, Na, Mg, Al, Si,
+            P, Cl, Ti, V, Mn, Fe, Nb, Sn, and Ba
+AUTHOR     (A.Fessler,A.J.M.Plompen,D.L.Smith,J.W.Meadows,
+           Y.Ikeda)
+INSTITUTE  (2ZZZGEL)  IRMM - Fessler, Plompen
+           (1USAANL)  ARGONNE - Meadows, Smith
+           (2JPNJAE)  JAERI - Ikeda
+REFERENCE  (J,NSE,134,(2),171,2000)  main ref.
+            Report IRMM-GE/R/ND/01/99, 1999-01 is regarded as
+            private communication by the authors
+           (W,FESSLER,199907)   data obtained via INTERNET
+FACILITY   (VDG,2ZZZGEL)  7-MV Van de Graaff accelerator of IRMM.
+                  Deuteron beams of 1, 1.5, 2, 3 and 4 MeV.
+                  Typical current is 5 micro-A
+METHOD     (ACTIV) Samples were activated at 1 cm distance to the
+            target and at 0 deg with respect to the beam direction
+            a pneumatic sample transport system was used to limit
+            the decay of the radioactive products between neutron
+            irradiation and gamma-ray counting.
+           Flux monitored with Al, Fe, and Nb foils sandwiched
+            between samples.
+           (TOF) Determination of N-spectrum
+           (GSPEC)
+INC-SOURCE (D-T)    Ti-T layer of 2.042 mg/cm2 on 0.4 mm thick
+                    silver backing
+DETECTOR   (HPGE)
+           (SCIN) Bonner sphere at Geel, consisting of an Li6I(EU)
+            Scintillator and a polyethylene sphere of 28 cm Diam.
+            for monitoring of neutron flux during irradiation
+           (STANK)  NE-213 liquid-scintillator at Geel for
+                    N-spectrum determination
+SAMPLE     .Isotopically enriched and natural abundance materials
+            were employed. Enriched samples are in thin square
+            plastic packages. Each sample was 10*10 mm and 1-2 mm
+            thickness
+MONITOR    (13-AL-27(N,P)12-MG-27,,SIG)  .For neutron flux monit.
+           (13-AL-27(N,A)11-NA-24,,SIG)     .Ref. reaction
+           (41-NB-93(N,2N)41-NB-92-M,,SIG)   .Ref. reaction
+MONIT-REF  (,N.P.Kocherov+,R,IAEA-NDS-141,1993)
+            Data extracted from the IRDF-90.2 Evaluation from the
+            IAEA Web-Site
+DECAY-MON  (12-MG-27,9.46MIN,DG,843.8,0.718,DG,1014.4,0.28)
+           (11-NA-24,14.96HR,DG,1368.6,1.0)
+           (41-NB-92-M,10.15D,DG,934.4,0.991)
+CORRECTION .Corrections were made on:
+            * neutron absorption,
+            * neutron multiple scattering,
+            * neutron flux fluctuation,
+            * energy dependence of cross-section,
+            * contribution from lower energy neutrons,
+            * for gamma counting geometry,
+            * gamma-ray self-absorption,
+            * detector efficiency,
+            * sum coincidence effects.
+STATUS     (APRVD)  Data obtained from the author-Fessler 9907
+ERR-ANALYS (ERR-T)  The total uncertainty in the cross section
+                (3.4-43.8%) is obtained by adding all the
+                significant partial uncertainties in quadrature.
+           (ERR-S)  Total statistical error consisting of the
+            following Random Uncertainty Components
+             Notion   Source of Uncertainty         Magnitude (%)
+           .- - - -   - - - - - - - - - - -         - - - - - - -
+             R1       Reaction sample mass            0.5 - 1.0
+             R2       Standard sample mass              0.5
+             R3       Reaction sample counts          1.7 - 5.9
+             R4       Standard sample counts          0.6 - 5.6
+             R5       Secondary reference sample
+                      counts                          0.5 - 5.5
+             R6       Bonner Sphere counts            0.1 - 1.1
+             R7       Reproducibility of sample
+                      irradiation and counting
+                      geometry                        0.5 - 1.0
+                   Systematic Uncertainty Components
+           (ERR-1,,0.25) Max Reaction sample isotopic abundance
+                   error
+           (ERR-2,0.3,2.4) Reaction neutron scattering
+                       correction error
+           (ERR-3,0.4,1.0) Standard neutron scattering
+                       correction error
+           (ERR-4,,5.3) Reaction secondary neutron
+                       correction error
+           (ERR-5,,0.9) Standard secondary neutron
+                       correction error
+           (ERR-6,,5.0) Reaction sum-coincidence correction error
+           (ERR-7) Standard sum-coincidence correction error
+           (ERR-8,,42.9) Reaction Gamma-decay branching factor
+                   error
+           (ERR-9,0.3,4.2) Reaction decay half-life error
+           (ERR-10,0.5,1.0) Neutron irradiation geometry error
+           (ERR-11,2.5,5.0) Gamma-ray detection efficiency error
+           (ERR-12,2.0,4.2) Standard cross section error
+           (ERR-13,0.5,1.0) Secondary reference calibration error
+           (ERR-14,1.2,2.6) Max Bonner Sphere calibration error
+           (ERR-15,,10.3) Energy scale error
+HISTORY    (19991017C)  + +  Compiled by S.M.    + +
+           (20000210U)  Last checking has been done
+           (20170820A) SD: ERR-ANALYS update. EN-RSL -> EN-RSL-HW
+           in Subents 002-023. STATUS was added to Subents 002-023
+           Cosmetic changes in all Subents.
+ENDBIB             100
+COMMON               1          3
+ERR-7
+PER-CENT
+        0.7
+ENDCOMMON            3
+ENDSUBENT          107
+SUBENT        22414002   20170820   20180129   20180126       2265
+BIB                  3          4
+REACTION   (9-F-19(N,P)8-O-19,,SIG)
+SAMPLE       Chemical form (C-F2), total gross
+             weight 1000 mg. Isotopic abundance 100%
+STATUS     (TABLE) Tbls IX(stat.uncert.),XIII(data) of NSE,134,171
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 6          5
+EN         EN-ERR     EN-RSL-HW  DATA       ERR-T      ERR-S
+KEV        KEV        KEV        MB         MB         PER-CENT
+16064.       62.        400.       14.55     0.78        1.84
+17026.       40.        300.       12.27     0.72        1.94
+17777.       32.        285.        9.85     0.56        1.30
+19101.       12.        290.        8.37     0.50        1.38
+20310.       10.        295.        7.43     0.67        1.59
+ENDDATA              7
+ENDSUBENT           16
+SUBENT        22414003   20170820   20180129   20180126       2265
+BIB                  3          4
+REACTION   (11-NA-23(N,P)10-NE-23,,SIG)
+SAMPLE      Chemical form - NaCl, Total gross
+            weight 480 mg.  Isotopic abundance 100 %
+STATUS     (TABLE) Tbls IX(stat.uncert.),XIII(data) of NSE,134,171
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 6          5
+EN         EN-ERR     EN-RSL-HW  DATA       ERR-T      ERR-S
+KEV        KEV        KEV        MB         MB         PER-CENT
+  16127.    62.       440.       35.80       1.67       3.00
+  17119.    41.       285.       31.16       2.10       5.22
+  17887.    32.       230.       26.17       1.67       4.72
+  19174.    11.       250.       24.62       1.98       5.93
+  20463.    10.       200.       17.27       1.59       3.36
+ENDDATA              7
+ENDSUBENT           16
+SUBENT        22414004   20170820   20180129   20180126       2265
+BIB                  3          4
+REACTION   (11-NA-23(N,A)9-F-20,,SIG)
+SAMPLE      Chemical form - NaCl, Total gross
+            weight 480 mg.  Isotopic abundance 100%
+STATUS     (TABLE) Tbls IX(stat.uncert.),XIII(data) of NSE,134,171
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 6          5
+EN         EN-ERR     EN-RSL-HW  DATA       ERR-T      ERR-S
+KEV        KEV        KEV        MB         MB         PER-CENT
+  16127.    62.       440.        102.11     4.81      2.59
+  17119.    41.       285.         88.79     6.32      5.35
+  17887.    32.       230.         65.91     3.87      3.69
+  19174.    11.       250.         41.24     3.44      6.45
+  20463.    10.       200.         27.39     2.28      4.05
+ENDDATA              7
+ENDSUBENT           16
+SUBENT        22414005   20170820   20180129   20180126       2265
+BIB                  3          5
+REACTION   (12-MG-25(N,P)11-NA-25,,SIG)
+SAMPLE     (12-MG-25,ENR=0.9881) Chemical form MgO,  Total gross
+            weight 120 mg. Isotopic abundance: 24Mg- 0.96+-0.01%,
+             25Mg- 98.81+-0.02%, 26Mg: 0.22+-0.01%
+STATUS     (TABLE) Tbls IX(stat.uncert.),XIII(data) of NSE,134,171
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 6          5
+EN         EN-ERR     EN-RSL-HW  DATA       ERR-T      ERR-S
+KEV        KEV        KEV        MB         MB         PER-CENT
+  16083.    62.       410.         60.95     5.00      3.16
+  17053.    40.       285.         58.19     5.33      5.12
+  17810.    32.       260.         43.95     3.93      4.66
+  19142.    11.       270.         36.13     3.41      4.36
+  20353.    10.       280.         28.16     3.24      5.05
+ENDDATA              7
+ENDSUBENT           17
+SUBENT        22414006   20170820   20180129   20180126       2265
+BIB                  3          4
+REACTION   (13-AL-27(N,P)12-MG-27,,SIG)
+SAMPLE       Metallic, total sample weight 200 mg,
+             Isotopic abundance 100%
+STATUS     (TABLE) Tbls IX(stat.uncert.),XIII(data) of NSE,134,171
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 6          5
+EN         EN-ERR     EN-RSL-HW  DATA       ERR-T      ERR-S
+KEV        KEV        KEV        MB         MB         PER-CENT
+  16010.    62.       405.         56.27     1.92      0.49
+  16947.    41.       310.         48.08     1.65      0.60
+  17680.    32.       360.         41.17     1.43      0.58
+  18978.    11.       400.         37.60     1.82      0.83
+  20171.    10.       435.         31.56     2.10      0.98
+ENDDATA              7
+ENDSUBENT           16
+SUBENT        22414007   20170820   20180129   20180126       2265
+BIB                  3          6
+REACTION   (14-SI-28(N,P)13-AL-28,,SIG)
+SAMPLE     (14-SI-28,NAT=0.922297) .Si-O2 oxide,  Total gross
+            sample weight 500 mg. Nat. isotopic abundance:
+            28Si: 92.2297+-0.0007%, 29Si: 4.6832+-0.0005%,
+            30Si: 3.0872+-0.0005%
+STATUS     (TABLE) Tbls IX(stat.uncert.),XIII(data) of NSE,134,171
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 6          4
+EN         EN-ERR     EN-RSL-HW  DATA       ERR-T      ERR-S
+KEV        KEV        KEV        MB         MB         PER-CENT
+  17025.    40.       290.        176.71     9.41      3.48
+  17776.    32.       290.        149.97     8.76      4.12
+  19097.    11.       315.        105.32     6.87      3.57
+  20303.    10.       315.         93.92     9.68      6.19
+ENDDATA              6
+ENDSUBENT           17
+SUBENT        22414008   20170820   20180129   20180126       2265
+BIB                  3          5
+REACTION   (14-SI-29(N,P)13-AL-29,,SIG)
+SAMPLE     (14-SI-29,ENR=0.9509) 29Si-O2 oxide, total gross
+            weight 20 mg. Isotopic abundance: 28Si- 4.69+-0.02%,
+            29Si- 95.09+-0.03%, 30Si: 0.22+-0.01%
+STATUS     (TABLE) Tbls IX(stat.uncert.),XIII(data) of NSE,134,171
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 6          5
+EN         EN-ERR     EN-RSL-HW  DATA       ERR-T      ERR-S
+KEV        KEV        KEV        MB         MB         PER-CENT
+  16047.    62.       405.        133.22     5.57      2.12
+  17004.    41.       300.        117.99     5.95      3.51
+  17749.    32.       300.         96.41     5.17      3.84
+  19066.    11.       330.         87.49     5.99      4.56
+  20272.    10.       325.         62.81     6.31      5.62
+ENDDATA              7
+ENDSUBENT           17
+SUBENT        22414009   20170820   20180129   20180126       2265
+BIB                  3          5
+REACTION   (14-SI-29(N,X)13-AL-28,,SIG)
+SAMPLE     (14-SI-29,ENR=0.9509) 29Si-O2 oxide, total gross
+            weight 20 mg. Isotopic abundance: 28Si- 4.69+-0.02%,
+            29Si- 95.09+-0.03%, 30Si: 0.22+-0.01%
+STATUS     (TABLE) Tbls IX(stat.uncert.),XIII(data) of NSE,134,171
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 6          5
+EN         EN-ERR     EN-RSL-HW  DATA       ERR-T      ERR-S
+KEV        KEV        KEV        MB         MB         PER-CENT
+  16047.    62.       405.         59.30     7.14      3.12
+  17004.    41.       300.        105.72     7.02      3.90
+  17749.    32.       300.        151.63     8.41      3.41
+  19066.    11.       330.        208.58     13.53     4.09
+  20272.    10.       325.        228.58     17.94     3.31
+ENDDATA              7
+ENDSUBENT           17
+SUBENT        22414010   20170820   20180129   20180126       2265
+BIB                  3          4
+REACTION   (15-P-31(N,A)13-AL-28,,SIG)
+SAMPLE      Elemental phosphorus, Total gross
+            weight 220 mg. Isotopic abundance 100 %
+STATUS     (TABLE) Tbls IX(stat.uncert.),XIII(data) of NSE,134,171
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 6          5
+EN         EN-ERR     EN-RSL-HW  DATA       ERR-T      ERR-S
+KEV        KEV        KEV        MB         MB         PER-CENT
+  16044.    62.       400.        107.07     5.46      2.01
+  16998.    41.       300.         95.73     5.53      2.64
+  17744.    32.       305.         72.50     3.98      2.93
+  19058.    11.       335.         51.52     3.51      3.12
+  20261.    10.       335.         34.29     3.10      2.81
+ENDDATA              7
+ENDSUBENT           16
+SUBENT        22414011   20170820   20180129   20180126       2265
+BIB                  3          5
+REACTION   (17-CL-35(N,2N)17-CL-34-M,,SIG)
+SAMPLE     (17-CL-35,NAT=0.7578) Chemical form - NaCl, Total gross
+             weight 1200 mg. Natural Isotopic abundance:
+             35Cl- 75.78+-0.04%, 37Cl- 24.22+-0.04%
+STATUS     (TABLE) Tbls IX(stat.uncert.),XIII(data) of NSE,134,171
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 6          5
+EN         EN-ERR     EN-RSL-HW  DATA       ERR-T      ERR-S
+KEV        KEV        KEV        MB         MB         PER-CENT
+  16124.    62.       425.         18.22     1.55      2.24
+  17112.    40.       280.         24.57     1.81      2.74
+  17879.    32.       235.         30.42     2.23      2.96
+  19226.    11.       215.         33.56     2.70      3.03
+  20450.    10.       210.         32.81     3.31      4.78
+ENDDATA              7
+ENDSUBENT           17
+SUBENT        22414012   20170820   20180129   20180126       2265
+BIB                  3          5
+REACTION   (17-CL-37(N,P)16-S-37,,SIG)
+SAMPLE     (17-CL-37,NAT=0.2422) Chemical form - NaCl, Total gross
+             weight 1200 mg. Natural Isotopic abundance:
+             35Cl- 75.78+-0.04%, 37Cl- 24.22+-0.04%
+STATUS     (TABLE) Tbls IX(stat.uncert.),XIII(data) of NSE,134,171
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 6          5
+EN         EN-ERR     EN-RSL-HW  DATA       ERR-T      ERR-S
+KEV        KEV        KEV        MB         MB         PER-CENT
+  16124.    62.       425.         25.50     1.98      2.92
+  17112.    40.       280.         21.05     2.02      7.11
+  17879.    32.       235.         19.88     1.47      4.23
+  19226.    11.       215.         14.89     1.26      5.22
+  20450.    10.       210.         11.11     1.14      6.15
+ENDDATA              7
+ENDSUBENT           17
+SUBENT        22414013   20170820   20180129   20180126       2265
+BIB                  3          6
+REACTION   (22-TI-46(N,P)21-SC-46-M,,SIG)
+SAMPLE     (22-TI-46,ENR=0.812) Ti-O2 oxide, Total gross weight
+            200 mg. Isotopic abundance:   46Ti- 81.2+-0.2%,
+            47Ti- 2.1+-0.1%, 48Ti- 14.5+-0.2%, 49Ti- 1.1(1)%,
+            50Ti- 1.1+-0.1%
+STATUS     (TABLE) Tbls IX(stat.uncert.),XIII(data) of NSE,134,171
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 6          5
+EN         EN-ERR     EN-RSL-HW  DATA       ERR-T      ERR-S
+KEV        KEV        KEV        MB         MB         PER-CENT
+  16089.    62.       405.         44.11     2.74      2.16
+  17065.    40.       290.         36.94     3.04      4.10
+  17823.    32.       260.         33.92     3.07      4.75
+  19154.    11.       265.         32.95     3.22      5.06
+  20369.    10.       270.         29.21     2.87      3.17
+ENDDATA              7
+ENDSUBENT           18
+SUBENT        22414014   20170820   20180129   20180126       2265
+BIB                  3          6
+REACTION   (22-TI-50(N,P)21-SC-50,,SIG)
+SAMPLE     (22-TI-50,ENR=0.9675) Ti-O2 oxide, Total gross weight
+            200 mg. Isotopic abundance:  46Ti- 0.27+-0.01%,
+            47Ti- 0.25+-0.01%, 48Ti- 2.40+-0.02%,
+            49Ti- 0.33+-0.01%, 50Ti- 96.75+-0.03%
+STATUS     (TABLE) Tbls IX(stat.uncert.),XIII(data) of NSE,134,171
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 6          5
+EN         EN-ERR     EN-RSL-HW  DATA       ERR-T      ERR-S
+KEV        KEV        KEV        MB         MB         PER-CENT
+  16089.    62.       405.         15.96     1.19      3.13
+  17065.    40.       290.         18.14     1.43      4.00
+  17823.    32.       260.         18.83     1.42      3.44
+  19154.    11.       265.         16.97     1.36      3.53
+  20369.    10.       270.         14.03     1.31      3.49
+ENDDATA              7
+ENDSUBENT           18
+SUBENT        22414015   20170820   20180129   20180126       2265
+BIB                  3          5
+REACTION   (23-V-51(N,P)22-TI-51,,SIG)
+SAMPLE     (23-V-51,NAT=0.99750) Metallic, Total gross weight
+            500 mg. Natural isotopic abundance:
+            50V= 0.250+-0.004%, 51V- 99.750+-0.004%
+STATUS     (TABLE) Tbls IX(stat.uncert.),XIII(data) of NSE,134,171
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 6          4
+EN         EN-ERR     EN-RSL-HW  DATA       ERR-T      ERR-S
+KEV        KEV        KEV        MB         MB         PER-CENT
+  17028.    40.       285.         26.22     1.35      3.33
+  17777.    32.       280.         23.63     1.07      2.16
+  19101.    11.       290.         17.90     1.09      3.41
+  20313.    10.       280.         13.55     1.02      2.42
+ENDDATA              6
+ENDSUBENT           16
+SUBENT        22414016   20170820   20180129   20180126       2265
+BIB                  3          4
+REACTION   (25-MN-55(N,A)23-V-52,,SIG)
+SAMPLE      Mn-O2 oxide, Total gross weight
+            450 mg. Natural isotopic abundance - 55Mn 100 %
+STATUS     (TABLE) Tbls IX(stat.uncert.),XIII(data) of NSE,134,171
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 6          5
+EN         EN-ERR     EN-RSL-HW  DATA       ERR-T      ERR-S
+KEV        KEV        KEV        MB         MB         PER-CENT
+  16065.    62.       410.         22.22     1.38      4.58
+  17028.    40.       285.         19.64     1.21      4.52
+  17777.    32.       280.         17.64     1.09      4.49
+  19101.    11.       290.         13.33     0.94      4.35
+  20313.    10.       280.          8.44     0.73      4.60
+ENDDATA              7
+ENDSUBENT           16
+SUBENT        22414017   20170820   20180129   20180126       2265
+BIB                  3          6
+REACTION   (26-FE-56(N,P)25-MN-56,,SIG)
+SAMPLE     (26-FE-56,NAT=0.91754) Metallic, Total gross
+             weight 500 mg. Natural  Isotopic abundance:
+            54Fe- 5.845+-0.035%, 56Fe- 91.754+-0.036%,
+            57Fe- 2.119+-0.010%, 58Fe-  0.282+-0.004%
+STATUS     (TABLE) Tbls IX(stat.uncert.),XIII(data) of NSE,134,171
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 6          4
+EN         EN-ERR     EN-RSL-HW  DATA       ERR-T      ERR-S
+KEV        KEV        KEV        MB         MB         PER-CENT
+  16044.    62.       400.         89.55     3.77      2.20
+  17744.    32.       305.         65.23     2.87      4.48
+  19058.    11.       335.         49.26     3.21      2.25
+  20261.    10.       335.         44.42     3.26      4.36
+ENDDATA              6
+ENDSUBENT           17
+SUBENT        22414018   20170820   20180129   20180126       2265
+BIB                  3         10
+REACTION   (26-FE-57(N,X)25-MN-56,,SIG)
+SAMPLE     (26-FE-57,NAT=0.2119) Metallic, 1-st sample - Total
+            gross weight 500 mg. Isotopic abundance:
+            54Fe- 5.845+-0.035%, 56Fe- 91.754+-0.036%,
+            57Fe- 2.119+-0.010%, 58Fe-  0.282+-0.004%
+           (26-FE-57,ENR=0.9331) Metallic, 2-nd sample Total gross
+             weight 90 mg. Isotopic abundance:
+            54Fe- 0.12+-0.01%,  56Fe- 6.52+-0.03%,
+            57Fe- 93.31+-0.03%, 58Fe- 0.05+-0.01%
+STATUS     (TABLE) Tbls IX(stat.uncert.),XIII(data) of NSE,134,171
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 6          4
+EN         EN-ERR     EN-RSL-HW  DATA       ERR-T      ERR-S
+KEV        KEV        KEV        MB         MB         PER-CENT
+  16044.    62.       400.         29.09     2.79      3.39
+  17744.    32.       305.         65.97     3.50      3.14
+  19058.    11.       335.         93.22     5.32      3.35
+  20261.    10.       335.         98.17     7.56      3.71
+ENDDATA              6
+ENDSUBENT           21
+SUBENT        22414019   20170820   20180129   20180126       2265
+BIB                  3         10
+REACTION   (26-FE-57(N,P)25-MN-57,,SIG)
+SAMPLE     (26-FE-57,NAT=0.2119) Metallic, 1-st sample - Total
+            gross weight 500 mg. Isotopic abundance:
+            54Fe- 5.845+-0.035%, 56Fe- 91.754+-0.036%,
+            57Fe- 2.119+-0.010%, 58Fe-  0.282+-0.004%
+           (26-FE-57,ENR=0.9331) Metallic, 2-nd sample Total gross
+             weight 90 mg. Isotopic abundance:
+            54Fe- 0.12+-0.01%,  56Fe- 6.52+-0.03%,
+            57Fe- 93.31+-0.03%, 58Fe- 0.05+-0.01%
+STATUS     (TABLE) Tbls IX(stat.uncert.),XIII(data) of NSE,134,171
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 6          5
+EN         EN-ERR     EN-RSL-HW  DATA       ERR-T      ERR-S
+KEV        KEV        KEV        MB         MB         PER-CENT
+  16067.    62.       400.         41.12     17.76     2.22
+  17032.    40.       285.         41.64     18.12     5.38
+  17778.    32.       280.         35.80     15.57     5.09
+  19107.    11.       300.         26.82     11.69     5.31
+  20317.    10.       285.         20.53     9.00      5.08
+ENDDATA              7
+ENDSUBENT           22
+SUBENT        22414020   20170820   20180129   20180126       2265
+BIB                  3          4
+REACTION   (41-NB-93(N,A)39-Y-90-M,,SIG)
+SAMPLE      Metallic Niobium, Total gross
+            weight 500 mg. Isotopic abundance 100 %
+STATUS     (TABLE) Tbls IX(stat.uncert.),XIII(data) of NSE,134,171
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 6          5
+EN         EN-ERR     EN-RSL-HW  DATA       ERR-T      ERR-S
+KEV        KEV        KEV        MB         MB         PER-CENT
+  16033.    62.       405.          5.22     0.31      2.63
+  16981.    40.       305.          4.96     0.31      2.98
+  17723.    32.       330.          5.22     0.31      2.70
+  19030.    11.       350.          5.08     0.35      2.70
+  20229.    10.       375.          4.79     0.34      2.62
+ENDDATA              7
+ENDSUBENT           16
+SUBENT        22414021   20170820   20180129   20180126       2265
+BIB                  3          4
+REACTION   (41-NB-93(N,2N)41-NB-92-M,,SIG)
+SAMPLE      Metallic Niobium, Total gross
+            weight 500 mg. Isotopic abundance 100 %
+STATUS     (TABLE) Tbls IX(stat.uncert.),XIII(data) of NSE,134,171
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 6          5
+EN         EN-ERR     EN-RSL-HW  DATA       ERR-T      ERR-S
+KEV        KEV        KEV        MB         MB         PER-CENT
+  16033.    62.       405.        441.85     23.58     2.86
+  16981.    40.       305.        433.75     23.83     3.48
+  17723.    32.       330.        422.44     22.68     2.84
+  19030.    11.       350.        376.11     22.27     3.51
+  20229.    10.       375.        305.72     19.84     2.93
+ENDDATA              7
+ENDSUBENT           16
+SUBENT        22414022   20170820   20180129   20180126       2265
+BIB                  3          8
+REACTION   (50-SN-119(N,P)49-IN-119-G,,SIG)
+SAMPLE     (50-SN-119,ENR=0.8448) Sn=O2 oxide, Total gross sample
+            weight 450 mg. Isotopic abundance:
+            112,114,115Sn-< 0.02, 116Sn - 0.40+-0.02%,
+            117Sn - 0.85+-0.02%,  118Sn - 3.63+-0.04%,
+            119Sn - 84.48+-0.10%, 120Sn - 9.98+-0.08%,
+            122Sn -  0.44+-0.02%, 124Sn - 0.20+-0.01%
+STATUS     (TABLE) Tbls IX(stat.uncert.),XIII(data) of NSE,134,171
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 6          5
+EN         EN-ERR     EN-RSL-HW  DATA       ERR-T      ERR-S
+KEV        KEV        KEV        MB         MB         PER-CENT
+  16099.    62.       420.          7.30     0.64      4.34
+  17079.    40.       285.         10.29     0.81      5.43
+  17839.    32.       250.         12.42     0.86      4.21
+  19176.    11.       250.         12.79     1.03      5.16
+  20393.    10.       250.         12.00     1.12      4.77
+ENDDATA              7
+ENDSUBENT           20
+SUBENT        22414023   20170820   20180129   20180126       2265
+BIB                  3          6
+REACTION   (56-BA-138(N,2N)56-BA-137-M,,SIG)
+SAMPLE     (56-BA-138,ENR=0.9967) Chemical form Ba-C-O3, total
+           gross weight 165 mg. Isotopic abundance:
+           130,132,134,135,136Ba - 0.08+-0.02%,
+           137Ba - 0.25+-0.02%, 138Ba - 99.67+-0.02%
+STATUS     (TABLE) Tbls IX(stat.uncert.),XIII(data) of NSE,134,171
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 6          5
+EN         EN-ERR     EN-RSL-HW  DATA       ERR-T      ERR-S
+KEV        KEV        KEV        MB         MB         PER-CENT
+  16075.    62.       410.        993.27     53.81     1.94
+  17036.    40.       295.       1060.48     56.13     2.05
+  17791.    32.       270.       1110.41     63.30     2.39
+  19115.    11.       280.        941.23     60.01     2.42
+  20325.    10.       285.        671.41     50.68     1.89
+ENDDATA              7
+ENDSUBENT           18
+ENDENTRY            23

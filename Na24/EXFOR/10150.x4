@@ -1,0 +1,63 @@
+ENTRY            10150   20001211   20010328   20050926       0000
+SUBENT        10150001   20001211   20010328   20050926       0000
+BIB                 11         17
+INSTITUTE  (1USARPI)
+REFERENCE  (J,NSE,41,445,197009)
+AUTHOR     (N.YAMAMURO,R.W.HOCKENBURY,R.C.BLOCK,R.H.WOLFE)
+TITLE      A Measurement of the Radiation Width of the 2.85 keV
+            Neutron Resonance and of the Thermal Neutron Capture
+            Cross Section in Sodium
+FACILITY   (LINAC) Linac
+INC-SOURCE (PHOTO) Electrons on water-cooled Ta target.
+SAMPLE     Five sample thicknesses used.
+DETECTOR   (SCIN) Spherical liquid scintillator.
+           Neutron flux measured using 10B-NaI detector.
+CORRECTION Corrected for scattering losses in Na sample.
+STATUS     (APRVD) Approved by author.
+           Data taken from reference.
+HISTORY    (19711208C)
+           (19820527A) Converted to REACTION formalism
+           (20001211A) Converted to new date formats, lower case.
+ENDBIB              17
+NOCOMMON             0          0
+ENDSUBENT           20
+SUBENT        10150002   20001211   20010328   20050926       0000
+BIB                  4         10
+REACTION   (11-NA-23(N,G),,WID)
+MONITOR    Capture runs normalized by integrating capture counts
+            under 5.9-keV Al resonance. This in turn is normalized
+            to 'black' Ag resonance at 5.19 eV.
+ANALYSIS   (AREA,SHAPE) Area and shape analysis.
+           Data in range 0.025 to 0.2 eV treated with Monte Carlo
+            calculation. Experimental capture yield compared with
+            calculated yields.
+ERR-ANALYS (DATA-ERR) Includes statistical and systematic (9%)
+            uncertainties.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 3          1
+EN-RES     DATA       DATA-ERR
+KEV        EV         EV
+2.85       0.47       0.045
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        10150003   20001211   20010328   20050926       0000
+BIB                  6          9
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG)
+MONITOR    (48-CD-0(N,G),,SIG) Normalized to low energy capture
+            in 'black' cd sample.
+ASSUMED    (ASSUM,11-NA-23(N,EL)11-NA-23,,SIG) Constant scattering
+            cross section assumed.
+CORRECTION Corrected for multiple scattering (17%).
+ERR-ANALYS (DATA-ERR) Includes statistical and systematic (6%)
+            uncertainties.
+HISTORY    (20001211A) Assumed value added.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   ASSUM
+EV         B          B          B
+0.0253     0.50       0.03       3.2
+ENDDATA              3
+ENDSUBENT           17
+ENDENTRY             3

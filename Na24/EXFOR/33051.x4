@@ -1,0 +1,74 @@
+ENTRY            33051   20150121   20151006   20150925       3171
+SUBENT        33051001   20150121   20151006   20150925       3171
+BIB                 11         21
+TITLE      Measurement of cross section of (n,g) reaction for,
+           iodine, sodium and vanadium in the energy range 1 keV
+           to 4 MeV using accelerator based neutron source
+AUTHOR     (M.S.Barough, B.J.Patil, V.N.Bhoraskar, S.D.Dhole)
+INSTITUTE  (3INDPOO)
+           (3INDIND) Abasaheb Garware college,Karve Road, Pune
+REFERENCE  (J,ANE,59,25,2013)
+FACILITY   (MICRT,3INDPOO) 4 MeV Race-Track Microtron accelerator
+           based neutron source
+SAMPLE     Powders of pure chemical compound of iodine(I4O9 99%
+           purity), sodium (NaCl 99% purity), and vanadium (V2O5
+           99% purity)
+DETECTOR   (HPGE)
+INC-SOURCE (BRST) The 6 MeV energy electrons beam was bombarded
+           on tungsten target to produce bremsstrahlung
+           radiation, which interacts with beryllium target to
+           give continuous energy neutrons.
+INC-SPECT  The neutron flux was calculated using Monte Carlo code
+           FLUKA, but not available.
+ERR-ANALYS No information on uncertainty given
+HISTORY    (20150121C) Compiled by niraj rai
+ENDBIB              21
+NOCOMMON             0          0 3
+ENDSUBENT           24
+SUBENT        33051002   20150122   20151006   20150925       3171
+BIB                  4          5
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG,,SPA)
+DECAY-DATA (11-NA-24,14.96HR,DG,1369.,1.,
+                             DG,2754.,1.)
+METHOD     (ACTIV) Irrad./Cool./Counting.=1200/30/7200 seconds
+STATUS     (CURVE) Fig.5 of Ann.Nucl.Energ. 59(2013)25
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     EN-MAX     DATA
+KEV        MEV        MB
+         1.         4.   1.53E-01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        33051003   20150122   20151006   20150925       3171
+BIB                  4          4
+REACTION   (23-V-51(N,G)23-V-52,,SIG,,SPA)
+DECAY-DATA (23-V-52,3.75MIN,DG,1434.,1.)
+METHOD     (ACTIV) Irrad./Cool./Counting.= 600/30/637.34 seconds
+STATUS     (CURVE) Fig.8 of Ann.Nucl.Energ. 59(2013)25
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     EN-MAX     DATA
+KEV        MEV        MB
+         1.         4.   1.11E+00
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        33051004   20150122   20151006   20150925       3171
+BIB                  4          7
+REACTION   (53-I-127(N,G)53-I-128,,SIG,,SPA)
+DECAY-DATA (53-I-128,24.99MIN,DG,441.,0.14,
+                              DG,528.,0.014,
+                              DG,743.,0.002,
+                              DG,969.,0.003)
+METHOD     (ACTIV) Irrad./Cool./Counting.= 2100/30/1800 seconds
+STATUS     (CURVE) Fig.11 of Ann.Nucl.Energ. 59(2013)25
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     EN-MAX     DATA
+KEV        MEV        MB
+         1.         4.   2.03E+01
+ENDDATA              3
+ENDSUBENT           15
+ENDENTRY             4

@@ -1,0 +1,71 @@
+ENTRY            30257   20081203   20090416   20090416       3132
+SUBENT        30257001   20081203   20090416   20090416       3132
+BIB                 12         18
+INSTITUTE  (2GERZFK)
+REFERENCE  (J,KE,5,790,1962) Little information, in German.
+AUTHOR     (K.Wagner)
+TITLE      Cross-section determination of Mg-24(n,p)Na-24,
+           Na-23(n,2n)Na-22 and Na-23(n,gamma)Na-24 with pile
+           neutrons
+EXP-YEAR   (1962)
+FACILITY   Rossendorf reactor
+INC-SOURCE (REAC) Reactor
+INC-SPECT  Reactor spectrum
+METHOD     (ACTIV) Activation method
+MONITOR    Not given
+STATUS     (TABLE) Data from Kernenergie 5(1962)790.
+           (APRVD) Approved by Wagner (18 March 1974)
+HISTORY    (19731022C) CA.
+           (19740613U) CA.   -Reference date corrected in subent 1
+                           -status 'aprvd' added
+           (20080423A) BIB section updated
+ENDBIB              18
+NOCOMMON             0          0
+ENDSUBENT           21
+SUBENT        30257002   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (12-MG-24(N,P)11-NA-24,,SIG,,FIS)
+ERR-ANALYS (DATA-ERR) Nothing said aboit uncertaities
+ENDBIB               2
+COMMON               1          3
+EN-DUMMY
+MEV
+ 1.5000E+00
+ENDCOMMON            3
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 1.0500E+00 2.5000E-01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30257003   20081203   20090416   20090416       3132
+BIB                  1          1
+REACTION   (11-NA-23(N,2N)11-NA-22,,SIG,,FIS)
+ENDBIB               1
+COMMON               1          3
+EN-DUMMY
+MEV
+ 1.5000E+00
+ENDCOMMON            3
+DATA                 1          1
+DATA
+MB
+ 1.2000E-03
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        30257004   20081203   20090416   20090416       3132
+BIB                  1          1
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG,,SPA)
+ENDBIB               1
+COMMON               1          3
+EN-DUMMY
+EV
+ 2.5300E-02
+ENDCOMMON            3
+DATA                 1          1
+DATA
+MB
+ 4.9000E+02
+ENDDATA              3
+ENDSUBENT           13
+ENDENTRY             4

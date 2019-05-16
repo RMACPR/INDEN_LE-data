@@ -1,0 +1,267 @@
+ENTRY            31316   20171228   20180209   20180209       3181
+SUBENT        31316001   20171228   20180209   20180209       3181
+BIB                 13         30
+TITLE      The (n,a),(n,p) and (n,t) cross-sections at 14.8 MeV
+AUTHOR     (C.S.Khurana, I.M.Govil)
+REFERENCE  (J,NP,69,153,1965)
+REL-REF    (M,30403001,C.S.Khurana+,J,NP,13,88,1959)
+            Experimental details
+INSTITUTE  (3INDPAT,3INDMUA)
+FACILITY   (CCW,3INDMUA)
+INC-SOURCE (D-T) Zr-T target to get a neutron of 1E+8 n/sec.
+MONITOR    (26-FE-56(N,P)25-MN-56,,SIG)
+           By compiler (2017-12-28):
+            The monitor cross section value is not given in the
+            article. However some EXFOR 30403 data sets are
+            renormalized in EXFOR 31316 with a factor of ~1.15,
+            which could imply that the 56Fe(n,p)56Mn=126 mb at
+            14.8 MeV is adopted as monitor value (as it was done
+            in EXFOR 31247).
+METHOD     (ACTIV)
+DETECTOR   (GEMUC) End window type of 4 cm diameter with a Mica
+            window of 4.5 mg/cm2 thick.
+           (SCIN) Zn-S Lucite crystal as a fast neutron monitor
+PART-DET   (B)
+STATUS     (TABLE) Tables 1-3 from Nucl.Phys.69(1965)153
+HISTORY    (19771115T) Converted from EXFOR 70316
+           (19970520A) HW.- Subents 31316019 - 021 added.
+           (20090912A) SD:Updated to new date formats,lower case.
+            Cosmetic changes, description of experiment (FACILITY,
+            INC-SOURCE, DETECTOR, MONITOR description) was added
+            from NP,13,88,1959.
+           (20100303A) SD: Evaluator's remark was added to Sub.006
+           (20171228A) On. MONIT=110 mb deleted.
+ENDBIB              30
+COMMON               1          3
+EN
+MEV
+ 14.8
+ENDCOMMON            3
+ENDSUBENT           37
+SUBENT        31316002   20090930   20100128   20100126       3142
+BIB                  1          1
+REACTION   (11-NA-23(N,P)10-NE-23,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 45.         5.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        31316003   20090930   20100128   20100126       3142
+BIB                  1          1
+REACTION   (14-SI-28(N,P)13-AL-28,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+   180.      18.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        31316004   20090930   20100128   20100126       3142
+BIB                  1          1
+REACTION   (14-SI-30(N,A)12-MG-27,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 123.         15.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        31316005   20090930   20100128   20100126       3142
+BIB                  1          1
+REACTION   (16-S-32(N,P)15-P-32,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+   352.       40.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        31316006   20100304   20100610   20100603       3144
+BIB                  3          4
+REACTION   (16-S-32(N,T)15-P-30,,SIG)
+CRITIQUE   Evaluator's remark: Suspicious data. Value for cross
+           section and error more than 10 times large.
+HISTORY    (20100303A) SD: Evaluator remark was added.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+   2.2       0.2
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        31316007   20090930   20100128   20100126       3142
+BIB                  1          1
+REACTION   (16-S-34(N,A)14-SI-31,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+   165.       23.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        31316008   20090930   20100128   20100126       3142
+BIB                  1          1
+REACTION   (19-K-41(N,A)17-CL-38,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+   33.        4.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        31316009   20090930   20100128   20100126       3142
+BIB                  1          1
+REACTION   (19-K-41(N,P)18-AR-41,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+   88.        9.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        31316010   20090930   20100128   20100126       3142
+BIB                  1          1
+REACTION   (20-CA-40(N,T)19-K-38,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+   20.        4.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        31316011   20090930   20100128   20100126       3142
+BIB                  1          1
+REACTION   (20-CA-44(N,A)18-AR-41,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+   113.       20.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        31316012   20090930   20100128   20100126       3142
+BIB                  1          1
+REACTION   (20-CA-44(N,P)19-K-44,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+   91.       20.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        31316013   20090930   20100128   20100126       3142
+BIB                  1          1
+REACTION   (27-CO-59(N,A)25-MN-56,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+   32.       5.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        31316014   20090930   20100128   20100126       3142
+BIB                  1          1
+REACTION   (27-CO-59(N,T)26-FE-57,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+   2.1       0.2
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        31316015   20090930   20100128   20100126       3142
+BIB                  1          1
+REACTION   (25-MN-55(N,A)23-V-52,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+  57.         7.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        31316016   20090930   20100128   20100126       3142
+BIB                  1          1
+REACTION   (32-GE-70(N,P)31-GA-70,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 64.         13.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        31316017   20090930   20100128   20100126       3142
+BIB                  1          1
+REACTION   (63-EU-153(N,A)61-PM-150,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+  9.         2.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        31316018   20090930   20100128   20100126       3142
+BIB                  1          1
+REACTION   (66-DY-164(N,A)64-GD-161,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+  4.         1.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        31316019   20090930   20100128   20100126       3142
+BIB                  2          2
+REACTION   (17-CL-37(N,P)16-S-37,,SIG)
+HISTORY    (19970520A) HW.- Subentry added.-
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+   40.        4.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        31316020   20090930   20100128   20100126       3142
+BIB                  2          2
+REACTION   (23-V-51(N,P)22-TI-51,,SIG)
+HISTORY    (19970520A) HW.- Subentry added.-
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+   25.        3.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        31316021   20090930   20100128   20100126       3142
+BIB                  2          2
+REACTION   (24-CR-52(N,P)23-V-52,,SIG)
+HISTORY    (19970520A) HW.- Subentry added.-
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+  118.       16.
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY            21

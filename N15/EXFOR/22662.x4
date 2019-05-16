@@ -1,0 +1,546 @@
+ENTRY            22662   20151008   20160603   20160523       2245
+SUBENT        22662001   20151008   20160603   20160523       2245
+BIB                 17         90
+TITLE       Measurement of activation cross-sections for (n,2n)
+            reactions producing short-lived nuclei in the energy
+            range between 13.4 and 14.9 MeV
+AUTHOR     (H.Sakane,Y.Kasugai,M.Shibata,T.Iida,A.Takahashi,
+            T.Fukahori,K.Kawade)
+INSTITUTE  (2JPNNAG) H.Sakane, Y.Kasugai, M.Shibata, K.Kawade
+                     Department of Energy Engineering and Science
+           (2JPNOSA) T.Iida, Dept. Of Electronics, Information
+                             Systems and Energy Engineering
+                     A.Takahashi, Dept.of Nuclear Engineering
+           (2JPNJAE) T.Fukahori, Nuclear Data Center
+REFERENCE  (J,ANE,28,1175,2001)  Main Reference, data tables
+                                 are given
+REL-REF    (I,,A.Takahashi+,S,JAERI-M-86-039,393,1987) Description
+           of OKTAVIAN Facility. Common data error structure
+FACILITY   (CCW,2JPNOSA) The Intense 14 MeV Neutron Source
+                         OKTAVIAN at Osaka University.
+METHOD     (ACTIV)
+           (STTA)
+INC-SOURCE (D-T) The D-Beam Energy was 300 keV and the Intensity
+            was 5 milliamps. A sample transport system of six
+            pneumatic tubes at angles of 0, 45, 70, 95, 120 and
+            155 deg relative to the deuteron beam (set 1 arrange-
+            ment), and at angles 1, 50, 75, 105, 125 and 155 deg
+            (set 2 arrangement) which covered the neutron energies
+            ranging from 14.87 to 13.4 MeV. Typical neutron
+            fluence rate at each irradiation position is
+            (0.9 - 1.5)E+8 n/cm2/sec
+             The Irradiation positions were about 15 cm from
+            the tritium target. An additional tube set at 0 deg
+            and at 1.5 cm distance was used when strong neutron
+            fluxes were required. The sample transfer time was
+            about 2 sec.
+MONITOR    ((MONIT1)13-AL-27(N,A)11-NA-24,,SIG) Standard reaction
+                      cross section taken from ENDF/B-VI
+           (13-AL-27(N,P)12-MG-27,,SIG)  Second standard
+                reaction used for short-lived nuclei and for
+                neutron flux monitoring
+DECAY-MON  (11-NA-24,14.959HR,DG,1368.6,0.99994)
+           (12-MG-27,9.462MIN,DG,843.8,0.720)
+INC-SPECT   Angles of irradiation were 0,50,75,105, 125, 155 degr.
+            The effective reaction neutron energy at each
+            position was determined by the ratio of the
+            90-Zr(n,2n)89-Zr and 93-Nb(n,2n)92-M-Nb cross-
+            sections. The uncertainty in the neutron energy is
+            estimated to be +/- 50 keV.
+DETECTOR   (HPGE)  Two High-Purity Ge-Detectors - 12% and 16%
+                   at an equivalent distance 5 cm
+SAMPLE      The samples were sandwiched between two aluminum
+           foils 10 * 10 * 0.2 mm, foil purity 99.2%.
+CORRECTION  Corrections were made for time fluctuation of neutron
+            flux, for contribution of low-energy neutrons below
+            10 MeV, for thickness of samples, for self-absorption
+            and sum-peak effect of gamma-rays.
+STATUS     (TABLE) Data from Table 4 of the ANE,28,1175. Reaction
+           and decay data parameters from Tbl. 3 of ANE,28,1175.
+ERR-ANALYS (ERR-T) Total error equal to quadratic sum of
+                   experimental (delta-E) and nuclear data
+                   (delta-R) errors
+           (ERR-S,1.,10.) Range of counting statistics error
+           (ERR-1) Total experimental error (=delta-E)
+           (ERR-2) Total nuclear data error (=delta-R)
+           (ERR-3,,0.1) Max Low-Energy neutrons error
+           (ERR-4,,0.4) Max neutron fluence Rate fluctuation error
+           (ERR-5,1.5,5.) Detector efficiency calibration error:
+               5% at gamma energy < 80 keV
+               3% for gamma energy between 80-300 keV
+               1.5% at gamma energy > 300 keV
+           (ERR-8) Efficiency conversion error between close and
+                   standard positions
+           (ERR-9,,0.5)  Max true coincidence summing error
+           (ERR-10,,0.1) Max random coincidence summing error
+           (ERR-11,,0.1) Max sample mass (including inpurity)error
+           (ERR-12,0.2,6.) Range of gamma-ray self-absorpt. error
+           (ERR-13,,0.5) Max gamma-ray peak evaluation error
+           (MONIT1-ERR) Al-27(N,A)Na-24 Sigma error
+           (ERR-14,0.01,19.) Range of absolute gamma-ray
+                             intensity error
+           (ERR-15,0.,2.7) Range of half-life error
+           Delta-E is Quadratic Sum of Errors ERR-S Through ERR-12
+           Delta-R is Quadratic Sum of MONIT1, ERR-13, ERR-14
+                   (MONIT2-ERR is not included!)
+HISTORY    (20020312C)  + +  Compiled by S.M.          + +
+           (20051216U) Subents 002,003,004,008,010 were corrected.
+           (20100713A) Data corrected in subentry 014 and
+                       use of new uncertainty range formalism
+           (20151008A) SD: Value corrected following K.Kawade's
+           remark in Subent 2. ERR-5 - ERR-7 deleted - parts of
+           one source of error. MONIT2-ERR deleted, MONITOR
+           cr.sect. values not used. Second ref. moved to REL-REF.
+ENDBIB              90
+COMMON               3          3
+EN-ERR     ERR-8      MONIT1-ERR
+KEV        PER-CENT   PER-CENT
+        50.         1.         3.
+ENDCOMMON            3
+ENDSUBENT           97
+SUBENT        22662002   20151008   20160603   20160523       2245
+BIB                  4          9
+REACTION   (7-N-14(N,2N)7-N-13,,SIG)
+DECAY-DATA (7-N-13,9.962MIN,AR,511.,1.9962)
+SAMPLE     B-N Compound, natural nitrogen (99.634% N-14,
+           0.366% N-15), weight 70 milligram
+HISTORY    (20051216U) Status was added.
+           (20151008A) SD: Value corrected following author's
+           remark: 5.48 mb -> 5.84 mb at 14.01 MeV (Typo in Tbl. 4
+           of ANE,28,1175,2001 (By K.Kawade, 2014-04-29)).
+           STATUS 'COREL' deleted.
+ENDBIB               9
+COMMON               1          3
+ERR-2
+PER-CENT
+         3.
+ENDCOMMON            3
+DATA                 5          6
+EN         DATA       ERR-1      ERR-T      MONIT1
+MEV        MB         PER-CENT   PER-CENT   MB
+      14.87        7.2        2.6         4.     111.25
+      14.64       7.28        2.8        4.1     114.43
+      14.35       7.07        2.9        4.2     118.34
+      14.01       5.84         3.        4.2     122.06
+       13.7       4.63        3.3        4.5     123.35
+       13.4       3.59        2.7         4.     124.14
+ENDDATA              8
+ENDSUBENT           26
+SUBENT        22662003   20051216   20060217   20060213       2175
+BIB                  5          6
+REACTION   (15-P-31(N,2N)15-P-30,,SIG)
+DECAY-DATA (15-P-30,2.498MIN,DG,2.0)
+SAMPLE     .Pure Phosphorus, Natural (100% P-31)
+             Weight 60 Milligram
+STATUS     (COREL,22156002)
+HISTORY    (20051216U) Status was added.
+ENDBIB               6
+COMMON               1          3
+ERR-2
+PER-CENT
+         3.
+ENDCOMMON            3
+DATA                 5          6
+EN         DATA       ERR-1      ERR-T      MONIT1
+MEV        MB         PER-CENT   PER-CENT   MB
+      14.87        15.         5.        5.8     111.25
+      14.64       13.2        4.5        5.4     114.43
+      14.35       11.1        4.6        5.5     118.34
+      14.01         6.        5.7        6.4     122.06
+       13.7         3.        8.8        9.3     123.35
+       13.4        1.1        13.        20.     124.14
+ENDDATA              8
+ENDSUBENT           23
+SUBENT        22662004   20051216   20060217   20060213       2175
+BIB                  5          7
+REACTION   (26-FE-54(N,2N)26-FE-53,,SIG)
+DECAY-DATA (26-FE-53,8.558MIN,DG,377.9,0.42)
+SAMPLE     .Fe2-O3 Oxide, Fe-54 Content 97.20%, Fe-56 - 2.75%,
+             Fe-57 Content 0.05%, Fe-58 Content Less Then 0.01%
+             Weight 70 Milligram
+STATUS     (COREL,22156002)
+HISTORY    (20051216U) Status was added.
+ENDBIB               7
+COMMON               1          3
+ERR-2
+PER-CENT
+        19.
+ENDCOMMON            3
+DATA                 5          5
+EN         DATA       ERR-1      ERR-T      MONIT1
+MEV        MB         PER-CENT   PER-CENT   MB
+      14.87       10.9        5.4        20.     111.25
+      14.64         9.        5.5        20.     114.43
+      14.35        5.3        6.4        20.     118.34
+      14.01        2.1        9.8        21.     122.06
+       13.7       0.22        80.        90.     123.35
+ENDDATA              7
+ENDSUBENT           23
+SUBENT        22662005   20020316   20030221   20050926       0000
+BIB                  3          4
+REACTION   (29-CU-63(N,2N)29-CU-62,,SIG)
+DECAY-DATA (29-CU-62,9.772MIN,DG,511.,2.0)
+SAMPLE     .Cu-O Oxide, Cu-63 Content 99.72%, Cu-64 Content 0.28%
+             Weight 40 Milligram
+ENDBIB               4
+COMMON               1          3
+ERR-2
+PER-CENT
+         3.
+ENDCOMMON            3
+DATA                 5          6
+EN         DATA       ERR-1      ERR-T      MONIT1
+MEV        MB         PER-CENT   PER-CENT   MB
+      14.87       538.        2.3        3.8     111.25
+      14.58       519.        1.7        3.4     115.26
+      14.28       492.         2.        3.6     119.28
+      13.88       441.        1.6        3.4     122.74
+      13.65       371.        1.7        3.4     123.49
+       13.4       341.        1.8        3.5     124.14
+ENDDATA              8
+ENDSUBENT           21
+SUBENT        22662006   20020316   20030221   20050926       0000
+BIB                  3          5
+REACTION   (35-BR-79(N,2N)35-BR-78,,SIG)
+DECAY-DATA (35-BR-78,6.460MIN,DG,613.85,0.136)
+SAMPLE     .K-Br Salt, Br-79 Content 50.69%, Br-81 Content 49.31%
+            (NATURAL)
+             Weight 80 Milligram
+ENDBIB               5
+COMMON               1          3
+ERR-2
+PER-CENT
+        4.3
+ENDCOMMON            3
+DATA                 5          6
+EN         DATA       ERR-1      ERR-T      MONIT1
+MEV        MB         PER-CENT   PER-CENT   MB
+      14.87      1024.        3.2        5.3     111.25
+      14.58       950.        3.2        5.3     115.26
+      14.28       920.        3.2        5.3     119.28
+      13.88       831.        3.1        5.1     122.74
+      13.65       771.        3.1        5.1     123.49
+       13.4       710.        3.2        5.2     124.14
+ENDDATA              8
+ENDSUBENT           22
+SUBENT        22662007   20020316   20030221   20050926       0000
+BIB                  3          4
+REACTION   (37-RB-87(N,2N)37-RB-86-M,,SIG)
+DECAY-DATA (37-RB-86-M,1.0218MIN,DG,556.1,0.959)
+SAMPLE     .Rb-Cl Salt, Rb-85 Content 2.68%, Rb-87 Content 97.32%
+             Weight 90 Milligram
+ENDBIB               4
+COMMON               1          3
+ERR-2
+PER-CENT
+         3.
+ENDCOMMON            3
+DATA                 5          6
+EN         DATA       ERR-1      ERR-T      MONIT1
+MEV        MB         PER-CENT   PER-CENT   MB
+      14.87       527.        1.7        3.5     111.25
+      14.58       559.        1.7        3.5     115.26
+      14.28       508.        1.8        3.5     119.28
+      13.88       460.        1.7        3.5     122.74
+      13.65       478.        1.7        3.5     123.49
+       13.4       463.        1.7        3.5     124.14
+ENDDATA              8
+ENDSUBENT           21
+SUBENT        22662008   20051216   20060217   20060213       2175
+BIB                  5          9
+REACTION   (42-MO-92(N,2N)42-MO-91-G,,SIG)
+DECAY-DATA (42-MO-91-G,15.473MIN,AR,511.,1.87)
+SAMPLE     .Metallic Molybdenum, Weight 70 Milligram
+            Mo-92 Content is 97.0%,  Mo-94 Content is 0.86%,
+            Mo-95 Content is 0.54%,  Mo-96 Content is 0.46%,
+            Mo-97 Content is 0.26%,  Mo-98 Content is 0.51%,
+            Mo-100 Content is 0.40%
+STATUS     (COREL,22156002)
+HISTORY    (20051216U) Status was added.
+ENDBIB               9
+COMMON               1          3
+ERR-2
+PER-CENT
+         3.
+ENDCOMMON            3
+DATA                 5          6
+EN         DATA       ERR-1      ERR-T      MONIT1
+MEV        MB         PER-CENT   PER-CENT   MB
+      14.87       221.        3.2        4.4     111.25
+      14.64       203.        3.1        4.3     114.43
+      14.35       176.        3.1        4.3     118.34
+      14.01       136.         3.        4.2     122.06
+       13.7        89.        3.3        4.5     123.35
+       13.4        46.        3.3        4.5     124.14
+ENDDATA              8
+ENDSUBENT           26
+SUBENT        22662009   20020316   20030221   20050926       0000
+BIB                  3          6
+REACTION   (46-PD-108(N,2N)46-PD-107-M,,SIG)
+DECAY-DATA (46-PD-107-M,20.780SEC,DG,214.9,0.69)
+SAMPLE     .Metallic Palladium, Weight 40 Milligram,
+            Pd-104 Content is 0.15%, Pd-105 Content is 0.31%,
+            Pd-106 Content is 0.39%, Pd-108 Content is 98.78%,
+            Pd-110 Content is 0.36%
+ENDBIB               6
+COMMON               1          3
+ERR-2
+PER-CENT
+        4.8
+ENDCOMMON            3
+DATA                 5          6
+EN         DATA       ERR-1      ERR-T      MONIT1
+MEV        MB         PER-CENT   PER-CENT   MB
+      14.87       472.        3.6         6.     111.25
+      14.58       474.        3.6         6.     115.26
+      14.28       455.        3.7         6.     119.28
+      13.88       435.        3.4        5.9     122.74
+      13.65       473.        4.3        6.4     123.49
+       13.4       431.        3.6         6.     124.14
+ENDDATA              8
+ENDSUBENT           23
+SUBENT        22662010   20051216   20060217   20060213       2175
+BIB                  5          6
+REACTION   (49-IN-113(N,2N)49-IN-112-M,,SIG)
+DECAY-DATA (49-IN-112-M,20.900MIN,DG,155.56,0.132)
+SAMPLE     .      Metallic Indium, Weight 10 Milligram
+            In-113 Content is 89.76%, in-115 Content is 10.24%
+STATUS     (COREL,22156002)
+HISTORY    (20051216U) Status was added.
+ENDBIB               6
+COMMON               1          3
+ERR-2
+PER-CENT
+        4.3
+ENDCOMMON            3
+DATA                 5          6
+EN         DATA       ERR-1      ERR-T      MONIT1
+MEV        MB         PER-CENT   PER-CENT   MB
+      14.87      1410.        8.1        9.2     111.25
+      14.64      1390.        6.3        7.6     114.43
+      14.35      1320.         7.        8.2     118.34
+      14.01      1240.        10.        11.     122.06
+       13.7      1320.        7.2        8.4     123.35
+       13.4      1060.        6.1        7.5     124.14
+ENDDATA              8
+ENDSUBENT           23
+SUBENT        22662011   20020316   20030221   20050926       0000
+BIB                  3          4
+REACTION   (49-IN-113(N,2N)49-IN-112-G,,SIG)
+DECAY-DATA (49-IN-112-G,14.400MIN,DG,511.,0.44)
+SAMPLE     .      Metallic Indium, Weight 10 Milligram
+            In-113 Content is 89.76%, in-115 Content is 10.24%
+ENDBIB               4
+COMMON               1          3
+ERR-2
+PER-CENT
+         3.
+ENDCOMMON            3
+DATA                 5          6
+EN         DATA       ERR-1      ERR-T      MONIT1
+MEV        MB         PER-CENT   PER-CENT   MB
+      14.87       279.       13.5        14.     111.25
+      14.64       293.       11.2        12.     114.43
+      14.35       275.         9.        9.5     118.34
+      14.01       297.       10.9        11.     122.06
+       13.7       286.        9.8        10.     123.35
+       13.4       293.        9.9        10.     124.14
+ENDDATA              8
+ENDSUBENT           21
+SUBENT        22662012   20020316   20030221   20050926       0000
+BIB                  3          7
+REACTION   (56-BA-132(N,2N)56-BA-131-M,,SIG)
+DECAY-DATA (56-BA-131-M,14.600MIN,DG,108.12,0.55)
+SAMPLE     .Ba-(N-O3)2, Weight 20 Milligram,
+            Ba-130 Content is 00.52%, Ba-132 Content is 21.66%
+            Ba-134 Content is 15.45%, Ba-135 Content is 14.43%
+            Ba-136 Content is 8.13%, Ba-137 Content is 7.18%
+            Ba-138 Content is 32.63%
+ENDBIB               7
+COMMON               1          3
+ERR-2
+PER-CENT
+        3.9
+ENDCOMMON            3
+DATA                 5          6
+EN         DATA       ERR-1      ERR-T      MONIT1
+MEV        MB         PER-CENT   PER-CENT   MB
+      14.87       880.        6.8        7.8     111.25
+      14.58       813.         6.        7.1     115.26
+      14.28       792.        6.9        7.9     119.28
+      13.88       789.         5.        6.3     122.74
+      13.65       698.        6.2        7.3     123.49
+       13.4       741.         5.        6.3     124.14
+ENDDATA              8
+ENDSUBENT           24
+SUBENT        22662013   20020316   20030221   20050926       0000
+BIB                  3          4
+REACTION   (56-BA-138(N,2N)56-BA-137-M,,SIG)
+DECAY-DATA (56-BA-137-M,02.552MIN,DG,661.66,0.901)
+SAMPLE     .Carbide Ba-C-O3, Weight 70 Milligram,
+            Ba-137 Content is 0.25%, Ba-138 Content is 99.75%
+ENDBIB               4
+COMMON               1          3
+ERR-2
+PER-CENT
+         3.
+ENDCOMMON            3
+DATA                 5          6
+EN         DATA       ERR-1      ERR-T      MONIT1
+MEV        MB         PER-CENT   PER-CENT   MB
+      14.87       983.        3.2        4.4     111.25
+      14.58       975.        3.2        4.4     115.26
+      14.28       963.        3.9        4.8     119.28
+      13.88       967.        3.2        4.4     122.74
+      13.65       945.        3.1        4.3     123.49
+       13.4       927.        2.8        4.1     124.14
+ENDDATA              8
+ENDSUBENT           21
+SUBENT        22662014   20100713   20110107   20101216       2222
+BIB                  5          7
+REACTION   (58-CE-140(N,2N)58-CE-139-M,,SIG)
+DECAY-DATA (58-CE-139-M,56.54SEC,DG,754.21,0.925)
+SAMPLE     .CeO2 Oxide, Weight 70 Milligram,
+            Ce-140 Content is 99.84%, Ce-142 Content is 0.16%
+STATUS     (TABLE) Data received from M.Shibata (20100309)
+HISTORY    (20100713A) Misprint in Table 4 of J,ANE,28,1175
+                       Correct data provided by M.Shibata
+ENDBIB               7
+COMMON               1          3
+ERR-2
+PER-CENT
+         3.
+ENDCOMMON            3
+DATA                 5          6
+EN         DATA       ERR-1      ERR-T      MONIT1
+MEV        MB         PER-CENT   PER-CENT   MB
+      14.87       983.        3.1        4.3     111.25
+      14.58       966.        3.0        4.3     115.26
+      14.28       958.        3.2        4.3     119.28
+      13.88       948.        3.0        4.3     122.74
+      13.65       899.        3.0        4.3     123.49
+      13.40       893.        3.0        4.3     124.14
+ENDDATA              8
+ENDSUBENT           24
+SUBENT        22662015   20020316   20030221   20050926       0000
+BIB                  3          4
+REACTION   (59-PR-141(N,2N)59-PR-140,,SIG)
+DECAY-DATA (59-PR-140,03.390MIN,DG,1596.54,0.005)
+SAMPLE     .Pr6-O11 Oxide, Weight 80 Milligram,
+            Pr-141 Content is 100.0%
+ENDBIB               4
+COMMON               1          3
+ERR-2
+PER-CENT
+        8.7
+ENDCOMMON            3
+DATA                 5          6
+EN         DATA       ERR-1      ERR-T      MONIT1
+MEV        B          PER-CENT   PER-CENT   MB
+      14.87       1.41        8.4        12.     111.25
+      14.58       1.57        8.3        12.     115.26
+      14.28       1.62        9.2        12.     119.28
+      13.88       1.41         8.        12.     122.74
+      13.65       1.41         8.        12.     123.49
+       13.4       1.52        7.9        12.     124.14
+ENDDATA              8
+ENDSUBENT           21
+SUBENT        22662016   20020316   20030221   20050926       0000
+BIB                  3          7
+REACTION   (62-SM-144(N,2N)62-SM-143-M,,SIG)
+DECAY-DATA (62-SM-143-M,01.100MIN,DG,754.01,0.90)
+SAMPLE     .Sm2-O3 Oxide, Weight 50 Milligram,
+            Sm-144 Content is 96.47%, Sm-147 Content is 1.08%,
+            Sm-148 Content is 0.56%, Sm-149 Content is 0.54%,
+            Sm-150 Content is 0.24%, Sm-152 Content is 0.65%,
+            Sm-154 Content is 0.46%
+ENDBIB               7
+COMMON               1          3
+ERR-2
+PER-CENT
+         4.
+ENDCOMMON            3
+DATA                 5          6
+EN         DATA       ERR-1      ERR-T      MONIT1
+MEV        MB         PER-CENT   PER-CENT   MB
+      14.87       587.        4.2        5.8     111.25
+      14.58       574.        3.2        5.2     115.26
+      14.28       495.        3.3        5.2     119.28
+      13.88       480.         3.         5.     122.74
+      13.65       419.        3.3        5.2     123.49
+       13.4       372.        3.1         5.     124.14
+ENDDATA              8
+ENDSUBENT           24
+SUBENT        22662017   20020316   20030221   20050926       0000
+BIB                  3          7
+REACTION   (62-SM-144(N,2N)62-SM-143-G,,SIG)
+DECAY-DATA (62-SM-143-G,08.830MIN,DG,1056.48,0.0175)
+SAMPLE     .Sm2-O3 Oxide, Weight 50 Milligram,
+            Sm-144 Content is 96.47%, Sm-147 Content is 1.08%,
+            Sm-148 Content is 0.56%, Sm-149 Content is 0.54%,
+            Sm-150 Content is 0.24%, Sm-152 Content is 0.65%,
+            Sm-154 Content is 0.46%
+ENDBIB               7
+COMMON               1          3
+ERR-2
+PER-CENT
+        10.
+ENDCOMMON            3
+DATA                 5          6
+EN         DATA       ERR-1      ERR-T      MONIT1
+MEV        MB         PER-CENT   PER-CENT   MB
+      14.87      1090.        11.        15.     111.25
+      14.58       946.        10.        14.     115.26
+      14.28       839.        11.        15.     119.28
+      13.88       702.        6.3        12.     122.74
+      13.65       737.        11.        15.     123.49
+       13.4       620.        6.3        12.     124.14
+ENDDATA              8
+ENDSUBENT           24
+SUBENT        22662018   20020316   20030221   20050926       0000
+BIB                  3          4
+REACTION   (67-HO-165(N,2N)67-HO-164-M,,SIG)
+DECAY-DATA (67-HO-164-M,37.500MIN,DG,93.99,0.00141)
+SAMPLE     .Ho2-O3 Oxide, Weight 80 Milligram,
+            Ho-165 Content is 100%
+ENDBIB               4
+COMMON               1          3
+ERR-2
+PER-CENT
+        11.
+ENDCOMMON            3
+DATA                 5          6
+EN         DATA       ERR-1      ERR-T      MONIT1
+MEV        MB         PER-CENT   PER-CENT   MB
+      14.87       797.        12.        16.     111.25
+      14.58       705.        12.        17.     115.26
+      14.28       785.        13.        17.     119.28
+      13.88       771.        11.        16.     122.74
+      13.65       785.        13.        17.     123.49
+       13.4       701.        13.        17.     124.14
+ENDDATA              8
+ENDSUBENT           21
+SUBENT        22662019   20020316   20030221   20050926       0000
+BIB                  3          4
+REACTION   (67-HO-165(N,2N)67-HO-164-G,,SIG)
+DECAY-DATA (67-HO-164-G,20.000MIN,DG,73.356,0.0197)
+SAMPLE     .Ho2-O3 Oxide, Weight 80 Milligram,
+            Ho-165 Content is 100%
+ENDBIB               4
+COMMON               1          3
+ERR-2
+PER-CENT
+        11.
+ENDCOMMON            3
+DATA                 5          6
+EN         DATA       ERR-1      ERR-T      MONIT1
+MEV        MB         PER-CENT   PER-CENT   MB
+      14.87       454.        6.7        13.     111.25
+      14.58       401.        6.9        13.     115.26
+      14.28       439.        6.6        13.     119.28
+      13.88       435.        6.6        13.     122.74
+      13.65       442.        6.9        13.     123.49
+       13.4       459.        6.6        13.     124.14
+ENDDATA              8
+ENDSUBENT           21
+ENDENTRY            19

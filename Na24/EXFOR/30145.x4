@@ -1,0 +1,101 @@
+ENTRY            30145   20080208   20080530   20080530       3126
+SUBENT        30145001   20080208   20080530   20080530       3126
+BIB                 12         21
+INSTITUTE  (3CRORBZ)
+REFERENCE  (R,LNS-4-72,1972) .Small report, table, graph
+AUTHOR     (E.Holub,R.Caplar,P.Kulisic,N.Cindro,J.Vuletin)
+TITLE      Activation measurements of fast neutron radiative
+           capture for Na23,Al27,Cl37,K41,Ti50,V51,Mn55,As75,I127,
+           Ba138,La139,Pr141,Er170.
+FACILITY   (CCW) Cockcroft-Walton accelerator
+INC-SOURCE (D-T)  Deuteron-tritium
+METHOD     (ACTIV) Activation method
+DETECTOR   (GELI) Ge(Li) detector of 20 cm3 active volume used in
+           connection with a 256-channel analyser.
+MONITOR    (26-FE-56(N,P)25-MN-56,,SIG)
+           (13-AL-27(N,P)12-MG-27,,SIG)
+           (13-AL-27(N,A)11-NA-24,,SIG)
+           These 3 reactions have been used as monitors. No detail
+STATUS     (TABLE) Data taken from LNS-4-72.
+           Proof-copy was sent to author (1973/8)
+HISTORY    (19730806C) CA.
+           (19841129A) DG.-Conversion to reaction formalism.-
+           (20080208A) BIB section updated
+ERR-ANALYS (DATA-ERR) no detail
+ENDBIB              21
+COMMON               1          3
+EN
+MEV
+ 1.4400E+01
+ENDCOMMON            3
+ENDSUBENT           28
+SUBENT        30145002   20080208   20080530   20080530       3126
+BIB                  3          5
+REFERENCE  (C,72BUD,258,197208)   very
+           (R,INDC-28,268,197209) similar
+           (J,FIZ/S,4,59,197212)  to LNS-4-1972
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG)
+SAMPLE     NaCl
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 2.5000E-01 4.0000E-02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        30145003   20080208   20080530   20080530       3126
+BIB                  3          5
+REFERENCE  (C,72BUD,258,197208)   very
+           (R,INDC-28,268,197209) similar
+           (J,FIZ/S,4,59,197212)  to LNS-4-1972
+REACTION   (13-AL-27(N,G)13-AL-28,,SIG)
+SAMPLE     Natural Al
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 3.3000E-01 1.0000E-01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        30145005   20080208   20080530   20080530       3126
+BIB                  3          5
+REFERENCE  (C,72BUD,258,197208)   very
+           (R,INDC-28,268,197209) similar
+           (J,FIZ/S,4,59,197212)  to LNS-4-1972
+REACTION   (19-K-41(N,G)19-K-42,,SIG)
+SAMPLE     KIO3
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 2.0000E+00 3.0000E-01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        30145007   20080208   20080530   20080530       3126
+BIB                  2          3
+REFERENCE  (C,72BUD,258,197208)    very similar
+           (R,INDC-28,268,197208)  to LNS-4-1972
+REACTION   (23-V-51(N,G)23-V-52,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 1.4000E+00 2.0000E-01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30145012   20080208   20080530   20080530       3126
+BIB                  1          1
+REACTION   (57-LA-139(N,G)57-LA-140,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 2.4000E+00 2.0000E-01
+ENDDATA              3
+ENDSUBENT            9
+ENDENTRY             6

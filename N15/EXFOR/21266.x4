@@ -1,0 +1,194 @@
+ENTRY            21266     800129              20050926       0000
+SUBENT        21266001     800129              20050926       0000
+BIB                 13         19
+INSTITUTE  (2ITYBOL)
+REFERENCE  (J,NC,26,1328,6212)
+AUTHOR     (M.CEVOLANI,S.PETRALIA)
+TITLE      -CROSS SECTION MEASUREMENT OF (N,2N)-REACTIONS ON
+            14.1 MEV NEUTRONS.-
+FACILITY   .ACCELERATOR
+INC-SOURCE (D-T  ) DEUTERON-TRITIUM REACTION.
+METHOD     (ACTIV) ACTIVATION.
+           .MONITORING BY ASSOCIATED ALPHA PARTICLE COUNTING.
+DETECTOR   (NAICR) SODIUM-IODIDE CRYSTAL.
+PART-DET   (AR   ) ANNIHILATION RADIATION.
+REL-REF    (N,,WEISSKOPF+,J,PR,57,472,40) EXPERIMENTAL RESULTS
+            COMPARED WITH VALUES OBTAINED BY THE THEORY DESCRIBED
+            IN THIS REFERENCE.
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800121T) G.C.
+           (800129E)
+ERR-ANALYS .THE ERROR GIVEN INCLUDES STATISTICAL AND SYSTEMATIC
+            ERRORS, DETAILS IN PUBLICATION.
+ENDBIB              19
+COMMON               2          3
+EN         EN-ERR
+MEV        MEV
+ 1.4130E+01 1.0000E-01
+ENDCOMMON            3
+ENDSUBENT           26
+SUBENT        21266002     800129              20050926       0000
+BIB                  3          3
+REACTION   (7-N-14(N,2N)7-N-13,,SIG)
+DECAY-DATA (7-N-13,10.05MIN,AR)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 5.4000E+00 4.6000E-01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        21266003     800129              20050926       0000
+BIB                  4          4
+REACTION   (9-F-19(N,2N)9-F-18,,SIG)
+DECAY-DATA (9-F-18,112.MIN,AR)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800121T)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 3.8900E+01 2.3000E+00
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        21266004     800129              20050926       0000
+BIB                  3          3
+REACTION   (15-P-31(N,2N)15-P-30,,SIG)
+DECAY-DATA (15-P-30,2.53MIN,AR)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 5.1000E+00 4.5000E-01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        21266005     800129              20050926       0000
+BIB                  3          3
+REACTION   (21-SC-45(N,2N)21-SC-44-G,,SIG)
+DECAY-DATA (21-SC-44-G,3.92HR,AR)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 1.3000E+02 7.8000E+00
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        21266006     800129              20050926       0000
+BIB                  3          3
+REACTION   (22-TI-46(N,2N)22-TI-45,,SIG)
+DECAY-DATA (22-TI-45,3.08HR,AR)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 1.3300E+01 1.1000E+00
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        21266007     800129              20050926       0000
+BIB                  3          3
+REACTION   (29-CU-63(N,2N)29-CU-62,,SIG)
+DECAY-DATA (29-CU-62,10.1MIN,AR)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 4.0900E-01 2.5000E-02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        21266008     800129              20050926       0000
+BIB                  3          3
+REACTION   (30-ZN-64(N,2N)30-ZN-63,,SIG)
+DECAY-DATA (30-ZN-63,38.3MIN,AR)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 1.0500E+02 7.0000E+00
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        21266009     800129              20050926       0000
+BIB                  3          3
+REACTION   (31-GA-69(N,2N)31-GA-68,,SIG)
+DECAY-DATA (31-GA-68,67.0MIN,AR)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 7.3500E+02 4.4000E+01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        21266010     800129              20050926       0000
+BIB                  4          5
+REACTION   (35-BR-79(N,2N)35-BR-78,,SIG)
+DECAY-DATA (35-BR-78,6.4MIN,AR)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800121T) G.C.
+           (800129E)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 7.9300E+02 4.8000E+01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        21266011     860807              20050926       0000
+BIB                  4          7
+REACTION   (42-MO-92(N,2N)42-MO-91,,SIG)
+DECAY-DATA (42-MO-91-G,15.7MIN,AR)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800121T) G.C.
+           (800129E)
+           (860808A)HH REACTION STRING CORRECTED
+           (860807E)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 1.0600E+02 7.5000E+00
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        21266012     800129              20050926       0000
+BIB                  3          3
+REACTION   (47-AG-107(N,2N)47-AG-106-G,,SIG)
+DECAY-DATA (47-AG-106-G,24.0MIN,AR)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 7.3400E+02 4.4000E+01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        21266013     800129              20050926       0000
+BIB                  4          4
+REACTION   (59-PR-141(N,2N)59-PR-140,,SIG)
+DECAY-DATA (59-PR-140,3.4MIN,AR)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800123T) G.C.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.2400E+00 7.4000E-02
+ENDDATA              3
+ENDSUBENT           12
+ENDENTRY            13

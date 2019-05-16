@@ -1,0 +1,329 @@
+ENTRY            11226   20170914   20180123   20180122       1435
+SUBENT        11226001   20170914   20180123   20180122       1435
+BIB                 11         26
+TITLE      Nonelastic Neutron Cross Sections at 14 Mev
+AUTHOR     (M.H.MacGregor,W.P.Ball,R.Booth)
+REFERENCE  (J,PR,108,726,1957)
+           #doi:10.1103/PhysRev.108.726
+           (C,58PARIS,,612,1958) Review of results.
+INSTITUTE  (1USALRL)
+FACILITY   (CCW,1USALRL) Cockcroft-Walton accelerator.
+INC-SOURCE (D-T) The D(d,n)He3 reaction, with a gas target, was
+           used to produce neutrons over a range from 9.7 to 14.5
+           MeV.
+DETECTOR   (SCIN) 0.5-in. diam plastic spherical scintillator.
+METHOD     (SHELT) Spherical shell transmission.
+ERR-ANALYS (DATA-ERR) Error limits are quoted for the
+           extrapolated cross sections. These error estimates
+           are compounded from statistical errors in the
+           transmission measurements, uncertainties in the shell
+           constants, and inaccuracies in the correction
+           calculations.
+           (ERR-S) Statistical uncertainty.
+           (ERR-1,,1.) Monte Carlo calculations uncertainty.
+CORRECTION Corrected for multiple scattering.
+HISTORY    (19760929T) Translated from SCISRS
+           (19800820A) converted to reaction formalism
+           (20170914A) BP: Updated the entry metadata, new date
+           formats, lower case. Corrections according last EXFOR
+           rules and Dict.
+ENDBIB              26
+COMMON               1          3
+ERR-S
+PER-CENT
+        1.0
+ENDCOMMON            3
+ENDSUBENT           33
+SUBENT        11226002   20170914   20180123   20180122       1435
+BIB                  2          2
+REACTION   (4-BE-9(N,NON),,SIG)
+STATUS     (TABLE) Table III, page 732 of J,PR,108,726,1957.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+   1.42E+01     3.E-01    4.9E-01     2.E-02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11226003   20170914   20180123   20180122       1435
+BIB                  4          9
+REACTION   (5-B-10(N,NON),,SIG)
+SAMPLE     Boron in powder form was contained in a hollow
+           spherical aluminum shell. The boron powder contained
+           84% B10, 11% B11 and 5% 016.
+CORRECTION The correction problem was run using a sort of
+           average atom. The final results were then corrected
+           for the effect of the oxygen. The quoted uncertainty
+           is a guess as to the accuracy of this procedure.
+STATUS     (TABLE) Table III, page 732 of J,PR,108,726,1957.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+   1.42E+01     3.E-01    5.6E-01     6.E-02
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        11226004   20170914   20180123   20180122       1435
+BIB                  2          2
+REACTION   (6-C-0(N,NON),,SIG)
+STATUS     (TABLE) Table III, page 732 of J,PR,108,726,1957.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+   1.42E+01   5.60E-01     2.E-03
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11226005   20170914   20180123   20180122       1435
+BIB                  3          4
+REACTION   (9-F-19(N,NON),,SIG)
+SAMPLE     Fluorine was in the form of a machined sphere of Teflon
+            (CF2).
+STATUS     (TABLE) Table III, page 732 of J,PR,108,726,1957.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+   1.42E+01     3.E-01    8.3E-01     5.E-02
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11226006   20170914   20180123   20180122       1435
+BIB                  2          2
+REACTION   (12-MG-0(N,NON),,SIG)
+STATUS     (TABLE) Table III, page 732 of J,PR,108,726,1957.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+   1.42E+01     3.E-01    9.9E-01     2.E-02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11226007   20170914   20180123   20180122       1435
+BIB                  2          2
+REACTION   (13-AL-27(N,NON),,SIG)
+STATUS     (TABLE) Table III, page 732 of J,PR,108,726,1957.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+   1.42E+01     3.E-01    9.7E-01     2.E-02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11226008   20170914   20180123   20180122       1435
+BIB                  2          2
+REACTION   (16-S-0(N,NON),,SIG)
+STATUS     (TABLE) Table III, page 732 of J,PR,108,726,1957.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+   1.42E+01     3.E-01       1.14     4.E-02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11226009   20170914   20180123   20180122       1435
+BIB                  2          2
+REACTION   (22-TI-0(N,NON),,SIG)
+STATUS     (TABLE) Table III, page 732 of J,PR,108,726,1957.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+   1.42E+01     3.E-01       1.33     3.E-02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11226010   20170914   20180123   20180122       1435
+BIB                  2          2
+REACTION   (26-FE-0(N,NON),,SIG)
+STATUS     (TABLE) Table III, page 732 of J,PR,108,726,1957.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+   1.42E+01       1.36     3.E-02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11226011   20170914   20180123   20180122       1435
+BIB                  2          2
+REACTION   (27-CO-59(N,NON),,SIG)
+STATUS     (TABLE) Table III, page 732 of J,PR,108,726,1957.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+   1.42E+01       1.37     3.E-02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11226012   20170914   20180123   20180122       1435
+BIB                  2          2
+REACTION   (28-NI-0(N,NON),,SIG)
+STATUS     (TABLE) Table III, page 732 of J,PR,108,726,1957.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+   1.42E+01       1.38     3.E-02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11226013   20170914   20180123   20180122       1435
+BIB                  2          2
+REACTION   (29-CU-0(N,NON),,SIG)
+STATUS     (TABLE) Table III, page 732 of J,PR,108,726,1957.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+   1.42E+01       1.49     2.E-02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11226014   20170914   20180123   20180122       1435
+BIB                  2          2
+REACTION   (30-ZN-0(N,NON),,SIG)
+STATUS     (TABLE) Table III, page 732 of J,PR,108,726,1957.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+   1.42E+01       1.58     3.E-02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11226015   20170914   20180123   20180122       1435
+BIB                  2          2
+REACTION   (40-ZR-0(N,NON),,SIG)
+STATUS     (TABLE) Table III, page 732 of J,PR,108,726,1957.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+   1.42E+01       1.72     3.E-02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11226016   20170914   20180123   20180122       1435
+BIB                  2          2
+REACTION   (47-AG-0(N,NON),,SIG)
+STATUS     (TABLE) Table III, page 732 of J,PR,108,726,1957.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+   1.42E+01       1.90     4.E-02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11226017   20170914   20180123   20180122       1435
+BIB                  2          2
+REACTION   (48-CD-0(N,NON),,SIG)
+STATUS     (TABLE) Table III, page 732 of J,PR,108,726,1957.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+   1.42E+01       1.91     3.E-02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11226018   20170914   20180123   20180122       1435
+BIB                  2          2
+REACTION   (50-SN-0(N,NON),,SIG)
+STATUS     (TABLE) Table III, page 732 of J,PR,108,726,1957.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+   1.42E+01       1.90     3.E-02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11226019   20170914   20180123   20180122       1435
+BIB                  2          2
+REACTION   (51-SB-0(N,NON),,SIG)
+STATUS     (TABLE) Table III, page 732 of J,PR,108,726,1957.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+   1.42E+01       1.96     3.E-02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11226020   20170914   20180123   20180122       1435
+BIB                  4          7
+REACTION   (74-W-0(N,NON),,SIG)
+SAMPLE     Tungsten was in the form of a Heavimet sphere,
+           containing 95% tungsten and 5% copper and nickel.
+CORRECTION Corrections were made in the Monte Carlo problem and
+           in the final cross-section calculation to remove the
+           effect of the 5% impurities.
+STATUS     (TABLE) Table III, page 732 of J,PR,108,726,1957.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+   1.42E+01       2.40     5.E-02
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11226021   20170914   20180123   20180122       1435
+BIB                  2          2
+REACTION   (79-AU-197(N,NON),,SIG)
+STATUS     (TABLE) Table III, page 732 of J,PR,108,726,1957.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+   1.42E+01       2.42     4.E-02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11226022   20170914   20180123   20180122       1435
+BIB                  3          4
+REACTION   (80-HG-0(N,NON),,SIG)
+SAMPLE     Mercury was also contained in a hollow spherical
+           aluminum shell.
+STATUS     (TABLE) Table III, page 732 of J,PR,108,726,1957.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+   1.42E+01       2.43     4.E-02
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11226023   20170914   20180123   20180122       1435
+BIB                  2          2
+REACTION   (82-PB-0(N,NON),,SIG)
+STATUS     (TABLE) Table III, page 732 of J,PR,108,726,1957.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+   1.42E+01       2.56     3.E-02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11226024   20170914   20180123   20180122       1435
+BIB                  2          2
+REACTION   (83-BI-209(N,NON),,SIG)
+STATUS     (TABLE) Table III, page 732 of J,PR,108,726,1957.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+   1.42E+01       2.56       0.04
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY            24

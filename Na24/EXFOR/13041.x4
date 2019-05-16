@@ -1,0 +1,265 @@
+ENTRY            13041     860909              20050926       0000
+SUBENT        13041001     860909              20050926       0000
+BIB                 10         11
+INSTITUTE  (1USAANL)
+REFERENCE  (J,PR,79,747,5009)
+AUTHOR     (C.T.HIBDON)
+TITLE      NEUTRON CROSS SECTIONS AT 120 AND 345 EV
+FACILITY   (REAC) ARGONNE HEAVY WATER REACTOR
+METHOD     (TOF) RESONANCE SCATTERING FROM CO (120 EV) AND
+            MANGANESE (345 EV) RESONANCES
+MONITOR    (5-B-10(N,A)3-LI-7,,SIG)
+DETECTOR   (PROPC)
+ERR-ANALYS NO INFORMATION GIVEN
+HISTORY    (860909C)
+ENDBIB              11
+NOCOMMON             0          0
+ENDSUBENT           14
+SUBENT        13041002     860909              20050926       0000
+BIB                  1          1
+REACTION   (1-H-1(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+EN         DATA
+EV         B
+ 120.       20.3
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        13041003     860909              20050926       0000
+BIB                  1          1
+REACTION   (1-H-2(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          2
+EN         DATA
+EV         B
+ 120.       3.34
+ 345.       3.32
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        13041004     860909              20050926       0000
+BIB                  1          1
+REACTION   (3-LI-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          2
+EN         DATA
+EV         B
+ 120.       2.24
+ 345.       1.65
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        13041005     860909              20050926       0000
+BIB                  1          1
+REACTION   (6-C-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          2
+EN         DATA
+EV         B
+ 120.       4.72
+ 345.       4.72
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        13041006     860909              20050926       0000
+BIB                  1          1
+REACTION   (7-N-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          2
+EN         DATA-APRX
+EV         B
+ 120.       9.9
+ 345.       9.6
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        13041007     860909              20050926       0000
+BIB                  1          1
+REACTION   (11-NA-23(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+EN         DATA
+EV         B
+ 120.       4.16
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        13041008     860909              20050926       0000
+BIB                  1          1
+REACTION   (11-NA-23(N,EL)11-NA-23,POT,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+EN         DATA
+EV         B
+ 345.       4.22
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        13041009     860909              20050926       0000
+BIB                  1          1
+REACTION   (14-SI-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          2
+EN         DATA
+EV         B
+ 120.       2.21
+ 345.       2.30
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        13041010     860909              20050926       0000
+BIB                  1          1
+REACTION   (19-K-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          2
+EN         DATA
+EV         B
+ 120.       1.92
+ 345.       1.75
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        13041011     860909              20050926       0000
+BIB                  1          1
+REACTION   (22-TI-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          2
+EN         DATA       DATA-APRX
+EV         B          B
+ 120.       4.69
+ 345.                  4.8
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        13041012     860909              20050926       0000
+BIB                  1          1
+REACTION   (23-V-51(N,EL)23-V-51,POT,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          2
+EN         DATA
+EV         B
+ 120.       5.35
+ 345.       5.87
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        13041013     860909              20050926       0000
+BIB                  1          1
+REACTION   (26-FE-0(N,EL)26-FE-0,POT,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          2
+EN         DATA
+EV         B
+ 120.       9.61
+ 345.       8.65
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        13041014     860909              20050926       0000
+BIB                  1          1
+REACTION   (38-SR-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          2
+EN         DATA
+EV         B
+ 120.       13.5
+ 345.       13.0
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        13041015     860909              20050926       0000
+BIB                  1          1
+REACTION   (41-NB-93(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          2
+EN         DATA
+EV         B
+ 120.       7.24
+ 345.       7.16
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        13041016     860909              20050926       0000
+BIB                  1          1
+REACTION   (42-MO-0(N,EL)42-MO-0,POT,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          2
+EN         DATA
+EV         B
+ 120.       6.78
+ 345.       5.55
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        13041017     860909              20050926       0000
+BIB                  1          1
+REACTION   (44-RU-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+EN         DATA
+EV         B
+ 120.       6.51
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        13041018     860909              20050926       0000
+BIB                  1          1
+REACTION   (44-RU-0(N,EL)44-RU-0,POT,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+EN         DATA
+EV         B
+ 345.       6.70
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        13041019     860909              20050926       0000
+BIB                  1          1
+REACTION   (46-PD-0(N,EL)46-PD-0,POT,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          2
+EN         DATA
+EV         B
+ 120.       5.95
+ 345.       5.78
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        13041020     860909              20050926       0000
+BIB                  1          1
+REACTION   (56-BA-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          2
+EN         DATA
+EV         B
+ 120.       5.76
+ 345.       6.05
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        13041021     860909              20050926       0000
+BIB                  1          1
+REACTION   (57-LA-139(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          2
+EN         DATA
+EV         B
+ 120.       5.86
+ 345.       4.94
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        13041022     860909              20050926       0000
+BIB                  1          1
+REACTION   (78-PT-0(N,EL)78-PT-0,POT,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          2
+EN         DATA
+EV         B
+ 120.       12.6
+ 345.       11.9
+ENDDATA              4
+ENDSUBENT           10
+ENDENTRY            22

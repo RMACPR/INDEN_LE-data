@@ -1,0 +1,569 @@
+ENTRY            22338   20131228   20140820   20140807       2238
+SUBENT        22338001   20131228   20140820   20140807       2238
+BIB                 15         26
+TITLE       14.6 MeV neutron induced reaction cross section
+            measurements
+AUTHOR     (A.Ercan,M.N.Erduran,M.Subasi,E.Gueltekin,G.Tarcan,
+           A.Baykal,M.Bostan)
+INSTITUTE  (2TUKCNA)
+REFERENCE  (C,91JUELIC,,376,199105) Main ref. Data table is given
+FACILITY   (VDG,2TUKCNA) SAMES T-400 low energy ion accelerator
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+MONIT-REF  (,M.Subasi+,R,CNAEM-249,1988)  CNAEM-AR-249
+INC-SOURCE (D-T)   Titanium-tritium target irradiated by deutrons
+INC-SPECT   Neutron energy was determined using the zirconium/
+            Nb(n,2n) reaction cross-section ratio method.
+            Average neutron flux is 10.**9 neutrons/cm2/sec
+DETECTOR   (HPGE)  For gamma-rays detection
+           (BF3)   For neutron flux monitoring
+SAMPLE      Powder samples were irradiated in polyethylene
+            containers of cylindrical form 13.2 mm diameter,
+            8 mm height placed 11 mm away from neutron source
+ERR-ANALYS (ERR-T)  Total error
+CORRECTION  Dead-time correction were made
+STATUS     (TABLE) Data are taken from 91JUELIC,,376
+HISTORY    (19970124C)  + + Compiled by S.M.     + +
+           (20060614A) Date is corrected
+           (20060614U) Last checking has been done.
+           (20131228A) SD: REL-REF and critique from A.Koning was
+            added to Subents 4,5. FACILITY was added.
+ENDBIB              26
+COMMON               3          3
+EN         EN-ERR     MONIT
+MEV        MEV        MB
+       14.6        0.1       114.
+ENDCOMMON            3
+ENDSUBENT           33
+SUBENT        22338002   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (27-CO-59(N,P)26-FE-59,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        48.         4.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338003   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (27-CO-59(N,A)25-MN-56,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        33.         3.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338004   20131228   20140820   20140807       2238
+BIB                  3          3
+REACTION   (28-NI-58(N,P)27-CO-58-M,,SIG)
+REL-REF    (D,,A.B.Pashchenko,R,INDC(CCP)-323,1991) - Value 175 mb
+CRITIQUE   Inconsistent with 22338.005. (A.Koning, 2012-11-05)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+       218.        60.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22338005   20131228   20140820   20140807       2238
+BIB                  3          3
+REACTION   (28-NI-58(N,P)27-CO-58,,SIG)
+REL-REF    (D,,A.B.Pashchenko,R,INDC(CCP)-323,1991) - Value 310 mb
+CRITIQUE   Inconsistent with 22338.004. (A.Koning, 2012-11-05)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+       159.        21.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22338006   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (28-NI-58(N,2N)28-NI-57,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        46.         2.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338007   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (28-NI-60(N,P)27-CO-60-M,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+       114.         8.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338008   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (28-NI-61(N,P)27-CO-61,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+       144.        10.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338009   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (28-NI-62(N,P)27-CO-62,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        24.         4.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338010   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (28-NI-62(N,P)27-CO-62-M,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        18.         2.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338011   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (28-NI-64(N,A)26-FE-61,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+         6.         1.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338012   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (29-CU-63(N,A)27-CO-60-M,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        12.         5.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338013   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (29-CU-63(N,2N)29-CU-62,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+       316.        53.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338014   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (29-CU-65(N,2N)29-CU-64,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+       971.       200.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338015   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (29-CU-65(N,P)28-NI-65,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        14.         5.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338016   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (29-CU-65(N,A)27-CO-62-M,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        4.9        0.4
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338017   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (30-ZN-64(N,P)29-CU-64,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+       140.        40.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338018   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (30-ZN-64(N,2N)30-ZN-63,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+       167.        10.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338019   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (30-ZN-66(N,2N)30-ZN-65,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+       786.        28.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338020   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (30-ZN-66(N,P)29-CU-66,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        69.        10.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338021   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (30-ZN-67(N,P)29-CU-67,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        68.         7.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338022   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (30-ZN-68(N,A)28-NI-65,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        11.        0.7
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338023   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (30-ZN-68(N,P)29-CU-68-M,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+         5.        0.5
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338024   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (30-ZN-70(N,P)29-CU-70-M,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        5.7        1.9
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338025   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (30-ZN-70(N,2N)30-ZN-69-M,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+       698.        48.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338026   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (11-NA-23(N,P)10-NE-23,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        41.         8.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338027   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (11-NA-23(N,A)9-F-20,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+       100.        20.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338028   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (12-MG-24(N,P)11-NA-24,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+       169.        17.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338029   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (12-MG-25(N,P)11-NA-25,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        72.        13.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338030   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (13-AL-27(N,P)12-MG-27,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        66.         3.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338031   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (15-P-31(N,A)13-AL-28,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+       138.        11.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338032   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (14-SI-28(N,P)13-AL-28,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+       226.        27.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338033   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (14-SI-29(N,P)13-AL-29,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+       135.        14.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338034   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (14-SI-30(N,A)12-MG-27,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        62.         5.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338035   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (19-K-41(N,P)18-AR-41,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        52.         3.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338036   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (19-K-41(N,A)17-CL-38,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        36.         3.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338037   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (24-CR-50(N,2N)24-CR-49,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        30.         2.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338038   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (24-CR-52(N,P)23-V-52,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        85.         6.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338039   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (24-CR-52(N,2N)24-CR-51,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+       400.        34.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338040   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (24-CR-53(N,P)23-V-53,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        42.         5.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338041   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (24-CR-54(N,A)22-TI-51,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        12.         2.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338042   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (25-MN-55(N,P)24-CR-55,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        63.         9.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338043   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (25-MN-55(N,A)23-V-52,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        24.        12.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338044   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (25-MN-55(N,2N)25-MN-54,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+       890.        65.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338045   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (26-FE-54(N,P)25-MN-54,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+       340.        30.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338046   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (26-FE-54(N,A)24-CR-51,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        98.        10.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338047   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (26-FE-54(N,2N)26-FE-53,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+         9.         2.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338048   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (26-FE-56(N,P)25-MN-56,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+       126.         6.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        22338049   20060614   20061116   20061102       2178
+BIB                  1          1
+REACTION   (26-FE-57(N,P)25-MN-57,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+       135.        10.
+ENDDATA              3
+ENDSUBENT            9
+ENDENTRY            49

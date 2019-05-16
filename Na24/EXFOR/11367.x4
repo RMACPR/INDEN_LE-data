@@ -1,0 +1,117 @@
+ENTRY            11367     820324              20050926       0000
+SUBENT        11367001     820324              20050926       0000
+BIB                  7          9
+INSTITUTE  (1USADKE,1USANCA)
+REFERENCE  (J,AP,8,194,5911)
+AUTHOR     (E.MERZBACHER,P.W.CRUTCHFILD JR,H.W.NEWSON)
+TITLE      S- AND P-WAVE NEUTRON SPECTROSCOPY. PART I. PEAK HEIGHT
+           ANALYSIS AND LEVEL ASSIGNMENTS.
+N-SOURCE   (P-LI7) LI-7(P,N) 122 DEGREE COLLIMATOR.
+STATUS     (SCSRS)
+HISTORY    (761014T) TRANSLATED FROM SCISRS
+           (820324A) CONVERTED TO REACTION FORMALISM
+ENDBIB               9
+NOCOMMON             0          0
+ENDSUBENT           12
+SUBENT        11367002     820324              20050926       0000
+BIB                  1          2
+REACTION  1(11-NA-23(N,0),,J)
+          2(11-NA-23(N,0),,L)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN-RES     DATA      1DATA      2
+MEV        NO-DIM     NO-DIM
+ 5.3    -02 3.     +00 1.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11367003     820324              20050926       0000
+BIB                  3          3
+REACTION   (11-NA-23(N,TOT),,SIG)
+SAMPLE     NA-F THIN SAMPLE
+INC-SPECT  ENERGY RESOLUTION MUCH LESS THAN 300 EV.
+ENDBIB               3
+COMMON               1          3
+DATA-ERR
+PER-CENT
+ 1.0
+ENDCOMMON            3
+DATA                 2         15
+EN         DATA
+MEV        B
+ 1.6    -03 5.0    +00
+ 1.9    -03 8.1    +00
+ 2.5    -03 2.6    +01
+ 3.0    -03 2.75   +02
+ 3.2    -03 1.50   +02
+ 3.5    -03 8.1    +01
+ 4.0    -03 6.4    +01
+ 4.5    -03 2.3    +01
+ 5.0    -03 1.4    +01
+ 6.2    -03 1.0    +01
+ 9.5    -03 7.0    +00
+ 1.1    -02 5.6    +00
+ 1.6    -02 4.9    +00
+ 2.0    -02 4.8    +00
+ 2.5    -02 4.3    +00
+ENDDATA             17
+ENDSUBENT           29
+SUBENT        11367004     820324              20050926       0000
+BIB                  2          2
+REACTION   (11-NA-23(N,TOT),,SIG)
+SAMPLE     NA-F SAMPLE - THICKNESS 4.893 X 10**22 ATOMS/CM**2.
+ENDBIB               2
+COMMON               1          3
+EN-RSL
+KEV
+ 2.6
+ENDCOMMON            3
+DATA                 3         32
+EN         DATA       DATA-ERR
+MEV        B          PER-CENT
+ 3.79   -02 3.50   +00    3.0
+ 3.89   -02 3.70   +00    3.0
+ 3.99   -02 3.90   +00    3.0
+ 4.10   -02 3.90   +00    3.0
+ 4.20   -02 3.90   +00    3.0
+ 4.30   -02 3.50   +00    3.0
+ 4.40   -02 3.90   +00    3.0
+ 4.49   -02 4.00   +00    3.0
+ 4.60   -02 3.90   +00    3.0
+ 4.69   -02 4.00   +00    3.0
+ 4.80   -02 4.00   +00    3.0
+ 4.90   -02 3.50   +00    3.0
+ 5.00   -02 4.00   +00    3.0
+ 5.10   -02 4.20   +00    2.0
+ 5.20   -02 7.00   +00    1.0
+ 5.23   -02 9.20   +00    1.0
+ 5.25   -02 1.25   +01    1.0
+ 5.28   -02 1.35   +01    1.0
+ 5.29   -02 1.45   +01    1.0
+ 5.30   -02 1.53   +01    1.0
+ 5.35   -02 1.60   +01    1.0
+ 5.38   -02 1.52   +01    1.0
+ 5.39   -02 1.51   +01    1.0
+ 5.44   -02 1.20   +01    1.0
+ 5.49   -02 9.80   +00    1.0
+ 5.55   -02 7.00   +00    1.0
+ 5.60   -02 6.10   +00    2.0
+ 5.70   -02 5.00   +00    2.0
+ 5.70   -02 4.30   +00    2.0
+ 5.80   -02 4.50   +00    2.0
+ 5.90   -02 4.60   +00    2.0
+ 6.00   -02 4.40   +00    2.0
+ENDDATA             34
+ENDSUBENT           45
+SUBENT        11367005     820324              20050926       0000
+BIB                  1          1
+REACTION   (13-AL-27(N,0),,J)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+EN-RES     DATA
+KEV        NO-DIM
+ 36.        2.
+ENDDATA              3
+ENDSUBENT            9
+ENDENTRY             5

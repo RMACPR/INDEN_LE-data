@@ -1,0 +1,301 @@
+ENTRY            11097   20160804   20170504   20161113       1421
+SUBENT        11097001   20160804   20170504   20161113       1421
+BIB                 11         42
+INSTITUTE  (1USALRL)
+REFERENCE  (J,PR,111,616,1958)
+AUTHOR     (V.J.Ashby,H.C.Catron,L.L.Newkirk,C.J.Taylor)
+TITLE      Absolute measurement of (n,2n) cross sections at 14.1
+            MeV.
+FACILITY   (CCW,1USALRL) 500-keV Cockcroft-Walton
+INC-SOURCE (D-T)
+SAMPLE     The target purities were at least 99.5%.
+DETECTOR   (SCIN) Cd-loaded liquid scintillator
+           (PLATE) The energy spectrum of the collimated neutrons
+           was examined by means of photographic plates.
+CRITIQUE   Comment from Dr.N.Otsuka: H.Vonach et al.,
+           Nucl.Sci.Eng.106(1990)409 corrected data published in
+           V.J.Ashby et al., Phys.Rev.111(1958)616 with a
+           normalization factor of 0.815. This correction is not
+           applied to values compiled in this EXFOR entry.
+ERR-ANALYS (ERR-T) Total error consists from:
+           (ERR-1) Uncertainty in neutron flux
+           (ERR-2) Error in the self-absorption of the
+                   incident neutrons
+           (ERR-3) Uncertainty in cross section due to
+              uncertainty in efficiency definition
+           (ERR-S,,8.) The spread in observed values of the
+           cross section for a particular element was in good
+           agreement with the statistical error calculated from
+           the observed number of counts, and was less than 8% for
+           all elements with cross sections greater than 0.5 barn.
+           Errors in solid angle and mass of target material were
+           much smaller and were neglected.
+HISTORY    (19760628T) Translated from SCISRS
+           (19820106A) Converted to reaction formalism
+           (19830817U) BIB corrections.
+           (19860121U) BIB update.
+           (20100608A) VM:Updated to new date formats,lower case.
+                       Subentries 004, 005, and 006 corrected.
+           (20140413A) SD: CRITIQUE added.  EN-NRM moved to
+            Subents 3,5,7,9,11,13,15,17,21,23,25,28. Monitor
+            reaction units also corrected in these Subents.
+            ERR-ANALYS was added in Subent 1. DATA-ERR --> ERR-T
+            in Subents 2-28.
+           (20160716U) OS. STATUS coding modified in subs.
+             2,4,8,10,12,14,16,18,20,22,24,26,27
+ENDBIB              42
+COMMON               3          3
+ERR-1      ERR-2      ERR-3
+PER-CENT   PER-CENT   PER-CENT
+   3.4        4.        5.
+ENDCOMMON            3
+ENDSUBENT           49
+SUBENT        11097003   20140413   20141203   20141111       1401
+BIB                  6          8
+REACTION   (1-H-2(N,2N)1-H-1,,SIG)
+REFERENCE  (J,PR,123,218,1961)
+SAMPLE     CD2 sample.
+MONITOR    (92-U-235(N,F),,NU) Normalized to 235U thermal nu.
+STATUS     (TABLE) received from Taylor, April 1966.
+           (DEP,11097002) Renormalization to 235U nu values
+HISTORY    (20140413A) SD: Units of col.MONIT in DATA section
+           changed (NO-DIM -> PRT/FIS)
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-NRM     DATA       ERR-T      MONIT
+MEV        EV         B          PER-CENT   PRT/FIS
+ 14.1       0.0253     0.180        11.        2.43
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        11097005   20140413   20141203   20141111       1401
+BIB                  6         10
+REACTION   (4-BE-9(N,X)2-HE-4,,SIG)
+SAMPLE     Thin disks.
+REFERENCE  (J,PR,123,218,1961)
+MONITOR    (92-U-235(N,F),,NU) Normalized to 235U thermal nu
+STATUS     (TABLE) Renormalization to 235U nu values received
+                   from Taylor, April 1966.
+HISTORY    (20100608A) Reaction output particles corrected.
+           (20140413A) SD: Units of col.MONIT in DATA section
+           changed (NO-DIM -> PRT/FIS). SF3=N+2A -> X in
+            REACTION code.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-NRM     DATA       ERR-T      MONIT
+MEV        EV         B          B          PRT/FIS
+ 14.1       0.0253     0.52       0.04       2.43
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        11097006   20140413   20141203   20141111       1401
+BIB                  6         12
+REACTION   (6-C-12(N,2N)6-C-11,,SIG)
+SAMPLE     Thin disks.
+MONITOR    (98-CF-252(0,F),,NU)
+           (96-CM-244(0,F),,NU)
+           The efficiency was determined by dividing the observed
+           average number of neutrons per fission by the values of
+           nu for Cm-244 and Cf-262 determined by Diven et al.
+MONIT-REF  (12337001,B.C.Diven+,J,PR,101,1012,1956)
+STATUS     (TABLE) Tbl.1 from PR,111,616
+HISTORY    (19860121A) Reaction corrected.
+           (20100609A) Reaction corrected.
+           (20140413U) SD: MONIT-REF added.
+ENDBIB              12
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+   14.1     0.006      0.006
+ENDDATA              3
+ENDSUBENT           20
+SUBENT        11097007   20140413   20141203   20141111       1401
+BIB                  5          8
+REACTION   (7-N-14(N,2N)7-N-13,,SIG)
+SAMPLE     Melamine targets in aluminum cans.
+MONITOR    (92-U-235(N,F),,NU) Normalized to 235U thermal nu
+STATUS     (TABLE) Renormalization to 235U nu values received
+                   from Taylor, April 1966.
+HISTORY    (19860121A) Reaction corrected.
+           (20140413A) SD: Units of col.MONIT in DATA section
+           changed (NO-DIM -> PRT/FIS)
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-NRM     DATA       ERR-T      MONIT
+MEV        EV         B          B          PRT/FIS
+   14.1     0.0253     0.018       0.010      2.43
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        11097009   20140413   20141203   20141111       1401
+BIB                  5          7
+REACTION   (9-F-19(N,2N)9-F-18,,SIG)
+SAMPLE     CF2 sample.
+MONITOR    (92-U-235(N,F),,NU) Normalized to 235U thermal nu.
+STATUS     (TABLE) Renormalization to 235U nu values received
+                   from Taylor, April 1966.
+HISTORY    (20140413A) SD: Units of col.MONIT in DATA section
+           changed (NO-DIM -> PRT/FIS)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-NRM     DATA       ERR-T      MONIT
+MEV        EV         B          B          PRT/FIS
+   14.1     0.0253     0.060        0.009     2.43
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11097011   20140413   20141203   20141111       1401
+BIB                  5          7
+REACTION   (23-V-0(N,2N),,SIG)
+SAMPLE     Thin disks.
+MONITOR    (92-U-235(N,F),,NU) Normalized to 235U thermal nu
+STATUS     (TABLE) Renormalization to 235U nu values received
+                   from Taylor, April 1966.
+HISTORY    (20140413A) SD: Units of col.MONIT in DATA section
+           changed (NO-DIM -> PRT/FIS)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-NRM     DATA       ERR-T      MONIT
+MEV        EV         B          B          PRT/FIS
+   14.1     0.0253     0.64        0.05       2.43
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11097013   20140413   20141203   20141111       1401
+BIB                  5          7
+REACTION   (26-FE-0(N,2N),,SIG)
+SAMPLE     Fe spherical shell.
+MONITOR    (92-U-235(N,F),,NU) Normalized to 235U thermal nu.
+STATUS     (TABLE) Renormalization to 235U nu values received
+                   from Taylor, April 1966.
+HISTORY    (20140413A) SD: Units of col.MONIT in DATA section
+           changed (NO-DIM -> PRT/FIS)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-NRM     DATA       ERR-T      MONIT
+MEV        EV         B          B          PRT/FIS
+   14.1     0.0253     0.48         0.04       2.43
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11097015   20140413   20141203   20141111       1401
+BIB                  5          7
+REACTION   (29-CU-0(N,2N),,SIG)
+SAMPLE     Thin disks.
+MONITOR    (92-U-235(N,F),,NU) Normalized to 235U thermal nu.
+STATUS     (TABLE) Renormalization to 235U nu values received
+                   from Taylor, April 1966.
+HISTORY    (20140413A) SD: Units of col.MONIT in DATA section
+           changed (NO-DIM -> PRT/FIS)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-NRM     DATA       ERR-T      MONIT
+MEV        EV         B          B          PRT/FIS
+   14.1     0.0253     0.74        0.06       2.43
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11097017   20140413   20141203   20141111       1401
+BIB                  5          7
+REACTION   (47-AG-0(N,2N),,SIG)
+SAMPLE     Thin disks.
+MONITOR    (92-U-235(N,F),,NU) Normalized to 235U thermal nu.
+STATUS     (TABLE) Renormalization to 235U nu values received
+                   from Taylor, April 1966.
+HISTORY    (20140413A) SD: Units of col.MONIT in DATA section
+           changed (NO-DIM -> PRT/FIS)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-NRM     DATA       ERR-T      MONIT
+MEV        EV         B          B          PRT/FIS
+   14.1     0.0253     1.67        0.13        2.43
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11097019   20140413   20141203   20141111       1401
+BIB                  5          7
+REACTION   (48-CD-0(N,2N),,SIG)
+SAMPLE     Cd spherical shell.
+MONITOR    (92-U-235(N,F),,NU) Normalized to 235U thermal nu.
+STATUS     (TABLE) Renormalization to 235U nu values received
+                   from Taylor, April 1966.
+HISTORY    (20140413A) SD: Units of col.MONIT in DATA section
+           changed (NO-DIM -> PRT/FIS)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-NRM     DATA       ERR-T      MONIT
+MEV        EV         B          B          PRT/FIS
+   14.1     0.0253     1.86        0.14        2.43
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11097021   20140413   20141203   20141111       1401
+BIB                  5          7
+REACTION   (73-TA-181(N,2N)73-TA-180,,SIG)
+SAMPLE     Thin disks.
+MONITOR    (92-U-235(N,F),,NU) Normalized to 235U thermal nu.
+STATUS     (TABLE) Renormalization to 235U nu values received
+                   from Taylor, April 1966.
+HISTORY    (20140413A) SD: Units of col.MONIT in DATA section
+           changed (NO-DIM -> PRT/FIS)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-NRM     DATA       ERR-T      MONIT
+MEV        EV         B          B          PRT/FIS
+   14.1     0.0253     2.56         0.19      2.43
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11097023   20140413   20141203   20141111       1401
+BIB                  5          7
+REACTION   (79-AU-197(N,2N)79-AU-196,,SIG)
+SAMPLE     Thin disks.
+MONITOR    (92-U-235(N,F),,NU) Normalized to 235U thermal nu.
+STATUS     (TABLE) Renormalization to 235U nu values received
+                   from Taylor, April 1966.
+HISTORY    (20140413A) SD: Units of col.MONIT in DATA section
+           changed (NO-DIM -> PRT/FIS)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-NRM     DATA       ERR-T      MONIT
+MEV        EV         B          B          PRT/FIS
+   14.1     0.0253     2.52         0.19     2.43
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11097025   20140413   20141203   20141111       1401
+BIB                  5          7
+REACTION   (82-PB-0(N,2N),,SIG)
+SAMPLE     Thin disks.
+MONITOR    (92-U-235(N,F),,NU) Normalized to 235U thermal nu.
+STATUS     (TABLE) Renormalization to 235U nu values received
+                   from Taylor, April 1966.
+HISTORY    (20140413A) SD: Units of col.MONIT in DATA section
+           changed (NO-DIM -> PRT/FIS)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-NRM     DATA       ERR-T      MONIT
+MEV        EV         B          B          PRT/FIS
+   14.1     0.0253     2.65        0.19       2.43
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11097028   20140413   20141203   20141111       1401
+BIB                  5          7
+REACTION   (83-BI-209(N,2N)83-BI-208,,SIG)
+SAMPLE     Thin disks.
+MONITOR    (92-U-235(N,F),,NU) Normalized to 235U thermal nu.
+STATUS     (TABLE) Renormalization to 235U nu values received
+                   from Taylor, April 1966.
+HISTORY    (20140413A) SD: Units of col.MONIT in DATA section
+           changed (NO-DIM -> PRT/FIS)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-NRM     DATA       ERR-T      MONIT
+MEV        EV         B          PER-CENT   PRT/FIS
+   14.1        0.0253       2.52        1.8    2.43
+ENDDATA              3
+ENDSUBENT           15
+ENDENTRY            15

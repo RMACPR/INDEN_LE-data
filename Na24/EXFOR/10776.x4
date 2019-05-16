@@ -1,0 +1,420 @@
+ENTRY            10776   20110731   20111215   20111113       1374
+SUBENT        10776001   20110731   20111215   20111113       1374
+BIB                 15         38
+INSTITUTE  (1USAARK)
+REFERENCE  (T,SIGG,1976)
+           (J,DA/B,37,2237,197611)
+AUTHOR     (R.A.Sigg)
+TITLE      Fast neutron induced reaction cross-sections and their
+            systematics
+FACILITY   (CCW,1USAARK) Cockcroft-Walton positive ion accelerator
+INC-SOURCE (D-T) Deuterons on tritium-titanium
+SAMPLE     Samples sealed in 0.00064-cm thick mylar bags, wrapped
+            in aluminum foil, enclosed in a polyethylene fast
+            transport system capsule.
+DETECTOR   (GELI) Germanium-lithium spectrometer, resolution of
+            1.92 keV FWHM at 1332 keV. Efficiency determined with
+            a mixed gamma-ray liquid standard.
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG) In the form of Al2O3
+DECAY-MON  (11-NA-24-G,15.02HR,DG)
+ANALYSIS   Photopeak areas determined by summation with subtrac-
+            tion of compton background.
+METHOD     (ACTIV). Neutron flux monitored by simtec 6Li loaded
+            glass scintillator with multichannel scaler
+ERR-ANALYS (ERR-T) Errors include:
+            Errors in literature value of monitor;
+            Counting and irradiation times (within 0.5 sec);
+           (ERR-1,1.,3.) Detector efficiency calibration
+               (1-3% error in peak determination);
+           (ERR-S,,10.) Statistical errors in photopeak area
+               (up to 10%, generally only a few per-cent);
+           (ERR-2,,0.1) Weighing error (generally <0.1%);
+           (ERR-3,,10.) Analyzer dead time error (<10%).
+STATUS     (TABLE) Data taken from tables in thesis.
+           (APRVD) Approved by R.A. Sigg, 1979/3/3.
+           (COREL,10477001) Published data from same experiment.
+HISTORY    (19781025C)
+           (19790928U) BIB correction.
+           (19870122A) BIB update.
+           (20100714A) VM:Updated to new date formats,lower case.
+                       Error analysis modified
+           (20110731A) SD: DECAY-DATA in Subent 006 corrected.
+ENDBIB              38
+COMMON               3          3
+EN         MONIT      MONIT-ERR
+MEV        MB         PER-CENT
+14.6        114.2      1.2
+ENDCOMMON            3
+ENDSUBENT           45
+SUBENT        10776002   20100714   20100917   20100916       1366
+BIB                  3          3
+REACTION   (9-F-19(N,P)8-O-19,,SIG)
+SAMPLE     AlF2 sample.
+DECAY-DATA (8-O-19,26.9SEC,DG,197.4,0.97)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 17.7       2.0
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10776003   20100714   20100917   20100916       1366
+BIB                  2          2
+REACTION   (13-AL-27(N,P)12-MG-27,,SIG)
+DECAY-DATA (12-MG-27,9.45MIN,DG,843.8,0.72,DG,1014.4,0.28)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 69.9       4.6
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10776004   20100714   20100917   20100916       1366
+BIB                  4          5
+REACTION   (28-NI-58(N,P)27-CO-58-G,(M),SIG)
+SAMPLE     NiO sample.
+DECAY-DATA (27-CO-58-G,71.3D,DG,810.76,0.99)
+HISTORY    (19790928U) Bib correction.
+           (19870122A) Reaction corrected.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 299.       24.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        10776005   20100714   20100917   20100916       1366
+BIB                  3          3
+REACTION   (29-CU-65(N,P)28-NI-65,,SIG)
+SAMPLE     CuO sample.
+DECAY-DATA (28-NI-65,2.56HR,DG,1115.5,0.1542,DG,1481.9,0.2570)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 21.5       1.9
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10776006   20110731   20111215   20111113       1374
+BIB                  4          4
+REACTION   (30-ZN-64(N,P)29-CU-64,,SIG)
+SAMPLE     ZnO sample.
+DECAY-DATA (29-CU-64,12.71HR,AR,,0.38)
+HISTORY    (20110731A) SD: DECAY-DATA corrected: 0.19 => 0.38
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 147.       11.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        10776007   20100714   20100917   20100916       1366
+BIB                  3          3
+REACTION   (30-ZN-66(N,P)29-CU-66,,SIG)
+SAMPLE     ZnO sample.
+DECAY-DATA (29-CU-66,5.10MIN,DG,1039.0,0.09)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 69.8       9.1
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10776008   20100714   20100917   20100916       1366
+BIB                  3          3
+REACTION   (30-ZN-68(N,P)29-CU-68-M,,SIG)
+SAMPLE     ZnO sample.
+DECAY-DATA (29-CU-68-M,3.75MIN,DG,525.9,0.71)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 6.5        2.0
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10776009   20100714   20100917   20100916       1366
+BIB                  3          3
+REACTION   (31-GA-69(N,P)30-ZN-69-M,,SIG)
+SAMPLE     Ga2O3 sample.
+DECAY-DATA (30-ZN-69-M,13.8HR,DG,438.7,0.95)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 22.5       3.2
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10776010   20100714   20100917   20100916       1366
+BIB                  4          4
+REACTION   (33-AS-75(N,P)32-GE-75,,SIG)
+SAMPLE     ZnO sample.
+DECAY-DATA (32-GE-75-G,82.8MIN,DG,264.8,0.10)
+HISTORY    (19790928U) Bib correction.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 21.9       1.6
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        10776011   20100714   20100917   20100916       1366
+BIB                  3          3
+REACTION   (15-P-31(N,A)13-AL-28,,SIG)
+SAMPLE     AlPO2 sample.
+DECAY-DATA (13-AL-28,2.243MIN,DG,1778.9,1.00)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 101.5      6.9
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10776012   20100714   20100917   20100916       1366
+BIB                  4          4
+REACTION   (33-AS-75(N,A)31-GA-72,,SIG)
+SAMPLE     As2O3 sample.
+DECAY-DATA (31-GA-72-G,14.10HR,DG,834.02,0.9563)
+HISTORY    (19790928U) Bib correction.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 11.0       0.8
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        10776013   20100714   20100917   20100916       1366
+BIB                  3          3
+REACTION   (7-N-14(N,2N)7-N-13,,SIG)
+SAMPLE     Al(NO3)3 sample.
+DECAY-DATA (7-N-13,9.97MIN,AR,,1.00)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 6.9        0.5
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10776014   20100714   20100917   20100916       1366
+BIB                  3          3
+REACTION   (9-F-19(N,2N)9-F-18,,SIG)
+SAMPLE     AlF3 sample.
+DECAY-DATA (9-F-18,109.7MIN,AR,,0.97)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 48.2       3.2
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10776015   20100714   20100917   20100916       1366
+BIB                  3          3
+REACTION   (11-NA-23(N,2N)11-NA-22,,SIG)
+SAMPLE     Na4XeO6 sample.
+DECAY-DATA (11-NA-22,2.62YR,DG,1274.52,0.9995)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 27.        4.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10776016   20100714   20100917   20100916       1366
+BIB                  3          3
+REACTION   (15-P-31(N,2N)15-P-30,,SIG)
+SAMPLE     AlPO4 sample.
+DECAY-DATA (15-P-30,2.50MIN,AR,,1.00)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 10.0       0.8
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10776017   20100714   20100917   20100916       1366
+BIB                  3          3
+REACTION   (21-SC-45(N,2N)21-SC-44-M,,SIG)
+SAMPLE     Sc2O3 sample.
+DECAY-DATA (21-SC-44-M,2.44D,DG,270.9,0.986)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 129.       10.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10776018   20100714   20100917   20100916       1366
+BIB                  3          3
+REACTION   (21-SC-45(N,2N)21-SC-44-G,,SIG)
+SAMPLE     Sc2O3 sample.
+DECAY-DATA (21-SC-44-G,3.92HR,DG,1157.0,0.99)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 171.       14.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10776019   20100714   20100917   20100916       1366
+BIB                  3          4
+REACTION   (21-SC-45(N,2N)21-SC-44,,SIG)
+SAMPLE     Sc2O3 sample.
+STATUS     (DEP,10776017)
+           (DEP,10776018)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 300.       24.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        10776020   20100714   20100917   20100916       1366
+BIB                  3          3
+REACTION   (22-TI-46(N,2N)22-TI-45,,SIG)
+SAMPLE     TiO sample, enriched to 86.1% 46Ti.
+DECAY-DATA (22-TI-45,3.09HR,AR,,0.85)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 36.9       2.5
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10776021   20100714   20100917   20100916       1366
+BIB                  3          4
+REACTION   (24-CR-50(N,2N)24-CR-49,,SIG)
+SAMPLE     Cr2O3 sample, enriched to 94.5% 50Cr.
+DECAY-DATA (24-CR-49,41.9MIN,DG,90.65,0.539,DG,152.9,0.295,
+                             AR,,0.93)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 26.9       2.0
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        10776022   20100714   20100917   20100916       1366
+BIB                  3          3
+REACTION   (28-NI-58(N,2N)28-NI-57,,SIG)
+SAMPLE     NiO sample.
+DECAY-DATA (28-NI-57,36.0HR,AR,,0.46,DG,1377.6,0.849)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 34.7       2.7
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10776023   20100714   20100917   20100916       1366
+BIB                  3          3
+REACTION   (29-CU-63(N,2N)29-CU-62,,SIG)
+SAMPLE     CuO sample.
+DECAY-DATA (29-CU-62,9.7MIN,AR,,0.975)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 453.       31.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10776024   20100714   20100917   20100916       1366
+BIB                  3          3
+REACTION   (29-CU-65(N,2N)29-CU-64,,SIG)
+SAMPLE     CuO sample.
+DECAY-DATA (29-CU-64,12.71HR,AR,,0.19,DG,1345.8,0.005)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 938.       64.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10776025   20100714   20100917   20100916       1366
+BIB                  3          3
+REACTION   (30-ZN-64(N,2N)30-ZN-63,,SIG)
+SAMPLE     ZnO sample.
+DECAY-DATA (30-ZN-63,38.6MIN,AR,,1.00)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 146.       11.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10776026   20100714   20100917   20100916       1366
+BIB                  3          3
+REACTION   (31-GA-69(N,2N)31-GA-68,,SIG)
+SAMPLE     Ga2O3 sample.
+DECAY-DATA (31-GA-68,68.3MIN,AR,,0.88,DG,1077.5,0.032)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 1000.      70.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10776027   20100714   20100917   20100916       1366
+BIB                  4          4
+REACTION   (33-AS-75(N,2N)33-AS-74,,SIG)
+SAMPLE     As2O3 sample.
+DECAY-DATA (33-AS-74,17.77D,AR,,,DG,595.90,0.5922)
+HISTORY    (19790928U) Bib correction.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 951.       65.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        10776028   20100714   20100917   20100916       1366
+BIB                  3          3
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG)
+SAMPLE     Na4XeO6 sample.
+DECAY-DATA (11-NA-24,15.030HR,DG,1368.53,0.9999)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 0.28       0.05
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10776029   20100714   20100917   20100916       1366
+BIB                  3          3
+REACTION   (33-AS-75(N,G)33-AS-76,,SIG)
+SAMPLE     As2O3 sample.
+DECAY-DATA (33-AS-76,26.32HR,DG,559.47,0.4105)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 14.2       1.0
+ENDDATA              3
+ENDSUBENT           11
+ENDENTRY            29

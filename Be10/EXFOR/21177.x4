@@ -1,0 +1,322 @@
+ENTRY            21177   20120817   20130226   20130207       2232
+SUBENT        21177001   20120817   20130226   20130207       2232
+BIB                 13         30
+INSTITUTE  (2FR GRE)
+REFERENCE  (C,66PARIS,1,393,196610) Graphs.
+           (J,JPR/C,27,(C1),C1-61,196603) Proceedings of
+                                         66Lyon, Li-6.
+           (J,JPR/C,27,(C1),C1-84,196603) Proceedings of
+                                         66Lyon, Li-7.
+           (J,CR,260,3922,1965) Superseded.
+           (P,EANDC(E)-89U,234,196801) Abstract for Li-7.
+AUTHOR     (F.Merchez,V.Regis,Nguyen Van Sen,R.Darves-Blanc,
+           Pham Dinh Lien,R.Bouchez)
+TITLE       Study of the elastic and inelastic scattering of
+            neutrons on the nuclei of Li-6 and Li-7 and Be-9
+FACILITY   (CCW,2FR GRE) Electrostatic accelerator.
+INC-SOURCE (D-T) Deuterium beam on tritium target.
+SAMPLE     .Enriched isotope samples, no details.
+METHOD     (TOF) Time of flight, resolution about one nano-sec.
+DETECTOR   (SCIN ) Plastic scintillator.
+MONITOR    (1-H-1(N,EL)1-H-1,,SIG) For absolute
+            neutron detector calibration.
+           (1-H-3(D,N)2-HE-4,,SIG) Alpha coincidence for timing
+            start and flux normalisation.
+CORRECTION .Corrected for multiple scattering by Monte-Carlo
+            simulation.
+ERR-ANALYS (DATA-ERR) .One standard deviation errors given.
+HISTORY    (19791217T)
+           (19800110E)
+           (20050916A) Date is corrected. Subent 013 updated
+           (20051121U) Last checking has been done.
+           (20120817U) SD: Page of ref. J.de Physique- Colloque,27
+                was corrected (61 -> C1-61 and 84 -> C1-84)
+ENDBIB              30
+COMMON               2          3
+EN         EN-RSL
+MEV        MEV
+   1.41E+01     8.E-02
+ENDCOMMON            3
+ENDSUBENT           37
+SUBENT        21177002   20051121   20060202   20051225       2174
+BIB                  2          2
+REACTION   (3-LI-6(N,EL)3-LI-6,,DA) Elastic angular distribution.
+STATUS     (NDD)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3         16
+COS-CM     DATA-CM    DATA-ERR
+NO-DIM     MB/SR      MB/SR
+  -8.29E-01        4.1        1.6
+ -7.349E-01        3.7        1.2
+ -6.198E-01        7.8        2.4
+ -4.848E-01        8.6        1.8
+ -3.322E-01   1.20E+01        2.5
+ -1.668E-01   1.05E+01        2.7
+  1.050E-02        7.7        2.1
+  9.930E-02        8.9        2.2
+  1.908E-01        9.9        2.5
+  3.697E-01  2.840E+01        6.0
+  5.402E-01  6.910E+01    1.2E+01
+  6.184E-01  1.155E+02    1.8E+01
+  8.211E-01  2.640E+02    3.3E+01
+  8.746E-01  3.880E+02    4.0E+01
+  9.189E-01  4.230E+02    4.5E+01
+  9.537E-01  5.100E+02    5.0E+01
+ENDDATA             18
+ENDSUBENT           25
+SUBENT        21177003   20051121   20060202   20051225       2174
+BIB                  4          5
+REACTION   (3-LI-6(N,EL)3-LI-6,,SIG) Elastic cross section.
+ANALYSIS   (INTAD) Integrated angular distribution.
+STATUS     .Table in 66paris.
+HISTORY    (19791217C)
+           (20051121U) Last checking has been done.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+    8.5E+02     9.E+01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        21177004   20051121   20060202   20051225       2174
+BIB                  3          3
+REACTION   (3-LI-6(N,INL)3-LI-6,PAR,DA) Partial inelastic angdist
+EN-SEC     (E-LVL,3-LI-6)
+STATUS     (NDD)
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+       2.18
+ENDCOMMON            3
+DATA                 3         12
+COS-CM     DATA-CM    DATA-ERR
+NO-DIM     MB/SR      MB/SR
+ -8.358E-01       2.12        1.0
+ -6.312E-01       4.56        1.7
+ -3.486E-01       7.19        1.9
+ -1.840E-01       7.92        2.3
+ -8.000E-03       7.45        1.8
+  8.310E-02       7.05        1.7
+  1.736E-01       7.71        1.7
+  3.561E-01  1.296E+01        3.6
+  5.284E-01  1.620E+01        4.1
+  6.088E-01  1.520E+01        4.8
+  8.161E-01  1.170E+01        3.5
+  9.164E-01         7.        2.0
+ENDDATA             14
+ENDSUBENT           26
+SUBENT        21177005   20051121   20060202   20051225       2174
+BIB                  5          6
+REACTION   (3-LI-6(N,INL)3-LI-6,PAR,SIG) Partial inelastic angdist
+EN-SEC     (E-LVL,3-LI-6)
+ANALYSIS   (INTAD) Intgrated angular distribution.
+STATUS     .Table in 66Paris.
+HISTORY    (19791217C)
+           (20051121U) Last checking has been done.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+E-LVL      DATA       DATA-ERR
+MEV        MB         MB
+       2.18     1.E+02    2.5E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21177006   20051121   20060202   20051225       2174
+BIB                  2          2
+REACTION   (3-LI-7(N,EL)3-LI-7,,DA) Elastic angular distribution
+STATUS     (NDD)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3         20
+COS-CM     DATA-CM    DATA-ERR
+NO-DIM     MB/SR      MB/SR
+ -9.304E-01   1.15E+01        1.4
+ -8.996E-01   1.18E+01        1.2
+ -8.221E-01   1.25E+01        1.3
+ -7.23 E-01   1.78E+01        1.6
+ -6.046E-01   2.10E+01        2.1
+ -4.664E-01   2.97E+01        2.4
+ -3.107E-01   2.82E+01        2.5
+ -1.444E-01   2.58E+01        2.2
+  3.320E-02   2.08E+01        1.7
+  2.113E-01   1.59E+01        1.3
+  3.007E-01   2.  E+01        1.6
+  3.875E-01   2.59E+01        2.4
+  4.726E-01   4.66E+01        2.8
+  5.548E-01   8.  E+01        5.6
+  6.32 E-01   1.31E+02        7.9
+  7.034E-01  1.727E+02   1.03E+01
+  7.694E-01  2.401E+02   1.44E+01
+  8.281E-01   3.12E+02   1.87E+01
+  8.788E-01  4.246E+02   2.12E+01
+  9.558E-01  5.584E+02    2.7E+01
+ENDDATA             22
+ENDSUBENT           29
+SUBENT        21177007   20051121   20060202   20051225       2174
+BIB                  4          5
+REACTION   (3-LI-7(N,EL)3-LI-7,,SIG) Elastic cross section.
+ANALYSIS   (INTAD) Intgrated angular distribution.
+STATUS     .Table in 66paris.
+HISTORY    (19791217C)
+           (20051121U) Last checking has been done.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+   9.75E+02     9.E+01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        21177008   20051121   20060202   20051225       2174
+BIB                  3          3
+REACTION   (3-LI-7(N,INL)3-LI-7,PAR,DA) Partial inelastic angdist
+EN-SEC     (E-LVL,3-LI-7)
+STATUS     (NDD)
+ENDBIB               3
+COMMON               1          3
+E-LVL
+MEV
+       4.63
+ENDCOMMON            3
+DATA                 3         20
+COS-CM     DATA-CM    DATA-ERR
+NO-DIM     MB/SR      MB/SR
+ -9.361E-01        4.5        1.5
+ -9.078E-01        4.8        1.2
+ -8.358E-01        5.2        1.4
+ -7.431E-01        5.5        1.4
+ -6.307E-01        7.4        1.8
+ -4.985E-01     1.E+01        2.0
+ -3.469E-01        8.0        1.4
+ -1.822E-01        7.0        1.2
+ -5.200E-03        7.1        1.2
+  1.754E-01        8.5     8.E-01
+  2.672E-01        9.8        1.0
+  3.567E-01   1.22E+01        1.0
+  4.446E-01   1.62E+01        1.3
+  5.299E-01   1.98E+01        2.0
+  6.101E-01   2.00E+01        2.0
+  6.858E-01   2.21E+01        2.0
+  7.547E-01   2.13E+01        2.1
+  8.171E-01   1.88E+01        1.9
+  9.373E-01   1.76E+01        1.6
+  9.527E-01   1.45E+01        1.2
+ENDDATA             22
+ENDSUBENT           34
+SUBENT        21177009   20051121   20060202   20051225       2174
+BIB                  5          6
+REACTION   (3-LI-7(N,INL)3-LI-7,PAR,SIG) Partial cross section
+EN-SEC     (E-LVL,3-LI-7)
+ANALYSIS   (INTAD) Intgrated angular distribution.
+STATUS      Table in 66Paris.
+HISTORY    (19791217C)
+           (20051121U) Last checking has been done.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+E-LVL      DATA       DATA-ERR
+MEV        MB         MB
+       4.63   1.35E+02     2.E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21177010   20051121   20060202   20051225       2174
+BIB                  2          2
+REACTION   (4-BE-9(N,EL)4-BE-9,,DA) Elastic angular distributn
+STATUS     (NDD)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3         18
+COS-CM     DATA-CM    DATA-ERR
+NO-DIM     MB/SR      MB/SR
+ -8.100E-01        8.1        1.1
+ -7.604E-01   1.00E+01        1.3
+ -7.059E-01   1.24E+01        1.9
+ -5.807E-01   1.64E+01        2.0
+ -4.384E-01   1.90E+01        2.2
+ -2.807E-01   1.88E+01        2.1
+ -1.115E-01   1.63E+01        2.5
+  6.450E-02   1.26E+01        1.6
+  1.530E-01   1.07E+01        1.4
+  2.419E-01        8.6        1.0
+  3.289E-01   1.36E+01        1.8
+  4.147E-01   2.43E+01        2.5
+  5.750E-01   6.65E+01        5.0
+  7.181E-01   1.40E+02    1.0E+01
+  7.804E-01   2.02E+02    1.3E+01
+  8.368E-01   2.84E+02    1.7E+01
+  8.854E-01   3.88E+02    2.3E+01
+  9.259E-01   5.33E+02    3.2E+01
+ENDDATA             20
+ENDSUBENT           27
+SUBENT        21177011   20051121   20060202   20051225       2174
+BIB                  4          5
+REACTION   (4-BE-9(N,EL)4-BE-9,,SIG) Elastic cross section.
+ANALYSIS   (INTAD) Integrated angular distribution.
+STATUS     .Table in 66paris, page 397.
+HISTORY    (19791217C)
+           (20051121U) Last checking has been done.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+    9.5E+02     7.E+01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        21177012   20051121   20060202   20051225       2174
+BIB                  3          4
+REACTION   (4-BE-9(N,INL)4-BE-9,PAR,DA) Partial inelastic angdist
+EN-SEC     (E-LVL,4-BE-9)
+            angular distribution.
+STATUS     (NDD)
+ENDBIB               4
+COMMON               1          3
+E-LVL
+MEV
+       2.43
+ENDCOMMON            3
+DATA                 3         18
+COS-CM     DATA-CM    DATA-ERR
+NO-DIM     MB/SR      MB/SR
+ -8.151E-01        4.9     7.E-01
+ -7.660E-01        5.3        1.0
+ -7.120E-01        5.7        1.1
+ -5.892E-01        7.2        1.4
+ -4.493E-01        9.6        1.4
+ -2.924E-01   1.05E+01        1.6
+ -1.236E-01   1.10E+01        2.0
+  5.230E-02   1.13E+01        1.4
+  1.400E-01   1.10E+01        1.5
+  2.300E-01   1.25E+01        1.4
+  3.190E-01   1.41E+01        1.9
+  4.051E-01   1.60E+01        1.9
+  5.678E-01   1.57E+01        1.8
+  7.120E-01   1.55E+01        2.2
+  7.760E-01   1.57E+01        2.0
+  8.339E-01   1.80E+01        3.1
+  8.829E-01   2.10E+01        3.2
+  9.245E-01   2.41E+01        3.1
+ENDDATA             20
+ENDSUBENT           33
+SUBENT        21177013   20051121   20060202   20051225       2174
+BIB                  5          8
+REACTION   (4-BE-9(N,INL)4-BE-9,PAR,SIG) Partial inelastic angdist
+EN-SEC     (E-LVL,4-BE-9)
+ANALYSIS   (INTAD) Integrated angular distribution.
+STATUS     .Table in 66paris, page 397.
+           (DEP,21177012)
+HISTORY    (19791217C)
+           (19991215T)   Converted from subent 61193003
+           (20051121U) Last checking has been done.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+E-LVL      DATA       DATA-ERR
+MEV        MB         MB
+       2.43    1.5E+02     2.E+01
+ENDDATA              3
+ENDSUBENT           16
+ENDENTRY            13

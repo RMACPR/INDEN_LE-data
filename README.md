@@ -2,6 +2,7 @@
 
 These directories are the compound-nuclei of reaction data to be used in our evaluations:
 
+Be7
 Be10
 N15
 N16

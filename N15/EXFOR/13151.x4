@@ -1,0 +1,56 @@
+ENTRY            13151   20030220   20030411   20050926       0000
+SUBENT        13151001   20030220   20030411   20050926       0000
+BIB                 10         13
+INSTITUTE  (1CANMCM)
+REFERENCE  (J,NIM/A,287,460,1990)
+AUTHOR     (M.A.Islam,T.J.Kennett,W.V.Prestwich)
+TITLE      Re-estimation of the Thermal Neutron Capture Cross
+            Section of 14N.
+FACILITY   (REAC,1CANMCM)
+INC-SPECT  Reactor spectrum.
+METHOD     (MOMIX)
+DETECTOR   (BPAIR). Ge detector surrounded by NaI(Tl) annulus
+STATUS     (APRVD) M.A.Islam, 30 May 1990.
+HISTORY    (19900406C)
+           (20030220A) Updated to new date formats.
+                       Si data deleted; see data set 13864.
+ENDBIB              13
+COMMON               1          3
+EN-DUMMY
+EV
+ 0.0253
+ENDCOMMON            3
+ENDSUBENT           20
+SUBENT        13151002   20030220   20030411   20050926       0000
+BIB                  4          6
+REACTION   (7-N-14(N,G)7-N-15,,SIG,,SPA)
+SAMPLE     C(3)H(6)N(6)
+MONITOR    (6-C-12(N,G)6-C-13,,SIG,,SPA)
+ERR-ANALYS (DATA-ERR) Includes uncertainty in measurement as well
+            as uncertainty in intensity for target and standard
+            and in cross section for standard
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT      MONIT-ERR
+MB         MB         MB         MB
+ 79.7        2.4        3.53       0.07
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        13151003   20030220   20030411   20050926       0000
+BIB                  4          6
+REACTION   (7-N-14(N,G)7-N-15,,SIG,,SPA)
+SAMPLE     Pb(ScN)2
+MONITOR    (82-PB-207(N,G)82-PB-208,,SIG,,SPA)
+ERR-ANALYS (DATA-ERR) Includes uncertainty in measurement as well
+            as uncertainty in intensity for target and standard
+            and in cross section for standard
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT      MONIT-ERR
+MB         MB         MB         MB
+ 80.1        2.0      712.        10.
+ENDDATA              3
+ENDSUBENT           14
+ENDENTRY             3

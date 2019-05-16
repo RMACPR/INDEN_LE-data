@@ -1,0 +1,255 @@
+ENTRY            30007   20040109   20040311   20050926       0000
+SUBENT        30007001   20040109   20040311   20050926       0000
+BIB                 15         32
+INSTITUTE  (3INDMUA)
+REFERENCE  (J,NP,85,476,196609) Tabulated results on 13 isotopes.
+EXP-YEAR   (1965)
+AUTHOR     (R.PRASAD, D.C.SARKAR)
+TITLE      Measurement of (n,p) and (n,a) reaction cross sections
+           at 14.8 MeV.
+FACILITY   (CCW) 130 keV Cockcroft-Walton accelerator.
+INC-SOURCE (D-T) Deuteron-tritium.
+SAMPLE     Powdery samples were uniformly spread in a thin
+            perspex ring and sandwiched between two cellulose
+            tapes. Spectroscopically pure substances of chemical
+            purity more than 99.9 percent were used.
+METHOD     (ACTIV) Activation technique.
+DETECTOR   End-window beta-counter of 2.5 mg/sqcm window
+            thickness.
+           (SCIN)  ZnS-Lucite crystal mounted on a PM tube was
+            used as flux monitor.
+PART-DET   (B-) Decay beta-.
+MONITOR    (26-FE-56(N,P)25-MN-56,,SIG)
+            Iron-26 n-p sigma value used was 126.mb
+            at 14.8 MeV.
+ERR-ANALYS The quoted error includes statistical errors,and other
+           errors which may occur in estimation of total number of
+           nuclei in target material and in determination of
+           effective flux. While statistical errors vary from case
+           to case, all other errors were estimated to be less
+           than 3.percent.
+COMMENT    Cross-reference=  the (n,p) cross sections have been
+             republished (partly with minor numerical changes)
+             together with 37 other nuclides in Nuovo Cim.A3,3,
+             467(1971). For these see EXFOR entry 30336.
+HISTORY    (20040109A) OS. Dates converted, lower case.
+ENDBIB              32
+COMMON               2          3
+EN         MONIT
+MEV        MB
+ 1.4800E+01 1.2600E+02
+ENDCOMMON            3
+ENDSUBENT           39
+SUBENT        30007002   20040109   20040311   20050926       0000
+BIB                  4          7
+REFERENCE  (J,NC/A,3,(3),467,197106) Result republished without
+             numerical change
+REACTION   (7-N-15(N,P)6-C-15,,SIG)
+STATUS     Data from nucl.Phys.85,476(1966),Table 1.
+HISTORY    (19691125C)
+           (19701123T) Previously DASTAR-01127.
+           (19760601U) OS. Reference added
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 1.6000E+01 4.0000E+00
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30007003   20040109   20040311   20050926       0000
+BIB                  5          8
+REFERENCE  (J,NC/A,3,(3),467,197106) Minor numerical alteration
+REACTION   (8-O-16(N,P)7-N-16,,SIG)
+COMMENT    Old value was 29+-2 mb.
+STATUS     Data from Nuovo Cim.A3,467(1971),Table 1.
+HISTORY    (19691125C)
+           (19701123T) PREVIOUSLY DASTAR-01128.
+           (19760601A) OS. NUMERICAL VALUE CORRECTED, REFERENCE
+             ADDED.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 3.0000E+01 5.0000E+00
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        30007004   20040109   20040311   20050926       0000
+BIB                  5          9
+REFERENCE  (J,NC/A,3,(3),467,197106) Result republished, error
+             limits altered.
+REACTION   (9-F-19(N,P)8-O-19,,SIG)
+COMMENT    Old value was 51+-10 mb.
+STATUS     Data from nuovo cim.a3,467(1971),table 1.
+HISTORY    (19691125C)
+           (19701123T) Previously DASTAR-01129.
+           (19760601A) OS. Error limits corrected, reference
+            added.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 5.1000E+01 7.0000E+00
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        30007005   20040109   20040311   20050926       0000
+BIB                  5          8
+REFERENCE  (J,NC/A,3,(3),467,197106) Result republished, error
+             limits altered
+REACTION   (11-NA-23(N,P)10-NE-23,,SIG)
+COMMENT    Old value was 45+-5 mb.
+STATUS     Data from nuovo cim.a3,467(1971), Table 1.
+HISTORY    (19691125C)
+           (19701123T) Previously DASTAR-01130.
+           (19760601A)OS. Error limits corrected, reference added.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 4.5000E+01 8.0000E+00
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        30007006   20040109   20040311   20050926       0000
+BIB                  5          9
+REFERENCE  (J,NC/A,3,(3),467,197106) Result republished, error
+             limits altered
+REACTION   (12-MG-25(N,P)11-NA-25,,SIG)
+COMMENT    Old value was 54+-6 mb.
+STATUS     Data from Nuovo Cim.A3,467(1971),Table 1.
+HISTORY    (19691125C)
+           (19701123T) Previously DASTAR-01131.
+           (19760601A) OS. Error limits corrected, reference
+            added.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 5.4000E+01 1.0000E+01
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        30007007   20040109   20040311   20050926       0000
+BIB                  4          7
+REFERENCE  (J,NC/A,3,(3),467,197106) Result republished without
+             numerical change
+REACTION   (16-S-34(N,P)15-P-34,,SIG)
+STATUS     Data from Nucl.Phys.85,476(1966),Table 1.
+HISTORY    (19691125C)
+           (19701123T) Previously DASTAR-01132.
+           (19760601U) OS. Reference added.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 3.2000E+01 8.0000E+00
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30007008   20040109   20040311   20050926       0000
+BIB                  4          7
+REFERENCE  (J,NC/A,3,(3),467,197106) Result republished without
+             numerical change
+REACTION   (44-RU-100(N,P)43-TC-100,,SIG)
+STATUS     Data from Nucl.Phys.85,476(1966),Table 1.
+HISTORY    (19691125C)
+           (19701123T) Previously DASTAR-01133.
+           (19760601U) OS. Reference added.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 1.5000E+01 6.0000E+00
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30007009   20040109   20040311   20050926       0000
+BIB                  4          7
+REFERENCE  (J,NC/A,3,(3),467,197106) Result republished without
+             numerical change
+REACTION   (44-RU-102(N,P)43-TC-102,,SIG)
+STATUS     Data from Nucl.Phys.85,476(1966),Table 1.
+HISTORY    (19691125C)
+           (19701123T) Previously DASTAR-01134.
+           (19760601U) OS. Reference added.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 2.0000E+00 5.0000E-01
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30007010   20040109   20040311   20050926       0000
+BIB                  2          4
+REACTION   (9-F-19(N,A)7-N-16,,SIG)
+HISTORY    (19691125C) Data compiled,taken from Table 2,
+            Nucl.Phys.85,476,9/1966.
+           (19701123T) Previously DASTAR-01135.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 2.4000E+01 5.0000E+00
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        30007011   20040109   20040311   20050926       0000
+BIB                  2          4
+REACTION   (12-MG-26(N,A)10-NE-23,,SIG)
+HISTORY    (19691125C) Data compiled,taken from Table 2,
+            Nucl.Phys. 85,476,9/1966.
+           (19701123T) Previously DASTAR-01136.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 8.3000E+01 7.0000E+00
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        30007012   20040109   20040311   20050926       0000
+BIB                  2          4
+REACTION   (17-CL-37(N,A)15-P-34,,SIG)
+HISTORY    (19691125C) Data compiled,taken from Table 2,
+            Nucl.Phys. 85 476,9/66.
+           (19701123T) Previously DASTAR-01137.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 2.8000E+01 1.0000E+01
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        30007013   20040109   20040311   20050926       0000
+BIB                  2          4
+REACTION   (31-GA-71(N,A)29-CU-68,,SIG)
+HISTORY    (19691125C) Data compiled,taken from Table 2,
+            Nucl.Phys. 85,476,9/1966.
+           (19701123T) Previously DASTAR-01138.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 6.0000E+01 4.0000E+00
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        30007014   20040109   20040311   20050926       0000
+BIB                  2          4
+REACTION   (45-RH-103(N,A)43-TC-100,,SIG)
+HISTORY    (19691125C) Data compiled,taken from Table 2,
+            Nucl.Phys.85,476,9/1966.
+           (19701123T) Previously DASTAR-01139.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 8.0000E+01 7.0000E+00
+ENDDATA              3
+ENDSUBENT           12
+ENDENTRY            14

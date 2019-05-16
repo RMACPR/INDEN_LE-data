@@ -1,0 +1,10 @@
+11333002: CS for N,TOT, Cross section for 15N(n,Total)
+11335003: CS for N,TOT, Cross section for 15N(n,Total)
+11364002: CS for N,EL, Cross section for 15N(n,Elastic)15N
+20014002: CS for N,TOT, Cross section for 15N(n,Total)
+20206002: DA for N,EL, Differential c/s with respect to angle for 15N(n,Elastic)15N
+20206004: CS for N,TOT, Cross section for 15N(n,Total)
+21171002: CS for N,TOT, Cross section for 15N(n,Total)
+21846005: CS for N,P, Cross section for 15N(n,p)15C
+30007002: CS for N,P, Cross section for 15N(n,p)15C
+31768007: CS for N,G, Cross section for 15N(n,gamma)16N

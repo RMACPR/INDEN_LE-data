@@ -1,0 +1,221 @@
+ENTRY            11426     820813              20050926       0000
+SUBENT        11426001     820813              20050926       0000
+BIB                  6          8
+INSTITUTE  (1USAORL)
+REFERENCE  (C,55ANS,,(203),5512)
+AUTHOR     (W.A.BROOKSBANK,G.W.LEDDICOTTE,W.S.LYON,S.A.REYNOLDS)
+TITLE      SLOW NEUTRON ACTIVATION CROSS SECTIONS OF SEVERAL
+           ELEMENTS.
+STATUS     (SCSRS)
+HISTORY    (760715T) TRANSLATED FROM SCISRS
+           (820813A) CONVERTED TO REACTION FORMALISM
+ENDBIB               8
+NOCOMMON             0          0
+ENDSUBENT           11
+SUBENT        11426002     820813              20050926       0000
+BIB                  5          7
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG,,SPA)
+DETECTOR   (FISCH)    IONIZATION CHAMBER
+METHOD     (COINC) ABSOLUTE 4PI BETA-GAMMA COINCIDENCE COUNTING
+MONITOR    (25-MN-55(N,G)25-MN-56,,SIG)
+            AS RENORMALIZED BY LYON,NUC.SCI.ENG.8,
+            378(1960).
+INC-SPECT   REACTOR SPECTRUM
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          1
+EN-DUMMY   DATA       DATA-ERR   MONIT
+MEV        B          B          B
+ 2.53   -08 5.0    -01 5.     -02 13.3
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11426003     820813              20050926       0000
+BIB                  4          6
+REACTION   (20-CA-44(N,G)20-CA-45,,SIG,,SPA)
+DETECTOR   (FISCH)    IONIZATION CHAMBER
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)
+            AS RENORMALIZED BY LYON,NUC.SCI.ENG.8,
+            378(1960).
+INC-SPECT   REACTOR SPECTRUM
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 4          1
+EN-DUMMY   DATA       DATA-ERR   MONIT
+MEV        B          PER-CENT   B
+ 2.53   -08 8.5    -01 15.        36.7
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11426004     820813              20050926       0000
+BIB                  4          6
+REACTION   (26-FE-54(N,G)26-FE-55,,SIG,,SPA)
+DETECTOR   (PROPC)    PROPORTIONAL COUNTER
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)
+            AS RENORMALIZED BY LYON,NUC.SCI.ENG.8,
+            378(1960).
+INC-SPECT   REACTOR SPECTRUM
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 4          1
+EN-DUMMY   DATA       DATA-ERR   MONIT
+MEV        B          PER-CENT   B
+ 2.53   -08 2.9    +00 15.        36.7
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11426005     820813              20050926       0000
+BIB                  4          6
+REACTION   (26-FE-58(N,G)26-FE-59,,SIG,,MXW)
+DETECTOR   (FISCH)    IONIZATION CHAMBER
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)
+            AS RENORMALIZED BY LYON,NUC.SCI.ENG.8,
+            378(1960).
+INC-SPECT  SUB-CD SPECTRUM
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 4          1
+EN-DUMMY   DATA       DATA-ERR   MONIT
+MEV        B          PER-CENT   B
+ 2.53   -08 1.06   -01 10.        36.7
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11426006     820813              20050926       0000
+BIB                  4          5
+REACTION   (32-GE-70(N,G)32-GE-71,,SIG,,MXW)
+DETECTOR   (PROPC)    PROPORTIONAL COUNTER
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)
+            BASED ON COBALT THERMAL CAPTURE=34B.
+INC-SPECT  SUB-CD SPECTRUM
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 4          1
+EN-DUMMY   DATA       DATA-ERR   MONIT
+MEV        B          B          B
+ 2.53   -08 3.9    +00 1.2    +00 34.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11426007     820813              20050926       0000
+BIB                  4          5
+REACTION   (32-GE-74(N,G)32-GE-75,,SIG,,MXW)
+DETECTOR   (FISCH)    IONIZATION CHAMBER
+MONITOR    (25-MN-55(N,G)25-MN-56,,SIG)
+            BASED ON MANGANESE THERMAL CAPTURE=13B.
+INC-SPECT  SUB-CD SPECTRUM
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 4          1
+EN-DUMMY   DATA       DATA-ERR   MONIT
+MEV        B          B          B
+ 2.53   -08 5.3    -01 1.0    -01 13.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11426008     820813              20050926       0000
+BIB                  4          5
+REACTION   (32-GE-76(N,G)32-GE-77,,SIG,,MXW)
+DETECTOR   (FISCH)    IONIZATION CHAMBER
+MONITOR    (25-MN-55(N,G)25-MN-56,,SIG)
+            BASED ON MANGANESE THERMAL CAPTURE=13B.
+INC-SPECT  SUB-CD SPECTRUM
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 4          1
+EN-DUMMY   DATA       DATA-ERR   MONIT
+MEV        B          B          B
+ 2.53   -08 3.0    -01 6.     -02 13.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11426009     820813              20050926       0000
+BIB                  4          5
+REACTION   (32-GE-76(N,G)32-GE-77-M,,SIG,,SPA)
+DETECTOR   (FISCH)    IONIZATION CHAMBER
+MONITOR    (25-MN-55(N,G)25-MN-56,,SIG)
+            BASED ON MANGANESE THERMAL CAPTURE=13B.
+INC-SPECT   REACTOR SPECTRUM
+ENDBIB               5
+COMMON               1          3
+HL
+SEC
+   54.
+ENDCOMMON            3
+DATA                 4          1
+EN-DUMMY   DATA       DATA-ERR   MONIT
+MEV        B          B          B
+ 2.53   -08 1.5    -02 6.     -03 13.
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        11426010     820813              20050926       0000
+BIB                  4          5
+REACTION   (32-GE-76(N,G)32-GE-77,,SIG,,SPA)
+DETECTOR   (FISCH)    IONIZATION CHAMBER
+MONITOR    (25-MN-55(N,G)25-MN-56,,SIG)
+            BASED ON MANGANESE THERMAL CAPTURE=13B.
+INC-SPECT   REACTOR SPECTRUM
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA-APRX  MONIT
+MEV        B          B
+ 2.53   -08 4.6    -01 13.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11426011     820813              20050926       0000
+BIB                  4          5
+REACTION   (37-RB-0(N,G),,SIG,,SPA)
+DETECTOR   (FISCH)    IONIZATION CHAMBER
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)
+            BASED ON COBALT THERMAL CAPTURE=34B.
+INC-SPECT   REACTOR SPECTRUM
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 4          1
+EN-DUMMY   DATA       DATA-ERR   MONIT
+MEV        B          B          B
+ 2.53   -08 7.3    -01 7.     -02 34.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11426012     820813              20050926       0000
+BIB                  4          5
+REACTION   (40-ZR-94(N,G)40-ZR-95,,SIG,,MXW)
+DETECTOR   (FISCH)    IONIZATION CHAMBER
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)
+            BASED ON COBALT THERMAL CAPTURE=34B.
+INC-SPECT  SUB-CD SPECTRUM
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 4          1
+EN-DUMMY   DATA       DATA-ERR   MONIT
+MEV        B          B          B
+ 2.53   -08 6.0    -02 1.0    -02 34.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11426013     820813              20050926       0000
+BIB                  4          6
+REACTION   (40-ZR-96(N,G)40-ZR-97,,SIG,,SPA)
+DETECTOR   (FISCH)    IONIZATION CHAMBER
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)
+            AS RENORMALIZED BY LYON,NUC.SCI.ENG.8,
+            378(1960).
+INC-SPECT   REACTOR SPECTRUM
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 4          1
+EN-DUMMY   DATA       DATA-ERR   MONIT
+MEV        B          PER-CENT   B
+ 2.53   -08 5.4    -02 10.        36.7
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11426014     820813              20050926       0000
+BIB                  4          6
+REACTION   (78-PT-196(N,G)78-PT-197,,SIG,,SPA)
+DETECTOR   (FISCH) IONIZATION CHAMBER
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)
+            AS RENORMALIZED BY LYON,NUC.SCI.ENG.8,
+            378(1960).
+INC-SPECT  SUB-CD SPECTRUM
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 4          1
+EN-DUMMY   DATA       DATA-ERR   MONIT
+EV         B          PER-CENT   B
+ 0.0253     0.86       10.        36.7
+ENDDATA              3
+ENDSUBENT           14
+ENDENTRY            14

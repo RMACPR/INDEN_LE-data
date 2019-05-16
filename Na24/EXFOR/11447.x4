@@ -1,0 +1,1584 @@
+ENTRY            11447   20160518   20160902   20160824       1418
+SUBENT        11447001   20160518   20160902   20160824       1418
+BIB                  9         19
+INSTITUTE  (1USAANL)
+REFERENCE  (J,PR,72,888,194711)
+AUTHOR     (L.Seren,H.N.Friedlander,S.H.Turkel)
+TITLE      Thermal Neutron Activation Cross Sections
+FACILITY   (REAC,1USAANL)
+METHOD     (ACTIV)
+ERR-ANALYS (DATA-ERR) Estimated errors include all sources of
+            systematic and statistical uncertainties
+STATUS     (TABLE) Table 2, Phys.Rev.72,888,1947.
+HISTORY    (19760715T) Translated from SCISRS
+           (19820813A) Converted to REACTION formalism
+           (19840410A) ENERGY CORRECTED.
+           (20071108A) BIB update.
+           (20080416A) SD NDS: isomeric state for 73-TA-182-M
+           isotope at SUBENT 112 was changed on 73-TA-182-M2
+           according to EXFOR reaction formalism.
+           (20160517A) OS. Isomer assignments corrected in subs.
+            15,16,19,67,75,98. ERR-ANALYS and STATUS updated.
+            Remaining upper case text converted.
+ENDBIB              19
+COMMON               1          3
+EN-DUMMY
+EV
+ 0.0253
+ENDCOMMON            3
+ENDSUBENT           26
+SUBENT        11447002   20160518   20160902   20160824       1418
+BIB                  5          5
+REACTION   (8-O-18(N,G)8-O-19,,SIG,,SPA)
+REFERENCE  (J,PR,70,561(1),194610)
+SAMPLE     Distilled H2O
+INC-SPECT  Reactor spectrum
+DECAY-DATA (8-O-19,31.SEC,B-)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 2.2    -04 20.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11447003   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (9-F-19(N,G)9-F-20,,SIG,,SPA)
+SAMPLE     CA-F(2)
+INC-SPECT  Reactor spectrum
+COMMENT    Cross section may be high due to conversion electrons
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 9.4    -03 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447004   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG,,SPA)
+SAMPLE     NaCl AND Na(2)CO(3) samples
+INC-SPECT  Reactor spectrum
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 6.3    -01 20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447005   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (12-MG-26(N,G)12-MG-27,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (12-MG-27,10.2MIN,B-)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 4.8    -02 20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447006   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (13-AL-27(N,G)13-AL-28,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (13-AL-28,2.4MIN,B-)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 2.1    -01 20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447007   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (14-SI-30(N,G)14-SI-31,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (14-SI-31,170.MIN,B-)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 1.16   -01 20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447008   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (15-P-31(N,G)15-P-32,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (15-P-32,14.3D,B-)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 2.3    -01 20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447009   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (16-S-34(N,G)16-S-35,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (16-S-35,87.1D,B-)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 2.6    -01 20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447010   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (17-CL-35(N,P)16-S-35,,SIG,,MXW)
+SAMPLE     NH(4)Cl and NaCl samples
+INC-SPECT  Thermal spectrum
+DECAY-DATA (16-S-35,87.1D,B-)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 1.69   -01 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447011   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (17-CL-37(N,G)17-CL-38,,SIG,,MXW)
+SAMPLE     NaCl
+INC-SPECT  Thermal spectrum
+DECAY-DATA (17-CL-38-G,37.MIN,B-)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 5.6    -01 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447012   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (19-K-41(N,G)19-K-42,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+SAMPLE     K(2)CO(3) and K(2)C(2)O(4)H(2)O samples
+DECAY-DATA (19-K-42,12.4HR,B-)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 1.0    +00 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447013   20160518   20160902   20160824       1418
+BIB                  3          6
+REACTION   (20-CA-40(N,G)20-CA-41,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (20-CA-41,,DG,1100.)
+           Attempt made to observe 1.1-MeV gamma accompanying
+            Ca-41 k-capture decay.
+           Half-life tailed off from 6.1 to greater than 8.5 days
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA-MAX   DATA-ERR
+B          PER-CENT
+ 1.25   -04 40.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11447014   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (20-CA-44(N,G)20-CA-45,,SIG,,SPA)
+SAMPLE     CaF(2)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (20-CA-45,180.D,B-)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 6.3    -01 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447017   20160518   20160902   20160824       1418
+BIB                  5          5
+REACTION   (21-SC-45(N,G)21-SC-46,,SIG,,SPA)
+SAMPLE     Sc(2)O(3) and K(3)SC(SO4)3 samples
+INC-SPECT  Reactor spectrum
+DECAY-DATA (21-SC-46-G,85.D,B-,,0.95)
+HISTORY    (19840730A) DECAY DATA corrected.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 2.2    +01 20.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11447018   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (22-TI-50(N,G)22-TI-51,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (22-TI-51,6.MIN,B-)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 1.41   -01 20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447020   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (23-V-51(N,G)23-V-52,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+SAMPLE     V(2)O(5)
+DECAY-DATA (23-V-52,3.9MIN,B-)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 4.50   +00 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447021   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (24-CR-50(N,G)24-CR-51,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (24-CR-51,26.5D,DG,,0.03)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 1.1    +01 40.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447023   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (25-MN-55(N,G)25-MN-56,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (25-MN-56,2.59HR,B-)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 1.07   +01 20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447024   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (26-FE-58(N,G)26-FE-59,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+SAMPLE     Fe(2)O(3)
+DECAY-DATA (26-FE-59,47.D,B-)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 3.6    +01 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447025   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (27-CO-59(N,G)27-CO-60-M,,SIG,,MXW)
+SAMPLE     Co(2)O(3)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (27-CO-60-M,10.7MIN,B-)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 6.6    -01 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447026   20160518   20160902   20160824       1418
+BIB                  5          5
+REACTION   (27-CO-59(N,G)27-CO-60-G,,SIG,,SPA)
+SAMPLE     CO(2)O(3)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (27-CO-60-G,5.3YR,B-)
+HISTORY    (19840730A) BIB, DATA corrections.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 2.17   +01 20.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11447027   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (28-NI-64(N,G)28-NI-65,,SIG,,MXW)
+SAMPLE     Ni metal and Ni-O samples
+INC-SPECT  Thermal spectrum
+DECAY-DATA (28-NI-65,2.6HR,B-)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 1.96   +00 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447028   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (29-CU-63(N,G)29-CU-64,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (29-CU-64,12.8HR,B-)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 2.82   +00 20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447029   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (29-CU-65(N,G)29-CU-66,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (29-CU-66,5.MIN,B-)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 1.82   +00 20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447030   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (30-ZN-64(N,G)30-ZN-65,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (30-ZN-65,244.D,B+,,0.05,DG,,0.6)
+HISTORY    (19840730A) DECAY DATA corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 5.1    -01 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447031   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (30-ZN-68(N,G)30-ZN-69-G,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (30-ZN-69-G,57.MIN,B-)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 1.09   +00 20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447032   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (30-ZN-68(N,G)30-ZN-69-M,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (30-ZN-69-M,13.8HR,B-)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 3.1    -01 20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447033   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (31-GA-69(N,G)31-GA-70,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+SAMPLE     Ga(2)O(3)
+DECAY-DATA (31-GA-70,20.MIN,B-)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 1.40   +00 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447034   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (31-GA-71(N,G)31-GA-72,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+SAMPLE     GA(2)O(3)
+DECAY-DATA (31-GA-72,14.1HR,B-)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 3.36   +00 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447036   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (32-GE-70(N,G)32-GE-71,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+SAMPLE     GeO(2)
+DECAY-DATA (32-GE-71,11.D,XR)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 4.5    -01 40.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447037   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (32-GE-74(N,G)32-GE-75,,SIG,,SPA)
+SAMPLE     GeO(2)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (32-GE-75-G,89.MIN,B-)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 3.8    -01 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447038   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (32-GE-76(N,G)32-GE-77,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+SAMPLE     GeO(2)
+DECAY-DATA (32-GE-77-G,12.HR,B-)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 8.5    -02 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447039   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (33-AS-75(N,G)33-AS-76,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+SAMPLE     AS(2)O(3)
+DECAY-DATA (33-AS-76,26.8HR,B-)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 4.2    +00 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447040   20160518   20160902   20160824       1418
+BIB                  3          4
+REACTION   (34-SE-74(N,G)34-SE-75,,SIG,,SPA/A)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (34-SE-75,115.D,XR)
+            Assigned to Se-75 by NNCSC
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 2.2    +01 40.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447041   20160518   20160902   20160824       1418
+BIB                  3          4
+REACTION   (34-SE-80(N,G)34-SE-81,,SIG,,MXW/A)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (34-SE-81-G,19.MIN,B-)
+            Assigned to Se-81 by NNCSC
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 2.3    -01 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447042   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (34-SE-80(N,G)34-SE-81-M,,SIG,,SPA/A)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (34-SE-81-M,57.MIN,B-)
+HISTORY    (20160517A) Changed SF1 to Se-80; added A to SF8.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 1.7    -02 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447043   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (34-SE-82(N,G)34-SE-83,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (35-BR-83,140.MIN,B-)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 6.0    -02 20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447044   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (35-BR-79(N,G)35-BR-80-G,,SIG,,MXW)
+SAMPLE     KBr
+DECAY-DATA (35-BR-80-G,18.MIN,B-)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 8.1    +00 20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447045   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (35-BR-79(N,G)35-BR-80-M,,SIG,,MXW)
+SAMPLE     KBr
+INC-SPECT  Thermal spectrum
+DECAY-DATA (35-BR-80-M,4.4HR,B-)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 2.76   +00 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447046   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (35-BR-81(N,G)35-BR-82,,SIG,,SPA)
+SAMPLE     KBr
+INC-SPECT  Reactor spectrum
+DECAY-DATA (35-BR-82-G,34.HR,B-)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 2.25   +00 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447047   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (37-RB-85(N,G)37-RB-86,,SIG,,SPA)
+SAMPLE     RbNO(3)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (37-RB-86-G,19.5D,B-)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 7.2    -01 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447048   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (37-RB-87(N,G)37-RB-88,,SIG,,MXW)
+SAMPLE     RbNO(3)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (37-RB-88,17.5MIN,B-)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 1.22   -01 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447049   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (38-SR-86(N,G)38-SR-87-M,,SIG,,MXW)
+SAMPLE     Sr(NO3)2
+INC-SPECT  Thermal spectrum
+DECAY-DATA (38-SR-87-M,2.7HR,XR)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 1.29   +00 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447050   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (38-SR-88(N,G)38-SR-89,,SIG,,SPA)
+SAMPLE     SrCO(3)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (38-SR-89,55.D,B-)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 5.0    -03 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447051   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (39-Y-89(N,G)39-Y-90,,SIG,,SPA)
+SAMPLE     Y(2)(SO4)3
+INC-SPECT  Reactor spectrum
+DECAY-DATA (39-Y-90-G,60.HR,B-)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 1.24   +00 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447055   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (41-NB-93(N,G)41-NB-94,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (41-NB-94-M,6.6MIN)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 1.0        40.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447056   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (42-MO-100(N,G)42-MO-101,,SIG,,SPA)
+SAMPLE     Mo-O(3)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (42-MO-101,19.MIN,B-)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 4.75   -01 20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447057   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (42-MO-98(N,G)42-MO-99,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (42-MO-99,67.HR,B-)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 4.15   -01 20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447058   20160518   20160902   20160824       1418
+BIB                  5          5
+REACTION   (42-MO-92(N,G)42-MO-93-M,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (42-MO-93-M,7.HR)
+STATUS     .Activity not found.
+HISTORY    (19840730A) DECAY DATA corrected.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA-MAX   DATA-ERR
+B          PER-CENT
+ 1.     -03 40.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11447061   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (44-RU-102(N,G)44-RU-103,,SIG,,SPA/A)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (44-RU-103,40.D,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 0.37       20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447062   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (45-RH-103(N,G)45-RH-104-G,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (45-RH-104-G,44.SEC,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 137.       10.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447063   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (45-RH-103(N,G)45-RH-104-M,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (45-RH-104-M,4.2MIN,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 11.6       10.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447064   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (46-PD-108(N,G)46-PD-109,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (46-PD-109-G,13.HR,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 11.2       20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447065   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (46-PD-110(N,G)46-PD-111-G,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (46-PD-111-G,26.MIN,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 0.39       20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447066   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (47-AG-107(N,G)47-AG-108,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (47-AG-108-G,2.3MIN,B)
+HISTORY    (19840730A) DECAY DATA corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 44.3       20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447067   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (47-AG-109(N,G)47-AG-110-G,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (47-AG-110-G,22.SEC,B)
+HISTORY    (20160517A) Half-life corrected
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 97.0       20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447068   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (47-AG-109(N,G)47-AG-110-M,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (47-AG-110-M,225.D,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 2.3        20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447069   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (48-CD-114(N,G)48-CD-115-G,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (48-CD-115-G,2.5D,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 1.1        20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447070   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (48-CD-114(N,G)48-CD-115-M,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (48-CD-115-M,43.D,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 0.14       20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447071   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (48-CD-116(N,G)48-CD-117-M,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (48-CD-117-M,3.75HR,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 1.4        20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447072   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (47-AG-107(N,G)47-AG-108,,SIG,,SPA/A)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (47-AG-108-G,2.MIN,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 0.05       20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447073   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (49-IN-113(N,G)49-IN-114-M,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (49-IN-114-M,48.D,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 56.0       10.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447074   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (49-IN-115(N,G)49-IN-116-G,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (49-IN-116-G,13.SEC,B)
+HISTORY    (19840730A) DECAY DATA corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 51.8       10.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447075   20160518   20160902   20160824       1418
+BIB                  4          5
+REACTION   (49-IN-115(N,G)49-IN-116-M1,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (49-IN-116-M1,54.MIN,B)
+HISTORY    (20160517A) Changed isomer code to M1 in SF4 and
+            corrected nuclide in DECAY-DATA
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 144.6      10.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11447076   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (50-SN-112(N,G)50-SN-113,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (50-SN-113-G,105.D,XR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 1.1        40.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447077   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (50-SN-124(N,G)50-SN-125-M,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (50-SN-125-M,9.MIN,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 0.574      20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447078   20160518   20160902   20160824       1418
+BIB                  3          4
+REACTION   (50-SN-122(N,G)50-SN-123-M,,SIG,,SPA/A)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (50-SN-123-M,40.MIN,B) Half-life assigned
+            by NNCSC to Sn-123.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 0.142      20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447079   20160518   20160902   20160824       1418
+BIB                  4          5
+REACTION   (50-SN-120(N,G)50-SN-121-G,,SIG,,SPA/A)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (50-SN-121-G,26.HR,B) Half-life assigned to
+            Sn-121 by NNCSC.
+HISTORY    (19840730A) REACTION corrected.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 0.072      20.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11447080   20160518   20160902   20160824       1418
+BIB                  3          4
+REACTION   (50-SN-124(N,G)50-SN-125,,SIG,,MXW/A)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (50-SN-125-G,10.D,B) Half-life assigned to
+            Sn-125 by NNCSC.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 0.009      20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447082   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (51-SB-121(N,G)51-SB-122,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (51-SB-122-G,2.8D,B)
+HISTORY    (19840730A) DECAY DATA corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 6.8        20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447083   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (51-SB-123(N,G)51-SB-124,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (51-SB-124-G,60.D,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 2.5        20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447084   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (52-TE-126(N,G)52-TE-127-G,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (52-TE-127-G,9.3HR,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 0.78       20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447085   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (52-TE-126(N,G)52-TE-127-M,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (52-TE-127-M,90.D,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 0.073      20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447086   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (52-TE-128(N,G)52-TE-129-G,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (52-TE-129-G,72.MIN,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 0.133      20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447087   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (52-TE-128(N,G)52-TE-129-M,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (52-TE-129-M,32.D,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 0.0154     20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447088   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (52-TE-130(N,G)52-TE-131-G,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (52-TE-131-G,25.MIN,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 0.222      20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447089   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (52-TE-130(N,G)52-TE-131-M,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (52-TE-131-M,30.HR,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA-MAX   DATA-ERR
+B          PER-CENT
+ 0.008      40.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447090   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (53-I-127(N,G)53-I-128,,SIG,,MXW)
+SAMPLE     PbI(2) sample
+INC-SPECT  Thermal spectrum
+DECAY-DATA (53-I-128,25.MIN,B)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 6.25       20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447091   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (55-CS-133(N,G)55-CS-134-G,,SIG,,SPA)
+SAMPLE     CsNO(3)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (55-CS-134-G,1.7YR,B)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 25.6       20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447092   20160518   20160902   20160824       1418
+BIB                  5          6
+REACTION   (55-CS-133(N,G)55-CS-134-M,,SIG,,SPA)
+SAMPLE     CsNO(3)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (55-CS-134-M,3.HR,B)
+COMMENT    Cross section too small, as beta decays
+            represent only 1 percent of total disintegrations
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 0.016      20.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11447093   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (56-BA-138(N,G)56-BA-139,,SIG,,MXW)
+SAMPLE     BaO(2)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (56-BA-139,86.MIN,B)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 0.511      20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447094   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (57-LA-139(N,G)57-LA-140,,SIG,,SPA)
+SAMPLE     La metal and La(NH4)2-(NO3)5 samples
+INC-SPECT  Reactor spectrum
+DECAY-DATA (57-LA-140,40.HR,B)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 8.4        20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447095   20160518   20160902   20160824       1418
+BIB                  5          5
+REACTION   (59-PR-141(N,G)59-PR-142,,SIG,,MXW)
+SAMPLE     Pr(4)O(7)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (59-PR-142-G,19.3HR,B)
+HISTORY    (19840730A) DECAY DATA corrected.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 10.1       20.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11447096   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (62-SM-152(N,G)62-SM-153,,SIG,,MXW)
+SAMPLE     Sm(2)O(3)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (62-SM-153,46.HR,B)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 138.       20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447101   20160518   20160902   20160824       1418
+BIB                  4          5
+REACTION   (64-GD-158(N,G)64-GD-159,,SIG,,MXW/A)
+SAMPLE     Gd(2)O(3)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (64-GD-159,20.HR,B)
+            Assigned by NNCSC to Gd-159.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 0.9        20.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11447105   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (66-DY-164(N,G)66-DY-165-G,,SIG,,MXW)
+SAMPLE     DY(2)-O(3)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (66-DY-165-G,140.MIN,B)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 2620.      10.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447106   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (66-DY-164(N,G)66-DY-165-M,,SIG,,MXW)
+SAMPLE     DY(2)-O(3)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (66-DY-165-M,1.25MIN,B)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 120.       40.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447107   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (67-HO-165(N,G)67-HO-166-G,,SIG,,MXW)
+SAMPLE     Ho(2)O(4)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (67-HO-166-G,30.HR,B)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 59.6       20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447108   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (69-TM-169(N,G)69-TM-170,,SIG,,MXW)
+SAMPLE     Tm(2)O(3)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (69-TM-170,105.D,B)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 106.       20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447109   20160518   20160902   20160824       1418
+BIB                  4          5
+REACTION   (71-LU-175(N,G)71-LU-176-M,,SIG,,MXW/A)
+SAMPLE     LU(2)-O(3)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (71-LU-176-M,3.4HR,B)
+            Assigned by NNCSC to Lu-176-M.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 15.9       20.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11447110   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (71-LU-176(N,G)71-LU-177-G,,SIG,,MXW)
+SAMPLE     Lu(2)O(3)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (71-LU-177-G,6.6D,B)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 3640.      20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447111   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (72-HF-180(N,G)72-HF-181,,SIG,,SPA)
+SAMPLE     HF-O-CL.7H2O
+INC-SPECT  Reactor spectrum
+DECAY-DATA (72-HF-181,46.D,B)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 10.0       20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447112   20160518   20160902   20160824       1418
+BIB                  3          4
+REACTION   (73-TA-181(N,G)73-TA-182-M2,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (73-TA-182-M2,16.2MIN,B)
+            Assigned by NNCSC to Ta-182-M2.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 0.034      20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447113   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (73-TA-181(N,G)73-TA-182-G,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (73-TA-182-G,117.D,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 20.6       20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447114   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (74-W-184(N,G)74-W-185,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (74-W-185-G,77.D,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 2.12       20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447115   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (74-W-186(N,G)74-W-187,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (74-W-187,24.1HR,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 34.2       20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447116   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (75-RE-185(N,G)75-RE-186,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (75-RE-186-G,90.HR,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 101.       20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447117   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (75-RE-187(N,G)75-RE-188-G,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (75-RE-188-G,18.HR,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 75.3       20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447118   20160518   20160902   20160824       1418
+BIB                  4          7
+REACTION   (76-OS-192(N,G)76-OS-193,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+ANALYSIS   Measured natural atom cross section = 0.66 b. Value
+            above calculated using Os-192 isotopic abundance =
+            26.5 percent. (By NNCSC)
+DECAY-DATA (76-OS-193,30.HR,B) Assigned by
+            authors to Os-191. Belongs to Os-193.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 1.61       20.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11447119   20160518   20160902   20160824       1418
+BIB                  4          7
+REACTION   (76-OS-190(N,G)76-OS-191,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+ANALYSIS   Measured natural atom cross section = 2.19 b. Value
+            given calculated using Os-190 isotopic abundance =
+             41.0 percent (by NNCSC)
+DECAY-DATA (76-OS-191-G,17.D,B) Assigned by
+            authors to Os-193. Belongs to Os-191.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 8.3        20.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11447120   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (77-IR-191(N,G)77-IR-192-M1,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (77-IR-192-M1,1.5MIN,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 260.       40.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447121   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (77-IR-191(N,G)77-IR-192,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (77-IR-192-G,70.D,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 1000.      20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447122   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (77-IR-193(N,G)77-IR-194,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (77-IR-194-G,20.7HR,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 128.       20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447123   20160518   20160902   20160824       1418
+BIB                  3          3
+REACTION   (78-PT-196(N,G)78-PT-197-G,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (78-PT-197-G,18.HR,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 1.1        20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11447125   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (78-PT-198(N,G)78-PT-199,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (78-PT-199-G,31.MIN,B)
+HISTORY    (19840730A) DECAY DATA corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 3.92       20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447126   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (79-AU-197(N,G)79-AU-198,,SIG,,MXW)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (79-AU-198-G,2.7D,B)
+HISTORY    (19840730A) DECAY DATA corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 96.4       10.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447127   20160518   20160902   20160824       1418
+BIB                  5          5
+REACTION   (80-HG-204(N,G)80-HG-205,,SIG,,MXW)
+SAMPLE     HgO powder
+INC-SPECT  Thermal spectrum
+DECAY-DATA (80-HG-205,5.5MIN,B)
+HISTORY    (19840730A) DECAY DATA corrected.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 0.34       20.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11447128   20160518   20160902   20160824       1418
+BIB                  5          7
+REACTION   (80-HG-202(N,G)80-HG-203,,SIG,,SPA)
+SAMPLE     HgO powder
+INC-SPECT  Reactor spectrum
+ANALYSIS   Authors measured natural atom cross section = 0.725 b.
+            Value given here calculated using Hg-202 isotopic
+             abundance = 29.7 percent.
+DECAY-DATA (80-HG-203,51.5D,B) Assigned by NNCSC to Hg-203.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 2.44       20.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11447129   20160518   20160902   20160824       1418
+BIB                  5          8
+REACTION   (81-TL-205(N,G)81-TL-206,,SIG,,MXW)
+SAMPLE     TL-NO3
+INC-SPECT  Thermal spectrum
+ANALYSIS   Author measured natural atom cross section = 0.079 b.
+            Value given here calculated using Tl-205 isotopic
+             abundance = 70.5 percent.
+DECAY-DATA (81-TL-206-G,4.23MIN,B) Assigned by
+            author to Tl-204. Belongs to Tl-206
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 0.112      20.
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        11447130   20160518   20160902   20160824       1418
+BIB                  5          8
+REACTION   (81-TL-203(N,G)81-TL-204,,SIG,,SPA)
+SAMPLE     TlNO3
+INC-SPECT  Reactor spectrum
+ANALYSIS   Authors measured natural atom cross section = 2.2 b.
+            Value given here calculated assuning Tl-208 isotopic
+             abundance = 29.5 percent.
+DECAY-DATA (81-TL-204,3.5YR,B) Assigned by
+            authors to Tl-206. Belongs to Tl-204.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 7.46       20.
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        11447131   20160518   20160902   20160824       1418
+BIB                  4          4
+REACTION   (83-BI-209(N,G)83-BI-210,,SIG,,SPA)
+INC-SPECT  Reactor spectrum
+DECAY-DATA (83-BI-210-G,5.0D,B)
+HISTORY    (19840730A) DECAY DATA corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 0.015      20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11447132   20160518   20160902   20160824       1418
+BIB                  4          5
+REACTION   (62-SM-154(N,G)62-SM-155,,SIG,,MXW/A)
+SAMPLE     SM(2)-O(3)
+INC-SPECT  Thermal spectrum
+DECAY-DATA (62-SM-155,21.MIN,B) Assigned by
+            NNCSC to Sm-155.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 1.10       20.
+ENDDATA              3
+ENDSUBENT           13
+ENDENTRY           113

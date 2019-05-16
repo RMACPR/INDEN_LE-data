@@ -1,0 +1,155 @@
+ENTRY            11305     810428              20050926       0000
+SUBENT        11305001     810428              20050926       0000
+BIB                  7          9
+INSTITUTE  (1USATEX)
+REFERENCE  (J,PR,90,618,5305)
+AUTHOR     (H.R.DVORACK,R.N.LITTLE JR)
+TITLE      TOTAL CROSS SECTIONS OF CHLORINE, SODIUM, TITANIUM AND
+           BROMINE FOR FAST NEUTRONS.
+DETECTOR   (SCIN) LIQUID SCINTILLATION COUNTER.
+STATUS     (SCSRS)
+HISTORY    (761001T) TRANSLATED FROM SCISRS
+           (810428A) CONVERTED TO REACTION FORMALISM
+ENDBIB               9
+NOCOMMON             0          0
+ENDSUBENT           12
+SUBENT        11305002     810428              20050926       0000
+BIB                  1          1
+REACTION   (6-C-0(N,TOT),,SIG)
+ENDBIB               1
+COMMON               1          3
+DATA-ERR
+PER-CENT
+ 1.7
+ENDCOMMON            3
+DATA                 3         14
+EN         EN-RSL     DATA
+MEV        PER-CENT   B
+ 2.21   +00    3.0     1.62   +00
+ 2.23   +00    3.0     1.62   +00
+ 2.27   +00    3.0     1.60   +00
+ 2.31   +00    1.0     1.63   +00
+ 2.35   +00    1.0     1.57   +00
+ 2.41   +00    1.0     1.69   +00
+ 2.45   +00    1.0     1.59   +00
+ 2.48   +00    1.0     1.62   +00
+ 2.52   +00    1.0     1.66   +00
+ 2.60   +00    2.0     1.60   +00
+ 2.64   +00    2.0     1.68   +00
+ 2.68   +00    2.0     1.63   +00
+ 2.73   +00    4.0     1.73   +00
+ 2.77   +00    4.0     1.73   +00
+ENDDATA             16
+ENDSUBENT           26
+SUBENT        11305003     810428              20050926       0000
+BIB                  1          1
+REACTION   (11-NA-23(N,TOT),,SIG)
+ENDBIB               1
+COMMON               1          3
+DATA-ERR
+PER-CENT
+ 2.7
+ENDCOMMON            3
+DATA                 2         14
+EN         DATA
+MEV        B
+ 2.21   +00 2.71   +00
+ 2.233  +00 2.83   +00
+ 2.28   +00 2.81   +00
+ 2.30   +00 2.58   +00
+ 2.36   +00 3.17   +00
+ 2.405  +00 3.46   +00
+ 2.45   +00 2.73   +00
+ 2.485  +00 2.65   +00
+ 2.515  +00 3.26   +00
+ 2.60   +00 2.57   +00
+ 2.64   +00 2.50   +00
+ 2.68   +00 2.58   +00
+ 2.74   +00 2.38   +00
+ 2.765  +00 2.49   +00
+ENDDATA             16
+ENDSUBENT           26
+SUBENT        11305004     810428              20050926       0000
+BIB                  1          1
+REACTION   (17-CL-0(N,TOT),,SIG)
+ENDBIB               1
+COMMON               1          3
+DATA-ERR
+PER-CENT
+ 2.4
+ENDCOMMON            3
+DATA                 3         14
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.21   +00 7.0    -01 2.96   +00
+ 2.24   +00 7.0    -01 3.15   +00
+ 2.28   +00 7.0    -01 2.96   +00
+ 2.30   +00 7.0    -01 2.98   +00
+ 2.36   +00 3.0    -01 2.96   +00
+ 2.41   +00 3.0    -01 3.18   +00
+ 2.45   +00 3.0    -01 3.14   +00
+ 2.49   +00 3.0    -01 3.01   +00
+ 2.52   +00 3.0    -01 2.66   +00
+ 2.60   +00 7.0    -01 2.90   +00
+ 2.64   +00 7.0    -01 2.97   +00
+ 2.68   +00 7.0    -01 2.94   +00
+ 2.74   +00 1.20   -01 2.92   +00
+ 2.77   +00 1.20   -01 2.88   +00
+ENDDATA             16
+ENDSUBENT           26
+SUBENT        11305005     810428              20050926       0000
+BIB                  1          1
+REACTION   (22-TI-0(N,TOT),,SIG)
+ENDBIB               1
+COMMON               1          3
+DATA-ERR
+PER-CENT
+ 1.7
+ENDCOMMON            3
+DATA                 2         13
+EN         DATA
+MEV        B
+ 2.210  +00 4.01   +00
+ 2.235  +00 4.03   +00
+ 2.280  +00 4.14   +00
+ 2.300  +00 4.25   +00
+ 2.360  +00 3.88   +00
+ 2.405  +00 4.30   +00
+ 2.455  +00 3.97   +00
+ 2.485  +00 3.99   +00
+ 2.520  +00 4.25   +00
+ 2.600  +00 4.42   +00
+ 2.640  +00 4.36   +00
+ 2.680  +00 4.19   +00
+ 2.745  +00 4.11   +00
+ENDDATA             15
+ENDSUBENT           25
+SUBENT        11305006     810428              20050926       0000
+BIB                  1          1
+REACTION   (35-BR-0(N,TOT),,SIG)
+ENDBIB               1
+COMMON               1          3
+DATA-ERR
+PER-CENT
+ 1.7
+ENDCOMMON            3
+DATA                 2         14
+EN         DATA
+MEV        B
+ 2.21   +00 3.85   +00
+ 2.24   +00 3.72   +00
+ 2.28   +00 3.76   +00
+ 2.305  +00 3.62   +00
+ 2.36   +00 3.65   +00
+ 2.405  +00 3.97   +00
+ 2.450  +00 3.80   +00
+ 2.485  +00 3.50   +00
+ 2.515  +00 3.66   +00
+ 2.600  +00 3.72   +00
+ 2.645  +00 3.63   +00
+ 2.685  +00 3.58   +00
+ 2.745  +00 3.63   +00
+ 2.765  +00 3.59   +00
+ENDDATA             16
+ENDSUBENT           26
+ENDENTRY             6

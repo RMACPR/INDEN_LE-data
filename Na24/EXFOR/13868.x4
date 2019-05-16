@@ -1,0 +1,131 @@
+ENTRY            13868   20040409   20040517   20050926       0000
+SUBENT        13868001   20040409   20040517   20050926       0000
+BIB                 10         13
+INSTITUTE  (1USAORL)
+REFERENCE  (R,ORNL-TM-3957,197210)
+AUTHOR     (R.E.Maerker)
+TITLE      STD6. Experiment on secondary gamma-ray production
+            cross sections arising from thermal-neutron capture
+            in iron, stainless steel, nitrogen, and sodium
+FACILITY   (REAC,1USAORL) ORNL tower Shielding Facility.
+INC-SOURCE Reactor spectrum.
+DETECTOR   (NAICR)
+ERR-ANALYS (DATA-ERR) Estimated accuracy.
+STATUS     (COREL,13869001)
+           Data taken from tables in report.
+HISTORY    (20040409C)
+ENDBIB              13
+COMMON               2          3
+EN-DUMMY   DATA-ERR
+EV         PER-CENT
+  0.0253    15.
+ENDCOMMON            3
+ENDSUBENT           20
+SUBENT        13868002   20040409   20040517   20050926       0000
+BIB                  1          1
+REACTION   (7-N-14(N,G)7-N-15,PAR,SIG,,AV/SPA)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3         20
+E-MIN      E-MAX      DATA
+MEV        MEV        MB
+  1.0        1.5        0.
+  1.5        2.0       30.0
+  2.0        2.5        0.
+  2.5        3.0        6.4
+  3.0        3.5        0.
+  3.5        4.0       22.8
+  4.0        4.5        0.
+  4.5        5.0       13.4
+  5.0        5.5       43.3
+  5.5        6.0       25.2
+  6.0        6.5       15.2
+  6.5        7.0        0.
+  7.0        7.5        7.8
+  7.5        8.0        0.
+  8.0        8.5        3.5
+  8.5        9.0        0.17
+  9.0        9.5        1.6
+  9.5       10.0        0.
+ 10.0       10.5        0.
+ 10.5       11.0       11.0
+ENDDATA             22
+ENDSUBENT           28
+SUBENT        13868003   20040409   20040517   20050926       0000
+BIB                  2          3
+REACTION   (11-NA-23(N,G)11-NA-24,PAR,SIG,,AV/SPA)
+CORRECTION Data given as minimum values do not include
+            contribution from 24Na activation.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4         11
+E-MIN      E-MAX      DATA       DATA-MIN
+MEV        MEV        MB         MB
+  1.0        1.5                  79.
+  1.5        2.0       76.
+  2.0        2.5      143.
+  2.5        3.0                 254.
+  3.0        3.5       76.
+  3.5        4.0      182.
+  4.0        4.5       34.
+  4.5        5.0       14.
+  5.0        5.5       12.
+  5.5        6.0       31.
+  6.0        6.5      115.
+ENDDATA             13
+ENDSUBENT           21
+SUBENT        13868004   20040409   20040517   20050926       0000
+BIB                  1          1
+REACTION   (26-FE-0(N,G),PAR,SIG,,AV/SPA)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3         15
+E-MIN      E-MAX      DATA
+MEV        MEV        MB
+  1.15       1.5       126.
+  1.5        2.0       455.
+  2.0        2.5        99.
+  2.5        3.0       152.
+  3.0        3.5       233.
+  3.5        4.0        88.
+  4.0        4.5       182.
+  4.5        5.0        83.
+  5.0        5.5        25.
+  5.5        6.0       250.
+  6.0        6.5       255.
+  6.5        7.0        13.
+  7.0        7.5       139.
+  7.5        8.0      1280.
+  8.0        9.0        20.
+ENDDATA             17
+ENDSUBENT           23
+SUBENT        13868005   20040409   20040517   20050926       0000
+BIB                  2          2
+REACTION   (26-FE-CMP(N,G),PAR,SIG,,AV/SPA)
+SAMPLE     Stainless steel target.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3         18
+E-MIN      E-MAX      DATA
+MEV        MEV        MB
+  1.0        1.5       442.
+  1.5        2.0       355.
+  2.0        2.5       186.
+  2.5        3.0       134.
+  3.0        3.5       226.
+  3.5        4.0       113.
+  4.0        4.5       177.
+  4.5        5.0        98.
+  5.0        5.5       107.
+  5.5        6.0       287.
+  6.0        6.5       229.
+  6.5        7.0       125.
+  7.0        7.5       259.
+  7.5        8.0      1025.
+  8.0        8.5       110.
+  8.5        9.0       372.
+  9.0        9.5        58.
+  9.5       10.0        55.
+ENDDATA             20
+ENDSUBENT           27
+ENDENTRY             5

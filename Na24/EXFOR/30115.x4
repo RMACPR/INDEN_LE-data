@@ -1,0 +1,152 @@
+ENTRY            30115   20080208   20080530   20080530       3126
+SUBENT        30115001   20080208   20080530   20080530       3126
+BIB                 15         27
+TITLE      Some (n,p) reaction cross-sections for 14.7MeV neutrons
+AUTHOR     (J.Csikai,S.Nagy)
+INSTITUTE  (3HUNDEB)
+REFERENCE  (J,NP/A,91,222,196701) Full information, data table
+           (J,MFF,16,123,196802) Thesis Csikai in Hung., table
+           (J,AK,8,79,196606) Abstract thesis, data table
+SAMPLE     Sample thicknesses varied from 5 to 20 mg/sqcm
+MONITOR    ((MONIT1)13-AL-27(N,A)11-NA-24,,SIG) = monit 1
+           ((MONIT2)29-CU-63(N,2N)29-CU-62,,SIG) = monit 2
+           Sample was placed between two standard foils
+FACILITY   (CCW) 300 keV cascade generator
+INC-SOURCE (D-T) d-t reaction
+METHOD     (ACTIV) Activation
+DETECTOR   (GEMUC) Mica end-window GM counter calibrated with
+                 standard sources
+           (LONGC) BF3 long counter used as flux monitor
+PART-DET   (B-) decay beta
+CORRECTION Absorption corrections were calculated according to
+           Brovetti et al, Nucl Instr 14 302 (1962)
+ERR-ANALYS (DATA-ERR) No information
+STATUS     (TABLE) Data from Nucl Phys A91 222 1/1967
+           (APRVD) Approved by Peto (5/9/1972)
+HISTORY    (19710111T) previously Dastar P-0005
+           (19720920A) status approved added
+           (19900109A) VOF.-Complete update of keywords and repl.
+                          of obsolete codes.
+           (20080208A) BIB section updated
+ENDBIB              27
+COMMON               3          3
+EN         MONIT1     MONIT2
+MEV        MB         MB
+14.7       115.       541.
+ENDCOMMON            3
+ENDSUBENT           34
+SUBENT        30115002   20080208   20080530   20080530       3126
+BIB                  1          1
+REACTION   (9-F-19(N,P)8-O-19,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+21.0       3.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        30115003   20080208   20080530   20080530       3126
+BIB                  1          1
+REACTION   (11-NA-23(N,P)10-NE-23,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+39.0       4.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        30115004   20080208   20080530   20080530       3126
+BIB                  1          1
+REACTION   (20-CA-42(N,P)19-K-42,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+173.0      12.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        30115005   20080208   20080530   20080530       3126
+BIB                  1          1
+REACTION   (20-CA-43(N,P)19-K-43,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+101.0      8.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        30115006   20080208   20080530   20080530       3126
+BIB                  1          1
+REACTION   (20-CA-44(N,P)19-K-44,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+45.0       6.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        30115007   20080208   20080530   20080530       3126
+BIB                  1          1
+REACTION   (21-SC-45(N,P)20-CA-45,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+57.0       8.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        30115008   20080208   20080530   20080530       3126
+BIB                  1          1
+REACTION   (39-Y-89(N,P)38-SR-89,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+53.0       5.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        30115009   20080208   20080530   20080530       3126
+BIB                  1          1
+REACTION   (57-LA-139(N,P)56-BA-139,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+4.5        1.1
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        30115010   20080208   20080530   20080530       3126
+BIB                  1          1
+REACTION   (76-OS-188(N,P)75-RE-188,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+7.1        1.9
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        30115011   20080208   20080530   20080530       3126
+BIB                  3          5
+REACTION   (76-OS-190(N,P)75-RE-190,,SIG)
+COMMENT    Compiler'S note :
+           the authors didn't give decay-data information.
+           don't know wich state has been measured.
+HISTORY    (19900109U) VOF.- Comment added.-
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+2.0        0.5
+ENDDATA              3
+ENDSUBENT           13
+ENDENTRY            11

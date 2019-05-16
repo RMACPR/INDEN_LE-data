@@ -1,0 +1,72 @@
+ENTRY            21249   20131222   20140820   20140807       2238
+SUBENT        21249001   20131222   20140820   20140807       2238
+BIB                 15         35
+INSTITUTE  (2SWTLAU)
+REFERENCE  (J,HPA,38,371,196505)
+           (W,GRIN,196701) Table of numerical data.
+           (P,EANDC(OR)-40L,4,196504)
+AUTHOR     (B.Vaucher,J.C.Alder,C.Joseph,G.A.Grin,A.Henchoz)
+TITLE       Inelastic scattering of neutrons of 14.1 MeV on
+            nitrogen-14
+FACILITY   .Not given.
+INC-SOURCE (D-T) Deuteron-tritium reaction.
+SAMPLE     .Liquid nitrogen sample 3 x 9 x 5 ccm.
+METHOD     (TOF,ASSOP) Measurement of the time of flight spectrum
+            of neutrons scattered by a liquid nitrogen sample
+            using a fast coincidence equipment detecting also the
+            associated alpha particles of the H-3(d,n)He-4
+            reaction.
+           .Flight path 350 cm, time resolution of the spectro-
+            meter 1.4 ns FWHM.
+           Two measurements have been made, with the distributor
+           of nitrogen and with his empty pot.
+DETECTOR   (SCIN) Plastic scintillator, type NE 102, as neutron
+            detector (dimensions 10 x 10 x 4 cm).
+           .the alpha detector is not described.
+ANALYSIS   .Values calculated from the measured TOF spectrum.
+MONITOR    (1-H-1(N,EL)1-H-1,,SIG) For determination of the
+            neutron detector efficiency (energy dependent).
+            No reference given.
+CORRECTION .Only correction for background.
+ERR-ANALYS (DATA-ERR) Estimated total absolute errors given.
+STATUS     (TABLE) Data from tbl. on p.372 of HPA,38,371
+HISTORY    (19800111T) G.C.
+           (19801120A) G.C., Monitor reaction string corrected,
+            error analysis modified.
+           (20131222A) SD: Updated to new date formats,lower case.
+            Corrections according last EXFOR rules and Dict.
+            Ref. on ZET,41,999 deleted (no such ref.) BIB updated.
+ENDBIB              35
+COMMON               3          3
+EN         ANG        ANG-RSL
+MEV        ADEG       ADEG
+ 1.4100E+01 4.0000E+01 6.0000E+00
+ENDCOMMON            3
+ENDSUBENT           42
+SUBENT        21249002   20131222   20140820   20140807       2238
+BIB                  2          2
+REACTION   (7-N-14(N,EL)7-N-14,,DA)
+HISTORY    (19801120A) G.C., Data headings changed.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB/SR      MB/SR
+ 9.0000E+01 7.0000E+00
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        21249003   20131222   20140820   20140807       2238
+BIB                  2          3
+REACTION   (7-N-14(N,INL)7-N-14,PAR,DA)
+HISTORY    (19801120A) G.C., Data headings changed.
+           (20131222A) SD: Col. Q-VAL changed on E-LVL.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          2
+E-LVL      DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+ 3.9450E+00 3.7000E+00 1.0000E+00
+ 2.3120E+00 4.4000E+00 1.1000E+00
+ENDDATA              4
+ENDSUBENT           12
+ENDENTRY             3

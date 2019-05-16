@@ -1,0 +1,39 @@
+ENTRY            11339     820324              20050926       0000
+SUBENT        11339001     820324              20050926       0000
+BIB                  6          7
+INSTITUTE  (1USALRL)
+REFERENCE  (P,UCRL-50001-66-2,19,66)
+AUTHOR     (J.D.ANDERSON,C.WONG)
+TITLE      ENERGY DEPENDENCE OF THE N14(N,P0) C14 REACTION.
+STATUS     (SCSRS)
+HISTORY    (761014T) TRANSLATED FROM SCISRS
+           (820324A) CONVERTED TO REACTION FORMALISM
+ENDBIB               7
+NOCOMMON             0          0
+ENDSUBENT           10
+SUBENT        11339002     820324              20050926       0000
+BIB                  2          2
+REACTION   (7-N-14(N,P)6-C-14,PAR,SIG)
+METHOD     DETERMINED FROM INVERSE REACTION BY DETAILED BALANCE.
+ENDBIB               2
+COMMON               1          3
+E-LVL
+MEV
+ 0.
+ENDCOMMON            3
+DATA                 3         10
+EN         DATA       DATA-ERR
+MEV        B          B
+ 5.01   +00 33.0   -03 1.5    -03
+ 6.53   +00 21.5   -03 1.1    -03
+ 7.45   +00  9.8   -03 0.7    -03
+ 8.12   +00 16.2   -03 1.1    -03
+ 8.73   +00  9.7   -03 0.7    -03
+ 9.69   +00 13.5   -03 0.7    -03
+ 1.103  +01  8.2   -03 0.7    -03
+ 1.180  +01  6.0   -03 0.5    -03
+ 1.263  +01  6.7   -03 0.5    -03
+ 1.304  +01  4.9   -03 0.4    -03
+ENDDATA             12
+ENDSUBENT           23
+ENDENTRY             2

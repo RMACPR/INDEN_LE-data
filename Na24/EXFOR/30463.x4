@@ -1,0 +1,1314 @@
+ENTRY            30463   20130428   20130621   20130613       3159
+SUBENT        30463001   20130428   20130621   20130613       3159
+BIB                 13         43
+TITLE      Elastic and inelastic scattering of 3.4 MeV neutrons
+            by 23Na,24Mg,27Al,28Si,31P-,55Mn,56Fe and 209Bi
+AUTHOR     (Th.Schweitzer,D.Seeliger,S.Unholzer)
+INSTITUTE  (3DDRTUD)
+REFERENCE  (W,SEELIGER,197811)
+           Complete set of final numerical data
+           Each of the following references covers only part of
+            the nuclei, data are given often in graphical form
+            only or are preliminary values (note by NDS)
+           (J,KE,20,174,1977) Mg,Si,Fe,Bi. in German
+           ((R,YK-22,15,1976)=(R,INDC(CCP)-105,15,1976))
+            Mg,Si,Fe,Bi. in Russian
+           (R,TU-05-40-75,1975)      Mg,Si,Fe,Bi
+           (C,77KIEV,1,231,197704)   Na,Fe. in Russian
+           (P,ZFK-350,2,197805)      Na,Fe. in German
+           (P,ZFK-324,39,197607)     Mg,Si,Fe,Bi. in English
+           (P,ZFK-315,11,1976) Al(graph), Na,P,Mn(no data).German
+           (R,IAEA-190,(2),243,1976) Mg,Si,Fe,Bi.
+           (P,ZFK-262,33,197309) P(graph),Na,Mn,Bi (no data)
+FACILITY   (CCW,3DDRTUD) 500 KV-cascade accelerator with
+            3-gap-clystron-pulsing system frequencies 2,5,10MHz
+INC-SOURCE (D-D) Pulsed deuteron beam on D-loaded Ti-target
+METHOD     (TOF) Time-of-flight with an overall resolution of 3 ns
+DETECTOR   (SCIN) Liquid scintillator NE-213 with space-charge
+            discrimination
+MONITOR    Absolute measurement by measurement of the protons
+            from the reaction D(d,p)t
+PART-DET   (N) Neutrons
+CORRECTION Corrected for
+            - background subtraction,
+            - multiple scattering,
+            - flux attenuation,
+            - geometrical corrections.
+ERR-ANALYS (ERR-T) Includes statistical errors and following
+            systematical errors:
+           (ERR-1) detector efficiency                      (5%)
+           (ERR-2) monitoring                               (5%)
+           (ERR-3) flux attenuation and multiple scattering (5%)
+HISTORY    (19780110C) Compiled by author
+           (19781127A) OS. Minor corrections and acc.no. assigned
+            by NDS before transmission to other centres.
+           (20090310A) SD:Updated to new date formats,lower case.
+           (20130428U) On. REFERENCE: INDC(CCP)-105,15,1976 added
+ENDBIB              43
+COMMON               3          3
+ERR-1      ERR-2      ERR-3
+PER-CENT   PER-CENT   PER-CENT
+ 5.         5.         5.
+ENDCOMMON            3
+ENDSUBENT           50
+SUBENT        30463002   20090311   20090724   20090720       3135
+BIB                  1          1
+REACTION   (11-NA-23(N,EL)11-NA-23,,DA)
+ENDBIB               1
+COMMON               2          3
+EN         EN-ERR
+MEV        MEV
+ 3.4000E+00 1.0000E-01
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA-CM    ERR-T
+ADEG       MB/SR      MB/SR
+ 2.6200E+01 4.9950E+02 1.0540E+02
+ 3.6500E+01 3.4530E+02 7.6300E+01
+ 4.6800E+01 2.4470E+02 5.0100E+01
+ 5.7100E+01 1.6310E+02 3.3200E+01
+ 6.7300E+01 1.3580E+02 3.0600E+01
+ 8.2600E+01 7.8400E+01 1.5400E+01
+ 9.2600E+01 6.6100E+01 1.4500E+01
+ 1.0760E+02 4.7100E+01 1.0300E+01
+ 1.2240E+02 4.6600E+01 9.7000E+00
+ 1.3710E+02 5.8500E+01 1.4800E+01
+ 1.5170E+02 6.5300E+01 1.4400E+01
+ENDDATA             13
+ENDSUBENT           23
+SUBENT        30463003   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (11-NA-23(N,EL)11-NA-23,,SIG)
+STATUS     (DEP,30463002) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-ERR     DATA       ERR-T
+MEV        MEV        MB         MB
+ 3.4000E+00 1.0000E-01 1.7230E+03 3.5400E+02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30463004   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (11-NA-23(N,EL)11-NA-23,,DA,,LEG)
+STATUS     (DEP,30463002) Data were derived by a Legendre fit of
+            the differential cross sections
+ENDBIB               3
+COMMON               2          3
+EN         EN-ERR
+MEV        MEV
+ 3.4000E+00 1.0000E-01
+ENDCOMMON            3
+DATA                 2          6
+NUMBER-CM  DATA-CM
+NO-DIM     MB/SR
+ 0.0000E+00 1.3710E+02
+ 1.0000E+00 1.8550E+02
+ 2.0000E+00 1.8010E+02
+ 3.0000E+00 9.7500E+01
+ 4.0000E+00 5.5900E+01
+ 5.0000E+00 2.8600E+01
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        30463005   20090311   20090724   20090720       3135
+BIB                  1          1
+REACTION   (11-NA-23(N,INL)11-NA-23,PAR,DA)
+ENDBIB               1
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 4.3900E-01
+ENDCOMMON            3
+DATA                 3         10
+ANG-CM     DATA-CM    ERR-T
+ADEG       MB/SR      MB/SR
+ 2.6100E+01 2.1400E+01 8.2000E+00
+ 4.6800E+01 3.0700E+01 9.7000E+00
+ 5.7100E+01 2.8800E+01 8.1000E+00
+ 6.7300E+01 4.2100E+01 1.1500E+01
+ 8.2600E+01 4.1300E+01 9.9000E+00
+ 9.2600E+01 3.2700E+01 6.8000E+00
+ 1.0760E+02 3.0300E+01 6.2000E+00
+ 1.2240E+02 3.1700E+01 8.9000E+00
+ 1.3690E+02 4.9900E+01 1.2600E+01
+ 1.5170E+02 5.2700E+01 1.3100E+01
+ENDDATA             12
+ENDSUBENT           22
+SUBENT        30463006   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (11-NA-23(N,INL)11-NA-23,PAR,SIG)
+STATUS     (DEP,30463005) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-ERR     E-LVL      DATA       ERR-T
+MEV        MEV        MEV        MB         MB
+ 3.4000E+00 1.0000E-01 4.3900E-01 4.4280E+02 9.4000E+01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30463007   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (11-NA-23(N,INL)11-NA-23,PAR,DA,,LEG)
+STATUS     (DEP,30463005) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 4.3900E-01
+ENDCOMMON            3
+DATA                 2          5
+NUMBER-CM  DATA-CM
+NO-DIM     MB/SR
+ 0.0000E+00 3.5200E+01
+ 1.0000E+00 1.2400E+01
+ 2.0000E+00 4.9000E+00
+ 3.0000E+00 1.7700E+01
+ 4.0000E+00 4.1000E+00
+ENDDATA              7
+ENDSUBENT           19
+SUBENT        30463008   20090311   20090724   20090720       3135
+BIB                  1          1
+REACTION   (12-MG-24(N,EL)12-MG-24,,DA)
+ENDBIB               1
+COMMON               2          3
+EN         EN-ERR
+MEV        MEV
+ 3.4000E+00 1.0000E-01
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA-CM    ERR-T
+ADEG       MB/SR      MB/SR
+ 1.5800E+01 5.0100E+02 1.1000E+02
+ 2.6000E+01 4.0000E+02 8.3000E+01
+ 3.6400E+01 2.9450E+02 6.0000E+01
+ 4.6700E+01 2.3100E+02 4.6700E+01
+ 6.2100E+01 1.2650E+02 2.5900E+01
+ 7.7400E+01 7.1300E+01 1.6200E+01
+ 9.2400E+01 5.6600E+01 1.2300E+01
+ 1.0230E+02 5.0800E+01 1.0900E+01
+ 1.2700E+02 5.2600E+01 1.1100E+01
+ 1.3670E+02 6.4500E+01 1.3300E+01
+ 1.5120E+02 7.9800E+01 1.6400E+01
+ENDDATA             13
+ENDSUBENT           23
+SUBENT        30463009   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (12-MG-24(N,EL)12-MG-24,,SIG)
+STATUS     (DEP,30463008) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-ERR     DATA       ERR-T
+MEV        MEV        MB         MB
+ 3.4000E+00 1.0000E-01 1.5470E+03 2.5500E+02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30463010   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (12-MG-24(N,EL)12-MG-24,,DA,,LEG)
+STATUS     (DEP,30463008) Data were derived by a legendre fit of
+            the differential cross sections
+ENDBIB               3
+COMMON               2          3
+EN         EN-ERR
+MEV        MEV
+ 3.4000E+00 1.0000E-01
+ENDCOMMON            3
+DATA                 2          6
+NUMBER-CM  DATA-CM
+NO-DIM     MB/SR
+ 0.0000E+00 1.2310E+02
+ 1.0000E+00 1.4240E+02
+ 2.0000E+00 1.5880E+02
+ 3.0000E+00 6.7200E+01
+ 4.0000E+00 3.6500E+01
+ 5.0000E+00 4.0000E+00
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        30463011   20090311   20090724   20090720       3135
+BIB                  1          1
+REACTION   (12-MG-24(N,INL)12-MG-24,PAR,DA)
+ENDBIB               1
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 1.3680E+00
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA-CM    ERR-T
+ADEG       MB/SR      MB/SR
+ 1.6000E+01 5.1500E+01 1.1300E+01
+ 2.6300E+01 3.6400E+01 9.3000E+00
+ 3.6800E+01 4.0100E+01 9.3000E+00
+ 4.7200E+01 3.8500E+01 8.6000E+00
+ 6.2700E+01 4.7900E+01 1.0800E+01
+ 7.8000E+01 4.3800E+01 9.6000E+00
+ 9.3100E+01 4.2200E+01 9.2000E+00
+ 1.0310E+02 4.3900E+01 9.6000E+00
+ 1.2760E+02 4.0400E+01 8.6000E+00
+ 1.3720E+02 3.4600E+01 7.7000E+00
+ 1.5160E+02 3.1000E+01 6.9000E+00
+ENDDATA             13
+ENDSUBENT           23
+SUBENT        30463012   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (12-MG-24(N,INL)12-MG-24,PAR,SIG)
+STATUS     (DEP,30463011) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-ERR     E-LVL      DATA       ERR-T
+MEV        MEV        MEV        MB         MB
+ 3.4000E+00 1.0000E-01 1.3680E+00 5.0970E+02 9.3000E+01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30463013   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (12-MG-24(N,INL)12-MG-24,PAR,DA,,LEG)
+STATUS     (DEP,30463011) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 1.3680E+00
+ENDCOMMON            3
+DATA                 2          6
+NUMBER-CM  DATA-CM
+NO-DIM     MB/SR
+ 0.0000E+00 4.0500E+01
+ 1.0000E+00 5.7000E+00
+ 2.0000E+00-7.0000E+00
+ 3.0000E+00 4.6000E+00
+ 4.0000E+00 1.7000E+00
+ 5.0000E+00 6.7000E+00
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        30463014   20090311   20090724   20090720       3135
+BIB                  1          1
+REACTION   (14-SI-28(N,EL)14-SI-28,,DA)
+ENDBIB               1
+COMMON               2          3
+EN         EN-ERR
+MEV        MEV
+ 3.4000E+00 1.0000E-01
+ENDCOMMON            3
+DATA                 3         12
+ANG-CM     DATA-CM    ERR-T
+ADEG       MB/SR      MB/SR
+ 1.5600E+01 6.0600E+02 1.2100E+02
+ 2.5800E+01 5.0700E+02 9.9400E+01
+ 3.6100E+01 3.9000E+02 7.6400E+01
+ 4.6400E+01 3.2700E+02 6.4100E+01
+ 6.1700E+01 1.8400E+02 3.6900E+01
+ 7.6900E+01 1.0210E+02 2.0700E+01
+ 9.2000E+01 6.5700E+01 1.3500E+01
+ 1.0190E+02 4.1400E+01 8.8000E+00
+ 1.1190E+02 2.9800E+01 6.8000E+00
+ 1.2650E+02 2.2500E+01 4.8000E+00
+ 1.3640E+02 2.6100E+01 5.8000E+00
+ 1.5100E+02 4.4300E+01 9.2000E+00
+ENDDATA             14
+ENDSUBENT           24
+SUBENT        30463015   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (14-SI-28(N,EL)14-SI-28,,SIG)
+STATUS     (DEP,30463014) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-ERR     DATA       ERR-T
+MEV        MEV        MB         MB
+ 3.4000E+00 1.0000E-01 1.7950E+03 2.9500E+02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30463016   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (14-SI-28(N,EL)14-SI-28,,DA,,LEG)
+STATUS     (DEP,30463014) Data were derived by a Legendre fit of
+            the differential cross sections
+ENDBIB               3
+COMMON               2          3
+EN         EN-ERR
+MEV        MEV
+ 3.4000E+00 1.0000E-01
+ENDCOMMON            3
+DATA                 2          6
+NUMBER-CM  DATA-CM
+NO-DIM     MB/SR
+ 0.0000E+00 1.4280E+02
+ 1.0000E+00 2.2470E+02
+ 2.0000E+00 1.8080E+02
+ 3.0000E+00 6.0500E+01
+ 4.0000E+00 3.6700E+01
+ 5.0000E+00 1.2000E+00
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        30463017   20090311   20090724   20090720       3135
+BIB                  1          1
+REACTION   (14-SI-28(N,INL)14-SI-28,PAR,DA)
+ENDBIB               1
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 1.7800E+00
+ENDCOMMON            3
+DATA                 3         12
+ANG-CM     DATA-CM    ERR-T
+ADEG       MB/SR      MB/SR
+ 1.6000E+01 4.7400E+01 1.0300E+01
+ 2.6200E+01 4.1000E+01 8.7000E+00
+ 3.6700E+01 4.7800E+01 1.0100E+01
+ 4.7000E+01 6.6200E+01 1.3700E+01
+ 6.2500E+01 5.7200E+01 1.2100E+01
+ 7.7800E+01 5.0900E+01 1.0600E+01
+ 9.2900E+01 5.5700E+01 1.1600E+01
+ 1.0290E+02 5.6000E+01 1.1700E+01
+ 1.1280E+02 5.6600E+01 1.2200E+01
+ 1.2740E+02 4.0000E+01 8.3000E+00
+ 1.3710E+02 4.1500E+01 8.8000E+00
+ 1.5140E+02 3.9400E+01 8.6000E+00
+ENDDATA             14
+ENDSUBENT           24
+SUBENT        30463018   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (14-SI-28(N,INL)14-SI-28,PAR,SIG)
+STATUS     (DEP,30463017) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-ERR     E-LVL      DATA       ERR-T
+MEV        MEV        MEV        MB         MB
+ 3.4000E+00 1.0000E-01 1.7800E+00 6.2860E+02 1.1700E+02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30463019   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (14-SI-28(N,INL)14-SI-28,PAR,DA,,LEG)
+STATUS     (DEP,30463017) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 1.7800E+00
+ENDCOMMON            3
+DATA                 2          6
+NUMBER-CM  DATA-CM
+NO-DIM     MB/SR
+ 0.0000E+00 5.0000E+01
+ 1.0000E+00 6.6000E+00
+ 2.0000E+00-1.1600E+01
+ 3.0000E+00-3.8000E+00
+ 4.0000E+00-3.0000E-01
+ 5.0000E+00 0.0000E+00
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        30463020   20090311   20090724   20090720       3135
+BIB                  1          1
+REACTION   (26-FE-56(N,EL)26-FE-56,,DA)
+ENDBIB               1
+COMMON               2          3
+EN         EN-ERR
+MEV        MEV
+ 3.4000E+00 1.0000E-01
+ENDCOMMON            3
+DATA                 3         12
+ANG-CM     DATA-CM    ERR-T
+ADEG       MB/SR      MB/SR
+ 1.5200E+01 1.1500E+03 2.2420E+02
+ 2.5400E+01 9.5200E+02 1.9040E+02
+ 3.5600E+01 7.4050E+02 1.5170E+02
+ 4.5700E+01 4.4250E+02 8.9400E+01
+ 6.0900E+01 7.7500E+01 1.5500E+01
+ 7.6000E+01 2.3200E+01 4.5000E+00
+ 9.0000E+01 4.7700E+01 9.3000E+00
+ 1.0100E+02 7.4000E+01 1.4400E+01
+ 1.1000E+02 8.9200E+01 1.7900E+01
+ 1.2590E+02 7.0700E+01 1.3500E+01
+ 1.3570E+02 8.2200E+01 1.6100E+01
+ 1.5050E+02 6.1500E+01 1.1800E+01
+ENDDATA             14
+ENDSUBENT           24
+SUBENT        30463021   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (26-FE-56(N,EL)26-FE-56,,SIG)
+STATUS     (DEP,30463020) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-ERR     DATA       ERR-T
+MEV        MEV        MB         MB
+ 3.4000E+00 1.0000E-01 2.3470E+03 4.4200E+02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30463022   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (26-FE-56(N,EL)26-FE-56,,DA,,LEG)
+STATUS     (DEP,30463020) Data were derived by a Legendre fit of
+            the differential cross sections
+ENDBIB               3
+COMMON               2          3
+EN         EN-ERR
+MEV        MEV
+ 3.4000E+00 1.0000E-01
+ENDCOMMON            3
+DATA                 2          6
+NUMBER-CM  DATA-CM
+NO-DIM     MB/SR
+ 0.0000E+00 1.8670E+02
+ 1.0000E+00 3.1520E+02
+ 2.0000E+00 4.0260E+02
+ 3.0000E+00 3.5350E+02
+ 4.0000E+00 1.7050E+02
+ 5.0000E+00 3.6800E+01
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        30463023   20090311   20090724   20090720       3135
+BIB                  1          1
+REACTION   (26-FE-56(N,INL)26-FE-56,PAR,DA)
+ENDBIB               1
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 8.4700E-01
+ENDCOMMON            3
+DATA                 3         12
+ANG-CM     DATA-CM    ERR-T
+ADEG       MB/SR      MB/SR
+ 1.6000E+01 6.0200E+01 1.3200E+01
+ 2.5500E+01 5.1000E+01 1.0600E+01
+ 3.5700E+01 5.1700E+01 1.4000E+01
+ 4.5800E+01 6.5100E+01 1.3700E+01
+ 6.1000E+01 5.2800E+01 1.0900E+01
+ 7.6100E+01 4.4800E+01 8.9000E+00
+ 8.8800E+01 5.2200E+01 1.0200E+01
+ 1.0120E+02 5.0900E+01 9.9000E+00
+ 1.1110E+02 5.3400E+01 1.0300E+01
+ 1.2600E+02 4.9400E+01 9.9000E+00
+ 1.3580E+02 4.3200E+01 9.1000E+00
+ 1.5060E+02 5.1500E+01 9.9000E+00
+ENDDATA             14
+ENDSUBENT           24
+SUBENT        30463024   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (26-FE-56(N,INL)26-FE-56,PAR,SIG)
+STATUS     (DEP,30463023) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-ERR     E-LVL      DATA       ERR-T
+MEV        MEV        MEV        MB         MB
+ 3.4000E+00 1.0000E-01 8.4700E-01 6.4130E+02 1.1400E+02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30463025   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (26-FE-56(N,INL)26-FE-56,PAR,DA,,LEG)
+STATUS     (DEP,30463023) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 8.4700E-01
+ENDCOMMON            3
+DATA                 2          5
+NUMBER-CM  DATA-CM
+NO-DIM     MB/SR
+ 0.0000E+00 5.1000E+01
+ 1.0000E+00 3.0000E+00
+ 2.0000E+00 1.9000E+00
+ 3.0000E+00 1.6000E+00
+ 4.0000E+00 3.0000E-01
+ENDDATA              7
+ENDSUBENT           19
+SUBENT        30463026   20090311   20090724   20090720       3135
+BIB                  1          1
+REACTION   (13-AL-27(N,EL)13-AL-27,,DA)
+ENDBIB               1
+COMMON               2          3
+EN         EN-ERR
+MEV        MEV
+ 3.4000E+00 1.0000E-01
+ENDCOMMON            3
+DATA                 3         10
+ANG-CM     DATA-CM    ERR-T
+ADEG       MB/SR      MB/SR
+ 1.5800E+01 7.4970E+02 1.5000E+02
+ 2.5900E+01 4.9080E+02 9.8000E+01
+ 3.6200E+01 4.4910E+02 8.5400E+01
+ 4.6500E+01 3.3730E+02 7.1200E+01
+ 6.1800E+01 2.3790E+02 5.0300E+01
+ 7.7100E+01 9.9800E+01 2.0900E+01
+ 9.2200E+01 6.0200E+01 1.2600E+01
+ 1.2670E+02 4.6500E+01 9.9000E+00
+ 1.3650E+02 5.5100E+01 1.2200E+01
+ 1.5100E+02 5.4800E+01 1.2100E+01
+ENDDATA             12
+ENDSUBENT           22
+SUBENT        30463027   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (13-AL-27(N,EL)13-AL-27,,SIG)
+STATUS     (DEP,30463026) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-ERR     DATA       ERR-T
+MEV        MEV        MB         MB
+ 3.4000E+00 1.0000E-01 2.0100E+03 4.0200E+02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30463028   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (13-AL-27(N,EL)13-AL-27,,DA,,LEG)
+STATUS     (DEP,30463026) Data were derived by a Legendre fit of
+            the differential cross sections
+ENDBIB               3
+COMMON               2          3
+EN         EN-ERR
+MEV        MEV
+ 3.4000E+00 1.0000E-01
+ENDCOMMON            3
+DATA                 2          5
+NUMBER-CM  DATA-CM
+NO-DIM     MB/SR
+ 0.0000E+00 1.6000E+02
+ 1.0000E+00 2.3780E+02
+ 2.0000E+00 2.0060E+02
+ 3.0000E+00 7.4000E+01
+ 4.0000E+00 9.0000E+00
+ENDDATA              7
+ENDSUBENT           19
+SUBENT        30463029   20090311   20090724   20090720       3135
+BIB                  1          1
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,DA)
+ENDBIB               1
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 8.4200E-01
+ENDCOMMON            3
+DATA                 3         10
+ANG-CM     DATA-CM    ERR-T
+ADEG       MB/SR      MB/SR
+ 1.6000E+01 1.8100E+01 3.7000E+00
+ 2.6000E+01 1.7600E+01 3.8000E+00
+ 3.6400E+01 1.3200E+01 2.5000E+00
+ 4.6700E+01 1.4200E+01 2.7000E+00
+ 6.2100E+01 1.3800E+01 3.2000E+00
+ 7.7300E+01 9.7000E+00 2.0000E+00
+ 9.2500E+01 9.5000E+00 1.8000E+00
+ 1.2700E+02 6.4000E+00 2.7000E+00
+ 1.3670E+02 8.4000E+00 1.8000E+00
+ 1.5120E+02 6.2000E+00 1.8000E+00
+ENDDATA             12
+ENDSUBENT           22
+SUBENT        30463030   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,SIG)
+STATUS     (DEP,30463029) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-ERR     E-LVL      DATA       ERR-T
+MEV        MEV        MEV        MB         MB
+ 3.4000E+00 1.0000E-01 8.4200E-01 1.2860E+02 2.4000E+01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30463031   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,DA,,LEG)
+STATUS     (DEP,30463029) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 8.4200E-01
+ENDCOMMON            3
+DATA                 2          6
+NUMBER-CM  DATA-CM
+NO-DIM     MB/SR
+ 0.0000E+00 1.0200E+01
+ 1.0000E+00 4.7000E+00
+ 2.0000E+00 1.1000E+00
+ 3.0000E+00 2.1000E+00
+ 4.0000E+00-8.0000E-01
+ 5.0000E+00 1.5000E+00
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        30463032   20090311   20090724   20090720       3135
+BIB                  1          1
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,DA)
+ENDBIB               1
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 1.0130E+00
+ENDCOMMON            3
+DATA                 3         10
+ANG-CM     DATA-CM    ERR-T
+ADEG       MB/SR      MB/SR
+ 1.6000E+01 1.4400E+01 3.0000E+00
+ 2.6100E+01 1.4300E+01 6.4000E+00
+ 3.6400E+01 1.3400E+01 5.4000E+00
+ 4.6800E+01 1.5600E+01 4.0000E+00
+ 6.2200E+01 1.5200E+01 5.8000E+00
+ 7.7500E+01 1.1700E+01 2.7000E+00
+ 9.2600E+01 1.3300E+01 3.3000E+00
+ 1.2700E+02 1.3900E+01 4.9000E+00
+ 1.3680E+02 1.3500E+01 3.6000E+00
+ 1.5130E+02 1.3800E+01 3.5000E+00
+ENDDATA             12
+ENDSUBENT           22
+SUBENT        30463033   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,SIG)
+STATUS     (DEP,30463032) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-ERR     E-LVL      DATA       ERR-T
+MEV        MEV        MEV        MB         MB
+ 3.4000E+00 1.0000E-01 1.0130E+00 1.6530E+02 3.0000E+01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30463034   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,DA,,LEG)
+STATUS     (DEP,30463032) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 1.0130E+00
+ENDCOMMON            3
+DATA                 2          4
+NUMBER-CM  DATA-CM
+NO-DIM     MB/SR
+ 0.0000E+00 1.3160E+01
+ 1.0000E+00 1.9000E-01
+ 2.0000E+00 1.4900E+00
+ 3.0000E+00-1.7000E-01
+ENDDATA              6
+ENDSUBENT           18
+SUBENT        30463035   20090311   20090724   20090720       3135
+BIB                  1          1
+REACTION   (15-P-31(N,EL)15-P-31,,DA)
+ENDBIB               1
+COMMON               2          3
+EN         EN-ERR
+MEV        MEV
+ 3.4000E+00 1.0000E-01
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA-CM    ERR-T
+ADEG       MB/SR      MB/SR
+ 1.5500E+01 9.1630E+02 2.1010E+02
+ 2.5700E+01 8.0750E+02 1.8710E+02
+ 3.6000E+01 5.2890E+02 1.2030E+02
+ 4.6300E+01 4.6740E+02 1.0140E+02
+ 6.1600E+01 1.9420E+02 3.9200E+01
+ 7.6800E+01 9.7200E+01 1.8800E+01
+ 9.1800E+01 6.3200E+01 1.3100E+01
+ 1.0180E+02 4.5400E+01 9.5000E+00
+ 1.2170E+02 6.6900E+01 1.2800E+01
+ 1.3630E+02 1.0060E+02 2.1100E+01
+ 1.5080E+02 1.4110E+02 2.9700E+01
+ENDDATA             13
+ENDSUBENT           23
+SUBENT        30463036   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (15-P-31(N,EL)15-P-31,,SIG)
+STATUS     (DEP,30463035) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-ERR     DATA       ERR-T
+MEV        MEV        MB         MB
+ 3.4000E+00 1.0000E-01 2.5510E+03 4.9900E+02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30463037   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (15-P-31(N,EL)15-P-31,,DA,,LEG)
+STATUS     (DEP,30463035) Data were derived by a Legendre fit of
+            the differential cross sections
+ENDBIB               3
+COMMON               2          3
+EN         EN-ERR
+MEV        MEV
+ 3.4000E+00 1.0000E-01
+ENDCOMMON            3
+DATA                 2          6
+NUMBER-CM  DATA-CM
+NO-DIM     MB/SR
+ 0.0000E+00 2.0300E+02
+ 1.0000E+00 2.7480E+02
+ 2.0000E+00 3.4140E+02
+ 3.0000E+00 1.4670E+02
+ 4.0000E+00 7.6500E+01
+ 5.0000E+00 2.7300E+01
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        30463038   20090311   20090724   20090720       3135
+BIB                  1          1
+REACTION   (15-P-31(N,INL)15-P-31,PAR,DA)
+ENDBIB               1
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 1.2700E+00
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA-CM    ERR-T
+ADEG       MB/SR      MB/SR
+ 1.5800E+01 5.6300E+01 1.6400E+01
+ 2.6000E+01 4.2100E+01 1.1800E+01
+ 3.6400E+01 4.8300E+01 1.5900E+01
+ 4.6700E+01 6.6800E+01 1.8100E+01
+ 6.2000E+01 6.4300E+01 2.3100E+01
+ 7.7300E+01 2.1800E+01 4.8000E+00
+ 9.2000E+01 2.2300E+01 6.0000E+00
+ 1.0230E+02 1.7900E+01 3.8000E+00
+ 1.2210E+02 3.6800E+01 1.3300E+01
+ 1.3670E+02 3.9500E+01 1.0200E+01
+ 1.5120E+02 4.9400E+01 1.0400E+01
+ENDDATA             13
+ENDSUBENT           23
+SUBENT        30463039   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (15-P-31(N,INL)15-P-31,PAR,SIG)
+STATUS     (DEP,30463038) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-ERR     E-LVL      DATA       ERR-T
+MEV        MEV        MEV        MB         MB
+ 3.4000E+00 1.0000E-01 1.2700E+00 4.2880E+02 8.6000E+01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30463040   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (15-P-31(N,INL)15-P-31,PAR,DA,,LEG)
+STATUS     (DEP,30463038) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 1.2700E+00
+ENDCOMMON            3
+DATA                 2          5
+NUMBER-CM  DATA-CM
+NO-DIM     MB/SR
+ 0.0000E+00 3.4100E+01
+ 1.0000E+00 3.4000E+00
+ 2.0000E+00 2.4900E+01
+ 3.0000E+00-5.7000E+00
+ 4.0000E+00-1.2400E+01
+ENDDATA              7
+ENDSUBENT           19
+SUBENT        30463041   20090311   20090724   20090720       3135
+BIB                  1          1
+REACTION   (25-MN-55(N,EL)25-MN-55,,DA)
+ENDBIB               1
+COMMON               2          3
+EN         EN-ERR
+MEV        MEV
+ 3.4000E+00 1.0000E-01
+ENDCOMMON            3
+DATA                 3         12
+ANG-CM     DATA-CM    ERR-T
+ADEG       MB/SR      MB/SR
+ 1.5200E+01 1.4250E+03 2.9770E+02
+ 2.5400E+01 9.1180E+02 1.8870E+02
+ 3.5600E+01 7.2630E+02 1.4490E+02
+ 4.5700E+01 2.5060E+02 4.8500E+01
+ 6.0900E+01 1.0750E+02 2.0600E+01
+ 7.6000E+01 4.1200E+01 7.8000E+00
+ 9.0000E+01 6.0700E+01 1.1600E+01
+ 1.0100E+02 9.0300E+01 1.7400E+01
+ 1.1000E+02 1.0050E+02 1.9200E+01
+ 1.2590E+02 9.2300E+01 1.7700E+01
+ 1.3580E+02 6.5300E+01 1.2800E+01
+ 1.5050E+02 3.8400E+01 7.4000E+00
+ENDDATA             14
+ENDSUBENT           24
+SUBENT        30463042   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (25-MN-55(N,EL)25-MN-55,,SIG)
+STATUS     (DEP,30463041) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-ERR     DATA       ERR-T
+MEV        MEV        MB         MB
+ 3.4000E+00 1.0000E-01 2.3670E+03 5.7700E+02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30463043   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (25-MN-55(N,EL)25-MN-55,,DA,,LEG)
+STATUS     (DEP,30463041) Data were derived by a Legendre fit of
+            the differential cross sections
+ENDBIB               3
+COMMON               2          3
+EN         EN-ERR
+MEV        MEV
+ 3.4000E+00 1.0000E-01
+ENDCOMMON            3
+DATA                 2          6
+NUMBER-CM  DATA-CM
+NO-DIM     MB/SR
+ 0.0000E+00 1.8840E+02
+ 1.0000E+00 3.0200E+02
+ 2.0000E+00 3.7450E+02
+ 3.0000E+00 3.6580E+02
+ 4.0000E+00 2.0200E+02
+ 5.0000E+00 6.3700E+01
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        30463044   20090311   20090724   20090720       3135
+BIB                  1          1
+REACTION   (25-MN-55(N,INL)25-MN-55,PAR,DA)
+ENDBIB               1
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 9.8300E-01
+ENDCOMMON            3
+DATA                 3         12
+ANG-CM     DATA-CM    ERR-T
+ADEG       MB/SR      MB/SR
+ 1.5900E+01 1.7400E+01 4.0000E+00
+ 2.6000E+01 1.5900E+01 5.5000E+00
+ 3.6100E+01 1.3000E+01 5.8000E+00
+ 4.6200E+01 1.1900E+01 2.4000E+00
+ 6.1300E+01 1.2800E+01 2.7000E+00
+ 7.6500E+01 1.2700E+01 2.7000E+00
+ 9.1500E+01 1.3100E+01 2.5000E+00
+ 1.0150E+02 1.1500E+01 2.2000E+00
+ 1.1050E+02 1.3400E+01 2.5000E+00
+ 1.2640E+02 1.3900E+01 3.0000E+00
+ 1.3630E+02 1.4800E+01 2.8000E+00
+ 1.5120E+02 1.2900E+01 2.6000E+00
+ENDDATA             14
+ENDSUBENT           24
+SUBENT        30463045   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (25-MN-55(N,INL)25-MN-55,PAR,SIG)
+STATUS     (DEP,30463044) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-ERR     E-LVL      DATA       ERR-T
+MEV        MEV        MEV        MB         MB
+ 3.4000E+00 1.0000E-01 9.8300E-01 1.6480E+02 2.7000E+01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30463046   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (25-MN-55(N,INL)25-MN-55,PAR,DA,,LEG)
+STATUS     (DEP,30463044) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 9.8300E-01
+ENDCOMMON            3
+DATA                 2          6
+NUMBER-CM  DATA-CM
+NO-DIM     MB/SR
+ 0.0000E+00 1.3120E+01
+ 1.0000E+00 3.7000E-01
+ 2.0000E+00 7.0000E-01
+ 3.0000E+00 2.5100E+00
+ 4.0000E+00-2.9000E-01
+ 5.0000E+00 3.2300E+00
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        30463047   20090311   20090724   20090720       3135
+BIB                  1          1
+REACTION   (25-MN-55(N,INL)25-MN-55,PAR,DA)
+ENDBIB               1
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 1.2890E+00
+ENDCOMMON            3
+DATA                 3         12
+ANG-CM     DATA-CM    ERR-T
+ADEG       MB/SR      MB/SR
+ 1.6200E+01 1.2900E+01 2.9000E+00
+ 2.6300E+01 1.1700E+01 2.3000E+00
+ 3.6400E+01 1.0100E+01 2.1000E+00
+ 4.6500E+01 5.8000E+00 1.1000E+00
+ 6.1600E+01 5.7000E+00 1.4000E+00
+ 7.6700E+01 8.7000E+00 1.7000E+00
+ 9.1700E+01 8.9000E+00 2.0000E+00
+ 1.0170E+02 9.1000E+00 2.2000E+00
+ 1.1070E+02 7.9000E+00 1.5000E+00
+ 1.2660E+02 4.6000E+00 1.2000E+00
+ 1.3660E+02 5.9000E+00 1.1000E+00
+ 1.5160E+02 8.3000E+00 1.5000E+00
+ENDDATA             14
+ENDSUBENT           24
+SUBENT        30463048   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (25-MN-55(N,INL)25-MN-55,PAR,SIG)
+STATUS     (DEP,30463047) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-ERR     E-LVL      DATA       ERR-T
+MEV        MEV        MEV        MB         MB
+ 3.4000E+00 1.0000E-01 1.2890E+00 1.0080E+02 1.7000E+01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30463049   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (25-MN-55(N,INL)25-MN-55,PAR,DA,,LEG)
+STATUS     (DEP,30463047) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 1.2890E+00
+ENDCOMMON            3
+DATA                 2          6
+NUMBER-CM  DATA-CM
+NO-DIM     MB/SR
+ 0.0000E+00 8.0200E+00
+ 1.0000E+00 6.9000E-01
+ 2.0000E+00 1.4700E+00
+ 3.0000E+00 1.3800E+00
+ 4.0000E+00 6.1100E+00
+ 5.0000E+00-1.4000E-01
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        30463050   20090311   20090724   20090720       3135
+BIB                  1          1
+REACTION   (25-MN-55(N,INL)25-MN-55,PAR,DA)
+ENDBIB               1
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 1.5270E+00
+ENDCOMMON            3
+DATA                 3         12
+ANG-CM     DATA-CM    ERR-T
+ADEG       MB/SR      MB/SR
+ 1.6300E+01 9.9000E+00 2.8000E+00
+ 2.6500E+01 1.1900E+01 2.4000E+00
+ 3.6600E+01 7.0000E+00 1.4000E+00
+ 4.6700E+01 6.6000E+00 1.5000E+00
+ 6.1800E+01 5.9000E+00 1.4000E+00
+ 7.6900E+01 6.0000E+00 1.1000E+00
+ 9.1900E+01 6.8000E+00 1.3000E+00
+ 1.0190E+02 5.9000E+00 1.4000E+00
+ 1.1090E+02 6.9000E+00 1.3000E+00
+ 1.2680E+02 6.4000E+00 1.5000E+00
+ 1.3650E+02 7.7000E+00 1.5000E+00
+ 1.5090E+02 8.2000E+00 1.5000E+00
+ENDDATA             14
+ENDSUBENT           24
+SUBENT        30463051   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (25-MN-55(N,INL)25-MN-55,PAR,SIG)
+STATUS     (DEP,30463050) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-ERR     E-LVL      DATA       ERR-T
+MEV        MEV        MEV        MB         MB
+ 3.4000E+00 1.0000E-01 1.5270E+00 8.8600E+01 1.5000E+01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30463052   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (25-MN-55(N,INL)25-MN-55,PAR,DA,,LEG)
+STATUS     (DEP,30463050) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 1.5270E+00
+ENDCOMMON            3
+DATA                 2          6
+NUMBER-CM  DATA-CM
+NO-DIM     MB/SR
+ 0.0000E+00 7.0300E+00
+ 1.0000E+00 7.0000E-02
+ 2.0000E+00 2.5200E+00
+ 3.0000E+00 1.8800E+00
+ 4.0000E+00 2.0600E+00
+ 5.0000E+00 9.7000E-01
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        30463053   20090311   20090724   20090720       3135
+BIB                  1          1
+REACTION   (25-MN-55(N,INL)25-MN-55,PAR,DA)
+ENDBIB               1
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 1.8840E+00
+ENDCOMMON            3
+DATA                 3         12
+ANG-CM     DATA-CM    ERR-T
+ADEG       MB/SR      MB/SR
+ 1.6500E+01 1.0000E+01 2.8000E+00
+ 2.7000E+01 1.6200E+01 4.5000E+00
+ 3.7200E+01 5.8000E+00 1.7000E+00
+ 4.7300E+01 5.8000E+00 1.6000E+00
+ 6.2300E+01 4.8000E+00 1.3000E+00
+ 7.7400E+01 4.9000E+00 1.2000E+00
+ 9.2400E+01 4.9000E+00 1.1000E+00
+ 1.0240E+02 3.9000E+00 1.1000E+00
+ 1.1140E+02 8.3000E+00 1.7000E+00
+ 1.2740E+02 6.8000E+00 1.9000E+00
+ 1.3730E+02 1.0100E+01 2.6000E+00
+ 1.5200E+02 1.1700E+01 2.6000E+00
+ENDDATA             14
+ENDSUBENT           24
+SUBENT        30463054   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (25-MN-55(N,INL)25-MN-55,PAR,SIG)
+STATUS     (DEP,30463053) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-ERR     E-LVL      DATA       ERR-T
+MEV        MEV        MEV        MB         MB
+ 3.4000E+00 1.0000E-01 1.8840E+00 8.4500E+01 1.9000E+01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30463055   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (25-MN-55(N,INL)25-MN-55,PAR,DA,,LEG)
+STATUS     (DEP,30463053) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 1.8840E+00
+ENDCOMMON            3
+DATA                 2          6
+NUMBER-CM  DATA-CM
+NO-DIM     MB/SR
+ 0.0000E+00 6.7300E+00
+ 1.0000E+00 1.6000E-01
+ 2.0000E+00 4.9200E+00
+ 3.0000E+00 3.3000E-01
+ 4.0000E+00 1.1600E+00
+ 5.0000E+00 1.3900E+00
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        30463056   20090311   20090724   20090720       3135
+BIB                  1          1
+REACTION   (83-BI-209(N,EL)83-BI-209,,DA)
+ENDBIB               1
+COMMON               2          3
+EN         EN-ERR
+MEV        MEV
+ 3.4000E+00 1.0000E-01
+ENDCOMMON            3
+DATA                 3         12
+ANG-CM     DATA-CM    ERR-T
+ADEG       MB/SR      MB/SR
+ 1.5000E+01 5.0243E+03 1.0556E+03
+ 2.5000E+01 3.2700E+03 6.5450E+02
+ 3.5000E+01 2.0780E+03 4.0270E+02
+ 4.5000E+01 9.0500E+02 1.8380E+02
+ 6.0000E+01 7.0900E+01 1.6800E+01
+ 7.5000E+01 2.0800E+02 4.1400E+01
+ 9.0000E+01 2.8600E+02 5.7100E+01
+ 1.0500E+02 2.0800E+02 4.2200E+01
+ 1.2000E+02 6.4400E+01 1.3200E+01
+ 1.2500E+02 6.9000E+01 1.4300E+01
+ 1.3500E+02 1.2900E+02 2.5900E+01
+ 1.5000E+02 1.1620E+02 2.3500E+01
+ENDDATA             14
+ENDSUBENT           24
+SUBENT        30463057   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (83-BI-209(N,EL)83-BI-209,,SIG)
+STATUS     (DEP,30463056) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-ERR     DATA       ERR-T
+MEV        MEV        MB         MB
+ 3.4000E+00 1.0000E-01 7.2190E+03 1.2280E+03
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30463058   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (83-BI-209(N,EL)83-BI-209,,DA,,LEG)
+STATUS     (DEP,30463056) Data were derived by a Legendre fit of
+            the differential cross sections
+ENDBIB               3
+COMMON               2          3
+EN         EN-ERR
+MEV        MEV
+ 3.4000E+00 1.0000E-01
+ENDCOMMON            3
+DATA                 2          6
+NUMBER-CM  DATA-CM
+NO-DIM     MB/SR
+ 0.0000E+00 5.7450E+02
+ 1.0000E+00 1.1670E+03
+ 2.0000E+00 1.3800E+03
+ 3.0000E+00 1.4520E+03
+ 4.0000E+00 1.1470E+03
+ 5.0000E+00 6.1550E+02
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        30463059   20090311   20090724   20090720       3135
+BIB                  1          1
+REACTION   (83-BI-209(N,INL)83-BI-209,PAR,DA)
+ENDBIB               1
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 9.1000E-01
+ENDCOMMON            3
+DATA                 3         11
+ANG-CM     DATA-CM    ERR-T
+ADEG       MB/SR      MB/SR
+ 2.5000E+01 1.1100E+02 6.0700E+01
+ 3.5000E+01 8.8200E+01 3.0800E+01
+ 4.5000E+01 6.9300E+01 2.3400E+01
+ 6.0000E+01 4.7500E+01 1.1800E+01
+ 7.5000E+01 5.5000E+01 1.3800E+01
+ 9.0000E+01 5.2000E+01 1.0800E+01
+ 1.0500E+02 4.3700E+01 8.4000E+00
+ 1.2000E+02 3.8200E+01 7.2000E+00
+ 1.2500E+02 3.4500E+01 6.6000E+00
+ 1.3500E+02 8.3200E+01 1.5800E+01
+ 1.5000E+02 5.7000E+01 1.0900E+01
+ENDDATA             13
+ENDSUBENT           23
+SUBENT        30463060   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (83-BI-209(N,INL)83-BI-209,PAR,SIG)
+STATUS     (DEP,30463059) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-ERR     E-LVL      DATA       ERR-T
+MEV        MEV        MEV        MB         MB
+ 3.4000E+00 1.0000E-01 9.1000E-01 6.8630E+02 1.4000E+02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30463061   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (83-BI-209(N,INL)83-BI-209,PAR,DA,,LEG)
+STATUS     (DEP,30463059) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 9.1000E-01
+ENDCOMMON            3
+DATA                 2          6
+NUMBER-CM  DATA-CM
+NO-DIM     MB/SR
+ 0.0000E+00 5.4600E+01
+ 1.0000E+00 1.0500E+01
+ 2.0000E+00 2.3900E+01
+ 3.0000E+00-6.3000E+00
+ 4.0000E+00 1.5900E+01
+ 5.0000E+00 0.0000E+00
+ENDDATA              8
+ENDSUBENT           20
+SUBENT        30463062   20090311   20090724   20090720       3135
+BIB                  1          1
+REACTION   (83-BI-209(N,INL)83-BI-209,PAR,DA)
+ENDBIB               1
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 1.6100E+00
+ENDCOMMON            3
+DATA                 3         12
+ANG-CM     DATA-CM    ERR-T
+ADEG       MB/SR      MB/SR
+ 1.5000E+01 3.5800E+01 1.1300E+01
+ 2.5000E+01 3.9100E+01 1.1800E+01
+ 3.5000E+01 3.3800E+01 9.7000E+00
+ 4.5000E+01 3.8300E+01 1.0400E+01
+ 6.0000E+01 3.0200E+01 8.8000E+00
+ 7.5000E+01 2.6900E+01 6.3000E+00
+ 9.0000E+01 2.5200E+01 5.9000E+00
+ 1.0500E+02 2.9400E+01 6.8000E+00
+ 1.2000E+02 1.8800E+01 4.7000E+00
+ 1.2500E+02 2.0200E+01 5.0000E+00
+ 1.3500E+02 2.5500E+01 8.2000E+00
+ 1.5000E+02 2.8200E+01 6.3000E+00
+ENDDATA             14
+ENDSUBENT           24
+SUBENT        30463063   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (83-BI-209(N,INL)83-BI-209,PAR,SIG)
+STATUS     (DEP,30463062) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-ERR     E-LVL      DATA       ERR-T
+MEV        MEV        MEV        MB         MB
+ 3.4000E+00 1.0000E-01 1.6100E+00 3.5160E+02 8.1000E+01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30463064   20090311   20090724   20090720       3135
+BIB                  2          3
+REACTION   (83-BI-209(N,INL)83-BI-209,PAR,DA,,LEG)
+STATUS     (DEP,30463062) on Legendre-polynomial expansion of
+            differential data
+ENDBIB               3
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        MEV
+ 3.4000E+00 1.0000E-01 1.6100E+00
+ENDCOMMON            3
+DATA                 2          5
+NUMBER-CM  DATA-CM
+NO-DIM     MB/SR
+ 0.0000E+00 2.8000E+01
+ 1.0000E+00 6.4000E+00
+ 2.0000E+00 7.3000E+00
+ 3.0000E+00-2.3000E+00
+ 4.0000E+00 6.5000E+00
+ENDDATA              7
+ENDSUBENT           19
+ENDENTRY            64

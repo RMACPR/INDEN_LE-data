@@ -1,0 +1,38 @@
+ENTRY            12983   20050718   20050909   20050926       1336
+SUBENT        12983001   20050718   20050909   20050926       1336
+BIB                 13         15
+INSTITUTE  (1CANMCM)
+REFERENCE  (J,NIM/A,248,416,1986)
+AUTHOR     (C.M.Conneely,W.V.Prestwich,T.J.Kennett)
+TITLE      The thermal neutron capture cross section of 9Be
+METHOD     (ACTIV)
+DETECTOR   Pair spectrometer, Ge detector, NaI(Tl) annulus
+FACILITY   (REAC) McMaster university reactor
+INC-SOURCE (REAC)
+MONITOR    (7-N-14(N,G)7-N-15,,SIG)
+SAMPLE     Be-O, 99 percent pure
+ERR-ANALYS Error includes statistical uncertainties from spectral
+           analysis, yields and efficiency model
+STATUS     (APRVD) W.V.Prestwich, 87/1/28.
+HISTORY    (19861121C)
+           (20050718C) DR Format updated and reference corrected
+ENDBIB              15
+COMMON               3          3
+EN         MONIT      MONIT-ERR
+EV         MB         MB
+ 0.0253     77.2       2.1
+ENDCOMMON            3
+ENDSUBENT           22
+SUBENT        12983002   19861201   20050909   20050926       1336
+BIB                  2          2
+REACTION   (4-BE-9(N,G)4-BE-10,,SIG)
+ANALYSIS   Average of 3 measurements
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 8.49       0.34
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY             2

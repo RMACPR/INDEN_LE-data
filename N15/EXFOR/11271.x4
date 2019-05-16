@@ -1,0 +1,59 @@
+ENTRY            11271   20101029   20110113   20110111       1368
+SUBENT        11271001   20101029   20110113   20110111       1368
+BIB                  9         19
+INSTITUTE  (1USAOHO)
+REFERENCE  (J,BAP,11,471(EC2),196606)
+AUTHOR     (P.L.Beach,R.W.Finley,R.D.Koshel,R.L.Cassola)
+TITLE      Elastic neutron scattering from N, O, and Ar at
+            14.1 MeV.
+METHOD     (TOF,ASSOP)
+CORRECTION Not corrected for multiple scattering
+COMMENT    Authors note that their normalization measurements for
+            N were somewhat irregular, therefore, they prefer
+            that results be considered as preliminary.
+STATUS     (SCSRS)
+           (PRELM)
+           (TABLE) Data received in private communication,
+                   R.Finlay, 1967/1.
+HISTORY    (19761001T) Translated from SCISRS
+           (19810428A) Converted to reaction formalism
+           (19860417A) BIB updates.
+           (20101029A) VM:Updated to new date formats,lower case.
+                       BIB update. Preliminary status added.
+ENDBIB              19
+NOCOMMON             0          0
+ENDSUBENT           22
+SUBENT        11271002   20101221   20110113   20110111       1368
+BIB                  5          5
+REACTION   (7-N-0(N,EL)7-N-0,,DA,,REL)
+SAMPLE     Liquified-gas target.
+DETECTOR   (SCIN) Plastic scintillator
+ERR-ANALYS (ERR-S) Statistical uncertainty tabulated.
+HISTORY    (20101221A) Data heading corrected.
+ENDBIB               5
+COMMON               2          3
+EN         EN-RSL
+MEV        MEV
+ 1.400  +01 3.     -02
+ENDCOMMON            3
+DATA                 3         15
+COS-CM     DATA-CM    ERR-S
+NO-DIM     MB/SR      PER-CENT
+ 0.98260    1.0046 +03    3.5
+ 0.96100    8.599  +02    2.6
+ 0.93110    8.312  +02    3.0
+ 0.89310    5.293  +02    2.4
+ 0.84760    3.491  +02    2.3
+ 0.79490    1.759  +02    4.5
+ 0.10400    6.39   +01    4.0
+-0.0712     5.16   +01    3.6
+-0.2424     4.06   +01    4.2
+-0.4043     3.06   +01    4.4
+-0.5527     2.12   +01    5.2
+-0.6837     1.10   +01    6.7
+-0.7947     1.44   +01    6.0
+-0.8830     1.43   +01    6.1
+-0.9397     3.38   +01    4.6
+ENDDATA             17
+ENDSUBENT           31
+ENDENTRY             2

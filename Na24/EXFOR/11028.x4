@@ -1,0 +1,309 @@
+ENTRY            11028     820106              20050926       0000
+SUBENT        11028001     820106              20050926       0000
+BIB                  8         10
+INSTITUTE  (1USAANL)
+REFERENCE  (J,NSE,9,132,6102)
+AUTHOR     (J.W.MEADOWS,J.F.WHALEN)
+TITLE      THERMAL NEUTRON ABSORPTION CROSS SECTIONS BY THE PULSED
+           SOURCE METHOD.
+INC-SPECT  THERMAL SPECTRUM
+METHOD     (PLSED) PULSE DIE-AWAY
+STATUS     (SCSRS)
+HISTORY    (760628T) TRANSLATED FROM SCISRS
+           (820106A) CONVERTED TO REACTION FORMALISM
+ENDBIB              10
+NOCOMMON             0          0
+ENDSUBENT           13
+SUBENT        11028002     851216              20050926       0000
+BIB                  3          3
+REACTION   (1-H-1(N,G)1-H-2,,SIG)
+ANALYSIS   USED G=1.000
+HISTORY    (851216A) REACTION CORRECTED.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 3.35   -01 5.     -03
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11028003     820106              20050926       0000
+BIB                  2          2
+REACTION   (3-LI-0(N,ABS),,SIG)
+ANALYSIS   USED G=1.000
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 7.04   +01 4.     -01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11028004     820106              20050926       0000
+BIB                  3          3
+REACTION   (5-B-0(N,ABS),,SIG)
+ANALYSIS   USED G = 1.000
+SAMPLE     ANL-BNL STANDARD BORON.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 7.58   +02 4.     +00
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11028005     820106              20050926       0000
+BIB                  3          3
+REACTION   (5-B-0(N,ABS),,SIG)
+ANALYSIS   USED G = 1.000
+SAMPLE     B-10 ABUNDANCE NOT KNOWN.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 7.54   +02 4.     +00
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11028006     820106              20050926       0000
+BIB                  3          3
+REACTION   (5-B-10(N,ABS),,SIG)
+SAMPLE     SAMPLE 93.0 PERCENT B-10.
+ANALYSIS   USED G = 1.000
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 3.843  +03 1.7    +01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11028007     820106              20050926       0000
+BIB                  2          2
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG)
+ANALYSIS   USED G=1.000
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 4.7    -01 6.     -02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11028008     820106              20050926       0000
+BIB                  2          2
+REACTION   (17-CL-0(N,ABS),,SIG)
+ANALYSIS   ASSUMED G=1.000.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 3.36   +01 3.     -01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11028009     820106              20050926       0000
+BIB                  2          2
+REACTION   (25-MN-55(N,G)25-MN-56,,SIG)
+ANALYSIS   USED G = 1.000
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 1.32   +01 1.     -01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11028010     820106              20050926       0000
+BIB                  2          2
+REACTION   (27-CO-59(N,G)27-CO-60,,SIG)
+ANALYSIS   USED G = 1.000
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 3.63   +01 6.     -01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11028011     820106              20050926       0000
+BIB                  2          2
+REACTION   (34-SE-0(N,G),,SIG)
+ANALYSIS   USED G = 1.000
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 1.17   +01 1.     -01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11028012     820106              20050926       0000
+BIB                  2          2
+REACTION   (35-BR-0(N,G),,SIG)
+ANALYSIS   USED G = 1.000
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 6.82   +00 6.     -02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11028013     820106              20050926       0000
+BIB                  2          3
+REACTION   (47-AG-0(N,G),,SIG)
+ANALYSIS   MEASURED THERMAL C/S = 65.1 B. USED G = 1.004 FROM
+            WESTCOTT, CRRP-787.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 6.48   +01 4.     -01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11028015     820106              20050926       0000
+BIB                  2          3
+REACTION   (49-IN-0(N,G),,SIG)
+ANALYSIS   MEASURED THERMAL C/S = 198 B. USED G = 1.020 FROM
+            WESTCOTT, CRRP-787.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 1.94   +02 2.     +00
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11028016     820106              20050926       0000
+BIB                  3          4
+REACTION   (48-CD-0(N,G),,SIG)
+ANALYSIS   RE-EVALUATION USING G=1.3346+-.0051.
+            MEASURED THERMAL C/S = 3394.0 B.
+REFERENCE  (J,NSE,31,152,6801)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+EN         DATA
+MEV        B
+ 2.53   -08 2.484  +03
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11028017     820106              20050926       0000
+BIB                  2          2
+REACTION   (53-I-127(N,G)53-I-128,,SIG)
+ANALYSIS   USED G=1.000.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 6.22   +00 1.5    -01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11028018     820106              20050926       0000
+BIB                  3          4
+REACTION   (60-ND-0(N,G),,SIG)
+ANALYSIS   USED G = 1.000
+COMMENT    CONTAMINATION BY SM,EU AND GD MAY HAVE INCREASED
+            CROSS SECTION BY 2B.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       +DATA-ERR  -DATA-ERR
+MEV        B          B          B
+ 2.53   -08 4.99   +01 .3     +00 2.2    +00
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11028019     820106              20050926       0000
+BIB                  2          3
+REACTION   (62-SM-0(N,G),,SIG)
+ANALYSIS   MEASURED THERMAL C/S = 9546.0 B. USED G = 1.683 FROM
+            WESTCOTT, CRRP-787.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 5.828  +03 3.0    +01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11028020     820106              20050926       0000
+BIB                  2          3
+REACTION   (63-EU-0(N,G),,SIG)
+ANALYSIS   MEASURED THERMAL C/S = 4402.0 B. USED G = 0.999 FROM
+            WESTCOTT, CRRP-787.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 4.406  +03 3.0    +01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11028021     820106              20050926       0000
+BIB                  2          3
+REACTION   (64-GD-0(N,G),,SIG)
+ANALYSIS   MEASURED THERMAL C/S = 41396.0 B. USED G = 0.888 FROM
+            WESTCOTT, CRRP-787.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 4.6617 +04 1.00   +02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11028022     820106              20050926       0000
+BIB                  2          2
+REACTION   (66-DY-0(N,G),,SIG)
+ANALYSIS   USED G = 1.000
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 9.36   +02 2.0    +01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11028023     820106              20050926       0000
+BIB                  2          3
+REACTION   (72-HF-0(N,G),,SIG)
+ANALYSIS   MEASURED THERMAL C/S = 103.5 B. USED G = 1.020 FROM
+            WESTCOTT, CRRP-787.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 1.014  +02 5.     -01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11028024     820106              20050926       0000
+BIB                  2          3
+REACTION   (79-AU-197(N,G)79-AU-198,,SIG)
+ANALYSIS   MEASURED THERMAL C/S = 98.7 B. USED G = 1.005 FROM
+            WESTCOTT, CRRP-787.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 9.82   +01 5.     -01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11028025     820106              20050926       0000
+BIB                  2          3
+REACTION   (80-HG-0(N,G),,SIG)
+ANALYSIS   MEASURED THERMAL C/S = 373.0 B. USED G = 0.998 FROM
+            WESTCOTT, CRRP-787.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 3.74   +02 5.     +00
+ENDDATA              3
+ENDSUBENT           11
+ENDENTRY            24

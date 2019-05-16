@@ -1,0 +1,215 @@
+ENTRY            30141   20080208   20080530   20080530       3126
+SUBENT        30141001   20080208   20080530   20080530       3126
+BIB                 15         36
+TITLE      Total neutron cross sections at 14.7 MeV for N,O,Ar,Ca,
+           Co,Ni,Cu,Zn,Ga,Ge,I,Cs,Ce,Pb,Bi.
+AUTHOR     (I.Angeli,J.Csikai,J.L.Nagy,T.Scharbert,T.Sztaricskai,
+            D.Novak)
+INSTITUTE  (3HUNKOS,3HUNDEB)
+REFERENCE  (J,AHP,30,(2),115,1971)Method,table,literature survey
+           (P,INDC(HUN)-1,197004) No data given.
+           (P,IAEA-R-596-F,197207) Measured at 14.7 MeV neutron
+            energy. Same results as Acta Phys Hung, 30(2),
+            p. 115, 1971.
+SAMPLE     Approximately 2 cm in diameter. The lengths were chosen
+           so that the transmissions were about 50%
+MONITOR    Absolute measurements
+FACILITY   Neutron generator
+INC-SOURCE (D-T)  T(d,n) alpha reaction with a thick tritiated
+           titanium target
+METHOD     (TRN) Transmission measurements in 'good geometry'
+DETECTOR   (SCIN) Stilbene crystals were used as detector and
+           monitor using pulse-shape discrimination against gamma
+           background. The bias-window method was used to
+           eliminate electronic instability
+           Tritium target-detector distance = 60 cm, the sample
+           was placed midway between them
+CORRECTION Background and in-scattering corrections were taken
+           into account.
+ERR-ANALYS (DATA-ERR)  No error analysis given. In calculating
+           the errors, standard deviations were used instead of
+           the  statistical values.
+COMMENT    For each sample 15-20 runs were taken
+STATUS     (TABLE) Data taken from tab.1 In Acta Physica Hung.
+                                                     30,115,1971
+           (APRVD) Approved by Angeli on 6/7/1972
+HISTORY    (19720111C) CA.
+           (19720706A)Status approved added + minor corrections
+           (19880422U) TMK reference added. Title corrected.
+           (20080208A) BIB section updated
+ENDBIB              36
+COMMON               1          3
+EN
+MEV
+14.7
+ENDCOMMON            3
+ENDSUBENT           43
+SUBENT        30141002   20080208   20080530   20080530       3126
+BIB                  2          2
+REACTION   (7-N-14(N,TOT),,SIG)
+HISTORY    (19720706A) new value of data-error given by Angeli.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.5600E+00 5.0000E-02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        30141003   20080208   20080530   20080530       3126
+BIB                  1          1
+REACTION   (8-O-16(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.5800E+00 2.5000E-02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        30141004   20080208   20080530   20080530       3126
+BIB                  2          2
+REACTION   (18-AR-0(N,TOT),,SIG)
+SAMPLE     Solid argon crystal grown in liquid nitrogen
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.9500E+00 4.0000E-02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        30141005   20080208   20080530   20080530       3126
+BIB                  1          1
+REACTION   (20-CA-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.1200E+00 4.0000E-02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        30141006   20080208   20080530   20080530       3126
+BIB                  1          1
+REACTION   (27-CO-59(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.6600E+00 6.0000E-02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        30141007   20080208   20080530   20080530       3126
+BIB                  1          1
+REACTION   (28-NI-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.7600E+00 8.0000E-02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        30141008   20080208   20080530   20080530       3126
+BIB                  1          1
+REACTION   (29-CU-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.8300E+00 3.0000E-02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        30141009   20080208   20080530   20080530       3126
+BIB                  1          1
+REACTION   (30-ZN-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.9100E+00 3.0000E-02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        30141010   20080208   20080530   20080530       3126
+BIB                  1          1
+REACTION   (31-GA-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 3.0600E+00 3.0000E-02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        30141011   20080208   20080530   20080530       3126
+BIB                  1          1
+REACTION   (32-GE-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 3.1200E+00 5.0000E-02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        30141012   20080208   20080530   20080530       3126
+BIB                  1          1
+REACTION   (53-I-127(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 4.8900E+00 5.0000E-02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        30141013   20080208   20080530   20080530       3126
+BIB                  1          1
+REACTION   (55-CS-133(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 5.0100E+00 7.0000E-02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        30141014   20080208   20080530   20080530       3126
+BIB                  2          2
+REACTION   (58-CE-0(N,TOT),,SIG)
+HISTORY    (19720706A) new value of data-error given by Angeli
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 5.1600E+00 1.5000E-01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        30141015   20080208   20080530   20080530       3126
+BIB                  1          1
+REACTION   (82-PB-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 5.3400E+00 4.0000E-02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        30141016   20080208   20080530   20080530       3126
+BIB                  1          1
+REACTION   (83-BI-209(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 5.3300E+00 4.0000E-02
+ENDDATA              3
+ENDSUBENT            9
+ENDENTRY            16

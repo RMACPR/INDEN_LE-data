@@ -1,0 +1,409 @@
+ENTRY            22335   20140817   20150107   20141107       2240
+SUBENT        22335001   20140817   20150107   20141107       2240
+BIB                 16         69
+TITLE      Neutron activation cross section measurement from
+            Li-7(p,n) in the proton energy region of 20 MeV to
+            40 MeV
+AUTHOR     (T.S.Soewarsono, Y.Uwamino, T.Nakamura)
+REFERENCE  (S,JAERI-M-92-027,354,199203)
+            Data for C, Na, Mg, Mn, Fe, Cu, Zn, Au given
+           (J,NIM/A,389,463,1997)
+            Data for Co and (final) Au given
+INSTITUTE  (2JPNTOH) T.S.S. and T.N.
+           (2JPNTOK) Y.U.
+FACILITY   (CYCLO,2JPNTOH) The neutron spectrum was measured at
+            the TOF facility of the Cyclotron and Radioisotope
+            Center, CYRIC, at Tohoku University.
+           (CYCLO,2JPNTOK) The activation measurements were
+            performed at the SF cyclotron of the Institute for
+            Nuclear Study, INS, at the University of Tokyo.
+INC-SOURCE (P-LI7) Quasi-monoenergetic neutrons were produced
+            using a 22 mm diameter by 2 mm thick Li target,
+            enriched to 99.98% in Li-7, on a 12 mm thick graphite
+            backing, which stopped the beam. The true activation
+            rates were obtained as the difference between runs
+            with the Li on graphite target, and runs with a pure
+            graphite target of the same thickness.
+INC-SPECT  The neutron peak consisted of transitions to the ground
+            state and first excited state at 0.43 MeV in Be-7. The
+            spectrum was determined as the difference between runs
+            with the Li on graphite target and the pure graphite
+            target, using time-of-flight techniques. The spectrum
+            was measured in the angular region 0 - 125 degrees.
+SAMPLE     Natural samples of C, Al, Na, Mn and Au were used.
+           Enriched samples were also used, with enrichments as
+            follows
+                Mg-24(99.93%), Mg-25(98.81%), Si-28(99.58%),
+                Si-29(95.65%), Fe-54(97.20%), Fe-56(99.87%),
+                Cu-63(99.89%), Cu-65(99.69%), Zn-64(99.50%)
+                Zn-66(98.41%)
+           The samples were placed at 10 cm from the Li target.
+DETECTOR   (SCIN) A 127 mm diameter by 127 mm thick NE213 liquid
+            scintillation detector was used to measure the neutron
+            spectrum. TOF techniques were employed, using a flight
+            path of 10 m.
+           (HPGE) A high purity germanium detector was used to
+            measure the gamma-ray activities of the samples. The
+            detector peak efficiency was calibrated with several
+            gamma-ray standard sources.
+PART-DET   (G) Decay gamma-rays.
+METHOD     (ACTIV)
+ANALYSIS   The peak counts of identified gamma-rays were analysed
+            using the KEI-11EF analysis code.
+MONITOR    (3-LI-7(P,N)4-BE-7,,SIG)
+            The neutron intensity was accurately determined by
+            measuring the Be-7 yield in the target, using gamma-
+            ray spectrometry.
+CORRECTION Data were corrected for the sum-coincidence effect.
+           Data were also corrected for activation by low-energy
+            neutrons, i.e. lower than 15 to 20 MeV, by using data
+            from ENDF/B-V.
+STATUS     (COREL,E1826005) 7Li(p,n) spectra at 0 deg given
+           (APRVD) Proofread by Yoshitomo Uwamino (2011-02-01)
+HISTORY    (19961225C) N.O.
+           (19970214E)
+           (20110131A) On. Addition of subentries 017-019 for
+                           Co and Au data from NIM A389(1997)463
+                           STATUS changed
+           (20110608A) On. ERR-ANALYS moved to data subentries
+           (20140817A) SD: Subent 002 deleted - Duplication of
+           22702.002. Comment from Dr.Y.Uwamino: "The data set was
+           from further analysis by Uno for the 1996 Nucl.Sci.Eng.
+           article after JAERI-M-92-027."
+ENDBIB              69
+NOCOMMON             0          0
+ENDSUBENT           72
+SUBENT        22335003   20110131   20110905   20110902       2226
+BIB                  4          7
+REACTION   (11-NA-23(N,2N)11-NA-22,,SIG)
+ERR-ANALYS (DATA-ERR) No details given
+STATUS     (TABLE) Data obtained from T.Nakamura
+HISTORY    (19961225C) N.O.
+           (19970214E)
+           (20110131U) On. Upper to lower cases, 4 digits year
+           (20110608A) On. ERR-ANALYS moved from common subentry
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          5
+EN         EN-RSL-FW  DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 1.7550E+01 2.2400E+00 9.0100E+01 1.1600E+01
+ 2.1800E+01 1.9100E+00 7.6000E+01 1.0600E+01
+ 2.7580E+01 1.6400E+00 6.0100E+01 1.1900E+01
+ 3.2800E+01 1.4400E+00 5.0000E+01 1.4600E+01
+ 3.8260E+01 1.2200E+00 9.0100E+01 1.8700E+01
+ENDDATA              7
+ENDSUBENT           19
+SUBENT        22335004   20110131   20110905   20110902       2226
+BIB                  5          8
+REACTION   (12-MG-25(N,D)11-NA-24-G,,SIG)
+SAMPLE     (12-MG-25,ENR=0.9881)
+ERR-ANALYS (DATA-ERR) No details given
+STATUS     (TABLE) Data obtained from T.Nakamura
+HISTORY    (19961225C) N.O.
+           (19970214E)
+           (20110131A) On. SAMPLE added
+           (20110608A) On. ERR-ANALYS moved from common subentry
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          5
+EN         EN-RSL-FW  DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 1.7550E+01 2.2400E+00 4.9700E+01 1.0200E+01
+ 2.1800E+01 1.9100E+00 9.3100E+01 1.3300E+01
+ 2.7580E+01 1.6400E+00 1.1800E+02 1.7000E+01
+ 3.2800E+01 1.4400E+00 1.2200E+02 1.8000E+01
+ 3.8260E+01 1.2200E+00 1.0200E+02 2.2000E+01
+ENDDATA              7
+ENDSUBENT           20
+SUBENT        22335005   20110131   20110905   20110902       2226
+BIB                  4          7
+REACTION   (25-MN-55(N,P+A)22-TI-51,,SIG)
+ERR-ANALYS (DATA-ERR) No details given
+STATUS     (TABLE) Data obtained from T.Nakamura
+HISTORY    (19961225C) N.O.
+           (19970214E)
+           (20110131U) On. Upper to lower cases, 4 digits year
+           (20110608A) On. ERR-ANALYS moved from common subentry
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          3
+EN         EN-RSL-FW  DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 2.7580E+01 1.6400E+00 5.5400E-01 7.5000E-02
+ 3.2800E+01 1.4400E+00 8.7000E-01 1.0500E-01
+ 3.8260E+01 1.2200E+00 6.7900E-01 1.2400E-01
+ENDDATA              5
+ENDSUBENT           17
+SUBENT        22335006   20110131   20110905   20110902       2226
+BIB                  4          7
+REACTION   (25-MN-55(N,2N)25-MN-54,,SIG)
+ERR-ANALYS (DATA-ERR) No details given
+STATUS     (TABLE) Data obtained from T.Nakamura
+HISTORY    (19961225C) N.O.
+           (19970214E)
+           (20110131U) On. Upper to lower cases, 4 digits year
+           (20110608A) On. ERR-ANALYS moved from common subentry
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          5
+EN         EN-RSL-FW  DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 1.7550E+01 2.2400E+00 6.9300E+02 5.5000E+01
+ 2.1800E+01 1.9100E+00 6.8400E+02 1.2200E+02
+ 2.7580E+01 1.6400E+00 3.3900E+02 6.4000E+01
+ 3.2800E+01 1.4400E+00 1.8000E+02 9.2000E+01
+ 3.8260E+01 1.2200E+00 4.1700E+02 1.2000E+02
+ENDDATA              7
+ENDSUBENT           19
+SUBENT        22335007   20110131   20110905   20110902       2226
+BIB                  4          7
+REACTION   (25-MN-55(N,4N)25-MN-52-G,,SIG)
+ERR-ANALYS (DATA-ERR) No details given
+STATUS     (TABLE) Data obtained from T.Nakamura
+HISTORY    (19961225C) N.O.
+           (19970214E)
+           (20110131U) On. Upper to lower cases, 4 digits year
+           (20110608A) On. ERR-ANALYS moved from common subentry
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL-FW  DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 3.8260E+01 1.2200E+00 6.2400E+00 1.4800E+00
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        22335008   20110131   20110905   20110902       2226
+BIB                  5          8
+REACTION   (26-FE-54(N,2N)26-FE-53-G,,SIG)
+SAMPLE     (26-FE-54,ENR=0.9720)
+ERR-ANALYS (DATA-ERR) No details given
+STATUS     (TABLE) Data obtained from T.Nakamura
+HISTORY    (19961225C) N.O.
+           (19970214E)
+           (20110131A) On. SAMPLE added
+           (20110608A) On. ERR-ANALYS moved from common subentry
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          5
+EN         EN-RSL-FW  DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 1.7550E+01 2.2400E+00 8.0700E+01 8.3000E+00
+ 2.1800E+01 1.9100E+00 1.4300E+02 1.6000E+01
+ 2.7580E+01 1.6400E+00 1.3800E+02 3.1000E+01
+ 3.2800E+01 1.4400E+00 1.2000E+02 2.7000E+01
+ 3.8260E+01 1.2200E+00 7.9700E+01 1.7800E+01
+ENDDATA              7
+ENDSUBENT           20
+SUBENT        22335009   20110131   20110905   20110902       2226
+BIB                  5          8
+REACTION   (26-FE-54(N,T)25-MN-52-G,,SIG)
+SAMPLE     (26-FE-54,ENR=0.9720)
+ERR-ANALYS (DATA-ERR) No details given
+STATUS     (TABLE) Data obtained from T.Nakamura
+HISTORY    (19961225C) N.O.
+           (19970214E)
+           (20110131A) On. SAMPLE added
+           (20110608A) On. ERR-ANALYS moved from common subentry
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          3
+EN         EN-RSL-FW  DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 2.7580E+01 1.6400E+00 7.2100E+01 1.7600E+01
+ 3.2800E+01 1.4400E+00 1.8800E+02 6.8000E+01
+ 3.8260E+01 1.2200E+00 2.5100E+02 4.5000E+01
+ENDDATA              5
+ENDSUBENT           18
+SUBENT        22335010   20110131   20110905   20110902       2226
+BIB                  5          8
+REACTION   (26-FE-54(N,3N)26-FE-52-G,,SIG)
+SAMPLE     (26-FE-54,ENR=0.9720)
+ERR-ANALYS (DATA-ERR) No details given
+STATUS     (TABLE) Data obtained from T.Nakamura
+HISTORY    (19961225C) N.O.
+           (19970214E)
+           (20110131A) On. SAMPLE added
+           (20110608A) On. ERR-ANALYS moved from common subentry
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          3
+EN         EN-RSL-FW  DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 2.7580E+01 1.6400E+00 7.4200E+00 2.6100E+00
+ 3.2800E+01 1.4400E+00 1.1900E+01 4.3000E+00
+ 3.8260E+01 1.2200E+00 1.0300E+01 2.1000E+00
+ENDDATA              5
+ENDSUBENT           18
+SUBENT        22335011   20110131   20110905   20110902       2226
+BIB                  5          8
+REACTION   (29-CU-63(N,3N)29-CU-61,,SIG)
+SAMPLE     (29-CU-63,ENR=0.9989)
+ERR-ANALYS (DATA-ERR) No details given
+STATUS     (TABLE) Data obtained from T.Nakamura
+HISTORY    (19961225C) N.O.
+           (19970214E)
+           (20110131A) On. SAMPLE added
+           (20110608A) On. ERR-ANALYS moved from common subentry
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          3
+EN         EN-RSL-FW  DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 2.7580E+01 1.6400E+00 8.7500E+01 1.9900E+01
+ 3.2800E+01 1.4400E+00 1.6900E+02 1.6000E+01
+ 3.8260E+01 1.2200E+00 1.1600E+02 1.9000E+01
+ENDDATA              5
+ENDSUBENT           18
+SUBENT        22335012   20110131   20110905   20110902       2226
+BIB                  5          8
+REACTION   (30-ZN-64(N,2N)30-ZN-63,,SIG)
+SAMPLE     (30-ZN-64,ENR=0.9950)
+ERR-ANALYS (DATA-ERR) No details given
+STATUS     (TABLE) Data obtained from T.Nakamura
+HISTORY    (19961225C) N.O.
+           (19970214E)
+           (20110131A) On. SAMPLE added
+           (20110608A) On. ERR-ANALYS moved from common subentry
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          5
+EN         EN-RSL-FW  DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 1.7550E+01 2.2400E+00 2.6000E+02 6.4000E+01
+ 2.1800E+01 1.9100E+00 2.7600E+02 4.5000E+01
+ 2.7580E+01 1.6400E+00 1.9400E+02 4.3000E+01
+ 3.2800E+01 1.4400E+00 1.3700E+02 4.4000E+01
+ 3.8260E+01 1.2200E+00 1.4100E+02 8.0000E+01
+ENDDATA              7
+ENDSUBENT           20
+SUBENT        22335013   20110131   20110905   20110902       2226
+BIB                  5          8
+REACTION   (30-ZN-64(N,3N)30-ZN-62,,SIG)
+SAMPLE     (30-ZN-64,ENR=0.9950)
+ERR-ANALYS (DATA-ERR) No details given
+STATUS     (TABLE) Data obtained from T.Nakamura
+HISTORY    (19961225C) N.O.
+           (19970214E)
+           (20110131A) On. SAMPLE added
+           (20110608A) On. ERR-ANALYS moved from common subentry
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          3
+EN         EN-RSL-FW  DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 2.7580E+01 1.6400E+00 1.4100E+01 5.5000E+00
+ 3.2800E+01 1.4400E+00 4.4800E+01 2.2400E+01
+ 3.8260E+01 1.2200E+00 4.9900E+01 1.3100E+01
+ENDDATA              5
+ENDSUBENT           18
+SUBENT        22335016   20110131   20110905   20110902       2226
+BIB                  4          7
+REACTION   (79-AU-197(N,2N)79-AU-196-M,,SIG)
+ERR-ANALYS (DATA-ERR) No details given
+STATUS     (TABLE) Data obtained from T.Nakamura
+HISTORY    (19961225C) N.O.
+           (19970214E)
+           (20110131U) On. Upper to lower cases, 4 digits year
+           (20110608A) On. ERR-ANALYS moved from common subentry
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          5
+EN         EN-RSL-FW  DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 1.7550E+01 2.2400E+00 1.3400E+02 1.7000E+01
+ 2.1800E+01 1.9100E+00 4.1000E+01 1.8800E+01
+ 2.7580E+01 1.6400E+00 3.7800E+01 2.4000E+01
+ 3.2800E+01 1.4400E+00 2.6000E+01 3.2700E+01
+ 3.8260E+01 1.2200E+00 2.0000E+01 6.0100E+01
+ENDDATA              7
+ENDSUBENT           19
+SUBENT        22335017   20110131   20110905   20110902       2226
+BIB                  6         15
+REACTION  1(79-AU-197(N,4N)79-AU-194,,SIG)
+            Labeled as "This work"
+          2(79-AU-197(N,4N)79-AU-194,,SIG)
+            Labeled as "This work, 2nd"
+SAMPLE      7 x 7 x 0.1 mm, irradiated at 10 cm from 7Li target
+CORRECTION  7Li+graphite-beam-stopper result subtracted
+ERR-ANALYS (DATA-ERR) Quadrature sum of uncertainties in
+            - activation rate from gamma spectrometry
+            - neutron spectrum measured by TOF
+            - Cross section values assumed for Li(p,n) low energy
+              neutron contribution evaluation by activation
+STATUS     (TABLE) Plotted Fig.8 of J,NIM/A,389,463,1997
+HISTORY    (20110131R) On. Received from Y.Uwamino
+           (20110131C) On
+           (20110608A) On. ERR-ANALYS moved from common subentry
+ENDBIB              15
+NOCOMMON             0          0
+DATA                 6          6
+EN         EN-RSL-FW  DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MEV        MEV        MB         MB         MB         MB
+ 27.58      1.70        245.       35.
+ 27.6                                         298.       47.
+ 32.8                                        1350.      141.
+ 32.80      1.35       1394.      154.
+ 38.26      1.30       1162.       63.
+ 38.3                                        1270.      138.
+ENDDATA              8
+ENDSUBENT           28
+SUBENT        22335018   20110131   20110905   20110902       2226
+BIB                  6         15
+REACTION  1(79-AU-197(N,2N)79-AU-196-G,,SIG)
+            Labeled as "This work"
+          2(79-AU-197(N,2N)79-AU-196-G,,SIG)
+            Labeled as "This work, 2nd"
+SAMPLE      7 x 7 x 0.1 mm, irradiated at 10 cm from 7Li target
+CORRECTION  7Li+graphite-beam-stopper result subtracted
+ERR-ANALYS (DATA-ERR) Quadrature sum of uncertainties in
+            - activation rate from gamma spectrometry
+            - neutron spectrum measured by TOF
+            - Cross section values assumed for Li(p,n) low energy
+              neutron contribution evaluation by activation
+STATUS     (TABLE) Plotted Fig.7 of J,NIM/A,389,463,1997
+HISTORY    (20110131R) On. Received from Y.Uwamino
+           (20110131C) On
+           (20110608A) On. ERR-ANALYS moved from common subentry
+ENDBIB              15
+NOCOMMON             0          0
+DATA                 6         10
+EN         EN-RSL-FW  DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MEV        MEV        MB         MB         MB         MB
+ 17.55      2.30       1469.      133.
+ 17.6                                         1350.       99.
+ 21.8                                          363.       92.
+ 21.80      1.90        551.      116.
+ 27.58      1.70        283.      125.
+ 27.6                                          198.      136.
+ 32.8                                          484.      169.
+ 32.80      1.35        146.      185.
+ 38.26      1.30        511.      286.
+ 38.3                                          614.      294.
+ENDDATA             12
+ENDSUBENT           32
+SUBENT        22335019   20110131   20110905   20110902       2226
+BIB                  6         12
+REACTION   (27-CO-59(N,2N+A)25-MN-54,,SIG)
+SAMPLE      20 x 20 x 1.0 mm, irradiated at 10 cm from 7Li target
+CORRECTION  7Li+graphite-beam-stopper result subtracted
+ERR-ANALYS (DATA-ERR) Quadrature sum of uncertainties in
+            - activation rate from gamma spectrometry
+            - neutron spectrum measured by TOF
+            - Cross section values assumed for Li(p,n) low energy
+              neutron contribution evaluation by activation
+STATUS     (TABLE) Plotted Fig.9 of J,NIM/A,389,463,1997
+HISTORY    (20110131R) On. Received from Y.Uwamino
+           (20110131C) On
+           (20110608A) On. ERR-ANALYS moved from common subentry
+ENDBIB              12
+NOCOMMON             0          0
+DATA                 4          3
+EN         EN-RSL-FW  DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 27.6       1.6         7.3       1.1
+ 32.7       1.4        48.7       4.8
+ 37.7       1.4        77.3       7.3
+ENDDATA              5
+ENDSUBENT           22
+ENDENTRY            16

@@ -1,0 +1,350 @@
+ENTRY            22217   20151214   20160603   20160523       2246
+SUBENT        22217001   20151214   20160603   20160523       2246
+BIB                 13         33
+INSTITUTE  (2GERMUN)
+REFERENCE  (J,ZP/A,337,341,1990)
+AUTHOR     (L.Koester,W.Waschkowski,J.Meier)
+TITLE       Cross sections for neutrons of 1970 eV and contribu-
+            tions to fundamental neutron interactions.
+FACILITY   (REAC,2GERMUN)  The 4 MW research reactor FRM.
+INC-SOURCE (REAC)  Reactor neutrons from a tangential beam tube
+            were scattered in a 0.25 mm metal sheet of 5 g of
+            Cu-63, enriched to 99.6%. The neutrons are
+            collimated and filtered in a combination of Sc, Co and
+            B4C stationary filters. The neutrons then pass reso-
+            nance and compensation filters before passing the
+            samples. A second scatterer of 1.28 g Se-80, enriched
+            to 99.2%, is placed close to the detectors.
+INC-SPECT   1.97 keV neutrons with a resolution of 50 eV.
+METHOD     (FNB) Filtered neutrons. Double scattering in Cu-63
+            and Se-80, the first having a resonance at 2038+/-3 eV
+             with a width of 62.7 eV, and the second with a
+             resonance at 1970+/-19 eV.
+DETECTOR   (BF3)   The detector consisted of four BF3 counters,
+            enriched to 90% in B-10, having a diameter of
+            5 cm and an effective length of 20 cm. They were
+            arranged parallel to and around the rectangular detec-
+            tor tube, which contained the Se-80 scatterer.
+PART-DET   (N)
+CORRECTION  Some data were extrapolated to zero sample thickness.
+ERR-ANALYS (DATA-ERR) No details given.
+HISTORY    (19930109C) N.O.
+           (19961205A)  + +  Corrected by S.Maev
+                 Subent 22217002 rearranged, new subent added + +
+           (20080718U) Last corrections have been done.
+           (20151214A) SD: REACTION code corrected in Subent 002
+           following E.Dupont's comment.
+ENDBIB              33
+NOCOMMON             0          0
+ENDSUBENT           36
+SUBENT        22217002   20151214   20160603   20160523       2246
+BIB                  5          9
+REACTION  1(1-H-1(N,TOT),,SIG)
+          2(1-H-1(N,THS)1-H-1,FA,SIG,,,DERIV)
+ANALYSIS  1  Obtained from measurements
+          2  obtained by extrapolation from higher energy region
+COMMENT     Measured with a filtered beam using a 127 cm long
+            silicon filter in the reactor.
+STATUS     (TABLE) Data from tables 4 and 5 of ZP/A,337,341
+HISTORY    (20151214A) SD: SF3:TOT -> THS, SF5=FA added in
+           REACTION code (2).
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 6          2
+EN         EN-RSL     DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+EV         EV         B          B          B          B
+    0.0                                       2.042E+01     1.E-02
+   1.43E+05     2.E+04  1.121E+01     3.E-02
+ENDDATA              4
+ENDSUBENT           18
+SUBENT        22217003   20080718   20081028   20081023       2201
+BIB                  3          4
+REACTION   (1-H-1(N,THS)1-H-1,COH,AMP)
+COMMENT    .Determined from experimental data at higher energy.
+            Local field refinements by sears.
+STATUS     (TABLE)  .Data taken from Table V of main ref.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+EV         FERMI      FERMI
+         0.     3.7406    1.1E-03
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        22217004   20080718   20081028   20081023       2201
+BIB                  3          3
+REACTION   (6-C-0(N,TOT),,SIG)
+SAMPLE     .Graphite.
+STATUS     (TABLE)  .Data taken from Table I of main ref.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+EV         EV         B          B
+   1.97E+03     5.E+01      4.744     6.E-02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22217005   20080718   20081028   20081023       2201
+BIB                  3          3
+REACTION   (14-SI-0(N,TOT),,SIG)
+SAMPLE     .Silicon.
+STATUS     (TABLE)  .Data taken from Table I of main ref.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+EV         EV         B          B
+   1.97E+03     5.E+01      2.019     5.E-02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22217006   20080718   20081028   20081023       2201
+BIB                  3          3
+REACTION   (8-O-0(N,TOT),,SIG)
+SAMPLE     .SiO2.
+STATUS     (TABLE)  .Data taken from Table I of main ref.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+EV         EV         B          B
+   1.97E+03     5.E+01       3.77     3.E-02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22217007   20080718   20081028   20081023       2201
+BIB                  3          3
+REACTION   (9-F-19(N,TOT),,SIG)
+SAMPLE     .(Cf2)N.
+STATUS     (TABLE)  .Data taken from Table I of main ref.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+EV         EV         B          B
+   1.97E+03     5.E+01       3.59     1.E-02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22217008   20080718   20081028   20081023       2201
+BIB                  3          3
+REACTION   (20-CA-0(N,TOT),,SIG)
+SAMPLE     .CaF2.
+STATUS     (TABLE)  .Data taken from Table I of main ref.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+EV         EV         B          B
+   1.97E+03     5.E+01       2.43     5.E-02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22217009   20080718   20081028   20081023       2201
+BIB                  3          3
+REACTION   (12-MG-0(N,TOT),,SIG)
+SAMPLE     .MgF2.
+STATUS     (TABLE)  .Data taken from Table I of main ref.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+EV         EV         B          B
+   1.97E+03     5.E+01       3.35     5.E-02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22217010   20080718   20081028   20081023       2201
+BIB                  3          3
+REACTION   (13-AL-27(N,TOT),,SIG)
+SAMPLE     .Aluminum.
+STATUS     (TABLE)  .Data taken from Table I of main ref.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+EV         EV         B          B
+   1.97E+03     5.E+01       1.35     7.E-03
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22217011   20080718   20081028   20081023       2201
+BIB                  3          3
+REACTION   (17-CL-0(N,TOT),,SIG)
+SAMPLE     .C2Cl4.
+STATUS     (TABLE)  .Data taken from Table I of main ref.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+EV         EV         B          B
+   1.97E+03     5.E+01        1.6     3.E-02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22217012   20080718   20081028   20081023       2201
+BIB                  3          3
+REACTION   (15-P-31(N,TOT),,SIG)
+SAMPLE     .Phosphor.
+STATUS     (TABLE)  .Data taken from Table I of main ref.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+EV         EV         B          B
+   1.97E+03     5.E+01       3.23     2.E-02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22217013   20080718   20081028   20081023       2201
+BIB                  3          3
+REACTION   (19-K-0(N,TOT),,SIG)
+SAMPLE     .KCl.
+STATUS     (TABLE)  .Data taken from Table I of main ref.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+EV         EV         B          B
+   1.97E+03     5.E+01       1.58     4.E-02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22217014   20080718   20081028   20081023       2201
+BIB                  3          3
+REACTION   (21-SC-45(N,TOT),,SIG)
+SAMPLE     .Scandium.
+STATUS     (TABLE)  .Data taken from Table II of main ref.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+EV         EV         B          B
+   1.97E+03     5.E+01    2.7E-01     2.E-02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22217015   20080718   20081028   20081023       2201
+BIB                  3          3
+REACTION   (22-TI-0(N,TOT),,SIG)
+SAMPLE     .Titanium.
+STATUS     (TABLE)  .Data taken from Table II of main ref.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+EV         EV         B          B
+   1.97E+03     5.E+01       5.17     2.E-02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22217016   20080718   20081028   20081023       2201
+BIB                  3          3
+REACTION   (23-V-0(N,TOT),,SIG)
+SAMPLE     .Vanadium.
+STATUS     (TABLE)  .Data taken from Table II of main ref.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+EV         EV         B          B
+   1.97E+03     5.E+01       7.61     2.E-02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22217017   20080718   20081028   20081023       2201
+BIB                  3          3
+REACTION   (27-CO-59(N,TOT),,SIG)
+SAMPLE     .Cobalt.
+STATUS     (TABLE)  .Data taken from Table II of main ref.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+EV         EV         B          B
+   1.97E+03     5.E+01       1.35     2.E-02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22217018   20080718   20081028   20081023       2201
+BIB                  3          3
+REACTION   (28-NI-0(N,TOT),,SIG)
+SAMPLE     .Nickel.
+STATUS     (TABLE)  .Data taken from Table II of main ref.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+EV         EV         B          B
+   1.97E+03     5.E+01  1.504E+01     3.E-02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22217019   20080718   20081028   20081023       2201
+BIB                  3          3
+REACTION   (11-NA-23(N,TOT),,SIG)
+SAMPLE     .NaF.
+STATUS     (TABLE)  .Data taken from Table II of main ref.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+EV         EV         B          B
+   1.97E+03     5.E+01  1.277E+01     4.E-02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22217020   20080718   20081028   20081023       2201
+BIB                  3          3
+REACTION   (25-MN-55(N,TOT),,SIG)
+SAMPLE     .Manganese.
+STATUS     (TABLE)  .Data taken from Table II of main ref.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+EV         EV         B          B
+   1.97E+03     5.E+01   1.25E+02         2.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22217021   20080718   20081028   20081023       2201
+BIB                  3          3
+REACTION   (29-CU-0(N,TOT),,SIG)
+SAMPLE     .Copper.
+STATUS     (TABLE)  .Data taken from Table II of main ref.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+EV         EV         B          B
+   1.97E+03     5.E+01    2.9E+01         1.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22217022   20080718   20081028   20081023       2201
+BIB                  3          3
+REACTION   (82-PB-0(N,TOT),,SIG)
+SAMPLE     .Several lead samples were used.
+STATUS     .Data taken from main ref.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+EV         EV         B          B
+   1.97E+03     5.E+01 1.1198E+01     3.E-03
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22217023   20080718   20081028   20081023       2201
+BIB                  3          3
+REACTION   (83-BI-209(N,TOT),,SIG)
+SAMPLE     .Several bismuth samples were used.
+STATUS     .Data taken from main ref.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+EV         EV         B          B
+   1.97E+03     5.E+01      8.292     3.E-03
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22217024   20080718   20081028   20081023       2201
+BIB                  4          6
+REACTION  1(1-H-1(N,TOT),,SIG)
+          2(1-H-1(N,TOT),,SIG)
+SAMPLE    1     C-H2 sample.
+          2     H2 O sample.
+STATUS     (TABLE)  .Data taken from Table 1 of main ref.
+HISTORY    (19961205C) + +  Compiled by S. Maev            + +
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 6          1
+EN         EN-RSL     DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+EV         EV         B          B          B          B
+   1.97E+03     5.E+01  2.015E+01     3.E-02  2.011E+01     3.E-02
+ENDDATA              3
+ENDSUBENT           14
+ENDENTRY            24

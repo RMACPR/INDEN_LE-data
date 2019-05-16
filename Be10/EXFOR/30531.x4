@@ -1,0 +1,73 @@
+ENTRY            30531   20090312   20090724   20090724       3137
+SUBENT        30531001   20090312   20090724   20090724       3137
+BIB                 14         21
+INSTITUTE  (3INDPAT)
+REFERENCE  (J,IPA,17,385,197906)
+AUTHOR     (K.C.Garg, C.S.Khurana)
+TITLE      Cross-sections for some millisecond beta activities
+FACILITY   (VDG,3INDPAT) 400 keV Van-de-Graaff
+INC-SOURCE (D-T)
+METHOD     (ACTIV) Activation with on-line irradiation system
+           using a pulsed beam technique developed for
+           millisecond activities
+DETECTOR   (GEMUC) End-window type GM counter
+MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG)
+PART-DET   (B-)
+STATUS     (TABLE) Data taken from
+                          Indian J.Pure Appl.Phys.,17,385(1979).
+           (APRVD)  Approved by Garg, 11/4/80
+CORRECTION Counting rates were corrected for background,
+           source self absorption and back-scattering.
+ERR-ANALYS (DATA-ERR) Errors given include contributions due to
+           statistics, sample weighing and geometry.
+HISTORY    (19800312C) OS.
+           (20090312A) SD:Updated to new date formats,lower case.
+ENDBIB              21
+COMMON               4          3
+EN         EN-RSL     MONIT      MONIT-ERR
+MEV        MEV        MB         MB
+ 1.4700E+01 4.0000E-01 5.1000E+02 1.0000E+01
+ENDCOMMON            3
+ENDSUBENT           28
+SUBENT        30531002   20090312   20090724   20090724       3137
+BIB                  3          5
+REACTION   ((3-LI-0(N,X)2-HE-6,,SIG)=
+           ((3-LI-6(N,P)2-HE-6,,SIG,,A)+
+           (3-LI-7(N,D)2-HE-6,,SIG,,A)))
+SAMPLE     Circular pellet (1.5 cm diameter) of Li metal, 0.106 g
+DECAY-DATA (2-HE-6,805.MSEC,B) Measured by authors: 805.+-32.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   ERR-HL
+MB         MB         MSEC
+ 1.0600E+01 1.1000E+00  32.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        30531003   20090312   20090724   20090724       3137
+BIB                  3          3
+REACTION   (4-BE-9(N,A)2-HE-6,,SIG)
+SAMPLE     Be-O, 0.075 g
+DECAY-DATA (2-HE-6,805.MSEC,B) Measured by authors 805.+-32.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   ERR-HL
+MB         MB         MSEC
+ 4.0300E+01 4.0000E+00  32.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30531004   20090312   20090724   20090724       3137
+BIB                  3          3
+REACTION   (4-BE-9(N,P)3-LI-9,,SIG)
+SAMPLE     Be-O, 0.075 g
+DECAY-DATA (3-LI-9,175.MSEC,B) Measured by authors 175.+-17.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   ERR-HL
+MB         MB         MSEC
+ 1.0400E+01 1.5000E+00  17.
+ENDDATA              3
+ENDSUBENT           11
+ENDENTRY             4

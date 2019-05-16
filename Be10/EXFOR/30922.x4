@@ -1,0 +1,88 @@
+ENTRY            30922   20090913   20091224   20091223       3141
+SUBENT        30922001   20090913   20091224   20091223       3141
+BIB                 15         34
+TITLE      The (n,t) reaction on Be-9 at 14.6 MeV.
+AUTHOR     (M.Zadro,S.Blagus,D.Miljanic,D.Rendic)
+INSTITUTE  (3CRORBZ)
+REFERENCE  (J,NSE,95,79,198701) Full information
+           (C,86DUBROV,,271,198605) Abstract only
+SAMPLE     Metallic beryllium foil on a gold backing. Target was
+           1.6 x 1.9 cm2, 2.3 mg/cm2 thick foil
+MONITOR    (4-BE-9(N,A)2-HE-6,,SIG)
+           The absolute cross sections were obtained by
+           simultaneous detection of 2-He-6 from 9Be(n,6He)alpha
+           reaction at forward angles and by normalization to
+           the previously measured data
+           - Neutron yield was monitored by detection of recoil
+           alpha particles.
+MONIT-REF  (30198001,G.Paic+,J,NP/A,96,476,1967)
+FACILITY   (CCW)
+INC-SOURCE (D-T). The neutron yield was 2x10**9 n/s in 4 Pi.
+PART-DET   (T)
+METHOD     Direct detection of produced tritons
+DETECTOR   (TELES,PROPC,SIBAR) Telescope consists of three
+           proportional gas counters and surface-barrier silicon
+           detector. The proportional counters were filled
+           with pure hydrogen.
+ERR-ANALYS (DATA-ERR) Indicated errors are due to
+             * the statistics and
+             * uncertainty in the cross section
+                              used for normalization
+STATUS     (TABLE) The data were taken from
+                                 Nucl.Sci.and Eng.Vol95,79,1987
+HISTORY    (19880819C) VOF
+           (19890210A)-subentry was added- VOF.
+           (19900510A)- Complete revision and update -VOF.
+           (20090912A) SD:Updated to new date formats,lower case.
+            OS. FACILITY and MONIT-REF added
+ENDBIB              34
+COMMON               1          3
+EN
+MEV
+14.6
+ENDCOMMON            3
+ENDSUBENT           41
+SUBENT        30922002   20090913   20091224   20091223       3141
+BIB                  4          6
+REACTION   (4-BE-9(N,T)3-LI-7,,SIG)
+ANALYSIS   (INTAD). Data were measured only from 0 to 90 degrees.
+           To get the total cross section it was assumed that the
+           angular distribution is symmetrical relative to 90 deg.
+STATUS     (DEP,30922003)
+HISTORY    (19900510A) VOF.-Status added-
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+24.0       2.0
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30922003   20090913   20091224   20091223       3141
+BIB                  3          7
+REACTION   (4-BE-9(N,T)3-LI-7,PAR,DA)
+            Data are a sum of t0 and t1 channels
+COMMENT    Due to low triton energy and thick target,it was
+           possible to measure only the sum of the cross sections
+           for the 9-Be(n,t0) and 9-Be(n,t1) reactions, the
+           thresholds of wich are 11.6 and 12.1 MeV respectively.
+HISTORY    (19900510A) VOF.-Comment and Q-values added -
+ENDBIB               7
+COMMON               2          3
+Q-VAL      Q-VAL
+MEV        MEV
+-11.6      -12.1
+ENDCOMMON            3
+DATA                 3          7
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+       10.0       2.41       0.33
+       16.5       2.12       0.30
+       30.5       2.26       0.34
+       44.5       1.92       0.25
+       66.0       1.76       0.25
+       73.0       1.39       0.26
+       86.0       2.26       0.25
+ENDDATA              9
+ENDSUBENT           25
+ENDENTRY             3

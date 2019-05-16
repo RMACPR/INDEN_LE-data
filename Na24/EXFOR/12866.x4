@@ -1,0 +1,3418 @@
+ENTRY            12866   20160608   20160902   20160824       1418
+SUBENT        12866001   20160608   20160902   20160824       1418
+BIB                 15         55
+INSTITUTE  (1USALRL)
+REFERENCE  (C,78MAYAG,,495,197805)
+AUTHOR     (R.E.Heft)
+TITLE      A consistent set of nuclear-parameter values
+           for absolute instrumental neutron activation
+           analysis.
+FACILITY   (REAC,1USALRL) Lawrence Livermore Laboratory LTPR
+             Research Reactor Facility.
+INC-SPECT  Reactor spectrum. All nuclides irradiated in position
+            S-2 with a Cd ratio of 3.8 and in either position E-1
+            (Cd ratio 2.5) or position A-4 (Cd ratio 2.0)
+            depending on whether products were long or short-lived
+METHOD     (ACTIV)
+           Epithermal-to-thermal flux ratio was measured in
+             each irradiation by including a uranium-scandium
+             standard in the irradiation package.
+MONITOR    Element scandium was used as an internal flux monitor
+             scandium values were measured by taking mixtures of
+             cobalt-scandium, gold-scandium and 238U-scandium
+           ((MONIT1)21-SC-45(N,G)21-SC-46,,SIG)
+           ((MONIT2)27-CO-59(N,G)27-CO-60,,SIG)
+           ((MONIT3)79-AU-197(N,G)79-AU-198,,SIG)
+           ((MONIT4)92-U-238(N,G)92-U-239,,SIG)
+           ((MONIT5)21-SC-45(N,G)21-SC-46,,RI)
+           ((MONIT6)27-CO-59(N,G)27-CO-60,,RI)
+           ((MONIT7)79-AU-197(N,G)79-AU-198,,RI)
+           ((MONIT8)92-U-238(N,G)92-U-239,,RI)
+DECAY-MON  (21-SC-46-G,83.9D,DG,1120.5,1.)
+           (27-CO-60-G,1922.D,DG,1332.51,1.)
+           (79-AU-198-G,2.70D,DG,411.79,0.968)
+           (92-U-239,0.01635D,DG,74.67,.593)
+           (93-NP-239,2.353D,DG,106.07,0.252)
+DETECTOR   All counting was done on gamma spectral analyzers
+             to measure absolute photon emission rates.
+ANALYSIS   All spectra generated were analyzed by computer code
+            GAMANAL to obtain a set of absolute disintegration
+            rates for the nuclides found.
+           The disintegration-rate data thus obtained were further
+            analyzed by another computer code NADAC to compute the
+            effective cross section for each activation product.
+ERR-ANALYS (DATA-ERR) Details not given.
+            For some elements the errors reflect the effects of
+            concentration error or evaporation loss.
+CORRECTION No correction for the interference due to (n,p)
+             reaction was done.
+           Correction for 235U fission reaction is implied.
+STATUS     (APRVD) R.E.Heft, 1984/12/27.
+           (TABLE) Data from Table 2 of reference.
+HISTORY    (19840410C)
+           (20100322A) VM:Updated to new date formats,lower case.
+                       BIB updates.
+            Subentries 8 and 9 deleted - not from this reference.
+           (20100617A) OS. Reactions in subentries 208,209 corr.
+           (20160603A) OS. Isomer assignments corrected in
+             subentries 146-149.
+ENDBIB              55
+COMMON              10          6
+MONIT1     MONIT1-ERR MONIT2     MONIT3     MONIT4     MONIT5
+MONIT5-ERR MONIT6     MONIT7     MONIT8
+B          B          B          B          B          B
+B          B          B          B
+27.7       0.5        37.5       98.8       2.720      12.2
+0.6        75.        1550.      280.
+ENDCOMMON            6
+ENDSUBENT           65
+SUBENT        12866002   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 100% 23Na.
+DECAY-DATA (11-NA-24,6.250E-01D,DG,1368.53,1.)
+MONITOR    ((11-NA-23(N,G)11-NA-24,,RI)/
+           (11-NA-23(N,G)11-NA-24,,SIG))
+           Ratio adopted from E.Steinnes, J.Inorg.Nucl.Chem., 34,
+             2699 (1972).
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.523      0.005
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866003   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (11-NA-23(N,G)11-NA-24,,RI)
+SAMPLE     Natural sample, assumed 100% 23Na.
+DECAY-DATA (11-NA-24,6.250E-01D,DG,1368.53,1.)
+MONITOR    ((11-NA-23(N,G)11-NA-24,,RI)/
+           (11-NA-23(N,G)11-NA-24,,SIG))
+           Ratio adopted from E.Steinnes, J.Inorg.Nucl.Chem., 34,
+             2699 (1972).
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        0.291      0.012
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866004   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (12-MG-26(N,G)12-MG-27,,SIG,,SPA)
+SAMPLE     11.17% abundance assumed.
+DECAY-DATA (12-MG-27,6.5970E-03D,DG,843.76,0.720)
+MONITOR    ((12-MG-26(N,G)12-MG-27,,RI)/
+           (12-MG-26(N,G)12-MG-27,,SIG))
+           Ratio adopted from T.B.Ryves, J.Nucl.Energy, 24,
+            31, 1970.
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.0365     0.001
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866005   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (12-MG-26(N,G)12-MG-27,,RI)
+SAMPLE     11.17% abundance assumed.
+DECAY-DATA (12-MG-27,6.5970E-03D,DG,843.76,0.720)
+MONITOR    ((12-MG-26(N,G)12-MG-27,,RI)/
+           (12-MG-26(N,G)12-MG-27,,SIG))
+           Ratio adopted from T.B.Ryves, J.Nucl.Energy, 24,
+            31, 1970.
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        0.024      0.001
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866006   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (13-AL-27(N,G)13-AL-28,,SIG,,SPA)
+SAMPLE     Natural sample, 100% 27Al.
+DECAY-DATA (13-AL-28,1.5580E-03D,DG,1778.85,1.000)
+MONITOR    ((13-AL-27(N,G)13-AL-28,,RI)/
+           (13-AL-27(N,G)13-AL-28,,SIG))
+           Ratio adopted from T.B.Ryves, J.Nucl.Energy, 24,
+            31, 1970.
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.197      0.004
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866007   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (13-AL-27(N,G)13-AL-28,,RI)
+SAMPLE     Natural sample, 100% 27Al.
+DECAY-DATA (13-AL-28,1.5580E-03D,DG,1778.85,1.000)
+MONITOR    ((13-AL-27(N,G)13-AL-28,,RI)/
+           (13-AL-27(N,G)13-AL-28,,SIG))
+           Ratio adopted from T.B.Ryves, J.Nucl.Energy, 24,
+            31, 1970.
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        0.143      0.010
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866010   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (17-CL-37(N,G)17-CL-38,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 24.47% abundance.
+DECAY-DATA (17-CL-38,2.590E-02D,DG,1642.70,0.350)
+MONITOR    ((17-CL-37(N,G)17-CL-38,,RI)/
+           (17-CL-37(N,G)17-CL-38,,SIG))
+           Ratio adopted from T.B.Ryves, J.Nucl.Energy, 24,
+            31, 1970.
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.403      0.005
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866011   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (17-CL-37(N,G)17-CL-38,,RI)
+SAMPLE     Natural sample, assumed 24.47% abundance.
+DECAY-DATA (17-CL-38,2.590E-02D,DG,1642.70,0.350)
+MONITOR    ((17-CL-37(N,G)17-CL-38,,RI)/
+           (17-CL-37(N,G)17-CL-38,,SIG))
+           Ratio adopted from T.B.Ryves, J.Nucl.Energy, 24,
+            31, 1970.
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        0.295      0.004
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866012   20091022   20100405   20100330       1360
+BIB                  5          7
+REACTION   (19-K-41(N,G)19-K-42,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 6.88% abundance.
+DECAY-DATA (19-K-42,5.150E-01D,DG,1524.79,0.180)
+MONITOR    ((19-K-41(N,G)19-K-42,,RI)/(19-K-41(N,G)19-K-42,,SIG))
+           Ratio adopted from T.B.Ryves, J.Nucl.Energy, 24,
+            31, 1970.
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      1.43       0.03
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        12866013   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (19-K-41(N,G)19-K-42,,RI)
+SAMPLE     Natural sample, assumed 6.88% abundance.
+DECAY-DATA (19-K-42,5.150E-01D,DG,1524.79,0.180)
+MONITOR    ((19-K-41(N,G)19-K-42,,RI)/(19-K-41(N,G)19-K-42,,SIG))
+           Ratio adopted from T.B.Ryves, J.Nucl.Energy, 24,
+            31, 1970.
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        1.39       0.04
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866014   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (20-CA-46(N,G)20-CA-47,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 0.0033% abundance.
+DECAY-DATA (20-CA-47,4.540E+00D,DG,1296.95,0.760)
+           (21-SC-47,3.430E+00D,DG,159.38,0.730)
+MONITOR    ((20-CA-46(N,G)20-CA-47,,RI)/
+           (20-CA-46(N,G)20-CA-47,,SIG))
+           Ratio adopted from E.Steinnes, J.Inorg.Nucl.Chem., 34,
+             2699 (1972).
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.72       0.03
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866015   20091022   20100405   20100330       1360
+BIB                  5         10
+REACTION   (20-CA-46(N,G)20-CA-47,,RI)
+SAMPLE     Natural sample, assumed 0.0033% abundance.
+DECAY-DATA (20-CA-47,4.540E+00D,DG,1296.95,0.760)
+           (21-SC-47,3.430E+00D,DG,159.38,0.730)
+MONITOR    ((20-CA-46(N,G)20-CA-47,,RI)/
+           (20-CA-46(N,G)20-CA-47,,SIG))
+           Ratio adopted from E.Steinnes, J.Inorg.Nucl.Chem., 34,
+             2699 (1972).
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        0.94       0.03
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        12866016   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (20-CA-48(N,G)20-CA-49,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 0.18% abundance.
+DECAY-DATA (20-CA-49,6.042E-03D,DG,3084.15,0.917)
+MONITOR    ((20-CA-48(N,G)20-CA-49,,RI)/
+           (20-CA-48(N,G)20-CA-49,,SIG))
+           Ratio adopted from R.Van Der Linden+, IAEA Symp. on
+            Nuclear Data in Science and Technology, Vienna,
+            p.241, 1973 (STI/PUB/343).
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      1.10       0.07
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866017   20091022   20100405   20100330       1360
+BIB                  5         10
+REACTION   (20-CA-48(N,G)20-CA-49,,RI)
+SAMPLE     Natural sample, assumed 0.18% abundance.
+DECAY-DATA (20-CA-49,6.042E-03D,DG,3084.15,0.917)
+MONITOR    ((20-CA-48(N,G)20-CA-49,,RI)/
+           (20-CA-48(N,G)20-CA-49,,SIG))
+           Ratio adopted from R.Van Der Linden+, IAEA Symp. on
+            Nuclear Data in Science and Technology, Vienna,
+            p.241, 1973 (STI/PUB/343).
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        0.90       0.02
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        12866018   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (22-TI-50(N,G)22-TI-51,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 5.34% abundance.
+DECAY-DATA (22-TI-51,4.028E-03D,DG,320.10,0.950)
+MONITOR    ((22-TI-50(N,G)22-TI-51,,RI)/
+           (22-TI-50(N,G)22-TI-51,,SIG))
+           Ratio adopted from T.B.Ryves, J.Nucl.Energy, 24,
+            31, 1970.
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.180      0.003
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866019   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (22-TI-50(N,G)22-TI-51,,RI)
+SAMPLE     Natural sample, assumed 5.34% abundance.
+DECAY-DATA (22-TI-51,4.028E-03D,DG,320.10,0.950)
+MONITOR    ((22-TI-50(N,G)22-TI-51,,RI)/
+           (22-TI-50(N,G)22-TI-51,,SIG))
+           Ratio adopted from T.B.Ryves, J.Nucl.Energy, 24,
+            31, 1970.
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        0.117      0.011
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866020   20091022   20100405   20100330       1360
+BIB                  5          7
+REACTION   (23-V-51(N,G)23-V-52,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 99.76% abundance.
+DECAY-DATA (23-V-52,2.604E-03D,DG,1434.19,1.000)
+MONITOR    ((23-V-51(N,G)23-V-52,,RI)/(23-V-51(N,G)23-V-52,,SIG))
+           Ratio adopted from T.B.Ryves, J.Nucl.Energy, 24,
+            31, 1970.
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      4.92       0.04
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        12866021   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (23-V-51(N,G)23-V-52,,RI)
+SAMPLE     Natural sample, assumed 99.76% abundance.
+DECAY-DATA (23-V-52,2.604E-03D,DG,1434.19,1.000)
+MONITOR    ((23-V-51(N,G)23-V-52,,RI)/(23-V-51(N,G)23-V-52,,SIG))
+           Ratio adopted from T.B.Ryves, J.Nucl.Energy, 24,
+            31, 1970.
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        2.64       0.34
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866022   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (24-CR-50(N,G)24-CR-51,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 4.31% abundance.
+DECAY-DATA (24-CR-51,2.772E+01D,DG,320.10,0.098)
+MONITOR    ((24-CR-50(N,G)24-CR-51,,RI)/
+           (24-CR-50(N,G)24-CR-51,,SIG))
+           Ratio adopted from G.H.E.Sims+, J.Inorg.Nucl.Chem.,
+             30, 349, 1968.
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      16.1       0.1
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866023   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (24-CR-50(N,G)24-CR-51,,RI)
+SAMPLE     Natural sample, assumed 4.31% abundance.
+DECAY-DATA (24-CR-51,2.772E+01D,DG,320.10,0.098)
+MONITOR    ((24-CR-50(N,G)24-CR-51,,RI)/
+           (24-CR-50(N,G)24-CR-51,,SIG))
+           Ratio adopted from G.H.E.Sims+, J.Inorg.Nucl.Chem.,
+             30, 349, 1968.
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        10.5       0.4
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866024   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (25-MN-55(N,G)25-MN-56,,SIG,,SPA)
+SAMPLE     Natural sample, 100% abundance.
+DECAY-DATA (25-MN-56,1.074E-01D,DG,846.60,0.990)
+MONITOR    (25-MN-55(N,G)25-MN-56,,RI)
+           Resonance integral was adopted from H.Albinsson,
+            Handbook on Nuclear Activation Cross Sections,
+            Technical Report Series, No.156, p.15, IAEA, Vienna,
+            1974
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      13.3       0.1
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866025   20091022   20100405   20100330       1360
+BIB                  5         10
+REACTION   (25-MN-55(N,G)25-MN-56,,RI)
+SAMPLE     Natural sample, 100% abundance.
+DECAY-DATA (25-MN-56,1.074E-01D,DG,846.60,0.990)
+MONITOR    (25-MN-55(N,G)25-MN-56,,RI)
+           Resonance integral was adopted from H.Albinsson,
+            Handbook on Nuclear Activation Cross Sections,
+            Technical Report Series, No.156, p.15, IAEA, Vienna,
+            1974
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        14.0       0.9
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        12866026   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (26-FE-58(N,G)26-FE-59,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 0.33% abundance.
+DECAY-DATA (26-FE-59,4.460E+01D,DG,1099.32,0.562)
+MONITOR    ((26-FE-58(N,G)26-FE-59,,RI)/
+           (26-FE-58(N,G)26-FE-59,,SIG))
+           Ratio adopted from E.Steinnes, J.Inorg.Nucl.Chem., 34,
+             2699 (1972).
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.025      1.14       0.03
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866027   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (26-FE-58(N,G)26-FE-59,,RI)
+SAMPLE     Natural sample, assumed 0.33% abundance.
+DECAY-DATA (26-FE-59,4.460E+01D,DG,1099.32,0.562)
+MONITOR    ((26-FE-58(N,G)26-FE-59,,RI)/
+           (26-FE-58(N,G)26-FE-59,,SIG))
+           Ratio adopted from E.Steinnes, J.Inorg.Nucl.Chem., 34,
+             2699 (1972).
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        1.21       0.06
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866028   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (28-NI-64(N,G)28-NI-65,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 1.16 abundance.
+DECAY-DATA (28-NI-65,1.067E-01D,DG,1481.90,0.257)
+MONITOR    ((28-NI-64(N,G)28-NI-65,,RI)/
+           (28-NI-64(N,G)28-NI-65,,SIG))
+           Ratio adopted from T.B.Ryves, J.Nucl.Energy, 24,
+            31, 1970 and G.Gleason, Radiochem.Radiaoanal.Lett., 2,
+            317, 1975.
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      1.49       0.02
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866029   20091022   20100405   20100330       1360
+BIB                  5         10
+REACTION   (28-NI-64(N,G)28-NI-65,,RI)
+SAMPLE     Natural sample, assumed 1.16% abundance.
+DECAY-DATA (28-NI-65,1.067E-01D,DG,1481.90,0.257)
+MONITOR    ((28-NI-64(N,G)28-NI-65,,RI)/
+           (28-NI-64(N,G)28-NI-65,,SIG))
+           Ratio adopted from T.B.Ryves, J.Nucl.Energy, 24,
+            31, 1970 and G.Gleason, Radiochem.Radiaoanal.Lett., 2,
+            317, 1975.
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        1.04       0.06
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        12866030   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (29-CU-63(N,G)29-CU-64,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 69.09% abundance.
+DECAY-DATA (29-CU-64,5.330E-01D,DG,1345.76,0.0048)
+MONITOR    ((29-CU-63(N,G)29-CU-64,,RI)/
+           (29-CU-63(N,G)29-CU-64,,SIG))
+           Ratio adopted from T.B.Ryves+, J.Phys.A, 7, 2318,
+             1974, and R.Dahlberg, J.Nucl.Energy, 14, 53, 1961.
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      4.68       0.06
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866031   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (29-CU-63(N,G)29-CU-64,,RI)
+SAMPLE     Natural sample, assumed 69.09% abundance.
+DECAY-DATA (29-CU-64,5.330E-01D,DG,1345.76,0.0048)
+MONITOR    ((29-CU-63(N,G)29-CU-64,,RI)/
+           (29-CU-63(N,G)29-CU-64,,SIG))
+           Ratio adopted from T.B.Ryves+, J.Phys.A, 7, 2318,
+             1974, and R.Dahlberg, J.Nucl.Energy, 14, 53, 1961.
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        5.15       0.10
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866032   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (29-CU-65(N,G)29-CU-66,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 30.91% abundance.
+DECAY-DATA (29-CU-66,3.542E-03D,DG,1039.00,0.090)
+MONITOR    ((29-CU-65(N,G)29-CU-66,,RI)/
+           (29-CU-65(N,G)29-CU-66,,SIG))
+           Ratio adopted from T.B.Ryves, J.Phys.A, 7, 2318,
+            1974.
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      2.18       0.07
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866033   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (29-CU-65(N,G)29-CU-66,,RI)
+SAMPLE     Natural sample, assumed 30.91% abundance.
+DECAY-DATA (29-CU-66,3.542E-03D,DG,1039.00,0.090)
+MONITOR    ((29-CU-65(N,G)29-CU-66,,RI)/
+           (29-CU-65(N,G)29-CU-66,,SIG))
+           Ratio adopted from T.B.Ryves, J.Phys.A, 7, 2318,
+            1974.
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        2.18       0.07
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866034   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (30-ZN-64(N,G)30-ZN-65,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 48.89% abundance.
+DECAY-DATA (30-ZN-65,2.450E+02D,DG,1115.52,0.490)
+MONITOR    ((30-ZN-64(N,G)30-ZN-65,,RI)/
+           (30-ZN-64(N,G)30-ZN-65,,SIG))
+           Ratio adopted from E.Steinnes, J.Inorg.Nucl.Chem., 34,
+             2699 (1972).
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.787      0.008
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866035   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (30-ZN-64(N,G)30-ZN-65,,RI)
+SAMPLE     Natural sample, assumed 48.89% abundance.
+DECAY-DATA (30-ZN-65,2.450E+02D,DG,1115.52,0.490)
+MONITOR    ((30-ZN-64(N,G)30-ZN-65,,RI)/
+           (30-ZN-64(N,G)30-ZN-65,,SIG))
+           Ratio adopted from E.Steinnes, J.Inorg.Nucl.Chem., 34,
+             2699 (1972).
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        1.40       0.03
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866036   20091022   20100405   20100330       1360
+BIB                  4          7
+REACTION   (30-ZN-68(N,G)30-ZN-69-M,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 18.57% abundance.
+DECAY-DATA (30-ZN-69-M,5.750E-01D,DG,439.00,0.957)
+MONITOR    ((30-ZN-68(N,G)30-ZN-69-M,,RI)/
+           (30-ZN-68(N,G)30-ZN-69-M,,SIG))
+           Ratio adopted from E.Steinnes, J.Inorg.Nucl.Chem., 34,
+             2699 (1972).
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.072      0.007
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        12866037   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (30-ZN-68(N,G)30-ZN-69-M,,RI)
+SAMPLE     Natural sample, assumed 18.57% abundance.
+DECAY-DATA (30-ZN-69-M,5.750E-01D,DG,439.00,0.957)
+MONITOR    ((30-ZN-68(N,G)30-ZN-69-M,,RI)/
+           (30-ZN-68(N,G)30-ZN-69-M,,SIG))
+           Ratio adopted from E.Steinnes, J.Inorg.Nucl.Chem., 34,
+             2699 (1972).
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        0.206      0.012
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866038   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (31-GA-71(N,G)31-GA-72,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 39.60% abundance.
+DECAY-DATA (31-GA-72,5.883E-01D,DG,833.98,0.959)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      4.74       0.10
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866039   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (31-GA-71(N,G)31-GA-72,,RI)
+SAMPLE     Natural sample, assumed 39.60% abundance.
+DECAY-DATA (31-GA-72,5.883E-01D,DG,833.98,0.959)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        29.7       4.20
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866040   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (32-GE-74(N,G)32-GE-75,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 36.54% abundance.
+DECAY-DATA (32-GE-75-G,5.690E-02D,DG,264.65,0.118)
+MONITOR    ((32-GE-74(N,G)32-GE-75,,RI)/
+           (32-GE-74(N,G)32-GE-75,,SIG))
+           Ratio adopted from M.D.Ricabarra, Can.J.Phys.,
+             50, 1978, 1972.
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.42       0.02
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866041   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (32-GE-74(N,G)32-GE-75,,RI)
+SAMPLE     Natural sample, assumed 36.54% abundance.
+DECAY-DATA (32-GE-75-G,5.690E-02D,DG,264.65,0.118)
+MONITOR    ((32-GE-74(N,G)32-GE-75,,RI)/
+           (32-GE-74(N,G)32-GE-75,,SIG))
+           Ratio adopted from M.D.Ricabarra, Can.J.Phys.,
+             50, 1978, 1972.
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        0.64       0.06
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866042   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (32-GE-76(N,G)32-GE-77-G,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 7.76% abundance.
+DECAY-DATA (32-GE-77-G,4.710E-01D,DG,264.45,0.540)
+MONITOR    ((32-GE-76(N,G)32-GE-77,,RI)/
+           (32-GE-76(N,G)32-GE-77,,SIG))
+           Ratio adopted from M.D.Ricabarra, Can.J.Phys.,
+             50, 1978, 1972.
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.055      0.001
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866043   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (32-GE-76(N,G)32-GE-77-G,,RI)
+SAMPLE     Natural sample, assumed 7.76% abundance.
+DECAY-DATA (32-GE-77-G,4.710E-01D,DG,264.45,0.540)
+MONITOR    ((32-GE-76(N,G)32-GE-77,,RI)/
+           (32-GE-76(N,G)32-GE-77,,SIG))
+           Ratio adopted from M.D.Ricabarra, Can.J.Phys.,
+             50, 1978, 1972.
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        0.66       0.04
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866044   20091022   20100405   20100330       1360
+BIB                  4          9
+REACTION   (32-GE-76(N,G)32-GE-77-M,,SIG,,SPA)
+SAMPLE     Natural Ge sample, assumed 7.76% abundance.
+DECAY-DATA (33-AS-77,1.604E+00D,DG,239.00,0.016)
+             77As was not directly produced.
+           (32-GE-77-M,54.0SEC,DG)
+MONITOR    ((32-GE-76(N,G)32-GE-77-M,,RI)/
+           (32-GE-76(N,G)32-GE-77-M,,SIG))
+           Ratio adopted from M.D.Ricabarra, Can.J.Phys.,
+             50, 1978, 1972.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.038      0.001
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866045   20091022   20100405   20100330       1360
+BIB                  5         10
+REACTION   (32-GE-76(N,G)32-GE-77-M,,RI)
+SAMPLE     Natural Ge sample, assumed 7.76% abundance.
+DECAY-DATA (33-AS-77,1.604E+00D,DG,239.00,0.016)
+             77As was not directly produced.
+           (32-GE-77-M,54.0SEC,DG)
+MONITOR    ((32-GE-76(N,G)32-GE-77-M,,RI)/
+           (32-GE-76(N,G)32-GE-77-M,,SIG))
+           Ratio adopted from M.D.Ricabarra, Can.J.Phys.,
+             50, 1978, 1972.
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        0.46       0.02
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        12866046   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (33-AS-75(N,G)33-AS-76,,SIG,,SPA)
+SAMPLE     Natural sample,100% abundance.
+DECAY-DATA (33-AS-76,1.096E+00D,DG,559.07,0.446)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      4.0        0.1
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866047   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (33-AS-75(N,G)33-AS-76,,RI)
+SAMPLE     Natural sample, 100% abundance.
+DECAY-DATA (33-AS-76,1.096E+00D,DG,559.07,0.446)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        63.        3.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866048   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (34-SE-74(N,G)34-SE-75,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 0.87% abundance.
+DECAY-DATA (34-SE-75,1.200E+02D,DG,136.00,0.586)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      46.        1.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866049   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (34-SE-74(N,G)34-SE-75,,RI)
+SAMPLE     Natural sample, assumed 0.87% abundance.
+DECAY-DATA (34-SE-75,1.200E+02D,DG,136.00,0.586)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        600.       50.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866050   20091022   20100405   20100330       1360
+BIB                  4          7
+REACTION   (34-SE-80(N,G)34-SE-81-M,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 49.82% abundance.
+DECAY-DATA (34-SE-81-M,3.976E-02D,DG,103.13,0.087)
+MONITOR    ((34-SE-80(N,G)34-SE-81-M,,RI)/
+           (34-SE-80(N,G)34-SE-81-M,,SIG,,SPA))
+           Ratio adopted from M.D.Ricabarra, Can.J.Phys.,
+            46, 2473, 1968.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.068      0.004
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        12866051   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (34-SE-80(N,G)34-SE-81-M,,RI)
+SAMPLE     Natural sample, assumed 49.82% abundance.
+DECAY-DATA (34-SE-81-M,3.976E-02D,DG,103.13,0.087)
+MONITOR    ((34-SE-80(N,G)34-SE-81-M,,RI)/
+           (34-SE-80(N,G)34-SE-81-M,,SIG,,SPA))
+           Ratio adopted from M.D.Ricabarra, Can.J.Phys.,
+            46, 2473, 1968.
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        0.233      0.010
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866052   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (34-SE-80(N,G)34-SE-81-G,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 49.82% abundance.
+DECAY-DATA (34-SE-81-G,1.240E-02D,DG,275.92,0.0063)
+MONITOR    ((34-SE-80(N,G)34-SE-81,,RI)/
+           (34-SE-80(N,G)34-SE-81,,SIG,,SPA))
+           Ratio adopted from M.D.Ricabarra, Can.J.Phys.,
+            46, 2473, 1968.
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.459      0.035
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866053   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (34-SE-80(N,G)34-SE-81-G,,RI)
+SAMPLE     Natural sample, assumed 49.82% abundance.
+DECAY-DATA (34-SE-81-G,1.240E-02D,DG,275.92,0.0063)
+MONITOR    ((34-SE-80(N,G)34-SE-81,,RI)/
+           (34-SE-80(N,G)34-SE-81,,SIG,,SPA))
+           Ratio adopted from M.D.Ricabarra, Can.J.Phys.,
+            46, 2473, 1968.
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        1.57       1.0
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866054   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (35-BR-79(N,G)35-BR-80-M,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 50.54% abundance.
+DECAY-DATA (35-BR-80-M,1.840E-01D,DG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      2.44       0.04
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866055   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (35-BR-79(N,G)35-BR-80-M,,RI)
+SAMPLE     Natural sample, assumed 50.54% abundance.
+DECAY-DATA (35-BR-80-M,1.840E-01D,DG)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        27.9       1.5
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866056   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (35-BR-79(N,G)35-BR-80-G,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 50.54% abundance.
+DECAY-DATA (35-BR-80-G,1.220E-02D,DG,616.90,0.074)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      7.88       0.12
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866057   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (35-BR-79(N,G)35-BR-80-G,,RI)
+SAMPLE     Natural sample, assumed 50.54% abundance.
+DECAY-DATA (35-BR-80-G,1.220E-02D,DG,616.90,0.074)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        90.1       4.5
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866058   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (35-BR-81(N,G)35-BR-82-M,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 49.46% abundance.
+DECAY-DATA (35-BR-82-M,4.236E-03D,DG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      2.12       0.03
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866059   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (35-BR-81(N,G)35-BR-82-M,,RI)
+SAMPLE     Natural sample, assumed 49.46% abundance.
+DECAY-DATA (35-BR-82-M,4.236E-03D,DG)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        49.4       0.6
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866060   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (35-BR-81(N,G)35-BR-82-G,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 49.46% abundance.
+DECAY-DATA (35-BR-82-G,1.473E+00D,DG,776.49,0.833)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.235      0.004
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866061   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (35-BR-81(N,G)35-BR-82-G,,RI)
+SAMPLE     Natural sample, assumed 49.46% abundance.
+DECAY-DATA (35-BR-82-G,1.473E+00D,DG,776.49,0.833)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        5.49       0.07
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866062   20091022   20100405   20100330       1360
+BIB                  4          6
+REACTION   (37-RB-85(N,G)37-RB-86,M+,SIG,,SPA)
+SAMPLE     Natural sample, assumed 72.15% abundance.
+DECAY-DATA (37-RB-86-G,18.66D,DG,1076.79,0.088)
+            **** COMMENT BY AUTHOR: Cross section includes
+                 contribution from short-lived parent.
+HISTORY    (20091021A) Reaction corrected.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.519      0.011
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        12866063   20091022   20100405   20100330       1360
+BIB                  4          7
+REACTION   (37-RB-85(N,G)37-RB-86,M+,RI)
+SAMPLE     Natural sample, assumed 72.15% abundance.
+DECAY-DATA (37-RB-86-G,18.66D,DG,1076.79,0.088)
+            **** COMMENT BY AUTHOR: Cross section includes
+                 contribution from short-lived parent.
+HISTORY    (19890424A) Resonance integral energy corrected.
+           (20091021A) Reaction corrected.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        8.34       0.42
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        12866064   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (37-RB-87(N,G)37-RB-88,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 27.85% abundance.
+DECAY-DATA (37-RB-88,1.236E-02D,DG,1836.13,0.247)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.096      0.012
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866065   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (37-RB-87(N,G)37-RB-88,,RI)
+SAMPLE     Natural sample, assumed 27.85% abundance.
+DECAY-DATA (37-RB-88,1.236E-02D,DG,1836.13,0.247)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        2.73       0.63
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866066   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (38-SR-84(N,G)38-SR-85-M,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 0.56% abundance.
+DECAY-DATA (38-SR-85-M,4.823E-02D,DG,231.69,0.850)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.623      0.030
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866067   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (38-SR-84(N,G)38-SR-85-M,,RI)
+SAMPLE     Natural sample, assumed 0.56% abundance.
+DECAY-DATA (38-SR-85-M,4.823E-02D,DG,231.69,0.850)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        8.57       0.42
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866068   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (38-SR-84(N,G)38-SR-85-G,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 0.56% abundance.
+DECAY-DATA (38-SR-85-G,6.519E+01D,DG,513.98,0.992)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.199      0.010
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866069   20091022   20100405   20100330       1360
+BIB                  5          6
+REACTION   (38-SR-84(N,G)38-SR-85-G,,RI)
+SAMPLE     Natural sample, assumed 0.56% abundance.
+DECAY-DATA (38-SR-85-G,6.519E+01D,DG,513.98,0.992)
+STATUS     RI value corrected by R.Heft in private comm.,
+            Aug. 1984.
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.025      2.74       0.10
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        12866070   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (38-SR-86(N,G)38-SR-87-M,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 9.86% abundance.
+DECAY-DATA (38-SR-87-M,1.171E-01D,DG,388.40,0.825)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.816      0.025
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866071   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (38-SR-86(N,G)38-SR-87-M,,RI)
+SAMPLE     Natural sample, assumed 9.86% abundance.
+DECAY-DATA (38-SR-87-M,1.171E-01D,DG,388.40,0.825)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        4.08       0.40
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866072   20091022   20100405   20100330       1360
+BIB                  3          4
+REACTION   (40-ZR-94(N,G)40-ZR-95,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 17.40% abundance.
+DECAY-DATA (40-ZR-95,6.500E+01D,DG,756.72,0.546)
+           (41-NB-95-G,3.510E+01D,DG,765.80,0.990)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.055      0.002
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866073   20091022   20100405   20100330       1360
+BIB                  4          5
+REACTION   (40-ZR-94(N,G)40-ZR-95,,RI)
+SAMPLE     Natural sample, assumed 17.40% abundance.
+DECAY-DATA (40-ZR-95,6.500E+01D,DG,756.72,0.546)
+           (41-NB-95-G,3.510E+01D,DG,765.80,0.990)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        0.296      0.050
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        12866074   20091022   20100405   20100330       1360
+BIB                  4          8
+REACTION   (40-ZR-96(N,G)40-ZR-97,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 2.80% abundance.
+DECAY-DATA (40-ZR-97,7.008E-01D,DG,743.37,0.940)
+           (41-NB-97-G,5.140E-02D,DG,658.18,0.990)
+ANALYSIS   96Zr with large RI/sigma produced effective sigma
+            value that could be fit only with a small negative
+            value for sigma. See M.D.Ricabarra+, Can.J.Phys.,
+            48, 2362, 1970.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.00       0.01
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866075   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (40-ZR-96(N,G)40-ZR-97,,RI)
+SAMPLE     Natural sample, assumed 2.80% abundance.
+DECAY-DATA (40-ZR-97,7.008E-01D,DG,743.37,0.940)
+           (41-NB-97-G,5.140E-02D,DG,658.18,0.990)
+ANALYSIS   96Zr with large RI/sigma produced effective sigma
+            value that could be fit only with a small negative
+            value for sigma. See M.D.Ricabarra+, Can.J.Phys.,
+            48, 2362, 1970.
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        5.98       0.15
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866076   20091022   20100405   20100330       1360
+BIB                  3          4
+REACTION   (42-MO-98(N,G)42-MO-99,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 23.78% abundance.
+DECAY-DATA (42-MO-99,2.752E+00D,DG,739.48,0.120)
+           (43-TC-99-M,2.500E-01D,DG,140.51,0.805)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.144      0.005
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866077   20091022   20100405   20100330       1360
+BIB                  4          5
+REACTION   (42-MO-98(N,G)42-MO-99,,RI)
+SAMPLE     Natural sample, assumed 23.78% abundance.
+DECAY-DATA (42-MO-99,2.752E+00D,DG,739.48,0.120)
+           (43-TC-99-M,2.500E-01D,DG,140.51,0.805)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        7.42       0.30
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        12866078   20091022   20100405   20100330       1360
+BIB                  5         10
+REACTION   (42-MO-100(N,G)42-MO-101,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 9.63% abundance.
+DECAY-DATA (42-MO-101,1.014E-02D,DG,598.91,0.200)
+           (43-TC-101,9.722E-03D,DG,306.83,0.910)
+MONITOR    ((42-MO-100(N,G)42-MO-101,,RI)/
+           (42-MO-100(N,G)42-MO-101,,SIG))
+           Ratio adopted from M.J.Cabell, J.Nucl.Energy A,
+            12, 172, 1960, and M.D.Ricabarra+, Can.J.Phys.,
+            47, 2031, 1969.
+HISTORY    (20091021A) Monitor reaction corrected.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.195      0.005
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        12866079   20091022   20100405   20100330       1360
+BIB                  5         10
+REACTION   (42-MO-100(N,G)42-MO-101,,RI)
+SAMPLE     Natural sample, assumed 9.63% abundance.
+DECAY-DATA (42-MO-101,1.014E-02D,DG,598.91,0.200)
+           (43-TC-101,9.722E-03D,DG,306.83,0.910)
+MONITOR    ((42-MO-100(N,G)42-MO-101,,RI)/
+           (42-MO-100(N,G)42-MO-101,,SIG))
+           Ratio adopted from M.J.Cabell, J.Nucl.Energy A,
+            12, 172, 1960, and M.D.Ricabarra+, Can.J.Phys.,
+            47, 2031, 1969.
+HISTORY    (19890424A) Monitor, energy heading, energy corrected.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 3          1
+EN-RES-MIN DATA       DATA-ERR
+EV         B          B
+0.025      3.70       0.15
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        12866080   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (44-RU-96(N,G)44-RU-97,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 5.51% abundance.
+DECAY-DATA (44-RU-97,2.890E+00D,DG,215.71,0.876)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.218      0.004
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866081   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (44-RU-96(N,G)44-RU-97,,RI)
+SAMPLE     Natural sample, assumed 5.51% abundance.
+DECAY-DATA (44-RU-97,2.890E+00D,DG,215.71,0.876)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        7.00       0.30
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866082   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (44-RU-102(N,G)44-RU-103,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 31.61% abundance.
+DECAY-DATA (44-RU-103,3.960E+01D,DG,497.09,0.900)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      1.31       0.03
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866083   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (44-RU-102(N,G)44-RU-103,,RI)
+SAMPLE     Natural sample, assumed 31.61% abundance.
+DECAY-DATA (44-RU-103,3.960E+01D,DG,497.09,0.900)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        4.68       0.75
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866084   20091022   20100405   20100330       1360
+BIB                  3          4
+REACTION   (44-RU-104(N,G)44-RU-105,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 18.58% abundance.
+DECAY-DATA (44-RU-105,1.850E-01D,DG,724.20,0.490)
+           (45-RH-105-G,1.476E+00D,DG,319.24,0.196)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.466      0.015
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866085   20091022   20100405   20100330       1360
+BIB                  4          5
+REACTION   (44-RU-104(N,G)44-RU-105,,RI)
+SAMPLE     Natural sample, assumed 18.58% abundance.
+DECAY-DATA (44-RU-105,1.850E-01D,DG,724.20,0.490)
+           (45-RH-105-G,1.476E+00D,DG,319.24,0.196)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        7.70       0.65
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        12866086   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (45-RH-103(N,G)45-RH-104-M,,SIG,,SPA)
+SAMPLE     Natural sample, 100% abundance.
+DECAY-DATA (45-RH-104-M,3.076E-03D,DG,555.81,0.0268)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      10.8       0.6
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866087   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (45-RH-103(N,G)45-RH-104-M,,RI)
+SAMPLE     Natural sample, 100% abundance.
+DECAY-DATA (45-RH-104-M,3.076E-03D,DG,555.81,0.0268)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        95.        8.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866088   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (46-PD-110(N,G)46-PD-111-M,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 11.81% abundance.
+DECAY-DATA (46-PD-111-M,2.292E-01D,DG,172.10,0.324)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.033      0.003
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866089   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (46-PD-110(N,G)46-PD-111-M,,RI)
+SAMPLE     Natural sample, assumed 11.81% abundance.
+DECAY-DATA (46-PD-111-M,2.292E-01D,DG,172.10,0.324)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        0.66       0.07
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866090   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (47-AG-107(N,G)47-AG-108,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 51.82% abundance.
+DECAY-DATA (47-AG-108-G,1.646E-03D,DG,632.98,0.018)
+MONITOR    ((47-AG-107(N,G)47-AG-108,,RI)/
+           (47-AG-107(N,G)47-AG-108,,SIG))
+           Ratio adopted from T.B.Ryves, J.Phys.A, 7, 2318,
+            1974.
+HISTORY    (19851106A) Monitor corrected.
+           (20091021A) Monitor reaction corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      35.3       1.0
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866091   20091022   20100405   20100330       1360
+BIB                  5         10
+REACTION   (47-AG-107(N,G)47-AG-108,,RI)
+SAMPLE     Natural sample, assumed 51.82% abundance.
+DECAY-DATA (47-AG-108-G,1.646E-03D,DG,632.98,0.018)
+MONITOR    ((47-AG-107(N,G)47-AG-108,,RI)/
+           (47-AG-107(N,G)47-AG-108,,SIG))
+           Ratio adopted from T.B.Ryves, J.Phys.A, 7, 2318,
+            1974.
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+           (19900326A) Bib correction.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        89.3       3.8
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        12866092   20100329   20100405   20100330       1360
+BIB                  5         10
+REACTION   (47-AG-109(N,G)47-AG-110-M,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 48.18% abundance.
+DECAY-DATA (47-AG-110-M,2.530E+00D,DG,657.60,0.930)
+COMMENT    Compiler's comment: The decay data, as given above,
+           which are taken from Table 2 of the reference, are
+           in conflict with currently known data. The intensity
+           of the 657 keV gamma line is the one for decay of
+           Ag-110g, and the half-life is in sharp contrast to the
+           known value of 24.6 sec. (O.S., March 2010)
+HISTORY    (20100329A) COMMENT added
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      4.11       0.08
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        12866093   20100329   20100405   20100330       1360
+BIB                  5         11
+REACTION   (47-AG-109(N,G)47-AG-110-M,,RI)
+SAMPLE     Natural sample, assumed 48.18% abundance.
+DECAY-DATA (47-AG-110-M,2.530E+00D,DG,657.60,0.930)
+COMMENT    Compiler's comment: The decay data, as given above,
+           which are taken from Table 2 of the reference, are
+           in conflict with currently known data. The intensity
+           of the 657 keV gamma line is the one for decay of
+           Ag-110g, and the half-life is in sharp contrast to the
+           known value of 24.6 sec. (O.S., March 2010)
+HISTORY    (19890424A) Resonance integral energy corrected.
+           (20100329A) COMMENT added
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        87.2       3.5
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        12866094   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (48-CD-110(N,G)48-CD-111-M,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 12.39% abundance.
+DECAY-DATA (48-CD-111-M,3.375E-02D,DG,245.40,0.940)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.035      0.002
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866095   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (48-CD-110(N,G)48-CD-111-M,,RI)
+SAMPLE     Natural sample, assumed 12.39% abundance.
+DECAY-DATA (48-CD-111-M,3.375E-02D,DG,245.40,0.940)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        3.92       0.10
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866096   20091022   20100405   20100330       1360
+BIB                  3          4
+REACTION   (48-CD-114(N,G)48-CD-115,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 28.86% abundance.
+DECAY-DATA (48-CD-115-G,2.208E+00D,DG,527.86,0.226)
+           (49-IN-115-M,1.850-01D,DG,336.25,0.426)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.294      0.016
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866097   20091022   20100405   20100330       1360
+BIB                  4          5
+REACTION   (48-CD-114(N,G)48-CD-115,,RI)
+SAMPLE     Natural sample, assumed 28.86 abundance.
+DECAY-DATA (48-CD-115-G,2.208E+00D,DG,527.86,0.226)
+           (49-IN-115-M,1.850-01D,DG,336.25,0.426)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        14.1       0.7
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        12866098   20091022   20100405   20100330       1360
+BIB                  5         12
+REACTION   (49-IN-115(N,G)49-IN-116-M1+M2,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 95.72% abundance.
+DECAY-DATA (49-IN-116-M1,3.774E-02D,DG,1293.35,0.823)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+           (49-IN-115(N,G)49-IN-116-M,,RI)
+           Cross sections adopted from Handbook on
+            Nuclear Activation Cross Sections, Technical Report
+            Series, No.156, IAEA, 1974: R.Sher, p.2, and
+            H.Albinsson, p.15.
+HISTORY    (19860613A) Bib update.
+           (19860923A) Reaction corrected.
+           (20091021A) Reaction corrected.
+ENDBIB              12
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      161.       2.
+ENDDATA              3
+ENDSUBENT           20
+SUBENT        12866099   20091022   20100405   20100330       1360
+BIB                  5         10
+REACTION   (49-IN-115(N,G)49-IN-116-M,,RI)
+SAMPLE     Natural sample, assumed 95.72% abundance.
+DECAY-DATA (49-IN-116-M,3.774E-02D,DG,1293.35,0.823)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+           (49-IN-115(N,G)49-IN-116-M,,RI)
+           Cross sections adopted from Handbook on
+            Nuclear Activation Cross Sections, Technical Report
+            Series, No.156, IAEA, 1974: R.Sher, p.2, and
+            H.Albinsson, p.15.
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        2600.      100.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        12866100   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (50-SN-112(N,G)50-SN-113,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 0.96% abundance.
+DECAY-DATA (50-SN-113-G,1.157E+02D,DG,391.69,0.640)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.576      0.012
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866101   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (50-SN-112(N,G)50-SN-113,,RI)
+SAMPLE     Natural sample, assumed 0.96% abundance.
+DECAY-DATA (50-SN-113-G,1.157E+02D,DG,391.69,0.640)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        28.7       1.5
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866102   20091022   20100405   20100330       1360
+BIB                  4          6
+REACTION   (50-SN-116(N,G)50-SN-117-M,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 14.30% abundance.
+DECAY-DATA (50-SN-117-M,1.400E+01D,DG,158.56,0.650)
+ANALYSIS   116Sn with large RI/sigma produced effective sigma
+            value that could be fit only with a small negative
+            value for sigma.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      -0.015      0.001
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        12866103   20091022   20100405   20100330       1360
+BIB                  5          7
+REACTION   (50-SN-116(N,G)50-SN-117-M,,RI)
+SAMPLE     Natural sample, assumed 14.30% abundance.
+DECAY-DATA (50-SN-117-M,1.400E+01D,DG,158.56,0.650)
+ANALYSIS   116Sn with large RI/sigma produced effective sigma
+            value that could be fit only with a small negative
+            value for sigma.
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        1.86       0.05
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        12866104   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (50-SN-122(N,G)50-SN-123-M,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 4.72% abundance.
+DECAY-DATA (50-SN-123-M,2.743E-02D,DG,159.70,0.840)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.134      0.015
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866105   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (50-SN-122(N,G)50-SN-123-M,,RI)
+SAMPLE     Natural sample, assumed 4.72% abundance.
+DECAY-DATA (50-SN-123-M,2.743E-02D,DG,159.70,0.840)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        1.28       0.20
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866106   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (50-SN-124(N,G)50-SN-125-M,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 5.94% abundance.
+DECAY-DATA (50-SN-125-M,6.736E-03D,DG,332.20,0.990)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.070      0.004
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866107   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (50-SN-124(N,G)50-SN-125-M,,RI)
+SAMPLE     Natural sample, assumed 5.94% abundance.
+DECAY-DATA (50-SN-125-M,6.736E-03D,DG,332.20,0.990)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        7.52       0.35
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866108   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (51-SB-121(N,G)51-SB-122,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 57.25% abundance.
+DECAY-DATA (51-SB-122-G,2.714E+00D,DG,564.08,0.710)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      5.90       0.10
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866109   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (51-SB-121(N,G)51-SB-122,,RI)
+SAMPLE     Natural sample, assumed 57.25% abundance.
+DECAY-DATA (51-SB-122-G,2.714E+00D,DG,564.08,0.710)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        167.       5.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866110   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (51-SB-123(N,G)51-SB-124,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 42.75% abundance.
+DECAY-DATA (51-SB-124-G,6.030E+01D,DG,602.72,0.980)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      3.78       0.08
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866111   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (51-SB-123(N,G)51-SB-124,,RI)
+SAMPLE     Natural sample, assumed 42.75% abundance.
+DECAY-DATA (51-SB-124-G,6.030E+01D,DG,602.72,0.980)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        99.        3.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866112   20091022   20100405   20100330       1360
+BIB                  4          9
+REACTION   (53-I-127(N,G)53-I-128,,SIG,,SPA)
+SAMPLE     Natural sample, 100% abundance.
+DECAY-DATA (53-I-128,1.736E-02D,DG,442.89,0.175)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+           (53-I-127(N,G)53-I-128,,RI)
+           Cross sections adopted from Handbook on
+            Nuclear Activation Cross Sections, Technical Report
+            Series, No.156, IAEA, 1974: R.Sher, p.2, and
+            H.Albinsson, p.15.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      6.2        2.
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866113   20091022   20100405   20100330       1360
+BIB                  5         10
+REACTION   (53-I-127(N,G)53-I-128,,RI)
+SAMPLE     Natural sample, 100% abundance.
+DECAY-DATA (53-I-128,1.736E-02D,DG,442.89,0.175)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+           (53-I-127(N,G)53-I-128,,RI)
+           Cross sections adopted from Handbook on
+            Nuclear Activation Cross Sections, Technical Report
+            Series, No.156, IAEA, 1974: R.Sher, p.2, and
+            H.Albinsson, p.15.
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        150.       10.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        12866114   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (55-CS-133(N,G)55-CS-134-M,,SIG,,SPA)
+SAMPLE     Natural sample, 100% abundance.
+DECAY-DATA (55-CS-134-M,1.206E-01D,DG,127.50,0.140)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      2.62       0.04
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866115   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (55-CS-133(N,G)55-CS-134-M,,RI)
+SAMPLE     Natural sample, 100% abundance.
+DECAY-DATA (55-CS-134-M,1.206E-01D,DG,127.50,0.140)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        30.2       1.8
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866116   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (55-CS-133(N,G)55-CS-134-G,,SIG,,SPA)
+SAMPLE     Natural sample, 100% abundance.
+DECAY-DATA (55-CS-134-G,7.450E+02D,DG,604.70,0.980)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      27.61      0.55
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866117   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (55-CS-133(N,G)55-CS-134-G,,RI)
+SAMPLE     Natural sample, 100% abundance.
+DECAY-DATA (55-CS-134-G,7.450E+02D,DG,604.70,0.980)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        318.       20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866118   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (56-BA-130(N,G)56-BA-131-M,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 0.101% abundance.
+DECAY-DATA (56-BA-131-M,1.014E-02D,DG,107.91,0.400)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.98       0.05
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866119   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (56-BA-130(N,G)56-BA-131-M,,RI)
+SAMPLE     Natural sample, assumed 0.101% abundance.
+DECAY-DATA (56-BA-131-M,1.014E-02D,DG,107.91,0.400)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        23.0       1.0
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866120   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (56-BA-130(N,G)56-BA-131-G,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 0.101% abundance.
+DECAY-DATA (56-BA-131-G,1.200E+01D,DG,496.36,0.480)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      6.52       0.40
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866121   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (56-BA-130(N,G)56-BA-131-G,,RI)
+SAMPLE     Natural sample, assumed 0.101% abundance.
+DECAY-DATA (56-BA-131-G,1.200E+01D,DG,496.36,0.480)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        153.       7.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866122   20091022   20100405   20100330       1360
+BIB                  4          6
+REACTION   (56-BA-134(N,G)56-BA-135,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 2.42% abundance.
+DECAY-DATA (56-BA-135-M,1.196E+00D,DG,268.00,0.160)
+ANALYSIS   134Ba with large RI/sigma produced effective sigma
+            value that could be fit only with a small negative
+            value for sigma.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      -0.06      0.03
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        12866123   20091022   20100405   20100330       1360
+BIB                  5          7
+REACTION   (56-BA-134(N,G)56-BA-135,,RI)
+SAMPLE     Natural sample, assumed 2.42% abundance.
+DECAY-DATA (56-BA-135-M,1.196E+00D,DG,268.00,0.160)
+ANALYSIS   134Ba with large RI/sigma produced effective sigma
+            value that could be fit only with a small negative
+            value for sigma.
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        10.6       0.3
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        12866124   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (56-BA-138(N,G)56-BA-139,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 71.66% abundance.
+DECAY-DATA (56-BA-139,5.771E-02D,DG,165.85,0.220)
+MONITOR    ((56-BA-138(N,G)56-BA-139,,RI)/
+           (56-BA-138(N,G)56-BA-139,,SIG))
+           Ratio adopted from M.D.Ricabarra, Can.J.Phys.,
+            46, 2473, 1968.
+HISTORY    (20091021A) Monitor reaction corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.447      0.007
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866125   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (56-BA-138(N,G)56-BA-139,,RI)
+SAMPLE     Natural sample, assumed 71.66% abundance.
+DECAY-DATA (56-BA-139,5.771E-02D,DG,165.85,0.220)
+MONITOR    ((56-BA-138(N,G)56-BA-139,,RI)/
+           (56-BA-138(N,G)56-BA-139,,SIG))
+           Ratio adopted from M.D.Ricabarra, Can.J.Phys.,
+            46, 2473, 1968.
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        0.256      0.050
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866126   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (57-LA-139(N,G)57-LA-140,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 99.91% abundance.
+DECAY-DATA (57-LA-140,1.675E+00D,DG,1596.20,0.955)
+MONITOR    ((57-LA-139(N,G)57-LA-140,,RI)/
+           (57-LA-139(N,G)57-LA-140,,SIG))
+           Ratio adopted from E.Steinnes, J.Inorg.Nucl.Chem., 34,
+             2699 (1972).
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      9.18       0.05
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866127   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (57-LA-139(N,G)57-LA-140,,RI)
+SAMPLE     Natural sample, assumed 99.91% abundance.
+DECAY-DATA (57-LA-140,1.675E+00D,DG,1596.20,0.955)
+MONITOR    ((57-LA-139(N,G)57-LA-140,,RI)/
+           (57-LA-139(N,G)57-LA-140,,SIG))
+           Ratio adopted from E.Steinnes, J.Inorg.Nucl.Chem., 34,
+             2699 (1972).
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        12.6       0.6
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866128   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (58-CE-138(N,G)58-CE-139,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 0.25% abundance.
+DECAY-DATA (58-CE-139-G,1.372E+02D,DG,165.85,0.810)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      1.02       0.12
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866129   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (58-CE-138(N,G)58-CE-139,,RI)
+SAMPLE     Natural sample, assumed 0.25% abundance.
+DECAY-DATA (58-CE-139-G,1.372E+02D,DG,165.85,0.810)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        6.7        3.1
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866130   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (58-CE-140(N,G)58-CE-141,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 88.48% abundance.
+DECAY-DATA (58-CE-141,3.238E+01D,DG,145.44,0.493)
+MONITOR    ((58-CE-140(N,G)58-CE-141,,RI)/
+           (58-CE-140(N,G)58-CE-141,,SIG))
+           Ratio adopted from E.Steinnes, J.Inorg.Nucl.Chem., 34,
+             2699 (1972).
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.582      0.005
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866131   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (58-CE-140(N,G)58-CE-141,,RI)
+SAMPLE     Natural sample, assumed 88.48% abundance.
+DECAY-DATA (58-CE-141,3.238E+01D,DG,145.44,0.493)
+MONITOR    ((58-CE-140(N,G)58-CE-141,,RI)/
+           (58-CE-140(N,G)58-CE-141,,SIG))
+           Ratio adopted from E.Steinnes, J.Inorg.Nucl.Chem., 34,
+             2699 (1972).
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        0.483      0.005
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866132   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (58-CE-142(N,G)58-CE-143,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 11.07% abundance.
+DECAY-DATA (58-CE-143,1.379E+00D,DG,293.20,0.435)
+MONITOR    ((58-CE-142(N,G)58-CE-143,,RI)/
+           (58-CE-142(N,G)58-CE-143,,SIG))
+           Ratio adopted from J.Alstad+,J.Inorg.Nucl.Chem.,
+            29, 2155, 1967.
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.025      0.967      0.010
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866133   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (58-CE-142(N,G)58-CE-143,,RI)
+SAMPLE     Natural sample, assumed 11.07% abundance.
+DECAY-DATA (58-CE-143,1.379E+00D,DG,293.20,0.435)
+MONITOR    ((58-CE-142(N,G)58-CE-143,,RI)/
+           (58-CE-142(N,G)58-CE-143,,SIG))
+           Ratio adopted from J.Alstad+,J.Inorg.Nucl.Chem.,
+            29, 2155, 1967.
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        1.66       0.15
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866134   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (59-PR-141(N,G)59-PR-142,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 100% abundance.
+DECAY-DATA (59-PR-142-G,8.000E-01D,DG,1575.75,0.037)
+MONITOR    ((59-PR-142(N,G)59-PR-143,,RI)/
+           (59-PR-142(N,G)59-PR-143,,SIG))
+           Ratio adopted from E.Steinnes, J.Inorg.Nucl.Chem., 34,
+             2699 (1972).
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      8.36       0.10
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866135   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (59-PR-141(N,G)59-PR-142,,RI)
+SAMPLE     Natural sample, assumed 100% abundance.
+DECAY-DATA (59-PR-142-G,8.000E-01D,DG,1575.75,0.037)
+MONITOR    ((59-PR-142(N,G)59-PR-143,,RI)/
+           (59-PR-142(N,G)59-PR-143,,SIG))
+           Ratio adopted from E.Steinnes, J.Inorg.Nucl.Chem., 34,
+             2699 (1972).
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        10.47      0.20
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866136   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (60-ND-146(N,G)60-ND-147,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 17.22% abundance.
+DECAY-DATA (60-ND-147,1.104E+01D,DG,531.00,0.131)
+MONITOR    ((60-ND-146(N,G)60-ND-147,,RI)/
+           (60-ND-146(N,G)60-ND-147,,SIG))
+           Ratio adopted from E.Steinnes, J.Inorg.Nucl.Chem., 34,
+             2699 (1972).
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      1.55       0.03
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866137   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (60-ND-146(N,G)60-ND-147,,RI)
+SAMPLE     Natural sample, assumed 17.22% abundance.
+DECAY-DATA (60-ND-147,1.104E+01D,DG,531.00,0.131)
+MONITOR    ((60-ND-146(N,G)60-ND-147,,RI)/
+           (60-ND-146(N,G)60-ND-147,,SIG))
+           Ratio adopted from E.Steinnes, J.Inorg.Nucl.Chem., 34,
+             2699 (1972).
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        3.65       0.08
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866138   20091022   20100405   20100330       1360
+BIB                  3          4
+REACTION   (60-ND-148(N,G)60-ND-149,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 5.73% abundance.
+DECAY-DATA (60-ND-149,7.170E-02D,DG,211.31,0.234)
+           (61-PM-149,2.213E+00D,DG,285.76,0.0245)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      2.58       0.07
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866139   20091022   20100405   20100330       1360
+BIB                  4          5
+REACTION   (60-ND-148(N,G)60-ND-149,,RI)
+SAMPLE     Natural sample, assumed 5.73% abundance.
+DECAY-DATA (60-ND-149,7.170E-02D,DG,211.31,0.234)
+           (61-PM-149,2.213E+00D,DG,285.76,0.0245)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        16.5       3.0
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        12866140   20091022   20100405   20100330       1360
+BIB                  3          4
+REACTION   (60-ND-150(N,G)60-ND-151,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 5.62% abundance.
+DECAY-DATA (60-ND-151,8.611E-03D,DG,116.79,0.306)
+           (61-PM-151,1.171E+00D,DG,339.93,0.196)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      1.03       0.04
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866141   20091022   20100405   20100330       1360
+BIB                  4          5
+REACTION   (60-ND-150(N,G)60-ND-151,,RI)
+SAMPLE     Natural sample, assumed 5.62% abundance.
+DECAY-DATA (60-ND-151,8.611E-03D,DG,116.79,0.306)
+           (61-PM-151,1.171E+00D,DG,339.93,0.196)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        17.2       1.5
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        12866142   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (62-SM-152(N,G)62-SM-153,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 26.72% abundance.
+DECAY-DATA (62-SM-153,1.940E+00D,DG,103.17,0.284)
+MONITOR    ((62-SM-152(N,G)62-SM-153,,RI)/
+           (62-SM-152(N,G)62-SM-153,,SIG))
+           Ratio adopted from M.J.Cabell, J.Inorg.Nucl.
+            Chem., 24, 749, 1962 and from W.H.Walker, Can.
+            J.Phys., 30, 1181, 1961.
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      204.       9.
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866143   20091022   20100405   20100330       1360
+BIB                  5         10
+REACTION   (62-SM-152(N,G)62-SM-153,,RI)
+SAMPLE     Natural sample, assumed 26.72% abundance.
+DECAY-DATA (62-SM-153,1.940E+00D,DG,103.17,0.284)
+MONITOR    ((62-SM-152(N,G)62-SM-153,,RI)/
+           (62-SM-152(N,G)62-SM-153,,SIG))
+           Ratio adopted from M.J.Cabell, J.Inorg.Nucl.
+            Chem., 24, 749, 1962 and from W.H.Walker, Can.
+            J.Phys., 30, 1181, 1961.
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        3050.      360.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        12866144   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (62-SM-154(N,G)62-SM-155,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 22.71% abundance.
+DECAY-DATA (62-SM-155,1.560E-02D,DG,104.35,0.635)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      8.5        0.5
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866145   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (62-SM-154(N,G)62-SM-155,,RI)
+SAMPLE     Natural sample, assumed 22.71% abundance.
+DECAY-DATA (62-SM-155,1.560E-02D,DG,104.35,0.635)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        64.        22.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866146   20160608   20160902   20160824       1418
+BIB                  5          9
+REACTION   (63-EU-151(N,G)63-EU-152-M1,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 47.82% abundance.
+DECAY-DATA (63-EU-152-M1,3.896E-01D,DG,841.54,0.125)
+MONITOR    ((63-EU-151(N,G)63-EU-152-M,,RI)/
+           (63-EU-151(N,G)63-EU-152-M,,SIG))
+           Ratio adopted from R.Van Der Linden+, IAEA Symp. on
+            Nuclear Data in Science and Technology, Vienna,
+            p.241, 1973 (STI/PUB/343).
+HISTORY    (20160603A) Isomer code changed to M1
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      3490.      30.
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866147   20160608   20160902   20160824       1418
+BIB                  5         10
+REACTION   (63-EU-151(N,G)63-EU-152-M1,,RI)
+SAMPLE     Natural sample, assumed 47.82% abundance.
+DECAY-DATA (63-EU-152-M1,3.896E-01D,DG,841.54,0.125)
+MONITOR    ((63-EU-151(N,G)63-EU-152-M,,RI)/
+           (63-EU-151(N,G)63-EU-152-M,,SIG))
+           Ratio adopted from R.Van Der Linden+, IAEA Symp. on
+            Nuclear Data in Science and Technology, Vienna,
+            p.241, 1973 (STI/PUB/343).
+HISTORY    (19890424A) Resonance integral energy corrected.
+           (20160603A) Isomer code changed to M1
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        1540.      30.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        12866148   20160608   20160902   20160824       1418
+BIB                  5          9
+REACTION   (63-EU-151(N,G)63-EU-152-G+M2,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 47.82% abundance.
+DECAY-DATA (63-EU-152-G,5.117E+03D,DG,123.14,0.405)
+MONITOR    ((63-EU-151(N,G)63-EU-152,,RI)/
+           (63-EU-151(N,G)63-EU-152,,SIG))
+           Ratio adopted from R.Van Der Linden+, IAEA Symp. on
+            Nuclear Data in Science and Technology, Vienna,
+            p.241, 1973 (STI/PUB/343).
+HISTORY    (20160603A) Isomer code in SF4 changed to G+M2
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      6390.      25.
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866149   20160608   20160902   20160824       1418
+BIB                  5         10
+REACTION   (63-EU-151(N,G)63-EU-152-G+M2,,RI)
+SAMPLE     Natural sample, assumed 47.82% abundance.
+DECAY-DATA (63-EU-152-G,5.117E+03D,DG,123.14,0.405)
+MONITOR    ((63-EU-151(N,G)63-EU-152,,RI)/
+           (63-EU-151(N,G)63-EU-152,,SIG))
+           Ratio adopted from R.Van Der Linden+, IAEA Symp. on
+            Nuclear Data in Science and Technology, Vienna,
+            p.241, 1973 (STI/PUB/343).
+HISTORY    (19890424A) Resonance integral energy corrected.
+           (20160603A) Isomer code in SF4 changed to G+M2
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        4280.      280.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        12866150   20091022   20100405   20100330       1360
+BIB                  4          7
+REACTION   (63-EU-153(N,G)63-EU-154,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 52.18% abundance.
+DECAY-DATA (63-EU-154,2.863E+03D,DG,121.78,0.282)
+MONITOR    ((63-EU-153(N,G)63-EU-154,,RI)/
+           (63-EU-153(N,G)63-EU-154,,SIG))
+           Ratio adopted from G.H.E.Sims, J.Inorg.Nicl.Chem.,
+             29, 2671, 1967.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      295.       5.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        12866151   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (63-EU-153(N,G)63-EU-154,,RI)
+SAMPLE     Natural sample, assumed 52.18% abundance.
+DECAY-DATA (63-EU-154,2.863E+03D,DG,121.78,0.282)
+MONITOR    ((63-EU-153(N,G)63-EU-154,,RI)/
+           (63-EU-153(N,G)63-EU-154,,SIG))
+           Ratio adopted from G.H.E.Sims, J.Inorg.Nicl.Chem.,
+             29, 2671, 1967.
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        1120.      60.
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866152   20091022   20100405   20100330       1360
+BIB                  4          7
+REACTION   (64-GD-152(N,G)64-GD-153,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 0.20% abundance.
+DECAY-DATA (64-GD-153,2.416E+02D,DG,97.40,0.317)
+MONITOR    ((64-GD-152(N,G)64-GD-153,,RI)/
+           (64-GD-152(N,G)64-GD-153,,SIG))
+           Ratio adopted from E.Steinnes, J.Inorg.Nucl.Chem., 34,
+             2699 (1972).
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      735.       10.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        12866153   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (64-GD-152(N,G)64-GD-153,,RI)
+SAMPLE     Natural sample, assumed 0.20% abundance.
+DECAY-DATA (64-GD-153,2.416E+02D,DG,97.40,0.317)
+MONITOR    ((64-GD-152(N,G)64-GD-153,,RI)/
+           (64-GD-152(N,G)64-GD-153,,SIG))
+           Ratio adopted from E.Steinnes, J.Inorg.Nucl.Chem., 34,
+             2699 (1972).
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        2020.      80.
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866154   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (64-GD-158(N,G)64-GD-159,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 24.87% abundance.
+DECAY-DATA (64-GD-159,7.5000-01D,DG,363.60,0.100)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      2.44       0.30
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866155   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (64-GD-158(N,G)64-GD-159,,RI)
+SAMPLE     Natural sample, assumed 24.87% abundance.
+DECAY-DATA (64-GD-159,7.5000-01D,DG,363.60,0.100)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        94.        8.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866156   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (65-TB-159(N,G)65-TB-160,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 100% abundance.
+DECAY-DATA (65-TB-160,7.210E+01D,DG,879.40,0.304)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      22.4       0.4
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866157   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (65-TB-159(N,G)65-TB-160,,RI)
+SAMPLE     Natural sample, assumed 100% abundance.
+DECAY-DATA (65-TB-160,7.210E+01D,DG,879.40,0.304)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        455.       15.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866158   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (66-DY-164(N,G)66-DY-165,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 28.18% abundance.
+DECAY-DATA (66-DY-165-G,9.725E-02D,DG,94.68,0.0358)
+MONITOR    ((66-DY-164(N,G)66-DY-165,,RI)/
+           (66-DY-164(N,G)66-DY-165,,SIG))
+           Ratio adopted from T.B.Ryves, J.Phys.A, 7, 2318,
+            1974.
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      2300.      200.
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866159   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (66-DY-164(N,G)66-DY-165,,RI)
+SAMPLE     Natural sample, assumed 28.18% abundance.
+DECAY-DATA (66-DY-165-G,9.725E-02D,DG,94.68,0.0358)
+MONITOR    ((66-DY-164(N,G)66-DY-165,,RI)/
+           (66-DY-164(N,G)66-DY-165,,SIG))
+           Ratio adopted from T.B.Ryves, J.Phys.A, 7, 2318,
+            1974.
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        575.       100.
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866160   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (67-HO-165(N,G)67-HO-166,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 100% abundance.
+DECAY-DATA (67-HO-166-G,1.110E+00D,DG,1379.43,0.0093)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      61.4       1.0
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866161   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (67-HO-165(N,G)67-HO-166,,RI)
+SAMPLE     Natural sample, assumed 100% abundance.
+DECAY-DATA (67-HO-166-G,1.110E+00D,DG,1379.43,0.0093)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        718.       40.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866162   20091022   20100405   20100330       1360
+BIB                  4          9
+REACTION   (68-ER-170(N,G)68-ER-171,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 14.88% abundance.
+DECAY-DATA (68-ER-171,3.133E-01D,DG,308.30,0.644)
+MONITOR    (68-ER-170(N,G)68-ER-171,,SIG)
+           (68-ER-170(N,G)68-ER-171,,RI)
+           Cross sections adopted from Handbook on
+            Nuclear Activation Cross Sections, Technical Report
+            Series, No.156, IAEA, 1974: R.Sher, p.2, and
+            H.Albinsson, p.15.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      6.         1.
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866163   20091022   20100405   20100330       1360
+BIB                  5         10
+REACTION   (68-ER-170(N,G)68-ER-171,,RI)
+SAMPLE     Natural sample, assumed 14.88% abundance.
+DECAY-DATA (68-ER-171,3.133E-01D,DG,308.30,0.644)
+MONITOR    (68-ER-170(N,G)68-ER-171,,SIG)
+           (68-ER-170(N,G)68-ER-171,,RI)
+           Cross sections adopted from Handbook on
+            Nuclear Activation Cross Sections, Technical Report
+            Series, No.156, IAEA, 1974: R.Sher, p.2, and
+            H.Albinsson, p.15.
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        38.        7.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        12866164   20091022   20100405   20100330       1360
+BIB                  4          7
+REACTION   (69-TM-169(N,G)69-TM-170,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 100% abundance.
+DECAY-DATA (69-TM-170,1.270E+02D,DG,84.25,0.100)
+MONITOR    (69-TM-169(N,G)69-TM-170,,SIG)
+           (69-TM-169(N,G)69-TM-170,,RI)
+           Cross sections adopted from G.H.E.Sims, J.Inorg.
+            Nucl.Chem., 32, 2839, 1970.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      106.       5.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        12866165   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (69-TM-169(N,G)69-TM-170,,RI)
+SAMPLE     Natural sample, assumed 100% abundance.
+DECAY-DATA (69-TM-170,1.270E+02D,DG,84.25,0.100)
+MONITOR    (69-TM-169(N,G)69-TM-170,,SIG)
+           (69-TM-169(N,G)69-TM-170,,RI)
+           Cross sections adopted from G.H.E.Sims, J.Inorg.
+            Nucl.Chem., 32, 2839, 1970.
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        2240.      130.
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866166   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (70-YB-168(N,G)70-YB-169,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 0.135% abundance.
+DECAY-DATA (70-YB-169-G,3.070E+01D,DG,197.96,0.362)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      2600.      60.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866167   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (70-YB-168(N,G)70-YB-169,,RI)
+SAMPLE     Natural sample, assumed 0.135% abundance.
+DECAY-DATA (70-YB-169-G,3.070E+01D,DG,197.96,0.362)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        16600.     1700.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866168   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (70-YB-174(N,G)70-YB-175,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 31.84% abundance.
+DECAY-DATA (70-YB-175,4.210E+00D,DG,396.32,0.0698)
+MONITOR    ((70-YB-174(N,G)70-YB-175,,RI)/
+           (70-YB-174(N,G)70-YB-175,,SIG))
+           Ratio adopted from E.Stennis, J.Inorg.Nucl.
+            Chem., 34, 2699, 1972.
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      108.       4.
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866169   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (70-YB-174(N,G)70-YB-175,,RI)
+SAMPLE     Natural sample, assumed 31.84% abundance.
+DECAY-DATA (70-YB-175,4.210E+00D,DG,396.32,0.0698)
+MONITOR    ((70-YB-174(N,G)70-YB-175,,RI)/
+           (70-YB-174(N,G)70-YB-175,,SIG))
+           Ratio adopted from E.Stennis, J.Inorg.Nucl.
+            Chem., 34, 2699, 1972.
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        48.        2.
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866170   20091022   20100405   20100330       1360
+BIB                  3          4
+REACTION   (70-YB-176(N,G)70-YB-177,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 12.73% abundance.
+DECAY-DATA (70-YB-177-G,7.917E-02D,DG,150.39,0.210)
+           (71-LU-177-G,6.630E+00D,DG,208.36,0.111)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      3.02       0.05
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866171   20091022   20100405   20100330       1360
+BIB                  4          5
+REACTION   (70-YB-176(N,G)70-YB-177,,RI)
+SAMPLE     Natural sample, assumed 12.73% abundance.
+DECAY-DATA (70-YB-177-G,7.917E-02D,DG,150.39,0.210)
+           (71-LU-177-G,6.630E+00D,DG,208.36,0.111)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        1.33       0.13
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        12866172   20091022   20100405   20100330       1360
+BIB                  4          7
+REACTION   (71-LU-176(N,G)71-LU-177,M+,SIG,,SPA)
+SAMPLE     Natural sample, assumed 97.41% abundance.
+DECAY-DATA (71-LU-177-G,6.630E+00D,DG,208.36,0.111)
+            **** COMMENT BY AUTHOR: Cross section and resonance
+                 integral values include contribution from
+                 short-lived parent.
+HISTORY    (20091021A) Reaction corrected.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      3350.      100.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        12866173   20091022   20100405   20100330       1360
+BIB                  4          8
+REACTION   (71-LU-176(N,G)71-LU-177,M+,RI)
+SAMPLE     Natural sample, assumed 97.41% abundance.
+DECAY-DATA (71-LU-177-G,6.630E+00D,DG,208.36,0.111)
+            **** COMMENT BY AUTHOR: Cross section and resonance
+                 integral values include contribution from
+                 short-lived parent.
+HISTORY    (19890424A) Resonance integral energy corrected.
+           (20091021A) Reaction corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        1480.      80.
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866174   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (72-HF-174(N,G)72-HF-175,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 0.18% abundance.
+DECAY-DATA (72-HF-175,7.000E+01D,DG,343.46,0.880)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      620.       20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866175   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (72-HF-174(N,G)72-HF-175,,RI)
+SAMPLE     Natural sample, assumed 0.18% abundance.
+DECAY-DATA (72-HF-175,7.000E+01D,DG,343.46,0.880)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        350.       20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866176   20100329   20100405   20100330       1360
+BIB                  5         11
+REACTION   (72-HF-179(N,G)72-HF-180-M,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 13.75% abundance.
+DECAY-DATA (72-HF-180-M,2.290E-01D,DG,332.50,0.944)
+COMMENT    Compiler's comment: Table 2 of the reference quotes
+           the decay data of Hf-181 in place of Hf-180m and
+           vice versa. Assuming that this is a misprint only in
+           the publication and authors used correct values in
+           determining the cross sections, the actual decay data
+           of the respective product nuclides were restored.
+            (O.S., March 2010)
+HISTORY    (20100329A) Decay-data replaced, COMMENT added
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.407      0.020
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        12866177   20100329   20100405   20100330       1360
+BIB                  5         12
+REACTION   (72-HF-179(N,G)72-HF-180-M,,RI)
+SAMPLE     Natural sample, assumed 13.75% abundance.
+DECAY-DATA (72-HF-180-M,2.290E-01D,DG,332.50,0.944)
+COMMENT    Compiler's comment: Table 2 of the reference quotes
+           the decay data of Hf-181 in place of Hf-180m and
+           vice versa. Assuming that this is a misprint only in
+           the publication and authors used correct values in
+           determining the cross sections, the actual decay data
+           of the respective product nuclides were restored.
+            (O.S., March 2010)
+HISTORY    (19890424A) Resonance integral energy corrected.
+           (20100329A) Decay-data replaced, COMMENT added
+ENDBIB              12
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.025      6.90       0.60
+ENDDATA              3
+ENDSUBENT           20
+SUBENT        12866178   20100329   20100405   20100330       1360
+BIB                  6         16
+REACTION   (72-HF-180(N,G)72-HF-181,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 35.24% abundance.
+DECAY-DATA (72-HF-181,4.245E+01D,DG,482.16,0.830)
+COMMENT    Compiler's comment: Table 2 of the reference quotes
+           the decay data of Hf-181 in place of Hf-180m and
+           vice versa. Assuming that this is a misprint only in
+           the publication and authors used correct values in
+           determining the cross sections, the actual decay data
+           of the respective product nuclides were restored.
+           (O.S., March 2010)
+MONITOR    ((72-HF-180(N,G)72-HF-181,,RI)/
+           (72-HF-180(N,G)72-HF-181,,SIG))
+           Ratio adopted from E.Steinnes, J.Inorg.Nucl.Chem., 34,
+             2699 (1972).
+HISTORY    (19851106A) Monitor corrected.
+           (20100329A) Decay-data replaced, COMMENT added
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      13.1       0.1
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        12866179   20100329   20100405   20100330       1360
+BIB                  6         17
+REACTION   (72-HF-180(N,G)72-HF-181,,RI)
+SAMPLE     Natural sample, assumed 35.24% abundance.
+DECAY-DATA (72-HF-181,4.245E+01D,DG,482.16,0.830)
+COMMENT    Compiler's comment: Table 2 of the reference quotes
+           the decay data of Hf-181 in place of Hf-180m and
+           vice versa. Assuming that this is a misprint only in
+           the publication and authors used correct values in
+           determining the cross sections, the actual decay data
+           of the respective product nuclides were restored.
+            (O.S., March 2010)
+MONITOR    ((72-HF-180(N,G)72-HF-181,,RI)/
+           (72-HF-180(N,G)72-HF-181,,SIG))
+           Ratio adopted from E.Steinnes, J.Inorg.Nucl.Chem., 34,
+             2699 (1972).
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+           (20100329A) Decay-data replaced, COMMENT added
+ENDBIB              17
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        33.7       2.1
+ENDDATA              3
+ENDSUBENT           25
+SUBENT        12866180   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (73-TA-181(N,G)73-TA-182,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 100% abundance.
+DECAY-DATA (73-TA-182-G,1.150E+02D,DG,1121.28,0.352)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      19.1       1.0
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866181   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (73-TA-181(N,G)73-TA-182,,RI)
+SAMPLE     Natural sample, assumed 100% abundance.
+DECAY-DATA (73-TA-182-G,1.150E+02D,DG,1121.28,0.352)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        625.       20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866182   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (74-W-186(N,G)74-W-187,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 28.4% abundance.
+DECAY-DATA (74-W-187,9.880-01D,DG,685.70,0.320)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      36.6       0.8
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866183   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (74-W-186(N,G)74-W-187,,RI)
+SAMPLE     Natural sample, assumed 28.4% abundance.
+DECAY-DATA (74-W-187,9.880-01D,DG,685.70,0.320)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        426.       32.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866184   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (75-RE-185(N,G)75-RE-186,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 37.07% abundance.
+DECAY-DATA (75-RE-186-G,3.700+00D,DG,137.16,0.092)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.025      116.       5.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866185   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (75-RE-185(N,G)75-RE-186,,RI)
+SAMPLE     Natural sample, assumed 37.07% abundance.
+DECAY-DATA (75-RE-186-G,3.700+00D,DG,137.16,0.092)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        1810.      150.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866186   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (75-RE-187(N,G)75-RE-188,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 62.93% abundance.
+DECAY-DATA (75-RE-188-G,7.040-01D,DG,155.00,0.150)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      75.        1.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866187   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (75-RE-187(N,G)75-RE-188,,RI)
+SAMPLE     Natural sample, assumed 62.93% abundance.
+DECAY-DATA (75-RE-188-G,7.040-01D,DG,155.00,0.150)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        318.       50.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866188   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (77-IR-191(N,G)77-IR-192,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 37.30% abundance.
+DECAY-DATA (77-IR-192-G,7.400+01D,DG,316.49,0.858)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      922.       13.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866189   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (77-IR-191(N,G)77-IR-192,,RI)
+SAMPLE     Natural sample, assumed 37.30% abundance.
+DECAY-DATA (77-IR-192-G,7.400+01D,DG,316.49,0.858)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        5320.      480.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866190   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (77-IR-193(N,G)77-IR-194,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 62.70% abundance.
+DECAY-DATA (77-IR-194-G,8.075-01D,DG,328.50,0.130)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      110.       3.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866191   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (77-IR-193(N,G)77-IR-194,,RI)
+SAMPLE     Natural sample, assumed 62.70% abundance.
+DECAY-DATA (77-IR-194-G,8.075-01D,DG,328.50,0.130)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        2110.      100.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866192   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (78-PT-190(N,G)78-PT-191,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 0.0127% abundance.
+DECAY-DATA (78-PT-191,3.000+00D,DG,538.87,0.134)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      152.       4.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866193   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (78-PT-190(N,G)78-PT-191,,RI)
+SAMPLE     Natural sample, assumed 0.0127% abundance.
+DECAY-DATA (78-PT-191,3.000+00D,DG,538.87,0.134)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        67.        5.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866194   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (78-PT-194(N,G)78-PT-195-M,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 32.90% abundance.
+DECAY-DATA (78-PT-195-M,4.100+00D,DG,98.85,0.111)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.036      0.004
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866195   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (78-PT-194(N,G)78-PT-195-M,,RI)
+SAMPLE     Natural sample, assumed 32.90% abundance.
+DECAY-DATA (78-PT-195-M,4.100+00D,DG,98.85,0.111)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        5.13       0.20
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866196   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (78-PT-196(N,G)78-PT-197,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 25.30% abundance.
+DECAY-DATA (78-PT-197-G,8.190-01D,DG,191.44,0.057)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      0.397      0.010
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866197   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (78-PT-196(N,G)78-PT-197,,RI)
+SAMPLE     Natural sample, assumed 25.30% abundance.
+DECAY-DATA (78-PT-197-G,8.190-01D,DG,191.44,0.057)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        5.56       0.40
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866198   20091022   20100405   20100330       1360
+BIB                  3          4
+REACTION   (78-PT-198(N,G)78-PT-199,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 7.21% abundance.
+DECAY-DATA (78-PT-199-G,2.139-02D,DG,542.98,0.113)
+           (79-AU-199,3.150+00D,DG,158.73,0.393)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      3.17       0.06
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866199   20091022   20100405   20100330       1360
+BIB                  4          5
+REACTION   (78-PT-198(N,G)78-PT-199,,RI)
+SAMPLE     Natural sample, assumed 7.21% abundance.
+DECAY-DATA (78-PT-199-G,2.139-02D,DG,542.98,0.113)
+           (79-AU-199,3.150+00D,DG,158.73,0.393)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        63.6       2.4
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        12866200   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (80-HG-196(N,G)80-HG-197-M,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 0.146% abundance.
+DECAY-DATA (80-HG-197-M,1.000+00D,DG,133.94,0.341)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      107.3      1.5
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866201   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (80-HG-196(N,G)80-HG-197-M,,RI)
+SAMPLE     Natural sample, assumed 0.146% abundance.
+DECAY-DATA (80-HG-197-M,1.000+00D,DG,133.94,0.341)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        47.2       2.2
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866202   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (80-HG-196(N,G)80-HG-197-G,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 0.146% abundance.
+DECAY-DATA (80-HG-197-G,2.710E+00D,DG,191.50,0.0089)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      2290.      32.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866203   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (80-HG-196(N,G)80-HG-197-G,,RI)
+SAMPLE     Natural sample, assumed 0.146% abundance.
+DECAY-DATA (80-HG-197-G,2.710E+00D,DG,191.50,0.0089)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        1010.      50.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866204   20091022   20100405   20100330       1360
+BIB                  5          8
+REACTION   (80-HG-202(N,G)80-HG-203,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 29.80% abundance.
+DECAY-DATA (80-HG-203,4.659E+01D,DG,279.17,0.810)
+MONITOR    ((80-HG-202(N,G)80-HG-203,,RI)/
+           (80-HG-202(N,G)80-HG-203,,SIG))
+           Ratio adopted from G.H.E.Sims+, J.Inorg.Nucl.Chem.,
+             30, 349, 1968.
+HISTORY    (19851106A) Monitor corrected.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      4.91       0.05
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        12866205   20091022   20100405   20100330       1360
+BIB                  5          9
+REACTION   (80-HG-202(N,G)80-HG-203,,RI)
+SAMPLE     Natural sample, assumed 29.80% abundance.
+DECAY-DATA (80-HG-203,4.659E+01D,DG,279.17,0.810)
+MONITOR    ((80-HG-202(N,G)80-HG-203,,RI)/
+           (80-HG-202(N,G)80-HG-203,,SIG))
+           Ratio adopted from G.H.E.Sims+, J.Inorg.Nucl.Chem.,
+             30, 349, 1968.
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy corrected.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        4.3        0.4
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        12866206   20091022   20100405   20100330       1360
+BIB                  3          3
+REACTION   (90-TH-232(N,G)90-TH-233,,SIG,,SPA)
+SAMPLE     Natural sample, assumed 100% abundance.
+DECAY-DATA (91-PA-233,2.700E+01D,DG,311.90,0.380)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+EV         B          B
+0.025      7.4        0.08
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12866207   20091022   20100405   20100330       1360
+BIB                  4          4
+REACTION   (90-TH-232(N,G)90-TH-233,,RI)
+SAMPLE     Natural sample, assumed 100% abundance.
+DECAY-DATA (91-PA-233,2.700E+01D,DG,311.90,0.380)
+HISTORY    (19890424A) Resonance integral energy corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     DATA       DATA-ERR
+EV         B          B
+0.5        87.6       3.8
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12866208   20100619   20100917   20100801       1365
+BIB                  4         13
+REACTION   (92-U-235(N,F),,SIG,,SPA)
+SAMPLE     Natural sample, assumed 0.72% abundance.
+MONITOR    (92-U-235(N,G)92-U-236,,SIG)
+           (92-U-235(N,G)92-U-236,,RI)
+           Cross sections adopted from Handbook on
+            Nuclear Activation Cross Sections, Technical Report
+            Series, No.156, IAEA, 1974: R.Sher, p.2, and
+            H.Albinsson, p.15.
+           Fission yield values taken from E.A.C.Crouch, At.Nucl.
+             Data Tables, 19, 441, 1977.
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Reaction corrected.
+           (20100617A) OS. Reaction corrected (SF4 deleted)
+ENDBIB              13
+NOCOMMON             0          0
+DATA                 2          1
+EN-DUMMY   DATA
+EV         B
+0.025      580.
+ENDDATA              3
+ENDSUBENT           21
+SUBENT        12866209   20100619   20100917   20100801       1365
+BIB                  4         13
+REACTION   (92-U-235(N,F),,RI)
+SAMPLE     Natural sample, assumed 0.72% abundance.
+MONITOR    (92-U-235(N,G)92-U-236,,SIG)
+           (92-U-235(N,G)92-U-236,,RI)
+           Cross sections adopted from Handbook on
+            Nuclear Activation Cross Sections, Technical Report
+            Series, No.156, IAEA, 1974: R.Sher, p.2, and
+            H.Albinsson, p.15.
+           Fission yield values taken from E.A.C.Crouch, At.Nucl.
+             Data Tables, 19, 441, 1977.
+HISTORY    (19851106A) Monitor corrected.
+           (19890424A) Resonance integral energy, reaction correct
+           (20100617A) OS. Reaction corrected (SF4 deleted)
+ENDBIB              13
+NOCOMMON             0          0
+DATA                 2          1
+EN-MIN     DATA
+EV         B
+0.5        275.
+ENDDATA              3
+ENDSUBENT           21
+ENDENTRY           207

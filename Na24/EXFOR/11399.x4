@@ -1,0 +1,653 @@
+ENTRY            11399     870505              20050926       0000
+SUBENT        11399001     870505              20050926       0000
+BIB                  9         13
+INSTITUTE  (1USAORL)
+REFERENCE  (J,PR,107,504,57)
+           (P,ORNL-2302,27,57)
+AUTHOR     (R.L.MACKLIN,N.H.LAZAR,W.S.LYON)
+TITLE      NEUTRON ACTIVATION CROSS SECTIONS WITH SB-BE NEUTRONS.
+INC-SOURCE (PHOTO) SB-BE SOURCE
+METHOD     (ACTIV)
+DETECTOR   (NAICR)
+STATUS     (SCSRS)
+HISTORY    (760714T) TRANSLATED FROM SCISRS
+           (820324A) CONVERTED TO REACTION FORMALISM
+           (860612A) BIB UPDATE.
+           (870505A) BIB UPDATE.
+ENDBIB              13
+NOCOMMON             0          0
+ENDSUBENT           16
+SUBENT        11399002     870505              20050926       0000
+BIB                  3          3
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG)
+DECAY-DATA (11-NA-24-G,,DG,1380.,1.0)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 1.0    -03 2.     -04820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399003     870505              20050926       0000
+BIB                  3          3
+REACTION   (12-MG-26(N,G)12-MG-27,,SIG)
+DECAY-DATA (12-MG-27,,DG,830.,0.70)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA-MAX   MONIT
+MEV        B          MB
+ 2.4    -02 1.4    -02820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399004     870505              20050926       0000
+BIB                  3          3
+REACTION   (13-AL-27(N,G)13-AL-28,,SIG)
+DECAY-DATA (13-AL-28,,DG,1780.,1.0)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 1.4    -03 2.     -04820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399005     870505              20050926       0000
+BIB                  3          3
+REACTION   (17-CL-37(N,G)17-CL-38,,SIG)
+DECAY-DATA (17-CL-38-G,,DG,2100.,0.47)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 1.1    -03 2.     -04820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399006     870505              20050926       0000
+BIB                  3          3
+REACTION   (19-K-41(N,G)19-K-42,,SIG)
+DECAY-DATA (19-K-42,,DG,1520.,0.20)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA-MAX   MONIT
+MEV        B          MB
+ 2.4    -02 2.0    -02820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399007     870505              20050926       0000
+BIB                  3          3
+REACTION   (22-TI-50(N,G)22-TI-51,,SIG)
+DECAY-DATA (22-TI-51,,DG,320.,0.95)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 5.     -03 3.     -03820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399008     870505              20050926       0000
+BIB                  3          3
+REACTION   (23-V-51(N,G)23-V-52,,SIG)
+DECAY-DATA (23-V-52,,DG,1450.,1.0)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 5.0    -02 5.     -03820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399009     870505              20050926       0000
+BIB                  4          4
+REACTION   (25-MN-55(N,G)25-MN-56,,SIG)
+DECAY-DATA (25-MN-56,,DG,820.,1.0)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (820514U) DECAY-DATA CORRECTED
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 5.5    -02 6.     -03820.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11399010     870505              20050926       0000
+BIB                  3          3
+REACTION   (29-CU-63(N,G)29-CU-64,,SIG)
+DECAY-DATA (29-CU-64,,AR,,0.38)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 1.16   -01 1.2    -02820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399011     870505              20050926       0000
+BIB                  3          3
+REACTION   (29-CU-65(N,G)29-CU-66,,SIG)
+DECAY-DATA (29-CU-66,,DG,1040.,0.10)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 4.6    -02 5.     -03820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399013     870505              20050926       0000
+BIB                  4          4
+REACTION   (31-GA-71(N,G)31-GA-72,,SIG)
+REFERENCE  (J,PR,114,1619,59)
+DECAY-DATA (31-GA-72-G,,DG,2500.,0.30)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 1.40   -01 3.0    -02820.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11399014     820514              20050926       0000
+BIB                  4          4
+REACTION   (32-GE-74(N,G)32-GE-75,,SIG)
+DECAY-DATA (32-GE-75-G,,DG,274.,0.112)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (820514U) DECAY-DATA CORRECTED
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 5.4    -02 8.     -03820.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11399015     870505              20050926       0000
+BIB                  3          3
+REACTION   (33-AS-75(N,G)33-AS-76,,SIG)
+DECAY-DATA (33-AS-76,,DG,550.,0.446)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 7.40   -01 7.0    -02820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399016     870505              20050926       0000
+BIB                  3          3
+REACTION   (35-BR-81(N,G)35-BR-82,,SIG)
+DECAY-DATA (35-BR-82-G,,DG,1030.,0.255)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 5.50   -01 5.5    -02820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399017     870505              20050926       0000
+BIB                  3          3
+REACTION   (37-RB-85(N,G)37-RB-86,,SIG)
+DECAY-DATA (37-RB-86-G,,DG,1080.,0.15)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 1.81   -01 3.5    -02820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399018     870505              20050926       0000
+BIB                  3          3
+REACTION   (37-RB-87(N,G)37-RB-88,,SIG)
+DECAY-DATA (37-RB-88,,DG,1850.,0.23)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 7.5    -02 1.5    -02820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399020     870505              20050926       0000
+BIB                  4          4
+REACTION   (40-ZR-94(N,G)40-ZR-95,,SIG)
+REFERENCE  (J,PR,114,1619,59)
+DECAY-DATA (40-ZR-95,,DG,750.,0.97)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 2.4    -02 4.     -03820.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11399021     870505              20050926       0000
+BIB                  3          3
+REACTION   (40-ZR-96(N,G)40-ZR-97,,SIG)
+DECAY-DATA (41-NB-97-G,,DG,660.,1.0)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 2.2    -02 4.     -03820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399022     870505              20050926       0000
+BIB                  3          3
+REACTION   (42-MO-98(N,G)42-MO-99,,SIG)
+DECAY-DATA (42-MO-99,,DG,140./180.,0.72)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 2.09   -01 2.1    -02820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399023     870505              20050926       0000
+BIB                  4          6
+REACTION   (42-MO-100(N,G)42-MO-101,,SIG)
+DECAY-DATA (42-MO-101,,DG,192.,1.0)
+           (43-TC-100,,DG,300.,1.0)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+FLAG       (1.) DETECTED 0.192-MEV GAMMA FROM MO-101.
+           (2.) DETECTED 0.30-MEV GAMMA FROM TC-100.
+ENDBIB               6
+COMMON               2          3
+EN         MONIT
+MEV        MB
+ 2.4    -02820.
+ENDCOMMON            3
+DATA                 3          2
+DATA       DATA-ERR   FLAG
+B          B          NO-DIM
+ 3.8    -02 8.     -03 1.
+ 4.5    -02 9.     -03 2.
+ENDDATA              4
+ENDSUBENT           19
+SUBENT        11399024     870505              20050926       0000
+BIB                  3          3
+REACTION   (44-RU-96(N,G)44-RU-97,,SIG)
+DECAY-DATA (44-RU-97,,DG,216.,0.92)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 3.21   -01 6.0    -02820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399025     870505              20050926       0000
+BIB                  3          3
+REACTION   (44-RU-102(N,G)44-RU-103,,SIG)
+DECAY-DATA (44-RU-103,,DG,498.,0.90)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 3.86   -01 3.9    -02820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399026     870505              20050926       0000
+BIB                  3          3
+REACTION   (44-RU-104(N,G)44-RU-105,,SIG)
+DECAY-DATA (44-RU-105,,DG,730.,1.0)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 2.11   -01 2.1    -02820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399028     870505              20050926       0000
+BIB                  4          4
+REACTION   (46-PD-108(N,G)46-PD-109,,SIG)
+REFERENCE  (J,PR,114,1619,59)
+DECAY-DATA (46-PD-109-G,,DG,88.,0.046)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 2.90   -01 3.5    -02820.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11399029     870505              20050926       0000
+BIB                  4          4
+REACTION   (47-AG-107(N,G)47-AG-108-G,,SIG)
+DECAY-DATA (47-AG-108-G,,DG,610.,0.0225)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (870505A) REACTION CORRECTED.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 9.30   -01 1.80   -01820.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11399030     870505              20050926       0000
+BIB                  4          4
+REACTION   (49-IN-115(N,G)49-IN-116-M1+M2,,SIG)
+DECAY-DATA (49-IN-116-M1,54.MIN,DG,1280.,0.848)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (870505A) DECAY DATA CORRECTED.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 8.05   -01 8.0    -02820.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11399031     820514              20050926       0000
+BIB                  4          4
+REACTION   (51-SB-121(N,G)51-SB-122,,SIG)
+DECAY-DATA (51-SB-122-G,,DG,570.,0.664)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (820514U) DECAY-DATA CORRECTED
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 9.50   -01 1.00   -01820.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11399032     820514              20050926       0000
+BIB                  4          4
+REACTION   (51-SB-123(N,G)51-SB-124,,SIG)
+DECAY-DATA (51-SB-124-G,,DG,603.,1.0)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (820514U) DECAY-DATA CORRECTED
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 4.56   -01 4.6    -02820.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11399033     820324              20050926       0000
+BIB                  3          3
+REACTION   (53-I-127(N,G)53-I-128,,SIG)
+METHOD     (MANGB).
+DECAY-DATA (53-I-128,,DG,455.,0.172)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.4    -02 8.2    -01 6.     -02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399034     870505              20050926       0000
+BIB                  3          3
+REACTION   (56-BA-138(N,G)56-BA-139,,SIG)
+DECAY-DATA (56-BA-139,,DG,165.,0.23)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 1.14   -02 1.1    -03820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399035     870505              20050926       0000
+BIB                  3          3
+REACTION   (57-LA-139(N,G)57-LA-140,,SIG)
+DECAY-DATA (57-LA-140,,DG,1600.,0.882)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 5.0    -02 7.     -03820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399036     870505              20050926       0000
+BIB                  3          3
+REACTION   (58-CE-140(N,G)58-CE-141,,SIG)
+DECAY-DATA (58-CE-141,,DG,145.,0.615)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 3.1    -02 4.     -03820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399037     870505              20050926       0000
+BIB                  3          3
+REACTION   (58-CE-142(N,G)58-CE-143,,SIG)
+DECAY-DATA (58-CE-143,,DG,290.,0.426)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 4.25   -01 4.3    -02820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399038     870505              20050926       0000
+BIB                  6          6
+REACTION   (59-PR-141(N,G)59-PR-142,,SIG)
+REFERENCE  (J,PR,114,1619,5906)
+DECAY-DATA (59-PR-142-G,19.HR,DG,1590.,0.04)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+CORRECTION CORRECTED FOR LA CONTAMINENT.
+HISTORY    (820514U) DECAY-DATA CORRECTED
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 1.55   -01 1.5    -02820.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11399040     870505              20050926       0000
+BIB                  3          3
+REACTION   (62-SM-152(N,G)62-SM-153,,SIG)
+DECAY-DATA (62-SM-153,,DG,105.,0.357)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 6.68   -01 1.00   -01820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399041     870505              20050926       0000
+BIB                  3          3
+REACTION   (62-SM-154(N,G)62-SM-155,,SIG)
+DECAY-DATA (62-SM-155,,DG,250.,0.037)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 5.27   -01 7.0    -02820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399042     870505              20050926       0000
+BIB                  3          3
+REACTION   (64-GD-158(N,G)64-GD-159,,SIG)
+DECAY-DATA (64-GD-159,,DG,364.,0.123)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 7.10   -01 7.1    -02820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399043     870505              20050926       0000
+BIB                  3          3
+REACTION   (68-ER-170(N,G)68-ER-171,,SIG)
+DECAY-DATA (68-ER-171,,DG,308./295.,0.91)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 2.98   -01 3.0    -02820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399044     870505              20050926       0000
+BIB                  3          3
+REACTION   (72-HF-180(N,G)72-HF-181,,SIG)
+DECAY-DATA (72-HF-181,,DG,482.,0.85)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 4.41   -01 6.6    -02820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399045     870505              20050926       0000
+BIB                  3          3
+REACTION   (74-W-186(N,G)74-W-187,,SIG)
+DECAY-DATA (74-W-187,,DG,686.,0.288)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 2.96   -01 4.4    -02820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399046     870505              20050926       0000
+BIB                  4          4
+REACTION   (75-RE-185(N,G)75-RE-186-G,,SIG)
+DECAY-DATA (75-RE-186-G,,DG,137.,0.105)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (870505A) REACTION CORRECTED.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 2.650  +00 5.0    -01820.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11399047     870505              20050926       0000
+BIB                  3          3
+REACTION   (75-RE-187(N,G)75-RE-188,,SIG)
+DECAY-DATA (75-RE-188-G,,DG,155.,0.162)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 9.70   -01 2.0    -01820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399048     870505              20050926       0000
+BIB                  3          3
+REACTION   (76-OS-190(N,G)76-OS-191,,SIG)
+DECAY-DATA (76-OS-191-G,,DG,129.,0.224)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 8.86   -01 1.3    -01820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399049     870505              20050926       0000
+BIB                  4          4
+REACTION   (79-AU-197(N,G)79-AU-198-G,(M),SIG)
+DECAY-DATA (79-AU-198-G,,DG,411.,0.95)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (870505A) REACTION CORRECTED.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 24.    -03 1.12       0.11      820.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11399050     870505              20050926       0000
+BIB                  3          3
+REACTION   (80-HG-202(N,G)80-HG-203,,SIG)
+DECAY-DATA (80-HG-203,,DG,279.,0.828)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 5.7    -02 1.3    -02820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399051     870505              20050926       0000
+BIB                  3          3
+REACTION   (90-TH-232(N,G)90-TH-233,,SIG)
+DECAY-DATA (91-PA-233,27.D,DG,310.,0.90)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 5.00   -01 1.00   -01820.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11399052     870505              20050926       0000
+BIB                  3          3
+REACTION   (92-U-238(N,G)92-U-239,,SIG)
+DECAY-DATA (93-NP-239,,DG,210./270.)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.4    -02 6.10   -01 6.1    -02820.
+ENDDATA              3
+ENDSUBENT           11
+ENDENTRY            48

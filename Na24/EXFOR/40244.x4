@@ -1,0 +1,1194 @@
+ENTRY            40244   20110113   20111215   20111212       4154
+SUBENT        40244001   20110113   20111215   20111212       4154
+BIB                 10         36
+TITLE       Radiative capture cross-section measurements
+            for fast neutrons.
+AUTHOR     (A.I.Leipunskiy, O.D.Kazachkovskiy,
+           G.Ja.Artyukhov, A.I.Baryshnikov, T.S.Belanova,
+           V.I.Galkov, Yu.Ja.Stavisskiy, E.A.Stumbur, L.E.Sherman)
+INSTITUTE  (4RUSFEI)
+EXP-YEAR   (1957)
+REFERENCE  (C,58GENEVA,15,50(2219),195809)
+METHOD     (ACTIV) Activation Method
+FACILITY   (LINAC)
+ADD-RES     Activation c-s are given - measured in broad spectra
+            of neutrons: fission neutrons of natural U converter,
+            in the center of the core of fast reactor BR-1 by
+            U and Cu blankets, in the blanket of BR-2 reactor -
+            Tables 6 - 9.
+STATUS     (COREL,40421001) Entry 40421-Revised data from Table 4
+           of C,58GENEVA, excluding data for Co-59( SUB. 40244127)
+           (COREL,40374001) Data of Table 5 of C,58GENEVA.
+HISTORY    (19820602C) Compiled at the CJD
+           (19840612A) New Subentries added from ENTRY 80134
+           (19861203A) One letter in 'Lejpunskij' name corrected.
+                     Reaction codes in SAN 078,099 revised.
+                     SAN 071 deleted due to data repetition .
+           (19950926A) Many data points corrected in accordance
+                     to Memo 4C-3/373
+           (19960124A) Data in SAN 021  corrected in accordance
+                     to Memo 4C-3/379
+           (20061120A) Corrections in according to Memos CP-C/378
+                        and CP-N/54.
+                       Dates were corrected for 4-digits year.M.M.
+           (20080411A) M.M. Data of SUBENT 004 was deleted as
+                      superseded by 40244087.
+           (20100322A) Superseded data (from NEUDADA file) were
+                        deleted - Subents 002-027, 029-062, 064.
+           (20111013A) M.M. Misprint in page of REL-REF was
+           corrected in Subents 28, 65-84.
+ENDBIB              36
+NOCOMMON             0          0
+ENDSUBENT           39
+SUBENT        40244028   20110113   20111215   20111212       4154
+BIB                  5          7
+REACTION   (29-CU-65(N,G)29-CU-66,,SIG)
+STATUS     (TABLE) Table 1 of C,58GENEVA
+           (NDD)            RUNID= E01009
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (12028001,H.C.Martin+,J,PR,89,1302,1953)
+HISTORY    (20100322A) Data were corrected as in Table 1 of
+                       C,58GENEVA.  MONIT was added.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-RSL     DATA       DATA-ERR   MONIT
+MEV        MEV        B          B          B
+ 0.20       3.    E-02 1.39  E-02 1.5   E-03  0.40
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40244063   20100322   20100915   20100913       4149
+BIB                  4          5
+REACTION   (53-I-127(N,G)53-I-128,,SIG)
+STATUS     (TABLE) Text of C,58GENEVA, page 51.
+           (NDD)            RUNID= E01044
+MONITOR    (92-U-238(N,F),,SIG)
+HISTORY    (20100322A) Data were corrected as given in text.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          2
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.7        4.7   E-02 2.    E-03
+ 4.0        2.3   E-02 1.    E-03
+ENDDATA              4
+ENDSUBENT           14
+SUBENT        40244065   20110113   20111215   20111212       4154
+BIB                  5          6
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+HISTORY    (19840612T) Converted from SUBENTRY 80134002
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (12028001,H.C.Martin+,J,PR,89,1302,1953)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.0000E-01 3.0000E-02 1.8000E-03 1.8000E-04
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        40244066   20110113   20111215   20111212       4154
+BIB                  5          8
+REACTION   (12-MG-26(N,G)12-MG-27,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+HISTORY    (19840612T) Converted from SUBENTRY 80134003
+           (20061120A) Misprint in Reaction code was corrected
+                       according to Table 1 of Reference. M.M.
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (12028001,H.C.Martin+,J,PR,89,1302,1953)
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.0000E-01 3.0000E-02 8.2000E-03 1.2000E-03
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40244067   20110113   20111215   20111212       4154
+BIB                  5          6
+REACTION   (13-AL-27(N,G)13-AL-28,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+HISTORY    (19840612T) Converted from SUBENTRY 80134004
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (12028001,H.C.Martin+,J,PR,89,1302,1953)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.0000E-01 3.0000E-02 5.6000E-03 5.6000E-04
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        40244068   20110113   20111215   20111212       4154
+BIB                  5          6
+REACTION   (14-SI-30(N,G)14-SI-31,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+HISTORY    (19840612T) Converted from SUBENTRY 80134005
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (12028001,H.C.Martin+,J,PR,89,1302,1953)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.0000E-01 3.0000E-02 5.5000E-03 5.0000E-04
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        40244069   20110113   20111215   20111212       4154
+BIB                  5          6
+REACTION   (17-CL-37(N,G)17-CL-38,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+HISTORY    (19840612T) Converted from SUBENTRY 80134006
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (12028001,H.C.Martin+,J,PR,89,1302,1953)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.0000E-01 3.0000E-02 4.3100E-03 4.0000E-05
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        40244070   20110113   20111215   20111212       4154
+BIB                  5          6
+REACTION   (23-V-51(N,G)23-V-52,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+HISTORY    (19840612T) Converted from SUBENTRY 80134007
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (12028001,H.C.Martin+,J,PR,89,1302,1953)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.0000E-01 3.0000E-02 1.0000E-02 8.0000E-04
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        40244072   20110113   20111215   20111212       4154
+BIB                  6          7
+REACTION   (28-NI-64(N,G)28-NI-65,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) source
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (12028001,H.C.Martin+,J,PR,89,1302,1953)
+HISTORY    (19840612T) Converted from SUBENTRY 80134009
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.0000E-01 3.0000E-02 4.3500E-02 4.1000E-03
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40244073   20110113   20111215   20111212       4154
+BIB                  6          7
+REACTION   (30-ZN-68(N,G)30-ZN-69,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) source
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (12028001,H.C.Martin+,J,PR,89,1302,1953)
+HISTORY    (19840612T) Converted from SUBENTRY 80134011
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.0000E-01 3.0000E-02 3.5000E-02 4.5000E-03
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40244074   20110113   20111215   20111212       4154
+BIB                  6          7
+REACTION   (35-BR-79(N,G)35-BR-80,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) source
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (12028001,H.C.Martin+,J,PR,89,1302,1953)
+HISTORY    (19840612T) Converted from SUBENTRY 80134012
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.0000E-01 3.0000E-02 3.2800E-01 8.0000E-03
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40244075   20110113   20111215   20111212       4154
+BIB                  6          7
+REACTION   (35-BR-81(N,G)35-BR-82,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) source
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (12028001,H.C.Martin+,J,PR,89,1302,1953)
+HISTORY    (19840612T) Converted from SUBENTRY 80134013
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.0000E-01 3.0000E-02 1.4000E-01 1.2000E-02
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40244076   20110113   20111215   20111212       4154
+BIB                  6          7
+REACTION   (42-MO-100(N,G)42-MO-101,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T)
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (12028001,H.C.Martin+,J,PR,89,1302,1953)
+HISTORY    (19840612T) Converted from SUBENTRY 80134014
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.0000E-01 3.0000E-02 5.1600E-02 2.1000E-03
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40244077   20110113   20111215   20111212       4154
+BIB                  6          7
+REACTION   (47-AG-107(N,G)47-AG-108,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) source
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (12028001,H.C.Martin+,J,PR,89,1302,1953)
+HISTORY    (19840612T) Converted from SUBENTRY 80134015
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.0000E-01 3.0000E-02 3.9000E-01 1.3000E-02
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40244078   20110113   20111215   20111212       4154
+BIB                  7          9
+REACTION   (49-IN-115(N,G)49-IN-116-M,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) source
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (12028001,H.C.Martin+,J,PR,89,1302,1953)
+HISTORY    (19840612T) Converted from SUBENTRY 80134016
+                     Metastable Level In RESID-NUC Introduced
+DECAY-DATA (49-IN-116-M,54.0MIN)
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.0000E-01 3.0000E-02 2.3400E-01 1.5600E-02
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        40244079   20110113   20111215   20111212       4154
+BIB                  6          7
+REACTION   (56-BA-138(N,G)56-BA-139,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) source
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (12028001,H.C.Martin+,J,PR,89,1302,1953)
+HISTORY    (19840612T) Converted from SUBENTRY 80134017
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.0000E-01 3.0000E-02 5.1600E-03 8.0000E-04
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40244080   20110113   20111215   20111212       4154
+BIB                  6          7
+REACTION   (74-W-186(N,G)74-W-187,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) source
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (12028001,H.C.Martin+,J,PR,89,1302,1953)
+HISTORY    (19840612T) Converted from SUBENTRY 80134018
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.0000E-01 3.0000E-02 1.8000E-01 1.3000E-02
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40244081   20110113   20111215   20111212       4154
+BIB                  6          7
+REACTION   (80-HG-204(N,G)80-HG-205,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) source
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (12028001,H.C.Martin+,J,PR,89,1302,1953)
+HISTORY    (19840612T) Converted from SUBENTRY 80134019
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA-MAX
+MEV        MEV        B
+ 2.0000E-01 3.0000E-02 2.5000E-01
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40244082   20110113   20111215   20111212       4154
+BIB                  6          7
+REACTION   (82-PB-208(N,G)82-PB-209,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) source
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (12028001,H.C.Martin+,J,PR,89,1302,1953)
+HISTORY    (19840612T) Converted from SUBENTRY 80134020
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.0000E-01 3.0000E-02 7.5000E-03 3.8000E-03
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40244083   20110113   20111215   20111212       4154
+BIB                  6          7
+REACTION   (90-TH-232(N,G)90-TH-233,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) source
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (12028001,H.C.Martin+,J,PR,89,1302,1953)
+HISTORY    (19840612T) Converted from SUBENTRY 80134021
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.0000E-01 3.0000E-02 2.1700E-01 1.1000E-02
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40244084   20110113   20111215   20111212       4154
+BIB                  6          7
+REACTION   (92-U-238(N,G)92-U-239,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) source
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (12028001,H.C.Martin+,J,PR,89,1302,1953)
+HISTORY    (19840612T) Converted from SUBENTRY 80134022
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.0000E-01 3.0000E-02 1.9400E-01 8.0000E-03
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40244085   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (D-D) D(D,N) SOURCE
+MONITOR    ((MONIT)53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (40244063,A.I.LeipunskiY+,C,58GENEVA,15,50(2219),1958)
+            Measured at this experiment, see Subent 063.
+HISTORY    (19840612T) Converted From SUBENTRY 80134023
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          2
+EN         DATA-MAX   MONIT      MONIT-ERR
+MEV        B          B          B
+ 2.7000E+00 2.3000E-04 4.7000E-02 2.0000E-03
+ 4.0000E+00 1.2000E-04 2.3000E-02 1.0000E-03
+ENDDATA              4
+ENDSUBENT           17
+SUBENT        40244086   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (12-MG-26(N,G)12-MG-27,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (D-D) D(D,N) SOURCE
+MONITOR    ((MONIT)53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (40244063,A.I.LeipunskiY+,C,58GENEVA,15,50(2219),1958)
+            Measured at this experiment, see Subent 063.
+HISTORY    (19840612T) Converted From SUBENTRY  80134024
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 5          2
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR
+MEV        B          B          B          B
+ 2.7000E+00 3.5000E-04 9.0000E-05 4.7000E-02 2.0000E-03
+ 4.0000E+00 2.5000E-04 5.0000E-05 2.3000E-02 1.0000E-03
+ENDDATA              4
+ENDSUBENT           17
+SUBENT        40244087   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (13-AL-27(N,G)13-AL-28,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (D-D) D(D,N) SOURCE
+MONITOR    ((MONIT)53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (40244063,A.I.LeipunskiY+,C,58GENEVA,15,50(2219),1958)
+            Measured at this experiment, see Subent 063.
+HISTORY    (19840612T) Converted From SUBENTRY 80134025
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          2
+EN         DATA-MAX   MONIT      MONIT-ERR
+MEV        B          B          B
+ 2.7000E+00 3.5000E-03 4.7000E-02 2.0000E-03
+ 4.0000E+00 1.8000E-03 2.3000E-02 1.0000E-03
+ENDDATA              4
+ENDSUBENT           17
+SUBENT        40244088   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (14-SI-30(N,G)14-SI-31,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (D-D) D(D,N) SOURCE
+MONITOR    ((MONIT)53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (40244063,A.I.LeipunskiY+,C,58GENEVA,15,50(2219),1958)
+            Measured at this experiment, see Subent 063.
+HISTORY    (19840612T) Converted From SUBENTRY 80134026
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 5          2
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR
+MEV        B          B          B          B
+ 2.7000E+00 3.0000E-04 3.0000E-04 4.7000E-02 2.0000E-03
+ 4.0000E+00 6.7000E-04 1.0000E-04 2.3000E-02 1.0000E-03
+ENDDATA              4
+ENDSUBENT           17
+SUBENT        40244089   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (17-CL-37(N,G)17-CL-38,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (D-D) D(D,N) SOURCE
+MONITOR    ((MONIT)53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (40244063,A.I.LeipunskiY+,C,58GENEVA,15,50(2219),1958)
+            Measured at this experiment, see Subent 063.
+HISTORY    (19840612T) Converted From SUBENTRY 80134027
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 5          2
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR
+MEV        B          B          B          B
+ 2.7000E+00 6.5000E-04 9.0000E-05 4.7000E-02 2.0000E-03
+ 4.0000E+00 3.4000E-04 9.0000E-05 2.3000E-02 1.0000E-03
+ENDDATA              4
+ENDSUBENT           17
+SUBENT        40244090   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (23-V-51(N,G)23-V-52,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (D-D) D(D,N) SOURCE
+MONITOR    ((MONIT)53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (40244063,A.I.LeipunskiY+,C,58GENEVA,15,50(2219),1958)
+            Measured at this experiment, see Subent 063.
+HISTORY    (19840612T) Converted From SUBENTRY 80134028
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 5          2
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR
+MEV        B          B          B          B
+ 2.7000E+00 1.9700E-03 8.0000E-05 4.7000E-02 2.0000E-03
+ 4.0000E+00 1.7800E-03 6.0000E-05 2.3000E-02 1.0000E-03
+ENDDATA              4
+ENDSUBENT           17
+SUBENT        40244091   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (25-MN-55(N,G)25-MN-56,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (D-D) D(D,N) SOURCE
+MONITOR    ((MONIT)53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (40244063,A.I.LeipunskiY+,C,58GENEVA,15,50(2219),1958)
+            Measured at this experiment, see Subent 063.
+HISTORY    (19840612T) Converted From SUBENTRY 80134029
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 5          2
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR
+MEV        B          B          B          B
+ 2.7000E+00 3.1200E-03 3.0000E-04 4.7000E-02 2.0000E-03
+ 4.0000E+00 1.7900E-03 1.8000E-04 2.3000E-02 1.0000E-03
+ENDDATA              4
+ENDSUBENT           17
+SUBENT        40244092   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (28-NI-64(N,G)28-NI-65,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (D-D) D(D,N) SOURCE
+MONITOR    ((MONIT)53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (40244063,A.I.LeipunskiY+,C,58GENEVA,15,50(2219),1958)
+            Measured at this experiment, see Subent 063.
+HISTORY    (19840612T) Converted From SUBENTRY 80134030
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 6          2
+EN         DATA       DATA-ERR   DATA-MAX   MONIT      MONIT-ERR
+MEV        B          B          B          B          B
+ 2.7000E+00                       5.2000E-03 4.7000E-02 2.0000E-03
+ 4.0000E+00 2.6000E-03 1.3000E-03            2.3000E-02 1.0000E-03
+ENDDATA              4
+ENDSUBENT           17
+SUBENT        40244093   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (29-CU-65(N,G)29-CU-66,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (D-D) D(D,N) SOURCE
+MONITOR    ((MONIT)53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (40244063,A.I.LeipunskiY+,C,58GENEVA,15,50(2219),1958)
+            Measured at this experiment, see Subent 063.
+HISTORY    (19840612T) Converted From SUBENTRY 80134031
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 5          3
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR
+MEV        B          B          B          B
+ 0.2        1.39  E-02 1.5   E-03
+ 2.7000E+00 4.7500E-03 5.0000E-05 4.7000E-02 2.0000E-03
+ 4.0000E+00 2.7700E-03 3.0000E-05 2.3000E-02 1.0000E-03
+ENDDATA              5
+ENDSUBENT           18
+SUBENT        40244094   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (30-ZN-68(N,G)30-ZN-69,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (D-D) D(D,N) SOURCE
+MONITOR    ((MONIT)53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (40244063,A.I.LeipunskiY+,C,58GENEVA,15,50(2219),1958)
+            Measured at this experiment, see Subent 063.
+HISTORY    (19840612T) Converted From SUBENTRY  80134032
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          2
+EN         DATA-MAX   MONIT      MONIT-ERR
+MEV        B          B          B
+ 2.7000E+00 1.3600E-02 4.7000E-02 2.0000E-03
+ 4.0000E+00 9.1400E-03 2.3000E-02 1.0000E-03
+ENDDATA              4
+ENDSUBENT           17
+SUBENT        40244095   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (35-BR-79(N,G)35-BR-80,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (D-D) D(D,N) SOURCE
+MONITOR    ((MONIT)53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (40244063,A.I.LeipunskiY+,C,58GENEVA,15,50(2219),1958)
+            Measured at this experiment, see Subent 063.
+HISTORY    (19840612T) Converted From SUBENTRY 80134033
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 5          2
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR
+MEV        B          B          B          B
+ 2.7000E+00 2.6400E-02 5.0000E-04 4.7000E-02 2.0000E-03
+ 4.0000E+00 1.1700E-02 3.0000E-04 2.3000E-02 1.0000E-03
+ENDDATA              4
+ENDSUBENT           17
+SUBENT        40244096   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (35-BR-81(N,G)35-BR-82,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (D-D) D(D,N) SOURCE
+MONITOR    ((MONIT)53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (40244063,A.I.LeipunskiY+,C,58GENEVA,15,50(2219),1958)
+            Measured at this experiment, see Subent 063.
+HISTORY    (19840612T) Converted From SUBENTRY 80134034
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 5          2
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR
+MEV        B          B          B          B
+ 2.7000E+00 1.4300E-02 7.0000E-04 4.7000E-02 2.0000E-03
+ 4.0000E+00 6.6000E-03 4.0000E-04 2.3000E-02 1.0000E-03
+ENDDATA              4
+ENDSUBENT           17
+SUBENT        40244097   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (42-MO-100(N,G)42-MO-101,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (D-D) D(D,N) SOURCE
+MONITOR    ((MONIT)53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (40244063,A.I.LeipunskiY+,C,58GENEVA,15,50(2219),1958)
+            Measured at this experiment, see Subent 063.
+HISTORY    (19840612T) Converted From SUBENTRY 80134035
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 5          2
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR
+MEV        B          B          B          B
+ 2.7000E+00 6.5000E-03 7.0000E-04 4.7000E-02 2.0000E-03
+ 4.0000E+00 3.9000E-03 4.0000E-04 2.3000E-02 1.0000E-03
+ENDDATA              4
+ENDSUBENT           17
+SUBENT        40244098   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (47-AG-107(N,G)47-AG-108,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (D-D) D(D,N) Source
+MONITOR    ((MONIT)53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (40244063,A.I.LeipunskiY+,C,58GENEVA,15,50(2219),1958)
+            Measured at this experiment, see Subent 063.
+HISTORY    (19840612T) Converted From SUBENTRY 80134036
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 5          2
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR
+MEV        B          B          B          B
+ 2.7000E+00 5.6000E-02 1.0000E-03 4.7000E-02 2.0000E-03
+ 4.0000E+00 2.9400E-02 9.0000E-04 2.3000E-02 1.0000E-03
+ENDDATA              4
+ENDSUBENT           17
+SUBENT        40244099   20100322   20100915   20100913       4149
+BIB                  7         10
+REACTION   (49-IN-115(N,G)49-IN-116-M,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (D-D) D(D,N) Source
+MONITOR    ((MONIT)53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (40244063,A.I.LeipunskiY+,C,58GENEVA,15,50(2219),1958)
+            Measured at this experiment, see Subent 063.
+HISTORY    (19840612T) Converted From SUBENTRY 80134037
+                     Metastable Level In Resid-Nuc Introduced
+DECAY-DATA (49-IN-116-M,54.0MIN)
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 5          2
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR
+MEV        B          B          B          B
+ 2.7000E+00 7.4000E-02 3.0000E-03 4.7000E-02 2.0000E-03
+ 4.0000E+00 3.9200E-02 1.6000E-03 2.3000E-02 1.0000E-03
+ENDDATA              4
+ENDSUBENT           19
+SUBENT        40244100   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (56-BA-138(N,G)56-BA-139,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (D-D) D(D,N) Source
+MONITOR    ((MONIT)53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (40244063,A.I.LeipunskiY+,C,58GENEVA,15,50(2219),1958)
+            Measured at this experiment, see Subent 063.
+HISTORY    (19840612T) Converted From SUBENTRY 80134038
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 5          2
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR
+MEV        B          B          B          B
+ 2.7000E+00 1.1400E-03 2.3000E-04 4.7000E-02 2.0000E-03
+ 4.0000E+00 7.8000E-04 2.4000E-04 2.3000E-02 1.0000E-03
+ENDDATA              4
+ENDSUBENT           17
+SUBENT        40244101   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (74-W-186(N,G)74-W-187,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (D-D) D(D,N) Source
+MONITOR    ((MONIT)53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (40244063,A.I.LeipunskiY+,C,58GENEVA,15,50(2219),1958)
+            Measured at this experiment, see Subent 063.
+HISTORY    (19840612T) Converted From SUBENTRY 80134039
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          2
+EN         DATA-MAX   MONIT      MONIT-ERR
+MEV        B          B          B
+ 2.7000E+00 3.6000E-02 4.7000E-02 2.0000E-03
+ 4.0000E+00 1.9000E-02 2.3000E-02 1.0000E-03
+ENDDATA              4
+ENDSUBENT           17
+SUBENT        40244102   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (80-HG-204(N,G)80-HG-205,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (D-D) D(D,N) Source
+MONITOR    ((MONIT)53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (40244063,A.I.LeipunskiY+,C,58GENEVA,15,50(2219),1958)
+            Measured at this experiment, see Subent 063.
+HISTORY    (19840612T) Converted From SUBENTRY 80134040
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          2
+EN         DATA-MAX   MONIT      MONIT-ERR
+MEV        B          B          B
+ 2.7000E+00 5.0000E-02 4.7000E-02 2.0000E-03
+ 4.0000E+00 2.5000E-02 2.3000E-02 1.0000E-03
+ENDDATA              4
+ENDSUBENT           17
+SUBENT        40244103   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (82-PB-208(N,G)82-PB-209,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (D-D) D(D,N) Source
+MONITOR    ((MONIT)53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (40244063,A.I.LeipunskiY+,C,58GENEVA,15,50(2219),1958)
+            Measured at this experiment, see Subent 063.
+HISTORY    (19840612T) Converted From SUBENTRY 80134041
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 5          2
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR
+MEV        B          B          B          B
+ 2.7000E+00 1.1000E-03 5.0000E-04 4.7000E-02 2.0000E-03
+ 4.0000E+00 5.0000E-04 2.5000E-04 2.3000E-02 1.0000E-03
+ENDDATA              4
+ENDSUBENT           17
+SUBENT        40244104   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (92-U-238(N,G)92-U-239,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 1 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (D-D) D(D,N) SOURCE
+MONITOR    ((MONIT)53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (40244063,A.I.LeipunskiY+,C,58GENEVA,15,50(2219),1958)
+            Measured at this experiment, see Subent 063.
+HISTORY    (19840612T) Converted From SUBENTRY 80134042
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 5          2
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR
+MEV        B          B          B          B
+ 2.7000E+00 5.9300E-02 1.6000E-03 4.7000E-02 2.0000E-03
+ 4.0000E+00 3.3300E-02 1.2000E-03 2.3000E-02 1.0000E-03
+ENDDATA              4
+ENDSUBENT           17
+SUBENT        40244105   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (25-MN-55(N,G)25-MN-56,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 2 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) Source
+DETECTOR   (SCIN) 2 Scintillation Counters With Monocrystals
+            Of Naphthalene Activated With Anthracene.
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (19840612T) Converted From SUBENTRY 80134043
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.0000E-01 2.3000E-02 7.0000E-03
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40244106   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (29-CU-0(N,G),,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 2 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) SOURCE
+DETECTOR   (SCIN) 2 Scintillation Counters With Monocrystals
+            Of Naphthalene Activated With Anthracene.
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (19840612T) Converted From SUBENTRY 80134044
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.0000E-01 5.1000E-02 1.1000E-02
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40244107   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (30-ZN-0(N,G),,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 2 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) SOURCE
+DETECTOR   (SCIN) 2 Scintillation Counters With Monocrystals
+            Of Naphthalene Activated With Anthracene.
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (19840612T) Converted From SUBENTRY 80134045
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.0000E-01 2.9000E-02 9.0000E-03
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40244108   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (34-SE-0(N,G),,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 2 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) Source
+DETECTOR   (SCIN) 2 Scintillation Counters With Monocrystals
+            Of Naphthalene Activated With Anthracene.
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (19840612T) Converted From SUBENTRY 80134046
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.0000E-01 8.3000E-02 1.7000E-02
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40244109   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (35-BR-0(N,G),,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 2 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) SOURCE
+DETECTOR   (SCIN) 2 Scintillation Counters With Monocrystals
+            Of Naphthalene Activated With Anthracene.
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (19840612T) Converted From SUBENTRY 80134047
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.0000E-01 3.8000E-01 5.5000E-02
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40244110   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (38-SR-0(N,G),,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 2 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) Source
+DETECTOR   (SCIN) 2 Scintillation Counters With Monocrystals
+            Of Naphthalene Activated With Anthracene.
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (19840612T) Converted From SUBENTRY 80134048
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 2          1
+EN         DATA-MAX
+MEV        B
+ 2.0000E-01 1.7500E-01
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40244111   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (40-ZR-0(N,G),,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 2 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) Source
+DETECTOR   (SCIN) 2 Scintillation Counters With Monocrystals
+            Of Naphthalene Activated With Anthracene.
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (19840612T) Converted From SUBENTRY 80134049
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 2          1
+EN         DATA-MAX
+MEV        B
+ 2.0000E-01 5.5000E-02
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40244112   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (42-MO-0(N,G),,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 2 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) Source
+DETECTOR   (SCIN) 2 Scintillation Counters With Monocrystals
+            Of Naphthalene Activated With Anthracene.
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (19840612T) Converted From SUBENTRY 80134050
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.0000E-01 9.7000E-02 1.6000E-02
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40244113   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (47-AG-0(N,G),,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 2 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) Source
+DETECTOR   (SCIN) 2 Scintillation Counters With Monocrystals
+            Of Naphthalene Activated With Anthracene.
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (19840612T) Converted From SUBENTRY 80134051
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.0000E-01 5.9000E-01 7.7000E-02
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40244114   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (48-CD-0(N,G),,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 2 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) Source
+DETECTOR   (SCIN) 2 Scintillation Counters With Monocrystals
+            Of Naphthalene Activated With Anthracene.
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (19840612T) Converted From SUBENTRY 80134052
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.0000E-01 1.7700E-01 3.3000E-02
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40244115   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (50-SN-0(N,G),,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 2 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) SourcE
+DETECTOR   (SCIN) 2 Scintillation Counters With Monocrystals
+            Of Naphthalene Activated With Anthracene.
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (19840612T) Converted From SUBENTRY 80134053
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.0000E-01 6.8000E-02 9.0000E-03
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40244116   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (51-SB-0(N,G),,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 2 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) Source
+DETECTOR   (SCIN) 2 Scintillation Counters With Monocrystals
+            Of Naphthalene Activated With Anthracene.
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (19840612T) Converted From SUBENTRY 80134054
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.0000E-01 2.5500E-01 3.3000E-02
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40244117   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (56-BA-0(N,G),,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 2 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) Source
+DETECTOR   (SCIN) 2 Scintillation Counters With Monocrystals
+            Of Naphthalene Activated With Anthracene.
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (19840612T) Converted From SUBENTRY 80134055
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 2          1
+EN         DATA-MAX
+MEV        B
+ 2.0000E-01 1.3000E-01
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40244118   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (73-TA-0(N,G),,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 2 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) Source
+DETECTOR   (SCIN) 2 Scintillation Counters With Monocrystals
+            Of Naphthalene Activated With Anthracene.
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (19840612T) Converted From SUBENTRY 80134056
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.0000E-01 5.3000E-01 7.7000E-02
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40244119   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (74-W-0(N,G),,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 2 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) Source
+DETECTOR   (SCIN) 2 Scintillation Counters With Monocrystals
+            Of Naphthalene Activated With Anthracene.
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (19840612T) Converted From SUBENTRY 80134057
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.0000E-01 2.0000E-01 3.5000E-02
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40244120   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (80-HG-0(N,G),,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 2 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) Source
+DETECTOR   (SCIN) 2 Scintillation Counters With Monocrystals
+            Of Naphthalene Activated With Anthracene.
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (19840612T) Converted From SUBENRY 80134058
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.0000E-01 1.3300E-01 2.2000E-02
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40244121   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (81-TL-0(N,G),,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 2 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) Source
+DETECTOR   (SCIN) 2 Scintillation Counters With Monocrystals
+            Of Naphthalene Activated With Anthracene.
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (19840612T) Converted From SUBENTRY 80134059
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 2          1
+EN         DATA-MAX
+MEV        B
+ 2.0000E-01 1.7500E-01
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40244122   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (82-PB-0(N,G),,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 2 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) Source
+DETECTOR   (SCIN) 2 Scintillation Counters With Monocrystals
+            Of Naphthalene Activated With Anthracene.
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (19840612T) Converted From SUBENTRY 80134060
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 2          1
+EN         DATA-MAX
+MEV        B
+ 2.0000E-01 1.2000E-02
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40244123   20100322   20100915   20100913       4149
+BIB                  6          8
+REACTION   (83-BI-209(N,G)83-BI-210,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 2 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) Source
+DETECTOR   (SCIN) 2 Scintillation Counters With Monocrystals
+            Of Naphthalene Activated With Anthracene.
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (19840612T) Converted From SUBENTRY 80134061
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 2          1
+EN         DATA-MAX
+MEV        B
+ 2.0000E-01 1.4000E-02
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40244124   20100322   20100915   20100913       4149
+BIB                  6          7
+REACTION   (73-TA-181(N,G)73-TA-182,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 3 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) Source
+DETECTOR   (SCIN) CA-F(2) Crystal Scintillation Counter
+MONITOR    (92-U-235(N,F),,SIG)
+HISTORY    (19840612T) Converted From SUBENTRY 80134062
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+  0.2        0.37      0.04
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40244125   20100322   20100915   20100913       4149
+BIB                  6          7
+REACTION   (79-AU-197(N,G)79-AU-198,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 3 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T)
+DETECTOR   (SCIN) CA-F(2) Crystal Scintillation Counter
+MONITOR    (92-U-235(N,F),,SIG)
+HISTORY    (19840612T) Converted From SUBENTRY 80134063
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.0000E-01 3.8000E-01 2.5000E-02
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40244126   20100322   20100915   20100913       4149
+BIB                  6          7
+REACTION   (90-TH-232(N,G)90-TH-233,,SIG)
+STATUS     (SCSRS)
+           (TABLE) Table 3 of C,58GENEVA,15,50(2219),1958.
+INC-SOURCE (P-T) T(P,N) Source
+DETECTOR   (SCIN) CA-F(2) Crystal Scintillation Counter
+MONITOR    (92-U-235(N,F),,SIG)
+HISTORY    (19840612T) Converted From SUBENTRY 80134064
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+  0.2        0.21      0.04
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40244127   20100322   20100915   20100913       4149
+BIB                  8         11
+REACTION   (27-CO-59(N,G)27-CO-60,,SIG)
+STATUS     (COREL,40421001) Other data of Table 4.
+           (TABLE) Table 4 of C,58GENEVA
+INC-SOURCE (PHOTO) Photoneutrons from antimony-beryllium source of
+            intensity about 10**8 n/sec.Beryllium thickness 10 mm.
+INC-SPECT   Intensity about 1.E+8 n/sec.Effective energy 25.keV.
+METHOD     (ACTIV) Beta-activity of irradiated samples.
+SAMPLE      Samples in protective containers, placed at 5 cm
+            distance from center  of source.
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+HISTORY    (20061212C) M.M.
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+KEV        MB         MB
+ 25.        7.7        0.8
+ENDDATA              3
+ENDSUBENT           19
+ENDENTRY            65

@@ -1,0 +1,90 @@
+ENTRY            40391   20070420   20070911   20070815       4140
+SUBENT        40391001   20070420   20070911   20070815       4140
+BIB                 10         16
+INSTITUTE  (4RUSKUR)
+REFERENCE  (J,AE,4,(2),191,195802)
+           (J,SJA,4,259,1958)
+AUTHOR     (V.M.GORBACHEV,L.B.PORETSKIJ)
+TITLE      Cross Sections For Inelastic Interaction Of 14 MeV
+           Neutrons With Some Light Elements.
+INC-SOURCE (D-T)  Zyrconium-Tritium Target. Deutrons energy 150keV
+METHOD      Transmission Measurements
+DETECTOR   (SCIN) Scintillating Crystal
+           (PROPC) For Alpha-paritcles Detection in T(d,n)He-4.
+           (TELES) Proton Counters In Coincidence
+MONITOR     Absolute Measurements
+STATUS     (SCSRS)
+HISTORY    (19830920T) Converted From ENTRY 80020
+           (20070420U) M.M. Page of 2nd Reference was corrected.
+             Dates were corrected for 4-digit year.
+ENDBIB              16
+NOCOMMON             0          0
+ENDSUBENT           19
+SUBENT        40391002   20070420   20070911   20070815       4140
+BIB                  3          4
+REACTION   (3-LI-6(N,NON),,SIG)
+SAMPLE      Layer thickness of (2-3)*10**23 1/cm**2.
+            For Li-6 isotope - 90%.
+STATUS       Table of 1st REFERENCE.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.4000E+01 6.6000E-01 5.0000E-02
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        40391003   20070420   20070911   20070815       4140
+BIB                  3          4
+REACTION   (3-LI-7(N,NON),,SIG)
+SAMPLE      Layer thickness of (2-3)*10**23 1/cm**2.
+            For Li-7 isotope - 99%.
+STATUS       Table of 1st REFERENCE.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.4000E+01 5.2000E-01 6.0000E-02
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        40391004   20070420   20070911   20070815       4140
+BIB                  3          3
+REACTION   (4-BE-9(N,NON),,SIG)
+SAMPLE      Layer thickness of (2-3)*10**23 1/cm**2.
+STATUS       Table of 1st REFERENCE.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.4000E+01 5.5000E-01 4.0000E-02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        40391005   20070420   20070911   20070815       4140
+BIB                  3          3
+REACTION   (5-B-0(N,NON),,SIG)
+SAMPLE      Layer thickness of (2-3)*10**23 1/cm**2.
+STATUS       Table of 1st REFERENCE.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.4000E+01 7.4000E-01 7.0000E-02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        40391006   20070420   20070911   20070815       4140
+BIB                  3          3
+REACTION   (6-C-0(N,NON),,SIG)
+SAMPLE      Layer thickness of (2-3)*10**23 1/cm**2.
+STATUS       Table of 1st REFERENCE.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.4000E+01 6.3000E-01 6.0000E-02
+ENDDATA              3
+ENDSUBENT           11
+ENDENTRY             6

@@ -1,0 +1,363 @@
+ENTRY            30322   20100531   20100809   20100806       3145
+SUBENT        30322001   20100531   20100809   20100806       3145
+BIB                 18         66
+TITLE      Cross-sections of 14 MeV neutron reactions producing
+           short-lived nuclides.
+AUTHOR     (J.Janczyszyn,L.Gorski)
+INSTITUTE  (3POLITJ)
+REFERENCE  (J,JRC,14,201,1973)
+           (J,CA,17,(3),703,1972) Exp.detail.
+           (J,RRL,8,363,197112) Brief description of experiment.
+MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG)
+           Neutron flux was determined on the basis of the 'Texas
+           convention',R.L.Heath,Proc.Intern.Conf.Modern Trends in
+           Activation Analysis,College Station,Texas,1965,p.389.
+           *Specification of Texas convention,
+            The effective fluxes for sample activations are to be
+            measured by exposing high-purity copper disks of 0.25-
+            mm thickness and 1-cm and/or 2.5-cm dia for 1 min to
+            the n-flux to be measured. ----And the disintegration
+            rate of Cu-62 activity is determined. Then the flux is
+            given in disint./min/(gram of copper).
+FACILITY   (CCW) Neutron generator. In order to obtain the irradi-
+           ation times 0.1 to 1 sec. A deflecting electrode was
+           placed in the generator tube.
+INC-SOURCE (D-T) T(d,n)He reaction.
+INC-SPECT  14 MeV neutrons, flux was 5 x 10.**7 to
+                                          2x 10.**8 n/cm2/sec.
+METHOD     (ACTIV) Cyclic neutron activation method with the 0.2-
+           second fast pneumatic tube system (mean velocity,30m/s)
+           each sample was irradiated for 3 half-lives of the
+           investigated nuclide. And the counting time was equal
+           to the irradiation,unless the shortening of the former
+           was necessary to avoid the 'long-lived' nuclide decay.
+           After a pause of 5 to 10 half-lives of nuclide, a 2nd
+           measurement with the same counting time as the 1st one
+           was followed.
+DETECTOR   (NAICR) NaI(Tl) 3 * 3inch, with a 400-channel analyser
+           Victoreen ST 400 dm.
+           (SCIN) Scintillation counter, Hornyak NE 450, with a
+           photomultiplier EMI6097F for neutron monitoring.
+PART-DET   (DG,B+) Decay gammas or decay beta+.
+CORRECTION The dead time of the multichannel analyser was correct-
+           ed.
+ANALYSIS   When the same isomer arises from two different isotopes
+           of the same elements as a result of the (n,n') and
+            (n,2n) reactions, the weighed mean cross-section was
+           calculated, taking isotopic abundances as weights.
+DECAY-DATA Mainly taken from the Table of Isotopes,Lederer et al.,
+           6th ed.,1967.
+ERR-ANALYS (DATA-ERR) Total error is given. The large errors
+           for some of cross-sections may partially be due to
+           instrumental imperfections and to the fact that the
+           cross-section was not the main purpose of this
+           facility of automatic activation analysis.
+COMMENT    In a few cases the conversion coefficient is not
+           known, and is assumed to be 0 with the number of
+           quanta per disintegration to be 1.
+STATUS     (TABLE) From table 1 of J.Radioanal.Chem.,14(1973)201.
+           (APRVD) Approved by Janczyczyn with notes, 29/04/1976.
+HISTORY    (19760203C) KO.
+           (19760519A) KO. -Add 'Aprvd',inf.on half-life of In-114
+            and author's correction of Ce-140(n,2n) x-section.-
+           (19900130A)VOF.-Iso-quant changed to Reaction formalism
+                          Standard changed to monitor formalism
+                          Resid-nuc deleted.
+           (19930224U) HW.-Mispunch in BIB section corrected.-
+           (19940705U) HW.-Reaction code altered in san 021.-
+           (20090125A) BIB section updated
+           (20100303A)SD:Evaluator remark was added to Sub.022.002
+ENDBIB              66
+COMMON               1          3
+EN
+MEV
+14.
+ENDCOMMON            3
+ENDSUBENT           73
+SUBENT        30322002   20090115   20090508   20090506       3134
+BIB                  2          2
+REACTION   (11-NA-23(N,A)9-F-20,,SIG)
+DECAY-DATA (9-F-20,11.4SEC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+78.        30.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        30322003   20090115   20090508   20090506       3134
+BIB                  2          2
+REACTION   (12-MG-26(N,P)11-NA-26,,SIG)
+DECAY-DATA (11-NA-26,1.0SEC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+21.        3.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        30322004   20090115   20090508   20090506       3134
+BIB                  2          2
+REACTION   (13-AL-27(N,2N)13-AL-26-M,,SIG)
+DECAY-DATA (13-AL-26-M1,6.4SEC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+0.13       0.05
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        30322005   20090115   20090508   20090506       3134
+BIB                  3          3
+REACTION   (17-CL-35(N,2N)17-CL-34-G,,SIG)
+DECAY-DATA (17-CL-34-G,1.56SEC)
+SAMPLE     NH4-Cl.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+12.        2.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30322006   20090115   20090508   20090506       3134
+BIB                  3          3
+REACTION   (19-K-39(N,2N)19-K-38-M,,SIG)
+DECAY-DATA (19-K-38-M1,0.95SEC)
+SAMPLE     KI.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+0.43       0.15
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30322007   20090115   20090508   20090506       3134
+BIB                  3          3
+REACTION   (19-K-41(N,A)17-CL-38-M,,SIG)
+DECAY-DATA (17-CL-38-M1,0.74SEC)
+SAMPLE     KI.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+11.        2.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30322008   20090115   20090508   20090506       3134
+BIB                  3          3
+REACTION   (22-TI-46(N,P)21-SC-46-M,,SIG)
+DECAY-DATA (21-SC-46-M1,20.SEC)
+SAMPLE     Ti-O(2).
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+66.        16.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30322009   20090115   20090508   20090506       3134
+BIB                  4          5
+REACTION   (22-TI-50(N,P)21-SC-50-M,,SIG)
+DECAY-DATA (21-SC-50-M1,0.35SEC)
+SAMPLE     Ti-O(2).
+COMMENT    The number of quanta per disintegration is assumed to
+           be 1.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+15.        7.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        30322010   20090115   20090508   20090506       3134
+BIB                  3          3
+REACTION   (35-BR-79(N,INL)35-BR-79-M,,SIG)
+DECAY-DATA (35-BR-79-M1,4.8SEC)
+SAMPLE     KBr.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+450.       80.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30322011   20090115   20090508   20090506       3134
+BIB                  3          3
+REACTION   (40-ZR-0(N,X)40-ZR-90-M,,SIG)
+DECAY-DATA (40-ZR-90-M1,0.81SEC)
+SAMPLE     Zr-O(2).
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+170.       40.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30322012   20100531   20100809   20100806       3145
+BIB                  6         27
+REACTION  1(49-IN-115(N,2N)49-IN-114-L,,SIG)
+          2(49-IN-115(N,2N)49-IN-114-M1,,SIG)
+DECAY-DATA1(49-IN-114-L,0.042SEC)
+          2(49-IN-114-M1,2.5SEC)
+             leading to first metastable state of In-114 with
+             half-life of '2.5 sec'.
+           Note by compiler= (modified after author's note,4/1976)
+             this half-life of 2.5 sec,which was erroneously cited
+             in the Table 2 of Chemia Analityczna,17(1972)703 and
+             in Radiochem.Radioanal.Letters,8(1971)363  as '2.3
+             sec',  was taken from the following report,
+                P.Dupont-Gautier, S.Chantelot, N.Moisson,
+                     Rapport C.E.A.-R 2830, (1967).
+             and the gamma energy detected is given as 150 keV.
+            * a number of quanta per disintegration is assumed 1.0
+SAMPLE     In(2)-O(3).
+COMMENT    Compiler's note :
+            'DATA2' could be cross-section of In-115(n,g)In-116-m3
+           as half-life '2.5 sec' is not reported in the chart of
+           nuclides and data quoted by authors is aprox. 10 times
+           lower than data for a shorter m-state.
+CRITIQUE  2Evaluator's remark: Suspicious data. Value for cross
+           section and error more than 100 times lower.
+HISTORY    (19900130A) VOF.-Reaction corrected+comment added
+                     decay-data added . Pointers used
+                     data block recoded.(same data)
+           (20100303A) SD: Evaluator remark was added.
+ENDBIB              27
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+870.       220.       11.        2.
+ENDDATA              3
+ENDSUBENT           35
+SUBENT        30322013   20090115   20090508   20090506       3134
+BIB                  3          3
+REACTION   (56-BA-0(N,X)56-BA-136-M,,SIG)
+DECAY-DATA (56-BA-136-M1,0.32SEC)
+SAMPLE     Ba-(NO3)2.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+19.        3.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30322014   20090115   20090508   20090506       3134
+BIB                  3          4
+REACTION   (58-CE-140(N,2N)58-CE-139-M,,SIG)
+DECAY-DATA (58-CE-139-M1,55.SEC)
+STATUS     (TABLE) Old data ( 630+-80 mb) was recalculated after
+           correction.  (Letter from author,29/04/1976).
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+700.       90.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        30322015   20090115   20090508   20090506       3134
+BIB                  3          3
+REACTION   (68-ER-0(N,X)68-ER-167-M,,SIG)
+DECAY-DATA (68-ER-167-M1,2.3SEC) = 2.3 sec.
+SAMPLE     Er(2)-O(3).
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+570.       120.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30322016   20090115   20090508   20090506       3134
+BIB                  3          3
+REACTION   (70-YB-176(N,2N)70-YB-175-L,,SIG)
+DECAY-DATA (70-YB-175-L,0.067SEC)
+SAMPLE     Yb(2)-O(3).
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+5800.      3000.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30322017   20090115   20090508   20090506       3134
+BIB                  2          2
+REACTION   (74-W-0(N,X)74-W-183-M,,SIG)
+DECAY-DATA (74-W-183-M1,5.3SEC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+520.       130.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        30322018   20090115   20090508   20090506       3134
+BIB                  3          5
+REACTION   (76-OS-192(N,P)75-RE-192,,SIG)
+DECAY-DATA (75-RE-192,6.SEC)
+COMMENT    The cross-section was determined with regard to the
+           most efficient line(E=0.20MeV) and with the assumption,
+            (the no. of quanta per disintegration) = 1.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+2.1        0.5
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        30322019   20090115   20090508   20090506       3134
+BIB                  2          2
+REACTION   (79-AU-197(N,INL)79-AU-197-M,,SIG)
+DECAY-DATA (79-AU-197-M1,7.2SEC)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+530.       100.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        30322020   20090115   20090508   20090506       3134
+BIB                  4          4
+REACTION   (82-PB-204(N,2N)82-PB-203-M1,M+,SIG)
+DECAY-DATA (82-PB-203-M1,6.1SEC)
+SAMPLE     Pb-Cl(2).
+HISTORY    (19900130A) VOF.-Reaction corrected
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+2300.      250.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        30322021   20090115   20090508   20090506       3134
+BIB                  4          4
+REACTION   (82-PB-0(N,X)82-PB-207-M,,SIG)
+DECAY-DATA (82-PB-207-M,0.80SEC)
+SAMPLE     Pb-Cl(2).
+HISTORY    (19940705U) HW.- Reaction code altered.-
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+480.       70.
+ENDDATA              3
+ENDSUBENT           12
+ENDENTRY            21

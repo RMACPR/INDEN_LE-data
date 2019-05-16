@@ -1,0 +1,289 @@
+ENTRY            20799   20151212   20160603   20160523       2246
+SUBENT        20799001   20151212   20160603   20160523       2246
+BIB                 15         38
+INSTITUTE  (2UK NPL)
+REFERENCE  (J,JNE,27,531,197308)
+AUTHOR     (J.C.Robertson,B.Audric,P.Kolkowski)
+TITLE       Some activation cross-sections at 14.78 MeV.
+FACILITY   (VDG,2UK NPL) 3MV HVEC Van de Graaff accelerator.
+INC-SOURCE (D-T) Deuterium-tritium, 130keV deuterons on
+            200 micro g/cm*2 tritium. 100keV n-energy spread.
+METHOD     (ACTIV) Activation
+           (COINC) 4pi beta-gamma coincidence
+DETECTOR   (COIN,PROPC,NAICR) 4-Pi beta argon methane
+            proportional counting in coincidence with 2 NaI(Tl)
+            gamma detectors. Absolute activity when possible.
+MONITOR    (26-FE-56(N,P)25-MN-56,,SIG) Measurement by same
+            technique described in JNE,27,139,1973.
+MONIT-REF  (20798003,J.C.Robertson+,J,JNE,27,139,1973) - monitor
+            reaction and irradiation procedure
+REL-REF    (O,20798001,J.C.Robertson+,J,JNE,27,139,1973) The same
+            data for 27-Al(n,alpha) is given JNE 27,139
+           (R,,C.M.Lederer+,B,LEDERER-7,,1978) Reference for
+             gamma-intensities and their errors estimates.
+CORRECTION  A small correction for time variation in the
+            neutron flux during irradiations was made.
+ERR-ANALYS (ERR-S) Random error (1 standard deviation) converted
+            by the compiler from 3 standard deviations
+           (ERR-SYS) Systematic error (half-life, weight, beta
+            counting efficiency and decay scheme)
+           (ERR-T) The total error gives the random and the
+            systematic errors added in quadrature calculated by
+            compiler.
+            In the reference, the total error is given as the
+            linear sum of the systematic error and the random
+            error at 99% confidence limit. (3 Standard deviations)
+STATUS     (TABLE) Table 2 from JNE,27,531,1973
+HISTORY    (19781027C) PDJ. Recompiled from NEUDADA.
+           (19810114A) ERR-ANALYS changed.
+           (20151212A) SD:Updated to new date formats,lower case.
+            DECAY-DATA corrected in Subent 005. ERR-1 -> ERR-SYS;
+            STATUS moved to Subent 001.
+ENDBIB              38
+COMMON               2          3
+MONIT      MONIT-ERR
+MB         MB
+   109.8     2.9
+ENDCOMMON            3
+ENDSUBENT           45
+SUBENT        20799002   20151212   20160603   20160523       2246
+BIB                  3          3
+REACTION   (7-N-14(N,2N)7-N-13,,SIG)
+SAMPLE      Ammonium nitrate, mixed foil
+DECAY-DATA (7-N-13,10.MIN,B+)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 6          1
+EN         EN-ERR     DATA       ERR-SYS    ERR-S      ERR-T
+MEV        MEV        MB         MB         MB         MB
+      14.78        0.1       7.45       0.17       0.08       0.19
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        20799003   20151212   20160603   20160523       2246
+BIB                  3          3
+REACTION   (9-F-19(N,2N)9-F-18,,SIG)
+SAMPLE      Teflon, 27 mg/cm2
+DECAY-DATA (9-F-18,1.7HR,B+)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 6          1
+EN         EN-ERR     DATA       ERR-SYS    ERR-S      ERR-T
+MEV        MEV        MB         MB         MB         MB
+      14.78        0.1       47.9       1.06       0.11       1.07
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        20799004   20151212   20160603   20160523       2246
+BIB                  4          5
+REACTION   (12-MG-24(N,P)11-NA-24,,SIG)
+SAMPLE      Mg-0 on iron, mixed foil.
+DECAY-DATA (11-NA-24,15.0HR,B-)
+CORRECTION  No correction has been made for small contributions
+            from Mg-26(n,t),Mg-25(n,d) and Mg-25(n,np).
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 6          1
+EN         EN-ERR     DATA       ERR-SYS    ERR-S      ERR-T
+MEV        MEV        MB         MB         MB         MB
+      14.78        0.1      179.7         4.        0.3         4.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        20799005   20151212   20160603   20160523       2246
+BIB                  6          8
+REACTION   (13-AL-27(N,P)12-MG-27,,SIG)
+SAMPLE      Al foil, 115 mg/cm2.
+DECAY-DATA (12-MG-27,9.5MIN,B-)
+CORRECTION  Uncorrected for Si-30(n,Np) or Si-30(n,d).
+ERR-ANALYS  Large error from difficulty in separating Mg-27
+            activity from Al-29 formed by Si-29(n,p).
+HISTORY    (20151212A) SD: Half-life corrected in DECAY-DATA
+            (2.25min -> 9.5 min)
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 6          1
+EN         EN-ERR     DATA       ERR-SYS    ERR-S      ERR-T
+MEV        MEV        MB         MB         MB         MB
+      14.78        0.1        68.        1.5        0.3        1.5
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        20799006   20151212   20160603   20160523       2246
+BIB                  3          3
+REACTION   (14-SI-28(N,P)13-AL-28,,SIG)
+SAMPLE      Si disc, 90 mg/cm2
+DECAY-DATA (13-AL-28,2.25MIN,B-)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 6          1
+EN         EN-ERR     DATA       ERR-SYS    ERR-S      ERR-T
+MEV        MEV        MB         MB         MB         MB
+      14.78        0.1       265.        5.6        0.6        5.6
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        20799007   20151212   20160603   20160523       2246
+BIB                  4          5
+REACTION   (14-SI-29(N,P)13-AL-29,,SIG)
+SAMPLE      Si disc, 90 mg/cm2.
+METHOD      Counting started 20min after irradiation to allow
+            Al-28 activity to decay.
+DECAY-DATA (13-AL-29,6.6MIN,B-)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 6          1
+EN         EN-ERR     DATA       ERR-SYS    ERR-S      ERR-T
+MEV        MEV        MB         MB         MB         MB
+      14.78        0.1       131.        3.1        3.5        4.7
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        20799008   20151212   20160603   20160523       2246
+BIB                  5          6
+REACTION   (14-SI-30(N,A)12-MG-27,,SIG)
+SAMPLE      Si disc, 90 mg/cm2.
+DECAY-DATA (12-MG-27,9.5MIN,B-)
+CORRECTION  Uncorrected for Si-30(n,t),Si-29(n,d) or Si-28(n,nNp)
+ERR-ANALYS  Large error from difficulty in separating Mg-27
+            activity from Al-29 formed by Si-29(n,p).
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 6          1
+EN         EN-ERR     DATA       ERR-SYS    ERR-S      ERR-T
+MEV        MEV        MB         MB         MB         MB
+      14.78        0.1        90.         2.         3.        3.6
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        20799009   20151212   20160603   20160523       2246
+BIB                  3          3
+REACTION   (15-P-31(N,P)14-SI-31,,SIG)
+SAMPLE      Phosphorus in cellulose, 30 mg/cm2.
+DECAY-DATA (14-SI-31,2.62HR,B-)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 6          1
+EN         EN-ERR     DATA       ERR-SYS    ERR-S      ERR-T
+MEV        MEV        MB         MB         MB         MB
+      14.78        0.1       85.6        2.0        0.2        2.0
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        20799010   20151212   20160603   20160523       2246
+BIB                  3          5
+REACTION   (16-S-32(N,P)15-P-32,,SIG)
+SAMPLE      Al(2)(S0(4))3 on iron, mixed foil.
+DECAY-DATA (15-P-32,14.29D,B-)
+            All Na-24 activity was allowed to decay before
+            measuring P-32 activity.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 6          1
+EN         EN-ERR     DATA       ERR-SYS    ERR-S      ERR-T
+MEV        MEV        MB         MB         MB         MB
+      14.78        0.1       219.        4.7        0.8        4.8
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        20799011   20151212   20160603   20160523       2246
+BIB                  3          3
+REACTION   (16-S-34(N,A)14-SI-31,,SIG)
+SAMPLE      Pressed sulphur, 160 mg/cm2.
+DECAY-DATA (14-SI-31,2.62HR,B-)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 6          1
+EN         EN-ERR     DATA       ERR-SYS    ERR-S      ERR-T
+MEV        MEV        MB         MB         MB         MB
+      14.78        0.1       194.        4.5        0.5        4.5
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        20799012   20151212   20160603   20160523       2246
+BIB                  3          3
+REACTION   (23-V-51(N,P)22-TI-51,,SIG)
+SAMPLE      V foil, 12.8 mg/cm2.
+DECAY-DATA (22-TI-51,5.79MIN,B-)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 6          1
+EN         EN-ERR     DATA       ERR-SYS    ERR-S      ERR-T
+MEV        MEV        MB         MB         MB         MB
+      14.78        0.1        31.        0.7        0.2        0.7
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        20799013   20151212   20160603   20160523       2246
+BIB                  3          3
+REACTION   (23-V-51(N,A)21-SC-48,,SIG)
+SAMPLE      V foil, 12.8 mg/cm2.
+DECAY-DATA (21-SC-48,1.83D,B-)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 6          1
+EN         EN-ERR     DATA       ERR-SYS    ERR-S      ERR-T
+MEV        MEV        MB         MB         MB         MB
+      14.78        0.1       19.5        0.4        0.3        0.5
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        20799014   20151212   20160603   20160523       2246
+BIB                  4          4
+REACTION   (27-CO-59(N,A)25-MN-56,,SIG)
+SAMPLE      Co foil, 179 mg/cm2.
+DECAY-DATA (25-MN-56,2.58HR,B-)
+CORRECTION .A small background from Co-59(n,2n) was observed.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 6          1
+EN         EN-ERR     DATA       ERR-SYS    ERR-S      ERR-T
+MEV        MEV        MB         MB         MB         MB
+      14.78        0.1       32.3        0.7        0.1        0.7
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        20799015   20151212   20160603   20160523       2246
+BIB                  3          3
+REACTION   (29-CU-65(N,2N)29-CU-64,,SIG)
+SAMPLE      Cu foil, 93 mg/cm2.
+DECAY-DATA (29-CU-64,12.81HR,B+/B-)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 6          1
+EN         EN-ERR     DATA       ERR-SYS    ERR-S      ERR-T
+MEV        MEV        MB         MB         MB         MB
+      14.78        0.1      1043.       30.3        2.5       30.4
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        20799016   20151212   20160603   20160523       2246
+BIB                  4          4
+REACTION   (29-CU-65(N,P)28-NI-65,,SIG)
+SAMPLE      Cu foil, 93 mg/cm2.
+DECAY-DATA (28-NI-65,2.56HR,B-)
+COMMENT     Cu-64 from Cu-65(n,2n) was measured simultaneously.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 6          1
+EN         EN-ERR     DATA       ERR-SYS    ERR-S      ERR-T
+MEV        MEV        MB         MB         MB         MB
+      14.78        0.1        26.        0.6        0.1        0.6
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        20799017   20151212   20160603   20160523       2246
+BIB                  3          3
+REACTION   (64-GD-160(N,2N)64-GD-159,,SIG)
+SAMPLE      Gd203 on iron, mixed foil.
+DECAY-DATA (64-GD-159,18.0HR,B-)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 6          1
+EN         EN-ERR     DATA       ERR-SYS    ERR-S      ERR-T
+MEV        MEV        MB         MB         MB         MB
+      14.78        0.1      1456.        34.         3.        34.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        20799018   20151212   20160603   20160523       2246
+BIB                  5          6
+REACTION   (78-PT-198(N,2N)78-PT-197-G,(M),SIG)
+SAMPLE     .Pt foil, 106 mg/cm2.
+DECAY-DATA (78-PT-197-G,18.0HR)
+PART-DET   (B-) Decay beta-.
+HISTORY    (19860808A)HH not clear if isomeric contribution is
+            included
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 6          1
+EN         EN-ERR     DATA       ERR-SYS    ERR-S      ERR-T
+MEV        MEV        MB         MB         MB         MB
+      14.78        0.1      2091.        49.        21.        53.
+ENDDATA              3
+ENDSUBENT           14
+ENDENTRY            18

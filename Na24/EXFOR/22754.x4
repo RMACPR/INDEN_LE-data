@@ -1,0 +1,524 @@
+ENTRY            22754   20081006   20090209   20090209       2204
+SUBENT        22754001   20081006   20090209   20090209       2204
+BIB                  9         25
+TITLE      Measurement of (n,2n) cross-sections for several
+           dosimetry reactions between 12 and 20 MeV.
+AUTHOR     (M.Sakuma, S.Iwasaki, H.Shimada, N.Odano, K.Suda,
+           J.R.Dumais, K.Sugiyama)
+INSTITUTE  (2JPNTOH)
+REFERENCE  (R,JAERI-M-92-027,278,1992) Main Reference.
+           (J,PNE,26,(3),231,1991) First author S.Iwasaki.
+             Graphs of cross section ratios Nb/Al, Au/Al.
+FACILITY   (DYNAM) Tohoku University 4.5-MV Dynamitron Accelerator
+                  of Fast Neutron Laboratory.
+INC-SOURCE (D-T)  T(d,n)He-4 reaction. Incident deuteron beam
+            energy about 3 MeV. Air-cooled Ti-T target, Ti-layer
+            of 11 mm diameter, 10.1 mg/cm**2 thickness, on copper
+            backing of 0.5mm thickness, mounted in thin copper
+            chamber (circular tube of 70 mm long, 14mm outer
+            diameter, 1 mm thick wall, end plate of 0.5 mm thick).
+            Beam profile was measured to be two-dimensional
+            Gaussian distribution of 4-mm FWHM.
+INC-SPECT   Neutron intensity was monitored with NE-213 detector.
+DETECTOR   (SCIN) NE-213 liquid scintillation detector,2" diameter
+            2" thickness. For neutron intensity monitoring.
+           (HPGE)  80 cc high-purity germanium detector calibrated
+            with a set of standard gamma-ray source. For gamma-ray
+            of sample foils.
+HISTORY    (20081006C)  M.M.
+ENDBIB              25
+NOCOMMON             0          0
+ENDSUBENT           28
+SUBENT        22754002   20081006   20090209   20090209       2204
+BIB                  8         49
+REACTION   ((41-NB-93(N,2N)41-NB-92-M,,SIG)/
+           (13-AL-27(N,A)11-NA-24,,SIG)) Cross sections ratio.
+SAMPLE         Rectangular foils 10mmx10mmx0.5mm(thickness) .
+            Sample set was composed of two Al foils sandwiched
+            between Nb foils with Au foil opposite the target.
+METHOD     (ACTIV) 1-st series of irradiations for c-s ratios:
+               Neutron energy 19.9-12.8 MeV, angle for irradiation
+            0-140 deg., d+ energy 3.26MeV, beam current 10 microA,
+            irradiation time 50 hours.
+           (TOF)   Angular spectra of source neutrons were
+            measured by TOF technique at angles from 0 to 150 deg
+            at intervals of 10 or 5 deg.
+           (GSPEC) Gamma-rays from samples were measured.
+DECAY-DATA (41-NB-92-M,10.15D,EC,,,DG,934.53,0.990)
+            Measured gamma-ray 934.53+-0.05 keV with emission
+            probability 0.990+-0.002 .  HL error 0.02 d.
+           (11-NA-24,14.959HR,B-,,,DG,1368.633,0.99994)
+            Measured gamma-ray 1368.633+-0.006 with emission
+            probability 0.99994+-0.002. HL error 0.004 hr.
+            Decay data from J.H.Baard,W.L.Ziip,H.J.Nolthenius,1989
+            Nuclear Data Guide for Reactor Neutron Metrology,
+            Kluwer Academic Publ., Dordrecht, Netherlands.
+ANALYSIS    Cross sections ratio was derived from ratio of
+            reaction-rates.
+CORRECTION - Fluctuation of neutron flux during irradiation.
+           - Difference of neutron flux between foils.
+           - Nonmonochromaticity of irradiating neutrons.
+           - Contribution of parasitic D(d,n)He-3 neutrons to
+             reaction rate of Al-27(n,alpha)Na-24 .
+           - Finite dimensions of sample foils.
+           - Self-absorption of gamma-rays in the foils.
+           - Sum-coincidence effect of cascade gamma-rays for Al
+             samples was evaluated experimentally to be less 1%,
+             was included in uncertainties of efficiencies..
+ERR-ANALYS (ERR-T) Total uncertainty 2.5 - 7.0 %.
+           (ERR-S) Counting statistics of gamma-ray - 0.7-2.0 %.
+           (ERR-1) Detection efficiency of gamma-ray - 2.1-4.5 %.
+           (ERR-2) Sample mass < 0.1%.
+           (ERR-3) Sample purity < 0.1 %.
+           (ERR-4) Decay half-life of nuclei - 0.1-0.2%.
+           (ERR-5) Emission probability of gamma-ray - 0.002-2.6%
+                   (2.6% -for gamma-rays from Au-196).
+           (ERR-6) Uncertainty due corrections < 0.1% .
+           (EN-ERR-DIG) Digitizing error of EN.
+            In COMMON - upper limits of above errors are given.
+           (ERR-DIG)  Digitizing error of DATA.
+           (DATA-ERR) Error bar on Fig.2.
+STATUS     (CURVE) Fig.2 of 1-st Reference. (triangles,1-st exp.),
+             Fig.3 of second Reference.
+ENDBIB              49
+COMMON              10          6
+EN-ERR-DIG ERR-DIG    ERR-T      ERR-S      ERR-1      ERR-2
+ERR-3      ERR-4      ERR-5      ERR-6
+MEV        NO-DIM     PER-CENT   PER-CENT   PER-CENT   PER-CENT
+PER-CENT   PER-CENT   PER-CENT   PER-CENT
+0.16495E-010.16805E-01     7.0     2.0        4.5       0.1
+  0.1       0.2         2.6       0.1
+ENDCOMMON            6
+DATA                 3         10
+EN         DATA       DATA-ERR
+MEV        NO-DIM     NO-DIM
+ 12.788     3.6878    0.15523
+ 13.698     3.9773    0.20154
+ 14.844     4.0598    0.18604
+ 14.853     4.1372    0.18644
+ 16.066     4.9625    0.24825
+ 17.430     5.9704    0.31026
+ 17.438     5.8617    0.30986
+ 18.669     6.6556    0.38798
+ 19.583     7.5498    0.38778
+ 19.911     7.9145    0.38738
+ENDDATA             12
+ENDSUBENT           73
+SUBENT        22754003   20081006   20090209   20090209       2204
+BIB                  8         49
+REACTION   ((41-NB-93(N,2N)41-NB-92-M,,SIG)/
+           (13-AL-27(N,A)11-NA-24,,SIG)) Cross sections ratio.
+SAMPLE         Rectangular foils 20mmx5mmx0.5mm(thickness) in
+              second irradiation, except Au foils of 0.2mm thick.
+            Sample set was composed of two Al foils sandwiched
+            between Nb foils with Au foil opposite the target.
+METHOD     (ACTIV) 2-nd series of irradiations for c-s ratios:
+               Neutron energy 19.4-12.7 MeV, angle for irradiation
+            0-140 deg., d+ energy 2.85MeV, beam current 10 microA,
+            irradiation time 36 hours.
+           (TOF)   Angular spectra of source neutrons were
+            measured by TOF technique at angles from 0 to 150 deg
+            at intervals of 10 or 5 deg.
+           (GSPEC) Gamma-rays from samples were measured.
+DECAY-DATA (41-NB-92-M,10.15D,EC,,,DG,934.53,0.990)
+            Measured gamma-ray 934.53+-0.05 keV with emission
+            probability 0.990+-0.002 .  HL error 0.02 d.
+           (11-NA-24,14.959HR,B-,,,DG,1368.633,0.99994)
+            Measured gamma-ray 1368.633+-0.006 with emission
+            probability 0.99994+-0.002. HL error 0.004 hr.
+            Decay data from J.H.Baard,W.L.Ziip,H.J.Nolthenius,1989
+            Nuclear Data Guide for Reactor Neutron Metrology,
+            Kluwer Academic Publ., Dordrecht, Netherlands.
+ANALYSIS    Cross sections ratio was derived from ratio of
+            reaction-rates.
+CORRECTION - Fluctuation of neutron flux during irradiation.
+           - Difference of neutron flux between foils.
+           - Nonmonochromaticity of irradiating neutrons.
+           - Contribution of parasitic D(d,n)He-3 neutrons to
+             reaction rate of Al-27(n,alpha)Na-24 .
+           - Finite dimensions of sample foils.
+           - Self-absorption of gamma-rays in the foils.
+           - Sum-coincidence effect of cascade gamma-rays for Al
+             samples was evaluated experimentally to be less 1%,
+             was included in uncertainties of efficiencies..
+ERR-ANALYS (ERR-T) Total uncertainty 2.5 - 7.0 %.
+           (ERR-S) Counting statistics of gamma-ray - 0.7-2.0 %.
+           (ERR-1) Detection efficiency of gamma-ray - 2.1-4.5 %.
+           (ERR-2) Sample mass < 0.1%.
+           (ERR-3) Sample purity < 0.1 %.
+           (ERR-4) Decay half-life of nuclei - 0.1-0.2%.
+           (ERR-5) Emission probability of gamma-ray - 0.002-2.6%.
+           (ERR-6) Uncertainty due corrections < 0.1% .
+             In COMMON - upper limits of above errors are given.
+           (EN-ERR-DIG) Digitizing error of EN.
+           (ERR-DIG)  Digitizing error of DATA.
+           (DATA-ERR) Error bar on Fig.2.
+STATUS     (CURVE) Fig.2 of Reference. (circles, 2-nd exp.)
+             Fig.3 of second Reference.
+ENDBIB              49
+COMMON              10          6
+EN-ERR-DIG ERR-DIG    ERR-T      ERR-S      ERR-1      ERR-2
+ERR-3      ERR-4      ERR-5      ERR-6
+MEV        NO-DIM     PER-CENT   PER-CENT   PER-CENT   PER-CENT
+PER-CENT   PER-CENT   PER-CENT   PER-CENT
+0.16495E-010.16805E-01  7.0       2.0         4.5         0.1
+  0.1       0.2         2.6        0.1
+ENDCOMMON            6
+DATA                 3         17
+EN         DATA       DATA-ERR
+MEV        NO-DIM     NO-DIM
+ 12.832     3.6558    0.77316E-01
+ 13.017     3.7291    0.62212E-01
+ 13.660     3.6990    0.77516E-01
+ 13.897     3.5231    0.77516E-01
+ 14.720     4.0006    0.62411E-01
+ 15.012     4.1646    0.77516E-01
+ 15.974     4.3909    0.77515E-01
+ 16.285     4.8180    0.62012E-01
+ 17.198     5.4795    0.10852
+ 17.487     5.3334    0.10852
+ 17.490     5.7365    0.93218E-01
+ 18.326     6.8495    0.15503
+ 18.574     6.9059    0.15523
+ 19.166     7.2646    0.15523
+ 19.306     7.0754    0.18604
+ 19.511     7.4118    0.20154
+ 19.512     7.4893    0.18584
+ENDDATA             19
+ENDSUBENT           80
+SUBENT        22754004   20081006   20090209   20090209       2204
+BIB                  8         48
+REACTION   ((79-AU-197(N,2N)79-AU-196,,SIG)/
+           (13-AL-27(N,A)11-NA-24,,SIG)) Cross sections ratio.
+SAMPLE         Rectangular foils 10mmx10mmx0.5mm(thickness) .
+            Sample set was composed of two Al foils sandwiched
+            between Nb foils with Au foil opposite the target.
+METHOD     (ACTIV) 1-st series of irradiations for c-s ratios:
+               Neutron energy 19.9-12.8 MeV, angle for irradiation
+            0-140 deg., d+ energy 3.26MeV, beam current 10 microA,
+            irradiation time 50 hours.
+           (TOF)   Angular spectra of source neutrons were
+            measured by TOF technique at angles from 0 to 150 deg
+            at intervals of 10 or 5 deg.
+           (GSPEC) Gamma-rays from samples were measured.
+DECAY-DATA (79-AU-196,6.183D,EC,,,B-,,,DG,355.73,0.869)
+            Measured gamma-ray 355.73+-0.05 keV with emission
+            probability 0.869+-0.010 .  HL error 0.010 d.
+           (11-NA-24,14.959HR,B-,,,DG,1368.633,0.99994)
+            Measured gamma-ray 1368.633+-0.006 with emission
+            probability 0.99994+-0.002. HL error 0.004 hr.
+            Decay data from J.H.Baard,W.L.Ziip,H.J.Nolthenius,1989
+            Nuclear Data Guide for Reactor Neutron Metrology,
+            Kluwer Academic Publ., Dordrecht, Netherlands.
+ANALYSIS    Cross sections ratio was derived from ratio of
+            reaction-rates.
+CORRECTION - Fluctuation of neutron flux during irradiation.
+           - Difference of neutron flux between foils.
+           - Nonmonochromaticity of irradiating neutrons.
+           - Contribution of parasitic D(d,n)He-3 neutrons to
+             reaction rate of Al-27(n,alpha)Na-24 .
+           - Finite dimensions of sample foils.
+           - Self-absorption of gamma-rays in the foils.
+           - Sum-coincidence effect of cascade gamma-rays for Al
+             samples was evaluated experimentally to be less 1%,
+             was included in uncertainties of efficiencies..
+ERR-ANALYS (ERR-T) Total uncertainty 2.5 - 7.0 %.
+           (ERR-S) Counting statistics of gamma-ray - 0.7-2.0 %.
+           (ERR-1) Detection efficiency of gamma-ray - 2.1-4.5 %.
+           (ERR-2) Sample mass < 0.1%.
+           (ERR-3) Sample purity < 0.1 %.
+           (ERR-4) Decay half-life of nuclei - 0.1-0.2%.
+           (ERR-5) Emission probability of gamma-ray - 0.002-2.6%.
+           (ERR-6) Uncertainty due corrections < 0.1% .
+             In COMMON - upper limits of above errors are given.
+           (EN-ERR-DIG) Digitizing error of EN.
+           (ERR-DIG)  Digitizing error of DATA.
+           (DATA-ERR) Error bar on Fig.3.
+STATUS     (CURVE) Fig.3 of Reference. (triangles, 1-st exp.)
+             Fig.4 of second Reference.
+ENDBIB              48
+COMMON              10          6
+EN-ERR-DIG ERR-DIG    ERR-T      ERR-S      ERR-1      ERR-2
+ERR-3      ERR-4      ERR-5      ERR-6
+MEV        NO-DIM     PER-CENT   PER-CENT   PER-CENT   PER-CENT
+PER-CENT   PER-CENT   PER-CENT   PER-CENT
+0.15647E-010.57175E-01  7.0        2.0        4.5       0.1
+    0.1      0.2          2.6       0.1
+ENDCOMMON            6
+DATA                 3         12
+EN         DATA       DATA-ERR
+MEV        NO-DIM     NO-DIM
+ 12.778     16.794    0.68125
+ 12.779     17.213    0.94327
+ 13.682     18.498    0.99491
+ 13.699     18.130    0.94174
+ 14.836     17.979    0.78605
+ 16.056     23.168     1.6777
+ 17.421     25.724     1.3625
+ 17.422     26.457     1.4681
+ 18.646     25.513     1.7825
+ 19.567     27.321     1.5205
+ 19.902     27.187     1.4149
+ 19.903     27.711     1.5721
+ENDDATA             14
+ENDSUBENT           74
+SUBENT        22754005   20081006   20090209   20090209       2204
+BIB                  8         49
+REACTION   ((79-AU-197(N,2N)79-AU-196,,SIG)/
+           (13-AL-27(N,A)11-NA-24,,SIG)) Cross sections ratio.
+SAMPLE         Rectangular foils 20mmx5mmx0.5mm(thickness) in
+              second irradiation, except Au foils of 0.2mm thick.
+            Sample set was composed of two Al foils sandwiched
+            between Nb foils with Au foil opposite the target.
+METHOD     (ACTIV) 2-nd series of irradiations for c-s ratios:
+               Neutron energy 19.4-12.7 MeV, angle for irradiation
+            0-140 deg., d+ energy 2.85MeV, beam current 10 microA,
+            irradiation time 36 hours.
+           (TOF)   Angular spectra of source neutrons were
+            measured by TOF technique at angles from 0 to 150 deg
+            at intervals of 10 or 5 deg.
+           (GSPEC) Gamma-rays from samples were measured.
+DECAY-DATA (79-AU-196,6.183D,EC,,,B-,,,DG,355.73,0.869)
+            Measured gamma-ray 355.73+-0.05 keV with emission
+            probability 0.869+-0.010 .  HL error 0.010 d.
+           (11-NA-24,14.959HR,B-,,,DG,1368.633,0.99994)
+            Measured gamma-ray 1368.633+-0.006 with emission
+            probability 0.99994+-0.002. HL error 0.004 hr.
+            Decay data from J.H.Baard,W.L.Ziip,H.J.Nolthenius,1989
+            Nuclear Data Guide for Reactor Neutron Metrology,
+            Kluwer Academic Publ., Dordrecht, Netherlands.
+ANALYSIS    Cross sections ratio was derived from ratio of
+            reaction-rates.
+CORRECTION - Fluctuation of neutron flux during irradiation.
+           - Difference of neutron flux between foils.
+           - Nonmonochromaticity of irradiating neutrons.
+           - Contribution of parasitic D(d,n)He-3 neutrons to
+             reaction rate of Al-27(n,alpha)Na-24 .
+           - Finite dimensions of sample foils.
+           - Self-absorption of gamma-rays in the foils.
+           - Sum-coincidence effect of cascade gamma-rays for Al
+             samples was evaluated experimentally to be less 1%,
+             was included in uncertainties of efficiencies..
+ERR-ANALYS (ERR-T) Total uncertainty 2.5 - 7.0 %.
+           (ERR-S) Counting statistics of gamma-ray - 0.7-2.0 %.
+           (ERR-1) Detection efficiency of gamma-ray - 2.1-4.5 %.
+           (ERR-2) Sample mass < 0.1%.
+           (ERR-3) Sample purity < 0.1 %.
+           (ERR-4) Decay half-life of nuclei - 0.1-0.2%.
+           (ERR-5) Emission probability of gamma-ray - 0.002-2.6%.
+           (ERR-6) Uncertainty due corrections < 0.1% .
+             In COMMON - upper limits of above errors are given.
+           (EN-ERR-DIG) Digitizing error of EN.
+           (ERR-DIG)    Digitizing error of DATA.
+           (DATA-ERR) Error bar on Fig.3.
+STATUS     (CURVE) Fig.3 of Reference. (circles, 2-nd exp.)
+             Fig.4 of second Reference.
+ENDBIB              49
+COMMON              10          6
+EN-ERR-DIG ERR-DIG    ERR-T      ERR-S      ERR-1      ERR-2
+ERR-3      ERR-4      ERR-5      ERR-6
+MEV        NO-DIM     PER-CENT   PER-CENT   PER-CENT   PER-CENT
+PER-CENT   PER-CENT   PER-CENT   PER-CENT
+0.15647E-010.57175E-01   7.0      2.0       4.5         0.1
+   0.1      0.2         2.6        0.1
+ENDCOMMON            6
+DATA                 3         10
+EN         DATA       DATA-ERR
+MEV        NO-DIM     NO-DIM
+ 13.009     17.403    0.47163
+ 15.005     18.856    0.52403
+ 17.467     22.994    0.89086
+ 17.471     24.828    0.62960
+ 18.316     27.481    0.83846
+ 18.550     26.046    0.83922
+ 19.149     25.732    0.78757
+ 19.280     25.144    0.78605
+ 19.485     25.913    0.89162
+ 19.496     27.065    0.83846
+ENDDATA             12
+ENDSUBENT           73
+SUBENT        22754006   20081006   20090209   20090209       2204
+BIB                  7         28
+REACTION   (11-NA-23(N,2N)11-NA-22,,SIG)
+MONITOR    (41-NB-93(N,2N)41-NB-92-M,,SIG) For neutron flux
+                       monitoring. Cross section from IRDF-90.
+MONIT-REF  (,,3,IRDF-90,,1990)
+SAMPLE      Sodium - in form of NaCl compound, packed in aluminum
+           boxes of 25 x 15 x 10 mm size and 1.5mm wall thickness.
+           25mm x 15mmx 0.5mm for niobium.
+           All samples between Nb foils to determine neutron
+            flux in the sample.
+METHOD     (ACTIV) Irradiation for (n,2n) cross sections :
+             Neutron energy 19.4-15.9 MeV, angle for irradiation
+            0- 80 deg., d+ energy 2.83MeV, beam current 10 microA,
+            irradiation time 84 hours.
+ERR-ANALYS (ERR-T) Total uncertainty 3.5 - 5.5 %.
+           (ERR-S) Counting statistics of gamma-ray 0.5 - 2.0%.
+           (ERR-1) Detection efficiency of gamma-ray 2.5 - 4.0%.
+           (ERR-2) Sample mass < 0.1 %.
+           (ERR-3) Sample purity < 0.1%.
+           (ERR-4) Decay half-life of nuclei - 0.03 -0.6%.
+           (ERR-5) Emission probability of gamma-ray - 0.02 -0.5%.
+           (MONIT-ERR) Uncertainty of reference cross section data
+                       - 2.2 - 3.0% .
+             In COMMON - upper limits of errors are given.
+           (EN-ERR-DIG) Digitizing error of EN
+           (ERR-DIG)    Digitizing error of DATA and DATA-ERR.
+           (DATA-ERR) Error bar on Fig.5.
+STATUS     (CURVE) Fig.5
+           (PRELM) Preliminary results.
+ENDBIB              28
+COMMON              10          6
+EN-ERR-DIG ERR-DIG    ERR-T      ERR-S      ERR-1      ERR-2
+ERR-3      ERR-4      ERR-5      MONIT-ERR
+MEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
+PER-CENT   PER-CENT   PER-CENT   PER-CENT
+0.16751E-01 0.37220     5.5        2.0        4.0       0.1
+  0.1         0.6       0.5       3.0
+ENDCOMMON            6
+DATA                 3          5
+EN         DATA       DATA-ERR
+MEV        MB         MB
+ 15.912     59.498     2.7211
+ 17.199     84.399     3.3994
+ 18.355     103.54     3.4013
+ 19.123     105.42     3.4014
+ 19.414     110.47     4.4218
+ENDDATA              7
+ENDSUBENT           47
+SUBENT        22754007   20081006   20090209   20090209       2204
+BIB                  7         28
+REACTION   (25-MN-55(N,2N)25-MN-54,,SIG)
+MONITOR    (41-NB-93(N,2N)41-NB-92-M,,SIG) For neutron flux
+                       monitoring. Cross section from IRDF-90.
+MONIT-REF  (,,3,IRDF-90,,1990)
+SAMPLE      Manganese - metallic Mn powder, packed in aluminum
+            rectangular boxes of 25 x 15 x 5 mm size.
+            25mm x 15mmx 0.5mm for niobium.
+            All samples between Nb foils to determine neutron
+            flux in the sample.
+METHOD     (ACTIV) Irradiation for (n,2n) cross sections :
+             Neutron energy 19.4-15.9 MeV, angle for irradiation
+            0- 80 deg., d+ energy 2.83MeV, beam current 10 microA,
+            irradiation time 84 hours.
+ERR-ANALYS (ERR-T) Total uncertainty 3.5 - 5.5 %.
+           (ERR-S) Counting statistics of gamma-ray 0.5 - 2.0%.
+           (ERR-1) Detection efficiency of gamma-ray 2.5 - 4.0%.
+           (ERR-2) Sample mass < 0.1 %.
+           (ERR-3) Sample purity < 0.1%.
+           (ERR-4) Decay half-life of nuclei - 0.03 -0.6%.
+           (ERR-5) Emission probability of gamma-ray - 0.02 -0.5%.
+           (MONIT-ERR) Uncertainty of reference cross section data
+                       - 2.2 - 3.0% .
+             In COMMON - upper limits of errors are given.
+           (EN-ERR-DIG) Digitizing error of EN
+           (ERR-DIG)    Digitizing error of DATA and DATA-ERR.
+           (DATA-ERR)  Error bar on Fig.6.
+STATUS     (CURVE) Fig.6
+           (PRELM) Preliminary results.
+ENDBIB              28
+COMMON              10          6
+EN-ERR-DIG ERR-DIG    ERR-T      ERR-S      ERR-1      ERR-2
+ERR-3      ERR-4      ERR-5      MONIT-ERR
+MEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
+PER-CENT   PER-CENT   PER-CENT   PER-CENT
+0.21057E-010.35595E-02   5.5       2.0       4.0        0.1
+   0.1      0.6         0.5         3.0
+ENDCOMMON            6
+DATA                 3          3
+EN         DATA       DATA-ERR
+MEV        B          B
+ 17.226    0.83548    0.16279E-01
+ 18.372    0.79131    0.25558E-01
+ 19.147    0.82929    0.27906E-01
+ENDDATA              5
+ENDSUBENT           45
+SUBENT        22754008   20081006   20090209   20090209       2204
+BIB                  7         27
+REACTION   (28-NI-58(N,2N)28-NI-57,,SIG)
+MONITOR    (41-NB-93(N,2N)41-NB-92-M,,SIG) For neutron flux
+                       monitoring. Cross section from IRDF-90.
+MONIT-REF  (,,3,IRDF-90,,1990)
+SAMPLE       Size of high-purity metal foils 25mm x 15mm x 0.2mm
+            for nickel and 25mm x 15mmx 0.5mm for niobium.
+              All samples between Nb foils to determine neutron
+            flux in the sample.
+METHOD     (ACTIV) Irradiation for (n,2n) cross sections :
+             Neutron energy 19.4-15.9 MeV, angle for irradiation
+            0- 80 deg., d+ energy 2.83MeV, beam current 10 microA,
+            irradiation time 84 hours.
+ERR-ANALYS (ERR-T) Total uncertainty 3.5 - 5.5 %.
+           (ERR-S) Counting statistics of gamma-ray 0.5 - 2.0%.
+           (ERR-1) Detection efficiency of gamma-ray 2.5 - 4.0%.
+           (ERR-2) Sample mass < 0.1 %.
+           (ERR-3) Sample purity < 0.1%.
+           (ERR-4) Decay half-life of nuclei - 0.03 -0.6%.
+           (ERR-5) Emission probability of gamma-ray - 0.02 -0.5%.
+           (MONIT-ERR) Uncertainty of reference cross section data
+                       - 2.2 - 3.0% .
+             In COMMON - upper limits of errors are given.
+           (EN-ERR-DIG) Digitizing error of EN
+           (ERR-DIG)    Digitizing error of DATA and DATA-ERR.
+           (DATA-ERR)   Error bar on Fig.7.
+STATUS     (CURVE) Fig.7
+           (PRELM) Preliminary results.
+ENDBIB              27
+COMMON              10          6
+EN-ERR-DIG ERR-DIG    ERR-T      ERR-S      ERR-1      ERR-2
+ERR-3      ERR-4      ERR-5      MONIT-ERR
+MEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
+PER-CENT   PER-CENT   PER-CENT   PER-CENT
+0.10126E-010.14684     5.5         2.0        4.0       0.1
+  0.1       0.6         0.5        3.0
+ENDCOMMON            6
+DATA                 3          3
+EN         DATA       DATA-ERR
+MEV        MB         MB
+ 17.203     59.031     1.9971
+ 18.353     65.177     2.4611
+ 19.134     67.732     2.4637
+ENDDATA              5
+ENDSUBENT           44
+SUBENT        22754009   20081009   20090209   20090209       2204
+BIB                  7         20
+REACTION   (79-AU-197(N,2N)79-AU-196,,SIG,,,DERIV)
+             Data derived from References
+             M.Sakuma+,R,JAERI-M-92-027,278,1992  and
+             S.Iwasaki+,J,PNE,26,3,
+             data of ratio to Al-27(n,a) cross section( given by
+             IRDF-90 data).
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG) IRDF-90 c-s.
+MONIT-REF  (,N.P.Kochelov+,R,IAEA-NDS-141,1990) International
+            Dosimetry file (IRDF-90) .
+REFERENCE  (R,JAERI-M-93-046,257,1993) First author S.Iwasaki.
+            Other data of this report are in Entry 22751.
+ERR-ANALYS (EN-ERR-DIG) Digitizing error of EN
+           (ERR-DIG)    Digitizing error of DATA
+           (DATA-ERR)   Error bar for DATA.
+STATUS     (CURVE)   Fig.1 of reference JAERI-M-93-046,257,1993.
+           (DEP,22754004)
+           (DEP,22754005)
+           (COREL,22751001)Other data of R,JAERI-M-93-046,257,1993
+                           are in Entry 22751.
+HISTORY    (20081009C) Data are moved from Entry 22751 Subent 002.
+ENDBIB              20
+COMMON               2          3
+EN-ERR-DIG ERR-DIG
+MEV        B
+0.34251E-010.50352E-02
+ENDCOMMON            3
+DATA                 3          9
+EN         DATA       DATA-ERR
+MEV        B          B
+ 13.037     2.0824    0.51737E-01
+ 15.064     2.0802    0.32893E-01
+ 17.514     1.8292    0.42330E-01
+ 17.516     1.7728    0.42330E-01
+ 18.601     1.4637    0.32953E-01
+ 19.192     1.3045
+ 19.340     1.2623
+ 19.537     1.2202
+ 19.584     1.2626
+ENDDATA             11
+ENDSUBENT           40
+ENDENTRY             9

@@ -1,0 +1,330 @@
+ENTRY            40369   20170119   20170703   20170630       4175
+SUBENT        40369001   20170119   20170703   20170630       4175
+BIB                 15         34
+TITLE       Cross-section for inelastic interaction of 14.5-MeV
+            neutrons with various elements .
+COMMENT     Of compiler M.M.
+            In title "inelastic" has to be "non-elastic" .
+AUTHOR     (N.N.Flerov,V.M.Talyzin)
+REFERENCE  (J,SJA,1,617,1956) Eng.transl.of AE,1,155,1956
+           (J,AE,1,(4),155,195609)
+INSTITUTE  (4RUSKUR)
+MONITOR                            Neutron flux was monitored
+            by the means of the accompanying alpha-particles
+FACILITY   (VDG,4RUSKUR)  Accelerating tube
+INC-SOURCE (D-T)  Zirconium-tritium target
+SAMPLE      Spherical samples of external diameter 7-13 cm,
+            internal diameter 3.5 - 4 cm. Centre of the target was
+            coincident with center of the sample.
+METHOD     (SHELT)  Shell transmission
+DETECTOR   (SCIN)   Scintillation detector with stilbene crystal
+                    for neutron detection .
+           Located at 75 cm from Zr-T target at angle 0 deg to
+           deuterium beam.
+           (PROPC)  proportional counter for detection of the
+                    alpha-particles, used as a monitor
+CORRECTION  Background of scattered neutrons 1.5 - 0.6 % for
+            detector threshold fro. 9 to 12 MeV.
+ERR-ANALYS (DATA-ERR)  Not specified
+STATUS     (TABLE)  Tbl. from SJA,1,617,1956
+HISTORY    (19820908C) Compiled at the CJD
+           (19870508U) institute code corrected
+           (20150210A) SD: Updated to new date formats,lower case.
+            Ref. on Engl.transl. of AE added. STATUS deleted from
+            Subents 2-24.
+           (20170119A) M.M. Article was checked, BIB information
+            was updated in TITLE,SAMPLE,DETECTOR.
+            DATA values were corrected as given in the table.
+ENDBIB              34
+COMMON               1          3
+EN
+MEV
+   14.5
+ENDCOMMON            3
+ENDSUBENT           41
+SUBENT        40369002   20170119   20170703   20170630       4175
+BIB                  1          1
+REACTION   (4-BE-9(N,NON),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 0.64       0.02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40369003   20170119   20170703   20170630       4175
+BIB                  2          2
+REACTION   (5-B-0(N,NON),,SIG)
+REL-REF    (A,11210001,D.D.Phillips+,J,PR,88,600,1952) 0.69+-0.10
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 0.064      0.04
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        40369004   20170119   20170703   20170630       4175
+BIB                  2          4
+REACTION   (6-C-0(N,NON),,SIG)
+REL-REF    (A,11210001,D.D.Phillips+,J,PR,88,600,1952) 0.76+-0.04
+           (D,11310001,E.R.Graves+,J,PR,97,1205,1955) 0.601+-0.006
+            Value of Strizhak - 0.63+-0.05 ( ref.not given)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 0.73       0.02
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        40369005   20170119   20170703   20170630       4175
+BIB                  2          2
+REACTION   (7-N-0(N,NON),,SIG)
+REL-REF    (A,11210001,D.D.Phillips+,J,PR,88,600,1952) 0.79+-0.05
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 0.82       0.02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        40369006   20170119   20170703   20170630       4175
+BIB                  1          1
+REACTION   (8-O-0(N,NON),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 0.85       0.03
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40369007   20170119   20170703   20170630       4175
+BIB                  1          2
+REACTION   (12-MG-0(N,NON),,SIG)
+            Value of Strizhak - 1.08+-0.09 ( ref.not given)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 0.95       0.04
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        40369008   20170119   20170703   20170630       4175
+BIB                  2          4
+REACTION   (13-AL-27(N,NON),,SIG)
+REL-REF    (A,11210001,D.D.Phillips+,J,PR,88,600,1952) 1.06+-0.05
+           (A,11310001,E.R.Graves+,J,PR,97,1205,1955) 1.00+-0.01
+            Value of Strizhak - 1.13+-0.07 ( ref.not given)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.02       0.02
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        40369009   20170119   20170703   20170630       4175
+BIB                  1          1
+REACTION   (14-SI-0(N,NON),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.02       0.06
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40369010   20170119   20170703   20170630       4175
+BIB                  1          1
+REACTION   (15-P-31(N,NON),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.13       0.03
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40369011   20170119   20170703   20170630       4175
+BIB                  1          1
+REACTION   (16-S-0(N,NON),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.15       0.03
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40369012   20170119   20170703   20170630       4175
+BIB                  1          1
+REACTION   (20-CA-0(N,NON),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.36       0.02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40369013   20170119   20170703   20170630       4175
+BIB                  2          4
+REACTION   (26-FE-0(N,NON),,SIG)
+REL-REF    (A,11210001,D.D.Phillips+,J,PR,88,600,1952) 1.45+-0.02
+           (A,11310001,E.R.Graves+,J,PR,97,1205,1955) 1.27+-0.04
+            Value of Strizhak - 1.29+-0.07 ( ref.not given)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.38       0.02
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        40369014   20170119   20170703   20170630       4175
+BIB                  2          4
+REACTION   (29-CU-0(N,NON),,SIG)
+REL-REF    (A,11210001,D.D.Phillips+,J,PR,88,600,1952) 1.51+-0.06
+           (A,11310001,E.R.Graves+,J,PR,97,1205,1955) 1.42+-0.04
+            Value of Strizhak - 1.35+-0.05 ( ref.not given)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.48       0.02
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        40369015   20170119   20170703   20170630       4175
+BIB                  2          3
+REACTION   (30-ZN-0(N,NON),,SIG)
+REL-REF    (A,11310001,E.R.Graves+,J,PR,97,1205,1955) 1.46+-0.03
+            Value of Strizhak - 1.37+-0.07 ( ref.not given)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.58       0.02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        40369016   20170119   20170703   20170630       4175
+BIB                  1          2
+REACTION   (34-SE-0(N,NON),,SIG)
+            Value of Strizhak - 1.40+-0.23 ( ref.not given)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.77       0.06
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        40369017   20170119   20170703   20170630       4175
+BIB                  2          4
+REACTION   (48-CD-0(N,NON),,SIG)
+REL-REF    (A,11210001,D.D.Phillips+,J,PR,88,600,1952) 1.89+-0.06
+           (A,11310001,E.R.Graves+,J,PR,97,1205,1955) 1.95+-0.05
+            Value of Strizhak - 1.83+-0.13 ( ref.not given)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.92       0.03
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        40369018   20170119   20170703   20170630       4175
+BIB                  2          3
+REACTION   (50-SN-0(N,NON),,SIG)
+REL-REF    (A,11310001,E.R.Graves+,J,PR,97,1205,1955) 1.96+-0.05
+            Value of Strizhak - 1.81+-0.13 ( ref.not given)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.85       0.02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        40369019   20170119   20170703   20170630       4175
+BIB                  1          2
+REACTION   (51-SB-0(N,NON),,SIG)
+            Value of Strizhak - 1.90+-0.16 ( ref.not given)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.06       0.04
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        40369020   20170119   20170703   20170630       4175
+BIB                  1          2
+REACTION   (53-I-127(N,NON),,SIG)
+            Value of Strizhak - 1.88+-0.16 ( ref.not given)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.11       0.06
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        40369021   20170119   20170703   20170630       4175
+BIB                  1          2
+REACTION   (74-W-0(N,NON),,SIG)
+            Value of Strizhak - 2.35+-0.14 ( ref.not given)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.48       0.03
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        40369022   20170119   20170703   20170630       4175
+BIB                  1          1
+REACTION   (80-HG-0(N,NON),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.65       0.04
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40369023   20170119   20170703   20170630       4175
+BIB                  2          4
+REACTION   (82-PB-0(N,NON),,SIG)
+REL-REF    (A,11210001,D.D.Phillips+,J,PR,88,600,1952) 2.56+-0.05
+           (A,11310001,E.R.Graves+,J,PR,97,1205,1955) 2.49+-0.02
+            Value of Strizhak - 2.42+-0.09 ( ref.not given)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.54       0.05
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        40369024   20170119   20170703   20170630       4175
+BIB                  2          4
+REACTION   (83-BI-209(N,NON),,SIG)
+REL-REF    (A,11210001,D.D.Phillips+,J,PR,88,600,1952) 2.56+-0.05
+           (A,11310001,E.R.Graves+,J,PR,97,1205,1955) 2.53+-0.02
+            Value of Strizhak - 2.44+-0.13 ( ref.not given)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.59       0.03
+ENDDATA              3
+ENDSUBENT           12
+ENDENTRY            24

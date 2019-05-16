@@ -1,0 +1,77 @@
+ENTRY            22573   20081128   20090209   20090209       2205
+SUBENT        22573001   20081128   20090209   20090209       2205
+BIB                  7         12
+INSTITUTE  (2FR SAC)
+REFERENCE  (J,JPR/A,22,149,196111)
+TITLE      .Natural uranium, carbon, berillium and sluminium
+            total cross section measurements
+AUTHOR     (D.DIDIER)
+METHOD     (ASSOP) Associated alpha particle technique
+STATUS     (SCSRS)
+HISTORY    (19780331C)  NNDC
+           (19991217T)  Converted by S.M.
+           (20010202U) Last checking by NEXFOR has been done.
+           (20081128U) Last corrections. EN moved to SAN 001
+             BIB information from ENTRY 22625 updated - SM
+ENDBIB              12
+COMMON               2          3
+EN         EN-RSL
+MEV        MEV
+  1.467E+01    1.4E-01
+ENDCOMMON            3
+ENDSUBENT           19
+SUBENT        22573002   20081128   20090209   20090209       2205
+BIB                  2          4
+REACTION   ((92-U-238(N,TOT),,SIG)=(92-U-0(N,TOT),,SIG))
+HISTORY    (19991217T)  Converted from Subents 62455002,
+           (20081128U)  and 68019005. Tautology taken from
+                        22625005
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+       5.83    2.2E-01
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        22573003   20081128   20090209   20090209       2205
+BIB                  3          4
+REACTION   (4-BE-9(N,TOT),,SIG)
+HISTORY    (19991217T)  Converted from Subents 62455003,
+           (20081128U)  and 68019002.
+ERR-ANALYS .Error given in 22625002 is 5.E-02
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+       1.48     3.E-02
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        22573004   20081128   20090209   20090209       2205
+BIB                  2          3
+REACTION   ((6-C-12(N,TOT),,SIG)=(6-C-0(N,TOT),,SIG))
+HISTORY    (19991217T)  Converted from Subents 62455004,
+           (20081128U)  and 68019003
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+       1.39     4.E-02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22573005   20081128   20090209   20090209       2205
+BIB                  2          3
+REACTION   (13-AL-27(N,TOT),,SIG)
+HISTORY    (19991217T)  Converted from Subents 62455005,
+           (20081128U)  and 68019004
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+        1.8     5.E-02
+ENDDATA              3
+ENDSUBENT           11
+ENDENTRY             5

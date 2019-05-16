@@ -1,0 +1,326 @@
+ENTRY            20223   20170425   20180123   20180123       2261
+SUBENT        20223001   20170425   20180123   20180123       2261
+BIB                 12         24
+INSTITUTE  (2NEDAMS)
+REFERENCE  (J,NP/A,181,545,1972) Full paper.
+           ((W,KUIJPER,196512)=(T,KUIJPER,1968)) Experim. details.
+AUTHOR     (P.Kuijper, J.C.Veefkind, C.C.Jonker)
+TITLE       Neutron scattering from bismuth, strontium and sodium
+            at 14.8 MeV
+EXP-YEAR   (1965)
+FACILITY   (CCW,2NEDAMS)    Cockcroft-Walton accelerator.
+INC-SOURCE (D-T) A beam of 225 keV deuterons struck a Ti-3H target
+            (0 2 mm, thickness 32 keV).
+INC-SPECT  (EN-RSL) Not specified.
+METHOD     (TOF)    Time of flight.
+DETECTOR   (SCIN) Four liquid NE213 neutron detectors
+            (2.x 4.x 10.cm3) mounted on RCA 6342A photo tubes.
+           * NE102A plastic sheet of thickness 50. mu-m for alphas
+MONITOR    (1-H-1(N,EL)1-H-1,,SIG)
+            Efficiency up to 12.5 MeV was determined by scattering
+           of 14.8 MeV neutrons from polythene. The absolute value
+           of efficiency at 14.8 MeV was measured separately.
+HISTORY    (19690728C)
+           (19720225A)  BIB-section adapted.
+           (20170425A) SD:Updated to new date formats,lower case.
+           ERR-ANALYS, SAMPLE moved to Subents 002-011.
+           Corrections in Subents 002-011. INC-SPECT was added.
+ENDBIB              24
+COMMON               2          3
+EN         EN-RSL
+MEV        MEV
+ 14.76         0.05
+ENDCOMMON            3
+ENDSUBENT           31
+SUBENT        20223002   20170425   20180123   20180123       2261
+BIB                  7         11
+REACTION   (6-C-0(N,EL)6-C-0,,DA)
+SAMPLE     Polyethylene
+CORRECTION Values corrected for angular spread and plural
+           scattering
+COMMENT    .Checking experiment for Bi,Sr and Na(n,n),(n,n ).
+ERR-ANALYS (DATA-ERR) Overall error.No other description of errors
+STATUS     (TABLE) Tbl.2 from Nucl.Phys.,A181(1972)545.
+HISTORY    (19720225A)  BIB-section adapted.
+           (20170425A) SD: COS-CM -> ANG-CM; DATA -> DATA-CM.
+           SF4=C-0 was added to REACTION code. ERR-ANALYS added.
+           Values were update following presentation in the Tbl.
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 3          6
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+       24.8       392.        11.
+       37.7       187.         3.
+       46.5       87.4        1.5
+       56.8       35.4        1.4
+       61.0       26.0        1.1
+       66.2       23.0        1.1
+ENDDATA              8
+ENDSUBENT           24
+SUBENT        20223003   20170425   20180123   20180123       2261
+BIB                  6         11
+REACTION   (6-C-12(N,INL)6-C-12,PAR,DA)
+SAMPLE     Polyethylene
+CORRECTION Values corrected for angular spread and plural
+           scattering
+ERR-ANALYS (DATA-ERR) Overall error.No other description of errors
+STATUS     (TABLE) Tbl.2 and from the text of NP/A,181,545.
+HISTORY    (19720225A)  BIB-section adapted.
+           (20170425A) SD: COS-CM -> ANG-CM; DATA -> DATA-CM;
+           Q-VAL -> E-LVL. SF1=C-0 -> C-12; SF4=C-12 was added to
+           REACTION code. ERR-ANALYS added.  Values were update
+           following presentation in the Tbl.
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 4         19
+E-LVL      ANG-CM     DATA-CM    DATA-ERR
+MEV        ADEG       MB/SR      MB/SR
+       10.8  40.4        1.5        0.8
+        9.6  69.9        7.5        1.7
+        9.6  64.3        6.8        1.4
+        9.6  60.0        6.5        0.8
+        9.6  48.9        7.8        1.4
+        9.6  39.9        8.6        1.3
+        9.6  26.3        6.3        1.9
+        7.6  68.5        1.1        0.4
+        7.6  63.0        0.4        0.5
+        7.6  58.8        1.3        0.5
+        7.6  47.9        1.3        0.4
+        7.6  39.1        1.4        0.4
+        7.6  25.8        4.0        1.5
+        4.4  67.1       14.9        0.8
+        4.4  61.9       18.3        0.9
+        4.4  57.6       18.7        0.9
+        4.4  47.0       28.3        1.2
+        4.4  38.3       31.0        1.1
+        4.4  25.2       39.1        2.7
+ENDDATA             21
+ENDSUBENT           37
+SUBENT        20223004   20170425   20180123   20180123       2261
+BIB                  6         11
+REACTION   (11-NA-23(N,EL)11-NA-23,,DA)
+SAMPLE     Na (2.cm diam., 5.cm long) encapsulated in 0.1 mm
+           thick copper.
+CORRECTION Values corrected for angular spread and plural
+           scattering
+ERR-ANALYS (DATA-ERR) Overall error.No other description of errors
+STATUS     (TABLE) Tbl.5 and from the text of NP/A,181,545.
+HISTORY    (19720225A)  Bib-section adapted.
+           (20170425A) SD: COS-CM -> ANG-CM; DATA -> DATA-CM.
+           ERR-ANALYS added.  Values were update following
+           presentation in the Tbl.
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 3          8
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+       24.0       454.        15.
+       36.1       97.1        4.5
+       44.7       38.2        5.0
+       59.1       57.1        4.2
+       72.4       60.1        4.7
+       93.4       24.2        3.5
+      107.4       15.5        3.4
+      122.2       16.8        3.8
+ENDDATA             10
+ENDSUBENT           26
+SUBENT        20223005   20170425   20180123   20180123       2261
+BIB                  6         10
+REACTION   (11-NA-23(N,TOT),,SIG)
+METHOD     (TRN) Transmission measurement.
+CORRECTION .Determined in view of the multiple scattering
+            correction done for the differential scattering
+            cross-sections.
+ERR-ANALYS (DATA-ERR) No information about source of uncertainties
+STATUS     (TABLE) Tbl. 7 from NP/A,181,545.
+HISTORY    (19740401C)
+           (20170425U) SD: BIB update. Values were update
+           following presentation in the Tbl.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+   1.8        4.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        20223006   20170425   20180123   20180123       2261
+BIB                  6         11
+REACTION   (38-SR-0(N,EL)38-SR-0,,DA)
+SAMPLE     Sr (2.cm diam., 5.cm long) encapsulated in 0.1 mm
+           thick copper.
+CORRECTION Values corrected for angular spread and plural
+           scattering
+STATUS     (TABLE) Tbl.4 and from the text of NP/A,181,545.
+ERR-ANALYS (DATA-ERR) Overall error.No other description of errors
+HISTORY    (19720225A)  BIB-section adapted.
+           (20170425A) SD: COS-CM -> ANG-CM; DATA -> DATA-CM;
+           SF4=SR-0 was added to REACTION code. ERR-ANALYS added.
+           Values were update following presentation in the Tbl.
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 3          8
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+       23.2      1230.        32.
+       35.3       85.0        6.2
+       43.4       17.4        5.3
+       57.5       18.5        4.5
+       70.6       31.0        4.3
+       90.7       12.0        4.0
+      105.7       17.6        4.7
+      120.6       24.0        7.5
+ENDDATA             10
+ENDSUBENT           26
+SUBENT        20223007   20170425   20180123   20180123       2261
+BIB                  6         12
+REACTION   (38-SR-0(N,INL)38-SR-0,PAR,DA)
+SAMPLE     Sr (2.cm diam., 5.cm long) encapsulated in 0.1 mm
+           thick copper.
+CORRECTION Values corrected for angular spread and plural
+           scattering
+ERR-ANALYS (DATA-ERR) Overall error.No other description of errors
+STATUS     (TABLE) Tbl.4 and from the text of NP/A,181,545.
+HISTORY    (19720225A)  BIB-section adapted.
+           (20170425A) SD: COS-CM -> ANG-CM; DATA -> DATA-CM;
+           Q-VAL -> E-EXC; SF4=Sr-0 was added to REACTION code.
+           ERR-ANALYS added.  Values were update following
+           presentation in the Tbl.
+ENDBIB              12
+NOCOMMON             0          0
+DATA                 5         16
+E-EXC      ANG-CM     DATA-CM    +DATA-ERR  -DATA-ERR
+MEV        ADEG       MB/SR      MB/SR      MB/SR
+        1.8       23.2       14.0        5.3        5.3
+        1.8       35.3       15.3        3.5        3.5
+        1.8       43.4       18.0        4.2        4.2
+        1.8       57.5        6.1        3.5        3.5
+        1.8       70.6        5.0        2.5        2.5
+        1.8       90.7        3.3        3.3        3.3
+        1.8      105.7        6.5        4.0        4.0
+        1.8      120.6        4.3        3.7        3.7
+        2.7       23.2       13.3        4.3        4.3
+        2.7       35.3       18.4        3.3        3.3
+        2.7       43.4       20.2        3.9        3.9
+        2.7       57.5        9.6        3.4        3.4
+        2.7       70.6        1.7        2.8        2.8
+        2.7       90.7        4.1        3.8        3.8
+        2.7      105.7        4.0        3.5        3.5
+        2.7      120.6        2.3        3.5        2.3
+ENDDATA             18
+ENDSUBENT           35
+SUBENT        20223008   20170425   20180123   20180123       2261
+BIB                  7         12
+REACTION   (38-SR-0(N,TOT),,SIG)
+SAMPLE     Sr (2.cm diam., 5.cm long) encapsulated in 0.1 mm
+           thick copper.
+METHOD     (TRN) Transmission measurement.
+CORRECTION .Determined in view of the multiple scattering
+            correction done for the differential scattering
+            cross-sections.
+ERR-ANALYS (DATA-ERR) No information about source of uncertainties
+STATUS     (TABLE) Tbl. 7 from NP/A,181,545.
+HISTORY    (19740401C)
+           (20170425U) SD: BIB update. Values were update
+           following presentation in the Tbl.
+ENDBIB              12
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+  3.3        3.
+ENDDATA              3
+ENDSUBENT           20
+SUBENT        20223009   20170425   20180123   20180123       2261
+BIB                  6         10
+REACTION   (83-BI-209(N,EL)83-BI-209,,DA)
+SAMPLE     Bi (2.cm diam., 3.73.cm long)
+CORRECTION Values corrected for angular spread and plural
+           scattering
+ERR-ANALYS (DATA-ERR) Overall error.No other description of errors
+STATUS     (TABLE) Tbl.3 and from the text of NP/A,181,545.
+HISTORY    (19720225A)  BIB-section adapted.
+           (20170425A) SD: COS-CM -> ANG-CM; DATA -> DATA-CM.
+           ERR-ANALYS added.  Values were update following
+           presentation in the Tbl.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 3          8
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+       23.1      310.0       14.0
+       35.2      507.0       16.0
+       43.2      410.0       13.0
+       57.2       44.3        6.4
+       70.3       83.0        8.1
+       90.3       10.2        4.7
+      105.3       37.4        6.0
+      120.3       18.4        4.6
+ENDDATA             10
+ENDSUBENT           25
+SUBENT        20223010   20170425   20180123   20180123       2261
+BIB                  6         10
+REACTION   (83-BI-209(N,INL)83-BI-209,PAR,DA)
+SAMPLE     Bi (2.cm diam., 3.73.cm long)
+CORRECTION Values corrected for angular spread and plural
+           scattering
+ERR-ANALYS (DATA-ERR) Overall error.No other description of errors
+STATUS     (TABLE) Tbl.3 and from the text of NP/A,181,545.
+HISTORY    (19720225A)  BIB-section adapted.
+           (20170425A) SD: COS-CM -> ANG-CM; DATA -> DATA-CM;
+           Q-VAL -> E-EXC. ERR-ANALYS added. Values were update
+           following presentation in the Tbl.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 5         24
+E-EXC      ANG-CM     DATA-CM    +DATA-ERR  -DATA-ERR
+MEV        ADEG       MB/SR      MB/SR      MB/SR
+        2.6       23.1       13.2        5.5        5.5
+        2.6       35.2       16.9        3.9        3.9
+        2.6       43.2       19.4        6.0        6.0
+        2.6       57.2       12.2        4.3        4.3
+        2.6       70.3       13.6        4.3        4.3
+        2.6       90.3       11.6        3.9        3.9
+        2.6      105.3       10.0        4.4        4.4
+        2.6      120.3        1.0        6.0        1.0
+        4.2       23.1       12.6        5.5        5.5
+        4.2       35.2       14.4        3.4        3.4
+        4.2       43.2       21.3        4.7        4.7
+        4.2       57.2       14.8        3.9        3.9
+        4.2       70.3        7.7        2.9        2.9
+        4.2       90.3        5.5        2.7        2.7
+        4.2      105.3        6.1        2.8        2.8
+        4.2      120.3        5.3        3.0        3.0
+        5.5       23.1       17.3        5.0        5.0
+        5.5       35.2       15.9        3.0        3.0
+        5.5       43.2       35.0        4.9        4.9
+        5.5       57.2        6.5        3.3        3.3
+        5.5       70.3        5.8        3.4        3.4
+        5.5       90.3        4.4        2.9        2.9
+        5.5      105.3        7.4        3.7        3.7
+        5.5      120.3        8.3        3.3        3.3
+ENDDATA             26
+ENDSUBENT           41
+SUBENT        20223011   20170425   20180123   20180123       2261
+BIB                  7         11
+REACTION   (83-BI-209(N,TOT),,SIG)
+SAMPLE     Bi (2.cm diam., 3.73.cm long)
+METHOD     (TRN) Transmission measurement.
+CORRECTION .Determined in view of the multiple scattering
+            correction done for the differential scattering
+            cross-sections.
+ERR-ANALYS (DATA-ERR) No information about source of uncertainties
+STATUS     (TABLE) Tbl. 7 from NP/A,181,545.
+HISTORY    (19740401C)
+           (20170425U) SD: BIB update. Values were update
+           following presentation in the Tbl.
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+  5.4          4.
+ENDDATA              3
+ENDSUBENT           19
+ENDENTRY            11

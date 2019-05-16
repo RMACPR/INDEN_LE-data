@@ -1,0 +1,780 @@
+ENTRY            14080   20140416   20141203   20141111       1401
+SUBENT        14080001   20140416   20141203   20141111       1401
+BIB                 12         15
+INSTITUTE  (1USAMTR)
+REFERENCE  (P,IN-1317,39,1970)
+AUTHOR     (R.P.Schuman,R.L.Tromp)
+TITLE      Activation cross section measurements using the 2.0 keV
+            Sc filtered and 25 keV Fe filtered neutron beams
+FACILITY   (REAC) MTR reactor
+INC-SOURCE Sc and Fe filtered
+METHOD     (ACTIV,STTA,FNB)
+SAMPLE     Stacks of copper, gold, indium, and tantalum foils
+DETECTOR   (NAICR)
+PART-DET   (G)
+ERR-ANALYS No information
+HISTORY    (20051227C) DR
+           (20140416A) SD:REACTION code corrected in Subents 11,12
+            EN-RSL -> EN-RSL-FW changed in Subents 2-39.
+ENDBIB              15
+NOCOMMON             0          0
+ENDSUBENT           18
+SUBENT        14080002   20140416   20141203   20141111       1401
+BIB                  4          5
+REACTION   ((29-CU-63(N,G)29-CU-64,,SIG,,TT)/
+           (29-CU-63(N,G)29-CU-64,,SIG))
+DECAY-DATA (29-CU-64,12.8HR,DG,0.511,0.38)
+SAMPLE     Thickness of 653 mg/cm2 (metal)
+STATUS     (TABLE) Data taken from Table 2 of IN-1317,39,1970
+ENDBIB               5
+COMMON               2          3
+EN         EN-RSL-FW
+KEV        KEV
+25.        2.
+ENDCOMMON            3
+DATA                 1          1
+DATA
+NO-DIM
+0.90
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        14080003   20140416   20141203   20141111       1401
+BIB                  4          5
+REACTION   ((29-CU-65(N,G)29-CU-66,,SIG,,TT)/
+           (29-CU-63(N,G)29-CU-64,,SIG))
+DECAY-DATA (29-CU-66,5.1MIN,DG,1.039,0.09)
+SAMPLE     Thickness of 653 mg/cm2 (metal)
+STATUS     (TABLE) Data taken from Table 2 of IN-1317,39,1970
+ENDBIB               5
+COMMON               2          3
+EN         EN-RSL-FW
+KEV        KEV
+25.        2.
+ENDCOMMON            3
+DATA                 1          1
+DATA
+NO-DIM
+0.63
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        14080004   20140416   20141203   20141111       1401
+BIB                  4          5
+REACTION   ((48-CD-114(N,G)48-CD-115,,SIG,,TT)/
+           (29-CU-63(N,G)29-CU-64,,SIG))
+DECAY-DATA (48-CD-115-G,53.5HR,DG,0.490/0.535,0.36)
+SAMPLE     Thickness of 443 mg/cm2 (metal)
+STATUS     (TABLE) Data taken from Table 2 of IN-1317,39,1970
+ENDBIB               5
+COMMON               2          3
+EN         EN-RSL-FW
+KEV        KEV
+25.        2.
+ENDCOMMON            3
+DATA                 1          1
+DATA
+NO-DIM
+2.50
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        14080005   20140416   20141203   20141111       1401
+BIB                  4          5
+REACTION   ((48-CD-110(N,G)48-CD-111-M,,SIG,,TT)/
+           (29-CU-63(N,G)29-CU-64,,SIG))
+DECAY-DATA (48-CD-111-M,48.6MIN,DG,0.247,0.94)
+SAMPLE     Thickness of 443 mg/cm2 (metal)
+STATUS     (TABLE) Data taken from Table 2 of IN-1317,39,1970
+ENDBIB               5
+COMMON               2          3
+EN         EN-RSL-FW
+KEV        KEV
+25.        2.
+ENDCOMMON            3
+DATA                 1          1
+DATA
+NO-DIM
+0.43
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        14080006   20140416   20141203   20141111       1401
+BIB                  4          5
+REACTION   ((49-IN-115(N,G)49-IN-116-M1,,SIG,,TT)/
+           (29-CU-63(N,G)29-CU-64,,SIG))
+DECAY-DATA (49-IN-116-M1,54.0MIN,DG,1.293,0.80)
+SAMPLE     Thickness of 101 mg/cm2 (metal)
+STATUS     (TABLE) Data taken from Table 2 of IN-1317,39,1970
+ENDBIB               5
+COMMON               2          3
+EN         EN-RSL-FW
+KEV        KEV
+25.        2.
+ENDCOMMON            3
+DATA                 1          1
+DATA
+NO-DIM
+13.
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        14080007   20140416   20141203   20141111       1401
+BIB                  4          5
+REACTION   ((79-AU-197(N,G)79-AU-198,,SIG,,TT)/
+           (29-CU-63(N,G)29-CU-64,,SIG))
+DECAY-DATA (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 246 mg/cm2 (metal)
+STATUS     (TABLE) Data taken from Table 2 of IN-1317,39,1970
+ENDBIB               5
+COMMON               2          3
+EN         EN-RSL-FW
+KEV        KEV
+25.        2.
+ENDCOMMON            3
+DATA                 1          1
+DATA
+NO-DIM
+14.
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        14080008   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (11-NA-24,14.96HR,DG,2.754,1.00)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 610 mg/cm2 (NaBr)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+0.015
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080009   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (19-K-41(N,G)19-K-42,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (19-K-42,12.36HR,DG,1.524,0.18)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 425 mg/cm2 (KCl)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+0.30
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080010   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (25-MN-55(N,G)25-MN-56,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (25-MN-56,2.576HR,DG,0.847,0.99)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 567 mg/cm2 (Mn)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+0.36
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080011   20140416   20141203   20141111       1401
+BIB                  8          9
+REACTION   (27-CO-59(N,G)27-CO-60,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (27-CO-60-G,5.263YR,DG,1.332,1.00)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 885 mg/cm2 (Co)
+ERR-ANALYS No information
+STATUS     (TABLE) Data taken Table 3 from IN-1317,39
+HISTORY    (20140416A) SD:SF1=Co-60 -> Co-59, SF3=INL -> G,
+           in REACTION code.
+ENDBIB               9
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+0.13
+ENDDATA              3
+ENDSUBENT           21
+SUBENT        14080012   20140416   20141203   20141111       1401
+BIB                  7          8
+REACTION   (27-CO-59(N,G)27-CO-60-M,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (27-CO-60-M,10.47MIN,DG,0.059,0.021)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 885 mg/cm2 (Co)
+STATUS     (TABLE) Data taken Table 3 from IN-1317,39
+HISTORY    (20140416A) SD:SF1=Co-60 -> Co-59, SF3=INL -> G,
+           in REACTION code.
+ENDBIB               8
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+0.096
+ENDDATA              3
+ENDSUBENT           20
+SUBENT        14080013   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (29-CU-63(N,G)29-CU-64,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (29-CU-64,12.8HR,DG,0.511,0.38)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 226 mg/cm2 (Cu)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+0.48
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080014   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (30-ZN-64(N,G)30-ZN-65,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (30-ZN-65,245.D,DG,1.115,0.49)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 259 mg/cm2 (Zn)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+0.10
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080015   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (29-CU-65(N,G)29-CU-66,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (29-CU-66,5.1MIN,DG,1.039,0.09)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 266 mg/cm2 (Cu)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+0.10
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080016   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (30-ZN-68(N,G)30-ZN-69-M,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (30-ZN-69-M,13.8HR,DG,0.439,0.95)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 259 mg/cm2 (Zn)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+0.022
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080017   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (35-BR-79(N,G)35-BR-80-M,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (35-BR-80-M,4.38HR,DG,0.037,0.36)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 610 mg/cm2 (NaBr)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+1.1
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080018   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (35-BR-81(N,G)35-BR-82,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (35-BR-82-G,35.34HR,DG,0.777,0.83)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 610 mg/cm2 (NaBr)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+1.1
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080019   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (40-ZR-94(N,G)40-ZR-95,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (40-ZR-95,65.5D,DG,0.724/0.756,0.98)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 438 mg/cm2 (Zr)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+0.095
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080020   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (40-ZR-96(N,G)40-ZR-97,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (40-ZR-97,17.0HR,DG,0.665,0.98)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 438 mg/cm2 (Zr)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+0.079
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080021   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (44-RU-96(N,G)44-RU-97,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (44-RU-97,2.88D,DG,0.215,0.91)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 344 mg/cm2 (Ru)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+0.48
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080022   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (44-RU-102(N,G)44-RU-103,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (44-RU-103,39.5D,DG,0.497,0.88)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 344 mg/cm2 (Ru)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+0.79
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080023   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (45-RH-103(N,G)45-RH-104-M,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (45-RH-104-M,4.41MIN,DG,0.051,0.47)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 301 mg/cm2 (Rh)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+0.13
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080024   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (44-RU-104(N,G)44-RU-105,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (44-RU-105,4.44HR,DG,0.726,0.48)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 344 mg/cm2 (Ru)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+0.84
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080025   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (48-CD-110(N,G)48-CD-111-M,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (48-CD-111-M,48.6MIN,DG,0.247,0.94)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 280 mg/cm2 (Cd)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+0.11
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080026   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (48-CD-114(N,G)48-CD-115,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (48-CD-115-G,53.5HR,DG,0.535,0.26)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 280 mg/cm2 (Cd)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+0.76
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080027   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (49-IN-115(N,G)49-IN-116-M1,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (49-IN-116-M1,54.0MIN,DG,1.293,0.80)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 211 mg/cm2 (In)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+1.7
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080028   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (51-SB-121(N,G)51-SB-122,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (51-SB-122-G,2.77D,DG,0.564,0.66)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 654 mg/cm2 (Sb)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+2.0
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080029   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (51-SB-123(N,G)51-SB-124,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (51-SB-124-G,60.4D,DG,1.692,0.50)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 654 mg/cm2 (Sb)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+1.6
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080030   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (55-CS-133(N,G)55-CS-134,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (55-CS-134-G,2.05YR,DG,0.796/0.802,0.98)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 501 mg/cm2 (CsCl)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+2.4
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080031   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (55-CS-133(N,G)55-CS-134-M,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (55-CS-134-M,2.09HR,DG,0.128,0.14)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 501 mg/cm2 (CsCl)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+0.32
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080032   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (57-LA-139(N,G)57-LA-140,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (57-LA-140,40.2HR,DG,1.596,0.96)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 213 mg/cm2 (La2O3)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+0.23
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080033   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (65-TB-159(N,G)65-TB-160,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (65-TB-160,72.3D,DG,0.620,0.62)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 241 mg/cm2 (Tb)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+12.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080034   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (73-TA-181(N,G)73-TA-182,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (73-TA-182-G,115.D,DG,1.,1.00)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 274 mg/cm2 (Ta)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+6.2
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080035   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (77-IR-191(N,G)77-IR-192,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (77-IR-192-G,74.2D,DG,0.317,0.81)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 754 mg/cm2 (Ir)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+10.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080036   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (77-IR-193(N,G)77-IR-194,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (77-IR-194-G,17.4HR,DG,0.328,0.19)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 754 mg/cm2 (Ir)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+7.6
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080037   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (90-TH-232(N,G)90-TH-233,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (91-PA-233,27.2D,DG,0.311,0.34)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 552 mg/cm2 (Th)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+2.0
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        14080038   20140416   20141203   20141111       1401
+BIB                  5          5
+REACTION   (92-U-235(N,F),,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 1539 mg/cm2 (93 % U235)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               5
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+6.4
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        14080039   20140416   20141203   20141111       1401
+BIB                  6          6
+REACTION   (92-U-238(N,G)92-U-239,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+DECAY-DATA (93-NP-239,2.35D,DG,0.228,0.118)
+DECAY-MON  (79-AU-198-G,2.697D,DG,0.412,0.96)
+SAMPLE     Thickness of 330 mg/cm2 (U3O8)
+STATUS     (TABLE) Data taken from Table 3 of IN-1317,39,1970
+ENDBIB               6
+COMMON               3          3
+EN         EN-RSL-FW  MONIT
+KEV        KEV        B
+2.         0.7        4.8
+ENDCOMMON            3
+DATA                 1          1
+DATA
+B
+1.6
+ENDDATA              3
+ENDSUBENT           18
+ENDENTRY            39

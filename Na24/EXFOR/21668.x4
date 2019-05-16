@@ -1,0 +1,239 @@
+ENTRY            21668   20101114   20110803   20110721       2225
+SUBENT        21668001   20101114   20110803   20110721       2225
+BIB                  8         16
+INSTITUTE  (2GERHAM)
+REFERENCE  (J,ZN/A,15,200,1960)  Values given in abstract and text
+AUTHOR     (M.Bormann,H.Jeremie,G.Andersson-Lindstroem,
+            H.Neuert,H.Pollehn)
+TITLE      -Cross sections for 14 MeV neutrons in the
+            scintillation crystals NaI(Tl), KI(Tl), CsI(Tl) and
+            Li-6I(Eu) component nuclear reactions -. (in German)
+FACILITY   (CCW,2GERHAM) Low energy deuterium beam.
+ERR-ANALYS (DATA-ERR) One standard deviation, no details.
+STATUS     (TABLE) .Values from text of Z.Naturforsch. A15,200.
+HISTORY    (19800918C)
+           (19801104E)
+           (19810127A) G.C., Error analysis changed.
+           (19810213E)
+           (20101114A) SD:Updated to new date formats,lower case.
+                corrected according to last EXFOR rules and Dict.
+ENDBIB              16
+NOCOMMON             0          0
+ENDSUBENT           19
+SUBENT        21668002   20101114   20110803   20110721       2225
+BIB                  8          8
+REACTION   (53-I-127(N,P)52-TE-127-G,,SIG) Cross section.
+INC-SOURCE (D-T  ) Deuterium beam on zirconium tritide target.
+SAMPLE     .Sodium iodide, same as detector.
+METHOD     (ACTIV) Activation.
+DETECTOR   (NAICR) NaI(Tl) scintillation crystal.
+MONITOR    (53-I-127(N,2N)53-I-126,,SIG) Value 1.2b.
+PART-DET   (DG   ) Decay gammas.
+STATUS     (TABLE) .Text, page 202 of Z.Naturforsch. A15,200.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-RSL     MONIT      DATA       DATA-ERR
+MEV        MEV        B          MB         MB
+ 1.4100E+01 1.5000E-01 1.2000E+00 2.5000E+01 1.5000E+01
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        21668003   20101114   20110803   20110721       2225
+BIB                  8          8
+REACTION   (11-NA-23(N,P)10-NE-23,,SIG) Cross section.
+INC-SOURCE (D-T  ) Deuterium beam on zirconium tritide target.
+SAMPLE     .Sodium iodide, same as detector.
+METHOD     (ACTIV) Activation.
+DETECTOR   (NAICR) NaI(Tl) scintillation crystal.
+MONITOR    (53-I-127(N,2N)53-I-126,,SIG) Value 1.2b.
+PART-DET   (DG   ) Decay gammas.
+STATUS     (TABLE) .Text, page 202 of Z.Naturforsch. A15,200.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-RSL     MONIT      DATA       DATA-ERR
+MEV        MEV        B          MB         MB
+ 1.4100E+01 1.5000E-01 1.2000E+00 9.0000E+00 4.0000E+00
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        21668004   20101114   20110803   20110721       2225
+BIB                  8          8
+REACTION   (11-NA-23(N,A)9-F-20,,SIG) Cross section.
+INC-SOURCE (D-T  ) Deuterium beam on zirconium tritide target.
+SAMPLE     .Sodium iodide, same as detector.
+METHOD     (ACTIV) Activation.
+DETECTOR   (NAICR) NaI(Tl) scintillation crystal.
+MONITOR    (53-I-127(N,2N)53-I-126,,SIG) Value 1.2b.
+PART-DET   (DG   ) Decay gammas.
+STATUS     (TABLE) .Text, page 202 of Z.Naturforsch. A15,200.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-RSL     MONIT      DATA       DATA-ERR
+MEV        MEV        B          MB         MB
+ 1.4100E+01 1.5000E-01 1.2000E+00 2.9000E+01 9.0000E+00
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        21668005   20101114   20110803   20110721       2225
+BIB                  8          8
+REACTION   (19-K-41(N,A)17-CL-38,,SIG) Cross section.
+INC-SOURCE (D-T  ) Deuterium beam on zirconium tritide target.
+SAMPLE     .Potassium iodide, same as detector.
+METHOD     (ACTIV) Activation.
+DETECTOR   (SCIN ) KI(Tl) scintillation crystal.
+MONITOR    (53-I-127(N,2N)53-I-126,,SIG) Value 1.2b.
+PART-DET   (DG   ) Decay gammas.
+STATUS     (TABLE) .Text, page 202 of Z.Naturforsch. A15,200.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-RSL     MONIT      DATA       DATA-ERR
+MEV        MEV        B          MB         MB
+ 1.4100E+01 1.5000E-01 1.2000E+00 1.2000E+01 5.0000E+00
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        21668006   20101114   20110803   20110721       2225
+BIB                  7         10
+REACTION   ((55-CS-133(N,P)54-XE-133,,SIG)+
+           (53-I-127(N,P)52-TE-127,,SIG)) Sum cross section
+INC-SOURCE (D-T  ) 150 keV deuteron beam on zirconium tritide
+            target.
+SAMPLE     .Cesium iodide, same as detector.
+METHOD     (ASSOP) Coincidence detection of associated alphas
+            from the D-T reaction and protons in the CsI crystal.
+DETECTOR   (SCIN ) CsI(Tl) scintillation crystal.
+ANALYSIS   .Charged particle spectrum unfolded.
+STATUS     (TABLE) .Text, page 207 of Z.Naturforsch. A15,200.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 1.4100E+01 1.5000E-01 3.4000E+01 5.0000E+00
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        21668007   20101114   20110803   20110721       2225
+BIB                  7         11
+REACTION   ((55-CS-133(N,N+P)54-XE-132,,SIG)+
+           (53-I-127(N,N+P)52-TE-126,,SIG)) Sum cross section.
+INC-SOURCE (D-T  ) 150 keV deuteron beam on zirconium tritide
+            target.
+SAMPLE     .Cesium iodide, same as detector.
+METHOD     (ASSOP) Coincidence between associated alphas from the
+            D-T reaction and protons.
+DETECTOR   (SCIN ) CsI(Tl) scintillation crystal.
+ANALYSIS   .Unfolding of charged particle spectrum to separate
+            the n,p and nnp reaction contributions.
+STATUS     (TABLE) .Text, page 207 of Z.Naturforsch. A15,200.
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 1.4100E+01 1.5000E-01 6.0000E+00 1.0000E+00
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        21668008   20101114   20110803   20110721       2225
+BIB                  7         10
+REACTION   (19-K-39(N,P)18-AR-39,,SIG) Cross section.
+INC-SOURCE (D-T  ) 150keV deuterium beam on zirconium tritide
+            target.
+SAMPLE     .K-I same as detector.
+METHOD     (ASSOP) Detection of emitted protons in coincidence
+            with alphas from the D-T reaction.
+DETECTOR   (SCIN ) K-I scintillation crystal.
+ANALYSIS   .Unfolding of the charged particle spectrum
+            to separate the np, nnp and na contributions.
+STATUS     (TABLE) .Text, page 207 of Z.Naturforsch. A15,200.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 1.4100E+01 1.5000E-01 3.5400E+02 5.4000E+01
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        21668009   20101114   20110803   20110721       2225
+BIB                  7         10
+REACTION   (19-K-39(N,A)17-CL-36,,SIG) Cross section.
+INC-SOURCE (D-T  ) 150 keV deuteron beam on zirconium tritide
+            target.
+SAMPLE     .K-I same as detector.
+METHOD     (ASSOP) Detection of emitted alphas in coincidence
+            with alphas from the D-T reaction.
+DETECTOR   (SCIN ) K-I scintillation crystal.
+ANALYSIS   .Unfolding of the charged particle spectrum to
+            separate the np, nnp and na contributions.
+STATUS     (TABLE) .Text, page 207 of Z.Naturforsch. A15,200.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 1.4100E+01 1.5000E-01 1.1000E+02 1.6000E+01
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        21668010   20101114   20110803   20110721       2225
+BIB                  8         11
+REACTION   (19-K-39(N,N+P)18-AR-38,,SIG) Cross section.
+INC-SOURCE (D-T  ) 150 keV deuterium beam on zirconium
+            tritide target.
+SAMPLE     .K-I same as detector.
+METHOD     (ASSOP) Associated particle, protons in coincidence
+            with alphas from the D-T reaction.
+DETECTOR   (SCIN ) K-I scintillation crystal.
+ANALYSIS   .Unfolding of the charged particle spectrum to
+            separate the np, nnp and na contributions.
+PART-DET   (P    ) Protons.
+STATUS     (TABLE) .Text, page 207 of Z.Naturforsch. A15,200.
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 1.4100E+01 1.5000E-01 1.8600E+02 2.8000E+01
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        21668011   20101114   20110803   20110721       2225
+BIB                  8         11
+REACTION   (3-LI-6(N,T)2-HE-4,,SIG) Cross section.
+INC-SOURCE (D-T  ) 150 keV deuterium beam on zirconium tritide
+            target.
+SAMPLE     .Li-6-I(Eu) crystal, same as detector.
+METHOD     (ASSOP) Detection of emitted alphas in coincidence
+            with alphas from the D-T reaction.
+DETECTOR   (SCIN ) Li-6-I(Eu) scintillation crystal.
+ANALYSIS   .Unfolding of the pulse height spectrum to separate
+            the alphas and gammas.
+PART-DET   (A    ) Alphas.
+STATUS     (TABLE) .Text, page 207 of Z.Naturforsch. A15,200.
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 1.4100E+01 1.5000E-01 2.5000E+01 2.0000E+00
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        21668012   20101114   20110803   20110721       2225
+BIB                  8         11
+REACTION   (3-LI-6(N,T)2-HE-4,,SIG) Cross section.
+INC-SOURCE (D-D  ) 150 keV deuterium beam on zirconium
+            deuteride target.
+SAMPLE     .Li-6-I(Eu) crystal, same as detector.
+METHOD     (ASSOP) Detection of emitted alphas in coincidence
+            with He-3 from the D-D reaction.
+DETECTOR   (SCIN ) Li-6-I(Eu) scintillation crystal.
+ANALYSIS   .Unfolding of the pulse height spectrum to
+            separate alphas and gammas.
+PART-DET   (A    ) Alphas.
+STATUS     (TABLE) .Text, page 208 of Z.Naturforsch. A15,200.
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 2.5000E+00 1.0000E-01 1.9000E+02 1.5000E+01
+ENDDATA              3
+ENDSUBENT           19
+ENDENTRY            12

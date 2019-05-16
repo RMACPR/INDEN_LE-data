@@ -1,0 +1,679 @@
+ENTRY            40216   20150915   20151123   20151113       4170
+SUBENT        40216001   20150915   20151123   20151113       4170
+BIB                 12         42
+INSTITUTE  (4RUSKUR)
+REFERENCE  (J,AE,25,(5),437,1968) One author - F.Nasyrov
+           (J,SJA,25,1251,1968) Engl.translation of AE,25,(5),437
+           (J,DOK,180,(4),836,1968) Authors are F.Nasyrov,
+                                                B.D.Stsiborskii.
+           Experimental details. Data Table, EN.
+           (J,SPD,13,559,1968) Engl.translation of DOK,180,(4),836
+AUTHOR     (F.Nasyrov,B.D.Stsiborskii)
+TITLE      Cross-sections for (n,2n), (n,p), and (n,a) reactions
+           averaged over the neutron fission spectrum
+FACILITY   (REAC,4RUSKUR)
+           (CRASS,4RUSKUR)
+INC-SOURCE2(REAC) Measurements were performed at axial exp.channel
+           of cylindrical core. Besides U-235 the reactor
+           contained Fe(20 at%),Mo(10at%), U-238(10at%).
+           Critical assembly( no details) was used .
+           Spectrum approximation were - Watt spectrum (in DOC),
+           Cranberg spectrum (in DOC), Maxwellian spectrum (in AE
+           and DOC ). Below 3 MeV the reactor spectrum differs
+           from the fission spectrum. Above 3 MeV spectra are
+           similar.
+INC-SPECT 2 Spectrum of energy range 0.6-24 MeV within U reactor.
+            Average energy of reactor neutrons was 1.42+-0.04 MeV.
+DETECTOR   (THRES) Threshold detectors were used to measure the
+           neutron spectrum.
+           (FISCH) The neutron flux in the channel was measured
+           with Pu-239 fission chamber.
+MONITOR    ((MONIT)94-PU-239(N,F),,SIG)
+ANALYSIS  1 Data for fission-averaged CS were derived
+            from critical assembly values .
+ERR-ANALYS (DATA-ERR)  Not specified
+HISTORY    (19800525C)
+           (19830728U)
+           (20150915A) M.M. Refs.of Engl.translations were added.
+           The articles were checked, BIB information was updated
+           in AUTHOR,TITLE,FACILITY,MONITOR,INC-SOURCE,INC-SPECT,
+           STATUS, DETECTOR.
+           Data and decay data were corrected as given in Tables.
+           Subents 33-35 were added.
+           EN-DUMMY=1. MeV value was corrected ->
+           EN-MEAN=1.42+-0.04 MeV (as given in DOK,180,(4),836)
+           DERIV was added in REACTION 1.
+ENDBIB              42
+COMMON               3          3
+EN-MEAN    EN-ERR     MONIT
+MEV        MEV        B
+ 1.42       0.04       1.85
+ENDCOMMON            3
+ENDSUBENT           49
+SUBENT        40216002   20150915   20151123   20151113       4170
+BIB                  6         13
+REACTION  1(6-C-12(N,2N)6-C-11,,SIG,,FIS,DERIV) Derived from
+                                             measured  datum
+          2(6-C-12(N,2N)6-C-11,,SIG,,SPA)  Measured in critical
+                                       assembly
+SAMPLE     Spectrally pure graphite.
+           Irradiated by integrated reactor neutron flux of up to
+            10**5 n/cm2 during short time.
+DECAY-DATA (6-C-11,20.5MIN)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+                   Table 1 of DOK,180,(4),836,1968 .
+ENDBIB              13
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+    3.6E-07    1.2E-07    3.0E-07    1.0E-07
+ENDDATA              3
+ENDSUBENT           21
+SUBENT        40216003   20150915   20151123   20151113       4170
+BIB                  5         10
+REACTION  1(8-O-16(N,2N)8-O-15,,SIG,,FIS,DERIV) Derived from
+                                             measured  datum
+          2(8-O-16(N,2N)8-O-15,,SIG,,SPA)  Measured in critical
+                                           assembly
+DECAY-DATA (8-O-15,121.SEC)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+                   Table 1 of DOK,180,(4),836,1968 .
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+    4.5E-06    2.0E-06    3.5E-06    1.5E-06
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        40216004   20150915   20151123   20151113       4170
+BIB                  5         10
+REACTION  1(9-F-19(N,2N)9-F-18,,SIG,,FIS,DERIV) Derived from
+                                             measured  datum
+          2(9-F-19(N,2N)9-F-18,,SIG,,SPA)  Measured in the
+                                           critical assembly
+DECAY-DATA (9-F-18,111.MIN)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+                   Table 1 of DOK,180,(4),836,1968 .
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+    7.2E-03    1.0E-03    4.3E-03     6.E-04
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        40216005   20150915   20151123   20151113       4170
+BIB                  5          9
+REACTION  1(11-NA-23(N,2N)11-NA-22,,SIG,,FIS,DERIV) Derived from
+                                                 measured  datum
+          2(11-NA-23(N,2N)11-NA-22,,SIG,,SPA)  Measured in the
+                                               critical assembly
+DECAY-DATA (11-NA-22,2.58YR)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+    2.7E-03     7.E-04    1.9E-03     5.E-04
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        40216006   20150915   20151123   20151113       4170
+BIB                  5          9
+REACTION  1(12-MG-24(N,P)11-NA-24,,SIG,,FIS,DERIV)
+          2(12-MG-24(N,P)11-NA-24,,SIG,,SPA)  Measured in the
+                                              critical assembly
+DECAY-DATA (11-NA-24,14.9HR)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+                   Table 1 of DOK,180,(4),836,1968 .
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 1.30       0.17       0.70       0.09
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        40216007   20150915   20151123   20151113       4170
+BIB                  5          9
+REACTION  1(13-AL-27(N,A)11-NA-24,,SIG,,FIS,DERIV)
+          2(13-AL-27(N,A)11-NA-24,,SIG,,SPA) Measured in the
+                                             critical assembly
+DECAY-DATA (11-NA-24,14.9HR)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+                   Table 1 of DOK,180,(4),836,1968 .
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 0.58       0.07       0.32       0.04
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        40216008   20150915   20151123   20151113       4170
+BIB                  5          8
+REACTION  1(14-SI-29(N,P)13-AL-29,,SIG,,FIS,DERIV)
+          2(14-SI-29(N,P)13-AL-29,,SIG,,SPA)  Measured in the
+                                              critical assembly
+DECAY-DATA (13-AL-29,6.7MIN)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 2.40       0.18       1.33       0.10
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40216009   20150915   20151123   20151113       4170
+BIB                  5          8
+REACTION  1(22-TI-46(N,P)21-SC-46,,SIG,,FIS,DERIV)
+          2(22-TI-46(N,P)21-SC-46,,SIG,,SPA)  Measured in the
+                                              critical assembly
+DECAY-DATA (21-SC-46-G,84.D)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 9.30       0.73       5.20       0.40
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40216010   20150915   20151123   20151113       4170
+BIB                  5          8
+REACTION  1(22-TI-47(N,P)21-SC-47,,SIG,,FIS,DERIV)
+          2(22-TI-47(N,P)21-SC-47,,SIG,,SPA)  Measured in the
+                                              critical assembly
+DECAY-DATA (21-SC-47,3.44D)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 26.0       3.1        17.0       2.0
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40216011   20150915   20151123   20151113       4170
+BIB                  5          9
+REACTION  1(22-TI-48(N,P)21-SC-48,,SIG,,FIS,DERIV)
+          2(22-TI-48(N,P)21-SC-48,,SIG,,SPA)  Measured in the
+                                              critical assembly
+DECAY-DATA (21-SC-48,44.0HR)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+                  Table 1 of DOK,180,(4),836,1968 -0.135+-0.039mb
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 0.240      0.054      0.133      0.030
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        40216012   20150915   20151123   20151113       4170
+BIB                  5          8
+REACTION  1(23-V-51(N,P)22-TI-51,,SIG,,FIS,DERIV)
+          2(23-V-51(N,P)22-TI-51,,SIG,,SPA)  Measured in the
+                                             critical assembly
+DECAY-DATA (22-TI-51,5.8MIN)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 0.74       0.08       0.41       0.04
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40216013   20150915   20151123   20151113       4170
+BIB                  5          8
+REACTION  1(23-V-51(N,A)21-SC-48,,SIG,,FIS,DERIV)
+          2(23-V-51(N,A)21-SC-48,,SIG,,SPA)  Measured in the
+                                             critical assembly
+DECAY-DATA (21-SC-48,44.HR)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+   1.53E-02    2.7E-03    8.5E-03    1.5E-03
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40216014   20150915   20151123   20151113       4170
+BIB                  5          8
+REACTION  1(25-MN-55(N,2N)25-MN-54,,SIG,,FIS,DERIV)
+          2(25-MN-55(N,2N)25-MN-54,,SIG,,SPA)  Measured in the
+                                               critical assembly
+DECAY-DATA (25-MN-54,291.D)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 0.202      0.018      0.112      0.010
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40216015   20150915   20151123   20151113       4170
+BIB                  5          9
+REACTION  1(26-FE-54(N,P)25-MN-54,,SIG,,FIS,DERIV)
+          2(26-FE-54(N,P)25-MN-54,,SIG,,SPA)  Measured in the
+                                              critical assembly
+DECAY-DATA (25-MN-54,291.D)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+                   Table 1 of DOK,180,(4),836,1968 .
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 67.        9.         42.5       5.8
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        40216016   20150915   20151123   20151113       4170
+BIB                  5          8
+REACTION  1(26-FE-54(N,A)24-CR-51,,SIG,,FIS,DERIV)
+          2(26-FE-54(N,A)24-CR-51,,SIG,,SPA)  Measured in the
+                                              critical assembly
+DECAY-DATA (24-CR-51,27.8D)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 0.50       0.15       0.28       0.08
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40216017   20150915   20151123   20151113       4170
+BIB                  5          9
+REACTION  1(26-FE-56(N,P)25-MN-56,,SIG,,FIS,DERIV)
+          2(26-FE-56(N,P)25-MN-56,,SIG,,SPA)  Measured in the
+                                              critical assembly
+DECAY-DATA (25-MN-56,2.578HR)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+                   Table 1 of DOK,180,(4),836,1968 .
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 0.96       0.09       0.53       0.05
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        40216018   20150915   20151123   20151113       4170
+BIB                  5          8
+REACTION  1(27-CO-59(N,2N)27-CO-58,,SIG,,FIS,DERIV)
+          2(27-CO-59(N,2N)27-CO-58,,SIG,,SPA) Measured
+                                     in the   critical assembly
+DECAY-DATA (27-CO-58-G,71.3D)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 0.340      0.030      0.190      0.016
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40216019   20150915   20151123   20151113       4170
+BIB                  5          8
+REACTION  1(27-CO-59(N,P)26-FE-59,,SIG,,FIS,DERIV)
+          2(27-CO-59(N,P)26-FE-59,,SIG,,SPA)  Measured in the
+                                              critical assembly
+DECAY-DATA (26-FE-59,45.D)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 1.15       0.15       0.64       0.08
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40216020   20150915   20151123   20151113       4170
+BIB                  5          8
+REACTION  1(27-CO-59(N,A)25-MN-56,,SIG,,FIS,DERIV)
+          2(27-CO-59(N,A)25-MN-56,,SIG,,SPA)  Measured in the
+                                              critical assembly
+DECAY-DATA (25-MN-56,2.578HR)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 0.131      0.011      0.073      0.006
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40216021   20150915   20151123   20151113       4170
+BIB                  6         10
+REACTION  1(28-NI-58(N,P)27-CO-58,,SIG,,FIS,DERIV)
+          2(28-NI-58(N,P)27-CO-58,,SIG,,SPA)  Measured
+                                     in the   critical assembly
+DECAY-DATA (27-CO-58-G,71.3D)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+                   Table 1 of DOK,180,(4),836,1968 .
+HISTORY    (20150915A) DATA 1 value was corrected 99 -> 96 mb.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 96.        13.        58.        8.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        40216022   20150915   20151123   20151113       4170
+BIB                  5          8
+REACTION  1(28-NI-60(N,P)27-CO-60,,SIG,,FIS,DERIV)
+          2(28-NI-60(N,P)27-CO-60,,SIG,,SPA)  Measured in the
+                                              critical assembly
+DECAY-DATA (27-CO-60-G,5.27YR)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 1.69       0.18       0.94       0.10
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40216023   20150915   20151123   20151113       4170
+BIB                  5          8
+REACTION  1(29-CU-63(N,A)27-CO-60,,SIG,,FIS,DERIV)
+          2(29-CU-63(N,A)27-CO-60,,SIG,,SPA)  Measured in the
+                                              critical assembly
+DECAY-DATA (27-CO-60-G,5.27YR)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 0.382      0.036      0.212      0.020
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40216024   20150915   20151123   20151113       4170
+BIB                  5          8
+REACTION  1(29-CU-65(N,P)28-NI-65,,SIG,,FIS,DERIV)
+          2(29-CU-65(N,P)28-NI-65,,SIG,,SPA)  Measured in the
+                                              critical assembly
+DECAY-DATA (28-NI-65,2.564HR)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 0.52       0.05       0.290      0.028
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40216025   20150915   20151123   20151113       4170
+BIB                  5          9
+REACTION  1(30-ZN-64(N,P)29-CU-64,,SIG,,FIS,DERIV)
+          2(30-ZN-64(N,P)29-CU-64,,SIG,,SPA)  Measured in the
+                                              critical assembly
+DECAY-DATA (29-CU-64,12.8HR)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+                   Table 1 of DOK,180,(4),836,1968 .
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 27.0       4.1        15.0       2.3
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        40216026   20150915   20151123   20151113       4170
+BIB                  5          8
+REACTION  1(30-ZN-66(N,P)29-CU-66,,SIG,,FIS,DERIV)
+          2(30-ZN-66(N,P)29-CU-66,,SIG,,SPA)  Measured in the
+                                              critical assembly
+DECAY-DATA (29-CU-66,5.1MIN)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 0.32       0.11       0.18       0.06
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40216027   20150915   20151123   20151113       4170
+BIB                  5          8
+REACTION  1(33-AS-75(N,2N)33-AS-74,,SIG,,FIS,DERIV)
+          2(33-AS-75(N,2N)33-AS-74,,SIG,,SPA)  Measured in the
+                                               critical assembly
+DECAY-DATA (33-AS-74,17.5D)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 0.304      0.036      0.168      0.020
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        40216028   20150915   20151123   20151113       4170
+BIB                  6          9
+REACTION  1(41-NB-93(N,2N)41-NB-92-M,,SIG,,FIS,DERIV)
+          2(41-NB-93(N,2N)41-NB-92-M,,SIG,,SPA)  Measured in the
+                                               critical assembly
+DECAY-DATA (41-NB-92-M,10.1D)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+HISTORY    (20150915A) M.M. -M  was added in SF4 and decay data.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 0.370      0.030      0.207      0.017
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        40216029   20150915   20151123   20151113       4170
+BIB                  6          9
+REACTION  1(42-MO-92(N,P)41-NB-92-M,,SIG,,FIS,DERIV)
+          2(42-MO-92(N,P)41-NB-92-M,,SIG,,SPA)  Measured in the
+                                              critical assembly
+DECAY-DATA (41-NB-92-M,10.1D)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+HISTORY    (20150915A) M.M. -M  was added in SF4 and decay data.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 6.70       0.63       3.73       0.35
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        40216030   20150915   20151123   20151113       4170
+BIB                  5          9
+REACTION  1(47-AG-107(N,2N)47-AG-106-M,,SIG,,FIS,DERIV)
+          2(47-AG-107(N,2N)47-AG-106-M,,SIG,,SPA) Measured in the
+                                                critical assembly
+DECAY-DATA (47-AG-106-M,8.2D)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+                   Table 1 of DOK,180,(4),836,1968 .
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 0.39       0.07       0.22       0.04
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        40216031   20150915   20151123   20151113       4170
+BIB                  5          9
+REACTION  1(53-I-127(N,2N)53-I-126,,SIG,,FIS,DERIV)
+          2(53-I-127(N,2N)53-I-126,,SIG,,SPA)  Measured in the
+                                              critical assembly
+DECAY-DATA (53-I-126,13.D)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+                   Table 1 of DOK,180,(4),836,1968 .
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 1.62       0.024      0.90       0.13
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        40216032   20150915   20151123   20151113       4170
+BIB                  5          9
+REACTION  1(81-TL-203(N,2N)81-TL-202,,SIG,,FIS,DERIV)
+          2(81-TL-203(N,2N)81-TL-202,,SIG,,SPA)  Measured in the
+                                                critical assembly
+DECAY-DATA (81-TL-202,12.5D)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of AE,25,(5),437,1968
+                   Table 1 of DOK,180,(4),836,1968 .
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MB         MB         MB         MB
+ 2.75       0.55       1.5        0.3
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        40216033   20150915   20151123   20151113       4170
+BIB                  3          4
+REACTION   (93-NP-237(N,F),,SIG,,SPA)
+DETECTOR   (FISCH)    Fission cross-sections were measured with
+           a fission chamber.
+STATUS     (TABLE) Table 1 of DOK,180,(4),836,1968 .
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 940.       50.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        40216034   20150915   20151123   20151113       4170
+BIB                  4          6
+REACTION   (92-U-238(N,F),,SIG,,SPA)
+DETECTOR   (FISCH)    Fission cross-sections were measured with
+           a fission chamber.
+COMMENT    Of compiler. There is a misprint in Table 1.
+           I-238(N,F) is given, supposed by compiler as U-238(N,F)
+STATUS     (TABLE) Table 1 of DOK,180,(4),836,1968 .
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 183.       12.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        40216035   20150915   20151123   20151113       4170
+BIB                  4          5
+REACTION   (49-IN-115(N,INL)49-IN-115-M,,SIG,,SPA)
+METHOD     (ACTIV)
+DETECTOR   (NAICR) The induced activities were measured by 80x80mm
+           single crystal NaI(Tl) gamma-spectrometer.
+STATUS     (TABLE) Table 1 of DOK,180,(4),836,1968 .
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 123.       18.
+ENDDATA              3
+ENDSUBENT           13
+ENDENTRY            35

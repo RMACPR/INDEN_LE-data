@@ -1,0 +1,439 @@
+ENTRY            11429   20091005   20100128   20100119       1357
+SUBENT        11429001   20091005   20100128   20100119       1357
+BIB                 11         17
+INSTITUTE  (1USALRL)
+REFERENCE  (J,PR,112,226,1958)
+AUTHOR     (R.Booth,W.P.Ball,M.H.Mac GRegor)
+TITLE      Neutron activation cross sections at 25keV.
+INC-SOURCE (PHOTO) Sb-Be source
+INC-SPECT  Energy corrected to 24 keV by nndc.
+MONITOR    ((MONIT1)53-I-127(N,G)53-I-128,,SIG) At 24 keV.
+           ((MONIT2)53-I-127(N,G)53-I-128,,SIG) At thermal.
+METHOD     (ACTIV).
+PART-DET   (B,DG)
+STATUS     (SCSRS)
+           (TABLE) Data taken from table in reference.
+HISTORY    (19761016T) Translated from SCISRS
+           (19820813A) converted to reaction formalism
+           (19860429A) bib update. I-127 monitor moved to san 1.
+           (20091005A) VM:Updated to new date formats,lower case.
+                       BIB updates.
+ENDBIB              17
+COMMON               8          6
+EN         EN-RSL     MONIT1     MONIT1-ERR EN-NRM2    MONIT2
+MONIT2-ERR EN-NRM3
+KEV        KEV        MB         MB         EV         B
+B          EV
+ 24.        5.0000E+00 820.       60.        0.0253     5.5
+ 0.5        0.0253
+ENDCOMMON            6
+ENDSUBENT           27
+SUBENT        11429002   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG)
+MONITOR    ((MONIT3)11-NA-23(N,G)11-NA-24,,SIG)
+DECAY-DATA (11-NA-24,15.HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 1.10   -03 2.3    -04 0.53       4.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429003   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (14-SI-30(N,G)14-SI-31,,SIG)
+MONITOR    ((MONIT3)14-SI-30(N,G)14-SI-31,,SIG) At thermal.
+DECAY-DATA (14-SI-31,2.62HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 1.9    -03 1.5    -03 0.11       9.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429004   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (19-K-41(N,G)19-K-42,,SIG)
+MONITOR    ((MONIT3)19-K-41(N,G)19-K-42,,SIG) At thermal.
+DECAY-DATA (19-K-42,12.5HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 2.2    -02 5.     -03 1.15       10.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429005   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (21-SC-45(N,G)21-SC-46,,SIG)
+MONITOR    ((MONIT3)21-SC-45(N,G)21-SC-46,,SIG) At thermal.
+DECAY-DATA (21-SC-46-G,85.D)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 5.6    -02 3.0    -02 22.        9.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429006   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (25-MN-55(N,G)25-MN-56,,SIG)
+MONITOR    ((MONIT3)25-MN-55(N,G)25-MN-56,,SIG) At thermal.
+DECAY-DATA (25-MN-56,2.58HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 5.2    -02 1.6    -02 13.4       22.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429007   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (28-NI-64(N,G)28-NI-65,,SIG)
+MONITOR    ((MONIT3)28-NI-64(N,G)28-NI-65,,SIG) At thermal.
+DECAY-DATA (28-NI-65,2.56HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 8.7    -03 2.3    -03 1.6        13.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429008   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (29-CU-63(N,G)29-CU-64,,SIG)
+MONITOR    ((MONIT3)29-CU-63(N,G)29-CU-64,,SIG) At thermal.
+DECAY-DATA (29-CU-64,12.8HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 1.14   -01 2.4    -02 4.3        7.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429009   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (29-CU-65(N,G)29-CU-66,,SIG)
+MONITOR    ((MONIT3)29-CU-65(N,G)29-CU-66,,SIG) At thermal.
+DECAY-DATA (29-CU-66,5.1MIN)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 4.8    -02 1.2    -02 2.11       8.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429010   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (30-ZN-68(N,G)30-ZN-69-M,,SIG)
+MONITOR    ((MONIT3)30-ZN-68(N,G)30-ZN-69,,SIG) At thermal.
+DECAY-DATA (30-ZN-69-M,13.8HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 5.6    -03 2.0    -03 0.097      10.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429011   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (30-ZN-68(N,G)30-ZN-69-G,,SIG)
+MONITOR    ((MONIT3)30-ZN-68(N,G)30-ZN-69,,SIG) At thermal.
+DECAY-DATA (30-ZN-69-G,52.MIN)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 2.6    -02 1.0    -02 1.         20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429012   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (33-AS-75(N,G)33-AS-76,,SIG)
+MONITOR    ((MONIT3)33-AS-75(N,G)33-AS-76,,SIG) At thermal.
+DECAY-DATA (33-AS-76,26.7HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 6.50   -01 1.60   -01 4.1        5.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429013   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (39-Y-89(N,G)39-Y-90,,SIG)
+MONITOR    ((MONIT3)39-Y-89(N,G)39-Y-90,,SIG) At thermal.
+DECAY-DATA (39-Y-90,64.HR)
+HISTORY    (20091005A) Decay data coding corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 2.8    -02 7.     -03 1.26       6.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11429014   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (42-MO-98(N,G)42-MO-99,,SIG)
+MONITOR    ((MONIT3)42-MO-98(N,G)42-MO-99,,SIG) At thermal.
+DECAY-DATA (42-MO-99,67.HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 3.90   -01 1.20   -01 0.45       22.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429015   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (46-PD-108(N,G)46-PD-109,,SIG)
+MONITOR    ((MONIT3)46-PD-108(N,G)46-PD-109,,SIG) At thermal.
+DECAY-DATA (46-PD-109-G,13.6HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 5.80   -01 2.00   -01 12.        25.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429016   20091005   20100128   20100119       1357
+BIB                  2          2
+REACTION   (46-PD-110(N,G)46-PD-111,,SIG)
+DECAY-DATA (46-PD-111-G,22.MIN)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA-MIN
+B
+ 3.00   -01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11429017   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (49-IN-113(N,G)49-IN-114-M,,SIG)
+MONITOR    ((MONIT3)49-IN-113(N,G)49-IN-114-M,,SIG) At thermal.
+DECAY-DATA (49-IN-114-M,49.D)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 8.50   +00 2.70   +00 56.        21.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429018   20091005   20100128   20100119       1357
+BIB                  4          7
+REACTION   (49-IN-115(N,G)49-IN-116-M1+M2,,SIG)
+MONITOR    ((MONIT3)49-IN-115(N,G)49-IN-116-M1+M2,,SIG)
+              At thermal
+DECAY-DATA (49-IN-116-M1,54.MIN)
+HISTORY    (19860610A) Bib update
+           (20091005A) SUM removed from reaction SF6.
+                       Normalization energy added to data.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 5          1
+DATA       DATA-ERR   EN-NRM3    MONIT3     MONIT3-ERR
+B          B          EV         B          PER-CENT
+ 9.8    -01 2.2    -01 0.0253     145.       10.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11429019   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (51-SB-121(N,G)51-SB-122,,SIG)
+MONITOR    ((MONIT3)51-SB-121(N,G)51-SB-122,,SIG) At thermal.
+DECAY-DATA (51-SB-122-G,2.8D)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 8.10   -01 2.50   -01 6.8        22.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429020   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (51-SB-123(N,G)51-SB-124-G,(M),SIG)
+MONITOR    ((MONIT3)51-SB-123(N,G)51-SB-124,,SIG) At thermal.
+DECAY-DATA (51-SB-124-G,60.D)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 2.30   -01 1.00   -01 2.5        20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429021   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (55-CS-133(N,G)55-CS-134-G,,SIG)
+MONITOR    ((MONIT3)55-CS-133(N,G)55-CS-134-G,,SIG) At thermal.
+DECAY-DATA (55-CS-134-G,2.3YR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 9.00   -01 3.00   -01 26.        19.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429022   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (55-CS-133(N,G)55-CS-134-M,,SIG)
+MONITOR    ((MONIT3)55-CS-133(N,G)55-CS-134-M,,SIG) At thermal.
+DECAY-DATA (55-CS-134-M,3.1HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+MB         MB         B          PER-CENT
+ 6.     -01 3.     -01 0.017      24.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429023   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (57-LA-139(N,G)57-LA-140,,SIG)
+MONITOR    ((MONIT3)57-LA-139(N,G)57-LA-140,,SIG) At thermal.
+DECAY-DATA (57-LA-140,40.2HR)
+HISTORY    (20091005A) Out-of-date status removed.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 4.9    -02 1.3    -02 8.4        20.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11429024   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (59-PR-141(N,G)59-PR-142,,SIG)
+MONITOR    ((MONIT3)59-PR-141(N,G)59-PR-142,,SIG) At thermal.
+DECAY-DATA (59-PR-142-G,19.1HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 1.70   -01 4.0    -02 11.2       5.4
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429025   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (66-DY-164(N,G)66-DY-165,,SIG)
+MONITOR    ((MONIT3)66-DY-164(N,G)66-DY-165,,SIG) At thermal.
+DECAY-DATA (66-DY-165-G,2.32HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 3.30   -01 1.30   -01 2100.      15.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429026   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (73-TA-181(N,G)73-TA-182,,SIG)
+MONITOR    ((MONIT3)73-TA-181(N,G)73-TA-182,,SIG) At thermal.
+DECAY-DATA (73-TA-182-G,112.D)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 1.400  +00 3.10   -01 21.3       5.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429027   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (74-W-184(N,G)74-W-185,,SIG)
+MONITOR    ((MONIT3)74-W-184(N,G)74-W-185,,SIG) At thermal.
+DECAY-DATA (74-W-185-G,74.D)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 3.50   -01 1.80   -01 2.         15.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429028   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (74-W-186(N,G)74-W-187,,SIG)
+MONITOR    ((MONIT3)74-W-186(N,G)74-W-187,,SIG) At thermal.
+DECAY-DATA (74-W-187,24.1HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 2.70   -01 7.0    -02 34.        9.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429029   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (78-PT-196(N,G)78-PT-197-G,(M),SIG)
+MONITOR    ((MONIT3)78-PT-196(N,G)78-PT-197,,SIG) At thermal.
+DECAY-DATA (78-PT-197-G,19.HR)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 2.10   -01 6.0    -02 0.8        13.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429030   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (78-PT-198(N,G)78-PT-199,,SIG)
+MONITOR    ((MONIT3)78-PT-198(N,G)78-PT-199,,SIG) At thermal.
+DECAY-DATA (78-PT-199-G,30.MIN)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 2.40   -01 8.0    -02 3.9        20.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429031   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (79-AU-197(N,G)79-AU-198,,SIG)
+MONITOR    ((MONIT3)79-AU-197(N,G)79-AU-198,,SIG) At thermal.
+DECAY-DATA (79-AU-198-G,2.7D)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+B          B          B          PER-CENT
+ 8.90   -01 1.90   -01 98.8       1.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11429032   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (83-BI-209(N,G)83-BI-210-G,,SIG)
+MONITOR    ((MONIT3)83-BI-209(N,G)83-BI-210,,SIG) At thermal.
+DECAY-DATA (83-BI-210-G,5.D)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   MONIT3     MONIT3-ERR
+MB         MB         B          PER-CENT
+ 1.8        0.7        0.019      10.
+ENDDATA              3
+ENDSUBENT           11
+ENDENTRY            32

@@ -1,0 +1,67 @@
+ENTRY            32516   20110214   20110621   20110619       3149
+SUBENT        32516001   20110214   20110621   20110619       3149
+BIB                 12         25
+TITLE      Measurement of small-angle scattering of 14.7 MeV
+            neutrons by C and Be nuclei
+AUTHOR     (Wan Dairong, Cao Jianhua, Dai Yunsheng, Liang Xuecai)
+INSTITUTE  (3CPRSIU)
+REFERENCE  (J,PHE,15,(2),165,199102)
+FACILITY   (CCW,3CPRSIU) 400 keV Cockcroft-Walton accelerator
+INC-SOURCE (D-T)
+METHOD     (TOF) Associated particle time of flight
+DETECTOR   (SCIN) ST-1701 liquid scintillation position-sensitive
+            detector
+CORRECTION Data corrected for
+            - effects of finite geometry;
+            - neutron flux attenuation;
+            - multiple scattering.
+ERR-ANALYS (ERR-T) The total error is 7%, including:
+           (ERR-S,4.,6.) statistical error (4-6%);
+           (ERR-1) various corrections      (~3%)
+STATUS     (TABLE) Data from the author
+           (APRVD)Proof-copy was approved by authors
+HISTORY    (19910612C) Compiled by author,corrected and checked
+                       by Liang Qichang and Yu Hongwei
+           (19931124U) HW.-Reference code corrected.-
+           (20100328A) SD:Updated to new date formats,lower case.
+                       Cosmetic changes
+           (20110214U) On. DETECTOR: PS -> SCIN
+ENDBIB              25
+COMMON               2          3
+EN         ERR-1
+MEV        PER-CENT
+ 14.7       3.
+ENDCOMMON            3
+ENDSUBENT           32
+SUBENT        32516002   20100328   20110216   20110213       3147
+BIB                  1          1
+REACTION   (6-C-12(N,EL)6-C-12,,DA)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          6
+ANG        DATA       ERR-T
+ADEG       MB/SR      MB/SR
+       2.98      644.        45.
+       4.01      566.        40.
+       5.09      585.        41.
+       6.21      664.        46.
+       7.34      578.        40.
+       8.49      519.        36.
+ENDDATA              8
+ENDSUBENT           14
+SUBENT        32516003   20100328   20110216   20110213       3147
+BIB                  1          1
+REACTION   (4-BE-9(N,EL)4-BE-9,,DA)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          5
+ANG        DATA       ERR-T
+ADEG       MB/SR      MB/SR
+       4.10      959.        67.
+       5.22      847.        59.
+       6.36      711.        50.
+       7.53      797.        56.
+       8.71      912.        64.
+ENDDATA              7
+ENDSUBENT           13
+ENDENTRY             3

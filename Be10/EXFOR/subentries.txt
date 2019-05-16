@@ -1,0 +1,210 @@
+10047007: CS for N,TOT, Cross section for 9Be(n,Total)
+10070003: CS for N,TOT, Cross section for 9Be(n,Total)
+10319002: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+10415006: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+10550002: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+10550004: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+10632008: DA for N,P, Partial differential cross section d/dA for 9Be(n,p)9Li
+10632009: DA for N,T, Partial differential cross section d/dA for 9Be(n,t)7Li
+10678002: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+10678005: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+10884002: CS for N,TOT, Cross section for 9Be(n,Total)
+11011003: CS for N,TOT, Cross section for 9Be(n,Total)
+11011004: CS for N,TOT, Cross section for 9Be(n,Total)
+11041003: CS for N,TOT, Cross section for 9Be(n,Total)
+11048004: CS for N,TOT, Cross section for 9Be(n,Total)
+11057004: CS for N,TOT, Cross section for 9Be(n,Total)
+11058004: CS for N,A, Cross section for 9Be(n,alpha)6He
+11060003: CS for N,TOT, Cross section for 9Be(n,Total)
+11074005: CS for N,TOT, Cross section for 9Be(n,Total)
+11093003: CS for N,TOT, Cross section for 9Be(n,Total)
+11108006: CS for N,TOT, Cross section for 9Be(n,Total)
+11155006: CS for N,TOT, Cross section for 9Be(n,Total)
+11178003: CS for N,TOT, Cross section for 9Be(n,Total)
+11184003: CS for N,G, Spectrum average Cross section for 9Be(n,gamma)10Be
+11192002: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+11192003: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+11192004: CS for N,TOT, Cross section for 9Be(n,Total)
+11192005: CS for N,NON, Cross section for 9Be(n,Nonelastic)
+11194002: CS for N,A, Cross section for 9Be(n,alpha)6He
+11194003: CS for N,A, Cross section for 9Be(n,alpha)6He
+11201003: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+11204002: CS for N,G, Cross section for 9Be(n,gamma)10Be
+11204003: CS for N,TOT, Cross section for 9Be(n,Total)
+11204004: CS for N,TOT, Cross section for 9Be(n,Total)
+11204005: CS for N,TOT, Cross section for 9Be(n,Total)
+11207002: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+11207003: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+11208002: CS for N,TOT, Cross section for 9Be(n,Total)
+11214003: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+11214004: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+11215002: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+11215003: CS for N,NON, Cross section for 9Be(n,Nonelastic)
+11215004: CS for N,TOT, Cross section for 9Be(n,Total)
+11215005: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+11216002: CS for N,NON, Cross section for 9Be(n,Nonelastic)
+11217002: CS for N,NON, Cross section for 9Be(n,Nonelastic)
+11220002: CS for N,NON, Cross section for 9Be(n,Nonelastic)
+11220003: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+11221002: CS for N,TOT, Cross section for 9Be(n,Total)
+11222002: CS for N,A, Cross section for 9Be(n,alpha)6He
+11222003: CS for N,A, Cross section for 9Be(n,alpha)6He
+11222004: CS for N,A, Cross section for 9Be(n,alpha)6He
+11222005: CS for N,A, Cross section for 9Be(n,alpha)6He
+11222006: CS for N,A, Cross section for 9Be(n,alpha)6He
+11222007: CS for N,A, Cross section for 9Be(n,alpha)6He
+11222008: CS for N,A, Cross section for 9Be(n,alpha)6He
+11224002: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+11224003: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+11226002: CS for N,NON, Cross section for 9Be(n,Nonelastic)
+11228002: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+11228003: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+11231002: CS for N,T, Cross section for 9Be(n,t)7Li
+11232002: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+11232005: CS for N,NON, Cross section for 9Be(n,Nonelastic)
+11232007: CS for N,TOT, Cross section for 9Be(n,Total)
+11232009: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+11236002: CS for N,P, Cross section for 9Be(n,p)9Li
+11237003: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+11237004: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+11242002: CS for N,TOT, Cross section for 9Be(n,Total)
+11244002: CS for N,TOT, Cross section for 9Be(n,Total)
+11247002: CS for N,G, Spectrum average Cross section for 9Be(n,gamma)10Be
+11249002: CS for N,TOT, Cross section for 9Be(n,Total)
+11251002: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+11251004: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+11252002: CS for N,TOT, Cross section for 9Be(n,Total)
+11252003: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+11256002: CS for N,TOT, Cross section for 9Be(n,Total)
+11256003: CS for N,TOT, Cross section for 9Be(n,Total)
+11257002: CS for N,NON, Cross section for 9Be(n,Nonelastic)
+11258002: CS for N,TOT, Cross section for 9Be(n,Total)
+11258003: CS for N,TOT, Cross section for 9Be(n,Total)
+11258004: CS for N,TOT, Cross section for 9Be(n,Total)
+11260002: CS for N,TOT, Cross section for 9Be(n,Total)
+11261002: CS for N,TOT, Cross section for 9Be(n,Total)
+12524004: CS for N,TOT, Cross section for 9Be(n,Total)
+12593003: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+12935002: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+12939004: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+12939005: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+12983002: CS for N,G, Cross section for 9Be(n,gamma)10Be
+13154002: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+13154004: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+13154006: CS for N,TOT, Cross section for 9Be(n,Total)
+13569002: CS for N,TOT, Cross section for 9Be(n,Total)
+13733002: CS for N,TOT, Cross section for 9Be(n,Total)
+13861002: DA for N,EL, times 4 pi Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+13874002: CS for N,TOT, Cross section for 9Be(n,Total)
+14154003: CS for N,TOT, Cross section for 9Be(n,Total)
+14154004: CS for N,TOT, Cross section for 9Be(n,Total)
+14154005: CS for N,TOT, Cross section for 9Be(n,Total)
+14189014: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+14189015: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+14189016: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+14189017: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+14189018: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+14189019: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+14189020: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+14233003: CS for N,TOT, Average Cross section for 9Be(n,Total)
+14349002: CS for N,TOT, Cross section for 9Be(n,Total)
+14349003: CS for N,TOT, Cross section for 9Be(n,Total)
+14349004: CS for N,TOT, Cross section for 9Be(n,Total)
+20150002: CS for N,A, Partial cross section for 9Be(n,alpha)6He
+20150005: DA for N,A, Partial differential cross section d/dA for 9Be(n,alpha)6He
+20150006: DA for N,A, Partial differential cross section d/dA for 9Be(n,alpha)6He
+20150007: DA for N,A, Partial differential cross section d/dA for 9Be(n,alpha)6He
+20150008: DA for N,A, Partial differential cross section d/dA for 9Be(n,alpha)6He
+20150009: DA for N,A, Partial differential cross section d/dA for 9Be(n,alpha)6He
+20150010: DA for N,A, Partial differential cross section d/dA for 9Be(n,alpha)6He
+20265002: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+20271002: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+20353003: CS for N,NON, Cross section for 9Be(n,Nonelastic)
+20368003: CS for N,NON, Cross section for 9Be(n,Nonelastic)
+20420002: CS for N,TOT, Cross section for 9Be(n,Total)
+20480024: CS for N,TOT, Cross section for 9Be(n,Total)
+20480025: CS for N,TOT, Cross section for 9Be(n,Total)
+20599002: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+20599003: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+20833003: CS for N,D, Cross section for 9Be(n,d)8Li
+20846002: DA for N,A, Partial differential cross section d/dA for 9Be(n,alpha)6He
+20846005: DA for N,A, Partial differential cross section d/dA for 9Be(n,alpha)6He
+20846006: DA for N,T, Partial differential cross section d/dA for 9Be(n,t)7Li
+20872002: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+20872005: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+20877002: DA for N,T, Partial differential cross section d/dA for 9Be(n,t)7Li
+20877004: CS for N,T, Partial cross section for 9Be(n,t)7Li
+20877006: CS for N,A, Partial cross section for 9Be(n,alpha)6He
+20877007: DA for N,A, Partial differential cross section d/dA for 9Be(n,alpha)6He
+21175002: CS for N,TOT, Cross section for 9Be(n,Total)
+21175003: CS for N,TOT, Cross section for 9Be(n,Total)
+21177010: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+21177011: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+21211002: CS for N,NON, Cross section for 9Be(n,Nonelastic)
+21281002: CS for N,TOT, Cross section for 9Be(n,Total)
+21501002: CS for N,NON, Cross section for 9Be(n,Nonelastic)
+21657002: CS for N,TOT, Cross section for 9Be(n,Total)
+21657003: CS for N,TOT, Cross section for 9Be(n,Total)
+21657004: CS for N,TOT, Cross section for 9Be(n,Total)
+21657005: CS for N,TOT, Cross section for 9Be(n,Total)
+21750002: CS for N,NON, Cross section for 9Be(n,Nonelastic)
+21846003: CS for N,P, Cross section for 9Be(n,p)9Li
+21864002: CS for N,TOT, Cross section for 9Be(n,Total)
+21904002: DA for N,A, Partial differential cross section d/dA for 9Be(n,alpha)6He
+21904004: CS for N,A, Partial cross section for 9Be(n,alpha)6He
+22035002: CS for N,T, Cross section for 9Be(n,t)7Li
+22075210: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+22075213: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+22105003: CS for N,TOT, Spectrum average Cross section for 9Be(n,Total)
+22113010: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+22113011: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+22157013: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+22183002: CS for N,T, Cross section for 9Be(n,t)7Li
+22359012: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+22359014: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+22549002: CS for N,TOT, Cross section for 9Be(n,Total)
+22559003: CS for N,TOT, Cross section for 9Be(n,Total)
+22573003: CS for N,TOT, Cross section for 9Be(n,Total)
+22620002: CS for N,TOT, Cross section for 9Be(n,Total)
+22973002: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+22973006: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+30113002: CS for N,TOT, Cross section for 9Be(n,Total)
+30173002: CS for N,TOT, Cross section for 9Be(n,Total)
+30198002: DA for N,A, Partial differential cross section d/dA for 9Be(n,alpha)6He
+30198003: CS for N,A, Partial cross section for 9Be(n,alpha)6He
+30271002: CS for N,T, Cross section for 9Be(n,t)7Li
+30300002: DA for N,A, Partial differential cross section d/dA for 9Be(n,alpha)6He
+30300003: DA for N,A, Partial differential cross section d/dA for 9Be(n,alpha)6He
+30300004: DA for N,A, Partial differential cross section d/dA for 9Be(n,alpha)6He
+30531003: CS for N,A, Cross section for 9Be(n,alpha)6He
+30531004: CS for N,P, Cross section for 9Be(n,p)9Li
+30623005: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+30818002: CS for N,T, Cross section for 9Be(n,t)7Li
+30922002: CS for N,T, Cross section for 9Be(n,t)7Li
+30929004: CS for N,TOT, Spectrum average Cross section for 9Be(n,Total)
+31178002: CS for N,TOT, Cross section for 9Be(n,Total)
+31605002: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+31671005: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+31671007: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+31768020: CS for N,G, Cross section for 9Be(n,gamma)10Be
+32516003: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+32723002: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+40082002: CS for N,TOT, Cross section for 9Be(n,Total)
+40207002: CS for N,TOT, Cross section for 9Be(n,Total)
+40207003: CS for N,TOT, Cross section for 9Be(n,Total)
+40207004: CS for N,TOT, Cross section for 9Be(n,Total)
+40207005: CS for N,TOT, Cross section for 9Be(n,Total)
+40207006: CS for N,TOT, Average Cross section for 9Be(n,Total)
+40221002: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+40221003: CS for N,EL, Cross section for 9Be(n,Elastic)9Be
+40338002: DA for N,EL, Differential c/s with respect to angle for 9Be(n,Elastic)9Be
+40369002: CS for N,NON, Cross section for 9Be(n,Nonelastic)
+40391004: CS for N,NON, Cross section for 9Be(n,Nonelastic)
+40425003: CS for N,TOT, Cross section for 9Be(n,Total)
+40709013: CS for N,TOT, Cross section for 9Be(n,Total)
+40712002: CS for N,A, Cross section for 9Be(n,alpha)6He
+40712003: CS for N,T, Cross section for 9Be(n,t)7Li
+40790004: CS for N,A, Cross section for 9Be(n,alpha)6He
+41227005: CS for N,TOT, Cross section for 9Be(n,Total)
+41311002: CS for N,TOT, Cross section for 9Be(n,Total)
+41401002: CS for N,EL, Average Cross section for 9Be(n,Elastic)9Be

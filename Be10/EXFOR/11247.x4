@@ -1,0 +1,27 @@
+ENTRY            11247     800820              20050926       0000
+SUBENT        11247001     800820              20050926       0000
+BIB                  6          7
+INSTITUTE  (1USAANL)
+REFERENCE  (J,PR,71,269,47)
+AUTHOR     (D.J.HUGHES,C.EGGLER,C.M.HUDDLESTON)
+TITLE      THE HALF-LIFE OF BE10.
+STATUS     (SCSRS)
+HISTORY    (760629T) TRANSLATED FROM SCISRS
+           (800820A) CONVERTED TO REACTION FORMALISM
+ENDBIB               7
+NOCOMMON             0          0
+ENDSUBENT           10
+SUBENT        11247002     800820              20050926       0000
+BIB                  3          3
+REACTION   (4-BE-9(N,G)4-BE-10,,SIG,,SPA)
+ANALYSIS   CALCULATED ASSUMING BE-10 HALF-LIFE = 2.5*10**6 YRS
+INC-SPECT   REACTOR SPECTRUM
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 9.     -03 3.     -03
+ENDDATA              3
+ENDSUBENT           11
+ENDENTRY             2

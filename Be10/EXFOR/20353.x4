@@ -1,0 +1,83 @@
+ENTRY            20353   20070409   20070521   20070506       2184
+SUBENT        20353001   20070409   20070521   20070506       2184
+BIB                 15         29
+INSTITUTE  (2UK BIR)
+REFERENCE  (J,JP/D,7,1122,197406)
+           (C,68WASH,1,169,196803) Work by same group, diff.
+           Result.
+            See entry 20368.
+AUTHOR     (D.R.Weaver, J.Walker)
+TITLE      -The non-elastic cross-section of be-9 for neutrons
+            between 2.4 and 3.9 MeV.
+FACILITY   (VDG  )    56 MV Van de Graaff at AERE Harwell.
+INC-SOURCE (P-T  )    T(P,N) reaction.
+SAMPLE     .Spherical shell, 149.90 mm inner radius, 190.54 mm
+            outer radius, (40.64 mm thickness).
+           .At two energies several shells ranging from 15-55 mm
+            were used.
+METHOD     (SHELT) Shell transmission.
+DETECTOR   (FISCH)    U-238 fission chamber as neutron detector.
+ANALYSIS   .A new method based on the line integral transport
+            equation was used, (fully explained in J.Phys.,Pt.D,
+            7(1974)1122.)
+MONITOR    .Absolute
+STATUS     .Taken from table 1 of j.Phys.Pt.D,7(1974)1122.
+HISTORY    (19740228C)
+           (19740929E)
+           (20070314A) Date is corrected
+CORRECTION .Corrections applied for
+            - the finite size of the detector, (0.1 per-cent),
+            - three holes in the shell, (1. Per-cent).
+ERR-ANALYS .Errors given are standard deviations from experimental
+            and calculational sources.
+ENDBIB              29
+NOCOMMON             0          0
+ENDSUBENT           32
+SUBENT        20353002   20070409   20070521   20070506       2184
+BIB                  4          7
+REACTION   (4-BE-9(N,2N+A)2-HE-4,,SIG)
+ANALYSIS   .Values calculated using non-elastic cross-sections of
+            the same reference and be9(N,alpha) cross-sections
+            taken or interpolated from g.Doherty,rept.Aeew-m-513
+            (1965).
+STATUS     (COREL,20368002)
+HISTORY    (20070314A)   Reaction code corrected
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          9
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.4640E+00 4.4000E-02 1.0100E-01 2.9000E-02
+ 2.7170E+00 3.9000E-02 1.9700E-01 3.5000E-02
+ 2.8090E+00 4.8000E-02 6.2300E-01 5.7000E-02
+ 2.9430E+00 4.0000E-02 5.2500E-01 2.0000E-02
+ 3.0800E+00 5.0000E-02 4.5800E-01 2.7000E-02
+ 3.2370E+00 4.3000E-02 4.4200E-01 5.1000E-02
+ 3.4310E+00 4.2000E-02 4.6500E-01 2.2000E-02
+ 3.7000E+00 4.5000E-02 5.4200E-01 2.0000E-02
+ 3.9240E+00 4.1000E-02 4.9300E-01 3.8000E-02
+ENDDATA             11
+ENDSUBENT           23
+SUBENT        20353003   20070409   20070521   20070506       2184
+BIB                  3          4
+REACTION   (4-BE-9(N,NON),,SIG)
+STATUS     (COREL,20368003)
+HISTORY    (19740228C)
+           (19740929E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          9
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.4640E+00 4.4000E-02 1.8200E-01 2.8000E-02
+ 2.7170E+00 3.9000E-02 2.9600E-01 3.2000E-02
+ 2.8090E+00 4.8000E-02 7.2500E-01 5.4000E-02
+ 2.9430E+00 4.0000E-02 6.2700E-01 1.6000E-02
+ 3.0800E+00 5.0000E-02 5.6100E-01 2.5000E-02
+ 3.2370E+00 4.3000E-02 5.4500E-01 5.0000E-02
+ 3.4310E+00 4.2000E-02 5.6600E-01 1.9000E-02
+ 3.7000E+00 4.5000E-02 6.3600E-01 1.7000E-02
+ 3.9240E+00 4.1000E-02 5.8200E-01 3.7000E-02
+ENDDATA             11
+ENDSUBENT           20
+ENDENTRY             3

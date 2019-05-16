@@ -1,0 +1,31 @@
+ENTRY            11448   20160315   20160701   20160615       1416
+SUBENT        11448001   20160315   20160701   20160615       1416
+BIB                  6          9
+INSTITUTE  (1USAORL)
+TITLE      No title
+REFERENCE  (R,ORNL-CF-53-8-22,195308)
+AUTHOR     (H.Reese JR, F.H.Abernathy)
+STATUS     (SCSRS)
+HISTORY    (19760715T) Translated from SCISRS
+           (19820813A) Converted to reaction formalism
+           (20090108U) Virtual title added
+           (20160220A) OS. Units and reaction in sub.2 corrected
+ENDBIB               9
+NOCOMMON             0          0
+ENDSUBENT           12
+SUBENT        11448002   20160315   20160701   20160615       1416
+BIB                  4          5
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG,,AV)
+FACILITY   (VDG,1USAORL) 5-MeV Van-de-Graaff
+ERR-ANALYS (DATA-ERR) No information on sources of uncertainty
+HISTORY    (20160220A) Units of EN-MAX changed to KEV;
+            added SF8=AV
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+KEV        KEV        MB         MB
+ 500.       600.       0.26       0.05
+ENDDATA              3
+ENDSUBENT           13
+ENDENTRY             2

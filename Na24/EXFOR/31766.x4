@@ -1,0 +1,98 @@
+ENTRY            31766   20180509   20180629   20180629       3184
+SUBENT        31766001   20180509   20180629   20180629       3184
+BIB                 15         40
+TITLE      Measurement of 23Na(n,2n) cross section in
+            well-defined reactor spectra
+AUTHOR     (M.Kostal, M.Svadlenkova, P.Baron, J.Milcak,
+            M.Marecek, J.Uhlir)
+INSTITUTE  (3CZRUJV)
+REFERENCE  (J,ARI,111,1,2016)
+           (J,EPJ/CS,146,04045,2017) Revised values tabulated.
+           (W,KOSTAL,20180228)       Latest values tabulated.
+            Document LR0-RESR-004 submitted to IRPhE in 2018
+            "VVER-1000 physics experiments hexagonal jattices
+             (1.275 cm Pitch) of Low Enriched U(3.3 wt.% U235)O2
+             fuel assemblies in light water 75As(n, 2n),
+             23Na(n,2n), 90Zr(n,2n), 89Y(n,2n) reaction rates"
+            received from M.Kostal on 28 February 2018.
+REL-REF    (N,,M.Kostal+,J,ARI,135,83,2018)
+            Measured LR-0 neutron spectrum in void case tabulated
+FACILITY   (REAC,3CZRUJV) LR-0 reactor
+INC-SOURCE (REAC)
+INC-SPECT  The measured numerical spectrum in void case is in
+            Table 2 of M.Kostal+,Appl.Radiat.Isot.135(2018)83.
+SAMPLE     NaF powder (1.208 g/cm3, 644 g) in Al can.
+           Au (1% Au in Al) and Ni (3.6 mm diam., 0.1 mm thick).
+METHOD     (ACTIV) Irradiated for ~21 hours
+           (GSPEC) Measurement started 7 weeks after irradiation,
+            and continued for 4 weeks.
+DETECTOR   (HPGE) Efficiency calculated by MCNP6
+CORRECTION Corrected for the spectral shift (ratio between the
+            full geometry and empty geometry)
+           Not corrected for 23Na(g,n)22Na because the most
+            energetic part of the photon spectra is below the
+            (g,n) threshold.
+ERR-ANALYS The uncertainties due to the half-life, pin radial or
+            axial position, and reactor shut-down time were
+            considered as negligible.
+STATUS     (APRVD) Proof-read by Michal Kostal (2018-05-09)
+HISTORY    (20160309C) VS
+           (20161205A) VS. MONITOR:FIS deleted. Major rev. in 002.
+           (20180302D) On. 003 deleted.
+           (20180302A) On. Major rev. in 001-002. 004-005 added.
+           (20180509U) On. CORRECTION: Typo corrected.
+ENDBIB              40
+NOCOMMON             0          0
+ENDSUBENT           43
+SUBENT        31766004   20180302   20180420   20180420       3182
+BIB                  8         19
+REACTION   (11-NA-23(N,2N)11-NA-22,,SIG,,SPA)
+            Averaged in LR-0 reactor spectrum
+DECAY-DATA (11-NA-22,2.6018YR,DG,1274.5,0.9994)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+           (28-NI-58(N,P)27-CO-58,,SIG)
+DECAY-MON  (79-AU-198-G,2.6941D,DG,411.8,0.9562)
+           (27-CO-58-G,70.86D,DG,810.7593,0.9945)
+MISC-COL   (MISC) Cross section averaged in LR-0 reactor spectrum
+                  above 10 MeV
+ERR-ANALYS (ERR-T) Total uncertainty                      (4.9%)
+           (ERR-1) Statistics of 22Na activity            (2.3%)
+           (ERR-2) Target modeling                        (1.0%)
+           (ERR-3) HPGe efficiency volume source - Na     (0.9%)
+           (ERR-4) Statistics of 198Au activity           (0.7%)
+           (ERR-5) Statistics of 58Co activity            (1.6%)
+           (ERR-6) HPGe efficiency point source - Au,Ni   (1.9%)
+           (ERR-7) Bias Au and Ni based scaling factors   (3.2%)
+STATUS     (TABLE) Table 3.7.5.5 of LR0-RESR-004 (2018)
+HISTORY    (20180302C) On
+ENDBIB              19
+COMMON               6          3
+ERR-2      ERR-3      ERR-4      ERR-5      ERR-6      ERR-7
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
+ 1.0        0.9        0.7        1.6        1.9        3.2
+ENDCOMMON            3
+DATA                 5          1
+EN-DUMMY   DATA       ERR-T      ERR-1      MISC
+MEV        MICRO-B    PER-CENT   PER-CENT   MB
+ 1.         0.9604     4.9        2.3        2.876
+ENDDATA              3
+ENDSUBENT           31
+SUBENT        31766005   20180305   20180420   20180420       3182
+BIB                  5          8
+REACTION   (11-NA-23(N,2N)11-NA-22,,SIG,,FIS)
+ANALYSIS   Cross section averaged over the LR-0 spectrum above
+            10 MeV multiplied by the fracion of 235U prompt
+            fission neutrons above 10 MeV in ENDF/B-VII (0.1396%)
+ERR-ANALYS (DATA-ERR) Total uncertainty                   (4.9%)
+STATUS     (TABLE) Table 3.7.5.5 of LR0-RESR-004 (2018)
+           (DEP,31766004) LR-0 spectrum averaged cross section
+HISTORY    (20180302C) On
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+KT-DUMMY   DATA       DATA-ERR
+MEV        MB         PER-CENT
+ 1.32       0.00384    4.9
+ENDDATA              3
+ENDSUBENT           16
+ENDENTRY             3

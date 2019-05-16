@@ -1,0 +1,108 @@
+ENTRY            11364     820324              20050926       0000
+SUBENT        11364001     820324              20050926       0000
+BIB                  6          8
+INSTITUTE  (1USANOT)
+REFERENCE  (J,NP,54,49,64)
+AUTHOR     (T.R.DONOGHUE,A.F.BEHOF,S.E.DARDEN)
+TITLE      ANGULAR DISTRIBUTION OF NEUTRONS ELASTICALLY SCATTERED
+            FROM N-15.
+STATUS     (SCSRS)
+HISTORY    (760714T) TRANSLATED FROM SCISRS
+           (820324A) CONVERTED TO REACTION FORMALISM
+ENDBIB               8
+NOCOMMON             0          0
+ENDSUBENT           11
+SUBENT        11364002     860120              20050926       0000
+BIB                  5          7
+REACTION   (7-N-15(N,EL)7-N-15,,SIG)
+ANALYSIS   INTEGRATED DIFFERENTIAL CROSS SECTION.
+MONITOR    (7-N-15(N,EL)7-N-15,,SIG)
+            NORMALIZED TO DATA FROM NUC.PHYS. 32, 470
+            (1960)
+ERR-ANALYS ABSOLUTE UNCERTAINTY 10-15PERCENT.
+HISTORY    (860120A) REACTION CORRECTED.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 2         53
+EN         DATA
+MEV        B
+ 4.73   -01 2.80   +00
+ 5.06   -01 2.80   +00
+ 5.39   -01 2.55   +00
+ 5.72   -01 2.58   +00
+ 5.90   -01 2.40   +00
+ 6.09   -01 2.50   +00
+ 6.23   -01 2.45   +00
+ 6.36   -01 2.50   +00
+ 6.72   -01 2.48   +00
+ 7.08   -01 2.50   +00
+ 7.43   -01 2.63   +00
+ 7.56   -01 2.68   +00
+ 7.75   -01 2.68   +00
+ 8.10   -01 2.68   +00
+ 8.50   -01 2.40   +00
+ 8.72   -01 2.45   +00
+ 8.98   -01 2.66   +00
+ 9.10   -01 2.97   +00
+ 9.22   -01 3.58   +00
+ 9.45   -01 3.18   +00
+ 9.78   -01 2.74   +00
+ 1.008  +00 2.47   +00
+ 1.035  +00 2.26   +00
+ 1.064  +00 1.93   +00
+ 1.092  +00 2.05   +00
+ 1.120  +00 1.97   +00
+ 1.160  +00 1.93   +00
+ 1.208  +00 2.12   +00
+ 1.232  +00 2.23   +00
+ 1.266  +00 1.85   +00
+ 1.293  +00 2.07   +00
+ 1.325  +00 1.96   +00
+ 1.351  +00 2.40   +00
+ 1.384  +00 2.14   +00
+ 1.415  +00 2.06   +00
+ 1.446  +00 2.06   +00
+ 1.476  +00 1.92   +00
+ 1.507  +00 2.06   +00
+ 1.540  +00 2.06   +00
+ 1.571  +00 2.06   +00
+ 1.600  +00 2.07   +00
+ 1.632  +00 2.13   +00
+ 1.662  +00 2.00   +00
+ 1.693  +00 2.04   +00
+ 1.728  +00 1.97   +00
+ 1.760  +00 1.95   +00
+ 1.791  +00 1.93   +00
+ 1.828  +00 1.95   +00
+ 1.850  +00 1.89   +00
+ 1.892  +00 2.00   +00
+ 1.925  +00 1.97   +00
+ 1.933  +00 2.00   +00
+ 1.959  +00 2.29   +00
+ENDDATA             55
+ENDSUBENT           67
+SUBENT        11364003     820324              20050926       0000
+BIB                  2          2
+REACTION   (7-N-15(N,EL)7-N-15,,DA)
+STATUS     (UNOBT) DATA UNOBTAINABLE FROM AUTHOR
+ENDBIB               2
+COMMON               2          3
+EN-MIN     EN-MAX
+MEV        MEV
+ 4.7    -01 2.0    +00
+ENDCOMMON            3
+NODATA               0          0
+ENDSUBENT           10
+SUBENT        11364004     820324              20050926       0000
+BIB                  1          2
+REACTION  1(7-N-15(N,0),,EN)
+          2(7-N-15(N,0),,L)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA      1DATA      2
+KEV        NO-DIM
+ 940.       1.
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY             4

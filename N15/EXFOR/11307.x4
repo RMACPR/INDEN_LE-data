@@ -1,0 +1,29 @@
+ENTRY            11307     810428              20050926       0000
+SUBENT        11307001     810428              20050926       0000
+BIB                  7          9
+INSTITUTE  (1USARIC)
+REFERENCE  (J,PR,94,807(F8),5405)
+AUTHOR     (J.D.DUDLEY,C.M.CLASS)
+TITLE      N14(N,2N)N13 CROSS-SECTION MEASUREMENT WITH 14 MEV
+           NEUTRONS.
+N-SOURCE   (D-T)
+STATUS     (SCSRS)
+HISTORY    (760714T) TRANSLATED FROM SCISRS
+           (810428A) CONVERTED TO REACTION FORMALISM
+ENDBIB               9
+NOCOMMON             0          0
+ENDSUBENT           12
+SUBENT        11307002     810428              20050926       0000
+BIB                  3          3
+REACTION   (7-N-14(N,2N)7-N-13,,SIG)
+METHOD     (ACTIV)    ACTIVATION
+PART-DET   (AR) ANNIHILATION RADIATION
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          PER-CENT
+ 1.4    +01 3.4    -03   30.
+ENDDATA              3
+ENDSUBENT           11
+ENDENTRY             2

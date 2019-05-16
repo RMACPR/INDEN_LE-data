@@ -1,0 +1,100 @@
+ENTRY            13790   20020812   20020925   20050926       0000
+SUBENT        13790001   20020812   20020925   20050926       0000
+BIB                 11         22
+INSTITUTE  (1USAPTN)
+REFERENCE  (J,PR,52,911,193711)
+AUTHOR     (R.Ladenburg,M.H.Kanner)
+TITLE      On the Neutrons from the Deuteron-Deuteron Reaction.
+INC-SOURCE (D-D) Deuteron-deuterium reaction produced with 400 kv
+            outfit, molecular beam and target of heavy ice.
+            2.44 MeV neutrons at 90 deg with respect to ion
+            beam. Neutron energy practically independent of
+            deuteron energy in the interval studied (50-300 keV).
+METHOD     Transmission.
+DETECTOR   (IOCH) Paraffin-lined ionization chamber of 2.5 cm
+            diameter placed 27 cm from the target.
+CORRECTION Results corrected for:
+           . neutrons scattered into chamber from parts of the
+             apparatus near target (about 3% of the total yield
+             at 27 cm).
+           . neutrons scattered into chamber from scatterer
+             (few percent of measured transmission). Correction
+             calculated assuming isotropic scattering.
+ERR-ANALYS (DATA-ERR) Estimated maximum inaccuracy given.
+STATUS     Data taken from Table I in reference.
+HISTORY    (20020724C) IS
+ENDBIB              22
+COMMON               1          3
+EN
+MEV
+  2.44
+ENDCOMMON            3
+ENDSUBENT           29
+SUBENT        13790002   20020812   20020925   20050926       0000
+BIB                  2          3
+REACTION   (1-H-1(N,TOT),,SIG)
+SAMPLE     2.60 g/cm2 paraffin cylinder, 2 cm diameter,
+            placed midway between target and detector.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+  2.11       10.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        13790003   20020812   20020925   20050926       0000
+BIB                  2          3
+REACTION   (6-C-0(N,TOT),,SIG)
+SAMPLE     8.41 g/cm2 carbon cylinder 2 cm in diameter,
+            placed midway between target and detector.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+  1.57       10.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        13790004   20020812   20020925   20050926       0000
+BIB                  2          4
+REACTION   (7-N-0(N,TOT),,SIG)
+SAMPLE     8.10 g/cm2 liquefied nitrogen contained in Dewar
+            cylinder 2 cm in diameter placed midway between
+            target and detector.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+  1.27       10.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        13790005   20020812   20020925   20050926       0000
+BIB                  2          4
+REACTION   (8-O-0(N,TOT),,SIG)
+SAMPLE     11.4 g/cm2 liquefied oxygen contained in Dewar
+            cylinder 2 cm in diameter placed midway between
+            target and detector.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+  0.75       15.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        13790006   20020812   20020925   20050926       0000
+BIB                  2          3
+REACTION   (13-AL-27(N,TOT),,SIG)
+SAMPLE     10.8 g/cm2 metal Al cylinder 2 cm in diameter
+            placed midway between target and detector.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+  2.16       10.
+ENDDATA              3
+ENDSUBENT           11
+ENDENTRY             6

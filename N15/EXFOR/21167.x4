@@ -1,0 +1,95 @@
+ENTRY            21167   20170723   20180123   20180123       2261
+SUBENT        21167001   20170723   20180123   20180123       2261
+BIB                 11         21
+INSTITUTE  (2SWTETH)
+REFERENCE  (J,HPA,19,493,1946)
+AUTHOR     (A.Gibert,R.Keller,J.Rossel)
+TITLE       Influence of molecular bindings on the diffusion
+            of thermal neutrons through nitrogen
+INC-SOURCE (RA-BE) Radium berillium source of 300 milliCurie.
+           (RN-BE) Source at 250-300 degr.K of 300 milliCurie
+SAMPLE     .Nitrogen gas sample, 4 cm diameter, 11.6 cm thick,
+            pressure about 20 atmospheres, aluminium windows 3 mm
+            in diam, temperature 125 degrees Kelvin.
+METHOD     (TRN) .Transmission with and without Cd filter.
+            Neutrons thermalised in paraffin.
+DETECTOR   (IOCH) Ionisation chamber filled with B-F(3) at
+            3 atmospheres.
+STATUS     (TABLE) data from Tbl. in Helv.Phys.Acta,19,493,1946
+CORRECTION .No details.
+HISTORY    (19791214T)
+           (19800110E)
+           (20120914A) SD: Updated to new date formats,lower case.
+                BIB update.
+           (20170723A) SD: REACTION code in Subent 002 update.
+ENDBIB              21
+COMMON               1          3
+EN-DUMMY
+EV
+ 2.5300E-02
+ENDCOMMON            3
+ENDSUBENT           28
+SUBENT        21167002   20170723   20180123   20180123       2261
+BIB                  6          9
+REACTION   (7-N-14(N,THS)7-N-14,,SIG,,MXW/TMP) Scatt. cross sect.
+ANALYSIS   .Values derived from total cross section by
+            subtracting the capture cross section.
+ASSUMED    (ASSUM,7-N-14(N,G)7-N-15,,SIG) Assumed value 1.2b
+STATUS     (DEP,21167003)
+ERR-ANALYS (DATA-ERR) .Total error given, systematic error about
+            one fifth of statistical error.
+HISTORY    (20170723A) SD: SF5=BA deleted, SF6=SIG/TMP -> SIG,
+           SF8=MXW -> MXW/TMP) in REACTION code (MEMO CP-D/928).
+ENDBIB               9
+COMMON               1          3
+ASSUM
+B
+ 1.2
+ENDCOMMON            3
+DATA                 3          6
+TEMP       DATA       DATA-ERR
+K          B          B
+        20.       10.2        0.6
+        40.        9.3        0.7
+        60.        8.7        0.3
+        65.        8.5        0.4
+       100.        9.6        0.5
+       125.       11.1        0.8
+ENDDATA              8
+ENDSUBENT           26
+SUBENT        21167003   20120914   20130812   20130718       2234
+BIB                  2          3
+REACTION   (7-N-14(N,TOT),,SIG/TMP,,MXW) Total cross section.
+ERR-ANALYS (DATA-ERR) .Total error given, systematic error about
+            one fifth of statistical error.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          6
+TEMP       DATA       DATA-ERR
+K          B          B
+ 2.0000E+01 1.1400E+01 5.0000E-01
+ 4.0000E+01 1.0500E+01 6.0000E-01
+ 6.0000E+01 9.9000E+00 2.0000E-01
+ 6.5000E+01 9.7000E+00 3.0000E-01
+ 1.0000E+02 1.0800E+01 4.0000E-01
+ 1.2500E+02 1.2300E+01 7.0000E-01
+ENDDATA              8
+ENDSUBENT           16
+SUBENT        21167004   20120914   20130812   20130718       2234
+BIB                  5          7
+REACTION   (7-N-14(N,EL)7-N-14,FA,SIG) Free atom scattering cross
+            section.
+ANALYSIS   .Calculated from total cross section data.
+STATUS     (DEP,21167003) see ANALYSIS
+CORRECTION .Corrected following theory of Sachs and Teller,
+            ratio total/f.a sct = 1.045+-0.005.
+ERR-ANALYS No information
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.0500E+01
+ENDDATA              3
+ENDSUBENT           15
+ENDENTRY             4

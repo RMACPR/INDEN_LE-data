@@ -1,0 +1,30 @@
+ENTRY            11391     820324              20050926       0000
+SUBENT        11391001     820324              20050926       0000
+BIB                  8          9
+INSTITUTE  (1USALAS)
+REFERENCE  (J,PR,98,47,5504)
+AUTHOR     (R.J.PRESTWOOD)
+TITLE       (N,2N) CROSS SECTIONS OF NA-23 AT 14.1 MEV.
+N-SOURCE   (D-T)
+SAMPLE     NA-F SAMPLES
+STATUS     (SCSRS)
+HISTORY    (761014T) TRANSLATED FROM SCISRS
+           (820324A) CONVERTED TO REACTION FORMALISM
+ENDBIB               9
+NOCOMMON             0          0
+ENDSUBENT           12
+SUBENT        11391002     820324              20050926       0000
+BIB                  4          4
+REACTION   (11-NA-23(N,2N)11-NA-22,,SIG)
+METHOD     (ACTIV)    ACTIVATION
+PART-DET   (B) COUNTED NA-22 DECAY BETAS
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 1.41   +01 2.     -01 1.378  -02 2.2    -03
+ENDDATA              3
+ENDSUBENT           12
+ENDENTRY             2

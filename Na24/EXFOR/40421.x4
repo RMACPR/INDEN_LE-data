@@ -1,0 +1,285 @@
+ENTRY            40421   20170203   20170703   20170630       4175
+SUBENT        40421001   20170203   20170703   20170630       4175
+BIB                 13         30
+INSTITUTE  (4RUSFEI)
+REFERENCE  (J,SJA,5,1483,1958) Eng.transl.of AE,5,564,1958
+           (J,AE,5,564,1958)
+           (J,JNE/A,11,46(1),1959) Translation of AE,5,564,1958
+AUTHOR     (V.N.Kononov,Yu.Ya.Stavisskiy,V.A.Tolstikov)
+TITLE      Radiative capture cross-sections for 25 keV neutrons.
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+MONIT-REF  (40640001,Yu.Ya.Stavisskiy+,J,AE,10,(2),158,196102)
+METHOD     (ACTIV) Activation
+INC-SOURCE (PHOTO) Sb-Be spherical source For 24 keV neutrons,
+            diameter 3 cm, 10.**7 n/sec. Be thickness - 1 cm.
+           (REAC) Thermal column of reactor for thermal neutrons
+            resonance and fast neutron contribution  less 0.5%.
+DETECTOR   (IOCH)  End-window Counter
+ERR-ANALYS (DATA-ERR)  Total error without error of the monitor
+COMMENT    0f compiler.2006-12-12.Data of Subents differ from data
+           of Table. Possibly, were recalculated for new data of
+           monitor (Exfor Entry 40640).
+STATUS     (SCSRS)
+           (COREL,40244001)
+           In 40421 -revised data of Table 4 ,C,58GENEVA,ENTRY4024
+           excluding Subent 40244127.
+HISTORY    (19830922T) Converted from Entry 80027
+           (19870409U) One author name is corrected and reaction
+                 code in SAN 019 updated on the request of NNDC
+           (20050827U) Correction according to Memo CP-E/70,
+                        dates were corrected
+           (20061212U) Information was added in Sub.001. M.M.
+           (20150217U) SD: Ref. on Engl.transl. on AE was added.
+           (20170203U) M.M. Minor correction in TITLE,STATUS
+ENDBIB              30
+COMMON               1          3
+EN
+KEV
+ 24.
+ENDCOMMON            3
+ENDSUBENT           37
+SUBENT        40421002   20061212   20070521   20060816       4139
+BIB                  1          1
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.7100E-03 2.7000E-04
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40421003   20061212   20070521   20060816       4139
+BIB                  1          1
+REACTION   (13-AL-27(N,G)13-AL-28,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.9200E-03 2.7000E-04
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40421004   20061212   20070521   20060816       4139
+BIB                  1          1
+REACTION   (14-SI-30(N,G)14-SI-31,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.0600E-03 5.1000E-04
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40421005   20061212   20070521   20060816       4139
+BIB                  1          1
+REACTION   (17-CL-37(N,G)17-CL-38,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 3.7100E-03 6.4000E-04
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40421006   20061212   20070521   20060816       4139
+BIB                  1          1
+REACTION   (19-K-41(N,G)19-K-42,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 1          1
+DATA-MAX
+B
+ 2.6000E-02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40421007   20061212   20070521   20060816       4139
+BIB                  1          1
+REACTION   (29-CU-65(N,G)29-CU-66,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 3.8000E-02 3.0000E-04
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40421008   20061212   20070521   20060816       4139
+BIB                  1          1
+REACTION   (30-ZN-68(N,G)30-ZN-69,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.3500E-02 2.8000E-03
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40421009   20061212   20070521   20060816       4139
+BIB                  1          1
+REACTION   (31-GA-69(N,G)31-GA-70,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.4840E-01 1.2000E-03
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40421010   20061212   20070521   20060816       4139
+BIB                  1          1
+REACTION   (23-V-51(N,G)23-V-52,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 3.2000E-02 2.0000E-03
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40421011   20061212   20070521   20060816       4139
+BIB                  1          1
+REACTION   (25-MN-55(N,G)25-MN-56,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 6.3400E-02 2.3000E-03
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40421012   20061212   20070521   20060816       4139
+BIB                  1          1
+REACTION   (35-BR-79(N,G)35-BR-80,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 6.9700E-01 3.3000E-02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40421013   20061212   20070521   20060816       4139
+BIB                  1          1
+REACTION   (37-RB-87(N,G)37-RB-88,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.8800E-02 1.4000E-03
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40421014   20061212   20070521   20060816       4139
+BIB                  1          1
+REACTION   (38-SR-86(N,G)38-SR-87,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 1          1
+DATA-MAX
+B
+ 4.0000E-01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40421015   20061212   20070521   20060816       4139
+BIB                  1          1
+REACTION   (41-NB-93(N,G)41-NB-94,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.1500E-01 1.2000E-02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40421016   20061212   20070521   20060816       4139
+BIB                  1          1
+REACTION   (42-MO-100(N,G)42-MO-101,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.1000E-01 3.0000E-03
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40421017   20061212   20070521   20060816       4139
+BIB                  1          1
+REACTION   (28-NI-64(N,G)28-NI-65,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 1          1
+DATA-MAX
+B
+ 3.7000E-02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40421018   20061212   20070521   20060816       4139
+BIB                  1          1
+REACTION   (47-AG-107(N,G)47-AG-108,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.3450E+00 9.1000E-02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40421019   20061212   20070521   20060816       4139
+BIB                  3          3
+REACTION   (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-DATA (49-IN-116-M,54.0MIN)
+HISTORY    (19870409U) Metastable Level In Resid-Nuc SF4 Inserted
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 6.1800E-01 4.1000E-02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        40421020   20061212   20070521   20060816       4139
+BIB                  1          1
+REACTION   (56-BA-138(N,G)56-BA-139,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 8.4000E-03 4.0000E-04
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40421021   20061212   20070521   20060816       4139
+BIB                  1          1
+REACTION   (79-AU-197(N,G)79-AU-198,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 9.5400E-01 5.0000E-03
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40421022   20061212   20070521   20060816       4139
+BIB                  1          1
+REACTION   (81-TL-205(N,G)81-TL-206,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 5.0000E-02 2.0000E-03
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40421023   20061212   20070521   20060816       4139
+BIB                  1          1
+REACTION   (74-W-186(N,G)74-W-187,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.7900E-01 5.8000E-02
+ENDDATA              3
+ENDSUBENT            9
+ENDENTRY            23

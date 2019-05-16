@@ -1,0 +1,414 @@
+ENTRY            20889     860210              20050926       0000
+SUBENT        20889001     860210              20050926       0000
+BIB                 14         40
+INSTITUTE  (2ITYTUR) UNIVERSITY OF TURIN
+REFERENCE  (J,NP/A,93,218,6703)
+AUTHOR     (A.PASQUARELLI)
+TITLE      -MEASUREMENT OF CROSS SECTIONS FOR (N,2N),(N,P)
+            AND (N,ALPHA) REACTIONS AT 14.7 MEV-
+FACILITY   (CCW  ) NEUTRON GENERATOR OPERATED AT 130 KV
+INC-SOURCE (D-T  ) SOLID TRITIDE TARGET PRODUCING NEUTRONS
+                   WITH A MEAN ENERGY OF 14.7 MEV AND AN
+                   ENERGY SPREAD OF 100 KEV AT THE SAMPLE
+                   POSITION.
+METHOD     (ACTIV) ACTIVATION
+DETECTOR   (GEMUC) END-WINDOW GEIGER-MUELLER COUNTER WITH
+                   1.9 MG/CM-SQ MICA WINDOW.
+           (SOLST) SILICON JUNCTION DETECTOR USED TO MEASURE
+                   NEUTRON FLUX BY MONITORING ASSOCIATED ALPHAS
+                   FROM D-T REACTION. ESTIMATED ERROR LESS
+                   THAN 1 PER-CENT.
+MONITOR    (1-H-3(D,N)2-HE-4,,DA)
+COMMENT    .THIS PAPER FOLLOWS ON FROM AN EARLIER ONE IN WHICH
+            FURTHER EXPERIMENTAL DETAILS ARE GIVEN,(J,NP,51,337,
+            6402).THE MAIN DIFFERENCE IS THAT IN THE PRESENT
+            WORK THICKER SAMPLES COULD BE USED TO INCREASE THE
+            COUNT RATE AS AN IMPROVED EXPRESSION FOR SELF-
+            ABSORPTION AND SELF-SCATTERING WAS AVAILABLE.
+STATUS     .DATA TABLE IN J,NP/A,93,218,6703.
+HISTORY    (790412C)
+           (790528E)
+           (800916A) REACTION STRING IN 014 CORRECTED.
+           (801015E)
+           (830411A) SUBWORK 023 ADDED.
+           (830429E)
+           (860120U)
+           (860210E)
+CORRECTION .CORRECTIONS MADE FOR BACKSCATTERING FROM SOURCE
+            SUPPORT, SELF-ABSORPTION AND SCATTERING IN SOURCE
+            MATERIAL, G.M. WINDOW ABSORPTION AND POOR GEOMETRY
+            EFFECTS.
+ERR-ANALYS .STATISTICAL AND SYSTEMATIC ERRORS INCLUDED.
+            POSSIBLE ERRORS IN THE PUBLISHED DECAY CHAINS
+            ARE NOT TAKEN INTO ACCOUNT.
+ENDBIB              40
+COMMON               2          3
+EN         EN-RSL
+MEV        MEV
+ 1.4700E+01 1.0000E-01
+ENDCOMMON            3
+ENDSUBENT           47
+SUBENT        20889002     840227              20050926       0000
+BIB                  4          5
+REACTION   (7-N-14(N,2N)7-N-13,,SIG)
+SAMPLE     .75.22 MG/CM-SQ NATURAL SAMPLE.
+DECAY-DATA (7-N-13,10.MIN,B+,1190.,1.0) FROM NUCLEAR DATA
+            SHEETS.
+STATUS     .TABLE 2.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 6.1000E+00 2.0000E-01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        20889003     840227              20050926       0000
+BIB                  4          5
+REACTION   (9-F-19(N,2N)9-F-18,,SIG)
+SAMPLE     .47.98 MG/CM-SQ NATURAL SAMPLE.
+DECAY-DATA (9-F-18,110.MIN,B+,649.,0.97) FROM NUCLEAR DATA
+            SHEETS.
+STATUS     .TABLE 2.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 4.1000E+01 1.5000E+00
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        20889004     840227              20050926       0000
+BIB                  4          5
+REACTION   (9-F-19(N,P)8-O-19,,SIG)
+SAMPLE     .162.81 MG/CM-SQ NATURAL SAMPLE.
+DECAY-DATA (8-O-19,29.SEC,B-,3350.,0.585,B-,4600.,0.415)
+            FROM NUCLEAR DATA SHEETS.
+STATUS     .TABLE 2.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 1.6400E+01 7.0000E-01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        20889005     840227              20050926       0000
+BIB                  4          5
+REACTION   (11-NA-23(N,P)10-NE-23,,SIG)
+SAMPLE     .167.2 MG/CM-SQ NATURAL SAMPLE.
+DECAY-DATA (10-NE-23,38.SEC,B-,2400.,0.01,B-,3950.,0.32,
+            B-,4390.,0.67) FROM NUCLEAR DATA SHEETS.
+STATUS     .TABLE 2.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 4.1000E+01 1.2000E+00
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        20889006     860228              20050926       0000
+BIB                  5          9
+REACTION   (12-MG-24(N,P)11-NA-24,,SIG)
+SAMPLE     .87.4 MG/CM-SQ NATURAL SAMPLE.
+DECAY-DATA (11-NA-24-G,15.HR,B-,1391.,1.0) FROM NUCLEAR DATA
+            SHEETS.
+STATUS     .TABLE 2.
+HISTORY    (790412C)
+           (790528E)
+           (860228A) N.CH
+           (860411E)
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 1.8200E+02 5.0000E+00
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        20889007     840227              20050926       0000
+BIB                  4          6
+REACTION   (12-MG-25(N,P)11-NA-25,,SIG)
+SAMPLE     .180.5 MG/CM-SQ NATURAL SAMPLE.
+DECAY-DATA (11-NA-25,60.SEC,B-,3800.,0.65,B-,2820.,0.285,
+            B-,2200.,0.065,B-,1800.,0.006) FROM NUCLEAR DATA
+            SHEETS.
+STATUS     .TABLE 2.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 6.6000E+01 3.0000E+00
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        20889008     840227              20050926       0000
+BIB                  4          5
+REACTION   (12-MG-26(N,A)10-NE-23,,SIG)
+SAMPLE     .180.5 MG/CM-SQ NATURAL SAMPLE.
+DECAY-DATA (10-NE-23,38.SEC,B-,2400.,0.01,B-,3950.,0.32,
+            B-,4390.,0.67) FROM NUCLEAR DATA SHEETS.
+STATUS     .TABLE 2.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 8.0000E+01 3.0000E+00
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        20889009     840227              20050926       0000
+BIB                  4          5
+REACTION   (14-SI-28(N,P)13-AL-28,,SIG)
+SAMPLE     .161.1 MG/CM-SQ NATURAL SAMPLE.
+DECAY-DATA (13-AL-28,2.3MIN,B-,2868.,1.0) FROM NUCLEAR DATA
+            SHEETS.
+STATUS     .TABLE 2.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 2.2200E+02 1.2000E+01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        20889010     840227              20050926       0000
+BIB                  4          5
+REACTION   (14-SI-29(N,P)13-AL-29,,SIG)
+SAMPLE     .61.1 MG/CM-SQ NATURAL SAMPLE.
+DECAY-DATA (13-AL-29,6.6MIN,B-,1330.,0.062,B-,2500.,0.938)
+            FROM NUCLEAR DATA SHEETS.
+STATUS     .TABLE 2.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 2.2700E+01 1.0000E+00
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        20889011     840227              20050926       0000
+BIB                  4          5
+REACTION   (14-SI-30(N,A)12-MG-27,,SIG)
+SAMPLE     .61.1 MG/CM-SQ NATURAL SAMPLE.
+DECAY-DATA (12-MG-27,9.5MIN,B-,1590.,0.42,B-,1750.,0.58)
+            FROM NUCLEAR DATA SHEETS.
+STATUS     .TABLE 2.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 1.7500E+02 1.8000E+01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        20889012     840227              20050926       0000
+BIB                  4          5
+REACTION   (15-P-31(N,P)14-SI-31,,SIG)
+SAMPLE     .107 MG/CM-SQ NATURAL SAMPLE.
+DECAY-DATA (14-SI-31,157.8MIN,B-,1477.,1.0) FROM NUCLEAR DATA
+            SHEETS.
+STATUS     .TABLE 2.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 6.4000E+01 2.0000E+00
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        20889013     840227              20050926       0000
+BIB                  4          8
+REACTION   ((15-P-31(N,2N)15-P-30,,SIG)+
+           (15-P-31(N,A)13-AL-28,,SIG))
+SAMPLE     .162 MG/CM-SQ NATURAL SAMPLE.
+DECAY-DATA (15-P-30,2.6MIN,B+,1000.,0.005,B+,3230.,0.995)
+            FROM NUCLEAR DATA SHEETS.
+           (13-AL-28,2.3MIN,B-,2868.,1.0) FROM NUCLEAR DATA
+            SHEETS.
+STATUS     .TABLE 2.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+HL1        HL2        DATA       DATA-ERR
+MIN        MIN        MB         MB
+ 2.6000E+00 2.3000E+00 1.0500E+02 2.1000E+00
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        20889014     840830              20050926       0000
+BIB                  7         19
+REACTION   (15-P-31(N,2N)15-P-30,,SIG)
+SAMPLE     .162 MG/CM-SQ NATURAL SAMPLE.
+ANALYSIS   .THIS CROSS SECTION WAS NOT MEASURED INDEPENDENTLY
+            BUT SUMMED WITH THE (N,A) CROSS SECTION FOR THE
+            SAME NUCLEUS AS THE HALF-LIVES OF THE RESIDUALS
+            ARE ALMOST THE SAME. THE SUM WAS MEASURED AS
+            105+-2.0 MB. THE CROSS SECTIONS WERE SEPARATED
+            USING THE RATIO SIG(N,2N)/SIG(N,A)=0.087+-0.006
+DECAY-DATA (15-P-30,2.6MIN,B+,1000.,0.005,B+,3230.,0.995)
+            FROM NUCLEAR DATA SHEETS.
+ASSUMED    (ASSUM,(15-P-31(N,2N)15-P-30,,SIG)/
+           (15-P-31(N,A)13-AL-28,,SIG))
+            DUE TO GRIMELAND AND OPSHAL-ANDERSEN (J,NP,51(1964),
+            302).
+STATUS     .TABLE 2.
+HISTORY    (790412C)
+           (790528E)
+           (800816A) REACTION REDEFINED.
+           (801015E)
+ENDBIB              19
+NOCOMMON             0          0
+DATA                 4          1
+DATA       DATA-ERR   ASSUM      ASSUM-ERR
+MB         MB         NO-DIM     NO-DIM
+ 8.4000E+00 3.0000E-01 8.7000E-02 6.0000E-03
+ENDDATA              3
+ENDSUBENT           27
+SUBENT        20889015     860120              20050926       0000
+BIB                  5         17
+REACTION   (15-P-31(N,A)13-AL-28,,SIG)
+SAMPLE     .162 MG/CM-SQ NATURAL SAMPLE.
+DECAY-DATA (13-AL-28,2.3MIN,B-,2868.,1.0) FROM NUCLEAR DATA
+            SHEETS.
+STATUS     (DEP,20889013) TABLE 2.
+           .THIS CROSS SECTION WAS NOT MEASURED INDEPENDENTLY
+            BUT SUMMED WITH THE (N,2N) CROSS SECTION FOR THE
+            SAME NUCLEUS AS THE HALF-LIVES OF THE RESIDUALS
+            ARE ALMOST THE SAME. THE SUM WAS MEASURED AS
+            105+-2.0 MB. THE CROSS SECTIONS WERE SEPARATED
+            USING THE RATIO SIG(N,2N)/SIG(N,A)=0.087+-0.006
+            DUE TO GRIMELAND AND OPSHAL-ANDERSEN (J,NP,51(1964),
+            302)
+HISTORY    (790412C)
+           (790528E)
+           (860120U)
+           (860210E)
+ENDBIB              17
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 9.6800E+01 3.5000E+00
+ENDDATA              3
+ENDSUBENT           25
+SUBENT        20889016     840227              20050926       0000
+BIB                  4          5
+REACTION   (16-S-34(N,A)14-SI-31,,SIG)
+SAMPLE     .157 MG/CM-SQ NATURAL SAMPLE.
+DECAY-DATA (14-SI-31,157.8MIN,B-,1477.,1.0) FROM NUCLEAR DATA
+            SHEETS.
+STATUS     .TABLE 2.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 1.6300E+02 1.2000E+01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        20889017     840227              20050926       0000
+BIB                  4          4
+REACTION   (16-S-32(N,P)15-P-32,,SIG)
+SAMPLE     .200.3 MG/CM-SQ NATURAL SAMPLE.
+DECAY-DATA (15-P-32,14.5D,B-,1708.,1.0) FROM NUCLEAR DATA SHEETS.
+STATUS     .TABLE 2.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 2.1500E+02 6.0000E+00
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        20889018     840227              20050926       0000
+BIB                  4          5
+REACTION   (17-CL-35(N,2N)17-CL-34-M,,SIG)
+SAMPLE     .164.5 MG/CM-SQ NATURAL SAMPLE.
+DECAY-DATA (17-CL-34-M,32.4MIN,B+,1240.,0.325,B+,2410.,0.351,
+            B+,4400.,0.308) FROM NUCLEAR DATA SHEETS.
+STATUS     .TABLE 2.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 7.0000E+00 2.0000E-01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        20889019     840227              20050926       0000
+BIB                  4          5
+REACTION   (17-CL-37(N,P)16-S-37,,SIG)
+SAMPLE     .162.7 MG/CM-SQ NATURAL SAMPLE.
+DECAY-DATA (16-S-37,5.1MIN,B-,1600.,0.9,B-,4800.,0.1)
+            FROM NUCLEAR DATA SHEETS.
+STATUS     .TABLE 2.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 2.5500E+01 1.2000E+00
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        20889020     840227              20050926       0000
+BIB                  4          5
+REACTION   (19-K-39(N,2N)19-K-38-G,,SIG)
+SAMPLE     .146 MG/CM-SQ NATURAL SAMPLE.
+DECAY-DATA (19-K-38-G,7.7MIN,B+,2680.,0.99) FROM NUCLEAR DATA
+            SHEETS.
+STATUS     .TABLE 2.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 3.2400E+00 1.0000E-01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        20889021     840227              20050926       0000
+BIB                  4          5
+REACTION   (19-K-41(N,P)18-AR-41,,SIG)
+SAMPLE     .146 MG/CM-SQ NATURAL SAMPLE.
+DECAY-DATA (18-AR-41,110.MIN,B-,1200.,0.991,B-,2490.,0.009)
+            FROM NUCLEAR DATA SHEETS.
+STATUS     .TABLE 2.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 3.0500E+01 2.5000E+00
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        20889022     840227              20050926       0000
+BIB                  4          5
+REACTION   (19-K-41(N,A)17-CL-38,,SIG)
+SAMPLE     .146 MG/CM-SQ NATURAL SAMPLE.
+DECAY-DATA (17-CL-38,38.MIN,B-,1110.,0.31,B-,2770.,0.16,
+            B-,4810.,0.53) FROM NUCLEAR DATA SHEETS.
+STATUS     .TABLE 2.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 3.1500E+01 1.5000E+00
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        20889023     840227              20050926       0000
+BIB                  4          5
+REACTION   (29-CU-63(N,2N)29-CU-62,,SIG)
+SAMPLE     .NO INFORMATION GIVEN.
+STATUS     .DATA TAKEN FROM TEXT IN MAIN REFERENCE
+HISTORY    (830411C)
+           (830429E)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 5.1100E+02 1.5000E+01
+ENDDATA              3
+ENDSUBENT           13
+ENDENTRY            23

@@ -1,0 +1,1683 @@
+ENTRY            21846   20180119   20180122   20180122       2260
+SUBENT        21846001   20180119   20180122   20180122       2260
+BIB                 13         78
+INSTITUTE  (2AUSIRK) Inst. fuer Radiumforschung and Kernphysik
+REFERENCE  (T,SCHANTL,1970) In German.
+            PhD thesis at Vienna University.
+COMMENT    -Of compiler 1983-04-13 .Work was not published in a
+           journal because the author deceased.Initial information
+           was taken from an abstract communicated by Nuclear
+           Data Section, IAEA, Vienna.
+           -Of compiler 2017-04-24. Probably at initial
+           compilation the German "Zusammenfassung" ( Summary in
+           English) was translated as "Abstract".
+           No additional publication (e.g. as an report) was found
+           in NEA DB.
+AUTHOR     (W.Schantl)
+TITLE       Measurement of (n,p) cross section for light nuclei.
+FACILITY   (CCW,2AUSIRK)   A 200 keV Cockroft-Walton Accelerator.
+           Pneumatic post was used for short HLs.
+INC-SOURCE (D-T)   The d(t,n)He-4 reaction.
+SAMPLE     .Natural samples.
+            Isotope contents - from Catalog of Merck,1970.
+METHOD     (ACTIV) Activation technique. Two methods used, one
+            relative measurement, and one using a sandwich sample
+            with an aluminium foil as standard.
+DETECTOR   (GELI)  Ge(Li)-detector used to measure gamma-rays,
+            efficiency calibrated between 60 keV and 3 MeV by :
+           Source HL          Intensity Energy        % per decay
+                              muCi      keV
+           Am-241 432.9+-0.8yr  10.32  59.543+-0.015  35.9+-0.6
+           Co-57  271.5+-0.5yr  11.54  121.97+-0.03   85.0+-1.7
+                                       136.33+-0.03   11.4+-1.3
+           Hg-203 46.8+-0.2d    20.22  72.873+-0.001  9.7+-0.5
+                                       82.5+-0.2      2.8+-0.2
+                                       279.191+-0.08  81.55+-0.15
+           Cs-137 30.5+-0.3yr   9.10   32.1+-0.1      5.7+-0.2
+                                       36.5+-0.1      1.3+-0.1
+                                       661.635+-0.076 85.1+-0.4
+           Na-22  2.602+-0.005yr 9.06  511.006+-0.002 181.1+-0.2
+                                       1274.55+-0.04  99.95+-0.02
+           Mn-54  312.6+-0.3d   10.78  834.81+-0.003  100.00
+           Co-60  5.28+-0.01yr  10.54  1173.23+-0.04  99.87+-0.05
+                                       1332.49+-0.05 99.999+-0.001
+           Yt-88  107.4+-0.8d   10.21  511.006+-0.002 0.40+-0.02
+                                       898.04+-0.04   91.4+-0.7
+                                       1836.13+-0.04  99.4+-0.1
+                                       2734.17+-0.08  0.62+-0.04
+            Activity at 1.1.1970 at 00:00.
+           (GEMUC) Geiger-Muller counter for long-lived
+            beta-active isotopes,
+           (SCIN)  1.5 by 1.5 inch plastc scintillator for
+            short-lived beta-active isotopes.
+CORRECTION - run without sample,
+           - total time loss < 5%,
+           - pile-up 0.5 - 2.5 % ( with relative error 5 - 8.5%)
+           - selfabsorption,
+           - loss due coincidence < 2.%,
+           - detection efficiency
+ERR-ANALYS .The systematic uncertainties could by eliminated by
+            using the two methods described above.
+HISTORY    (19830413C)
+           (19830429E)
+           (19830724A) BN. Changes in keywords AUTHOR,SAMPLE
+                     and MONITOR. MONIT-REF added.
+                     Modifier 'A' in REACTION strings of Se 011,
+                     012,015,016,020,021,028 and 029 added.
+                     REACTION corrected in SE017 and 'COMMENT'
+                     added in 017 and 018.
+           (19831004E)
+           (20170424A) M.M. Upper -> lower case correction.
+           The thesis was checked, BIB information was updated in
+           TITLE,DETECTOR,STATUS,ERR-ANALYS.
+           MONITOR was moved in data Subents.
+           SAMPLE, DECAY-DATA,REL-REFs,CORRECTION were added.
+           Subents 031-056 were added (directly measured data ).
+           PART-DET (B,DG) deleted,
+           HISTORY (19830413C) and (19830429E) deleted in Subents
+           002-030
+            according to N.Otsuka  comment (NDS,IAEA).
+           (20180119A) On. Major revision in 011-012, 015-016,
+            020-021, 028-029, 041-042 and 045.
+ENDBIB              78
+COMMON               2          3
+EN         EN-RSL
+MEV        MEV
+ 14.70      0.15
+ENDCOMMON            3
+ENDSUBENT           85
+SUBENT        21846002   20170424   20180122   20180122       2260
+BIB                  6         14
+REACTION   (3-LI-6(N,P)2-HE-6,,SIG)
+SAMPLE     LiF - 25.94 g , CaF - 78.08 g .
+CORRECTION Factor 3.280+-0.280
+ERR-ANALYS (DATA-ERR) Total error 14.5%
+REL-REF    (D,11058002,M.Battat+,J,PR,89,80,1953)
+                   6.7+-0.8 mb at 14.1+-0.1 MeV
+           (A,11071003,G.M.Frye Jr+,J,PR,93,1086,1954)
+                   6.0+-2.0 mb at 14.1+-0.5 MeV
+           (D,,,R,BNL-325,1,1964) vol.1, page 3-6-4
+                   6.5+-0.5 mb at 14.5+-0.5 MeV
+           (R,,T.Lauritsen+,J,NP,78,1,1966) Decay data
+STATUS     (TABLE) Table IV on page 52 of thesis.
+            Also Table on page 25 of thesis.
+           (DEP,21846031) Measured ratio Li6/F19 CSs
+ENDBIB              14
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 4.8        0.7
+ENDDATA              3
+ENDSUBENT           22
+SUBENT        21846003   20170424   20180122   20180122       2260
+BIB                  6         12
+REACTION   (4-BE-9(N,P)3-LI-9,,SIG)
+SAMPLE     BeO mass 25.01 g
+CORRECTION Factor 2.12+-0.09
+ERR-ANALYS (DATA-ERR) Total error 26.%
+REL-REF    (A,,D.Alburger+,J,PRL,2,110(1),1959)
+           #doi:10.1103/PhysRevLett.2.110
+                  0.6mb at 15.5 MeV
+           (R,,T.Lauritsen+,J,NP,78,1,1966)
+            Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+            Also Table on page 27 of thesis.
+           (DEP,21846032) Measured ratio Be9/O16 CSs .
+ENDBIB              12
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 0.64       0.17
+ENDDATA              3
+ENDSUBENT           20
+SUBENT        21846004   20170424   20180122   20180122       2260
+BIB                  6         19
+REACTION   (5-B-11(N,P)4-BE-11,,SIG)
+SAMPLE     B(2)O(3) mass 69.62 g .
+CORRECTION Factor 1.01+-0.001
+ERR-ANALYS (DATA-ERR) Total error 7.5%
+REL-REF    (D,,J.Kantele,J,BAP,6,252,1961)
+                      3.2+-0.4 mb at 14.5+-0.8 MeV
+           (D,11196002,J.Kantele+,J,NP,35,353,1962)
+                      3.3+-0.6 mb at 14.7+-0.15 MeV
+           (D,30180002,B.Z.Stepanic+,J,IBK,17,237,1966)
+                      4.6+-0.5 mb at 14.8 MeV
+           (A,30122002,W.J.Naude+,J,JNE,21,893,1967)
+                      7.1+-2.0 mb at 14.5 MeV DASTAR-00525
+           (A,20085002,F.Flesch+,J,OAW,176,45,1967)
+                      5.1+-0.9 mb at 14.7+-0.1 MeV
+           (R,,D.Alburger+,J,PRL,2,110(1),1959) Decay scheme
+           #doi:10.1103/PhysRevLett.2.110
+STATUS     (TABLE) Table IV on page 52 of thesis.
+            Also Table on page 28 of thesis.
+           (DEP,21846033) Measured ratio B-11/O-16
+ENDBIB              19
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 5.9        0.4
+ENDDATA              3
+ENDSUBENT           27
+SUBENT        21846005   20170424   20180122   20180122       2260
+BIB                  6         11
+REACTION   (7-N-15(N,P)6-C-15,,SIG)
+SAMPLE      Mg(NO(3))(2)* 6 H(2)O . Mass 256.41 g .
+            N-15 - 0.0402% .
+CORRECTION Factor 1.059+-0.003
+ERR-ANALYS (DATA-ERR) Total error 12.%
+REL-REF    (A,30007002,P.Prasad+,J,NP,85,476,1966)
+                      16+-4 mb at 14.8 MeV
+           (R,,A.Gallmann+,J,PR,179,921,1969) Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+            Also Table on page 29 of thesis.
+           (DEP,21846034) Measured ratio N-15/O-16
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 15.0       1.8
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        21846006   20170424   20180122   20180122       2260
+BIB                  8         41
+REACTION   (8-O-16(N,P)7-N-16,,SIG)
+SAMPLE      Al(2)O(3) 101.96 g
+            Mg(2)P(2)O(7) 222.567 g
+            SiO(2) 160.85 g
+ANALYSIS    Average of three measurements .
+CORRECTION Factor 1.02+-0.005
+ERR-ANALYS (DATA-ERR) Total error 3.6%
+REL-REF    (A,11302007,A.B.Lillie,J,PR,87,716,1952)
+                      35. mb at 14.1 MeV
+           (A,11274003,E.Paul+,J,CJP,31,267,1953)
+                      49+-25 mb at 14.5 MeV
+           (D,11390001,H.Martin,J,PR,93,498,1954)
+                      79+-24 mb at 14.8+-1.0 MeV
+           (D,11411002,J.A.De Juren+,J,PR,120,901,1960)
+                      39.2+-1.6 mb at 14.7+-0.1 MeV
+           (A,11369001,K.Seemann+,J,BAP,6,237,1961)
+                      34.+-6 mb at 14.4 MeV
+           (A,,J.Kantele,J,BAP,6,252,1961)
+                      39+-4 mb at 14.5+-0.8 MeV
+           (A,11415002,J.De Juren+,J,PR,120,901,1960)
+                      33.29+-2.4 mb at 14.76+-0.16 MeV
+           (A,11196004,J.Kantele+,J,NP,35,353,1962)
+                      38.2+-5.0 mb at 14.70+-0.15 MeV
+           (A,30192001,G.Paic+,J,PL,9,147,1964)
+                      35 mb at 14.4 MeV
+           (A,30013002,B.Mitra+,C,65CALCUTTA,,1965)
+                      40.1+-2.7 mb at 14.7+-0.1 MeV
+           (D,30007001,P.Prasad+,J,NP,85,476,1966)
+                      29+-2 at 14.8 MeV
+           (R,,E.K.Warburton+,J,PR,175,1275,1968) Decay scheme
+COMMENT    Of compiler M.M.
+           Value 15+-5 mb at 14.1 MeV is presented as from
+           J.Conner,J,PR,87,712,1953,
+           #doi:10.1103/PhysRev.87.716
+           but there are no such article and no such data in
+           J,PR,89,712,1953 (EXFOR11388)
+STATUS     (TABLE) Table IV on page 52 of thesis.
+            Also Table on page 30 of thesis.
+           (DEP,21846035) Measurement relative Al27(n,a) CS
+           (DEP,21846036) Measurement relative Si28(n,p) CS
+           (DEP,21846037) Measurement relative Mg24(n,p) CS
+ENDBIB              41
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 34.8       1.1
+ENDDATA              3
+ENDSUBENT           49
+SUBENT        21846007   20170424   20180122   20180122       2260
+BIB                  7         11
+REACTION   (8-O-17(N,P)7-N-17,,SIG)
+SAMPLE      Al(2)O(3) 101.96 g
+            Si(2)O(2) 160.85 g
+COMMENT    Of author. This CS consists of two reactions
+            O17(n,p)N17 and O18(n,np)N17 .
+CORRECTION Factor 1.018+-0.002
+ERR-ANALYS (DATA-ERR) Total error 36%
+REL-REF    (R,,M.G.Silbert+,J,PR,134,B16,1964) Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+            Also Table on page 31 of thesis.
+           (DEP,21846038) Measured ratio O-16/O-17
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 5.5        2.
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        21846008   20170424   20180122   20180122       2260
+BIB                  7         13
+REACTION   (8-O-18(N,P)7-N-18,,SIG)
+SAMPLE      Al(2)O(3) 101.96 g
+            Si(2)O(2) 160.85 g
+            K Cl O(4)   138.55 g
+ANALYSIS    Average of three measurements.
+CORRECTION Factor 1.022+-0.002
+ERR-ANALYS (DATA-ERR) Total error 23%
+REL-REF    (D,,L.F.Chase+,R,WASH-1064,75,1965)
+                      0.65+-0.10 mb at 14.7 MeV
+           (R,,L.F.Chase+,J,PRL,13,(22),665,1964) Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+            Also Table on page 32 of thesis.
+           (DEP,21846039) Measured ratio O-18/O-16
+ENDBIB              13
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 2.30       0.5
+ENDDATA              3
+ENDSUBENT           21
+SUBENT        21846009   20170424   20180122   20180122       2260
+BIB                  6         26
+REACTION   (9-F-19(N,P)8-O-19,,SIG)
+SAMPLE       CaF + Al(2)O(3) mass 78.08 g .
+ANALYSIS    Average of two runs
+ERR-ANALYS (DATA-ERR) Total error 5.5%
+REL-REF    (D,,J.Kantele,J,BAP,6,252,1961)
+               16.5+-2.0 mb at 14.5+-0.8 MeV
+           (D,11196005,J.Kantele+,J,NP,35,353,1962)
+                      14.3+-2.5 mb at 14.7+-0.15 MeV
+           (D,30013001,B.Mitra+,C,63BOMBAY,,169,1963)
+                      32.+-6. mb at 14.8 MeV
+           (A,30013001,B.Mitra+,C,65CALCUTTA,,1965)
+                      23.3+-2.3 mb at 14.7+-0.1 MeV
+           (D,20892001,J.Picard+,J,NP,63,673,1965)
+                      14.9+-2.0 mb at 14.6+-0.2 MeV
+           (A,20887001,M.Bormann+,J,NP,63,438,1965)
+                      19.9+-1.3 mb at 14.8+-0.6 MeV
+           (D,30007001,P.Prasad+,J,NP,85,476,1966)
+                      51+-10 mb at 14.8 MeV
+           (D,20889004,A.Pasquarelli,J,NP/A,93,218,1967)
+                      16.4+-0.7 mb at 14.7+-0.1 MeV
+           (A,30115002,J.Csikay+,J,NP/A,91,222,1967)
+                      21+-3 mb at 14.7+-0.1 MeV
+           (R,,D.E.Alburger+,J,PR,149,743,1966) Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+            Also Table on page 33 of thesis.
+           (DEP,21846040) Directly measured data - 2 runs.
+ENDBIB              26
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 22.2       1.2
+ENDDATA              3
+ENDSUBENT           34
+SUBENT        21846010   20170424   20180122   20180122       2260
+BIB                  8         29
+REACTION   (11-NA-23(N,P)10-NE-23,,SIG)
+SAMPLE     NaCl ( + Al(2)O(3) ) mass 58.44 g
+DETECTOR   (GELI)
+DECAY-DATA (10-NE-23,37.6SEC,DG,440.) 37.6+-0.2 sec
+CORRECTION  Factor 1.054+-0.001
+ERR-ANALYS (DATA-ERR) Total error 5.1%
+REL-REF    (A,11274006,E.Paul+,J,CJP,31,267,1953)
+                      34+-15 mb at 14.5 MeV
+           (A,30403001,C.Khurana+,C,60WALTAIR,,297,1960)
+                      45+-5 mb at 14.8 MeV is in thesis.
+             40mb+-(12%) in C,60WALTAIR,,297,1960
+             45+-5 mb in J,NP,69,153,1965, Entry 31316
+           (D,31161014,S.Mukherjee+,J,PPS,77,508,1961)
+                      29+-3 mb at 14.0 MeV
+           (D,30013001,B.Mitra+,C,63BOMBAY,,169,1963)
+                      33+-7 mb at 14.8 MeV
+           (A,20892005,J.Picard+,J,NP,63,673,1965)
+                      36.2+-8. mb at 14.89 MeV
+           (A,30007005,P.Prasad+,J,NP,85,476,1966)
+                      45.+-5. mb at 14.8 MeV
+           (A,20889005,A.Pasquarelli,J,NP/A,93,218,1967)
+                      41.+-1.2 mb at 14.7+-0.1 MeV
+           (A,20085003,F.Flesch+,J,OAW,176,45,1967)
+                      44+-9 mb at 14.7+-0.1 MeV
+           (A,30115003,J.Csikay+,J,NP/A,91,222,1967)
+                      39+-4 mb at 14.7 MeV
+           (R,,P.M.Endt+,J,NP/A,105,1,1967) Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+            Also Table on page 34 of thesis.
+ENDBIB              29
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 43.0       2.0
+ENDDATA              3
+ENDSUBENT           37
+SUBENT        21846011   20180119   20180122   20180122       2260
+BIB                 11         41
+REACTION   ((12-MG-24(N,P)11-NA-24,,SIG)+
+           (12-MG-25(N,X)11-NA-24,,SIG,,RAB))
+SAMPLE      Mg(2)P(4)O(7) ( +- Al(2)O(3) as inner standard )
+DETECTOR   (GELI)
+DECAY-DATA (11-NA-24,14.981HR,DG,1370.,,DG,2730.)
+            14.981+-0.011 hr .
+ANALYSIS     Average value for two decay gammas.
+COMMENT    Of author. This CS consist of reactions Mg24(n,p)Na24
+           and Mg25(n,np)Na24 .
+CORRECTION  Factor 1.046+-0.005
+ERR-ANALYS (DATA-ERR) Total error 5.%
+REL-REF    (A,11274007,E.Paul+,J,CJP,31,267,1953)
+                      191+-35 mb at 14.5 MeV
+           (A,21115001,A.Cohen+,J,NP,1,73,1956)
+                      183+-10 mb at 14.7+-0.2 MeV
+           (D,21419002,M.De Praz+,J,JPR,21,377,1960)
+                      203+-11 mb at 15.0+-0.2 MeV
+           (D,20004004,D.Allan,J,NP,24,274,1961)
+                      118+-16 mb at 14 MeV
+           (A,,J.Butler+,J,BAP,6,250,1961)
+                      190+-10 mb at 14 MeV
+           (A,11526001,W.L.Imhof,W,IMHOF,1961)
+                      180+-27 mb at 14.5 MeV
+           (A,11494002,F.Gabbard+,J,PR,128,1276,1962)
+                      177+-18 mb at 14.5+-0.2 MeV
+           (A,11457001,J.Butler+,J,CJP,41,372,1963)
+                      195+-24 mb at 14.9+-0.2 MeV
+           (A,20922001,J.Jeronimo+,J,NP,47,157,1963)
+                      182+-5 mb at 14.7+-0.15 MeV
+           (A,,H.Vonach,W,VONACH,1970)
+           Report at Nucl.Phys.seccion in Eindhoven, 1970
+                       177.5+-2. mb at 14.7 MeV
+           (R,,P.M.Endt+,J,NP/A,105,1,1967) Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+            Also Table on page 35 of thesis.
+           (DEP,21846041) Directly measured values
+HISTORY    (19830724A) Modifier 'A' added
+           (19831004E)
+           (20170424A) 12-MG-26(N,N+P)11-NA-25  ->
+                       12-MG-25(N,N+P)11-NA-24
+           (20180119A) On. REACTION corrected.
+ENDBIB              41
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 178.       7.
+ENDDATA              3
+ENDSUBENT           49
+SUBENT        21846012   20180119   20180122   20180122       2260
+BIB                 11         27
+REACTION   ((12-MG-25(N,P)11-NA-25,,SIG)+
+           (12-MG-26(N,X)11-NA-25,,SIG,,RAB))
+SAMPLE      Mg(2)P(4)O(7) mass 222.567 g
+DETECTOR   (GELI)
+DECAY-DATA (11-NA-25,59.6SEC,DG,980.,,DG,590.)
+ANALYSIS     Average value for two decay gammas.
+COMMENT    Of author. This CS consist of reactions Mg24(n,p)Na24
+           and Mg25(n,np)Na24 .
+CORRECTION  Factor 1.053+-0.002
+ERR-ANALYS (DATA-ERR) Total error 7.2%
+REL-REF    (A,11274008,E.Paul+,J,CJP,31,267,1953)
+                      45+-18 mb at 14.5 MeV
+           (A,11463002,M.Nurmia+,J,NP,8,139,1958)
+                      60+-10 mb at 14.8 MeV
+           (A,20004006,D.Allan,J,NP,24,274,1961)
+                      67+-10 mb at 14 MeV
+           (A,30007006,P.Prasad+,J,NP,85,476,1966)
+                      54+-6 mb at 14.8 MeV
+           (A,20889007,A.Pasquarelli,J,NP/A,93,218,1967)
+                      66+-3 mb at 14.7+-0.1 MeV
+           (R,,P.M.Endt+,J,NP/A,105,1,1967) Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+            Also Table on page 36 of thesis.
+           (DEP,21846042) Directly measured values
+HISTORY    (19830724A) Modifier 'A' added
+           (19831004E)
+           (20180119A) On. REACTION corrected.
+ENDBIB              27
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 61.        4.5
+ENDDATA              3
+ENDSUBENT           35
+SUBENT        21846013   20170424   20180122   20180122       2260
+BIB                  9         17
+REACTION   (12-MG-26(N,P)11-NA-26,,SIG)
+SAMPLE      Mg(2)P(4)O(7) 222.567 g
+DETECTOR   (GELI)
+DECAY-DATA (11-NA-26,1.04SEC,DG,1028.)
+             1.04+-0.03 sec
+CORRECTION   Factor 1.028+-0.002
+ANALYSIS     Average value for two monitors - O16 and Mg25.
+ERR-ANALYS (DATA-ERR) Total error 15.%
+REL-REF    (D,11463001,M.Nurmia+,J,NP,8,139,1958)
+                      50+-5 mb at 14.8 MeV
+           (D,20004001,D.Allan,J,NP,24,274,1961)
+                      27+-7 mb at 14.0 MeV
+           (R,,P.M.Endt+,J,NP/A,105,1,1967) Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+            Also Table on page 37 of thesis.
+           (DEP,21846043) Ratios to O16
+           (DEP,21846044) Ratios to Mg26.
+ENDBIB              17
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 15.3       2.3
+ENDDATA              3
+ENDSUBENT           25
+SUBENT        21846014   20170424   20180122   20180122       2260
+BIB                 10         62
+REACTION   (13-AL-27(N,P)12-MG-27,,SIG)
+SAMPLE      Al(2)O(3) and Al metal .
+DETECTOR   (GELI)
+DECAY-DATA (12-MG-27,9.46MIN)
+             9.46+-0.02 min
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+CORRECTION  Factor 1.025+-0.002
+ANALYSIS    Average value of 5 measurements.
+ERR-ANALYS (DATA-ERR) Total error 2.5 %
+REL-REF    (A,11474003,S.Forbes,J,PR,88,1309,1952)
+                      79+-6 mb at 14.1 MeV
+           (D,11274001,E.Paul+,J,CJP,31,267,1953)
+                      50+-10 mb at 14.5 MeV
+           (A,21487003,D.Allan,J,PPS/A,70,195,1957)
+                      70+-14 mb at 14.MeV
+           (A,11480001,R.Haling+,J,PR,106,971,1957)
+                      61+-14 mb at 14.1+-1.0 MeV
+           (D,11529004,V.V.Verbinski+,J,PR,108,779,1957)
+                      34+-6 mb at 14.MeV
+           (D,20280002,S.Yasumi,J,JPJ,12,443,1957)
+                      87.2+-6.0 mb at 14.1+-0.2 MeV
+           (A,11453002,O.Hudson Jr+,J,BAP,4,97,1959)
+                      80+-10 mb at 14.8 MeV
+           (D,11484003,A.Poulanikas+,J,PR,115,989,1959)
+                      53+-5 mb at 14.8+-0.9 MeV
+           (D,30403003,C.Khurana+,C,60WALTAIR,297,1960)
+                      115+-14 mb at 14 MeV
+           (D,21419003,M.De Praz+,J,JPR,21,377,1960)
+                      59+-6 mb at 15.0+-0.4 MeV
+           (A,20921002,G.S.Mani+,J,NP,19,535,1960)
+                      68+-5 mb at 14.75+-0.25 MeV
+           (D,21443001,R.Storey+,J,PPS,75,526,1960)
+                      90+-8 mb at 14.1 MeV
+           (A,31161002,S.Mukherjee+,J,PPS,77,508,1961)
+                      77+-8 mb at 14. MeV
+           (A,20004011,D.Allan,J,NP,24,274,1961)
+                      87+-11 mb at 14 MeV
+           (A,30406001,R.Glover+,J,NP,24,630,1961)
+                      <116+-12 mb at 14.8 MeV
+           (D,,J.Kantele,J,BAP,6,252,1961)
+                       87+-8 mb at 14.5+-0.8 MeV
+           (A,21352013,H.Pollehn+,J,ZN/A,16,227,1961)
+                      80.08+-5.0 mb at 14.1 MeV
+           (D,20329002,M.Sakisaka+,J,JPJ,16,1869,1961)
+                      85+-3 mb at 14.1+-0.2 MeV
+           (D,11494001,F.Gabbard+,J,PR,128,1276,1962)
+                      42+-10 mb at 14.5+-0.2 MeV
+           (D,11492004,F.Hassler+,J,PR,125,1011,1962)
+                      93+-10 mb at 14.4+-0.2 MeV
+           (A,11196006,J.Kantele+,J,NP,35,353,1962)
+                      82+-10 mb at 14.7+-0.15 MeV
+           (A,,H.Neuert,W,NEUERT,1962)
+                      ~80.8 mb at 14.2+-0.2 MeV
+            Unpublished, cited in D.Gardner+,J,NP,29,373,1962
+             See also Entry 21352.
+           (A,30118006,J.Csicai+,J,NP,46,141,1963)
+                      72+-5 mb at 14.6 MeV
+           (D,30013001,B.Mitra+,C,65CALCUTTA,,1965)
+                      97+-10 mb at 14.7+-0.1 MeV
+           (R,,P.M.Endt+,J,NP/A,105,1,1967) Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+            Also Table on page 38 of thesis.
+ENDBIB              62
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 75.        2.
+ENDDATA              3
+ENDSUBENT           70
+SUBENT        21846015   20180119   20180122   20180122       2260
+BIB                 10         40
+REACTION   ((14-SI-28(N,P)13-AL-28,,SIG)+
+           (14-SI-29(N,X)13-AL-28,,SIG,,RAB))
+SAMPLE      Si crystall mass 28.086 g
+DETECTOR   (GELI)
+DECAY-DATA (13-AL-28,2.274MIN,DG,1780.)
+             2.274+-0.014 min
+CORRECTION  Factor 1.031+-0.002
+ANALYSIS    Average value of 2 activations -
+            266+-8 and 256+-9 mb.
+ERR-ANALYS (DATA-ERR) Total error 3.%
+REL-REF      A,,J.Blatt,V.Weisskopf, Theoretical Nuclear Physics,
+            Jon Waley and Sons, New York,1952
+                      292+-45 mb at 14.5 MeV
+           (A,11274011,E.Paul+,J,CJP,31,267,1953)
+                      220+-50 mb at 14.5 MeV
+           (D,21115001,A.Cohen+,J,NP,1,73,1956)
+                      190+-15 mb at 14.7+-0.2 MeV
+            D,, 380 mb at 14 MeV  - 58Fe - no such ref.
+           (D,11464004,B.Kern+,J,NP,10,226,1959)
+                      340+-30 mb at 14.8+-0.1 MeV
+           (D,30403009,C.Khurana+,C,60WALTAIR,297,1960)
+                      157+-17 mb at 14 MeV
+           (A,20004017,D.Allan,J,NP,24,274,1961)
+                      243+-22 mb at 14 MeV
+           (D,20922004,J.Jeronimo+,J,NP,47,157,1963)
+                      181+-20 mb at 14.9+-0.2 MeV
+            D,,   170+-20 mb at 14.8 MeV -  64Je - no such ref.
+           (D,30013006,B.Mitra+,C,65CALCUTTA,,1965)
+                      222+-12 mb at 14.7+-0.1 MeV
+           (A,11515003,N.Ranakumar+,J,NP/A,122,679,1968)
+                       + E.Kondaiah,R.W.Fink
+                      252+-15 mb at 14.4+-0.3 MeV
+           (D,20889009,A.Pasquarelli,J,NP/A,93,218,1967)
+                      222+-12 mb at 14.6+-0.9 MeV
+           (R,,P.M.Endt+,J,NP/A,105,1,1967) Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+            Also Table on page 39 of thesis.
+HISTORY    (19830724A) Modifier 'A' added
+           (19831004E)
+           (20180119A) On. REACTION corrected.
+ENDBIB              40
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 260.       7.
+ENDDATA              3
+ENDSUBENT           48
+SUBENT        21846016   20180119   20180122   20180122       2260
+BIB                 11         28
+REACTION   ((14-SI-29(N,P)13-AL-29,,SIG)+
+           (14-SI-30(N,X)13-AL-29,,SIG,,RAB))
+SAMPLE      Si crystall mass 28.086 g
+DETECTOR   (GELI)
+DECAY-DATA (13-AL-29,6.52MIN,DG,1270.,,DG,2430.)
+             6.52+-0.05 min
+CORRECTION  Factor 1.036+-0.004
+ANALYSIS    Average value for two measurements - 1.27 MeV and
+           2.43 MeV lines.
+ERR-ANALYS (DATA-ERR) Total error 5.%
+REL-REF    (D,11189006,B.Cohen,J,PR,81,184,1951)
+                      36+-5 mb at 14 MeV
+           (A,11274012,E.Paul+,J,CJP,31,267,1953)
+                      101+-30 mb at 14.5 MeV
+           (D,20889010,A.Pasquarelli,J,NP/A,93,218,1967)
+                      22.7+-1. mb at 14.7+-0.1
+           (A,11515004,N.Ranakumar+,J,NP/A,122,679,1968)
+                +E.Kondaiah,R.W.Fink
+                      130+-16 mb at 14.4+-0.3 MeV
+           (R,,P.M.Endt+,J,NP/A,105,1,1967) Decay scheme
+ADD-RES    (DECAY) In Si-29 spectrum there is a line 2.03 MeV
+            with intensity 4%+-0.5% of 1.27MeV line.
+STATUS     (TABLE) Table IV on page 52 of thesis.
+            Also Table on page 40 of thesis.
+           (DEP,21846045) directly measured data.
+HISTORY    (19830724A) Modifier 'A' added
+           (19831004E)
+           (20180119A) On. REACTION corrected.
+ENDBIB              28
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 129.       6.
+ENDDATA              3
+ENDSUBENT           36
+SUBENT        21846017   20180119   20180122   20180122       2260
+BIB                  9         24
+REACTION   (14-SI-30(N,P)13-AL-30,,SIG)
+SAMPLE      Si crystall Si)(2) mass 28.086 g
+DETECTOR   (GELI)
+DECAY-DATA Comment by compiler (1983-07-24):
+           The cross section given is considered to be the sum of
+            the reactions to the g.s.(3.3 sec) and to the 72.5 sec
+            isomeric state. However, according to the 'Table of
+            Isotopes' 7th ed.,1978, the existence of this isomer
+            is not confirmed.
+           (13-AL-30-G,3.3SEC)
+           (13-AL-30-M,72.5SEC)
+ANALYSIS   This CS was defined relative to Si28(n,p)Al28 and
+           O16(n,p)N16 .
+ERR-ANALYS (DATA-ERR) Total error 20.%
+REL-REF    (D,11515001,N.Ranakumar+,J,NP/A,122,679,1968)
+                      7.mb at 14.4 MeV
+           (R,,E.Peeters,J,PL,7,142,1963) Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+            Also Table on page 41 of thesis.
+           (DEP,21846046)  Ratio Si28/Si30 CSs
+           (DEP,21846047)  Ratio Si30/O16 CSs
+HISTORY    (19830724A) Reaction corrected and COMMENT added
+           (19831004E)
+           (20180119U) On. DECAY-DATA added.
+ENDBIB              24
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 95.        19.
+ENDDATA              3
+ENDSUBENT           32
+SUBENT        21846018   20180119   20180122   20180122       2260
+BIB                 13         25
+REACTION   (14-SI-30(N,P)13-AL-30-M,,SIG)
+SAMPLE      Si crystall SiO(2) mass 28.086 g
+DETECTOR   (GELI)
+DECAY-DATA Comment by compiler (1983-07-24):
+           The cross section given is considered to be the cross
+            section to the 72.5 sec isomeric state . However,
+            according to the 'Table of Isotopes' 7th ed.,1978,
+            the existence of this isomer is not confirmed.
+           (13-AL-30-M,72.5SEC)
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+MONIT-REF  (20111001,H.Vonach+,J,ZP,237,155,1970)
+ANALYSIS    HL= 1.208+-0.025 min is defined, gamma line energy
+            is not given.  Average value was derived from two
+            measurements - 67+-10mb and 51+-9 mb .
+CORRECTION  Factor 1.011+-0.001
+FLAG       (1.) First measurement
+           (2.) Second measurement
+           (3.) Average value
+ERR-ANALYS (DATA-ERR) Total error (16.% for average value)
+REL-REF    (R,,E.Peeters,J,PL,7,142,1963) Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+            Also Table on page 41 of thesis.
+HISTORY    (19830724A) COMMENT added.
+           (19831004E)
+           (20180119U) On. DECAY-DATA added.
+ENDBIB              25
+NOCOMMON             0          0
+DATA                 3          3
+DATA       DATA-ERR   FLAG
+MB         MB         NO-DIM
+ 67.        10.        1.
+ 51.         9.        2.
+ 62.        10.        3.
+ENDDATA              5
+ENDSUBENT           35
+SUBENT        21846019   20170424   20180122   20180122       2260
+BIB                  7         23
+REACTION   (15-P-31(N,P)14-SI-31,,SIG)
+SAMPLE      Mg(2)P(2)O(7) mass 222.567 g
+DECAY-DATA (14-SI-31,157.3MIN,B-,1471.,0.9993)
+            157.3+-0.4 min , Ebeta-max= 1.471+-0.003 MeV
+             1.27 MeV line with 0.07% intensity was measured as
+            control run.
+CORRECTION  Factor 1.00
+ERR-ANALYS (DATA-ERR) Total error 7.5%
+REL-REF    (A,11474004,S.Forbes,J,PR,88,1309,1952)
+                      91+-9 mb at 14.1 MeV
+           (D,11274001,E.Paul+,J,CJP,31,267,1953)
+                      64+-9 mb at 14.9 MeV
+           (A,11481005,J.Grundl+,J,PR,109,425,1958)
+                      85.5+-7.0 mb at 14.10+-0.04 MeV
+           (A,11196001,J.Kantele+,J,NP,35,353,1962)
+                      82+-10 mb at 14.70+-0.29 MeV
+           (D,11492009,F.Hassler+,J,PR,125,1011,1962)
+                      155+-16 mb at 14.4+-0.2 MeV
+           (D,20889012,A.Pasquarelli,J,NP/A,93,218,1967)
+                      64+-2 mb at 14.7+-0.1 MeV
+           (R,,P.M.Endt+,J,NP/A,105,1,1967) Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+            Also Table on page 42 of thesis.
+ENDBIB              23
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 82.        6.
+ENDDATA              3
+ENDSUBENT           31
+SUBENT        21846020   20180119   20180122   20180122       2260
+BIB                  8         33
+REACTION   ((16-S-32(N,P)15-P-32,,SIG)+
+           (16-S-33(N,X)15-P-32,,SIG,,RAB))
+SAMPLE      S mass 32.064 g and S+Al(2)O(3) ( for flux monitoring)
+DECAY-DATA (15-P-32,14.31D,B-,1707.0)
+            14.31+-0.02 day, Ebeta-max= 1.7090+-0.0016 MeV .
+CORRECTION  Factor 1.00
+ERR-ANALYS (DATA-ERR) Total error 5.5%
+REL-REF    (D,,B.Cohen,J,PR,81,184,1951)
+                      285+-15 mb at 14 MeV
+           (D,11274016,E.Paul+,J,CJP,31,267,1953)
+                      369+-45mb at 14.5 MeV
+           (D,20004027,D.L.Allan,J,PPS/A,70,195,1957)
+                      289+-25 mb at 14 MeV
+           (A,11571004,L.Allen Jr,J,PR,107,1363,1957)
+                      220+-15 mb at 14.70+-0.29 MeV
+           (D,30403011,C.Khurana+,C,60WALTAIR,,297,1960)
+                      307+-36 mb at 14 MeV
+           (A,11457001,J.Butler+,J,CJP,41,372,1963)
+                      ~226 mb at 14.50+-0.06 MeV
+             Used as monitor point .
+           Also in 11543.002 - monitor point, from 11571 .
+           (A,40016017,V.N.Levkovskij,J,JET,18,213,1964)
+                       220+-40 mb at 14 MeV
+           (A,11492012,F.Hassler+,J,PR,125,1011,1962)
+                      206+-21 mb at 14.4+-0.2 MeV
+           (A,20889017,A.Pasquarelli,J,NP/A,93,218,1967)
+                      215+-6 mb at 14.7+-0.1 MeV
+           (R,,P.M.Endt+,J,NP/A,105,1,1967) Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+           Also Table on page 43 of thesis.
+HISTORY    (19830724A) Modifier 'A' added
+           (19831004E)
+           (20180119A) On. REACTION corrected.
+ENDBIB              33
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 226.       12.
+ENDDATA              3
+ENDSUBENT           41
+SUBENT        21846021   20180119   20180122   20180122       2260
+BIB                  8         13
+REACTION   ((16-S-33(N,P)15-P-33,,SIG)+
+           (16-S-34(N,X)15-P-33,,SIG,,RAB))
+SAMPLE      S mass 32.064 g and S+Al(2)O(3) ( for flux monitoring)
+DECAY-DATA (15-P-33,24.6D,B-,248.)
+            24.6+-0.3 day, Ebeta-max= 0.248+-0.002 MeV .
+CORRECTION  Factor 1.00
+ERR-ANALYS (DATA-ERR) Total error 16.%
+REL-REF    (R,,P.M.Endt+,J,NP/A,105,1,1967) Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+           Also Table on page 44 of thesis.
+HISTORY    (19830724A) Modifier 'A' added
+           (19831004E)
+           (20180119A) On. REACTION corrected.
+ENDBIB              13
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 134.       22.
+ENDDATA              3
+ENDSUBENT           21
+SUBENT        21846022   20170424   20180122   20180122       2260
+BIB                  9         18
+REACTION   (16-S-34(N,P)15-P-34,,SIG)
+SAMPLE      S+Al(2)O(3)
+DECAY-DATA (15-P-34,12.40SEC,DG,2127.)
+            12.40+-0.12 sec
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+MONIT-REF  (20111001,H.Vonach+,J,ZP,237,155,1970)
+CORRECTION  Factor 1.018+-0.005
+ERR-ANALYS (DATA-ERR) Total error 5.2% .
+REL-REF    (A,11274018,E.Paul+,J,CJP,31,267,1953)
+                      85+-38 mb at 14.5 MeV
+           (D,20898004,V.Zielinski+,J,ND/A,1,103,1965)
+                      73+-6 mb at 14.9+-0.2 MeV
+           (D,30007007,P.Prasad+,J,NP,85,476,1966)
+                      32+-8 mb at 14.8 MeV
+           (R,,P.M.Endt+,J,NP/A,105,1,1967) Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+           Also Table on page 44 of thesis.
+           (DEP,21846048) Measured ratio S/Al
+ENDBIB              18
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 53.        3.
+ENDDATA              3
+ENDSUBENT           26
+SUBENT        21846023   20170424   20180122   20180122       2260
+BIB                  9         20
+REACTION   (17-CL-35(N,P)16-S-35,,SIG)
+SAMPLE      NaCl mass 58.44 g
+DECAY-DATA (16-S-35,87.0D,B-,167.7)
+            87.0+-0.3 day, Ebeta-max= 0.1677+-0.0003 MeV
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG) For neutron flux .
+MONIT-REF  (20111001,H.Vonach+,J,ZP,237,155,1970)
+CORRECTION  Factor 1.00
+ERR-ANALYS (ERR-T)    Total error 7.7% .
+           (ERR-1)  Uncertainty in beta-decay detection efficiency
+REL-REF    (A,,D.Hughes,R,BNL-325,1955)
+                      140+-35 mb at 14.3 MeV
+           (A,20004031,D.L.Allan,J,NP,24,274,1961)
+                      125+-38 mb at 14 MeV
+           (A,20198001,W.Nagel+,J,PHY,31,1091,1965)
+                      121+-21 at 14.6+-0.2
+           (R,,P.M.Endt+,J,NP/A,105,1,1967) Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+           Also Table on page 45 of thesis.
+           (DEP,21846049) Measured ratio Na23/Cl35 as a control
+            measuremnt ( absolute CS lies inside of 1/2 of error)
+ENDBIB              20
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-T      ERR-1
+MB         MB         PER-CENT
+ 127.       10.        4.5
+ENDDATA              3
+ENDSUBENT           28
+SUBENT        21846024   20170424   20180122   20180122       2260
+BIB                  8         24
+REACTION   (17-CL-37(N,P)16-S-37,,SIG)
+SAMPLE      KClO(4) mass 138.55 g
+DECAY-DATA (16-S-37,5.07MIN,DG,3105.)
+            5.07+-0.01 min .
+ANALYSIS    CS was measured rlative to CSs of O16(n,p)N16 and
+            K41(n,p)Ca41 .
+CORRECTION  Factor 1.018+-0.005
+ERR-ANALYS (ERR-T)    Total error 14.% .
+           (ERR-1,10.) Min.systematic uncertainty in decay scheme
+REL-REF    (D,11274022,E.B.Paul+,J,CJP,31,267,1953)
+                      33+-7 mb at 14.5 MeV
+           (D,21115004,A.Cohen+,J,NP,1,73,1956)
+                      38+-8 mb at 14.4+-0.3 MeV
+           (A,11550006,R.Scalan+,J,NP,9,334,1958)
+                      25.4+-2.1 mb at 14.8 MeV
+           (A,30062001,B.Mitra+,C,65CALCUTTA,,1965)
+                      21.3+-2.1 mb at 14.7+-0.1 MeV
+           (D,20889019,A.Pasquarelli,J,NP/A,93,218,1967)
+                      25.5+-1.2 mb at 14.7+-0.1 MeV
+           (R,,P.M.Endt+,J,NP/A,105,1,1967) Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+           Also Text on page 46 of thesis.
+           (DEP,21846050) Measured ratio O16/Cl37
+           (DEP,21846051) Measured ratio Cl37/K41
+ENDBIB              24
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 20.        3.
+ENDDATA              3
+ENDSUBENT           32
+SUBENT        21846025   20170424   20180122   20180122       2260
+BIB                  8         16
+REACTION   (19-K-39(N,P)18-AR-39,,SIG)
+SAMPLE      KNO(3) mass 101.107 g
+DECAY-DATA (18-AR-39,269.YR,B-,565.)
+            269.+-3. yr, Ebeta-max= 0.565+-0.005 MeV .
+            19-K-40 33.22+-0.16 decay/sec*g
+ANALYSIS    Average of two measurements - Ar-39 beta- decay and
+            K-40 decay.
+CORRECTION  Factor 1.00.
+            Geometry factor 20.4+-0.2 %
+ERR-ANALYS (ERR-T)    Total error 4.% .
+           (ERR-S,,1.) Statistical error .
+REL-REF    (A,21668008,M.Borman+,J,ZN/A,15,200,1960)
+                      354+-54 mb at 14 MeV
+           (R,,P.M.Endt+,J,NP/A,105,1,1967) Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+           Also Text on page 47 of thesis.
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+ 314.       13.
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        21846026   20170424   20180122   20180122       2260
+BIB                  6         17
+REACTION   (19-K-41(N,P)18-AR-41,,SIG)
+ANALYSIS    Average of two measurements :
+            by 1.29 gamma line - 46+-3 mb (7%) and
+            from ratio O16/K41 - 41+-4 mb (9%) .
+CORRECTION  Factor 1.028+-0.008
+ERR-ANALYS (DATA-ERR) Total error 7%
+REL-REF    (D,11274025,E.Paul+,J,CJP,31,267,1953)
+                      81+-33 mb at 14.5 MeV
+           (D,11590003,E.T.Bramlitt+,J,PR,131,2649,196309)
+                      69+-17 mb at 14.7+-0.2 MeV
+           (D,20889021,A.Pasquarelli,J,NP/A,93,218,1967)
+                      30.5+-2.5 mb at 14.7+-0.15 MeV
+           (R,,P.M.Endt+,J,NP/A,105,1,1967) Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+           Also Text on page 48 of thesis.
+           (DEP,21846052) Measurement by 1.29 gamma line
+           (DEP,21846053) Measurement from ratio O16/K41
+ENDBIB              17
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 44.        3.
+ENDDATA              3
+ENDSUBENT           25
+SUBENT        21846027   20170424   20180122   20180122       2260
+BIB                  7         15
+REACTION   (20-CA-40(N,P)19-K-40,,SIG)
+METHOD      10 measurements, each up to 48 hr .
+ANALYSIS    Average of all measurements - relative Al27(n,a)
+            and F19(n,p) .
+CORRECTION  Factor 1.037+-0.005
+ERR-ANALYS (DATA-ERR) Total error 7%
+REL-REF    (A,21069001,L.Colli+,J,NC,7,400,1958)
+                      ~518 mb at 14 MeV 58Co
+           (A,20004033,D.L.Allan,J,NP,24,274,1961)
+                      451+-38 mb at 14 MeV
+           (R,,P.M.Endt+,J,NP/A,105,1,1967) Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+           Also Text on page 49 of thesis.
+           (DEP,21846055) Measurement relative Al27(n,a)
+           (DEP,21846056) Measurement relative F19(n,p)
+ENDBIB              15
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 492.       40.
+ENDDATA              3
+ENDSUBENT           23
+SUBENT        21846028   20180119   20180122   20180122       2260
+BIB                  8         24
+REACTION   ((20-CA-42(N,P)19-K-42,,SIG)+
+           (20-CA-43(N,X)19-K-42,,SIG,,RAB))
+SAMPLE      CaF(2) mass 78.08 g
+DECAY-DATA (19-K-42,746.4MIN,DG,1520.)
+CORRECTION  Factor 1.035+-0.005
+ERR-ANALYS (DATA-ERR) Total error 6.5%
+REL-REF    (D,11189008,B.Cohen,J,PR,81,184,1951)
+                      ~120+-12 mb at 14 MeV
+           (A,20090002,P.Hille+,W,HILLE,1962)
+                      140+-45 mb at 14.9 MeV
+           (A,40016024,V.N.Levkovskii,J,JET,18,213,1964)
+                Engl.transl. of :
+           (A,40016024,V.N.Levkovskii,J,ZET,45,(2),305,1963)
+                      160+-30 mb at 14 MeV
+           (A,20198001,W.Nagel+,J,PHY,31,1091,1965)
+                      182+-22 mb at 14.6+-0.2 MeV
+           (A,30115004,J.Csikay+,J,NP/A,91,222,1967)
+                      173+-12 mb at 14.7 MeV
+           (R,,P.M.Endt+,J,NP/A,105,1,1967) Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+           Also Text on page 49 of thesis.
+HISTORY    (19830724A) Modifier 'A' added
+           (19831004E)
+           (20180119A) On. REACTION corrected.
+ENDBIB              24
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 163.       10.
+ENDDATA              3
+ENDSUBENT           32
+SUBENT        21846029   20180119   20180122   20180122       2260
+BIB                  8         18
+REACTION   ((20-CA-43(N,P)19-K-43,,SIG)+
+           (20-CA-44(N,X)19-K-43,,SIG,,RAB))
+SAMPLE      CaF(2) mass 78.08 g
+DECAY-DATA (19-K-43,21.75HR,DG,620.)
+            21.75+-0.5 hr
+CORRECTION  Factor 1.055+-0.008
+ERR-ANALYS (DATA-ERR) Total error 5%
+REL-REF    (A,20198001,W.Nagel+,J,PHY,31,1091,1965)
+                      110+-15 mb at 14.6+-0.2 MeV
+           (A,30115005,J.Csikay+,J,NP/A,91,222,1967)
+                      101+-8 mb at 14.7 MeV
+           (R,,P.M.Endt+,J,NP/A,105,1,1967) Decay scheme
+           (R,,L.Chosmen+,J,PR,169,911,1968)  Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+           Also Text on page 50 of thesis.
+HISTORY    (19830724A) Modifier 'A' added
+           (19831004E)
+           (20180119A) On. REACTION corrected.
+ENDBIB              18
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 107.       5.
+ENDDATA              3
+ENDSUBENT           26
+SUBENT        21846030   20170424   20180122   20180122       2260
+BIB                  7         20
+REACTION   (20-CA-44(N,P)19-K-44,,SIG)
+SAMPLE      CaF(2) mass 78.08 g
+DECAY-DATA (19-K-44,22.0MIN,DG,1160.)
+            22.0+-0.5 min , 1.16MeV(+-15%)
+CORRECTION  Factor 1.042+-0.008
+ERR-ANALYS (DATA-ERR) Total error 22%
+REL-REF    (D,,V.N.Levkovskij,J,JET,6,1174,1958) Engl.transl. of:
+           (D,,V.N.Levkovskij,J,ZET,33,1520,1957)
+                      39.4+-25.7 mb at 14 MeV
+           (A,20090003,P.Hille+,W,HILLE,1962)
+                      25+-12 mb at 14.9 MeV
+           (D,40016025,V.N.Levkovskij,J,JET,18,213,1964)
+                Engl.transl.of :
+           (D,40016025,V.N.Levkovskij,J,ZET,45,(2),305,1963)
+                      37+-7 mb at 14 MeV
+           (D,30115006,J.Csikay+,J,NP/A,91,222,1967)
+                      45+-6 mb at 14.7 MeV
+           (R,,R.E.Larson+,J,NP/A,133,273,1969) Decay scheme
+STATUS     (TABLE) Table IV on page 52 of thesis.
+           Also Text on page 50 of thesis.
+ENDBIB              20
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 22.        4.
+ENDDATA              3
+ENDSUBENT           28
+SUBENT        21846031   20170424   20180122   20180122       2260
+BIB                 10         21
+REACTION   ((3-LI-6(N,P)2-HE-6,,SIG)/(9-F-19(N,P)8-O-19,,SIG))
+SAMPLE     LiF - 25.94 g , CaF - 78.08 g .
+DECAY-DATA (2-HE-6,830.MSEC,B,3500.,1.)
+             3.50+-0.05MeV, 830+-30 msec.
+           (8-O-19,,B,4600.,,B,3250.)
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG) For neutron fllux.
+FLAG       (1.) 1st run
+           (2.) 2nd run
+           (3.) 3rd run
+           (4.) 4th run
+           2 measurement runs, for 3.2MeV and 4.6 MeV beta-energy.
+           (5.) Average of 4 measurements
+DETECTOR   (SCIN)  1.5 by 1.5 inch plastc scintillator
+CORRECTION Correction factor 3.280+-0.280 - including
+           correction for beta absorbtion - factor 2.44+-0.13 ,
+           correction for backscattering  - factor 0.73+-0.022
+ERR-ANALYS (ERR-S) Statistical error.
+           (ERR-SYS) Systematical error.
+           (ERR-T) Total error for average value 0.217mb( = 11.%)
+STATUS     (TABLE) Table on page 25 of thesis.
+HISTORY    (20170424C) M.M.
+ENDBIB              21
+NOCOMMON             0          0
+DATA                 5          5
+DATA       ERR-S      ERR-SYS    FLAG       ERR-T
+NO-DIM     PER-CENT   PER-CENT   NO-DIM     PER-CENT
+ 0.220      3.4        9.         1.
+ 0.214      3.9        9.         2.
+ 0.215      3.5        9.         3.
+ 0.219      4.3        9.         4.
+ 0.217      1.9        9.         5.         11.
+ENDDATA              7
+ENDSUBENT           33
+SUBENT        21846032   20170424   20180122   20180122       2260
+BIB                  9         18
+REACTION   ((4-BE-9(N,P)3-LI-9,,SIG)/(8-O-16(N,P)7-N-16,,SIG))
+SAMPLE      BeO mass 25.01 g .
+DECAY-DATA (3-LI-9,172.MSEC,B,11000.,,B,13500.)
+             172+-3 msec, 13.5+-0.3 MeV, 11.0+-0.4 MeV .
+           (7-N-16,,B,4300.,,B,10600.)
+DETECTOR   (SCIN)  1.5 by 1.5 inch plastc scintillator
+CORRECTION  Factor 2.12+-0.09
+FLAG       (1.)  For 11.0MeV/4.3MeV 1st run
+           (2.)  For 11.0MeV/4.3MeV 2nd run
+           (3.)  For 13.5MeV/10.4MeV 1st run
+           (4.)  For 13.5MeV/10.4MeV 2nd run
+           2 irradiations.
+           (5.) Average of 4 measurements
+ERR-ANALYS (ERR-S) Statistical error.
+           (ERR-SYS) Systematical error.
+           (DATA-ERR) Total error for average value
+STATUS     (TABLE) Table on page 27 of thesis.
+HISTORY    (20170424C) M.M.
+ENDBIB              18
+NOCOMMON             0          0
+DATA                 5          5
+DATA       ERR-S      ERR-SYS    DATA-ERR   FLAG
+NO-DIM     PER-CENT   PER-CENT   PER-CENT   NO-DIM
+ 0.01843    4.1        18.5                   1.
+ 0.01826    4.5        18.5                   2.
+ 0.01840    6.0        22.                    3.
+ 0.01827    6.3        22.                    4.
+ 0.0183                           23.         5.
+ENDDATA              7
+ENDSUBENT           30
+SUBENT        21846033   20180119   20180122   20180122       2260
+BIB                  9         16
+REACTION   ((5-B-11(N,P)4-BE-11,,SIG)/(8-O-16(N,P)7-N-16,,SIG))
+SAMPLE      B(2)O(3) mass 69.62 g .
+DECAY-DATA (4-BE-11,13.75SEC,DG,2121.)
+            13.75+-0.15 sec, 2.121+-0.010 MeV
+DETECTOR   (GELI)
+CORRECTION  Factor 1.01+-0.001
+FLAG       (1.)  1st run
+           (2.)  2nd run
+           2 measurements.
+           (3.) Average of 2 measurements
+ERR-ANALYS (ERR-S) Statistical error.
+           (ERR-SYS) Systematical error.
+           (DATA-ERR) Total error for average value
+STATUS     (TABLE) Table on page 28 of thesis.
+HISTORY    (20170424C) M.M.
+           (20180119U) On. PART-DET deleted.
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 5          3
+DATA       ERR-S      ERR-SYS    DATA-ERR   FLAG
+NO-DIM     PER-CENT   PER-CENT   PER-CENT   NO-DIM
+ 0.1709     2.4        3.2                  1.
+ 0.1700     1.5        3.2                  2.
+ 0.1705                           4.6       3.
+ENDDATA              5
+ENDSUBENT           26
+SUBENT        21846034   20170424   20180122   20180122       2260
+BIB                 10         22
+REACTION   ((7-N-15(N,P)6-C-15,,SIG)/(8-O-16(N,P)7-N-16,,SIG))
+SAMPLE      Mg(NO(3))(2)* 6 H(2)O . Mass 256.41 g .
+            N-15 - 0.0402% .
+DECAY-DATA (6-C-15,2.25SEC,DG,5299.)
+            2.25+-0.01 sec, 5.299+-0.003 MeV
+           (7-N-16,7.352SEC,DG,6130.)
+DETECTOR   (GELI)
+CORRECTION  Factor 1.059+-0.003
+FLAG       (1.) First run
+           (2.) Second run
+           10 irradiations each of 20 sec.
+           (3.) Average of 2 measurements
+COMMENT    Of compiler M.M. For FLAG 2. measurement:
+            data are given in the table with title N15/O16 CSs
+            ration, but it could be from measurement relative to
+            Mg26(n,p)Al26, which is mentioned as a control
+            measurement.
+ERR-ANALYS (ERR-S) Statistical error.
+           (ERR-SYS) Systematical error.
+           (DATA-ERR) Total error for average value
+STATUS     (TABLE) Table on page 29 of thesis.
+HISTORY    (20170424C) M.M.
+ENDBIB              22
+NOCOMMON             0          0
+DATA                 5          3
+DATA       ERR-S      ERR-SYS    DATA-ERR   FLAG
+NO-DIM     PER-CENT   PER-CENT   PER-CENT   NO-DIM
+ 0.41       2.3        7.5                    1.
+ 0.45       1.9        7.5                    2.
+ 0.43                             9.2
+ENDDATA              5
+ENDSUBENT           32
+SUBENT        21846035   20170424   20180122   20180122       2260
+BIB                  8         11
+REACTION  1((8-O-16(N,P)7-N-16,,SIG)/(13-AL-27(N,A)11-NA-24,,SIG))
+          2(8-O-16(N,P)7-N-16,,SIG)
+SAMPLE      Al(2)O(3) 101.96 g
+DECAY-DATA (7-N-16,7.352SEC,DG,6130.)
+            7.352+-0.009 sec .
+DETECTOR   (GELI)
+CORRECTION  Factor 1.02+-0.005
+ERR-ANALYS (ERR-S) Statistical error.
+           (ERR-SYS) Systematical error.
+STATUS     (TABLE) Table on page 30 of thesis.
+HISTORY    (20170424C) M.M.
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1ERR-S     1ERR-SYS   1DATA      2
+NO-DIM     PER-CENT   PER-CENT   MB
+ 0.311      0.8        4.0        34.8
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        21846036   20170424   20180122   20180122       2260
+BIB                  8         11
+REACTION  1((8-O-16(N,P)7-N-16,,SIG)/(14-SI-28(N,P)13-AL-28,,SIG))
+          2(8-O-16(N,P)7-N-16,,SIG)
+SAMPLE       SiO(2) 160.85 g
+DECAY-DATA (7-N-16,7.352SEC,DG,6130.)
+            7.352+-0.009 sec .
+DETECTOR   (GELI)
+CORRECTION  Factor 1.02+-0.005
+ERR-ANALYS (ERR-S) Statistical error.
+           (ERR-SYS) Systematical error.
+STATUS     (TABLE) Table on page 30 of thesis.
+HISTORY    (20170424C) M.M.
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1ERR-S     1ERR-SYS   1DATA      2
+NO-DIM     PER-CENT   PER-CENT   MB
+ 0.141      0.7        4.3        36.7
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        21846037   20170424   20180122   20180122       2260
+BIB                  8         11
+REACTION  1((8-O-16(N,P)7-N-16,,SIG)/(12-MG-24(N,P)11-NA-24,,SIG))
+          2(8-O-16(N,P)7-N-16,,SIG)
+SAMPLE      Mg(2)P(2)O(7) 222.567 g
+DECAY-DATA (7-N-16,7.352SEC,DG,6130.)
+            7.352+-0.009 sec .
+DETECTOR   (GELI)
+CORRECTION  Factor 1.02+-0.005
+ERR-ANALYS (ERR-S) Statistical error.
+           (ERR-SYS) Systematical error.
+STATUS     (TABLE) Table on page 30 of thesis.
+HISTORY    (20170424C) M.M.
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1ERR-S     1ERR-SYS   1DATA      2
+NO-DIM     PER-CENT   PER-CENT   MB
+ 0.190      0.9        4.3        33.8
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        21846038   20170424   20180122   20180122       2260
+BIB                  9         18
+REACTION   ((8-O-16(N,P)7-N-16,,SIG)/(8-O-17(N,P)7-N-17,,SIG))
+SAMPLE      Al(2)O(3) 101.96 g
+            Si(2)O(2) 160.85 g
+DECAY-DATA (7-N-17,4.14SEC,DG,871.,0.026,DG,2187.,0.005)
+           4.14+-0.04 sec, 2.6+-0.3 %,  0.5+-0.2 % .
+DETECTOR   (GELI)
+CORRECTION  Factor 1.018+-0.002
+FLAG       (1.) 1st run
+           (2.) 2nd run
+           (3.) 3rd run
+           (4.) 4th run
+           4 measurements.
+           (5.) Average of 4 measurements
+ERR-ANALYS (ERR-S) Statistical error.
+           (ERR-SYS) Systematical error.
+           (DATA-ERR) Total error for average value
+STATUS     (TABLE) Table on page 31 of thesis.
+HISTORY    (20170424C) M.M.
+ENDBIB              18
+NOCOMMON             0          0
+DATA                 5          5
+DATA       ERR-S      ERR-SYS    DATA-ERR   FLAG
+NO-DIM     PER-CENT   PER-CENT   PER-CENT   NO-DIM
+ 6.4        12.        26.                   1.
+ 6.3        13.        26.                   2.
+ 6.18       11.        26.                   3.
+ 6.55       15.        30.                   4.
+ 6.3                              33.        5.
+ENDDATA              7
+ENDSUBENT           30
+SUBENT        21846039   20170424   20180122   20180122       2260
+BIB                  8         15
+REACTION   ((8-O-18(N,P)7-N-18,,SIG)/(8-O-16(N,P)7-N-16,,SIG))
+SAMPLE      SiO(2) 160.85 g
+            Al(2)O(3) 101.96 g
+            K Cl O(4)   138.55 g
+DECAY-DATA (7-N-18,0.63SEC) 0.63+-0.03 sec .
+CORRECTION Factor 1.022+-0.02
+FLAG       (1.) Measurement for SiO(2)
+           (2.) Measurement for Al(2)O(3)
+           (3.) Measurement for K Cl O(4)
+           (4.) Average for 3 measurements.
+ERR-ANALYS (ERR-S) Statistical error.
+           (ERR-SYS) Systematical error.
+           (DATA-ERR) Total error for average value
+STATUS     (TABLE) Table on page 32 of thesis.
+HISTORY    (20170424C) M.M.
+ENDBIB              15
+NOCOMMON             0          0
+DATA                 5          4
+DATA       ERR-S      ERR-SYS    DATA-ERR   FLAG
+NO-DIM     PER-CENT   PER-CENT   PER-CENT   NO-DIM
+ 0.0666     13.8       8.2                   1.
+ 0.0645     16.9       8.1                   2.
+ 0.0670     15.3       8.2                   3.
+ 0.0661                           20.        4.
+ENDDATA              6
+ENDSUBENT           26
+SUBENT        21846040   20170424   20180122   20180122       2260
+BIB                 10         15
+REACTION   (9-F-19(N,P)8-O-19,,SIG)
+SAMPLE       CaF + Al(2)O(3) mass 78.08 g .
+DECAY-DATA ((1.)8-O-19,29.52SEC,DG,200.)
+           ((2.)8-O-19,29.52SEC,DG,1360.)
+            29.52+-0.48 sec .
+DETECTOR   (GELI)
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG) Used as a monitor when
+            sandwich samples were used. Monior value taken from
+MONIT-REF  (20111001,H.Vonach+,J,ZP,237,155,1970)
+CORRECTION  Factor 1.09+-0.005 for 0.20MeV line,
+                   1.038+-0.002 f0r 1.36 MeV line .
+ERR-ANALYS (ERR-S) Statistical error.
+           (ERR-SYS) Systematical error.
+STATUS     (TABLE) Table on page 33 of thesis.
+HISTORY    (20170424C) M.M.
+ENDBIB              15
+NOCOMMON             0          0
+DATA                 4          2
+DATA       ERR-S      ERR-SYS    DECAY-FLAG
+MB         PER-CENT   PER-CENT   NO-DIM
+ 23.6       1.2        4.5        1.
+ 20.7       3.2        3.2        2.
+ENDDATA              4
+ENDSUBENT           24
+SUBENT        21846041   20180119   20180122   20180122       2260
+BIB                  8         14
+REACTION   ((12-MG-24(N,P)11-NA-24,,SIG)+
+           (12-MG-25(N,X)11-NA-24,,SIG,,RAB))
+DETECTOR   (GELI)
+DECAY-DATA (11-NA-24,14.981HR,DG,1370.,,DG,2730.)
+            14.981+-0.011 hr .
+FLAG       (1.) Measurement by 1.37 MeV line
+           (2.) Measurement by 2.73 MeV line
+CORRECTION  Factor 1.046+-0.005
+ERR-ANALYS (ERR-S) Statistical error.
+           (ERR-SYS) Systematical error.
+           (ERR-T) Total error
+STATUS     (TABLE) Table on page 35 of thesis.
+HISTORY    (20170424C) M.M.
+           (20180119A) On. REACTION corrected.
+ENDBIB              14
+NOCOMMON             0          0
+DATA                 5          2
+DATA       ERR-T      ERR-S      ERR-SYS    FLAG
+MB         MB         PER-CENT   PER-CENT   NO-DIM
+ 173.       8.         3.2        1.8        1.
+ 183.       9.         4.1        1.8        2.
+ENDDATA              4
+ENDSUBENT           23
+SUBENT        21846042   20180119   20180122   20180122       2260
+BIB                 10         17
+REACTION   ((12-MG-25(N,P)11-NA-25,,SIG)+
+           (12-MG-26(N,X)11-NA-25,,SIG,,RAB))
+SAMPLE      Mg(2)P(4)O(7) mass 222.567 g
+DETECTOR   (GELI)
+DECAY-DATA (11-NA-25,59.6SEC,DG,980.,,DG,590.)
+             59.6+-0.7 sec
+COMMENT    Of author. This CS consist of reactions Mg24(n,p)Na24
+           and Mg25(n,np)Na24 .
+FLAG       (1.) Measurement by 0.98 MeV line
+           (2.) Measurement by 0.59 MeV line
+CORRECTION  Factor 1.053+-0.002
+ERR-ANALYS (ERR-S) Statistical error.
+           (ERR-SYS) Systematical error.
+           (ERR-T) Total error .
+STATUS     (TABLE) Table on page 36 of thesis.
+HISTORY    (20170424C) M.M.
+           (20180119A) On. REACTION corrected.
+ENDBIB              17
+NOCOMMON             0          0
+DATA                 5          2
+DATA       ERR-T      ERR-S      ERR-SYS    FLAG
+MB         MB         PER-CENT   PER-CENT   NO-DIM
+ 64.        6.         3.3        5.7        1.
+ 59.        4.         4.5        2.0        2.
+ENDDATA              4
+ENDSUBENT           26
+SUBENT        21846043   20170424   20180122   20180122       2260
+BIB                  7          9
+REACTION   ((12-MG-26(N,P)11-NA-26,,SIG)/(8-O-16(N,P)7-N-16,,SIG))
+SAMPLE      Mg(2)P(4)O(7) 222.567 g
+DETECTOR   (GELI)
+DECAY-DATA (11-NA-26,1.04SEC,DG,1028.)
+             1.04+-0.03 sec
+ERR-ANALYS (ERR-S) Statistical error.
+           (ERR-SYS) Systematical error.
+STATUS     (TABLE) Table on page 37 of thesis.
+HISTORY    (20170424C) M.M.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-S      ERR-SYS
+NO-DIM     PER-CENT   PER-CENT
+ 0.44       3.7        12.
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        21846044   20170424   20180122   20180122       2260
+BIB                  7         10
+REACTION   ((12-MG-25(N,P)11-NA-25,,SIG)/
+           (12-MG-26(N,P)11-NA-26,,SIG))
+SAMPLE      Mg(2)P(4)O(7) 222.567 g
+DETECTOR   (GELI)
+DECAY-DATA (11-NA-26,1.04SEC,DG,1028.)
+             1.04+-0.03 sec
+ERR-ANALYS (ERR-S) Statistical error.
+           (ERR-SYS) Systematical error.
+STATUS     (TABLE) Table on page 37 of thesis.
+HISTORY    (20170424C) M.M.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-S      ERR-SYS
+NO-DIM     PER-CENT   PER-CENT
+ 4.05       4.6        10.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        21846045   20180119   20180122   20180122       2260
+BIB                 10         19
+REACTION  1((14-SI-29(N,P)13-AL-29,,SIG)+
+           (14-SI-30(N,X)13-AL-29,,SIG,,RAB))
+          2((14-SI-28(N,P)13-AL-28,,SIG)/
+           (14-SI-29(N,P)13-AL-29,,SIG))
+SAMPLE      Si crystall mass 28.086 g
+DETECTOR   (GELI)
+DECAY-DATA ((1.)13-AL-29,6.52MIN,DG,1270.)
+           ((2.)13-AL-29,6.52MIN,DG,2430.)
+             6.52+-0.05 min
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+MONIT-REF  (20111001,H.Vonach+,J,ZP,237,155,1970)
+CORRECTION  Factor 1.036+-0.004
+ERR-ANALYS1(DATA-ERR) Total error
+          2(ERR-S) Statistical error.
+           (ERR-SYS) Systematical error.
+STATUS     (TABLE) Table on page 40 of thesis.
+HISTORY    (20170424C) M.M.
+           (20180119A) On. REACTION corrected. Pointers added
+            under ERR-ANALYS.
+ENDBIB              19
+NOCOMMON             0          0
+DATA                 6          2
+DATA      1DATA-ERR  1DATA      2ERR-S     2ERR-SYS   2DECAY-FLAG
+MB         MB         NO-DIM     PER-CENT   PER-CENT   NO-DIM
+ 131.       8.         2.020     1.3        3.0        1.
+ 124.       13.        2.005     2.4        8.2        2.
+ENDDATA              4
+ENDSUBENT           28
+SUBENT        21846046   20170424   20180122   20180122       2260
+BIB                  8         16
+REACTION   ((14-SI-28(N,P)13-AL-28,,SIG)/
+           (14-SI-30(N,P)13-AL-30,,SIG))
+SAMPLE      Si crystall SiO(2) mass 28.086 g
+DETECTOR   (GELI)
+COMMENT    .The cross section given for Al-30 is considered
+            to be the sum of the reactions to the g.s. and
+            to the 72.5 sec isomeric state.
+            However, according to the 'Table of Isotopes',
+            7th ed.,1978, the existence of this isomer is
+            not confirmed (comment by the compiler ).
+FLAG       (1.) First run
+           (2.) Second run
+ERR-ANALYS (ERR-S) Statistical error.
+           (ERR-SYS) Systematical error.
+STATUS     (TABLE) Table on page 41 of thesis.
+HISTORY    (20170424C) M.M.
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 4          2
+DATA       ERR-S      ERR-SYS    FLAG
+NO-DIM     PER-CENT   PER-CENT   NO-DIM
+ 2.70       3.7        16.8       1.
+ 2.65       4.2        16.8       2.
+ENDDATA              4
+ENDSUBENT           25
+SUBENT        21846047   20170424   20180122   20180122       2260
+BIB                  7         13
+REACTION   ((14-SI-30(N,P)13-AL-30,,SIG)/
+           (8-O-16(N,P)7-N-16,,SIG))
+SAMPLE      Si crystall SiO(2) mass 28.086 g
+DETECTOR   (GELI)
+COMMENT    .The cross section given for Al-30 is considered
+            to be the sum of the reactions to the g.s. and
+            to the 72.5 sec isomeric state.
+            However, according to the 'Table of Isotopes',
+            7th ed.,1978, the existence of this isomer is
+            not confirmed (comment by the compiler ).
+ERR-ANALYS (DATA-ERR) Total error
+STATUS     (TABLE) Text on page 41 of thesis.
+HISTORY    (20170424C) M.M.
+ENDBIB              13
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+NO-DIM     PER-CENT
+ 2.75      14.
+ENDDATA              3
+ENDSUBENT           21
+SUBENT        21846048   20170424   20180122   20180122       2260
+BIB                  6          8
+REACTION   ((16-S-34(N,P)15-P-34,,SIG)/
+           (13-AL-27(N,A)11-NA-24,,SIG))
+SAMPLE      S+Al(2)O(3)
+DECAY-DATA (15-P-34,12.40SEC,DG,2127.)
+            12.40+-0.12 sec
+ERR-ANALYS (DATA-ERR) Total error
+STATUS     (TABLE) Text on page 44 of thesis.
+HISTORY    (20170424C) M.M.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+NO-DIM     PER-CENT
+ 0.473      4.
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        21846049   20170424   20180122   20180122       2260
+BIB                  5          8
+REACTION   ((11-NA-23(N,P)10-NE-23,,SIG)/
+           (17-CL-35(N,P)16-S-35,,SIG))
+DECAY-DATA (16-S-35,87.0D,B-,167.7)
+            87.0+-0.3 day, Ebeta-max= 0.1677+-0.0003 MeV
+ERR-ANALYS (ERR-T)    Total error .
+           (ERR-1)  Uncertainty in beta-decay detection efficiency
+STATUS     (TABLE) Text on page 45 of thesis.
+HISTORY    (20170424C) M.M.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-T      ERR-1
+NO-DIM     PER-CENT   PER-CENT
+ 0.344      6.         4.5
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        21846050   20170424   20180122   20180122       2260
+BIB                  7          9
+REACTION   ((8-O-16(N,P)7-N-16,,SIG)/(17-CL-37(N,P)16-S-37,,SIG))
+SAMPLE      KClO(4) mass 138.55 g
+DECAY-DATA (16-S-37,5.07MIN,DG,3105.)
+            5.07+-0.01 min .
+CORRECTION  Factor 1.018+-0.005
+ERR-ANALYS (ERR-T)    Total error
+           (ERR-1,10.) Min.systematic uncertainty in decay scheme
+STATUS     (TABLE) Text on page 46 of thesis.
+HISTORY    (20170424C) M.M.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+NO-DIM     PER-CENT
+ 1.70       17.
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        21846051   20170424   20180122   20180122       2260
+BIB                  7         10
+REACTION   ((17-CL-37(N,P)16-S-37,,SIG)/
+           (19-K-41(N,P)18-AR-41,,SIG))
+SAMPLE      KClO(4) mass 138.55 g
+DECAY-DATA (16-S-37,5.07MIN,DG,3105.)
+            5.07+-0.01 min .
+CORRECTION  Factor 1.018+-0.005
+ERR-ANALYS (ERR-T)    Total error
+           (ERR-1,10.) Min.systematic uncertainty in decay scheme
+STATUS     (TABLE) Text on page 46 of thesis.
+HISTORY    (20170424C) M.M.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+NO-DIM     PER-CENT
+ 0.405      16.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        21846052   20170424   20180122   20180122       2260
+BIB                  6          7
+REACTION   (19-K-41(N,P)18-AR-41,,SIG)
+SAMPLE      KClO(4) mass 138.55 g
+DECAY-DATA (18-AR-41,109.6MIN,DG,1290.)
+            109.6+-0.4 min
+ERR-ANALYS (DATA-ERR) Total error.
+STATUS     (TABLE) Text on page 48 of thesis.
+HISTORY    (20170424C) M.M.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 46.        3.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        21846053   20170424   20180122   20180122       2260
+BIB                  5          6
+REACTION   (19-K-41(N,P)18-AR-41,,SIG)
+SAMPLE      KClO(4) mass 138.55 g
+ERR-ANALYS (DATA-ERR) Total error.
+STATUS     (TABLE) Text on page 48 of thesis.
+           (DEP,21846054) Measured ratio O16/K14 CSs
+HISTORY    (20170424C) M.M.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 41.        4.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21846054   20170424   20180122   20180122       2260
+BIB                  5          5
+REACTION   ((8-O-16(N,P)7-N-16,,SIG)/(19-K-41(N,P)18-AR-41,,SIG))
+SAMPLE      KClO(4) mass 138.55 g
+ERR-ANALYS (DATA-ERR) Total error.
+STATUS     (TABLE) Text on page 48 of thesis.
+HISTORY    (20170424C) M.M.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+NO-DIM     PER-CENT
+ 0.7205     6.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        21846055   20170424   20180122   20180122       2260
+BIB                 10         10
+REACTION   (20-CA-40(N,P)19-K-40,,SIG)
+SAMPLE      CaF(2) mass 78.08 g  . Al(2)O(3) as monitor.
+DECAY-DATA (19-K-40,1.276E+9YR,DG)
+INC-SPECT   5.E+15 n/cm2
+DETECTOR   (NAICR) 3x3 inch NaJ crystal .
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+MONIT-REF  (20111001,H.Vonach+,J,ZP,237,155,1970)
+ERR-ANALYS (DATA-ERR) Total error 9.%
+STATUS     (TABLE) Text on page 48 of thesis.
+HISTORY    (20170424C) M.M.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 489.       54.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        21846056   20170424   20180122   20180122       2260
+BIB                  9         14
+REACTION   ((20-CA-40(N,P)19-K-40,,SIG)/(9-F-19(N,P)8-O-19,,SIG))
+SAMPLE      CaF(2) mass 78.08 g  .  F-19 as monitor.
+DECAY-DATA (19-K-40,1.276E+9YR,DG)
+INC-SPECT   5.E+15 n/cm2
+DETECTOR   (GELI)
+FLAG       (1.) 1st run
+           (2.) 2nd run
+           (3.) 3rd run
+           (4.) 4th run
+           (5.) 5th run
+ERR-ANALYS (ERR-S) Statistical error.
+           (ERR-SYS) Systematical error.
+STATUS     (TABLE) Text on page 49 of thesis.
+HISTORY    (20170424C) M.M.
+ENDBIB              14
+NOCOMMON             0          0
+DATA                 4          5
+DATA       ERR-S      ERR-SYS    FLAG
+NO-DIM     PER-CENT   PER-CENT   NO-DIM
+ 22.66      5.8        9.10       1.
+ 18.26      6.0        9.27       2.
+ 21.00      6.1        9.28       3.
+ 26.22      6.3        9.10       4.
+ 23.37      6.2        9.20       5.
+ENDDATA              7
+ENDSUBENT           26
+ENDENTRY            56

@@ -1,0 +1,90 @@
+ENTRY            20368   20070409   20070521   20070506       2184
+SUBENT        20368001   20070409   20070521   20070506       2184
+BIB                 16         38
+INSTITUTE  (2UK BIR)
+REFERENCE  (C,68WASH,1,169,196803)
+AUTHOR     (J.R.P.Eaton, J.Walker)
+TITLE      -The non-elastic cross-section of beryllium for
+            neutrons from 2.3 to 5.2 MeV.-
+FACILITY   (VDG)      5 MV Van de Graaff at AERE,Harwell.
+INC-SOURCE (P-T)      T(P,N)He3 reaction between 2.3 and 3.7 MeV.
+           (D-D  )    D(d,N)He3 reaction between 4.2 and 5.2 MeV.
+SAMPLE     .Spherical shell,  outer diam.14.99 cm,
+            inner diam. 13.46 cm. For e(N) = 3.2, 3.7, 4.2
+            and 5.2 MeV in addition a measurement was done
+            with a shell with outer diam. 14.99 cm and
+            inner diam. 11.94 cm.
+METHOD     .Shell transmission.
+DETECTOR   (FISCH)    U-238 fission chamber as neutron detector.
+ANALYSIS   .Multigroup pi-analysis assuming all scatterings
+            isotropic except the first (see Bethe et al.,
+            J.Nucl.En.,3(1956)207, 3(1956)273, 4(1957)3 and
+            4(1957)147).
+MONITOR    .Absolute.
+COMMENT    .The low energy part (t(P,N) measurements) have been
+            repeated (see j.Phys.D.,7(1974)1122, entry 20353).
+STATUS     .Taken from table 4 of 1968 Washington conf.,
+            Vol.1,P.169.
+CORRECTION .Spectrum of transmitted neutrons calculated by
+            MONTE CARLO program together with the response
+            of the fission counter allowed for correction of
+            neutrons scattered elastically rather than
+            inelastically below the detector threshold.
+           .Finite size of detector(0.1 percent).
+           .Finite distance source detector.
+           .Non isotropic emission from source.
+           .The last two corrections amount 0.1 to 1. Percent.
+           .(N,2N) secondary neutrons neglected.
+ERR-ANALYS .No further details given.
+HISTORY    (19740902C)
+           (19740929E)
+           (20070314A) Date and some subents are corrected
+ENDBIB              38
+NOCOMMON             0          0
+ENDSUBENT           41
+SUBENT        20368002   20070409   20070521   20070506       2184
+BIB                  5          9
+REACTION   (4-BE-9(N,2N+A)2-HE-4,,SIG)
+ANALYSIS   .Values calculated using non-elastic cross-sections of
+            the same reference and be9(N,alpha) cross-sections
+            taken or interpolated from G.Doherty,rept.AEEW-M-513
+            (1965).
+STATUS     (COREL,20353002)
+HISTORY    (20070314A)  Reaction code corrected
+ERR-ANALYS .The experimental error has been increased by 10 mb to
+            allow for uncertainties in the (N,alpha) cross-section
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 4          7
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.3000E+00 5.0000E-02 2.5000E-02 8.0000E-02
+ 2.7000E+00 5.0000E-02 4.9000E-01 1.1000E-01
+ 3.2000E+00 4.5000E-02 5.4000E-01 7.0000E-02
+ 3.7000E+00 4.5000E-02 5.4000E-01 6.0000E-02
+ 4.2000E+00 8.5000E-02 6.4000E-01 7.0000E-02
+ 4.7000E+00 7.5000E-02 6.5000E-01 8.0000E-02
+ 5.2000E+00 6.5000E-02 6.7000E-01 1.1000E-01
+ENDDATA              9
+ENDSUBENT           23
+SUBENT        20368003   20070409   20070521   20070506       2184
+BIB                  3          4
+REACTION   (4-BE-9(N,NON),,SIG)
+STATUS     (COREL,20353003)
+HISTORY    (19740902C)
+           (19740929E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          7
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.3000E+00 5.0000E-02 9.0000E-02 7.0000E-02
+ 2.7000E+00 5.0000E-02 5.9000E-01 1.0000E-01
+ 3.2000E+00 4.5000E-02 6.4000E-01 6.0000E-02
+ 3.7000E+00 4.5000E-02 6.4000E-01 5.0000E-02
+ 4.2000E+00 8.5000E-02 7.2000E-01 6.0000E-02
+ 4.7000E+00 7.5000E-02 7.2000E-01 7.0000E-02
+ 5.2000E+00 6.5000E-02 7.3000E-01 1.0000E-01
+ENDDATA              9
+ENDSUBENT           18
+ENDENTRY             3

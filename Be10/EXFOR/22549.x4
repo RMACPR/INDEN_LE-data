@@ -1,0 +1,113 @@
+ENTRY            22549   19991214   20030919   20050926       0000
+SUBENT        22549001   19991214   20030919   20050926       0000
+BIB                  8         10
+INSTITUTE  (2FR SAC)
+REFERENCE  (R,CEA-R-3124,1967)
+AUTHOR     (C.THIBAULT)
+TITLE      STUDY OF FAST (N,HE3) IN THE (D,D) REACTION,
+           MEASUREMENT OF SOME TOTAL CROSS SECTIONS.
+FACILITY   (ACCEL)
+INC-SOURCE (D-D) D(D,N) SOURCE
+STATUS     (SCSRS)
+HISTORY    (19820331C)  COMPILED BY NNDC
+           (19991214T)  Converted by S.M.
+ENDBIB              10
+NOCOMMON             0          0
+ENDSUBENT           13
+SUBENT        22549002   19991214   20030919   20050926       0000
+BIB                  2          2
+REACTION   (4-BE-9(N,TOT),,SIG)
+HISTORY    (19991214T)  Converted from SUBENT 60949002
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.7000E+00 3.0000E-02 3.0000E+00 1.5000E-01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        22549003   19991214   20030919   20050926       0000
+BIB                  2          2
+REACTION   (13-AL-27(N,TOT),,SIG)
+HISTORY    (19991214T)  Converted from SUBENT 60949003
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.7000E+00 3.0000E-02 3.1500E+00 1.2000E-01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        22549004   19991214   20030919   20050926       0000
+BIB                  2          2
+REACTION   (23-V-51(N,TOT),,SIG)
+HISTORY    (19991214T)  Converted from SUBENT 60949004
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.7000E+00 3.0000E-02 4.7800E+00 2.0000E-01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        22549005   19991214   20030919   20050926       0000
+BIB                  2          2
+REACTION   (24-CR-52(N,TOT),,SIG)
+HISTORY    (19991214T)  Converted from SUBENT 60949005
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.7000E+00 3.0000E-02 3.8000E+00 1.5000E-01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        22549006   19991214   20030919   20050926       0000
+BIB                  2          2
+REACTION   (28-NI-58(N,TOT),,SIG)
+HISTORY    (19991214T)  Converted from SUBENT 60949006
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.7000E+00 3.0000E-02 3.0800E+00 1.0000E-01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        22549007   19991214   20030919   20050926       0000
+BIB                  2          2
+REACTION   (27-CO-59(N,TOT),,SIG)
+HISTORY    (19991214T)  Converted from SUBENT 60949007
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.7000E+00 3.0000E-02 3.0500E+00 1.5000E-01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        22549008   19991214   20030919   20050926       0000
+BIB                  2          2
+REACTION   (31-GA-0(N,TOT),,SIG)
+HISTORY    (19991214T)  Converted from SUBENT 60949008
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.7000E+00 3.0000E-02 3.0000E+00 1.0000E-01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        22549009   19991214   20030919   20050926       0000
+BIB                  2          2
+REACTION   (92-U-238(N,TOT),,SIG)
+HISTORY    (19991214T)  Converted from SUBENT 60949009
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.7000E+00 3.0000E-02 7.4000E+00 4.0000E-01
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY             9

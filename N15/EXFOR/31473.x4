@@ -1,0 +1,52 @@
+ENTRY            31473   20100922   20110107   20101203       3146
+SUBENT        31473001   20100922   20110107   20101203       3146
+BIB                 12         19
+TITLE      Neutron total cross-section measurement of some
+           metals and gases for neutron energies in the
+           range from 0.5 x 10**(-4) to 3. x 10**(-4) eV.
+AUTHOR     (N.T.Kashukreev,G.A.Stanev,V.T.Surdjiisky,
+           E.N.Stoyanova)
+REFERENCE  (R,INDC(BUL)-4,197705)
+INSTITUTE  (3BULBLA)
+FACILITY   (REAC,3BULBLA) IRT-2000 reactor of Sofia
+SAMPLE     Gas targets.
+DETECTOR   (PROPC) proportional gas counter with He3
+INC-SPECT  Very cold neutron spectrum. The total very cold neutron
+           flux, falling over the sample, is 50 imp/cm2/sec
+METHOD     (TOF) Transmission measurements.
+ERR-ANALYS (DATA-ERR) Relative uncertainty.
+STATUS     (TABLE) Data a from Table 1 of report INDC(BUL)-4(1977)
+HISTORY    (19860714C)
+           (19970522T) Data recompiled from previous entry 78004.
+           (20100219A) SD:Updated to new date formats,
+                          Cosmetic changes and corrections.
+ENDBIB              19
+COMMON               2          3
+EN-MEAN    DATA-ERR
+EV         PER-CENT
+ 1.0350E-04 1.0000E+01
+ENDCOMMON            3
+ENDSUBENT           26
+SUBENT        31473002   20100922   20110107   20101203       3146
+BIB                  1          1
+REACTION   (7-N-0(N,TOT),,SIG,,SPA)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.4000E+02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        31473003   20100922   20110107   20101203       3146
+BIB                  1          1
+REACTION   (18-AR-0(N,TOT),,SIG,,SPA)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.6000E+01
+ENDDATA              3
+ENDSUBENT            9
+ENDENTRY             3

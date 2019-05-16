@@ -1,0 +1,223 @@
+ENTRY            41492   20130704   20140110   20131224       4161
+SUBENT        41492001   20130704   20140110   20131224       4161
+BIB                 11         24
+TITLE       14-N(n,alpha)12-C and 14-N(n,t)12-C Reactions
+            Cross-Sections Measurement in Neutron Energy Range
+            5.45 - 7.2 MeV.
+AUTHOR     (V.A.Khryachkov,B.D.Kuz'minov,M.V.Dunaev,I.V.Dunaeva,
+           N.N.Semenova, A.I.Sergachev)
+INSTITUTE  (4RUSFEI)
+REFERENCE  (J,AE,101,(4),307,200610) Main Reference
+           (J,AE/T,101,(4),760,200610) Engl.translation of AE,101
+           (J,YK,2006,(1-2),29,2006) Exp.data for (n,t) reaction
+           (R,INDC(CCP)-445,7,2007)
+            English transl. of J,YK,2006,(1-2),29,2006
+           (J,NIM/A,444,614,2000) Method of measurement
+DETECTOR   (IOCH) Two impulsed ionization chambers for light
+           charge particles registration and for neutron beam
+           monitoring. Filled by Kr (97%) and N2 (3%) mixture.
+FACILITY   (VDG,4RUSFEI) Accelerator EG-1
+INC-SOURCE (D-D) d(d,n) reaction on titanium target of 1 mg/cm**2
+                 thickness.
+METHOD     (PSD)
+ANALYSIS   (SHAPE)  Pulses shape analysis.
+SAMPLE      U-238 target mass and isotopes content were defined by
+             alpha-spectrometry method.
+HISTORY    (20070425C)   Compiled At CJD.  M.M.
+           (20130704) Reference R,INDC(CCP)-445,7,2007 was added.
+ENDBIB              24
+NOCOMMON             0          0
+ENDSUBENT           27
+SUBENT        41492002   20070425   20070911   20070815       4140
+BIB                  2          3
+REACTION   (7-N-14(N,A)5-B-11,PAR,SIG)
+STATUS     (APRVD) Data received from A.I.Sergachev, April 2007.
+                   Fig.3 of main Reference.
+ENDBIB               3
+COMMON               2          3
+Q-VAL      LVL-NUMB
+MEV        NO-DIM
+-0.158     0.
+ENDCOMMON            3
+DATA                 2         16
+EN         DATA
+MEV        MB
+5.57       100.
+5.65        61.
+5.73        78.5
+5.81        74.
+5.9         59.
+5.97        84.
+6.07        93.
+6.14        93.
+6.22       111.
+6.3        100.
+6.39        44.6
+6.47        59.
+6.55        71.5
+6.87        68.
+6.95        59.
+7.02        62.5
+ENDDATA             18
+ENDSUBENT           30
+SUBENT        41492003   20070425   20070911   20070815       4140
+BIB                  3          4
+REACTION   (7-N-14(N,A)5-B-11,PAR,SIG)
+ERR-ANALYS (ERR-T)  Total Error
+STATUS     (APRVD) Data received from A.I.Sergachev, April 2007.
+                   Fig.4 of main Reference.
+ENDBIB               4
+COMMON               2          3
+Q-VAL      LVL-NUMB
+MEV        NO-DIM
+-2.29      1.
+ENDCOMMON            3
+DATA                 3         16
+EN         DATA       ERR-T
+MEV        B          B
+5.57773     0.04894    0.0055
+5.65597     0.03174    0.00466
+5.73521     0.04866    0.00593
+5.81241     0.03438    0.00425
+5.89079     0.02942    0.00392
+5.97442     0.04731    0.00506
+6.05935     0.05046    0.0071
+6.14013     0.0789     0.00764
+6.22335     0.11057    0.00971
+6.30512     0.05794    0.00644
+6.38733     0.02619    0.00375
+6.46961     0.03452    0.00425
+6.55159     0.02786    0.00415
+6.87182     0.03266    0.00527
+6.94965     0.03145    0.00457
+7.02794     0.05264    0.00615
+ENDDATA             18
+ENDSUBENT           31
+SUBENT        41492004   20070425   20070911   20070815       4140
+BIB                  3          4
+REACTION   (7-N-14(N,A)5-B-11,PAR,SIG)
+ERR-ANALYS (ERR-T)  Total Error
+STATUS     (APRVD) Data received from A.I.Sergachev, April 2007.
+                   Fig.4 of main Reference.
+ENDBIB               4
+COMMON               2          3
+Q-VAL      LVL-NUMB
+MEV        NO-DIM
+-4.61      2.
+ENDCOMMON            3
+DATA                 3         16
+EN         DATA       ERR-T
+MEV        B          B
+5.57773    0.
+5.65597    0.
+5.73521    0.00857    0.00213
+5.81241    0.00572    0.00152
+5.89079    0.00333    0.00117
+5.97442    0.01079    0.0021
+6.05935    0.01479    0.00336
+6.14013    0.01363    0.00263
+6.22335    0.01039    0.00233
+6.30512    0.01018    0.00231
+6.38733    0.00658    0.0017
+6.46961    0.01904    0.0029
+6.55159    0.0188     0.00315
+6.87182    0.03737    0.00534
+6.94965    0.0405     0.00495
+7.02794    0.05104    0.00568
+ENDDATA             18
+ENDSUBENT           31
+SUBENT        41492005   20070425   20070911   20070815       4140
+BIB                  3          4
+REACTION   (7-N-14(N,A)5-B-11,PAR,SIG)
+ERR-ANALYS (ERR-T)  Total Error
+STATUS     (APRVD) Data received from A.I.Sergachev, April 2007.
+                   Fig.4 of main Reference.
+ENDBIB               4
+COMMON               2          3
+Q-VAL      LVL-NUMB
+MEV        NO-DIM
+-5.18      3.
+ENDCOMMON            3
+DATA                 3         16
+EN         DATA       ERR-T
+MEV        B          B
+5.57773     0.
+5.65597     0.
+5.73521     0.
+5.81241     0.00335    0.00114
+5.89079     0.
+5.97442     8.73386E-4 5.73344E-4
+6.05935     0.
+6.14013     0.00439    0.00144
+6.22335     0.
+6.30512     0.
+6.38733     0.00652    0.00167
+6.46961     0.01299    0.00233
+6.55159     0.00832    0.00203
+6.87182     0.03904    0.00541
+6.94965     0.05424    0.00579
+7.02794     0.03519    0.00453
+ENDDATA             18
+ENDSUBENT           31
+SUBENT        41492006   20070425   20070911   20070815       4140
+BIB                  3          4
+REACTION   (7-N-14(N,A)5-B-11,,SIG)
+ERR-ANALYS (ERR-T)  Total Error
+STATUS     (APRVD) Data received from A.I.Sergachev, April 2007.
+                   Fig.5 of main Reference.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3         16
+EN         DATA       ERR-T
+MEV        B          B
+5.57773    0.15171    0.01211
+5.65597    0.09634    0.00965
+5.73521    0.13628    0.01204
+5.81241    0.12041    0.00973
+5.89079    0.093      0.00824
+5.97442    0.14377    0.01075
+6.05935    0.15756    0.01539
+6.14013    0.19114    0.01431
+6.22335    0.23361    0.01689
+6.30512    0.17046    0.0134
+6.38733    0.0851     0.00766
+6.46961    0.12535    0.00943
+6.55159    0.12726    0.01049
+6.87182    0.17845    0.01482
+6.94965    0.18501    0.01331
+7.02794    0.2027     0.0143
+ENDDATA             18
+ENDSUBENT           27
+SUBENT        41492007   20070425   20070911   20070815       4140
+BIB                  3          4
+REACTION   (7-N-14(N,T)6-C-12,,SIG)
+ERR-ANALYS (ERR-T)  Total Error
+STATUS     (APRVD) Data received from A.I.Sergachev, April 2007.
+             Table 1 of 2nd Reference. Fig.5 of main Reference.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3         19
+EN         DATA       ERR-T
+MEV        MB         MB
+5.77       10.4       1.4
+5.80       13.6       1.9
+5.81       8.20       1.1
+5.89       12.1       1.7
+5.93       15.8       2.2
+5.97       21.6       3.0
+6.06       24.2       3.3
+6.14       17.9       2.4
+6.22       20.5       2.8
+6.31       16.5       2.3
+6.39       15.2       2.1
+6.47       18.2       2.5
+6.55       17.3       2.4
+6.61       29.4       4.0
+6.72       23.5       3.2
+6.79       21.0       2.9
+6.87       14.2       2.0
+6.94       16.4       2.2
+7.03       13.7       1.9
+ENDDATA             21
+ENDSUBENT           30
+ENDENTRY             7

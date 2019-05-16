@@ -1,0 +1,58 @@
+ENTRY            11014     820106              20050926       0000
+SUBENT        11014001     820106              20050926       0000
+BIB                  6          8
+INSTITUTE  (1CANCRC)
+REFERENCE  (J,CJP,35,1347,57)
+AUTHOR     (G.A.BARTHOLOMEW,P.J.CAMPION)
+TITLE      NEUTRON CAPTURE GAMMA RAYS FROM LITHIUM, BORON AND
+           NITROGEN.
+STATUS     (SCSRS)
+HISTORY    (760628T) TRANSLATED FROM SCISRS
+           (820106A) CONVERTED TO REACTION FORMALISM
+ENDBIB               8
+NOCOMMON             0          0
+ENDSUBENT           11
+SUBENT        11014002     820106              20050926       0000
+BIB                  3          4
+REACTION   (3-LI-6(N,G)3-LI-7,,SIG,,SPA)
+MONITOR    (11-NA-23(N,G)11-NA-24,,SIG)
+            BASED ON SODIUM THERMAL CAPTURE=505MB.
+INC-SPECT   REACTOR SPECTRUM
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+EN-DUMMY   DATA       DATA-ERR   MONIT
+MEV        B          B          MB
+ 2.53   -08 2.8    -02 8.     -03 505.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11014003     820106              20050926       0000
+BIB                  3          4
+REACTION   (7-N-14(N,G)7-N-15,,SIG,,SPA)
+MONITOR    (28-NI-0(N,G),,SIG)
+            BASED ON NICKEL CAPTURE.
+INC-SPECT   REACTOR SPECTRUM
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 8.0    -02 2.0    -02
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11014004     820106              20050926       0000
+BIB                  4          5
+REACTION   (5-B-10(N,G)5-B-11,,SIG,,SPA)
+SAMPLE     POWDERED B(4)-C SAMPLE
+MONITOR    (28-NI-0(N,G),,SIG)
+            BASED ON NI CAPTURE
+INC-SPECT  REACTOR SPECTRUM
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN-DUMMY   DATA       DATA-ERR
+MEV        B          B
+ 2.53   -08 5.     -01 2.     -01
+ENDDATA              3
+ENDSUBENT           13
+ENDENTRY             4

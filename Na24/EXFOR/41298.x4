@@ -1,0 +1,2218 @@
+ENTRY            41298   20150720   20150817   20150810       4169
+SUBENT        41298001   20150720   20150817   20150810       4169
+BIB                 12         36
+INSTITUTE  (4RUSRI)
+REFERENCE  (R,RI-252,199905)    Main Reference, data are given
+           (R,INDC(CCP)-402,1997)
+           (C,97TRIEST,1,598,199705)  Preliminary results
+AUTHOR     (A.A.Filatenkov, S.V.Chuvaev, V.A.Yakovlev,
+           A.V.Malyshenkov, S.K.Vasil'ev)
+TITLE       Systematic measurement of cross-sections
+            at neutron energies 13.4 - 14.9 MeV .
+FACILITY   (CCW,4RUSRI) Neutron Generator NG-400.
+METHOD     (ACTIV)
+DETECTOR   (SCIN) Scanning scintillation detector for neutron flux
+                  measurements
+ANALYSIS   .Cross-sections were obtained by approximating the
+            experimental data by the straight line with the help
+            of weighed mean-square method.
+MONITOR    (41-NB-93(N,2N)41-NB-92-M,,SIG)
+           (13-AL-27(N,A)11-NA-24,,SIG)
+           Nb was used as main monitor, Al- as monitor for Nb.
+            See detailed explanations in Entry 41240 Subent .001
+           COMMENT, Subent .003 MONITOR.
+ERR-ANALYS (ERR-T) Total error
+            Uncertainty of monitor reaction cross-sections -
+                0.5 - 2.5 %.
+STATUS     (TABLE)   Data are taken from Table 1 of R,RI-252,1999
+           Preliminary data in Table 5.71 of R,INDC(CCP)-402,1997
+HISTORY    (19980929C)  + + Compiled at the Centre - CJD + +
+           (19990115U)      Corrected at CJD
+           (19990705A)  * * New Subents added. Date corrected
+                            to 4 digits
+           (20000828A)   .Corrected at CJD
+           (20000828U) Last checking has been done.
+           (20090421A) M.M. Decay data were corrected in Subents
+            035,089. Free text was corrected to be human-readable.
+           (20130520A) Ref. R,INDC(CCP)-402,1997 was added.
+           BIB information was updated.
+           (20150720U) Subent 089 was corrected.
+ENDBIB              36
+COMMON               1          3
+EN
+MEV
+       14.1
+ENDCOMMON            3
+ENDSUBENT           43
+SUBENT        41298002   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (11-NA-23(N,2N)11-NA-22,,SIG,,,DERIV)
+DECAY-DATA (11-NA-22,2.61YR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240004) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  19.        2.          1.5        +1.        3.           +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298003   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (13-AL-27(N,P)12-MG-27,,SIG,,,DERIV)
+DECAY-DATA (12-MG-27,9.46MIN)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240005) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  71.0       1.5         0.5        +1.        0.5          +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298004   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (14-SI-28(N,P)13-AL-28,,SIG,,,DERIV)
+DECAY-DATA (13-AL-28,2.24MIN)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240074) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 264.        10.         0.         +1.        3.           +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298005   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (14-SI-30(N,A)12-MG-27,,SIG,,,DERIV)
+DECAY-DATA (12-MG-27,9.46MIN)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240075) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  64.1       3.5         0.         +1.        0.5          +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298006   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (19-K-39(N,2N)19-K-38,,SIG,,,DERIV)
+DECAY-DATA (19-K-38,7.61MIN)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240006) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  1.53       0.13       1.5         +1.        3.           +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298007   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (19-K-41(N,A)17-CL-38,,SIG,,,DERIV)
+DECAY-DATA (17-CL-38,37.3MIN)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240007) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  34.7       1.6        1.5         +1.        2.           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298008   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (19-K-41(N,P)18-AR-41,,SIG,,,DERIV)
+DECAY-DATA (18-AR-41,1.83HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240008) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  51.9       1.8        1.5         +1.        3.5          -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298009   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (23-V-51(N,A)21-SC-48,,SIG,,,DERIV)
+DECAY-DATA (21-SC-48,43.7HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240009) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  16.0       0.7        3.5         -1.        6.           +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298010   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (25-MN-55(N,A)23-V-52,,SIG,,,DERIV)
+DECAY-DATA (23-V-52,3.74MIN)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240011) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  22.2       1.0        2.5         -1.        3.           +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298011   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (25-MN-55(N,2N)25-MN-54,,SIG,,,DERIV)
+DECAY-DATA (25-MN-54,312.1D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240010) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  690.       25.        2.5         -1.        3.           +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298012   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (26-FE-56(N,P)25-MN-56,,SIG,,,DERIV)
+DECAY-DATA (25-MN-56,2.58HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240012) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  112.        4.        0.          +1.        3.           +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298013   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (27-CO-59(N,A)25-MN-56,,SIG,,,DERIV)
+DECAY-DATA (25-MN-56,2.58HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240015) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  31.5        0.9       3.5         -1.        3.           +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298014   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (27-CO-59(N,P)26-FE-59,,SIG,,,DERIV)
+DECAY-DATA (26-FE-59,44.5D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240016) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  50.3        1.8       3.5         -1.        1.5          -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298015   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (27-CO-59(N,2N)27-CO-58-M,,SIG,,,DERIV)
+DECAY-DATA (27-CO-58-M,9.15HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240014) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 434.         9.       3.5         -1.        5.            +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298016   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (27-CO-59(N,2N)27-CO-58,,SIG,,,DERIV)   M+G c-s
+DECAY-DATA (27-CO-58-G,70.82D,DG,810.8,0.99448)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240013) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 662.        10.       3.5         -1.        2.            +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298017   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (28-NI-58(N,X)27-CO-57,,SIG,,,DERIV)
+DECAY-DATA (27-CO-57,271.8D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240017) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 610.        20.       0.          +1.        3.5           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298018   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (28-NI-58(N,P)27-CO-58-M,,SIG,,,DERIV)
+DECAY-DATA (27-CO-58-M,9.15HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240019) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 193.        4.        0.          +1.        5.            +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298019   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (28-NI-58(N,P)27-CO-58,,SIG,,,DERIV)
+DECAY-DATA (27-CO-58-G,70.82D,DG,810.8,0.99448)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240020) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 349.        5.        0.          +1.        2.            +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298020   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (28-NI-58(N,2N)28-NI-57,,SIG,,,DERIV)
+DECAY-DATA (28-NI-57,35.6HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240018) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 23.6       0.5        0.          +1.        1.5           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298021   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (28-NI-60(N,P)27-CO-60,,SIG,,,DERIV)
+DECAY-DATA (27-CO-60,5.27YR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240021) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 155.        4.        0.          +1.        5.            +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298022   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (29-CU-63(N,A)27-CO-60,,SIG,,,DERIV)
+DECAY-DATA (27-CO-60,5.27YR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240022) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 45.3        0.8       1.5         -1.        5.            +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298023   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (29-CU-65(N,P)28-NI-65,,SIG,,,DERIV)
+DECAY-DATA (28-NI-65,2.52HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240024) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 21.3        0.7       1.5         -1.        2.5           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298024   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (29-CU-65(N,2N)29-CU-64,,SIG,,,DERIV)
+DECAY-DATA (29-CU-64,12.7HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240023) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 888.        25.       1.5         -1.        1.            +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298025   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (30-ZN-64(N,2N)30-ZN-63,,SIG,,,DERIV)
+DECAY-DATA (30-ZN-63,38.0MIN)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240077) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 103.2       4.9       0.          +1.        1.5           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298026   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (30-ZN-68(N,P)29-CU-68-M,,SIG,,,DERIV)
+DECAY-DATA (29-CU-68-M,3.75MIN)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240078) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  4.19       0.20      0.          +1.        6.            -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298027   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (38-SR-88(N,A)36-KR-85-M,,SIG,,,DERIV)
+DECAY-DATA (36-KR-85-M,4.48HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240026) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  1.20       0.7       0.          +1.        0.5           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298028   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (38-SR-88(N,2N)38-SR-87-M,,SIG,,,DERIV)
+DECAY-DATA (38-SR-87-M,2.83HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240025) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  226.       10.        0.          +1.        0.5          -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298029   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (39-Y-89(N,2N)39-Y-88,,SIG,,,DERIV)
+DECAY-DATA (39-Y-88,106.61D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240029) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  851.       25.        0.5         -1.        4.           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298030   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (39-Y-89(N,A)37-RB-86-M,,SIG,,,DERIV)
+DECAY-DATA (37-RB-86-M,1.017MIN)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240027) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  1.48      0.12        0.5         -1.        6.           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298031   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (39-Y-89(N,A)37-RB-86,,SIG,,,DERIV)
+DECAY-DATA (37-RB-86-G,18.63D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240028) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  6.0        0.6        0.5         -1.         2.          -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298032   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (40-ZR-90(N,A)38-SR-87-M,,SIG,,,DERIV)
+DECAY-DATA (38-SR-87-M,2.83HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240030) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  3.79       0.15       0.          +1.       0.5           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298033   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (40-ZR-90(N,P)39-Y-90-M,,SIG,,,DERIV)
+DECAY-DATA (39-Y-90-M,3.24HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240031) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  11.8       0.4        0.          +1.       7.            +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298034   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (40-ZR-90(N,2N)40-ZR-89-M,,SIG,,,DERIV)
+DECAY-DATA (40-ZR-89-M,4.18MIN)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240032) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  82.        2.          0.          +1.       0.5         -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298035   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (40-ZR-90(N,2N)40-ZR-89,,SIG,,,DERIV)
+DECAY-DATA (40-ZR-89-G,78.41HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240033) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  607.       8.          0.          +1.       4.5         +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298036   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (40-ZR-92(N,P)39-Y-92,,SIG,,,DERIV)
+DECAY-DATA (39-Y-92,3.54HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240034) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  18.3       1.8        0.          +1.       2.            -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298037   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (40-ZR-94(N,A)38-SR-91,,SIG,,,DERIV)
+DECAY-DATA (38-SR-91,9.63HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240035) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  4.72      0.30        0.          +1.       2.5           +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298038   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (40-ZR-96(N,2N)40-ZR-95,,SIG,,,DERIV)
+DECAY-DATA (40-ZR-95,64.02D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240036) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 1580.      50.0        0.          +1.       2.5           +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298039   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (41-NB-93(N,A)39-Y-90-M,,SIG,,,DERIV)
+DECAY-DATA (39-Y-90-M,3.24HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240037) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  5.52      0.20        4.5         +1.       7.            +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298040   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (41-NB-93(N,2N)41-NB-92-M,,SIG,,,DERIV)
+DECAY-DATA (41-NB-92-M,10.15D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240003) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  457.       4.0        4.5         +1.       2.            +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298041   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (42-MO-92(N,A)40-ZR-89-M,,SIG,,,DERIV)
+DECAY-DATA (40-ZR-89-M,4.18MIN)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240042) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  6.6        0.3        0.          +1.       0.5           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298042   20130520   20140110   20131224       4161
+BIB                  4          8
+REACTION   (42-MO-92(N,A)40-ZR-89,,SIG,,,DERIV)
+DECAY-DATA (40-ZR-89-G,78.41HR)
+           (40-ZR-89-M,4.18MIN)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240043) See ANALYSIS in Subent 001.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  22.8       0.8        0.          +1.       4.5           +1.
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        41298043   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (42-MO-92(N,P)41-NB-92-M,,SIG,,,DERIV)
+DECAY-DATA (41-NB-92-M,10.15D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240045) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  70.5       1.5        0.          +1.       2.            +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298044   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (42-MO-98(N,A)40-ZR-95,,SIG,,,DERIV)
+DECAY-DATA (40-ZR-95,64.02D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240081) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  5.75      0.25        0.          +1.       2.5           +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298045   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (42-MO-100(N,2N)42-MO-99,,SIG,,,DERIV)
+DECAY-DATA (42-MO-99,65.94HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240082) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 1476.      45.         0.          +1.       0.5           +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298046   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (46-PD-102(N,X)45-RH-101-M,,SIG,,,DERIV)
+DECAY-DATA (45-RH-101-M,4.34D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240083) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  264.      60.         0.          +1.       4.5           +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298047   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (46-PD-102(N,2N)46-PD-101,,SIG,,,DERIV)
+DECAY-DATA (46-PD-101,8.47HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240041) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  958.      40.          0.          +1.       2.5          +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298048   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (46-PD-106(N,A)44-RU-103,,SIG,,,DERIV)
+DECAY-DATA (44-RU-103,39.26D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240038) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  4.7       0.5          0.          +1.       1.5          +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298049   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (46-PD-106(N,P)45-RH-106-M,,SIG,,,DERIV)
+DECAY-DATA (45-RH-106-M,131.MIN)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240039) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  8.1       0.4          0.          +1.       6.           +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298050   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (46-PD-108(N,A)44-RU-105,,SIG,,,DERIV)
+DECAY-DATA (44-RU-105,4.44HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240040) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  2.77      0.3          0.          +1.       1.5          +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298051   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (47-AG-107(N,2N)47-AG-106-M,,SIG,,,DERIV)
+DECAY-DATA (47-AG-106-M,8.28D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240046) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  576.      15.          0.5         -1.       6.           +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298052   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (47-AG-109(N,2N)47-AG-108-M,,SIG,,,DERIV)
+DECAY-DATA (47-AG-108-M,418.YR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240047) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  668.      30.          0.5         -1.       6.           +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298053   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (48-CD-106(N,2N)48-CD-105,,SIG,,,DERIV)
+DECAY-DATA (48-CD-105,55.5MIN)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240048) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  480.      30.           0.          +1.       2.5         +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298054   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (48-CD-112(N,P)47-AG-112,,SIG,,,DERIV)
+DECAY-DATA (47-AG-112,3.13HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240050) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  13.1      0.9          0.          +1.       2.           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298055   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (48-CD-112(N,2N)48-CD-111-M,,SIG,,,DERIV)
+DECAY-DATA (48-CD-111-M,48.54MIN)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240049) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  630.      40.          0.          +1.       5.5          -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298056   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (48-CD-116(N,2N)48-CD-115-G,,SIG,,,DERIV)
+DECAY-DATA (48-CD-115-G,53.46HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240051) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  828.      25.          0.          +1.       0.5          +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298057   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (49-IN-113(N,INL)49-IN-113-M,,SIG,,,DERIV)
+DECAY-DATA (49-IN-113-M,1.6582HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240052) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+   61.       4.         4.5          +1.       0.5          -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298058   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (49-IN-115(N,A)47-AG-112,,SIG,,,DERIV)
+DECAY-DATA (47-AG-112,3.13HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240053) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+   2.05     0.14        4.5          +1.       2.           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298059   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (49-IN-115(N,P)48-CD-115-M,,SIG,,,DERIV)
+DECAY-DATA (48-CD-115-M,44.6D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240054) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+   4.92     0.60        4.5          +1.       5.5          -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298060   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (49-IN-115(N,P)48-CD-115-G,,SIG,,,DERIV)
+DECAY-DATA (48-CD-115-G,53.46HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240055) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+   4.45     0.15        4.5          +1.       0.5          +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298061   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (49-IN-115(N,2N)49-IN-114-M,,SIG,,,DERIV)
+DECAY-DATA (49-IN-114-M,49.51D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240056) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  1300.     50.         4.5          +1.       5.           +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298062   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (49-IN-115(N,INL)49-IN-115-M,,SIG,,,DERIV)
+DECAY-DATA (49-IN-115-M,4.486HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240057) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  67.5      2.5         4.5          +1.       0.5          -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298063   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (52-TE-120(N,2N)52-TE-119-M,,SIG,,,DERIV)
+DECAY-DATA (52-TE-119-M,4.70D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240084) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  516.      40.          0.           +1.       5.5         -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298064   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (52-TE-120(N,2N)52-TE-119-G,,SIG,,,DERIV)
+DECAY-DATA (52-TE-119-G,16.03HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240085) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  595.      40.          0.           +1.       0.5         +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298065   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (52-TE-122(N,P)51-SB-122,,SIG,,,DERIV)
+DECAY-DATA (51-SB-122,2.724D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240086) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  13.79     0.55         0.           +1.       2.          -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298066   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (52-TE-122(N,2N)52-TE-121-G,,SIG,,,DERIV)
+DECAY-DATA (52-TE-121-G,16.78D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240088) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  695.      50.           0.           +1.      0.5         +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298067   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (52-TE-124(N,2N)52-TE-123-M,,SIG,,,DERIV)
+DECAY-DATA (52-TE-123-M,119.7D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240087) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  828.      54.           0.           +1.      5.5         -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298068   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (52-TE-126(N,2N)52-TE-125-M,,SIG,,,DERIV)
+DECAY-DATA (52-TE-125-M,57.4D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240090) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 1025.      120.          0.           +1.      5.5         -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298069   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (52-TE-128(N,P)51-SB-128-G,,SIG,,,DERIV)
+DECAY-DATA (51-SB-128-G,9.01HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240091) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 0.862      0.050         0.           +1.      8.          -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298070   20130520   20140110   20131224       4161
+BIB                  3          6
+REACTION   (52-TE-128(N,2N)52-TE-127-G,,SIG,,,DERIV)
+DECAY-DATA (52-TE-127-G,9.35HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 553.        30.          0.           +1.     1.5          +1.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        41298071   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (52-TE-130(N,2N)52-TE-129-M,,SIG,,,DERIV)
+DECAY-DATA (52-TE-129-M,33.6D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240093) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 1039.       38.          0.           +1.     5.5          -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298072   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (52-TE-130(N,2N)52-TE-129-G,,SIG,,,DERIV)
+DECAY-DATA (52-TE-129-G,69.6MIN)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240094) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  652.       50.          0.           +1.     1.5          +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298073   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (56-BA-138(N,A)54-XE-135-M,,SIG,,,DERIV)
+DECAY-DATA (54-XE-135-M,15.29MIN)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240058) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  0.88       0.05         0.           +1.     5.5          -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298074   20130520   20140110   20131224       4161
+BIB                  4          8
+REACTION   (56-BA-138(N,A)54-XE-135,,SIG,,,DERIV)
+DECAY-DATA (54-XE-135-G,9.14HR)
+           (54-XE-135-M,15.29MIN)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240059) See ANALYSIS in Subent 001.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  2.28       0.05         0.           +1.     1.5          +1.
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        41298075   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (56-BA-138(N,X)55-CS-137,,SIG,,,DERIV)
+DECAY-DATA (55-CS-137,30.07YR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240060) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  0.68       0.08         0.           +1.     3.5          +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298076   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (56-BA-138(N,2N)56-BA-137-M,,SIG,,,DERIV)
+DECAY-DATA (56-BA-137-M,2.552MIN)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240062) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  833.       30.          0.           +1.     5.5          -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298077   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (56-BA-138(N,P)55-CS-138,,SIG,,,DERIV)
+DECAY-DATA (55-CS-138,33.41MIN)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240061) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  2.21       0.10         0.           +1.     3.           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298078   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (58-CE-136(N,2N)58-CE-135,,SIG,,,DERIV)
+DECAY-DATA (58-CE-135,17.7HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240095) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 1401.       75.          0.           +1.     0.5          +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298079   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (58-CE-138(N,2N)58-CE-137-M,,SIG,,,DERIV)
+DECAY-DATA (58-CE-137-M,34.4HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240096) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  843.       42.          0.           +1.     5.5          -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298080   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (58-CE-140(N,P)57-LA-140,,SIG,,,DERIV)
+DECAY-DATA (57-LA-140,1.678D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240097) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  6.70      0.20          0.           +1.     3.           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298081   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (58-CE-140(N,2N)58-CE-139,,SIG,,,DERIV)
+DECAY-DATA (58-CE-139,137.64D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240098) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 1746.       90.          0.           +1.     1.5          +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298082   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (58-CE-142(N,2N)58-CE-141,,SIG,,,DERIV)
+DECAY-DATA (58-CE-141,32.5D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240099) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 1938.      120.          0.           +1.     3.5          -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298083   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (63-EU-151(N,A)61-PM-148-M,,SIG,,,DERIV)
+DECAY-DATA (61-PM-148-M,41.29D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240063) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  2.0       0.20         2.5           +1.     6.           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298084   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (63-EU-151(N,A)61-PM-148-G,,SIG,,,DERIV)
+DECAY-DATA (61-PM-148-G,5.37D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240100) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  1.79      0.14         2.5           +1.     1.           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298085   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (63-EU-151(N,2N)63-EU-150-M,,SIG,,,DERIV)
+DECAY-DATA (63-EU-150-M,12.8HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240065) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  500.       80.         2.5           +1.     0.           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298086   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (63-EU-151(N,2N)63-EU-150-G,,SIG,,,DERIV)
+DECAY-DATA (63-EU-150-G,36.9YR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240066) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 1143.       40.         2.5           +1.     5.           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298087   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (63-EU-153(N,A)61-PM-150,,SIG,,,DERIV)
+DECAY-DATA (61-PM-150,2.68HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240101) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  1.38       0.12        2.5           +1.     1.           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298088   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (63-EU-153(N,2N)63-EU-152-M1,,SIG,,,DERIV)
+DECAY-DATA (63-EU-152-M1,9.31HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240067) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  282.       30.         2.5           +1.     0.           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298089   20150720   20150817   20150810       4169
+BIB                  5          8
+REACTION   (63-EU-153(N,2N)63-EU-152-G+M2,,SIG,,,DERIV)
+DECAY-DATA (63-EU-152-G,13.57YR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240068) See ANALYSIS in Subent 001.
+HISTORY    (20150720A) M2+G => G+M2 in REACTION.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 1490.       60.         2.5           +1.     3.           -1.
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        41298090   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (73-TA-181(N,2N)73-TA-180-G,,SIG,,,DERIV)
+DECAY-DATA (73-TA-180-G,8.152HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240103) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 1185.      180.         3.5           +1.     1.           +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298091   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (74-W-184(N,P)73-TA-184,,SIG,,,DERIV)
+DECAY-DATA (73-TA-184,8.7HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240105) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  2.14       0.10        0.            +1.     5.           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298092   20130520   20140110   20131224       4161
+BIB                  4          9
+REACTION   (74-W-186(N,P)73-TA-186,,SIG,,,DERIV)
+DECAY-DATA (73-TA-186,10.5MIN)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  POSSIBLE 1-ST VALUE OF SPIN OF THE FINAL
+                    (RESIDUAL) NUCLEUS
+           (MISC4)  POSSIBLE 2-ND VALUE OF SPIN OF THE FINAL
+                    (RESIDUAL) NUCLEUS
+STATUS     (DEP,41240106) See ANALYSIS in Subent 001.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  1.33       0.10        0.            +1.     2.            3.
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        41298093   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (74-W-186(N,2N)74-W-185-M,,SIG,,,DERIV)
+DECAY-DATA (74-W-185-M,1.67MIN)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240107) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  689.       49.         0.            +1.     5.5          +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298094   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (75-RE-187(N,A)73-TA-184,,SIG,,,DERIV)
+DECAY-DATA (73-TA-184,8.7HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240110) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  0.435     0.035        2.5        +1.        5.           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298095   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (75-RE-187(N,P)74-W-187,,SIG,,,DERIV)
+DECAY-DATA (74-W-187,23.72HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240111) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  3.16      0.28         2.5        +1.        1.5          -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298096   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (79-AU-197(N,2N)79-AU-196-M2,,SIG,,,DERIV)
+DECAY-DATA (79-AU-196-M2,9.7HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240113) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  128.9      5.6         1.5        +1.       12.           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298097   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (79-AU-197(N,2N)79-AU-196,,SIG,,,DERIV)
+DECAY-DATA (79-AU-196-G,6.183D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240114) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 2220.       90.         1.5        +1.        2.           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298098   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (82-PB-204(N,2N)82-PB-203,,SIG,,,DERIV)
+DECAY-DATA (82-PB-203-G,51.87HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240069) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+ 2150.      150.         0.         +1.        2.5          -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298099   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (82-PB-206(N,A)80-HG-203,,SIG,,,DERIV)
+DECAY-DATA (80-HG-203,46.61D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240115) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  0.470      0.026       0.         +1.        2.5          -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298100   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (92-U-238(N,2N)92-U-237,,SIG,,,DERIV)
+DECAY-DATA (92-U-237,6.75D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240070) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  940.       60.         0.         +1.        0.5          +1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298101   20130520   20140110   20131224       4161
+BIB                  4          7
+REACTION   (95-AM-241(N,2N)95-AM-240,,SIG,,,DERIV)
+DECAY-DATA (95-AM-240,50.8HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240071) See ANALYSIS in Subent 001.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  217.       14.         2.5        -1.        3.           -1.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        41298102   20130520   20140110   20131224       4161
+BIB                  5          8
+REACTION   (13-AL-27(N,2N)13-AL-26,,SIG,,,DERIV)
+DECAY-DATA (13-AL-26,7.4E+5YR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240073) See ANALYSIS in Subent 001.
+HISTORY    (19990705C)  + + Compiled at the CJD  + +
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  8.48       0.67        2.5        +1.        5.           +1.
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        41298103   20130520   20140110   20131224       4161
+BIB                  5          8
+REACTION   (26-FE-54(N,P)25-MN-54,,SIG,,,DERIV)
+DECAY-DATA (25-MN-54,312.1D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240076) See ANALYSIS in Subent 001.
+HISTORY    (19990705C)  + + Compiled at the CJD  + +
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  331.       17.         0.         +1.        3.           +1.
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        41298104   20130520   20140110   20131224       4161
+BIB                  5          8
+REACTION   (42-MO-92(N,X)41-NB-91-M,,SIG,,,DERIV)
+DECAY-DATA (41-NB-91-M,60.86D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240079) See ANALYSIS in Subent 001.
+HISTORY    (19990705C)  + + Compiled at the CJD  + +
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  239.       17.         0.         +1.        0.5          -1.
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        41298105   20130520   20140110   20131224       4161
+BIB                  5          8
+REACTION   (42-MO-92(N,X)41-NB-91,,SIG,,,DERIV)
+DECAY-DATA (41-NB-91-G,680.YR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240080) See ANALYSIS in Subent 001.
+HISTORY    (19990705C)  + + Compiled at the CJD  + +
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  1070.     300.         0.         +1.        4.5          +1.
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        41298106   20130520   20140110   20131224       4161
+BIB                  5          8
+REACTION   (42-MO-92(N,2N)42-MO-91-M,,SIG,,,DERIV)
+DECAY-DATA (42-MO-91-M,65.0SEC)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240044) See ANALYSIS in Subent 001.
+HISTORY    (19990705C)  + + Compiled at the CJD  + +
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  8.6       1.0          0.         +1.        0.5          -1.
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        41298107   20130520   20140110   20131224       4161
+BIB                  5          8
+REACTION   (52-TE-122(N,2N)52-TE-121-M,,SIG,,,DERIV)
+DECAY-DATA (52-TE-121-M,154.D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240087) See ANALYSIS in Subent 001.
+HISTORY    (19990705C)  + + Compiled at the CJD  + +
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  764.      60.          0.         +1.        5.5          -1.
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        41298108   20130520   20140110   20131224       4161
+BIB                  5          8
+REACTION   (73-TA-181(N,P)72-HF-181,,SIG,,,DERIV)
+DECAY-DATA (72-HF-181,42.39D)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240102) See ANALYSIS in Subent 001.
+HISTORY    (19990705C)  + + Compiled at the CJD  + +
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  2.66      0.15         3.5        +1.        0.5          -1.
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        41298109   20130520   20140110   20131224       4161
+BIB                  5          8
+REACTION   (90-TH-232(N,2N)90-TH-231,,SIG,,,DERIV)
+DECAY-DATA (90-TH-231,25.52HR)
+MISC-COL   (MISC1)  Spin of the initial(target) nucleus
+           (MISC2)  Parity of the target nucleus
+           (MISC3)  Spin of the final(residual) nucleus
+           (MISC4)  Parity of the residual nucleus
+STATUS     (DEP,41240118) See ANALYSIS in Subent 001.
+HISTORY    (19990705C)  + + Compiled at the CJD  + +
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+MB         MB         NO-DIM     NO-DIM     NO-DIM     NO-DIM
+  1740.     100.         0.         +1.        2.5          +1.
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        41298110   20130520   20140110   20131224       4161
+BIB                  5         10
+REACTION   (27-CO-59(N,2N)27-CO-58-M/T,,SIG/RAT,,,DERIV)
+DECAY-DATA (27-CO-58-M,9.15HR)
+           (27-CO-58-G,70.82D)
+MISC-COL   (MISC1)  Spin of the isomer state
+           (MISC2)  Parity of the isomer state
+           (MISC3)  Spin of the ground state
+           (MISC4)  Parity of the ground state
+STATUS     (DEP,41240121) See ANALYSIS in Subent 001.
+HISTORY    (20000828A)   .Code 'M/M+G' changed to 'M/T'
+           (20000828U) Last checking has been done.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM
+      0.656       0.01         5.        +1.         2.        +1.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        41298111   20130520   20140110   20131224       4161
+BIB                  5         10
+REACTION   (28-NI-58(N,P)27-CO-58-M/T,,SIG/RAT,,,DERIV)
+DECAY-DATA (27-CO-58-M,9.15HR)
+           (27-CO-58-G,70.82D)
+MISC-COL   (MISC1)  Spin of the isomer state
+           (MISC2)  Parity of the isomer state
+           (MISC3)  Spin of the ground state
+           (MISC4)  Parity of the ground state
+STATUS     (DEP,41240122) See ANALYSIS in Subent 001.
+HISTORY    (20000828A)   .Code 'M/M+G' changed to 'M/T'
+           (20000828U) Last checking has been done.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM
+      0.552      0.005         5.        +1.         2.        +1.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        41298112   20130520   20140110   20131224       4161
+BIB                  5         10
+REACTION   (39-Y-89(N,A)37-RB-86-M/T,,SIG/RAT,,,DERIV)
+DECAY-DATA (37-RB-86-M,1.017MIN)
+           (37-RB-86-G,18.631D)
+MISC-COL   (MISC1)  Spin of the isomer state
+           (MISC2)  Parity of the isomer state
+           (MISC3)  Spin of the ground state
+           (MISC4)  Parity of the ground state
+STATUS     (DEP,41240123) See ANALYSIS in Subent 001.
+HISTORY    (20000828A)   .Code 'M/M+G' changed to 'M/T'
+           (20000828U) Last checking has been done.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM
+      0.243      0.021         6.        -1.         2.        -1.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        41298113   20130520   20140110   20131224       4161
+BIB                  5         10
+REACTION   (40-ZR-90(N,2N)40-ZR-89-M/T,,SIG/RAT,,,DERIV)
+DECAY-DATA (40-ZR-89-M,4.18MIN)
+           (40-ZR-89-G,78.41HR)
+MISC-COL   (MISC1)  Spin of the isomer state
+           (MISC2)  Parity of the isomer state
+           (MISC3)  Spin of the ground state
+           (MISC4)  Parity of the ground state
+STATUS     (DEP,41240124) See ANALYSIS in Subent 001.
+HISTORY    (20000828A)   .Code 'M/M+G' changed to 'M/T'
+           (20000828U) Last checking has been done.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM
+      0.128      0.007        0.5        -1.        4.5        +1.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        41298114   20130520   20140110   20131224       4161
+BIB                  5         10
+REACTION   (42-MO-92(N,A)40-ZR-89-M/T,,SIG/RAT,,,DERIV)
+DECAY-DATA (40-ZR-89-M,4.18MIN)
+           (40-ZR-89-G,78.41HR)
+MISC-COL   (MISC1)  Spin of the isomer state
+           (MISC2)  Parity of the isomer state
+           (MISC3)  Spin of the ground state
+           (MISC4)  Parity of the ground state
+STATUS     (DEP,41240125) See ANALYSIS in Subent 001.
+HISTORY    (20000828A)   .Code 'M/M+G' changed to 'M/T'
+           (20000828U) Last checking has been done.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM
+      0.288      0.016        0.5        -1.        4.5        +1.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        41298115   20130520   20140110   20131224       4161
+BIB                  5         10
+REACTION   (42-MO-92(N,X)41-NB-91-M/T,,SIG/RAT,,,DERIV)
+DECAY-DATA (41-NB-91-M,60.86D)
+           (41-NB-91-G,680.0YR)
+MISC-COL   (MISC1)  Spin of the isomer state
+           (MISC2)  Parity of the isomer state
+           (MISC3)  Spin of the ground state
+           (MISC4)  Parity of the ground state
+STATUS     (DEP,41240126) See ANALYSIS in Subent 001.
+HISTORY    (20000828A)   .Code 'M/M+G' changed to 'M/T'
+           (20000828U) Last checking has been done.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM
+      0.227      0.035        0.5        -1.        4.5        +1.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        41298116   20130520   20140110   20131224       4161
+BIB                  5         10
+REACTION   (49-IN-115(N,P)48-CD-115-M/T,,SIG/RAT,,,DERIV)
+DECAY-DATA (48-CD-115-M,44.60D)
+           (48-CD-115-G,54.46HR)
+MISC-COL   (MISC1)  Spin of the isomer state
+           (MISC2)  Parity of the isomer state
+           (MISC3)  Spin of the ground state
+           (MISC4)  Parity of the ground state
+STATUS     (DEP,41240127) See ANALYSIS in Subent 001.
+HISTORY    (20000828A)   .Code 'M/M+G' changed to 'M/T'
+           (20000828U) Last checking has been done.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM
+       0.52       0.12        5.5        -1.        0.5        +1.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        41298117   20130520   20140110   20131224       4161
+BIB                  5         10
+REACTION   (52-TE-120(N,2N)52-TE-119-M/T,,SIG/RAT,,,DERIV)
+DECAY-DATA (52-TE-119-M,4.70D)
+           (52-TE-119-G,16.03HR)
+MISC-COL   (MISC1)  Spin of the isomer state
+           (MISC2)  Parity of the isomer state
+           (MISC3)  Spin of the ground state
+           (MISC4)  Parity of the ground state
+STATUS     (DEP,41240128) See ANALYSIS in Subent 001.
+HISTORY    (20000828A)   .Code 'M/M+G' changed to 'M/T'
+           (20000828U) Last checking has been done.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM
+      0.524       0.05        5.5        -1.        0.5        +1.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        41298118   20130520   20140110   20131224       4161
+BIB                  5         10
+REACTION   (52-TE-122(N,2N)52-TE-121-M/T,,SIG/RAT,,,DERIV)
+DECAY-DATA (52-TE-121-M,154.D)
+           (52-TE-121-G,16.78D)
+MISC-COL   (MISC1)  Spin of the isomer state
+           (MISC2)  Parity of the isomer state
+           (MISC3)  Spin of the ground state
+           (MISC4)  Parity of the ground state
+STATUS     (DEP,41240129) See ANALYSIS in Subent 001.
+HISTORY    (20000828A)   .Code 'M/M+G' changed to 'M/T'
+           (20000828U) Last checking has been done.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM
+      0.461      0.046        5.5        -1.        0.5        +1.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        41298119   20130520   20140110   20131224       4161
+BIB                  5         10
+REACTION   (52-TE-130(N,2N)52-TE-129-M/T,,SIG/RAT,,,DERIV)
+DECAY-DATA (52-TE-129-M,33.6D)
+           (52-TE-129-G,69.6MIN)
+MISC-COL   (MISC1)  Spin of the isomer state
+           (MISC2)  Parity of the isomer state
+           (MISC3)  Spin of the ground state
+           (MISC4)  Parity of the ground state
+STATUS     (DEP,41240130) See ANALYSIS in Subent 001.
+HISTORY    (20000828A)   .Code 'M/M+G' changed to 'M/T'
+           (20000828U) Last checking has been done.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM
+      0.521      0.026        5.5        -1.        1.5        +1.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        41298120   20130520   20140110   20131224       4161
+BIB                  5         10
+REACTION   (56-BA-138(N,A)54-XE-135-M/T,,SIG/RAT,,,DERIV)
+DECAY-DATA (54-XE-135-M,15.29MIN)
+           (54-XE-135-G,9.14HR)
+MISC-COL   (MISC1)  Spin of the isomer state
+           (MISC2)  Parity of the isomer state
+           (MISC3)  Spin of the ground state
+           (MISC4)  Parity of the ground state
+STATUS     (DEP,41240131) See ANALYSIS in Subent 001.
+HISTORY    (20000828A)   .Code 'M/M+G' changed to 'M/T'
+           (20000828U) Last checking has been done.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM
+      0.381      0.024        5.5        -1.        1.5        +1.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        41298121   20130520   20140110   20131224       4161
+BIB                  5         10
+REACTION   (63-EU-151(N,A)61-PM-148-M/T,,SIG/RAT,,,DERIV)
+DECAY-DATA (61-PM-148-M,41.29D)
+           (61-PM-148-G,5.37D)
+MISC-COL   (MISC1)  Spin of the isomer state
+           (MISC2)  Parity of the isomer state
+           (MISC3)  Spin of the ground state
+           (MISC4)  Parity of the ground state
+STATUS     (DEP,41240132) See ANALYSIS in Subent 001.
+HISTORY    (20000828A)   .Code 'M/M+G' changed to 'M/T'
+           (20000828U) Last checking has been done.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM
+      0.611       0.03         6.        -1.         1.        -1.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        41298122   20130520   20140110   20131224       4161
+BIB                  6         11
+REACTION   (63-EU-151(N,2N)63-EU-150-M/T,,SIG/RAT,,,DERIV)
+DECAY-DATA (63-EU-150-M,12.8HR)
+           (63-EU-150-G,36.9YR)
+MISC-COL   (MISC1)  Spin of the isomer state
+           (MISC2)  Parity of the isomer state
+           (MISC3)  Spin of the ground state
+           (MISC4)  Parity of the ground state
+STATUS     (DEP,41240133) See ANALYSIS in Subent 001.
+HISTORY    (20000828A)   .Code 'M/M+G' changed to 'M/T'
+           (20000828U) Last checking has been done.
+COMMENT    .Parity of the ground state (-1) is indefinite
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM
+      0.302      0.015         0.        -1.         5.        -1.
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        41298123   20130520   20140110   20131224       4161
+BIB                  5         10
+REACTION   (63-EU-153(N,2N)63-EU-152-M1/T,,SIG/RAT,,,DERIV)
+DECAY-DATA (63-EU-152-M1,9.31HR)
+           (63-EU-152-G,13.57YR)
+MISC-COL   (MISC1)  Spin of the isomer state
+           (MISC2)  Parity of the isomer state
+           (MISC3)  Spin of the ground state
+           (MISC4)  Parity of the ground state
+STATUS     (DEP,41240134) See ANALYSIS in Subent 001.
+HISTORY    (20000828A)   .Code 'M/M+G' changed to 'M/T'
+           (20000828U) Last checking has been done.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM
+      0.159      0.013         0.        -1.         3.        -1.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        41298124   20130520   20140110   20131224       4161
+BIB                  6         12
+REACTION   (75-RE-185(N,2N)75-RE-184-M/T,,SIG/RAT,,,DERIV)
+DECAY-DATA (75-RE-184-M,169.0D)
+           (75-RE-184-G,38.0D)
+MISC-COL   (MISC1)  Spin of the isomer state
+           (MISC2)  Parity of the isomer state
+           (MISC3)  Spin of the ground state
+           (MISC4)  Parity of the ground state
+STATUS     (DEP,41240135) See ANALYSIS in Subent 001.
+HISTORY    (20000828A)   .Code 'M/M+G' changed to 'M/T'
+           (20000828U) Last checking has been done.
+COMMENT    .Parities of the ground state (-1) and isomer state(+1)
+            are indefinite
+ENDBIB              12
+NOCOMMON             0          0
+DATA                 5          1
+DATA       MISC1      MISC2      MISC3      MISC4
+NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM
+      0.193         8.        +1.         3.        -1.
+ENDDATA              3
+ENDSUBENT           20
+SUBENT        41298125   20130520   20140110   20131224       4161
+BIB                  5         10
+REACTION   (79-AU-197(N,2N)79-AU-196-M2/T,,SIG/RAT,,,DERIV)
+DECAY-DATA (79-AU-196-M2,9.7HR)
+           (79-AU-196-G,6.183D)
+MISC-COL   (MISC1)  Spin of the isomer state
+           (MISC2)  Parity of the isomer state
+           (MISC3)  Spin of the ground state
+           (MISC4)  Parity of the ground state
+STATUS     (DEP,41240136) See ANALYSIS in Subent 001.
+HISTORY    (20000828A)   .Code 'M/M+G' changed to 'M/T'
+           (20000828U) Last checking has been done.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC2      MISC3      MISC4
+NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM
+      0.058      0.003        12.        -1.         2.        -1.
+ENDDATA              3
+ENDSUBENT           18
+ENDENTRY           125

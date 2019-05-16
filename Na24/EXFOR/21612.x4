@@ -1,0 +1,271 @@
+ENTRY            21612   20140822   20150107   20141107       2240
+SUBENT        21612001   20140822   20150107   20141107       2240
+BIB                 13         30
+INSTITUTE  (2GERJLU) Angewandte Kernphisik, Strahlenzentrum der
+            Universitat Giessen, Germany.
+REFERENCE  (J,NIM,167,289,1979) Tables.
+AUTHOR     (L.Hannappel,H.Henschel,H.Schneider)
+TITLE      -Investigation of neutron induced short living yrast
+            isomers -.
+FACILITY   (ACCEL,2GERJLU) .300 keV ion accelerator for deuterium,
+             with beam pulsing and tritium target.
+             Pulses of 13 ns FWHM.
+INC-SOURCE (D-T) Titanium tritide target.
+METHOD     (ACTIV) Activation. Detection of decay gammas.
+DETECTOR   (SCIN) Plastic scintillator, KL 236, diameter 100 mm,
+            height 50 mm, connected to a fast photomultiplier.
+MONITOR    (11-NA-23(N,A)9-F-20,,SIG) Value taken as 150+-20 mb.
+MONIT-REF  (,V.Krivan+,J,JRC,29,145,1976)
+CORRECTION .Corrected for background from activation of the
+            tritium target and surrounding masses by comparison
+            with a water target.
+ERR-ANALYS (DATA-ERR) The errors of cr.sect. are computed by
+           combining the estimated errors of decay rates, time
+           factors and the number of neutrons scattering in the
+           target and the error of the calibration cross
+           section from the literature
+           (ERR-SYS,,10.) Systematic errors are estimated to be
+           smaller than 10%.
+HISTORY    (19800807C)
+           (20140822U) SD: Updated to new date formats,lower case.
+            Corrections according last EXFOR rules and Dict.
+            Author's name corrected (Hannapel -> Hannappel).
+            ERR-ANALYS update.
+ENDBIB              30
+COMMON               4          3
+EN         EN-ERR     MONIT      MONIT-ERR
+MEV        MEV        MB         MB
+  14.9       0.2         150.       20.
+ENDCOMMON            3
+ENDSUBENT           37
+SUBENT        21612002   20140822   20150107   20141107       2240
+BIB                  4          5
+REACTION   (9-F-19(N,P)8-O-19,,SIG) Cross section.
+SAMPLE     (9-F-19,NAT=1.) .Teflon disc, CF(2). 100g in a thin
+           walled cylindrical polyethylene container.
+DECAY-DATA (8-O-19,27.SEC,DG,1353.) Gamma in F-19.
+STATUS     (TABLE) .Table 2 from NIM,167,289.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+   21.       3.2
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        21612003   20140822   20150107   20141107       2240
+BIB                  4          5
+REACTION   (15-P-31(N,A)13-AL-28,,SIG) Cross section.
+SAMPLE     (15-P-31,NAT=1.) .Red phosphorus powder, 100g in a thin
+           walled cylindrical polyethylene container.
+DECAY-DATA (13-AL-28,140.SEC,DG,1779.) Decay gamma.
+STATUS     (TABLE) .Table 2 from NIM,167,289.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+    110.4    16.8
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        21612004   20140822   20150107   20141107       2240
+BIB                  5         11
+REACTION   ((56-BA-138(N,2N)56-BA-137-M,,SIG)+
+           (56-BA-137(N,INL)56-BA-137-M,,SIG,,RAB)) sum cross
+            section for activation of Ba-137m isomer.
+SAMPLE     .Barium chloride salt, with 2 H2O, 100g in a thin wall
+            cylindrical polyethylene container.
+            Isotopic comp.: 130Ba - 0.10%, 132Ba - 0.10%,
+             134Ba - 2.42%, 135Ba - 6.59%, 136Ba - 7.81%,
+             137Ba - 11.32%, 138Ba - 71.66%
+DECAY-DATA (56-BA-137-M,153.SEC,DG,662.) Decay gamma.
+STATUS     (TABLE) .Table 2 from NIM,167,289.
+HISTORY    (20140822A) SD: SF8=RAB added to REACTION code.
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+  1218.      165.
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        21612005   20140822   20150107   20141107       2240
+BIB                  5          8
+REACTION   (83-BI-209(N,2N)83-BI-208-L,,SIG) Cross section.
+SAMPLE     (83-BI-209,NAT=1.) .Bismuth oxide, Bi2O3, powder, 100 g
+           in a thin walled cylindrical polyethylene container.
+DECAY-DATA (83-BI-208-L,0.003SEC,DG,921.) Decay gamma.
+STATUS     (TABLE) .Table 2 from NIM,167,289.
+HISTORY    (19860808A)HH ms specified (3ms hl question mark)
+           (20140822A) SD: Bi-208m -> Bi-207-L in REACTION code
+             and DECAY-DATA.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+    420.      6.3
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        21612006   20140822   20150107   20141107       2240
+BIB                  6          8
+REACTION   (9-F-19(N,2N)9-F-18-L,,SIG)
+SAMPLE     (9-F-19,NAT=1.) .Teflon disc, 100 g.
+DECAY-DATA (9-F-18-L,165.NSEC,DG,937.) 937keV gamma.
+             Half-life measured by authors
+LEVEL-PROP (9-F-18-L,E-LVL=1.122,SPIN=5.,PARITY=+1.)
+STATUS     (TABLE) .Table 3 from NIM,167,289.
+HISTORY    (20140822A) SD: SF5=PAR deleted and SF4=F-18 -> F-18-L
+            in REACTION code. LEVEL-PROP added.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   ERR-HL
+MB         MB         NSEC
+   8.9        1.7        3.
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        21612007   20140822   20150107   20141107       2240
+BIB                  6          9
+REACTION   (11-NA-23(N,2N)11-NA-22-L,,SIG)
+SAMPLE     (11-NA-23,NAT=1.) .Sodium chloride salt, 100 g in a
+            thin walled cylindrical polyethylene container.
+DECAY-DATA (11-NA-22-L,222.NSEC,DG,583.) Half life 222+-34nsec.
+             Half-life measured by authors
+LEVEL-PROP (11-NA-22-L,E-LVL=0.583,SPIN=1.,PARITY=+1.)
+STATUS     (TABLE) .Table 3 from NIM,167,289.
+HISTORY    (20140822A) SD: SF5=PAR deleted, SF4=Na-22 -> Na-22-L
+            in REACTION code. LEVEL-PROP added.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   ERR-HL
+MB         MB         NSEC
+    6.2       1.1       34.
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        21612008   20140822   20150107   20141107       2240
+BIB                  6          9
+REACTION   (19-K-41(N,2N)19-K-40-L,,SIG)
+SAMPLE     (19-K-41,NAT=0.689) .Potassium chloride salt, 100g in
+            a thin walled cylindrical polyethylene container.
+DECAY-DATA (19-K-40-L,262.NSEC,DG,1614.) Half-life 262+-151nsec.
+             Half-life measured by authors
+LEVEL-PROP (19-K-40-L,E-LVL=1.644,SPIN=0.,PARITY=+1.)
+STATUS     (TABLE) .Table 3 from NIM,167,289.
+HISTORY    (20140822A) SD: SF5=PAR deleted and SF4=K-40 -> K-40-L
+            in REACTION code. LEVEL-PROP added.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   ERR-HL
+MB         MB         NSEC
+    15.1      5.4         151.
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        21612009   20140822   20150107   20141107       2240
+BIB                  6          9
+REACTION   (37-RB-85(N,INL)37-RB-85-L,,SIG)
+SAMPLE     (37-RB-85,NAT=0.7215) .Rubidium chloride salt, 100 g
+            in a thin walled cylindrical polyethylene container.
+DECAY-DATA (37-RB-85-L,954.NSEC,DG,514.) Half-life 954+-10 nsec.
+             Half-life measured by authors
+LEVEL-PROP (37-RB-85-L,E-LVL=0.541,SPIN=4.5,PARITY=-1.)
+STATUS     (TABLE) .Table 3 from NIM,167,289.
+HISTORY    (20140822A) SD: SF5=PAR deleted, SF4=Rb-85 -> Rb-85-L
+            in REACTION code. LEVEL-PROP added.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   ERR-HL
+MB         MB         NSEC
+    246.      46.        10.
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        21612010   20140822   20150107   20141107       2240
+BIB                  6         12
+REACTION   (42-MO-92(N,INL)42-MO-92-L,,SIG)
+SAMPLE     (42-MO-92,NAT=0.1584) .Molybdenum metal powder, 100 g
+            in a thin walled cylindrical polyethylene container.
+            Isotop.comp.: 92Mo - 15.84%, 94Mo - 9.04%,
+            95Mo - 15.72%, 96Mo - 16.53%, 97Mo - 9.46%,
+            98Mo - 23.78%, 100Mo - 9.63%.
+DECAY-DATA (42-MO-92-L,195.NSEC,DG,1511.) Half-life 195+-13 nsec.
+             Half-life measured by authors
+LEVEL-PROP (42-MO-92-L,E-LVL=2.761,SPIN=8.,PARITY=+1.)
+STATUS     (TABLE) .Table 3 from NIM,167,289.
+HISTORY    (20140822A) SD: SF5=PAR deleted, SF4=MO-92 -> MO-92-L
+            in REACTION code. LEVEL-PROP added.
+ENDBIB              12
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   ERR-HL
+MB         MB         NSEC
+    68.       14.       13.
+ENDDATA              3
+ENDSUBENT           20
+SUBENT        21612011   20140822   20150107   20141107       2240
+BIB                  6         12
+REACTION   (42-MO-95(N,2N)42-MO-94-L,,SIG)
+SAMPLE     (42-MO-95,NAT=0.1572) .Molybdenum metal powder, 100 g
+            in a thin walled cylindrical polyethylene container.
+            Isotop.comp.: 92Mo - 15.84%, 94Mo - 9.04%,
+            95Mo - 15.72%, 96Mo - 16.53%, 97Mo - 9.46%,
+            98Mo - 23.78%, 100Mo - 9.63%.
+DECAY-DATA (42-MO-94-L,101.NSEC,DG,870.) Half-life 101+-1 nsec.
+             Half-life measured by authors
+LEVEL-PROP (42-MO-94-L,E-LVL=2.953,SPIN=8.,PARITY=+1.)
+STATUS     (TABLE) .Table 3 from NIM,167,289.
+HISTORY    (20140822A) SD: SF5=PAR deleted, SF4=Mo-94 -> Mo-94-L
+            in REACTION code. LEVEL-PROP added.
+ENDBIB              12
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   ERR-HL
+MB         MB         NSEC
+   292.       59.          1.
+ENDDATA              3
+ENDSUBENT           20
+SUBENT        21612012   20140822   20150107   20141107       2240
+BIB                  6          9
+REACTION   (57-LA-139(N,N+P)56-BA-138-L,,SIG)
+SAMPLE     (57-LA-139,NAT=0.9991) .Lanthanum chloride, La Cl2.H2O,
+           100 g in a thin walled cylindr. polyethylene container.
+DECAY-DATA (56-BA-138-L,722.NSEC,DG,1436.) Half-life 722+-90 nsec.
+             Half-life measured by authors
+LEVEL-PROP (56-BA-138-L,E-LVL=2.090,SPIN=6.,PARITY=+1.)
+STATUS     (TABLE) .Table 3 from NIM,167,289.
+HISTORY    (20140822A) SD: SF5=PAR deleted, SF4=Ba-138 -> Ba-138-L
+            in REACTION code. LEVEL-PROP added.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   ERR-HL
+MB         MB         NSEC
+       19.     6.           90.
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        21612013   20140822   20150107   20141107       2240
+BIB                  6         13
+REACTION   (56-BA-138(N,INL)56-BA-138-L,,SIG)
+SAMPLE     (56-BA-138,NAT=0.7166) .Barium chloride salt,
+            with 2 H2O, 100g in a thin wall cylindrical
+            polyethylene container.
+            Isotopic comp.: 130Ba - 0.10%, 132Ba - 0.10%,
+             134Ba - 2.42%, 135Ba - 6.59%, 136Ba - 7.81%,
+             137Ba - 11.32%, 138Ba - 71.66%
+DECAY-DATA (56-BA-138-L,889.NSEC,DG,1436.) Half-life 889+-29 nsec.
+             Half-life measured by authors
+LEVEL-PROP (56-BA-138-L,E-LVL=2.090,SPIN=6.,PARITY=+1.)
+STATUS     (TABLE) .Table 3 from NIM,167,289.
+HISTORY    (20140822A) SD: SF5=PAR deleted, SF4=Ba-138 -> Ba-138-L
+            in REACTION code. LEVEL-PROP added.
+ENDBIB              13
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   ERR-HL
+MB         MB         NSEC
+      106.        15.         29.
+ENDDATA              3
+ENDSUBENT           21
+ENDENTRY            13

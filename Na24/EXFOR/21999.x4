@@ -1,0 +1,864 @@
+ENTRY            21999   20150921   20160603   20160523       2245
+SUBENT        21999001   20150921   20160603   20160523       2245
+BIB                 18         72
+INSTITUTE  (2GERKIG) GKSS
+REFERENCE  (R,GKSS-86-E-29,1986)  in German
+           ((P,NEANDC(E)-262U,(5),32,198506)=
+           (P,INDC(GER)-28,32,198506))
+AUTHOR     (R.Pepelnik,B.Anders,B.M.Bahal,M.Farooq)
+TITLE      -14 MeV neutron activation cross sections-
+FACILITY   (NGEN,2GERKIG) Neutron generator KORONA
+            (KORONA combined tube neutron generators system)
+REL-REF    (I,,H.-U.Fanger+,J,JRC,61,147,1981) -KORONA facility
+               description.
+           (M,21936001,B.M.Bahal+,R,GKSS-85-E-11,1985) - error
+           analysis is given.
+           (O,21976001,B.Anders+,R,GKSS-85-E-24,1985) - results
+            for other reactions and error analysis are given.
+           (M,,R.Pepelnik+,J,NIM/A,226,411,1984) - loss-dependent
+               weighting factor described.
+INC-SOURCE (D-T) neutron flux of more than 3 x 10**10 n/cm2/s
+METHOD     (ACTIV)
+DETECTOR   (GELI) Ge(Li)-detector with a relative efficiency of
+            17% is used at a distance of 56.5 mm
+           (BF3) The neutron flux during each irradiation was
+            registered by a calibrated BF3-long counter in
+            multichannel scaling mode
+ANALYSIS   .No information
+SAMPLE     The samples encapsulated in polyethylene containers are
+           activated in the center of the cylindrical neutron
+           target. As target material mostly the oxide of the
+           element investigated was used. Typical values for the
+           sample mass and purity are 400 mg and 99%. For the
+           analysis of 92Mo, 97Mo, 136Ba and 138Ba isotopically
+           enriched samples were utilized.
+MONITOR    ((MONIT1)13-AL-27(N,A)11-NA-24,,SIG)
+           ((MONIT2)12-MG-26(N,A)10-NE-23,,SIG)
+           ((MONIT3)13-AL-27(N,P)12-MG-27,,SIG)
+             As monitor reaction the well known Al (n,alpha)-
+            reaction is used. For short-lived reaction products
+            26Mg(n,alpha)- and Al(n,p)-reactions were applied.
+DECAY-MON  ((MONIT1)11-NA-24,15.02HR,DG,1369.,1.,DG,2754.,0.999)
+           ((MONIT2)10-NE-23,37.6SEC,DG,440.,0.330)
+           ((MONIT3)12-MG-27,9.46MIN,DG,844.,0.718,DG,1014.,0.291)
+PART-DET   (DG)
+STATUS     (TABLE) Data from Tbl. III of GKSS-86-E-29,1986,
+            the same data, excluding a few values (see STATUS in
+            Subents) are presented in NEANDC(E)-262U,(5),32,1985.
+CORRECTION .Summing corrections, which are important for
+            gamma-rays emitted in cascades and detected at small
+            distances, were taken into account.
+ERR-ANALYS (ERR-T)     Total error was defined as the root from
+            sum of squares of relative errors for neutron flux,
+            gamma-ray intensity, photo-peak efficiency, mass of
+            sample, peak area, etc.
+           (ERR-1,0.1,10.) Error of the gamma-intensities
+           (ERR-2,0.,2.5) Error in corrections
+           (ERR-3) Error of calibration and detection probability
+            is 2.5% in KORONA, according to GKSS-85-E-11
+           (ERR-4,,0.5) Uncertainty in mass definition
+            Utilizing cross sections measured at KORONA, the
+           analysis errors are reduced, because the uncertainties
+           in the literature values, which result from the
+           energy-dependence of cross sections and uncertainties
+           in nuclear decay data, are cancelled.
+HISTORY    (19860304C)
+           (20090223A) Date and reference are corrected
+           (20101102A) SD: in Subents 010, 011
+                     REACTION 2nd term: SF3:D -> X, SF8=RAB added
+           (20150921A) SD: BIB update following information in
+           GKSS-86/E/29. Monitor cross sections, decay data,
+           REL-REFs, etc. were added from GKSS-86/E/29. ERR-ANALYS
+           updated and Subents 43, 44 were added (additional data
+           from GKSS-86/E/29). Ref. GKSS-86-E-29 was added as
+           primary. DECAY-DATA, SAMPLE were added to
+           Subents 002-042. DATA-ERR -> ERR-T in Subents 002 - 042
+ENDBIB              72
+COMMON               9          6
+EN         EN-RSL-FW  MONIT1     MONIT1-ERR MONIT2     MONIT2-ERR
+MONIT3     MONIT3-ERR ERR-3
+MEV        MEV        MB         MB         MB         MB
+MB         MB         PER-CENT
+       14.7      0.06      114.0         3.0       52.0      1.3
+      69.0       1.7       2.5
+ENDCOMMON            6
+ENDSUBENT           82
+SUBENT        21999002   20150921   20160603   20160523       2245
+BIB                  5          6
+REACTION   (11-NA-23(N,P)10-NE-23,,SIG)
+SAMPLE     (11-NA-23,NAT=1.)
+DECAY-DATA (10-NE-23,37.2SEC,DG,439.9,0.33)
+MISC-COL   (MISC) Summing correction factor at 56.5 mm
+                              for 439.9 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-T      MISC
+MB         MB         NO-DIM
+        47.         2.  1.001
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21999003   20150921   20160603   20160523       2245
+BIB                  5          6
+REACTION   (11-NA-23(N,A)9-F-20,,SIG)
+SAMPLE     (11-NA-23,NAT=1.)
+DECAY-DATA (9-F-20,11.0SEC,DG,1633.7,1.)
+MISC-COL   (MISC) Summing correction factor at 56.5 mm
+                              for 1633.7 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-T      MISC
+MB         MB         NO-DIM
+   123.         4.      1.000
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21999004   20150921   20160603   20160523       2245
+BIB                  5         13
+REACTION  1(12-MG-25(N,P)11-NA-25,,SIG)
+          2((12-MG-25(N,P)11-NA-25,,SIG,,FCT)+
+           (12-MG-26(N,X)11-NA-25,,SIG,,FCT)) - elemental cr.sect.
+           divided by the isotopic abundances of 25Mg and 26Mg
+SAMPLE     (12-MG-25,NAT=0.10)
+           (12-MG-26,NAT=0.1101)
+DECAY-DATA (11-NA-25,59.6SEC,DG,585.1,0.138,DG,974.8,0.140)
+MISC-COL   (MISC1) Summing correction factor at 56.5 mm
+                                        for 585.1 keV decay gamma
+           (MISC2) Summing correction factor at 56.5 mm
+                                      for 974.8 keV decay gamma
+HISTORY    (20150921U) SD: REACTION (2), DECAY-DATA, SAMPLE,
+           MISC were added.
+ENDBIB              13
+NOCOMMON             0          0
+DATA                 6          1
+DATA      1ERR-T     1DATA      2ERR-T     2MISC1      MISC2
+MB         MB         MB         MB         NO-DIM     NO-DIM
+    63.         4.      30.0         1.9      1.024      0.990
+ENDDATA              3
+ENDSUBENT           21
+SUBENT        21999005   20150921   20160603   20160523       2245
+BIB                  5          6
+REACTION   (12-MG-26(N,P)11-NA-26,,SIG)
+SAMPLE     (12-MG-26,NAT=0.1101)
+DECAY-DATA (11-NA-26,1.07SEC,DG,1808.6,0.99)
+MISC-COL   (MISC) Summing correction factor at 56.5 mm
+                              for 1808.6 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-T      MISC
+MB         MB         NO-DIM
+     20.          4.    1.003
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21999006   20150921   20160603   20160523       2245
+BIB                  5         12
+REACTION  1(14-SI-28(N,P)13-AL-28,,SIG)
+          2((14-SI-28(N,P)13-AL-28,,SIG,,FCT)+
+           (14-SI-29(N,X)13-AL-28,,SIG,,FCT)) - elemental cr.sect.
+           divided by the isotopic abundances of 28Si and 29Si
+SAMPLE     (14-SI-28,NAT=0.9223)
+           (14-SI-29,NAT=0.0467)
+DECAY-DATA (13-AL-28,2.246MIN,DG,1779.0,1.)
+MISC-COL   (MISC) Summing correction factor at 56.5 mm
+                              for 1779.0 keV decay gamma
+HISTORY    (20101102U) ON: ERR-T corrected.
+           (20150921U) SD: REACTION (2), DECAY-DATA, SAMPLE,
+           MISC were added.
+ENDBIB              12
+NOCOMMON             0          0
+DATA                 5          1
+DATA      1ERR-T     1DATA      2ERR-T     2MISC
+MB         MB         MB         MB         NO-DIM
+     265.     11.       252.       10.        1.000
+ENDDATA              3
+ENDSUBENT           20
+SUBENT        21999007   20150921   20160603   20160523       2245
+BIB                  5         10
+REACTION  1(14-SI-29(N,P)13-AL-29,,SIG)
+          2((14-SI-29(N,P)13-AL-29,,SIG,,FCT)+
+           (14-SI-30(N,X)13-AL-29,,SIG,,FCT)) - elemental cr.sect.
+           divided by the isotopic abundances of 29Si and 30Si
+SAMPLE     (14-SI-29,NAT=0.0467)
+           (14-SI-30,NAT=0.0310)
+DECAY-DATA (13-AL-29,6.6MIN,DG,1273.3,0.906)
+MISC-COL   (MISC) Summing correction factor at 56.5 mm
+                              for 1273.3 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 5          1
+DATA      1ERR-T     1DATA      2ERR-T     2MISC
+MB         MB         MB         MB         NO-DIM
+   138.           6.       82.9         3.6   1.000
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        21999008   20150921   20160603   20160523       2245
+BIB                  4          5
+REACTION   (15-P-31(N,HE3)13-AL-29,,SIG)
+DECAY-DATA (13-AL-29,6.6MIN,DG,1273.3,0.906)
+STATUS     (TABLE) Data from Tbl. I of INDC(GER)-28,32,1985
+            (data were not presented in GKSS-86/E/29).
+HISTORY    (20150921U) SD: STATUS, DECAY-DATA was added.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+     0.03        0.01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        21999009   20150921   20160603   20160523       2245
+BIB                  5          8
+REACTION   (17-CL-35(N,2N)17-CL-34-M,,SIG)
+SAMPLE     (17-CL-35,NAT=0.7577)
+DECAY-DATA (17-CL-34-M,32.0MIN,DG,146.4,0.408,DG,2127.3,0.432)
+MISC-COL   (MISC1) Summing correction factor at 56.5 mm
+                                        for 146.4 keV decay gamma
+           (MISC2) Summing correction factor at 56.5 mm
+                                      for 2127.3 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA       ERR-T      MISC1      MISC2
+MB         MB         NO-DIM     NO-DIM
+        7.2     0.3      1.000     1.029
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        21999010   20150921   20160603   20160523       2245
+BIB                  5         17
+REACTION  1((22-TI-46(N,P)21-SC-46,,SIG)+
+           (22-TI-47(N,X)21-SC-46,,SIG,,RAB)) -
+           The cross section value was calculated taking the
+            abundance of the first mentioned isotope.
+          2((22-TI-46(N,P)21-SC-46,,SIG,,FCT)+
+           (22-TI-47(N,X)21-SC-46,,SIG,,FCT)) - elemental cr.sect.
+           divided by the isotopic abundances of 46Ti and 47Ti
+SAMPLE     (22-TI-46,NAT=0.082)
+           (22-TI-47,NAT=0.074)
+DECAY-DATA (21-SC-46-G,83.82D,DG,889.2,1.,DG,1120.5,1.)
+MISC-COL   (MISC1) Summing correction factor at 56.5 mm
+                                        for 889.2 keV decay gamma
+           (MISC2) Summing correction factor at 56.5 mm
+                                      for 1120.5 keV decay gamma
+HISTORY    (20101102A) SD: in REACTION 2nd term: SF3:D -> X,
+                                                SF8: RAB added
+           (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB              17
+NOCOMMON             0          0
+DATA                 6          1
+DATA      1ERR-T     1DATA      2ERR-T     2MISC1      MISC2
+MB         MB         MB         MB         NO-DIM     NO-DIM
+   304.       10.       160.        5.        1.020      1.021
+ENDDATA              3
+ENDSUBENT           25
+SUBENT        21999011   20150921   20160603   20160523       2245
+BIB                  5         15
+REACTION  1((22-TI-47(N,P)21-SC-47,,SIG)+
+           (22-TI-48(N,X)21-SC-47,,SIG,,RAB))
+           The cross section value was calculated taking the
+            abundance of the first mentioned isotope.
+          2((22-TI-47(N,P)21-SC-47,,SIG,,FCT)+
+           (22-TI-48(N,X)21-SC-47,,SIG,,FCT)) - elemental cr.sect.
+           divided by the isotopic abundances of 47Ti and 48Ti
+SAMPLE     (22-TI-47,NAT=0.074)
+           (22-TI-48,NAT=0.738)
+DECAY-DATA (21-SC-47,3.35D,DG,159.4,0.68)
+MISC-COL   (MISC) Summing correction factor at 56.5 mm
+                                        for 159.4 keV decay gamma
+HISTORY    (20101102A) SD: in REACTION 2nd term: SF3:D -> X,
+                                                SF8: RAB added
+           (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB              15
+NOCOMMON             0          0
+DATA                 5          1
+DATA      1ERR-T     1DATA      2ERR-T     2MISC
+MB         MB         MB         MB         NO-DIM
+   257.       12.        23.4       1.1       1.000
+ENDDATA              3
+ENDSUBENT           23
+SUBENT        21999012   20150921   20160603   20160523       2245
+BIB                  5         16
+REACTION  1((22-TI-48(N,P)21-SC-48,,SIG)+
+           (22-TI-49(N,X)21-SC-48,,SIG,,RAB))
+           The cross section value was calculated taking the
+            abundance of the first mentioned isotope.
+          2((22-TI-48(N,P)21-SC-48,,SIG,,FCT)+
+           (22-TI-49(N,X)21-SC-48,,SIG,,FCT)) - elemental cr.sect.
+           divided by the isotopic abundances of 48Ti and 49Ti
+SAMPLE     (22-TI-48,NAT=0.738)
+           (22-TI-49,NAT=0.054)
+DECAY-DATA (21-SC-48,43.67HR,DG,983.5,1.,DG,1312.1,1.)
+MISC-COL   (MISC1) Summing correction factor at 56.5 mm
+                                        for 983.5 keV decay gamma
+           (MISC2) Summing correction factor at 56.5 mm
+                                      for 1312.1 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+           SF8=RAB added in REACTION code.
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 6          1
+DATA      1ERR-T     1DATA      2ERR-T     2MISC1      MISC2
+MB         MB         MB         MB         NO-DIM     NO-DIM
+   68.7           2.1      64.0       1.9        1.042    1.043
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        21999013   20150921   20160603   20160523       2245
+BIB                  5          6
+REACTION   (22-TI-50(N,A)20-CA-47,,SIG)
+SAMPLE     (22-TI-50,NAT=0.052)
+DECAY-DATA (20-CA-47,4.54D,DG,1297.1,0.749)
+MISC-COL   (MISC) Summing correction factor at 56.5 mm
+                                       for 1297.1 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-T      MISC
+MB         MB         NO-DIM
+        8.5     0.5     0.999
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21999014   20150921   20160603   20160523       2245
+BIB                  5          6
+REACTION   (23-V-51(N,P)22-TI-51,,SIG)
+SAMPLE     (23-V-51,NAT=0.9975)
+DECAY-DATA (22-TI-51,5.8MIN,DG,320.1,0.93)
+MISC-COL   (MISC) Summing correction factor at 56.5 mm
+                                       for 320.1 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-T      MISC
+MB         MB         NO-DIM
+     29.        1.       1.000
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21999015   20150921   20160603   20160523       2245
+BIB                  5          8
+REACTION   (29-CU-65(N,P)28-NI-65,,SIG)
+SAMPLE     (29-CU-65,NAT=0.3083)
+DECAY-DATA (28-NI-65,2.52HR,DG,1115.5,0.148,DG,1481.8,0.235)
+MISC-COL   (MISC1) Summing correction factor at 56.5 mm
+                                       for 1115.5 keV decay gamma
+           (MISC2) Summing correction factor at 56.5 mm
+                                       for 1481.8 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA       ERR-T      MISC1      MISC2
+MB         MB         NO-DIM     NO-DIM
+     20.          1.    1.008      0.998
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        21999016   20150921   20160603   20160523       2245
+BIB                  5          8
+REACTION   (37-RB-85(N,P)36-KR-85-M,,SIG)
+SAMPLE     (37-RB-85,NAT=0.7217)
+DECAY-DATA (36-KR-85-M,4.48HR,DG,151.2,0.750,DG,304.9,0.140)
+MISC-COL   (MISC1) Summing correction factor at 56.5 mm
+                                       for 151.2 keV decay gamma
+           (MISC2) Summing correction factor at 56.5 mm
+                                       for 304.9 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA       ERR-T      MISC1      MISC2
+MB         MB         NO-DIM     NO-DIM
+        4.6     0.2     1.000       1.000
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        21999017   20150921   20160603   20160523       2245
+BIB                  5          8
+REACTION   (37-RB-85(N,A)35-BR-82,,SIG)
+SAMPLE     (37-RB-85,NAT=0.7217)
+DECAY-DATA (35-BR-82-G,35.34HR,DG,554.3,0.706,DG,776.5,0.834)
+MISC-COL   (MISC1) Summing correction factor at 56.5 mm
+                                       for 554.3 keV decay gamma
+           (MISC2) Summing correction factor at 56.5 mm
+                                       for 776.5 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA       ERR-T      MISC1      MISC2
+MB         MB         NO-DIM     NO-DIM
+        6.9     0.2     1.052      1.052
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        21999018   20150921   20160603   20160523       2245
+BIB                  5          8
+REACTION   (37-RB-85(N,2N)37-RB-84-M,,SIG)
+SAMPLE     (37-RB-85,NAT=0.7217)
+DECAY-DATA (37-RB-84-M,20.5MIN,DG,248.0,0.590,DG,463.6,0.354)
+MISC-COL   (MISC1) Summing correction factor at 56.5 mm
+                                       for 248.0 keV decay gamma
+           (MISC2) Summing correction factor at 56.5 mm
+                                       for 463.6 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA       ERR-T      MISC1      MISC2
+MB         MB         NO-DIM     NO-DIM
+   474.        14.      1.015      0.984
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        21999019   20150921   20160603   20160523       2245
+BIB                  5          9
+REACTION   (37-RB-85(N,2N)37-RB-84,,SIG)
+SAMPLE     (37-RB-85,NAT=0.7217)
+DECAY-DATA (35-BR-84-G,32.8D,DG,881.5,0.678)
+            32.8 d is printed in Table 2 of GKSS 86/E/29
+MISC-COL   (MISC) Summing correction factor at 56.5 mm
+                                       for 881.5 keV decay gamma
+HISTORY    (20150921A) SD: DECAY-DATA, SAMPLE,MISC were added.
+            Value 1144. -> 1140.mb according to the Tbl. III of
+            GKSS-86-E-29,1986.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-T      MISC
+MB         MB         NO-DIM
+  1.140E+03    35.      1.013
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        21999020   20150921   20160603   20160523       2245
+BIB                  5          8
+REACTION   (37-RB-87(N,P)36-KR-87,,SIG)
+SAMPLE     (37-RB-87,NAT=0.2783)
+DECAY-DATA (36-KR-87,76.3MIN,DG,402.6,0.496,DG,845.4,0.0734)
+MISC-COL   (MISC1) Summing correction factor at 56.5 mm
+                                       for 402.6 keV decay gamma
+           (MISC2) Summing correction factor at 56.5 mm
+                                       for 845.4 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA       ERR-T      MISC1      MISC2
+MB         MB         NO-DIM     NO-DIM
+   11.6         0.5     1.004      1.000
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        21999021   20150921   20160603   20160523       2245
+BIB                  5          6
+REACTION   (37-RB-87(N,2N)37-RB-86,,SIG)
+SAMPLE     (37-RB-87,NAT=0.2783)
+DECAY-DATA (37-RB-86-G,18.7D,DG,1076.6,0.0878)
+MISC-COL   (MISC) Summing correction factor at 56.5 mm
+                                       for 1076.6 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-T      MISC
+MB         MB         NO-DIM
+   1350.      42.       1.000
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21999022   20150921   20160603   20160523       2245
+BIB                  5         16
+REACTION  1((38-SR-86(N,2N)38-SR-85-M,,SIG)+
+           (38-SR-84(N,G)38-SR-85-M,,SIG,,RAB))
+           The cross section value was calculated taking the
+            abundance of the first mentioned isotope.
+          2((38-SR-86(N,2N)38-SR-85-M,,SIG,,FCT)+
+           (38-SR-84(N,G)38-SR-85-M,,SIG,,FCT)) -elemental cr.sect
+           divided by the isotopic abundances of 86Sr and 84Sr
+SAMPLE     (38-SR-86,NAT=0.0986)
+           (38-SR-84,NAT=0.0056)
+DECAY-DATA (38-SR-85-M,67.7MIN,DG,231.9,0.844,DG,151.2,0.128)
+MISC-COL   (MISC1) Summing correction factor at 56.5 mm
+                                       for 231.9 keV decay gamma
+           (MISC2) Summing correction factor at 56.5 mm
+                                       for 151.2 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+           SF8=RAB added in REACTION code.
+ENDBIB              16
+NOCOMMON             0          0
+DATA                 6          1
+DATA      1ERR-T     1DATA      2ERR-T     2MISC1      MISC2
+MB         MB         MB         MB         NO-DIM     NO-DIM
+    225.          7.    213.        6.        1.000      1.000
+ENDDATA              3
+ENDSUBENT           24
+SUBENT        21999023   20150921   20160603   20160523       2245
+BIB                  5          8
+REACTION   (38-SR-88(N,A)36-KR-85-M,,SIG)
+SAMPLE     (38-SR-88,NAT=0.8258)
+DECAY-DATA (36-KR-85-M,4.48HR,DG,151.2,0.750,DG,304.9,0.140)
+MISC-COL   (MISC1) Summing correction factor at 56.5 mm
+                                       for 151.2 keV decay gamma
+           (MISC2) Summing correction factor at 56.5 mm
+                                       for 304.9 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA       ERR-T      MISC1      MISC2
+MB         MB         NO-DIM     NO-DIM
+       1.52     0.09   1.000       1.000
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        21999024   20150921   20160603   20160523       2245
+BIB                  5         14
+REACTION  1((38-SR-88(N,2N)38-SR-87-M,,SIG)+
+           (38-SR-86(N,G)38-SR-87-M,,SIG,,RAB))
+           The cross section value was calculated taking the
+            abundance of the first mentioned isotope.
+          2((38-SR-88(N,2N)38-SR-87-M,,SIG,,FCT)+
+           (38-SR-86(N,G)38-SR-87-M,,SIG,,FCT)) -elemental cr.sect
+           divided by the isotopic abundances of 88Sr and 86Sr
+SAMPLE     (38-SR-88,NAT=0.8258)
+           (38-SR-86,NAT=0.0986)
+DECAY-DATA (38-SR-87-M,2.81HR,DG,388.4,0.818)
+MISC-COL   (MISC) Summing correction factor at 56.5 mm
+                                       for 388.4 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+           SF8=RAB added in REACTION code.
+ENDBIB              14
+NOCOMMON             0          0
+DATA                 5          1
+DATA      1ERR-T     1DATA      2ERR-T     2MISC
+MB         MB         MB         MB         NO-DIM
+      268.         8.       239.        7.    1.000
+ENDDATA              3
+ENDSUBENT           22
+SUBENT        21999025   20150921   20160603   20160523       2245
+BIB                  5          6
+REACTION   (40-ZR-96(N,G)40-ZR-97,,SIG)
+SAMPLE     (40-ZR-96,NAT=0.0267)
+DECAY-DATA (40-ZR-97,16.8HR,DG,743.4,0.926)
+MISC-COL   (MISC) Summing correction factor at 56.5 mm
+                                       for 743.4 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-T      MISC
+MB         MB         NO-DIM
+    0.12      0.01      1.000
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21999026   20150921   20160603   20160523       2245
+BIB                  5          6
+REACTION   (42-MO-92(N,P)41-NB-92-M,,SIG)
+SAMPLE     (42-MO-92,NAT=0.1484)
+DECAY-DATA (41-NB-92-M,10.15D,DG,934.5,0.991)
+MISC-COL   (MISC) Summing correction factor at 56.5 mm
+                                       for 934.5 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-T      MISC
+MB         MB         NO-DIM
+      74.         4.    1.000
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21999027   20150921   20160603   20160523       2245
+BIB                  5          6
+REACTION   (42-MO-92(N,A)40-ZR-89,,SIG)
+SAMPLE     (42-MO-92,NAT=0.1484)
+DECAY-DATA (40-ZR-89-G,78.4HR,DG,909.2,0.990)
+MISC-COL   (MISC) Summing correction factor at 56.5 mm
+                                       for 909.2 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-T      MISC
+MB         MB         NO-DIM
+      26.          2.   1.005
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21999028   20150921   20160603   20160523       2245
+BIB                  5          9
+REACTION   (42-MO-92(N,2N)42-MO-91,,SIG)
+SAMPLE     (42-MO-92,NAT=0.1484)
+DECAY-DATA (42-MO-91-G,15.5MIN,DG,1637.3,0.00329,
+                               DG,1581.5,0.00226)
+MISC-COL   (MISC1) Summing correction factor at 56.5 mm
+                                       for 1637.3 keV decay gamma
+           (MISC2) Summing correction factor at 56.5 mm
+                                       for 1581.5 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 4          1
+DATA       ERR-T      MISC1      MISC2
+MB         MB         NO-DIM     NO-DIM
+     190.     10.       1.000      1.000
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        21999029   20150921   20160603   20160523       2245
+BIB                  5          8
+REACTION   (42-MO-96(N,P)41-NB-96,,SIG)
+SAMPLE     (42-MO-96,NAT=0.1668)
+DECAY-DATA (41-NB-96,23.4HR,DG,778.2,0.960,DG,568.9,0.557)
+MISC-COL   (MISC1) Summing correction factor at 56.5 mm
+                                       for 778.2 keV decay gamma
+           (MISC2) Summing correction factor at 56.5 mm
+                                       for 568.9 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA       ERR-T      MISC1      MISC2
+MB         MB         NO-DIM     NO-DIM
+    19.         1.      1.046      1.044
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        21999030   20150921   20160603   20160523       2245
+BIB                  5          6
+REACTION   (42-MO-97(N,P)41-NB-97,,SIG)
+SAMPLE     (42-MO-97,NAT=0.0955)
+DECAY-DATA (41-NB-97-G,74.MIN,DG,657.9,0.985)
+MISC-COL   (MISC) Summing correction factor at 56.5 mm
+                                       for 657.9 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-T      MISC
+MB         MB         NO-DIM
+   18.8       0.9       1.000
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21999031   20150921   20160603   20160523       2245
+BIB                  5          8
+REACTION   (42-MO-98(N,P)41-NB-98-M,,SIG)
+SAMPLE     (42-MO-98,NAT=0.2413)
+DECAY-DATA (41-NB-98-M,51.MIN,DG,787.4,0.930,DG,722.7,0.707)
+MISC-COL   (MISC1) Summing correction factor at 56.5 mm
+                                       for 787.4 keV decay gamma
+           (MISC2) Summing correction factor at 56.5 mm
+                                       for 722.7 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA       ERR-T      MISC1      MISC2
+MB         MB         NO-DIM     NO-DIM
+         4.     0.2     1.042      1.044
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        21999032   20150921   20160603   20160523       2245
+BIB                  5          6
+REACTION   (49-IN-115(N,A)47-AG-112,,SIG)
+SAMPLE     (49-IN-115,NAT=0.957)
+DECAY-DATA (47-AG-112,3.12HR,DG,617.4,0.425)
+MISC-COL   (MISC) Summing correction factor at 56.5 mm
+                                       for 617.4 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-T      MISC
+MB         MB         NO-DIM
+        2.4     0.2     1.010
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21999033   20150921   20160603   20160523       2245
+BIB                  4          5
+REACTION   (49-IN-115(N,INL)49-IN-115-M,,SIG)
+SAMPLE     (49-IN-115,NAT=0.957)
+STATUS     (TABLE) Data from Tbl. I of INDC(GER)-28,32,1985
+            (data were not presented in GKSS-86/E/29).
+HISTORY    (20150921U) SD: SAMPLE, STATUS were added.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+   90.5         4.5
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        21999034   20150921   20160603   20160523       2245
+BIB                  5          8
+REACTION   (51-SB-121(N,2N)51-SB-120-M,,SIG)
+SAMPLE     (51-SB-121,NAT=0.573)
+DECAY-DATA (51-SB-120-M,5.76D,DG,197.3,0.880,DG,1023.3,0.990)
+MISC-COL   (MISC1) Summing correction factor at 56.5 mm
+                                       for 197.3 keV decay gamma
+           (MISC2) Summing correction factor at 56.5 mm
+                                       for 1023.3 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA       ERR-T      MISC1      MISC2
+MB         MB         NO-DIM     NO-DIM
+    546.     20.        1.059      1.063
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        21999035   20150921   20160603   20160523       2245
+BIB                  5          6
+REACTION   (56-BA-132(N,2N)56-BA-131-M,,SIG)
+SAMPLE     (56-BA-132,NAT=0.101)
+DECAY-DATA (56-BA-131-M,14.5MIN,DG,108.5,0.552)
+MISC-COL   (MISC) Summing correction factor at 56.5 mm
+                                       for 108.5 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-T      MISC
+MB         MB         NO-DIM
+     489.     30.       1.006
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21999036   20150921   20160603   20160523       2245
+BIB                  5          6
+REACTION   (56-BA-134(N,2N)56-BA-133-M,,SIG)
+SAMPLE     (56-BA-134,NAT=0.02417)
+DECAY-DATA (56-BA-133-M,38.9HR,DG,276.1,0.175)
+MISC-COL   (MISC) Summing correction factor at 56.5 mm
+                                       for 276.1 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-T      MISC
+MB         MB         NO-DIM
+   788.       41.       1.002
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21999037   20150921   20160603   20160523       2245
+BIB                  5          8
+REACTION   (56-BA-136(N,P)55-CS-136,,SIG)
+SAMPLE     (56-BA-136,NAT=0.07854)
+DECAY-DATA (55-CS-136-G,13.16D,DG,818.5,0.997,DG,1048.1,0.797)
+MISC-COL   (MISC1) Summing correction factor at 56.5 mm
+                                       for 818.5 keV decay gamma
+           (MISC2) Summing correction factor at 56.5 mm
+                                       for 1048.1 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA       ERR-T      MISC1      MISC2
+MB         MB         NO-DIM     NO-DIM
+       7.75    0.38    1.046       1.047
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        21999038   20150921   20160603   20160523       2245
+BIB                  5          6
+REACTION   (56-BA-136(N,2N)56-BA-135-M,,SIG)
+SAMPLE     (56-BA-136,NAT=0.07854)
+DECAY-DATA (56-BA-135-M,28.7HR,DG,268.2,0.156)
+MISC-COL   (MISC) Summing correction factor at 56.5 mm
+                                       for 268.2 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-T      MISC
+MB         MB         NO-DIM
+   1180.        79.     1.000
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21999039   20150921   20160603   20160523       2245
+BIB                  5          6
+REACTION   (56-BA-138(N,A)54-XE-135,,SIG)
+SAMPLE     (56-BA-138,NAT=0.7170)
+DECAY-DATA (54-XE-135-G,9.10HR,DG,249.8,0.904)
+MISC-COL   (MISC) Summing correction factor at 56.5 mm
+                                       for 249.8 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-T      MISC
+MB         MB         NO-DIM
+       2.51    0.11     1.000
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21999040   20150921   20160603   20160523       2245
+BIB                  4          5
+REACTION   (56-BA-138(N,G)56-BA-139,,SIG)
+SAMPLE     (56-BA-138,NAT=0.7170)
+STATUS     (TABLE) Data from Tbl. I of INDC(GER)-28,32,1985
+            (data were not presented in GKSS-86/E/29).
+HISTORY    (20150921U) SD: SAMPLE, STATUS were added.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+        3.3     0.6
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        21999041   20150921   20160603   20160523       2245
+BIB                  5          6
+REACTION   (82-PB-204(N,2N)82-PB-203-M1,,SIG)
+SAMPLE     (82-PB-204,NAT=0.014)
+DECAY-DATA (82-PB-203-M1,6.2SEC,DG,825.2,0.714)
+MISC-COL   (MISC) Summing correction factor at 56.5 mm
+                                       for 825.2 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-T      MISC
+MB         MB         NO-DIM
+   1110.        60.     1.000
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21999042   20150921   20160603   20160523       2245
+BIB                  5          6
+REACTION   (82-PB-204(N,2N)82-PB-203,,SIG)
+SAMPLE     (82-PB-204,NAT=0.014)
+DECAY-DATA (82-PB-203-G,51.9HR,DG,279.2,0.801)
+MISC-COL   (MISC) Summing correction factor at 56.5 mm
+                                       for 279.2 keV decay gamma
+HISTORY    (20150921U) SD: DECAY-DATA, SAMPLE,MISC were added.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-T      MISC
+MB         MB         NO-DIM
+   1860.      95.       1.001
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21999043   20150921   20160603   20160523       2245
+BIB                  5          6
+REACTION   (5-B-11(N,P)4-BE-11,,SIG)
+SAMPLE     (5-B-11,NAT=0.800)
+DECAY-DATA (4-BE-11,13.8SEC,DG,2124.8,0.33)
+MISC-COL   (MISC) Summing correction factor at 56.5 mm
+                                       for 2124.8 keV decay gamma
+HISTORY    (20150921C) SD
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+DATA       ERR-T      MISC
+MB         MB         NO-DIM
+   4.2           0.2    1.002
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21999044   20150921   20160603   20160523       2245
+BIB                  5          6
+REACTION   (56-BA-130(N,2N)56-BA-129-M,,SIG)
+SAMPLE     (56-BA-130,NAT=0.106)
+DECAY-DATA (56-BA-129-M,2.13HR,DG,182.3,0.47,DG,202.3,0.16)
+COMMENT     Summing correction factor was not presented.
+            The level population of the decay scheme is unknown.
+HISTORY    (20150921C) SD
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-T
+MB         MB
+   728.           73.
+ENDDATA              3
+ENDSUBENT           14
+ENDENTRY            44

@@ -1,0 +1,224 @@
+ENTRY            23337   20170412   20170614   20170613       2259
+SUBENT        23337001   20170412   20170614   20170613       2259
+BIB                 16         77
+TITLE      Stellar (n,gamma) cross sections of 23Na
+AUTHOR     (E.Uberseder, M.Heil, F.Kaeppeler, C.Lederer,A.Mengoni,
+           S.Bisterzo, M.Pignatari, M.Wiescher)
+REFERENCE  (J,PR/C,95,025803,2017)
+           #doi:10.1103/PhysRevC.95.025803
+INSTITUTE  (2GERKFK) E.Uberseder,F.Kaeppeler
+           (2GERGSI) M.Heil
+           (2UK EDG) C.Lederer
+           (2ITYBOL) A.Mengoni
+           (2ITYTUR) S.Bisterzo
+           (2UK UK)  University of Hull, HU6 7RX, United Kingdom .
+                     M.Pignatari
+           (1USANOT) M.Wiescher
+FACILITY   (VDG,2GERKFK)  3.7 MV Van de Graaff accelerator
+INC-SOURCE (P-LI7) Li-7(p,n)Be-7 reaction (threshold 1881keV):
+            - Li target was produced by evaporation 30micrometer
+           of Li onto a water-cooled copper backing;
+           proton beam energy 1912 keV.
+              O-18(p,n)F-18 reaction ( threshold 2574 keV):
+            - Oxygen target consisted of a 0.2-mm-thick tantalum
+           disk with an oxide layer ~2micrometer in thickness,
+           which was produced by electrolysis of water with 95%
+           enrichment in 18-O;
+           proton energy 2582 keV.
+           Proton beam current  typically 100 microA in all
+           irradiations.
+INC-SPECT    Quasistellar neutron spectra at kT = 5.1 and 25 keV,
+            respectively.
+SAMPLE     Samples were prepared from NaCl (99.99% pure) pressed
+           into cylindrical pellets 6, 8, 10, 15 mm in diameter
+           with varying thickness.
+           Water content was checked by heating a quantity of the
+           NaCl at 250 degC for 2 hr, showing that the sample mass
+           before and after heating differed by less than 0.01%.
+           Uncertainties of Na samples mass less than 0.05 mg.
+            Gold foils of 0.03mm thickness were fixed to the front
+           and back of the samples during irradiation.
+           Sample Diameter,mm Sample mass,mg Au foil mass,mg
+                              NaCl    Na     Upstream Downstream
+           Na-1     6.        54.06   21.27    16.49    16.40
+           Na-2     8.        82.67   32.52    27.92    28.47
+           Na-3    10.        88.28   34.73    45.36    43.54
+           Na-4    10.        232.4   91.42    43.92    44.07
+           Na-5    10.        307.6   121.0    43.80    42.98
+           Na-6    15.        500.1   196.7    97.76    98.47
+            Gold foils as monitors.
+METHOD     (ACTIV)  At kT=25 keV
+           Sample  Irradiation,hr   Waiting,min   Measurement,hr
+           Na-1    16.3             34.7            8.56
+           Na-2    21.0             26.8           10.0
+           Na-3    24.7             33.0            5.00
+           Na-4    13.8              7.20          72.7
+           Na-5    17.6              3.00          21.6
+           Na-6    19.6              4.00          22.2
+DETECTOR   (GLASD) Li glass detector for neutron flux of kT=25keV
+            measurement; placed at 831 mm from the target.
+            ZnS detector - for kT=5.1 keV .
+           (HPGE) High purity Ge detector of 39 cm3 - to measure
+           induced activity for kT=25 keV.
+            Two HPGe clover detectors - to measure the induced
+            activity for kT=5.1 keV .
+                        Gamma detection efficiency,%
+                       kT=5.1keV        kT=25keV
+            Na-24      6.94+-0.10       0.048+-0.001
+            Au-198     20.6+-0.3        0.224+-0.01
+DECAY-DATA (11-NA-24,14.9590HR,DG,1368.63,1.0000)
+             14.9590+-0.0012 hr , 100.00+-0.00 %
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG,,SPA)
+            Cross section averaged over exp.spectra were
+           calculated using the evaluate CS from JEFF-3.2 .
+DECAY-MON  (79-AU-198-G,2.69517D,DG,411.80,0.9558)
+             2.69517+-0.00021 days, 95.58+-0.12 %
+CORRECTION  For decay during irradiation.
+            For self-absorption, summing,sample size effect.
+REL-REF    (R,,P.M.Endt+,J,NP/A,633,1,1998) Half-life of Na-24
+           (R,,Z.Chunmei,J,NDS,95,59,2002)  Half-life of Au-198
+HISTORY    (20170412C)  M.M.
+ENDBIB              77
+NOCOMMON             0          0
+ENDSUBENT           80
+SUBENT        23337002   20170412   20170614   20170613       2259
+BIB                  4         24
+REACTION  1(11-NA-23(N,G)11-NA-24,,SIG,,SPA)
+          2(11-NA-23(N,G)11-NA-24,,SIG,,SPA)
+          3(11-NA-23(N,G)11-NA-24,,SIG,,SPA)
+          4(11-NA-23(N,G)11-NA-24,,SIG,,SPA)
+           Average for experimental quasi-stellar neutron spectrum
+SAMPLE    1   Sample Na-4
+          2   Sample Na-5
+          3   Sample Na-6
+          4   Average for 3 samples.
+ERR-ANALYS (ERR-S) Statistical error
+           (ERR-SYS) Systematical uncertainty
+                    Sources of systematic uncertainty:
+           (ERR-1) Time and decay factors for Au
+           (ERR-2) Time and decay factors for Na
+           (ERR-3) Sample atoms for Au
+           (ERR-4,,0.1) Sample atoms for Na
+           (ERR-5) Detector peak efficiency for Au
+           (ERR-6) Detector peak efficiency for Na
+           (ERR-7) Intensity of gamma-decay branch for Au
+           (ERR-8,,0.1) Intensity of gamma-decay branch for Na
+           (ERR-9) Neutron flux
+           (MONIT-ERR) Au cross section 2.0 %
+STATUS     (TABLE) Table IV (data), Table V (errors) of
+            J,PR/C,95,025803,2017
+ENDBIB              24
+COMMON              10          6
+KT         MONIT      MONIT-ERR  ERR-1      ERR-2      ERR-3
+ERR-5      ERR-6      ERR-7      ERR-9
+KEV        MB         MB         PER-CENT   PER-CENT   PER-CENT
+PER-CENT   PER-CENT   PER-CENT   PER-CENT
+ 5.1        1922.      70.        0.5        0.5        0.1
+ 1.5        1.5        0.1        3.8
+ENDCOMMON            6
+DATA                12          1
+DATA      1ERR-S     1ERR-SYS   1DATA      2ERR-S     2ERR-SYS   2
+DATA      3ERR-S     3ERR-SYS   3DATA      4ERR-S     4ERR-SYS   4
+MB         MB         MB         MB         MB         MB
+MB         MB         MB         MB         MB         MB
+ 9.03       0.28       0.26       8.94       0.27       0.14
+  9.33       0.29       0.14       9.10       0.28       0.11
+ENDDATA              6
+ENDSUBENT           42
+SUBENT        23337003   20170412   20170614   20170613       2259
+BIB                  4         26
+REACTION  1(11-NA-23(N,G)11-NA-24,,SIG,,SPA)
+          2(11-NA-23(N,G)11-NA-24,,SIG,,SPA)
+          3(11-NA-23(N,G)11-NA-24,,SIG,,SPA)
+          4(11-NA-23(N,G)11-NA-24,,SIG,,SPA)
+           Average for experimental quasi-stellar neutron spectrum
+SAMPLE    1   Sample Na-1
+          2   Sample Na-2
+          3   Sample Na-3
+          4   Average for 3 samples.
+ERR-ANALYS (ERR-S) Statistical error
+           (ERR-SYS) Systematical uncertainty
+                    Scoures of systematic uncertainty:
+           (ERR-1) Time and decay factors for Au
+           (ERR-2) Time and decay factors for Na
+           (ERR-3) Sample atoms for Au
+           (ERR-4) Sample atoms for Na
+           (ERR-5,,0.1) Self-absorption for Au
+           (ERR-6,,0.1) Self-absorption for Na
+           (ERR-7) Detector peak efficiency for Au
+           (ERR-8) Detector peak efficiency for Na
+           (ERR-9) Intensity of gamma-decay branch for Au
+           (ERR-10,,0.1) Intensity of gamma-decay branch for Na
+           (ERR-11) Neutron flux
+           (MONIT-ERR) Au cross section 1.4 %
+STATUS     (TABLE) Table IV (data), Table V (errors) of
+            J,PR/C,95,025803,2017
+ENDBIB              26
+COMMON              11          6
+KT         MONIT      MONIT-ERR  ERR-1      ERR-2      ERR-3
+ERR-4      ERR-7      ERR-8      ERR-9      ERR-11
+KEV        MB         MB         PER-CENT   PER-CENT   PER-CENT
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
+ 25.        637.       13.        0.6        0.5        0.2
+  0.1        1.5         1.5       0.1        2.1
+ENDCOMMON            6
+DATA                12          1
+DATA      1ERR-S     1ERR-SYS   1DATA      2ERR-S     2ERR-SYS   2
+DATA      3ERR-S     3ERR-SYS   3DATA      4ERR-S     4ERR-SYS   4
+MB         MB         MB         MB         MB         MB
+MB         MB         MB         MB         MB         MB
+ 2.05       0.06       0.02       2.02       0.05       0.01
+  2.03       0.05       0.01       2.03       0.05       0.01
+ENDDATA              6
+ENDSUBENT           44
+SUBENT        23337004   20170412   20170614   20170613       2259
+BIB                  5         18
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG,,MXW)
+CORRECTION  For pure Maxwellian spectra .
+ERR-ANALYS (DATA-ERR) Total error. See details in Subents 002,003.
+ADD-RES      MACS were derived from measured CS using code SAMMY
+            and ENDF/B-VII,1 data library.
+            kT,keV    MACS,mb
+            10.         4.12
+            15.         2.83
+            20.         2.30
+            30.         1.80
+            40.         1.55
+            50.         1.40
+            60.         1.30
+            80.         1.16
+           100.         1.05
+STATUS     (TABLE) Table VI of J,PR/C,95,025803,2017
+           (DEP,23337002)  Measured CS
+           (DEP,23337993)  Measured CS
+ENDBIB              18
+NOCOMMON             0          0
+DATA                 3          2
+KT         DATA       DATA-ERR
+KEV        MB         MB
+  5.        10.1       0.4
+ 25.         2.00      0.05
+ENDDATA              4
+ENDSUBENT           27
+SUBENT        23337005   20170412   20170614   20170613       2259
+BIB                  4         11
+REACTION   (11-NA-23(N,G),,WID)
+ANALYSIS    Resonance width was obtained by the fit of measured CS
+            using the R-matrix code SAMMY, resonances from
+            ENDF/B-VII.1 library, s-wave direct radiative capture
+           component ( 170mb at thermal energy).
+ERR-ANALYS (DATA-ERR) Uncertainty determined by variation of the
+           SAMMY code fit to match the uncertainty of measured
+           cross sections.
+STATUS     (TABLE) Text,page 5 of J,PR/C,95,025803,2017
+           (DEP,23337002)  Measured CS
+           (DEP,23337993)  Measured CS
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 3          1
+EN-RES     DATA       DATA-ERR
+KEV        MILLI-EV   MILLI-EV
+  2.8       245.       8.
+ENDDATA              3
+ENDSUBENT           19
+ENDENTRY             5

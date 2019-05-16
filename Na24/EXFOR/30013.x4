@@ -1,0 +1,141 @@
+ENTRY            30013   20070806   20070924   20070920       3123
+SUBENT        30013001   20070806   20070924   20070920       3123
+BIB                 13         26
+INSTITUTE  (3INDBOS)
+REFERENCE  (J,NP,83,157,1966) Experimental details and data table.
+           (C,65CALCUTTA,,145,1965) Error analysis and data table.
+           (P,AEET-267,62,196608) Summary with data table.
+           (P,AEET-NP-10,14,1964) Abstract.
+           (C,63BOMBAY,,169,196302) preliminary data.
+AUTHOR     (B.Mitra, A.M.Ghose)
+TITLE       (n,p) cross sections of some low Z nuclei for 14.8 MeV
+           neutrons.
+FACILITY   (CCW) 250 kV  Cockcroft-Walton accelerator.
+INC-SOURCE (D-T) Deuteron-tritium.
+METHOD     (ACTIV) Activation technique. Beta and gamma measured.
+DETECTOR   (PROPC) 2.4 mg/cm2 end-window beta-counter.
+           (NAICR) 5.1 cm * 1.9 cm sodium-iodide crystal.
+           (SCIN) Heavily biased plastic scintillation counter
+           used as neutron flux monitor.
+MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG)
+PART-DET   (DG) gammas.
+           (B-) decay beta-.
+STATUS     (TABLE) Data from Nucl.Phys.83 157, Tabl 2, 7/66
+           and AEET-267 62, table I, 8/66.
+HISTORY    (19691001C)
+           (20070731A) BIB sect.updated+Dates convert.+lower case
+ERR-ANALYS (DATA-ERR) Error quoted in the data table combines
+           statistical and systematic errors. Detailed error
+           analysis is given in Nucl.Phys. 83 157, 7/66.
+ENDBIB              26
+COMMON               4          3
+EN         EN-ERR     MONIT      MONIT-ERR
+MEV        MEV        MB         MB
+ 1.4800E+01 1.0000E-01 5.3000E+02 2.5000E+01
+ENDCOMMON            3
+ENDSUBENT           33
+SUBENT        30013002   20070806   20070924   20070920       3123
+BIB                  3          3
+REACTION   (8-O-16(N,P)7-N-16,,SIG)
+SAMPLE     Powder samples of CuO, Al2O3 and oxalic acid.
+HISTORY    (19700331T) Previously DASTAR-01096.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 4.0100E+01 2.7000E+00
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30013003   20070806   20070924   20070920       3123
+BIB                  3          3
+REACTION   (9-F-19(N,P)8-O-19,,SIG)
+SAMPLE     Teflon ribbons of unknown purity.
+HISTORY    (19700331T) Previously DASTAR-01096.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 2.3300E+01 2.8000E+00
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30013004   20070806   20070924   20070920       3123
+BIB                  3          4
+REACTION   (11-NA-23(N,P)10-NE-23,,SIG)
+SAMPLE     Sodium azide (NaN3), sodium chloride and sodium
+           carbonate.
+HISTORY    (19700331T) Previously DASTAR-01096.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 4.1800E+01 2.8000E+00
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        30013005   20070806   20070924   20070920       3123
+BIB                  3          3
+REACTION   (13-AL-27(N,P)12-MG-27,,SIG)
+SAMPLE     Aluminum foils and powder sample of Al2O3.
+HISTORY    (19700331T) Previously DASTAR-01096.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 9.7000E+01 1.0000E+01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30013006   20070806   20070924   20070920       3123
+BIB                  3          3
+REACTION   (14-SI-28(N,P)13-AL-28,,SIG)
+SAMPLE     Silicon sample was obtained by powdering quartz.
+HISTORY    (19700331T) Previously DASTAR-01096.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 2.2200E+02 1.2000E+01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30013007   20070806   20070924   20070920       3123
+BIB                  3          3
+REACTION   (23-V-51(N,P)22-TI-51,,SIG)
+SAMPLE     Vanadium oxide and thin V-foil samples.
+HISTORY    (19700331T) Previously DASTAR-01096.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 2.4700E+01 2.2000E+00
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30013008   20070806   20070924   20070920       3123
+BIB                  3          3
+REACTION   (24-CR-52(N,P)23-V-52,,SIG)
+SAMPLE     Chromium oxide and Cr-metal of fine grain.
+HISTORY    (19700331T) Previously DASTAR-01096.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 8.2800E+01 5.8000E+00
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        30013009   20070806   20070924   20070920       3123
+BIB                  2          2
+REACTION   (25-MN-55(N,P)24-CR-55,,SIG)
+HISTORY    (19700805C) Data compiled,taken from tbl.I,AEET-267,66.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 5.9500E+01 5.9000E+00
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY             9

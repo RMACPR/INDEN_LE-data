@@ -1,0 +1,390 @@
+ENTRY            30562   20090505   20090724   20090724       3137
+SUBENT        30562001   20090505   20090724   20090724       3137
+BIB                 11         27
+TITLE      Investigations of (n,p), (n,a) and (n,2n) reactions
+           around 14 MeV
+AUTHOR     (P.N.Ngoc,S.Gueth,F.Deak,A.Kiss)
+INSTITUTE  (3HUNELU)
+REFERENCE  (T,NGOC,1980)Thesis abstract,prelim.results of
+                          all reactions
+FACILITY   (CCW,3HUNELU)
+INC-SOURCE (D-T)
+METHOD     (ACTIV,MOMIX). Monitor and sample powders mixed,except
+           for Cu and Ni (foils sandwiched between Al foils)
+PART-DET   (DG)
+DETECTOR   (GELI)
+ERR-ANALYS (ERR-T) Error includes (in %) errors due to
+              .statistics (less than 0.5)
+           (ERR-1) Photo peak efficiency (4.)
+           (ERR-2) Self-absorption correction (1.)
+           (ERR-3) Sample weighing, homogenous mixing, timing (2.)
+              .standard cross sections
+HISTORY    (19811028C) OS.
+           (19850710A) DG.-Subentry 30562019 added.-
+           (19860603U) DG.-New reference added.-
+           (19880307U) TMK. Cosmetic changes in BIB section.
+           (19880527A) TMK. Reaction coding in subent is corrected
+           (19880908U) TMK. Moved ref. from BIB section to proper
+                     subentries.
+           (20090503A) SD:Updated to new date formats,lower case,
+                       made formal corrections.
+ENDBIB              27
+COMMON               3          3
+ERR-1      ERR-2      ERR-3
+PER-CENT   PER-CENT   PER-CENT
+  4.0        1.0        2.0
+ENDCOMMON            3
+ENDSUBENT           34
+SUBENT        30562002   20090505   20090724   20090724       3137
+BIB                  5          7
+REACTION   (9-F-19(N,P)8-O-19,,SIG)
+REFERENCE  (C,80KIEV,1,259,198009) In Russian
+DECAY-DATA (8-O-19,28.91SEC,DG,197.4)
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+           (26-FE-56(N,P)25-MN-56,,SIG)
+STATUS     (TABLE) Data taken from Proc. of 1980 Kiev Conf.,
+                                                     Vol.1,259.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        MB         MB
+14.6       0.2        15.3       1.2
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30562003   20090505   20090724   20090724       3137
+BIB                  5          9
+REACTION   (13-AL-27(N,P)12-MG-27,,SIG)
+REFERENCE  (C,79SMOLENIC,,415,197906) Table only, no information
+                                    on experim. details
+DECAY-DATA (12-MG-27,9.48MIN,DG,843.76,0.72,
+                             DG,1014.40,0.28)
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+STATUS     (TABLE) Data taken from Proceed.2.Int.Symp.on Neutron-
+           Induced Reactions, Smolenice,CSSR,25-29 June 1979,
+           publ.as 'Physics and Applications'vol.6,p.415,Table 2.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        MB         MB
+14.6       0.2        73.5       4.5
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        30562004   20090505   20090724   20090724       3137
+BIB                  6          6
+REACTION   (14-SI-28(N,P)13-AL-28,,SIG)
+REFERENCE  (S,ZFK-410,192,1980) Detail information and data given
+DECAY-DATA (13-AL-28,2.31MIN,DG,1778.8,1.)
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+MONIT-REF  (20111003,H.VONACH+,J,ZP,237,155,197009)
+STATUS     (TABLE) Data taken from Conf.Rept.ZFK-410,p.192,Table 1
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-RSL     DATA       ERR-T      MONIT
+MEV        MEV        MB         MB         MB
+14.6       0.2        234.       15.        114.2
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30562005   20090505   20090724   20090724       3137
+BIB                  6          7
+REACTION   (14-SI-29(N,P)13-AL-29,,SIG)
+REFERENCE  (S,ZFK-410,192,198001)Detail information and data given
+DECAY-DATA (13-AL-29,6.6MIN,DG,1273.,0.91)
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+MONIT-REF  (20111003,H.VONACH,J,ZP,237,155,197009)
+STATUS     (TABLE) Data taken from Conf.Rept.ZFK-410,p.192,Table 1
+           ==Note== Ngoc's thesis gives value 102 +- 8 mb.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-RSL     DATA       ERR-T      MONIT
+MEV        MEV        MB         MB         MB
+14.6       0.2        104.       8.         114.2
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30562006   20090505   20090724   20090724       3137
+BIB                  6         10
+REACTION   (16-S-34(N,P)15-P-34,,SIG)
+REFERENCE  (S,ZFK-410,192,198001)Detail information and data given
+DECAY-DATA (15-P-34,12.4SEC,DG,2128.,0.25)
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+MONIT-REF  (20111003,H.VONACH+,J,ZP,237,155,197009)
+STATUS     (TABLE) Data taken from Conf.Rept.ZFK-410,p.192,Table 1
+           ===Note===
+           Value given in ngoc's thesis is 120 +- 9 mb.
+           Compiler considers 72.4 +- 5.2 mb more likely to be
+           the final value.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-RSL     DATA       ERR-T      MONIT
+MEV        MEV        MB         MB         MB
+14.6       0.2        72.4       5.2        114.2
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        30562007   20090505   20090724   20090724       3137
+BIB                  6          7
+REACTION   (17-CL-37(N,P)16-S-37,,SIG)
+REFERENCE  (S,ZFK-410,192,198001)Detail information and data given
+DECAY-DATA (16-S-37,5.06MIN,DG,3102.4,0.90)
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+MONIT-REF  (20111003,H.VONACH+,J,ZP,237,155,197009)
+STATUS     (TABLE) Data taken from Conf.Rept.ZFK-410,p.192,Table 1
+           ==Note== Ngoc's thesis gives value 33.3 +- 2.7 mb.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-RSL     DATA       ERR-T      MONIT
+MEV        MEV        MB         MB         MB
+14.6       0.2        34.        3.         114.2
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30562008   20090505   20090724   20090724       3137
+BIB                  5          9
+REACTION   (23-V-51(N,P)22-TI-51,,SIG)
+REFERENCE  (C,79SMOLENIC,,415,197906) Table only, no information
+                                   on experim. details.
+DECAY-DATA (22-TI-51,5.79MIN,DG,320.,0.95,
+                             DG,928.5,0.05)
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+STATUS     (TABLE) Data taken from Proceed.2.Int.Symp.on Neutron-
+           Induced Reactions, Smolenice,CSSR,publ.as 'Physics and
+           Applications' vol.6,(25-29 June 1979),p.415,Table 2.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        MB         MB
+14.6       0.2        31.        2.
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        30562009   20090505   20090724   20090724       3137
+BIB                  6          7
+REACTION   (9-F-19(N,A)7-N-16,,SIG)
+REFERENCE  (C,80KIEV,1,259,198009) In Russian
+DECAY-DATA (7-N-16,7.2SEC,DG,6128.)
+MONITOR    (8-O-16(N,P)7-N-16,,SIG)
+MONIT-REF  (11411002,J.A.DE JUREN+,J,PR,120,901,196011)
+STATUS     (TABLE) Data taken from Proceed.of 1980 Kiev Conf.,
+                                                     Vol.1,p.259.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+EN         EN-RSL     DATA       ERR-T      MONIT      MONIT-ERR
+MEV        MEV        MB         MB         MB         MB
+14.6       0.2        18.9       1.9        39.2       1.6
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30562010   20090505   20090724   20090724       3137
+BIB                  6          7
+REACTION   (11-NA-23(N,A)9-F-20,,SIG)
+REFERENCE  (S,ZFK-410,192,198001)Detail information and data given
+DECAY-DATA (9-F-20,11.41SEC,DG,1633.1,1.)
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+MONIT-REF  (20111003,H.VONACH+,J,ZP,237,155,197009)
+STATUS     (TABLE) Data taken from Conf.Rept.ZFK-410,p.192,Table 1
+           ==Note== Ngoc's thesis gives value 109 +- 9 mb.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-RSL     DATA       ERR-T      MONIT
+MEV        MEV        MB         MB         MB
+14.6       0.2        111.       9.         114.2
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30562011   20090505   20090724   20090724       3137
+BIB                  6          7
+REACTION   (17-CL-37(N,A)15-P-34,,SIG)
+REFERENCE  (S,ZFK-410,192,198001)Detail information and data given
+DECAY-DATA (15-P-34,12.4SEC,DG,2128.,0.25)
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+MONIT-REF  (20111003,H.VONACH+,J,ZP,237,155,197009)
+STATUS     (TABLE) Data taken from Conf.Rept.ZFK-410,p.192,Table 1
+           ==Note== Ngoc's thesis gives value 25.8 +- 1.9 mb.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-RSL     DATA       ERR-T      MONIT
+MEV        MEV        MB         MB         MB
+14.6       0.2        26.3       1.9        114.2
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30562012   20090505   20090724   20090724       3137
+BIB                  5          8
+REACTION   (25-MN-55(N,A)23-V-52,,SIG)
+REFERENCE  (C,79SMOLENIC,,415,197906) Table only, no information
+                                    on experim. details
+DECAY-DATA (23-V-52,3.75MIN,DG,1434.2,1.)
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+STATUS     (TABLE) Data taken from Proceed.2.Int.Symp.on Neutron-
+           Induced Reactions, Smolenice,CSSR,25-29 June 1979,publ.
+           as 'Physics and Applications' vol.6,p.415,Table 2.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        MB         MB
+14.6       0.2        25.2       1.7
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        30562013   20090505   20090724   20090724       3137
+BIB                  5          8
+REACTION   (13-AL-27(N,2N)13-AL-26-M,,SIG)
+REFERENCE  (C,79SMOLENIC,,415,197906) Table only, no information
+                                    on experim. details
+DECAY-DATA (13-AL-26-M,6.37SEC,AR,511.,2.)
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+STATUS     (TABLE) Data taken from Proceed.2.Int.Symp.on Neutron-
+           Induced Reactions, Smolenice,CSSR,25-29 June 1979,publ.
+           as 'Physics and Applications', vol.6,p.415,Table 2.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        MB         MB
+14.6       0.2        0.119      0.02
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        30562014   20090505   20090724   20090724       3137
+BIB                  5          7
+REACTION   (82-PB-208(N,2N)82-PB-207-M,,SIG)
+REFERENCE  (C,80KIEV,1,259,198009) in Russian
+DECAY-DATA (82-PB-207-M,0.8SEC,DG,569.7,,
+                               DG,1063.)
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+STATUS     (TABLE) Data taken from Proceed.of 1980 Kiev Conf.,
+                                                    Vol.1, p.259.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        MB         MB
+14.6       0.2        1274.      97.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30562015   20090505   20090724   20090724       3137
+BIB                  5         10
+REACTION   (28-NI-58(N,P)27-CO-58,,SIG)
+REFERENCE  (J,NKA,29,87,1984) Detail information, some data
+                            misprint in Table 2.
+           (P,INDC(HUN)-20,3,198303) Data given in Table, some
+                                   data misprint
+           (P,INDC(HUN)-18,11,198105) Abstract, no data
+           (C,80KIEV,1,259,198009) in Russian
+DECAY-DATA (27-CO-58-G,71.3D,DG,811.)
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+STATUS     (TABLE) Data taken from P.N.Ngoc, thesis abstract.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 4          6
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        MB         MB
+13.55      0.12       411.       29.
+13.77      0.12       386.       35.
+14.08      0.11       352.       33.
+14.40      0.13       340.       31.
+14.62      0.14       318.       26.
+14.71      0.14       295.       23.
+ENDDATA              8
+ENDSUBENT           23
+SUBENT        30562016   20090505   20090724   20090724       3137
+BIB                  5         10
+REACTION   (28-NI-58(N,2N)28-NI-57,,SIG)
+REFERENCE  (J,NKA,29,87,1984) Detail information, some data
+                            misprint in Table 2.
+           (P,INDC(HUN)-20,3,198303) data given in Table,
+                                   some data misprint
+           (C,80KIEV,1,259,198009) in Russian
+           (P,INDC(HUN)-18,11,198105) abstract, no data
+DECAY-DATA (28-NI-57,36.HR,DG,1377.)
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+STATUS     (TABLE) Data taken from P.N.Ngoc, thesis abstract.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 4          6
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        MB         MB
+13.55      0.12       11.9       1.1
+13.77      0.12       15.9       1.2
+14.08      0.11       20.8       1.8
+14.40      0.13       27.0       2.1
+14.62      0.14       30.1       2.4
+14.71      0.14       31.2       2.3
+ENDDATA              8
+ENDSUBENT           23
+SUBENT        30562017   20090505   20090724   20090724       3137
+BIB                  5         10
+REACTION   (29-CU-65(N,P)28-NI-65,,SIG)
+REFERENCE  (J,NKA,29,87,1984) Detail information, some data
+                           misprint in Table 2.
+           (P,INDC(HUN)-20,3,198303) Data given in Table, some
+                                   data misprint
+           (C,80KIEV,1,259,198009) in Russian
+           (P,INDC(HUN)-18,11,198105) Abstract, no data
+DECAY-DATA (28-NI-65,2.56HR,DG,1481.)
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+STATUS     (TABLE) Data taken from P.N.Ngoc, thesis abstract.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 4          6
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        MB         MB
+13.55      0.12       27.9       3.4
+13.77      0.12       26.2       2.4
+14.08      0.11       25.3       3.2
+14.40      0.13       24.6       3.1
+14.62      0.14       24.1       2.6
+14.71      0.14       23.0       2.2
+ENDDATA              8
+ENDSUBENT           23
+SUBENT        30562018   20090505   20090724   20090724       3137
+BIB                  5         10
+REACTION   (29-CU-65(N,2N)29-CU-64,,SIG)
+REFERENCE  (J,NKA,29,87,1984) Detail information, some data
+                            misprint in Table 2
+           (P,INDC(HUN)-20,3,198303) Data given in Table, some
+                                 data misprint
+           (C,80KIEV,1,259,198009) in Russian
+           (P,INDC(HUN)-18,11,198105) Abstract, no data
+DECAY-DATA (29-CU-64,12.8HR)
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+STATUS     (TABLE) Data taken from P.N.Ngoc, thesis abstract.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 4          6
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        MB         MB
+13.55      0.12       841.       54.
+13.77      0.12       853.       54.
+14.08      0.11       875.       59.
+14.40      0.13       908.       52.
+14.62      0.14       930.       62.
+14.71      0.14       954.       58.
+ENDDATA              8
+ENDSUBENT           23
+SUBENT        30562019   20090505   20090724   20090724       3137
+BIB                  4          8
+REACTION   (26-FE-56(N,P)25-MN-56,,SIG)
+REFERENCE  (J,NKA,29,87,1984) Detail information, some data
+                            misprint in Table 2
+           (P,INDC(HUN)-20,3,198303) Data given in Table, some
+                                   data misprint
+           (P,INDC(HUN)-18,11,198105) Abstract, no data
+MONITOR    No information is available
+STATUS     (TABLE) Data from P,INDC(HUN)-20,3,1983.Tab.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          6
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        MB         MB
+13.55      0.12       107.0      9.5
+13.77      0.12       100.4      8.6
+14.08      0.11        99.0      7.7
+14.40      0.13       101.6      9.0
+14.62      0.14        96.6      8.2
+14.71      0.14        91.3      7.3
+ENDDATA              8
+ENDSUBENT           21
+ENDENTRY            19

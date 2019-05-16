@@ -1,0 +1,109 @@
+ENTRY            11268     810428              20050926       0000
+SUBENT        11268001     810428              20050926       0000
+BIB                  7         10
+INSTITUTE  (1USATNC)
+REFERENCE  (J,BAP,5,246(HA5),6004)
+           (R,AFSWC-TR-60-30,60)
+AUTHOR     (J.H.MC CRARY,I.L.MORGAN)
+TITLE       (N,2N) CROSS SECTIONS OF N-14, F-19, CU-63, CU-65 AND
+            SB-121 IN THE ENERGY REGION OF 13.5 MEV TO 15.2 MEV.
+METHOD     (ACTIV)
+STATUS     (SCSRS)
+HISTORY    (761001T) TRANSLATED FROM SCISRS
+           (810428A) CONVERTED TO REACTION FORMALISM
+ENDBIB              10
+NOCOMMON             0          0
+ENDSUBENT           13
+SUBENT        11268002     810428              20050926       0000
+BIB                  2          2
+REACTION   (7-N-14(N,2N)7-N-13,,SIG)
+PART-DET   (AR) ANNIHILATION RADIATION
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          8
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.320  +01 4.32   -03 4.3    -04
+ 1.359  +01 5.58   -03 5.6    -04
+ 1.385  +01 5.52   -03 5.5    -04
+ 1.414  +01 7.02   -03 7.0    -04
+ 1.443  +01 7.45   -03 7.5    -04
+ 1.471  +01 8.34   -03 8.3    -04
+ 1.495  +01 9.27   -03 9.3    -04
+ 1.534  +01 1.11   -02 1.1    -03
+ENDDATA             10
+ENDSUBENT           17
+SUBENT        11268003     810428              20050926       0000
+BIB                  2          2
+REACTION   (9-F-19(N,2N)9-F-18,,SIG)
+PART-DET   (AR) ANNIHILATION RADIATION
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          8
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.320  +01 3.87   -02 3.9    -03
+ 1.359  +01 4.60   -02 4.6    -03
+ 1.385  +01 4.98   -02 5.0    -03
+ 1.414  +01 5.64   -02 5.6    -03
+ 1.443  +01 6.13   -02 6.1    -03
+ 1.471  +01 6.84   -02 6.8    -03
+ 1.495  +01 7.51   -02 7.5    -03
+ 1.534  +01 8.29   -02 8.3    -03
+ENDDATA             10
+ENDSUBENT           17
+SUBENT        11268004     810428              20050926       0000
+BIB                  1          1
+REACTION   (29-CU-63(N,2N)29-CU-62,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          8
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.320  +01 4.99   -01 5.0    -02
+ 1.359  +01 5.85   -01 5.9    -02
+ 1.385  +01 6.87   -01 6.9    -02
+ 1.414  +01 6.43   -01 6.4    -02
+ 1.443  +01 7.00   -01 7.0    -02
+ 1.471  +01 7.68   -01 7.7    -02
+ 1.495  +01 9.60   -01 9.6    -02
+ 1.534  +01 9.45   -01 9.5    -02
+ENDDATA             10
+ENDSUBENT           16
+SUBENT        11268005     810428              20050926       0000
+BIB                  1          1
+REACTION   (29-CU-65(N,2N)29-CU-64,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          8
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.320  +01 1.250  +00 1.30   -01
+ 1.359  +01 1.360  +00 1.40   -01
+ 1.385  +01 1.420  +00 1.40   -01
+ 1.414  +01 1.340  +00 1.30   -01
+ 1.443  +01 1.500  +00 1.50   -01
+ 1.471  +01 1.710  +00 1.70   -01
+ 1.495  +01 1.620  +00 1.60   -01
+ 1.534  +01 1.740  +00 1.70   -01
+ENDDATA             10
+ENDSUBENT           16
+SUBENT        11268006     810428              20050926       0000
+BIB                  1          1
+REACTION   (51-SB-121(N,2N)51-SB-120,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          8
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.320  +01 1.29   +00 1.3    -01
+ 1.359  +01 1.36   +00 1.4    -01
+ 1.385  +01 1.33   +00 1.3    -01
+ 1.414  +01 1.31   +00 1.3    -01
+ 1.443  +01 1.37   +00 1.4    -01
+ 1.471  +01 1.40   +00 1.4    -01
+ 1.495  +01 1.45   +00 1.5    -01
+ 1.534  +01 1.51   +00 1.5    -01
+ENDDATA             10
+ENDSUBENT           16
+ENDENTRY             6

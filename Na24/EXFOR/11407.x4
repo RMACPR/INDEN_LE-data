@@ -1,0 +1,491 @@
+ENTRY            11407   20091005   20100128   20100119       1357
+SUBENT        11407001   20091005   20100128   20100119       1357
+BIB                  9         14
+INSTITUTE  (1USAORL)
+REFERENCE  (J,PR,114,1619,1959)
+AUTHOR     (W.S.Lyon,R.L.Macklin)
+TITLE      Neutron activation at 195 keV.
+INC-SOURCE (PHOTO) Rd-Th capsule in D2O cell, inside a thin,
+                   uniform In shell.
+DETECTOR   (NAICR)
+METHOD     (ACTIV)
+STATUS     (SCSRS)
+HISTORY    (19761016T) Translated from SCISRS
+           (19820813A) Converted to reaction formalism
+           (19840730A) BIB corrections.
+           (20091005A) VM:Updated to new date formats,lower case.
+                       BIB updates.
+ENDBIB              14
+COMMON               3          3
+EN         EN-RSL     MONIT-ERR
+KEV        KEV        MB
+ 195.       50.        10.
+ENDCOMMON            3
+ENDSUBENT           21
+SUBENT        11407002   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG)
+DECAY-DATA (11-NA-24,,DG,1380.,1.0)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 7.     -04 2.     -04 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407003   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (23-V-51(N,G)23-V-52,,SIG)
+DECAY-DATA (23-V-52,,DG,1450.,1.00)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 7.0    -03 7.     -04 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407004   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (25-MN-55(N,G)25-MN-56,,SIG)
+DECAY-DATA (25-MN-56,,DG,820.,1.0)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 1.1    -02 1.     -03 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407005   20091005   20100128   20100119       1357
+BIB                  3          3
+REACTION   (29-CU-63(N,G)29-CU-64,,SIG)
+DECAY-DATA (29-CU-64,,DG,510.,0.38)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 4.2    -02 6.     -03 195.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11407006   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (29-CU-65(N,G)29-CU-66,,SIG)
+DECAY-DATA (29-CU-66,,DG,1040.,0.10)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 1.4    -02 3.     -03 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407007   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (31-GA-71(N,G)31-GA-72,,SIG)
+DECAY-DATA (31-GA-72,,DG,2500.,0.30)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 5.3    -02 3.     -03 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407008   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (32-GE-74(N,G)32-GE-75,,SIG)
+DECAY-DATA (32-GE-75-G,,DG,270.,0.11)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 1.9    -02 2.     -03 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407009   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (33-AS-75(N,G)33-AS-76,,SIG)
+DECAY-DATA (33-AS-76,,DG,550.,0.45)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 1.50   -01 1.5    -02 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407010   20091005   20100128   20100119       1357
+BIB                  4          5
+REACTION   (35-BR-81(N,G)35-BR-82,,SIG)
+SAMPLE     Lump CBr4 sample.
+DECAY-DATA (35-BR-82-G,,DG,1030.,0.26)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+           Based on in115 capture=195mb(to 54min
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 1.37   -01 1.5    -02 195.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11407011   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (40-ZR-94(N,G)40-ZR-95,,SIG)
+DECAY-DATA (40-ZR-95,,DG,750.,0.97)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 4.2    -02 8.     -03 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407012   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (40-ZR-96(N,G)40-ZR-97,,SIG)
+DECAY-DATA (41-NB-97-G,,DG,660.,1.0)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 7.     -03 2.     -03 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407013   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (42-MO-98(N,G)42-MO-99,,SIG)
+DECAY-DATA (42-MO-99,,DG,140./180.,0.72)
+MONITOR    (49-IN-115(N,INL)49-IN-115-M,,SIG,G)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 3.0    -02 6.     -03 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407014   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (42-MO-100(N,G)42-MO-101,,SIG)
+DECAY-DATA (43-TC-101,,DG,300.,1.00)
+MONITOR    (49-IN-115(N,INL)49-IN-115-M,,SIG,G)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 2.7    -02 6.     -03 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407015   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (44-RU-96(N,G)44-RU-97,,SIG)
+DECAY-DATA (44-RU-97,,DG,220.,0.92)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 1.40   -01 2.8    -02 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407016   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (44-RU-102(N,G)44-RU-103,,SIG)
+DECAY-DATA (44-RU-103,,DG,500.,0.90)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 1.90   -01 2.5    -02 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407017   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (44-RU-104(N,G)44-RU-105,,SIG)
+DECAY-DATA (44-RU-105,,DG,730.,1.00)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 2.8    -02 5.     -03 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407018   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (46-PD-108(N,G)46-PD-109,,SIG)
+DECAY-DATA (46-PD-109-G,,DG,88.,0.046)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 7.7    -02 8.     -03 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407019   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (47-AG-107(N,G)47-AG-108,,SIG)
+DECAY-DATA (47-AG-108-G,,DG,610.,0.023)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 2.90   -01 6.0    -02 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407020   20091005   20100128   20100119       1357
+BIB                  3          5
+REACTION   (49-IN-115(N,G)49-IN-116-M1+M2,,SIG)
+DECAY-DATA (49-IN-116-M1,54.MIN,DG,1280.,0.848)
+HISTORY    (19860612A) Bib update.
+           (19860910A) Bib update.
+           (20091005A) SUM removed from Reaction quantity.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.95   -01 1.0    -02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11407021   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (51-SB-121(N,G)51-SB-122,,SIG)
+DECAY-DATA (51-SB-122-G,,DG,570.,0.66)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 4.00   -01 4.0    -02 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407022   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (51-SB-123(N,G)51-SB-124,,SIG)
+DECAY-DATA (51-SB-124-G,,DG,600.,1.00)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 2.80   -01 3.0    -02 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407023   20091005   20100128   20100119       1357
+BIB                  5          5
+REACTION   (53-I-127(N,G)53-I-128,,SIG)
+DECAY-DATA (53-I-128,,DG,460.,0.17)
+SAMPLE      NaIO3 sample.
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 1.75   -01 1.5    -02 195.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11407024   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (56-BA-138(N,G)56-BA-139,,SIG)
+DECAY-DATA (56-BA-139,,DG,170.,0.23)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 3.2    -03 3.     -04 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407025   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (57-LA-139(N,G)57-LA-140,,SIG)
+DECAY-DATA (57-LA-140,,DG,1600.,0.88)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 1.0    -02 2.     -03 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407026   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (58-CE-142(N,G)58-CE-143,,SIG)
+DECAY-DATA (58-CE-143,,DG,290.,0.43)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 2.2    -02 5.     -03 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407027   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (59-PR-141(N,G)59-PR-142,,SIG)
+DECAY-DATA (59-PR-142-G,,DG,1590.,0.04)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 3.8    -02 4.     -03 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407028   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (62-SM-152(N,G)62-SM-153,,SIG)
+DECAY-DATA (62-SM-153,,DG,105.,0.36)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 1.50   -01 2.0    -02 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407029   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (64-GD-158(N,G)64-GD-159,,SIG)
+DECAY-DATA (64-GD-159,,DG,360.,0.12)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 1.11   -01 1.5    -02 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407030   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (74-W-186(N,G)74-W-187,,SIG)
+DECAY-DATA (74-W-187,,DG,690.,0.29)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 1.00   -01 2.0    -02 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407031   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (76-OS-190(N,G)76-OS-191,,SIG)
+DECAY-DATA (76-OS-191-G,,DG,130.,0.22)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 2.00   -01 3.0    -02 195.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11407032   20091005   20100128   20100119       1357
+BIB                  5          5
+REACTION   (79-AU-197(N,G)79-AU-198,,SIG)
+SAMPLE      AuCN sample.
+DECAY-DATA (79-AU-198-G,,DG,410.,0.95)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 3.20   -01 2.0    -02 195.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11407033   20091005   20100128   20100119       1357
+BIB                  5          5
+REACTION   (80-HG-202(N,G)80-HG-203,,SIG)
+SAMPLE     Hg2Cl2 sample.
+DECAY-DATA (80-HG-203,,DG,280.,0.83)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 3.2    -02 5.     -03 195.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11407034   20091005   20100128   20100119       1357
+BIB                  4          4
+REACTION   (92-U-238(N,G)92-U-239,,SIG)
+DECAY-DATA (93-NP-239,,DG,210./270.)
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)
+DECAY-MON  (49-IN-116-M,54.MIN,DG,1028.,0.848)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+DATA       DATA-ERR   MONIT
+B          B          MB
+ 1.20   -01 1.7    -02 195.
+ENDDATA              3
+ENDSUBENT           12
+ENDENTRY            34

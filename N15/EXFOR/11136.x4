@@ -1,0 +1,277 @@
+ENTRY            11136     800814              20050926       0000
+SUBENT        11136001     800814              20050926       0000
+BIB                  7          8
+INSTITUTE  (1USACOL)
+REFERENCE  (J,PR,56,260,3908)
+AUTHOR     (W.H.ZINN,S.SEELY,V.W.COHEN)
+TITLE      COLLISION CROSS SECTION FOR D-D NEUTRONS.
+DETECTOR   HE RECOIL IONIZATION CHAMBER
+STATUS     (SCSRS)
+HISTORY    (760924T) TRANSLATED FROM SCISRS
+           (800814A) CONVERTED TO REACTION FORMALISM
+ENDBIB               8
+NOCOMMON             0          0
+ENDSUBENT           11
+SUBENT        11136002     800814              20050926       0000
+BIB                  2          2
+REACTION   (1-H-1(N,TOT),,SIG)
+SAMPLE     PARAFFIN (C(22)-H(46)) SAMPLE
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.88   +00 4.     -02 2.32   +00 9.0    -01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11136003     800814              20050926       0000
+BIB                  1          1
+REACTION   (1-H-2(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.88   +00 4.     -02 2.17   +00 8.0    -01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11136004     800814              20050926       0000
+BIB                  1          1
+REACTION   (5-B-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.88   +00 4.     -02 1.98   +00 7.0    -02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11136005     800814              20050926       0000
+BIB                  1          1
+REACTION   (6-C-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          2
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.46   +00            1.37   +00 5.     -02
+ 2.88   +00 4.     -02 1.97   +00 7.0    -01
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        11136006     800814              20050926       0000
+BIB                  1          1
+REACTION   (7-N-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          2
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.46   +00            1.40   +00 6.     -02
+ 2.88   +00 4.     -02 1.38   +00 6.0    -01
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        11136007     800814              20050926       0000
+BIB                  1          1
+REACTION   (8-O-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          2
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.46   +00            1.05   +00 3.     -02
+ 2.88   +00 4.     -02 1.25   +00 5.0    -01
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        11136008     800814              20050926       0000
+BIB                  1          1
+REACTION   (11-NA-23(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          2
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.46   +00            2.70   +00 1.6    -01
+ 2.88   +00 4.     -02 2.37   +00 9.0    -01
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        11136009     800814              20050926       0000
+BIB                  1          1
+REACTION   (12-MG-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.88   +00 4.     -02 2.25   +00 7.0    -01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11136010     800814              20050926       0000
+BIB                  1          1
+REACTION   (13-AL-27(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          2
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.46   +00            2.99   +00 7.     -02
+ 2.88   +00 4.     -02 2.34   +00 7.0    -01
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        11136011     800814              20050926       0000
+BIB                  1          1
+REACTION   (14-SI-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.88   +00 4.     -02 2.77   +00 8.0    -01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11136012     800814              20050926       0000
+BIB                  1          1
+REACTION   (16-S-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          2
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.46   +00            2.77   +00 1.4    -01
+ 2.88   +00 4.     -02 3.12   +00 1.5    -01
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        11136013     800814              20050926       0000
+BIB                  1          1
+REACTION   (17-CL-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.88   +00 4.     -02 3.42   +00 1.6    -01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11136014     800814              20050926       0000
+BIB                  1          1
+REACTION   (19-K-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          2
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.46   +00            3.44   +00 1.8    -01
+ 2.88   +00 4.     -02 3.13   +00 1.5    -01
+ENDDATA              4
+ENDSUBENT           10
+SUBENT        11136015     800814              20050926       0000
+BIB                  2          2
+REACTION   (1-H-1(N,TOT),,SIG)
+SAMPLE     H2O SAMPLE
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 2.88   +00 4.     -02 2.40   +00 9.     -02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11136016     800814              20050926       0000
+BIB                  1          1
+REACTION   (25-MN-55(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.88   +00 3.82   +00 1.2    -01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11136017     800814              20050926       0000
+BIB                  1          1
+REACTION   (26-FE-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.88   +00 3.15   +00 1.0    -01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11136018     800814              20050926       0000
+BIB                  1          1
+REACTION   (29-CU-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.88   +00 2.82   +00 1.0    -01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11136019     800814              20050926       0000
+BIB                  1          1
+REACTION   (30-ZN-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.88   +00 3.28   +00 1.0    -01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11136020     800814              20050926       0000
+BIB                  1          1
+REACTION   (34-SE-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.88   +00 4.05   +00 1.6    -01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11136021     800814              20050926       0000
+BIB                  1          1
+REACTION   (42-MO-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.88   +00 4.06   +00 1.4    -01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11136022     800814              20050926       0000
+BIB                  1          1
+REACTION   (50-SN-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.88   +00 4.39   +00 1.6    -01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11136023     800814              20050926       0000
+BIB                  1          1
+REACTION   (80-HG-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.88   +00 5.34   +00 2.0    -01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11136024     800814              20050926       0000
+BIB                  1          1
+REACTION   (82-PB-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 2.88   +00 6.74   +00 2.4    -01
+ENDDATA              3
+ENDSUBENT            9
+ENDENTRY            24

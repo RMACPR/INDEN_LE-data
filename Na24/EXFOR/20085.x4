@@ -1,0 +1,75 @@
+ENTRY            20085     830901              20050926       0000
+SUBENT        20085001     830901              20050926       0000
+BIB                 13         20
+INSTITUTE  (2AUSIRK)
+REFERENCE  (J,OAW,176,45,6703)
+AUTHOR     (F.FLESCH,P.HILLE)
+TITLE      -GENERATION OF SOME SHORT LIVING ACTIVITIES WITH
+            14 MEV NEUTRONS AND MEASUREMENT OF THE ACTIVATION
+            CROSS-SECTION.- (IN GERMAN).
+FACILITY   (CCW)      COCKCROFT-WALTON ACCELERATOR, 200 KEV,
+            WITH RABBIT TUBE SYSTEM.
+INC-SOURCE (D-T)      DEUTERON-TRITIUM
+METHOD     (ACTIV)    ACTIVATION
+DETECTOR   (NAICR)    SODIUM-IODIDE CRYSTAL
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+              AT 14.7+-0.1 MEV, SIGMA =
+            117 MILLIB. +- 5 PER-CENT.
+STATUS                DATA FROM PUBLICATION.
+           (APRVD)    DATA AND COMMENT APPROVED BY THE AUTHOR.
+HISTORY    (701027T)  FROM NEUDADA FILE
+           (710908E)
+CORRECTION .DEAD TIME, ABSORPTION, EFFICIENCY OF NAI-CRYSTAL.
+ERR-ANALYS .QUADRATICAL COMPOUND
+ENDBIB              20
+COMMON               2          3
+EN         EN-RSL
+MEV        MEV
+ 1.4700E+01 1.0000E-01
+ENDCOMMON            3
+ENDSUBENT           27
+SUBENT        20085002     830901              20050926       0000
+BIB                  4          5
+REACTION   (5-B-11(N,P)4-BE-11,,SIG)
+PART-DET   (DG)       DECAY GAMMAS 2.12 MEV.
+COMMENT    .HALF-LIFE OF BE-11 T1/2 = (13.60+-0.42) SEC. MEASURED.
+HISTORY    (701027T)  FROM NEUDADA FILE
+           (710908E)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 5.1000E-03 1.8000E+01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        20085003     830901              20050926       0000
+BIB                  3          4
+REACTION   (11-NA-23(N,P)10-NE-23,,SIG)
+PART-DET   (DG)       DECAY GAMMAS 0.44 MEV.
+HISTORY    (701027T)  FROM NEUDADA FILE
+           (710908E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 4.4000E-02 2.1000E+01
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        20085004     830901              20050926       0000
+BIB                  4          5
+REACTION   (11-NA-23(N,A)9-F-20,,SIG)
+PART-DET   (DG)       DECAY GAMMAS 1.63 MEV.
+COMMENT    .HALF-LIFE OF F-20  T1/2 = (10.81+-0.11) SEC. MEASURED.
+HISTORY    (701027T)  FROM NEUDADA FILE
+           (710908E)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          PER-CENT
+ 1.4100E-01 1.5000E+01
+ENDDATA              3
+ENDSUBENT           13
+ENDENTRY             4

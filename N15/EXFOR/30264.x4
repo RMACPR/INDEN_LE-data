@@ -1,0 +1,703 @@
+ENTRY            30264   20130429   20130621   20130613       3159
+SUBENT        30264001   20130429   20130621   20130613       3159
+BIB                 14         32
+TITLE      Investigation of the (n,2n) reactions at 14.6 MeV
+AUTHOR     (J.Araminowicz, J.Dresler)
+INSTITUTE  (3POLLOU)
+REFERENCE  (P,INR-1464,14,1973) Brief report, table, graph
+EXP-YEAR   (1972)
+MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG)
+FACILITY   (ACCEL) Cascade electrostatic accelerator
+INC-SOURCE (D-T) T(d,n)alpha reaction.
+           The neutron flux was monitored by a semiconductor
+            silicon detector which counted the alpha particles.
+           During the activation the neutron flux was kept
+            constant within 2%.
+METHOD     (ACTIV) Activation method
+PART-DET   (DG) The reaction products were identified by their
+            gamma transitions and the least square analysis of
+            the decay curves.
+           No decay data given except for half-lives.
+DETECTOR   (NAICR) NaI(Tl) scintillator associated with a 128
+            channel analyser.
+ERR-ANALYS (ERR-S) Statistical errors only
+STATUS     (TABLE) Data taken from INR-1464(1973)14.
+           (APRVD) Approved by Araminowicz (12 May 1974)
+HISTORY    (19731115C) CA.
+           (19740613U) CA. Spelling error in subent 1 corrected.
+            Status APRVD added.
+           (19891116A) VOF. ISO-QUANT changed by REACTION.
+            Formalism STANDARD changed by MONITOR.
+           (19930120A) HW. Subentry 041: data outdated and bib
+            alterations.
+           (20080423A) BIB section updated
+           (20100303A) SD: Evaluator remark was added to Sub.003
+           (20130429U) On. Formal corrections only.
+ENDBIB              32
+COMMON               2          3
+EN         MONIT
+MEV        MB
+ 14.6       538.
+ENDCOMMON            3
+ENDSUBENT           39
+SUBENT        30264002   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (7-N-14(N,2N)7-N-13,,SIG)
+DECAY-DATA (7-N-13,9.89MIN) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+MIN
+ 0.48
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+8.1        0.7
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264003   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (9-F-19(N,2N)9-F-18,,SIG)
+DECAY-DATA (9-F-18,108.1MIN) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+MIN
+ 7.13
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+40.7       3.5
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264004   20081203   20090416   20090416       3132
+BIB                  1          1
+REACTION   (11-NA-23(N,2N)11-NA-22,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+16.5       3.0
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        30264005   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (15-P-31(N,2N)15-P-30,,SIG)
+DECAY-DATA (15-P-30,2.49MIN) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+MIN
+ 0.12
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+12.6       1.2
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264006   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (17-CL-35(N,2N)17-CL-34-M,,SIG)
+DECAY-DATA (17-CL-34-M,32.81MIN) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+MIN
+ 1.24
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+9.0        1.1
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264007   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (19-K-39(N,2N)19-K-38-G,,SIG)
+DECAY-DATA (19-K-38-G,7.61MIN) measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+MIN
+ 0.5
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+5.1        0.6
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264008   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (22-TI-46(N,2N)22-TI-45,,SIG)
+DECAY-DATA (22-TI-45,3.08HR) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+HR
+ 0.28
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+42.8       3.6
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264009   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (24-CR-50(N,2N)24-CR-49,,SIG)
+DECAY-DATA (24-CR-49,42.11MIN) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+MIN
+ 2.35
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+31.4       2.5
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264010   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (24-CR-52(N,2N)24-CR-51,,SIG)
+DECAY-DATA (24-CR-51,28.10D) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+D
+ 1.7
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+143.       17.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264011   20081203   20090416   20090416       3132
+BIB                  1          1
+REACTION   (25-MN-55(N,2N)25-MN-54,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+643.       65.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        30264012   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (26-FE-54(N,2N)26-FE-53,,SIG)
+DECAY-DATA (26-FE-53-G,8.86MIN) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+MIN
+ 0.95
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+26.5       2.6
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264013   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (27-CO-59(N,2N)27-CO-58,,SIG)
+DECAY-DATA (27-CO-58-G,71.83D) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+D
+ 6.12
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+663.       67.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264014   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (28-NI-58(N,2N)28-NI-57,,SIG)
+DECAY-DATA (28-NI-57,42.39HR) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+HR
+ 2.34
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+37.9       3.8
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264015   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (29-CU-65(N,2N)29-CU-64,,SIG)
+DECAY-DATA (29-CU-64,12.58HR) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+HR
+ 0.96
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+975.       63.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264016   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (30-ZN-64(N,2N)30-ZN-63,,SIG)
+DECAY-DATA (30-ZN-63,38.40MIN) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+MIN
+ 1.87
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+161.       12.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264017   20130429   20130621   20130613       3159
+BIB                  2          2
+REACTION   (30-ZN-66(N,2N)30-ZN-65,,SIG)
+HISTORY    (20130429A) On. REACTION(SF1,SF4) corrected
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+ 583.       50.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        30264018   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (31-GA-69(N,2N)31-GA-68,,SIG)
+DECAY-DATA (31-GA-68,68.02MIN) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+MIN
+ 3.43
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+908.       68.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264019   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (32-GE-70(N,2N)32-GE-69,,SIG)
+DECAY-DATA (32-GE-69,40.83HR) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+HR
+ 2.70
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+710.       58.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264020   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (32-GE-76(N,2N)32-GE-75,,SIG)
+DECAY-DATA (32-GE-75-G,81.79MIN) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+MIN
+ 5.24
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+937.       100.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264021   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (33-AS-75(N,2N)33-AS-74,,SIG)
+DECAY-DATA (33-AS-74,18.54D) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+D
+ 0.93
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+835.       72.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264022   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (35-BR-79(N,2N)35-BR-78,,SIG)
+DECAY-DATA (35-BR-78,6.37MIN) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+MIN
+ 0.28
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+942.       64.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264023   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (37-RB-85(N,2N)37-RB-84,,SIG)
+DECAY-DATA (37-RB-84-G,34.13D) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+D
+ 3.02
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+698.       72.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264024   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (37-RB-87(N,2N)37-RB-86,,SIG)
+DECAY-DATA (37-RB-86-G,19.42D) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+D
+ 2.11
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+855.       78.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264025   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (38-SR-86(N,2N)38-SR-85,,SIG)
+DECAY-DATA (38-SR-85-G,65.0D) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+D
+ 4.86
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+630.       70.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264026   20081203   20090416   20090416       3132
+BIB                  1          1
+REACTION   (39-Y-89(N,2N)39-Y-88,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+572.       65.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        30264027   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (40-ZR-90(N,2N)40-ZR-89,,SIG)
+DECAY-DATA (40-ZR-89-G,76.28HR) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+HR
+ 2.94
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+588.       55.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264028   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (40-ZR-96(N,2N)40-ZR-95,,SIG)
+DECAY-DATA (40-ZR-95,64.4D) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+D
+ 5.39
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+1297.      145.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264029   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (42-MO-92(N,2N)42-MO-91,,SIG)
+DECAY-DATA (42-MO-91-G,15.88MIN) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+MIN
+ 0.86
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+323.       27.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264030   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (42-MO-100(N,2N)42-MO-99,,SIG)
+DECAY-DATA (42-MO-99,66.78HR) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+HR
+ 7.33
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+1813.      160.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264031   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (46-PD-102(N,2N)46-PD-101,,SIG)
+DECAY-DATA (46-PD-101,8.76HR)
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+HR
+ 1.37
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+707.       165.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264032   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (47-AG-107(N,2N)47-AG-106-G,,SIG)
+DECAY-DATA (47-AG-106-G,24.02MIN) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+MIN
+ 0.95
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+992.       110.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264033   20100303   20100610   20100603       3144
+BIB                  4          6
+REACTION   (49-IN-113(N,2N)49-IN-112-G,M+,SIG)
+DECAY-DATA (49-IN-112-G,13.49MIN) Measured by author
+CRITIQUE   Evaluator's remark: Suspicious data. Value for cross
+           section and error more than 5 times large.
+HISTORY    (19891116A) VOF.- Reaction corrected -
+           (20100303A) SD: Evaluator remark was added.
+ENDBIB               6
+COMMON               1          3
+ERR-HL
+MIN
+ 1.46
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+1383.      100.
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        30264034   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (50-SN-112(N,2N)50-SN-111,,SIG)
+DECAY-DATA (50-SN-111,36.15MIN) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+MIN
+ 2.92
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+1326.      112.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264035   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (51-SB-121(N,2N)51-SB-120,,SIG)
+DECAY-DATA (51-SB-120-G,16.14MIN) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+MIN
+ 0.5
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+1364.      79.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264036   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (51-SB-123(N,2N)51-SB-122,,SIG)
+DECAY-DATA (51-SB-122-G,61.78HR) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+HR
+ 3.31
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+1451.      100.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264037   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (52-TE-130(N,2N)52-TE-129-G,,SIG)
+DECAY-DATA (52-TE-129-G,67.3MIN) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+MIN
+ 5.57
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+1325.      145.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264038   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (53-I-127(N,2N)53-I-126,,SIG)
+DECAY-DATA (53-I-126,11.95D) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+D
+ 0.62
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+1487.      160.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264039   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (55-CS-133(N,2N)55-CS-132,,SIG)
+DECAY-DATA (55-CS-132,6.79D) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+D
+ 0.18
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+1452.      95.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264040   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (59-PR-141(N,2N)59-PR-140,,SIG)
+DECAY-DATA (59-PR-140,3.34MIN) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+MIN
+ 0.1
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+1347.      115.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264041   20130429   20130621   20130613       3159
+BIB                  4          7
+REACTION   (73-TA-181(N,2N)73-TA-180-G,,SIG)
+DECAY-DATA (73-TA-180-G,8.05HR,DG)
+ADD-RES    (STRUC) T(1/2)=8.05+/-1.06 hrs measured by the authors
+HISTORY    (19891121U) VOF. Compiler's note added
+           (19930120A) HW.Metastable state extension deleted,
+            STATUS added.
+           (20130429A) On. REACTION(SF1,SF4) corrected. Data added
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+ 1988.      173.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        30264042   20081203   20090416   20090416       3132
+BIB                  2          2
+REACTION   (81-TL-203(N,2N)81-TL-202,,SIG)
+DECAY-DATA (81-TL-202,13.48D) Measured by author
+ENDBIB               2
+COMMON               1          3
+ERR-HL
+D
+ 0.88
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+1834.      105.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        30264043   20081203   20090416   20090416       3132
+BIB                  3          4
+REACTION   (82-PB-204(N,2N)82-PB-203,,SIG)
+DECAY-DATA (82-PB-203,55.00HR) Measured by author
+HISTORY    (20081210A) OS. Nuclide in Half-life/Decay-data entry
+             corrected (from Pb-205 to 203).
+ENDBIB               4
+COMMON               1          3
+ERR-HL
+HR
+ 5.33
+ENDCOMMON            3
+DATA                 2          1
+DATA       ERR-S
+MB         MB
+1796.      155.
+ENDDATA              3
+ENDSUBENT           16
+ENDENTRY            43

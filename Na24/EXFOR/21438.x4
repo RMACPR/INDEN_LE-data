@@ -1,0 +1,514 @@
+ENTRY            21438     801218              20050926       0000
+SUBENT        21438001     801218              20050926       0000
+BIB                 16         33
+INSTITUTE  (2UK ALD)
+REFERENCE  (J,PPS,72,505,58)
+AUTHOR     (J.L.PERKIN,L.P.O'CONNOR,R.F.COLEMAN)
+TITLE      -RADIATIVE CAPTURE CROSS SECTIONS FOR 14.5 MEV
+            NEUTRONS.-
+FACILITY   .NOT SPECIFIED.
+INC-SOURCE (D-T  ) 440 KEV DEUTERONS IMPINGING ON A TRITIATED ZR
+            TARGET.
+SAMPLE     .ABOUT 100 MG, SPECTROSCOPICALLY PURE CHEMICALS.
+            IN SOME CASES ANALYTICAL GRADE CHEMICALS.
+METHOD     (ACTIV) ACTIVATION ANALYSIS.
+           (CHSEP) CHEMICAL SEPERATION WAS NECESSARY IN MANY
+            CASES.
+DETECTOR   (GEMUC) END WINDOW GEIGER COUNTER, 2 IN. DIAM.,
+            CALIBRATED WITH A 4*PI BETA COUNTER.
+MONITOR    (1-H-3(D,N)2-HE-4,,SIG)
+PART-DET   (DG   ) DECAY GAMMAS.
+COMMENT    .NEUTRON FLUX MONITORING WITH THE AL-27(N,A) REACTION.
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., MONITOR REACTION STRING CORRECTED,
+            ERROR ANALYSIS CHANGED.
+           (801218E)
+CORRECTION .FOR LOW ENERGY NEUTRONS. THESE MAY ORIGINATE FROM
+            DIFFUSION OF THERMAL AND EPITHERMAL NEUTRONS FROM
+            WALLS (NEGLIGIBLE), INELASTIC SCATTERING FROM THE
+            VICINITY (0.5 PERC *SIG(1.MEV)/SIG(14.MEV)) AND FROM
+            D-D-NEUTRONS BY ACCUMULATION OF DEUTERIUM IN THE
+            TRITIUM-TARGET WITH TIME (0.5 PERC*SIG(1.MEV)/SIG(14.
+            MEV) FOR THE TIMES THE TARGET WAS USED BEFORE
+            REPLACEMENT).
+ERR-ANALYS (ERR-S) STANDARD DEVIATION IS GIVEN.
+ENDBIB              33
+COMMON               1          3
+EN
+MEV
+ 1.4500E+01
+ENDCOMMON            3
+ENDSUBENT           40
+SUBENT        21438002     801218              20050926       0000
+BIB                  3          7
+REACTION   (11-NA-23(N,G)11-NA-24,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., REACTION STRING CORRECTED, DATA
+            HEADINGS CHANGED.
+           (801218E)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 3.3000E-01 1.0000E+01
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        21438003     801218              20050926       0000
+BIB                  3          6
+REACTION   (12-MG-26(N,G)12-MG-27,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 2.0000E-01 2.5000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438004     801218              20050926       0000
+BIB                  3          6
+REACTION   (13-AL-27(N,G)13-AL-28,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 5.3000E-01 2.5000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438005     801218              20050926       0000
+BIB                  3          6
+REACTION   (14-SI-30(N,G)14-SI-31,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 4.9000E-01 1.0000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438006     801218              20050926       0000
+BIB                  3          6
+REACTION   (19-K-41(N,G)19-K-42,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 3.5000E+00 2.0000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438007     801218              20050926       0000
+BIB                  3          6
+REACTION   (22-TI-50(N,G)22-TI-51,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 3.5000E+00 3.0000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438008     801218              20050926       0000
+BIB                  3          6
+REACTION   (25-MN-55(N,G)25-MN-56,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 7.6000E-01 1.0000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438009     801218              20050926       0000
+BIB                  3          6
+REACTION   (29-CU-63(N,G)29-CU-64,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 2.5600E+00 1.5000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438010     801218              20050926       0000
+BIB                  3          6
+REACTION   (29-CU-65(N,G)29-CU-66,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 6.3000E+00 3.0000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438011     801218              20050926       0000
+BIB                  3          6
+REACTION   (31-GA-71(N,G)31-GA-72,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 1.9000E+00 1.0000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438012     801218              20050926       0000
+BIB                  3          6
+REACTION   (34-SE-82(N,G)34-SE-83-G,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 6.5000E-01 3.0000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438013     801218              20050926       0000
+BIB                  3          6
+REACTION   (35-BR-81(N,G)35-BR-82,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 3.5000E+00 2.5000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438014     801218              20050926       0000
+BIB                  3          6
+REACTION   (39-Y-89(N,G)39-Y-90,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 2.9000E+00 1.0000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438015     800318              20050926       0000
+BIB                  2          2
+REACTION   (40-ZR-96(N,G)40-ZR-97,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA-MAX
+MB
+ 4.0000E+00
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        21438016     801218              20050926       0000
+BIB                  3          6
+REACTION   (44-RU-104(N,G)44-RU-105,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 1.3600E+01 2.0000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438017     801218              20050926       0000
+BIB                  3          7
+REACTION   (46-PD-110(N,G)46-PD-111,,SIG)         MEASURED FROM
+            THE DECAY OF THE FORMED AG-111.
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 2.0000E+00 2.0000E+01
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        21438018     801218              20050926       0000
+BIB                  3          6
+REACTION   (53-I-127(N,G)53-I-128,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 2.5000E+00 2.0000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438019     801218              20050926       0000
+BIB                  3          6
+REACTION   (56-BA-138(N,G)56-BA-139,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 1.3000E+00 3.0000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438020     801218              20050926       0000
+BIB                  3          6
+REACTION   (57-LA-139(N,G)57-LA-140,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 1.4800E+00 1.0000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438021     800318              20050926       0000
+BIB                  2          2
+REACTION   (58-CE-142(N,G)58-CE-143,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA-MAX
+MB
+ 7.5000E+00
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        21438022     801218              20050926       0000
+BIB                  3          6
+REACTION   (59-PR-141(N,G)59-PR-142,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 3.3300E+00 1.0000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438023     801218              20050926       0000
+BIB                  3          6
+REACTION   (64-GD-160(N,G)64-GD-161,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 1.8500E+01 3.0000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438024     800318              20050926       0000
+BIB                  2          2
+REACTION   (67-HO-165(N,G)67-HO-166-G,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA-MAX
+MB
+ 9.4500E+00
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        21438025     801218              20050926       0000
+BIB                  3          6
+REACTION   (74-W-186(N,G)74-W-187,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 4.0000E+00 2.0000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438026     801218              20050926       0000
+BIB                  3          6
+REACTION   (78-PT-198(N,G)78-PT-199,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 1.7000E+00 2.0000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438027     801218              20050926       0000
+BIB                  3          6
+REACTION   (81-TL-205(N,G)81-TL-206,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 2.0000E+00 2.0000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438028     801218              20050926       0000
+BIB                  3          6
+REACTION   (82-PB-208(N,G)82-PB-209,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 3.0500E+00 1.5000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438029     801218              20050926       0000
+BIB                  3          6
+REACTION   (83-BI-209(N,G)83-BI-210-G,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 1.4500E+00 1.2000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438030     801218              20050926       0000
+BIB                  3          6
+REACTION   (90-TH-232(N,G)90-TH-233,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 5.2000E+00 1.2000E+01
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        21438031     801218              20050926       0000
+BIB                  3          6
+REACTION   (92-U-238(N,G)92-U-239,,SIG)
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.
+HISTORY    (800220T) G.C.
+           (800318E)
+           (801120A) G.C., DATA HEADINGS CHANGED.
+           (801218E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+MB         PER-CENT
+ 3.3000E+00 1.5000E+01
+ENDDATA              3
+ENDSUBENT           14
+ENDENTRY            31

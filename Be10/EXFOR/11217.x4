@@ -1,0 +1,221 @@
+ENTRY            11217   20170919   20180123   20180122       1435
+SUBENT        11217001   20170919   20180123   20180122       1435
+BIB                 11         28
+TITLE      Nonelastic Scattering Cross Sections for Fast Neutrons
+AUTHOR     (H.L.Taylor,O.Lonsjo,T.W.Bonner)
+REFERENCE  (J,PR,100,174,1955)
+           #doi:10.1103/PhysRev.100.174
+           (J,PR,101,1835(2),1956) Erratum.
+           #doi:10.1103/PhysRev.101.1835.2
+INSTITUTE  (1USARIC)
+FACILITY   (VDG,1USARIC) The Rice Institute Van de Graaff
+           accelerator.
+INC-SOURCE (P-T,D-D,D-T) Neutrons of 3.5 MeV were produced by
+           4.2-MeV protons from the T(p,n)He3 reaction at zero
+           degrees to the incident beam. The D(d,n)He3 reaction
+           was used as the source for the 4.7-MeV and 7.1-MeV
+           neutrons with bombarding energies of 1.47 and 3.8
+           MeV, respectively. The T(d,n)He3 reaction was used as
+           the source for 12.7-MeV and 14.1-MeV neutrons.
+DETECTOR   (SCIN) The neutron detectors were made of an organic
+           scintillator which gave light pulses from recoil
+           protons caused by neutron scattering in the
+           scintillator.
+METHOD     (SHELT) Spherical shell transmission.
+ERR-ANALYS (DATA-ERR) No details on sources of uncertainties.
+CORRECTION Corrected for multiple scattering.
+HISTORY    (19760929T) Translated from SCISRS.
+           (19800820A) Converted to reaction formalism.
+           (20170919A) BP: Updated the entry metadata, new date
+                       formats, lower case. Corrections according
+                       last EXFOR rules and Dict.
+ENDBIB              28
+NOCOMMON             0          0
+ENDSUBENT           31
+SUBENT        11217002   20170919   20180123   20180122       1435
+BIB                  2          2
+REACTION   (4-BE-9(N,NON),,SIG)
+STATUS     (TABLE) Table I, page 178 of J,PR,100,174,1955.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          2
+EN         DATA       DATA-ERR
+MEV        B          B
+   1.27E+01    4.9E-01     8.E-02
+   1.41E+01    3.7E-01     8.E-02
+ENDDATA              4
+ENDSUBENT           11
+SUBENT        11217003   20170919   20180123   20180122       1435
+BIB                  2          2
+REACTION   (6-C-0(N,NON),,SIG)
+STATUS     (TABLE) Table I, page 178 of J,PR,100,174,1955.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          2
+EN         DATA       DATA-ERR
+MEV        B          B
+   1.27E+01    5.6E-01    1.0E-01
+   1.41E+01    5.1E-01     8.E-02
+ENDDATA              4
+ENDSUBENT           11
+SUBENT        11217004   20170919   20180123   20180122       1435
+BIB                  2          2
+REACTION   (13-AL-27(N,NON),,SIG)
+STATUS     (TABLE) Table I, page 178 of J,PR,100,174,1955.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          5
+EN         DATA       DATA-ERR
+MEV        B          B
+        3.5    6.8E-01     5.E-02
+        4.7    7.0E-01     5.E-02
+        7.1    7.4E-01     5.E-02
+   1.27E+01       1.06     7.E-02
+   1.41E+01    9.1E-01     5.E-02
+ENDDATA              7
+ENDSUBENT           14
+SUBENT        11217005   20170919   20180123   20180122       1435
+BIB                  2          2
+REACTION   (22-TI-0(N,NON),,SIG)
+STATUS     (TABLE) Table I, page 178 of J,PR,100,174,1955.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          5
+EN         DATA       DATA-ERR
+MEV        B          B
+        3.5       1.24     5.E-02
+        4.7       1.32     6.E-02
+        7.1       1.21     4.E-02
+   1.27E+01       1.17     6.E-02
+   1.41E+01       1.17     4.E-02
+ENDDATA              7
+ENDSUBENT           14
+SUBENT        11217006   20170919   20180123   20180122       1435
+BIB                  2          2
+REACTION   (24-CR-0(N,NON),,SIG)
+STATUS     (TABLE) Table I, page 178 of J,PR,100,174,1955.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          5
+EN         DATA       DATA-ERR
+MEV        B          B
+        3.5       1.14     4.E-02
+        4.7       1.32     3.E-02
+        7.1       1.22     4.E-02
+   1.27E+01       1.26     7.E-02
+   1.41E+01       1.33     4.E-02
+ENDDATA              7
+ENDSUBENT           14
+SUBENT        11217007   20170919   20180123   20180122       1435
+BIB                  2          2
+REACTION   (26-FE-0(N,NON),,SIG)
+STATUS     (TABLE) Table I, page 178 of J,PR,100,174,1955.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          5
+EN         DATA       DATA-ERR
+MEV        B          B
+        3.5       1.14     4.E-02
+        4.7       1.38     5.E-02
+        7.1       1.35     4.E-02
+   1.27E+01       1.36     5.E-02
+   1.41E+01       1.38     3.E-02
+ENDDATA              7
+ENDSUBENT           14
+SUBENT        11217008   20170919   20180123   20180122       1435
+BIB                  2          2
+REACTION   (28-NI-0(N,NON),,SIG)
+STATUS     (TABLE) Table I, page 178 of J,PR,100,174,1955.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          5
+EN         DATA       DATA-ERR
+MEV        B          B
+        3.5       1.48     4.E-02
+        4.7       1.54     6.E-02
+        7.1       1.33     6.E-02
+   1.27E+01       1.35     5.E-02
+   1.41E+01       1.45     5.E-02
+ENDDATA              7
+ENDSUBENT           14
+SUBENT        11217009   20170919   20180123   20180122       1435
+BIB                  2          2
+REACTION   (29-CU-0(N,NON),,SIG)
+STATUS     (TABLE) Table I, page 178 of J,PR,100,174,1955.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          5
+EN         DATA       DATA-ERR
+MEV        B          B
+        3.5       1.45     4.E-02
+        4.7       1.69     4.E-02
+        7.1       1.37     5.E-02
+   1.27E+01       1.49     5.E-02
+   1.41E+01       1.44     4.E-02
+ENDDATA              7
+ENDSUBENT           14
+SUBENT        11217010   20170919   20180123   20180122       1435
+BIB                  2          2
+REACTION   (47-AG-0(N,NON),,SIG)
+STATUS     (TABLE) Table I, page 178 of J,PR,100,174,1955.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          5
+EN         DATA       DATA-ERR
+MEV        B          B
+        3.5       2.03     7.E-02
+        4.7       2.14     7.E-02
+        7.1       2.01     7.E-02
+   1.27E+01       1.75    1.0E-01
+   1.41E+01       1.78     5.E-02
+ENDDATA              7
+ENDSUBENT           14
+SUBENT        11217011   20170919   20180123   20180122       1435
+BIB                  2          2
+REACTION   (50-SN-0(N,NON),,SIG)
+STATUS     (TABLE) Table I, page 178 of J,PR,100,174,1955.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          5
+EN         DATA       DATA-ERR
+MEV        B          B
+        3.5       2.00     9.E-02
+        4.7       2.33     7.E-02
+        7.1       2.12     6.E-02
+   1.27E+01       1.97     9.E-02
+   1.41E+01       1.82     6.E-02
+ENDDATA              7
+ENDSUBENT           14
+SUBENT        11217012   20170919   20180123   20180122       1435
+BIB                  2          2
+REACTION   (82-PB-0(N,NON),,SIG)
+STATUS     (TABLE) Table I, page 178 of J,PR,100,174,1955.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          5
+EN         DATA       DATA-ERR
+MEV        B          B
+        3.5       1.58     7.E-02
+        4.7       2.25     7.E-02
+        7.1       2.67     7.E-02
+   1.27E+01       2.58     9.E-02
+   1.41E+01       2.52     9.E-02
+ENDDATA              7
+ENDSUBENT           14
+SUBENT        11217013   20170919   20180123   20180122       1435
+BIB                  2          2
+REACTION   (83-BI-209(N,NON),,SIG)
+STATUS     (TABLE) Table I, page 178 of J,PR,100,174,1955.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          5
+EN         DATA       DATA-ERR
+MEV        B          B
+        3.5       1.73       0.06
+        4.7       2.39       0.06
+        7.1       2.66       0.07
+       12.7       2.47       0.14
+       14.1       2.50       0.07
+ENDDATA              7
+ENDSUBENT           14
+ENDENTRY            13

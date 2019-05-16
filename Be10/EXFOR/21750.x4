@@ -1,0 +1,233 @@
+ENTRY            21750   20131118   20140820   20140807       2238
+SUBENT        21750001   20131118   20140820   20140807       2238
+BIB                  8         17
+INSTITUTE  (2UK ALD) Experimental site and both authors.
+REFERENCE  (J,JNE/AB,17,437,196312)
+AUTHOR     (M.H.McTaggart,H.Goodfellow)
+TITLE       Measurements at 14 MeV neutron energy of the
+            (n,2n) cross section of beryllium and the
+            (n,3n) cross section of thorium
+FACILITY   (ACCEL,2UK ALD) .Type not given.
+INC-SOURCE (D-T) 200 keV deuteron beam focused onto a
+                   tritiated zirconium target, producing
+                   14 MeV neutrons.
+PART-DET   (N)     Neutrons.
+HISTORY    (19820127C) A.P.T.
+           (19820217E)
+           (19860210E)
+           (20070314A) Date is corrected
+           (20131118A) SD: REACTION code was corrected in Sub.006.
+             Minor corrections in all Subents.
+ENDBIB              17
+COMMON               1          3
+EN
+MEV
+    1.4E+01
+ENDCOMMON            3
+ENDSUBENT           24
+SUBENT        21750002   20131118   20140820   20140807       2238
+BIB                 10         30
+REACTION   (4-BE-9(N,NON),,SIG)
+SAMPLE     .Four beryllium shells of thickness 2.032 cm,
+            2.91 cm, 3.31 cm and 5.34 cm.
+METHOD     .The neutron multiplication and the neutron
+            detector efficiency was measured. These values plus
+            the assumed eta value was used to calculate the
+            transmission which then was used to calculate the
+            total nonelastic cross section.
+DETECTOR   (LONGC) The neutron detector was a modified Hanson
+            McKibben 'long counter'. Its efficiency at 14 MeV and
+            at fission neutron energies was measured in each
+            experiment.
+ASSUMED    (ASSUM1,4-BE-9(N,A)2-HE-6,,SIG) For 14 MeV incident
+            neutrons. Taken from (,Vasil'ev+,J,JET,6,411,1958)
+           (ASSUM2,4-BE-9(N,T)3-LI-7,,SIG) For 14 MeV incident
+            neutrons. Taken from (11198.002,Benveniste+,R,
+            UCR-5596,1959).
+           (ASSUM3,4-BE-9(N,TOT),,SIG) Postulating a total cross
+            section for 14 MeV incident neutrons.
+           (ASSUM4,4-BE-9(N,NON),,ETA) - from ASSUM1-ASSUM3
+REL-REF    (R,,S.S.Vasil'ev+,J,JET,6,411,1958)  - ASSUM1
+           (R,11193002,J.B.Benveniste+,R,UCRL-5596,1959) - ASSUM2
+STATUS     (TABLE) Tbl.1 from JNE/AB,17,437
+CORRECTION .Difference between detector efficiency for
+            fast and slow neutrons.
+MISC-COL   (MISC)    Shell thickness
+ERR-ANALYS (DATA-ERR) Total error includes:
+           (ERR-1) error of 1.5% in multiplication measurement,
+           (ERR-2) 2.5% in detector efficiency measurement and
+            * errors in assumed cross section.
+ENDBIB              30
+COMMON               6          3
+ASSUM1     ASSUM2     ASSUM3     ASSUM4     ERR-1      ERR-2
+MB         MB         MB         NO-DIM     PER-CENT   PER-CENT
+     1.E+01     1.E+01     5.E+02       1.96   1.5       2.5
+ENDCOMMON            3
+DATA                 3          4
+DATA       DATA-ERR   MISC
+MB         MB         CM
+    5.2E+02     6.E+01      2.032
+    5.2E+02     5.E+01       2.91
+    5.4E+02     5.E+01       3.31
+   5.85E+02     6.E+01       5.34
+ENDDATA              6
+ENDSUBENT           45
+SUBENT        21750003   20131118   20140820   20140807       2238
+BIB                 10         39
+REACTION   (4-BE-9(N,2N+A)2-HE-4,,SIG,,,DERIV)
+SAMPLE     .Four beryllium shells of thickness 2.032 cm,
+            2.91 cm, 3.31 cm and 5.34 cm.
+METHOD     .The neutron multiplication and the neutron detector
+            efficiency was measured. These values plus the
+            assumed eta value was used to calculate the
+            transmission which then was used to calculate
+            the (n,2n) cross section from the nonelastic.
+           .The cross section is given for sample thickness
+            zero (extrapolation).
+DETECTOR   (LONGC) The neutron detector was a modified Hanson
+            McKibben 'long counter'. Its efficiency at 14 MeV and
+            at fission neutron energies was measured in each
+            experiment.
+ASSUMED    (ASSUM1,4-BE-9(N,A)2-HE-6,,SIG) For 14 MeV incident
+            neutrons. Taken from (,Vasilev+,J,JET,6,411,1958)
+           (ASSUM2,4-BE-9(N,T)3-LI-7,,SIG) For 14 MeV incident
+            neutrons. Taken from (11198.002,Benveniste+,R,
+            UCR-5596,1959).
+           (ASSUM3,4-BE-9(N,TOT),,SIG) Postulating a total cross
+            section for 14 MeV incident neutrons.
+           (ASSUM4,4-BE-9(N,NON),,ETA) - from ASSUM1-ASSUM3
+REL-REF    (R,40712002,S.S.Vasil'ev+,J,JET,6,411,1958)  - ASSUM1
+           (R,11193002,J.B.Benveniste+,R,UCRL-5596,1959) - ASSUM2
+STATUS     (TABLE) Value from the text on p.437 from JNE/AB,17
+           (DEP,21750002) The results for the total non-elastic
+           cross section show a tendency to increase with shell
+           thickness. A linear extrapolation to zero thickness
+           gave 470 +- 40 mb and an n,2n cross section of
+           450 +- 40 mb.
+CORRECTION .Difference between detector efficiency for
+            fast and slow neutrons.
+ERR-ANALYS (DATA-ERR) Total error includes:
+           (ERR-1) error of 1.5% in multiplication measurement,
+           (ERR-2) 2.5% in detector efficiency measurement and
+            * errors in assumed cross section.
+HISTORY    (20070314A)  Reaction code corrected
+           (20131118A) SD: SF6=SIG -> ETA in ASSUM4. MISC col.
+            deleted.
+ENDBIB              39
+COMMON               6          3
+ASSUM1     ASSUM2     ASSUM3     ASSUM4     ERR-1      ERR-2
+MB         MB         MB         NO-DIM     PER-CENT   PER-CENT
+     1.E+01     1.E+01     5.E+02       1.96   1.5       2.5
+ENDCOMMON            3
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+    4.5E+02     4.E+01
+ENDDATA              3
+ENDSUBENT           51
+SUBENT        21750004   20131118   20140820   20140807       2238
+BIB                  7         21
+REACTION   (90-TH-232(N,NON),,SIG)
+SAMPLE     .Three thorium shells of thickness 2.54,2.54,and
+            5.08 cm.
+METHOD     (TRN) .The neutron multiplication, the detector
+            efficiency and the transmission were measured and the
+            non-elastic cross section were calculated form these
+            values and from the derived eta values.
+           .The average of the values obtained for the
+            three samples was computed.
+DETECTOR   (THRES) Cu-63(n,2n) threshold detector for the
+            transmission measurement.
+           (LONGC) The neutron detector was a modified Hanson
+            McKibben 'long counter'. Its efficiency at 14 MeV and
+            at fission neutron energies was measured in each
+            experiment.
+STATUS     (TABLE) Tbl.2 from JNE/AB,17,437
+           (DEP,21750006)
+CORRECTION .Difference between detector efficiency for
+            for fast and slow neutrons.
+ERR-ANALYS (DATA-ERR) .Counting statistics, errors in
+            detector efficiencies and errors in assumed values.
+ENDBIB              21
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+       2.77     9.E-02
+ENDDATA              3
+ENDSUBENT           29
+SUBENT        21750005   20131118   20140820   20140807       2238
+BIB                  9         31
+REACTION   (90-TH-232(N,3N)90-TH-230,,SIG)
+SAMPLE     .Three thorium shells of thickness 2.54,2.54,and
+            5.08 cm.
+ANALYSIS   .Data were obtained using the derived eta values,
+            the calculated nonelastic cross sections and the
+            assumed values.
+           .The average of the values obtained for the
+            three samples was computed.
+DETECTOR   (THRES) Cu-63 (n,2n) threshold detector for the
+            transmission measurement.
+           (LONGC) The neutron detector was a modified Hanson
+            McKibben 'long counter'. Its efficiency at 14 MeV and
+            at fission neutron energies was measured in each
+            experiment.
+ASSUMED    (ASSUM1,90-TH-232(N,F),,NU) For 14 MeV incident
+            neutrons taken from (21696002,I.Johnstone+,R,
+            AERE-NP/R-1912,1955).
+           (ASSUM2,90-TH-232(N,F),,SIG) For 14 MeV incident
+            neutrons from Moat (priv.comm.)
+           (ASSUM3,90-TH-232(N,2N)90-TH-231,,SIG) For 14 MeV
+            neutrons taken from(21208002,J.L.Perkin+,J,JNE/AB,
+            14,69,1961).
+REL-REF    (R,21696002,I.Johnstone+,R,AERE-NP/R-1912,1955)
+                                                        - ASSUM1
+           (R,21208002,J.L.Perkin+,J,JNE/AB,14,69,1961) - ASSSUM3
+STATUS     (TABLE) Tbl.2 from JNE/AB,17,437
+           (DEP,21750006)
+CORRECTION .Difference between detector efficiency for
+            fast and slow neutrons.
+ERR-ANALYS (DATA-ERR) .Counting statistics, errors in detector
+            efficiency and errors in assumed values.
+ENDBIB              31
+COMMON               6          3
+ASSUM1     ASSUM1-ERR ASSUM2     ASSUM2-ERR ASSUM3     ASSUM3-ERR
+NO-DIM     NO-DIM     B          B          B          B
+       3.35     2.E-01   3.32E-01    1.4E-02        1.2     5.E-02
+ENDCOMMON            3
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+    8.5E-01    1.5E-01
+ENDDATA              3
+ENDSUBENT           43
+SUBENT        21750006   20131118   20140820   20140807       2238
+BIB                  8         19
+REACTION   (90-TH-232(N,NON),,ETA)
+SAMPLE     .Three thorium shells of thickness 2.54,2.54,and
+            5.08 cm.
+METHOD     (TRN) .The eta value was derived from the measured
+            neutron multiplication, the measured detector
+            efficiency and the measured transmission.
+           .The average of the values obtained for the
+            three samples was computed.
+DETECTOR   (THRES) Cu-63(n,2n) threshold detector for the
+            transmission measurement.
+           (LONGC) Modified hanson mckibben long counter.
+STATUS     (TABLE) Tbl.2 from JNE/AB,17,437
+CORRECTION .Difference between detector efficiency for
+            fast and slow neutrons.
+ERR-ANALYS (DATA-ERR) .Counting statistics, errors in detector
+            efficiency and errors in assumed values.
+HISTORY    (19860121A) 'NON' changed to 'ABS' in reaction string
+           (20131118A) SD: REACTION code was corrected according
+            to Memo CP-D/798 (SF3=ABS => NON - general case).
+ENDBIB              19
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+PRT/REAC   PRT/REAC
+       2.34     8.E-02
+ENDDATA              3
+ENDSUBENT           27
+ENDENTRY             6

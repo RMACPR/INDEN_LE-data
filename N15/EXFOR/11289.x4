@@ -1,0 +1,90 @@
+ENTRY            11289     860604              20050926       0000
+SUBENT        11289001     860604              20050926       0000
+BIB                  9         12
+INSTITUTE  (1USAIIT)
+REFERENCE  (J,NP,73,349,6511)
+AUTHOR     (N.W.GOLCHERT,D.G.GARDNER,J.SEDLET)
+TITLE      CROSS SECTION OF SOME REACTIONS OF TC-99 WITH 14.1MEV
+           NEUTRONS.
+INC-SOURCE (D-T)
+METHOD     (ACTIV)
+SAMPLE     AMMONIUM PERTECHNETATE
+STATUS     (SCSRS)
+HISTORY    (760714T) TRANSLATED FROM SCISRS
+           (810428A) CONVERTED TO REACTION FORMALISM
+           (860604A) BIB UPDATE.
+ENDBIB              12
+NOCOMMON             0          0
+ENDSUBENT           15
+SUBENT        11289002     810428              20050926       0000
+BIB                  1          1
+REACTION   (7-N-14(N,2N)7-N-13,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.41   +01 7.19   -03 2.25   -03
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11289003     810428              20050926       0000
+BIB                  1          1
+REACTION   (43-TC-99(N,P+A)40-ZR-95,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+EN         DATA-MAX
+MEV        B
+ 1.41   +01 1.0    -03
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11289004     860604              20050926       0000
+BIB                  2          2
+REACTION   (43-TC-99(N,INL)43-TC-99-M,,SIG)
+HISTORY    (860604A) REACTION CORRECTED.
+ENDBIB               2
+COMMON               1          3
+HL
+HR
+    6.0
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.41   +01 4.13   -02 6.6    -03
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11289005     810428              20050926       0000
+BIB                  1          1
+REACTION   (43-TC-99(N,A)41-NB-96,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.41   +01 2.02   -03 2.2    -04
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11289006     810428              20050926       0000
+BIB                  1          1
+REACTION   (43-TC-99(N,P)42-MO-99,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.41   +01 6.97   -03 1.11   -03
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11289007     810428              20050926       0000
+BIB                  1          1
+REACTION   (43-TC-99(N,N+A)41-NB-95,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+EN         DATA-MAX
+MEV        B
+ 1.41   +01 1.0    -03
+ENDDATA              3
+ENDSUBENT            9
+ENDENTRY             7

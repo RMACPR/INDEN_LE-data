@@ -1,0 +1,79 @@
+ENTRY            21501   20161013   20170403   20170325       2257
+SUBENT        21501001   20161013   20170403   20170325       2257
+BIB                 13         36
+TITLE       Measurement of the nonelastic cross section of
+            beryllium at 14.2 MeV
+REFERENCE  (J,JPR,24,805,196311)   (In French)
+           (P,EANDC(E)-49,85,196310)
+INSTITUTE  (2FR SAC)
+AUTHOR     (D.Didier,H.Dillemann)
+FACILITY   (CCW,2FR SAC) Cockcroft-Walton machine, 150 keV.
+INC-SOURCE (D-T) Deuteron-tritium reaction. Tritium
+            absorbed in a titanium layer of 300 mu-m/cm2
+SAMPLE     .Spherical layer, 20 mm thick, i.e. 35% of the
+            free path for the case of beryllium, for other
+            elements no details given.
+METHOD     (TRN) Transmission measurement gives total cross
+            section, scattering measurement gives elastic cross
+            section, non-elastic cross section obtained as the
+            difference.
+DETECTOR   (SCIN) Plastic scintillator of special form, 15 mm
+            diam, coupled to a photo-multiplier 56 AVP, with a
+            40 mm long light guide.
+           (COIN,CSICR,SCIN) For the measurement of the incoming
+            neutron flux a CsI(Tl)-crystal detecting the
+            associated alpha particles of the d-t reaction,
+            in coincidence with a plastic scintillator,
+            detecting the neutrons by their recoil protons.
+COMMENT    .The measurement is repeated for different levels
+            of the discrimination.
+CORRECTION .For finite size of the detector, multiple scattering
+            in the sample, angular correlation between alphas
+            and neutrons in the d-t reaction, and energy loss in
+            elastic scattering reactions.
+ERR-ANALYS (DATA-ERR) Error given is the spread of the individual
+            measurements.
+HISTORY    (19800408T) G.C.
+           (19860121U)
+           (20161013A) SD: Updated to new date formats,lower case.
+           BIB update. Ref., Title moved to Subent 001.
+ENDBIB              36
+NOCOMMON             0          0
+ENDSUBENT           39
+SUBENT        21501002   20161013   20170403   20170325       2257
+BIB                  2          2
+REACTION   (4-BE-9(N,NON),,SIG)
+STATUS     (TABLE) Tbl.(without numb.) from EANDC(E)-49,85,1963
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+  14.2       0.1         0.5       0.01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        21501003   20161013   20170403   20170325       2257
+BIB                  2          2
+REACTION   (29-CU-0(N,NON),,SIG)
+STATUS     (TABLE) Tbl.(without numb.) from EANDC(E)-49,85,1963
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+  14.7       0.2        1.48      0.04
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        21501004   20161013   20170403   20170325       2257
+BIB                  2          2
+REACTION   (92-U-0(N,NON),,SIG)
+STATUS     (TABLE) Tbl.(without numb.) from EANDC(E)-49,85,1963
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+     14.7      0.2     2.8         0.08
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY             4

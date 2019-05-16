@@ -1,0 +1,212 @@
+ENTRY            12918     870122              20050926       0000
+SUBENT        12918001     870122              20050926       0000
+BIB                 10         16
+INSTITUTE  (1USALRL)
+REFERENCE  (W,LEICH,8503) PAPER PRESENTED AT 16TH LUNAR AND
+            PLANETARY CONFERENCE, HOUSTON, TX.
+AUTHOR     (D.A.LEICH,R.J.BORG,V.B.LANIER)
+TITLE      PRODUCTION RATES OF NEON AND XENON ISOTOPES BY
+            ENERGETIC NEUTRONS.
+FACILITY   RTNS-II
+           (SPECM)
+INC-SOURCE (D-T)
+MONITOR    (26-FE-54(N,P)25-MN-54,,SIG)
+ERR-ANALYS (DATA-ERR) DOSIMETRY UNCERTAINTIES QUADRATICALLY
+                 COMPOUNDED WITH MASS SPECTROMETRY ANALYTICAL
+                 UNCERTAINTIES.
+STATUS     (APRVD) D.A.LEICH, 85/9/30.
+HISTORY    (850823C)
+           (870122A) REFERENCE, BIB UPDATE.
+ENDBIB              16
+COMMON               2          3
+EN         EN-RSL
+MEV        MEV
+ 14.5       0.5
+ENDCOMMON            3
+ENDSUBENT           23
+SUBENT        12918002     851108              20050926       0000
+BIB                  2          3
+REACTION   ((11-NA-23(N,N+P)10-NE-22,,SIG)+
+           (11-NA-23(N,D)10-NE-22,,SIG))
+SAMPLE     NA METAL, NACL, SODALITE, ALBITE
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 330.       17.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12918003     851108              20050926       0000
+BIB                  2          2
+REACTION   (11-NA-23(N,T)10-NE-21,,SIG)
+SAMPLE     NA METAL, NACL, SODALITE, ALBITE
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 5.7        0.4
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        12918004     851108              20050926       0000
+BIB                  2          2
+REACTION   (11-NA-23(N,A)9-F-20,,SIG)
+SAMPLE     NA METAL, NACL, SODALITE, ALBITE
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 151.       8.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        12918005     851108              20050926       0000
+BIB                  2          3
+REACTION   (12-MG-0(N,X)10-NE-22,,SIG)
+            PRINCIPAL REACTIONS 25MG(N,A) + 26MG(N,N+A)
+SAMPLE     MG METAL
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 13.4       0.7
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12918006     851108              20050926       0000
+BIB                  2          3
+REACTION   (12-MG-0(N,X)10-NE-21,,SIG)
+            PRINCIPAL REACTION 24MG(N,A)
+SAMPLE     MG METAL
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 150.       8.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12918007     851108              20050926       0000
+BIB                  2          3
+REACTION   (12-MG-0(N,X)10-NE-20,,SIG)
+              PRINCIPAL REACTION 24MG(N,N+A)
+SAMPLE     MG METAL
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 91.        5.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        12918008     851108              20050926       0000
+BIB                  3          4
+REACTION   (55-CS-133(N,A)53-I-130,,SIG)
+SAMPLE     CS-CL
+COMMENT    APPARENT SYSTEMATIC ERROR IN XENON PRODUCTION CROSS
+             SECTIONS (COMMENT BY AUTHOR)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 2.6        0.3
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12918009     851108              20050926       0000
+BIB                  3          4
+REACTION   (55-CS-133(N,2N)55-CS-132,,SIG)
+SAMPLE     CS-CL
+COMMENT    APPARENT SYSTEMATIC ERROR IN XENON PRODUCTION CROSS
+             SECTIONS (COMMENT BY AUTHOR)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 1900.      100.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        12918010     851108              20050926       0000
+BIB                  3          7
+REACTION   ((56-BA-0(N,X)54-XE-129,,SIG)+
+           (56-BA-0(N,X)56-BA-129,,SIG)+
+           (56-BA-0(N,X)55-CS-129,,SIG))
+              PRINCIPAL REACTIONS 130BA(N,2N) + 130BA(N,N+P)
+SAMPLE     BA(NO3)2
+COMMENT    APPARENT SYSTEMATIC ERROR IN XENON PRODUCTION CROSS
+             SECTIONS (COMMENT BY AUTHOR)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 1.82       0.09
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        12918011     851108              20050926       0000
+BIB                  3          6
+REACTION   ((56-BA-0(N,X)54-XE-130,,SIG)+
+           (56-BA-0(N,X)55-CS-130,,SIG))
+              PRINCIPAL REACTION 130BA(N,P) + 134BA(N,N+A)
+SAMPLE     BA(NO3)2
+COMMENT    APPARENT SYSTEMATIC ERROR IN XENON PRODUCTION CROSS
+             SECTIONS (COMMENT BY AUTHOR)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 0.034      0.002
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        12918012     851108              20050926       0000
+BIB                  3          7
+REACTION   ((56-BA-0(N,X)54-XE-131,,SIG)+
+           (56-BA-0(N,X)55-CS-131,,SIG)+
+           (56-BA-0(N,X)56-BA-131,,SIG))
+              PRINCIPAL REACTIONS 132BA(N,2N) + 130BA(N,A)
+SAMPLE     BA(NO3)2
+COMMENT    APPARENT SYSTEMATIC ERROR IN XENON PRODUCTION CROSS
+             SECTIONS (COMMENT BY AUTHOR)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 1.97       0.10
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        12918013     851108              20050926       0000
+BIB                  3          6
+REACTION   ((56-BA-0(N,X)54-XE-132,,SIG)+
+           (56-BA-0(N,X)55-CS-132,,SIG))
+            PRINCIPAL REACTIONS 135(N,A)+136BA(N,N+A)+132BA(N,P)
+SAMPLE     BA(NO3)2
+COMMENT    APPARENT SYSTEMATIC ERROR IN XENON PRODUCTION CROSS
+             SECTIONS (COMMENT BY AUTHOR)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 0.41       0.02
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        12918014     851108              20050926       0000
+BIB                  3          5
+REACTION   (56-BA-0(N,X)54-XE-134,,SIG)
+              PRINCIPAL REACTIONS 137(N,A) + 138BA(N,N+A)
+SAMPLE     BA(NO3)2
+COMMENT    APPARENT SYSTEMATIC ERROR IN XENON PRODUCTION CROSS
+             SECTIONS (COMMENT BY AUTHOR)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 0.35       0.02
+ENDDATA              3
+ENDSUBENT           13
+ENDENTRY            14

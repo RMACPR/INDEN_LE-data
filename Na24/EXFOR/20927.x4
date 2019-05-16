@@ -1,0 +1,235 @@
+ENTRY            20927   20120708   20130226   20130207       2232
+SUBENT        20927001   20120708   20130226   20130207       2232
+BIB                 13         31
+INSTITUTE  (2GERFRK)
+REFERENCE  (P,EANDC(E)-66,64,196602)
+           (R,IKF-13,1965)
+           (C,65ANTWERP,,495,196507) Level scheme.
+           (J,ZP,218,190,1969) To 4 levels.
+REL-REF    (I,,R.Bass+,J,NIM,30,237,196411) Description of
+                                                discriminator.
+AUTHOR     (R.Bass,Fatma Saleh,B.Staginnus)
+TITLE       Fast neutron cross sections of Na-23 by spectroscopy
+            of prompt charged particles in NaI and coincident
+            gamma-rays
+FACILITY   (VDG,2GERFRK)
+INC-SOURCE (D-T)
+SAMPLE     .NaI detector also served as sample.
+METHOD     (PSD,COINC) .Direct detection of emitted particles
+            using pulse shape discrimination to separate alphas
+            and protons. Coincident gammas were sometimes detected
+            in order to identify particular excited states of the
+            final nucleus.
+DETECTOR   (NAICR) Sodium-iodide scintillator.
+           (SCIN ) Plastic scintillator used to monitor neutron
+                   flux as described in Marion and Fowler, Fast
+                   Neutron Physics, vol.2, (InterScience, 1960).
+MONITOR    (1-H-1(N,EL)1-H-1,,SIG)
+STATUS     (TABLE) .Some data given in EANDC(E)-66,64,1966, some
+            from private communication.
+HISTORY    (19790528C)
+           (19790628E)
+           (20120708A) SD: Updated to new date formats,lower case.
+                Corrections according last EXFOR rules and Dict.
+                Year of the ref. (ZP,218) was corrected.
+ENDBIB              31
+NOCOMMON             0          0
+ENDSUBENT           34
+SUBENT        20927002   20120708   20130226   20130207       2232
+BIB                  2          2
+REACTION   (11-NA-23(N,P)10-NE-23,PAR,SIG)
+STATUS     (TABLE) .Table 5.1 of EANDC(E)-66.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4         10
+EN         E-LVL      DATA       DATA-ERR
+MEV        MEV        B          B
+ 8.0000E+00 0.0000E+00 1.5000E-02 2.0000E-03
+ 8.0000E+00 1.0200E+00 5.4000E-03 1.0000E-03
+ 8.0000E+00 1.7000E+00 5.7500E-03 1.5000E-03
+ 8.0000E+00 1.8300E+00 5.0000E-03 1.5000E-03
+ 8.8000E+00 0.0000E+00 1.2000E-02 2.0000E-03
+ 8.8000E+00 1.0200E+00 5.4000E-03 1.0000E-03
+ 8.8000E+00 1.7000E+00 1.2600E-02 2.0000E-03
+ 8.8000E+00 1.8300E+00 6.0000E-03 1.5000E-03
+ 8.8000E+00 2.3100E+00 4.0000E-03 2.5000E-03
+ 8.8000E+00 2.5200E+00 4.5000E-03 1.5000E-03
+ENDDATA             12
+ENDSUBENT           19
+SUBENT        20927003   20120708   20130226   20130207       2232
+BIB                  2          3
+REACTION   (11-NA-23(N,P)10-NE-23,PAR,SIG)
+STATUS     (TABLE) Numerical data is from private communication.
+            Graphical data given in EANDC(E)-66.
+ENDBIB               3
+COMMON               3          3
+EN-RSL     E-LVL      DATA-ERR
+MEV        MEV        PER-CENT
+ 2.5000E-02 0.0000E+00 1.5000E+01
+ENDCOMMON            3
+DATA                 2        109
+EN         DATA
+MEV        B
+ 5.3000E+00 4.6500E-03
+ 5.3250E+00 5.6000E-03
+ 5.3500E+00 7.4700E-03
+ 5.3750E+00 1.1450E-02
+ 5.4000E+00 1.1820E-02
+ 5.4250E+00 7.9200E-03
+ 5.4500E+00 9.1300E-03
+ 5.4750E+00 1.1970E-02
+ 5.5000E+00 1.2000E-02
+ 5.5250E+00 1.2670E-02
+ 5.5500E+00 1.2020E-02
+ 5.5750E+00 1.0020E-02
+ 5.6000E+00 9.1300E-03
+ 5.6250E+00 9.0000E-03
+ 5.6500E+00 9.6700E-03
+ 5.6750E+00 1.0380E-02
+ 5.7000E+00 1.3470E-02
+ 5.7250E+00 1.5320E-02
+ 5.7500E+00 1.5000E-02
+ 5.7750E+00 1.7100E-02
+ 5.8000E+00 1.7000E-02
+ 5.8050E+00 1.7700E-02
+ 5.8500E+00 2.1130E-02
+ 5.8750E+00 2.5800E-02
+ 5.9000E+00 3.4500E-02
+ 5.9250E+00 3.2250E-02
+ 5.9500E+00 2.8350E-02
+ 5.9750E+00 2.4770E-02
+ 6.0000E+00 1.8070E-02
+ 6.0000E+00 2.2650E-02
+ 6.0250E+00 1.5170E-02
+ 6.0500E+00 1.8900E-02
+ 6.0750E+00 2.0450E-02
+ 6.1250E+00 2.4300E-02
+ 6.1500E+00 2.1300E-02
+ 6.1750E+00 1.7250E-02
+ 6.2000E+00 1.9720E-02
+ 6.2250E+00 3.5550E-02
+ 6.2500E+00 4.5900E-02
+ 6.2750E+00 3.9450E-02
+ 6.3000E+00 3.4800E-02
+ 6.3250E+00 3.1200E-02
+ 6.3500E+00 2.4750E-02
+ 6.3750E+00 2.1970E-02
+ 6.4000E+00 2.6950E-02
+ 6.4250E+00 3.5250E-02
+ 6.4500E+00 3.2100E-02
+ 6.4750E+00 2.3020E-02
+ 6.5000E+00 2.4130E-02
+ 6.5250E+00 2.2050E-02
+ 6.5500E+00 2.0100E-02
+ 6.5750E+00 1.9170E-02
+ 6.6000E+00 1.7950E-02
+ 6.6250E+00 1.8050E-02
+ 6.6500E+00 1.8450E-02
+ 6.6750E+00 1.6950E-02
+ 6.7000E+00 1.6670E-02
+ 6.7250E+00 1.6770E-02
+ 6.7500E+00 2.0100E-02
+ 6.7750E+00 2.3520E-02
+ 6.8000E+00 2.1880E-02
+ 6.8250E+00 2.0100E-02
+ 6.8500E+00 1.6970E-02
+ 6.8750E+00 1.4550E-02
+ 6.9000E+00 1.5150E-02
+ 6.9250E+00 1.4550E-02
+ 6.9500E+00 1.4850E-02
+ 6.9750E+00 1.6570E-02
+ 7.0000E+00 1.9050E-02
+ 7.0250E+00 2.0250E-02
+ 7.0500E+00 1.8720E-02
+ 7.0750E+00 2.0100E-02
+ 7.1000E+00 2.1000E-02
+ 7.1250E+00 1.9200E-02
+ 7.1500E+00 1.5970E-02
+ 7.1750E+00 1.6220E-02
+ 7.2000E+00 2.0270E-02
+ 7.2250E+00 2.2500E-02
+ 7.2500E+00 2.1880E-02
+ 7.2750E+00 1.8000E-02
+ 7.3000E+00 1.5920E-02
+ 7.3250E+00 1.8520E-02
+ 7.3500E+00 1.8630E-02
+ 7.3750E+00 1.8350E-02
+ 7.4000E+00 1.8270E-02
+ 7.4250E+00 1.8400E-02
+ 7.4500E+00 1.7570E-02
+ 7.4750E+00 1.8650E-02
+ 7.5000E+00 1.9770E-02
+ 7.5250E+00 1.8600E-02
+ 7.5500E+00 1.8450E-02
+ 7.5750E+00 1.7420E-02
+ 7.6000E+00 1.7700E-02
+ 7.6250E+00 1.9630E-02
+ 7.6500E+00 2.0220E-02
+ 7.6750E+00 2.1450E-02
+ 7.7000E+00 2.2850E-02
+ 7.7250E+00 1.8450E-02
+ 7.7500E+00 1.4630E-02
+ 7.7750E+00 1.4170E-02
+ 7.8000E+00 1.3380E-02
+ 7.8250E+00 1.3650E-02
+ 7.8500E+00 1.3670E-02
+ 7.8750E+00 1.4850E-02
+ 7.9000E+00 1.3500E-02
+ 7.9250E+00 1.3400E-02
+ 7.9500E+00 1.3470E-02
+ 7.9750E+00 1.3500E-02
+ 8.0000E+00 1.2800E-02
+ENDDATA            111
+ENDSUBENT          123
+SUBENT        20927004   20120708   20130226   20130207       2232
+BIB                  3          5
+REACTION   (11-NA-23(N,P)10-NE-23,PAR,SIG)
+           .Transition to first excited state of Ne-23.
+PART-DET   (P) Protons from reaction.
+STATUS     (UNOBT) Graphical data given in fig 5.7 of
+                    EANDC(E)-66.
+ENDBIB               5
+COMMON               2          3
+EN-MIN     EN-MAX
+MEV        MEV
+ 5.3000E+00 8.0000E+00
+ENDCOMMON            3
+NODATA               0          0
+ENDSUBENT           13
+SUBENT        20927005   20120708   20130226   20130207       2232
+BIB                  2          2
+REACTION   (11-NA-23(N,A)9-F-20,PAR,SIG)
+STATUS     (TABLE) .Table 5.1 of EANDC(E)-66.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4         12
+EN         E-LVL      DATA       DATA-ERR
+MEV        MEV        B          B
+ 8.0000E+00 0.0000E+00 5.0000E-03 2.0000E-03
+ 8.0000E+00 6.6000E-01 9.0000E-03 2.0000E-03
+ 8.0000E+00 8.3000E-01 3.4000E-03 1.0000E-03
+ 8.0000E+00 9.9000E-01 2.5500E-03 6.0000E-04
+ 8.0000E+00 1.0600E+00 1.3000E-03 3.0000E-04
+ 8.0000E+00 1.3100E+00 1.3500E-03 3.0000E-04
+ 8.8000E+00 0.0000E+00 1.3000E-02 3.0000E-03
+ 8.8000E+00 6.6000E-01 1.9200E-02 3.0000E-03
+ 8.8000E+00 8.3000E-01 7.2000E-03 2.0000E-03
+ 8.8000E+00 9.9000E-01 4.5000E-03 1.0000E-03
+ 8.8000E+00 1.0600E+00 4.5000E-03 1.0000E-03
+ 8.8000E+00 1.3100E+00 3.6000E-03 8.0000E-04
+ENDDATA             14
+ENDSUBENT           21
+SUBENT        20927006   20120708   20130226   20130207       2232
+BIB                  2          3
+REACTION   (11-NA-23(N,A)9-F-20,PAR,SIG)
+STATUS     (UNOBT) .Data apparently exists as a private
+            communication which is unlocatable.
+ENDBIB               3
+COMMON               2          3
+EN-MIN     EN-MAX
+MEV        MEV
+ 6.8000E+00 9.0000E+00
+ENDCOMMON            3
+NODATA               0          0
+ENDSUBENT           11
+ENDENTRY             6

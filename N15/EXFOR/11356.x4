@@ -1,0 +1,84 @@
+ENTRY            11356     820324              20050926       0000
+SUBENT        11356001     820324              20050926       0000
+BIB                 10         13
+INSTITUTE  (1USANRD)
+REFERENCE  (J,PR,118,228,6004)
+AUTHOR     (J.M.FERGUSON,W.E.THOMPSON)
+TITLE      CROSS-SECTIONS FOR THE (N2N) REACTION IN N14,P31,CU63,
+            AND PR141.
+N-SOURCE   (D-T)
+DETECTOR   (NAICR).
+           (SCIN) LI6-I(EU) CRYSTAL FLUX MONITOR
+PART-DET   (AR).
+MONITOR    (3-LI-6(N,T)2-HE-4,,SIG)
+STATUS     (SCSRS)
+HISTORY    (761014T) TRANSLATED FROM SCISRS
+           (820324A) CONVERTED TO REACTION FORMALISM
+ENDBIB              13
+NOCOMMON             0          0
+ENDSUBENT           16
+SUBENT        11356002     820324              20050926       0000
+BIB                  2          2
+REACTION   (7-N-14(N,2N)7-N-13,,SIG)
+SAMPLE     N6-C3-H6 SAMPLE (MELAMINE).
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          6
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 1.241  +01 1.2    -01 3.03   -03 7.5    -04
+ 1.377  +01 2.0    -01 5.18   -03 6.0    -04
+ 1.474  +01 2.7    -01 8.69   -03 9.0    -04
+ 1.578  +01 3.2    -01 9.25   -03 1.00   -03
+ 1.696  +01 3.4    -01 1.049  -02 1.00   -03
+ 1.798  +01 2.4    -01 1.157  -02 1.20   -03
+ENDDATA              8
+ENDSUBENT           15
+SUBENT        11356003     820324              20050926       0000
+BIB                  1          1
+REACTION   (15-P-31(N,2N)15-P-30,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          3
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 1.474  +01 2.7    -01 8.7    -03 2.7    -03
+ 1.696  +01 3.4    -01 4.36   -02 5.2    -03
+ 1.798  +01 2.4    -01 7.40   -02 7.4    -03
+ENDDATA              5
+ENDSUBENT           11
+SUBENT        11356004     820324              20050926       0000
+BIB                  1          1
+REACTION   (29-CU-63(N,2N)29-CU-62,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          7
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 1.241  +01 1.2    -01 1.86   -01 1.9    -02
+ 1.281  +01 1.5    -01 2.33   -01 2.1    -02
+ 1.377  +01 2.0    -01 3.78   -01 3.4    -02
+ 1.474  +01 2.7    -01 5.07   -01 4.5    -02
+ 1.578  +01 3.2    -01 6.49   -01 5.8    -02
+ 1.696  +01 3.4    -01 7.58   -01 6.8    -02
+ 1.798  +01 2.4    -01 8.36   -01 7.5    -02
+ENDDATA              9
+ENDSUBENT           15
+SUBENT        11356005     820324              20050926       0000
+BIB                  2          2
+REACTION   (59-PR-141(N,2N)59-PR-140,,SIG)
+SAMPLE     PR6-O11 SAMPLE
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          6
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 1.241  +01 1.2    -01 1.231  +00 1.11   -01
+ 1.377  +01 2.0    -01 1.386  +00 1.25   -01
+ 1.474  +01 2.7    -01 1.591  +00 1.43   -01
+ 1.578  +01 3.2    -01 1.737  +00 1.56   -01
+ 1.696  +01 3.4    -01 1.606  +00 1.45   -01
+ 1.798  +01 2.4    -01 1.667  +00 1.50   -01
+ENDDATA              8
+ENDSUBENT           15
+ENDENTRY             5

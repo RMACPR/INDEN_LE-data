@@ -1,0 +1,94 @@
+ENTRY            41256   20071022   20080402   20080312       4142
+SUBENT        41256001   20071022   20080402   20080312       4142
+BIB                 13         23
+INSTITUTE  (4RUSFEI)
+REFERENCE  (B,NEJTRONFIZ,294,1961)  Main Reference. Data Table is
+                                   given
+           (B,SPN,216,1961) English translation of NEJTRONFIZ,294
+AUTHOR     (G.N.Lovchikova,O.A.Sal'nikov)
+TITLE       Nonelastic scattering cross sections for neutron
+            energy 2.5 MeV.
+METHOD     (SHELT) Sphere transmission .
+FACILITY   (VDG)
+INC-SOURCE (D-D)  Energy of deuteron beam is 240 keV.
+MONITOR     Absolute measurements. Neutron flux was monitored by
+            hydrogen proportional counter
+DETECTOR   (THRES) U-238 and Np-237 threshold ionization chambers.
+           (PROPC) For neutron flux monitoring
+CORRECTION  Corrections:
+           for sizes of detector, non significant,
+           due to changeable distance from source to detector- 3%,
+           for background.
+ERR-ANALYS (ERR-S)  Statistical error
+STATUS     (SCSRS)
+HISTORY    (19970704C)  + +  Compiled at the center - CJD (S.M.) +
+           (20071022A) TITLE and BIB information were added. Dates
+           were corrected for 4-digits year. M.M.
+ENDBIB              23
+COMMON               1          3
+EN
+EV
+    2.5E+06
+ENDCOMMON            3
+ENDSUBENT           30
+SUBENT        41256002   20071022   20080402   20080312       4142
+BIB                  4          5
+REACTION   (11-NA-23(N,NON),,SIG)
+SAMPLE      Liquid sodium in molybdenum hollow sphere of 90 mm
+            outer diameter and 30 mm inner diameter
+STATUS     (TABLE) Table of reference.
+HISTORY    (19970704T)  . . Converted from SUBENT 80410002    . .
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+B          B
+ 3.4000E-01 7.0000E-02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        41256003   20071022   20080402   20080312       4142
+BIB                  4          5
+REACTION   (38-SR-0(N,NON),,SIG)
+SAMPLE      Metallic hollow sphere 90 mm outer diameter
+            and 30 mm inner diameter
+STATUS     (TABLE)  Table of reference.
+HISTORY    (19970704T)  . . Converted from SUBENT 80410003    . .
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+B          B
+ 1.1000E+00 1.3000E-01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        41256004   20071022   20080402   20080312       4142
+BIB                  4          5
+REACTION   (42-MO-0(N,NON),,SIG)
+SAMPLE      Metallic hollow sphere 90 mm outer diameter
+            and 30 mm inner diameter
+STATUS     (TABLE)  Table of reference.
+HISTORY    (19970704T)  . . Converted from SUBENT 80410004    . .
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+B          B
+ 1.3600E+00 4.0000E-02
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        41256005   20071022   20080402   20080312       4142
+BIB                  4          5
+REACTION   (56-BA-0(N,NON),,SIG)
+SAMPLE      Metallic hollow sphere 90 mm outer diameter
+            and 30 mm inner diameter
+STATUS     (TABLE)  Table of reference.
+HISTORY    (19970704T)  . . Converted from SUBENT 80410005    . .
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+B          B
+ 1.4700E+00 1.6000E-01
+ENDDATA              3
+ENDSUBENT           13
+ENDENTRY             5

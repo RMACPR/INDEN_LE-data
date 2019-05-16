@@ -1,0 +1,513 @@
+ENTRY            40082   20050825   20051111   20051111       4135
+SUBENT        40082001   20050825   20051111   20051111       4135
+BIB                 15         46
+TITLE      MEASUREMENTS  OF  STRUCTURE  OF  TOTAL  NEUTRON
+           CROSS  SECTIONS
+AUTHOR     (V.V.FILIPPOV,M.N.NIKOLAEV)
+INSTITUTE  (4RUSFEI)
+REFERENCE  (C,68DUBNA,ASS-68/17,1968) DATA  GIVEN  COMPLETELY
+           (R,ICD-3,93,1966)       DATA  GIVEN  PARTIALLY
+           (J,AE,15,(7),493,196312)DATA  GIVEN  PARTIALLY
+SAMPLE             SAMPLES WERE 5 OR 3 CM IN DIAM AND 0.4,0.8,1.6,
+           3.2,6.4 ETC UP TO 100. CM LONG. ADMIXTURES  LESS THAN
+           0.5 PER-CENT. CHROMIUM AND TUNGSTEN TAKEN POWDERY
+           BRAZED IN STEEL THIN-WALLED CONTAINERS. SULPHUR SMELTED
+           AND POURED  INTO  PIPE,  ITS  OPENED
+STATUS                NUMERICAL DATA  TAKEN  FROM 68DUBNA,ASS-68
+FACILITY   (VDG)      VAN DE GRAAFF ACCELERATOR
+INC-SOURCE (P-T) PROTON-TRITIUM  FOR ENERGY UP TO  4.  MEV
+           (D-D) DEUTERON-DEUTERIUM  FOR ENERGY MORE THAN  4. MEV
+DETECTOR   (PROPC) PROPORTIONAL COUNTERS SNMO-5 INTO A MODERATOR
+           AND THE WATER SHIELD DIAM 2 M , HEIGHT 2M    WITH B4C
+           (LONGC,FISCH) LONG COUNTER,FISSION CHAMBER WITH  U-235
+           AND INTEGRATOR OF THE IONIC CURRENT WERE USED TO MONI
+           TOR THE INCIDENT NEUTRON FLUX
+METHOD        TRANSMISSION
+           THE TARGET TO SAMPLE DISTANCE WAS ABOUT 1 M., AND THE
+           TARGET TO DETECTOR DISTANCE WAS  ABOUT 2 M.
+ANALYSIS           FUNCTIONS OF TRANSMISSION WAS APPROXIMATED BY
+           SUM  OF EXPONENTIALS. TRNSM(T)=SUM FOR I FROM 1 UNTIL N
+            (A(I)*EXP(-SIGMA(I)*T)). PARAMETERS A AND SIGMA  WERE
+           DETERMINED FROM EXPERIMENTAL  FUNCTIONS TRNSM(T)  BY
+           LEAST SQUARES METHOD.
+           SIGMA AVERAGED=SUM FOR I FROM 1 UNTIL 3 (A(I)*SIGMA(I))
+           D=SUM FOR I FROM 1 UNTIL 3 (A(I)*SIGMA(I))**2 -(SUM FOR
+           I FROM 1 UNTIL 3 A(I)*SIGMA(I))**2. SUFFICIENTLY  N=3.
+CORRECTION CORRECTIONS    FOR    BACKGROUND, MULTIPLE  SCATTERING,
+           ENERGY  EFFECTIVENESS DEPENDENCE  OF  DETECTOR,  STATIS
+           TICS WERE ESTIMATED DISREGARDLY SMALL AND THEREFORE
+           WAS NOT INTRODUCED.
+ERR-ANALYS   TOTAL EXPERIMENTAL ERROR CONTAINS CONTRIBUTION OF
+            SELF-SCREENING, DEAD TIME EFFECTS AND TREATMENT ERROR.
+COMMENT    TRANSMISSIONS    MEASURED UP TO 0.005 FIVE TIMES EACH.
+           PARAMETERS OF DISINTEGRATION A, SIGMA AND DISPERSION OF
+           TOTAL CROSS SECTIONS  WAS DETERMINED IN THE PAPER BUT
+           THEY WERE IGNORED UNDER EXFOR REVIEWING BECAUSE OF
+           EXFOR LIMITATION LANGUAGE.
+HISTORY    (19711118C)
+           (19860516U)SOME ERRORS CORRECTED, 'REACTION' INTRODUCED
+           (20050825U) CORRECTION ACCORDING TO MEMO CP-E/069
+ENDBIB              46
+NOCOMMON             0          0
+ENDSUBENT           49
+SUBENT        40082002     860516              20050926       0000
+BIB                  1          1
+REACTION   (4-BE-9(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4         14
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        B          B
+0.07       0.03       5.22       0.04
+0.12       0.02       5.11       0.03
+0.15       0.03       4.80       0.02
+0.22       0.02       4.53       0.23
+0.26       0.03       4.20       0.05
+0.45       0.15       4.44       0.12
+0.97       0.28       3.69       0.02
+1.12       0.13       3.53       0.05
+1.95       0.25       1.82       0.02
+2.47       0.25       2.094      0.016
+3.34       0.50       2.44       0.16
+4.15       0.85       2.33       0.04
+4.85       0.75       2.10       0.02
+5.55       0.60       2.32       0.06
+ENDDATA             16
+ENDSUBENT           22
+SUBENT        40082003     860516              20050926       0000
+BIB                  1          1
+REACTION   (12-MG-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4         11
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        B          B
+0.60       0.30       5.53       0.13
+0.98       0.25       3.81       0.04
+1.02       0.25       3.33       0.05
+1.33       0.25       3.04       0.02
+1.90       0.20       2.82       0.06
+2.10       0.16       2.58       0.03
+2.40       0.16       2.50       0.03
+2.67       0.15       2.49       0.09
+2.82       0.15       2.45       0.04
+3.02       0.15       2.32       0.05
+3.15       0.15       2.22       0.03
+ENDDATA             13
+ENDSUBENT           19
+SUBENT        40082004     711118              20050926       0000
+BIB                  1          1
+REACTION   (13-AL-27(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4         26
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+0.036      0.018      4.21       0.12
+0.069      0.018      4.35       0.12
+0.100      0.020      7.6        0.6
+0.138      0.020      8.40       0.02
+0.160      0.019      6.82       0.17
+0.180      0.019      5.01       0.17
+0.200      0.020      5.06       0.06
+0.220      0.018      4.70       0.12
+0.260      0.017      3.40       0.08
+0.281      0.017      4.26       0.07
+0.298      0.017      4.18       0.04
+0.336      0.016      3.92       0.11
+0.350      0.016      3.91       0.10
+0.386      0.015      4.04       0.04
+0.446      0.015      4.00       0.14
+0.510      0.017      3.79       0.03
+0.71       0.15       3.80       0.02
+0.90       0.14       3.21       0.02
+1.05       0.13       3.27       0.02
+1.22       0.12       3.21       0.01
+1.39       0.12       3.59       0.13
+1.57       0.11       3.24       0.02
+1.75       0.10       3.09       0.02
+2.03       0.10       3.34       0.02
+2.17       0.09       3.34       0.02
+2.32       0.09       3.16       0.02
+ENDDATA             28
+ENDSUBENT           34
+SUBENT        40082005     860516              20050926       0000
+BIB                  1          1
+REACTION   (14-SI-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          5
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        B          B
+0.60       0.25       3.18       0.07
+0.80       0.25       3.60       0.07
+1.10       0.25       3.62       0.13
+1.40       0.25       2.90       0.14
+1.70       0.25       2.96       0.08
+ENDDATA              7
+ENDSUBENT           13
+SUBENT        40082006     860516              20050926       0000
+BIB                  1          1
+REACTION   (16-S-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4         11
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        B          B
+0.82       0.22       2.74       0.02
+1.00       0.23       2.491      0.012
+1.20       0.23       2.452      0.013
+1.52       0.21       2.42       0.03
+2.17       0.38       2.84       0.04
+2.69       0.16       3.38       0.05
+2.85       0.16       3.40       0.04
+3.03       0.16       3.083      0.025
+3.20       0.16       2.957      0.025
+3.37       0.16       2.801      0.020
+3.55       0.16       2.539      0.020
+ENDDATA             13
+ENDSUBENT           19
+SUBENT        40082007     860516              20050926       0000
+BIB                  1          1
+REACTION   (22-TI-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4         27
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        B          B
+0.09       0.05       4.72       0.24
+0.14       0.06       2.84       0.11
+0.18       0.06       2.20       0.05
+0.23       0.06       2.19       0.02
+0.28       0.06       2.09       0.09
+0.32       0.05       2.14       0.02
+0.63       0.08       3.04       0.09
+0.78       0.08       3.19       0.09
+0.93       0.07       3.05       0.10
+1.07       0.06       2.96       0.06
+1.21       0.09       2.96       0.05
+1.35       0.05       3.03       0.07
+1.48       0.09       3.19       0.04
+1.60       0.09       3.23       0.06
+1.82       0.07       3.32       0.04
+1.96       0.07       3.47       0.02
+2.10       0.07       3.57       0.07
+2.24       0.08       3.70       0.09
+2.36       0.05       3.75       0.09
+2.46       0.05       3.74       0.09
+2.56       0.06       3.87       0.07
+2.67       0.05       3.88       0.07
+2.78       0.06       3.71       0.04
+2.88       0.06       3.66       0.05
+3.00       0.06       3.78       0.03
+3.11       0.06       3.78       0.06
+3.28       0.12       3.61       0.06
+ENDDATA             29
+ENDSUBENT           35
+SUBENT        40082008     860516              20050926       0000
+BIB                  1          1
+REACTION   (23-V-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4         13
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        B          B
+0.07       0.05       7.8        0.2
+0.17       0.05       6.66       0.11
+0.23       0.05       5.48       0.09
+0.28       0.04       4.88       0.08
+0.35       0.05       4.40       0.07
+0.41       0.05       3.86       0.09
+0.61       0.09       3.62       0.14
+0.8        0.10       3.38       0.06
+0.98       0.10       3.43       0.05
+1.2        0.10       3.40       0.04
+1.47       0.10       3.526      0.025
+1.75       0.1        3.65       0.03
+2.05       0.2        3.77       0.06
+ENDDATA             15
+ENDSUBENT           21
+SUBENT        40082009     860516              20050926       0000
+BIB                  1          1
+REACTION   (24-CR-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4         13
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        B          B
+0.594      0.26       3.15       0.06
+0.81       0.23       3.03       0.06
+1.02       0.22       3.05       0.06
+1.22       0.21       3.24       0.13
+1.35       0.17       3.37       0.1
+1.48       0.20       3.43       0.13
+1.68       0.25       3.47       0.2
+2.00       0.23       3.28       0.04
+2.28       0.20       3.58       0.03
+2.51       0.24       3.64       0.02
+2.72       0.15       3.61       0.03
+2.97       0.20       3.53       0.03
+3.12       0.16       3.52       0.03
+ENDDATA             15
+ENDSUBENT           21
+SUBENT        40082010     860516              20050926       0000
+BIB                  1          1
+REACTION   (26-FE-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4         19
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        B          B
+0.09       0.06       4.35       0.14
+0.16       0.09       4.16       0.20
+0.22       0.09       3.66       0.13
+0.29       0.09       3.11       0.14
+0.38       0.05       3.72       0.20
+0.52       0.15       4.35       0.20
+0.70       0.15       3.26       0.07
+1.00       0.15       2.75       0.05
+1.30       0.15       2.94       0.06
+1.55       0.10       3.11       0.05
+1.90       0.15       2.88       0.03
+2.15       0.10       3.21       0.04
+2.30       0.10       3.22       0.04
+2.45       0.10       3.347      0.025
+2.65       0.10       3.44       0.04
+2.80       0.10       3.20       0.04
+3.00       1.00       3.39       0.05
+4.0        1.0        3.45       0.04
+5.0        1.0        3.487      0.019
+ENDDATA             21
+ENDSUBENT           27
+SUBENT        40082011     860516              20050926       0000
+BIB                  1          1
+REACTION   (28-NI-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4         13
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        B          B
+0.126      0.076      5.49       0.07
+0.19       0.068      5.55       0.07
+0.303      0.061      4.60       0.04
+0.5        0.17       3.60       0.2
+0.69       0.05       3.14       0.2
+0.75       0.15       3.03       0.08
+0.99       0.05       3.21       0.1
+1.03       0.13       2.87       0.06
+1.4        0.23       3.16       0.04
+1.75       0.1        3.06       0.07
+1.96       0.1        2.66       0.05
+2.15       0.15       3.04       0.06
+2.35       0.1        3.14       0.06
+ENDDATA             15
+ENDSUBENT           21
+SUBENT        40082012     860516              20050926       0000
+BIB                  1          1
+REACTION   (29-CU-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4         14
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        B          B
+0.032      0.009      7.8        0.4
+0.063      0.031      6.8        0.4
+0.073      0.041      7.3        0.3
+0.081      0.027      6.8        0.3
+0.11       0.04       6.21       0.07
+0.15       0.044      5.86       0.06
+0.196      0.041      5.5        0.1
+0.232      0.037      5.19       0.03
+0.248      0.04       4.99       0.09
+0.298      0.042      4.93       0.08
+0.349      0.041      4.98       0.08
+0.644      0.16       3.90       0.04
+0.857      0.14       3.21       0.07
+1.43       0.16       3.05       0.03
+ENDDATA             16
+ENDSUBENT           22
+SUBENT        40082013     860516              20050926       0000
+BIB                  1          1
+REACTION   (30-ZN-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          7
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        B          B
+0.05       0.03       8.45       0.34
+0.085      0.03       8.60       0.75
+0.125      0.03       7.10       0.29
+0.170      0.03       7.45       0.37
+0.20       0.03       6.60       0.40
+0.24       0.03       5.93       0.22
+0.28       0.03       5.85       0.14
+ENDDATA              9
+ENDSUBENT           15
+SUBENT        40082014     860516              20050926       0000
+BIB                  1          1
+REACTION   (31-GA-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          8
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        B          B
+0.091      0.052      6.47       0.07
+0.136      0.056      6.37       0.05
+0.182      0.063      6.08       0.05
+0.231      0.059      5.80       0.05
+0.277      0.066      5.58       0.03
+0.322      0.054      5.30       0.06
+0.365      0.052      4.99       0.03
+0.406      0.015      4.79       0.03
+ENDDATA             10
+ENDSUBENT           16
+SUBENT        40082015     860516              20050926       0000
+BIB                  1          1
+REACTION   (40-ZR-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          9
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        B          B
+0.070      0.018      8.72       0.08
+0.100      0.019      9.07       0.10
+0.139      0.019      9.34       0.13
+0.180      0.019      9.10       0.10
+0.209      0.018      9.12       0.15
+0.257      0.017      8.79       0.09
+0.293      0.019      8.64       0.18
+0.334      0.028      8.44       0.05
+0.450      0.150      8.28       0.18
+ENDDATA             11
+ENDSUBENT           17
+SUBENT        40082016     860516              20050926       0000
+BIB                  1          1
+REACTION   (41-NB-93(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4         12
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        B          B
+0.025      0.020      8.04       0.20
+0.050      0.018      8.69       0.20
+0.099      0.018      8.79       0.12
+0.121      0.020      8.85       0.16
+0.144      0.026      9.13       0.08
+0.183      0.027      9.18       0.08
+0.24       0.020      8.90       0.09
+0.26       0.010      8.82       0.08
+0.32       0.031      8.80       0.11
+0.37       0.040      8.50       0.05
+0.43       0.030      8.59       0.06
+0.50       0.030      7.95       0.03
+ENDDATA             14
+ENDSUBENT           20
+SUBENT        40082017     860516              20050926       0000
+BIB                  1          1
+REACTION   (42-MO-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          5
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        B          B
+0.044      0.021      8.92       0.11
+0.060      0.033      8.89       0.20
+0.132      0.026      8.78       0.07
+0.217      0.017      8.89       0.10
+0.340      0.020      8.66       0.05
+ENDDATA              7
+ENDSUBENT           13
+SUBENT        40082018     860516              20050926       0000
+BIB                  1          1
+REACTION   (48-CD-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          5
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        B          B
+0.04       0.03       7.30       0.40
+0.12       0.04       7.20       0.30
+0.17       0.04       7.35       0.19
+0.20       0.04       7.64       0.18
+0.24       0.04       7.80       0.50
+ENDDATA              7
+ENDSUBENT           13
+SUBENT        40082019     860516              20050926       0000
+BIB                  1          1
+REACTION   (74-W-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          5
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        B          B
+0.025      0.010      16.        1.
+0.035      0.015      16.        2.
+0.052      0.015      14.        2.
+0.070      0.015      11.8       0.4
+0.090      0.015      10.9       0.3
+ENDDATA              7
+ENDSUBENT           13
+SUBENT        40082020     860516              20050926       0000
+BIB                  1          1
+REACTION   (82-PB-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4         11
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        B          B
+0.46       0.16       7.00       0.20
+0.72       0.15       5.71       0.09
+1.08       0.12       5.45       0.11
+1.27       0.12       5.30       0.30
+1.56       0.10       5.40       0.40
+1.75       0.10       5.68       0.28
+2.12       0.12       6.07       0.03
+2.52       0.08       6.58       0.08
+2.69       0.09       6.89       0.03
+2.84       0.08       7.09       0.11
+2.99       0.09       7.35       0.03
+ENDDATA             13
+ENDSUBENT           19
+SUBENT        40082021     860516              20050926       0000
+BIB                  1          1
+REACTION   (90-TH-232(N,TOT),,SIG,,AV)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          8
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        B          B
+0.020      0.01       13.5       0.4
+0.040      0.02       13.6       0.8
+0.055      0.02       13.1       0.3
+0.080      0.02       12.8       0.4
+0.13       0.04       11.4       0.8
+0.21       0.04       10.89      0.13
+0.27       0.04       10.20      0.60
+0.35       0.04       9.5        0.5
+ENDDATA             10
+ENDSUBENT           16
+SUBENT        40082022     860516              20050926       0000
+BIB                  1          1
+REACTION   (92-U-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4         14
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        B          B
+0.010      0.005      14.8       0.5
+0.025      0.010      14.4       0.8
+0.035      0.015      12.99      0.14
+0.050      0.015      12.32      0.04
+0.070      0.015      12.20      0.06
+0.085      0.015      11.56      0.12
+0.11       0.020      11.60      0.10
+0.135      0.020      10.92      0.07
+0.160      0.020      10.88      0.11
+0.20       0.120      10.99      0.05
+0.2001     0.02       10.76      0.14
+0.215      0.020      10.39      0.08
+0.240      0.020      10.60      0.14
+0.295      0.020      10.16      0.15
+ENDDATA             16
+ENDSUBENT           22
+ENDENTRY            22

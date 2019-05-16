@@ -1,0 +1,97 @@
+10047010: CS for N,TOT, Cross section for 14N(n,Total)
+10283002: DA for N,EL, Differential c/s with respect to angle for 14N(n,Elastic)14N
+10283011: CS for N,EL, Cross section for 14N(n,Elastic)14N
+10331003: DA for N,EL, Differential c/s with respect to angle for 14N(n,Elastic)14N
+10437003: DA for N,EL, Differential c/s with respect to angle for 14N(n,Elastic)14N
+10776013: CS for N,2N, Cross section for 14N(n,2n)13N
+10789002: CS for N,P, Cross section for 14N(n,p)14C
+10789003: CS for N,A, Cross section for 14N(n,alpha)11B
+10789005: CS for N,A, Partial cross section for 14N(n,alpha)11B
+11014003: CS for N,G, Spectrum average Cross section for 14N(n,gamma)15N
+11097007: CS for N,2N, Cross section for 14N(n,2n)13N
+11100003: CS for N,P, Cross section for 14N(n,p)14C
+11189026: CS for N,2N, Spectrum average Cross section for 14N(n,2n)13N
+11263003: CS for N,2N, Spectrum average Cross section for 14N(n,2n)13N
+11268002: CS for N,2N, Cross section for 14N(n,2n)13N
+11274002: CS for N,2N, Cross section for 14N(n,2n)13N
+11281002: CS for N,T, Cross section for 14N(n,t)12C
+11281007: CS for N,A, Cross section for 14N(n,alpha)11B
+11281008: CS for N,P, Cross section for 14N(n,p)14C
+11281016: CS for N,A, Partial cross section for 14N(n,alpha)11B
+11289002: CS for N,2N, Cross section for 14N(n,2n)13N
+11292002: CS for N,TOT, Cross section for 14N(n,Total)
+11296002: CS for N,A, Cross section for 14N(n,alpha)11B
+11296003: CS for N,P, Cross section for 14N(n,p)14C
+11299002: CS for N,TOT, Cross section for 14N(n,Total)
+11299003: CS for N,TOT, Cross section for 14N(n,Total)
+11307002: CS for N,2N, Cross section for 14N(n,2n)13N
+11314002: DA for N,EL, Differential c/s with respect to angle for 14N(n,Elastic)14N
+11328002: CS for N,2N, Cross section for 14N(n,2n)13N
+11339002: CS for N,P, Partial cross section for 14N(n,p)14C
+11356002: CS for N,2N, Cross section for 14N(n,2n)13N
+12524008: CS for N,TOT, Cross section for 14N(n,Total)
+12718002: CS for N,G, Spectrum average Cross section for 14N(n,gamma)15N
+12718003: CS for N,G, Spectrum average Cross section for 14N(n,gamma)15N
+12939002: DA for N,EL, Differential c/s with respect to angle for 14N(n,Elastic)14N
+12939003: CS for N,EL, Cross section for 14N(n,Elastic)14N
+13151002: CS for N,G, Spectrum average Cross section for 14N(n,gamma)15N
+13151003: CS for N,G, Spectrum average Cross section for 14N(n,gamma)15N
+13164002: CS for N,P, Cross section for 14N(n,p)14C
+13868002: CS for N,G, Cross section for 14N(n,gamma)15N
+13974002: CS for N,P, times square-root(E) Cross section for 14N(n,p)14C
+13979004: DA for N,EL, Differential c/s with respect to angle for 14N(n,Elastic)14N
+20106002: CS for N,2N, Cross section for 14N(n,2n)13N
+20163002: CS for N,EL, Cross section for 14N(n,Elastic)14N
+20163003: DA for N,EL, Differential c/s with respect to angle for 14N(n,Elastic)14N
+20273002: DA for N,EL, Differential c/s with respect to angle for 14N(n,Elastic)14N
+20315002: CS for N,2N, Cross section for 14N(n,2n)13N
+20475004: CS for N,A, Partial cross section for 14N(n,alpha)11B
+20675002: CS for N,P, Cross section for 14N(n,p)14C
+20799002: CS for N,2N, Cross section for 14N(n,2n)13N
+20867002: CS for N,2N, Cross section for 14N(n,2n)13N
+20887002: CS for N,2N, Cross section for 14N(n,2n)13N
+20889002: CS for N,2N, Cross section for 14N(n,2n)13N
+20920002: CS for N,A, Partial cross section for 14N(n,alpha)11B
+20920004: CS for N,T, Partial cross section for 14N(n,t)12C
+21167004: CS for N,EL, Free-atom cross section for 14N(n,Elastic)14N
+21169002: CS for N,A, Cross section for 14N(n,alpha)11B
+21169003: CS for N,P, Cross section for 14N(n,p)14C
+21249002: DA for N,EL, Differential c/s with respect to angle for 14N(n,Elastic)14N
+21266002: CS for N,2N, Cross section for 14N(n,2n)13N
+21461003: CS for N,A, Cross section for 14N(n,alpha)11B
+21984077: DA for N,EL, Differential c/s with respect to angle for 14N(n,Elastic)14N
+21984078: CS for N,EL, Cross section for 14N(n,Elastic)14N
+22081002: DA for N,EL, Differential c/s with respect to angle for 14N(n,Elastic)14N
+22081003: DA for N,EL, Differential c/s with respect to angle for 14N(n,Elastic)14N
+22081004: DA for N,EL, Differential c/s with respect to angle for 14N(n,Elastic)14N
+22081005: DA for N,EL, Differential c/s with respect to angle for 14N(n,Elastic)14N
+22081006: DA for N,EL, Differential c/s with respect to angle for 14N(n,Elastic)14N
+22081007: DA for N,EL, Differential c/s with respect to angle for 14N(n,Elastic)14N
+22081008: DA for N,EL, Differential c/s with respect to angle for 14N(n,Elastic)14N
+22081009: DA for N,EL, Differential c/s with respect to angle for 14N(n,Elastic)14N
+22081010: DA for N,EL, Differential c/s with respect to angle for 14N(n,Elastic)14N
+22081011: DA for N,EL, Differential c/s with respect to angle for 14N(n,Elastic)14N
+22081083: CS for N,EL, Cross section for 14N(n,Elastic)14N
+22102002: CS for N,T, Cross section for 14N(n,t)12C
+22105005: CS for N,TOT, Spectrum average Cross section for 14N(n,Total)
+22345007: CS for N,P, Cross section for 14N(n,p)14C
+22574002: CS for N,P, Cross section for 14N(n,p)14C
+22574003: CS for N,A, Cross section for 14N(n,alpha)11B
+22662002: CS for N,2N, Cross section for 14N(n,2n)13N
+22806002: DA for N,EL, Differential c/s with respect to angle for 14N(n,Elastic)14N
+22806020: CS for N,EL, Cross section for 14N(n,Elastic)14N
+23295003: CS for N,P, Spectrum average Cross section for 14N(n,p)14C
+30027007: CS for N,A, Partial cross section for 14N(n,alpha)11B
+30033018: CS for N,2N, Cross section for 14N(n,2n)13N
+30038002: CS for N,2N, Cross section for 14N(n,2n)13N
+30141002: CS for N,TOT, Cross section for 14N(n,Total)
+30264002: CS for N,2N, Cross section for 14N(n,2n)13N
+30383003: CS for N,2N, Cross section for 14N(n,2n)13N
+31768004: CS for N,G, Cross section for 14N(n,gamma)15N
+40136026: CS for N,TOT, Cross section for 14N(n,Total)
+40715003: CS for N,2N, Cross section for 14N(n,2n)13N
+41463002: CS for N,G, Cross section for 14N(n,gamma)15N
+41492002: CS for N,A, Partial cross section for 14N(n,alpha)11B
+41492006: CS for N,A, Cross section for 14N(n,alpha)11B
+41492007: CS for N,T, Cross section for 14N(n,t)12C
+41575003: CS for N,A, Spectrum average Cross section for 14N(n,alpha)11B

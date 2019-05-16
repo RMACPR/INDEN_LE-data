@@ -1,0 +1,114 @@
+ENTRY            11228     860121              20050926       0000
+SUBENT        11228001     860121              20050926       0000
+BIB                 11         16
+INSTITUTE  (1USALRL)
+REFERENCE  (J,PR,110,1439,58)
+AUTHOR     (M.P.NAKADA,J.D.ANDERSON,C.C.GARDNER,C.WONG)
+TITLE      ELASTIC SCATTERING OF 14-MEV NEUTRONS FROM BERYLLIUM
+           AND CARBON.
+FACILITY   (CCW)
+INC-SOURCE (D-T)
+METHOD     (TOF) TIME-OF-FLIGHT. RING GEOMETRY
+DETECTOR   (SCIN) BIASED SCINTILLATOR
+CORRECTION CORRECTED FOR MULTIPLE SCATTERING AND ANGULAR
+            RESOLUTION
+STATUS     (SCSRS)
+HISTORY    (760929T) TRANSLATED FROM SCISRS
+           (800820A) CONVERTED TO REACTION FORMALISM
+           (830421A) DATA ENTERED AS RECEIVED FROM AUTHOR.
+           (860121A) BIB CORRECTION.
+ENDBIB              16
+COMMON               1          3
+EN
+MEV
+ 14.
+ENDCOMMON            3
+ENDSUBENT           23
+SUBENT        11228002     830421              20050926       0000
+BIB                  2          2
+REACTION   (4-BE-9(N,EL)4-BE-9,,SIG)
+STATUS     (DEP,11228003) INTEGRATED ANGULAR DISTRIBUTION.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 9.40   -01 5.0    -02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11228003     830421              20050926       0000
+BIB                  1          1
+REACTION   (4-BE-9(N,EL)4-BE-9,,DA)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3         21
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+ 21.0       5.37   +02 3.6    +01
+ 27.4       4.100  +02 9.2    +00
+ 32.2       3.140  +02 7.9    +00
+ 37.5       2.395  +02 5.5    +00
+ 42.8       1.705  +02 4.3    +00
+ 49.5       9.55   +01 4.8    +00
+ 55.1       5.57   +01 4.1    +00
+ 55.4       6.16   +01 3.7    +00
+ 58.6       4.45   +01 3.3    +00
+ 65.5       2.34   +01 1.6    +00
+ 65.8       2.32   +01 1.4    +00
+ 74.0       1.46   +01 1.3    +00
+ 74.3       1.31   +01 1.3    +00
+ 85.4       1.21   +01 1.3    +00
+ 85.8       1.16   +01 1.1    +00
+ 96.1       1.49   +01 2.4    +00
+106.2       2.09   +01 1.6    +00
+116.0       1.83   +01 1.9    +00
+126.8       1.31   +01 1.5    +00
+133.6       8.1    +00 1.6    +00
+143.3       6.9    +00 2.6    +00
+ENDDATA             23
+ENDSUBENT           29
+SUBENT        11228004     860121              20050926       0000
+BIB                  3          3
+REACTION   (6-C-0(N,EL)6-C-0,,SIG)
+STATUS     (DEP,11228005) INTEGRATED ANGULAR DISTRIBUTION
+HISTORY    (860121A) REACTION PRODUCT ADDED.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 7.90   -01 5.0    -02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11228005     860121              20050926       0000
+BIB                  2          2
+REACTION   (6-C-0(N,EL)6-C-0,,DA)
+HISTORY    (860121A) REACTION PRODUCT ADDED.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3         20
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+  20.4      4.467  +02 9.8    +00
+  26.7      3.329  +02 6.0    +00
+  31.4      2.456  +02 4.4    +00
+  36.6      1.722  +02 3.1    +00
+  41.7      1.169  +02 2.7    +00
+  48.3      5.77   +01 1.6    +00
+  53.8      3.20   +01 1.3    +00
+  57.0      2.65   +01 1.5    +00
+  64.1      2.00   +01 1.1    +00
+  65.8      1.77   +01 1.1    +00
+  72.5      1.68   +01 1.1    +00
+  74.1      1.411  +01 9.4    -01
+  83.4      1.77   +01 1.1    +00
+  83.8      1.99   +01 1.4    +00
+  93.4      2.29   +01 1.5    +00
+ 103.7      2.97   +01 1.5    +00
+ 113.4      3.11   +01 1.8    +00
+ 122.8      2.308  +01 4.4    -01
+ 133.4      1.725  +01 3.8    -01
+ 144.2      1.533  +01 6.3    -01
+ENDDATA             22
+ENDSUBENT           29
+ENDENTRY             5

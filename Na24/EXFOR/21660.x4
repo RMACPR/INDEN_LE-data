@@ -1,0 +1,476 @@
+ENTRY            21660   20060605   20070104   20061127       2180
+SUBENT        21660001   20060605   20070104   20061127       2180
+BIB                 12         41
+INSTITUTE  (2GERMUN)
+REFERENCE  (J,ZP/A,292,(1),95,1979)
+           (R,NEANDC(E)-202,(5),81,1979)
+AUTHOR     (L.KOESTER,K.KNOPF,W.WASCHKOWSKI)
+TITLE      -THERMAL NEUTRON SCATTERING PARAMETERS FOR LIGHT
+            NUCLEI (A= 12 TO 27).
+FACILITY   (REAC) FRM OPEN POOL 4 MW THERMAL POWER REACTOR.
+INC-SOURCE (REAC)  SLOW NEUTRON BEAM EMERGING FROM A BENT
+               NEUTRON GUIDE. THE NEUTRONS ARE SELECTED FROM
+               THE ENERGY SPECTRUM BY A CONTINUOUSLY
+               OPERATING RESONANCE DETECTORS CONSISTING OF
+               ROTATING RHODIUM FOILS (FOR E=1.257 EV) AND
+               SILVER FOILS (FOR E=5.19 EV).
+SAMPLE     .CRYSTALLINE POWDERS IN LIQUID FILLED FILTERS FOR THE
+                        CHRISTIANSEN FILTER MEASUREMENTS.
+                        POWDERS WERE DRIED IN VACUUM OVEN AND
+                        HANDLED IN INERT GAS ATMOSPHERE.
+           .CRYSTALLINE POWDERS IN CONTAINER WITH QUARTZ WINDOWS
+                        FOR THE TRANSMISSION MEASUREMENTS.
+               SEE SUBENTRY FOR INDIVIDUAL DETAILS.
+METHOD     (CHRFL)  SCATTERING DENSITIES AND SCATTERING LENGTHS
+                    OBTAINED FROM MEASUREMENT OF SCATTERING
+                    INTENSITY BY CHRISTIANSEN FILTERS.
+                    NARROW SLITS USED WITH SMALL ANGLE SCAT. OF
+                    VERY SLOW NEUTRONS (MEAN ENERGY 0.51 AND
+                    0.68 MILLI-EV).
+           .TRANSMISSION MEASUREMENTS OF TOTAL CROSS SECTIONS
+                    TO DEDUCE THE FREE SCATTERING CROSS SECTIONS.
+CORRECTION .FOR WATER CONTAMINATION.
+            INTERFERENCE TERM BETWEEN POTENTIAL AND RESONANCE
+            SCATTERING NEGLECTED EXCEPT FOR SODIUM (0.006 B
+            AT 5 EV). NEGLECTED CORRECTION DUE TO SOLID STATE
+            BINDING EFFECTS.
+ERR-ANALYS .SCATTERING DENSITIES (0.1 PC TO 2 PC).
+STATUS     .TABLES IN ZP/A,292,1.
+HISTORY    (19800901C)
+           (19801015E)
+           (19801208A) REACTION STRINGS IN SUBWORKS 002 -010
+            CORRECTED.
+           (19801218E)
+           (20060605A) DATE is corrected
+ENDBIB              41
+NOCOMMON             0          0
+ENDSUBENT           44
+SUBENT        21660002   20060605   20070104   20061127       2180
+BIB                  4          8
+REACTION   (6-C-12(N,THS)6-C-12,BA/COH,AMP) SCATTERING
+            LENGTH FOR BOUND ATOMS.
+SAMPLE     .K2CO3, 10. PC ISOTOPIC ABUNDANCE, DENSIT.=2.370 GM/CM3
+STATUS     .TABLES IN ZP/A,292,1.
+HISTORY    (19800901C)
+           (19801015E)
+           (19801208A)
+           (19801218E)
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-APRX    DATA       DATA-ERR
+MILLI-EV   FERMI      FERMI
+ 6.0000E-01 6.6535E+00 1.4000E-03
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        21660003   20060605   20070104   20061127       2180
+BIB                  4          8
+REACTION   (6-C-13(N,THS)6-C-13,BA/COH,AMP) SCATTERING
+            LENGTH FOR BOUND ATOMS.
+SAMPLE     .K2CO3, 90. PC ISOTOP. ABUND., DENSITY= 2.370 GM/CM3.
+STATUS     .TABLES IN ZP/A,292,1.
+HISTORY    (19800902C)
+           (19801015E)
+           (19801208A)
+           (19801218E)
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-APRX    DATA       DATA-ERR
+MILLI-EV   FERMI      FERMI
+ 6.0000E-01 6.1900E+00 9.0000E-02
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        21660004   20060605   20070104   20061127       2180
+BIB                  4          9
+REACTION   (7-N-14(N,THS)7-N-14,BA/COH,AMP) SCATTERING
+            LENGTH FOR BOUND ATOMS.
+SAMPLE     .NH4CL, .035 PC ISOT. ABUND., DENSITY= 1.554 GM/CM3.
+                   .037 PC ISOT. ABUND., DENSITY= 1.571 GM/CM3.
+STATUS     .TABLES IN ZP/A,292,1.
+HISTORY    (19800902C)
+           (19801015E)
+           (19801208A)
+           (19801218E)
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-APRX    DATA       DATA-ERR
+MILLI-EV   FERMI      FERMI
+ 6.0000E-01 9.3700E+00 3.0000E-02
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        21660005   20060605   20070104   20061127       2180
+BIB                  4          9
+REACTION   (7-N-15(N,THS)7-N-15,BA/COH,AMP) SCATTERING
+            LENGTH FOR BOUND ATOMS.
+SAMPLE     .NH4CL, .965 ISOT. ABUND., DENSITY= 1.554 GM/CM3.
+                   .963 ISOT. ABUND., DENSITY= 1.571 GM/CM3.
+STATUS     .TABLE IN ZP/A,292,1.
+HISTORY    (19800902C)
+           (19801015E)
+           (19801208A)
+           (19801218E)
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-APRX    DATA       DATA-ERR
+MILLI-EV   FERMI      FERMI
+ 6.0000E-01 6.4400E+00 3.0000E-02
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        21660006   20060605   20070104   20061127       2180
+BIB                  4          9
+REACTION   (8-O-16(N,THS)8-O-16,BA/COH,AMP) SCATTERING
+            LENGTH FOR BOUND ATOMS.
+SAMPLE     .K2CO3, .258 ISOT. ABUND., DENSITY = 2.448 GM/CM3,
+                 APPLIED WATER CORRECTION = 0.08 FERMI.
+STATUS     .TABLES IN ZP/A,292,1.
+HISTORY    (19800902C)
+           (19801015E)
+           (19801208A)
+           (19801218E)
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          1
+EN-APRX    DATA       DATA-ERR
+MILLI-EV   FERMI      FERMI
+ 6.0000E-01 5.8050E+00 5.0000E-03
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        21660007   20060605   20070104   20061127       2180
+BIB                  4          8
+REACTION   (8-O-17(N,THS)8-O-17,BA/COH,AMP) SCATTERING
+            LENGTH FOR BOUND ATOMS.
+SAMPLE     .K2CO3, 0.000 ISOTOP. ABUND., NO OTHER DETAILS GIVEN.
+STATUS     .TABLES IN ZP/A,292,1.
+HISTORY    (19800902C)
+           (19801015E)
+           (19801208A)
+           (19801218E)
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-APRX    DATA       DATA-ERR
+MILLI-EV   FERMI      FERMI
+ 6.0000E-01 5.6200E+00 4.5000E-01
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        21660008   20060605   20070104   20061127       2180
+BIB                  4          8
+REACTION   (8-O-18(N,THS)8-O-18,BA/COH,AMP) SCATTERING
+            LENGTH FOR BOUND ATOMS.
+SAMPLE     .K2CO3, 0.258 ISOT. ABUND., NO OTHER DETAILS GIVEN.
+STATUS     .TABLES IN ZP/A,292,1.
+HISTORY    (19800902C)
+           (19801015E)
+           (19801208A)
+           (19801218E)
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          1
+EN-APRX    DATA       DATA-ERR
+MILLI-EV   FERMI      FERMI
+ 6.0000E-01 5.8400E+00 7.0000E-02
+ENDDATA              3
+ENDSUBENT           16
+SUBENT        21660009   20060605   20070104   20061127       2180
+BIB                  5         11
+REACTION   (9-F-19(N,THS)9-F-19,BA/COH,AMP) SCATTERING
+            LENGTH FOR THE BOUND ATOMS.
+SAMPLE     .MGF2, NATURAL, DENSITY = 3.1723 GM/CM3.
+COMMENT    .USED 5 DIFFERENT CHLORINE LIQUID FILTERS AND 5
+            DIFFERENT FLUORINE COMPOUNDS.
+            MEASUREMENTS.
+STATUS     .TABLES IN ZP/A,292,1.
+HISTORY    (19800902C)
+           (19801015E)
+           (19801208A)
+           (19801218E)
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 3          1
+EN-APRX    DATA       DATA-ERR
+MILLI-EV   FERMI      FERMI
+ 6.0000E-01 5.6540E+00 1.2000E-02
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        21660010   20060605   20070104   20061127       2180
+BIB                  5         11
+REACTION   (12-MG-0(N,THS)12-MG-0,BA/COH,AMP) SCATTERING
+            LENGTH FOR BOUND ATOMS .
+SAMPLE     .NATURAL MGF2  WITH DENSITIES OF 3.1723, 3.1755 AND
+            3.1733 GM/CM3. NATURAL MGSO4 WITH DENSITIES OF
+            2.889 AND 2.845 GM/CM3 WERE USED.
+ANALYSIS   .AVERAGE OF MEASUREMENTS ON VARIOUS SAMPLES OF MG.
+STATUS     .TABLES IN ZP/A,292,1.
+HISTORY    (19800902C)
+           (19801015E)
+           (19801208A)
+           (19801218E)
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 3          1
+EN-APRX    DATA       DATA-ERR
+MILLI-EV   FERMI      FERMI
+ 6.0000E-01 5.3760E+00 2.0000E-02
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        21660011   20060605   20070104   20061127       2180
+BIB                  4          5
+REACTION   (9-F-CMP(N,TOT),,SIG)
+SAMPLE     .MGF2 CRYSTAL POWDER.
+STATUS     .TABLE IN ZP/A,292,1.
+HISTORY    (19800902C)
+           (19801015E)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          2
+EN         DATA       DATA-ERR
+EV         B          B
+ 1.2600E+00 1.0680E+01 3.0000E-02
+ 5.1900E+00 1.0710E+01 2.0000E-02
+ENDDATA              4
+ENDSUBENT           14
+SUBENT        21660012   20060605   20070104   20061127       2180
+BIB                  4          5
+REACTION   (11-NA-CMP(N,TOT),,SIG)
+SAMPLE     .NA-CL CRYSTAL POWDER.
+STATUS     .TABLE IN ZP/A,292,1.
+HISTORY    (19800902C)
+           (19801015E)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          2
+EN         DATA       DATA-ERR
+EV         B          B
+ 1.2600E+00 2.3400E+01 7.0000E-02
+ 5.1900E+00 2.0100E+01 4.0000E-02
+ENDDATA              4
+ENDSUBENT           14
+SUBENT        21660013   20060605   20070104   20061127       2180
+BIB                  4          5
+REACTION   (11-NA-CMP(N,TOT),,SIG)
+SAMPLE     .NA2-SO4 CRYSTAL POWDER.
+STATUS     .TABLE IN ZP/A,291,1.
+HISTORY    (19800902C)
+           (19801015E)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          2
+EN         DATA       DATA-ERR
+EV         B          B
+ 1.2600E+00 2.2290E+01 5.0000E-02
+ 5.1900E+00 2.2170E+01 5.0000E-02
+ENDDATA              4
+ENDSUBENT           14
+SUBENT        21660014   20060605   20070104   20061127       2180
+BIB                  4          5
+REACTION   (12-MG-0(N,TOT),,SIG)
+SAMPLE     .METAL
+STATUS     .TABLE IN ZP/A,292,1.
+HISTORY    (19800902C)
+           (19801015E)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          2
+EN         DATA       DATA-ERR
+EV         B          B
+ 1.2600E+00 3.4210E+00 4.0000E-02
+ 5.1900E+00 3.4170E+00 4.0000E-02
+ENDDATA              4
+ENDSUBENT           14
+SUBENT        21660015   20060605   20070104   20061127       2180
+BIB                  4          5
+REACTION   (13-AL-27(N,TOT),,SIG)
+SAMPLE     .METAL
+STATUS     .TABLE IN ZP/A,292,1.
+HISTORY    (19800902C)
+           (19801015E)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          2
+EN         DATA       DATA-ERR
+EV         B          B
+ 1.2600E+00 1.4451E+00 1.1000E-03
+ 5.1900E+00 1.4290E+00 1.1000E-03
+ENDDATA              4
+ENDSUBENT           14
+SUBENT        21660016   20060605   20070104   20061127       2180
+BIB                  5          6
+REACTION   (9-F-19(N,TOT),,SIG)
+SAMPLE     .MGF2 CRYSTAL POWDER.
+ASSUMED    (ASSUM,12-MG-0(N,TOT),,SIG) MEASURED IN THIS WORK.
+STATUS     .TABLE IN ZP/A,292,1.
+HISTORY    (19800902C)
+           (19801015E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 4          2
+EN         DATA       DATA-ERR   ASSUM
+EV         B          B          B
+ 1.2600E+00 3.6300E+00 1.6000E-02 3.4210E+00
+ 5.1900E+00 3.6460E+00 1.0000E-02 3.4170E+00
+ENDDATA              4
+ENDSUBENT           15
+SUBENT        21660017   20060605   20070104   20061127       2180
+BIB                  5          6
+REACTION   (11-NA-23(N,TOT),,SIG)
+SAMPLE     .NACL CRYSTAL POWDER.
+ASSUMED    (ASSUM,17-CL-0(N,TOT),,SIG) FROM REF. 15.
+STATUS     .TABLE IN ZP/A,292,1.
+HISTORY    (19800902C)
+           (19801015E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 4          2
+EN         DATA       DATA-ERR   ASSUM
+EV         B          B          B
+ 1.2600E+00 3.1000E+00 7.0000E-02 2.0300E+01
+ 5.1900E+00 3.0500E+00 4.0000E-02 1.7050E+01
+ENDDATA              4
+ENDSUBENT           15
+SUBENT        21660018   20060605   20070104   20061127       2180
+BIB                  5          6
+REACTION   (11-NA-23(N,TOT),,SIG)
+SAMPLE     .NA2SO4 CRYSTAL POWDER.
+ASSUMED    (ASSUM,16-S-CMP(N,TOT),,SIG) SO4 COMPOUND
+STATUS     .TABLE IN ZP/A,292,1.
+HISTORY    (19800902C)
+           (19801015E)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 4          2
+EN         DATA       DATA-ERR   ASSUM
+EV         B          B          B
+ 1.2600E+00 3.1000E+00 3.0000E-02 1.6100E+01
+ 5.1900E+00 3.0600E+00 3.0000E-02 1.6060E+01
+ENDDATA              4
+ENDSUBENT           15
+SUBENT        21660019   20060605   20070104   20061127       2180
+BIB                  4          5
+REACTION   (11-NA-CMP(N,TOT),,SIG)
+SAMPLE     .NA-N-O3
+STATUS     .TABLE IN ZP/A,292,1.
+HISTORY    (19800903C)
+           (19801015E)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MILLI-EV   B          B
+ 5.1000E-01 2.5700E+01 2.0000E-01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        21660020   20060605   20070104   20061127       2180
+BIB                  4          5
+REACTION   (11-NA-CMP(N,TOT),,SIG)
+SAMPLE     .NA2-SO4
+STATUS     .TABLE IN ZP/A,292,1.
+HISTORY    (19800903C)
+           (19801015E)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MILLI-EV   B          B
+ 5.1000E-01 1.9100E+01 4.0000E-01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        21660021   20060605   20070104   20061127       2180
+BIB                  3          4
+REACTION   (12-MG-CMP(N,TOT),,SIG)
+STATUS     .TABLE IN ZP/A,292,1.
+HISTORY    (19800903C)
+           (19801015E)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MILLI-EV   B          B
+ 5.1000E-01 1.4600E+00 3.0000E-02
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        21660022   20060605   20070104   20061127       2180
+BIB                  4          5
+REACTION   (12-MG-CMP(N,TOT),,SIG)
+SAMPLE     .MG-S-O4
+STATUS     .TABLE IN ZP/A,292,1.
+HISTORY    (19800903C)
+           (19801015E)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MILLI-EV   B          B
+ 5.1000E-01 1.5600E+01 2.0000E-01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        21660023   20060605   20070104   20061127       2180
+BIB                  4          5
+REACTION   (9-F-CMP(N,TOT),,SIG)
+SAMPLE     .MG-F2
+STATUS     .TABLE IN ZP/A,292,1.
+HISTORY    (19800903C)
+           (19801015E)
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MILLI-EV   B          B
+ 6.7600E-01 2.3000E+00 1.0000E-01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        21660024   20060605   20070104   20061127       2180
+BIB                  3          3
+REACTION   (9-F-19(N,EL)9-F-19,FA,SIG,,,DERIV)
+STATUS     .TABLE AND TEXT IN ZP/A,292,1.
+HISTORY    (19800903C)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+EV         B          B
+ 0.0000E+00 3.6410E+00 1.0000E-02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        21660025   20060605   20070104   20061127       2180
+BIB                  3          3
+REACTION   (11-NA-23(N,EL)11-NA-23,FA,SIG,,,DERIV)
+STATUS     .TABLE AND TEXT IN ZP/A,292,1.
+HISTORY    (19800903C)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+EV         B          B
+ 0.0000E+00 3.0250E+00 2.0000E-02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        21660026   20060605   20070104   20061127       2180
+BIB                  3          3
+REACTION   (12-MG-0(N,EL)12-MG-0,FA,SIG,,,DERIV)
+STATUS     .TABLE AND TEXT IN ZP/A,292,1.
+HISTORY    (19800903C)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+EV         B          B
+ 0.0000E+00 3.4140E+00 2.4000E-03
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        21660027   20060605   20070104   20061127       2180
+BIB                  3          3
+REACTION   (13-AL-27(N,EL)13-AL-27,FA,SIG,,,DERIV)
+STATUS     .TABLE AND TEXT IN ZP/A,292,1.
+HISTORY    (19800903C)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+EV         B          B
+ 0.0000E+00 1.4134E+00 1.0000E-03
+ENDDATA              3
+ENDSUBENT           11
+ENDENTRY            27

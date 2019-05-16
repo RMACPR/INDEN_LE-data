@@ -1,0 +1,289 @@
+ENTRY            40706     920617              20050926       0000
+SUBENT        40706001     920617              20050926       0000
+BIB                 10         18
+INSTITUTE  (4CCPFEI)
+REFERENCE  (S,EANDC-50,200,6507)
+           (C,65ANTWERP,,576(200),65)
+AUTHOR     (L.YA.KAZAKOVA,V.E.KOLESOV,V.I.POPOV,O.A.SAL'NIKOV,
+           V.M.SLUCHEVSKAYA,V.I.TRYKOVA)
+TITLE      ELASTIC SCATTERING OF NEUTRONS WITH INITIAL ENERGY
+           2 MEV
+DETECTOR   (SCIN) HYDROGENOUS SCINTILLATORS COUPLED TO
+            PHOTOMULTIPLIERS. DETECTOR ENERGY BIAS 1 MEV.
+MONITOR     ABSOLUTE MEASUREMENTS
+ANALYSIS   (INTAD)
+COMMENT     DIFFERENTIAL CROSS-SECTIONS MEASURED FOR THE ANGLE
+            INTERVAL 20 - 160 ADEG
+STATUS     (SCSRS)
+HISTORY    (840416T) CONVERTED FROM ENTRY 80114
+           (860708U) SOME REACTION CODES AND REFERENCE CORRECTED
+           (920617U) ANGLES FROM COMMON SECTION DELETED
+                     COMMENT ADDED IN SAN 001
+ENDBIB              18
+NOCOMMON
+ENDSUBENT           21
+SUBENT        40706002     841024              20050926       0000
+BIB                  1          1
+REACTION   (90-TH-232(N,EL)90-TH-232,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 5.0000E+00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40706003     841024              20050926       0000
+BIB                  1          1
+REACTION   (11-NA-23(N,EL)11-NA-23,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 2.6000E+00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40706004     841024              20050926       0000
+BIB                  1          1
+REACTION   (15-P-31(N,EL)15-P-31,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 3.3000E+00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40706005     860708              20050926       0000
+BIB                  1          1
+REACTION   (17-CL-0(N,EL)17-CL-0,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 3.1000E+00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40706006     860708              20050926       0000
+BIB                  1          1
+REACTION   (22-TI-0(N,EL)22-TI-0,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 3.0000E+00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40706007     860708              20050926       0000
+BIB                  1          1
+REACTION   (29-CU-0(N,EL)29-CU-0,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 2.1000E+00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40706008     860708              20050926       0000
+BIB                  1          1
+REACTION   (30-ZN-0(N,EL)30-ZN-0,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 2.6000E+00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40706009     860708              20050926       0000
+BIB                  1          1
+REACTION   (24-CR-0(N,EL)24-CR-0,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 2.5000E+00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40706010     860708              20050926       0000
+BIB                  1          1
+REACTION   (35-BR-0(N,EL)35-BR-0,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 2.1000E+00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40706011     860708              20050926       0000
+BIB                  1          1
+REACTION   (38-SR-0(N,EL)38-SR-0,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 4.7000E+00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40706012     841024              20050926       0000
+BIB                  1          1
+REACTION   (41-NB-93(N,EL)41-NB-93,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 3.3000E+00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40706013     860708              20050926       0000
+BIB                  1          1
+REACTION   (42-MO-0(N,EL)42-MO-0,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 3.5000E+00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40706014     860708              20050926       0000
+BIB                  1          1
+REACTION   (47-AG-0(N,EL)47-AG-0,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 3.2000E+00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40706015     860708              20050926       0000
+BIB                  1          1
+REACTION   (48-CD-0(N,EL)48-CD-0,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 3.9000E+00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40706016     841024              20050926       0000
+BIB                  1          1
+REACTION   (53-I-127(N,EL)53-I-127,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 5.0000E+00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40706017     860708              20050926       0000
+BIB                  1          1
+REACTION   (56-BA-0(N,EL)56-BA-0,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 6.6000E+00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40706018     860708              20050926       0000
+BIB                  1          1
+REACTION   (51-SB-0(N,EL)51-SB-0,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 5.2000E+00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40706019     860708              20050926       0000
+BIB                  1          1
+REACTION   (80-HG-0(N,EL)80-HG-0,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 4.1000E+00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40706020     841024              20050926       0000
+BIB                  1          1
+REACTION   (83-BI-209(N,EL)83-BI-209,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 6.3000E+00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40706021     860708              20050926       0000
+BIB                  1          1
+REACTION   (28-NI-0(N,EL)28-NI-0,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 2.5000E+00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40706022     860708              20050926       0000
+BIB                  1          1
+REACTION   (26-FE-0(N,EL)26-FE-0,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 2.3000E+00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40706023     841024              20050926       0000
+BIB                  1          1
+REACTION   (25-MN-55(N,EL)25-MN-55,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 3.2000E+00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40706024     860708              20050926       0000
+BIB                  1          1
+REACTION   (73-TA-181(N,EL)73-TA-181,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 4.1000E+00
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        40706025     860708              20050926       0000
+BIB                  1          1
+REACTION   (74-W-0(N,EL)74-W-0,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         EN-RSL     DATA
+MEV        MEV        B
+ 2.0000E+00 1.0000E-01 4.4000E+00
+ENDDATA              3
+ENDSUBENT            9
+ENDENTRY            25

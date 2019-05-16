@@ -1,0 +1,354 @@
+ENTRY            10022   20110727   20111215   20111113       1374
+SUBENT        10022001   20110727   20111215   20111113       1374
+BIB                 15         29
+INSTITUTE  (1USASTF)
+REFERENCE  (R,AFWL-TR-68-134,196903)
+AUTHOR     (R.C.Barrall,J.A.Holmes,M.Silbergeld)
+TITLE      High energy neutron cross section validation and
+            neutron flux spectrum using the HENRE source.
+FACILITY   High energy neutron reaction experiment (HENRE) source.
+            For full description of source see Z.G.Burson,
+            CEX-65.04 (1971).
+INC-SOURCE (D-T) T(d,n) source. 10**13 neutrons/sec.
+METHOD     (ACTIV) Activation
+DETECTOR   (NAICR) 3 in by 3 in NaI(Tl) crystal, calibrated with
+            standard sources.
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+DECAY-MON  (11-NA-24,.625D,DG,1370.,1.00)
+CORRECTION Corrected for effect of low-energy neutrons in spectrum
+ERR-ANALYS No information
+ADD-RES    Reference also contains early values for reactions
+            reported in Nucl.Phys.A, 138, 387 (1969), measured
+            with an insulated-core transformer accelerator
+STATUS     (APRVD) Approved by author.
+           (TABLE) Data taken from report.
+HISTORY    (19711214C)
+           (19730509A) BIB correction. EN-ERR changed to EN-RSL.
+           (19800723A) Converted to REACTION formalism
+           (19810423A) BIB correction to MONITOR.
+           (19860422A) BIB updates.
+           (19990719A) Converted to new date formats, lower case.
+           (20110727A) SD: in COMMON section dimension of MONIT
+                           changed: MEV => B.
+ENDBIB              29
+COMMON               3          3
+EN         EN-RSL     MONIT
+MEV        MEV        B
+ 14.6       .2        0.1207
+ENDCOMMON            3
+ENDSUBENT           36
+SUBENT        10022002   19990719   19990812   20050926       0000
+BIB                  3          3
+REACTION   (9-F-19(N,2N)9-F-18,,SIG)
+SAMPLE     NaF sample.
+DECAY-DATA (9-F-18,,AR,511.,1.94)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ .047       .04
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10022003   19990719   19990812   20050926       0000
+BIB                  3          3
+REACTION   (11-NA-23(N,2N)11-NA-22,,SIG)
+SAMPLE     NaF sample.
+DECAY-DATA (11-NA-22,941.7D,AR,511.,1.797)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ .0495      .01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10022004   19990719   19990812   20050926       0000
+BIB                  2          2
+REACTION   (12-MG-24(N,P)11-NA-24,,SIG)
+DECAY-DATA (11-NA-24,.625D,DG,1370.,1.00)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ .194       .014
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10022005   19990719   19990812   20050926       0000
+BIB                  2          2
+REACTION   (16-S-34(N,A)14-SI-31,,SIG)
+DECAY-DATA (14-SI-31,,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ .137       .01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10022006   19990719   19990812   20050926       0000
+BIB                  2          2
+REACTION   (16-S-32(N,P)15-P-32,,SIG)
+DECAY-DATA (15-P-32,14.2D,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ .214       .016
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10022007   19990719   19990812   20050926       0000
+BIB                  3          3
+REACTION   (17-CL-35(N,A)15-P-32,,SIG)
+SAMPLE     NH(4)-CL SAMPLE.
+DECAY-DATA (15-P-32,14.2D,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ .108       .09
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10022008   19990719   19990812   20050926       0000
+BIB                  2          2
+REACTION   (25-MN-55(N,2N)25-MN-54,,SIG)
+DECAY-DATA (25-MN-54,311.9D,DG,835.,1.00)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ .785       .08
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10022009   19990719   19990812   20050926       0000
+BIB                  2          2
+REACTION   (26-FE-54(N,P)25-MN-54,,SIG)
+DECAY-DATA (25-MN-54,311.9D,DG,835.,1.00)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ .346       .03
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10022010   19990719   19990812   20050926       0000
+BIB                  2          2
+REACTION   (26-FE-56(N,P)25-MN-56,,SIG)
+DECAY-DATA (25-MN-56,.1075D,DG,845.,0.99)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ .113       .08
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10022011   19990719   19990812   20050926       0000
+BIB                  3          3
+REACTION   (27-CO-59(N,2N)27-CO-58,,SIG)
+DECAY-DATA (27-CO-58-G,71.3D,DG,815.,1.01)
+HISTORY    (19810423A) BIB correction to DECAY-DATA.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ .760       .06
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10022012   19990719   19990812   20050926       0000
+BIB                  2          3
+REACTION   ((28-NI-58(N,N+P)27-CO-57,,SIG)+
+           (28-NI-58(N,D)27-CO-57,,SIG))
+DECAY-DATA (27-CO-57,267.D,DG,122.,0.87)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ .73        .06
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10022013   19990719   19990812   20050926       0000
+BIB                  3          3
+REACTION   (28-NI-58(N,P)27-CO-58,,SIG)
+DECAY-DATA (27-CO-58-G,71.3D,DG,810.,0.99)
+HISTORY    (19810423A) BIB correction to DECAY-DATA.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ .341       .03
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10022014   19990719   19990812   20050926       0000
+BIB                  2          2
+REACTION   (28-NI-58(N,2N)28-NI-57,,SIG)
+DECAY-DATA (28-NI-57,1.5D,DG,1370.,0.86)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ .0334      .002
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10022015   19990719   19990812   20050926       0000
+BIB                  2          2
+REACTION   (29-CU-65(N,2N)29-CU-64,,SIG)
+DECAY-DATA (29-CU-64,.5333D,DG,511.,0.38)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ .897       .10
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10022016   19990719   19990812   20050926       0000
+BIB                  3          3
+REACTION   (29-CU-63(N,A)27-CO-60,,SIG)
+DECAY-DATA (27-CO-60-G,1913.D,DG,1170.,1.00)
+HISTORY    (19810423A) BIB correction to DECAY-DATA.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ .0495      .01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10022017   19990719   19990812   20050926       0000
+BIB                  2          2
+REACTION   (30-ZN-64(N,P)29-CU-64,,SIG)
+DECAY-DATA (29-CU-64,.5333D,DG,511.,0.38)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ .147       .01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10022018   19990719   19990812   20050926       0000
+BIB                  3          3
+REACTION   (40-ZR-90(N,2N)40-ZR-89,,SIG)
+DECAY-DATA (40-ZR-89-G,3.292D,DG,915.,1.00)
+HISTORY    (19810423A) BIB correction to DECAY-DATA.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ .793       .06
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10022019   19990719   19990812   20050926       0000
+BIB                  3          3
+REACTION   (53-I-127(N,2N)53-I-126,,SIG)
+SAMPLE     KI sample
+DECAY-DATA (53-I-126,12.8D,DG,390.,0.34)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.67       .09
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10022020   19990719   19990812   20050926       0000
+BIB                  2          2
+REACTION   (49-IN-115(N,2N)49-IN-114-M,,SIG)
+DECAY-DATA (49-IN-114-M,,DG,192.,0.17)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.33       .12
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10022021   19990719   19990812   20050926       0000
+BIB                  2          2
+REACTION   (49-IN-115(N,INL)49-IN-115-M,,SIG)
+DECAY-DATA (49-IN-115-M,.1863D,DG,335.,0.50)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ .067       .007
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        10022022   19990719   19990812   20050926       0000
+BIB                  3          3
+REACTION   (79-AU-197(N,2N)79-AU-196-G,,SIG)
+DECAY-DATA (79-AU-196-G,6.3D,DG,356.,1.18)
+HISTORY    (19810423A) BIB correction to DECAY-DATA.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.07       .2
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10022023   19990719   19990812   20050926       0000
+BIB                  3          3
+REACTION   (90-TH-232(N,F),,SIG)
+SAMPLE     MgTh sample.
+PART-DET   (FF) Fission fragments in Lexan plastic sheets.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ .45        .04
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10022024   19990719   19990812   20050926       0000
+BIB                  3          3
+REACTION   (90-TH-232(N,F),,SIG)
+SAMPLE     MgTh sample.
+PART-DET   (FF) Counted 99Mo produced.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ .56        .14
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10022025   19990719   19990812   20050926       0000
+BIB                  3          3
+REACTION   (92-U-238(N,F),,SIG)
+SAMPLE     U sample, 99.8% 238U.
+PART-DET   (FF) Fission fragments in Lexan plastic sheets.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.24       .06
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10022026   19990719   19990812   20050926       0000
+BIB                  3          3
+REACTION   (92-U-238(N,F),,SIG)
+SAMPLE     U sample, 99.8% 238U.
+PART-DET   (FF) Counted 99Mo produced.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.16       .23
+ENDDATA              3
+ENDSUBENT           11
+ENDENTRY            26

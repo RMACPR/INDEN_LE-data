@@ -1,0 +1,190 @@
+ENTRY            22345   20161027   20170302   20170214       2255
+SUBENT        22345001   20161027   20170302   20170214       2255
+BIB                 10         38
+TITLE       Experimental studies of keV energy neutron-induced
+            reactions relevant to astrophysics and nuclear
+            physics
+AUTHOR     (T.Shima,T.Kii,T.Kikuchi,F.Okazaki,T.Kobayashi,T.Baba,
+           Y.Nagai,M.Igashira)
+INSTITUTE  (2JPNTIT) Department of Applied Physics and Research
+             Laboratory for Nuclear Reactors (M.Igashira) of the
+             Tokyo Institute of Technology
+REFERENCE  ((S,JAERI-C-97-004,131,199604)=
+           (R,INDC(JPN)-178,47,199604))  Main reference,
+                             data are given
+           (J,NP/A,621,231C,1997)  Subent 005,006 carbon-13 data
+                                 in Tables.First author T.Shima .
+REL-REF    (I,,T.Shima+,J,NIM/A,356,347,1995)  Experim. details
+           (M,23002001,T.Ohsaki+,J,AJ,422,(2),912,1994) - Facility
+            description and data for C-12(n,gamma) reaction
+           (O,23002001,T.Shima+,S,JAERI-C-97-004,131,1996)
+            Data for C-12 Table 1 of S,JAERI-C-97-004,131,1996)
+            in Entry 23002, Subents 002,003.
+FACILITY   (VDGT,2JPNTIT)  Supposed proton Van-de-Graaff, protons
+               energies were adjusted to 1.955, 2.13 and 2.48 MeV
+               in order  to produce neutrons in energy ranges
+               from 10 keV  to 600 keV.
+METHOD     (TOF)   .Time-of-flight method was used for neutron
+                    energy determination
+DETECTOR   (SCIN)  .Li-6 glass scintillation detector for neutron
+                    beam monitoring
+INC-SOURCE (P-LI7) .Neutrons were produced in the energy ranges
+                   10-75, 30-250 and 450-600 keV. 1.5 ns pulsed
+                   neutron beam was used
+HISTORY    (19970828C)  + +  Compiled by S.M.     + +
+           (20061213A) Corrected S.M. Date is corrected
+           (20070422A) Corrected by SM, SAN 002, 003
+           (20121210A) SD: Subents 002, 003 were deleted.
+            Duplication with 23002.002, 003.
+           (20161027A) M.M. Ref. J,NP/A,621,231c,1997 was added.
+            BIB information was updated .
+            Monitor information was added.
+ENDBIB              38
+NOCOMMON             0          0
+ENDSUBENT           41
+SUBENT        22345004   20161027   20170302   20170214       2255
+BIB                  8         13
+REACTION   (3-LI-7(N,G)3-LI-8,,SIG)
+DETECTOR   (NAICR) Four Na-I(Tl) crystals with a diameter of 22.9
+                   cm and length of 20.3 cm
+PART-DET   (G,N)
+SAMPLE     .Disk of Li2-O oxide with a diameter of 64 mm,
+            Li-7 content is 99,94 % ,
+            number density is 0.101 atoms/barn
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+MONIT-REF  (,P.G.Young,3,ENDF/B-VI,,1991)
+STATUS     (PRELM)  Declared by authors as preliminary .
+           (TABLE)  Text,page 135 of JAERI-C-97-004,131 .
+ERR-ANALYS (DATA-ERR)  Errors are not specified. Assumed total
+                    by the compiler
+ENDBIB              13
+NOCOMMON             0          0
+DATA                 3          2
+EN         DATA       DATA-ERR
+KEV        MICRO-B    MICRO-B
+       24.9       52.3        3.3
+       50.7       32.1         2.
+ENDDATA              4
+ENDSUBENT           22
+SUBENT        22345005   20161027   20170302   20170214       2255
+BIB                 13         34
+REACTION   (6-C-13(N,G)6-C-14,PAR,SIG)
+METHOD     (GSPEC) Prompt gamma spectrometry
+DETECTOR   (NAICR) One central Na-I(Tl) scintillation counter with
+            diameter of 7.6 cm and a length of 15.5 cm and another
+            cylindrical one with diameter of 25.4 cm and length of
+            28 cm were used for gamma-rays detection
+PART-DET   (G,N)
+SAMPLE     .Carbon sample of 99.9 pc purity packed in a container
+            made of natural carbon. Number thickness is O.O459
+            atoms/B
+           90mm diameter, 30mm thickness, 63.1g weight.
+           C-13 powder were packed in a cylindrical container made
+           of 1mm thick natural graphite.
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+MONIT-REF  (,P.G.Young,3,ENDF/B-VI,,1991)
+CORRECTION  Background was measured without sample.
+            Correction for self-shielding and multiple scattering
+            of neutrons in the sample were done via Monte  Carlo
+            code TIME-MULTI.
+REL-REF    (N,,K.Senoo+,J,NIM/A,339,556,1994) code TIME-MULTI.
+ERR-ANALYS (DATA-ERR)  Errors are not specified. Assumed total
+                    by the compiler
+COMMENT    .Number levels in data section given under LVL-NUMB=1
+            and LVL-NUMB=5 correspond to transitions from the 1st
+            excited to ground level and the 5Th excited to the
+            ground level, correspondingly
+STATUS     (TABLE) Table 1 of J,NP/A,621,231c,1997
+                  = Table 2 of JAERI-C-97-004,131,1996
+                   Declared by authors as preliminary
+             in S,JAERI-C-97-004,131,1996
+HISTORY    (20061213U)  One wrong data line deleted
+           (20061213U) Last checking has been done.
+           (20161027A) M.M. MONITOR,MONIT-REF,CORRECTION were
+           added.
+ENDBIB              34
+NOCOMMON             0          0
+DATA                 6          6
+EN-MIN     EN-MAX     LVL-NUMB   E-LVL      DATA       DATA-ERR
+KEV        KEV        NO-DIM     MEV        MICRO-B    MICRO-B
+        10.        40.               0.           1.3        0.6
+        10.        40.         1.                12.2        2.6
+        10.        40.         5.                 6.3        2.5
+        41.        87.               0.           0.8        0.3
+        41.        87.         1.                 9.8        1.3
+        41.        87.         5.                 1.6        1.1
+ENDDATA              8
+ENDSUBENT           47
+SUBENT        22345006   20161027   20170302   20170214       2255
+BIB                 10         30
+REACTION   (6-C-13(N,G)6-C-14,,SIG)
+METHOD     (GSPEC) Prompt gamma spectrometry
+DETECTOR   (NAICR) One central Na-I(Tl) scintillation counter with
+            diameter of 7.6 cm and a length of 15.5 cm and another
+            cylindrical one with diameter of 25.4 cm and length of
+            28 cm were used for gamma-rays detection
+PART-DET   (G,N)
+SAMPLE     .Carbon sample of 99.9% purity packed in a container
+            made of natural carbon. Thickness is 0.0459 atoms/b .
+           90mm diameter, 30mm thickness, 63.1g weight.
+           C-13 powder were packed in a cylindrical container made
+           of 1mm thick natural graphite.
+ANALYSIS   Cross sections were determined using known ratios of
+           the transitions between the excited states and ground
+           state from REL-REF of F.Ajzenberg-Selove.
+REL-REF    (R,,F.Ajzenberg-Selove,J,NP/A,449,1,1986)
+           (A,,S.Raman+,J,PR/C,41,458,1990)
+            20+-9 microbarn at En-mean=40 keV
+ERR-ANALYS (DATA-ERR)  Errors are not specified. Assumed total
+                    by the compiler
+STATUS     (TABLE) Table 2 of J,NP/A,621,231c,199;
+                   Table 2 of JAERI-C-97-004,131,1996.
+                   Declared by authors as preliminary
+             in S,JAERI-C-97-004,131,1996
+           (DEP,22345005) Measured partial CS, see ANALYSIS.
+HISTORY    (20061213U)  One wrong data line deleted
+           (20061213U) Last checking has been done.
+           (20121210U) SD: STATUS (PRELM) was added.
+                   ERR-T -> DATA-ERR
+           (20161027A) M.M. ANALYSIS,REL-REF were added.
+ENDBIB              30
+NOCOMMON             0          0
+DATA                 4          2
+EN-MIN     EN-MAX     DATA       DATA-ERR
+KEV        KEV        MICRO-B    MICRO-B
+        10.        40.       19.8        3.7
+        41.        87.       12.2        1.7
+ENDDATA              4
+ENDSUBENT           39
+SUBENT        22345007   20161027   20170302   20170214       2255
+BIB                 10         20
+REACTION   (7-N-14(N,P)6-C-14,,SIG)
+DETECTOR   (SCIN) Gas scintillation drift chamber (CSDC) filled
+                  with He and N2 mixture and serves as an active
+                  gas target
+            Detection efficiency ~100%, solid angle 4PI.
+MONITOR    (2-HE-3(N,P)1-H-3,,SIG)  Used for calibrating detection
+                efficiency of CSDC
+MONIT-REF  (,G.Hale+,3,ENDF/B-VI,,1990)
+PART-DET   (P,N)
+SAMPLE     .Two kinds of the gas samples were used - one a mixture
+            of 80 %  of natural He with 20 %c of N2 (natural
+            sample) and another a mixture containing 0.31 %  of
+            He-3 (enriched sample). Gas pressure is 600 Torr
+ADD-RES    (P-SPC) A net spectrum of protons obtained in the
+                   measurements of the enriched sample
+ERR-ANALYS (ERR-SYS)  Total systematic error
+           (ERR-S) Statistical error
+STATUS     (TABLE) Text, page 139 of S,JAERI-C-97-004,131,1996
+REL-REF    (A,13164001,P.E.Koehler+,J,PR/C,39,1655,1989)
+           (A,,Yu.M.Gledenov+,J,ZP/A,348,199,1994)
+ENDBIB              20
+NOCOMMON             0          0
+DATA                 4          2
+EN         DATA       ERR-S      ERR-SYS
+KEV        MB         MB         MB
+       35.8       1.67       0.33       0.13
+       67.1       1.19       0.14        0.1
+ENDDATA              4
+ENDSUBENT           29
+ENDENTRY             5

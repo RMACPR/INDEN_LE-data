@@ -1,0 +1,300 @@
+ENTRY            11346     830811              20050926       0000
+SUBENT        11346001     830811              20050926       0000
+BIB                  6          8
+INSTITUTE  (1USALRL)
+REFERENCE  (J,NP,47,241,6308)
+AUTHOR     (R.W.BAUER,J.D.ANDERSON,L.J.CHRISTENSEN)
+TITLE      SCATTERING OF 14 MEV NEUTRONS FROM NITROGEN AND OXYGEN.
+STATUS     (SCSRS)
+HISTORY    (760714T) TRANSLATED FROM SCISRS
+           (820324A) CONVERTED TO REACTION FORMALISM
+           (830811A) BIB, DATA HEADING CORRECTIONS.
+ENDBIB               8
+NOCOMMON             0          0
+ENDSUBENT           11
+SUBENT        11346002     860120              20050926       0000
+BIB                  3          3
+REACTION   (7-N-0(N,EL)7-N-0,,SIG)
+STATUS     (DEP,11346005) INTEGRATED ANGULAR DISTRIBUTION
+HISTORY    (860120A) REACTION PRODUCT ADDED.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.41   +01 4.0        8.73   -01 0.09
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11346003     820324              20050926       0000
+BIB                  3          4
+REACTION   (7-N-0(N,NON),,SIG)
+STATUS     (DEP,11346002)
+ANALYSIS   FROM TOTAL OF COON, PHYS.REV.88,562 (1952) = 1.59 B,
+            AND MEASURED ELASTIC.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 14.        0.72       0.10
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11346004     830811              20050926       0000
+BIB                  2          3
+REACTION   (7-N-14(N,INL)7-N-14,PAR,SIG)
+STATUS     (DEP,11346006) INTEGRATED ANGULAR DISTRIBUTION
+           (DEP,11346007)
+ENDBIB               3
+COMMON               1          3
+EN
+MEV
+ 14.
+ENDCOMMON            3
+DATA                 2          2
+Q-VAL      DATA-APRX
+MEV        MB
+-3.95       20.
+-2.31        4.
+ENDDATA              4
+ENDSUBENT           16
+SUBENT        11346005     860120              20050926       0000
+BIB                  6          6
+REACTION   (7-N-0(N,EL)7-N-0,,DA)
+METHOD     (TOF) TIME-OF-FLIGHT. RING GEOMETRY.
+MONITOR    (1-H-1(N,SCT)1-H-1,,SIG)
+CORRECTION CORRECTED FOR MULTIPLE SCATTERING
+ERR-ANALYS ABSOLUTE ERROR GIVEN, RELATIVE ERROR ABOUT 7 PERCENT
+HISTORY    (860120A) REACTION PRODUCT ADDED.
+ENDBIB               6
+COMMON               1          3
+EN
+MEV
+ 1.4    +01
+ENDCOMMON            3
+DATA                 3         21
+COS-CM     DATA-CM    DATA-ERR
+NO-DIM     MB/SR      PER-CENT
+ 0.94940    5.30   +02   10.
+ 0.92980    4.51   +02   10.
+ 0.89100    3.27   +02   10.
+ 0.84710    2.52   +02   10.
+ 0.79230    1.23   +02   10.
+ 0.73610    8.68   +01   10.
+ 0.66780    4.60   +01   10.
+ 0.60040    3.45   +01   10.
+ 0.52400    2.98   +01   10.
+ 0.47870    3.78   +01   10.
+ 0.44780    3.36   +01   10.
+ 0.27900    4.18   +01   10.
+ 0.10280    3.86   +01   10.
+-0.0680     3.40   +01   10.
+-0.1582     2.84   +01   10.
+-0.2453     2.36   +01   10.
+-0.4019     2.21   +01   10.
+-0.5519     1.77   +01   10.
+-0.6833     1.18   +01   10.
+-0.8111     1.15   +01   10.
+-0.9461     1.58   +01   20.
+ENDDATA             23
+ENDSUBENT           38
+SUBENT        11346006     820324              20050926       0000
+BIB                  5          5
+REACTION   (7-N-14(N,INL)7-N-14,PAR,DA)
+METHOD     RING GEOMETRY
+MONITOR    (1-H-1(N,SCT)1-H-1,,SIG)
+CORRECTION NOT CORRECTED FOR MULTIPLE SCATTERING OR ABSORPTION.
+ERR-ANALYS ACCURACY WITHIN FACTOR OF TWO.
+ENDBIB               5
+COMMON               2          3
+EN         E-LVL
+MEV        MEV
+ 1.4    +01    2.31
+ENDCOMMON            3
+DATA                 2         10
+ANG-CM     DATA-CM
+ADEG       MB/SR
+  54.       7.     -01
+  64.       5.     -01
+  75.       4.     -01
+  85.       3.     -01
+  95.       2.     -01
+ 105.       3.     -01
+ 115.       2.     -01
+ 124.       3.     -01
+ 134.       2.     -01
+ 143.       4.     -01
+ENDDATA             12
+ENDSUBENT           26
+SUBENT        11346007     820324              20050926       0000
+BIB                  3          3
+REACTION   (7-N-14(N,INL)7-N-14,PAR,DA)
+METHOD     RING GEOMETRY
+MONITOR    (1-H-1(N,SCT)1-H-1,,SIG)
+ENDBIB               3
+COMMON               3          3
+EN         E-LVL      DATA-ERR
+MEV        MEV        PER-CENT
+ 1.4    +01 3.95       20.
+ENDCOMMON            3
+DATA                 2         12
+COS-CM     DATA-CM
+NO-DIM     MB/SR
+ 0.84800    4.0    +00
+ 0.73140    1.9    +00
+ 0.58780    2.7    +00
+ 0.43840    1.8    +00
+ 0.25880    1.3    +00
+ 0.08720    8.     -01
+-0.0872     9.     -01
+-0.2588     6.     -01
+-0.4226     7.     -01
+-0.5592     1.5    +00
+-0.6947     1.1    +00
+-0.7986     1.6    +00
+ENDDATA             14
+ENDSUBENT           26
+SUBENT        11346008     820324              20050926       0000
+BIB                  3          3
+REACTION   (8-O-0(N,NON),,SIG)
+STATUS     (DEP,11346010)
+ANALYSIS   TOTAL-ELASTIC
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.4    +01 7.3    -01 1.     -01
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11346009     860120              20050926       0000
+BIB                  4          5
+REACTION   (8-O-0(N,EL)8-O-0,,DA)
+METHOD                RING GEOMETRY
+CORRECTION CORRECTED FOR MULTIPLE SCATTERING AND ABSORPTION.
+           NOT CORRECTED FOR ANGULAR RESOLUTION.
+HISTORY    (860120A) REACTION PRODUCT ADDED.
+ENDBIB               5
+COMMON               2          3
+EN         DATA-ERR
+MEV        PER-CENT
+ 1.4    +01 10.
+ENDCOMMON            3
+DATA                 2         19
+COS-CM     DATA-CM
+NO-DIM     MB/SR
+ 0.94940    5.96   +02
+ 0.93110    4.54   +02
+ 0.89340    3.59   +02
+ 0.84990    2.04   +02
+ 0.79550    1.26   +02
+ 0.74080    6.59   +01
+ 0.67430    4.38   +01
+ 0.60740    3.06   +01
+ 0.53140    3.50   +01
+ 0.48630    4.17   +01
+ 0.45550    3.71   +01
+ 0.28900    4.72   +01
+ 0.11490    4.57   +01
+-0.0576     3.77   +01
+-0.1478     3.53   +01
+-0.2368     2.24   +01
+-0.3923     1.76   +01
+-0.5432     1.12   +01
+-0.6769     1.03   +01
+ENDDATA             21
+ENDSUBENT           35
+SUBENT        11346010     860120              20050926       0000
+BIB                  3          3
+REACTION   (8-O-0(N,EL)8-O-0,,SIG)
+STATUS     (DEP,11346009) INTEGRATED ANGULAR DISTRIBUTION
+HISTORY    (860120A) REACTION PRODUCT ADDED.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          PER-CENT
+ 1.41   +01    4.0     8.80   -01   10.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11346011     820324              20050926       0000
+BIB                  3          3
+REACTION   (8-O-16(N,INL)8-O-16,PAR,DA)
+METHOD                RING GEOMETRY
+MONITOR    (1-H-1(N,SCT)1-H-1,,SIG)
+ENDBIB               3
+COMMON               4          3
+EN         E-LVL-MIN  E-LVL-MAX  DATA-ERR
+MEV        MEV        MEV        PER-CENT
+ 1.4    +01 6.05   +00 7.12   +00 20.
+ENDCOMMON            3
+DATA                 2         16
+COS-CM     DATA-CM
+NO-DIM     MB/SR
+ 0.86600    1.4    +01
+ 0.78800    1.7    +01
+ 0.73140    1.1    +01
+ 0.66910    1.7    +01
+ 0.58780    1.2    +01
+ 0.50000    1.7    +01
+ 0.42260    1.2    +01
+ 0.25880    1.3    +01
+ 0.12190    1.0    +01
+-0.0872     8.     +00
+-0.1736     1.0    +01
+-0.2588     7.     +00
+-0.4226     1.0    +01
+-0.5736     1.2    +01
+-0.7071     1.1    +01
+-0.8192     1.0    +01
+ENDDATA             18
+ENDSUBENT           30
+SUBENT        11346012     830811              20050926       0000
+BIB                  4          4
+REACTION   (8-O-16(N,INL)8-O-16,PAR,DA)
+METHOD                RING GEOMETRY
+MONITOR    (1-H-1(N,SCT)1-H-1,,SIG)
+ERR-ANALYS ACCURACY TO A FACTOR OF 2.
+ENDBIB               4
+COMMON               1          3
+EN
+MEV
+ 1.4    +01
+ENDCOMMON            3
+DATA                 4         32
+E-LVL      E-LVL      COS-CM     DATA-CM
+MEV        MEV        NO-DIM     MB/SR
+ 6.05   +00 6.13   +00 0.86600    9.     +00
+ 6.05   +00 6.13   +00 0.78800    1.1    +01
+ 6.05   +00 6.13   +00 0.73140    7.     +00
+ 6.05   +00 6.13   +00 0.66910    1.0    +01
+ 6.05   +00 6.13   +00 0.58780    8.     +00
+ 6.05   +00 6.13   +00 0.50000    1.0    +01
+ 6.05   +00 6.13   +00 0.42260    8.     +00
+ 6.05   +00 6.13   +00 0.25880    8.     +00
+ 6.05   +00 6.13   +00 0.12190    6.     +00
+ 6.05   +00 6.13   +00-0.0872     5.     +00
+ 6.05   +00 6.13   +00-0.1736     6.     +00
+ 6.05   +00 6.13   +00-0.2588     4.     +00
+ 6.05   +00 6.13   +00-0.4266     6.     +00
+ 6.05   +00 6.13   +00-0.5736     7.     +00
+ 6.05   +00 6.13   +00-0.7071     6.     +00
+ 6.05   +00 6.13   +00-0.8192     5.     +00
+ 6.92   +00 7.12   +00 0.86600    5.     +00
+ 6.92   +00 7.12   +00 0.78800    6.     +00
+ 6.92   +00 7.12   +00 0.73140    4.     +00
+ 6.92   +00 7.12   +00 0.66910    7.     +00
+ 6.92   +00 7.12   +00 0.58780    4.     +00
+ 6.92   +00 7.12   +00 0.50000    7.     +00
+ 6.92   +00 7.12   +00 0.42260    4.     +00
+ 6.92   +00 7.12   +00 0.25880    5.     +00
+ 6.92   +00 7.12   +00 0.12190    4.     +00
+ 6.92   +00 7.12   +00-0.0872     3.     +00
+ 6.92   +00 7.12   +00-0.1736     4.     +00
+ 6.92   +00 7.12   +00-0.2588     3.     +00
+ 6.92   +00 7.12   +00-0.4226     4.     +00
+ 6.92   +00 7.12   +00-0.5736     5.     +00
+ 6.92   +00 7.12   +00-0.7071     5.     +00
+ 6.92   +00 7.12   +00-0.8192     5.     +00
+ENDDATA             34
+ENDSUBENT           47
+ENDENTRY            12

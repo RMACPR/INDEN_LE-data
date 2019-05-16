@@ -1,0 +1,136 @@
+ENTRY            32514   20150524   20150817   20150706       3170
+SUBENT        32514001   20150524   20150817   20150706       3170
+BIB                 15         44
+TITLE      The cross section measurements for the Ba(n,x)134Cs,
+            134Ba(n,2n)133Ba,140Ce(n,2n)139Ce,142Ce(n,2n)141Ce
+            and 23Na(n,2n)22Na reactions
+AUTHOR     (Kong Xiangzhong, Wang Yongchang, Yang Jingkang,
+            Yuan Junqian)
+INSTITUTE  (3CPRLNZ)
+REFERENCE  (J,PHE,19,781,1995)
+           ((R,INDC(CPR)-036,5,1995)=(J,CNDP,14,5,1995))
+            Similar data given for all reactions
+           (J,RCA,76,11,1997) Ce(n,2n) data at highest En given
+FACILITY   (NGEN,3CPRLNZ) ZF-300-2 intense neutron generator
+INC-SOURCE (D-T) T-Ti target (~0.9 mg/cm2 thick) with 125 keV
+            deuteron beam (20 mA).
+SAMPLE     Disc samples (20 mm in diam.) placed at center of beam
+            stop on the T-Ti target with distances between 5 to
+            28 cm.
+           (26-FE-54,NAT=0.058) Iron metallic foil (purity of
+            99.9%) for neutron flux determination
+DETECTOR   (HPGE) CH8403 co-axial high-purity Ge detector
+            (relative efficiency of 20%, energy resolution of
+             3 keV at 1.33 MeV)
+METHOD     (ACTIV) Irradiated for 108.9 hr
+MONITOR    (26-FE-54(N,P)25-MN-54,,SIG)
+DECAY-MON  (25-MN-54,312.20D,DG,834.826,0.99975)
+ERR-ANALYS (ERR-T) The principal sources of uncertainty were:
+           (ERR-S,0.5,1.1)    Counting statistics       (0.5-1.1%)
+           (MONIT-ERR,1.5,3.) Monitor cross sections      (1.5-3%)
+           (ERR-1)            Detector efficiency           (0.7%)
+           (ERR-2)            Gamma-ray self-absorption       (1%)
+           (ERR-3)            Cascade gamma coincidence       (1%)
+           (ERR-4)            Sample weight                (0.15%)
+           (ERR-5)            Neutron energy                (0.4%)
+CORRECTION Corrected for
+            - gamma-ray self-absorption,
+            - cascade gamma coincidence,
+            - neutron flux fluctuation,
+            - geometric factor.
+STATUS     (TABLE) Table 2 of High Ene.Phys.Nucl.Phys.17(1993)290
+HISTORY    (19990717C) Zhuang at CNDC
+           (20010405D) entry deleted, see 31485. Os
+           (20090730A) SD:Updated to new date formats,lower case.
+           (20090821A) SD:second word "reactions" was removed
+                          from title.
+           (20150524S) On. Restored.
+ENDBIB              44
+COMMON               5          3
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
+ 0.7        1.         1.         0.15       0.4
+ENDCOMMON            3
+ENDSUBENT           51
+SUBENT        32514002   20150524   20150817   20150706       3170
+BIB                  3          3
+REACTION   (56-BA-0(N,X)55-CS-134,,SIG)
+SAMPLE     Barium carbonate (pressed powder, purity of 99.8%)
+DECAY-DATA (55-CS-134-G,2.062YR,DG,795.867,0.854)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          3
+EN         EN-ERR     DATA       ERR-T
+MEV        MEV        MB         MB
+ 13.50      0.07       0.625      0.031
+ 14.18      0.07       0.711      0.036
+ 14.80      0.11       0.782      0.039
+ENDDATA              5
+ENDSUBENT           13
+SUBENT        32514003   20150524   20150817   20150706       3170
+BIB                  3          4
+REACTION   (56-BA-134(N,2N)56-BA-133,,SIG)
+SAMPLE     (56-BA-134,NAT=0.02417) Barium carbonate (pressed
+            powder, purity of 99.8%)
+DECAY-DATA (56-BA-133-G,10.54YR,DG,355.999,0.622)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          3
+EN         EN-ERR     DATA       ERR-T
+MEV        MEV        MB         MB
+ 13.50      0.07       1682.      84.
+ 14.18      0.07       1764.      88.
+ 14.80      0.11       1785.      89.
+ENDDATA              5
+ENDSUBENT           14
+SUBENT        32514004   20150524   20150817   20150706       3170
+BIB                  4          5
+REACTION   (58-CE-140(N,2N)58-CE-139,,SIG)
+SAMPLE     (58-CE-140,NAT=0.8848) Cerium oxalic acid (pressed
+            powder, purity of 99.5%);
+DECAY-DATA (58-CE-139-G,137.66D,DG,165.853,0.799)
+FLAG       (1.) En=14.7+/-0.2 MeV in the Radiochim.Acta article
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 5          3
+EN         EN-ERR     DATA       ERR-T      FLAG
+MEV        MEV        MB         MB         NO-DIM
+ 13.50      0.07       1722.        96.
+ 14.18      0.07       1799.       100.
+ 14.80      0.11       1830.       110.      1.
+ENDDATA              5
+ENDSUBENT           15
+SUBENT        32514005   20150524   20150817   20150706       3170
+BIB                  4          5
+REACTION   (58-CE-142(N,2N)58-CE-141,,SIG)
+SAMPLE     (58-CE-142,NAT=0.1108) Cerium oxalic acid (pressed
+            powder, purity of 99.5%);
+DECAY-DATA (58-CE-141,32.5D,DG,145.44,0.484)
+FLAG       (1.) En=14.7+/-0.2 MeV in the Radiochim.Acta article
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 5          3
+EN         EN-ERR     DATA       ERR-T      FLAG
+MEV        MEV        MB         MB         NO-DIM
+ 13.50      0.07       2050.      100.
+ 14.18      0.07       2080.      100.
+ 14.80      0.11       2043.      100.       1.
+ENDDATA              5
+ENDSUBENT           15
+SUBENT        32514006   20150524   20150817   20150706       3170
+BIB                  4          4
+REACTION   (11-NA-23(N,2N)11-NA-22,,SIG)
+SAMPLE     Sodium chloride (pressed powder, purity of 99.8%)
+DECAY-DATA (11-NA-22,2.602YR,DG,1274.53,0.99937)
+FLAG       (1.) Uncertainty is 10.1 mb in the CNDP article
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 5          3
+EN         EN-ERR     DATA       ERR-T      FLAG
+MEV        MEV        MB         MB         NO-DIM
+ 13.50      0.07        5.60      0.20
+ 14.18      0.07       19.9       0.7
+ 14.80      0.11       38.2       1.1        1.
+ENDDATA              5
+ENDSUBENT           14
+ENDENTRY             6

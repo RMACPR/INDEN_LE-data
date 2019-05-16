@@ -1,0 +1,42 @@
+ENTRY            22574   20010202   20030919   20050926       0000
+SUBENT        22574001   20010202   20030919   20050926       0000
+BIB                  7          9
+INSTITUTE  (2SWTETH)
+REFERENCE  (J,HPA,12,330,1939)
+TITLE      .Nitrogen (N,P) And (N,A) Cross Section Measurement
+FACILITY   (ACCEL)
+AUTHOR     (E.BALDINGER,P.HUBER)
+STATUS     (SCSRS)
+HISTORY    (19780331C)  NNDC
+           (19991217T)  Converted by S.M.
+           (20010202U) Last checking has been done.
+ENDBIB               9
+NOCOMMON
+ENDSUBENT           12
+SUBENT        22574002   20010202   20030919   20050926       0000
+BIB                  2          3
+REACTION   (7-N-14(N,P)6-C-14,,SIG)
+HISTORY    (19991217T)  Converted from Subent 62460002
+           (20010202U) Last checking has been done.
+ENDBIB               3
+NOCOMMON
+DATA                 2          1
+EN         DATA
+MEV        B
+        2.8     4.E-02
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        22574003   20010202   20030919   20050926       0000
+BIB                  2          3
+REACTION   (7-N-14(N,A)5-B-11,,SIG)
+HISTORY    (19991217T)  Converted from Subent 62460003
+           (20010202U) Last checking has been done.
+ENDBIB               3
+NOCOMMON
+DATA                 2          1
+EN         DATA
+MEV        B
+        2.8    1.6E-01
+ENDDATA              3
+ENDSUBENT           11
+ENDENTRY             3

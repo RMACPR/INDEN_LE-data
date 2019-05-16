@@ -1,0 +1,623 @@
+ENTRY            11108   20071109   20080131   20080131       Y001
+SUBENT        11108001   20071109   20080131   20080131       Y001
+BIB                  8         13
+INSTITUTE  (1USALRL)
+REFERENCE  (J,PR,120,521,196010)
+AUTHOR     (J.M.PETERSON,A.BRATENAHL,J.P.STOERING)
+TITLE      Neutron total cross sections in the 17- to 29-MEV
+           region.
+INC-SOURCE (D-T) T(D,N) SOURCE
+DETECTOR   (SCIN) Biased plastic scintillator
+STATUS     (SCSRS)
+HISTORY    (19760924T) Translated from SCISRS
+           (19800814A) Converted to REACTION formalism
+           (19860819A) BIB UPDATE.
+           (20071109A) BIB update. SUBENT 11108043 deleted, same
+                       as 11108041.
+ENDBIB              13
+NOCOMMON             0          0
+ENDSUBENT           16
+SUBENT        11108002     800814              20050926       0000
+BIB                  1          1
+REACTION   (1-H-1(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          5
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.78   +01    1.5     5.60   -01 9.     -03
+ 2.06   +01            4.7    -01 1.     -02
+ 2.53   +01            3.88   -01 9.     -03
+ 2.83   +01            3.4    -01 1.     -02
+ 2.90   +01     .70    3.31   -01 8.     -03
+ENDDATA              7
+ENDSUBENT           13
+SUBENT        11108003     800814              20050926       0000
+BIB                  1          1
+REACTION   (1-H-2(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.78   +01    1.5     6.86   -01 8.     -03
+ 2.06   +01            6.0    -01 1.     -02
+ 2.53   +01            5.13   -01 9.     -03
+ 2.90   +01     .70    4.40   -01 7.     -03
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108004     800814              20050926       0000
+BIB                  1          1
+REACTION   (3-LI-6(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.81   +01    1.5     1.24   +00 2.     -02
+ 2.04   +01            1.15   +00 1.     -02
+ 2.53   +01            1.01   +00 1.     -02
+ 2.77   +01     .70    9.4    -01 1.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108005     800814              20050926       0000
+BIB                  1          1
+REACTION   (3-LI-7(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.81   +01    1.5     1.27   +00 2.     -02
+ 2.04   +01            1.18   +00 1.     -02
+ 2.53   +01            1.05   +00 1.     -02
+ 2.77   +01     .70    9.7    -01 2.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108006     800814              20050926       0000
+BIB                  2          2
+REACTION   (4-BE-9(N,TOT),,SIG)
+CORRECTION CORRECTED FOR INSCATTERING.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.75   +01    1.5     1.39   +00 1.     -02
+ 2.05   +01            1.31   +00 1.     -02
+ 2.53   +01            1.19   +00 1.     -02
+ 2.79   +01     .70    1.15   +00 1.     -02
+ENDDATA              6
+ENDSUBENT           13
+SUBENT        11108007     800814              20050926       0000
+BIB                  1          1
+REACTION   (6-C-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          5
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.78   +01    1.5     1.42   +00 1.     -02
+ 2.06   +01            1.46   +00 1.     -02
+ 2.53   +01            1.38   +00 1.     -02
+ 2.83   +01            1.32   +00 2.     -02
+ 2.91   +01     .70    1.32   +00 1.     -02
+ENDDATA              7
+ENDSUBENT           13
+SUBENT        11108008     800814              20050926       0000
+BIB                  1          1
+REACTION   (7-N-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.77   +01    1.5     1.54   +00 2.     -02
+ 2.06   +01            1.52   +00 3.     -02
+ 2.53   +01            1.41   +00 2.     -02
+ 2.91   +01     .70    1.41   +00 2.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108009     800814              20050926       0000
+BIB                  1          1
+REACTION   (8-O-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.80   +01    1.5     1.60   +00 2.     -02
+ 2.08   +01            1.69   +00 3.     -02
+ 2.40   +01            1.65   +00 2.     -02
+ 2.76   +01     .70    1.61   +00 2.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108010     800814              20050926       0000
+BIB                  1          1
+REACTION   (9-F-19(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.77   +01    1.5     1.75   +00 2.     -02
+ 2.06   +01            1.77   +00 3.     -02
+ 2.53   +01            1.77   +00 2.     -02
+ 2.91   +01     .70    1.75   +00 2.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108011     800814              20050926       0000
+BIB                  1          1
+REACTION   (12-MG-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.75   +01    1.5     1.81   +00 1.     -02
+ 2.07   +01            1.81   +00 1.     -02
+ 2.53   +01            1.84   +00 3.     -02
+ 2.76   +01     .70    1.87   +00 2.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108012     800814              20050926       0000
+BIB                  1          1
+REACTION   (13-AL-27(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          5
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.80   +01    1.5     1.78   +00 2.     -02
+ 2.07   +01            1.81   +00 2.     -02
+ 2.42   +01            1.85   +00 2.     -02
+ 2.53   +01            1.88   +00 2.     -02
+ 2.77   +01     .70    1.91   +00 2.     -02
+ENDDATA              7
+ENDSUBENT           13
+SUBENT        11108013     800814              20050926       0000
+BIB                  1          1
+REACTION   (14-SI-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.80   +01    1.5     1.84   +00 2.     -02
+ 2.08   +01            1.94   +00 3.     -02
+ 2.40   +01            1.89   +00 2.     -02
+ 2.76   +01     .70    2.00   +00 3.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108014     800814              20050926       0000
+BIB                  1          1
+REACTION   (20-CA-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.81   +01    1.5     2.09   +00 2.     -02
+ 2.04   +01            2.11   +00 3.     -02
+ 2.53   +01            2.15   +00 2.     -02
+ 2.77   +01     .70    2.20   +00 3.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108015     800814              20050926       0000
+BIB                  1          1
+REACTION   (22-TI-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.75   +01    1.5     2.19   +00 2.     -02
+ 2.14   +01            2.17   +00 2.     -02
+ 2.51   +01            2.24   +00 3.     -02
+ 2.86   +01     .70    2.31   +00 3.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108016     800814              20050926       0000
+BIB                  1          1
+REACTION   (23-V-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.75   +01    1.5     2.16   +00 2.     -02
+ 2.04   +01            2.10   +00 3.     -02
+ 2.41   +01            2.18   +00 2.     -02
+ 2.77   +01     .70    2.27   +00 3.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108017     800814              20050926       0000
+BIB                  1          1
+REACTION   (24-CR-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.75   +01    1.5     2.23   +00 2.     -02
+ 2.14   +01            2.17   +00 2.     -02
+ 2.51   +01            2.18   +00 2.     -02
+ 2.86   +01     .70    2.27   +00 3.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108018     800814              20050926       0000
+BIB                  1          1
+REACTION   (26-FE-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.73   +01    1.5     2.35   +00 3.     -02
+ 2.14   +01            2.23   +00 2.     -02
+ 2.51   +01            2.26   +00 3.     -02
+ 2.78   +01     .70    2.30   +00 2.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108019     800814              20050926       0000
+BIB                  1          1
+REACTION   (27-CO-59(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.74   +01    1.5     2.45   +00 3.     -02
+ 2.14   +01            2.34   +00 3.     -02
+ 2.53   +01            2.32   +00 3.     -02
+ 2.90   +01     .70    2.41   +00 3.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108020     800814              20050926       0000
+BIB                  1          1
+REACTION   (28-NI-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          5
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.75   +01    1.5     2.44   +00 2.     -02
+ 1.84   +01            2.40   +00 3.     -02
+ 2.14   +01            2.31   +00 3.     -02
+ 2.51   +01            2.31   +00 2.     -02
+ 2.86   +01     .70    2.37   +00 3.     -02
+ENDDATA              7
+ENDSUBENT           13
+SUBENT        11108021     800814              20050926       0000
+BIB                  1          1
+REACTION   (29-CU-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          9
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.74   +01 1.5        2.62   +00 2.     -02
+ 1.81   +01            2.58   +00 3.     -02
+ 2.05   +01            2.48   +00 3.     -02
+ 2.14   +01            2.46   +00 3.     -02
+ 2.41   +01            2.41   +00 2.     -02
+ 2.52   +01            2.41   +00 2.     -02
+ 2.76   +01            2.46   +00 3.     -02
+ 2.83   +01            2.46   +00 3.     -02
+ 2.90   +01 0.7        2.45   +00 2.     -02
+ENDDATA             11
+ENDSUBENT           17
+SUBENT        11108022     800814              20050926       0000
+BIB                  1          1
+REACTION   (30-ZN-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.75   +01    1.5     2.75   +00 3.     -02
+ 2.14   +01            2.58   +00 3.     -02
+ 2.51   +01            2.49   +00 3.     -02
+ 2.86   +01     .70    2.52   +00 3.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108023     800814              20050926       0000
+BIB                  1          1
+REACTION   (31-GA-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.76   +01    1.5     2.87   +00 5.     -02
+ 2.14   +01            2.65   +00 3.     -02
+ 2.53   +01            2.56   +00 4.     -02
+ 2.86   +01     .70    2.56   +00 4.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108024     800814              20050926       0000
+BIB                  1          1
+REACTION   (32-GE-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          4
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.75   +01 2.94   +00 3.     -02
+ 2.14   +01 2.69   +00 3.     -02
+ 2.51   +01 2.61   +00 2.     -02
+ 2.89   +01 2.61   +00 3.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108025     800814              20050926       0000
+BIB                  1          1
+REACTION   (40-ZR-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.74   +01    1.5     3.55   +00 4.     -02
+ 2.05   +01            3.31   +00 4.     -02
+ 2.52   +01            2.92   +00 3.     -02
+ 2.89   +01     .70    2.87   +00 3.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108026     800814              20050926       0000
+BIB                  1          1
+REACTION   (42-MO-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          6
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.73   +01    1.5     3.66   +00 4.     -02
+ 2.14   +01            3.27   +00 3.     -02
+ 2.41   +01            3.14   +00 4.     -02
+ 2.52   +01            3.03   +00 4.     -02
+ 2.77   +01            2.98   +00 4.     -02
+ 2.88   +01     .70    2.90   +00 3.     -02
+ENDDATA              8
+ENDSUBENT           14
+SUBENT        11108027     800814              20050926       0000
+BIB                  1          1
+REACTION   (46-PD-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.75   +01    1.5     3.96   +00 4.     -02
+ 2.14   +01            3.57   +00 4.     -02
+ 2.52   +01            3.34   +00 4.     -02
+ 2.89   +01     .70    3.16   +00 4.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108028     800814              20050926       0000
+BIB                  1          1
+REACTION   (47-AG-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.74   +01    1.5     3.98   +00 5.     -02
+ 2.14   +01            3.59   +00 4.     -02
+ 2.52   +01            3.34   +00 4.     -02
+ 2.88   +01     .70    3.17   +00 3.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108029     800814              20050926       0000
+BIB                  1          1
+REACTION   (48-CD-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.73   +01    1.5     4.13   +00 5.     -02
+ 2.14   +01            3.72   +00 4.     -02
+ 2.52   +01            3.46   +00 4.     -02
+ 2.88   +01     .70    3.26   +00 3.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108030     800814              20050926       0000
+BIB                  1          1
+REACTION   (49-IN-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          5
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.75   +01    1.5     4.26   +00 5.     -02
+ 1.84   +01            4.12   +00 5.     -02
+ 2.14   +01            3.82   +00 4.     -02
+ 2.53   +01            3.48   +00 4.     -02
+ 2.89   +01     .70    3.31   +00 4.     -02
+ENDDATA              7
+ENDSUBENT           13
+SUBENT        11108031     800814              20050926       0000
+BIB                  1          1
+REACTION   (50-SN-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.73   +01    1.5     4.32   +00 5.     -02
+ 2.14   +01            3.85   +00 4.     -02
+ 2.52   +01            3.53   +00 3.     -02
+ 2.88   +01     .70    3.38   +00 4.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108032     800814              20050926       0000
+BIB                  1          1
+REACTION   (51-SB-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.75   +01    1.5     4.38   +00 5.     -02
+ 2.14   +01            3.96   +00 5.     -02
+ 2.52   +01            3.63   +00 4.     -02
+ 2.88   +01     .70    3.41   +00 4.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108033     800814              20050926       0000
+BIB                  1          1
+REACTION   (58-CE-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.75   +01    1.5     4.88   +00 5.     -02
+ 2.05   +01            4.53   +00 6.     -02
+ 2.41   +01            4.27   +00 5.     -02
+ 2.78   +01     .70    3.89   +00 5.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108034     800814              20050926       0000
+BIB                  1          1
+REACTION   (73-TA-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.73   +01    1.5     5.41   +00 6.     -02
+ 2.13   +01            5.28   +00 5.     -02
+ 2.41   +01            5.04   +00 5.     -02
+ 2.78   +01     .70    4.72   +00 5.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108035     800814              20050926       0000
+BIB                  1          1
+REACTION   (74-W-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.73   +01    1.5     5.42   +00 7.     -02
+ 2.13   +01            5.24   +00 6.     -02
+ 2.52   +01            4.96   +00 6.     -02
+ 2.88   +01     .70    4.61   +00 5.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108036     800814              20050926       0000
+BIB                  1          1
+REACTION   (78-PT-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.73   +01    1.5     5.54   +00 6.     -02
+ 2.13   +01            5.56   +00 6.     -02
+ 2.52   +01            5.27   +00 6.     -02
+ 2.89   +01     .70    4.92   +00 5.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108037     800814              20050926       0000
+BIB                  1          1
+REACTION   (79-AU-197(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          5
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.73   +01    1.5     5.63   +00 6.     -02
+ 2.03   +01            5.70   +00 7.     -02
+ 2.52   +01            5.31   +00 5.     -02
+ 2.77   +01            5.10   +00 5.     -02
+ 2.88   +01     .70    4.99   +00 5.     -02
+ENDDATA              7
+ENDSUBENT           13
+SUBENT        11108038     800814              20050926       0000
+BIB                  1          1
+REACTION   (81-TL-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.75   +01    1.5     5.78   +00 6.     -02
+ 2.13   +01            5.70   +00 6.     -02
+ 2.52   +01            5.54   +00 5.     -02
+ 2.89   +01     .70    5.22   +00 6.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108039     800814              20050926       0000
+BIB                  1          1
+REACTION   (82-PB-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.73   +01    1.5     5.77   +00 7.     -02
+ 2.03   +01            5.91   +00 6.     -02
+ 2.51   +01            5.56   +00 7.     -02
+ 2.88   +01     .70    5.37   +00 5.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108040     800814              20050926       0000
+BIB                  1          1
+REACTION   (83-BI-209(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          4
+EN         EN-RSL     DATA       DATA-ERR
+MEV        PER-CENT   B          B
+ 1.73   +01 1.5        5.82   +00 6.     -02
+ 2.13   +01            5.85   +00 6.     -02
+ 2.51   +01            5.64   +00 7.     -02
+ 2.89   +01            5.39   +00 6.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108041     800814              20050926       0000
+BIB                  1          1
+REACTION   (94-PU-239(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          4
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.73   +01 6.08   +00 7.     -02
+ 2.13   +01 6.19   +00 8.     -02
+ 2.51   +01 6.10   +00 7.     -02
+ 2.89   +01 5.87   +00 6.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108042     800814              20050926       0000
+BIB                  1          1
+REACTION   (92-U-238(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          4
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.73   +01 6.04   +00 7.     -02
+ 2.13   +01 6.18   +00 6.     -02
+ 2.51   +01 6.05   +00 7.     -02
+ 2.89   +01 5.81   +00 6.     -02
+ENDDATA              6
+ENDSUBENT           12
+SUBENT        11108044     860821              20050926       0000
+BIB                  2          2
+REACTION   (92-U-235(N,TOT),,SIG)
+HISTORY    (860819C)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          4
+EN         DATA       DATA-ERR
+MEV        B          B
+ 17.3       6.06       0.07
+ 21.3       6.17       0.09
+ 25.1       6.08       0.07
+ 28.9       5.79       0.05
+ENDDATA              6
+ENDSUBENT           13
+ENDENTRY            43

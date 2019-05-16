@@ -1,0 +1,113 @@
+ENTRY            10774   20100714   20100917   20100916       1366
+SUBENT        10774001   20100714   20100917   20100916       1366
+BIB                 13         20
+INSTITUTE  (1USAYAL)
+REFERENCE  (J,NSE,53,415,197404)
+AUTHOR     (J.Seltzer,F.W.K.Firk)
+TITLE      A study of the 2.8 keV neutron resonance of sodium and
+           an analysis of the total neutron cross section up to
+           50 keV.
+FACILITY   (LINAC,1USAYAL) 70 MeV electron linear accelerator.
+INC-SOURCE (PHOTO) Photoneutrons from electrons on lead and uraniu
+            target.
+INC-SPECT  Energy resolution of 20 eV at 2800 eV.
+SAMPLE     Sodium bicarbonate sample (NaHCO3) containing
+            2.7E21 atoms/cm**2 of Na.
+METHOD     (TOF) Time of flight.
+DETECTOR   (SCIN) 6Li-loaded glass scintillator.
+CORRECTION Corrected for the known effects of hydrogen, carbon and
+            oxygen in the sample (10% reduction in cross section).
+STATUS     (APRVD) Approved by F.W.K.Firk, 1978/12/6.
+HISTORY    (19780831C)
+           (20100714A) VM:Updated to new date formats,lower case.
+                       BIB updates.
+ENDBIB              20
+NOCOMMON             0          0
+ENDSUBENT           23
+SUBENT        10774002   20100714   20100917   20100916       1366
+BIB                  6         11
+REACTION  1(11-NA-23(N,0),,EN)
+          2(11-NA-23(N,EL),,WID)
+          3(11-NA-23(N,0),,J)
+ANALYSIS   (RFN) R-function analysis. Nonlinear least-squares
+            analysis carried out to optimize parameters.
+          3Inferred from peak cross section of resonance.
+ASSUMED    (ASSUM,11-NA-23(N,G),,WID)
+ERR-ANALYS1(DATA-ERR) No information on source of uncertainty.
+          2(DATA-ERR) No information on source of uncertainty.
+STATUS     (TABLE) Abstract of Nucl.Sci.Eng.53,415
+HISTORY    (19790615A) Reaction corrected
+ENDBIB              11
+NOCOMMON             0          0
+DATA                 6          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2DATA      3ASSUM
+EV         EV         EV         EV         NO-DIM     EV
+2805.        30.       376.        15.       1.           0.34
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        10774003   20100714   20100917   20100916       1366
+BIB                  4          6
+REACTION   (11-NA-23(N,TOT),,SIG)
+ERR-ANALYS (DATA-ERR) No information on source of uncertainty.
+STATUS     (TABLE) Tabulated data received from F.W.K. Firk,
+                   1978/9/25.
+HISTORY    (19781103C)
+           (19790615A) Reaction corrected
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3         50
+EN         DATA       DATA-ERR
+EV         B          B
+ 2450.6      68.        6.
+ 2534.1     111.        9.
+ 2562.9     114.       24.
+ 2572.6     151.
+ 2582.3     124.
+ 2592.1     142.
+ 2602.0     139.
+ 2611.9     177.
+ 2621.9     172.
+ 2632.0     155.
+ 2642.1     219.       25.
+ 2652.2     222.
+ 2662.4     213.
+ 2672.7     268.
+ 2683.1     241.
+ 2693.4     284.
+ 2703.9     286.
+ 2714.4     346.
+ 2725.0     263.
+ 2735.6     301.
+ 2746.3     313.       27.
+ 2757.1     332.
+ 2767.9     355.
+ 2778.8     340.
+ 2789.8     372.       31.
+ 2800.8     373.
+ 2811.9     344.
+ 2823.1     358.
+ 2834.0     361.
+ 2845.6     315.
+ 2856.9     357.
+ 2868.3     346.
+ 2879.8     322.       28.
+ 2891.4     322.
+ 2903.0     270.
+ 2914.7     293.
+ 2926.5     308.
+ 2938.4     215.
+ 2950.3     254.
+ 2962.3     236.
+ 2974.3     189.
+ 2986.5     165.
+ 2998.7     193.
+ 3011.0     171.       26.
+ 3023.3     185.
+ 3035.8     139.
+ 3048.3     174.
+ 3060.9     143.
+ 3073.5     119.
+ 3112.0     126.        9.
+ENDDATA             52
+ENDSUBENT           63
+ENDENTRY             3

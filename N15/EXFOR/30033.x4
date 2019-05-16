@@ -1,0 +1,401 @@
+ENTRY            30033   20080420   20080530   20080530       3125
+SUBENT        30033001   20080420   20080530   20080530       3125
+BIB                 12         20
+INSTITUTE  (3HUNDEB)
+REFERENCE  (J,AHP,23,87,1967) Description expt, graphs and tables
+           (J,AK,8,79,196606) Abstract of thesis of csikai, tables
+           (J,MFF,16,123,1968) Thesis, theory, tables,in hungarian
+           (J,PL,20,52,196601)  Theoretical discussion of results
+AUTHOR     (J.Csikai,G.Peto)
+TITLE      Influence of direct inelastic scattering on (n,2n)
+           cross-sections
+INC-SOURCE (D-T) Deuteron-Tritium reaction
+SAMPLE     Samples were placed in semi-circle round n-source
+METHOD     (ACTIV) Activation
+DETECTOR   (NAICR)  NaI(Tl) scintillator as well as GM counter
+           calibrated with standard sources. Flux monitored with
+           long counter and plastic scintillator
+COMMENT    Neutron energy chosen to be 3 MeV above threshold
+STATUS     (TABLE)data taken from Act.Phys.Hung,23,87,1967,tbl 1
+           (APRVD) Approved by Peto, letter (5/9/72)
+HISTORY    (19700903C) Previously Dastar P-0007
+           (20080215A) BIB section updated
+ERR-ANALYS (DATA-ERR) not specified
+ENDBIB              20
+NOCOMMON             0          0
+ENDSUBENT           23
+SUBENT        30033002   20080420   20080530   20080530       3125
+BIB                  5          6
+REACTION   (20-CA-48(N,2N)20-CA-47,,SIG)
+SAMPLE     Caco3 enriched in Ca-48
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+            Value at 14.1 MeV given as 117. Mb
+PART-DET   (B-) beta
+HISTORY    (20080215S) Dataset was restored.
+ENDBIB               6
+COMMON               2          3
+EN-NRM     MONIT
+MEV        MB
+ 1.4100E+01 1.1700E+02
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         PER-CENT
+13.28      860.0      15.0
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        30033003   20080420   20080530   20080530       3125
+BIB                  5          6
+REACTION   (37-RB-85(N,2N)37-RB-84,,SIG)
+SAMPLE     rbno3 compound
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+            Value at 14.1 MeV given as 117. Mb
+PART-DET   (B-) beta
+HISTORY    (20080215S) Dataset was restored.
+ENDBIB               6
+COMMON               2          3
+EN-NRM     MONIT
+MEV        MB
+ 1.4100E+01 1.1700E+02
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         PER-CENT
+13.65      830.0      15.0
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        30033004   20080420   20080530   20080530       3125
+BIB                  5          6
+REACTION   (37-RB-87(N,2N)37-RB-86,,SIG)
+SAMPLE     rbno3
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+            Value at 14.1 MeV given as 117. Mb
+PART-DET   (B-) beta
+HISTORY    (20080215S) Dataset was restored.
+ENDBIB               6
+COMMON               2          3
+EN-NRM     MONIT
+MEV        MB
+ 1.4100E+01 1.1700E+02
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         PER-CENT
+13.03      1290.0     15.0
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        30033005   20080420   20080530   20080530       3125
+BIB                  5          6
+REACTION   (39-Y-89(N,2N)39-Y-88,,SIG)
+SAMPLE     Y2O3
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+            Value at 14.1 MeV given as 117. Mb
+PART-DET   (DG) gamma line of 899 keV
+HISTORY    (20080215S) Dataset was restored.
+ENDBIB               6
+COMMON               2          3
+EN-NRM     MONIT
+MEV        MB
+ 1.4100E+01 1.1700E+02
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         PER-CENT
+14.99      1010.0     15.0
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        30033006   20080420   20080530   20080530       3125
+BIB                  5          8
+REACTION   (34-SE-82(N,2N)34-SE-81,,SIG)
+ANALYSIS   Data given is extrapolated value to energy given which
+           is at 3MeV above the threshold of 9.29 MeV. Method and
+           accuracy of extrapolation not indicated
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+            Value at 14.1 MeV given as 117. Mb
+PART-DET   (B-) beta
+HISTORY    (20080215S) Dataset was restored.
+ENDBIB               8
+COMMON               2          3
+EN-NRM     MONIT
+MEV        MB
+ 1.4100E+01 1.1700E+02
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         PER-CENT
+12.29      1490.0     15.0
+ENDDATA              3
+ENDSUBENT           20
+SUBENT        30033007   20080420   20080530   20080530       3125
+BIB                  4          6
+REACTION   (21-SC-45(N,2N)21-SC-44,,SIG)
+MONITOR    (29-CU-65(N,2N)29-CU-64,,SIG)
+            Value at 14.1 MeV given as 940. Mb
+PART-DET   (DG) 270 keV gamma line
+           (AR) 511 keV annihilation radiation
+HISTORY    (20080215S) Dataset was restored.
+ENDBIB               6
+COMMON               2          3
+EN-NRM     MONIT
+MEV        MB
+ 1.4100E+01 9.4000E+02
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         PER-CENT
+14.57      320.0      15.0
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        30033008   20080420   20080530   20080530       3125
+BIB                  4          5
+REACTION   (25-MN-55(N,2N)25-MN-54,,SIG)
+MONITOR    (29-CU-65(N,2N)29-CU-64,,SIG)
+            Value at 14.1 MeV given as 940. Mb
+PART-DET   (DG) gamma line of 835 keV
+HISTORY    (20080215S) Dataset was restored.
+ENDBIB               5
+COMMON               2          3
+EN-NRM     MONIT
+MEV        MB
+ 1.4100E+01 9.4000E+02
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         PER-CENT
+13.41      750.0      15.0
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        30033009   20080420   20080530   20080530       3125
+BIB                  4          5
+REACTION   (29-CU-65(N,2N)29-CU-64,,SIG)
+MONITOR    (29-CU-65(N,2N)29-CU-64,,SIG)
+            Value at 14.1 MeV given as 940. Mb
+PART-DET   (AR) 511 keV annihilation radiation
+HISTORY    (20080215S) Dataset was restored.
+ENDBIB               5
+COMMON               2          3
+EN-NRM     MONIT
+MEV        MB
+ 1.4100E+01 9.4000E+02
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         PER-CENT
+13.06      810.0      15.0
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        30033010   20080420   20080530   20080530       3125
+BIB                  4          5
+REACTION   (30-ZN-66(N,2N)30-ZN-65,,SIG)
+MONITOR    (29-CU-65(N,2N)29-CU-64,,SIG)
+            Value at 14.1 MeV given as 940. Mb
+PART-DET   (DG) gamma line at 1114 keV
+HISTORY    (20080215S) Dataset was restored.
+ENDBIB               5
+COMMON               2          3
+EN-NRM     MONIT
+MEV        MB
+ 1.4100E+01 9.4000E+02
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         PER-CENT
+14.21      550.0      15.0
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        30033011   20080420   20080530   20080530       3125
+BIB                  4          6
+REACTION   (40-ZR-90(N,2N)40-ZR-89,,SIG)
+MONITOR    (29-CU-65(N,2N)29-CU-64,,SIG)
+            Value at 14.1 MeV given as 940. Mb
+PART-DET   (DG) 915 keV gamma line
+           (AR) 511 keV annihilation radiation
+HISTORY    (20080215S) Dataset was restored.
+ENDBIB               6
+COMMON               2          3
+EN-NRM     MONIT
+MEV        MB
+ 1.4100E+01 9.4000E+02
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         PER-CENT
+15.07      800.0      15.0
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        30033012   20080420   20080530   20080530       3125
+BIB                  4          5
+REACTION   (38-SR-86(N,2N)38-SR-85,,SIG)
+MONITOR    (29-CU-65(N,2N)29-CU-64,,SIG)
+            Value at 14.1 MeV given as 940. Mb
+PART-DET   (DG) gamma line at 514 keV
+HISTORY    (20080215S) Dataset was restored.
+ENDBIB               5
+COMMON               2          3
+EN-NRM     MONIT
+MEV        MB
+ 1.4100E+01 9.4000E+02
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         PER-CENT
+14.59      570.0      15.0
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        30033013   20080420   20080530   20080530       3125
+BIB                  4          5
+REACTION   (28-NI-58(N,2N)28-NI-57,,SIG)
+MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG)
+            Value at 14.1 MeV given as 488.0 Mb
+PART-DET   (AR) 511 keV annihilation radiation
+HISTORY    (20080215S) Dataset was restored.
+ENDBIB               5
+COMMON               2          3
+EN-NRM     MONIT
+MEV        MB
+ 1.4100E+01 4.8800E+02
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         PER-CENT
+15.40      45.0       15.0
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        30033014   20080420   20080530   20080530       3125
+BIB                  4          5
+REACTION   (29-CU-63(N,2N)29-CU-62,,SIG)
+MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG)
+            Value at 14.1 MeV given as 488.0 Mb
+PART-DET   (AR) 511 keV annihilation radiation
+HISTORY    (20080215S) Dataset was restored.
+ENDBIB               5
+COMMON               2          3
+EN-NRM     MONIT
+MEV        MB
+ 1.4100E+01 4.8800E+02
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         PER-CENT
+14.01      495.0      15.0
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        30033015   20080420   20080530   20080530       3125
+BIB                  4          5
+REACTION   (30-ZN-64(N,2N)30-ZN-63,,SIG)
+MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG)
+            Value at 14.1 MeV given as 488.0 Mb
+PART-DET   (AR) 511 keV annihilation radiation
+HISTORY    (20080215S) Dataset was restored.
+ENDBIB               5
+COMMON               2          3
+EN-NRM     MONIT
+MEV        MB
+ 1.4100E+01 4.8800E+02
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         PER-CENT
+15.04      288.0      15.0
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        30033016   20080420   20080530   20080530       3125
+BIB                  5          7
+REACTION   (42-MO-92(N,2N)42-MO-91,,SIG)
+ANALYSIS   Value extrapolated to 16.27 MeV, method followed
+                  not indicated
+MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG)
+            value at 14.1 MeV given as 488.0 Mb
+PART-DET   (AR) 511 keV annihilation radiation
+HISTORY    (20080215S) Dataset was restored.
+ENDBIB               7
+COMMON               2          3
+EN-NRM     MONIT
+MEV        MB
+ 1.4100E+01 4.8800E+02
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         PER-CENT
+16.27      280.0      15.0
+ENDDATA              3
+ENDSUBENT           19
+SUBENT        30033017   20080420   20080530   20080530       3125
+BIB                  4          5
+REACTION   (62-SM-144(N,2N)62-SM-143,,SIG)
+MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG)
+            Value at 14.1 MeV given as 488.0 Mb
+PART-DET   (AR) 511 keV annihilation radiation
+HISTORY    (20080215S) Dataset was restored.
+ENDBIB               5
+COMMON               2          3
+EN-NRM     MONIT
+MEV        MB
+ 1.4100E+01 4.8800E+02
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         PER-CENT
+13.75      1600.0     15.0
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        30033018   20080420   20080530   20080530       3125
+BIB                  5          6
+REACTION   (7-N-14(N,2N)7-N-13,,SIG)
+SAMPLE     C6H12n4
+MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG)
+            Value at 14.1 MeV given as 488.0 Mb
+PART-DET   (AR) 511 keV annihilation radiation
+HISTORY    (20080215S) Dataset was restored.
+ENDBIB               6
+COMMON               2          3
+EN-NRM     MONIT
+MEV        MB
+ 1.4100E+01 4.8800E+02
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         PER-CENT
+14.31      8.2        15.0
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        30033019   20080420   20080530   20080530       3125
+BIB                  5          6
+REACTION   (9-F-19(N,2N)9-F-18,,SIG)
+SAMPLE     Cf2
+MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG)
+            Value at 14.1 MeV given as 488.0 Mb
+PART-DET   (AR) 511 keV annihilation radiation
+HISTORY    (20080215S) Dataset was restored.
+ENDBIB               6
+COMMON               2          3
+EN-NRM     MONIT
+MEV        MB
+ 1.4100E+01 4.8800E+02
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         PER-CENT
+13.99      63.0       15.0
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        30033020   20080420   20080530   20080530       3125
+BIB                  4          5
+REACTION   (50-SN-112(N,2N)50-SN-111,,SIG)
+MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG)
+            Value at 14.1 MeV given as 488.0 Mb
+PART-DET   (AR) 511 keV annihilation radiation
+HISTORY    (20080215S) Dataset was restored.
+ENDBIB               5
+COMMON               2          3
+EN-NRM     MONIT
+MEV        MB
+ 1.4100E+01 4.8800E+02
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         PER-CENT
+14.19      1530.0     15.0
+ENDDATA              3
+ENDSUBENT           17
+ENDENTRY            20
