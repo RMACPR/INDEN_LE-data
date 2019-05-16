@@ -1,0 +1,554 @@
+ENTRY            C1880   20111228   20120702   20120628       C115
+SUBENT        C1880001   20111228   20120702   20120628       C115
+BIB                  8         17
+TITLE      Study of the 14C(p,n)14N and 14C(a,n)17O Reactions
+AUTHOR     (R.M.Sanders)
+INSTITUTE  (1USAWIS)
+REFERENCE  (J,PR,104,1434,1956)
+FACILITY   (CCW,1USAWIS)
+SAMPLE     (6-C-14,ENR=0.387) Targets of 14 C were prepared
+           according to the by running a high-frequency
+           discharge in acetylene at a pressure of about 0.7 mm
+           Hg between electrodes containing the 10-mil tungsten
+           target backings spaced 1 cm apart. The acetylene was
+           converted from barium carbonate enriched to 38.7% in
+           14C . The resulting residues on tungsten backing was
+           assumed to be carbon of the same isotopic constitution
+           as the barium carbonate.No correction for possible
+           target contamination was applied to the results.
+ERR-ANALYS (DATA-ERR) No information given
+HISTORY    (20111228C) Compiled by S.H.
+ENDBIB              17
+NOCOMMON             0          0
+ENDSUBENT           20
+SUBENT        C1880002   20111228   20120702   20120628       C115
+BIB                  3         12
+REACTION  1(6-C-14(P,0),,EN)
+          2(6-C-14(P,TOT),,WID)
+          3(6-C-14(P,0),,J)
+          4(6-C-14(P,N),,WID)
+          5(6-C-14(P,INL),,WID)
+          6(6-C-14(P,A),,WID)
+STATUS     (TABLE) Data taken from tab.4 of the reference PR 104.
+DETECTOR   (SCIN) The neutron detector was a National Radiac
+           Company Type NSS-1 boron-loaded ZnS(Ag) scintillator
+           on a 6467 photomultiplier tube embeded in a paraffin
+           moderator. The dependence of its efficiency
+           upon neutron energy was not known.
+ENDBIB              12
+NOCOMMON             0          0
+DATA                 8         10
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2DATA      3DATA      4
+DATA      5DATA      6
+KEV        KEV        KEV        KEV        NO-DIM     KEV
+KEV        KEV
+   1162.0     2.0        6.0      1.0          0.5       1.0
+     5.0
+   1314.0     3.0       54.0      3.0          0.5      44.0
+    10.0
+   1670.0     3.0       56.0      3.0          1.5      55.0
+     0.8
+   1788.0     3.0       22.0      2.0          1.5      22.0
+     0.1      0.05
+   1884.0     3.0       18.0      2.0          0.5      17.0
+     0.7      0.26
+   2026.0     4.0       27.0      5.0          2.5      24.0
+     2.5      0.6
+   2079.0     4.0       58.0      8.0          1.5      38.0
+    18.0      2.2
+   2271.0     4.0       23.0      3.0          2.5      22.5
+     0.4      0.1
+   2450.0     4.0       34.0      4.0          1.5      28.0
+     0.3      5.5
+   2908.0     4.0       71.0      5.0
+
+ENDDATA             24
+ENDSUBENT           41
+SUBENT        C1880003   20111228   20120702   20120628       C115
+BIB                  3          7
+REACTION   (6-C-14(P,N)7-N-14,,DA,,RES)
+STATUS     (TABLE) Data taken from tab.4 of the reference PR 104.
+DETECTOR   (SCIN) The neutron detector was a National Radiac
+           Company Type NSS-1 boron-loaded ZnS(Ag) scintillator
+           on a 6467 photomultiplier tube embeded in a paraffin
+           moderator. The dependence of its efficiency
+           upon neutron energy was not known.
+ENDBIB               7
+COMMON               1          3
+ANG
+ADEG
+0.0
+ENDCOMMON            3
+DATA                 2         10
+EN-RES     DATA
+KEV        MB/SR
+   1162.0     32.0
+   1314.0     25.0
+   1670.0      3.6
+   1788.0      1.7
+   1884.0      3.8
+   2026.0     35.0
+   2079.0     59.0
+   2271.0      8.7
+   2450.0      4.1
+   2908.0      9.7
+ENDDATA             12
+ENDSUBENT           28
+SUBENT        C1880004   20111228   20120702   20120628       C115
+BIB                  3          7
+REACTION   (6-C-14(P,N)7-N-14,,DA,,RES)
+STATUS     (TABLE) Data taken from tab.4 of the reference PR 104.
+DETECTOR   (SCIN) The neutron detector was a National Radiac
+           Company Type NSS-1 boron-loaded ZnS(Ag) scintillator
+           on a 6467 photomultiplier tube embeded in a paraffin
+           moderator. The dependence of its efficiency
+           upon neutron energy was not known.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 2          8
+EN-RES     DATA
+KEV        MB
+   1162.0     400.0
+   1314.0     315.0
+   1670.0      45.0
+   1788.0      21.0
+   1884.0      48.0
+   2026.0     330.0
+   2079.0     650.0
+   2271.0      73.0
+ENDDATA             10
+ENDSUBENT           22
+SUBENT        C1880005   20111228   20120702   20120628       C115
+BIB                  3          7
+REACTION   (6-C-14(P,N)7-N-14,,DA,,REL)
+STATUS     (CURVE) Data taken from fig. 4 of the reference
+DETECTOR   (SCIN) The neutron detector was a National Radiac
+           Company Type NSS-1 boron-loaded ZnS(Ag) scintillator
+           on a 6467 photomultiplier tube embeded in a paraffin
+           moderator. The dependence of its efficiency
+           upon neutron energy was not known.
+ENDBIB               7
+COMMON               1          3
+ANG
+ADEG
+0.0
+ENDCOMMON            3
+DATA                 2        204
+EN         DATA
+MEV        ARB-UNITS
+      0.656        0.9
+      0.667        1.6
+      0.676        3.6
+      0.688        3.9
+      0.699        5.1
+      0.705        8.1
+      0.713        6.5
+      0.727        7.1
+      0.743        6.8
+      0.757        7.9
+      0.769        8.6
+      0.780        9.8
+      0.791        9.2
+      0.800        8.6
+      0.810       11.3
+      0.824       10.8
+      0.837       10.4
+      0.844       13.5
+      0.860       14.9
+      0.861       12.8
+      0.875       12.2
+      0.887       14.1
+      0.901       15.5
+      0.907       13.1
+      0.917       14.7
+      0.924       12.9
+      0.932       13.3
+      0.942       14.1
+      0.950       16.3
+      0.958       13.6
+      0.971       15.9
+      0.989       16.3
+      1.000       14.8
+      1.010       15.9
+      1.016       17.5
+      1.026       19.0
+      1.035       65.3
+      1.049       80.0
+      1.061       64.8
+      1.069      117.1
+      1.078      199.3
+      1.082     1008.6
+      1.094     2364.7
+      1.102     1577.6
+      1.111      865.5
+      1.120      445.6
+      1.128      303.1
+      1.133      175.6
+      1.153      122.6
+      1.171      189.7
+      1.182      271.9
+      1.187      519.1
+      1.195      976.0
+      1.205     1755.2
+      1.214     2834.1
+      1.220     3516.0
+      1.228     3246.0
+      1.238     2766.1
+      1.247     2188.9
+      1.255     1619.2
+      1.262     1281.8
+      1.270      981.8
+      1.278      794.3
+      1.286      696.7
+      1.296      569.1
+      1.311      471.3
+      1.321      411.1
+      1.337      343.3
+      1.354      283.0
+      1.373      252.6
+      1.385      207.4
+      1.404      191.9
+      1.420      176.6
+      1.436      146.3
+      1.450      183.4
+      1.464      168.1
+      1.478      190.3
+      1.492      234.9
+      1.502      317.1
+      1.512      421.8
+      1.520      504.1
+      1.532      518.8
+      1.539      413.7
+      1.550      301.1
+      1.562      158.4
+      1.581       98.0
+      1.598      120.1
+      1.616      164.7
+      1.634      261.7
+      1.649      193.9
+      1.664      171.1
+      1.683      215.6
+      1.698      297.7
+      1.705      455.0
+      1.713      537.2
+      1.725      477.0
+      1.741      424.2
+      1.757      498.7
+      1.775      573.3
+      1.788      662.9
+      1.800      835.0
+      1.808     1029.7
+      1.815     1456.7
+      1.823     3210.1
+      1.829     4596.4
+      1.835     4221.5
+      1.849     4168.8
+      1.854     5127.9
+      1.860     6566.6
+      1.863     7870.5
+      1.877     7622.9
+      1.886     6153.9
+      1.896     4437.5
+      1.907     3470.5
+      1.916     2488.6
+      1.920     1776.6
+      1.933     1364.1
+      1.940      786.9
+      1.949      674.3
+      1.959      591.6
+      1.975      538.8
+      1.992      523.4
+      2.006      463.2
+      2.019      485.4
+      2.025      612.6
+      2.032     1092.1
+      2.040     1054.4
+      2.050      754.4
+      2.058      559.4
+      2.063      439.4
+      2.076      364.2
+      2.091      311.4
+      2.105      311.0
+      2.123      318.2
+      2.140      302.8
+      2.154      317.5
+      2.169      384.6
+      2.176      459.3
+      2.184      534.1
+      2.192      601.4
+      2.200      518.8
+      2.206      413.7
+      2.218      316.0
+      2.231      263.3
+      2.244      225.5
+      2.259      225.2
+      2.275      217.3
+      2.293      201.9
+      2.316      208.9
+      2.333      201.0
+      2.351      215.6
+      2.366      215.3
+      2.382      199.9
+      2.397      192.1
+      2.409      199.3
+      2.429      206.3
+      2.446      206.0
+      2.460      250.6
+      2.477      242.7
+      2.491      257.4
+      2.506      294.5
+      2.520      376.7
+      2.531      436.4
+      2.538      518.6
+      2.545      653.4
+      2.556      773.0
+      2.563     1020.2
+      2.571     1252.3
+      2.585     1334.4
+      2.596     1199.3
+      2.606     1034.2
+      2.613      876.7
+      2.624      749.0
+      2.636      613.9
+      2.647      531.2
+      2.663      485.8
+      2.681      478.0
+      2.698      462.6
+      2.714      462.2
+      2.730      454.4
+      2.748      446.5
+      2.764      423.6
+      2.781      490.7
+      2.790      595.4
+      2.800      909.9
+      2.808     1074.6
+      2.815     1224.3
+      2.824     1306.6
+      2.839     1343.7
+      2.855     1433.3
+      2.866     1493.0
+      2.875     1545.2
+      2.890     1642.3
+      2.907     1716.9
+      2.918     1836.5
+      2.933     1948.6
+      2.941     2060.8
+      2.950     2218.0
+      2.958     2435.2
+      2.966     2712.3
+      2.975     3304.1
+      2.984     3768.5
+      2.990     4015.7
+      2.999     4412.7
+ENDDATA            206
+ENDSUBENT          222
+SUBENT        C1880006   20111228   20120702   20120628       C115
+BIB                  3          4
+REACTION   (6-C-14(A,N)8-O-17,,DA,,REL)
+STATUS     (CURVE) Data taken from fig. 5 of the reference
+DETECTOR   (LONGC) Long counter located 21/2 in. from the target
+           Assumed constant detection efficiency of long counter
+ENDBIB               4
+COMMON               1          3
+ANG
+ADEG
+0.0
+ENDCOMMON            3
+DATA                 2        162
+EN         DATA
+MEV        ARB-UNITS
+      2.282       12.9
+      2.286       12.9
+      2.290       12.9
+      2.295       14.8
+      2.299       20.5
+      2.304       13.0
+      2.309       14.9
+      2.313       28.2
+      2.317       14.9
+      2.321       14.9
+      2.327       22.5
+      2.331       22.5
+      2.336       26.3
+      2.340       20.7
+      2.345       26.4
+      2.349       20.7
+      2.354       26.4
+      2.358       20.7
+      2.362       30.2
+      2.367       28.3
+      2.372       24.6
+      2.376       17.0
+      2.380       26.5
+      2.385       22.7
+      2.390       17.0
+      2.394       32.2
+      2.399       13.3
+      2.403       39.8
+      2.407      111.8
+      2.412       75.8
+      2.416       62.6
+      2.422       77.8
+      2.426       75.9
+      2.430       74.0
+      2.435      102.5
+      2.439      127.1
+      2.443      153.6
+      2.448      314.7
+      2.453      731.7
+      2.456     1535.2
+      2.462     1942.7
+      2.465     1609.2
+      2.470     1215.0
+      2.475     1000.9
+      2.479      773.5
+      2.483      620.0
+      2.489      441.8
+      2.493      369.8
+      2.497      286.5
+      2.502      201.2
+      2.507      159.5
+      2.511      138.7
+      2.515      114.1
+      2.521       98.9
+      2.524       74.3
+      2.529       64.8
+      2.534       42.1
+      2.538       57.3
+      2.542       51.6
+      2.548       68.7
+      2.551       49.8
+      2.555       59.2
+      2.560       51.7
+      2.565       55.5
+      2.569       29.0
+      2.574       38.5
+      2.578       32.8
+      2.582       21.4
+      2.586       17.6
+      2.590       23.3
+      2.595       30.9
+      2.600       36.6
+      2.605       34.8
+      2.609       23.4
+      2.614       38.6
+      2.618       29.1
+      2.622       40.5
+      2.627       27.3
+      2.632       21.6
+      2.637       46.2
+      2.641       19.7
+      2.645       36.8
+      2.649       42.5
+      2.653       23.5
+      2.658       31.1
+      2.662       23.6
+      2.667       27.4
+      2.672       29.3
+      2.677       29.3
+      2.681       29.3
+      2.686       27.4
+      2.690       18.0
+      2.694       27.5
+      2.699       33.2
+      2.703       33.2
+      2.708       35.1
+      2.708       33.2
+      2.713       25.6
+      2.716       48.4
+      2.721       38.9
+      2.725       37.0
+      2.729       46.5
+      2.734       37.1
+      2.739       42.8
+      2.740       42.8
+      2.743       48.5
+      2.743       46.6
+      2.748       39.0
+      2.749       37.1
+      2.753       46.6
+      2.757       37.1
+      2.761       52.3
+      2.766       37.2
+      2.771       50.4
+      2.774       61.8
+      2.779       46.7
+      2.783       63.7
+      2.788       46.7
+      2.792       65.7
+      2.798       50.5
+      2.801       73.3
+      2.806       75.2
+      2.810       96.1
+      2.814       99.9
+      2.820      101.8
+      2.823      128.3
+      2.828      120.7
+      2.831      162.4
+      2.836      158.7
+      2.840      154.9
+      2.845      173.9
+      2.851      156.8
+      2.854      185.3
+      2.858      168.2
+      2.863      149.3
+      2.868      172.0
+      2.872      156.9
+      2.877      149.3
+      2.881      155.0
+      2.886      147.5
+      2.890      160.7
+      2.895      170.2
+      2.899      164.6
+      2.905      139.9
+      2.907      179.7
+      2.912      168.4
+      2.917      183.6
+      2.921      196.8
+      2.925      234.8
+      2.930      267.0
+      2.935      331.4
+      2.938      388.3
+      2.945      551.3
+      2.948      630.9
+      2.953      629.0
+      2.956      666.9
+      2.961      648.0
+      2.965      585.5
+      2.971      589.3
+      2.975      576.0
+      2.979      545.7
+      2.984      504.0
+ENDDATA            164
+ENDSUBENT          177
+SUBENT        C1880007   20111228   20120702   20120628       C115
+BIB                  3          5
+REACTION   (6-C-14(A,N)8-O-17,,DA,,RES)     Cross section to odd
+            parity states
+STATUS     (CURVE) Data taken from fig. 6 of the reference
+DETECTOR   (LONGC) Long counter located 21/2 in. from the target
+           Assumed constant detection efficiency of long counter
+ENDBIB               5
+COMMON               2          3
+EN-RES     PARITY
+MEV        NO-DIM
+2.64       -1.0
+ENDCOMMON            3
+DATA                 3         12
+COS        DATA       DATA-ERR
+NO-DIM     MB/SR      MB/SR
+      -0.84      19.76       8.43
+      -0.67      38.22       6.63
+      -0.50      21.78       5.29
+      -0.34      23.58       4.44
+      -0.17      20.78       4.29
+       0.00      16.26       3.52
+       0.16      18.40       2.99
+       0.33      24.56       2.68
+       0.50      21.04       2.95
+       0.67      22.30       2.64
+       0.83      26.28       2.49
+       1.00      31.22       2.45
+ENDDATA             14
+ENDSUBENT           28
+ENDENTRY             7

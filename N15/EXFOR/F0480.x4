@@ -1,0 +1,152 @@
+ENTRY            F0480   20110818   20111215   20111123       F042
+SUBENT        F0480001   20110818   20111215   20111123       F042
+BIB                  9         23
+TITLE      Angular distributions of neutron polarization
+           from the 14C(p,n)14N and 11B(alpha,n)14N reactions
+           and R-matrix analysis of 15N in the excitation
+           energy range between 11.5 and 12.5 MeV.
+AUTHOR     (M.Niecke,M.Niemeier,R.Weigel,H.Wirzba-Lorenz)
+INSTITUTE  (2GERHAM)
+REFERENCE  (J,NP/A,289,408,197710)
+METHOD     (TOF)
+FACILITY   (VDG,2GERHAM)
+DETECTOR   (LONGC) Neutron detector
+ERR-ANALYS (DATA-ERR) The errors for the angular distribution data
+           were derived from the statistical uncertainty and
+           (ERR-1) the error of 3% estimated for maladjustments
+           and correction of detector efficiency.
+HISTORY    (19920513C)
+           (20030505U) Changed headings in sub.002,003,006
+           (20110818A) SD: SF1-SF4 in Subent 003 corrected.
+           Data at 1.788, 2.025, 2.272 MeV deleted (measured by
+           Bartholomew+,J,CJP,33,441,1955)
+           Subent 004 - deleted (data are measured by another
+           authors (=F0380.004)).
+           Titles of digitizing errors changed according to new
+           EXFOR rules.
+ENDBIB              23
+COMMON               1          3
+ERR-1
+PER-CENT
+   3.0
+ENDCOMMON            3
+ENDSUBENT           30
+SUBENT        F0480002   20110818   20111215   20111123       F042
+BIB                  7         14
+REACTION   (6-C-14(P,N)7-N-14,,DA)
+SAMPLE     The 14C targets were made by cracking 57% 14C enriched
+           acetylene at a low pressure in an electrical discharge
+           between two tantalum electrodes. The 14C layers
+           produced in this way varied thickness between 50 and
+           200 mu-g/cm2.
+MONITOR    (6-C-14(P,N)7-N-14,,DA)
+MONIT-REF  (,R.M.Sanders,J,PR,104,1434,1956)  The cross sections
+                 are normalized to the absolute values of Sanders
+ERR-ANALYS (ANG-ERR-D) Digitizing error
+           (ERR-DIG) Digitizing error
+STATUS     (CURVE) Fig.2
+HISTORY    (20110818A) SD: data at 1 .788, 2.025, 2.272 MeV
+                                 deleted (measured by Bartholomew)
+ENDBIB              14
+COMMON               3          3
+EN         ANG-ERR-D  ERR-DIG
+MEV        ADEG       MB/SR
+  2.450     0.3        0.01
+ENDCOMMON            3
+DATA                 3          9
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+      17.33      3.251     0.3849
+      33.29      2.501     0.1640
+      48.94      1.510     0.1010
+      64.57      1.334 0.9464E-01
+      80.00      1.543     0.1199
+      94.88      1.644     0.1451
+      109.9      1.878     0.1388
+      124.3      1.544     0.1388
+      138.8      1.343     0.1136
+ENDDATA             11
+ENDSUBENT           34
+SUBENT        F0480003   20110818   20111215   20111123       F042
+BIB                  3          6
+REACTION   (6-C-14(P,N)7-N-14,,DA,,LEG)
+STATUS     (DEP,F0480002)
+           (TABLE) tbl. 1 from NP/A,289,408
+HISTORY    (20110810A) SD: SF1, SF2 in REACTION code corrected
+           according to presenting in the article. Lab. system
+           changed on C.M. according to the text of article.
+ENDBIB               6
+COMMON               1          3
+EN
+MEV
+  2.450
+ENDCOMMON            3
+DATA                 3          5
+NUMBER-CM  DATA-CM    DATA-ERR
+NO-DIM     MB/SR      MB/SR
+  0.0        1.71       0.03
+  1.0        0.41       0.05
+  2.0        0.42       0.08
+  3.0        0.85       0.10
+  4.0        0.63       0.10
+ENDDATA              7
+ENDSUBENT           22
+SUBENT        F0480005   20110818   20111215   20111123       F042
+BIB                  6         13
+REACTION   (5-B-11(A,N)7-N-14,,DA)
+SAMPLE     Boron targets were prepared by evaporating 11B
+           enriched to more than 95% onto tantalum backings.
+           The targets used for polarization measurements had
+           a density of about 15 mu-g/cm**2, corresponding to a
+           thickness of 15 keV for 2 MeV alpha particles.
+MONITOR    (5-B-11(A,N)7-N-14,,DA)
+MONIT-REF  (F0464015,T.W.Bonner+,J,PR,102,1348,1956)
+           The absolute cross sections were adjusted to the
+                                     measurements of Bonner et al.
+ERR-ANALYS (ANG-ERR-D) Digitizing error
+           (ERR-DIG) Digitizing error
+STATUS     (CURVE) Fig.6
+ENDBIB              13
+COMMON               3          3
+EN         ANG-ERR-D  ERR-DIG
+MEV        ADEG       MB/SR
+  2.049     0.5542      0.0551
+ENDCOMMON            3
+DATA                 3         10
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+  17.83      18.81      1.334
+  34.65      15.78      1.000
+  52.15      11.92     0.8345
+  68.29      9.898     0.6667
+  83.04      8.542     0.8334
+  99.22      7.851     0.5011
+  114.0      8.995     0.6667
+  128.1      9.974     0.6667
+  142.3      12.95     0.8345
+  155.0      14.27     0.8334
+ENDDATA             12
+ENDSUBENT           34
+SUBENT        F0480006   20110818   20111215   20111123       F042
+BIB                  3          4
+REACTION   (5-B-11(A,N)7-N-14,,DA,,LEG)
+STATUS     (TABLE) Table 3
+HISTORY    (20110810A) SD: Lab. system changed on C.M. according
+            to the text of article.
+ENDBIB               4
+COMMON               1          3
+EN
+MEV
+  2.049
+ENDCOMMON            3
+DATA                 3          5
+NUMBER-CM  DATA-CM    DATA-ERR
+NO-DIM     MB/SR      MB/SR
+  0.0        11.23      0.20
+  1.0         1.31      0.38
+  2.0         6.17      0.44
+  3.0        -0.42      0.54
+  4.0         0.21      0.60
+ENDDATA              7
+ENDSUBENT           20
+ENDENTRY             5

@@ -1,0 +1,841 @@
+ENTRY            T0010   20160917   20170201   20170112       C163
+SUBENT        T0010001   20160917   20170201   20170112       C163
+BIB                  9         22
+TITLE      Total neutron yields from light elements under proton
+            and alpha bombardment
+INSTITUTE  (1USAORL)
+AUTHOR     (J.H.Gibbons, R.L.Macklin)
+REFERENCE  (J,PR,114,571,1959)
+FACILITY   (VDG,1USAORL) 5.5-Mv Van de Graaff accelerator
+DETECTOR   (BF3) Neutron detector consists of a 5-foot diameter
+            sphere of reactor-grade graphite with eight BF3
+            counters embedded around its surface.
+           Efficiency calibration was done with Ra-Be standard
+            sources.
+METHOD     Energy calibrated using threshold energy for 7Li(p,n)
+            to be 1.8811 MeV.
+           (BCINT) 4-foot Faraday cup for solid targets
+CORRECTION Corrected for:
+           . energy losses associated with gas targets,
+           . background (less than 10% except for the first
+             several points near threshold).
+HISTORY    (19991011T) Converted from EXFOR P0001 and updated.
+           (20160316A) On. Major revisions in 002 and 010.
+           (20160917D) OS. Sub.13 deleted, duplication with
+             C0051.005,006
+ENDBIB              22
+NOCOMMON             0          0
+ENDSUBENT           25
+SUBENT        T0010002   20160316   20160902   20160727       C157
+BIB                  6         12
+REACTION   (3-LI-7(A,N)5-B-10,,SIG) (a,n0)+(a,n1)
+SAMPLE     (3-LI-7,NAT=0.925) 6.5 ug/cm2 Li with Pt backing.
+            The target thickness was determined by 7Li(p,n)7Be.
+MISC-COL   (MISC) Slightly different cross sections in data from
+            CPX-file compiled in 1964/67 by F.K.McGowan et al.
+            and checked by KaChaPaG (Physik-Daten Nr.15-5,1982).
+ERR-ANALYS No information on uncertainty
+STATUS     (TABLE) Author's tabulated data compiled in p243 of
+            Nucl.Data Sheets 1(1966)203.
+            Corresponding to Fig.12 of Phys.Rev.114(1959)571.
+HISTORY    (19991011T) Converted from EXFOR P0001.002.
+           (20160316A) On. Data in Nucl.Data.Sheets adopted.
+ENDBIB              12
+NOCOMMON             0          0
+DATA                 3         31
+EN         DATA       MISC
+MEV        MB         MB
+ 4.38         2.50E+00
+ 4.53         7.00E+00
+ 4.69         1.10E+01
+ 4.80         1.60E+01
+ 4.86         2.00E+01
+ 4.93         2.30E+01
+ 5.01         2.90E+01
+ 5.10         3.75E+01
+ 5.17         4.00E+01
+ 5.24         3.55E+01
+ 5.32         3.50E+01
+ 5.40         3.20E+01
+ 5.48         3.25E+01
+ 5.57         3.95E+01
+ 5.65         4.80E+01
+ 5.73         5.25E+01
+ 5.88         6.20E+01
+ 6.05         8.00E+01
+ 6.22         9.90E+01
+ 6.38         1.19E+02
+ 6.55         1.43E+02
+ 6.73         1.90E+02
+ 6.91         2.43E+02 244.
+ 7.09         2.54E+02
+ 7.27         2.51E+02
+ 7.45         2.29E+02
+ 7.45         2.40E+02
+ 7.64         1.82E+02 183.
+ 7.83         1.44E+02 145.
+ 8.01         1.42E+02 143.
+ 8.20         1.48E+02
+ENDDATA             33
+ENDSUBENT           50
+SUBENT        T0010003   19991011   20000119   20050926       0000
+BIB                  3          5
+REACTION   (5-B-11(P,N)6-C-11,,SIG)
+SAMPLE     Boron metal, 89.1% 11B - areal density 1.5 microg/cm2.
+STATUS     (CPX) Data from CPX file compiled in 1964/67 by
+           F.K. McGowan et al, checked by KACHAPAG.
+           Converted to EXFOR format by IAEA-NDS
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2         58
+EN         DATA
+MEV        MB
+    2.89       0.125
+    2.93       0.375
+    2.97       0.125
+    3.02       0.875
+    3.03       3.25
+    3.04       5.63
+    3.07       8.88
+    3.09      13.0
+    3.11      17.8
+    3.14      23.1
+    3.16      25.0
+    3.18      26.0
+    3.21      26.9
+    3.23      28.4
+    3.26      30.4
+    3.30      32.1
+    3.32      34.9
+    3.35      37.3
+    3.40      40.6
+    3.42      44.6
+    3.45      46.8
+    3.46      50.0
+    3.49      52.4
+    3.51      54.3
+    3.55      56.6
+    3.59      59.6
+    3.64      61.6
+    3.69      62.3
+    3.74      60.0
+    3.80      55.6
+    3.85      51.6
+    3.89      50.0
+    3.94      48.6
+    4.00      49.0
+    4.05      47.0
+    4.10      42.6
+    4.16      38.4
+    4.21      35.5
+    4.26      33.8
+    4.31      34.0
+    4.36      32.0
+    4.43      34.4
+    4.47      36.1
+    4.53      39.9
+    4.59      47.1
+    4.65      53.3
+    4.71      52.9
+    4.75      52.9
+    4.81      55.4
+    4.89      63.4
+    4.97      72.9
+    5.05      99.1
+    5.12     103.
+    5.20      96.0
+    5.28      92.6
+    5.34      93.5
+    5.43     104.
+    5.51     102.
+ENDDATA             60
+ENDSUBENT           70
+SUBENT        T0010004   19991011   20000119   20050926       0000
+BIB                  3          6
+REACTION   (4-BE-9(A,N)6-C-12,,SIG)
+SAMPLE     Beryllium metal. Areal density of targets 6, 70 and
+            184 microg/cm2.
+STATUS     (CPX) Data from CPX file compiled in 1964/67 by
+           F.K. McGowan et al, checked by KACHAPAG.
+           Converted to EXFOR format by IAEA-NDS
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2         58
+EN         DATA
+MEV        MB
+    2.57     157.
+    2.58     149.
+    2.61     141.
+    2.65     139.
+    2.67     132.
+    2.69     122.
+    2.74     113.
+    2.77     106.
+    2.81     102.
+    2.84      97.
+    2.90      93.
+    2.93      90.
+    2.99      89.
+    3.05      89.
+    3.10      90.
+    3.23      96.
+    3.35     101.
+    3.46     112.
+    3.59     129.
+    3.66     143.
+    3.74     155.
+    3.81     177.
+    3.90     217.
+    3.94     261.
+    3.97     344.
+    4.00     406.
+    4.03     376.
+    4.05     342.
+    4.08     321.
+    4.10     312.
+    4.17     329.
+    4.22     341.
+    4.26     348.
+    4.32     370.
+    4.39     370.
+    4.44     394.
+    4.55     391.
+    4.63     381.
+    4.74     392.
+    4.79     412.
+    4.86     445.
+    5.01     489.
+    5.16     493.
+    5.31     542.
+    5.39     569.
+    5.56     588.
+    5.70     633.
+    5.88     589.
+    6.05     566.
+    6.21     553.
+    6.39     569.
+    6.56     573.
+    6.80     578.
+    7.19     563.
+    7.44     605.
+    7.64     652.
+    7.93     665.
+    8.23     656.
+ENDDATA             60
+ENDSUBENT           71
+SUBENT        T0010005   19991011   20000119   20050926       0000
+BIB                  4          6
+REACTION   (5-B-10(A,N)7-N-13,,SIG)
+SAMPLE     Boron metal, 97.2% 10B - areal density 1.6 microg/cm2.
+ERR-ANALYS (ERR-S) Statistical uncertainty.
+STATUS     (CPX) Data from CPX file compiled in 1964/67 by
+           F.K. McGowan et al, checked by KACHAPAG.
+           Converted to EXFOR format by IAEA-NDS
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3         37
+EN         DATA       ERR-S
+MEV        MB         MB
+    2.55       4.25
+    2.57       5.75
+    2.59       5.25
+    2.63       6.25
+    2.67       8.50
+    2.72       6.75
+    2.76       9.75
+    2.80       9.00
+    2.85      10.0
+    2.88      15.0
+    2.89      13.8
+    2.91      13.8
+    2.92      16.0
+    2.94      17.0
+    2.96      17.8        2.1
+    2.98      27.3        2.1
+    3.03      19.0
+    3.08      16.8
+    3.15      13.0
+    3.21      17.8        2.3
+    3.33      20.8
+    3.46      26.3
+    3.58      29.5
+    3.71      34.8
+    3.83      33.8        2.4
+    3.97      47.8
+    4.11      53.5
+    4.24      78.3        3.3
+    4.30      78.8
+    4.38      85.5
+    4.52      95.0
+    4.58      99.5
+    4.63     101.         2.9
+    4.69     106.
+    4.75      90.8        3.3
+    4.80      94.5
+    4.83      93.0
+ENDDATA             39
+ENDSUBENT           50
+SUBENT        T0010006   19991011   20000119   20050926       0000
+BIB                  3          5
+REACTION   (14-SI-29(A,N)16-S-32,,SIG)
+SAMPLE     SiO2, 70.8% 29Si. Areal density 43 microg/cm2.
+STATUS     (CPX) Data from CPX file compiled in 1964/67 by
+           F.K. McGowan et al, checked by KACHAPAG.
+           Converted to EXFOR format by IAEA-NDS
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2        123
+EN         DATA
+MEV        MB
+    2.83       0.96
+    2.86       0.23
+    2.88       1.00
+    2.90       0.51
+    2.93       1.40
+    2.95       0.56
+    2.99       0.23
+    3.02       0.56
+    3.04       0.23
+    3.06       0.79
+    3.09       0.56
+    3.11       0.56
+    3.14       1.50
+    3.16       0.73
+    3.18       0.73
+    3.20       0.79
+    3.22       0.45
+    3.24       0.90
+    3.25       0.56
+    3.27       1.40
+    3.29       1.60
+    3.31       1.90
+    3.33       1.00
+    3.35       0.68
+    3.36       0.51
+    3.38       0.56
+    3.40       0.23
+    3.41       0.90
+    3.43       1.20
+    3.44       0.96
+    3.45       0.90
+    3.46       1.24
+    3.48       3.00
+    3.49       1.50
+    3.50       1.24
+    3.51       0.56
+    3.52       1.02
+    3.54       1.13
+    3.55       1.35
+    3.56       1.64
+    3.57       0.90
+    3.59       0.85
+    3.60       0.34
+    3.61       1.13
+    3.63       0.96
+    3.64       1.70
+    3.64       3.20
+    3.65       3.90
+    3.66       2.10
+    3.68       1.18
+    3.69       1.41
+    3.70       1.36
+    3.71       1.80
+    3.73       3.80
+    3.73       5.30
+    3.74       4.50
+    3.75       2.60
+    3.77       1.13
+    3.78       1.50
+    3.79       2.60
+    3.80       2.50
+    3.81       2.10
+    3.83       8.35
+    3.84      10.20
+    3.84      11.00
+    3.85      12.90
+    3.86      12.40
+    3.86       9.80
+    3.87       5.60
+    3.88       3.70
+    3.90       2.50
+    3.90       2.10
+    3.92       4.60
+    3.93       3.00
+    3.94       2.90
+    3.95       2.90
+    3.95       3.20
+    3.96       2.60
+    3.97       2.50
+    3.97       2.80
+    3.98       2.70
+    3.99       6.20
+    3.99      10.90
+    4.00      12.00
+    4.01       8.00
+    4.01       4.90
+    4.02       3.60
+    4.03       3.40
+    4.03       4.10
+    4.04       4.60
+    4.05       8.23
+    4.05       7.45
+    4.06       4.40
+    4.07       7.30
+    4.07       4.80
+    4.08       3.30
+    4.09       3.10
+    4.09       3.70
+    4.10       4.30
+    4.11       5.80
+    4.11       7.70
+    4.12       6.10
+    4.13       3.70
+    4.14       2.60
+    4.14       2.10
+    4.15       1.20
+    4.16       2.70
+    4.16       2.70
+    4.17       1.40
+    4.18       1.20
+    4.18       2.70
+    4.19       3.30
+    4.20       3.40
+    4.20       4.40
+    4.21       7.45
+    4.22      10.80
+    4.22      12.20
+    4.23      11.90
+    4.24       9.43
+    4.24       6.97
+    4.26       6.60
+    4.27       8.70
+    4.28      11.70
+ENDDATA            125
+ENDSUBENT          135
+SUBENT        T0010007   19991011   20000119   20050926       0000
+BIB                  3          5
+REACTION   (9-F-19(P,N)10-NE-19,,SIG)
+SAMPLE     238UF(4). Areal density 120 microg/cm2.
+STATUS     (CPX) Data from CPX file compiled in 1964/67 by
+           F.K. McGowan et al, checked by KACHAPAG.
+           Converted to EXFOR format by IAEA-NDS
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2         39
+EN         DATA
+MEV        MB
+    4.21       0.11
+    4.25       1.45
+    4.26       2.80
+    4.28       3.74
+    4.29       4.40
+    4.30       5.18
+    4.32       5.97
+    4.33       7.25
+    4.34       8.83
+    4.36      11.5
+    4.37      13.6
+    4.39      16.3
+    4.40      17.6
+    4.41      19.0
+    4.43      20.0
+    4.44      20.4
+    4.45      20.5
+    4.47      46.3
+    4.48      20.2
+    4.51      20.8
+    4.54      23.6
+    4.57      29.7
+    4.58      32.3
+    4.59      34.3
+    4.61      35.2
+    4.62      35.3
+    4.65      37.4
+    4.68      41.9
+    4.71      46.2
+    4.74      47.7
+    4.76      21.4
+    4.78      41.6
+    4.78      43.7
+    4.80      37.8
+    4.82      35.3
+    4.86      31.8
+    4.89      30.4
+    4.91      30.9
+    4.93      32.5
+ENDDATA             41
+ENDSUBENT           51
+SUBENT        T0010008   19991011   20000119   20050926       0000
+BIB                  3          5
+REACTION   (6-C-13(P,N)7-N-13,,SIG)
+SAMPLE     Carbon sample, 61% 13C. Areal density 24.8 microg/cm2.
+STATUS     (CPX) Data from CPX file compiled in 1964/67 by
+           F.K. McGowan et al, checked by KACHAPAG.
+           Converted to EXFOR format by IAEA-NDS
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2         59
+EN         DATA
+MEV        MB
+    3.88      26.0
+    3.91      25.7
+    3.93      27.0
+    3.96      31.7
+    3.96      34.2
+    3.97      39.8
+    3.98      53.0
+    3.98      78.5
+    3.99      83.0
+    4.00      55.5
+    4.00      43.8
+    4.01      38.0
+    4.02      35.8
+    4.02      34.4
+    4.03      33.6
+    4.06      33.6
+    4.09      33.7
+    4.11      35.3
+    4.14      41.2
+    4.17      36.8
+    4.19      32.8
+    4.22      30.8
+    4.25      31.4
+    4.27      33.4
+    4.30      33.8
+    4.33      35.2
+    4.36      37.3
+    4.38      39.7
+    4.41      45.5
+    4.44      54.0
+    4.46      67.5
+    4.49      78.0
+    4.52      79.0
+    4.55      73.5
+    4.58      66.0
+    4.60      60.5
+    4.63      58.0
+    4.66      67.0
+    4.69      74.0
+    4.71      79.0
+    4.74      81.5
+    4.77      80.5
+    4.80      81.0
+    4.83      83.5
+    4.86      85.0
+    4.89      85.5
+    4.91      85.5
+    4.94      87.0
+    4.97      90.5
+    5.00      91.0
+    5.03      94.0
+    5.06      91.0
+    5.09      91.0
+    5.12      87.5
+    5.15      84.0
+    5.18      80.0
+    5.21      74.0
+    5.24      74.0
+    5.27      74.0
+ENDDATA             61
+ENDSUBENT           71
+SUBENT        T0010009   19991011   20000119   20050926       0000
+BIB                  3          6
+REACTION   (4-BE-9(P,N)5-B-9,,SIG)
+SAMPLE     Beryllium metal. Areal density of targets 6, 70 and
+            184 microg/cm2.
+STATUS     (CPX) Data from CPX file compiled in 1964/67 by
+           F.K. McGowan et al, checked by KACHAPAG.
+           Converted to EXFOR format by IAEA-NDS
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 2         40
+EN         DATA
+MEV        MB
+    2.33      36.1
+    2.37      43.1
+    2.41      52.7
+    2.45      64.8
+    2.49      84.7
+    2.53     118.
+    2.53     128.
+    2.54     138.
+    2.55     148.
+    2.56     159.
+    2.57     164.
+    2.57     163.
+    2.58     162.
+    2.59     153.
+    2.60     144.
+    2.62     135.
+    2.64     129.
+    2.67     123.
+    2.70     120.
+    2.81     123.
+    2.92     147.
+    3.03     162.
+    3.15     176.
+    3.26     192.
+    3.38     208.
+    3.50     224.
+    3.63     240.
+    3.75     247.
+    3.88     261.
+    4.01     278.
+    4.14     283.
+    4.27     304.
+    4.41     382.
+    4.55     444.
+    4.69     468.
+    4.83     515.
+    4.97     482.
+    5.12     435.
+    5.27     418.
+    5.42     432.
+ENDDATA             42
+ENDSUBENT           53
+SUBENT        T0010010   20160316   20160902   20160727       C157
+BIB                  7         18
+REACTION  1(3-LI-7(P,N)4-BE-7,,SIG) (p,n0)+(p,n1)
+          2(3-LI-7(P,N)4-BE-7,,SIG) (p,n0)+(p,n1)
+SAMPLE     (3-LI-7,NAT=0.925)
+          1 6.5 ug/cm2 (?) LiF with Pt or Al backing
+          2 ~40 ug/cm2 Li with Pt backing.
+ANALYSIS   Data normalized at thick (380 ug/cm2) LiF target
+            data at 2.0 MeV (+/-5%).
+MISC-COL   (MISC) Slightly different energies in data from
+            CPX-file compiled in 1964/67 by F.K.McGowan et al.
+            and checked by KaChaPaG (Physik-Daten Nr.15-5,1982).
+ERR-ANALYS (ERR-1) Fractional standard deviation (5%)
+STATUS     (TABLE) Author's tabulated data compiled in p225 of
+            Nucl.Data Sheets 1(1966)203.
+           Corresponding to Fig.4 of Phys.Rev.114(1959)571:
+          1.open and solid circles in Fig.4.
+          2.triangles in Fig.4.
+HISTORY    (19991011T) Converted from EXFOR P0001.010.
+           (20160316A) On+LV. Data in Nucl.Data.Sheets adopted.
+ENDBIB              18
+COMMON               1          3
+ERR-1
+PER-CENT
+ 5.
+ENDCOMMON            3
+DATA                 4         62
+EN         DATA      1DATA      2MISC
+MEV        MB         MB         MEV
+ 1.882        1.20E+01
+ 1.884        9.40E+01
+ 1.885        1.46E+02
+ 1.886        1.71E+02
+ 1.887        1.90E+02
+ 1.890        2.07E+02
+ 1.892        2.21E+02
+ 1.896        2.37E+02
+ 1.902        2.48E+02
+ 1.909        2.56E+02
+ 1.921        2.65E+02
+ 1.932        2.70E+02
+ 1.945        2.69E+02
+ 1.957        2.71E+02
+ 1.970        2.71E+02
+ 1.981        2.70E+02
+ 1.988        2.71E+02
+ 2.001        2.68E+02
+ 2.015        2.71E+02
+ 2.027        2.71E+02
+ 2.037        2.80E+02
+ 2.052        2.81E+02
+ 2.068        2.88E+02
+ 2.081        2.95E+02
+ 2.103        3.12E+02
+ 2.127        3.42E+02
+ 2.147        3.78E+02
+ 2.163        3.89E+02
+ 2.178        4.33E+02
+ 2.192        4.53E+02
+ 2.193        4.63E+02
+ 2.204        5.01E+02
+ 2.218        5.34E+02
+ 2.233        5.59E+02
+ 2.247        5.79E+02
+ 2.261        5.74E+02
+ 2.277        5.70E+02
+ 2.287        5.33E+02
+ 2.305        5.15E+02
+ 2.319        4.83E+02
+ 2.335        4.65E+02
+ 2.362        4.15E+02
+ 2.375        3.93E+02
+ 2.387                   3.78E+02 2.39
+ 2.392        3.86E+02
+ 2.405        3.63E+02
+ 2.420        3.50E+02
+ 2.450        3.40E+02
+ 2.594                   2.92E+02 2.59
+ 2.808                   2.87E+02 2.81
+ 3.032                   2.91E+02 3.03
+ 3.264                   2.87E+02 3.26
+ 3.504                   2.90E+02 3.50
+ 3.752                   2.89E+02 3.75
+ 4.009                   2.98E+02 4.01
+ 4.274                   3.22E+02 4.27
+ 4.548                   3.69E+02 4.55
+ 4.829                   4.08E+02 4.83
+ 4.973                   4.32E+02 4.97
+ 5.119                   4.28E+02 5.12
+ 5.267                   3.95E+02 5.27
+ 5.418                   4.02E+02 5.42
+ENDDATA             64
+ENDSUBENT           91
+SUBENT        T0010011   19991011   20000119   20050926       0000
+BIB                  3          5
+REACTION   (6-C-14(P,N)7-N-14,,SIG)
+SAMPLE     Carbon sample.
+STATUS     (CPX) Data from CPX file compiled in 1964/67 by
+           F.K. McGowan et al, checked by KACHAPAG.
+           Converted to EXFOR format by IAEA-NDS
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 2         64
+EN         DATA
+MEV        MB
+    0.680      0.17
+    0.693      0.22
+    0.707      0.27
+    0.721      0.32
+    0.736      0.35
+    0.764      0.58
+    0.794      0.65
+    0.824      0.64
+    0.855      0.80
+    0.886      0.86
+    0.918      0.95
+    0.949      1.04
+    0.982      1.17
+    1.010      1.21
+    1.050      1.31
+    1.060      1.43
+    1.080      1.51
+    1.100      2.06
+    1.120      3.40
+    1.130      6.90
+    1.140     11.9
+    1.140     26.
+    1.150     29.
+    1.150     85.
+    1.150     55.
+    1.150    160.
+    1.160    178.
+    1.160    252.
+    1.160    262.
+    1.170     34.
+    1.170     55.
+    1.170    100.
+    1.180     15.
+    1.180     12.5
+    1.200      7.4
+    1.220      5.5
+    1.240      9.6
+    1.260     26.
+    1.270     47.
+    1.280    118.
+    1.280     92.
+    1.280    134.
+    1.290    200.
+    1.290    244.
+    1.290    174.
+    1.300    311.
+    1.300    278.
+    1.310    316.
+    1.310    314.
+    1.310    310.
+    1.320    245.
+    1.330    173.
+    1.340    119.
+    1.350     91.
+    1.360     73.
+    1.370     63.
+    1.380     50.
+    1.390     47.
+    1.400     41.
+    1.420     33.
+    1.440     26.
+    1.460     22.
+    1.470     22.
+    1.480     20.
+ENDDATA             66
+ENDSUBENT           76
+SUBENT        T0010012   19991011   20000119   20050926       0000
+BIB                  4          5
+REACTION   (1-H-2(P,N+P)1-H-1,,SIG)
+SAMPLE     H2 gas, enriched to 99.4% 2H. Areal density 13.8
+            microg/cm2.
+ERR-ANALYS (DATA-ERR) No information on source of uncertainty.
+STATUS     (CURVE) Read from Fig. 1 of reference by C. Brune.
+ENDBIB               5
+COMMON               1          3
+EN-ERR
+MEV
+ 0.01
+ENDCOMMON            3
+DATA                 3         12
+EN         DATA       DATA-ERR
+MEV        MB         MB
+  3.499      0.068      0.030
+  3.554      0.224      0.060
+  3.554      0.265      0.075
+  3.616      0.500      0.080
+  3.683      0.862      0.067
+  3.749      1.330      0.103
+  3.811      2.000      0.155
+  3.883      2.716      0.210
+  4.349      9.755      0.625
+  4.716     17.23       1.10
+  4.916     21.55       1.38
+  5.516     33.55       2.15
+ENDDATA             14
+ENDSUBENT           28
+SUBENT        T0010014   19991011   20000119   20050926       0000
+BIB                  4          9
+REACTION   (1-H-3(P,N)2-HE-3,,SIG)
+SAMPLE     T2 gas targets, enriched to 88.5% 3H. Areal density 47
+            and 90 microg/cm2.
+ERR-ANALYS (EN-ERR) Digitizing Error
+           (DATA-ERR1) Error due to uncertainties in gas purity.
+           (DATA-ERR2) Digitizing Error
+STATUS     (CURVE) Scanned from Fig. 2 of reference by Arzamas
+            RFNC-VNIIEF.
+           Data at 2.955 MeV taken from text of reference.
+ENDBIB               9
+COMMON               3          3
+EN-ERR     DATA-ERR1  DATA-ERR2
+MEV        PER-CENT   MB
+ 0.02       10.         3.605
+ENDCOMMON            3
+DATA                 2         22
+EN         DATA
+MEV        MB
+  1.815     378.4
+  1.820     400.9
+  2.028     410.9
+  2.229     452.5
+  2.432     500.9
+  2.646     537.9
+  2.884     556.8
+  2.888     577.0
+  2.955     572.
+  2.997     578.7
+  3.107     571.3
+  3.109     580.2
+  3.339     563.2
+  3.595     537.0
+  3.597     546.0
+  3.852     517.5
+  4.120     484.5
+  4.373     447.0
+  4.643     423.0
+  4.937     385.3
+  4.941     403.3
+  5.238     374.6
+ENDDATA             24
+ENDSUBENT           42
+ENDENTRY            13

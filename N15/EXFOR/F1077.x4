@@ -1,0 +1,565 @@
+ENTRY            F1077   20101026   20110803   20110627       F041
+SUBENT        F1077001   20101026   20110803   20110627       F041
+BIB                  9         26
+TITLE      Studies of (d,d) and (d,p) reactions with carbon
+           isotopes at low bombarding energies.
+AUTHOR     (R.L.A.Cottrell,J.C.Lisle,J.O.Newton)
+INSTITUTE  (2UK MAN)
+REFERENCE  (J,NP/A,109,288,1968)
+           #doi:10.1016/0375-9474(68)90594-0
+FACILITY   (VDG,2UK MAN) The 6 MV Van de Graaff accelerator was
+           used.
+SAMPLE     Thin self-supporting targets of natural carbon and of
+           54+ -4% enriched 13C were used. The targets of 10- 30
+           mu-g/cm2 were prepared by vacuum evaporation
+           deposition of graphite, while the enriched targets of
+           50-150 mu-g/cm2 were prepared by cracking C-13
+           enriched acetylene in a discharge.
+METHOD     (BCINT)
+ERR-ANALYS (ERR-SYS)  The net accuracy of the absolute cross
+           section measurement
+           (ERR-1) Accuracy of target thickness measurement
+           (ERR-2) The error due to ignoring the oxygen content
+                   in the target
+           (ERR-3) Accuracy of the absolute values of the counter
+                   solid angle measurement
+           (ERR-4) Accuracy of the relative solid angle
+                   measurement
+           (ERR-5) Accuracy of current integrator calibration
+HISTORY    (20101026C)
+ENDBIB              26
+COMMON               7          6
+ANG-RSL    ERR-SYS    ERR-1      ERR-2      ERR-3      ERR-4
+ERR-5
+ADEG       PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
+PER-CENT
+ 0.2        8.         6.         1.         4.         2.
+ 2.
+ENDCOMMON            6
+ENDSUBENT           36
+SUBENT        F1077002   20101026   20110803   20110627       F041
+BIB                  4          8
+REACTION   (6-C-13(D,EL)6-C-13,,DA)
+DETECTOR   (SIBAR) Four 16000 Omega*cm or 1000 Omega*cm silicon
+           surface barrier detectors having resolutions varying
+           between 25 and 80 keV were used.
+ERR-ANALYS (EN-ERR-DIG) Energy digitizing error
+           (ERR-DIG)    Data digitizing error
+           (DATA-ERR)   Error from the graphic bars
+STATUS     (CURVE) Fig.2
+ENDBIB               8
+COMMON               2          3
+EN-ERR-DIG ERR-DIG
+MEV        MB/SR
+ 0.0009     0.0125
+ENDCOMMON            3
+DATA                 4         44
+ANG        EN         DATA       DATA-ERR
+ADEG       MEV        MB/SR      MB/SR
+        70.     4.4762     28.317     1.5966
+        70.     4.5345     33.441     1.8487
+        70.     4.5978     40.246     1.9328
+        70.     4.6595     33.438     2.0168
+        70.     4.7177     34.025     1.9329
+        70.     4.7776     36.292     1.8485
+        70.     4.8393     35.114     1.6807
+        70.     4.8889     36.205     1.5968
+        70.     4.9506     35.111     1.6807
+        70.     5.0071     33.849     1.9326
+        70.      5.067     32.334     1.9331
+        70.     5.1235     32.165     1.7647
+        70.     5.1783     29.642     1.7649
+        70.     5.2382     30.481     1.7646
+        70.     5.2879      27.37     1.8487
+        70.     5.3392     28.545     1.8491
+        70.     5.3957     28.292     1.7648
+        70.     5.4437     31.484     1.7645
+        70.     5.5207     31.566     2.1849
+        70.     5.5807     34.253     2.0168
+        70.     5.6338     34.672     2.2689
+        70.     5.7006     36.687      2.437
+       150.     4.4801     34.251     1.9167
+       150.     4.5418     33.251     1.5833
+       150.        4.6     29.168     1.8333
+       150.      4.665     29.002     1.6667
+       150.     4.7267     28.919     1.7501
+       150.     4.7815     28.336     1.6672
+       150.     4.8431      27.42     1.5834
+       150.     4.8911     26.586     1.4167
+       150.     4.9476     24.587     1.5831
+       150.     5.0092     24.587     1.5835
+       150.     5.0657     23.088     1.5832
+       150.     5.1188     24.338     1.8334
+       150.      5.177     24.005     1.8331
+       150.     5.2421     22.839     1.6671
+       150.     5.2918     25.422     1.5833
+       150.      5.338     25.673     1.3329
+       150.     5.3996     25.506     1.6668
+       150.     5.4459      29.09     1.7503
+       150.     5.5195     30.674     1.8335
+       150.     5.5897     33.258     1.9167
+       150.     5.6325     31.425       1.75
+       150.     5.7027     33.508     1.8328
+ENDDATA             46
+ENDSUBENT           63
+SUBENT        F1077003   20101026   20110803   20110627       F041
+BIB                  4          8
+REACTION   (6-C-12(D,EL)6-C-12,,DA)
+DETECTOR   (SIBAR) Four 16000 Omega*cm or 1000 Omega*cm silicon
+           surface barrier detectors having resolutions varying
+           between 25 and 80 keV were used.
+ERR-ANALYS (EN-ERR-DIG) Energy digitizing error
+           (ERR-DIG)    Data digitizing error
+           (DATA-ERR)   Error from the graphic bars
+STATUS     (CURVE) Fig.2
+ENDBIB               8
+COMMON               2          3
+EN-ERR-DIG ERR-DIG
+MEV        MB/SR
+ 0.0008     0.0689
+ENDCOMMON            3
+DATA                 4         40
+ANG        EN         DATA       DATA-ERR
+ADEG       MEV        MB/SR      MB/SR
+        70.     4.4803     21.466     1.8103
+        70.     4.5555     18.191     1.6379
+        70.        4.6     19.398     1.6381
+        70.     4.6547     21.122     1.8105
+        70.     4.7196     21.726     1.5517
+        70.     4.7812     25.606     1.4655
+        70.      4.882     29.917     1.9828
+        70.     4.9692     27.676     1.8099
+        70.     5.0068     22.245      2.069
+        70.     5.0564     18.711     1.6378
+        70.     5.1196     17.935     1.8966
+        70.     5.1778     16.901     1.5518
+        70.     5.2376     16.902     1.7241
+        70.     5.2872     14.747     2.1552
+        70.     5.3333     15.695     1.7243
+        70.     5.3932      16.73     1.7239
+        70.      5.441      18.11     1.5516
+        70.     5.5026     21.903     1.5519
+        70.     5.5743     23.111     1.5521
+        70.      5.629     23.542     1.6379
+        70.     5.6957     25.008     1.7241
+       150.     4.4899     31.423     1.6807
+       150.     4.5645     23.266     2.1008
+       150.     4.6019     22.676     1.8487
+       150.     4.6545     26.369     2.3529
+       150.     4.7208     34.768     1.8491
+       150.      4.782      44.68      2.521
+       150.     4.8805     51.732     2.3527
+       150.     4.9484     52.484      2.605
+       150.     5.0044     50.715     2.3532
+       150.     5.0562     46.258     2.6051
+       150.     5.1181     42.892      2.437
+       150.      5.181     45.072     2.1008
+       150.     5.2353     46.833     2.3527
+       150.     5.2863     50.023     2.1849
+       150.     5.3321     46.995     2.3531
+       150.     5.3882     53.798     2.1011
+       150.     5.4357     54.215      2.523
+       150.     5.5002     56.731     3.0252
+       150.     5.5698     57.987     3.4454
+ENDDATA             42
+ENDSUBENT           59
+SUBENT        F1077004   20101026   20110803   20110627       F041
+BIB                  4          8
+REACTION   (6-C-12(D,EL)6-C-12,,DA)
+DETECTOR   (SIBAR) Four 16000 Omega*cm or 1000 Omega*cm silicon
+           surface barrier detectors having resolutions varying
+           between 25 and 80 keV were used.
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+           (ERR-DIG)    Data digitizing error
+           (DATA-ERR)   Error from the graphic bars
+STATUS     (CURVE) Fig.3
+ENDBIB               8
+COMMON               2          3
+ANG-ERR-D  ERR-DIG
+ADEG       PER-CENT
+ 0.4554     0.0058
+ENDCOMMON            3
+DATA                 4         96
+EN         ANG-CM     DATA-CM    DATA-ERR
+MEV        ADEG       MB/SR      MB/SR
+       4.66     12.788   1.38E+04
+       4.66     18.169  2.331E+03
+       4.66       23.8      891.7
+       4.66     29.985     394.07
+       4.66     34.758     243.79
+       4.66      40.93     150.84
+       4.66     46.266     86.139
+       4.66     51.595     57.739
+       4.66     57.766      36.89
+       4.66     61.976     25.124
+       4.66     68.692     23.583
+       4.66     73.732     20.428
+       4.66     79.609     18.869
+       4.66     84.652     15.577
+       4.66     89.974     12.656
+       4.66     94.736     10.616
+       4.66     100.06     8.6253
+       4.66     104.55     5.9693
+       4.66     109.59     5.0885
+       4.66     114.63     4.8527
+       4.66     119.93     5.8856
+       4.66     123.56     7.7324
+       4.66     127.74     10.832
+       4.66     133.04     15.421
+       4.66     138.63     19.943
+       4.66     142.26     22.681
+       4.66     146.73     27.069
+       4.66     150.36     30.296
+       4.66     154.83     36.157
+       4.66     159.58      37.96
+       4.66     163.78     40.494
+       4.66     167.97     40.515
+       4.66     171.61     39.255
+       4.97     12.973  1.598E+04  9.056E+03
+       4.97     18.353  5.465E+03  1.168E+03
+       4.97     23.759  1.232E+03     261.28
+       4.97     29.412     471.15
+       4.97     35.037     286.94
+       4.97     41.217     189.36
+       4.97     46.839     119.08
+       4.97     57.802     49.409
+       4.97     62.571     39.513
+       4.97     68.455     33.699
+       4.97     73.768     34.834
+       4.97     79.651     30.189
+       4.97      84.72     17.242
+       4.97      89.78     11.559
+       4.97      94.82      10.68
+       4.97     99.879     7.1601
+       4.97     104.92     6.7221
+       4.97     109.68     6.0142
+       4.97     114.69      8.705
+       4.97     119.72      9.291
+       4.97     124.45     15.044
+       4.97     129.76     17.122
+       4.97     133.38     22.145
+       4.97     138.97     22.892
+       4.97     142.03     29.134
+       4.97     146.23     28.239
+       4.97     151.24     39.583
+       4.97     155.99     45.771
+       4.97     163.83     40.325
+       4.97     168.01     55.616
+       5.27     13.262  9.616E+03
+       5.27     18.623  2.259E+03
+       5.27     23.969     874.21
+       5.27     30.425     430.77
+       5.27     35.487      183.6
+       5.27      41.38      102.9
+       5.27     46.997     51.525
+       5.27      52.06     21.265
+       5.27     58.227     14.459
+       5.27     63.822     13.785
+       5.27     69.417     13.794
+       5.27     74.733     13.151
+       5.27     80.051     11.946
+       5.27      85.37     10.509
+       5.27     90.415     7.6195
+       5.27     95.463      5.016
+       5.27     100.23     3.3556
+       5.27     104.99      2.858
+       5.27     110.03     2.9531
+       5.27     115.05      3.948
+       5.27     120.08     5.4508
+       5.27     124.82     8.5598
+       5.27     129.84     11.629
+       5.27     133.75     14.343
+       5.27     138.78     18.567
+       5.27     143.53     23.651
+       5.27     148.83      28.25
+       5.27     152.19     33.735
+       5.27     155.82     38.388
+       5.27     159.73     42.985
+       5.27     164.48     46.613
+       5.27     168.96     49.737
+       5.27     172.59     51.385
+ENDDATA             98
+ENDSUBENT          115
+SUBENT        F1077005   20101026   20110803   20110627       F041
+BIB                  4          8
+REACTION   (6-C-13(D,EL)6-C-13,,DA)
+DETECTOR   (SIBAR) Four 16000 Omega*cm or 1000 Omega*cm silicon
+           surface barrier detectors having resolutions varying
+           between 25 and 80 keV were used.
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+           (ERR-DIG)    Data digitizing error
+           (DATA-ERR)   Error from the graphic bars
+STATUS     (CURVE) Fig.4
+ENDBIB               8
+COMMON               2          3
+ANG-ERR-D  ERR-DIG
+ADEG       PER-CENT
+ 0.2683     0.0008
+ENDCOMMON            3
+DATA                 4         99
+EN         ANG-CM     DATA-CM    DATA-ERR
+MEV        ADEG       MB/SR      MB/SR
+       4.66     11.989  1.817E+03
+       4.66      17.61      355.9
+       4.66     23.795     113.15
+       4.66     28.575     63.282
+       4.66     34.481     37.149
+       4.66     40.386     18.558
+       4.66     45.448      13.01
+       4.66     51.072      7.395
+       4.66     56.415     4.9395
+       4.66     62.603     3.9403
+       4.66     67.384     3.5192
+       4.66     73.573     3.4072
+       4.66     78.636     3.3525
+       4.66     83.136     2.9462
+       4.66     88.198     1.9364
+       4.66     93.541     1.3797
+       4.66      98.04    0.78422
+       4.66     102.26    0.36139  9.899E-02
+       4.66      107.6  3.896E-02  1.148E-02
+       4.66     112.66  2.688E-02   7.92E-03
+       4.66     118.01    0.10428   1.63E-02
+       4.66     122.79    0.22264  3.069E-02
+       4.66     126.45    0.34422  4.744E-02
+       4.66     131.51    0.50704
+       4.66     135.17     1.2121
+       4.66     140.52     1.6738
+       4.66     145.02     2.1321
+       4.66     150.93     2.3112
+       4.66      154.3     2.5054
+       4.66     158.24     2.8505
+       4.66      163.3     2.9439
+       4.66     166.96     3.1912
+       4.66     171.18     3.2958
+       4.97     11.654  1.879E+03     516.16
+       4.97     17.282     378.87     73.792
+       4.97     23.191     141.23     27.508
+       4.97     28.256     61.892     10.868
+       4.97     34.726     31.374     4.3348
+       4.97      39.79     21.279     3.3351
+       4.97     45.135     12.681     1.7521
+       4.97     51.043     7.3162
+       4.97      56.67     5.1255
+       4.97     61.734     3.3117
+       4.97     67.641     3.1549
+       4.97     72.704      3.155
+       4.97     78.049     2.8632
+       4.97     83.675     2.1399
+       4.97     87.895     1.4052
+       4.97     92.959    0.98444
+       4.97     98.304    0.61582    0.10813
+       4.97     103.93     0.2489  3.022E-02
+       4.97     107.59    0.21869  6.461E-02
+       4.97     114.06    0.19847  3.866E-02
+       4.97     117.71    0.23713
+       4.97     118.84    0.33849
+       4.97     127.28    0.44566
+       4.97     132.06    0.62598
+       4.97     136.28    0.79791
+       4.97     141.06    0.90818
+       4.97     144.72      1.235
+       4.97     150.34     1.4997
+       4.97     154.56      1.763
+       4.97     159.06     1.9745
+       4.97     163.28     1.7919
+       4.97     167.78     1.6796
+       4.97     171.44     1.5744
+       5.27     11.612  1.149E+03
+       5.27     17.809     189.89
+       5.27     22.313      82.74
+       5.27     28.503     50.576
+       5.27     34.412     33.904
+       5.27     40.322     18.045
+       5.27     45.388     9.1704
+       5.27     51.579     4.7328
+       5.27     56.645     2.7625
+       5.27     62.271     2.5978
+       5.27     67.052     2.8057
+       5.27      73.24     3.0302
+       5.27     78.023     2.5586
+       5.27     83.369     1.8524
+       5.27     88.152      1.341
+       5.27     92.936    0.79487
+       5.27      97.72    0.53285    0.10804
+       5.27     103.91    0.39175  6.515E-02
+       5.27     108.13    0.26668    0.17155
+       5.27     112.35    0.16052  1.859E-02
+       5.27     117.97    0.54125
+       5.27     123.32    0.82003
+       5.27     127.25     1.0652
+       5.27     131.47     1.3626
+       5.27     136.25     1.4053
+       5.27     140.47     1.6645
+       5.27     144.97     2.0021
+       5.27      150.6     2.0022
+       5.27     154.82     2.1294
+       5.27     158.75     2.2647
+       5.27     162.97     2.8091
+       5.27     167.47     2.2304
+       5.27     171.41     2.1964
+ENDDATA            101
+ENDSUBENT          118
+SUBENT        F1077006   20101026   20110803   20110627       F041
+BIB                  3          5
+REACTION   (6-C-13(D,P)6-C-14,PAR,DA)
+ERR-ANALYS (ANG-ERR-D)  Angle digitizing error
+           (ERR-DIG)    Data digitizing error
+           (DATA-ERR)   Error from the graphic bars
+STATUS     (CURVE) Fig.7
+ENDBIB               5
+COMMON               4          3
+EN         E-LVL      ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       PER-CENT
+ 4.96       6.09        0.1719     0.0089
+ENDCOMMON            3
+DATA                 3         14
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+     30.105     350.63     52.509
+     41.188     184.86     48.408
+     51.252     182.65     24.925
+     56.932     198.09     29.665
+     62.352     212.35     28.978
+     68.028      191.2      23.58
+     73.961     170.16     23.221
+     79.377     146.25     16.137
+     84.275     119.99     14.798
+     135.62      70.94     10.624
+     139.75     65.382      8.516
+     144.91     63.125     7.7849
+     149.81     65.352     7.2107
+     154.71     66.876     9.1261
+ENDDATA             16
+ENDSUBENT           30
+SUBENT        F1077007   20101026   20110803   20110627       F041
+BIB                  3          5
+REACTION   (6-C-13(D,P)6-C-14,PAR,DA)
+ERR-ANALYS (EN-ERR-DIG) Energy digitizing error
+           (ERR-DIG)    Data digitizing error
+           (DATA-ERR)   Error from the graphic bars
+STATUS     (CURVE) Fig.8
+ENDBIB               5
+COMMON               3          3
+E-LVL      EN-ERR-DIG ERR-DIG
+MEV        MEV        MB/SR
+ 6.09       0.0023     0.003
+ENDCOMMON            3
+DATA                 4         34
+ANG        EN         DATA       DATA-ERR
+ADEG       MEV        MB/SR      MB/SR
+        70.        4.5     22.257     1.1062
+        70.      4.545     20.619    0.88496
+        70.     4.6126     19.204     1.1059
+        70.     4.6667     17.566     1.0177
+        70.     4.7297     17.168    0.88495
+        70.     4.7838     16.549     0.9292
+        70.     4.9009     16.062     1.0619
+        70.     4.9549     16.372    0.84071
+        70.     5.0045      13.23    0.79646
+        70.     5.0766     13.717    0.75221
+        70.     5.1171     14.823    0.53097
+        70.     5.1937     11.991    0.79648
+        70.     5.2387     11.416    0.84073
+        70.     5.2973     9.0266     1.3717
+        70.     5.3558     9.5576    0.84069
+        70.      5.473     10.089    0.79645
+        70.     5.5405     11.637     1.2832
+        70.     5.5856     9.6018     1.0621
+        70.     5.6261     11.195     1.7257
+        70.     5.6937     9.9116     1.1947
+       100.      4.477      15.18    0.53571
+       100.     4.5401     13.261    0.49107
+       100.     4.6032     12.055    0.58036
+       100.     4.6663     11.431    0.49109
+       100.     4.7249     11.431    0.58038
+       100.     4.7744     11.609    0.58041
+       100.      4.887     11.342      0.625
+       100.     4.9456      11.61     0.6252
+       100.     5.0718     9.6014    0.53574
+       100.     5.1844     8.9768    0.53568
+       100.     5.2926     6.2985    0.53572
+       100.     5.4322     7.3257    0.58037
+       100.     5.5358     8.5761    0.44643
+       100.     5.6304     8.7103    0.53571
+ENDDATA             36
+ENDSUBENT           50
+SUBENT        F1077008   20101026   20110803   20110627       F041
+BIB                  3          3
+REACTION   (6-C-12(D,EL)6-C-12,,DA)
+ERR-ANALYS (DATA-ERR)Source of uncertainty is not given by author
+STATUS     (TABLE) Tbl.1
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+ANG        EN         DATA       DATA-ERR
+ADEG       MEV        MB/SR      MB/SR
+        70.       4.66       29.0         3.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        F1077009   20101026   20110803   20110627       F041
+BIB                  3          3
+REACTION   (6-C-12(D,P)6-C-13,PAR,DA)
+ERR-ANALYS (DATA-ERR)Source of uncertainty is not given by author
+STATUS     (TABLE) Tbl.1
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 5          1
+ANG        LVL-NUMB   EN         DATA       DATA-ERR
+ADEG       NO-DIM     MEV        MB/SR      MB/SR
+        70.         1.       4.66      10.64         1.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        F1077010   20101026   20110803   20110627       F041
+BIB                  3          3
+REACTION   (6-C-13(D,A)5-B-11,PAR,DA)
+ERR-ANALYS (DATA-ERR)Source of uncertainty is not given by author
+STATUS     (TABLE) Tbl.1
+ENDBIB               3
+COMMON               2          3
+ANG        E-LVL
+ADEG       MEV
+ 70.        0.
+ENDCOMMON            3
+DATA                 3          2
+EN         DATA       DATA-ERR
+MEV        MB/SR      MB/SR
+       3.87       6.27       0.50
+       4.66       5.64       0.50
+ENDDATA              4
+ENDSUBENT           16
+SUBENT        F1077011   20101026   20110803   20110627       F041
+BIB                  3          3
+REACTION   (6-C-13(D,P)6-C-14,PAR,DA)
+ERR-ANALYS (DATA-ERR)Source of uncertainty is not given by author
+STATUS     (TABLE) Tbl.1
+ENDBIB               3
+COMMON               1          3
+ANG
+ADEG
+ 70.
+ENDCOMMON            3
+DATA                 4          2
+E-LVL      EN         DATA       DATA-ERR
+MEV        MEV        MB/SR      MB/SR
+         0.       3.87       0.92       0.06
+       6.09       4.66       17.6        1.9
+ENDDATA              4
+ENDSUBENT           16
+SUBENT        F1077012   20101026   20110803   20110627       F041
+BIB                  4          6
+REACTION   (6-C-13(D,EL)6-C-13,,DA)
+DETECTOR   (SIBAR) Four 16000 Omega*cm or 1000 Omega*cm silicon
+           surface barrier detectors having resolutions varying
+           between 25 and 80 keV were used.
+ERR-ANALYS (DATA-ERR)Source of uncertainty is not given by author
+STATUS     (TABLE) Tbl.1
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 4          1
+ANG        EN         DATA       DATA-ERR
+ADEG       MEV        MB/SR      MB/SR
+        70.       4.66       33.3        3.6
+ENDDATA              3
+ENDSUBENT           14
+ENDENTRY            12

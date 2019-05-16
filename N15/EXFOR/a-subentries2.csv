@@ -1,0 +1,13 @@
+subentry,measure,reaction,description,ENmin,ENmax,rows,uncertainties,authors,year,reference
+"C0754002","DA","A,EL","Differential c/s with respect to angle for 11B(alpha,Elastic)11B","4.0","8.0","189","True","W.R.Ott,H.R.Weller","1972","Nuclear Physics,Section A 198,505 (1972)"
+"C0754003","DA","A,EL","Differential c/s with respect to angle for 11B(alpha,Elastic)11B","4.0","7.88","191","True","W.R.Ott,H.R.Weller","1972","Nuclear Physics,Section A 198,505 (1972)"
+"C0754004","DA","A,EL","Differential c/s with respect to angle for 11B(alpha,Elastic)11B","3.95","4.9","45","True","W.R.Ott,H.R.Weller","1972","Nuclear Physics,Section A 198,505 (1972)"
+"C0754005","DA","A,EL","Differential c/s with respect to angle for 11B(alpha,Elastic)11B","3.96","4.94","49","True","W.R.Ott,H.R.Weller","1972","Nuclear Physics,Section A 198,505 (1972)"
+"C0754006","DA","A,EL","Differential c/s with respect to angle for 11B(alpha,Elastic)11B","4.0","4.0","29","True","W.R.Ott,H.R.Weller","1972","Nuclear Physics,Section A 198,505 (1972)"
+"C0754007","DA","A,EL","Differential c/s with respect to angle for 11B(alpha,Elastic)11B","4.26","4.26","24","True","W.R.Ott,H.R.Weller","1972","Nuclear Physics,Section A 198,505 (1972)"
+"C0754008","DA","A,EL","Differential c/s with respect to angle for 11B(alpha,Elastic)11B","4.44","4.44","24","True","W.R.Ott,H.R.Weller","1972","Nuclear Physics,Section A 198,505 (1972)"
+"C0754009","DA","A,EL","Differential c/s with respect to angle for 11B(alpha,Elastic)11B","4.62","4.62","26","True","W.R.Ott,H.R.Weller","1972","Nuclear Physics,Section A 198,505 (1972)"
+"C2103008","DA","A,EL","Differential c/s with respect to angle for 11B(alpha,Elastic)11B","5.625","5.625","1","False","C.J.Wetteland,C.J.Maggiore,J.R.Tesmer,X-M.He,D-H.Lee","1998","Report other than progress report: LA-UR-98-4867  (1998)"
+"F1138003","DA","A,EL","Differential c/s with respect to angle for 11B(alpha,Elastic)11B","24.0","24.0","46","True","A.E.Denisov,R.P.Kolalis,V.S.Sadkovsky,G.A.Feofilov","1976","Yadernaya Fizika 24,249 (1976); Soviet Journal of Nuclear Physics 24,129 (1977)"
+"F1195002","DA","A,EL","Differential c/s with respect to angle for 11B(alpha,Elastic)11B","3.8504","7.5023","83","False","N.Moncoffre,N.Millard,H.Jaffrezic,J.Tousset","1990","Nucl. Instrum. Methods in Physics Res.,Sect.B 45,81 (1990)"
+"T0090002","DA","A,EL","Differential c/s with respect to angle for 11B(alpha,Elastic)11B","2.1","3.91","271","False","J.J.Ramirez,R.A.Blue,H.R.Weller","1972","Physical Review,Part C,Nuclear Physics 5,17 (1972)"

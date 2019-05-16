@@ -1,0 +1,484 @@
+ENTRY            C2103   20140404   20140711   20140709       C142
+SUBENT        C2103001   20140404   20140711   20140709       C142
+BIB                  6          7
+TITLE      "Magic" Energies For Detecting Light Elements With
+           Resonant Alpha Particle Backscattering
+AUTHOR     (C.J.Wetteland,C.J.Maggiore,J.R.Tesmer,X-M.He,D-H.Lee)
+REFERENCE  (R,LA-UR-98-4867,1998)
+INSTITUTE  (1USALAS)
+FACILITY   (VDG,1USALAS)
+HISTORY    (20140404C) BP
+ENDBIB               7
+NOCOMMON             0          0
+ENDSUBENT           10
+SUBENT        C2103002   20140404   20140711   20140709       C142
+BIB                  6         21
+REACTION   (1-H-1(A,EL)1-H-1,,DA,,RTH)
+SAMPLE     A polystyrene layer 8000 A thick spun onto a silicon
+           substrate was used for the hydrogen elastic recoil
+           cross section measurement.
+METHOD     The hydrogen recoil cross sections were measured at
+           scattering angle of 30 degrees with a target tilt of
+           75 degrees. The cross section in the energy region of
+           interest was obtained by first measuring the yield
+           from the sample at 2.5 MeV, where the cross section
+           is known. At both high and low energies the target
+           was thin enough that the yield could be determined by
+           peak integration. This removes the uncertainties
+           associated with stopping cross sections. The yield
+           obtained in the region of 5-6 MeV was then scaled by
+           the 2.5 MeV cross section to determine the cross
+           section.
+ERR-ANALYS (ERR-S) The uncertainty in the elastic recoil ratios
+           is 6%.
+CORRECTION The hydrogen cross section was corrected for hydrogen
+           loss.
+STATUS     (CURVE) Fig. 1.
+ENDBIB              21
+COMMON               2          3
+ANG        ERR-S
+ADEG       PER-CENT
+30.0       6.0
+ENDCOMMON            3
+DATA                 2         13
+EN         DATA
+KEV        NO-DIM
+   5037.951     15.306
+   5140.417     17.143
+   5216.318     17.959
+   5292.220     17.959
+   5368.121     19.184
+   5442.124     19.796
+   5518.026     21.020
+   5593.927     22.041
+   5667.930     23.061
+   5743.832     24.490
+   5817.835     24.694
+   5891.839     26.327
+   5967.740     27.347
+ENDDATA             15
+ENDSUBENT           45
+SUBENT        C2103003   20140404   20140711   20140709       C142
+BIB                  5         21
+REACTION   (5-B-11(A,EL)5-B-11,,DA,,RTH)
+SAMPLE     The boron sample was deposited on a 5 mm thick carbon
+           substrate. The boron in the sample was separated from
+           the substrate by a 4000 A layer of Mo. This separates,
+           in energy, the boron signal from the carbon
+           substrate signal. The boron layer was a
+           sputter-coated layer of B4C, 500 A thick.
+METHOD     A standard procedure for measuring backscattering
+           cross sections is the ratio method. The ratio method
+           can be derived from the equation for the experimental
+           cross section for a given element sigma = Y / Q(Nt)
+           deltaOmega, where sigma is the cross section, Y is the
+           integrated yield, Q is the number of incident
+           particles, (Nt) is the atoms/cm2 in the target and
+           deltaOmega is the solid angle of the detector. While
+           Y can be measured to arbitrarily good statistical
+           uncertainty, the other parameters have higher
+           systematic uncertainties.
+ERR-ANALYS (ERR-S) The statistical uncertainties in the
+           backscattering ratio measurements are 4%.
+STATUS     (CURVE) Fig. 1.
+ENDBIB              21
+COMMON               2          3
+ANG        ERR-S
+ADEG       PER-CENT
+167.0      4.0
+ENDCOMMON            3
+DATA                 2         37
+EN         DATA
+KEV        NO-DIM
+   5041.728      3.448
+   5100.522      8.958
+   5161.218     13.785
+   5221.917     17.928
+   5280.751     15.917
+   5341.519      7.071
+   5402.171     20.102
+   5462.867     24.930
+   5523.580     26.338
+   5553.894     35.247
+   5569.053     39.359
+   5584.179     49.624
+   5586.055     53.728
+   5591.683     66.037
+   5593.634     55.784
+   5599.280     64.675
+   5601.149     70.146
+   5614.456     65.369
+   5627.775     58.542
+   5629.644     64.012
+   5642.984     53.083
+   5643.009     48.297
+   5658.244     38.053
+   5658.265     33.951
+   5673.435     36.012
+   5673.460     31.227
+   5703.853     25.094
+   5705.732     28.514
+   5734.242     19.646
+   5764.595     21.034
+   5794.945     23.106
+   5823.397     25.176
+   5853.714     33.401
+   5884.010     45.727
+   5914.316     56.003
+   5942.721     66.961
+   5988.298     60.156
+ENDDATA             39
+ENDSUBENT           69
+SUBENT        C2103004   20140404   20140711   20140709       C142
+BIB                  6         20
+REACTION   (6-C-0(A,EL)6-C-0,,DA,,RTH)
+SAMPLE     The carbon sample was deposited on a 5 mm thick
+           carbon substrate. For carbon an evaporated 800 A
+           layer of Au was used followed by a plasma-coated 400
+           A layer of carbon.
+METHOD     A standard procedure for measuring backscattering
+           cross sections is the ratio method. The ratio method
+           can be derived from the equation for the experimental
+           cross section for a given element sigma = Y / Q(Nt)
+           deltaOmega, where sigma is the cross section, Y is the
+           integrated yield, Q is the number of incident
+           particles, (Nt) is the atoms/cm2 in the target and
+           deltaOmega is the solid angle of the detector. While
+           Y can be measured to arbitrarily good statistical
+           uncertainty, the other parameters have higher
+           systematic uncertainties.
+CORRECTION The carbon cross section was corrected for carbon gain.
+ERR-ANALYS (ERR-S) The statistical uncertainties in the
+           backscattering ratio measurements are 4%.
+STATUS     (CURVE) Fig. 1.
+ENDBIB              20
+COMMON               2          3
+ANG        ERR-S
+ADEG       PER-CENT
+167.0      4.0
+ENDCOMMON            3
+DATA                 2         23
+EN         DATA
+KEV        NO-DIM
+   5051.331     33.572
+   5079.848     37.143
+   5110.266     38.572
+   5140.684     40.000
+   5216.730     47.142
+   5292.776     57.140
+   5366.920     64.996
+   5442.966     75.709
+   5519.011     77.851
+   5577.947     89.992
+   5638.783     97.848
+   5669.202     98.562
+   5699.620    106.418
+   5730.038    104.275
+   5760.456    107.846
+   5790.875     87.850
+   5817.490     42.143
+   5847.909     24.288
+   5878.327     40.000
+   5908.745     45.713
+   5937.262     47.856
+   5967.681     50.713
+   5998.099     57.140
+ENDDATA             25
+ENDSUBENT           54
+SUBENT        C2103005   20140404   20140711   20140709       C142
+BIB                  5         21
+REACTION   (7-N-0(A,EL)7-N-0,,DA,,RTH)
+SAMPLE     The same target was used for both the oxygen and
+           nitrogen measurements. A 2000 A layer of ZrN2/ZrO2
+           was applied to the carbon substrate. An intermediate
+           layer was not needed because the oxygen and nitrogen
+           signals are naturally separated from the substrate
+           signal.
+METHOD     A standard procedure for measuring backscattering
+           cross sections is the ratio method. The ratio method
+           can be derived from the equation for the experimental
+           cross section for a given element sigma = Y / Q(Nt)
+           deltaOmega, where sigma is the cross section, Y is the
+           integrated yield, Q is the number of incident
+           particles, (Nt) is the atoms/cm2 in the target and
+           deltaOmega is the solid angle of the detector. While
+           Y can be measured to arbitrarily good statistical
+           uncertainty, the other parameters have higher
+           systematic uncertainties.
+ERR-ANALYS (ERR-S) The statistical uncertainties in the
+           backscattering ratio measurements are  4%.
+STATUS     (CURVE) Fig. 1.
+ENDBIB              21
+COMMON               2          3
+ANG        ERR-S
+ADEG       PER-CENT
+167.0      4.0
+ENDCOMMON            3
+DATA                 2         23
+EN         DATA
+KEV        NO-DIM
+   5089.184      9.526
+   5119.545     11.000
+   5149.905     11.526
+   5180.266      8.684
+   5208.729      6.684
+   5239.089      5.526
+   5269.450      4.895
+   5299.810      5.316
+   5330.171      4.789
+   5360.531      4.158
+   5388.994      4.263
+   5449.715      4.474
+   5525.617      5.421
+   5586.338      6.053
+   5647.059      7.105
+   5705.882     15.105
+   5766.603     12.052
+   5825.427     14.052
+   5855.787     16.263
+   5886.148     11.736
+   5914.611     12.789
+   5944.972     14.999
+   5975.332     16.052
+ENDDATA             25
+ENDSUBENT           55
+SUBENT        C2103006   20140404   20140711   20140709       C142
+BIB                  5         21
+REACTION   (8-O-0(A,EL)8-O-0,,DA,,RTH)
+SAMPLE     The same target was used for both the oxygen and
+           nitrogen measurements. A 2000 A layer of ZrN2/ZrO2
+           was applied to the carbon substrate. An intermediate
+           layer was not needed because the oxygen and nitrogen
+           signals are naturally separated from the substrate
+           signal.
+METHOD     A standard procedure for measuring backscattering
+           cross sections is the ratio method. The ratio method
+           can be derived from the equation for the experimental
+           cross section for a given element sigma = Y / Q(Nt)
+           deltaOmega, where sigma is the cross section, Y is the
+           integrated yield, Q is the number of incident
+           particles, (Nt) is the atoms/cm2 in the target and
+           deltaOmega is the solid angle of the detector. While
+           Y can be measured to arbitrarily good statistical
+           uncertainty, the other parameters have higher
+           systematic uncertainties.
+ERR-ANALYS (ERR-S) The statistical uncertainties in the
+           backscattering ratio measurements are  4%.
+STATUS     (CURVE) Fig. 1.
+ENDBIB              21
+COMMON               2          3
+ANG        ERR-S
+ADEG       PER-CENT
+167.0      4.0
+ENDCOMMON            3
+DATA                 2         19
+EN         DATA
+KEV        NO-DIM
+   5210.227      7.802
+   5240.530      7.142
+   5270.833      7.802
+   5301.136      8.461
+   5331.439      7.966
+   5361.742      9.120
+   5392.045     21.644
+   5450.758      5.989
+   5524.621      9.120
+   5585.227      8.131
+   5645.833      7.802
+   5706.439      7.802
+   5765.152      8.461
+   5825.758      8.790
+   5856.061      8.790
+   5884.470      7.802
+   5914.773      6.813
+   5943.182      2.858
+   5975.379     10.109
+ENDDATA             21
+ENDSUBENT           51
+SUBENT        C2103007   20140404   20140711   20140709       C142
+BIB                  6         23
+REACTION  1(1-H-1(A,EL)1-H-1,,DA,,RTH)
+          2(1-H-1(A,EL)1-H-1,,DA)
+SAMPLE     A polystyrene layer 8000 A thick spun onto a silicon
+           substrate was used for the hydrogen elastic recoil
+           cross section measurement.
+METHOD     The hydrogen recoil cross sections were measured at
+           scattering angle of 30 degrees with a target tilt of
+           75 degrees. The cross section in the energy region of
+           interest was obtained by first measuring the yield
+           from the sample at 2.5 MeV, where the cross section
+           is known. At both high and low energies the target
+           was thin enough that the yield could be determined by
+           peak integration. This removes the uncertainties
+           associated with stopping cross sections. The yield
+           obtained in the region of 5-6 MeV was then scaled by
+           the 2.5 MeV cross section to determine the cross
+           section.
+ANALYSIS   Choosing the analysis energy in this region depends
+           on the elements expected in the sample.
+CORRECTION The hydrogen cross section was corrected for hydrogen
+           loss.
+STATUS     (TABLE) Table 1.
+           (DEP,C2103002)
+ENDBIB              23
+COMMON               2          3
+ANG        EN
+ADEG       MEV
+30.0       5.625
+ENDCOMMON            3
+DATA                 2          1
+DATA      1DATA      2
+NO-DIM     MB/SR
+       21.1      538.0
+ENDDATA              3
+ENDSUBENT           35
+SUBENT        C2103008   20140404   20140711   20140709       C142
+BIB                  5         27
+REACTION  1(5-B-11(A,EL)5-B-11,,DA,,RTH)
+          2(5-B-11(A,EL)5-B-11,,DA)
+SAMPLE     The boron sample was deposited on a 5 mm thick carbon
+           substrate. The boron in the sample was separated from
+           the substrate by a 4000 A layer of Mo. This separates,
+           in energy, the boron signal from the carbon
+           substrate signal. The boron layer was a
+           sputter-coated layer of B4C, 500 A thick.
+METHOD     A standard procedure for measuring backscattering
+           cross sections is the ratio method. The ratio method
+           can be derived from the equation for the experimental
+           cross section for a given element sigma = Y / Q(Nt)
+           deltaOmega, where sigma is the cross section, Y is the
+           integrated yield, Q is the number of incident
+           particles, (Nt) is the atoms/cm2 in the target and
+           deltaOmega is the solid angle of the detector. While
+           Y can be measured to arbitrarily good statistical
+           uncertainty, the other parameters have higher
+           systematic uncertainties.
+ANALYSIS   Choosing the analysis energy in this region depends
+           on the elements expected in the sample. If boron is
+           present in a relatively thin film, the best energy is
+           = 5.625 MeV. At this energy silicon has relatively
+           few resonances in the region of the light element
+           signals and can be used as a substrate material.
+STATUS     (TABLE) Table 1.
+           (DEP,C2103003)
+ENDBIB              27
+COMMON               2          3
+ANG        EN
+ADEG       MEV
+167.0      5.625
+ENDCOMMON            3
+DATA                 2          1
+DATA      1DATA      2
+NO-DIM     MB/SR
+       65.2      209.0
+ENDDATA              3
+ENDSUBENT           39
+SUBENT        C2103009   20140404   20140711   20140709       C142
+BIB                  6         20
+REACTION  1(6-C-0(A,EL)6-C-0,,DA,,RTH)
+          2(6-C-0(A,EL)6-C-0,,DA)
+SAMPLE     The carbon sample was deposited on a 5 mm thick carbon
+           substrate.
+METHOD     A standard procedure for measuring backscattering
+           cross sections is the ratio method. The ratio method
+           can be derived from the equation for the experimental
+           cross section for a given element sigma = Y / Q(Nt)
+           deltaOmega, where sigma is the cross section, Y is the
+           integrated yield, Q is the number of incident
+           particles, (Nt) is the atoms/cm2 in the target and
+           deltaOmega is the solid angle of the detector. While
+           Y can be measured to arbitrarily good statistical
+           uncertainty, the other parameters have higher
+           systematic uncertainties.
+ANALYSIS   Choosing the analysis energy in this region depends
+           on the elements expected in the sample.
+CORRECTION The carbon cross section was corrected for carbon gain.
+STATUS     (TABLE) Table 1.
+           (DEP,C2103004)
+ENDBIB              20
+COMMON               2          3
+ANG        EN
+ADEG       MEV
+167.0      5.625
+ENDCOMMON            3
+DATA                 2          1
+DATA      1DATA      2
+NO-DIM     MB/SR
+       97.6      468.0
+ENDDATA              3
+ENDSUBENT           32
+SUBENT        C2103010   20140404   20140711   20140709       C142
+BIB                  5         23
+REACTION  1(7-N-0(A,EL)7-N-0,,DA,,RTH)
+          2(7-N-0(A,EL)7-N-0,,DA)
+SAMPLE     The same target was used for both the oxygen and
+           nitrogen measurements. A 2000 A layer of ZrN2/ZrO2
+           was applied to the carbon substrate. An intermediate
+           layer was not needed because the oxygen and nitrogen
+           signals are naturally separated from the substrate
+           signal.
+METHOD     A standard procedure for measuring backscattering
+           cross sections is the ratio method. The ratio method
+           can be derived from the equation for the experimental
+           cross section for a given element sigma = Y / Q(Nt)
+           deltaOmega, where sigma is the cross section, Y is the
+           integrated yield, Q is the number of incident
+           particles, (Nt) is the atoms/cm2 in the target and
+           deltaOmega is the solid angle of the detector. While
+           Y can be measured to arbitrarily good statistical
+           uncertainty, the other parameters have higher
+           systematic uncertainties.
+ANALYSIS   Choosing the analysis energy in this region depends
+           on the elements expected in the sample.
+STATUS     (TABLE) Table 1.
+           (DEP,C2103005)
+ENDBIB              23
+COMMON               2          3
+ANG        EN
+ADEG       MEV
+167.0      5.625
+ENDCOMMON            3
+DATA                 2          1
+DATA      1DATA      2
+NO-DIM     MB/SR
+       6.25       44.0
+ENDDATA              3
+ENDSUBENT           35
+SUBENT        C2103011   20140404   20140711   20140709       C142
+BIB                  5         23
+REACTION  1(8-O-0(A,EL)8-O-0,,DA,,RTH)
+          2(8-O-0(A,EL)8-O-0,,DA)
+SAMPLE     The same target was used for both the oxygen and
+           nitrogen measurements. A 2000 A layer of ZrN2/ZrO2
+           was applied to the carbon substrate. An intermediate
+           layer was not needed because the oxygen and nitrogen
+           signals are naturally separated from the substrate
+           signal.
+METHOD     A standard procedure for measuring backscattering
+           cross sections is the ratio method. The ratio method
+           can be derived from the equation for the experimental
+           cross section for a given element sigma = Y / Q(Nt)
+           deltaOmega, where sigma is the cross section, Y is the
+           integrated yield, Q is the number of incident
+           particles, (Nt) is the atoms/cm2 in the target and
+           deltaOmega is the solid angle of the detector. While
+           Y can be measured to arbitrarily good statistical
+           uncertainty, the other parameters have higher
+           systematic uncertainties.
+ANALYSIS   Choosing the analysis energy in this region depends
+           on the elements expected in the sample.
+STATUS     (TABLE) Table 1.
+           (DEP,C2103006)
+ENDBIB              23
+COMMON               2          3
+ANG        EN
+ADEG       MEV
+167.0      5.625
+ENDCOMMON            3
+DATA                 2          1
+DATA      1DATA      2
+NO-DIM     MB/SR
+       8.40       81.0
+ENDDATA              3
+ENDSUBENT           35
+ENDENTRY            11
