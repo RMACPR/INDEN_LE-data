@@ -1,0 +1,237 @@
+ENTRY            40230   20151208   20160302   20160210       4173
+SUBENT        40230001   20151208   20160302   20160210       4173
+BIB                 13         28
+TITLE       Scattering of fast neutrons on nuclei
+AUTHOR     (G.N.Lovchikova)
+REFERENCE  (J,SJA,13,648,1963) Eng.transl.of AE,13,60,1962
+           (J,AE,13,(1),60,1962)  O, Si, Ni
+           (J,SJA,12,46,1962) Eng.transl.of AE,12,48,1962
+           (J,AE,12,(1),48,1962)  Ti, Ca
+REL-REF    (M,,G.N.Lovchikova,J,AE,2,(2),174,1957) Method.
+INSTITUTE  (4RUSFEI)
+MONITOR     No information .
+FACILITY   (VDG,4RUSFEI)    Van-der-Graaff accelerator
+INC-SOURCE (P-T)
+DETECTOR   (IOCH)  Hydrogen - argon mixture in spherical
+           ionization chamber of 90 mm diameter.
+           (LONGC) All wave counter as monitor.
+METHOD      The measurements were done in 30-150 degree range for
+           five values of scattering angle. Angular resolution was
+           +-3 - +-15 deg , depending from scattering angle.
+CORRECTION For anisotropy of the neutron source.
+STATUS     (NDD)  Data taken from the NEUDADA exchange tape
+HISTORY    (19820414C)
+           (19821014U)
+           (19860707U)  reaction codes corrected
+           (20150206A) SD: Updated to new date formats,lower case.
+             Ref. on Engl.transl. of AE added.
+           (20151208A) M.M. Article was checked, BIB information
+           was updated in TITLE,REL-REF,DETECTOR,METHOD,
+           CORRECTION,STATUS,ERR-ANALYS.
+           EN-RSL -> EN-RSL-HW .
+ENDBIB              28
+COMMON               2          3
+EN         EN-RSL-HW
+KEV        KEV
+  900.        40.
+ENDCOMMON            3
+ENDSUBENT           35
+SUBENT        40230002   20151208   20160302   20160210       4173
+BIB                  6         10
+REACTION   (20-CA-0(N,EL)20-CA-0,,SIG)
+ANALYSIS   (INTAD)
+MISC-COL   (MISC1) Mean cosine of the scattering angle.
+           (MISC2) Elastic transport cross section
+ERR-ANALYS (ERR-T) Total error. See also Subent 004.
+           (ERR-1,,5.) Detector efficiency error.
+STATUS     (TABLE) Table from AE,12,(1),48,1962
+           (DEP,40230004)
+HISTORY    (20151204A) M.M. MISC1, MISC2 were added.
+                     DATA-ERR -> ERR-T, ERR-1 was added.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC1-ERR  MISC2      MISC2-ERR
+B          B          NO-DIM     NO-DIM     B          B
+ 2.62        0.14      0.201      0.05       2.09       0.24
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        40230003   20151208   20160302   20160210       4173
+BIB                  6         10
+REACTION   (22-TI-0(N,EL)22-TI-0,,SIG)
+ANALYSIS   (INTAD)
+MISC-COL   (MISC1) Mean cosine of the scattering angle.
+           (MISC2) Elastic transport cross section
+ERR-ANALYS (ERR-T) Total error. See also Subent 005.
+           (ERR-1,,5.) Detector efficiency error.
+STATUS     (TABLE) Table from AE,12,(1),48,1962
+           (DEP,40230005)
+HISTORY    (20151204A) M.M. MISC1, MISC2 were added.
+                      DATA-ERR -> ERR-T, ERR-1 was added.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 6          1
+DATA       ERR-T      MISC1      MISC1-ERR  MISC2      MISC2-ERR
+B          B          NO-DIM     NO-DIM     B          B
+ 3.25         0.13     0.124      0.02       2.85       0.15
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        40230004   20151208   20160302   20160210       4173
+BIB                  4          8
+REACTION   (20-CA-0(N,EL)20-CA-0,,DA)
+ERR-ANALYS (ERR-S,1.,25.) Statistical error - 1. -10.%, 25% for
+           150 deg angle.
+           (ERR-1,,5.) Detector efficiency error.
+           (ERR-T) Total error , including corrections, ~ 13%.
+STATUS     (NDD)   Runid= E00455; data presented on
+                   fig. at AE,12,(1),48,1962
+HISTORY    (20151204A) M.M. DATA-ERR -> ERR-T
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          5
+COS        DATA       ERR-T
+NO-DIM     MB/SR      MB/SR
+ -8.699E-01 1.7000E+02 5.0000E+01
+ -5.000E-01 1.4000E+02 4.0000E+01
+ 0.0000E+00 1.6000E+02 4.0000E+01
+ 5.0000E-01 2.9000E+02 4.0000E+01
+ 8.6999E-01 4.3000E+02 5.0000E+01
+ENDDATA              7
+ENDSUBENT           20
+SUBENT        40230005   20151208   20160302   20160210       4173
+BIB                  3          6
+REACTION   (22-TI-0(N,EL)22-TI-0,,DA)
+ERR-ANALYS (ERR-S,1.,10.) Statistical error .
+           (ERR-1,,5.) Detector efficiency error.
+           (ERR-T) Total error , including corrections, ~ 13%.
+STATUS     (NDD)   Runid= E00457; data presented on
+                   fig. at AE,12,(1),48,1962
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          5
+COS        DATA       ERR-T
+NO-DIM     MB/SR      MB/SR
+ -8.699E-01 3.0000E+02 4.0000E+01
+ -5.000E-01 1.8000E+02 4.0000E+01
+ 0.0000E+00 1.8000E+02 4.0000E+01
+ 5.0000E-01 2.7000E+02 4.0000E+01
+ 8.6999E-01 4.8000E+02 4.0000E+01
+ENDDATA              7
+ENDSUBENT           18
+SUBENT        40230006   20151208   20160302   20160210       4173
+BIB                  5          8
+REACTION   (8-O-16(N,EL)8-O-16,,DA)
+SAMPLE      Ring of round cross section of 10 mm radius, made of
+            pure quartz. Two quartz and pure silicon samples were
+           used.
+ERR-ANALYS (ERR-S) Statistical error.
+STATUS     (NDD)   Runid= E00462; data presented on
+                   fig. at AE,12,(1),48,1962
+HISTORY    (20151204A) M.M. DATA-ERR -> ERR-S.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 3          5
+COS        DATA       ERR-S
+NO-DIM     MB/SR      MB/SR
+ -8.659E-01 3.5000E+02 3.5000E+01
+ -5.000E-01 2.4000E+02 1.5000E+01
+ 0.0000E+00 2.4000E+02 1.5000E+01
+ 5.0000E-01 3.4000E+02 2.0000E+01
+ 8.6599E-01 5.3000E+02 4.5000E+01
+ENDDATA              7
+ENDSUBENT           20
+SUBENT        40230008   20151208   20160302   20160210       4173
+BIB                  5          7
+REACTION   (8-O-16(N,EL)8-O-16,,SIG)
+ANALYSIS   (INTAD)
+MISC-COL   (MISC1) Mean cosine of the scattering angle.
+           (MISC2) Elastic transport cross section
+ERR-ANALYS (DATA-ERR) Not explained.
+STATUS     (TABLE) Table from AE,13,(1),60,1962
+           (DEP,40230006)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       DATA-ERR   MISC1      MISC1-ERR  MISC2      MISC2-ERR
+B          B          NO-DIM     NO-DIM     B          B
+ 4.27        0.26      0.091      0.027      3.88       0.26
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40230009   20151208   20160302   20160210       4173
+BIB                  5          9
+REACTION   (14-SI-0(N,EL)14-SI-0,,DA)
+SAMPLE     Powder placed in thin iron container of 0.5 mm wall
+           thickness.  Empty container was used in measurement to
+           take into account contribution of container material
+           scattering.
+ERR-ANALYS (ERR-S) Statistical error.
+STATUS     (NDD)   Runid= E00465; data presented on
+                   fig. at AE,13,(1),60,1962
+HISTORY    (20151204A) M.M. DATA-ERR -> ERR-S.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          5
+COS        DATA       ERR-S
+NO-DIM     MB/SR      MB/SR
+ -8.659E-01 1.7500E+02 2.0000E+01
+ -5.000E-01 2.1000E+02 1.5000E+01
+ 0.0000E+00 2.7000E+02 1.5000E+01
+ 5.0000E-01 3.7000E+02 1.5000E+01
+ 8.6599E-01 4.7000E+02 4.0000E+01
+ENDDATA              7
+ENDSUBENT           21
+SUBENT        40230010   20151208   20160302   20160210       4173
+BIB                  5          7
+REACTION   (14-SI-0(N,EL)14-SI-0,,SIG)
+ANALYSIS   (INTAD)
+MISC-COL   (MISC1) Mean cosine of the scattering angle.
+           (MISC2) Elastic transport cross section
+ERR-ANALYS (DATA-ERR) Not explained.
+STATUS     (TABLE) Table from AE,13,(1),60,1962
+           (DEP,40230009)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       DATA-ERR   MISC1      MISC1-ERR  MISC2      MISC2-ERR
+B          B          NO-DIM     NO-DIM     B          B
+ 3.70        0.19      0.187      0.022      3.03       0.17
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        40230011   20151208   20160302   20160210       4173
+BIB                  5          6
+REACTION   (28-NI-0(N,EL)28-NI-0,,DA)
+SAMPLE      Cast ring of rectangular cross section.
+ERR-ANALYS (ERR-S) Statistical error.
+STATUS     (NDD)   Runid= E00467; data presented on
+                   fig. at AE,13,(1),60,1962
+HISTORY    (20151204A) M.M. DATA-ERR -> ERR-S.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          5
+COS        DATA       ERR-S
+NO-DIM     MB/SR      MB/SR
+ -8.659E-01 2.6500E+02 4.0000E+01
+ -5.000E-01 1.9000E+02 1.5000E+01
+ 0.0000E+00 1.7000E+02 1.5000E+01
+ 5.0000E-01 2.7000E+02 1.5000E+01
+ 8.6599E-01 4.6000E+02 3.0000E+01
+ENDDATA              7
+ENDSUBENT           18
+SUBENT        40230012   20151208   20160302   20160210       4173
+BIB                  5          7
+REACTION   (28-NI-0(N,EL)28-NI-0,,SIG)
+ANALYSIS   (INTAD)
+MISC-COL   (MISC1) Mean cosine of the scattering angle.
+           (MISC2) Elastic transport cross section
+ERR-ANALYS (DATA-ERR) Not explained.
+STATUS     (TABLE) Table from AE,13,(1),60,1962
+           (DEP,40230011)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+DATA       DATA-ERR   MISC1      MISC1-ERR  MISC2      MISC2-ERR
+B          B          NO-DIM     NO-DIM     B          B
+ 3.20         0.24     0.121      0.033      2.82       0.025
+ENDDATA              3
+ENDSUBENT           15
+ENDENTRY            11

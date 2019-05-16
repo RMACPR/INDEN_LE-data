@@ -1,0 +1,753 @@
+ENTRY            30092   20150407   20150604   20150513       3169
+SUBENT        30092001   20150407   20150604   20150513       3169
+BIB                 12         42
+INSTITUTE  (3INDTRM)
+REFERENCE  (C,66PARIS,1,233,1966) inverse reaction, tables
+           (J,PR,156,1187,1967)cross section + width,tbls+graphs
+           (R,AEET-264,1966) same as 66Paris,1,233 1966
+           (P,AEET-228,1965) table superseded
+           (P,AEET-267,1966) peak cross section and widths.
+AUTHOR     (A.S.Divatia, K.K.Sekharan, M.K.Mehta, S.S.Kerekate,
+            K.K.Nambiar)
+TITLE      O-16(n,alfa)C-13 cross-sections from the
+           C-13(alfa,n)O-16  reaction
+FACILITY   (VDG) Van de Graaff
+            Relative error in incident alfa-particle energy
+            is estimated to be +-3 keV whereas incident beam was
+            monitored by current integrator with an accuracy
+            of +-2%
+SAMPLE     Approximately 30% enriched C-13 target deposited
+           on 0.25 mm - thick tantalum backing, target thickness
+           =31. keV for alfa particles of 3.1 MeV energy
+METHOD     According to the reciprocity theorem the actually
+           measured C-13(alfa,n)O-16 cross section is converted
+           to the O-16(n,alfa)C-13 cross section
+DETECTOR   (BF3) 4 Pi geometry neutron counter consisting of a
+            bf3 counter-paraffin assembly, efficiency in percent
+            versus neutron energy (fig.1 of Phys.Rev. 156, 1187
+            (1967) )  obtained from measurement of neutron yields
+            from Li-7(p,n)Be-7 reaction
+            Reaction 3-Li-7(p,n)4-Be-7 for detector calibration
+PART-DET   (N) neutrons, C-13(alfa,n)O-16 reaction measured
+ANALYSIS   (DTBAL) inverse reaction measured
+ERR-ANALYS The factors contributing to the error in the cross
+           section are the following
+           1.) The number of C-13 nuclei
+           2.) The error in the alfa current integration
+           3.) The error in the counter efficiency (estimated
+               to be 12%)
+HISTORY    (19670223R)  letter from M.Balakrishnan
+           (19670912C)  compiled into Dastar
+           (19701216T)  converted from Dastar-00222
+           (19701230A)  Subents 009 and 010 added.
+           (20080215S) Dataset was restored.
+           (20150402A) VS. HISTORY added to 001.
+                       002, 003: SF5=PAR, SF9=DERIV, E-LVL added.
+ENDBIB              42
+NOCOMMON             0          0
+ENDSUBENT           45
+SUBENT        30092002   20150407   20150604   20150513       3169
+BIB                  5         14
+REACTION   (8-O-16(N,A)6-C-13,PAR,SIG,,,DERIV)
+COMMENT    Peak cross sections given in accession-number 30092.003
+STATUS     (TABLE) data from private communication from
+            M.Balakrishnan, 23 feb 67
+           (DEP,D6089002) C-13(alfa,n)O-16 data
+HISTORY    (19670223R)  letter from M.Balakrishnan
+           (19670912C)  compiled into Dastar
+           (19701216T)  converted from Dastar-00222
+           (20080215S) Dataset was restored.
+           (20150402A) VS. SF5=PAR, SF9=DERIV, E-LVL added.
+ERR-ANALYS (DATA-ERR) Overall  error of cross section estimated to
+           be 20% according to Phys.Rev. Vol 156,1187(1967)
+           whereas in earlier publications the error is estimated
+           to be 15% only
+ENDBIB              14
+COMMON               2          3
+DATA-ERR   E-LVL
+PER-CENT   MEV
+ 2.0000E+01   0.
+ENDCOMMON            3
+DATA                 2        406
+EN         DATA
+MEV        MB
+3.916      15.6
+3.921      16.3
+3.925      16.8
+3.930      17.4
+3.935      18.7
+3.939      19.4
+3.943      20.5
+3.948      21.6
+3.953      22.8
+3.958      23.9
+3.963      24.7
+3.968      26.6
+3.973      29.1
+3.978      29.5
+3.982      31.2
+3.986      33.4
+3.991      35.9
+3.996      37.1
+4.001      39.1
+4.006      42.5
+4.011      45.1
+4.016      47.9
+4.021      50.9
+4.025      53.2
+4.030      56.2
+4.035      58.9
+4.040      61.1
+4.045      63.4
+4.050      63.1
+4.055      62.6
+4.060      61.7
+4.064      60.7
+4.069      59.2
+4.074      58.2
+4.079      57.7
+4.084      55.6
+4.089      55.5
+4.094      54.1
+4.099      52.8
+4.104      52.3
+4.109      52.3
+4.114      52.4
+4.119      57.3
+4.124      59.3
+4.129      61.6
+4.134      66.4
+4.139      70.7
+4.144      76.2
+4.149      81.8
+4.154      88.2
+4.159      94.3
+4.164      99.7
+4.169      103.2
+4.174      105.8
+4.179      106.5
+4.184      107.2
+4.189      105.9
+4.195      103.5
+4.199      99.3
+4.205      96.0
+4.210      91.7
+4.216      88.3
+4.221      85.0
+4.226      83.1
+4.231      81.0
+4.237      81.4
+4.241      79.0
+4.247      77.9
+4.252      76.0
+4.257      76.3
+4.262      75.5
+4.267      76.6
+4.272      78.3
+4.277      80.5
+4.283      83.4
+4.288      87.2
+4.294      90.9
+4.299      94.7
+4.305      96.4
+4.310      98.0
+4.315      101.9
+4.320      99.1
+4.326      97.2
+4.331      92.5
+4.336      86.1
+4.341      80.8
+4.346      76.5
+4.351      72.1
+4.357      64.4
+4.362      58.0
+4.367      52.8
+4.372      49.3
+4.377      45.9
+4.382      42.6
+4.388      40.6
+4.393      38.4
+4.398      36.4
+4.404      34.8
+4.409      33.3
+4.414      32.2
+4.419      31.2
+4.424      30.6
+4.429      29.5
+4.434      29.5
+4.439      31.3
+4.445      32.0
+4.450      35.3
+4.455      45.5
+4.461      54.9
+4.467      64.8
+4.473      67.4
+4.478      61.5
+4.483      54.9
+4.488      46.2
+4.493      39.5
+4.498      35.6
+4.503      31.8
+4.509      30.5
+4.514      32.7
+4.519      48.0
+4.524      65.2
+4.530      70.8
+4.535      65.0
+4.541      56.1
+4.547      43.7
+4.552      36.6
+4.558      31.8
+4.563      29.7
+4.568      28.1
+4.573      27.9
+4.579      30.9
+4.584      37.5
+4.590      51.8
+4.595      59.1
+4.601      60.4
+4.606      51.3
+4.612      47.4
+4.617      56.3
+4.624      100.0
+4.629      130.9
+4.635      131.6
+4.640      118.3
+4.646      91.4
+4.651      66.4
+4.656      51.9
+4.662      39.6
+4.668      31.8
+4.674      28.7
+4.680      27.2
+4.686      26.2
+4.692      24.8
+4.698      23.7
+4.703      26.2
+4.709      26.3
+4.715      26.3
+4.721      25.8
+4.727      25.8
+4.733      26.1
+4.739      27.3
+4.745      25.5
+4.751      27.6
+4.757      26.5
+4.764      27.2
+4.770      28.8
+4.776      28.8
+4.782      31.6
+4.788      32.4
+4.794      34.3
+4.800      35.2
+4.806      39.9
+4.811      54.7
+4.817      61.8
+4.823      71.5
+4.829      78.9
+4.836      83.9
+4.842      88.3
+4.848      86.9
+4.853      86.2
+4.860      83.6
+4.866      75.4
+4.872      54.7
+4.879      51.6
+4.885      50.4
+4.891      50.5
+4.897      46.7
+4.902      50.8
+4.908      49.6
+4.914      55.2
+4.920      57.0
+4.926      58.9
+4.932      57.3
+4.938      58.0
+4.944      60.0
+4.951      61.9
+4.957      66.0
+4.963      67.5
+4.969      71.2
+4.975      76.8
+4.981      81.6
+4.987      96.2
+4.993      110.3
+4.999      115.6
+5.005      122.3
+5.012      121.0
+5.018      141.5
+5.025      147.5
+5.032      157.2
+5.039      173.6
+5.045      178.3
+5.051      183.0
+5.057      165.6
+5.063      164.0
+5.070      147.9
+5.076      150.4
+5.083      136.0
+5.089      132.9
+5.095      126.5
+5.101      126.3
+5.108      122.0
+5.114      130.4
+5.121      147.7
+5.127      164.2
+5.134      159.6
+5.140      131.6
+5.147      105.1
+5.154      83.6
+5.160      66.6
+5.167      55.8
+5.173      43.0
+5.180      36.0
+5.186      32.0
+5.193      25.9
+5.199      22.5
+5.205      19.5
+5.212      16.2
+5.218      15.0
+5.225      13.5
+5.231      12.6
+5.238      10.9
+5.245      9.8
+5.251      9.1
+5.258      8.2
+5.265      7.2
+5.271      6.5
+5.278      5.8
+5.284      5.5
+5.292      4.1
+5.299      3.7
+5.306      4.0
+5.312      10.7
+5.318      12.2
+5.325      11.9
+5.331      10.4
+5.338      8.8
+5.344      7.5
+5.352      6.7
+5.359      7.3
+5.365      18.1
+5.371      43.1
+5.378      41.5
+5.386      32.4
+5.393      19.0
+5.401      11.2
+5.408      7.3
+5.415      5.3
+5.422      4.1
+5.429      3.4
+5.436      2.4
+5.443      2.1
+5.450      1.4
+5.457      1.6
+5.465      1.8
+5.473      1.6
+5.479      1.3
+5.486      0.8
+5.493      0.6
+5.500      1.0
+5.508      0.9
+5.516      1.0
+5.524      0.1
+5.531      1.1
+5.538      0.9
+5.545      3.9
+5.553      3.5
+5.560      2.8
+5.568      2.1
+5.575      1.9
+5.582      1.9
+5.590      1.3
+5.597      1.6
+5.604      4.0
+5.611      4.7
+5.619      5.3
+5.627      6.0
+5.634      7.9
+5.641      7.3
+5.648      6.7
+5.655      8.7
+5.662      9.5
+5.669      11.3
+5.676      13.6
+5.684      23.2
+5.691      31.8
+5.697      33.1
+5.706      27.7
+5.713      22.6
+5.720      17.5
+5.728      13.3
+5.735      11.9
+5.742      11.0
+5.749      10.1
+5.757      9.4
+5.764      9.4
+5.771      9.3
+5.779      8.5
+5.786      8.6
+5.794      8.5
+5.803      8.1
+5.809      8.2
+5.817      8.2
+5.824      8.4
+5.831      8.3
+5.839      8.3
+5.847      8.7
+5.854      8.8
+5.861      9.9
+5.868      10.1
+5.876      11.4
+5.883      12.4
+5.891      15.4
+5.899      18.6
+5.906      25.3
+5.914      37.5
+5.921      60.9
+5.928      97.9
+5.936      137.7
+5.943      148.6
+5.950      121.3
+5.959      90.4
+5.967      56.9
+5.974      38.4
+5.982      28.6
+5.990      22.3
+5.997      17.5
+6.005      15.9
+6.013      13.8
+6.021      10.4
+6.028      7.1
+6.036      6.3
+6.044      7.1
+6.052      7.1
+6.059      8.3
+6.068      9.2
+6.075      11.7
+6.083      14.2
+6.091      30.1
+6.098      127.6
+6.106      133.7
+6.113      106.9
+6.121      76.9
+6.130      53.6
+6.137      40.1
+6.146      32.1
+6.154      30.5
+6.161      29.9
+6.168      31.5
+6.176      35.7
+6.183      37.4
+6.191      39.1
+6.199      41.4
+6.208      43.5
+6.216      46.2
+6.224      46.8
+6.232      45.9
+6.239      45.6
+6.247      45.0
+6.256      45.3
+6.264      44.8
+6.272      45.3
+6.279      45.8
+6.287      46.6
+6.295      46.0
+6.303      45.1
+6.311      43.2
+6.319      41.0
+6.327      38.4
+6.336      37.5
+6.343      37.7
+6.351      38.4
+6.359      38.4
+6.367      42.6
+6.376      47.8
+6.384      55.1
+6.392      65.5
+6.400      79.9
+6.408      100.1
+6.416      124.2
+6.425      154.2
+6.433      187.0
+6.441      216.1
+6.449      233.7
+6.457      222.7
+6.465      195.1
+6.473      171.6
+6.481      163.8
+6.489      165.3
+ENDDATA            408
+ENDSUBENT          431
+SUBENT        30092003   20150407   20150604   20150513       3169
+BIB                  6         21
+REACTION   (8-O-16(N,A)6-C-13,PAR,SIG,,RES,DERIV)
+COMMENT    Cross section versus neut-E in 0.005 MeV intervals
+           given in accession-number 30092.002
+FLAG       (1.) note by the compiler
+                neutron energy = 5.91 MeV as given in PR 156
+                regarded as valid, whereas neutron energy =
+                = 5.95 MeV as given in 66Paris, AEET-267 and
+                AEET-264 regarded as invalid
+STATUS     (TABLE) Data taken from 66Paris vol I,233 (1966)table I
+           same as PR 156,1187 (1967) table I
+           AEET-267, 3 (1966) table I
+           and AEET-264, 5 (1966) table I
+           (DEP,D6089003) C-13(alfa,n)O-16 data
+HISTORY    (19670912C)  compiled into Dastar
+           (19701230T)  converted from Dastar-00302
+           (20080215S) Dataset was restored.
+           (20150402A) VS. SF4, SF5=PAR, SF9=DERIV, E-LVL added.
+ERR-ANALYS (DATA-ERR) overall  error of cross section estimated to
+           be 20% according to Phys.Rev. Vol 156,1187(1967)
+           whereas in earlier publications the error is estimated
+           to be 15% only
+ENDBIB              21
+COMMON               2          3
+DATA-ERR   E-LVL
+PER-CENT   MEV
+ 2.0000E+01    0.
+ENDCOMMON            3
+DATA                 3         17
+EN-RES     DATA       FLAG
+MEV        MB         NO-DIM
+ 4.05        63.
+ 4.18       107.
+ 4.32       102.
+ 4.47        67.
+ 4.53        71.
+ 4.60        60.
+ 4.64       132.
+ 4.84        88.
+ 5.05       183.
+ 5.13       164.
+ 5.32        12.
+ 5.38        43.
+ 5.71        33.
+ 5.91       149.       1.
+ 6.11       134.
+ 6.23        47.
+ 6.29        47.
+ENDDATA             19
+ENDSUBENT           49
+SUBENT        30092004   20080215   20080530   20080530       3125
+BIB                  5         23
+REACTION   (8-O-16(N,TOT),,WID)
+            deduced from C-13(alfa,n)O-16
+            experiment
+FLAG       (1.)total level width determined by leading-edge
+               method of richards( Nucl.Spectr. -Ajzenberg-Selove)
+           (2.)obtained directly from experimental width and
+               target thickness
+           (3.)total level width determined by leading-edge
+               method of Richards( Nucl.Spectr. -Ajzenberg-Selove)
+               Note by the compiler
+               neutron energy = 5.91 MeV as given in PR 156
+               regarded as valid, whereas neutron energy =
+               = 5.95 MeV as given in 66Paris and AEET-267
+               regarded as invalid
+STATUS     (TABLE) data taken from 66Paris vol I,233 (1966)tbl.II
+            same as PR 156,1187 (1967) table I
+            and AEET-267, 3 (1966) table I
+HISTORY    (19670912C)  compiled into Dastar
+           (19701230T)  converted from Dastar-00302
+           (20080215S) Dataset was restored.
+ERR-ANALYS (DATA-ERR) Error in width estimated for each resonance
+           separately since the data were taken in  6 keV-steps,
+           the minimum  error estimated was +- 3 keV
+ENDBIB              23
+NOCOMMON             0          0
+DATA                 4         15
+EN-RES     DATA-CM    DATA-ERR   FLAG
+MEV        KEV        KEV        NO-DIM
+ 4.05        79.        10.       2.
+ 4.18        71.         8.       2.
+ 4.32        71.         5.       2.
+ 4.47         9.         3.       1.
+ 4.53         4.         3.       1.
+ 4.60         7.         3.       1.
+ 4.64         5.         3.       1.
+ 4.84        50.         3.       2.
+ 5.05       101.         3.       2.
+ 5.13        21.         3.       2.
+ 5.32         4.         3.       1.
+ 5.38         4.         3.       1.
+ 5.71         8.         3.       1.
+ 5.91        15.         3.       3.
+ 6.11         5.         3.       1.
+ENDDATA             17
+ENDSUBENT           45
+SUBENT        30092005   20080215   20080530   20080530       3125
+BIB                  6         23
+REACTION   (8-O-16(N,A),,WID)
+            deduced from C-13(alfa,n)O-16
+            experiment, AEET-267 page 1 Aug/1968
+ANALYSIS   Partial alfa width deduced from the experimental
+           cross-section at resonance energy, experimental total
+           width and spin according to Breit-Wigner single-level
+           theory
+COMMENT    The values given here (accession-number 30092.005)
+           are different from those given in accession-number
+           30092.006
+FLAG       (1.).Note by the compiler
+                value of 66Paris = 2.75 keV is not correct
+                value of AEET-267= value of AEET-264 = 2.73 keV
+                regarded as valid because only then
+                sum of partial width = total width
+               .Note by the compiler
+                neutron energy = 5.95 MeV regarded as valid here,
+                but compare also 30092.003 and 30092.004
+STATUS     (TABLE) data taken from 66Paris vol I,233(1966)tbl.III
+           same as AEET-267, 3 (1966) table I
+HISTORY    (19670912C)  compiled into Dastar
+           (19701230T)  converted from Dastar-00302
+           (20080215S) Dataset was restored.
+ENDBIB              23
+NOCOMMON             0          0
+DATA                 3          6
+EN-RES     DATA-CM    FLAG
+MEV        KEV        NO-DIM
+ 4.53       0.31
+ 4.64       0.82
+ 5.38       0.22
+ 5.71       0.26
+ 5.95       2.73       1.
+ 6.11       0.63
+ENDDATA              8
+ENDSUBENT           36
+SUBENT        30092006   20080215   20080530   20080530       3125
+BIB                  5         13
+REACTION   (8-O-16(N,A),,WID)
+            deduced from C-13(alfa,n)O-16
+            experiment, Phys. Rev. Vol 156, 1187 (1967)
+ANALYSIS   Partial alfa width deduced from experimental cross-
+           section, total width and the relationship given by
+           Gove in Nuclear Reactions  Intersc.Publ. N.Y. (1959)
+COMMENT    The values given here (accession-number 30092.006)
+           are different from those given in accession-number
+           30092.005
+STATUS     (TABLE) data taken from PR 156, 1187 (1967) table II
+           and table I from where the en-values are taken
+HISTORY    (19701230C) compiled
+           (20080215S) Dataset was restored.
+ENDBIB              13
+NOCOMMON             0          0
+DATA                 2          4
+EN-RES     DATA-CM
+MEV        KEV
+ 4.53       0.16
+ 4.64       0.43
+ 5.38       0.14
+ 6.11       0.30
+ENDDATA              6
+ENDSUBENT           24
+SUBENT        30092007   20080215   20080530   20080530       3125
+BIB                  4         10
+REACTION   (8-O-16(N,A),,WID/RED)
+              deduced from C-13(alpha,n) O-16
+            experiment
+ANALYSIS   Reduced alfa width obtained from alfa width (accession-
+           number 30092.006) and penetrability taken from
+           sharp  graphs of Coulomb functions  (1960)
+STATUS     (TABLE) Data taken from PR 156, 1187 (1967) table II
+           and table I from which the EN values are taken
+HISTORY    (19701230T) compiled
+           (20080215S) Dataset was restored.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 3          6
+EN-RES     DATA-CM    MOMENTUM L
+MEV        KEV        NO-DIM
+ 4.53       2.3        3.
+ 4.64       1.3        2.
+ 5.38       0.11       2.
+ 5.38       0.31       3.
+ 6.11       0.82       4.
+ 6.11       4.57       5.
+ENDDATA              8
+ENDSUBENT           23
+SUBENT        30092008   20080215   20080530   20080530       3125
+BIB                  6         18
+REACTION   (8-O-16(N,EL),,WID)
+            deduced from C-13(alfa,n)O-16
+            experiment, AEET-267 page 1 Aug/1968
+ANALYSIS   Partial neutron width deduced from the experimental
+           cross-section at resonance energy, experimental total
+           width and spin according to Breit-Wigner single-level
+           theory
+COMMENT    The values given here (accession-number 30092.008)
+           are different from those given in accession-number
+           30092.009
+FLAG       (1.) Note by the compiler
+                neutron energy = 5.95 MeV regarded as valid here,
+                but compare also 30092.003 and 30092.004
+STATUS     (TABLE) data taken from 66Paris vol I,233(1966)tbl.III
+           same as AEET-267, 3 (1966) table I
+HISTORY    (19670912C)  compiled into Dastar
+           (19701230T)  converted from Dastar-00302
+           (20080215S) Dataset was restored.
+ENDBIB              18
+NOCOMMON             0          0
+DATA                 3          6
+EN-RES     DATA-CM    FLAG
+MEV        KEV        NO-DIM
+ 4.53       3.69
+ 4.64       4.18
+ 5.38       3.78
+ 5.71       7.74
+ 5.95      12.27       1.
+ 6.11       4.37
+ENDDATA              8
+ENDSUBENT           31
+SUBENT        30092009   20080215   20080530   20080530       3125
+BIB                  5         13
+REACTION   (8-O-16(N,EL),,WID)
+            deduced from C-13(alfa,n)O-16
+            experiment, Phys. Rev. Vol 156, 1187 (1967)
+ANALYSIS   Partial neutron width deduced from experimental cross-
+           section, total width and the relationship given by
+           Gove in  Nuclear Reactions  Intersc.Publ. N.Y. (1959)
+COMMENT    The values given here (accession-number 30092.009)
+           are different from those given in accession-number
+           30092.008
+STATUS     (TABLE) data taken from PR 156, 1187 (1967) table II
+           and table I from where the EN-values are taken
+HISTORY    (19701230C) compiled
+           (20080215S) Dataset was restored.
+ENDBIB              13
+NOCOMMON             0          0
+DATA                 2          4
+EN-RES     DATA-CM
+MEV        KEV
+ 4.53       3.84
+ 4.64       4.57
+ 5.38       3.86
+ 6.11       4.70
+ENDDATA              6
+ENDSUBENT           24
+SUBENT        30092010   20080215   20080530   20080530       3125
+BIB                  4         10
+REACTION   (8-O-16(N,EL),,WID/RED)
+             deduced from C-13(alpha,n)O-16
+            experiment
+ANALYSIS   Reduced neutron width obtained from neutron width (see
+           accession-number 30092.009) and penetrability + shift
+           function J.E.Monohan anl-5846 (unpublished)
+STATUS     (TABLE) Data taken from PR 156, 1187 (1967) table II
+           and table I from where the EN-values are taken
+HISTORY    (19701230C) compiled
+           (20080215S) Dataset was restored.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 3          6
+EN-RES     DATA-CM    MOMENTUM L
+MEV        KEV        NO-DIM
+ 4.53         1.6      2.
+ 4.64         5.0      3.
+ 5.38         3.1      3.
+ 5.38         1.3      2.
+ 6.11       100.       5.
+ 6.11        12.       4.
+ENDDATA              8
+ENDSUBENT           23
+ENDENTRY            10

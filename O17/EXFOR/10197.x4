@@ -1,0 +1,54 @@
+ENTRY            10197   20010214   20010404   20050926       0000
+SUBENT        10197001   20010214   20010404   20050926       0000
+BIB                 15         25
+INSTITUTE  (1USACOL)
+REFERENCE  (R,NYO-73-340,1970) Results
+           (R,NYO-73-293,1969) Experiment described
+AUTHOR     (J.KALYNA,I.J.TAYLOR,L.J.LIDOFSKY)
+TITLE      Total Neutron Cross Section at 2.37 MeV.
+FACILITY   (VDG) Pulsed Van de Graaff. Five nsec neutron bursts.
+INC-SOURCE (P-LI7)
+SAMPLE     Five foot long liquid oxygen sample in thin-walled
+            cryostat. Analyzed for 17O and 18O content and argon
+            trace contaminant.
+METHOD     (TOF) Time-of-flight. 2.0-m flight path.
+DETECTOR   (SCIN) NE213 liquid organic scintillator, 8 in. dia.
+            x 1 in. thick.
+           (LONGC) Flux monitored by long counter
+ANALYSIS   Weighted cross sections near minimum fit to quadratic
+            in energy.
+CORRECTION Monte Carlo correction (code MONCAR) for cryostat in-
+            scattering. Corrected for trace argon.
+ERR-ANALYS (DATA-ERR) Data error given is error in fit.
+COMMENT    Value stated as cross section at interference minimum.
+STATUS     (APRVD) Approved by author
+            Data taken from main reference.
+HISTORY    (19711201C)
+           (19820921A) Converted to REACTION formalism
+           (20010214A) Converted to new date formats, lower case.
+ENDBIB              25
+NOCOMMON             0          0
+ENDSUBENT           28
+SUBENT        10197002   20010214   20010404   20050926       0000
+BIB                  1          1
+REACTION   (8-O-16(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         MB
+ 2.37       85.3       9.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        10197003   20010214   20010404   20050926       0000
+BIB                  1          1
+REACTION   (8-O-0(N,TOT),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         MB
+ 2.37       96.7       9.
+ENDDATA              3
+ENDSUBENT            9
+ENDENTRY             3

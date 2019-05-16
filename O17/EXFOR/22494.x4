@@ -1,0 +1,84 @@
+ENTRY            22494   20001128   20030221   20050926       0000
+SUBENT        22494001   20001128   20030221   20050926       0000
+BIB                 18         51
+TITLE       16O(N,P)16N Reaction Cross Section Around 14 MeV
+AUTHOR     (M.SUBASHI, E.GUELTEKIN, I.A.REYHANKAN, Y.OEZBIR,
+            G.TARCAN, M.SHIRIN, M.N.ERDURAN)
+INSTITUTE  (2TUKCNA)   Subashi, Gueltekin, Reyhankan, Oezbir,
+                       Tarkan
+           (2TUKYTU)   Shirin
+           (2TUKSTU)   Erduran
+REFERENCE  (J,NSE,135,(3),260,200006)  Main Reference
+REL-REF    (N,,M.SUBASHI+,J,NSE,122,423,1996) Experimenral Details
+           (N,,M.SUBASHI+,J,NSE,130,254,1998) Experimental Details
+METHOD     (ACTIV)  Activation
+PART-DET   (G,N)
+DETECTOR   (HPGE) Coaxial Detector 'CANBERRA', Volume 82 Cm3 with
+                  Lead Shield 10 Cm Thickness - For Gamma Ray
+                  Detection
+           (SCIN)  Liquid Scintillation Detector Ne213 Placed
+                   Under the Neutron-Producing Target
+FACILITY   (LINAC,2TUKCNA).Neutron Generator 'SAMES T-400'
+MONITOR    ((MONIT)13-AL-27(N,P)12-MG-27,,SIG)
+DECAY-MON  (12-MG-27,9.462MIN,DG,843.8,0.73)
+MONIT-REF  (41240000,A.A.FILATENKOV,R,INDC(CCP)-402,1997)
+INC-SOURCE (D-T)  300 KeV Accelerating Voltage,
+                  Ion Current 500 Micro-A
+INC-SPECT  .Angles of Irradiation Ofthe Target by Deuteruim Ion
+            Beam are 0, 30, 60, 90, 120 and 130 Degrees. Effective
+            Mean Neutron Energy at Each Sample Position had Been
+            Previously Determined by the Ratio of 90Zr(N,2N)89Zr
+            And 93Nb(N,2N)92M-Nb Cross Sections
+           .Neutron Fluxes Ranged from 1.E+7 to 6.E+7 N/Cm2/Sec
+SAMPLE     .Disk Pellets 13 mm Diameter, 8.5 mm Thicknesss
+            Pressed from the Natural High-Purity (99.999%) Oxides
+            B2-O3 and Al3-O3. Water was Removed from Samples
+            By Heating to 105 Grad Celsius
+CORRECTION .Corrections were Made For Self-Absorption of Gamma in
+            Samples and For Neutron Flux Variation Diring
+            Irradiation
+ERR-ANALYS (ERR-T)  Total Error
+           (ERR-1)  Error of the Sample Weight
+           (ERR-2)  Error Due to Concentration of the Elements
+                    In Samples
+           (ERR-3)  Error Due to Isotopic Abundance
+           (ERR-4)  Error Due to Relative Gamma-Ray Intensity
+           (ERR-5)  Error Due to the Efficiency of Gamma Detector
+                    For Gamma Energy More Than 6 MeV
+           (ERR-6)  Max Error Due to Full-Energy Photo-Peak Area
+           (ERR-7)  Max Error Due to Gamma-Gamma Coincidence
+                    Summing
+           (ERR-8)  Error Due to Neutron Flux Fluctuations
+           (MONIT-ERR)  Error of the Standard Cross-Section
+HISTORY    (20001128C)  + +  Compiled by S.M.
+           (20001128U) Last checking has been done.
+ENDBIB              51
+COMMON               8          6
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6
+ERR-7      ERR-8
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
+PER-CENT   PER-CENT
+        0.1        0.5        0.1        2.9         6.         3.
+         4.        0.1
+ENDCOMMON            6
+ENDSUBENT           61
+SUBENT        22494002   20001128   20030221   20050926       0000
+BIB                  3          4
+REACTION   (8-O-16(N,P)7-N-16,,SIG)
+DECAY-DATA (7-N-16,7.13SEC,DG,7000.,,
+                           B-,10000.)
+STATUS     .        From Table 2 of Main Reference
+ENDBIB               4
+NOCOMMON
+DATA                 6          6
+EN         EN-ERR     DATA       ERR-T      MONIT      MONIT-ERR
+MEV        MEV        MB         MB         MB         MB
+       13.6        0.1       58.2        4.7       77.6        3.5
+       13.7        0.1       57.1        4.3       76.1        3.4
+       14.1        0.1       50.2        3.8       72.4        3.3
+       14.5        0.1       47.5        3.6       69.4        3.1
+       14.7        0.1       43.5        3.2       66.8        3.
+       14.9        0.1       44.5        3.3       63.         2.8
+ENDDATA              8
+ENDSUBENT           17
+ENDENTRY             2

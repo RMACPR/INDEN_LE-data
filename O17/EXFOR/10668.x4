@@ -1,0 +1,61 @@
+ENTRY            10668   20080827   20081219   20081211       1350
+SUBENT        10668001   20080827   20081219   20081211       1350
+BIB                 13         20
+INSTITUTE  (1CANCRC)
+REFERENCE  (J,NP/A,281,325,197705)
+AUTHOR     (A.B.McDonald,E.D.Earle,M.A.Lone,F.C.Khanna,H.C.Lee)
+TITLE      Doubly radiative thermal neutron capture in 2H and
+            16O experiment and theory
+FACILITY   (REAC,1CANCRC) NRU reactor
+INC-SOURCE (THCOL) Thermal column. 0.009 eV neutrons from Bragg
+            reflection, thermalized in the target before capture.
+SAMPLE     Heavy water sample.
+DETECTOR   (GELI) Two germanium-lithium detectors
+METHOD     (COINC) Coincidence of pulses in Ge(Li) detectors
+CORRECTION Data corrected for accidental coincidences due to
+            reactions in materials other than the sample.
+ERR-ANALYS (DATA-ERR) No information on source of uncertainties.
+STATUS     (APRVD) Approved by A.B.McDonald, 1978/3/2.
+            Data taken from reference text.
+HISTORY    (19770610C)
+           (19780508U) Author approval received
+           (19860909A) BIB updated. REACTION SF4 added.
+           (20080827A) Formats updated. BIB updates.
+ENDBIB              20
+NOCOMMON             0          0
+ENDSUBENT           23
+SUBENT        10668002     860909              20050926       0000
+BIB                  1          1
+REACTION   (1-H-2(N,2G)1-H-3,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA-MAX   DATA-ERR
+EV         MICRO-B    MICRO-B
+ 0.0253     8.         15.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        10668003     860909              20050926       0000
+BIB                  1          1
+REACTION   (8-O-16(N,2G)8-O-17,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA-MAX   DATA-ERR
+EV         MICRO-B    MICRO-B
+ 0.0253     3.         19.
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        10668004     860909              20050926       0000
+BIB                  2          2
+REACTION   (8-O-16(N,G)8-O-17,,SIG)
+MONITOR    (1-H-2(N,G)1-H-3,,SIG)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 5          1
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR
+EV         MICRO-B    MICRO-B    MICRO-B    MICRO-B
+ 0.0253     202.       28.        521.       9.
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY             4

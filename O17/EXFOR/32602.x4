@@ -1,0 +1,84 @@
+ENTRY            32602     940228              20050926       0000
+SUBENT        32602001     940228              20050926       0000
+BIB                 14         37
+TITLE      THE SMALL ANGLE SCATTERING CROSS SECTIONS OF 14.8 MEV
+           NEUTRONS FROM AL-27 AND O-16
+AUTHOR     (QI HUIQUAN,CHEN QUOJIE,CHEN YINGTAN,CHEN QIANKUN,
+           CHEN ZHENPENG,CHEN ZEMIN)
+INSTITUTE  (3CPRTSI)
+REFERENCE  (J,CNP,14,(1),15,9203)
+           (C,91BEIJIN,,13,9109) ONLY EXP.DETAILS
+           (R,CNIC-412,5,90)
+FACILITY   (CCW)
+INC-SOURCE (D-T)
+METHOD     (TOF,ASSOP)
+DETECTOR   (PSSCN) POSITION SENSITIVE NEUTRON DETECTOR CONSISTING
+           OF A LONG CYLINDRIC LIQUID SCINTILLATOR OF 55 CM IN
+           LENGTH AND 3.8 CM IN DIAMETER AND TWO PHOTOMULTIPLIERS
+           AT BOTH ENDS OF THE SCINTILLATOR.
+MONITOR    ABSOLUTE
+PART-DET   (N)
+CORRECTION CORRECTIONS WERE MADE FOR
+           NEUTRON FLUENCE ATTENUATION,
+           MULTIPLE SCATTERING,
+           FINITE GEOMETRY
+ERR-ANALYS MAIN ERROR SOURCES WERE AS FOLLOWS:
+           4 AND 11 PER-CENT    STATISTICAL ERROR FOR AL-27 AND
+                                O-16, RESPECTIVELY.
+           LESS THAN 4 PER-CENT NON-UNIFORM DISTRUBUTION OF THE
+                                COLLIMATED NEUTRON BEAM, ETC.
+           ABOUT 3 PER-CENT     NEUTRONS SMALL ANGLE SCATTERED
+                                FROM THE SURFACE OF THE COLLIMATO
+           LESS THAN 3 PER-CENT THE SUM OF THE ERROR CAUSED BY TH
+                                MONTE-CARLO CORRECTION, CORRECTIO
+                                FOR DEAD TIME OF ALPHA PARTICLE
+                                COUNTING, AND THE UNCERTAINTY OF
+                                THE NUMBER OF NUCLEI IN SAMPLE.
+STATUS     DATA TAKEN FROM TABLE 2 OF CHINESE J. OF NUCLEAR
+           PHYSICS, 14(1),15, 9203.
+HISTORY    (930105C) COMPILED BY LIANG QICHANG (CNDC)
+           (931125U) HW.- REFERENCE ADDED.-
+ENDBIB              37
+COMMON               1          3
+EN
+MEV
+14.8
+ENDCOMMON            3
+ENDSUBENT           44
+SUBENT        32602002     930928              20050926       0000
+BIB                  3          4
+REACTION   (13-AL-27(N,EL)13-AL-27,,DA)
+REFERENCE  (R,INDC(CPR)-030/L,7,9304)
+SAMPLE     METAL ALUMINUM DISK,PURITY 99.5 PER-CENT,DIAMETER=4CM,
+           THICKNESS=3.0 CM, DENSITY=2.7 G/CM3.
+ENDBIB               4
+NOCOMMON
+DATA                 2          5
+ANG        DATA
+ADEG       B/SR
+        2.6       1.38
+        3.4       1.36
+        4.9       1.36
+        6.6       1.31
+        8.6       1.20
+ENDDATA              7
+ENDSUBENT           16
+SUBENT        32602003     930928              20050926       0000
+BIB                  2          4
+REACTION   (8-O-16(N,EL)8-O-16,,DA)
+SAMPLE     THE SAMPLE WAS MADE BY PRESSING AL2O3 POWDER, PURITY
+           99.5 PER-CENT, DIAMETER 4 CM, THICKNESS 4.4 CM, DENSITY
+           1.18 G/CM3.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          5
+ANG        DATA       ERR-T
+ADEG       B/SR       B/SR
+        2.6       1.19       0.15
+        3.4       1.25       0.16
+        4.9       1.07       0.13
+        6.6       1.02       0.13
+        8.6       1.06       0.14
+ENDDATA              7
+ENDSUBENT           16
+ENDENTRY             3

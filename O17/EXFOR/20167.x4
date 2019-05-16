@@ -1,0 +1,127 @@
+ENTRY            20167   20120708   20130226   20130207       2232
+SUBENT        20167001   20120708   20130226   20130207       2232
+BIB                 11         18
+INSTITUTE  (2AUSIRK)
+REFERENCE  (J,APA,20,300,196508)
+           (J,OAW,174,187,196506)
+AUTHOR     (M.Fuerst-Rauch,H.Muenzer)
+TITLE       The reaction O-16(n,alpha)C-13 at 14 MeV
+            neutron energy
+FACILITY   (CCW,2AUSIRK) 200 keV Cockcroft-Walton accelerator
+INC-SOURCE (D-T)      Deuteron-tritium
+SAMPLE     .Vanadium pentoxide V(2)-O(5) on gold foil.
+DETECTOR   (PLATE) .Nuclear emulsion Ilford plate
+PART-DET   (A)        Alphas  (He-4)
+CORRECTION .Flux, target area and self absorption
+HISTORY    (19701026C)
+           (19740521E)
+           (20120708A) SD: Updated to new date formats,lower case.
+                Corrections according last EXFOR rules and Dict.
+               SF5=PAR was added to REACTION code in Subents 2-5.
+               COS -> COS-CM; DATA -> DATA-CM in Subents 2-5.
+ENDBIB              18
+NOCOMMON             0          0
+ENDSUBENT           21
+SUBENT        20167002   20120708   20130226   20130207       2232
+BIB                  4          5
+REACTION   (8-O-16(N,A)6-C-13,PAR,DA,,REL)
+EN-SEC     (E-LVL,6-C-13) .Angular distribution for ground state.
+STATUS     (CURVE).Read from graph 4 of Oesterr.Akad.Wiss.,
+            Sitzungs Ber.,Math-Naturwiss.Kl.,Abt.II,174(1965)187.
+ERR-ANALYS (ERR-S).Statistical error.
+ENDBIB               5
+COMMON               1          3
+E-LVL
+MEV
+ 0.0000E+00
+ENDCOMMON            3
+DATA                 4         10
+EN         COS-CM     DATA-CM    ERR-S
+MEV        NO-DIM     ARB-UNITS  ARB-UNITS
+ 1.3600E+01-9.8480E-01 3.6000E+02 4.1000E+01
+ 1.3600E+01-7.0710E-01 1.0000E+02 8.0000E+00
+ 1.3600E+01 0.0000E+00 6.1000E+01 9.0000E+00
+ 1.3600E+01 7.0710E-01 4.5000E+01 6.0000E+00
+ 1.3600E+01 9.8480E-01 4.5000E+01 1.5000E+01
+ 1.3900E+01-9.8480E-01 2.3300E+02 3.6000E+01
+ 1.3900E+01-7.0710E-01 1.1300E+02 8.0000E+00
+ 1.3900E+01 0.0000E+00 4.0000E+01 8.0000E+00
+ 1.3900E+01 7.0710E-01 5.1000E+01 7.0000E+00
+ 1.3900E+01 9.8480E-01 3.9000E+01 8.0000E+00
+ENDDATA             12
+ENDSUBENT           26
+SUBENT        20167003   20120708   20130226   20130207       2232
+BIB                  4          4
+REACTION   (8-O-16(N,A)6-C-13,PAR,DA,,REL)
+EN-SEC     (E-LVL,6-C-13) .Angular distribution for ground state.
+STATUS     (TABLE) .Priv communication Fuerst-Rauch.
+ERR-ANALYS (DATA-ERR).Total error.
+ENDBIB               4
+COMMON               1          3
+E-LVL
+MEV
+ 0.0000E+00
+ENDCOMMON            3
+DATA                 4          5
+EN         COS-CM     DATA-CM    DATA-ERR
+MEV        NO-DIM     ARB-UNITS  ARB-UNITS
+ 1.4100E+01-9.8990E-01 3.1400E+02 4.5000E+01
+ 1.4100E+01-6.2250E-01 4.7000E+01 1.0800E+01
+ 1.4100E+01-1.5360E-01 3.7000E+01 9.3000E+00
+ 1.4100E+01 6.3380E-01 2.8000E+01 7.0000E+00
+ 1.4100E+01 9.8430E-01 3.7000E+01 1.6700E+01
+ENDDATA              7
+ENDSUBENT           20
+SUBENT        20167004   20120708   20130226   20130207       2232
+BIB                  4          6
+REACTION   (8-O-16(N,A)6-C-13,PAR,DA,,REL)
+EN-SEC     (E-LVL,6-C-13) .Mixture of the first three excited
+            levels at 3.1, 3.7 and 3.9 MeV.
+STATUS     (CURVE).Read from graph 4 of Oesterr.Akad.Wiss.,
+            Sitzungs Ber.,Math-Naturwiss.Kl.,Abt.II,174(1965)187.
+ERR-ANALYS (ERR-S) .Statistical error.
+ENDBIB               6
+COMMON               3          3
+E-LVL      E-LVL      E-LVL
+MEV        MEV        MEV
+  3.1         3.7        3.9
+ENDCOMMON            3
+DATA                 4         10
+EN         COS-CM     DATA-CM    ERR-S
+MEV        NO-DIM     ARB-UNITS  ARB-UNITS
+ 1.3600E+01-9.8480E-01 3.8000E+01 1.4000E+01
+ 1.3600E+01-7.0710E-01 9.5000E+01 1.1000E+01
+ 1.3600E+01 0.0000E+00 9.1000E+01 1.0000E+01
+ 1.3600E+01 7.0710E-01 1.3200E+02 1.2000E+01
+ 1.3600E+01 9.8480E-01 2.3100E+02 3.4000E+01
+ 1.3900E+01-9.8480E-01 3.2000E+01 1.7000E+01
+ 1.3900E+01-7.0710E-01 8.0000E+01 9.0000E+00
+ 1.3900E+01 0.0000E+00 9.8000E+01 8.0000E+00
+ 1.3900E+01 7.0710E-01 1.5600E+02 1.1000E+01
+ 1.3900E+01 9.8480E-01 2.7800E+02 4.1000E+01
+ENDDATA             12
+ENDSUBENT           27
+SUBENT        20167005   20120708   20130226   20130207       2232
+BIB                  4          5
+REACTION   (8-O-16(N,A)6-C-13,PAR,DA,,REL)
+EN-SEC     (E-LVL,6-C-13) .Mixture of the first three excited
+            levels at 3.1, 3.7 and 3.9 MeV.
+STATUS     (TABLE) .Priv communication Fuerst-Rauch.
+ERR-ANALYS (DATA-ERR).Total error.
+ENDBIB               5
+COMMON               4          3
+EN         E-LVL      E-LVL      E-LVL
+MEV        MEV        MEV        MEV
+  14.1       3.1         3.7        3.9
+ENDCOMMON            3
+DATA                 3          5
+COS-CM     DATA-CM    DATA-ERR
+NO-DIM     ARB-UNITS  ARB-UNITS
+-1.0000E+00 2.1000E+01 1.2000E+01
+-8.0490E-01 4.9000E+01 1.1000E+01
+-1.9080E-01 1.1800E+02 1.6200E+01
+ 6.1570E-01 3.3300E+02 2.4000E+01
+ 9.8960E-01 6.4500E+02 6.8000E+01
+ENDDATA              7
+ENDSUBENT           21
+ENDENTRY             5

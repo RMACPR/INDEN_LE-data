@@ -1,0 +1,138 @@
+ENTRY            23005   20150909   20151123   20151116       2242
+SUBENT        23005001   20150909   20151123   20151116       2242
+BIB                  7         13
+TITLE       (n,a) cross-section measurement using a gaseous sample
+           and a gridded ionization chamber
+AUTHOR     (T.Sanami, M.Baba, K.Saito, N.Hirakawa)
+INSTITUTE  (2JPNTOH)
+REFERENCE  (J,NIM/A,440,403,2000) 12C(n,a0) SIG at 14.1 MeV in tab
+           (S,JAERI-C-98-003,192,1998) All data in figs
+           (C,99OSAKA,,447,1999) ISRD-10; 16O(n,a1,2,3) SIG in fig
+FACILITY   (DYNAM,2JPNTOH) 4.5 MV Dynamitron
+DETECTOR   (IOCH)  Gridded ionization chamber (GIC)
+           (SCIN)  Neutron monitor detector (NE213)
+           (TELES) Proton recoil counter for flux determination
+HISTORY    (20070930C) On
+           (20150909A) On. 002 revised, 003-007 added.
+ENDBIB              13
+NOCOMMON             0          0
+ENDSUBENT           16
+SUBENT        23005002   20150909   20151123   20151116       2242
+BIB                  6          9
+REACTION   (6-C-12(N,A)4-BE-9,PAR,SIG)
+INC-SOURCE (D-T)
+SAMPLE     Kr+CH4 mixture
+ERR-ANALYS (ERR-T)    total uncertainty      (~10%)
+           (ERR-1)    number of sample atoms   (5%)
+           (ERR-2)    absolute normalization   (8%)
+           (ERR-S,,3.) statistics             (<3%)
+STATUS     (TABLE) Table 1 of Nucl.Instrum.Meth.A440(2000)403
+HISTORY    (20150909A) On. ERR-ANALYS updated.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 6          1
+EN         E-LVL      DATA       ERR-T      ERR-1      ERR-2
+MEV        MEV        MB         MB         PER-CENT   PER-CENT
+ 14.1       0.         69.9       7.0        5.         8.
+ENDDATA              3
+ENDSUBENT           17
+SUBENT        23005003   20150909   20151123   20151116       2242
+BIB                  6          6
+REACTION   (6-C-12(N,A)4-BE-9,PAR,SIG)
+INC-SOURCE (D-N15)
+SAMPLE     Kr+CH4 mixture
+ERR-ANALYS (DATA-ERR) No information on source of uncertainty
+STATUS     (CURVE) Fig.2 of JAERI-Conf 98-003, p192 (1998)
+HISTORY    (20150909C) On
+ENDBIB               6
+COMMON               1          3
+E-LVL
+MEV
+ 0.
+ENDCOMMON            3
+DATA                 3          2
+EN         DATA       DATA-ERR
+MEV        MB         MB
+ 11.5        6.389E+01  8.066E+00
+ 12.8        1.052E+02  1.023E+01
+ENDDATA              4
+ENDSUBENT           19
+SUBENT        23005004   20150909   20151123   20151116       2242
+BIB                  6         10
+REACTION  1(8-O-16(N,A)6-C-13,PAR,SIG) 15N(d,n) data
+          2(8-O-16(N,A)6-C-13,PAR,SIG) T(d,n) data
+INC-SOURCE1(D-N15) 12.8 MeV
+          2(D-T)   13.7, 14.1 and 15.0 MeV
+SAMPLE     Kr+CO2 mixture
+ERR-ANALYS (ERR-T)   Statistical and systematic uncertainty
+           (ERR-SYS) Systematicl uncertainty (7%)
+STATUS     (TABLE) Data received from Toshiya Sanami
+HISTORY    (20140318R) On. Data received from Toshiya Sanami.
+           (20150909C) On
+ENDBIB              10
+COMMON               2          3
+E-LVL      ERR-SYS
+MEV        PER-CENT
+ 0.         7.
+ENDCOMMON            3
+DATA                 5          4
+EN         DATA      1ERR-T     1DATA      2ERR-T     2
+MEV        MB         MB         MB         MB
+ 12.8       24.8       2.09
+ 13.7                             22.9       2.60
+ 14.1                             20.8       3.46
+ 15.0                             13.6       1.14
+ENDDATA              6
+ENDSUBENT           25
+SUBENT        23005005   20150909   20151123   20151116       2242
+BIB                  6         10
+REACTION  1(8-O-16(N,A)6-C-13,PAR,SIG) 15N(d,n) data
+          2(8-O-16(N,A)6-C-13,PAR,SIG) T(d,n) data
+INC-SOURCE1(D-N15) 12.8 MeV
+          2(D-T)   13.7, 14.1 and 15.0 MeV
+SAMPLE     Kr+CO2 mixture
+ERR-ANALYS (ERR-T)   Statistical and systematic uncertainty
+           (ERR-SYS) Systematicl uncertainty (7%)
+STATUS     (TABLE) Data received from Toshiya Sanami
+HISTORY    (20140318R) On. Data received from Toshiya Sanami.
+           (20150909C) On
+ENDBIB              10
+COMMON               4          3
+LVL-NUMB   LVL-NUMB   LVL-NUMB   ERR-SYS
+NO-DIM     NO-DIM     NO-DIM     PER-CENT
+ 1.         2.         3.         7.
+ENDCOMMON            3
+DATA                 5          4
+EN         DATA      1ERR-T     1DATA      2ERR-T     2
+MEV        MB         MB         MB         MB
+ 12.8       168.0      11.9
+ 13.7                             157.4      11.59
+ 14.1                             113.3      15.1
+ 15.0                              75.8       4.17
+ENDDATA              6
+ENDSUBENT           25
+SUBENT        23005006   20150909   20151123   20151116       2242
+BIB                  6          8
+REACTION   (8-O-16(N,X)2-HE-4,,SIG)
+INC-SOURCE (D-T)
+SAMPLE     Kr+CO2 mixture
+ERR-ANALYS (ERR-T)   Statistical and systematic uncertainty
+           (ERR-SYS) Systematicl uncertainty (7%)
+STATUS     (TABLE) Data received from Toshiya Sanami
+HISTORY    (20140318R) On. Data received from Toshiya Sanami.
+           (20150909C) On
+ENDBIB               8
+COMMON               1          3
+ERR-SYS
+PER-CENT
+ 7.
+ENDCOMMON            3
+DATA                 3          3
+EN         DATA       ERR-T
+MEV        MB         MB
+ 13.7       305.       30.5
+ 14.1       242.       21.4
+ 15.0       223.       22.3
+ENDDATA              5
+ENDSUBENT           22
+ENDENTRY             6

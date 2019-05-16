@@ -1,0 +1,61 @@
+ENTRY            30410   20090310   20090724   20090720       3135
+SUBENT        30410001   20090310   20090724   20090720       3135
+BIB                 12         23
+INSTITUTE  (3CHFNTU)
+REFERENCE  (J,CHP,1,(1),1,196304)
+AUTHOR     (Y.C.Hsu,C.Y.Huang,P.K.Tseng,Y.K.Tai)
+TITLE      Neutron total cross section of arsenic at 14 MeV.
+FACILITY   (CCW,3CHFNTU)
+           Deuteron energy of 140 keV.
+INC-SOURCE (D-T) T(d,n)He-4 reaction, Zr-T target.
+METHOD     Transmission measurement in a good-geometry.
+DETECTOR   (SCIN) Plastic scintillator of 1inch * 1inch diam. with
+           a Dumont 6292 photomultiplier.
+           .Another plastic scintillator of the same size placed
+           at 50 cm distance from the neutron source, and
+            Zn-S(Ag) scintillator at 1 m from the n-source were
+           used as the neutron-yield monitor.
+MONITOR    Absolute, transmission measurement
+HISTORY    (19770812C) KO.-Reentry after 70051 but from orig.ref.-
+           (19831122U) DG.-Conversion from Iso-quant to Reaction
+                        form.-
+           (20090309A) SD:Updated to new date formats,lower case.
+CORRECTION The effect of scattered neutrons was found to be less
+           than 0.3% of the rate obtained from the direct
+           neutron beam.
+ERR-ANALYS No further information.
+ENDBIB              23
+NOCOMMON             0          0
+ENDSUBENT           26
+SUBENT        30410002   20090310   20090724   20090720       3135
+BIB                  3          4
+REACTION   (33-AS-75(N,TOT),,SIG)
+SAMPLE     Purified arsenic trioxide in lucite cylinders of
+           diameter 3 cm.
+STATUS     (TABLE) Data from Table 2 of Chinese J.of Phys.1(1963)1
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          3
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 1.3950E+01 3.0000E-02 3.3700E+00 4.0000E-02
+ 1.4120E+01 4.0000E-02 3.4200E+00 3.0000E-02
+ 1.4750E+01 1.5000E-01 3.3200E+00 4.0000E-02
+ENDDATA              5
+ENDSUBENT           14
+SUBENT        30410003   20090310   20090724   20090720       3135
+BIB                  3          5
+REACTION   (8-O-16(N,TOT),,SIG)
+COMMENT    As a check of total neutron cross-section of arsenic
+            (sub-entry .002), this oxygen cross-section was
+           measured.
+STATUS     (TABLE) Data from Table 3 of Chinese J.of Phys.1(1963)1
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 1.3950E+01 3.0000E-02 1.6000E+00 4.0000E-02
+ENDDATA              3
+ENDSUBENT           13
+ENDENTRY             3

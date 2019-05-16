@@ -1,0 +1,372 @@
+ENTRY            11196     870116              20050926       0000
+SUBENT        11196001     870116              20050926       0000
+BIB                 10         13
+INSTITUTE  (1USAARK)
+REFERENCE  (J,NP,35,353,62)
+AUTHOR     (J.KANTELE,D.G.GARDNER)
+TITLE      SOME ACTIVATION CROSS SECTIONS FOR 14.7MEV NEUTRONS.
+FACILITY   (CCW)
+INC-SOURCE (D-T)
+INC-SPECT  90-PERCENT OF INCIDENT NEUTRONS IN RANGE 14.4-15.3
+            MEV.
+METHOD     (ACTIV)
+STATUS     (SCSRS)
+HISTORY    (760628T) TRANSLATED FROM SCISRS
+           (800814A) CONVERTED TO REACTION FORMALISM
+           (870116A) BIB UPDATE.
+ENDBIB              13
+NOCOMMON             0          0
+ENDSUBENT           16
+SUBENT        11196002     800814              20050926       0000
+BIB                  4          6
+REACTION   (5-B-11(N,P)4-BE-11,,SIG)
+MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG)  AT 14.74MEV
+ANALYSIS   WEIGHTED AVERAGE OF VALUES OBTAINED BY BETA AND
+            GAMMA COUNTING.
+STATUS     (DEP,11196015)
+           (DEP,11196016)
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 6          1
+EN         EN-ERR     DATA       DATA-ERR   MONIT      MONIT-ERR
+MEV        MEV        B          B          MB         MB
+ 1.470  +01 1.5    -01 3.3    -03 6.     -04 507.       45.
+ENDDATA              3
+ENDSUBENT           14
+SUBENT        11196003     800814              20050926       0000
+BIB                  2          2
+REACTION   (5-B-11(N,A)3-LI-8,,SIG)
+HISTORY    (800814A) SUBENTRY DELETED. NOT FROM THIS EXPERIMENT.
+ENDBIB               2
+NOCOMMON             0          0
+NODATA               0          0
+ENDSUBENT            6
+SUBENT        11196004     800814              20050926       0000
+BIB                  3          7
+REACTION   (8-O-16(N,P)7-N-16,,SIG)
+MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG) AVERAGE OF MEASUREMENTS
+           (13-AL-27(N,P)12-MG-27,,SIG) RELATIVE TO CU-63 (N,2N)
+                       = 507+-45 MB AND AL-27 (N,P) = 82+-10 MB.
+STATUS     (DEP,11196017)
+           (DEP,11196018)
+           (DEP,11196019)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-ERR     DATA       DATA-ERR
+MEV        MEV        B          B
+ 1.470  +01 1.5    -01 3.82   -02 5.0    -03
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11196005     800814              20050926       0000
+BIB                  4          7
+REACTION   (9-F-19(N,P)8-O-19,,SIG)
+MONITOR    (13-AL-27(N,P)12-MG-27,,SIG)  BASED ON AL27 N,P=
+            82+-10MB.
+ANALYSIS   WEIGHTED AVERAGE OF VALUES OBTAINED BY BETA AND GAMMA
+            COUNTING.
+STATUS     (DEP,11196020)
+           (DEP,11196021)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+EN         EN-ERR     DATA       DATA-ERR   MONIT      MONIT-ERR
+MEV        MEV        B          B          MB         MB
+ 1.470  +01 1.5    -01 1.43   -02 3.5    -03 82.        10.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11196006     800814              20050926       0000
+BIB                  4          7
+REACTION   (13-AL-27(N,P)12-MG-27,,SIG)
+MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG) BASED ON CU63 N,2N=
+             507+-45MB.
+ANALYSIS   WEIGHTED AVERAGE OF VALUES FROM BETA AND GAMMA
+            COUNTING.
+STATUS     (DEP,11196022)
+           (DEP,11196023)
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 6          1
+EN         EN-ERR     DATA       DATA-ERR   MONIT      MONIT-ERR
+MEV        MEV        B          B          MB         MB
+ 1.470  +01 1.5    -01 8.2    -02 1.0    -02 507.       45.
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        11196007     800814              20050926       0000
+BIB                  3          4
+REACTION   (13-AL-27(N,P)12-MG-27,,SIG)
+DECAY-DATA (12-MG-27,9.5MIN)
+MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG) RELATIVE TO CU-63 (N,2N)
+            FROM FERGUSON AND THOMPSON, PHYS.REV. 118, 228(1960).
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          3
+EN         DATA
+MEV        B
+ 1.34   +01 8.4    -02
+ 1.37   +01 9.4    -02
+ 1.42   +01 8.3    -02
+ENDDATA              5
+ENDSUBENT           14
+SUBENT        11196008     800814              20050926       0000
+BIB                  4          7
+REACTION  1((15-P-31(N,A)13-AL-28,,SIG)/
+           (29-CU-63(N,2N)29-CU-62,,SIG))
+          2(15-P-31(N,A)13-AL-28,,SIG)
+SAMPLE     SODIUM PHOSPHATE AND PHOSPHOROUS PENTOXIDE POWDER.
+DECAY-DATA (13-AL-28,2.3MIN,DG)
+MONITOR   2(29-CU-63(N,2N)29-CU-62,,SIG) BASED ON CU63 N,2N=
+            507+-45MB.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 8          1
+EN         EN-ERR     DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MONIT     2MONIT-ERR 2
+MEV        MEV        NO-DIM     PER-CENT   B          B
+MB         MB
+ 1.470  +01 1.5    -01 0.302      10.        1.53   -01 2.0    -02
+ 507.       45.
+ENDDATA              6
+ENDSUBENT           18
+SUBENT        11196009     800814              20050926       0000
+BIB                  4          7
+REACTION  1((15-P-31(N,P)14-SI-31,,SIG)/
+           (29-CU-63(N,2N)29-CU-62,,SIG))
+          2(15-P-31(N,P)14-SI-31,,SIG)
+SAMPLE     SODIUM PHOSPHATE AND PHOSPHORUS PENTOXIDE POWDER.
+DECAY-DATA (14-SI-31,2.65HR,B)
+MONITOR   2(29-CU-63(N,2N)29-CU-62,,SIG) BASED ON CU63 N,2N=
+            507+-45MB.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 8          1
+EN         EN-ERR     DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MONIT     2MONIT-ERR 2
+MEV        MEV        NO-DIM     PER-CENT   B          B
+MB         MB
+ 1.470  +01 1.5    -01 0.162      8.         8.2    -02 1.0    -02
+ 507.       45.
+ENDDATA              6
+ENDSUBENT           18
+SUBENT        11196010     800814              20050926       0000
+BIB                  4          7
+REACTION  1((15-P-31(N,2N)15-P-30,,SIG)/
+           (29-CU-63(N,2N)29-CU-62,,SIG))
+          2(15-P-31(N,2N)15-P-30,,SIG)
+SAMPLE     SODIUM PHOSPHATE AND PHOSPHORUS PENTOXIDE POWDER.
+DECAY-DATA (15-P-30,2.55MIN,DG)
+MONITOR   2(29-CU-63(N,2N)29-CU-62,,SIG) BASED ON CU63 N,2N=
+            507+-45MB.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 8          1
+EN         EN-ERR     DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MONIT     2MONIT-ERR 2
+MEV        MEV        NO-DIM     PER-CENT   B          B
+MB         MB
+ 1.470  +01 1.5    -01 0.0174     10.        8.9    -03 1.2    -03
+ 507.       45.
+ENDDATA              6
+ENDSUBENT           18
+SUBENT        11196011     800814              20050926       0000
+BIB                  4          6
+REACTION  1((29-CU-63(N,A)27-CO-60-M,,SIG)/
+           (29-CU-63(N,2N)29-CU-62,,SIG))
+          2(29-CU-63(N,A)27-CO-60-M,,SIG)
+METHOD     (CHSEP)
+DECAY-DATA (27-CO-60-M,10.5MIN,B)
+MONITOR   2(29-CU-63(N,2N)29-CU-62,,SIG) BASED ON CU63 N,2N=507MB.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 8          1
+EN         EN-ERR     DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MONIT     2MONIT-ERR 2
+MEV        MEV        NO-DIM     PER-CENT   B          B
+MB         MB
+ 1.470  +01 1.5    -01 0.0454     10.        2.3    -02 3.     -03
+ 507.       45.
+ENDDATA              6
+ENDSUBENT           17
+SUBENT        11196012     870116              20050926       0000
+BIB                  5          8
+REACTION  1((29-CU-65(N,A)27-CO-62-M,,SIG)/
+           (29-CU-65(N,N+A)27-CO-61,,SIG))
+          2(29-CU-65(N,A)27-CO-62-M,,SIG)
+METHOD     (CHSEP)
+DECAY-DATA (27-CO-62-M,13.9MIN,DG,1170.)
+MONITOR   2(29-CU-65(N,N+A)27-CO-61,,SIG) CROSS SECTION OF
+            2.6+-0.5MB.
+HISTORY    (870116A) REACTION PRODUCT, DECAY DATA CORRECTED.
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 8          1
+EN         EN-ERR     DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MONIT     2MONIT-ERR 2
+MEV        MEV        NO-DIM     PER-CENT   B          B
+MB         MB
+ 1.470  +01 1.5    -01 2.67       10.        7.5    -03 2.0    -03
+ 2.6        0.5
+ENDDATA              6
+ENDSUBENT           19
+SUBENT        11196013     800814              20050926       0000
+BIB                  4          6
+REACTION  1((29-CU-65(N,N+A)27-CO-61,,SIG)/
+           (29-CU-63(N,2N)29-CU-62,,SIG))
+          2(29-CU-65(N,N+A)27-CO-61,,SIG)
+DECAY-DATA (27-CO-61,1.65HR,B)
+METHOD     (CHSEP)
+MONITOR   2(29-CU-63(N,2N)29-CU-62,,SIG) BASED ON CU63 N,2N=507MB.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 8          1
+EN         EN-ERR     DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MONIT     2MONIT-ERR 2
+MEV        MEV        NO-DIM     PER-CENT   B          B
+MB         MB
+ 1.470  +01 1.5    -01 5.52   -03 8.         2.8    -03 3.     -04
+ 507.       45.
+ENDDATA              6
+ENDSUBENT           17
+SUBENT        11196014     820107              20050926       0000
+BIB                  4          6
+REACTION  1((29-CU-65(N,N+A)27-CO-61,,SIG)/
+           (29-CU-65(N,2N)29-CU-64,,SIG))
+          2(29-CU-65(N,N+A)27-CO-61,,SIG)
+DECAY-DATA (27-CO-61,1.65HR,DG,70.)
+MONITOR   2(29-CU-65(N,2N)29-CU-64,,SIG)
+HISTORY    (820107A) DATA HEADINGS CORRECTED. BIB UPDATE.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 8          1
+EN         EN-ERR     DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MONIT     2MONIT-ERR 2
+MEV        MEV        NO-DIM     PER-CENT   B          B
+MB         MB
+ 1.470  +01 1.5    -01 2.73   -03 20.        2.6    -03 5.     -04
+ 953.       38.
+ENDDATA              6
+ENDSUBENT           17
+SUBENT        11196015     800824              20050926       0000
+BIB                  3          4
+REACTION   ((5-B-11(N,P)4-BE-11,,SIG)/
+           (29-CU-63(N,2N)29-CU-62,,SIG))
+DECAY-DATA (4-BE-11,13.6SEC,B)
+HISTORY    (800818C)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-ERR     DATA       DATA-ERR
+MEV        MEV        NO-DIM     PER-CENT
+ 14.70      0.15       5.90   -03 15.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11196016     800824              20050926       0000
+BIB                  3          4
+REACTION   ((5-B-11(N,P)4-BE-11,,SIG)/
+           (29-CU-63(N,2N)29-CU-62,,SIG))
+DECAY-DATA (4-BE-11,13.6SEC,DG,2130.)
+HISTORY    (800818C)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-ERR     DATA       DATA-ERR
+MEV        MEV        NO-DIM     PER-CENT
+ 14.70      0.15       7.50   -03 25.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11196017     820107              20050926       0000
+BIB                  3          5
+REACTION   ((8-O-16(N,P)7-N-16,,SIG)/
+           (29-CU-63(N,2N)29-CU-62,,SIG))
+DECAY-DATA (7-N-16,7.4SEC,B)
+HISTORY    (800818C)
+           (820107A) REACTION CORRECTED
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-ERR     DATA       DATA-ERR
+MEV        MEV        NO-DIM     PER-CENT
+ 14.70      0.15       0.0750     10.
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        11196018     800824              20050926       0000
+BIB                  2          3
+REACTION   ((8-O-16(N,P)7-N-16,,SIG)/
+           (13-AL-27(N,P)12-MG-27,,SIG))
+DECAY-DATA (7-N-16,7.4SEC,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-ERR     DATA       DATA-ERR
+MEV        MEV        NO-DIM     PER-CENT
+ 14.70      0.15       0.470      10.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11196019     800824              20050926       0000
+BIB                  2          3
+REACTION   ((8-O-16(N,P)7-N-16,,SIG)/
+           (13-AL-27(N,P)12-MG-27,,SIG))
+DECAY-DATA (7-N-16,7.4SEC,DG)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-ERR     DATA       DATA-ERR
+MEV        MEV        NO-DIM     PER-CENT
+ 14.70      0.15       0.425      25.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11196020     800824              20050926       0000
+BIB                  3          4
+REACTION   ((9-F-19(N,P)8-O-19,,SIG)/
+           (13-AL-27(N,P)12-MG-27,,SIG))
+DECAY-DATA (8-O-19,29.SEC,B)
+SAMPLE     AL-F(3) POWDER
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-ERR     DATA       DATA-ERR
+MEV        MEV        NO-DIM     PER-CENT
+ 14.70      0.15       0.188      15.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11196021     800824              20050926       0000
+BIB                  3          4
+REACTION   ((9-F-19(N,P)8-O-19,,SIG)/
+           (13-AL-27(N,P)12-MG-27,,SIG))
+DECAY-DATA (8-O-19,29.SEC,DG)
+SAMPLE     AL-F(3) POWDER
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-ERR     DATA       DATA-ERR
+MEV        MEV        NO-DIM     PER-CENT
+ 14.70      0.15       0.153      25.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11196022     800824              20050926       0000
+BIB                  2          3
+REACTION   ((13-AL-27(N,P)12-MG-27,,SIG)/
+           (29-CU-63(N,2N)29-CU-62,,SIG))
+DECAY-DATA (12-MG-27,9.5MIN,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-ERR     DATA       DATA-ERR
+MEV        MEV        NO-DIM     PER-CENT
+ 14.70      0.15       0.162      8.
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11196023     800824              20050926       0000
+BIB                  2          3
+REACTION   ((13-AL-27(N,P)12-MG-27,,SIG)/
+           (29-CU-63(N,2N)29-CU-62,,SIG))
+DECAY-DATA (12-MG-27,9.5MIN,DG,840./1020.,1.00)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-ERR     DATA       DATA-ERR
+MEV        MEV        NO-DIM     PER-CENT
+ 14.70      0.15       0.161      10.
+ENDDATA              3
+ENDSUBENT           11
+ENDENTRY            23

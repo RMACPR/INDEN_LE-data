@@ -1,0 +1,92 @@
+ENTRY            22475   20010615   20030506   20050926       0000
+SUBENT        22475001   20010615   20030506   20050926       0000
+BIB                 12         26
+INSTITUTE  (2JPNTOK)  S.Shibata, T,Shibata, Imamura, Ohkubo,
+                      Satoh, Institute For Nuclear Study
+                      Morikawa, Nogawa, Radioisotope Center
+           (2JPNJCL)    Uwamino
+           (2JPNTOH)   Experimental Site of TOF Facility
+AUTHOR     (S.SHIBATA, T.SHIBATA, M.IMAMURA, T.OHKUBO, S.SATOH,
+            Y.UWAMINO, N.MORIKAWA, N.NOGAWA)
+TITLE       Measurements of the Production Cross Sections of
+           Tritium from Oxigen Using P-Be and P-Li Neutrons
+           Up to En=38 MeV
+REFERENCE  (J,RCA,75,1,1996)   Main Reference
+FACILITY   (CYCLO,2JPNTOK)  Sector Focusing Cyclotron of the
+            Institute for Nuclear Study of Tokyo University.
+            Proton beam Energy is from 20 up to 40 MeV
+METHOD     (ACTIV)  Tritium Produced in the Water was Extracted
+                    By the Dixtillation Method
+DETECTOR   (STANK)  For Tritium Activity Measurements
+SAMPLE     .Purified Water of 3 Gram Weight was Used
+            As the Oxigen Target Placed at the Distance of 20 Cm
+            From the Berillium Resp. Lithium Targets.
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+MONIT-REF  (,V.MCLANE+,B,NEUT.CS 2,,1988)
+ERR-ANALYS (ERR-T)  Errors are not Specified, Supposed Total by
+                    Compiler
+HISTORY    (20010613C)   + +  Compiled by S.M.
+           (20010615U) Last checking has been done.
+ENDBIB              26
+NOCOMMON
+ENDSUBENT           29
+SUBENT        22475002   20010615   20030506   20050926       0000
+BIB                  5         11
+REACTION   (8-O-16(N,T)7-N-14,,SIG,,AV)   Averaged Over Neutron
+                     Spectrum Width
+DETECTOR   (SCIN)  Ne-213 Scintillator 51 mm Times 51 mm Diameter
+             For Neutron Spectrum Measurements Placed at the
+             Distance 1.1 M Downstream from the Berillium Target
+ANALYSIS   .Energy was Determined with the Help of Unfolding
+            Method Using the Calculated Detector Response Function
+INC-SOURCE (P-BE)   Berillium Target was 1 mm Thick For Proton
+             Energy 20-37.5 MeV and 2 mm Thick For Ep=40 MeV
+REL-REF    (N,,Y.UWAMINO+,J,NIM/A,271,546,1988)  Details of
+               Berillium Target
+ENDBIB              11
+NOCOMMON
+DATA                 4          8
+EN-MIN     EN-MAX     DATA       ERR-T
+MEV        MEV        MB         MB
+        15.        21.       1.76       0.87
+        21.        24.       7.35        2.8
+        24.        26.       11.2        2.2
+        26.        29.       13.5        2.6
+        29.        31.       7.49       1.27
+        31.        34.       12.3        2.3
+        34.        36.       8.38       1.65
+        36.        39.       7.66       1.49
+ENDDATA             10
+ENDSUBENT           26
+SUBENT        22475003   20010615   20030506   20050926       0000
+BIB                  4         14
+REACTION   (8-O-16(N,T)7-N-14,,SIG,,AV)   Averaged Over Neutron
+                     Spectrum Width
+DETECTOR   (SCIN)  Ne-213 Scintillator 127 mm Times 127 mm Diam.
+             For Neutron Spectrum Measurements Placed at the
+             Distance 10 M from the Lithium Target
+METHOD     (TOF)  For Neutron Spectrum Measurement Made at the
+                  Cyric Facility at the Tohoku University
+INC-SOURCE (P-LI7)   Lithium Target was 2 mm Thick Li-7 Enriched
+            To 99.98% in Li-7 Backed by 12mm Thick Graphite Used
+            As Beam Stopper For Primary Protons. Lithium Target
+            Was Fixed in Aluminium Holder Which Enabled the
+            Target To Slide Up and Down to Make Possible to
+            Irradiate Samples with Lithium+Carbon Target and Only
+            Carbon Target
+ENDBIB              14
+NOCOMMON
+DATA                 4          8
+EN-MIN     EN-MAX     DATA       ERR-T
+MEV        MEV        MB         MB
+        15.        21.       1.76       0.87
+        21.        24.       7.35       2.8
+        24.        26.      11.2        2.2
+        26.        29.      13.5        2.6
+        29.        31.       7.49       1.27
+        31.        34.      12.3        2.3
+        34.        36.       8.38       1.65
+        36.        39.       7.66       1.49
+ENDDATA             10
+ENDSUBENT           29
+ENDENTRY             3

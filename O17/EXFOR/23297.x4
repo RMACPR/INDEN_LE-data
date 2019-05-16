@@ -1,0 +1,121 @@
+ENTRY            23297   20160513   20160902   20160829       2250
+SUBENT        23297001   20160513   20160902   20160829       2250
+BIB                 10         15
+TITLE      Interference between resonant and nonresonant capture
+            in 16O(n,g)17O
+AUTHOR     (M.Kinoshita, Y.Nagai)
+INSTITUTE  (2JPNTIT)
+REFERENCE  (T,KINOSHITA,19990214)
+            Master thesis submitted to Tokyo Inst. of Technology
+FACILITY   (VDG,2JPNTIT) 3.2 MV Pelletron Accelerator
+INC-SOURCE (P-LI7)
+METHOD     (TOF)
+DETECTOR   (GLASD) 6Li-glass scintillation detector for TOF
+           (NAICR) Anti-Compton NaI(Tl) detector for prompt gammas
+CORRECTION Corrected for
+            - background gammas from 7Li(n,g0)8Li,
+            - background 2.2 MeV gammas due to 1H(n,g)2H.
+HISTORY    (20160513C) On
+ENDBIB              15
+NOCOMMON             0          0
+ENDSUBENT           18
+SUBENT        23297002   20160513   20160902   20160829       2250
+BIB                  5          8
+REACTION   (8-O-16(N,G)8-O-17,PAR,SIG,,RAW)
+           Number of neutron captures/1E+06 neutrons not corrected
+            for multiple scattering and self-shielding
+SAMPLE     D2O, Li2O, and standard Au
+FLAG       (1.) D2O sample used
+           (2.) Li2O sample used
+ERR-ANALYS (DATA-ERR) No information on the source of uncertainty
+STATUS     (TABLE) Table 4.6 of Kinoshita's thesis (1999)
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 6         14
+EN-MEAN    EN-RSL-FW  LVL-NUMB   DATA       DATA-ERR   FLAG
+KEV        KEV        NO-DIM     ARB-UNITS  ARB-UNITS  NO-DIM
+ 157.       84.        0.          4.09      0.40       1.
+ 157.       84.        1.          6.74      0.56       1.
+ 349.       64.        0.          1.55      0.30       1.
+ 349.       64.        1.          3.05      0.37       1.
+ 398.       65.        0.         15.1       0.8        1.
+ 398.       65.        1.         23.2       1.0        1.
+ 427.       46.        0.          2.34      0.17       2.
+ 427.       46.        1.          4.30      0.25       2.
+ 468.       47.        0.          1.99      0.23       2.
+ 468.       47.        1.          3.91      0.30       2.
+ 498.       53.        0.          1.03      0.20       2.
+ 498.       53.        1.          3.29      0.33       2.
+ 556.       52.        0.          4.82      0.53       2.
+ 556.       52.        1.         12.0       0.7        2.
+ENDDATA             16
+ENDSUBENT           29
+SUBENT        23297003   20160513   20160902   20160829       2250
+BIB                  3          6
+REACTION   (8-O-16(N,G)8-O-17,,SIG,,RAW)
+           Number of neutron captures/1E+06 neutrons not corrected
+            for multiple scattering and self-shielding
+STATUS     (TABLE) Table 4.6 of Kinoshita's thesis (1999)
+           (DEP,23297002) Number of partial neutron captures
+ERR-ANALYS (DATA-ERR) No information on the source of uncertainty
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 4          7
+EN-MEAN    EN-RSL-FW  DATA       DATA-ERR
+KEV        KEV        ARB-UNITS  ARB-UNITS
+ 157.       84.        10.8       0.7
+ 349.       64.         4.60      0.48
+ 398.       65.        38.3       1.2
+ 427.       46.         6.64      0.26
+ 468.       47.         5.91      0.37
+ 498.       53.         4.33      0.39
+ 556.       52.        16.9       0.9
+ENDDATA              9
+ENDSUBENT           20
+SUBENT        23297004   20160513   20160902   20160829       2250
+BIB                  8         26
+REACTION   (8-O-16(N,G)8-O-17,,SIG)
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+MONIT-REF  (,P.G.Young,3,ENDF/B-VI,7925,1984)
+           (11679023,R.L.Macklin+,J,PR,159,1007,1967)
+CORRECTION Corrected for
+           - multiple scattering effect (nm),
+           - self-shielding of incident neutrons (ns)
+CRITIQUE   By T.Matsushima:
+            The (n,g0) cross section at En=556 keV is too low.
+            This is understood if JENDL-3.2 (i.e., without the
+            434 keV resonance) is adopted in calculation of the
+            correction factor. We reevaluated the correction
+            factors, and obtained:
+             sig(n,g0)= 0.4 +/- 0.1 ub,
+             sig(n,g1)=10.8 +/- 0.9 ub,
+            which are more consistent with our data.
+REL-REF    (C,29992001,T.Matsushima,T,MATSUSHIMA,2003)
+ERR-ANALYS (ERR-T) Total uncertainty
+            - Counting statistics for Au
+            - Counting statistics for 16O
+           (ERR-1)     response function             (3%)
+           (ERR-2)     neutron detection efficiency  (3%)
+           (ERR-3)     correction factors for nm, ns (3%)
+           (MONIT-ERR) Au capture cross section      (3%)
+STATUS     (TABLE) Table 4.7 of Kinoshita's thesis (1999)
+           (DEP,23297003) Number of neutron captures
+ENDBIB              26
+COMMON               4          3
+ERR-1      ERR-2      ERR-3      MONIT-ERR
+PER-CENT   PER-CENT   PER-CENT   PER-CENT
+ 3.         3.         3.         3.
+ENDCOMMON            3
+DATA                 5          7
+EN-MEAN    EN-RSL-FW  DATA       ERR-T      MONIT
+KEV        KEV        MICRO-B    MICRO-B    B
+ 157.       84.          3.47E+01   0.22E+01 0.270
+ 349.       64.          1.61E+02   0.17E+02 0.162
+ 398.       65.          2.92E+02   0.16E+02 0.179
+ 427.       46.          3.19E+02   0.19E+02 0.153
+ 468.       47.          3.79E+01   0.28E+01 0.141
+ 498.       53.          1.94E+01   0.18E+01 0.133
+ 556.       52.          4.01E+01   0.26E+01 0.121
+ENDDATA              9
+ENDSUBENT           44
+ENDENTRY             4

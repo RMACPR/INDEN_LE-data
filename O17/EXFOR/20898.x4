@@ -1,0 +1,327 @@
+ENTRY            20898   20180309   20180917   20180917       2267
+SUBENT        20898001   20180309   20180917   20180917       2267
+BIB                 12         39
+INSTITUTE  (2GERHAM) Institut fur Experimentalphysik.
+REFERENCE  (C,66PARIS,1,225,1966)  Tables and graphs.
+           (P,EANDC(E)-66,42,1966) Preliminary data
+AUTHOR     (M.Bormann,F.Dreyer,H.Neuert,I.Riehle,U.Zielinski)
+TITLE       Measurements of some fast neutron cross sections
+            with the activation method
+FACILITY   (CCW,2GERHAM) 150 keV Cockcroft-Walton accelerator.
+           (VDG,2GERHAM) Two Van de Graaff accelerators with
+                      max energy of 1 MeV and 3 MeV, respectively.
+INC-SOURCE (D-T) Deuterium beam on titanium-tritium target.
+            Water cooled.
+METHOD     (ACTIV) Activation.
+DETECTOR   (NAICR) 3 by 2 inch NaI well crystal, and a gamma-gamma
+            coincidence spectrometer of two 3 by 3 inch
+            NaI-crystals for annihilation radiation.
+MONITOR    (1-H-1(N,EL)1-H-1,,SIG) Flux monitor by proton recoil
+            in a stilbene crystal, 1 inch diam, 1 inch long,
+            at the angle corresponding to 14.1MeV.
+CORRECTION .Data are corrected for neutron absorption
+ERR-ANALYS (ERR-T)  Quoted errors do not include uncertainties
+            in decay schemes and mainly consist of:
+             * the statistical error of the sample activities,
+           (ERR-1) the uncertainty in the neutron flux on the
+           sample (6% due to the error of the flux measurement at
+           14.1 MeV, the irradiation geometry and the differential
+           cross-sections for the 3H(d,n)4He reaction)
+           (ERR-2) the error in the counting efficiency 1.5% for
+                   the well crystal
+           (ERR-3) the error in the counting efficiency  8% for
+                   the coincidence spectrometer
+           (ERR-4)  the uncertainty in the correction for neutron
+                    absorption in the sample.
+HISTORY    (19790404C) Recompiled from original literature.
+           (19821119A) Data heading in Subent 009 corrected.
+           (20041221U)  Dates corrected
+           (20070120U)  correlation to Entry 20899 established
+           (20180309U) SD:Updated to lower case. REL-REF added.
+           STATUS moved  to Subents 002-013. ERR-ANALYS update.
+           DATA-ERR -> ERR-T.
+ENDBIB              39
+COMMON               4          3
+ERR-1      ERR-2      ERR-3      ERR-4
+PER-CENT   PER-CENT   PER-CENT   PER-CENT
+  6.          1.5        8.         1.
+ENDCOMMON            3
+ENDSUBENT           46
+SUBENT        20898002   20180309   20180917   20180917       2267
+BIB                  3          4
+REACTION   (8-O-16(N,P)7-N-16,,SIG)
+STATUS     (TABLE) Table 1 from 66PARIS,1,225,1967
+HISTORY    (20180309U) SD: Values update according to
+           presentation in the table. DATA-ERR -> ERR-T.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         15
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        MB         MB
+      13.35       0.14       47.0        4.8
+      13.58       0.14       43.4        4.4
+      14.00       0.14       44.0        4.5
+      14.10       0.22       40.1        4.1
+      14.25       0.14       37.7        3.8
+      14.53       0.14       38.9        4.0
+      14.82       0.16       35.8        3.7
+      15.08       0.17       32.2        3.3
+      15.30       0.18       33.2        3.4
+      15.54       0.19       34.0        3.5
+      15.76       0.19       31.8        3.2
+      15.93       0.21       31.3        3.2
+      16.17       0.28       31.0        3.2
+      16.50       0.30       29.7        3.0
+      16.65       0.26       26.0        2.7
+ENDDATA             17
+ENDSUBENT           26
+SUBENT        20898003   20180309   20180917   20180917       2267
+BIB                  3          4
+REACTION   (12-MG-25(N,P)11-NA-25,,SIG)
+STATUS     (TABLE) Table 1 from 66PARIS,1,225,1967
+HISTORY    (20180309U) SD: Values update according to
+           presentation in the table. DATA-ERR -> ERR-T.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         12
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        MB         MB
+      13.00       0.16       52.5        5.3
+      13.25       0.18       50.0        5.0
+      13.55       0.14       53.0        5.3
+      14.00       0.14       49.0        4.9
+      14.28       0.16       43.0        4.3
+      14.74       0.20       40.0        4.0
+      15.21       0.28       37.0        3.7
+      15.68       0.29       36.0        3.6
+      15.92       0.23       37.5        3.8
+      16.17       0.28       36.0        3.6
+      16.42       0.30       34.0        3.4
+      16.65       0.20       27.5        2.8
+ENDDATA             14
+ENDSUBENT           23
+SUBENT        20898004   20180309   20180917   20180917       2267
+BIB                  3          4
+REACTION   (16-S-34(N,P)15-P-34,,SIG)
+STATUS     (TABLE) Table 1 from 66PARIS,1,225,1967
+HISTORY    (20180309U) SD: Values update according to
+           presentation in the table. DATA-ERR -> ERR-T.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          6
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        MB         MB
+      14.00       0.22        78.        7.5
+      14.96       0.23        73.        7.0
+      15.92       0.26        62.        6.0
+      16.17       0.28        58.        5.6
+      16.42       0.30        57.        5.5
+      16.65       0.20        53.        5.1
+ENDDATA              8
+ENDSUBENT           17
+SUBENT        20898005   20180309   20180917   20180917       2267
+BIB                  3          4
+REACTION   (28-NI-58(N,P)27-CO-58,,SIG)
+STATUS     (TABLE) Table 1 from 66PARIS,1,225,1967
+HISTORY    (20180309U) SD: Values update according to
+           presentation in the table. DATA-ERR -> ERR-T.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 5         10
+EN         -EN-RSL    +EN-RSL    DATA       ERR-T
+MEV        MEV        MEV        MB         MB
+      12.95       0.20       0.20       532.        44.
+       13.5       0.25       0.25       473.        39.
+       14.1       0.25       0.25       411.        30.
+       14.9       0.30       0.30       373.        31.
+       15.6       0.35       0.30       317.        26.
+       16.3       0.35       0.30       277.        23.
+      17.25       0.40       0.25       246.        20.
+       18.0       0.35       0.25       221.        18.
+       18.9       0.30       0.15       209.        17.
+       19.6       0.25       0.15       215.        18.
+ENDDATA             12
+ENDSUBENT           21
+SUBENT        20898006   20180309   20180917   20180917       2267
+BIB                  3          4
+REACTION   (33-AS-75(N,P)32-GE-75,,SIG)
+STATUS     (TABLE) Table 1 from 66PARIS,1,225,1967
+HISTORY    (20180309U) SD: Values update according to
+           presentation in the table. DATA-ERR -> ERR-T.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 5         10
+EN         -EN-RSL    +EN-RSL    DATA       ERR-T
+MEV        MEV        MEV        MB         MB
+      12.54       0.17       0.17       16.4        1.5
+      13.31       0.23       0.23       18.3        1.6
+      14.10       0.27       0.27       20.3        1.8
+      14.88       0.30       0.30       18.4        1.7
+      15.62       0.35       0.31       17.5        1.6
+      16.31       0.38       0.30       16.4        1.5
+      17.23       0.42       0.26       15.4        1.4
+      18.02       0.37       0.24       15.1        1.4
+      18.89       0.22       0.15       14.1        1.3
+      19.58       0.14       0.14       13.7        1.2
+ENDDATA             12
+ENDSUBENT           21
+SUBENT        20898007   20180309   20180917   20180917       2267
+BIB                  3          4
+REACTION   (34-SE-74(N,P)33-AS-74,,SIG)
+STATUS     (TABLE) Table 1 from 66PARIS,1,225,1967
+HISTORY    (20180309U) SD: Values update according to
+           presentation in the table. DATA-ERR -> ERR-T.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 5         10
+EN         -EN-RSL    +EN-RSL    DATA       ERR-T
+MEV        MEV        MEV        MB         MB
+      12.95       0.20       0.20       174.        52.
+       13.5       0.25       0.25       107.        32.
+       14.1       0.25       0.25       105.        20.
+       14.9       0.30       0.30       111.        33.
+       15.6       0.35       0.30        73.        22.
+       16.3       0.35       0.30        81.        24.
+       17.2       0.40       0.25        79.        24.
+        18.       0.35       0.25        70.        21.
+       18.8       0.30       0.15        72.        22.
+       19.6       0.25       0.15        69.        21.
+ENDDATA             12
+ENDSUBENT           21
+SUBENT        20898008   20180309   20180917   20180917       2267
+BIB                  4          5
+REACTION   (37-RB-85(N,P)36-KR-85-M,,SIG)
+DECAY-DATA (36-KR-85-M,4.48HR) Value from chart of nuclides.
+STATUS     (TABLE) Table 1 from 66PARIS,1,225,1967
+HISTORY    (20180309U) SD: Values update according to presentation
+           in the table.HALF-LIFE -> DECAY-DATA. DATA-ERR -> ERR-T
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 5         10
+EN         -EN-RSL    +EN-RSL    DATA       ERR-T
+MEV        MEV        MEV        MB         MB
+      12.94       0.36       0.36        3.3        0.5
+      13.51       0.38       0.38        3.6        0.5
+      14.10       0.47       0.47        4.3        0.3
+      14.88       0.53       0.53        4.7        0.5
+      15.62       0.51       0.55        4.6        0.5
+      16.31       0.61       0.54        4.6        0.5
+      17.23       0.67       0.48        4.2        0.4
+      18.02       0.60       0.43        3.8        0.4
+      18.89       0.50       0.29        3.0        0.3
+      19.58       0.17       0.17        2.4        0.2
+ENDDATA             12
+ENDSUBENT           22
+SUBENT        20898009   20180309   20180917   20180917       2267
+BIB                  3          5
+REACTION   (16-S-32(N,T)15-P-30,,SIG)
+STATUS     (TABLE) Table 1 from 66PARIS,1,225,1967
+HISTORY    (20041221U) Data units corrected
+           (20180309U) SD: Values update according to
+           presentation in the table.  DATA-ERR -> ERR-T.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 5          6
+EN         -EN-RSL    +EN-RSL    DATA       ERR-T
+MEV        MEV        MEV        MICRO-B    MICRO-B
+      14.70       0.35       0.35        7.5        0.7
+      16.05       0.95       0.95       471.        61.
+      17.05       0.95       0.95       737.        96.
+      18.00       0.90       0.70      1000.       130.
+      18.70       0.75       0.50      1260.       160.
+      19.60       0.30       0.20      1380.       180.
+ENDDATA              8
+ENDSUBENT           18
+SUBENT        20898010   20180309   20180917   20180917       2267
+BIB                  4          5
+REACTION   (20-CA-40(N,T)19-K-38-G,,SIG)
+DECAY-DATA (19-K-38-G,7.63MIN) Value from chart of nuclides.
+STATUS     (TABLE) Table 1 from 66PARIS,1,225,1967
+HISTORY    (20180309U) SD: Values update according to presentation
+           in the table. HALF-LIFE -> DECAY-DATA.DATA-ERR -> ERR-T
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 5          7
+EN         -EN-RSL    +EN-RSL    DATA       ERR-T
+MEV        MEV        MEV        MICRO-B    MICRO-B
+       14.9        1.2        1.4        31.         5.
+       16.1        1.4        1.4        92.        11.
+       17.1        1.4        1.3       135.        15.
+       17.7        1.4        1.2       157.        17.
+       18.0        1.3        1.0       158.        17.
+       18.7        1.2        0.7       188.        20.
+       19.6        0.3        0.2       169.        18.
+ENDDATA              9
+ENDSUBENT           19
+SUBENT        20898011   20180309   20180917   20180917       2267
+BIB                  3          4
+REACTION   (12-MG-26(N,A)10-NE-23,,SIG)
+STATUS     (TABLE) Table 1 from 66PARIS,1,225,1967
+HISTORY    (20180309U) SD: Values update according to
+           presentation in the table. DATA-ERR -> ERR-T.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         12
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        MB         MB
+      13.00       0.16       90.0        9.0
+      13.25       0.18       81.0        8.1
+      13.55       0.14       88.5        8.9
+      14.00       0.14       84.0        8.4
+      14.28       0.16       77.0        7.7
+      14.74       0.20       66.5        6.5
+      15.21       0.28       61.0        6.1
+      15.68       0.29       59.0        5.9
+      15.92       0.23       64.0        6.4
+      16.17       0.28       61.0        6.1
+      16.42       0.30       59.0        5.9
+      16.65       0.20       53.0        5.3
+ENDDATA             14
+ENDSUBENT           23
+SUBENT        20898012   20180309   20180917   20180917       2267
+BIB                  3          4
+REACTION   (33-AS-75(N,A)31-GA-72,,SIG)
+STATUS     (TABLE) Table 1 from 66PARIS,1,225,1967
+HISTORY    (20180309U) SD: Values update according to presentation
+           in the table. HALF-LIFE -> DECAY-DATA.DATA-ERR -> ERR-T
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 5         10
+EN         -EN-RSL    +EN-RSL    DATA       ERR-T
+MEV        MEV        MEV        MB         MB
+      12.54       0.17       0.17        9.9        0.9
+      13.31       0.23       0.23       11.2        0.9
+      14.10       0.27       0.27       12.5        1.0
+      14.88       0.30       0.30       13.2        1.1
+      15.62       0.35       0.31       12.8        1.0
+      16.31       0.38       0.30       12.3        1.0
+      17.23       0.42       0.26       10.6        0.8
+      18.02       0.37       0.24       10.3        0.8
+      18.89       0.22       0.15        9.4        0.7
+      19.58       0.14       0.14        8.2        0.6
+ENDDATA             12
+ENDSUBENT           21
+SUBENT        20898013   20180309   20180917   20180917       2267
+BIB                  3          4
+REACTION   (37-RB-85(N,A)35-BR-82,,SIG)
+STATUS     (TABLE) Table 1 from 66PARIS,1,225,1967
+HISTORY    (20180309U) SD: Values update according to presentation
+           in the table. HALF-LIFE -> DECAY-DATA.DATA-ERR -> ERR-T
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 5         10
+EN         -EN-RSL    +EN-RSL    DATA       ERR-T
+MEV        MEV        MEV        MB         MB
+      12.94       0.36       0.36        5.2        0.5
+      13.51       0.38       0.38        6.5        0.7
+      14.10       0.47       0.47        7.0        0.5
+      14.88       0.53       0.53        8.1        0.8
+      15.62       0.51       0.55        8.5        0.8
+      16.31       0.61       0.54        9.6        0.9
+      17.23       0.67       0.48       10.0        0.9
+      18.02       0.60       0.43       10.2        0.9
+      18.89       0.50       0.29        9.7        0.8
+      19.58       0.17       0.17        9.5        0.7
+ENDDATA             12
+ENDSUBENT           21
+ENDENTRY            13

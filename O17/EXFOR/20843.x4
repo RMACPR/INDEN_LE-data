@@ -1,0 +1,466 @@
+ENTRY            20843   20160620   20161017   20160927       2251
+SUBENT        20843001   20160620   20161017   20160927       2251
+BIB                 13         42
+INSTITUTE  (2SWDUPP) Tandem Accelerator Laboratory, C.N,L.N.
+           (2SWDFOA) H.C. , L-G.S.
+REFERENCE  (J,NSE,66,75,197804) Main reference.
+           (P,UPP-76,92,197701) Graphs.
+           (C,76LOWELL,1318,197607) No data given.
+           (P,KDK-12,28,197604) No data given.
+           (P,INIS-MF-1634,197501) Superseded.
+           (R,INDC-17,13,197410) Superseded.
+           (P,INIS-MF-1843,1974) Superseded.
+AUTHOR     (C.Nordborg,L.Nilsson,H.Conde,L-G.Stroemberg)
+TITLE      -Gamma-ray Production Cross Sections Of Neutron-induced
+            Reactions In Oxygen-.
+FACILITY   (VDG,2SWDUPP) 6 MV EN Tandem Van De Graaff.
+INC-SOURCE (D-D) For 7 - 9 MeV neutrons.
+           (P-T) For 8 - 10.5 MeV neutrons.
+METHOD     (TOF) Time-of-flight techniques.
+           (COINC) 256(gamma-ray pulse height)x32(flight time)
+           matrix was obtained via two ADCs in coincidence.
+DETECTOR   (NAICR) NaI(Tl) 22.6 cm diam. x 20.8 cm, viewed by
+           seven RCS 8054 PM tubes - as gamma spectrometer;
+           energy resolution ~ 10%; efficiency was calculated to
+           be 95%. Distance from the front surface of detector to
+           the sample typically 1.2 m.
+           Detector response function was determined by gamma-ray
+           sources: Th228(2.61 MeV), C12(p,p'gamma)C12 reaction
+            (4.44 MeV), O16(n,n'gamma)O16 reaction(6.13 MeV).
+           (SCIN) Plastic scintillator as flux monitor.
+MONITOR    (1-H-1(N,EL)1-H-1,,SIG) Proton recoil telescope for abs
+            determination of neutron flux, plastic scintillator as
+            relative flux monitor.
+PART-DET   (G) Gamma rays.
+CORRECTION For background ( measured at run without sample).
+           For multiple scattering and neutron attenuation :
+           in oxygen sample 8 and 30%, respectively.
+           Attenuation of gamma-rays in the sample was shown to be
+           of minor importance ( 3% for 6-13 Mev gamma rays)
+STATUS     (APRVD)
+HISTORY    (19790308C)
+           (19790425E)
+           (20160620A) M.M. Main article was checked,
+           BIB information was updated. EN-RSL -> EN-RSL-HW.
+           Digitized data were added in Subent 003.
+ENDBIB              42
+NOCOMMON             0          0
+ENDSUBENT           45
+SUBENT        20843002   20160620   20161017   20160927       2251
+BIB                  5         11
+REACTION   (8-O-16(N,INL)8-O-16,PAR,DA,G)
+SAMPLE     .Water in cylindrical Al-holder 4 cm diam. x 5 cm.
+STATUS     (TABLE) Table 1 of J,NSE,66,75,1978
+ERR-ANALYS (ERR-T) Total error ~10% , based on the following
+            uncertainties (Table 2 of J,NSE,66,75,1978)
+           (ERR-1) Neutron flux,
+           (ERR-2) Detector efficiency,
+           (ERR-3) Unfolding and correction,
+           (ERR-S) Statistics including background subtraction.
+HISTORY    (20160620A) M.M. ERR-ANALYS was corrected,errors were
+                added in COMMON block.
+ENDBIB              11
+COMMON               7          6
+E          ANG        ERR-1      ERR-2      ERR-3      ERR-S
+ERR-T
+MEV        ADEG       PER-CENT   PER-CENT   PER-CENT   PER-CENT
+PER-CENT
+ 6.13       90.        8.         3.        5.         2.
+ 10.
+ENDCOMMON            6
+DATA                 3         73
+EN         EN-RSL-HW  DATA
+MEV        MEV        MB/SR
+  6.95          6.E-02   4.20E+00
+  7.35          6.E-02   1.96E+01
+  7.37          5.E-02   1.93E+01
+  7.55          6.E-02   1.41E+01
+  7.61          5.E-02   1.22E+01
+  7.85          6.E-02   1.73E+01
+  7.96          4.E-02   9.20E+00
+  8.05          6.E-02   5.20E+00
+  8.06          4.E-02   4.50E+00
+  8.15          6.E-02   7.40E+00
+  8.16          4.E-02   1.01E+01
+  8.20          5.E-02   1.25E+01
+  8.20          6.E-02   1.07E+01
+  8.24          6.E-02   1.36E+01
+  8.26          4.E-02   1.54E+01
+  8.26          4.E-02   1.57E+01
+  8.29          6.E-02   1.49E+01
+  8.34          6.E-02   1.54E+01
+  8.35          6.E-02   1.56E+01
+  8.36          4.E-02   1.53E+01
+  8.36          4.E-02   1.57E+01
+  8.38          5.E-02   1.56E+01
+  8.39          6.E-02   1.56E+01
+  8.40          6.E-02   1.46E+01
+  8.44          6.E-02   1.41E+01
+  8.45          6.E-02   1.36E+01
+  8.46          4.E-02   1.40E+01
+  8.46          4.E-02   1.37E+01
+  8.49          6.E-02   1.29E+01
+  8.50          6.E-02   1.24E+01
+  8.50          5.E-02   1.18E+01
+  8.54          6.E-02   1.08E+01
+  8.56          4.E-02   1.00E+01
+  8.56          4.E-02   9.20E+00
+  8.58          6.E-02   9.20E+00
+  8.60          5.E-02   7.90E+00
+  8.63          6.E-02   8.80E+00
+  8.66          4.E-02   7.70E+00
+  8.66          4.E-02   8.80E+00
+  8.68          6.E-02   9.80E+00
+  8.73          7.E-02   1.06E+01
+  8.76          4.E-02   9.90E+00
+  8.76          4.E-02   1.12E+01
+  8.78          7.E-02   1.24E+01
+  8.83          7.E-02   1.49E+01
+  8.86          4.E-02   1.26E+01
+  8.86          4.E-02   1.33E+01
+  8.88          7.E-02   1.40E+01
+  8.93          7.E-02   1.13E+01
+  8.96          4.E-02   9.30E+00
+  8.96          4.E-02   9.20E+00
+  8.97          7.E-02   8.90E+00
+  9.02          7.E-02   1.08E+01
+  9.06          4.E-02   1.15E+01
+  9.06          4.E-02   1.21E+01
+  9.07          7.E-02   1.27E+01
+  9.12          7.E-02   1.42E+01
+  9.16          4.E-02   1.59E+01
+  9.17          7.E-02   1.49E+01
+  9.21          7.E-02   1.51E+01
+  9.26          4.E-02   1.34E+01
+  9.26          7.E-02   1.27E+01
+  9.31          7.E-02   1.21E+01
+  9.36          7.E-02   1.08E+01
+  9.36          4.E-02   1.04E+01
+  9.41          7.E-02   9.40E+00
+  9.45          4.E-02   1.11E+01
+  9.55          4.E-02   1.20E+01
+  9.65          4.E-02   1.39E+01
+  9.75          4.E-02   1.29E+01
+  9.85          4.E-02   1.20E+01
+ 10.05          4.E-02   1.19E+01
+ 10.25          4.E-02   9.90E+00
+ENDDATA             75
+ENDSUBENT           98
+SUBENT        20843003   20160620   20161017   20160927       2251
+BIB                  5         15
+REACTION   (8-O-16(N,INL)8-O-16,PAR,DA,G,REL)
+            Angular distribution at EN = 8.85 MeV for 6.13 gamma
+            ray transition -  relative scale.
+SAMPLE     .Water In Cylindrical Al-holder 4 cm x 5 cm.
+ERR-ANALYS (COS-ERR-D) Digitizing error in scale X,
+            reflect non-linearity of scales.
+            Quantization error (one pixel) for scale X - 0.0023.
+           (ERR-DIG) Digitizing error in scale Y,
+            reflect non-linearity of scales.
+            Quantization error (one pixel) for scale Y -
+            0.0023 arb.units.
+           (DATA-ERR)Type of error is not explained in the article
+STATUS     (CURVE) Fig.6 upper of J,NSE,66,75,1978 .
+HISTORY    (20160620A) M.M. Digitized data were added.
+           REL was added in REACTION
+ENDBIB              15
+COMMON               4          3
+EN         E          COS-ERR-D  ERR-DIG
+MEV        MEV        NO-DIM     ARB-UNITS
+ 8.85       6.13      0.0020       0.0016
+ENDCOMMON            3
+DATA                 3         10
+COS        DATA       DATA-ERR
+NO-DIM     ARB-UNITS  ARB-UNITS
+ 0.6343     1.3578    0.0685
+ 0.4964     1.2599    0.0571
+ 0.3360     1.2667    0.0571
+ 0.2551     1.2381    0.0594
+ 0.1647     1.0655    0.0525
+ 0.0885     1.0347    0.0479
+ 0.0008     0.9946    0.0502
+-0.1721     1.0583    0.0479
+-0.2612     1.1141    0.0616
+-0.4164     1.2352    0.0616
+ENDDATA             12
+ENDSUBENT           36
+SUBENT        20843004   20160620   20161017   20160927       2251
+BIB                  5         11
+REACTION   (8-O-16(N,INL)8-O-16,PAR,DA,G)
+SAMPLE     .Water in cylindrical Al-holder 4 cm x 5 cm.
+STATUS     (TABLE) Table 1 of J,NSE,66,75,1978
+ERR-ANALYS (ERR-T) Total error ~11%, based on the following
+            uncertainties (Table 2 of J,NSE,66,75,1978)
+           (ERR-1) Neutron flux,
+           (ERR-2) Detector efficiency,
+           (ERR-3) Unfolding and correction,
+           (ERR-S) Statistics including background subtraction.
+HISTORY    (20160620A) M.M. ERR-ANALYS was corrected,errors were
+                added in COMMON block.
+ENDBIB              11
+COMMON               8          6
+E-MIN      E-MAX      ANG        ERR-1      ERR-2      ERR-3
+ERR-S      ERR-T
+MEV        MEV        ADEG       PER-CENT   PER-CENT   PER-CENT
+PER-CENT   PER-CENT
+ 6.92       7.12       90.       8.          3.        5.
+5.           11.
+ENDCOMMON            6
+DATA                 3         69
+EN         EN-RSL-HW  DATA
+MEV        MEV        MB/SR
+  7.61          5.E-02   0.9
+  7.85          6.E-02   4.4
+  7.96          4.E-02   3.7
+  8.05          6.E-02   4.0
+  8.06          4.E-02   4.3
+  8.15          6.E-02   5.2
+  8.16          4.E-02   4.8
+  8.20          5.E-02   4.7
+  8.20          6.E-02   5.2
+  8.24          6.E-02   5.3
+  8.26          4.E-02   5.7
+  8.26          4.E-02   5.8
+  8.29          6.E-02   5.8
+  8.34          6.E-02   6.2
+  8.35          6.E-02   6.7
+  8.36          4.E-02   6.6
+  8.36          4.E-02   6.6
+  8.38          5.E-02   7.2
+  8.39          6.E-02   7.2
+  8.40          6.E-02   7.1
+  8.44          6.E-02   7.8
+  8.45          6.E-02   7.7
+  8.46          4.E-02   7.1
+  8.46          4.E-02   7.4
+  8.49          6.E-02   7.1
+  8.50          6.E-02   7.6
+  8.50          5.E-02   7.7
+  8.54          6.E-02   6.4
+  8.56          4.E-02   7.5
+  8.56          4.E-02   7.6
+  8.58          6.E-02   6.4
+  8.60          5.E-02   6.6
+  8.63          6.E-02   7.3
+  8.66          4.E-02   6.9
+  8.66          4.E-02   7.0
+  8.68          6.E-02   6.9
+  8.73          7.E-02   5.9
+  8.76          4.E-02   6.0
+  8.76          4.E-02   5.4
+  8.78          7.E-02   6.7
+  8.83          7.E-02   7.0
+  8.86          4.E-02   6.2
+  8.86          4.E-02   6.3
+  8.88          7.E-02   6.8
+  8.93          7.E-02   6.0
+  8.96          4.E-02   6.8
+  8.96          4.E-02   6.4
+  8.97          7.E-02   6.1
+  9.02          7.E-02   8.1
+  9.06          4.E-02   7.8
+  9.06          4.E-02   8.4
+  9.07          7.E-02   7.6
+  9.12          7.E-02   6.9
+  9.16          4.E-02   7.6
+  9.17          7.E-02   6.8
+  9.21          7.E-02   7.0
+  9.26          4.E-02   7.4
+  9.26          7.E-02   7.7
+  9.31          7.E-02   7.6
+  9.36          7.E-02   8.3
+  9.36          4.E-02   8.7
+  9.41          7.E-02   8.2
+  9.45          4.E-02   8.4
+  9.55          4.E-02   6.9
+  9.65          4.E-02   8.3
+  9.75          4.E-02   8.3
+  9.85          4.E-02   8.5
+ 10.05          4.E-02   9.4
+ 10.25          4.E-02   9.2
+ENDDATA             71
+ENDSUBENT           94
+SUBENT        20843005   20160620   20161017   20160927       2251
+BIB                  5         13
+REACTION   (8-O-16(N,A)6-C-13,PAR,DA,G)
+SAMPLE     .Water in cylindrical Al-holder 4 cm x 5 cm.
+STATUS     (TABLE) Table 1 of J,NSE,66,75,1978
+ERR-ANALYS (ERR-T,11.,14.) Total error ~11% at En<8.7MeV,
+           ~12% 8.7MeV<En<9.8MeV, ~14% at En>9.8MeV ;
+           based on the following
+            uncertainties (Table 2 of J,NSE,66,75,1978)
+           (ERR-1) Neutron flux,
+           (ERR-2) Detector efficiency,
+           (ERR-3) Unfolding and correction,
+           (ERR-S) Statistics including background subtraction.
+HISTORY    (20160620A) M.M. ERR-ANALYS was corrected,errors were
+                added in COMMON block.
+ENDBIB              13
+COMMON               5          3
+E          ANG        ERR-1      ERR-2      ERR-S
+MEV        ADEG       PER-CENT   PER-CENT   PER-CENT
+ 3.09       90.        8.         3.         2.
+ENDCOMMON            3
+DATA                 4         31
+EN         EN-RSL-HW  DATA       ERR-3
+MEV        MEV        MB/SR      PER-CENT
+ 8.06           4.E-02 1.8        5.
+ 8.16           4.E-02 1.8        5.
+ 8.20           5.E-02 1.8        5.
+ 8.26           4.E-02 2.3        5.
+ 8.26           4.E-02 2.9        5.
+ 8.36           4.E-02 2.1        5.
+ 8.36           4.E-02 1.6        5.
+ 8.38           5.E-02 2.3        5.
+ 8.46           4.E-02 2.4        5.
+ 8.46           4.E-02 2.4        5.
+ 8.50           6.E-02 2.9        5.
+ 8.56           4.E-02 2.9        5.
+ 8.56           4.E-02 2.9        5.
+ 8.60           5.E-02 2.7        5.
+ 8.66           4.E-02 3.2        5.
+ 8.66           4.E-02 2.5        5.
+ 8.76           4.E-02 4.5        7.
+ 8.86           4.E-02 4.0        7.
+ 8.86           4.E-02 3.1        7.
+ 8.96           4.E-02 2.2        7.
+ 9.06           4.E-02 3.5        7.
+ 9.06           4.E-02 3.7        7.
+ 9.16           4.E-02 3.3        7.
+ 9.26           4.E-02 3.9        7.
+ 9.45           4.E-02 4.9        7.
+ 9.55           4.E-02 4.3        7.
+ 9.65           4.E-02 4.7        7.
+ 9.75           4.E-02 3.8        7.
+ 9.85           4.E-02 3.7       10.
+ 10.05          4.E-02 2.3       10.
+ 10.25          4.E-02 2.7       10.
+ENDDATA             33
+ENDSUBENT           55
+SUBENT        20843006   20160620   20161017   20160927       2251
+BIB                  5         11
+REACTION   (8-O-16(N,A)6-C-13,PAR,DA,G)
+SAMPLE     .Water in cylindrical Al-holder 4 cm x 5 cm.
+STATUS     (TABLE) Table 1 of J,NSE,66,75,1978
+ERR-ANALYS (ERR-T) Total error ~11% , based on the following
+            uncertainties (Table 2 of J,NSE,66,75,1978)
+           (ERR-1) Neutron flux,
+           (ERR-2) Detector efficiency,
+           (ERR-3) Unfolding and correction,
+           (ERR-S) Statistics including background subtraction.
+HISTORY    (20160620A) M.M. E-MAX value was corrected 3.86 -> 3.85
+             ERR-ANALYS was corrected,errors were added in COMMON.
+ENDBIB              11
+COMMON               8          6
+E-MIN      E-MAX      ANG        ERR-1      ERR-2      ERR-3
+ERR-S      ERR-T
+MEV        MEV        ADEG       PER-CENT   PER-CENT   PER-CENT
+PER-CENT   PER-CENT
+ 3.68       3.85       90.        8.         3.        5.
+ 5.        11.
+ENDCOMMON            6
+DATA                 3         31
+EN         EN-RSL-HW  DATA
+MEV        MEV        MB/SR
+ 8.06           4.E-02   1.70E+00
+ 8.16           4.E-02   2.60E+00
+ 8.20           5.E-02   2.30E+00
+ 8.26           4.E-02   3.10E+00
+ 8.26           4.E-02   3.10E+00
+ 8.36           4.E-02   2.80E+00
+ 8.36           4.E-02   2.90E+00
+ 8.38           5.E-02   2.90E+00
+ 8.46           4.E-02   3.30E+00
+ 8.46           4.E-02   3.20E+00
+ 8.50           6.E-02   4.00E+00
+ 8.56           4.E-02   4.00E+00
+ 8.56           4.E-02   3.40E+00
+ 8.60           5.E-02   5.30E+00
+ 8.66           4.E-02   5.60E+00
+ 8.66           4.E-02   4.70E+00
+ 8.76           4.E-02   1.00E+01
+ 8.86           4.E-02   1.01E+01
+ 8.86           4.E-02   1.01E+01
+ 8.96           4.E-02   9.20E+00
+ 9.06           4.E-02   9.40E+00
+ 9.06           4.E-02   1.09E+01
+ 9.16           4.E-02   7.50E+00
+ 9.26           4.E-02   5.90E+00
+ 9.45           4.E-02   7.40E+00
+ 9.55           4.E-02   7.70E+00
+ 9.65           4.E-02   1.10E+01
+ 9.75           4.E-02   1.19E+01
+ 9.85           4.E-02   1.32E+01
+ 10.05          4.E-02   1.26E+01
+ 10.25          4.E-02   1.69E+01
+ENDDATA             33
+ENDSUBENT           56
+SUBENT        20843007   20160620   20161017   20160927       2251
+BIB                  4          4
+REACTION   (6-C-12(N,INL)6-C-12,PAR,DA,G)
+SAMPLE     .Graphite cylinder 3 cm diam. x 4 cm.
+STATUS     (TABLE) Text, page 82 of J,NSE,66,75,1978
+ERR-ANALYS (DATA-ERR) Error given without comment.
+ENDBIB               4
+COMMON               2          3
+EN         E
+MEV        MEV
+ 8.6        4.44
+ENDCOMMON            3
+DATA                 3          2
+ANG        DATA       DATA-ERR
+ADEG       MB/SR      MB/SR
+ 55.        23.4       2.1
+ 90.        14.6       1.3
+ENDDATA              4
+ENDSUBENT           17
+SUBENT        20843008   20160620   20161017   20160927       2251
+BIB                  6         23
+REACTION   (6-C-12(N,INL)6-C-12,PAR,SIG)
+SAMPLE     .Graphite cylinder 3 cm diam. x 4 cm .
+REL-REF    (A,10027025,F.G.Perey+,R,ORNL-4441,1969)
+           (A,,G.L.Morgan+,R,ORNL-TM-3702,1972)
+           G.L.Morgan,T.A.Love,J.K.Dickens,F.G.Perey,
+           "Gamma-ray production cross section of tantalum and
+           carbon for incident neutron energies between 0.007 and
+           20 MeV", ORNL/TM-3702,1972.
+           (A,10321004,D.E.Velkley+,J,PR/C,7,1736,1973)
+           (A,22544005,G.Haouat+,J,NSE,65,331,1978)
+           (A,22559008,G.Haouat+,R,CEA-R-4641,1975)
+           (A,12890007,D.W.Glasgow+,J,NSE,61,521,1976)
+            Data from Priv. communication with W.Purser.
+           Also J.Lachkar,J.Sigaud,Y.Patin,unpublished, given in
+             REL-REF of Haouat+.
+           Fair agreement with previous measurements.
+STATUS     (TABLE) Text, page 82 of J,NSE,66,75,1978
+ERR-ANALYS (DATA-ERR) Error given without comment.
+HISTORY    (20160620A) M.M. REACTION was corrected: G was deleted,
+           E -> E-LVL ( according to text in the NSE,66,75,1978:
+           "integrated c-s for (n,n') reaction populating the
+           4.44-MeV level in C-12") .
+           REL-REFs were added.
+ENDBIB              23
+NOCOMMON             0          0
+DATA                 4          1
+EN         E-LVL      DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 8.6        4.44       294.      26.
+ENDDATA              3
+ENDSUBENT           31
+SUBENT        20843009   20160620   20161017   20160927       2251
+BIB                  6          6
+REACTION   (13-AL-27(N,A)11-NA-24,,SIG)
+SAMPLE     .Thin Al metal foil.
+METHOD     (ACTIV) Activation.
+DETECTOR   (GELI)
+STATUS     (TABLE) Text, page 82 of J,NSE,66,75,1978
+ERR-ANALYS (DATA-ERR) Error given without comment.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        MB         MB
+ 8.5        55.        6.
+ENDDATA              3
+ENDSUBENT           14
+ENDENTRY             9

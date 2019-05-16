@@ -1,0 +1,118 @@
+ENTRY            30048   20080215   20080530   20080530       3125
+SUBENT        30048001   20080215   20080530   20080530       3125
+BIB                 14         31
+INSTITUTE  (3CHFNTU)
+REFERENCE  (J,NP/A,104,677,1967) Expt+analys,e+ang.Distr. cfd th
+           (J,CHP,5,33,196704) Short description,graphs,cfd Th
+           (J,CHP,6,119,1968) Descr.Of cloud chamber and analysis
+AUTHOR     (Yuin-chi Hsu,Chia-yi Huang,Ching-ching Chang)
+TITLE      Angular distributions of alpha particles from the
+           reaction 16O(n,alfa)13C at En=14.1 MeV
+FACILITY   (CCW)      Cockcroft-Walton accelerator working as a
+           pulsed neutron source synchronized to the detector
+INC-SOURCE (D-T)      T(d,n)He4 reaction with 150 keV deuterons
+SAMPLE     See detector
+METHOD     Stereoscopic photography of the tracks with 2 cameras.
+           track lengths and angles measured optically.
+           Evaluation of alpha-particle energy made by means of
+           range-energy table of whaling.(Encyclopedia of Physics
+           XXXIV,193,1958) and checked  experimentally with Po-210
+           alpha source
+DETECTOR   (TRD)      Expansion cloud chamber 40 cm diameter and
+           20 cm height filled with oxygen gas at 1 atm.
+ANALYSIS   Theoretical fits to observed angular distributions
+           attempted in terms of heavy-particle stripping process
+           for backward angles and of knock-on process for forward
+           angles using simple butler formula. Reasonably well fit
+           except in most backward angles.
+PART-DET   (A)        Alphas
+STATUS     (TABLE) Published in NP/A,104,677. Data from priv.Com.
+HISTORY    (19680806R) Private communication from Dr.Hsu
+           (19701201T)  Previously Dastar-00713
+           (20080215A) BIB section updated. Subent 003 with
+           angular distribution was added.
+ERR-ANALYS (DATA-ERR) No information available
+ENDBIB              31
+COMMON               1          3
+EN
+MEV
+ 1.4100E+01
+ENDCOMMON            3
+ENDSUBENT           38
+SUBENT        30048002   20080215   20080530   20080530       3125
+BIB                  2          2
+REACTION   (8-O-16(N,A)6-C-13,PAR,SIG)
+EN-SEC     (E-LVL,6-C-13)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          3
+E-LVL      E-LVL      DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 0.0000E+00            2.5900E+01 2.2000E+00
+ 3.0800E+00            3.1900E+01 2.8000E+00
+ 3.6800E+00  3.85      1.0530E+02 9.1000E+00
+ENDDATA              5
+ENDSUBENT           12
+SUBENT        30048003   20080215   20080530   20080530       3125
+BIB                  2          2
+REACTION   (8-O-16(N,A)6-C-13,PAR,DA)
+EN-SEC     (E-LVL,6-C-13)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 5         51
+E-LVL      E-LVL      ANG-CM     DATA-CM    DATA-ERR
+MEV        MEV        ADEG       MB/SR      MB/SR
+ 0.0000E+00               5.       2.9         0.9
+ 0.0000E+00              15.       2.1         0.6
+ 0.0000E+00              25.       0.6         0.2
+ 0.0000E+00              35.       0.2         0.1
+ 0.0000E+00              45.       0.2         0.1
+ 0.0000E+00              55.       0.8         0.2
+ 0.0000E+00              65.       1.3         0.2
+ 0.0000E+00              75.       0.4         0.1
+ 0.0000E+00              85.       0.5         0.1
+ 0.0000E+00              95.       1.0         0.2
+ 0.0000E+00             105.       1.9         0.3
+ 0.0000E+00             115.       2.7         0.4
+ 0.0000E+00             125.       3.2         0.4
+ 0.0000E+00             135.       2.4         0.4
+ 0.0000E+00             145.       2.3         0.4
+ 0.0000E+00             155.       4.8         0.7
+ 0.0000E+00             170.      18.7         1.6
+ 3.0800E+00               5.       0.5         0.5
+ 3.0800E+00              15.       0.2         0.2
+ 3.0800E+00              25.       0.5         0.2
+ 3.0800E+00              35.       0.6         0.2
+ 3.0800E+00              45.       1.6         0.3
+ 3.0800E+00              55.       1.1         0.3
+ 3.0800E+00              65.       0.6         0.1
+ 3.0800E+00              75.       1.0         0.2
+ 3.0800E+00              85.       0.9         0.2
+ 3.0800E+00              95.       1.7         0.3
+ 3.0800E+00             105.       1.7         0.3
+ 3.0800E+00             115.       2.1         0.3
+ 3.0800E+00             125.       2.2         0.4
+ 3.0800E+00             135.       3.5         0.5
+ 3.0800E+00             145.       4.4         0.6
+ 3.0800E+00             155.       9.5         0.9
+ 3.0800E+00             170.      22.5         1.7
+ 3.68        3.85         5.      15.8         2.9
+ 3.68        3.85        15.      14.4         1.4
+ 3.68        3.85        25.      13.0         1.2
+ 3.68        3.85        35.      10.4         0.9
+ 3.68        3.85        45.       8.9         0.7
+ 3.68        3.85        55.       5.2         0.5
+ 3.68        3.85        65.       4.2         0.5
+ 3.68        3.85        75.       4.5         0.4
+ 3.68        3.85        85.       3.6         0.4
+ 3.68        3.85        95.       4.2         0.4
+ 3.68        3.85       105.       6.0         0.5
+ 3.68        3.85       115.       8.5         0.6
+ 3.68        3.85       125.      12.2         0.8
+ 3.68        3.85       135.      12.9         0.9
+ 3.68        3.85       145.      13.9         1.0
+ 3.68        3.85       155.      12.4         1.1
+ 3.68        3.85       170.      19.4         1.6
+ENDDATA             53
+ENDSUBENT           60
+ENDENTRY             3

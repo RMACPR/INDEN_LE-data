@@ -1,0 +1,95 @@
+ENTRY            10141   20001211   20010328   20050926       0000
+SUBENT        10141001   20001211   20010328   20050926       0000
+BIB                 12         21
+INSTITUTE  (1USAORL)
+REFERENCE  (J,PR/C,3,1737,197105)
+AUTHOR     (B.J.ALLEN,R.L.MACKLIN)
+TITLE      Neutron Capture Cross Sections of 13C and 16O
+FACILITY   (LINAC) Oak Ridge Linear Accelerator
+SAMPLE     1 g of 58% enriched 13C and 99.992% enriched 7Li2CO3.
+METHOD     Radiative widths of lowest energy resonances in
+            13C and 16O were calculated from capture area.
+            Maxwellian averages at T=30 keV were also calculated.
+DETECTOR   (SCIN) Two liquid scintillator cells flanked sample.
+            Detectors placed 40 m from source.  Detector
+            efficiency was sensitive to shape of response capture
+            spectrum,but response function was not.
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)
+ERR-ANALYS No information.
+STATUS     (APRVD) Approved by author.
+            Data taken from reference.
+HISTORY    (19720524)
+           (19820527A) Converted to REACTION formalism
+           (19820602A) BIB correction.
+           (20001211A) Converted to new date formats, lower case.
+ENDBIB              21
+NOCOMMON             0          0
+ENDSUBENT           24
+SUBENT        10141002   20001211   20010328   20050926       0000
+BIB                  2          4
+REACTION  1(6-C-13(N,0),,EN)
+          2(6-C-13(N,G),,WID)
+          3(6-C-13(N,EL),,WID)
+HISTORY    (19820511A) Subentries 2,7 combined
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 6          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2DATA      3DATA-ERR  3
+KEV        KEV        EV         EV         KEV        KEV
+152.       1.         4.0        1.6         5.         1.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        10141003   19820527   20010328   20050926       0000
+BIB                  2          3
+REACTION   (6-C-13(N,G)6-C-14,,SIG,,SPA)
+INC-SPECT  Averaged over Maxwellian spectrum KT=30 keV
+            to simulate reaction in the sun.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+30.        .12        .04
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        10141004   20001211   20010328   20050926       0000
+BIB                  2          4
+REACTION  1(8-O-16(N,0),,EN)
+          2(8-O-16(N,G),,WID)
+          3(8-O-16(N,EL),,WID)
+HISTORY    (19820511A) Subentries 4,8,combined
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 5          1
+DATA      1DATA-ERR  1DATA-MAX  2DATA      3DATA-ERR  3
+KEV        KEV        EV         KEV        KEV
+426.       10.        4.0         60.        15.
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        10141005   20001212   20010328   20050926       0000
+BIB                  3          4
+REACTION   (8-O-16(N,G)8-O-17,,SIG,,SPA)
+INC-SPECT  Averaged over Maxwellian spectrum KT=30 keV
+            to simulate reaction in the sun.
+HISTORY    (19730509A) ISO-QUANT corrected.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+KT         DATA       DATA-ERR
+KEV        MB         MB
+30.        .0002      .0001
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        10141006   20001211   20010328   20050926       0000
+BIB                  1          2
+REACTION  1(3-LI-7(N,0),,EN)
+          2(3-LI-7(N,EL),,WID)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+KEV        KEV        KEV        KEV
+254.       3.         31.        7.
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY             6

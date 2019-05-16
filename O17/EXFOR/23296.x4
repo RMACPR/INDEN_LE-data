@@ -1,0 +1,1133 @@
+ENTRY            23296   20160421   20160902   20160818       2249
+SUBENT        23296001   20160421   20160902   20160818       2249
+BIB                 12         42
+TITLE      Thermal neutron capture cross sections for 16,17,18O
+           and 2H .
+AUTHOR     (R.B.Firestone, Zs.Revay)
+INSTITUTE  (1USAUCX) R.B.Firestone
+           (3HUNKFI) Zs.Revay
+           (2GERMUN) Zs.Revay
+REFERENCE  (J,PR/C,93,044311,2016)
+           #doi:10.1103/PhysRevC.93.044311
+FACILITY   (REAC,2GERMUN)) Forschungs-Neutronenquelle Heinz
+           Maier-Leibnitz 20MW FRM II reactor.
+           (REAC,3HUNKFI) Budapest Research Reactor (BRR)
+            See comment of author.
+INC-SOURCE (REAC) Guided neutron beam from FRM II .
+            Target station was 51 m from the reactor core.
+           (REAC) Guided neutron beam from BRR .
+            Target station was 30 m from the reactor core.
+INC-SPECT   Neutron flux 3E+10 n/(cm2*sec) .
+            Neutron flux 5.E+7 n/(cm2*sec)
+DETECTOR   (HPGE,SCIN) n-type high-purity, 60% efficient, Ge
+           detectors surrounded by an annulus of eight BGO
+           scintillators connected in anticoincidence mode for
+           Compton suppression. Efficiency was calibrated from
+           50 keV to 10 MeV with radioactive sources and (n,gamma)
+           reaction gamma-rays to a precision of better than 1%
+           from 500 keV to 6 MeV and better than 3% at all other
+           energies.
+ANALYSIS    Prompt gamma-ray activation analysis (PGAA).
+           The gamma-ray spectra were analyzed with the Hypermet
+           PC peak analysis code.
+REL-REF    (N,,G.L.Molnar+,J,NIM/A,489,140,2002)
+            Hypermet PC peak analysis code.
+COMMENT    - Of author Zs.Revay: the O-16 cross section was
+           determined both at Budapest and at Munich, and we used
+           this number in the interpretation of the O-16-17-18
+           heavy water sample, which was measured only in Munich.
+           -This work was performed under the auspices of the
+           U.S. Department of Energy by the Univ.of California,
+           supported by the Director, Office of Science, Office of
+           Basic Energy Sciences, of the U.S. Department of Energy
+           at Lawrence Berkeley National Laboratory under Contract
+           No.DE-AC02-05CH11231 .
+HISTORY    (20160421C)  M.M.
+ENDBIB              42
+COMMON               1          3
+EN-DUMMY
+EV
+0.0253
+ENDCOMMON            3
+ENDSUBENT           49
+SUBENT        23296002   20160421   20160902   20160818       2249
+BIB                  9         23
+REACTION   (8-O-16(N,G)8-O-17,PAR,SIG,G)
+EN-SEC     (E,G) Gamma energy
+SAMPLE      H2O
+MONITOR    ((MONIT1)1-H-1(N,G)1-H-2,PAR,SIG,G) Egamma=2223.2487keV
+           This gamma ray CS was derived from the total radiative
+           thermal neutron CS ( see ASSUMED), corrected for
+           internal pair formation (IPF), where
+           ALFipf=(3.32+-0.05) *10**-4
+ASSUMED    (ASSUM,1-H-1(N,G)1-H-2,,SIG)
+REL-REF    (R,,S.Mughabghab,B,NEUT.RES,,2006) Assum value.
+           (R,,T.Kibedi+,J,NIM/A,589,202,2008) ALFipf value
+ANALYSIS    CS was determined by internal standardization with
+           multiple targets containing oxygen and stoichiometric
+           quantities of H, whose gamma-ray cross sections
+           were previously standardized.
+ERR-ANALYS (DATA-ERR) Type of error is not explained.
+STATUS     (TABLE) Table I of PR/C,93,044311,2016
+           (COREL,23296003)   Urea-1 sample
+           (COREL,23296004)   Urea-2 sample, E-NRM=1884.85keV
+           (COREL,23296005)   Urea-2 sample, E-NRM=2223.2487keV
+           (COREL,23296006)   Urea-2 sample, E-NRM=4945.30 keV
+           (COREL,23296007)   Pb(NO3)2 sample-1
+           (COREL,23296008)   Pb(NO3)2 sample-2
+ENDBIB              23
+COMMON               5          3
+E-NRM      MONIT1     MONIT1-ERR ASSUM      ASSUM-ERR
+KEV        MB         MB         MB         MB
+2223.2487   332.5      0.7       332.6      0.7
+ENDCOMMON            3
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        MB         MB
+  870.76    0.161      0.003
+ENDDATA              3
+ENDSUBENT           35
+SUBENT        23296003   20160421   20160902   20160818       2249
+BIB                  7         16
+REACTION   (8-O-16(N,G)8-O-17,PAR,SIG,G)
+EN-SEC     (E,G) Gamma energy
+SAMPLE      CH4N2O Urea-1
+MONITOR    ((MONIT3)7-N-14(N,G)7-N-15,PAR,SIG,G) Egamma=1884.85keV
+ANALYSIS    CS was determined by internal standardization with
+           multiple targets containing oxygen and stoichiometric
+           quantities of N whose gamma-ray cross sections
+           were previously standardized.
+ERR-ANALYS (DATA-ERR) Type of error is not explained.
+STATUS     (TABLE) Table I of PR/C,93,044311,2016
+           (COREL,23296002)   H2O sample
+           (COREL,23296004)   Urea-2 sample, E-NRM=1884.85keV
+           (COREL,23296005)   Urea-2 sample, E-NRM=2223.2487keV
+           (COREL,23296006)   Urea-2 sample, E-NRM=4945.30 keV
+           (COREL,23296007)   Pb(NO3)2 sample-1
+           (COREL,23296008)   Pb(NO3)2 sample-2
+ENDBIB              16
+COMMON               3          3
+E-NRM      MONIT3     MONIT3-ERR
+KEV        MB         MB
+ 1884.85    14.57      0.04
+ENDCOMMON            3
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        MB         MB
+  870.76    0.168      0.006
+ENDDATA              3
+ENDSUBENT           28
+SUBENT        23296004   20160421   20160902   20160818       2249
+BIB                  7         16
+REACTION   (8-O-16(N,G)8-O-17,PAR,SIG,G)
+EN-SEC     (E,G) Gamma energy
+SAMPLE      CH4N2O Urea-2
+MONITOR    ((MONIT3)7-N-14(N,G)7-N-15,PAR,SIG,G) Egamma=1884.85keV
+ANALYSIS    CS was determined by internal standardization with
+           multiple targets containing oxygen and stoichiometric
+           quantities of N whose gamma-ray cross sections
+           were previously standardized.
+ERR-ANALYS (DATA-ERR) Type of error is not explained.
+STATUS     (TABLE) Table I of PR/C,93,044311,2016
+           (COREL,23296002)   H2O sample
+           (COREL,23296003)   Urea-1 sample
+           (COREL,23296004)   Urea-2 sample, E-NRM=1884.85keV
+           (COREL,23296006)   Urea-2 sample, E-NRM=4945.30 keV
+           (COREL,23296007)   Pb(NO3)2 sample-1
+           (COREL,23296008)   Pb(NO3)2 sample-2
+ENDBIB              16
+COMMON               3          3
+E-NRM      MONIT3     MONIT3-ERR
+KEV        MB         MB
+ 1884.85    14.57      0.04
+ENDCOMMON            3
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        MB         MB
+  870.76    0.170      0.008
+ENDDATA              3
+ENDSUBENT           28
+SUBENT        23296005   20160421   20160902   20160818       2249
+BIB                  9         23
+REACTION   (8-O-16(N,G)8-O-17,PAR,SIG,G)
+EN-SEC     (E,G) Gamma energy
+SAMPLE      CH4N2O Urea-2
+MONITOR    ((MONIT1)1-H-1(N,G)1-H-2,PAR,SIG,G) Egamma=2223.2487keV
+           This gamma ray CS was derived from the total radiative
+           thermal neutron CS ( see ASSUMED), corrected for
+           internal pair formation (IPF), where
+           ALFipf=(3.32+-0.05) *10**-4
+ASSUMED    (ASSUM,1-H-1(N,G)1-H-2,,SIG)
+REL-REF    (R,,S.Mughabghab,B,NEUT.RES,,2006) Assum value.
+           (R,,T.Kibedi+,J,NIM/A,589,202,2008) ALFipf value
+ANALYSIS    CS was determined by internal standardization with
+           multiple targets containing oxygen and stoichiometric
+           quantities of H, whose gamma-ray cross sections
+           were previously standardized.
+ERR-ANALYS (DATA-ERR) Type of error is not explained.
+STATUS     (TABLE) Table I of PR/C,93,044311,2016
+           (COREL,23296002)   H2O sample
+           (COREL,23296003)   Urea-1 sample
+           (COREL,23296004)   Urea-2 sample, E-NRM=1884.85keV
+           (COREL,23296006)   Urea-2 sample, E-NRM=4945.30 keV
+           (COREL,23296007)   Pb(NO3)2 sample-1
+           (COREL,23296008)   Pb(NO3)2 sample-2
+ENDBIB              23
+COMMON               5          3
+E-NRM      MONIT1     MONIT1-ERR ASSUM      ASSUM-ERR
+KEV        MB         MB         MB         MB
+2223.2487   332.5      0.7       332.6      0.7
+ENDCOMMON            3
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        MB         MB
+  870.76    0.168      0.007
+ENDDATA              3
+ENDSUBENT           35
+SUBENT        23296006   20160421   20160902   20160818       2249
+BIB                  7         16
+REACTION   (8-O-16(N,G)8-O-17,PAR,SIG,G)
+EN-SEC     (E,G) Gamma energy
+SAMPLE      CH4N2O Urea-2
+MONITOR    ((MONIT2)6-C-12(N,G)6-C-13,PAR,SIG,G) Egamma=4945.30keV
+ANALYSIS    CS was determined by internal standardization with
+           multiple targets containing oxygen and stoichiometric
+           quantities of C whose gamma-ray cross sections
+           were previously standardized.
+ERR-ANALYS (DATA-ERR) Type of error is not explained.
+STATUS     (TABLE) Table I of PR/C,93,044311,2016
+           (COREL,23296002)   H2O sample
+           (COREL,23296003)   Urea-1 sample
+           (COREL,23296004)   Urea-2 sample, E-NRM=1884.85keV
+           (COREL,23296005)   Urea-2 sample, E-NRM=2223.2487keV
+           (COREL,23296007)   Pb(NO3)2 sample-1
+           (COREL,23296008)   Pb(NO3)2 sample-2
+ENDBIB              16
+COMMON               3          3
+E-NRM      MONIT2     MONIT2-ERR
+KEV        MB         MB
+ 4945.30    2.62       0.03
+ENDCOMMON            3
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        MB         MB
+  870.76    0.163      0.008
+ENDDATA              3
+ENDSUBENT           28
+SUBENT        23296007   20160421   20160902   20160818       2249
+BIB                  7         16
+REACTION   (8-O-16(N,G)8-O-17,PAR,SIG,G)
+EN-SEC     (E,G) Gamma energy
+SAMPLE      Pb(NO3)2 target-1 .
+MONITOR    ((MONIT3)7-N-14(N,G)7-N-15,PAR,SIG,G) Egamma=1884.85keV
+ANALYSIS    CS was determined by internal standardization with
+           multiple targets containing oxygen and stoichiometric
+           quantities of N whose gamma-ray cross sections
+           were previously standardized.
+ERR-ANALYS (DATA-ERR) Type of error is not explained.
+STATUS     (TABLE) Table I of PR/C,93,044311,2016
+           (COREL,23296002)   H2O sample
+           (COREL,23296003)   Urea-1 sample
+           (COREL,23296004)   Urea-2 sample, E-NRM=1884.85keV
+           (COREL,23296005)   Urea-2 sample, E-NRM=2223.2487keV
+           (COREL,23296006)   Urea-2 sample, E-NRM=4945.30 keV
+           (COREL,23296008)   Pb(NO3)2 sample-2
+ENDBIB              16
+COMMON               3          3
+E-NRM      MONIT3     MONIT3-ERR
+KEV        MB         MB
+ 1884.85    14.57      0.04
+ENDCOMMON            3
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        MB         MB
+  870.76    0.155      0.006
+ENDDATA              3
+ENDSUBENT           28
+SUBENT        23296008   20160421   20160902   20160818       2249
+BIB                  7         16
+REACTION   (8-O-16(N,G)8-O-17,PAR,SIG,G)
+EN-SEC     (E,G) Gamma energy
+SAMPLE      Pb(NO3)2 target-2 .
+MONITOR    ((MONIT3)7-N-14(N,G)7-N-15,PAR,SIG,G) Egamma=1884.85keV
+ANALYSIS    CS was determined by internal standardization with
+           multiple targets containing oxygen and stoichiometric
+           quantities of N whose gamma-ray cross sections
+           were previously standardized.
+ERR-ANALYS (DATA-ERR) Type of error is not explained.
+STATUS     (TABLE) Table I of PR/C,93,044311,2016
+           (COREL,23296002)   H2O sample
+           (COREL,23296003)   Urea-1 sample
+           (COREL,23296004)   Urea-2 sample, E-NRM=1884.85keV
+           (COREL,23296005)   Urea-2 sample, E-NRM=2223.2487keV
+           (COREL,23296006)   Urea-2 sample, E-NRM=4945.30 keV
+           (COREL,23296007)   Pb(NO3)2 sample-1
+ENDBIB              16
+COMMON               3          3
+E-NRM      MONIT3     MONIT3-ERR
+KEV        MB         MB
+ 1884.85    14.57      0.04
+ENDCOMMON            3
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        MB         MB
+  870.76    0.162      0.007
+ENDDATA              3
+ENDSUBENT           28
+SUBENT        23296009   20160421   20160902   20160818       2249
+BIB                  6         15
+REACTION   (8-O-16(N,G)8-O-17,PAR,SIG,G)
+EN-SEC     (E,G) Gamma energy
+SAMPLE      H2O, urea CH4N2O, Pb(NO3)2 targets.
+ANALYSIS    Weighted average of seven measurements with different
+           samples and monitors.  KHI**2/f=0.54 .
+ERR-ANALYS (DATA-ERR) Type of error is not explained.
+STATUS     (TABLE) Table I of PR/C,93,044311,2016
+           (DEP,23296002)   H2O sample
+           (DEP,23296003)   Urea-1 sample
+           (DEP,23296004)   Urea-2 sample
+           (DEP,23296005)   Urea-2 sample
+           (DEP,23296006)   Urea-2 sample
+           (DEP,23296007)   Pb(NO3)2 sample-1
+           (DEP,23296008)   Pb(NO3)2 sample-2
+            See ANALYSIS .
+ENDBIB              15
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        MB         MB
+  870.76    0.164      0.003
+ENDDATA              3
+ENDSUBENT           23
+SUBENT        23296010   20160421   20160902   20160818       2249
+BIB                  5         11
+REACTION   ((8-O-16(N,G)8-O-17,,SPC)//(8-O-16(N,G)8-O-17,,SPC))
+FACILITY   (REAC,2GERMUN)) Forschungs-Neutronenquelle Heinz
+           Maier-Leibnitz 20MW FRM II reactor.
+SAMPLE     D2O target composition:
+           Natural: O-16 - 99.757+-0.016 %, O-17 - 0.038+-0.001 %,
+                    O-18 - 0.205+-0.014 %.
+           The deuterated targets were >99.9% enriched in 2H.
+           D2O-natural target was irradiated for 83060 sec in the
+           cold neutron beam at the FRM-II reactor.
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained.
+STATUS     (TABLE) Table III of PR/C,93,044311,2016
+ENDBIB              11
+COMMON               1          3
+E-DN
+KEV
+870.76
+ENDCOMMON            3
+DATA                 4          5
+E-NM       E-NM-ERR   DATA       DATA-ERR
+KEV        KEV        NO-DIM     NO-DIM
+ 870.76    0.08       1.000      0.008
+1087.86    0.08       0.838      0.006
+2184.44    0.09       0.848      0.012
+3272.15    0.10       0.169      0.005
+4142.73    0.13       0.035      0.003
+ENDDATA              7
+ENDSUBENT           27
+SUBENT        23296011   20160421   20160902   20160818       2249
+BIB                  9         41
+REACTION   (8-O-16(N,G)8-O-17,,SIG)
+FACILITY   (REAC,2GERMUN)) Forschungs-Neutronenquelle Heinz
+           Maier-Leibnitz 20MW FRM II reactor.
+SAMPLE     D2O targets composition:
+           Natural: O-16 - 99.757+-0.016 %, O-17 - 0.038+-0.001 %,
+                    O-18 - 0.205+-0.014 %.
+           D2O-natural target was irradiated for 83060 sec in the
+           cold neutron beam at the FRM-II reactor.
+MONITOR    (8-O-16(N,G)8-O-17,PAR,SIG,G)
+MONIT-REF  (23296009,R.B.Firestone+,J,PR/C,93,044311,2016)
+            Measured at this experiment.
+ANALYSIS    CS was determined relative to the 870.76-keV gamma-ray
+           cross section after accounting for the isotopic
+           abundances in the targets. The gamma-ray intensities
+           were fitted to the level scheme determining the
+           transition probabilities with a KHI2/f=0.74 .
+           The transitions were corrected for internal conversion,
+           ICC used :
+           E-gamma,keV       Intensity,%      ICC
+           870.76.+-0.08     96.6+-0.5        9.85E-6
+           1087.86+-0.08     80.4+-0.5        2.31E-6
+           2184.44+-0.09     80.4+-0.5        7.7E-4
+           3272.15+-0.10     16.2+-0.4        7.6E-4
+           4142.73+-0.13     3.36+-0.24       0.00122
+REL-REF    (A,11133006,E.Jurney+,R,ANL-6797,236,1963)
+            0.178+-0.025 mb
+           (D,10668004,A.B.McDonald+,J,NP/A,281,325,1977)
+            Lower than 0.202+-0.028 mb
+           (D,20674006,N.Wuest+,J,PR/C,19,1153,1979)
+            Lower than 0.187+-0.010 mb
+ERR-ANALYS (DATA-ERR) Includes
+           -the uncertainty in the standardization gamma-ray cross
+           section,
+           - statistical uncertainty in the gamma-ray peak
+           analysis,
+           - uncertainty in the isotopic branching ratios of the
+           target.
+STATUS     (TABLE) Table X of PR/C,93,044311,2016
+           (DEP,23296009) Partial CS
+           (DEP,23296010) Measured intensities of gamma-lines,
+           used in analysis .
+ENDBIB              41
+NOCOMMON             0          0
+DATA                 5          1
+E-NRM      DATA       DATA-ERR   MONIT      MONIT-ERR
+KEV        MB         MB         MB         MB
+  870.76    0.170      0.003     0.164      0.03
+ENDDATA              3
+ENDSUBENT           49
+SUBENT        23296012   20160421   20160902   20160818       2249
+BIB                  6         37
+REACTION  1((8-O-17(N,G)8-O-18,,SPC)//(8-O-17(N,G)8-O-18,,SPC))
+            Measurement by 1st sample
+          2((8-O-17(N,G)8-O-18,,SPC)//(8-O-17(N,G)8-O-18,,SPC))
+            Measurement by 2nd sample
+          3((8-O-17(N,G)8-O-18,,SPC)//(8-O-17(N,G)8-O-18,,SPC))
+            Intensities average of two measurements
+SAMPLE     D2O targets composition:
+           Enriched targets were provided by the Paul Scherrer
+           Institute; were calibrated using a sector field mass
+           spectrometer.
+           Thickness ~ 3mm .
+           The deuterated targets were >99.9% enriched in 2H.
+           Both (two O-17,18 enriched targets) were irradiated for
+           118801 sec.
+          1Enriched-1: O-16 - 50.1+-1.6 %, O-17 - 15.4+-1.7 %,
+                       O-18 - 34.6+-1.8 % .
+          2Enriched-2: O-16 - 58.5+-1.6 %, O-17 - 10.2+-1.7 %,
+                       O-18 - 31.2+-1.8 % .
+ANALYSIS   12 weak transitions, not observed here, were adopted
+           from the ENSDF adopted levels, gammas:
+           Egamma,keV    ICC    Intensity  Transition probability%
+            797.9 +-0.4  4.31E-6 0.46 +-0.23    0.26 +-0.19
+            861.7 +-0.4  3.66E-6 0.16 +-0.04    0.14 +-0.03
+            880.4 +-0.4  3.50E-6 0.41 +-0.06    0.35 +-0.05
+            944.2 +-0.4  3.04E-6 0.53 +-0.07    0.47 +-0.06
+           1542.6 +-0.3  3.03E-4 0.6  +-0.2     0.7  +-0.2
+           1610.5 +-0.3  3.57E-4 1.5  +-0.5     1.5  +-0.4
+           1620.1 +-0.4  1.40E-4 0.18 +-0.10    0.14 +-0.09
+           1698.9 +-0.4  1.74E-4 0.18 +-0.10    0.17 +-0.09
+           1893.71+-0.11 2.01E-4 1.4  +-0.5     1.7  +-0.4
+           2515.25+-0.15 9.82E-4 6.7  +-0.5     5.9  +-0.4
+           3354.2 +-0.4  9.33E-4 0.59 +-0.10    0.51 +-0.08
+           3633.64+-0.07         0.087+-0.018   0.076+-0.015
+MISC-COL   (MISC) Internal conversion coefficient ( ICC) used in
+           analysis.
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained.
+STATUS     (TABLE) Table IV of PR/C,93,044311,2016
+ENDBIB              37
+COMMON               1          3
+E-DN
+KEV
+1982.06
+ENDCOMMON            3
+DATA                 9         30
+E-NM       E-NM-ERR   DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+DATA      3DATA-ERR  3MISC
+KEV        KEV        NO-DIM     NO-DIM     NO-DIM     NO-DIM
+NO-DIM     NO-DIM     NO-DIM
+ 536.24    0.22          1.5  E-2   0.6  E-2
+  1.5   E-2   0.4  E-2    1.10E-5
+ 822.25    0.06          31.2 E-2   2.4  E-2   25.  E-2    3.  E-2
+  28.5  E-2   1.8  E-2    4.04E-6
+1074.27    0.16          1.9  E-2   0.5  E-2
+  1.9   E-2   0.5  E-2    3.46E-6
+1177.8     0.4           2.4  E-2   0.6  E-2   1.6  E-2    0.8 E-2
+  2.1   E-2   0.5  E-2    4.76E-5
+1334.1     0.4           1.5  E-2   0.4  E-2   2.3  E-2    0.8 E-2
+  1.7   E-2   0.4  E-2    2.78E-5
+1457.69    0.22          2.6  E-2   0.6  E-2
+  2.6   E-2   0.6  E-2    5.34E-5
+1572.98    0.16          8.9  E-2   0.6  E-2   8.3  E-2    0.8 E-2
+  8.7   E-2   0.5  E-2    1.20E-4
+1651.77    0.05          29.0 E-2   0.6  E-2   26.  E-2    3.  E-2
+  28.9  E-2   0.6  E-2    1.53E-4
+1695.85    0.08          14.2 E-2   0.8  E-2   22.  E-2    3.  E-2
+  14.8  E-2   0.8  E-2    4.23E-4
+1742.03    0.13          0.60 E-2   0.07 E-2
+  0.60  E-2   0.07 E-2    1.44E-4
+1847.53    0.1           13.4 E-2   0.8  E-2   18.1 E-2    1.3 E-2
+  14.7  E-2   0.7  E-2    5.35E-4
+1937.77    0.22          20.9 E-2   1.8  E-2   20.2 E-2    2.3 E-2
+  20.1  E-2   1.4  E-2    2.18E-4
+1982.06    0.05          1.000      2.0  E-2   100. E-2    4.  E-2
+  100.0 E-2   1.8  E-2    3.06E-4
+2429.89    0.23          10.5 E-2   1.6  E-2   11.  E-2    3.  E-2
+  10.8  E-2   1.4  E-2    9.28E-4
+2473.94    0.06          14.6 E-2   0.6  E-2   23.0 E-2    1.0 E-2
+  16.8  E-2   0.5  E-2    9.56E-4
+2564.2     0.14          0.37 E-2   0.05 E-2
+  0.37  E-2   0.05 E-2    0.00101
+2668.03    0.08          13.4 E-2   0.6  E-2   8.   E-2    4.  E-2
+  13.2  E-2   0.6  E-2    5.20E-4
+2709.1     0.4           0.81 E-2   0.20 E-2   1.0  E-2    0.3 E-2
+  0.81  E-2   0.20 E-2    6.55E-4
+2791.6     0.4           2.2  E-2   0.4  E-2   1.8  E-2    0.5 E-2
+  2.1   E-2   0.3  E-2    5.71E-4
+2947.9     0.3           10.3 E-2   1.2  E-2   10.6 E-2    0.8 E-2
+  10.5  E-2   0.7  E-2    0.00121
+3115.5     0.3           6.3  E-2   0.8  E-2
+  6.3   E-2   0.8  E-2    0.00199
+3271.7     0.4           0.8  E-2   0.4  E-2   0.8  E-2    0.5 E-2
+  0.8   E-2   0.3  E-2    7.62E-4
+3395.29    0.11          11.6 E-2   0.5  E-2   9.8  E-2    0.8 E-2
+  11.1  E-2   0.4  E-2    8.06E-4
+3548.06    0.16          2.9  E-2   0.5  E-2
+  2.9   E-2   0.5  E-2    0.0015
+3589.37    0.08          44.  E-2   4.   E-2   44.  E-2    5.  E-2
+  44.   E-2   3.   E-2    0.00152
+3919.6     0.22          3.3  E-2   0.4  E-2
+  3.3   E-2   0.4  E-2    0.00114
+4125.49    0.22          3.4  E-2   0.5  E-2   4.7  E-2    1.0 E-2
+  3.6   E-2   0.5  E-2    0.00106
+4367.38    0.12          3.8  E-2   0.5  E-2
+  3.8   E-2   0.5  E-2    0.00182
+4490.22    0.17          4.9  E-2   0.6  E-2
+  4.9   E-2   0.6  E-2    0.00118
+6197.28    0.14          12.0 E-2   0.8  E-2   16.0 E-2    1.3 E-2
+  13.1  E-2   0.7  E-2    0.00234
+ENDDATA             64
+ENDSUBENT          110
+SUBENT        23296013   20160421   20160902   20160818       2249
+BIB                  7         29
+REACTION  1(8-O-17(N,G)8-O-18,PAR,SIG,G)
+            Measurement by 1st sample
+          2(8-O-17(N,G)8-O-18,PAR,SIG,G)
+            Measurement by 2nd sample.
+            For more intense transitions.
+SAMPLE     D2O targets composition:
+           Enriched targets were provided by the Paul Scherrer
+           Institute; were calibrated using a sector field mass
+           spectrometer.
+           Thickness ~ 3mm .
+           The deuterated targets were >99.9% enriched in 2H.
+           Both (two O-17,18 enriched targets) were irradiated for
+           118801 sec.
+          1Enriched-1: O-16 - 50.1+-1.6 %, O-17 - 15.4+-1.7 %,
+                       O-18 - 34.6+-1.8 % .
+          2Enriched-2: O-16 - 58.5+-1.6 %, O-17 - 10.2+-1.7 %,
+                       O-18 - 31.2+-1.8 % .
+MONITOR    (8-O-16(N,G)8-O-17,PAR,SIG,G)
+           E-gamma=870.76.+-0.08 keV, Intensity=96.6+-0.5 %;
+           ICC=9.85E-6
+MONIT-REF  (23296009,R.B.Firestone+,J,PR/C,93,044311,2016)
+            Measured at this experiment.
+ANALYSIS   The gamma-ray cross sections were determined from their
+           intensity ratio to the 870.76-keV gamma ray from
+           O-16(n,g) after accounting for the target isotopic
+           abundances.
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained.
+STATUS     (TABLE) Table V of PR/C,93,044311,2016
+           (DEP,23296012) Measured intensities.
+ENDBIB              29
+COMMON               1          3
+E-NRM
+KEV
+ 870.76
+ENDCOMMON            3
+DATA                 6         14
+E          E-ERR      DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+KEV        KEV        MB         MB         MB         MB
+822.25      0.06       0.176      0.014      0.242      0.019
+1651.77     0.05       0.163      0.003      0.225      0.005
+1695.85     0.08       0.080      0.005      0.110      0.006
+1847.53     0.1        0.075      0.005      0.104      0.006
+1937.77     0.22       0.118      0.010      0.162      0.014
+1982.06     0.05       0.563      0.011      0.775      0.016
+2473.94     0.06       0.082      0.003      0.113      0.005
+2515.25     0.15       0.037      0.003      0.052      0.004
+2668.03     0.08       0.075      0.003      0.104      0.005
+2947.9      0.3        0.058      0.007      0.080      0.009
+3115.5      0.3        0.035      0.005      0.049      0.006
+3395.29     0.11       0.065      0.003      0.090      0.004
+3589.37     0.08       0.248      0.022      0.341      0.030
+6197.28     0.14       0.067      0.005      0.093      0.006
+ENDDATA             16
+ENDSUBENT           54
+SUBENT        23296014   20160421   20160902   20160818       2249
+BIB                  7         63
+REACTION  1(8-O-17(N,G)8-O-18,,SIG)
+            Measurement by 1st sample
+          2(8-O-17(N,G)8-O-18,,SIG)
+            Measurement by 2nd sample.
+            The total radiative thermal neutron cross sections
+            calculated for each gamma ray.
+SAMPLE     D2O targets composition:
+           Enriched targets were provided by the Paul Scherrer
+           Institute; were calibrated using a sector field mass
+           spectrometer.
+           Thickness ~ 3mm .
+           The deuterated targets were >99.9% enriched in 2H.
+           Both (two O-17,18 enriched targets) were irradiated for
+           118801 sec.
+          1Enriched-1: O-16 - 50.1+-1.6 %, O-17 - 15.4+-1.7 %,
+                       O-18 - 34.6+-1.8 % .
+          2Enriched-2: O-16 - 58.5+-1.6 %, O-17 - 10.2+-1.7 %,
+                       O-18 - 31.2+-1.8 % .
+FLAG        CS were defined by different E-gamma CS( see ANALYSIS)
+               E-gamma,keV     Intensity,%
+           (1.)   822.25       24.9 +- 0.5
+           (2.)   1651.77      25.3 +- 0.5
+           (3.)   1695.85      12.5 +- 0.6
+           (4.)   1847.53      12.8 +- 0.4
+           (5.)   1937.77      16.3 +- 0.9
+           (6.)   1982.06      85.8 +- 1.1
+           (7.)   2473.94      14.8 +- 0.4
+           (8.)   2515.25       5.9 +- 0.4
+           (9.)   2668.03      11.7 +- 0.4
+           (10.)  2947.9        9.0 +- 0.5
+           (11.)  3115.5,       6.1 +- 0.5
+           (12.)  3395.29       9.6 +- 0.3
+           (13.)  3589.37      36.7 +- 1.2
+           (14.)  6197.28      11.4 +- 0.4
+COMMENT     Other measured gammas:
+                  1074.27       1.7  +- 0.4
+                  1177.8        2.3  +- 0.4
+                  1334.1        1.2  +- 0.3
+                  1457.69       2.1  +- 0.4
+                  1572.98       6.3  +- 0.3
+                  1742.03       0.52 +- 0.06
+                  2429.89       7.2  +- 0.7
+                  2564.2        0.32 +- 0.04
+                  2709.1        0.73 +- 0.09
+                  2791.6        1.94 +- 0.23
+                  3271.7        0.60 +- 0.23
+                  3548.06       2.6  +- 0.4
+                  3919.6        2.7  +- 0.3
+                  4125.49       3.2  +- 0.4
+                  4367.38       3.6  +- 0.4
+                  4490.22       5.4  +- 0.4
+                  536.24        0.015+-0.3
+ANALYSIS   The total radiative thermal neutron capture cross
+           sections SIGgamma were calculated from the gamma-ray
+           cross sections and the transition probabilities
+           Pgamma ( in %) :
+            100*(SIGgamma/Pgamma)
+ERR-ANALYS (DATA-ERR) Uncertainties arise from the uncertainty in
+           the standardization gamma-ray cross section,statistical
+           uncertainty in the gamma-ray peak analysis, uncertainty
+           in the isotopic branching ratios of the target.
+STATUS     (TABLE) Table V of PR/C,93,044311,2016
+           (DEP,23296013) Measured gamma cross sections.
+ENDBIB              63
+NOCOMMON             0          0
+DATA                 5         14
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2FLAG
+MB         MB         MB         MB         NO-DIM
+ 0.71       0.07       0.85      0.07        1.
+ 0.65       0.02       0.78      0.02        2.
+ 0.64       0.05       0.74      0.06        3.
+ 0.59       0.05       0.71      0.05        4.
+ 0.72       0.08       0.79      0.08        5.
+ 0.66       0.02       0.78      0.02        6.
+ 0.56       0.03       0.68      0.03        7.
+ 0.64       0.07       0.78      0.08        8.
+ 0.64       0.04       0.78      0.04        9.
+ 0.65       0.09       0.76      0.10       10.
+ 0.58       0.11       0.78      0.12       11.
+ 0.68       0.04       0.81      0.04       12.
+ 0.68       0.08       0.78      0.07       13.
+ 0.59       0.05       0.71      0.05       14.
+ENDDATA             16
+ENDSUBENT           84
+SUBENT        23296015   20160421   20160902   20160818       2249
+BIB                  7         30
+REACTION  1(8-O-17(N,G)8-O-18,,SIG)
+            Measurement by 1st sample, weighted average of
+           measurements by several gamma-rays
+          2(8-O-17(N,G)8-O-18,,SIG)
+            Measurement by 2nd sample, weighted average of
+           measurements by several gamma-rays
+          3(8-O-17(N,G)8-O-18,,SIG)
+            Weighted average of two samples.
+SAMPLE     D2O targets composition:
+           Enriched targets were provided by the Paul Scherrer
+           Institute; were calibrated using a sector field mass
+           spectrometer.
+           Thickness ~ 3mm .
+           The deuterated targets were >99.9% enriched in 2H.
+           Both (two O-17,18 enriched targets) were irradiated for
+           118801 sec.
+          1Enriched-1: O-16 - 50.1+-1.6 %, O-17 - 15.4+-1.7 %,
+                       O-18 - 34.6+-1.8 % .
+          2Enriched-2: O-16 - 58.5+-1.6 %, O-17 - 10.2+-1.7 %,
+                       O-18 - 31.2+-1.8 % .
+ANALYSIS    Weighted average of measurements by several gamma-rays
+REL-REF    (A,,B.Lone+,C,78BNL,,678,1978) 0.54+-0.06 mb
+ADD-RES     Neutron separation energy was determined in this
+           experiment to be Sn=8046.06+-0.10 keV.
+ERR-ANALYS (ERR-S) Statistical uncertainty ( for both samples)
+           (ERR-1) Standardization uncertainty ( for both samples)
+           (ERR-2) Uncertainty from O-17 abundance in each sample.
+           (ERR-T) Total uncertainty.
+STATUS     (TABLE) Table V of PR/C,93,044311,2016
+           (DEP,23296013) Measured CS for each gamma-ray energy.
+ENDBIB              30
+COMMON               3          3
+ERR-S      ERR-1      E-NRM
+PER-CENT   PER-CENT   KEV
+ 1.4        4.          870.76
+ENDCOMMON            3
+DATA                 8          1
+DATA      1ERR-T     1ERR-2     1DATA      2ERR-T     2ERR-2     2
+DATA      3ERR-T     3
+MB         MB         PER-CENT   MB         MB         PER-CENT
+MB         MB
+ 0.64       0.08       12.        0.76       0.13       17.
+ 0.67       0.07
+ENDDATA              6
+ENDSUBENT           45
+SUBENT        23296016   20160421   20160902   20160818       2249
+BIB                  6         25
+REACTION  1((8-O-18(N,G)8-O-19,,SPC)//(8-O-18(N,G)8-O-19,,SPC))
+            Measurement by 1st sample
+          2((8-O-18(N,G)8-O-19,,SPC)//(8-O-18(N,G)8-O-19,,SPC))
+            Measurement by 2nd sample
+          3((8-O-18(N,G)8-O-19,,SPC)//(8-O-18(N,G)8-O-19,,SPC))
+            Intensities average of two measurements
+SAMPLE     D2O targets composition:
+           Enriched targets were provided by the Paul Scherrer
+           Institute; were calibrated using a sector field mass
+           spectrometer.
+           Thickness ~ 3mm .
+           The deuterated targets were >99.9% enriched in 2H.
+           Both (two O-17,18 enriched targets) were irradiated for
+           118801 sec.
+          1Enriched-1: O-16 - 50.1+-1.6 %, O-17 - 15.4+-1.7 %,
+                       O-18 - 34.6+-1.8 % .
+          2Enriched-2: O-16 - 58.5+-1.6 %, O-17 - 10.2+-1.7 %,
+                       O-18 - 31.2+-1.8 % .
+ANALYSIS   18.1keV transition was not observed, the transition
+           probability 40.8+-1.2 % is inferred from the decay
+           scheme intensity balance; ICC=0.512 for this gamma.
+MISC-COL   (MISC) Internal conversion coefficient ( ICC) used in
+           analysis.
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained.
+STATUS     (TABLE) Table VI of PR/C,93,044311,2016
+ENDBIB              25
+COMMON               1          3
+E-DN
+KEV
+94.94
+ENDCOMMON            3
+DATA                 9         10
+E-NM       E-NM-ERR   DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+DATA      3DATA-ERR  3MISC
+KEV        KEV        NO-DIM     NO-DIM     NO-DIM     NO-DIM
+NO-DIM     NO-DIM     NO-DIM
+ 94.94      0.09        100.0 E-2    2.6 E-2
+  100.0 E-2    2.6 E-2 0.00067
+ 729.34     0.07        16.0  E-2    0.9 E-2   16.5 E-2    1.1 E-2
+  16.2  E-2    0.7 E-2 0.000005
+1375.8      0.06        36.9  E-2    1.5 E-2   37.5 E-2    1.5 E-2
+  37.2  E-2    1.1 E-2 0.000035
+1471.6      0.4         0.7   E-2    0.1 E-2   0.7  E-2    0.1 E-2
+  0.7   E-2    0.1 E-2 0.000080
+2473.96     0.03        19.9  E-2    1.5 E-2   22.8 E-2    1.1 E-2
+  21.8  E-2    0.9 E-2 0.00096
+2492.13     0.1         17.7  E-2    0.9 E-2   15.4 E-2    1.5 E-2
+  17.1  E-2    0.8 E-2 0.00045
+3137.58     0.21        19.2  E-2    1.1 E-2   18.0 E-2    1.1 E-2
+  18.6  E-2    0.8 E-2 0.00131
+3849.49     0.15        38.0  E-2    1.1 E-2   39.3 E-2    1.1 E-2
+  38.6  E-2    0.8 E-2 0.00162
+3867.6      0.3         5.7   E-2    0.8 E-2   5.2  E-2    1.1 E-2
+  5.5   E-2    0.6 E-2 0.00097
+3945.1      0.4         2.6   E-2    0.7 E-2   4.1  E-2    1.1 E-2
+  3.0   E-2    0.6 E-2 0.00166
+ENDDATA             24
+ENDSUBENT           58
+SUBENT        23296017   20160421   20160902   20160818       2249
+BIB                  7         29
+REACTION  1(8-O-18(N,G)8-O-19,PAR,SIG,G)
+            Measurement by 1st sample
+          2(8-O-18(N,G)8-O-19,PAR,SIG,G)
+            Measurement by 2nd sample.
+            For more intense transitions.
+SAMPLE     D2O targets composition:
+           Enriched targets were provided by the Paul Scherrer
+           Institute; were calibrated using a sector field mass
+           spectrometer.
+           Thickness ~ 3mm .
+           The deuterated targets were >99.9% enriched in 2H.
+           Both (two O-17,18 enriched targets) were irradiated for
+           118801 sec.
+          1Enriched-1: O-16 - 50.1+-1.6 %, O-17 - 15.4+-1.7 %,
+                       O-18 - 34.6+-1.8 % .
+          2Enriched-2: O-16 - 58.5+-1.6 %, O-17 - 10.2+-1.7 %,
+                       O-18 - 31.2+-1.8 % .
+MONITOR    (8-O-16(N,G)8-O-17,PAR,SIG,G)
+           E-gamma=870.76.+-0.08 keV, Intensity=96.6+-0.5 %;
+           ICC=9.85E-6
+MONIT-REF  (23296009,R.B.Firestone+,J,PR/C,93,044311,2016)
+            Measured at this experiment.
+ANALYSIS   The gamma-ray cross sections were determined from their
+           intensity ratio to the 870.76-keV gamma ray from
+           O-16(n,g) after accounting for the target isotopic
+           abundances.
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained.
+STATUS     (TABLE) Table VII of PR/C,93,044311,2016
+           (DEP,23296016) Measured intensities.
+ENDBIB              29
+COMMON               1          3
+E-NRM
+KEV
+870.76
+ENDCOMMON            3
+DATA                 6          4
+E          E-ERR      DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+KEV        KEV        MB         MB         MB         MB
+  94.94     0.09      0.138       0.006
+1375.8      0.06      0.051       0.003      0.051     0.002
+2473.96     0.03      0.027       0.002      0.029     0.002
+3849.49     0.15      0.052       0.002      0.053     0.002
+ENDDATA              6
+ENDSUBENT           44
+SUBENT        23296018   20160421   20160902   20160818       2249
+BIB                  6         43
+REACTION  1(8-O-18(N,G)8-O-19,,SIG)
+            Measurement by 1st sample
+          2(8-O-18(N,G)8-O-19,,SIG)
+            Measurement by 2nd sample.
+            The total radiative thermal neutron cross sections
+            calculated for each gamma ray.
+SAMPLE     D2O targets composition:
+           Enriched targets were provided by the Paul Scherrer
+           Institute; were calibrated using a sector field mass
+           spectrometer.
+           Thickness ~ 3mm .
+           The deuterated targets were >99.9% enriched in 2H.
+           Both (two O-17,18 enriched targets) were irradiated for
+           118801 sec.
+          1Enriched-1: O-16 - 50.1+-1.6 %, O-17 - 15.4+-1.7 %,
+                       O-18 - 34.6+-1.8 % .
+          2Enriched-2: O-16 - 58.5+-1.6 %, O-17 - 10.2+-1.7 %,
+                       O-18 - 31.2+-1.8 % .
+DECAY-DATA (8-O-19,,G,18.1,0.408)        40.8+-1.2 %
+           ((1.)8-O-19,,G,94.94,0.963)   96.3+-1.2 %
+           (8-O-19,,G,729.34,0.165)      16.5+-0.5 %
+           ((2.)8-O-19,,G,1375.8,0.364)  36.4+-0.6 %
+           (8-O-19,,G,1471.6,0.007)      0.7 +-0.1 %
+           ((3.)8-O-19,,G,2473.96,0.207) 20.7+-0.7 %
+           (8-O-19,,G,2492.13,0.164)     16.4+-0.6 %
+           (8-O-19,,G,3137.58,0.165)     16.5+-0.5 %
+           ((4.)8-O-19,,G,3849.49,0.379) 37.9+-0.8 %
+           (8-O-19,,G,3867.6,0.054)      5.4 +-0.6 %
+           (8-O-19,,G,3945.1,0.029)      2.9 +-0.6 %
+ANALYSIS   The total radiative thermal neutron capture cross
+           sections SIGgamma were calculated from the gamma-ray
+           cross sections and the transition probabilities
+           Pgamma ( in %) :
+            100*(SIGgamma/Pgamma)
+ERR-ANALYS (DATA-ERR) Includes
+           -the uncertainty in the standardization gamma-ray cross
+           section,
+           - statistical uncertainty in the gamma-ray peak
+           analysis,
+           - uncertainty in the isotopic branching ratios of the
+           target.
+STATUS     (TABLE) Table VII of PR/C,93,044311,2016
+           (DEP,23296017) Measured gamma cross sections.
+ENDBIB              43
+NOCOMMON             0          0
+DATA                 5          4
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2DECAY-FLAG
+MB         MB         MB         MB         NO-DIM
+ 0.143      0.007                            1.
+ 0.140      0.008     0.141       0.011      2.
+ 0.133      0.012     0.152       0.014      3.
+ 0.138      0.007     0.142       0.011      4.
+ENDDATA              6
+ENDSUBENT           54
+SUBENT        23296019   20160421   20160902   20160818       2249
+BIB                  4         27
+REACTION  1(8-O-18(N,G)8-O-19,,SIG)
+            Measurement by 1st sample
+          2(8-O-18(N,G)8-O-19,,SIG)
+            Measurement by 2nd sample
+          3(8-O-18(N,G)8-O-19,,SIG)
+            Weighted average of measurements
+SAMPLE     D2O targets composition:
+           Enriched targets were provided by the Paul Scherrer
+           Institute; were calibrated using a sector field mass
+           spectrometer.
+           Thickness ~ 3mm .
+           The deuterated targets were >99.9% enriched in 2H.
+           Both (two O-17,18 enriched targets) were irradiated for
+           118801 sec.
+          1Enriched-1: O-16 - 50.1+-1.6 %, O-17 - 15.4+-1.7 %,
+                       O-18 - 34.6+-1.8 % .
+          2Enriched-2: O-16 - 58.5+-1.6 %, O-17 - 10.2+-1.7 %,
+                       O-18 - 31.2+-1.8 % .
+ERR-ANALYS (ERR-T)    Includes
+           (ERR-1)the uncertainty in the standardization ,
+           (ERR-S) statistical uncertainty,
+           - uncertainty in the isotopic branching ratios of the
+           target,
+           (ERR-2) Uncertainty in the abundance
+STATUS     (TABLE) Table VII, Text, page 5  of PR/C,93,044311,2016
+           (DEP,23296018) Measurement by several gammas and two
+           samples.
+ENDBIB              27
+COMMON               1          3
+ERR-1
+PER-CENT
+ 3.
+ENDCOMMON            3
+DATA                 9          1
+DATA      1ERR-T     1ERR-S     1DATA      2ERR-T     2ERR-S     2
+DATA      3ERR-T     3ERR-2     3
+MB         MB         PER-CENT   MB         MB         PER-CENT
+MB         MB         PER-CENT
+  0.140     0.004      2.        0.144      0.007      6.
+0.142      0.007      6.
+ENDDATA              6
+ENDSUBENT           42
+SUBENT        23296020   20160421   20160902   20160818       2249
+BIB                  6         27
+REACTION  1(8-O-18(N,G)8-O-19,PAR,SIG,DG)
+            Measurement by 1st sample
+          2(8-O-18(N,G)8-O-19,PAR,SIG,DG)
+            Measurement by 2nd sample
+SAMPLE     D2O targets composition:
+           Enriched targets were provided by the Paul Scherrer
+           Institute; were calibrated using a sector field mass
+           spectrometer.
+           Thickness ~ 3mm .
+           The deuterated targets were >99.9% enriched in 2H.
+           Both (two O-17,18 enriched targets) were irradiated for
+           118801 sec.
+          1Enriched-1: O-16 - 50.1+-1.6 %, O-17 - 15.4+-1.7 %,
+                       O-18 - 34.6+-1.8 % .
+          2Enriched-2: O-16 - 58.5+-1.6 %, O-17 - 10.2+-1.7 %,
+                       O-18 - 31.2+-1.8 % .
+ANALYSIS   Cross section was determined by activation analysis
+           from 19-O beta- decay.
+DECAY-DATA (8-O-19,28.66SEC,B-)
+ERR-ANALYS (ERR-T)    Includes
+           (ERR-1)the uncertainty in the standardization ,
+           (ERR-S) statistical uncertainty,
+           - uncertainty in the isotopic branching ratios of the
+           target,
+           (ERR-2) Uncertainty in the abundance
+STATUS     (TABLE) Text, page 5 of PR/C,93,044311,2016
+           samples.
+ENDBIB              27
+COMMON               3          3
+ERR-1      E          ERR-2
+PER-CENT   KEV        PER-CENT
+ 3.          1357.32    6.
+ENDCOMMON            3
+DATA                 6          1
+DATA      1ERR-T     1ERR-S     1DATA      2ERR-T     2ERR-S     2
+MB         MB         PER-CENT   MB         MB         PER-CENT
+ 0.071      0.003      2.         0.071      0.005      6.
+ENDDATA              3
+ENDSUBENT           39
+SUBENT        23296021   20160421   20160902   20160818       2249
+BIB                  7         29
+REACTION  1(8-O-18(N,G)8-O-19,,SIG)
+            Measurement by 1st sample
+          2(8-O-18(N,G)8-O-19,,SIG)
+            Measurement by 2nd sample
+SAMPLE     D2O targets composition:
+           Enriched targets were provided by the Paul Scherrer
+           Institute; were calibrated using a sector field mass
+           spectrometer.
+           Thickness ~ 3mm .
+           The deuterated targets were >99.9% enriched in 2H.
+           Both (two O-17,18 enriched targets) were irradiated for
+           118801 sec.
+          1Enriched-1: O-16 - 50.1+-1.6 %, O-17 - 15.4+-1.7 %,
+                       O-18 - 34.6+-1.8 % .
+          2Enriched-2: O-16 - 58.5+-1.6 %, O-17 - 10.2+-1.7 %,
+                       O-18 - 31.2+-1.8 % .
+METHOD     (ACTIV)
+ANALYSIS   Cross section was determined by activation analysis
+           from 19-O beta- decay.
+DECAY-DATA (8-O-19,28.66SEC,B-,,,DG,1357.32,0.504) 50.4+-1.1 %
+ERR-ANALYS (ERR-T)    Includes
+           (ERR-1)the uncertainty in the standardization ,
+           (ERR-S) statistical uncertainty,
+           - uncertainty in the isotopic branching ratios of the
+           target,
+           (ERR-2) Uncertainty in the abundance
+STATUS     (TABLE) Text, page 5 of PR/C,93,044311,2016
+           samples.
+           (DEP,23296020) Gamma cross section.
+ENDBIB              29
+COMMON               2          3
+ERR-1      ERR-2
+PER-CENT   PER-CENT
+ 3.         6.
+ENDCOMMON            3
+DATA                 6          1
+DATA      1ERR-T     1ERR-S     1DATA      2ERR-T     2ERR-S     2
+MB         MB         PER-CENT   MB         MB         PER-CENT
+  0.141     0.011      2.        0.141      0.014      6.
+ENDDATA              3
+ENDSUBENT           41
+SUBENT        23296022   20160421   20160902   20160818       2249
+BIB                  6         17
+REACTION   (8-O-18(N,G)8-O-19,,SIG)
+ANALYSIS   Cross section was determined as average of four
+           measurements.
+ERR-ANALYS (DATA-ERR)   Total uncertainty.
+            See uncertainties in Subents 021, 019.
+REL-REF    (D,,L.Seren+,J,PR,72,888,1947)
+            0.22+-0.04 mb,     considerably larger
+           (D,,W.Blaser+,J,JIN,33,1221,1971)
+           0.16+-0.01 mb,      considerably larger
+           (A,,Y.Nagai+,J,PR/C,76,051301,2007)
+            0.16+-0.01 mb  ( 0.14+-0.01 if renormalize to O-16
+           CS measured in this experiment)
+ADD-RES    The neutron separation energy was determined to be
+           Sn = 3963.12 +- 0.19 keV .
+STATUS     (TABLE) Table X of PR/C,93,044311,2016
+           (DEP,23296021) Measurement by beta- decay gamma
+           (DEP,23296019) Measurement by prompt gammas
+ENDBIB              17
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+  0.141     0.006
+ENDDATA              3
+ENDSUBENT           25
+SUBENT        23296023   20160421   20160902   20160818       2249
+BIB                  7         22
+REACTION  1(1-H-2(N,G)1-H-3,PAR,SIG,G)
+          2(1-H-2(N,G)1-H-3,PAR,SIG,G)
+SAMPLE     D2O targets composition:
+          1Enriched-1: O-16 - 50.1+-1.6 %, O-17 - 15.4+-1.7 %,
+                       O-18 - 34.6+-1.8 % .
+          2Enriched-2: O-16 - 58.5+-1.6 %, O-17 - 10.2+-1.7 %,
+                       O-18 - 31.2+-1.8 % .
+           Enriched targets were provided by the Paul Scherrer
+           Institute; were calibrated using a sector field mass
+           spectrometer.
+           Thickness ~ 3mm .
+           All targets were >99.9% enriched in 2H.
+MONITOR    (8-O-16(N,G)8-O-17,PAR,SIG,G)
+MONIT-REF  (23296009,R.B.Firestone+,J,PR/C,93,044311,2016)
+            Measured at this experiment.
+ANALYSIS    CS was determined relative to the 870.76-keV gamma-ray
+           cross section after accounting for the isotopic
+           abundances in the targets.
+ERR-ANALYS (DATA-ERR) Type of uncertainly is not explained.
+STATUS     (TABLE) Table VIII of PR/C,93,044311,2016
+           (COREL,23296024) Deuterated urea target, monitor N-14
+           (COREL,23296025) Deuterated urea target, monitor C-12
+ENDBIB              22
+COMMON               3          3
+E-NRM      MONIT      MONIT-ERR
+KEV        MB         MB
+  870.76    0.164      0.003
+ENDCOMMON            3
+DATA                 5          1
+E          DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+KEV        MB         MB         MB         MB
+6250.       0.481      0.020      0.483      0.020
+ENDDATA              3
+ENDSUBENT           34
+SUBENT        23296024   20160421   20160902   20160818       2249
+BIB                  6          9
+REACTION   (1-H-2(N,G)1-H-3,PAR,SIG,G)
+SAMPLE      Deuterated urea target.
+MONITOR    (7-N-14(N,G)7-N-15,PAR,SIG,G)
+MONIT-REF  (23296009,R.B.Firestone+,J,PR/C,93,044311,2016)
+            Measured at this experiment.
+ERR-ANALYS (DATA-ERR) Type of uncertainly is not explained.
+STATUS     (TABLE) Table VIII of PR/C,93,044311,2016
+           (COREL,23296023) D2O targets, monitor O-16
+           (COREL,23296025) Deuterated urea target, monitor C-12
+ENDBIB               9
+COMMON               3          3
+E-NRM      MONIT      MONIT-ERR
+KEV        MB         MB
+1884.85     14.57      0.04
+ENDCOMMON            3
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        MB         MB
+6250.24     0.481      0.020
+ENDDATA              3
+ENDSUBENT           21
+SUBENT        23296025   20160421   20160902   20160818       2249
+BIB                  6          9
+REACTION   (1-H-2(N,G)1-H-3,PAR,SIG,G)
+SAMPLE      Deuterated urea target.
+MONITOR    (6-C-12(N,G)6-C-13,PAR,SIG,G)
+MONIT-REF  (23296009,R.B.Firestone+,J,PR/C,93,044311,2016)
+            Measured at this experiment.
+ERR-ANALYS (DATA-ERR) Type of uncertainly is not explained.
+STATUS     (TABLE) Table VIII of PR/C,93,044311,2016
+           (COREL,23296023) D2O targets, monitor O-16
+           (COREL,23296024) Deuterated urea target, monitor N-14
+ENDBIB               9
+COMMON               3          3
+E-NRM      MONIT      MONIT-ERR
+KEV        MB         MB
+4945.30     2.62       0.03
+ENDCOMMON            3
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        MB         MB
+6250.24     0.478      0.012
+ENDDATA              3
+ENDSUBENT           21
+SUBENT        23296026   20160421   20160902   20160818       2249
+BIB                  4         10
+REACTION   (1-H-2(N,G)1-H-3,PAR,SIG,G)
+ANALYSIS    CS was determined as weighted average of four
+           measurements with different samples and monitors.
+ERR-ANALYS (ERR-T)   Includes:
+           (ERR-S) Statistical uncertainty
+           (ERR-1) Calibration uncertainty
+STATUS     (TABLE) Table VIII of PR/C,93,044311,2016
+           (DEP,23296023) O-16 as monitor
+           (DEP,23296024) N-14 as monitor
+           (DEP,23296025) C-12 as monitor
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 5          1
+E          DATA       ERR-T      ERR-S      ERR-1
+KEV        MB         MB         PER-CENT   PER-CENT
+6250.24     0.488      0.006      1.         0.7
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        23296027   20160421   20160902   20160818       2249
+BIB                  6         21
+REACTION   (1-H-2(N,G)1-H-3,,SIG)
+ANALYSIS    Total radiative capture cross section was determined
+           from 6250.keV-gamma cross section.
+CORRECTION For internal pair formation ALFipf=0.00164 .
+ERR-ANALYS (DATA-ERR) Type of error is not explained clearly in
+           the article, probably total
+REL-REF    (D,,B.Sargent+,J,CJR/A,25,134,1947)  0.92+-0.22 mb
+           (D,,L.Kaplan+,J,PR,87,785,1952)      0.572+-0.10 mb
+           (D,,E.Jurney+,R,ANL-6797,236,1963)   0.60+-0.05 mb
+           (D,,D.Trail+,R,ANL-6797,247,1963)    0.36+-0.03 mb
+           (D,,J.S.Merritt+,J,NSE,28,286,1967)  0.521+-0.009 mb
+           (A,,J.S.Merritt+,J,NSE,34,195,1968)  0.506+-0.010 mb
+           (D,,M.G.Silk+,J,JNE,23,625,1969)     0.523+-0.029 mb
+           (D,,H.Ishikawa,J,NIM,109,493,1973)   0.55+-0.10 mb
+           (A,,V.Alfimenkov+,R,NBS-MONO-594,394,1980)
+            0.487+-0.024 mb
+            NBS Special Publications 594,p.394,1980
+           (A,,E.T.Jurney+,J,PR/C,25,2810,1982)  0.508+-0.015 mb
+           (A,,S.Mughabghab,B,NEUT.RES,,2006)    0.508+-0.015
+STATUS     (TABLE) Tables IX, X of PR/C,93,044311,2016
+           (DEP,23296026) 6250.keV-gamma cross section
+ENDBIB              21
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+MB         MB
+ 0.489      0.006
+ENDDATA              3
+ENDSUBENT           29
+ENDENTRY            27

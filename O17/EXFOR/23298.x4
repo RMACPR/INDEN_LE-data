@@ -1,0 +1,55 @@
+ENTRY            23298   20160513   20160902   20160829       2250
+SUBENT        23298001   20160513   20160902   20160829       2250
+BIB                 13         22
+TITLE      Resonant and nonresonant captures of low energy
+            neutrons by light nuclides
+AUTHOR     (T.Matsushima, H.Kitazawa)
+INSTITUTE  (2JPNJPN) National Defense Academy of Japan
+REFERENCE  (T,MATSUSHIMA,200303)
+            Master thesis submitted to National Defense Academy
+            of Japan
+FACILITY   (CCW,2JPNTIT) 3.2 MV Pelletron Accelerator
+INC-SOURCE (P-LI7)
+SAMPLE     BeO and standard Au
+METHOD     (TOF)
+DETECTOR   (GLASD) 6Li-glass scintillation detector for TOF
+           (NAICR) Anti-Compton NaI(Tl) detector for prompt gammas
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)
+MONIT-REF  (,P.G.Young,3,ENDF/B-VI,7925,1984)
+           (11679023,R.L.Macklin+,J,PR,159,1007,1967)
+CORRECTION Corrected for
+           - background gammas from 7Li(n,g0)8Li,
+           - background 2.2 MeV gammas due to 1H(n,g)2H.
+           - multiple scattering effect,
+           - self-shielding of incident neutrons.
+HISTORY    (20160513C) On
+ENDBIB              22
+NOCOMMON             0          0
+ENDSUBENT           25
+SUBENT        23298002   20160513   20160902   20160829       2250
+BIB                  4          9
+REACTION   (8-O-16(N,G)8-O-17,PAR,SIG)
+FLAG       Corrections for sample size effects were done by
+           (1.) two correction factors (multiple scattering,
+            self-shielding of incident neutrons)
+           (2.) extrapolation of cross sections from samples
+            with 3 different thicknesses to zero-thickness by
+            exponential fitting
+ERR-ANALYS (DATA-ERR) No information on the source of uncertainty
+STATUS     (TABLE) Table 4.18 of Matsushima's thesis
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 6          8
+EN-MEAN    EN-RSL-FW  LVL-NUMB   DATA       DATA-ERR   FLAG
+KEV        KEV        NO-DIM     MICRO-B    MICRO-B    NO-DIM
+ 390.       53.        0.         101.8       9.4       1.
+ 390.       53.        1.         184.9      12.2       1.
+ 428.       46.        0.         239.1      21.8       2.
+ 428.       46.        1.         418.4      31.2       2.
+ 470.       57.        0.          44.0       2.7       1.
+ 470.       57.        1.          79.1       3.8       1.
+ 549.       56.        0.           1.3       0.1       1.
+ 549.       56.        1.          15.5       0.4       1.
+ENDDATA             10
+ENDSUBENT           24
+ENDENTRY             2

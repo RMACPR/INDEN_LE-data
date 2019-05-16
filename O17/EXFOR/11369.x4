@@ -1,0 +1,52 @@
+ENTRY            11369     860120              20050926       0000
+SUBENT        11369001     860120              20050926       0000
+BIB                  8         11
+INSTITUTE  (1USAKAP)
+REFERENCE  (R,KAPL-2214,6209)
+           (J,BAP,6,237(DA15),6104)
+AUTHOR     (K.W.SEEMAN,W.E.MOORE)
+TITLE      O16(N,P)N16 CROSS SECTION FROM 12.6 TO 16.3 MEV.
+INC-SOURCE (D-T)
+DETECTOR   (SCIN) LIQUID SCINTILLATION COUNTER
+STATUS     (SCSRS)
+HISTORY    (760714T) TRANSLATED FROM SCISRS
+           (820324A) CONVERTED TO REACTION FORMALISM
+           (860120A) BIB CORRECTIONS.
+ENDBIB              11
+NOCOMMON             0          0
+ENDSUBENT           14
+SUBENT        11369002     820324              20050926       0000
+BIB                  3          3
+REACTION   (8-O-16(N,P)7-N-16,,SIG)
+METHOD     (ACTIV)    ACTIVATION
+DECAY-DATA (7-N-16,7.35SEC,B)
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 4         22
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 1.261  +01 9.     -02 2.58   -02 1.7    -03
+ 1.278  +01 4.     -02 3.01   -02 1.4    -03
+ 1.290  +01 6.     -02 3.14   -02 1.4    -03
+ 1.308  +01 7.     -02 3.62   -02 1.6    -03
+ 1.325  +01 8.     -02 4.52   -02 2.0    -03
+ 1.343  +01 9.     -02 4.74   -02 2.1    -03
+ 1.360  +01 1.0    -01 4.85   -02 2.1    -03
+ 1.379  +01 1.1    -01 4.13   -02 1.8    -03
+ 1.396  +01 1.1    -01 4.37   -02 2.0    -03
+ 1.414  +01 1.1    -01 4.38   -02 2.0    -03
+ 1.431  +01 1.1    -01 4.04   -02 1.8    -03
+ 1.449  +01 1.1    -01 3.82   -02 2.0    -03
+ 1.466  +01 1.1    -01 3.38   -02 1.5    -03
+ 1.484  +01 1.1    -01 3.28   -02 1.4    -03
+ 1.502  +01 1.1    -01 3.62   -02 1.7    -03
+ 1.520  +01 1.1    -01 3.74   -02 1.7    -03
+ 1.536  +01 1.0    -01 3.24   -02 1.4    -03
+ 1.553  +01 9.     -02 3.16   -02 1.4    -03
+ 1.572  +01 8.     -02 3.03   -02 1.4    -03
+ 1.588  +01 7.     -02 3.26   -02 1.4    -03
+ 1.607  +01 5.     -02 3.30   -02 1.7    -03
+ 1.630  +01 1.2    -01 3.14   -02 1.8    -03
+ENDDATA             24
+ENDSUBENT           32
+ENDENTRY             2

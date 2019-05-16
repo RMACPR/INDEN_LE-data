@@ -1,0 +1,466 @@
+ENTRY            40572   20180208   20180525   20180525       4178
+SUBENT        40572001   20180208   20180525   20180525       4178
+BIB                 15         68
+TITLE      The Angular Distribution of Neutrons Elastically and
+           Idealistically Scattered by Ni-58,60,62,64
+AUTHOR     (I.A.Korzh, V.P.Lunev, V.A.Mishchenko, E.N.Mozhzhukhin,
+            M.V.Pasechnik, N.M.Pravdivyy)
+INSTITUTE  (4UKRIJD)
+REFERENCE  ((C,80KIEV,1,314,1980)=
+           (R,INDC(CCP)-169,314,1980))  Vol.1
+             Figures for 6., 7. MeV neutrons, Ni isotopes
+           (J,YF,31,13,1980) Issue 1
+           (J,SNP,31,5,1980) Engl.translation of J,YF,31,13,1980
+            Figures for 5.MeV MeV neutrons, Ni isotopes and oxygen
+INC-SOURCE (D-D) Deuteron-deuterium
+SAMPLE     Ni isotopes and oxygen
+            For 5 MeV:
+           Enriched samples as Ni oxide, natural Ni - metallic.
+           CH2 polyethylene sample as standard for inelastic
+           scattering.
+           Ni-nat - 276.97 g mass, 5.0cm height, 3.0cm outer
+           diameter, 1.02m inner diameter.
+           CH2 -  1.60g mass, 5.014cm height, 0.884cm outer
+           diameter, 0.570cm inner diameter.
+           Enriched samples :
+           Ni58 - 99.7%, 58.45 g mass, 4.5cm height, 3.3cm outer
+           diameter;
+           Ni60 - 98.8%, 64.73 g mass, 5.0cm height, 3.3cm outer
+           diameter;
+           Ni62 - 96.2%, 56.09 g mass, 4.5cm height, 3.3cm outer
+           diameter;
+           Ni64 - 92.6%, 43.05 g mass, 4.0cm height, 3.0cm outer
+           diameter.
+METHOD     (TOF) Time-of-flight method
+            Details for 5 MeV:
+           Deuteron energy 1.94 MeV, frequency 4 MHz,
+           current 5 muAmp, pulse 1.0-1.5 nsec,
+           Ti-D target 340 keV on Mo backing.
+           Distance target - sample 10cm, sample-detector 2.6m .
+           Scattered neutron detector - stilbene crystal of 5cm
+           diameter, 5cm thickness with FEU-30.
+           Monitor - stilbene crystal of 3 cm diameter, 4cm
+           thickness, with FEU 30, current integrator.
+           Spectrometer parameters - integral nonlinearity 0.3%,
+           differential nonlinearity 4%, intrinsic time resolution
+           2 nsec.
+REL-REF    (M,,I.A.Korzh+,J,UFZ,25,82,1980)
+            Details of method.
+FACILITY   (VDG,4UKRIJD) Electrostatic accelerator EG-5
+DETECTOR   (SCIN) Scintillation detectors
+PART-DET   (N)
+CORRECTION Anisotropy of neutron yield from source target - 4-11%.
+           Neutron beam attenuation in sample - 10-33 %.
+             Elastic scattering:
+           neutron multiple scattering in samples - up to 34 %
+           at minimal values;
+           angular resolution of experiment - up to 27% at
+           minimal values.
+            At measurement by Ni oxide - oxygen CS measured at
+           this experiment was subtracted .
+ERR-ANALYS (DATA-ERR) Total error includes stat.error, error of
+           normalization, error of corrections.
+STATUS     (APRVD) Data were approved  by I.A.Korzh et al
+                      1981-04-09
+           (TABLE) From authors.
+HISTORY    (19830315C) Compiled at the center - CJD
+           (20021209A) Date is corrected. Data Tables rearranged
+           (20021217U) Last checking has been done.
+           (20180208A) M.M. Refs. R,INDC(CCP)-169,314,1980 and
+            J,SNP,31,5,1980 were added.
+           BIB information updated.  ERR-T -> DATA-ERR .
+ENDBIB              68
+NOCOMMON             0          0
+ENDSUBENT           71
+SUBENT        40572002   20180208   20180525   20180525       4178
+BIB                  2          2
+REACTION   (28-NI-58(N,EL)28-NI-58,,DA)
+MONITOR     Normalized by measured neutron flux at 0 deg
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 5         33
+EN         EN-ERR     ANG        DATA       DATA-ERR
+MEV        MEV        ADEG       MB/SR      MB/SR
+    5.0       .17        20.        1113.       85.
+    5.0       .17        30.         707.       52.
+    5.0       .17        40.         336.       24.
+    5.0       .17        55.          72.        8.
+    5.0       .17        65.          16.        7.
+    5.0       .17        75.          20.        1.
+    5.0       .17        90.          38.        1.
+    5.0       .17       105.          46.        2.
+    5.0       .17       125.          27.        1.
+    5.0       .17       135.          17.        2.
+    5.0       .17       150.          23.        2.
+    6.0       .14        20.        1332.3      39.8
+    6.0       .14        30.         720.8      22.
+    6.0       .14        40.         303.8      12.1
+    6.0       .14        55.          35.2       2.4
+    6.0       .14        65.          14.5        .7
+    6.0       .14        75.          26.4       1.1
+    6.0       .14        90.          32.8       1.2
+    6.0       .14       105.          24.8        .9
+    6.0       .14       125.          10.6        .5
+    6.0       .14       135.           8.2        .5
+    6.0       .14       150.          14.9        .7
+    7.0       .12        20.        1519.8      48.4
+    7.0       .12        30.         811.5      35.7
+    7.0       .12        40.         277.       10.2
+    7.0       .12        55.          25.7       1.6
+    7.0       .12        65.          11.8        .7
+    7.0       .12        75.          23.7       1.1
+    7.0       .12        90.          24.9        .9
+    7.0       .12       105.          17.         .9
+    7.0       .12       125.           5.1        .3
+    7.0       .12       135.           2.9        .4
+    7.0       .12       150.          10.3        .5
+ENDDATA             35
+ENDSUBENT           42
+SUBENT        40572003   20180208   20180525   20180525       4178
+BIB                  2          2
+REACTION   (28-NI-60(N,EL)28-NI-60,,DA)
+MONITOR     Normalized by measured neutron flux at 0 deg
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 5         33
+EN         EN-ERR     ANG        DATA       DATA-ERR
+MEV        MEV        ADEG       MB/SR      MB/SR
+   5.0        .17        20.        1214.        84.
+   5.0        .17        30.         732.        53.
+   5.0        .17        40.         397.        24.
+   5.0        .17        55.          56.         8.
+   5.0        .17        65.          17.         7.
+   5.0        .17        75.          21.         6.
+   5.0        .17        90.          47.         6.
+   5.0        .17       105.          53.         6.
+   5.0        .17       125.          34.         6.
+   5.0        .17       135.          20.         6.
+   5.0        .17       150.          33.         6.
+   6.0        .14        20.        1407.3      45.1
+   6.0        .14        30.         759.5      24.4
+   6.0        .14        40.         279.7       9.8
+   6.0        .14        55.          29.        1.7
+   6.0        .14        65.          19.        1.
+   6.0        .14        75.          28.7       1.2
+   6.0        .14        90.          34.8       2.
+   6.0        .14       105.          27.        1.
+   6.0        .14       125.          11.5        .7
+   6.0        .14       135.           7.9        .5
+   6.0        .14       150.          19.1        .9
+   7.0        .12        20.        1568.8       47.2
+   7.0        .12        30.         843.4       26.2
+   7.0        .12        40.         291.7        9.7
+   7.0        .12        55.          20.7        1.3
+   7.0        .12        65.          14.6        1.1
+   7.0        .12        75.          29.2        1.2
+   7.0        .12        90.          31.         1.3
+   7.0        .12       105.          16.8         .7
+   7.0        .12       125.           6.6         .5
+   7.0        .12       135.           3.          .3
+   7.0        .12       150.          11.5         .9
+ENDDATA             35
+ENDSUBENT           42
+SUBENT        40572004   20180208   20180525   20180525       4178
+BIB                  2          2
+REACTION   (28-NI-64(N,EL)28-NI-64,,DA)
+MONITOR     Normalized by measured neutron flux at 0 deg
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 5         33
+EN         EN-ERR     ANG        DATA       DATA-ERR
+MEV        MEV        ADEG       MB/SR      MB/SR
+    5.0        .17       20.        1105.       85.
+    5.0        .17       30.         689.       72.
+    5.0        .17       40.         319.       31.
+    5.0        .17       55.          49.        8.
+    5.0        .17       65.          22.        7.
+    5.0        .17       75.          27.        6.
+    5.0        .17       90.          59.        9.
+    5.0        .17      105.          56.       13.
+    5.0        .17      125.          41.       12.
+    5.0        .17      135.          27.        6.
+    5.0        .17      150.          33.        7.
+    6.0        .14       20.        1584.8      52.9
+    6.0        .14       30.         756.       25.1
+    6.0        .14       40.         266.9      14.3
+    6.0        .14       55.          30.9       1.6
+    6.0        .14       65.          25.        1.1
+    6.0        .14       75.          45.4       1.6
+    6.0        .14       90.          47.9       1.8
+    6.0        .14      105.          32.4       1.2
+    6.0        .14      125.          12.3       1.
+    6.0        .14      135.           7.7        .6
+    6.0        .14      150.          25.        1.
+    7.0        .12       20.        1637.7      60.7
+    7.0        .12       30.         882.5      37.8
+    7.0        .12       40.         329.1      17.7
+    7.0        .12       55.          28.4       2.8
+    7.0        .12       65.          21.3       1.2
+    7.0        .12       75.          38.        1.4
+    7.0        .12       90.          41.2       1.6
+    7.0        .12      105.          22.7       1.
+    7.0        .12      125.           7.3        .6
+    7.0        .12      135.           4.         .4
+    7.0        .12      150.          17.2        .7
+ENDDATA             35
+ENDSUBENT           42
+SUBENT        40572005   20180208   20180525   20180525       4178
+BIB                  2          2
+REACTION   (28-NI-62(N,EL)28-NI-62,,DA)
+MONITOR     Normalized by measured neutron flux at 0 deg
+ENDBIB               2
+COMMON               2          3
+EN         EN-ERR
+MEV        MEV
+         5.        .17
+ENDCOMMON            3
+DATA                 3         11
+ANG        DATA       DATA-ERR
+ADEG       MB/SR      MB/SR
+        20.      1140.        80.
+        30.       680.        50.
+        40.       312.        30.
+        55.        48.         7.
+        65.        16.         6.
+        75.        29.        10.
+        90.        56.         7.
+       105.        60.         9.
+       125.        35.         7.
+       135.        26.         5.
+       150.        20.         5.
+ENDDATA             13
+ENDSUBENT           24
+SUBENT        40572006   20180208   20180525   20180525       4178
+BIB                  2          2
+REACTION   (28-NI-0(N,EL)28-NI-0,,DA)
+MONITOR     Normalized by measured neutron flux at 0 deg
+ENDBIB               2
+COMMON               2          3
+EN         EN-ERR
+MEV        MEV
+         5.        .17
+ENDCOMMON            3
+DATA                 3         11
+ANG        DATA       DATA-ERR
+ADEG       MB/SR      MB/SR
+        20.      1137.        36.
+        30.       709.        24.
+        40.       350.        12.
+        55.        66.         3.
+        65.        16.         2.
+        75.        20.         1.
+        90.        38.         1.
+       105.        46.         2.
+       125.        27.         1.
+       135.        17.         2.
+       150.        23.         2.
+ENDDATA             13
+ENDSUBENT           24
+SUBENT        40572007   20180208   20180525   20180525       4178
+BIB                  2          2
+REACTION   (8-O-16(N,EL)8-O-16,,DA)
+MONITOR     Normalized by measured neutron flux at 0 deg
+ENDBIB               2
+COMMON               2          3
+EN         EN-ERR
+MEV        MEV
+         5.        .17
+ENDCOMMON            3
+DATA                 3         11
+ANG        DATA       DATA-ERR
+ADEG       MB/SR      MB/SR
+        20.       270.        65.
+        30.       157.        40.
+        40.        89.        19.
+        55.        56.         6.
+        65.        42.         5.
+        75.        46.         5.
+        90.        65.         4.
+       105.        75.         5.
+       125.        77.         4.
+       135.        60.         4.
+       159.        48.         4.
+ENDDATA             13
+ENDSUBENT           24
+SUBENT        40572008   20180208   20180525   20180525       4178
+BIB                  3          3
+REACTION   (28-NI-58(N,INL)28-NI-58,PAR,DA)
+MONITOR    (1-H-1(N,EL)1-H-1,,SIG)
+EN-SEC     (E-LVL,28-NI-58)
+ENDBIB               3
+COMMON               1          3
+E-LVL
+KEV
+      1454.
+ENDCOMMON            3
+DATA                 5         33
+EN         EN-ERR     ANG        DATA       DATA-ERR
+MEV        MEV        ADEG       MB/SR      MB/SR
+         5.        .17        20.       26.8        2.5
+         5.        .17        30.       28.2        2.4
+         5.        .17        40.       22.9        1.9
+         5.        .17        55.       18.5        1.4
+         5.        .17        65.       15.9        2.5
+         5.        .17        75.       16.3        1.5
+         5.        .17        90.       14.1        1.5
+         5.        .17       105.       14.6        1.5
+         5.        .17       125.       14.9        2.7
+         5.        .17       135.       15.3        2.5
+         5.        .17       150.       10.8        1.7
+         6.        .14        20.       24.2        5.6
+         6.        .14        30.       19.9        3.6
+         6.        .14        40.       15.7        1.9
+         6.        .14        55.       12.7        1.2
+         6.        .14        65.       11.4         .7
+         6.        .14        75.       10.8         .9
+         6.        .14        90.       11.1         .7
+         6.        .14       105.       10.8         .7
+         6.        .14       125.       10.8         .8
+         6.        .14       135.       10.          .8
+         6.        .14       150.       10.9         .8
+         7.        .12        20.       22.6        5.5
+         7.        .12        30.       17.         3.1
+         7.        .12        40.       13.3        1.4
+         7.        .12        55.        9.2         .7
+         7.        .12        65.        8.7         .4
+         7.        .12        75.        7.8         .7
+         7.        .12        90.        8.2         .4
+         7.        .12       105.        7.1         .4
+         7.        .12       125.        6.7         .4
+         7.        .12       135.        6.6         .4
+         7.        .12       150.        6.8         .4
+ENDDATA             35
+ENDSUBENT           47
+SUBENT        40572009   20180208   20180525   20180525       4178
+BIB                  5          6
+REACTION   (28-NI-60(N,INL)28-NI-60,PAR,DA)
+MONITOR    (1-H-1(N,EL)1-H-1,,SIG)
+EN-SEC     (E-LVL,28-NI-60)
+LEVEL-PROP (28-NI-60,E-LVL=1332.,SPIN=2.,PARITY=+1.)
+HISTORY    (20180208A) M.M. LEVEL-PROP was added, COMMON was
+           corrected.
+ENDBIB               6
+COMMON               1          3
+E-LVL
+KEV
+      1332.
+ENDCOMMON            3
+DATA                 5         31
+EN         EN-ERR     ANG        DATA       DATA-ERR
+MEV        MEV        ADEG       MB/SR      MB/SR
+         5.        .17        20.       25.2        3.4
+         5.        .17        30.       22.9        2.7
+         5.        .17        40.       20.1        2.4
+         5.        .17        55.       16.9        1.7
+         5.        .17        75.       16.4        1.9
+         5.        .17        90.       16.3        1.3
+         5.        .17       105.       15.9        2.3
+         5.        .17       125.       12.2        1.5
+         5.        .17       150.       13.3        1.9
+         6.        .14        20.       29.         6.9
+         6.        .14        30.       23.8        4.4
+         6.        .14        40.       20.3        2.6
+         6.        .14        55.       15.9        1.2
+         6.        .14        65.       14.5        1.1
+         6.        .14        75.       12.          .9
+         6.        .14        90.       12.7         .8
+         6.        .14       105.       13.6        1.
+         6.        .14       125.       14.4        1.
+         6.        .14       135.       14.4        1.
+         6.        .14       150.       12.7        1.1
+         7.        .12        20.       27.5        6.
+         7.        .12        30.       25.1        4.1
+         7.        .12        40.       18.7        2.1
+         7.        .12        55.       12.9        1.1
+         7.        .12        65.       10.5         .7
+         7.        .12        75.        8.9        1.3
+         7.        .12        90.        9.7         .7
+         7.        .12       105.        9.4         .8
+         7.        .12       125.        8.2         .6
+         7.        .12       135.        8.3         .5
+         7.        .12       150.        8.4        1.1
+ENDDATA             33
+ENDSUBENT           48
+SUBENT        40572010   20180208   20180525   20180525       4178
+BIB                  5          6
+REACTION   (28-NI-64(N,INL)28-NI-64,PAR,DA)
+MONITOR    (1-H-1(N,EL)1-H-1,,SIG)
+EN-SEC     (E-LVL,28-NI-64)
+LEVEL-PROP (28-NI-64,E-LVL=1345.,SPIN=2.,PARITY=+1.)
+HISTORY    (20180208A) M.M. LEVEL-PROP was added, COMMON was
+           corrected.
+ENDBIB               6
+COMMON               1          3
+E-LVL
+KEV
+      1345.
+ENDCOMMON            3
+DATA                 5         33
+EN         EN-ERR     ANG        DATA       DATA-ERR
+MEV        MEV        ADEG       MB/SR      MB/SR
+         5.        .17        20.       31.8        3.8
+         5.        .17        30.       27.9        4.4
+         5.        .17        40.       21.4        2.8
+         5.        .17        55.       20.8        2.6
+         5.        .17        65.       16.1        2.4
+         5.        .17        75.       15.7        2.6
+         5.        .17        90.       15.         2.5
+         5.        .17       105.       14.9        2.6
+         5.        .17       125.       13.9        2.1
+         5.        .17       135.       11.9        2.1
+         5.        .17       150.       14.3        2.6
+         6.        .14        20.       23.8        5.4
+         6.        .14        30.       20.2        3.2
+         6.        .14        40.       15.3        1.7
+         6.        .14        55.       12.7         .9
+         6.        .14        65.       11.9         .7
+         6.        .14        75.       12.1         .8
+         6.        .14        90.       11.2         .7
+         6.        .14       105.       11.7         .8
+         6.        .14       125.       10.3         .6
+         6.        .14       135.       11.1         .7
+         6.        .14       150.       11.4         .7
+         7.        .12        20.       21.         5.4
+         7.        .12        30.       15.4        2.8
+         7.        .12        40.       12.9        2.6
+         7.        .12        55.        9.5        1.
+         7.        .12        65.        8.1        1.
+         7.        .12        75.        8.         1.
+         7.        .12        90.        8.2         .8
+         7.        .12       105.        6.          .9
+         7.        .12       125.        7.8         .9
+         7.        .12       135.        7.4         .5
+         7.        .12       150.        7.1         .6
+ENDDATA             35
+ENDSUBENT           50
+SUBENT        40572011   20180208   20180525   20180525       4178
+BIB                  5          6
+REACTION   (28-NI-62(N,INL)28-NI-62,PAR,DA)
+MONITOR    (1-H-1(N,EL)1-H-1,,SIG)
+EN-SEC     (E-LVL,28-NI-62)
+LEVEL-PROP (28-NI-60,E-LVL=1173.,SPIN=2.,PARITY=+1.)
+HISTORY    (20180208A) M.M. LEVEL-PROP was added, COMMON was
+           corrected.
+ENDBIB               6
+COMMON               3          3
+EN         EN-ERR     E-LVL
+MEV        MEV        KEV
+         5.        .17      1173.
+ENDCOMMON            3
+DATA                 3         11
+ANG        DATA       DATA-ERR
+ADEG       MB/SR      MB/SR
+        20.       32.8        7.
+        30.       27.8        3.9
+        40.       23.3        4.2
+        55.       20.7        3.5
+        65.       19.5        3.5
+        75.       16.3        5.3
+        90.       16.6        3.9
+       105.       17.6        3.2
+       125.       18.2        3.3
+       135.       18.9        3.3
+       150.       19.         3.8
+ENDDATA             13
+ENDSUBENT           28
+ENDENTRY            11

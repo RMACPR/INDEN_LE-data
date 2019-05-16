@@ -1,0 +1,161 @@
+ENTRY            10331   20020926   20021120   20050926       0000
+SUBENT        10331001   20020926   20021120   20050926       0000
+BIB                 15         37
+INSTITUTE  (1USABRL)
+REFERENCE  (J,NSE,54,416,1974)
+           (R,BRL-R-1652,197306)
+           (J,NIM,111,237,1973) Method described.
+AUTHOR     (W.P.Bucher,C.E.Hollandsworth,D.Mc Natt,R.Lamoreaux,
+           A.Niiler,J.E.Youngblood)
+TITLE      Small-Angle Scattering of 7.4 to 9.5-MeV Neutrons from
+            Nitrogen and Oxygen.
+FACILITY   (VDGT) BRL Tandem Van de Graaff facility.
+INC-SOURCE (D-D) Pulsed deuteron beam used to produce neutrons
+            through the D(d,n)3He reaction in a D2 gas cell with
+            a thin Mo entrance window.
+SAMPLE     Samples in the form of discs 26 cm in diameter.
+            Liquid samples, N2H4 and H2O, confined in thin-walled
+            stainless steel containers.
+METHOD     (TOF) Time-of-flight with n-gamma discrimination. For
+            more details on method, See Nuc.Inst.Meth. reference.
+DETECTOR   (SCIN) Scattered neutrons detected in NE213
+            scintillators.
+           Flux monitored by plastic scintillators.
+MONITOR    (82-PB-0(N,EL)82-PB-0,,DA)
+MONIT-REF  (10510002,W.BUCHER,J,PRL,35,1419,197511)
+CORRECTION Data corrected for multiple scattering, finite geometry
+            effects, and inscattering by Pb at the attenuator
+            position.
+ERR-ANALYS Included in the assigned standard deviations, in
+            addition to the counting statistics, are the
+            uncertainties in the differential cross section for
+            lead and in the transmission of each sample averaged
+            over the energy spread
+STATUS     (APRVD) Approved by author.
+HISTORY    (19730831C)
+           (19771229U) BIB update. Converted to REACTION
+                       formalism.
+           (19830420A) Energy error added, resolution title
+                       corrected, MONITOR corrected.
+           (20020926A) Updated to new date formats, lower case.
+ENDBIB              37
+COMMON               1          3
+EN-ERR
+KEV
+ 30.
+ENDCOMMON            3
+ENDSUBENT           44
+SUBENT        10331002   20020926   20021120   20050926       0000
+BIB                  2          3
+REACTION   (6-C-12(N,EL)6-C-12,,DA)
+STATUS     Tabulated data received from C. Hollandsworth, June
+            1972.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 5         24
+EN         EN-RSL     ANG-CM     DATA-CM    DATA-ERR
+MEV        MEV        ADEG       MB/SR      PER-CENT
+7.40       0.13        2.9       668.       7.
+7.40       0.13        7.4       641.       5.
+7.40       0.13       11.3       583.       4.
+7.40       0.13       15.4       518.       4.
+7.55       0.06        2.8       690.       8.
+7.55       0.06        7.2       604.       5.
+7.55       0.06       11.7       596.       4.
+7.55       0.06       15.4       534.       4.
+8.00       0.12        2.9       998.       8.
+8.00       0.12        7.4       880.       5.
+8.00       0.12       11.7       821.       4.
+8.00       0.12       15.3       756.       4.
+8.55       0.07        2.9       360.       8.
+8.55       0.07        7.4       396.       5.
+8.55       0.07       11.4       320.       4.
+8.55       0.07       15.4       302.       4.
+9.00       0.10        2.9       335.       7.
+9.00       0.10        7.4       329.       5.
+9.00       0.10       11.4       311.       4.
+9.00       0.10       15.4       269.       4.
+9.50       0.05        2.8       456.       7.
+9.50       0.05        7.2       446.       5.
+9.50       0.05       11.7       414.       4.
+9.50       0.05       15.4       354.       4.
+ENDDATA             26
+ENDSUBENT           34
+SUBENT        10331003   20020926   20021120   20050926       0000
+BIB                  3          6
+REACTION   (7-N-14(N,EL)7-N-14,,DA)
+STATUS     Tabulated data received from C. Hollandsworth, June
+            1972.
+HISTORY    (19771229A) Preliminary data replaced. Subentry 5
+                       deleted (Same as subentry 3).
+           (19830526A) Data corrected.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 5         24
+EN         EN-RSL     ANG-CM     DATA-CM    DATA-ERR
+MEV        MEV        ADEG       MB/SR      PER-CENT
+7.40       0.13        2.9        530.      13.
+7.40       0.13        7.3        507.       9.
+7.40       0.13       11.1        500.       6.
+7.40       0.13       15.2        444.       8.
+7.55       0.06        2.8        562.      14.
+7.55       0.06        7.1        522.      11.
+7.55       0.06       11.6        540.       8.
+7.55       0.06       15.2        410.       7.
+8.00       0.12        2.9        586.      12.
+8.00       0.12        7.3        521.       9.
+8.00       0.12       11.6        457.       8.
+8.00       0.12       15.1        387.       8.
+8.55       0.07        2.9        420.      13.
+8.55       0.07        7.3        379.      10.
+8.55       0.07       11.2        355.       8.
+8.55       0.07       15.2        311.       9.
+9.00       0.10        2.9        398.      13.
+9.00       0.10        7.3        393.      10.
+9.00       0.10       11.2        337.       8.
+9.00       0.10       15.2        267.       9.
+9.50       0.05        2.8        469.      10.
+9.50       0.05        7.1        402.      10.
+9.50       0.05       11.6        428.       7.
+9.50       0.05       15.2        396.       8.
+ENDDATA             26
+ENDSUBENT           37
+SUBENT        10331004   20020926   20021120   20050926       0000
+BIB                  3          5
+REACTION   (8-O-16(N,EL)8-O-16,,DA)
+STATUS     Tabulated data received from C. Hollandsworth, Nov.
+            1973.
+HISTORY    (19771229A) Preliminary data replaced. Subentry 6
+                       deleted (same as subentry 4).
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 5         24
+EN         EN-RSL     ANG-CM     DATA-CM    DATA-ERR
+MEV        MEV        ADEG       MB/SR      PER-CENT
+7.40       0.13        2.8        250.      22.
+7.40       0.13        7.2       289.       14.
+7.40       0.13       11.1        301.      11.
+7.40       0.13       15.1        257.      11.
+7.55       0.06        2.8        314.      16.
+7.55       0.06        7.2        267.      14.
+7.55       0.06       11.5        251.      14.
+7.55       0.06       15.1        170.      14.
+8.00       0.12        2.8        301.      18.
+8.00       0.12        7.2        248.      15.
+8.00       0.12       11.4        238.      13.
+8.00       0.12       14.9        163.      15.
+8.55       0.07        2.8        232.      21.
+8.55       0.07        7.2        307.      12.
+8.55       0.07       11.2        234.      12.
+8.55       0.07       15.1        239.      10.
+9.0        0.10        2.8        330.      15.
+9.0        0.10        7.2        324.      11.
+9.0        0.10       11.2        334.       8.
+9.0        0.10       15.1        223.      10.
+9.50       0.05        2.8        367.      13.
+9.50       0.05        7.0        350.      11.
+9.50       0.05       11.5        316.       9.
+9.50       0.05       15.1        267.      11.
+ENDDATA             26
+ENDSUBENT           36
+ENDENTRY             4

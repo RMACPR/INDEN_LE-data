@@ -1,0 +1,41 @@
+ENTRY            11411     860917              20050926       0000
+SUBENT        11411001     860917              20050926       0000
+BIB                  8         11
+INSTITUTE  (1USABET)
+REFERENCE  (J,PR,120,901,60)
+AUTHOR     (J.A.DE JUREN,R.W.STOOKSBERRY)
+TITLE      MEASUREMENT OF THE O16(N,P)N16 CROSS SECTION AT 14.7
+           MEV.
+DETECTOR   (TELES)
+METHOD     (ACTIV)
+STATUS     (SCSRS)
+HISTORY    (760715T) TRANSLATED FROM SCISRS
+           (820813A) CONVERTED TO REACTION FORMALISM
+           (860917A) BIB CORRECTION.
+ENDBIB              11
+NOCOMMON             0          0
+ENDSUBENT           14
+SUBENT        11411002     820813              20050926       0000
+BIB                  2          2
+REACTION   (8-O-16(N,P)7-N-16,,SIG)
+DECAY-DATA (7-N-16,7.352SEC,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 1.47   +01 1.     -01 3.92   -02 1.6    -03
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11411003     820813              20050926       0000
+BIB                  1          1
+REACTION   (29-CU-63(N,2N)29-CU-62,,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          PER-CENT
+ 1.46   +01 5.30   -01    5.0
+ENDDATA              3
+ENDSUBENT            9
+ENDENTRY             3

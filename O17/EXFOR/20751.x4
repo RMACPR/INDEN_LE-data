@@ -1,0 +1,178 @@
+ENTRY            20751   20120715   20130226   20130207       2232
+SUBENT        20751001   20120715   20130226   20130207       2232
+BIB                 16         75
+INSTITUTE  (2ITYPAD) Instituto di Fisica.
+REFERENCE  (J,NC/A,31,(1),1,1976)
+           (W,DRIGO,19780124) Informations about the experience
+            were given in the special condensed form.
+REL-REF    (I,20969001,L.Drigo+,J,NP/A,181,177,1972) Experimental
+                                                   details given.
+AUTHOR     (L.Drigo,G.Tornielli,G.Zannoni)
+TITLE       Polarization in the 16-O(n,n) reaction
+FACILITY   (VDG,2ITYPAD) 5.5MeV Van de Graaff,at the Laboratori
+            Nazionali di Lignaro, in pulsed operation
+            using pulsed proton and deuteron beams by (1/2)
+            micro-A in mean current and by less than 2ns in
+            pulse duration.
+INC-SOURCE (POLNS,P-LI7) Lithium-7 was a solid target, 1 mg/cm2
+            thick, obtained from evaporation of Li-F.
+           (POLNS,D-C12) Carbon-12 was a solid target, 1 mg/cm2
+            thick, obtained from deposition of colloidal graphite
+            suspension.
+           (POLNS,D-D) Deuterium was a gaseous target,.4 mg/cm2
+            thick. The neutrons of all three reactions were
+            polarized.
+SAMPLE     .Liquid oxigen cylinder(16 cm high,6 cm in diam),
+            contained in a polyethylene bag(.15 mm thick),placed
+            inside a cylindrical hole(6 cm diam) in a polystirol
+            cylinder(48 cm high,41 cm diam,0.01 g/cm3 in density),
+            whose vertical axis was 108 cm from the neutron source
+           .Oxygen was considered to be practically 8-O-16.
+METHOD     (TOF  ) For details see NP/A 181.
+           (COINC) pulse height and time information.
+DETECTOR   (SCIN ) Fourteen NE213 liquid scintillators placed at
+            100 cm from the O-target,in a water filed
+            cylindrical container (16 cm high,4.8 cm diam.),
+            Seven on the left and seven on the right of the
+            neutron collimated beam.
+           .The left-right counter system,together with the
+            O-target,could be rotated about a vertical axis
+            going through the neutron source.
+ANALYSIS   .In order to obtain the polarization p(e,teta) from the
+            initial exp-data,i.e.left-right ratios,authors used
+            previous works and data on the polarization of
+            neutrons issued from the 3 n-source reactions used.
+COMMENT    .A phase shift analysis on the polarization data with
+            the cross section data at the same energies,has been
+            carried out,with the aim of improving the agreement
+            between the phase shift calculations and the
+            experimental results.
+           .A phase shift table resulting from least square fits
+            of polarization and cross section data has been given.
+STATUS     (TABLE) .Tbl. III, IV from NC/A 31.
+CORRECTION .The effect of dead time and of the detector efficiency
+            were neglected in evaluating the experimental left-
+            right ratios,but not the relative cross section
+            measurements for which they were taken into account
+            as well as the pulse bias changes and the second
+            neutron group in the 7-Li(p,n) source and they gave
+            rise to a sum of error ranging from 3 to 6%.
+           .Experimental values of left-right ratios and of cross-
+            sections were corrected for multiple scattering in the
+            sample and for finite angular resolution by means of
+            monte-carlo calculations.
+           .Previous data were used in correcting the present
+            experimental data.
+           .Background subtracted.
+ERR-ANALYS .The statistical uncertainty on left-right ratios are
+            in the range of 0.01 to 0.04%,except for the 3 MeV
+            neutrons produced by 12-C(d,n)reaction at 60 degrees.
+           .Uncertainty on energy was 50 keV for Li-7(p,n)
+            source,and 100 keV for the other sources.
+HISTORY    (19771209C)
+           (19780705E)
+           (19801112A) G.C., Reaction strings corrected.
+           (19801121E)
+           (20120715A) SD: Updated to new date formats,lower case.
+                Corrections according last EXFOR rules and Dict.
+                MONITOR moved to Subent 2. Ref. corrected.
+ENDBIB              75
+NOCOMMON             0          0
+ENDSUBENT           78
+SUBENT        20751002   20120715   20130226   20130207       2232
+BIB                  5         10
+REACTION   (8-O-16(N,EL)8-O-16,,DA)
+MONITOR    (8-O-16(N,EL)8-O-16,,SIG)
+           .The relative elastic differential cross section
+            obtained were normalized using the elastic cross
+            section values of Fowler et al,PR/C,8,545,1973,such
+            as to give the present absolute values.
+ERR-ANALYS (DATA-ERR) No information.
+MONIT-REF  (10137001,J.L.Fowler+,J,PR/C,8,545,1973)
+HISTORY    (19801112A) G.C., Reaction string corrected.
+           (19801121E)
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 4         14
+EN         ANG        DATA       DATA-ERR
+MEV        ADEG       MB/SR      MB/SR
+ 2.5600E+00 2.5000E+01 8.0000E+01 5.0000E+00
+ 2.5600E+00 4.5000E+01 9.4000E+01 5.0000E+00
+ 2.5600E+00 6.5000E+01 1.0400E+02 5.0000E+00
+ 2.5600E+00 9.0000E+01 9.9000E+01 1.4000E+01
+ 2.5600E+00 1.1500E+02 8.0000E+01 5.0000E+00
+ 2.5600E+00 1.3500E+02 6.3000E+01 4.0000E+00
+ 2.5600E+00 1.5500E+02 7.1000E+01 4.0000E+00
+ 2.7600E+00 2.5000E+01 8.3000E+01 4.0000E+00
+ 2.7600E+00 4.5000E+01 9.8000E+01 4.0000E+00
+ 2.7600E+00 6.5000E+01 1.0800E+02 7.0000E+00
+ 2.7600E+00 9.0000E+01 8.6000E+01 5.0000E+00
+ 2.7600E+00 1.1500E+02 7.4000E+01 4.0000E+00
+ 2.7600E+00 1.3500E+02 7.3000E+01 4.0000E+00
+ 2.7600E+00 1.5500E+02 7.3000E+01 5.0000E+00
+ENDDATA             16
+ENDSUBENT           31
+SUBENT        20751003   20120715   20130226   20130207       2232
+BIB                  3          5
+REACTION   (8-O-16(N,EL)8-O-16,,POL/DA,,ANA)
+ERR-ANALYS (DATA-ERR) .The errors on polarization values are a
+            quadratic mean of statistical errors of both the
+            experimental data and the Monte-Carlo calculations.
+HISTORY    (20120715A) SD: SF8=ANA was added to  REACTION code.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 4         49
+EN         ANG        DATA       DATA-ERR
+MEV        ADEG       NO-DIM     NO-DIM
+ 2.2500E+00 2.5000E+01 1.6000E-01 3.0000E-02
+ 2.2500E+00 4.5000E+01 3.9000E-01 3.0000E-02
+ 2.2500E+00 6.5000E+01 5.7000E-01 4.0000E-02
+ 2.2500E+00 9.0000E+01 5.1000E-01 5.0000E-02
+ 2.2500E+00 1.1500E+02 2.3000E-01 5.0000E-02
+ 2.2500E+00 1.3500E+02 1.0000E-01 5.0000E-02
+ 2.2500E+00 1.5500E+02 3.0000E-02 6.0000E-02
+ 2.5600E+00 2.5000E+01 2.9000E-01 4.0000E-02
+ 2.5600E+00 4.5000E+01 4.2000E-01 2.0000E-02
+ 2.5600E+00 6.5000E+01 4.7000E-01 2.0000E-02
+ 2.5600E+00 9.0000E+01 4.1000E-01 2.0000E-02
+ 2.5600E+00 1.1500E+02 3.2000E-01 4.0000E-02
+ 2.5600E+00 1.3500E+02 2.6000E-01 6.0000E-02
+ 2.5600E+00 1.5500E+02 1.5000E-01 1.4000E-01
+ 2.7600E+00 2.5000E+01 9.0000E-02 7.0000E-02
+ 2.7600E+00 4.5000E+01 1.8000E-01 5.0000E-02
+ 2.7600E+00 6.5000E+01 2.9000E-01 5.0000E-02
+ 2.7600E+00 9.0000E+01 4.0000E-01 7.0000E-02
+ 2.7600E+00 1.1500E+02 4.6000E-01 1.0000E-01
+ 2.7600E+00 1.3500E+02 4.2000E-01 1.5000E-01
+ 2.7600E+00 1.5500E+02 2.6000E-01 2.4000E-01
+ 3.0000E+00 2.5000E+01-2.1000E-01 6.0000E-02
+ 3.0000E+00 4.5000E+01-3.0000E-01 6.0000E-02
+ 3.0000E+00 6.5000E+01-1.0000E-01 8.0000E-02
+ 3.0000E+00 9.0000E+01 6.0000E-01 9.0000E-02
+ 3.0000E+00 1.1500E+02 9.3000E-01 1.2000E-01
+ 3.0000E+00 1.3500E+02 9.5000E-01 1.3000E-01
+ 3.0000E+00 1.5500E+02 7.9000E-01 2.8000E-01
+ 3.3500E+00 2.5000E+01 3.7000E-01 3.0000E-02
+ 3.3500E+00 4.5000E+01 7.0000E-01 4.0000E-02
+ 3.3500E+00 6.5000E+01 9.8000E-01 7.0000E-02
+ 3.3500E+00 9.0000E+01-7.9000E-01 1.2000E-01
+ 3.3500E+00 1.1500E+02 1.0000E-01 7.0000E-02
+ 3.3500E+00 1.3500E+02 5.5000E-01 6.0000E-02
+ 3.3500E+00 1.5500E+02 5.6000E-01 7.0000E-02
+ 3.5600E+00 2.5000E+01 4.9000E-01 3.0000E-02
+ 3.5600E+00 4.5000E+01 7.9000E-01 4.0000E-02
+ 3.5600E+00 6.5000E+01 5.0000E-01 8.0000E-02
+ 3.5600E+00 9.0000E+01-9.6000E-01 6.0000E-02
+ 3.5600E+00 1.1500E+02-2.5000E-01 8.0000E-02
+ 3.5600E+00 1.3500E+02 8.0000E-01 6.0000E-02
+ 3.5600E+00 1.5500E+02 9.3000E-01 8.0000E-02
+ 3.9000E+00 2.5000E+01-1.5000E-01 3.0000E-02
+ 3.9000E+00 4.5000E+01-2.6000E-01 6.0000E-02
+ 3.9000E+00 6.5000E+01-5.3000E-01 8.0000E-02
+ 3.9000E+00 9.0000E+01-8.8000E-01 8.0000E-02
+ 3.9000E+00 1.1500E+02-6.3000E-01 8.0000E-02
+ 3.9000E+00 1.3500E+02-1.2000E-01 1.0000E-01
+ 3.9000E+00 1.5500E+02 3.3000E-01 2.6000E-01
+ENDDATA             51
+ENDSUBENT           61
+ENDENTRY             3

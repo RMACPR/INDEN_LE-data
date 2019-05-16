@@ -1,0 +1,82 @@
+ENTRY            31478   20160929   20161212   20161115       3175
+SUBENT        31478001   20160929   20161212   20161115       3175
+BIB                 15         34
+TITLE      Cross sections of the O-16(n,alpha gamma) reaction at
+           14.7 MeV.
+AUTHOR     (S.Hlavac,P.Oblozinsky,I.Turzo,L.Dostal,J.Kliman)
+INSTITUTE  (3SLKSLO)
+REFERENCE  (R,INDC(SLK)-002,1994)
+FACILITY   (CCW,3SLKSLO) Neutron generator of the institute of
+           Physics of the Slovak Academy of Sciences, Bratislava.
+INC-SOURCE (D-T) 150 keV d+ ions on T-Ti target.
+SAMPLE     147 g. of Chromium oxide in powder form, filled in
+           a polyethylene flask with dimensions 46*60 mm.
+METHOD     (GSPEC,ASSOP,COINC) Coincidence was required of the
+           gamma rays with the associated alpha's from the (d,t)
+           reaction.
+DETECTOR   (HPGE,SCIN) The HPGe gamma detector was placed at an
+           angle of 125 degree with respect to the neutron beam.
+           With sensitive vol. of 244 cm3 and the FWHM energy
+           resolution of 1.96 keV at the 1332 keV gamma-ray.
+           Associated alpha particles were detected by a plastic
+           scintillator detector with thickness of 100 mu-m and
+           diam. of 4.0 mm.
+MONITOR    (24-CR-0(N,X)24-CR-52,PAR,SIG,G)
+MONIT-REF  (,A.Pavlik,B,PH-DAT,13,(6),1991)
+CORRECTION Corrections have been made for gamma ray self absorp-
+           tion and secondary neutrons.
+ERR-ANALYS (ERR-T) Uncertainty includes:
+           (ERR-1) uncertainty in the relative full peak
+                   efficiency was estimated to be 5%.
+           (ERR-2) The uncertainty in total correction
+                     was estimated to be 3%.
+STATUS     (TABLE) Data are from Table 3 of INDC(SLK)-002.
+HISTORY    (19970609C) HW
+           (20100219A) SD:Updated to new date formats,
+                          Cosmetic changes and corrections.
+           (20160922U) VS. MONIT-REF corrected.
+ENDBIB              34
+COMMON               7          6
+EN         EN-RSL     E-NRM      MONIT      MONIT-ERR  ERR-1
+ERR-2
+MEV        MEV        KEV        MB         MB         PER-CENT
+PER-CENT
+14.7       .400         1434.     695.       28.           5.
+    3.
+ENDCOMMON            6
+ENDSUBENT           44
+SUBENT        31478002   20100923   20110107   20101203       3146
+BIB                  3          4
+REACTION   (8-O-16(N,A)6-C-13,PAR,SIG,G)
+EN-SEC     (E,G)
+FLAG       (1.) Data corrected for feeding from the 3853.6 level,
+           as determined from the peak shape.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 6          3
+E          DATA       ERR-T      LVL-INI    LVL-FIN    FLAG
+KEV        MB         MB         KEV        KEV        NO-DIM
+3088.4     3.1        0.6        3088.4     0.00
+3684.4     53.5       5.0        3684.4     0.00       1.
+3853.6     24.3       2.2        3853.6     0.00
+ENDDATA              5
+ENDSUBENT           14
+SUBENT        31478003   20100923   20110107   20101203       3146
+BIB                  4          8
+REACTION   (8-O-16(N,A)6-C-13,,SIG,,,DERIV)
+STATUS     (DEP,31478002) Data is obtained by summing the partial
+           cross sections of subent 31478002 and the one for
+           the reaction to the g.s. (17.3 +- 3.4 mb, from
+           M.Bormann, Z. Physik 258(1973), p. 285).
+ASSUMED    (ASSUM,8-O-16(N,A)6-C-13-G,,SIG)
+REL-REF    (R,20475006,M.Bormann,J,ZP,258,285,1973) cross section
+           for the reaction to the ground state
+ENDBIB               8
+NOCOMMON             0          0
+DATA                 4          1
+DATA       ERR-T      ASSUM      ASSUM-ERR
+MB         MB         MB         MB
+80.9       5.4        17.3       3.4
+ENDDATA              3
+ENDSUBENT           16
+ENDENTRY             3

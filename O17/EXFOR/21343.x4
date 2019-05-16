@@ -1,0 +1,502 @@
+ENTRY            21343   20140818   20150107   20141107       2240
+SUBENT        21343001   20140818   20150107   20141107       2240
+BIB                 11         29
+INSTITUTE  (2GERHAM)
+REFERENCE  (J,ZP,174,1,196302) in German
+AUTHOR     (M.Bormann, S.Cierjacks, E.Fretwurst, K.-J.Giesicke,
+            H.Neuert, H.Pollehn)
+TITLE      -Investigations of the energy dependence of neutron
+            induced reactions in the energy range of 12-19 MeV.-
+            (In German).
+REL-REF    (I,,H.Pollehn+,J,ZN/A,16,224,1961)
+           (I,,M.Bormann+,J,ZP,166,477,1962)
+            Facility description.
+           (N,,D.E.Cullen+,R,UCRL-50400,8,197607) Rev.1, part A.
+            Data of this Entry were presented in Figures of this
+             report UCRL-50400.
+FACILITY   (VDG,2GERHAM) 3 MeV Van de Graaff.
+           (CCW,2GERHAM) 150 kV Cockcroft Walton Accelerator.
+INC-SOURCE (D-T) Deuteron-tritium reaction. Thin tritium
+            containing titanium layer. This layer was regularly
+            replaced by a new one in order to avoid d-d-reactions
+            by accumulation of deuterium in the target.
+ADD-RES    (THEO) Results compared with statistical theory.
+STATUS     (NDD) Data taken from NEUDADA.
+HISTORY    (19800206T) G.C.
+           (19800222E)
+           (20081106A) M.M. BIB information was added.
+            Free text was corrected to be human-readable.
+            Subents 010-012 were added from Entry 21344, Subents
+            002-004 (merging in according to NDS IAEA request).
+           (20140818A) SD: MONITOR units were changed in Sub.2.
+CORRECTION  Background.
+ENDBIB              29
+NOCOMMON             0          0
+ENDSUBENT           32
+SUBENT        21343002   20140818   20150107   20141107       2240
+BIB                 10         27
+REACTION   (15-P-31(N,2N)15-P-30,,SIG)
+DECAY-DATA (15-P-30,2.5MIN,AR,510.)
+MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG)
+MONIT-REF  (21339006,M.Bormann+,J,ZP,166,477,196202)
+METHOD     (ACTIV) Activation analysis. Measurements at different
+            incoming neutron energies are done simultaneously in
+            order to avoid renormalizations to the same deuteron
+            flux, which increases the error.
+DETECTOR   (LONGC) Long counter for neutron flux determination.
+            Boric acid counter for the detection of the  gammas.
+COMMENT    From text of article:
+            at EN=19.6 MeV the c-s is 62mb +- 12%.
+ERR-ANALYS (DATA-ERR)Total error contains statistical error,
+            normalization error (i.e. statistical error of the
+            reference measurement + uncertainty of the reference
+            cross section), uncertainties due to Compton tailing
+            under the photopeak of higher gamma energies and
+            uncertainties about the level schemes. In some cases
+            the superposition of gamma lines of different isotopes
+            with nearly equal halflives adds to the uncertainty.
+STATUS     (NDD  ) Data taken from NEUDADA.
+             Data are presented in Fig.1 of ZP,174,1.
+             Data are presented in Fig. of REL-REF UCRL-50400,
+             page 2-111, # ECSIL-417 (63) .
+HISTORY    (19800207T) G.C.
+           (20081106A) M.M. EN-NRM, MONIT-REF, COMMENT were added.
+           (20140818A) SD: MONITOR units were changed (B -> MB).
+ENDBIB              27
+COMMON               3          3
+MONIT      MONIT-ERR  EN-NRM
+MB         PER-CENT   MEV
+ 4.7800E+02 8.0000E+00   14.1
+ENDCOMMON            3
+DATA                 4          7
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 1.3200E+01 3.0000E-01 3.0000E+00 1.0000E+00
+ 1.4100E+01 5.0000E-01 1.2500E+01 3.0000E+00
+ 1.5200E+01 4.0000E-01 2.9000E+01 2.0000E+00
+ 1.6000E+01 4.0000E-01 3.4500E+01 3.5000E+00
+ 1.7200E+01 3.0000E-01 4.7000E+01 4.0000E+00
+ 1.8800E+01 3.0000E-01 5.8000E+01 6.0000E+00
+ 1.9700E+01 3.0000E-01 6.1500E+01 7.5000E+00
+ENDDATA              9
+ENDSUBENT           45
+SUBENT        21343003   20081106   20090209   20090209       2204
+BIB                 11         27
+REACTION   (23-V-51(N,P)22-TI-51,,SIG)
+SAMPLE      V(2)-O(5) powder.
+DECAY-DATA (22-TI-51,5.8MIN,DG) All gammas above 50 keV measured.
+MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG)
+MONIT-REF  (21339006,M.Bormann+,J,ZP,166,477,196202)
+METHOD     (ACTIV) Activation analysis. Measurements at different
+            incoming neutron energies are done simultaneously in
+            order to avoid renormalizations to the same deuteron
+            flux, which increases the error.
+DETECTOR   (LONGC) Long counter for neutron flux determination.
+            Boric acid counter for the detection of the  gammas.
+COMMENT    From text of article:
+           at EN=14.1 MeV the c-s is 36.3 mb +- 8.3% (max. value).
+ERR-ANALYS (DATA-ERR)Total error contains statistical error,
+            normalization error (i.e. statistical error of the
+            reference measurement + uncertainty of the reference
+            cross section), uncertainties due to compton tailing
+            under the photopeak of higher gamma energies and
+            uncertainties about the level schemes. In some cases
+            the superposition of gamma lines of different isotopes
+            with nearly equal halflives adds to the uncertainty.
+STATUS     (NDD) Data taken from NEUDADA.
+             Data are presented in Fig.4 of Reference.
+             Data are presented in Fig. of REL-REF UCRL-50400,
+             page 3-59, # ECSIL-417 (63) .
+HISTORY    (19800207T)
+           (20081106A) M.M. EN-NRM, MONIT-REF, COMMENT were added.
+ENDBIB              27
+COMMON               3          3
+MONIT      MONIT-ERR  EN-NRM
+MB         PER-CENT   MEV
+ 4.7800E+02 8.0000E+00   14.1
+ENDCOMMON            3
+DATA                 4          7
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 1.3200E+01 4.0000E-01 3.5500E+01 4.0000E+00
+ 1.4100E+01 2.0000E-01 3.6500E+01 3.0000E+00
+ 1.5200E+01 4.0000E-01 3.6000E+01 3.0000E+00
+ 1.6000E+01 4.0000E-01 3.6500E+01 3.5000E+00
+ 1.7000E+01 5.0000E-01 3.1000E+01 3.5000E+00
+ 1.7900E+01 4.0000E-01 2.9000E+01 3.0000E+00
+ 1.8600E+01 4.0000E-01 2.8000E+01 4.0000E+00
+ENDDATA              9
+ENDSUBENT           45
+SUBENT        21343004   20081106   20090209   20090209       2204
+BIB                 10         26
+REACTION   (29-CU-65(N,2N)29-CU-64,,SIG)
+SAMPLE      Cu-O powder.
+DECAY-DATA (29-CU-64,12.8HR,AR,511.)
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+MONIT-REF  (20904002,M.Bormann+,J,JPR,22,602,196110)
+METHOD     (ACTIV) Activation analysis. Measurements at different
+            incoming neutron energies are done simultaneously in
+            order to avoid renormalizations to the same deuteron
+            flux, which increases the error.
+DETECTOR   (LONGC) Long counter for neutron flux determination.
+            Boric acid counter for the detection of the  gammas.
+ERR-ANALYS (DATA-ERR)Total error contains statistical error,
+            normalization error (i.e. statistical error of the
+            reference measurement + uncertainty of the reference
+            cross section), uncertainties due to compton tailing
+            under the photopeak of higher gamma energies and
+            uncertainties about the level schemes. In some cases
+            the superposition of gamma lines of different isotopes
+            with nearly equal halflives adds to the uncertainty.
+STATUS     (NDD) Data taken from NEUDADA.
+             Data are presented in Fig.2 of Reference.
+             Data are presented in Fig. of REL-REF UCRL-50400,
+             page 3-267, # ECSIL-417 (63) .
+HISTORY    (19800207T) G.C.
+           (20081106A) M.M. EN-NRM, MONIT-REF were added.
+           MONITOR was corrected NA-24-G+M,,SIG/SUM -> NA-24,,SIG.
+ENDBIB              26
+COMMON               3          3
+MONIT      MONIT-ERR  EN-NRM
+MB         PER-CENT   MEV
+ 1.1800E+02 8.0000E+00  14.1
+ENDCOMMON            3
+DATA                 4         10
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        MB         PER-CENT
+ 1.3200E+01 3.0000E-01 7.6600E+02 1.0000E+01
+ 1.4100E+01 4.0000E-01 9.1800E+02 1.0000E+01
+ 1.4600E+01 4.0000E-01 9.5200E+02 9.0000E+00
+ 1.5200E+01 4.0000E-01 9.3700E+02 1.0000E+01
+ 1.5500E+01 4.0000E-01 9.7000E+02 1.0000E+01
+ 1.5900E+01 4.0000E-01 9.7400E+02 1.0000E+01
+ 1.6500E+01 4.0000E-01 9.5300E+02 9.0000E+00
+ 1.7500E+01 4.0000E-01 8.4200E+02 9.0000E+00
+ 1.8500E+01 4.0000E-01 8.2300E+02 9.0000E+00
+ 1.8700E+01 3.0000E-01 8.1000E+02 9.0000E+00
+ENDDATA             12
+ENDSUBENT           47
+SUBENT        21343005   20081106   20090209   20090209       2204
+BIB                 10         26
+REACTION   (30-ZN-64(N,2N)30-ZN-63,,SIG)
+SAMPLE      Cuttings of pure Zn.
+DECAY-DATA (30-ZN-63,38.MIN,DG) All gammas above 50. keV.
+MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG)
+METHOD     (ACTIV) Activation analysis. Measurements at different
+            incoming neutron energies are done simultaneously in
+            order to avoid renormalizations to the same deuteron
+            flux, which increases the error.
+DETECTOR   (LONGC) Long counter for neutron flux determination.
+            Boric acid counter for the detection of the  gammas.
+COMMENT     From text of article, page 5:
+            at EN=18.5 MeV c-s is 301 mb +- 11.7 %.
+ERR-ANALYS (DATA-ERR) Total error contains statistical error,
+            normalization error (i.e. statistical error of the
+            reference measurement + uncertainty of the reference
+            cross section), uncertainties due to compton tailing
+            under the photopeak of higher gamma energies and
+            uncertainties about the level schemes. In some cases
+            the superposition of gamma lines of different isotopes
+            with nearly equal halflives adds to the uncertainty.
+STATUS     (NDD) Data taken from NEUDADA.
+             Data are presented in Fig.3 of Reference.
+             Data are presented in Fig. of REL-REF UCRL-50400,
+             page 3-281, # ECSIL-417 (63) .
+HISTORY    (19800208T) G.C.
+           (20081106A) M.M. EN-NRM, MONIT-REF,COMMENT were added.
+ENDBIB              26
+COMMON               3          3
+MONIT      MONIT-ERR  EN-NRM
+MB         PER-CENT   MEV
+ 4.7800E+02 8.0000E+00   14.1
+ENDCOMMON            3
+DATA                 4          8
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 1.3200E+01 3.0000E-01 4.5000E+01 7.0000E+00
+ 1.4000E+01 4.0000E-01 1.0200E+02 1.7000E+01
+ 1.5200E+01 4.0000E-01 1.8300E+02 1.9000E+01
+ 1.6000E+01 5.0000E-01 2.4000E+02 3.0000E+01
+ 1.7100E+01 4.0000E-01 2.8400E+02 3.4000E+01
+ 1.8500E+01 4.0000E-01 3.0100E+02 3.6000E+01
+ 1.9300E+01 4.0000E-01 2.8500E+02 3.0000E+01
+ 1.9600E+01 3.0000E-01 2.7000E+02 3.0000E+01
+ENDDATA             10
+ENDSUBENT           45
+SUBENT        21343006   20081106   20090209   20090209       2204
+BIB                 10         29
+REACTION   (35-BR-79(N,A)33-AS-76,,SIG)
+SAMPLE      Na-Br crystal.
+DECAY-DATA (33-AS-76,26.HR,DG,555.)
+           (35-BR-82,36.HR,DG,777.) From reaction Br-81(n,g)Br-82.
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)
+MONIT-REF  (20904002,M.Bormann+,J,JPR,22,602,196110)
+METHOD     (ACTIV) Activation analysis. Measurements at different
+            incoming neutron energies are done simultaneously in
+            order to avoid renormalizations to the same deuteron
+            flux, which increases the error.
+DETECTOR   (LONGC) Long counter for neutron flux determination.
+            Boric acid counter for the detection of the  gammas.
+ERR-ANALYS (DATA-ERR)Total error contains statistical error,
+            normalization error (i.e. statistical error of the
+            reference measurement + uncertainty of the reference
+            cross section), uncertainties due to compton tailing
+            under the photopeak of higher gamma energies and
+            uncertainties about the level schemes. In some cases
+            the superposition of gamma lines of different isotopes
+            with nearly equal halflives adds to the uncertainty.
+STATUS     (NDD) Data taken from NEUDADA.
+             Data are presented in Fig.4 of Reference.
+             Data are presented in Fig. of REL-REF UCRL-50400,
+             page 4-50, # ECSIL-417 (63) .
+             Page 7 of reference :  value for EN=14.4 MeV
+                                   13.6mb +- 24. %.
+HISTORY    (19800208T) G.C.
+           (20081106A) M.M. EN-NRM, MONIT-REF were added.
+           MONITOR was corrected NA-24-G+M,,SIG/SUM -> NA-24,,SIG.
+ENDBIB              29
+COMMON               3          3
+MONIT      MONIT-ERR  EN-NRM
+MB         PER-CENT   MEV
+ 1.1800E+02 8.0000E+00   14.1
+ENDCOMMON            3
+DATA                 4         10
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        MB         PER-CENT
+ 1.3200E+01 3.0000E-01 1.1600E+01 2.5000E+01
+ 1.4100E+01 4.0000E-01 1.3000E+01 2.5000E+01
+ 1.4400E+01 4.0000E-01 1.3600E+01 2.4000E+01
+ 1.5500E+01 4.0000E-01 1.2700E+01 2.5000E+01
+ 1.5900E+01 4.0000E-01 1.0900E+01 2.4000E+01
+ 1.6400E+01 4.0000E-01 1.1100E+01 2.2000E+01
+ 1.7100E+01 4.0000E-01 9.7000E+00 2.4000E+01
+ 1.7500E+01 4.0000E-01 8.0000E+00 2.5000E+01
+ 1.8000E+01 4.0000E-01 6.4000E+00 2.6000E+01
+ 1.8700E+01 3.0000E-01 7.7000E+00 2.2000E+01
+ENDDATA             12
+ENDSUBENT           50
+SUBENT        21343007   20081106   20090209   20090209       2204
+BIB                 10         27
+REACTION   (15-P-31(N,A)13-AL-28,,SIG)
+DECAY-DATA (13-AL-28,2.3MIN,DG,1780.,1.0)
+MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG) Used for 14.1 MeV neutron
+                                         determination.
+MONIT-REF  (21339006,M.Bormann+,J,ZP,166,477,196202)
+METHOD     (ACTIV) Activation analysis. Measurements at different
+            incoming neutron energies are done simultaneously in
+            order to avoid renormalizations to the same deuteron
+            flux, which increases the error.
+DETECTOR   (LONGC) Long counter for neutron flux determination.
+            Boric acid counter for the detection of the  gammas.
+COMMENT    From text of article:
+            at EN=19.6 MeV the c-s is 32mb +- 13%.
+ERR-ANALYS (DATA-ERR)Total error contains statistical error,
+            normalization error (i.e. statistical error of the
+            reference measurement + uncertainty of the reference
+            cross section), uncertainties due to compton tailing
+            under the photopeak of higher gamma energies and
+            uncertainties about the level schemes. In some cases
+            the superposition of gamma lines of different isotopes
+            with nearly equal halflives adds to the uncertainty.
+STATUS     (NDD) Data taken from NEUDADA.
+             Data are presented in Fig.1 of Reference.
+             Data are presented in Fig. of REL-REF UCRL-50400,
+             page 2-115, # ECSIL-417 (63) .
+HISTORY    (19800208T) G.C.
+           (20081106A) M.M. EN-NRM, MONIT-REF, COMMENT were added.
+ENDBIB              27
+COMMON               3          3
+MONIT      MONIT-ERR  EN-NRM
+MB         PER-CENT   MEV
+ 4.7800E+02 8.0000E+00  14.1
+ENDCOMMON            3
+DATA                 4          7
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 1.3200E+01 3.0000E-01 1.2250E+02 1.7500E+01
+ 1.4100E+01 4.0000E-01 1.1800E+02 1.6000E+01
+ 1.5200E+01 3.0000E-01 1.0500E+02 1.1000E+01
+ 1.6000E+01 4.0000E-01 8.3000E+01 9.5000E+00
+ 1.7200E+01 4.0000E-01 6.5000E+01 5.0000E+00
+ 1.8800E+01 3.0000E-01 4.1500E+01 4.5000E+00
+ 1.9700E+01 3.0000E-01 3.1000E+01 4.0000E+00
+ENDDATA              9
+ENDSUBENT           45
+SUBENT        21343008   20081106   20090209   20090209       2204
+BIB                 10         25
+REACTION   (29-CU-65(N,P)28-NI-65,,SIG)
+SAMPLE      Cu-O powder.
+DECAY-DATA (28-NI-65,2.6HR,DG,1490.,0.25)
+MONITOR    (26-FE-56(N,P)25-MN-56,,SIG)
+MONIT-REF  (21339005,M.Bormann+,J,ZP,166,477,196202)
+METHOD     (ACTIV) Activation analysis. Measurements at different
+            incoming neutron energies are done simultaneously in
+            order to avoid renormalizations to the same deuteron
+            flux, which increases the error.
+DETECTOR   (LONGC) Long counter for neutron flux determination.
+            Boric acid counter for the detection of the  gammas.
+ERR-ANALYS (DATA-ERR)Total error contains statistical error,
+            normalization error (i.e. statistical error of the
+            reference measurement + uncertainty of the reference
+            cross section), uncertainties due to compton tailing
+            under the photopeak of higher gamma energies and
+            uncertainties about the level schemes. In some cases
+            the superposition of gamma lines of different isotopes
+            with nearly equal halflives adds to the uncertainty.
+STATUS     (NDD) Data taken from NEUDADA.
+             Data are presented in Fig.2 of Reference.
+             Data are presented in Fig. of REL-REF UCRL-50400,
+             page 3-271, # ECSIL-417 (63) .
+HISTORY    (19800208T) G.C.
+           (20081106A) M.M. EN-NRM, MONIT-REF were added.
+ENDBIB              25
+COMMON               3          3
+MONIT      MONIT-ERR  EN-NRM
+MB         PER-CENT   MEV
+ 1.1250E+02 7.2000E+00   14.1
+ENDCOMMON            3
+DATA                 4         10
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        MB         PER-CENT
+ 1.3200E+01 3.0000E-01 2.7400E+01 3.6000E+01
+ 1.4100E+01 4.0000E-01 2.5600E+01 3.5000E+01
+ 1.4600E+01 3.0000E-01 2.1500E+01 3.4000E+01
+ 1.5200E+01 4.0000E-01 2.1100E+01 3.2000E+01
+ 1.5400E+01 4.0000E-01 1.9100E+01 3.1000E+01
+ 1.5900E+01 3.0000E-01 2.1900E+01 3.2000E+01
+ 1.6400E+01 3.0000E-01 1.7100E+01 3.2000E+01
+ 1.7500E+01 3.0000E-01 1.8000E+01 3.2000E+01
+ 1.8000E+01 3.0000E-01 1.5900E+01 2.9000E+01
+ 1.8700E+01 3.0000E-01 1.6300E+01 2.8000E+01
+ENDDATA             12
+ENDSUBENT           46
+SUBENT        21343009   20081106   20090209   20090209       2204
+BIB                  9         24
+REACTION   (30-ZN-64(N,P)29-CU-64,,SIG)
+SAMPLE      Cuttings of pure Zn.
+DECAY-DATA (29-CU-64,13.HR,DG)
+MONITOR    (29-CU-65(N,2N)29-CU-64,,SIG)
+METHOD     (ACTIV) Activation analysis. Measurements at different
+            incoming neutron energies are done simultaneously in
+            order to avoid renormalizations to the same deuteron
+            flux, which increases the error.
+DETECTOR   (LONGC) Long counter for neutron flux determination.
+            Boric acid counter for the detection of the  gammas.
+ERR-ANALYS (DATA-ERR)Total error contains statistical error,
+            normalization error (i.e. statistical error of the
+            reference measurement + uncertainty of the reference
+            cross section), uncertainties due to Compton tailing
+            under the photopeak of higher gamma energies and
+            uncertainties about the level schemes. In some cases
+            the superposition of gamma lines of different isotopes
+            with nearly equal halflives adds to the uncertainty.
+STATUS     (NDD) Data taken from NEUDADA.
+             Data are presented in Fig.3 of Reference.
+             Data are presented in Fig. of REL-REF UCRL-50400,
+             page 3-284, # ECSIL-417 (63) .
+HISTORY    (19800208T) G.C.
+           (20081106A) M.M. EN-NRM was  added.
+ENDBIB              24
+COMMON               3          3
+MONIT      MONIT-ERR  EN-NRM
+MB         PER-CENT   MEV
+ 9.3000E+02 9.0000E+00   14.1
+ENDCOMMON            3
+DATA                 4          5
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 1.3100E+01 3.0000E-01 2.5000E+02 1.0000E+01
+ 1.4000E+01 2.0000E-01 2.0700E+02 1.4000E+01
+ 1.5900E+01 4.0000E-01 1.9800E+02 1.6000E+01
+ 1.8000E+01 4.0000E-01 1.8700E+02 1.7000E+01
+ 1.9300E+01 4.0000E-01 1.8000E+02 1.6000E+01
+ENDDATA              7
+ENDSUBENT           40
+SUBENT        21343010   20081106   20090209   20090209       2204
+BIB                  8         14
+REACTION   (8-O-16(N,A)6-C-13,,SIG)
+SAMPLE      Ca-W-O(4)
+ANALYSIS    Calculated from measured cross section of CaWO4
+            using ASSUM-MAX.
+MONITOR     Absolute measurement. Neutron flux measured using
+            a Li-6-I(Eu) scintillation crystal.
+ASSUMED    (ASSUM,20-CA-40(N,A)18-AR-37,,SIG)
+METHOD     (PHD) Protons not detected since their stopping power
+            is too low.
+DETECTOR   (SCIN) Same as sample, Ca-W-O(4) layers of
+            35 to 65 mg/cm*cm on a non Tl-activated Cs-I-crystal
+            (20 mm diam * 2 mm thick) as light conductor.
+STATUS     (NDD) Data taken from NEUDADA.
+             Text of reference, page 9.
+ENDBIB              14
+NOCOMMON             0          0
+DATA                 5          1
+EN         EN-RSL     DATA       DATA-ERR   ASSUM-MAX
+MEV        MEV        MB         MB         MB
+ 1.4800E+01 1.0000E-01 3.2800E+02 2.5000E+01 1.0000E+02
+ENDDATA              3
+ENDSUBENT           22
+SUBENT        21343011   20081106   20090209   20090209       2204
+BIB                  8         15
+REACTION   (30-ZN-0(N,A),,SIG)
+SAMPLE      Zn-O.
+ANALYSIS    Calculated from measured cross sections of ZnO
+            and O.
+MONITOR     Absolute measurement. Neutron flux determined
+            using a Li-6-I(Eu) crystal.
+ASSUMED    (ASSUM,8-O-16(N,A)6-C-13,,SIG)
+METHOD     (PHD) Protons not detected since their stopping power
+            is too low.
+DETECTOR   (SCIN) Same as sample, Zn-O layers of
+            35 to 65 mg/cm*cm on a non Tl-activated Cs-I-crystal
+            (20 mm diam * 2 mm thick) as light conductor.
+STATUS     (NDD) Data taken from NEUDADA.
+             Text of reference, page 9.
+           (DEP,21343010)
+ENDBIB              15
+NOCOMMON             0          0
+DATA                 6          1
+EN         EN-RSL     ASSUM      ASSUM-ERR  DATA       DATA-ERR
+MEV        MEV        MB         MB         MB         MB
+ 1.4800E+01 4.0000E-01 3.2800E+02 2.5000E+01 1.3000E+02 3.0000E+01
+ENDDATA              3
+ENDSUBENT           23
+SUBENT        21343012   20081106   20090209   20090209       2204
+BIB                  8         18
+REACTION   (8-O-16(N,A)6-C-13,,SIG)
+SAMPLE      Ca-W-O(4).
+ANALYSIS    Calculated from measured cross section of CaWO4
+            using ASSUM-MAX.
+MONITOR    (8-O-16(N,A)6-C-13,,SIG) C-s at 14.8 MeV used for
+                        normalization.
+ASSUMED    (ASSUM,20-CA-40(N,A)18-AR-37,,SIG)
+METHOD     (PHD) Protons not detected since their stopping power
+            is too low.
+DETECTOR   (SCIN) Same as sample, Ca-W-O(4) layers of
+            35 to 65 mg/cm*cm on a non Tl-activated Cs-I-crystal
+            (20 mm diam * 2 mm thick) as light conductor.
+STATUS     (NDD) Data taken from NEUDADA.
+           (DEP,21343010) C-s for normalization from Subent 010.
+            Data are presented in Fig.8 of reference.
+            Data are presented in Fig. of REL-REF UCRL-50400,
+            page 1-109, # ECSIL-417 (63) -all eight points
+            ( including normalization point ).
+ENDBIB              18
+COMMON               4          3
+MONIT      MONIT-ERR  EN-NRM     ASSUM-MAX
+MB         MB         MEV        MB
+ 3.2800E+02 2.5000E+01 1.4800E+01 1.0000E+02
+ENDCOMMON            3
+DATA                 4          7
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 1.2300E+01 2.0000E-01 1.8000E+02 4.0000E+01
+ 1.3000E+01 2.0000E-01 1.5000E+02 4.0000E+01
+ 1.4100E+01 2.0000E-01 2.9500E+02 3.5000E+01
+ 1.6000E+01 1.0000E-01 3.6000E+02 3.0000E+01
+ 1.6900E+01 1.0000E-01 3.4500E+02 3.0000E+01
+ 1.8000E+01 1.0000E-01 2.4000E+02 2.5000E+01
+ 1.9500E+01 1.0000E-01 2.1500E+02 2.5000E+01
+ENDDATA              9
+ENDSUBENT           36
+ENDENTRY            12

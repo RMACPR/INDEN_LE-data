@@ -1,0 +1,197 @@
+ENTRY            10965     810624              20050926       0000
+SUBENT        10965001     810624              20050926       0000
+BIB                 13         30
+INSTITUTE  (1USAOHO)
+REFERENCE  (J,NP/A,350,167,8012)
+           (W,FINLAY,8104) TABULATED DATA
+AUTHOR     (P.GRABMAYR,J.RAPAPORT,R.W.FINLAY)
+TITLE      ELASTIC AND INELASTIC SCATTERING OF 24-MEV NUCLEONS
+            FROM OXYGEN ISOTOPES
+FACILITY   (VDGT) OHIO UNIVERSITY 11-MEV TANDEM VAN DE GRAAFF
+N-SOURCE   (D-T) PULSED 7.1-MEV DEUTERONS ON TRITIUM GAS CELL.
+DETECTOR   (SCIN) COLORADO STYLE NE224 LIQUID SCINTILLATOR,
+            5.08-CM THICK, 18.4-CM IN DIAMETER. FLUX MONITORED
+            WITH SMALL NE224 SCINTILLATOR, 5.08-CM THICK, 5.08-CM
+            IN DIAMETER. BOTH USE PULSE SHAPE DISCRIMINATION.
+METHOD     (TOF) FLIGHT PATH IS 6.56-METERS. EMPTY SAMPLE CAN USED
+            TO DETERMINE BACKGROUND. SAMPLES PLACED IN ROTATIONAL
+            AXIS OF MASSIVE WATER TANK LINED WITH PARAFFIN, IRON,
+            AND LEAD TO SHIELD DETECTOR FROM NEUTRONS SCATTERED
+            FROM OTHER THAN SAMPLES. SHADOW BAR USED TO
+            SHIELD FROM DIRECT FLUX.
+MONITOR    CROSS SECTIONS NORMALIZED TO ZERO DEGREE INCIDENT
+            NEUTRON FLUX PER MONITOR COUNT.
+CORRECTION CORRECTION MADE FOR-
+            -DEAD TIME
+            -SOURCE ANISOTROPY
+            -ENERGY DEPENDENCE OF RELATIVE DETECTOR EFFICIENCY
+            -MULTIPLE SCATTERING
+            -FLUX ATTENUATION
+ERR-ANALYS OVERALL NORMALIZATION UNCERTAINTY IS LESS THAN
+            5-PERCENT.
+STATUS     (APRVD) APPROVED BY R.W.FINLAY, 81/9/1.
+HISTORY    (810615C)
+ENDBIB              30
+COMMON               1          3
+EN
+MEV
+ 24.
+ENDCOMMON            3
+ENDSUBENT           37
+SUBENT        10965002     810624              20050926       0000
+BIB                  3          3
+REACTION   (8-O-16(N,EL)8-O-16,,DA)
+SAMPLE     33-GRAMS NATURAL WATER IN THIN WALLED AL CYLINDER
+CORRECTION CORRECTED FOR MASS LOSS DUE TO EVAPORATION
+ENDBIB               3
+NOCOMMON
+DATA                 3         21
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+  21.2      826.4      24.80
+  26.51     537.5      16.10
+  31.79     280.8       8.42
+  37.05     153.1       4.82
+  42.30      70.14      2.24
+  47.53      40.86      1.70
+  52.74      37.93      1.38
+  57.93      41.53      1.52
+  63.10      42.61      1.53
+  68.25      39.81      1.45
+  73.37      33.07      1.01
+  78.46      25.52      0.317
+  83.53      16.65      0.683
+  88.57      10.85      0.537
+  93.58       8.058     0.545
+ 103.53       4.104     0.423
+ 113.37       2.266     0.406
+ 123.10       1.597     0.340
+ 132.74       1.959     0.276
+ 142.30       2.861     0.329
+ 151.79       2.826     0.345
+ENDDATA             23
+ENDSUBENT           31
+SUBENT        10965003     810624              20050926       0000
+BIB                  3          3
+REACTION   (8-O-16(N,INL)8-O-16,PAR,DA)
+SAMPLE     33-GRAMS NATURAL WATER IN THIN WALLED AL CYLINDER
+CORRECTION CORRECTED FOR MASS LOSS DUE TO EVAPORATION
+ENDBIB               3
+NOCOMMON
+DATA                 4         29
+Q-VAL      ANG-CM     DATA-CM    DATA-ERR
+MEV        ADEG       MB/SR      MB/SR
+ -6.92       48.04      4.61      0.696
+ -6.92       53.29      4.16      0.707
+ -6.92       58.52      2.87      0.631
+ -6.92       63.72      2.45      0.385
+ -6.92       68.90      2.79      0.458
+ -6.92       74.04      2.44      0.461
+ -6.92       79.15     2.25       0.394
+ -6.92       84.24      2.43      0.367
+ -6.92       89.28      1.83      0.362
+ -6.92       94.30      2.07      0.317
+ -6.92      104.24      1.56      0.281
+ -6.92      114.04      1.27      0.339
+ -6.92      123.72      1.37      0.292
+ -6.92      133.29      1.73      0.247
+ -6.13       42.70     10.48      0.629
+ -6.13       47.97     10.78      0.884
+ -6.13       53.21     10.54      0.875
+ -6.13       58.44      8.98      0.754
+ -6.13       63.63      7.11      0.512
+ -6.13       68.80      5.95      0.476
+ -6.13       73.94      4.91      0.491
+ -6.13       79.05      4.75      0.428
+ -6.13       81.13      4.05      0.401
+ -6.13       89.18      3.57      0.368
+ -6.13       94.19      2.91      0.340
+ -6.13      104.13      1.95      0.283
+ -6.13      113.94      1.91      0.229
+ -6.13      123.63     1.59       0.307
+ -6.13      133.2       1.67      0.272
+ENDDATA             31
+ENDSUBENT           39
+SUBENT        10965004     810624              20050926       0000
+BIB                  3          4
+REACTION   (8-O-18(N,EL)8-O-18,,DA)
+SAMPLE     WATER ENRICHED TO 95-PERCENT O-18 IN THIN WALLED AL
+            CYLINDERS
+CORRECTION CORRECTED FOR ISOTOPIC ABUNDANCE
+ENDBIB               4
+NOCOMMON
+DATA                 3         21
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+  21.09     840.       25.2
+  26.35     515.6      15.5
+  31.59     274.6       8.24
+  36.83     135.2       4.06
+  42.05      67.41      1.21
+  47.25      47.08       .989
+  52.44      43.35      1.30
+  57.61      48.05      1.44
+  62.76      43.95       .923
+  67.89      37.61       .827
+  72.99      29.68       .890
+  78.08      21.16       .656
+  83.14      13.53       .528
+  88.17       9.370      .422
+  93.18       6.747      .385
+ 103.14       3.652      .351
+ 112.99       2.602      .364
+ 122.76       1.920      .296
+ 132.44       1.911      .311
+ 142.05       1.715      .453
+ 151.59       0.964      .252
+ENDDATA             23
+ENDSUBENT           32
+SUBENT        10965005     810624              20050926       0000
+BIB                  3          4
+REACTION   (8-O-18(N,INL)8-O-18,PAR,DA)
+SAMPLE     WATER ENRICHED TO 95-PERCENT O-18 IN THIN WALLED AL
+            CYLINDER
+CORRECTION CORRECTED FOR ISOTOPIC ABUNDANCES.
+ENDBIB               4
+NOCOMMON
+DATA                 4         35
+Q-VAL      ANG-CM     DATA-CM    DATA-ERR
+MEV        ADEG       MB/SR      MB/SR
+ -5.09       42.32      9.31       .815
+ -5.09       47.56      8.28       .859
+ -5.09       52.77      8.09      1.03
+ -5.09       57.96      7.79       .935
+ -5.09       63.13      5.15       .505
+ -5.09       68.28      4.83       .512
+ -5.09       73.40      3.37       .573
+ -5.09       78.49      3.18       .576
+ -5.09       83.56      2.67       .553
+ -5.09       88.60      2.01       .476
+ -5.09       93.62      1.76       .465
+ -5.09      103.56      1.55       .470
+ -5.09      113.40      1.42       .469
+ -5.09      123.13      1.32       .403
+ -5.09      132.77      1.04       .478
+ -5.09      151.8        .923      .613
+ -1.98       31.67     10.714     1.24
+ -1.98       36.91      9.100      .992
+ -1.98       42.14      7.261      .632
+ -1.98       47.36      5.657      .679
+ -1.98       52.55      4.401      .757
+ -1.98       57.73      3.953      .609
+ -1.98       62.89      2.886      .387
+ -1.98       68.02      2.444      .425
+ -1.98       73.13      2.228      .401
+ -1.98       78.22      3.089      .528
+ -1.98       83.28      3.246      .415
+ -1.98       88.32      2.958      .464
+ -1.98       93.33      2.558      .547
+ -1.98      103.28      1.975      .403
+ -1.98      113.13      1.158      .330
+ -1.98      122.89      0.942      .351
+ -1.98      132.55      0.779      .389
+ -1.98      142.14      0.926      .525
+ -1.98      151.67      1.348      .423
+ENDDATA             37
+ENDSUBENT           46
+ENDENTRY             5

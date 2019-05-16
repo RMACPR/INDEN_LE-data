@@ -1,0 +1,262 @@
+ENTRY            14205   20080831   20090306   20090304       1351
+SUBENT        14205001   20080831   20090306   20090304       1351
+BIB                 11         22
+TITLE      Giant resonance coupling and l-dependent potentials
+           for O-16
+AUTHOR     (J.P.Delaroche,M.S.Islam.R.W.Finlay)
+INSTITUTE  (1USAOHO)
+REFERENCE  (J,PR/C,33,1826,1986)
+           (J,NP/A,464,395,1987) No data, experimental method only
+HISTORY    (20080831C) Compiled by S.H.
+FACILITY   (VDGT) Tandem Van de Graaff with the beam swinger
+           facility. A deuteron beam, pulsed and bunched at a
+           rate of 5 or 2.5 MHz repetition with a subnanosecond
+           pulse width was used
+INC-SOURCE (D-T)
+DETECTOR   (SCIN) Array of NE213 liquid scintillation counters
+           with diameter of 20cm and thickness of 10 cm
+           flux monitored by stilbene organic crystal
+METHOD     (TOF)
+ERR-ANALYS (DATA-ERR) No information given
+COMMENT    Since no experimental information is given in the
+           reference, facility and detector description is taken
+           from experimental paper (Nucl. Phys. A464,395,1987)
+           by the same group (M.S.I,R.W.F.+) measured at Ohio
+           University.
+ENDBIB              22
+NOCOMMON             0          0
+ENDSUBENT           25
+SUBENT        14205002   20080831   20090306   20090304       1351
+BIB                  2          2
+REACTION   (8-O-16(N,EL)8-O-16,,DA)
+STATUS     (CURVE) Data taken from fig.1 of the reference
+ENDBIB               2
+COMMON               1          3
+EN
+MEV
+18.0
+ENDCOMMON            3
+DATA                 3         23
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+  1.622E+01  1.005E+03
+  1.992E+01  8.060E+02
+  2.459E+01  5.715E+02
+  2.926E+01  3.942E+02
+  3.490E+01  1.956E+02
+  3.857E+01  1.209E+02
+  4.396E+01  5.088E+01
+  4.986E+01  3.461E+01  2.736E+00
+  5.530E+01  3.913E+01  2.597E+00
+  5.999E+01  4.246E+01  2.816E+00
+  6.469E+01  5.583E+01
+  6.938E+01  5.427E+01
+  7.382E+01  4.793E+01
+  7.850E+01  4.472E+01
+  8.318E+01  3.790E+01
+  8.761E+01  2.725E+01
+  9.695E+01  1.447E+01  9.592E-01
+  1.065E+02  7.175E+00  6.567E-01
+  1.164E+02  7.163E+00  4.748E-01
+  1.253E+02  7.767E+00  6.137E-01
+  1.342E+02  6.227E+00  5.700E-01
+  1.433E+02  5.131E+00  5.962E-01
+  1.480E+02  5.343E+00  8.729E-01
+ENDDATA             25
+ENDSUBENT           36
+SUBENT        14205003   20080831   20090306   20090304       1351
+BIB                  2          2
+REACTION   (8-O-16(N,EL)8-O-16,,DA)
+STATUS     (CURVE) Data taken from fig.1 of the reference
+ENDBIB               2
+COMMON               1          3
+EN
+MEV
+20.0
+ENDCOMMON            3
+DATA                 3         20
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+  1.240E+01  1.239E+03
+  1.634E+01  9.671E+02
+  2.396E+01  5.579E+02
+  3.182E+01  2.347E+02
+  3.917E+01  8.968E+01
+  4.801E+01  4.040E+01  3.191E+00
+  5.567E+01  4.381E+01  2.906E+00
+  6.332E+01  4.316E+01
+  7.096E+01  3.656E+01
+  7.860E+01  2.700E+01
+  8.623E+01  1.836E+01  9.810E-01
+  9.336E+01  1.119E+01  1.163E+00
+  1.007E+02  5.475E+00  2.919E-01
+  1.083E+02  2.241E+00  2.329E-01
+  1.162E+02  1.748E+00  1.819E-01
+  1.236E+02  2.982E+00  2.733E-01
+  1.306E+02  4.559E+00  2.439E-01
+  1.377E+02  4.877E+00  4.468E-01
+  1.444E+02  2.892E+00  2.650E-01
+  1.515E+02  2.319E+00  2.413E-01
+ENDDATA             22
+ENDSUBENT           33
+SUBENT        14205004   20080831   20090306   20090304       1351
+BIB                  2          2
+REACTION   (8-O-16(N,EL)8-O-16,,DA)
+STATUS     (CURVE) Data taken from fig.1 of the reference
+ENDBIB               2
+COMMON               1          3
+EN
+MEV
+22.0
+ENDCOMMON            3
+DATA                 3         29
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+  1.228E+01  1.226E+03
+  1.646E+01  1.011E+03
+  1.990E+01  8.113E+02
+  2.409E+01  6.246E+02
+  2.581E+01  5.296E+02
+  2.949E+01  3.412E+02
+  2.973E+01  3.412E+02
+  3.120E+01  2.776E+02
+  3.537E+01  1.559E+02
+  4.124E+01  6.209E+01
+  4.813E+01  3.836E+01
+  5.604E+01  4.580E+01
+  6.172E+01  5.037E+01
+  6.738E+01  4.269E+01
+  7.083E+01  3.875E+01
+  7.674E+01  2.600E+01
+  8.239E+01  1.607E+01
+  8.829E+01  1.155E+01  9.126E-01
+  9.370E+01  7.541E+00  6.905E-01
+  9.910E+01  4.351E+00  3.441E-01
+  1.052E+02  2.764E+00  2.184E-01
+  1.107E+02  1.986E+00  1.569E-01
+  1.161E+02  1.660E+00  1.520E-01
+  1.218E+02  1.426E+00  1.658E-01
+  1.277E+02  1.954E+00  1.789E-01
+  1.331E+02  2.789E+00  3.243E-01
+  1.383E+02  2.865E+00  2.266E-01
+  1.433E+02  2.983E+00  2.360E-01
+  1.492E+02  2.459E+00  2.557E-01
+ENDDATA             31
+ENDSUBENT           42
+SUBENT        14205005   20080831   20090306   20090304       1351
+BIB                  2          2
+REACTION   (8-O-16(N,EL)8-O-16,,DA)
+STATUS     (CURVE) Data taken from fig.1 of the reference
+ENDBIB               2
+COMMON               1          3
+EN
+MEV
+24.0
+ENDCOMMON            3
+DATA                 3         21
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+  2.012E+01  8.518E+02
+  2.545E+01  5.444E+02
+  3.033E+01  2.853E+02
+  3.543E+01  1.591E+02
+  4.030E+01  7.275E+01
+  4.518E+01  4.210E+01
+  5.008E+01  3.954E+01
+  5.522E+01  4.363E+01
+  5.968E+01  4.415E+01
+  6.481E+01  4.197E+01
+  6.970E+01  3.396E+01
+  7.437E+01  2.681E+01
+  7.926E+01  1.757E+01
+  8.392E+01  1.137E+01
+  8.859E+01  8.540E+00  8.069E-01
+  9.792E+01  4.204E+00  4.444E-01
+  1.075E+02  2.342E+00  3.978E-01
+  1.166E+02  1.652E+00  3.307E-01
+  1.258E+02  2.012E+00  2.349E-01
+  1.349E+02  2.916E+00  3.080E-01
+  1.436E+02  2.876E+00  3.355E-01
+ENDDATA             23
+ENDSUBENT           34
+SUBENT        14205006   20080831   20090306   20090304       1351
+BIB                  2          2
+REACTION   (8-O-16(N,EL)8-O-16,,DA)
+STATUS     (CURVE) Data taken from fig.1 of the reference
+ENDBIB               2
+COMMON               1          3
+EN
+MEV
+24.5
+ENDCOMMON            3
+DATA                 3         23
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+  1.713E+01  1.045E+03
+  1.957E+01  8.674E+02
+  2.424E+01  5.827E+02
+  2.889E+01  3.373E+02
+  3.377E+01  1.746E+02
+  3.908E+01  8.182E+01
+  4.440E+01  4.288E+01  2.578E+00
+  4.998E+01  4.284E+01  2.576E+00
+  5.489E+01  4.176E+01  2.996E+00
+  5.957E+01  4.551E+01  2.203E+00
+  6.403E+01  4.118E+01  1.994E+00
+  6.893E+01  3.459E+01  2.082E+00
+  7.360E+01  2.534E+01  2.109E+00
+  7.782E+01  1.976E+01  1.417E+00
+  8.292E+01  1.048E+01  7.520E-01
+  8.759E+01  7.220E+00  8.424E-01
+  9.739E+01  5.555E+00
+  1.061E+02  2.874E+00  1.730E-01
+  1.112E+02  1.705E+00  1.800E-01
+  1.163E+02  1.524E+00  1.612E-01
+  1.212E+02  1.724E+00  2.200E-01
+  1.259E+02  2.101E+00  1.508E-01
+  1.422E+02  3.442E+00  1.669E-01
+ENDDATA             25
+ENDSUBENT           36
+SUBENT        14205007   20080831   20090306   20090304       1351
+BIB                  2          2
+REACTION   (8-O-16(N,EL)8-O-16,,DA)
+STATUS     (CURVE) Data taken from fig.1 of the reference
+ENDBIB               2
+COMMON               1          3
+EN
+MEV
+26.0
+ENDCOMMON            3
+DATA                 3         27
+ANG-CM     DATA-CM    DATA-ERR
+ADEG       MB/SR      MB/SR
+  1.219E+01  1.324E+03
+  1.613E+01  1.078E+03
+  1.991E+01  8.097E+02
+  2.369E+01  5.934E+02
+  2.768E+01  3.747E+02
+  3.145E+01  2.279E+02
+  3.521E+01  1.210E+02
+  3.919E+01  6.500E+01
+  4.340E+01  3.810E+01
+  4.763E+01  3.447E+01
+  5.187E+01  3.488E+01
+  5.588E+01  3.196E+01
+  6.124E+01  3.273E+01
+  6.503E+01  3.074E+01
+  7.258E+01  1.823E+01
+  8.037E+01  1.151E+01  9.574E-01
+  8.591E+01  6.742E+00  4.836E-01
+  9.324E+01  3.666E+00  3.466E-01
+  1.010E+02  2.201E+00  1.833E-01
+  1.084E+02  1.592E+00  1.142E-01
+  1.157E+02  9.682E-01  9.147E-02
+  1.235E+02  7.545E-01  7.130E-02
+  1.309E+02  1.491E+00  1.903E-01
+  1.376E+02  1.645E+00  2.100E-01
+  1.445E+02  1.861E+00  1.966E-01
+  1.514E+02  1.297E+00  1.370E-01
+  1.547E+02  3.610E-01  6.865E-02
+ENDDATA             29
+ENDSUBENT           40
+ENDENTRY             7

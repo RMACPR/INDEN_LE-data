@@ -1,0 +1,539 @@
+ENTRY            11189     820107              20050926       0000
+SUBENT        11189001     820107              20050926       0000
+BIB                  9         12
+INSTITUTE  (1USACAR)
+REFERENCE  (J,PR,81,184,5101)
+AUTHOR     (B.L.COHEN)
+TITLE       (N,2N) AND (N,P) CROSS SECTIONS.
+N-SOURCE   (D-BE) BE(D,N) SOURCE
+INC-SPECT  SPECTRUM OF NEUTRONS FROM BE(D,N) SOURCE. MINIMUM
+            ENERGY GIVEN IS REACTION THRESHOLD AS GIVEN BY AUTHOR.
+MONITOR    (16-S-32(N,P)15-P-32,,SIG)
+METHOD     (ACTIV) ACTIVATION
+HISTORY    (770228C)
+           (800814A) CONVERTED TO REACTION FORMALISM
+           (820107A) COMMOM HEADING CORRECTED. BIB UPDATE.
+ENDBIB              12
+COMMON               1          3
+MONIT
+MB
+ 285.
+ENDCOMMON            3
+ENDSUBENT           19
+SUBENT        11189002     800814              20050926       0000
+BIB                  2          2
+REACTION   (8-O-16(N,P)7-N-16,,SIG,,SPA)
+DECAY-DATA (7-N-16,8.SEC,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         PER-CENT
+ 9.3        18.        8.         200.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189003     800814              20050926       0000
+BIB                  2          2
+REACTION   (12-MG-24(N,P)11-NA-24,,SIG,,SPA)
+DECAY-DATA (11-NA-24,14.8HR,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         PER-CENT
+ 2.1        18.        39.        10.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189004     800814              20050926       0000
+BIB                  2          2
+REACTION   (13-AL-27(N,P)12-MG-27,,SIG,,SPA)
+DECAY-DATA (12-MG-27,10.2MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         PER-CENT
+ 2.1        18.        25.        10.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189005     800814              20050926       0000
+BIB                  2          2
+REACTION   (14-SI-28(N,P)13-AL-28,,SIG,,SPA)
+DECAY-DATA (13-AL-28,2.4MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         PER-CENT
+ 3.9        18.        45.        12.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189006     800814              20050926       0000
+BIB                  2          2
+REACTION   (14-SI-29(N,P)13-AL-29,,SIG,,SPA)
+DECAY-DATA (13-AL-29,6.7MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         PER-CENT
+ 1.8        18.        36.        15.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189007     800814              20050926       0000
+BIB                  2          2
+REACTION   (15-P-31(N,P)14-SI-31,,SIG,,SPA)
+DECAY-DATA (14-SI-31,170.MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         PER-CENT
+ 1.1        18.        120.       10.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189008     800814              20050926       0000
+BIB                  2          2
+REACTION   (20-CA-42(N,P)19-K-42,,SIG,,SPA)
+DECAY-DATA (19-K-42,12.4HR,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         PER-CENT
+ 2.9        18.        120.       10.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189009     800814              20050926       0000
+BIB                  2          2
+REACTION   (22-TI-48(N,P)21-SC-48,,SIG,,SPA)
+DECAY-DATA (21-SC-48,44.HR,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         PER-CENT
+ 1.3        18.        23.        15.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189010     800814              20050926       0000
+BIB                  2          2
+REACTION   (22-TI-49(N,P)21-SC-49,,SIG,,SPA)
+DECAY-DATA (21-SC-49,57.MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         PER-CENT
+ 1.1        18.        6.5        10.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189011     800814              20050926       0000
+BIB                  2          2
+REACTION   (24-CR-52(N,P)23-V-52,,SIG,,SPA)
+DECAY-DATA (23-V-52,3.9MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         PER-CENT
+ 2.8        18.        15.        10.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189012     800814              20050926       0000
+BIB                  2          2
+REACTION   (26-FE-56(N,P)25-MN-56,,SIG,,SPA)
+DECAY-DATA (25-MN-56,2.59HR,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         PER-CENT
+ 2.9        18.        18.5       8.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189013     800814              20050926       0000
+BIB                  2          2
+REACTION   (29-CU-65(N,P)28-NI-65,,SIG,,SPA)
+DECAY-DATA (28-NI-65,2.6HR,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         PER-CENT
+ 2.3        18.        3.2        40.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189014     800814              20050926       0000
+BIB                  2          2
+REACTION   (30-ZN-66(N,P)29-CU-66,,SIG,,SPA)
+DECAY-DATA (29-CU-66,5.MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         PER-CENT
+ 3.5        18.        11.0       10.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189015     800814              20050926       0000
+BIB                  2          2
+REACTION   (32-GE-70(N,P)31-GA-70,,SIG,,SPA)
+DECAY-DATA (31-GA-70,20.MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         PER-CENT
+ 1.8        18.        14.5       15.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189016     800814              20050926       0000
+BIB                  2          2
+REACTION   (34-SE-76(N,P)33-AS-76,,SIG,,SPA)
+DECAY-DATA (33-AS-76,26.8HR,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         PER-CENT
+ 2.3        18.        16.5       10.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189017     800814              20050926       0000
+BIB                  2          2
+REACTION   (34-SE-77(N,P)33-AS-77,,SIG,,SPA)
+DECAY-DATA (33-AS-77,40.HR,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     EN-MAX     DATA-MAX
+MEV        MEV        MB
+ 2.         18.        8.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189018     800814              20050926       0000
+BIB                  2          2
+REACTION   (37-RB-87(N,P)36-KR-87,,SIG,,SPA)
+DECAY-DATA (36-KR-87,74.MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     EN-MAX     DATA-MAX
+MEV        MEV        MB
+ 3.3        18.        2.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189019     800814              20050926       0000
+BIB                  2          2
+REACTION   (38-SR-88(N,P)37-RB-88,,SIG,,SPA)
+DECAY-DATA (37-RB-88,17.8MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         PER-CENT
+ 4.3        18.        0.93       8.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189020     820107              20050926       0000
+BIB                  2          2
+REACTION   (40-ZR-90(N,P)39-Y-90,,SIG,,SPA)
+DECAY-DATA (39-Y-90-G,62.HR,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         PER-CENT
+ 1.8        18.        3.1        30.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189021     820107              20050926       0000
+BIB                  2          2
+REACTION   (42-MO-97(N,P)41-NB-97,,SIG,,SPA)
+DECAY-DATA (41-NB-97-G,75.MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     EN-MAX     DATA-MAX
+MEV        MEV        MB
+ 1.5        18.        1.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189022     800814              20050926       0000
+BIB                  2          2
+REACTION   (44-RU-101(N,P)43-TC-101,,SIG,,SPA)
+DECAY-DATA (43-TC-101,14.MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     EN-MAX     DATA-MAX
+MEV        MEV        MB
+ 0.9        18.        0.8
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189023     820107              20050926       0000
+BIB                  2          2
+REACTION   (47-AG-109(N,P)46-PD-109,,SIG,,SPA)
+DECAY-DATA (46-PD-109-G,13.HR,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         PER-CENT
+ 0.4        18.        2.0        30.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189024     820107              20050926       0000
+BIB                  2          2
+REACTION   (56-BA-138(N,P)55-CS-138,,SIG,,SPA)
+DECAY-DATA (55-CS-138-G,33.MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     EN-MAX     DATA-MAX
+MEV        MEV        MB
+ 3.1        18.        0.2
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189025     800814              20050926       0000
+BIB                  2          2
+REACTION   (57-LA-139(N,P)56-BA-139,,SIG,,SPA)
+DECAY-DATA (56-BA-139,85.MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     EN-MAX     DATA-MAX
+MEV        MEV        MB
+ 2.1        18.        0.2
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189026     800814              20050926       0000
+BIB                  2          2
+REACTION   (7-N-14(N,2N)7-N-13,,SIG,,SPA)
+DECAY-DATA (7-N-13,10.1MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 10.6       18.        0.255      0.02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189027     800814              20050926       0000
+BIB                  2          2
+REACTION   (9-F-19(N,2N)9-F-18,,SIG,,SPA)
+DECAY-DATA (9-F-18,112.MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 10.4       18.        2.27       0.23
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189028     800814              20050926       0000
+BIB                  2          2
+REACTION   (15-P-31(N,2N)15-P-30,,SIG,,SPA)
+DECAY-DATA (15-P-30,2.55MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 12.3       18.        14.4       1.5
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189029     820107              20050926       0000
+BIB                  2          2
+REACTION   (19-K-39(N,2N)19-K-38,,SIG,,SPA)
+DECAY-DATA (19-K-38-G,7.5MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 13.2       18.        0.113      0.02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189030     800814              20050926       0000
+BIB                  2          2
+REACTION   (22-TI-46(N,2N)22-TI-45,,SIG,,SPA)
+DECAY-DATA (22-TI-45,3.08HR,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA-MIN   DATA-ERR
+MEV        MEV        MB         MB
+ 12.3       18.        7.7        0.8
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189031     800814              20050926       0000
+BIB                  2          2
+REACTION   (24-CR-50(N,2N)24-CR-49,,SIG,,SPA)
+DECAY-DATA (24-CR-49,42.MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 13.4       18.        1.07       0.15
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189032     820107              20050926       0000
+BIB                  2          2
+REACTION   (26-FE-54(N,2N)26-FE-53,,SIG,,SPA)
+DECAY-DATA (26-FE-53-G,8.9MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     EN-MAX     DATA-MAX
+MEV        MEV        MB
+ 13.9       18.        2.0
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189033     800814              20050926       0000
+BIB                  2          2
+REACTION   (28-NI-58(N,2N)28-NI-57,,SIG,,SPA)
+DECAY-DATA (28-NI-57,36.HR,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 11.7       18.        2.9        0.7
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189034     800814              20050926       0000
+BIB                  2          2
+REACTION   (29-CU-63(N,2N)29-CU-62,,SIG,,SPA)
+DECAY-DATA (29-CU-62,10.1MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 10.9       18.        19.6       2.0
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189035     800814              20050926       0000
+BIB                  2          2
+REACTION   (30-ZN-64(N,2N)30-ZN-63,,SIG,,SPA)
+DECAY-DATA (30-ZN-63,38.3MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 11.8       18.        1.6        0.4
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189036     800814              20050926       0000
+BIB                  2          2
+REACTION   (31-GA-69(N,2N)31-GA-68,,SIG,,SPA)
+DECAY-DATA (31-GA-68,68.MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 10.5       18.        25.8       4.0
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189037     800814              20050926       0000
+BIB                  2          2
+REACTION   (33-AS-75(N,2N)33-AS-74,,SIG,,SPA)
+DECAY-DATA (33-AS-74,16.D,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 10.3       18.        50.        10.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189038     820107              20050926       0000
+BIB                  2          2
+REACTION   (37-RB-85(N,2N)37-RB-84,,SIG,,SPA)
+DECAY-DATA (37-RB-84-G,6.5HR,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     EN-MAX     DATA-MAX
+MEV        MEV        MB
+ 11.5       18.        4.0
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189039     820107              20050926       0000
+BIB                  2          2
+REACTION   (40-ZR-90(N,2N)40-ZR-89,,SIG,,SPA)
+DECAY-DATA (40-ZR-89-G,78.HR,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 12.0       18.        14.0       2.0
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189040     800814              20050926       0000
+BIB                  2          2
+REACTION   (44-RU-96(N,2N)44-RU-95,,SIG,,SPA)
+DECAY-DATA (44-RU-95,20.MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN-MIN     EN-MAX     DATA-MAX
+MEV        MEV        MB
+ 13.0       18.        3.1
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189041     820107              20050926       0000
+BIB                  2          2
+REACTION   (47-AG-107(N,2N)47-AG-106,,SIG,,SPA)
+DECAY-DATA (47-AG-106-G,24.5MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 9.6        18.        42.        3.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189042     820107              20050926       0000
+BIB                  2          2
+REACTION   (51-SB-121(N,2N)51-SB-120,,SIG,,SPA)
+DECAY-DATA (51-SB-120-G,16.MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 9.25       18.        40.        4.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189043     800814              20050926       0000
+BIB                  2          2
+REACTION   (53-I-127(N,2N)53-I-126,,SIG,,SPA)
+DECAY-DATA (53-I-126,13.D,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 9.45       18.        31.        3.
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11189044     800814              20050926       0000
+BIB                  2          2
+REACTION   (59-PR-141(N,2N)59-PR-140,,SIG,,SPA)
+DECAY-DATA (59-PR-140,3.5MIN,B)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN-MIN     EN-MAX     DATA       DATA-ERR
+MEV        MEV        MB         MB
+ 9.4        18.        39.        4.
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY            44
