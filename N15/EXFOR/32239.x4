@@ -1,0 +1,138 @@
+ENTRY            32239   20150114   20150311   20150304       3168
+SUBENT        32239001   20150114   20150311   20150304       3168
+BIB                 11         12
+TITLE      Inelastic collision cross sections of 14 MeV neutrons
+           with atomic nuclei
+AUTHOR     (V.I.Strizhak,A.P.Yaremik,V.V.Kravtsov)
+INSTITUTE  (4UKRIFU)
+REFERENCE  (J,UFZ,3,190,1958)
+METHOD     (SHELT) Ring geometry
+FACILITY   (VDG,4UKRIFU)
+INC-SOURCE (D-T) Deuteron energy 110 keV
+DETECTOR   (SCIN) Stilbene crystal: diameter 3 cm, height 1.5 cm
+ERR-ANALYS No information
+STATUS     (TABLE) From text
+HISTORY    (20150114C)UKRNDC
+ENDBIB              12
+COMMON               1          3
+EN
+MEV
+14.
+ENDCOMMON            3
+ENDSUBENT           19
+SUBENT        32239002   20150114   20150311   20150304       3168
+BIB                  1          1
+REACTION   (6-C-0(N,NON),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+0.60       0.03
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        32239003   20150114   20150311   20150304       3168
+BIB                  2          4
+REACTION   (7-N-0(N,NON),,SIG)
+SAMPLE     Thin-walled metallic spherical Dewar wall thickness
+           of 0.4 mm, filled with liquid nitrogen thickness of 5
+           cm.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+0.80       0.02
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        32239004   20150114   20150311   20150304       3168
+BIB                  1          1
+REACTION   (13-AL-27(N,NON),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+1.03       0.03
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        32239005   20150114   20150311   20150304       3168
+BIB                  1          1
+REACTION   (26-FE-0(N,NON),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+1.43       0.04
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        32239006   20150114   20150311   20150304       3168
+BIB                  1          1
+REACTION   (30-ZN-0(N,NON),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+1.52       0.04
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        32239007   20150114   20150311   20150304       3168
+BIB                  1          1
+REACTION   (48-CD-0(N,NON),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+1.86       0.04
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        32239008   20150114   20150311   20150304       3168
+BIB                  1          1
+REACTION   (50-SN-0(N,NON),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+1.82       0.04
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        32239009   20150114   20150311   20150304       3168
+BIB                  2          3
+REACTION   (80-HG-0(N,NON),,SIG)
+SAMPLE     Thin-double-wall Cu container wall thickness of 0.4 mm,
+           filled by Hg.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+2.69       0.06
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        32239010   20150114   20150311   20150304       3168
+BIB                  1          1
+REACTION   (82-PB-0(N,NON),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+2.51       0.05
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        32239011   20150114   20150311   20150304       3168
+BIB                  1          1
+REACTION   (83-BI-209(N,NON),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+2.54       0.05
+ENDDATA              3
+ENDSUBENT            9
+ENDENTRY            11

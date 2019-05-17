@@ -1,5 +1,0 @@
-subentry,measure,reaction,description,ENmin,ENmax,rows,uncertainties,authors,year,reference
-"F1077002","DA","D,EL","Differential c/s with respect to angle for 13C(d,Elastic)13C","4.4762","5.7027","44","True","R.L.A.Cottrell,J.C.Lisle,J.O.Newton","1968","Nuclear Physics,Section A 109,288 (1968)"
-"F1077005","DA","D,EL","Differential c/s with respect to angle for 13C(d,Elastic)13C","4.66","5.27","99","True","R.L.A.Cottrell,J.C.Lisle,J.O.Newton","1968","Nuclear Physics,Section A 109,288 (1968)"
-"F1077012","DA","D,EL","Differential c/s with respect to angle for 13C(d,Elastic)13C","4.66","4.66","1","True","R.L.A.Cottrell,J.C.Lisle,J.O.Newton","1968","Nuclear Physics,Section A 109,288 (1968)"
-"F1189004","DA","D,EL","Differential c/s with respect to angle for 13C(d,Elastic)13C","18.0","18.0","42","False","V.V.Dyachkov,N.T.Burtebaev,A.V.Yushkov","2012","Izv. Rossiiskoi Akademii Nauk,Ser.Fiz. 76,(8),998 (2012); Bull.Russian Academy of Sciences - Physics 76,895 (2012)"

@@ -1,0 +1,54 @@
+ENTRY            11354   20090507   20090724   20090712       1353
+SUBENT        11354001   20090507   20090724   20090712       1353
+BIB                  7          9
+INSTITUTE  (1USALRL)
+TITLE      No title
+REFERENCE  (C,68WASH,1,225(B-13),196803)
+AUTHOR     (L.F.Hansen,J.D.Anderson,M.L.Stelts,C.Wong)
+METHOD     Sphere transmission
+STATUS     (SCSRS)
+HISTORY    (19761014T) Translated from SCISRS
+           (19820324A) Converted to reaction formalism
+           (20090108U) Virtual title added
+ENDBIB               9
+NOCOMMON             0          0
+ENDSUBENT           12
+SUBENT        11354002     820324              20050926       0000
+BIB                  1          1
+REACTION   (6-C-0(N,INL),PAR,SIG)
+ENDBIB               1
+COMMON               1          3
+EN
+MEV
+ 1.53   +01
+ENDCOMMON            3
+DATA                 3          2
+E-LVL      DATA       DATA-ERR
+MEV        B          B
+ 4.43       2.20   -01 2.0    -02
+ 9.6        1.00   -01 3.0    -02
+ENDDATA              4
+ENDSUBENT           14
+SUBENT        11354003     820324              20050926       0000
+BIB                  1          1
+REACTION   (6-C-0(N,NON),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.53   +01 5.54   -01 3.0    -02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11354004     820324              20050926       0000
+BIB                  1          1
+REACTION   (7-N-0(N,NON),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 1.53   +01 6.00   -01 3.0    -02
+ENDDATA              3
+ENDSUBENT            9
+ENDENTRY             4

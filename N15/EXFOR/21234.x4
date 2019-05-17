@@ -1,0 +1,138 @@
+ENTRY            21234   20120917   20130812   20130718       2234
+SUBENT        21234001   20120917   20130812   20130718       2234
+BIB                 10         19
+INSTITUTE  (2SWTETH)
+REFERENCE  (J,HPA,20,105,194704)
+AUTHOR     (J.Rossel)
+TITLE       Study of the intermolecular forces by the diffusion
+            of slow neutrons. Application to N(2), H(2)-O and
+            K-H(2)-P-O(4)
+INC-SOURCE (RA-BE) Radium-beryllium source, 300 milliCurie.
+           (RN-BE)
+INC-SPECT  Thermalized neutron spectrum, slowing down of
+            neutrons in paraffin
+METHOD     (TRN).Transmission measurements with and without
+            Cd-sheet (sub-cadmium spectrum)
+DETECTOR   (IOCH) Ionization chamber filled with B-F(3),
+            pressure 3 atm.
+STATUS     (TABLE) Data taken from Helv.Phys.Acta, 20,105,1947
+HISTORY    (19800104T) G.C.
+           (19800118E)
+           (20120917A) SD: Updated to new date formats,lower case.
+                Corrected according last EXFOR rules and Dict.
+ENDBIB              19
+COMMON               1          3
+EN-DUMMY
+EV
+ 2.5300E-02
+ENDCOMMON            3
+ENDSUBENT           26
+SUBENT        21234002   20120917   20130812   20130718       2234
+BIB                  6         10
+REACTION   (1-H-1(N,THS)1-H-1,,SIG,,MXW)
+SAMPLE     .Powder of K-H-C-O(3), density 1.203 g/cm*cm.
+ASSUMED    (ASSUM1,19-K-0(N,TOT),,SIG,,MXW)
+           (ASSUM2,6-C-12(N,TOT),,SIG,,MXW)
+           (ASSUM3,8-O-16(N,TOT),,SIG,,MXW)
+COMMENT    .Cross section calculated from the measured cross
+            section of K-H-C-O(3) (68.5 +- 4.2 b)
+REL-REF    (R,,J.R.Dunning+,J,PR,48,265,193508) Gives ASSUM1
+           (R,,H.Carroll,J,PR,60,702,194111) used for calc ASSUM3
+ERR-ANALYS .Not given.
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 4          1
+DATA       ASSUM1     ASSUM2     ASSUM3
+B          B          B          B
+ 4.5300E+01 8.2000E+00 4.5000E+00 3.4900E+00
+ENDDATA              3
+ENDSUBENT           18
+SUBENT        21234003   20120917   20130812   20130718       2234
+BIB                  3          6
+REACTION   (1-H-WTR(N,TOT),,SIG/TMP,,MXW)
+SAMPLE     .H(2)-O in brass canning (1 mm thick), thickness of
+            sample layer 3.55 +- 0.05 mm, solid sample at -196,
+            -79 and -2 deg-C, liquid sample at 0 and 19 deg-C.
+ERR-ANALYS (ERR-S) .Errors given are statistical,
+            systematic errors are negligible.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 3          5
+TEMP       DATA       ERR-S
+DEG-C      B          B
+-1.9600E+02 9.1500E+01 3.8000E+00
+-7.9000E+01 7.9000E+01 3.2000E+00
+-2.0000E+00 8.5400E+01 3.5000E+00
+ 0.0000E+00 8.4200E+01 3.0000E+00
+ 1.9000E+01 8.5500E+01 2.9000E+00
+ENDDATA              7
+ENDSUBENT           18
+SUBENT        21234004   20120917   20130812   20130718       2234
+BIB                  2          2
+REACTION   (7-N-0(N,EL)7-N-0,BA,SIG,,MXW)
+ERR-ANALYS .Not given.
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.1000E+01
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        21234005   20120917   20130812   20130718       2234
+BIB                  4          5
+REACTION   (7-N-0(N,EL)7-N-0,FA,SIG,,MXW,DERIV)
+ANALYSIS   .Value calculated from bound atom
+            cross section by theoretical calculation
+STATUS     (DEP,21234004)
+ERR-ANALYS .Not given.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 1          1
+DATA
+B
+ 1.0000E+01
+ENDDATA              3
+ENDSUBENT           13
+SUBENT        21234006   20120917   20130812   20130718       2234
+BIB                  3          4
+REACTION   (15-P-31(N,TOT),,SIG,,MXW)
+SAMPLE     .Pressed powder of amorphous phosphorus.
+ERR-ANALYS (ERR-S) .Statistical error given,
+                    systematic error negligible.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       ERR-S
+B          B
+ 8.7700E+00 7.6000E-01
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        21234007   20120917   20130812   20130718       2234
+BIB                  6         12
+REACTION   (1-H-1(N,THS)1-H-1,,SIG/TMP,,MXW)
+SAMPLE     .Crystalline powder of K-H(2)-P-O(4), thickness 8.0
+            mm (0.00608 molecules/barn), temperature 77 and
+            290 deg-K.
+ASSUMED    (ASSUM1,19-K-0(N,TOT),,SIG,,MXW)
+           (ASSUM2,1-H-1(N,TOT),,SIG,,MXW)
+           (ASSUM3,8-O-16(N,TOT),,SIG,,MXW)
+ANALYSIS   .Cross sections calculated from the measured cross
+            sections of K-H(2)-p-O(4).
+REL-REF    (R,,J.R.Dunning+,J,PR,48,265,193508) Gives ASSUM1
+           (R,,H.Carroll,J,PR,60,702,194111) used for calc ASSUM3
+ERR-ANALYS .Not given.
+ENDBIB              12
+COMMON               3          3
+ASSUM1     ASSUM2     ASSUM3
+B          B          B
+ 8.2000E+00 2.0000E+01 3.4900E+00
+ENDCOMMON            3
+DATA                 2          2
+TEMP       DATA
+K          B
+ 7.7000E+01 3.7200E+01
+ 2.9000E+02 3.9600E+01
+ENDDATA              4
+ENDSUBENT           25
+ENDENTRY             7

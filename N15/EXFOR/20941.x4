@@ -1,0 +1,624 @@
+ENTRY            20941   20170731   20180124   20180123       2263
+SUBENT        20941001   20170731   20180124   20180123       2263
+BIB                 14         56
+INSTITUTE  (2UK ALD)
+REFERENCE  (J,NP,60,561,1964)
+AUTHOR     (J.L.Perkin)
+TITLE       Gamma ray spectra from fast neutron interactions
+FACILITY   (VDG,2UK ALD) 6 MV Van de Graaf at Aldermaston.
+INC-SOURCE (P-T) For 3.5 MeV neutrons.
+           (D-D) For 4.5, 5.5, 6.5, 7.5 and 8.5 MeV neutrons
+            gas targets contained in cylinders 2.5 cm long, at
+            one atmosphere pressure for tritium and 2 atmosphere
+            for deuterium.
+SAMPLE     .Samples were cylindrical, 2 cm diameter and 2 cm
+            long, mounted on a light metal support.
+            Natural elements except for nitrogen in the form
+            of melamine (C3N6H6) and oxygen as H20.
+            Samples of water, Ba and W were canned in thin
+            brass, and Li-6 in aluminum (94.6% Li-6)
+DETECTOR   (NAICR) Pair spectrometer with three crystals, the
+            central one 2.5cm diam, 5.1 cm long with axis
+            towards the scattering sample though a 2.2cm diam
+            collimator. The other two crystals were 7.9cm diam
+            and 7.9 cm long with their common axis at 90 deg
+            to the central crystal.
+MONITOR    (6-C-12(N,INL)6-C-12,,DA) Calibration from cross
+            sections for 4.43 MeV gamma production at 90 deg
+                    energy     cross section
+                     5.5 MeV    6.3+-0.6 mb/sr
+                     6.5 MeV   22.7+-2.4 mb/sr
+                     7.5 MeV   20.2+-2.0 mb/sr
+                     8.5 MeV   19.9+-2.0 mb/sr
+           (82-PB-0(N,INL)82-PB-0,,DA,G) cross sections for
+            2.62 MeV gammas at 90 degrees.
+                    Energy     cross section
+                     3.5 MeV   33.0+-5.0 mb/sr
+                     4.5 MeV   58.0+-7.0 mb/sr
+MONIT-REF  (,D.O.Nellis+,R,TNC-2791,1963)) - Pb(n,n') reaction
+           (,H.E.Hall+,J,NP,14,295,1959) - The C12(n,n') cross
+           sections renormalized in the light of more recent work.
+PART-DET   (G) Gammas.
+CORRECTION .Background was subtracted, then spectrum was
+            corrected for line shape and detector efficiency,
+            and self-absorption.
+           .Background from scattered neutrons was calculated
+            from parameter that derived from elastic and
+            inelastic cross sections, density and atomic mass
+            of the samples.
+ERR-ANALYS (ERR-S) Standard deviation counting errors. The
+            statistical counting error is generally predominant
+            and accounts for practically all the error in
+            the results.
+           (ERR-SYS) Uncertainty of normalization
+HISTORY    (19790610C)
+           (20170731A) SD:Updated to new date formats,lower case.
+           REACTION code corrected in Subents 002-004,006-012.
+           Data were re-compiled from Tbl.3 in Subents 002-012.
+           MONIT-REF added. ERR-ANALYS update. DATA-ERR -> ERR-S.
+           Meaningless zeros were deleted from the data.
+ENDBIB              56
+COMMON               2          3
+ANG        ERR-SYS
+ADEG       PER-CENT
+ 90.          10.
+ENDCOMMON            3
+ENDSUBENT           63
+SUBENT        20941002   20180123   20180124   20180123       2263
+BIB                  3          6
+REACTION   (7-N-0(N,INL)7-N-0,PAR,DA,G)
+STATUS     (TABLE) Table 3 from Nucl.Phys.60(1964)561
+HISTORY    (20170731A) SD: SF4=N-0, SF5=PAR, SF6=DA/DE -> DA in
+            REACTION code. Data were re-compiled from the Tbl.3.
+            STATUS update. MB/SR/MEV -> MB/SR.
+           (20180123U) On. STATUS revised.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 5         28
+EN         E-MIN      E-MAX      DATA       ERR-S
+MEV        MEV        MEV        MB/SR      MB/SR
+        4.5        2.0        2.5         5.         5.
+        5.5        2.0        2.5         8.        10.
+        5.5        2.5        3.0         3.         7.
+        6.5        2.0        2.5        13.        11.
+        6.5        2.5        3.0         0.         7.
+        6.5        3.0        3.5         1.         5.
+        6.5        3.5        4.0         1.         4.
+        6.5        4.0        4.5         6.         3.
+        6.5        4.5        5.0         5.         3.
+        6.5        5.0        5.5         5.         3.
+        6.5        5.5        6.0         1.         3.
+        7.5        2.0        2.5        10.         9.
+        7.5        2.5        3.0         0.         6.
+        7.5        3.0        3.5         1.         4.
+        7.5        3.5        4.0         3.         3.
+        7.5        4.0        4.5         6.         3.
+        7.5        4.5        5.0         4.         2.
+        7.5        5.0        5.5         6.         2.
+        7.5        5.5        6.0         1.         2.
+        8.5        2.0        2.5        21.        11.
+        8.5        2.5        3.0         0.         5.
+        8.5        3.0        3.5         0.         4.
+        8.5        3.5        4.0         0.         4.
+        8.5        4.0        4.5         0.         4.
+        8.5        4.5        5.0         3.         3.
+        8.5        5.0        5.5         7.         3.
+        8.5        5.5        6.0         2.         3.
+        8.5        6.0        6.5         1.         2.
+ENDDATA             30
+ENDSUBENT           41
+SUBENT        20941003   20180123   20180124   20180123       2263
+BIB                  3          6
+REACTION   (8-O-0(N,INL)8-O-0,PAR,DA,G)
+STATUS     (TABLE) Table 3 from Nucl.Phys.60(1964)561
+HISTORY    (20170731A) SD: SF4=O-0, SF5=PAR, SF6=DA/DE -> DA in
+            REACTION code. Data were re-compiled from the Tbl.3.
+            STATUS update. MB/SR/MEV -> MB/SR.
+           (20180123U) On. STATUS revised.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 5          6
+EN         E-MIN      E-MAX      DATA       ERR-S
+MEV        MEV        MEV        MB/SR      MB/SR
+        7.5        5.5        6.0         5.         2.
+        7.5        6.0        6.5         5.         2.
+        8.5        5.5        6.0         4.         3.
+        8.5        6.0        6.5         9.         2.
+        8.5        6.5        7.0         2.         2.
+        8.5        7.0        7.5         1.         2.
+ENDDATA              8
+ENDSUBENT           19
+SUBENT        20941004   20180123   20180124   20180123       2263
+BIB                  3          6
+REACTION   (12-MG-0(N,INL)12-MG-0,PAR,DA,G)
+STATUS     (TABLE) Table 3 from Nucl.Phys.60(1964)561
+HISTORY    (20170731A) SD: SF4=Mg-0, SF5=PAR, SF6=DA/DE -> DA in
+            REACTION code. Data were re-compiled from the Tbl.3.
+            STATUS update. MB/SR/MEV -> MB/SR.
+           (20180123U) On. STATUS revised.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 5         37
+EN         E-MIN      E-MAX      DATA       ERR-S
+MEV        MEV        MEV        MB/SR      MB/SR
+        4.5        2.0        2.5         0.         5.
+        4.5        2.5        3.0         2.         2.
+        4.5        3.0        3.5         0.         2.
+        4.5        3.5        4.0         1.         2.
+        5.5        2.0        2.5        14.         8.
+        5.5        2.5        3.0        13.         5.
+        5.5        3.0        3.5         1.         3.
+        5.5        3.5        4.0         3.         3.
+        5.5        4.0        4.5         9.         2.
+        5.5        4.5        5.0         1.         2.
+        5.5        5.0        5.5         2.         2.
+        6.5        2.0        2.5         0.         8.
+        6.5        2.5        3.0        11.         5.
+        6.5        3.0        3.5         2.         3.
+        6.5        3.5        4.0         6.         3.
+        6.5        4.0        4.5        10.         2.
+        6.5        4.5        5.0         1.         2.
+        7.5        2.0        2.5         3.         8.
+        7.5        2.5        3.0        11.         5.
+        7.5        3.0        3.5         3.         3.
+        7.5        3.5        4.0         7.         3.
+        7.5        4.0        4.5         8.         2.
+        7.5        4.5        5.0         2.         2.
+        7.5        5.0        5.5         2.         2.
+        7.5        5.5        6.0         2.         2.
+        7.5        6.0        6.5         1.         1.
+        8.5        2.0        2.5         0.        10.
+        8.5        2.5        3.0         5.         6.
+        8.5        3.0        3.5         1.         4.
+        8.5        3.5        4.0         2.         4.
+        8.5        4.0        4.5         4.         3.
+        8.5        4.5        5.0         2.         3.
+        8.5        5.0        5.5         1.         3.
+        8.5        5.5        6.0         0.         2.
+        8.5        6.0        6.5         1.         2.
+        8.5        6.5        7.0         0.         2.
+        8.5        7.0        7.5         2.         2.
+ENDDATA             39
+ENDSUBENT           50
+SUBENT        20941005   20180123   20180124   20180123       2263
+BIB                  3          6
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,DA,G)
+STATUS     (TABLE) Table 3 from Nucl.Phys.60(1964)561
+HISTORY    (20170731A) SD: SF5=PAR, SF6=DA/DE -> DA in
+            REACTION code. Data were re-compiled from the Tbl.3.
+            STATUS update. MB/SR/MEV -> MB/SR.
+           (20180123U) On. STATUS revised.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 5         47
+EN         E-MIN      E-MAX      DATA       ERR-S
+MEV        MEV        MEV        MB/SR      MB/SR
+        3.5        1.5        2.0         9.        12.
+        3.5        2.0        2.5        12.         5.
+        3.5        2.5        3.0         5.         3.
+        3.5        3.0        3.5         5.         3.
+        4.5        1.5        2.0        17.         8.
+        4.5        2.0        2.5        14.         3.
+        4.5        2.5        3.0         9.         2.
+        4.5        3.0        3.5         3.         2.
+        4.5        3.5        4.0         1.         1.
+        5.5        1.5        2.0        24.         6.
+        5.5        2.0        2.5        26.         7.
+        5.5        2.5        3.0        17.         4.
+        5.5        3.0        3.5         3.         3.
+        5.5        3.5        4.0         1.         2.
+        5.5        4.0        4.5         3.         2.
+        5.5        4.5        5.0         3.         2.
+        6.5        1.5        2.0        32.        15.
+        6.5        2.0        2.5        22.         6.
+        6.5        2.5        3.0        13.         4.
+        6.5        3.0        3.5        15.         3.
+        6.5        3.5        4.0         3.         2.
+        6.5        4.0        4.5         6.         2.
+        6.5        4.5        5.0         4.         2.
+        6.5        5.0        5.5         3.         2.
+        6.5        5.5        6.0         1.         2.
+        7.5        1.5        2.0         9.        15.
+        7.5        2.0        2.5        15.         6.
+        7.5        2.5        3.0        12.         4.
+        7.5        3.0        3.5        13.         3.
+        7.5        3.5        4.0         2.         2.
+        7.5        4.0        4.5         5.         2.
+        7.5        4.5        5.0         5.         2.
+        7.5        5.0        5.5         3.         2.
+        7.5        5.5        6.0         4.         1.
+        7.5        6.0        6.5         3.         1.
+        8.5        1.5        2.0        38.        19.
+        8.5        2.0        2.5        15.         8.
+        8.5        2.5        3.0         7.         5.
+        8.5        3.0        3.5         9.         4.
+        8.5        3.5        4.0         4.         3.
+        8.5        4.0        4.5         4.         3.
+        8.5        4.5        5.0         6.         2.
+        8.5        5.0        5.5         5.         2.
+        8.5        5.5        6.0         4.         2.
+        8.5        6.0        6.5         2.         2.
+        8.5        6.5        7.0         3.         1.
+        8.5        7.0        7.5         1.         1.
+ENDDATA             49
+ENDSUBENT           60
+SUBENT        20941006   20180123   20180124   20180123       2263
+BIB                  3          6
+REACTION   (14-SI-0(N,INL)14-SI-0,PAR,DA,G)
+STATUS     (TABLE) Table 3 from Nucl.Phys.60(1964)561
+HISTORY    (20170731A) SD: SF4=Si-0, SF5=PAR, SF6=DA/DE -> DA in
+            REACTION code. Data were re-compiled from the Tbl.3.
+            STATUS update. MB/SR/MEV -> MB/SR.
+           (20180123U) On. STATUS revised.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 5         37
+EN         E-MIN      E-MAX      DATA       ERR-S
+MEV        MEV        MEV        MB/SR      MB/SR
+        3.5        1.5        2.0        54.        16.
+        3.5        2.0        2.5         3.         8.
+        4.5        1.5        2.0        38.        14.
+        4.5        2.0        2.5         6.         6.
+        4.5        2.5        3.0         1.         3.
+        4.5        3.0        3.5         1.         2.
+        5.5        1.5        2.0        85.        16.
+        5.5        2.0        2.5         8.         7.
+        5.5        2.5        3.0         0.         5.
+        5.5        3.0        3.5         4.         3.
+        6.5        1.5        2.0        88.        16.
+        6.5        2.0        2.5         5.         7.
+        6.5        2.5        3.0         6.         4.
+        6.5        3.0        3.5         4.         3.
+        6.5        3.5        4.0         0.         3.
+        6.5        4.0        4.5         0.         2.
+        6.5        4.5        5.0         1.         2.
+        7.5        1.5        2.0       103.        14.
+        7.5        2.0        2.5         3.         7.
+        7.5        2.5        3.0        14.         4.
+        7.5        3.0        3.5         6.         3.
+        7.5        3.5        4.0         0.         2.
+        7.5        4.0        4.5         1.         2.
+        7.5        4.5        5.0         6.         2.
+        7.5        5.0        5.5         3.         1.
+        8.5        1.5        2.0        74.        18.
+        8.5        2.0        2.5         5.         8.
+        8.5        2.5        3.0         6.         5.
+        8.5        3.0        3.5         2.         4.
+        8.5        3.5        4.0         0.         3.
+        8.5        4.0        4.5         0.         2.
+        8.5        4.5        5.0         4.         2.
+        8.5        5.0        5.5         3.         2.
+        8.5        5.5        6.0         1.         2.
+        8.5        6.0        6.5         2.         2.
+        8.5        6.5        7.0         2.         2.
+        8.5        7.0        7.5         2.         1.
+ENDDATA             39
+ENDSUBENT           50
+SUBENT        20941007   20180123   20180124   20180123       2263
+BIB                  3          6
+REACTION   (16-S-0(N,INL)16-S-0,PAR,DA,G)
+STATUS     (TABLE) Table 3 from Nucl.Phys.60(1964)561
+HISTORY    (20170731A) SD: SF4=S-0, SF5=PAR, SF6=DA/DE -> DA in
+            REACTION code. Data were re-compiled from the Tbl.3.
+            STATUS update. MB/SR/MEV -> MB/SR.
+           (20180123U) On. STATUS revised.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 5         31
+EN         E-MIN      E-MAX      DATA       ERR-S
+MEV        MEV        MEV        MB/SR      MB/SR
+        3.5        2.0        2.5        23.         9.
+        4.5        2.0        2.5        23.         7.
+        4.5        2.5        3.0         2.         4.
+        5.5        1.5        2.0        36.        24.
+        5.5        2.0        2.5        38.        10.
+        5.5        2.5        3.0         2.         7.
+        5.5        3.0        3.5         3.         5.
+        5.5        3.5        4.0         5.         4.
+        5.5        4.0        4.5         3.         3.
+        6.5        1.5        2.0        75.        24.
+        6.5        2.0        2.5        48.        10.
+        6.5        2.5        3.0        11.         6.
+        6.5        3.0        3.5         3.         5.
+        6.5        3.5        4.0         0.         4.
+        6.5        4.0        4.5         5.         3.
+        6.5        4.5        5.0         4.         3.
+        7.5        1.5        2.0        22.        20.
+        7.5        2.0        2.5        52.         9.
+        7.5        2.5        3.0        15.         6.
+        7.5        3.0        3.5         4.         4.
+        7.5        3.5        4.0         4.         3.
+        7.5        4.0        4.5         6.         3.
+        7.5        4.5        5.0         1.         2.
+        8.5        1.5        2.0        39.        20.
+        8.5        2.0        2.5        35.         9.
+        8.5        2.5        3.0         7.         6.
+        8.5        3.0        3.5         4.         4.
+        8.5        3.5        4.0         3.         3.
+        8.5        4.0        4.5         4.         3.
+        8.5        4.5        5.0         2.         2.
+        8.5        5.0        5.5         1.         2.
+ENDDATA             33
+ENDSUBENT           44
+SUBENT        20941008   20180123   20180124   20180123       2263
+BIB                  3          6
+REACTION   (26-FE-0(N,INL)26-FE-0,PAR,DA,G)
+STATUS     (TABLE) Table 3 from Nucl.Phys.60(1964)561
+HISTORY    (20170731A) SD: SF4=Fe-0, SF5=PAR, SF6=DA/DE -> DA in
+            REACTION code. Data were re-compiled from the Tbl.3.
+            STATUS update. MB/SR/MEV -> MB/SR.
+           (20180123U) On. STATUS revised.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 5         48
+EN         E-MIN      E-MAX      DATA       ERR-S
+MEV        MEV        MEV        MB/SR      MB/SR
+        3.5        1.5        2.0        27.        12.
+        3.5        2.0        2.5         9.         5.
+        4.5        1.5        2.0        31.         7.
+        4.5        2.0        2.5        15.         3.
+        4.5        2.5        3.0        11.         2.
+        4.5        3.0        3.5         6.         2.
+        4.5        3.5        4.0         3.         1.
+        4.5        4.0        4.5         1.         1.
+        5.5        1.5        2.0        76.        15.
+        5.5        2.0        2.5        30.         6.
+        5.5        2.5        3.0        17.         4.
+        5.5        3.0        3.5        13.         3.
+        5.5        3.5        4.0        11.         2.
+        5.5        4.0        4.5         4.         2.
+        5.5        4.5        5.0         1.         2.
+        5.5        5.0        5.5         1.         1.
+        6.5        1.5        2.0        63.        12.
+        6.5        2.0        2.5        39.         5.
+        6.5        2.5        3.0        29.         3.
+        6.5        3.0        3.5        19.         2.
+        6.5        3.5        4.0        17.         2.
+        6.5        4.0        4.5         6.         1.
+        6.5        4.5        5.0         5.         1.
+        6.5        5.0        5.5         4.         1.
+        6.5        5.5        6.0         2.         1.
+        6.5        6.0        6.5         2.         1.
+        7.5        1.5        2.0        67.        15.
+        7.5        2.0        2.5        31.         6.
+        7.5        2.5        3.0        26.         4.
+        7.5        3.0        3.5        18.         3.
+        7.5        3.5        4.0        16.         2.
+        7.5        4.0        4.5         6.         2.
+        7.5        4.5        5.0         4.         2.
+        7.5        5.0        5.5         5.         1.
+        7.5        5.5        6.0         5.         1.
+        7.5        6.0        6.5         2.         1.
+        8.5        1.5        2.0        84.        20.
+        8.5        2.0        2.5        30.         8.
+        8.5        2.5        3.0        23.         4.
+        8.5        3.0        3.5        20.         3.
+        8.5        3.5        4.0        16.         2.
+        8.5        4.0        4.5         7.         2.
+        8.5        4.5        5.0         4.         2.
+        8.5        5.0        5.5         7.         2.
+        8.5        5.5        6.0         7.         1.
+        8.5        6.0        6.5         4.         1.
+        8.5        6.5        7.0         1.         1.
+        8.5        7.0        7.5         1.         1.
+ENDDATA             50
+ENDSUBENT           61
+SUBENT        20941009   20180123   20180124   20180123       2263
+BIB                  3          6
+REACTION   (28-NI-0(N,INL)28-NI-0,PAR,DA,G)
+STATUS     (TABLE) Table 3 from Nucl.Phys.60(1964)561
+HISTORY    (20170731A) SD: SF4=Ni-0, SF5=PAR, SF6=DA/DE -> DA in
+            REACTION code. Data were re-compiled from the Tbl.3.
+            STATUS update. MB/SR/MEV -> MB/SR.
+           (20180123U) On. STATUS revised.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 5         45
+EN         E-MIN      E-MAX      DATA       ERR-S
+MEV        MEV        MEV        MB/SR      MB/SR
+        3.5        1.5        2.0        22.        12.
+        3.5        2.0        2.5         2.         5.
+        3.5        2.5        3.0         1.         4.
+        3.5        3.0        3.5         2.         2.
+        4.5        1.5        2.0        51.         9.
+        4.5        2.0        2.5         7.         4.
+        4.5        2.5        3.0         3.         3.
+        4.5        3.0        3.5         5.         2.
+        4.5        3.5        4.0         2.         2.
+        4.5        4.0        4.5         2.         1.
+        5.5        1.5        2.0        98.        14.
+        5.5        2.0        2.5        22.         6.
+        5.5        2.5        3.0        14.         4.
+        5.5        3.0        3.5         6.         3.
+        5.5        3.5        4.0         4.         2.
+        5.5        4.0        4.5         1.         2.
+        5.5        4.5        5.0         2.         1.
+        6.5        1.5        2.0        61.        14.
+        6.5        2.0        2.5        25.         6.
+        6.5        2.5        3.0        19.         4.
+        6.5        3.0        3.5        18.         3.
+        6.5        3.5        4.0         6.         2.
+        6.5        4.0        4.5         5.         2.
+        6.5        4.5        5.0         2.         1.
+        6.5        5.0        5.5         1.         1.
+        6.5        5.5        6.0         1.         1.
+        7.5        1.5        2.0        61.        17.
+        7.5        2.0        2.5        20.         7.
+        7.5        2.5        3.0        26.         4.
+        7.5        3.0        3.5        20.         3.
+        7.5        3.5        4.0        11.         2.
+        7.5        4.0        4.5         8.         2.
+        7.5        4.5        5.0         7.         2.
+        7.5        5.0        5.5         4.         2.
+        7.5        5.5        6.0         3.         2.
+        7.5        6.0        6.5         1.         1.
+        8.5        1.5        2.0       122.        18.
+        8.5        2.0        2.5        22.         8.
+        8.5        2.5        3.0        19.         5.
+        8.5        3.0        3.5        12.         3.
+        8.5        3.5        4.0         7.         3.
+        8.5        4.0        4.5         7.         2.
+        8.5        4.5        5.0         4.         2.
+        8.5        5.0        5.5         4.         2.
+        8.5        5.5        6.0         1.         2.
+ENDDATA             47
+ENDSUBENT           58
+SUBENT        20941010   20180123   20180124   20180123       2263
+BIB                  3          6
+REACTION   (56-BA-0(N,INL)56-BA-0,PAR,DA,G)
+STATUS     (TABLE) Table 3 from Nucl.Phys.60(1964)561
+HISTORY    (20170731A) SD: SF4=Ba-0, SF5=PAR, SF6=DA/DE -> DA in
+            REACTION code. Data were re-compiled from the Tbl.3.
+            STATUS update. MB/SR/MEV -> MB/SR.
+           (20180123U) On. STATUS revised.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 5         28
+EN         E-MIN      E-MAX      DATA       ERR-S
+MEV        MEV        MEV        MB/SR      MB/SR
+        5.5        2.0        2.5        29.        28.
+        5.5        2.5        3.0        50.        17.
+        5.5        3.0        3.5         4.        13.
+        5.5        3.5        4.0         9.        10.
+        5.5        4.0        4.5         8.         9.
+        6.5        2.0        2.5        60.        24.
+        6.5        2.5        3.0        28.        15.
+        6.5        3.0        3.5        22.        11.
+        6.5        3.5        4.0        10.         9.
+        6.5        4.0        4.5         4.         7.
+        7.5        2.0        2.5        50.        24.
+        7.5        2.5        3.0        48.        15.
+        7.5        3.0        3.5        24.        11.
+        7.5        3.5        4.0        16.        10.
+        7.5        4.0        4.5        17.         7.
+        7.5        4.5        5.0         8.         6.
+        7.5        5.0        5.5         5.         6.
+        7.5        5.5        6.0         6.         6.
+        7.5        6.0        6.5         2.         5.
+        8.5        2.0        2.5        63.        24.
+        8.5        2.5        3.0        23.        15.
+        8.5        3.0        3.5        22.        10.
+        8.5        3.5        4.0        14.         9.
+        8.5        4.0        4.5         8.         7.
+        8.5        4.5        5.0         9.         6.
+        8.5        5.0        5.5        17.         6.
+        8.5        5.5        6.0         3.         6.
+        8.5        6.0        6.5         2.         5.
+ENDDATA             30
+ENDSUBENT           41
+SUBENT        20941011   20180123   20180124   20180123       2263
+BIB                  3          6
+REACTION   (74-W-0(N,INL)74-W-0,PAR,DA,G)
+STATUS     (TABLE) Table 3 from Nucl.Phys.60(1964)561
+HISTORY    (20170731A) SD: SF4=W-0, SF5=PAR, SF6=DA/DE -> DA in
+            REACTION code. Data were re-compiled from the Tbl.3.
+            STATUS update. MB/SR/MEV -> MB/SR.
+           (20180123U) On. STATUS revised.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 5         38
+EN         E-MIN      E-MAX      DATA       ERR-S
+MEV        MEV        MEV        MB/SR      MB/SR
+        3.5        1.5        2.0       210.       118.
+        3.5        2.0        2.5        68.        49.
+        4.5        1.5        2.0       155.        77.
+        4.5        2.0        2.5        47.        30.
+        5.5        1.5        2.0       309.       105.
+        5.5        2.0        2.5        98.        42.
+        5.5        2.5        3.0        24.        27.
+        5.5        3.0        3.5        59.        19.
+        5.5        3.5        4.0        32.        15.
+        5.5        4.0        4.5        11.        13.
+        5.5        4.5        5.0        10.        11.
+        6.5        1.5        2.0       264.       100.
+        6.5        2.0        2.5        98.        41.
+        6.5        2.5        3.0        63.        26.
+        6.5        3.0        3.5        55.        18.
+        6.5        3.5        4.0        39.        15.
+        6.5        4.0        4.5        22.        13.
+        6.5        4.5        5.0        10.        11.
+        6.5        5.0        5.5         7.        10.
+        7.5        1.5        2.0       170.       116.
+        7.5        2.0        2.5        92.        46.
+        7.5        2.5        3.0        88.        30.
+        7.5        3.0        3.5        34.        21.
+        7.5        3.5        4.0        27.        17.
+        7.5        4.0        4.5        29.        14.
+        7.5        4.5        5.0        14.        13.
+        7.5        5.0        5.5        12.        12.
+        7.5        5.5        6.0         5.        11.
+        8.5        1.5        2.0       154.       118.
+        8.5        2.0        2.5        84.        47.
+        8.5        2.5        3.0        50.        30.
+        8.5        3.0        3.5        23.        21.
+        8.5        3.5        4.0        19.        17.
+        8.5        4.0        4.5        11.        14.
+        8.5        4.5        5.0         9.        13.
+        8.5        5.0        5.5        12.        12.
+        8.5        5.5        6.0         6.        11.
+        8.5        6.0        6.5         1.        10.
+ENDDATA             40
+ENDSUBENT           51
+SUBENT        20941012   20180123   20180124   20180123       2263
+BIB                  3          6
+REACTION   (82-PB-0(N,INL)82-PB-0,PAR,DA,G)
+STATUS     (TABLE) Table 3 from Nucl.Phys.60(1964)561
+HISTORY    (20170731A) SD: SF4=Pb-0, SF5=PAR, SF6=DA/DE -> DA in
+            REACTION code. Data were re-compiled from the Tbl.3.
+            STATUS update. MB/SR/MEV -> MB/SR.
+           (20180123U) On. STATUS revised.
+ENDBIB               6
+NOCOMMON             0          0
+DATA                 5         47
+EN         E-MIN      E-MAX      DATA       ERR-S
+MEV        MEV        MEV        MB/SR      MB/SR
+        3.5        1.5        2.0        67.        26.
+        3.5        2.0        2.5        14.        12.
+        3.5        2.5        3.0        23.         8.
+        4.5        1.5        2.0        34.        16.
+        4.5        2.0        2.5        18.         7.
+        4.5        2.5        3.0        36.         5.
+        4.5        3.0        3.5         1.         3.
+        4.5        3.5        4.0         2.         2.
+        4.5        4.0        4.5         3.         2.
+        5.5        1.5        2.0       151.        30.
+        5.5        2.0        2.5        72.        14.
+        5.5        2.5        3.0        99.         9.
+        5.5        3.0        3.5        13.         6.
+        5.5        3.5        4.0        12.         5.
+        5.5        4.0        4.5        12.         4.
+        5.5        4.5        5.0        10.         4.
+        5.5        5.0        5.5         4.         4.
+        6.5        1.5        2.0       142.        35.
+        6.5        2.0        2.5        61.        16.
+        6.5        2.5        3.0        12.        10.
+        6.5        3.0        3.5        15.         7.
+        6.5        3.5        4.0        11.         6.
+        6.5        4.0        4.5        18.         3.
+        6.5        4.5        5.0         6.         5.
+        6.5        5.0        5.5         5.         4.
+        6.5        5.5        6.0         7.         4.
+        7.5        1.5        2.0        68.        40.
+        7.5        2.0        2.5        47.        18.
+        7.5        2.5        3.0        94.        11.
+        7.5        3.0        3.5         5.         8.
+        7.5        3.5        4.0        10.         6.
+        7.5        4.0        4.5        21.         6.
+        7.5        4.5        5.0        12.         5.
+        7.5        5.0        5.5        11.         5.
+        7.5        5.5        6.0         7.         5.
+        7.5        6.0        6.5         3.         4.
+        8.5        1.5        2.0       133.        34.
+        8.5        2.0        2.5        38.        15.
+        8.5        2.5        3.0        83.        10.
+        8.5        3.0        3.5         7.         7.
+        8.5        3.5        4.0        16.         5.
+        8.5        4.0        4.5        15.         5.
+        8.5        4.5        5.0        14.         4.
+        8.5        5.0        5.5        11.         4.
+        8.5        5.5        6.0         8.         4.
+        8.5        6.0        6.5         3.         3.
+        8.5        6.5        7.0         1.         3.
+ENDDATA             49
+ENDSUBENT           60
+ENDENTRY            12

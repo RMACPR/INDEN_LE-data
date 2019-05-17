@@ -1,0 +1,133 @@
+ENTRY            11210     800820              20050926       0000
+SUBENT        11210001     800820              20050926       0000
+BIB                  8          9
+INSTITUTE  (1USALAS)
+REFERENCE  (J,PR,88,600,5211)
+AUTHOR     (D.D.PHILLIPS,R.W.DAVIS,E.R.GRAVES)
+TITLE      INELASTIC COLLISION CROSS SECTIONS FOR 14.MEV NEUTRONS.
+METHOD     SPHERE TRANSMISSION
+DETECTOR   (THRES) CU-63 (N,2N) THRESHOLD DETECTOR
+STATUS     (SCSRS)
+HISTORY    (760929T) TRANSLATED FROM SCISRS
+           (800820A) CONVERTED TO REACTION FORMALISM
+ENDBIB               9
+NOCOMMON             0          0
+ENDSUBENT           12
+SUBENT        11210002     800820              20050926       0000
+BIB                  1          1
+REACTION   (5-B-0(N,NON),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 1.415  +01 5.     -02 6.9    -01 1.0    -01
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11210003     800820              20050926       0000
+BIB                  2          2
+REACTION   (6-C-0(N,NON),,SIG)
+CORRECTION NOT CORRECTED FOR MULTIPLE SCATTERING (EST.SMALL).
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 1.415  +01 5.     -02 7.6    -01 4.     -02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11210004     800820              20050926       0000
+BIB                  2          2
+REACTION   (7-N-0(N,NON),,SIG)
+CORRECTION NOT CORRECTED FOR MULTIPLE SCATTERING (EST.SMALL).
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 1.415  +01 5.     -02 7.9    -01 5.     -02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11210005     800820              20050926       0000
+BIB                  2          2
+REACTION   (13-AL-27(N,NON),,SIG)
+CORRECTION NOT CORRECTED FOR MULTIPLE SCATTERING (EST.SMALL).
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 1.415  +01 5.     -02 1.06   +00 5.     -02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11210006     800820              20050926       0000
+BIB                  2          2
+REACTION   (26-FE-0(N,NON),,SIG)
+CORRECTION NOT CORRECTED FOR MULTIPLE SCATTERING (EST. SMALL).
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 1.415  +01 5.     -02 1.45   +00 2.     -02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11210007     800820              20050926       0000
+BIB                  1          1
+REACTION   (29-CU-0(N,NON),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 1.415  +01 5.     -02 1.51   +00 6.     -02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11210008     800820              20050926       0000
+BIB                  1          1
+REACTION   (48-CD-0(N,NON),,SIG)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 1.415  +01 5.     -02 1.89   +00 6.     -02
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11210009     800820              20050926       0000
+BIB                  2          2
+REACTION   (79-AU-197(N,NON),,SIG)
+CORRECTION NOT CORRECTED FOR MULTIPLE SCATTERING (EST. SMALL).
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 1.415  +01 5.     -02 2.51   +00 4.     -02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11210010     800820              20050926       0000
+BIB                  2          2
+REACTION   (82-PB-0(N,NON),,SIG)
+CORRECTION NOT CORRECTED FOR MULTIPLE SCATTERING (EST. SMALL).
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 4          1
+EN         EN-RSL     DATA       DATA-ERR
+MEV        MEV        B          B
+ 1.415  +01 5.     -02 2.56   +00 5.     -02
+ENDDATA              3
+ENDSUBENT           10
+SUBENT        11210011     800820              20050926       0000
+BIB                  2          2
+REACTION   (83-BI-209(N,NON),,SIG)
+CORRECTION NOT CORRECTED FOR MULTIPLE SCATTERING (EST. SMALL)
+ENDBIB               2
+NOCOMMON             0          0
+DATA                 3          1
+EN         DATA       DATA-ERR
+MEV        B          B
+ 14.15      2.56       0.15
+ENDDATA              3
+ENDSUBENT           10
+ENDENTRY            11

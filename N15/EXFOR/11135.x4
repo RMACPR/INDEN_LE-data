@@ -1,0 +1,130 @@
+ENTRY            11135     860905              20050926       0000
+SUBENT        11135001     860905              20050926       0000
+BIB                  6         10
+INSTITUTE  (1USACOL)
+REFERENCE  (J,PR,60,702,4111)
+           (J,PR,58,1004,40) COMMENT ON SPECTRUM.
+AUTHOR     (H.CARROLL,J.R.DUNNING)
+TITLE      THE INTERACTION OF SLOW NEUTRONS WITH GASES.
+STATUS     (SCSRS)
+HISTORY    (760628T) TRANSLATED FROM SCISRS
+           (820108A) CONVERTED TO REACTION FORMALISM
+           (840217A) REFERENCE CORRECTED.
+           (860905A) ENERGY MOVED TO SAN 1.
+ENDBIB              10
+COMMON               1          3
+EN-DUMMY
+EV
+ 0.0253
+ENDCOMMON            3
+ENDSUBENT           17
+SUBENT        11135002     860905              20050926       0000
+BIB                  1          1
+REACTION   (2-HE-0(N,TOT),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 1.51   +00 0.09
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11135003     860905              20050926       0000
+BIB                  1          1
+REACTION   (10-NE-0(N,TOT),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.79   +00 0.14
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11135004     860905              20050926       0000
+BIB                  1          1
+REACTION   (18-AR-0(N,TOT),,SIG,,MXW)
+ENDBIB               1
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.53   +00 0.10
+ENDDATA              3
+ENDSUBENT            9
+SUBENT        11135005     860905              20050926       0000
+BIB                  3          3
+REACTION   (7-N-0(N,TOT),,SIG,,MXW)
+SAMPLE     NITROGEN GAS
+HISTORY    (840217A) DATA CORRECTED.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 12.2       0.2
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11135006     860905              20050926       0000
+BIB                  4          4
+REACTION   (8-O-0(N,TOT),,SIG,,MXW)
+SAMPLE     LIQUID OXYGEN
+INC-SPECT  THERMAL SPECTRUM
+HISTORY    (840217A) DATA CORRECTED.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 4.12       0.10
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11135007     860905              20050926       0000
+BIB                  3          4
+REACTION   (1-H-2(N,TOT),,SIG,,MXW)
+SAMPLE     D2O LIQUID
+HISTORY    (780914C)
+           (851203A) REACTION CORRECTED.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 5.73       0.14
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        11135008     860905              20050926       0000
+BIB                  2          3
+REACTION   (36-KR-0(N,TOT),,SIG,,MXW)
+HISTORY    (780914C)
+           (851203A) REACTION CORRECTED.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 2.73       0.5
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        11135009     860905              20050926       0000
+BIB                  3         12
+REACTION   (1-H-1(N,TOT),,SIG,,MXW)
+SAMPLE     H2O LIQUID
+           AUTHOR ALSO GIVES DATA FOR 10 OTHER SAMPLES -
+                H-2 GAS       - 31.8+-0.5 B
+                CH(4) GAS     - 45.4+-0.3 B
+                C(2)H(6) GAS  - 46.4+-0.5 B
+                C(3)H(8) GAS  - 46.9+-0.6 B
+                C(4)H(10) GAS - 48.7+-0.6 B
+                PARAFFIN      - 49.8+-0.2 B
+                DOTRIACONTANE - 50.2+-0.2 B
+HISTORY    (780914C)
+           (860905A) REACTION CORRECTED.
+ENDBIB              12
+NOCOMMON             0          0
+DATA                 2          1
+DATA       DATA-ERR
+B          B
+ 44.6       0.5
+ENDDATA              3
+ENDSUBENT           20
+ENDENTRY             9

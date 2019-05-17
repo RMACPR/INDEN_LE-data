@@ -1,0 +1,236 @@
+ENTRY            31555   20111026   20120207   20120113       3153
+SUBENT        31555001   20111026   20120207   20120113       3153
+BIB                 14         21
+TITLE      New prompt k0 and partial cross section values
+            measured in the cold neutron beam of Budapest
+            Research Reactor
+AUTHOR     (Zs.Revay, T.Belgya, G.L.Molnar)
+INSTITUTE  (3HUNII)
+REFERENCE  (J,JRN,265,169,2005)
+FACILITY   (REAC,3HUNKFI)
+METHOD     (GSPEC)
+INC-SPECT  The thermal equivalent neutron flux at the sample
+            position is 5 x 10**7 n/cm2/s.
+DETECTOR   (HPGE) 25% HPGe detector equipped with a BGO Compton-
+            suppressor as in the case of the thermal beam
+            measurements
+MONITOR    ((MONIT)1-H-1(N,G)1-H-2,PAR,SIG)
+EN-SEC     (E,G)
+ERR-ANALYS (DATA-ERR) relative error
+COMMENT    T.Belgya (2011-10-20):
+            2200 m/s cross sections are given in Table 2.
+STATUS     (TABLE) Table 2 of J.Radioanal.Nucl.Chem.265(2005)169
+HISTORY    (20051129C) SD
+           (20111026A) On. EN value corrected
+ENDBIB              21
+COMMON               4          3
+EN         E-NRM      MONIT      MONIT-ERR
+EV         KEV        B          B
+ 0.0253     2223.      0.3326     0.0007
+ENDCOMMON            3
+ENDSUBENT           28
+SUBENT        31555002   20051129   20060327   20060323       3118
+BIB                  2          7
+REACTION   (6-C-0(N,G),PAR,SIG)
+SAMPLE     Melamine with mass 5.8g irradiation was measured
+           during 253341 sec; total counts was 37253559.
+           Pyridine with mass 0.4g irradiation was measured
+           during 319617 sec; total counts was 683154957.
+           Urea (deuterated) with mass 0.6g irradiation was
+           measured during 165199 sec; total counts was 6532025.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        B          B
+ 4945.      0.00259    0.00002
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        31555003   20051129   20060327   20060323       3118
+BIB                  2          7
+REACTION   (7-N-0(N,G),PAR,SIG)
+SAMPLE     Pyridine with mass 0.4g irradiation was measured
+           during 319617 sec; total counts was 683154957.
+           Urea (deuterated) with mass 0.6g irradiation was
+           measured during 165199 sec; total counts was 6532025.
+           Melamine with mass 5.8 g irradiation was measured
+           during 253341 sec; total counts was 37253559.
+ENDBIB               7
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        B          B
+ 1885.      0.01452    0.00007
+ENDDATA              3
+ENDSUBENT           15
+SUBENT        31555004   20051129   20060327   20060323       3118
+BIB                  2          3
+REACTION   (3-LI-0(N,G),PAR,SIG)
+SAMPLE     Li2CO3 with mass 1.0g irradiation was measured
+           during 68872 sec; total counts was 439458.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        B          B
+ 2032.       0.028     0.001
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        31555005   20051129   20060327   20060323       3118
+BIB                  2          3
+REACTION   (8-O-0(N,G),PAR,SIG)
+SAMPLE     H2O with mass 2.0g irradiation was measured
+           during 222248 sec; total counts was 99701866.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        MB         MB
+ 871.       0.159      0.003
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        31555006   20051129   20060327   20060323       3118
+BIB                  2          3
+REACTION   (9-F-19(N,G)9-F-20,PAR,SIG)
+SAMPLE     Teflon with mass 5.7g irradiation was measured
+           during 85981 sec; total counts was 4352813.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        MB         MB
+ 1633.       9.25      0.24
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        31555007   20051129   20060327   20060323       3118
+BIB                  2          4
+REACTION   (11-NA-23(N,G)11-NA-24,PAR,SIG)
+SAMPLE     NaCl-solution with mass H2O - 0.46g, NaCl - 0.043g
+           irradiation was measured during 59010 sec;
+           total counts was 34118334.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        B          B
+ 472.        0.485      0.007
+ENDDATA              3
+ENDSUBENT           12
+SUBENT        31555008   20051129   20060327   20060323       3118
+BIB                  2          3
+REACTION   (13-AL-27(N,G)13-AL-28,PAR,SIG)
+SAMPLE     Al(NO3)3 with mass 5.1g irradiation was measured
+           during 28274 sec; total counts was 9248178.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        B          B
+ 1779.      0.238      0.003
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        31555009   20051129   20060327   20060323       3118
+BIB                  2          3
+REACTION   (19-K-0(N,G),PAR,SIG)
+SAMPLE     KNO3 with mass 2.0g irradiation was measured
+           during 74864 sec; total counts was 9248733.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        B          B
+ 770.        0.919      0.019
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        31555010   20051129   20060327   20060323       3118
+BIB                  2          3
+REACTION   (20-CA-0(N,G),PAR,SIG)
+SAMPLE     Ca(NO3)2 4H2O with mass 2.0g irradiation was measured
+           during 20526 sec; total counts was 2585727.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        B          B
+ 1942.      0.352      0.003
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        31555011   20051129   20060327   20060323       3118
+BIB                  2          3
+REACTION   (40-ZR-0(N,G),PAR,SIG)
+SAMPLE     Zr(NO3)4 5H2O with mass 0.4g irradiation was measured
+           during 58446 sec; total counts was 310766.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        B          B
+ 934.       0.178      0.008
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        31555012   20051129   20060327   20060323       3118
+BIB                  2          3
+REACTION   (56-BA-0(N,G),PAR,SIG)
+SAMPLE     Ba(NO3)2 with mass 0.9g irradiation was measured
+           during 66000 sec; total counts was 2235681.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        B          B
+ 1436.      0.286       0.007
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        31555013   20051129   20060327   20060323       3118
+BIB                  2          3
+REACTION   (72-HF-0(N,G),PAR,SIG)
+SAMPLE     HfOCl2 8H2O with mass 0.6g irradiation was measured
+           during 2795 sec; total counts was 15077572.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        B          B
+ 5724.      1.93        0.05
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        31555014   20051129   20060327   20060323       3118
+BIB                  2          3
+REACTION   (77-IR-0(N,G),PAR,SIG)
+SAMPLE     IrCl2 with mass 0.2g irradiation was measured
+           during 917 sec; total counts was 1008420.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        B          B
+ 5668.       2.01      0.16
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        31555015   20051129   20060327   20060323       3118
+BIB                  2          3
+REACTION   (82-PB-0(N,G),PAR,SIG)
+SAMPLE     Pb(NO3)2 with mass 1.0g irradiation was measured
+           during 51683 sec; total counts was 1739796.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        B          B
+ 7368.       0.1329     0.0016
+ENDDATA              3
+ENDSUBENT           11
+SUBENT        31555016   20051129   20060327   20060323       3118
+BIB                  2          3
+REACTION   (83-BI-209(N,G)83-BI-210,PAR,SIG)
+SAMPLE     Bi(NO3)3 with mass 0.9 g irradiation was measured
+           during 65791 sec; total counts was 3139972.
+ENDBIB               3
+NOCOMMON             0          0
+DATA                 3          1
+E          DATA       DATA-ERR
+KEV        B          B
+ 319.        0.0126     0.0021
+ENDDATA              3
+ENDSUBENT           11
+ENDENTRY            16
